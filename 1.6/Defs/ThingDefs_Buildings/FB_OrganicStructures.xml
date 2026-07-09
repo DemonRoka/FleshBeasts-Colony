@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <!-- База построек: BuildingColonyFleshBase -->
   <ThingDef Name="BuildingColonyFleshBase" Abstract="True">
@@ -203,363 +203,363 @@
   </ThingDef>
   <!-- Постройка: Colony Heart (FB_ColonyHeart) -->
   <ThingDef ParentName="BuildingColonyFleshBaseAnimation">
-    <defName>FB_ColonyHeart</defName>
-    <label>Colony Heart</label>
-    <description>The pulsating core of a fleshmass colony, this organic structure rhythmically pumps hemogel to sustain and interconnect its living architecture. Its vitality hinges on a robust hemogel reserve, driving its ceaseless, life-giving pulsations.</description>
-    <size>(3,3)</size>
-    <statBases>
-      <MaxHitPoints>700</MaxHitPoints>
-    </statBases>
-    <killedLeavingsRanges>
-      <Meat_Twisted>200~300</Meat_Twisted>
-    </killedLeavingsRanges>
-    <forceLeavingsAllowed>true</forceLeavingsAllowed>
-    <inspectorTabs>
-      <li>FB.ITab_FleshbeastBills</li>
-      <li>FB.ITab_HemogelEconomy</li>
-      <li>FB.ITab_GraspingTendrilPolicy</li>
-    </inspectorTabs>
-    <building>
-      <isEdifice>true</isEdifice>
-      <isInert>true</isInert>
-      <isTargetable>true</isTargetable>
-      <claimable>false</claimable>
-      <canBuildNonEdificesUnder>false</canBuildNonEdificesUnder>
-      <deconstructible>false</deconstructible>
-      <destroyEffecter>FleshmassDestroyed</destroyEffecter>
-    </building>
-    <comps>
-      <li Class="CompProperties_AmbientSound">
-        <sound>FleshmassHeart_Ambience</sound>
-      </li>
-      <li Class="FB.CompProperties_HemogelStorage">
-        <initialHemogelCapacity>1000</initialHemogelCapacity>
-        <maxHemogelCapacity>1200</maxHemogelCapacity>
-        <networkFillPerHour>500</networkFillPerHour>
-        <damageThreshold>0.04</damageThreshold>
-      </li>
-      <li Class="FB.CompProperties_FleshbeastBillExecutor">
-        <checkIntervalTicks>250</checkIntervalTicks>
-        <recipes>
-          <li>FB_GrowFingerspikeFromHemogel</li>
-          <li>FB_GrowTrispikeFromHemogel</li>
-          <li>FB_GrowToughspikeFromHemogel</li>
-          <li>FB_GrowBulbfreakFromHemogel</li>
-        </recipes>
-      </li>
-      <li Class="FB.CompProperties_FleshmassNucleusAssimilator">
-        <hemogelPerNucleusPerHour>20</hemogelPerNucleusPerHour>
-        <tickInterval>2500</tickInterval>
-        <targetDefName>FleshmassNucleus</targetDefName>
-        <commandIconPath>UI/Commands/FleshmassNucleusAssimilate</commandIconPath>
-      </li>
-      <li Class="FB.CompProperties_AcceptanceHemogelFeedingToggle">
-        <allowByDefault>true</allowByDefault>
-        <iconPath>UI/Commands/HeartHemogelFeeding</iconPath>
-      </li>
-      <li Class="FB.CompProperties_HemogelBloodAbsorber">
-        <hemogelPerBloodSmear>2</hemogelPerBloodSmear>
-        <checkIntervalTicks>600</checkIntervalTicks>
-        <searchRadius>40</searchRadius>
-        <allowedTerrains>
-          <li>Flesh</li>
-          <li>FleshVeins</li>
-        </allowedTerrains>
-        <bloodFilthDefs>
-          <li>Filth_Blood</li>
-          <li>Filth_BloodSmear</li>
-          <li>Filth_BloodInsect</li>
-          <li>Filth_AmnioticFluid</li>
-          <li>Filth_GestationFluid</li>
-          <li>Filth_Slime</li>
-          <li>Filth_CorpseBile</li>
-        </bloodFilthDefs>
-      </li>
-      <li Class="FB.CompProperties_FleshbeastAutoHealer">
-        <healingRootMoteDefSmall>Mote_HarbingerTreeRoots</healingRootMoteDefSmall>
-        <healingRootMoteDefLarge>Mote_FleshRootsSide</healingRootMoteDefLarge>
-        <healingRootVisualUpdateTicks>120</healingRootVisualUpdateTicks>
-        <autoHealingEnabledByDefault>true</autoHealingEnabledByDefault>
-        <autoHealingRadius>60</autoHealingRadius>
-        <autoCheckIntervalTicks>120</autoCheckIntervalTicks>
-        <healingCooldownTicks>2400</healingCooldownTicks>
-        <autoHealingTerrains>
-          <li>Flesh</li>
-          <li>FleshVeins</li>
-          <li>RootFlesh</li>
-          <li>RootFleshVeins</li>
-        </autoHealingTerrains>
-        <gizmoLabel>FB_ManualFleshbeastHealingLabel</gizmoLabel>
-        <gizmoDesc>FB_ManualFleshbeastHealingDesc</gizmoDesc>
-        <iconPath>UI/Commands/FleshbeastAutoHeal</iconPath>
-      </li>
-      <li Class="FB.CompProperties_TerrainSpawner">
-        <terrainDef>FleshVeins</terrainDef>
-        <spawnRadius>8</spawnRadius>
-        <respectWallBarriers>true</respectWallBarriers>
-        <blockImpassableWater>true</blockImpassableWater>
-        <removePlants>true</removePlants>
-      </li>
-      <li Class="FB.CompProperties_HemogelTransmitter">
-        <transmissionIntervalTicks>5</transmissionIntervalTicks>
-        <transmissionAmount>5</transmissionAmount>
-        <reserveFraction>0.3</reserveFraction>
-        <reserveAbsoluteAmount>50</reserveAbsoluteAmount>
-        <temperatureAffectsTransmission>true</temperatureAffectsTransmission>
-        <minimumTransferTemperature>-30</minimumTransferTemperature>
-        <fullTransferTemperature>20</fullTransferTemperature>
-        <minimumTransmissionAmount>1</minimumTransmissionAmount>
-        <forbiddenBuildingDefs>
-          <li>FB_ColonyStomach</li>
-          <li>FB_PhotosyntheticFleshleaf</li>
-          <li>FB_HemogelSac</li>
-          <li>FB_GraspingTendrils</li>
-          <li>FB_PhotosyntheticFleshtree</li>
-          <li>FB_FirefoamGland</li>
-          <li>FB_CapillaryTrawler</li>
-        </forbiddenBuildingDefs>
-        <hiddenFromHemogelEconomyDefs>
-          <li>FB_ColonyEye</li>
-          <li>FB_StorageCavity</li>
-        </hiddenFromHemogelEconomyDefs>
-        <terrainDefs>
-          <li>FleshVeins</li>
-          <li>Flesh</li>
-        </terrainDefs>
-      </li>
-      <li Class="FB.CompProperties_FleshAnimationManager">
-        <animationAmplitude>0.15</animationAmplitude>
-        <animationSideAmplitude>0.1</animationSideAmplitude>
-        <baseAnimationSpeed>0.8</baseAnimationSpeed>
-        <beatDurationTicks>15</beatDurationTicks>
-        <animatedParts>
-          <li>
-            <texturePath>Things/Building/FB_Organic/ColonyHeart/FleshmassHeart_CentralPart</texturePath>
-            <positionOffset>(0, 0, -0.35)</positionOffset>
-            <textureScale>2</textureScale>
-            <animationAmplitude>0.15</animationAmplitude>
-            <animationSideAmplitude>0.1</animationSideAmplitude>
-            <animationInterval>0</animationInterval>
-            <animationOffset>0.0</animationOffset>
-            <altitudeLayer>5</altitudeLayer>
-            <rotationAngle>0</rotationAngle>
-            <beatDelay>0</beatDelay>
-          </li>
-          <li>
-            <texturePath>Things/Building/FB_Organic/ColonyHeart/FleshmassHeart_LeftPart</texturePath>
-            <positionOffset>(-0.875, 0, 0)</positionOffset>
-            <textureScale>2</textureScale>
-            <animationAmplitude>0.1</animationAmplitude>
-            <animationSideAmplitude>0.05</animationSideAmplitude>
-            <animationInterval>0</animationInterval>
-            <animationOffset>0.3</animationOffset>
-            <altitudeLayer>2</altitudeLayer>
-            <rotationAngle>30</rotationAngle>
-            <beatDelay>5</beatDelay>
-          </li>
-          <li>
-            <texturePath>Things/Building/FB_Organic/ColonyHeart/FleshmassHeart_RightPart</texturePath>
-            <positionOffset>(0.875, 0, 0)</positionOffset>
-            <textureScale>2</textureScale>
-            <animationAmplitude>0.1</animationAmplitude>
-            <animationSideAmplitude>0.05</animationSideAmplitude>
-            <animationInterval>0</animationInterval>
-            <animationOffset>0.5</animationOffset>
-            <altitudeLayer>1</altitudeLayer>
-            <rotationAngle>10</rotationAngle>
-            <beatDelay>10</beatDelay>
-          </li>
-        </animatedParts>
-      </li>
-      <li Class="CompProperties_FleshmassBase">
-        <size>3</size>
-      </li>
-      <li Class="FB.CompProperties_StructureSelector">
-        <structurePairs>
-          <li>
-            <embryoDef>FB_ColonyBrainEmbryo</embryoDef>
-            <label>FB_ColonyHeart_Structure_ColonyBrain_Label</label>
-            <description>FB_ColonyHeart_Structure_ColonyBrain_Desc</description>
-            <texPath>Things/Building/FB_Organic/ColonyBrain/ColonyBrain</texPath>
-            <drawSize>(3,3)</drawSize>
-            <cost>850</cost>
-            <requiredCorpseDefs>
-              <li>Human</li>
-            </requiredCorpseDefs>
-          </li>
-        </structurePairs>
-      </li>
-      <li Class="FB.CompProperties_PawnContainer">
-        <killPawnOnDestroy>false</killPawnOnDestroy>
-        <autoReleaseAfterTicks>1800000</autoReleaseAfterTicks>
-        <maxCapacity>1</maxCapacity>
-        <enablePawnRebirth>true</enablePawnRebirth>
-        <rebirthTargetAgeYears>18</rebirthTargetAgeYears>
-        <rebirthTickInterval>2500</rebirthTickInterval>
-      </li>
-      <li Class="FB.CompProperties_OrganicVeinConnection">
-        <color>(0.85, 0.57, 0.55, 0.7)</color>
-        <connectionRadius>30</connectionRadius>
-        <targetDefs>
-          <li>FB_ColonyBrain</li>
-          <li>FB_ColonyStomach</li>
-          <li>FB_PhotosyntheticFleshleaf</li>
-          <li>FB_SynapseCore</li>
-          <li>FB_Feeder</li>
-          <li>FB_Thermoregulator</li>
-          <li>FB_PhotosyntheticFleshtree</li>
-          <li>FB_CapillaryTrawler</li>
-          <li>FB_GenomeArchive</li>
-          <li>FB_GenophageCocoon</li>
-          <li>FB_GeneReweaver</li>
-        </targetDefs>
-        <checkIntervalTicks>500</checkIntervalTicks>
-      </li>
-      <li Class="FB.CompProperties_OrganicVeinConnection">
-        <color>(0.85, 0.57, 0.55, 0.7)</color>
-        <connectionRadius>120</connectionRadius>
-        <targetDefs>
-          <li>FB_GeoferriteGland</li>
-        </targetDefs>
-        <checkIntervalTicks>500</checkIntervalTicks>
-      </li>
-      <li Class="FB.CompProperties_FleshmassSpawner">
-        <spawnIntervalTicks>500</spawnIntervalTicks>
-        <thingDefToSpawn>Fleshmass</thingDefToSpawn>
-        <terrainDefsToSpawn>
-          <li>Flesh</li>
-          <li>FleshVeins</li>
-        </terrainDefsToSpawn>
-        <terrainDefsToRemove>
-          <li>Flesh</li>
-          <li>FleshVeins</li>
-          <li>RootFlesh</li>
-          <li>RootFleshVeins</li>
-        </terrainDefsToRemove>
-        <thingDefsForbiddenToRemove>
-          <li>FB_ColonyHeart</li>
-        </thingDefsForbiddenToRemove>
-      </li>
-      <li Class="FB.CompProperties_FleshNoGrowAreaCleaner">
-        <cleanIntervalTicks>500</cleanIntervalTicks>
-        <maxCellsPerCheck>3</maxCellsPerCheck>
-        <cleanRadius>79</cleanRadius>
-        <terrainDefsToClean>
-          <li>Flesh</li>
-          <li>FleshVeins</li>
-          <li>RootFlesh</li>
-          <li>RootFleshVeins</li>
-        </terrainDefsToClean>
-      </li>
-      <li Class="FB.CompProperties_RootDrawer">
-        <radius>20</radius>
-        <moteDefSmall>Mote_HarbingerTreeRoots</moteDefSmall>
-        <moteDefLarge>Mote_FleshRootsSide</moteDefLarge>
-        <ignoredThingDefs>
-          <li>FB_ColonyEye</li>
-        </ignoredThingDefs>
-      </li>
-      <li Class="FB.CompProperties_BuildingSpawner">
-        <buildingDefs>
-          <li>FB_ColonyEye</li>
-        </buildingDefs>
-        <terrainDefs>
-          <li>FleshVeins</li>
-          <li>Flesh</li>
-        </terrainDefs>
-        <spawnRadius>10</spawnRadius>
-        <minBuildingCount>2</minBuildingCount>
-        <maintainMinimum>false</maintainMinimum>
-        <clearLabel>FB_ClearEyesLabel</clearLabel>
-        <clearIconPath>UI/Commands/RemoveEyes</clearIconPath>
-      </li>
-      <li Class="FB.CompProperties_FleshmassAutoBuilder">
-        <scanRadius>79</scanRadius>
-        <organicMaxWallThickness>2</organicMaxWallThickness>
-        <wallDef>Fleshmass</wallDef>
-        <floorDefs>
-          <li>Flesh</li>
-          <li>FleshVeins</li>
-        </floorDefs>
-        <buildIntervalTicks>100</buildIntervalTicks>
-        <hemogelCostFloor>5</hemogelCostFloor>
-        <hemogelCostWall>10</hemogelCostWall>
-        <autoBuildLabel>FB_AutoGrowthLabel</autoBuildLabel>
-        <autoBuildIconPath>UI/Commands/AutoGrowth</autoBuildIconPath>
-      </li>
-      <li Class="FB.CompProperties_FleshmassBoneWallUpgrader">
-        <upgradeDesignation>FleshmassBoneWallPlan</upgradeDesignation>
-        <sourceWallDef>Fleshmass</sourceWallDef>
-        <reinforcedWallDef>FB_ReinforcedFleshmassWall</reinforcedWallDef>
-        <requiredResearch>FB_FleshmassBoneWallReinforcement</requiredResearch>
-        <hemogelCost>20</hemogelCost>
-        <checkIntervalTicks>100</checkIntervalTicks>
-        <maxUpgradesPerCheck>1</maxUpgradesPerCheck>
-      </li>
-      <li Class="FB.CompProperties_SpawnNearWall">
-        <thingToSpawn>FB_LiveCocoonGrowth</thingToSpawn>
-        <maxSearchRadius>30</maxSearchRadius>
-        <minSpawnDays>2</minSpawnDays>
-        <maxSpawnDays>5</maxSpawnDays>
-        <maxSpawnedNearby>5</maxSpawnedNearby>
-        <allowedWallDefs>
-          <li>Fleshmass</li>
-        </allowedWallDefs>
-      </li>
-      <li Class="FB.CompProperties_BuildingSpawnThing">
-        <thingDefToSpawn>FB_GraspingTendrils</thingDefToSpawn>
-        <allowedTerrains>
-          <li>Flesh</li>
-          <li>FleshVeins</li>
-          <li>RootFlesh</li>
-          <li>RootFleshVeins</li>
-        </allowedTerrains>
-        <gizmoLabel>FB_RaiseGraspingTendrilsLabel</gizmoLabel>
-        <gizmoDesc>FB_RaiseGraspingTendrilsDesc</gizmoDesc>
-        <iconPath>UI/Abilities/RaiseGraspingTendrils</iconPath>
-        <cooldownTicksRange>45000</cooldownTicksRange>
-        <rejectMessage>FB_CannotPlaceTendrilsHere</rejectMessage>
-        <enabledByDefault>true</enabledByDefault>
-        <maxSimultaneous>3</maxSimultaneous>
-        <searchRadius>60</searchRadius>
-        <checkIntervalTicks>3000</checkIntervalTicks>
-        <spawnPlacementRadius>8</spawnPlacementRadius>
-        <researchToAvoidFriendly>FB_FriendlyCaptureRecognition</researchToAvoidFriendly>
-      </li>
-      <li Class="FB.CompProperties_HemogelFarmFromTerrain">
-        <ticksInterval>2000</ticksInterval>
-        <hemogelPerCell>0.015</hemogelPerCell>
-        <terrainDefs>
-          <li>FleshVeins</li>
-          <li>Flesh</li>
-        </terrainDefs>
-        <showInInspector>false</showInInspector>
-      </li>
-      <li Class="FB.CompProperties_FleshTerrainSpreader">
-        <terrainDefs>
-          <li>Flesh</li>
-          <li>FleshVeins</li>
-        </terrainDefs>
-        <enabledByDefault>true</enabledByDefault>
-        <checkIntervalTicks>10000</checkIntervalTicks>
-        <maxGrowthPerCheck>5</maxGrowthPerCheck>
-        <gizmoLabel>FB_AutoSpreadLabel</gizmoLabel>
-        <gizmoDesc>FB_AutoSpreadDesc</gizmoDesc>
-        <iconPath>UI/Commands/AutoSpread</iconPath>
-      </li>
-      <li Class="FB.CompProperties_FleshSpawnBlankBody">
-        <hemogelCost>100</hemogelCost>
-        <requiredResearch>ParasiteEggConversion</requiredResearch>
-        <gizmoLabel>FB_CreateBodyLabel</gizmoLabel>
-        <gizmoDesc>FB_CreateBodyDesc</gizmoDesc>
-        <iconPath>UI/Commands/CreateShell</iconPath>
-        <allowedTerrains>
-          <li>Flesh</li>
-          <li>FleshVeins</li>
-        </allowedTerrains>
-      </li>
-    </comps>
-  </ThingDef>
+  <defName>FB_ColonyHeart</defName>
+  <label>Colony Heart</label>
+  <description>The pulsating core of a fleshmass colony, this organic structure rhythmically pumps hemogel to sustain and interconnect its living architecture. Its vitality hinges on a robust hemogel reserve, driving its ceaseless, life-giving pulsations.</description>
+  <size>(3,3)</size>
+  <statBases>
+    <MaxHitPoints>700</MaxHitPoints>
+  </statBases>
+  <killedLeavingsRanges>
+    <Meat_Twisted>200~300</Meat_Twisted>
+  </killedLeavingsRanges>
+  <forceLeavingsAllowed>true</forceLeavingsAllowed>
+  <inspectorTabs>
+    <li>FB.ITab_FleshbeastBills</li>
+    <li>FB.ITab_HemogelEconomy</li>
+    <li>FB.ITab_GraspingTendrilPolicy</li>
+  </inspectorTabs>
+  <building>
+    <isEdifice>true</isEdifice>
+    <isInert>true</isInert>
+    <isTargetable>true</isTargetable>
+    <claimable>false</claimable>
+    <canBuildNonEdificesUnder>false</canBuildNonEdificesUnder>
+    <deconstructible>false</deconstructible>
+    <destroyEffecter>FleshmassDestroyed</destroyEffecter>
+  </building>
+  <comps>
+    <li Class="CompProperties_AmbientSound">
+      <sound>FleshmassHeart_Ambience</sound>
+    </li>
+    <li Class="FB.CompProperties_HemogelStorage">
+      <initialHemogelCapacity>1000</initialHemogelCapacity>
+      <maxHemogelCapacity>1200</maxHemogelCapacity>
+      <networkFillPerHour>500</networkFillPerHour>
+      <damageThreshold>0.04</damageThreshold>
+    </li>
+    <li Class="FB.CompProperties_FleshbeastBillExecutor">
+      <checkIntervalTicks>250</checkIntervalTicks>
+      <recipes>
+        <li>FB_GrowFingerspikeFromHemogel</li>
+        <li>FB_GrowTrispikeFromHemogel</li>
+        <li>FB_GrowToughspikeFromHemogel</li>
+        <li>FB_GrowBulbfreakFromHemogel</li>
+      </recipes>
+    </li>
+    <li Class="FB.CompProperties_FleshmassNucleusAssimilator">
+      <hemogelPerNucleusPerHour>20</hemogelPerNucleusPerHour>
+      <tickInterval>2500</tickInterval>
+      <targetDefName>FleshmassNucleus</targetDefName>
+      <commandIconPath>UI/Commands/FleshmassNucleusAssimilate</commandIconPath>
+    </li>
+    <li Class="FB.CompProperties_AcceptanceHemogelFeedingToggle">
+      <allowByDefault>true</allowByDefault>
+      <iconPath>UI/Commands/HeartHemogelFeeding</iconPath>
+    </li>
+    <li Class="FB.CompProperties_HemogelBloodAbsorber">
+      <hemogelPerBloodSmear>2</hemogelPerBloodSmear>
+      <checkIntervalTicks>600</checkIntervalTicks>
+      <searchRadius>40</searchRadius>
+      <allowedTerrains>
+        <li>Flesh</li>
+        <li>FleshVeins</li>
+      </allowedTerrains>
+      <bloodFilthDefs>
+        <li>Filth_Blood</li>
+        <li>Filth_BloodSmear</li>
+        <li>Filth_BloodInsect</li>
+        <li>Filth_AmnioticFluid</li>
+        <li>Filth_GestationFluid</li>
+        <li>Filth_Slime</li>
+        <li>Filth_CorpseBile</li>
+      </bloodFilthDefs>
+    </li>
+    <li Class="FB.CompProperties_FleshbeastAutoHealer">
+      <healingRootMoteDefSmall>Mote_HarbingerTreeRoots</healingRootMoteDefSmall>
+      <healingRootMoteDefLarge>Mote_FleshRootsSide</healingRootMoteDefLarge>
+      <healingRootVisualUpdateTicks>120</healingRootVisualUpdateTicks>
+      <autoHealingEnabledByDefault>true</autoHealingEnabledByDefault>
+      <autoHealingRadius>60</autoHealingRadius>
+      <autoCheckIntervalTicks>120</autoCheckIntervalTicks>
+      <healingCooldownTicks>2400</healingCooldownTicks>
+      <autoHealingTerrains>
+        <li>Flesh</li>
+        <li>FleshVeins</li>
+        <li>RootFlesh</li>
+        <li>RootFleshVeins</li>
+      </autoHealingTerrains>
+      <gizmoLabel>FB_ManualFleshbeastHealingLabel</gizmoLabel>
+      <gizmoDesc>FB_ManualFleshbeastHealingDesc</gizmoDesc>
+      <iconPath>UI/Commands/FleshbeastAutoHeal</iconPath>
+    </li>
+    <li Class="FB.CompProperties_TerrainSpawner">
+      <terrainDef>FleshVeins</terrainDef>
+      <spawnRadius>8</spawnRadius>
+      <respectWallBarriers>true</respectWallBarriers>
+      <blockImpassableWater>true</blockImpassableWater>
+      <removePlants>true</removePlants>
+    </li>
+    <li Class="FB.CompProperties_HemogelTransmitter">
+      <transmissionIntervalTicks>5</transmissionIntervalTicks>
+      <transmissionAmount>5</transmissionAmount>
+      <reserveFraction>0.3</reserveFraction>
+      <reserveAbsoluteAmount>50</reserveAbsoluteAmount>
+      <temperatureAffectsTransmission>true</temperatureAffectsTransmission>
+      <minimumTransferTemperature>-30</minimumTransferTemperature>
+      <fullTransferTemperature>20</fullTransferTemperature>
+      <minimumTransmissionAmount>1</minimumTransmissionAmount>
+      <forbiddenBuildingDefs>
+        <li>FB_ColonyStomach</li>
+        <li>FB_PhotosyntheticFleshleaf</li>
+        <li>FB_HemogelSac</li>
+        <li>FB_GraspingTendrils</li>
+        <li>FB_PhotosyntheticFleshtree</li>
+        <li>FB_FirefoamGland</li>
+        <li>FB_CapillaryTrawler</li>
+      </forbiddenBuildingDefs>
+      <hiddenFromHemogelEconomyDefs>
+        <li>FB_ColonyEye</li>
+        <li>FB_StorageCavity</li>
+      </hiddenFromHemogelEconomyDefs>
+      <terrainDefs>
+        <li>FleshVeins</li>
+        <li>Flesh</li>
+      </terrainDefs>
+    </li>
+    <li Class="FB.CompProperties_FleshAnimationManager">
+      <animationAmplitude>0.15</animationAmplitude>
+      <animationSideAmplitude>0.1</animationSideAmplitude>
+      <baseAnimationSpeed>0.8</baseAnimationSpeed>
+      <beatDurationTicks>15</beatDurationTicks>
+      <animatedParts>
+        <li>
+          <texturePath>Things/Building/FB_Organic/ColonyHeart/FleshmassHeart_CentralPart</texturePath>
+          <positionOffset>(0, 0, -0.35)</positionOffset>
+          <textureScale>2</textureScale>
+          <animationAmplitude>0.15</animationAmplitude>
+          <animationSideAmplitude>0.1</animationSideAmplitude>
+          <animationInterval>0</animationInterval>
+          <animationOffset>0.0</animationOffset>
+          <altitudeLayer>5</altitudeLayer>
+          <rotationAngle>0</rotationAngle>
+          <beatDelay>0</beatDelay>
+        </li>
+        <li>
+          <texturePath>Things/Building/FB_Organic/ColonyHeart/FleshmassHeart_LeftPart</texturePath>
+          <positionOffset>(-0.875, 0, 0)</positionOffset>
+          <textureScale>2</textureScale>
+          <animationAmplitude>0.1</animationAmplitude>
+          <animationSideAmplitude>0.05</animationSideAmplitude>
+          <animationInterval>0</animationInterval>
+          <animationOffset>0.3</animationOffset>
+          <altitudeLayer>2</altitudeLayer>
+          <rotationAngle>30</rotationAngle>
+          <beatDelay>5</beatDelay>
+        </li>
+        <li>
+          <texturePath>Things/Building/FB_Organic/ColonyHeart/FleshmassHeart_RightPart</texturePath>
+          <positionOffset>(0.875, 0, 0)</positionOffset>
+          <textureScale>2</textureScale>
+          <animationAmplitude>0.1</animationAmplitude>
+          <animationSideAmplitude>0.05</animationSideAmplitude>
+          <animationInterval>0</animationInterval>
+          <animationOffset>0.5</animationOffset>
+          <altitudeLayer>1</altitudeLayer>
+          <rotationAngle>10</rotationAngle>
+          <beatDelay>10</beatDelay>
+        </li>
+      </animatedParts>
+    </li>
+    <li Class="CompProperties_FleshmassBase">
+      <size>3</size>
+    </li>
+    <li Class="FB.CompProperties_StructureSelector">
+      <structurePairs>
+        <li>
+          <embryoDef>FB_ColonyBrainEmbryo</embryoDef>
+          <label>FB_ColonyHeart_Structure_ColonyBrain_Label</label>
+          <description>FB_ColonyHeart_Structure_ColonyBrain_Desc</description>
+          <texPath>Things/Building/FB_Organic/ColonyBrain/ColonyBrain_icon</texPath>
+          <drawSize>(3,3)</drawSize>
+          <cost>850</cost>
+          <requiredCorpseDefs>
+            <li>Human</li>
+          </requiredCorpseDefs>
+        </li>
+      </structurePairs>
+    </li>
+    <li Class="FB.CompProperties_PawnContainer">
+      <killPawnOnDestroy>false</killPawnOnDestroy>
+      <autoReleaseAfterTicks>1800000</autoReleaseAfterTicks>
+      <maxCapacity>1</maxCapacity>
+      <enablePawnRebirth>true</enablePawnRebirth>
+      <rebirthTargetAgeYears>18</rebirthTargetAgeYears>
+      <rebirthTickInterval>2500</rebirthTickInterval>
+    </li>
+    <li Class="FB.CompProperties_OrganicVeinConnection">
+      <color>(0.85, 0.57, 0.55, 0.7)</color>
+      <connectionRadius>30</connectionRadius>
+      <targetDefs>
+        <li>FB_ColonyBrain</li>
+        <li>FB_ColonyStomach</li>
+        <li>FB_PhotosyntheticFleshleaf</li>
+        <li>FB_SynapseCore</li>
+        <li>FB_Feeder</li>
+        <li>FB_Thermoregulator</li>
+        <li>FB_PhotosyntheticFleshtree</li>
+        <li>FB_CapillaryTrawler</li>
+        <li>FB_GenomeArchive</li>
+        <li>FB_GenophageCocoon</li>
+        <li>FB_GeneReweaver</li>
+      </targetDefs>
+      <checkIntervalTicks>500</checkIntervalTicks>
+    </li>
+    <li Class="FB.CompProperties_OrganicVeinConnection">
+      <color>(0.85, 0.57, 0.55, 0.7)</color>
+      <connectionRadius>120</connectionRadius>
+      <targetDefs>
+        <li>FB_GeoferriteGland</li>
+      </targetDefs>
+      <checkIntervalTicks>500</checkIntervalTicks>
+    </li>
+    <li Class="FB.CompProperties_FleshmassSpawner">
+      <spawnIntervalTicks>500</spawnIntervalTicks>
+      <thingDefToSpawn>Fleshmass</thingDefToSpawn>
+      <terrainDefsToSpawn>
+        <li>Flesh</li>
+        <li>FleshVeins</li>
+      </terrainDefsToSpawn>
+      <terrainDefsToRemove>
+        <li>Flesh</li>
+        <li>FleshVeins</li>
+        <li>RootFlesh</li>
+        <li>RootFleshVeins</li>
+      </terrainDefsToRemove>
+      <thingDefsForbiddenToRemove>
+        <li>FB_ColonyHeart</li>
+      </thingDefsForbiddenToRemove>
+    </li>
+    <li Class="FB.CompProperties_FleshNoGrowAreaCleaner">
+      <cleanIntervalTicks>500</cleanIntervalTicks>
+      <maxCellsPerCheck>3</maxCellsPerCheck>
+      <cleanRadius>79</cleanRadius>
+      <terrainDefsToClean>
+        <li>Flesh</li>
+        <li>FleshVeins</li>
+        <li>RootFlesh</li>
+        <li>RootFleshVeins</li>
+      </terrainDefsToClean>
+    </li>
+    <li Class="FB.CompProperties_RootDrawer">
+      <radius>20</radius>
+      <moteDefSmall>Mote_HarbingerTreeRoots</moteDefSmall>
+      <moteDefLarge>Mote_FleshRootsSide</moteDefLarge>
+      <ignoredThingDefs>
+        <li>FB_ColonyEye</li>
+      </ignoredThingDefs>
+    </li>
+    <li Class="FB.CompProperties_BuildingSpawner">
+      <buildingDefs>
+        <li>FB_ColonyEye</li>
+      </buildingDefs>
+      <terrainDefs>
+        <li>FleshVeins</li>
+        <li>Flesh</li>
+      </terrainDefs>
+      <spawnRadius>10</spawnRadius>
+      <minBuildingCount>2</minBuildingCount>
+      <maintainMinimum>false</maintainMinimum>
+      <clearLabel>FB_ClearEyesLabel</clearLabel>
+      <clearIconPath>UI/Commands/RemoveEyes</clearIconPath>
+    </li>
+    <li Class="FB.CompProperties_FleshmassAutoBuilder">
+      <scanRadius>79</scanRadius>
+      <organicMaxWallThickness>2</organicMaxWallThickness>
+      <wallDef>Fleshmass</wallDef>
+      <floorDefs>
+        <li>Flesh</li>
+        <li>FleshVeins</li>
+      </floorDefs>
+      <buildIntervalTicks>100</buildIntervalTicks>
+      <hemogelCostFloor>5</hemogelCostFloor>
+      <hemogelCostWall>10</hemogelCostWall>
+      <autoBuildLabel>FB_AutoGrowthLabel</autoBuildLabel>
+      <autoBuildIconPath>UI/Commands/AutoGrowth</autoBuildIconPath>
+    </li>
+    <li Class="FB.CompProperties_FleshmassBoneWallUpgrader">
+      <upgradeDesignation>FleshmassBoneWallPlan</upgradeDesignation>
+      <sourceWallDef>Fleshmass</sourceWallDef>
+      <reinforcedWallDef>FB_ReinforcedFleshmassWall</reinforcedWallDef>
+      <requiredResearch>FB_FleshmassBoneWallReinforcement</requiredResearch>
+      <hemogelCost>20</hemogelCost>
+      <checkIntervalTicks>100</checkIntervalTicks>
+      <maxUpgradesPerCheck>1</maxUpgradesPerCheck>
+    </li>
+    <li Class="FB.CompProperties_SpawnNearWall">
+      <thingToSpawn>FB_LiveCocoonGrowth</thingToSpawn>
+      <maxSearchRadius>30</maxSearchRadius>
+      <minSpawnDays>2</minSpawnDays>
+      <maxSpawnDays>5</maxSpawnDays>
+      <maxSpawnedNearby>5</maxSpawnedNearby>
+      <allowedWallDefs>
+        <li>Fleshmass</li>
+      </allowedWallDefs>
+    </li>
+    <li Class="FB.CompProperties_BuildingSpawnThing">
+      <thingDefToSpawn>FB_GraspingTendrils</thingDefToSpawn>
+      <allowedTerrains>
+        <li>Flesh</li>
+        <li>FleshVeins</li>
+        <li>RootFlesh</li>
+        <li>RootFleshVeins</li>
+      </allowedTerrains>
+      <gizmoLabel>FB_RaiseGraspingTendrilsLabel</gizmoLabel>
+      <gizmoDesc>FB_RaiseGraspingTendrilsDesc</gizmoDesc>
+      <iconPath>UI/Abilities/RaiseGraspingTendrils</iconPath>
+      <cooldownTicksRange>45000</cooldownTicksRange>
+      <rejectMessage>FB_CannotPlaceTendrilsHere</rejectMessage>
+      <enabledByDefault>true</enabledByDefault>
+      <maxSimultaneous>3</maxSimultaneous>
+      <searchRadius>60</searchRadius>
+      <checkIntervalTicks>3000</checkIntervalTicks>
+      <spawnPlacementRadius>8</spawnPlacementRadius>
+      <researchToAvoidFriendly>FB_FriendlyCaptureRecognition</researchToAvoidFriendly>
+    </li>
+    <li Class="FB.CompProperties_HemogelFarmFromTerrain">
+      <ticksInterval>2000</ticksInterval>
+      <hemogelPerCell>0.015</hemogelPerCell>
+      <terrainDefs>
+        <li>FleshVeins</li>
+        <li>Flesh</li>
+      </terrainDefs>
+      <showInInspector>false</showInInspector>
+    </li>
+    <li Class="FB.CompProperties_FleshTerrainSpreader">
+      <terrainDefs>
+        <li>Flesh</li>
+        <li>FleshVeins</li>
+      </terrainDefs>
+      <enabledByDefault>true</enabledByDefault>
+      <checkIntervalTicks>10000</checkIntervalTicks>
+      <maxGrowthPerCheck>5</maxGrowthPerCheck>
+      <gizmoLabel>FB_AutoSpreadLabel</gizmoLabel>
+      <gizmoDesc>FB_AutoSpreadDesc</gizmoDesc>
+      <iconPath>UI/Commands/AutoSpread</iconPath>
+    </li>
+    <li Class="FB.CompProperties_FleshSpawnBlankBody">
+      <hemogelCost>100</hemogelCost>
+      <requiredResearch>ParasiteEggConversion</requiredResearch>
+      <gizmoLabel>FB_CreateBodyLabel</gizmoLabel>
+      <gizmoDesc>FB_CreateBodyDesc</gizmoDesc>
+      <iconPath>UI/Commands/CreateShell</iconPath>
+      <allowedTerrains>
+        <li>Flesh</li>
+        <li>FleshVeins</li>
+      </allowedTerrains>
+    </li>
+  </comps>
+</ThingDef>
   <!-- Постройка: Colony Brain (FB_ColonyBrain) -->
   <ThingDef ParentName="BuildingColonyFleshBaseAnimation">
   <defName>FB_ColonyBrain</defName>

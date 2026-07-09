@@ -64,7 +64,9 @@
         <nodeClass>PawnRenderNode_Body</nodeClass>
         <workerClass>FB.PawnRenderNodeWorker_TexDecals</workerClass>
         <overlayLayer>Body</overlayLayer>
-        <baseLayer>99</baseLayer>
+        <baseLayer>10</baseLayer>
+        <bodyRenderLayer>10</bodyRenderLayer>
+        <headRenderLayer>66</headRenderLayer>
         <pawnType>HumanlikeOnly</pawnType>
         <texSeed>9142</texSeed>
         <decalCount>8</decalCount>
@@ -84,7 +86,7 @@
         <samplesPerSide>7</samplesPerSide>
         <wobbleAmount>8</wobbleAmount>
         <wobbleSpeed>2.3</wobbleSpeed>
-        <decalAltitudeBase>0.0012</decalAltitudeBase>
+        <decalAltitudeBase>0.00005</decalAltitudeBase>
         <decalAltitudePerBaseLayer>0.0000025</decalAltitudePerBaseLayer>
         <decalAltitudeStep>0.00003</decalAltitudeStep>
         <texPaths>
