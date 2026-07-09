@@ -1,59 +1,45 @@
-# Prerequisites
-*.d
-
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+AGENTS.md
+CHANGELOG.md
 FleshBeasts/.vs/FleshBeasts/v17/.suo
 FleshBeasts/.vs/FleshBeasts/v17/DocumentLayout.backup.json
 FleshBeasts/.vs/FleshBeasts/v17/DocumentLayout.json
+FleshBeasts/bin/Release/net472/0Harmony.dll
+FleshBeasts/bin/Release/net472/0Harmony.pdb
 FleshBeasts/bin/Release/net472/0Harmony.xml
+FleshBeasts/bin/Release/net472/Assembly-CSharp-firstpass.dll
+FleshBeasts/bin/Release/net472/Assembly-CSharp.dll
+FleshBeasts/bin/Release/net472/com.rlabrecque.steamworks.net.dll
+FleshBeasts/bin/Release/net472/FleshBeasts.dll
+FleshBeasts/bin/Release/net472/FleshBeasts.pdb
+FleshBeasts/bin/Release/net472/ISharpZipLib.dll
+FleshBeasts/bin/Release/net472/NAudio.dll
+FleshBeasts/bin/Release/net472/netstandard.dll
+FleshBeasts/bin/Release/net472/NVorbis.dll
+FleshBeasts/bin/Release/net472/Unity.Burst.dll
+FleshBeasts/bin/Release/net472/Unity.Burst.Unsafe.dll
+FleshBeasts/bin/Release/net472/Unity.Collections.dll
+FleshBeasts/bin/Release/net472/Unity.Collections.LowLevel.ILSupport.dll
+FleshBeasts/bin/Release/net472/Unity.Mathematics.dll
+FleshBeasts/bin/Release/net472/Unity.TextMeshPro.dll
+FleshBeasts/bin/Release/net472/UnityEngine.AnimationModule.dll
+FleshBeasts/bin/Release/net472/UnityEngine.AssetBundleModule.dll
+FleshBeasts/bin/Release/net472/UnityEngine.AudioModule.dll
+FleshBeasts/bin/Release/net472/UnityEngine.CoreModule.dll
+FleshBeasts/bin/Release/net472/UnityEngine.ImageConversionModule.dll
+FleshBeasts/bin/Release/net472/UnityEngine.IMGUIModule.dll
+FleshBeasts/bin/Release/net472/UnityEngine.InputLegacyModule.dll
+FleshBeasts/bin/Release/net472/UnityEngine.PerformanceReportingModule.dll
+FleshBeasts/bin/Release/net472/UnityEngine.Physics2DModule.dll
+FleshBeasts/bin/Release/net472/UnityEngine.PhysicsModule.dll
+FleshBeasts/bin/Release/net472/UnityEngine.PropertiesModule.dll
+FleshBeasts/bin/Release/net472/UnityEngine.ScreenCaptureModule.dll
+FleshBeasts/bin/Release/net472/UnityEngine.SharedInternalsModule.dll
+FleshBeasts/bin/Release/net472/UnityEngine.SpriteShapeModule.dll
+FleshBeasts/bin/Release/net472/UnityEngine.TextCoreFontEngineModule.dll
+FleshBeasts/bin/Release/net472/UnityEngine.TextCoreTextEngineModule.dll
+FleshBeasts/bin/Release/net472/UnityEngine.TextRenderingModule.dll
+FleshBeasts/bin/Release/net472/UnityEngine.UI.dll
+FleshBeasts/bin/Release/net472/UnityEngine.UIModule.dll
 FleshBeasts/FB/AcceptanceOfFleshColonyFeedingBootstrap.cs
 FleshBeasts/FB/AcceptanceOfFleshColonyFeedingUtility.cs
 FleshBeasts/FB/AcceptanceTendrilVisualSettingsBootstrap.cs
@@ -629,7 +615,7 @@ FleshBeasts/obj/Release/net472/FleshBeasts.assets.cache
 FleshBeasts/obj/Release/net472/FleshBeasts.csproj.AssemblyReference.cache
 FleshBeasts/obj/Release/net472/FleshBeasts.csproj.CoreCompileInputs.cache
 FleshBeasts/obj/Release/net472/FleshBeasts.csproj.FileListAbsolute.txt
+FleshBeasts/obj/Release/net472/FleshBeasts.dll
 FleshBeasts/obj/Release/net472/FleshBeasts.GeneratedMSBuildEditorConfig.editorconfig
+FleshBeasts/obj/Release/net472/FleshBeasts.pdb
 FleshBeasts/Properties/AssemblyInfo.cs
-AGENTS.md
-CHANGELOG.md
