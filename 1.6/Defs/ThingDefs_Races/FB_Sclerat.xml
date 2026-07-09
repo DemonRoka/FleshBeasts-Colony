@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Раса: sclerat (FB_Sclerat) -->
+  <ThingDef ParentName="BasePawn">
+    <defName>FB_Sclerat</defName>
+    <label>sclerat</label>
+    <description>The Sclerat is a small, flesh-eating minion that emerges from hives or the bodies of infected colonists. Despite its grotesque appearance, this creature is a surprisingly efficient worker. Covered in tough, chitinous plates, the Sclerat uses its powerful mandibles to deconstruct buildings and haul materials. Its many legs and flexible body allow it to navigate complex structures with ease. While its primary function is construction and deconstruction, the Sclerat's parasitic origins are evident in its relentless work ethic and insatiable hunger for flesh.</description>
+    <statBases>
+      <ComfyTemperatureMin>-40</ComfyTemperatureMin>
+      <ComfyTemperatureMax>60</ComfyTemperatureMax>
+      <Flammability>1.25</Flammability>
+      <MeatAmount>2</MeatAmount>
+      <MoveSpeed>4.0</MoveSpeed>
+      <MarketValue>35</MarketValue>
+      <ToxicResistance>1</ToxicResistance>
+      <WorkSpeedGlobal>1</WorkSpeedGlobal>
+      <ConstructionSpeed>0.15</ConstructionSpeed>
+    </statBases>
+    <tradeability>None</tradeability>
+    <race>
+      <body>BeetleLike</body>
+      <baseBodySize>0.2</baseBodySize>
+      <baseHungerRate>0.10</baseHungerRate>
+      <baseHealthScale>0.4</baseHealthScale>
+      <lifeExpectancy>10</lifeExpectancy>
+      <renderTree>Animal</renderTree>
+      <intelligence>ToolUser</intelligence>
+      <deathAction Class="DeathActionProperties_Vanish">
+        <workerClass>DeathActionWorker_Vanish</workerClass>
+        <filth>Filth_TwistedFlesh</filth>
+        <filthCountRange>1~3</filthCountRange>
+        <meatExplosionSize>Small</meatExplosionSize>
+      </deathAction>
+      <lifeStageAges>
+        <li>
+          <def>EntityFullyFormed</def>
+          <soundWounded>Pawn_Fleshbeast_Fingerspike_Wounded</soundWounded>
+          <soundDeath>Pawn_Fleshbeast_Fingerspike_Death</soundDeath>
+          <soundCall>Pawn_Fleshbeast_Fingerspike_Call</soundCall>
+        </li>
+      </lifeStageAges>
+      <thinkTreeMain>FB_WorkingMinions</thinkTreeMain>
+      <thinkTreeConstant>FB_WorkingMinionsConstant</thinkTreeConstant>
+      <specificMeatDef>Meat_Twisted</specificMeatDef>
+      <canOpenFactionlessDoors>false</canOpenFactionlessDoors>
+      <needsRest>false</needsRest>
+      <hasGenders>false</hasGenders>
+      <foodType>None</foodType>
+      <canBePredatorPrey>false</canBePredatorPrey>
+      <bloodDef>Filth_Blood</bloodDef>
+      <bloodSmearDef>Filth_BloodSmear</bloodSmearDef>
+      <soundMeleeDodge>Pawn_MeleeDodge</soundMeleeDodge>
+      <trainability>None</trainability>
+      <fleshType>Fleshbeast</fleshType>
+      <isImmuneToInfections>true</isImmuneToInfections>
+      <bleedRateFactor>0.5</bleedRateFactor>
+      <hediffGiverSets />
+      <corpseHiddenWhileUndiscovered>true</corpseHiddenWhileUndiscovered>
+    </race>
+    <comps>
+      <li Class="FB.CompProperties_ScleratWorker" />
+      <li Class="FB.CompProperties_PawnFixedConstructionSkill">
+        <constructionLevel>3</constructionLevel>
+        <keepSkillFixed>true</keepSkillFixed>
+      </li>
+      <li Class="FB.CompProperties_OutsideLifetime">
+        <lifetimeTicks>60000</lifetimeTicks>
+      </li>
+    </comps>
+    <tools />
+  </ThingDef>
+</Defs>

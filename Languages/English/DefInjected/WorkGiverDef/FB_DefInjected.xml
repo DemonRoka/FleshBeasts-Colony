@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <CarryToFBAutoResearch.gerund>inserting</CarryToFBAutoResearch.gerund>
+  <CarryToFBAutoResearch.label>carry to auto research</CarryToFBAutoResearch.label>
+  <CarryToFBAutoResearch.verb>insert</CarryToFBAutoResearch.verb>
+  <FB_ConstructDeliverResourcesToBlueprints.gerund>working on</FB_ConstructDeliverResourcesToBlueprints.gerund>
+  <FB_ConstructDeliverResourcesToBlueprints.label>deliver resources to blueprints</FB_ConstructDeliverResourcesToBlueprints.label>
+  <FB_ConstructDeliverResourcesToBlueprints.verb>work on</FB_ConstructDeliverResourcesToBlueprints.verb>
+  <FB_ConstructDeliverResourcesToFrames.gerund>working on</FB_ConstructDeliverResourcesToFrames.gerund>
+  <FB_ConstructDeliverResourcesToFrames.label>deliver resources to frames</FB_ConstructDeliverResourcesToFrames.label>
+  <FB_ConstructDeliverResourcesToFrames.verb>work on</FB_ConstructDeliverResourcesToFrames.verb>
+  <FB_ConstructFinishFrames.gerund>constructing</FB_ConstructFinishFrames.gerund>
+  <FB_ConstructFinishFrames.label>construct placed frames</FB_ConstructFinishFrames.label>
+  <FB_ConstructFinishFrames.verb>construct</FB_ConstructFinishFrames.verb>
+  <FB_DoBillsUseFleshmassSporeCradle.gerund>crafting at</FB_DoBillsUseFleshmassSporeCradle.gerund>
+  <FB_DoBillsUseFleshmassSporeCradle.label>make things at Spore-Cradle</FB_DoBillsUseFleshmassSporeCradle.label>
+  <FB_DoBillsUseFleshmassSporeCradle.verb>craft at</FB_DoBillsUseFleshmassSporeCradle.verb>
+</LanguageData>

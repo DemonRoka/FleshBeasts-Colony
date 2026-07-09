@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ConsumeCorpseForSpawning.reportString>stalking TargetA.</ConsumeCorpseForSpawning.reportString>
+  <FB_BurdenBlobLatchToWall.reportString>clinging to a colony wall.</FB_BurdenBlobLatchToWall.reportString>
+  <FB_BurdenBlobRefillAtHeart.reportString>refilling hemogel at the colony heart.</FB_BurdenBlobRefillAtHeart.reportString>
+  <FB_CarapaceExcavatorMine.reportString>excavating rock.</FB_CarapaceExcavatorMine.reportString>
+  <FB_CarapaceExcavatorRegrowAtHeart.reportString>regrowing digging plates.</FB_CarapaceExcavatorRegrowAtHeart.reportString>
+  <FB_CocoonbackCapturePawn.reportString>sealing TargetA inside the cocoon</FB_CocoonbackCapturePawn.reportString>
+  <FB_CocoonbackRefillAtHeart.reportString>drawing hemogel from the colony heart</FB_CocoonbackRefillAtHeart.reportString>
+  <FB_CocoonbackReleasePawn.reportString>releasing a captive</FB_CocoonbackReleasePawn.reportString>
+  <FB_FerrimawConsumeSteel.reportString>consuming steel.</FB_FerrimawConsumeSteel.reportString>
+  <FB_FinishFrame.reportString>building TargetA.</FB_FinishFrame.reportString>
+  <FB_FleshColonyConsumeHemogelAtHeart.reportString>absorbing hemogel from TargetA.</FB_FleshColonyConsumeHemogelAtHeart.reportString>
+  <FB_FleshbeastHealingSleep.reportString>sleeping in the colony flesh.</FB_FleshbeastHealingSleep.reportString>
+  <FB_GraftmawAbsorbSample.reportString>absorbing an implant or prosthetic.</FB_GraftmawAbsorbSample.reportString>
+  <FB_GraftmawExtractImplant.reportString>extracting an implant.</FB_GraftmawExtractImplant.reportString>
+  <FB_GraftmawExtractPart.reportString>extracting an outside body part.</FB_GraftmawExtractPart.reportString>
+  <FB_GraftmawInstallStoredPart.reportString>installing a stored prosthetic.</FB_GraftmawInstallStoredPart.reportString>
+  <FB_GraftmawInstallStoredThing.reportString>installing a stored implant.</FB_GraftmawInstallStoredThing.reportString>
+  <FB_GraftmawTendPatient.reportString>stitching wounds.</FB_GraftmawTendPatient.reportString>
+  <FB_FleshDivisionCeremonySubject.reportString>yielding flesh to division.</FB_FleshDivisionCeremonySubject.reportString>
+  <FB_FleshDivisionCeremonyRipper.reportString>tearing TargetB apart.</FB_FleshDivisionCeremonyRipper.reportString>
+  <FB_LivingWeaponReturnToOwner.reportString>returning to bonded wielder.</FB_LivingWeaponReturnToOwner.reportString>
+  <FB_UsePawn.reportString>using TargetA.</FB_UsePawn.reportString>
+  <Symbio_EatCorpse.reportString>devouring a corpse's head.</Symbio_EatCorpse.reportString>
+  <FB_TissueIncubatorLearnSample.label>deliver tissue sample to incubator</FB_TissueIncubatorLearnSample.label>
+  <FB_TissueIncubatorLearnSample.reportString>delivering a tissue sample to TargetB.</FB_TissueIncubatorLearnSample.reportString>
+  <FB_FleshbeastBeatFire.reportString>beating fire out.</FB_FleshbeastBeatFire.reportString>
+  <FB_FleshbeastExtinguishSelf.reportString>extinguishing itself.</FB_FleshbeastExtinguishSelf.reportString>
+</LanguageData>

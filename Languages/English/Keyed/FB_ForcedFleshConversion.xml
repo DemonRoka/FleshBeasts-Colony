@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_ForcedFleshConversion_Label>Force flesh acceptance</FB_ForcedFleshConversion_Label>
+  <FB_ForcedFleshConversion_Desc>Bring a living prisoner or downed enemy to the colony heart and force flesh acceptance. A doctor consumes a fingerspike during the rite. Poor ritual quality can cause brain burn, stupor, or death.</FB_ForcedFleshConversion_Desc>
+  <FB_ForcedFleshConversion_Started>Forced flesh acceptance has begun for {0}.</FB_ForcedFleshConversion_Started>
+  <FB_ForcedFleshConversion_ImplantationStarted>The doctor begins implanting a fingerspike into {0}.</FB_ForcedFleshConversion_ImplantationStarted>
+  <FB_ForcedFleshConversion_ResultClean>{0} has been forced into the flesh colony without lasting damage.</FB_ForcedFleshConversion_ResultClean>
+  <FB_ForcedFleshConversion_ResultBrainBurn>{0} has joined the flesh colony, but the psychic pressure burned through the brain.</FB_ForcedFleshConversion_ResultBrainBurn>
+  <FB_ForcedFleshConversion_ResultStupor>{0} has joined the flesh colony and fallen into a flesh-induced stupor.</FB_ForcedFleshConversion_ResultStupor>
+  <FB_ForcedFleshConversion_ResultDeath>{0} died while being forced into the flesh colony.</FB_ForcedFleshConversion_ResultDeath>
+  <FB_ForcedFleshConversion_Interrupted>Forced flesh acceptance of {0} was interrupted.</FB_ForcedFleshConversion_Interrupted>
+  <FB_ForcedFleshConversion_InvalidBrain>No valid colony brain is available.</FB_ForcedFleshConversion_InvalidBrain>
+  <FB_ForcedFleshConversion_InvalidTarget>Choose a living humanoid target.</FB_ForcedFleshConversion_InvalidTarget>
+  <FB_ForcedFleshConversion_HumanlikeOnly>Only living humanoids can be forced into flesh acceptance.</FB_ForcedFleshConversion_HumanlikeOnly>
+  <FB_ForcedFleshConversion_NotColonists>Colonists cannot be targeted by forced flesh acceptance.</FB_ForcedFleshConversion_NotColonists>
+  <FB_ForcedFleshConversion_TargetStatus>Target must be a prisoner or a downed hostile pawn.</FB_ForcedFleshConversion_TargetStatus>
+  <FB_ForcedFleshConversion_AlreadyAccepted>This pawn is already bound to the flesh colony.</FB_ForcedFleshConversion_AlreadyAccepted>
+  <FB_ForcedFleshConversion_AlreadyInProgress>This pawn is already part of an active flesh acceptance ritual.</FB_ForcedFleshConversion_AlreadyInProgress>
+  <FB_ForcedFleshConversion_NoHeart>No colony heart is available for the ritual.</FB_ForcedFleshConversion_NoHeart>
+  <FB_ForcedFleshConversion_NoRitualSpace>There is not enough open space near the colony heart.</FB_ForcedFleshConversion_NoRitualSpace>
+  <FB_ForcedFleshConversion_NoDoctor>No available doctor can reach the ritual position.</FB_ForcedFleshConversion_NoDoctor>
+  <FB_ForcedFleshConversion_NoFingerspike>No available fingerspike can reach the ritual position.</FB_ForcedFleshConversion_NoFingerspike>
+  <FB_ForcedFleshConversion_CannotStart>The ritual could not be started.</FB_ForcedFleshConversion_CannotStart>
+  <FB_ForcedFleshConversion_MissingJobDef>Forced flesh acceptance is missing job definitions.</FB_ForcedFleshConversion_MissingJobDef>
+  <FB_ForcedFleshConversion_DevCycleOutcomeLabel>DEV: forced flesh outcome</FB_ForcedFleshConversion_DevCycleOutcomeLabel>
+  <FB_ForcedFleshConversion_DevCycleOutcomeDesc>Cycles the forced outcome for the next forced flesh acceptance ritual. Current: {0}.</FB_ForcedFleshConversion_DevCycleOutcomeDesc>
+  <FB_ForcedFleshConversion_DevOutcomeSet>Forced flesh outcome: {0}.</FB_ForcedFleshConversion_DevOutcomeSet>
+  <FB_ForcedFleshConversion_DevOutcomeRandom>random</FB_ForcedFleshConversion_DevOutcomeRandom>
+  <FB_ForcedFleshConversion_DevOutcomeClean>clean</FB_ForcedFleshConversion_DevOutcomeClean>
+  <FB_ForcedFleshConversion_DevOutcomeBrainBurn>brain burn</FB_ForcedFleshConversion_DevOutcomeBrainBurn>
+  <FB_ForcedFleshConversion_DevOutcomeStupor>stupor</FB_ForcedFleshConversion_DevOutcomeStupor>
+  <FB_ForcedFleshConversion_DevOutcomeDeath>death</FB_ForcedFleshConversion_DevOutcomeDeath>
+</LanguageData>

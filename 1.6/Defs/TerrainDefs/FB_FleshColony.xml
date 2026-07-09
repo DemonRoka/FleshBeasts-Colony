@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Покрытие: flesh veins (FleshVeins) -->
+  <TerrainDef ParentName="FloorBase">
+    <defName>FleshVeins</defName>
+    <label>flesh veins</label>
+    <description>A slick layer of exposed flesh veins spread across the ground. It is unpleasant underfoot, but supports colony tissue and organic growth.</description>
+    <texturePath>Terrain/Surfaces/FleshVeins</texturePath>
+    <edgeType>FadeRough</edgeType>
+    <renderPrecedence>340</renderPrecedence>
+    <pathCost>2</pathCost>
+    <designationCategory />
+    <statBases>
+      <Beauty>-10</Beauty>
+      <BeautyOutdoors>-5</BeautyOutdoors>
+      <Cleanliness>-3</Cleanliness>
+      <Flammability>0.32</Flammability>
+      <CleaningTimeFactor>1.5</CleaningTimeFactor>
+    </statBases>
+    <affordances>
+      <li>Light</li>
+      <li>Diggable</li>
+    </affordances>
+    <fertility>0.1</fertility>
+    <heatPerTick>0.0005</heatPerTick>
+    <canBePolluted>False</canBePolluted>
+    <tags>
+      <li>FB_FleshColonyTerrain</li>
+    </tags>
+  </TerrainDef>
+  <!-- Покрытие: root flesh veins (RootFleshVeins) -->
+  <TerrainDef ParentName="FloorBase">
+    <defName>RootFleshVeins</defName>
+    <label>root flesh veins</label>
+    <description>Rooted flesh veins that bind deeper into the ground. They stabilize nearby living tissue and carry faint pulses through the colony mass.</description>
+    <texturePath>Terrain/Surfaces/RootFleshVeins</texturePath>
+    <edgeType>FadeRough</edgeType>
+    <renderPrecedence>340</renderPrecedence>
+    <pathCost>2</pathCost>
+    <designationCategory />
+    <statBases>
+      <Beauty>-10</Beauty>
+      <BeautyOutdoors>-5</BeautyOutdoors>
+      <Cleanliness>-3</Cleanliness>
+      <Flammability>0.32</Flammability>
+      <CleaningTimeFactor>1.5</CleaningTimeFactor>
+    </statBases>
+    <affordances>
+      <li>Light</li>
+      <li>Diggable</li>
+    </affordances>
+    <fertility>0.1</fertility>
+    <heatPerTick>0.001</heatPerTick>
+    <canBePolluted>False</canBePolluted>
+    <tags>
+      <li>FB_FleshColonyTerrain</li>
+    </tags>
+  </TerrainDef>
+  <!-- Покрытие: root flesh (RootFlesh) -->
+  <TerrainDef ParentName="FloorBase">
+    <defName>RootFlesh</defName>
+    <label>root flesh</label>
+    <description>A thick mat of rooted flesh grown into the floor. It anchors the colony and provides a stable surface for deeper organic structures.</description>
+    <texturePath>Terrain/Surfaces/RootFlesh</texturePath>
+    <edgeType>FadeRough</edgeType>
+    <renderPrecedence>340</renderPrecedence>
+    <pathCost>2</pathCost>
+    <designationCategory />
+    <statBases>
+      <Beauty>-10</Beauty>
+      <BeautyOutdoors>-5</BeautyOutdoors>
+      <Cleanliness>-3</Cleanliness>
+      <Flammability>0.32</Flammability>
+      <CleaningTimeFactor>1.5</CleaningTimeFactor>
+    </statBases>
+    <affordances>
+      <li>Light</li>
+      <li>Diggable</li>
+    </affordances>
+    <fertility>0.1</fertility>
+    <heatPerTick>0.0001</heatPerTick>
+    <canBePolluted>False</canBePolluted>
+    <tags>
+      <li>FB_FleshColonyTerrain</li>
+    </tags>
+  </TerrainDef>
+  <!-- Покрытие: gastric acid (FB_GastricAcid) -->
+  <TerrainDef ParentName="WaterChestDeepBase">
+    <defName>FB_GastricAcid</defName>
+    <label>gastric acid</label>
+    <description>Caustic digestive fluid secreted by a flesh colony organ. Anything living that stands in it is burned, and organic matter left inside is broken down into hemogel.</description>
+    <texturePath>Terrain/Surfaces/GastricAcid</texturePath>
+    <pollutedTexturePath>Terrain/Surfaces/GastricAcid</pollutedTexturePath>
+    <waterDepthShader>Map/WaterDepth</waterDepthShader>
+    <renderPrecedence>393</renderPrecedence>
+    <pathCost>150</pathCost>
+    <extraDeteriorationFactor>0.1</extraDeteriorationFactor>
+    <extraNonDraftedPerceivedPathCost>400</extraNonDraftedPerceivedPathCost>
+    <extraDraftedPerceivedPathCost>400</extraDraftedPerceivedPathCost>
+    <avoidWander>true</avoidWander>
+    <dangerous>true</dangerous>
+    <burnDamage>3</burnDamage>
+    <burnIntervalTicks>120</burnIntervalTicks>
+    <canFreeze>false</canFreeze>
+    <temporary>true</temporary>
+    <tempTerrain>
+      <replaceableByBridge>true</replaceableByBridge>
+    </tempTerrain>
+    <floodTerrain>FB_GastricAcid</floodTerrain>
+    <color>(0.62, 0.90, 0.22)</color>
+    <filthAcceptanceMask>
+      <li>None</li>
+    </filthAcceptanceMask>
+    <tags>
+      <li>Water</li>
+      <li>FB_FleshColonyTerrain</li>
+    </tags>
+    <passability>Standable</passability>
+    <waterBodyType>Other</waterBodyType>
+    <affordances>
+      <li>Bridgeable</li>
+      <li>Walkable</li>
+    </affordances>
+  </TerrainDef>
+</Defs>

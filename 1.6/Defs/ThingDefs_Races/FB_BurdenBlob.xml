@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Раса: burden blob (FB_BurdenBlob) -->
+  <ThingDef ParentName="BasePawn">
+    <defName>FB_BurdenBlob</defName>
+    <label>burden blob</label>
+    <description>A small hauling fleshbeast grown to ferry the colony's loose materials. A swollen hemogel sac keeps its body mobile, and when that reserve runs low it creeps back to the nearest colony heart to feed. If there is no work to do, it clings to an interior wall and hardens into a quiet lump of meat until the colony needs another load carried.</description>
+    <tradeability>None</tradeability>
+    <uiIconPath>Things/Pawn/FB_BurdenBlob/FB_BurdenBlob_south</uiIconPath>
+    <statBases>
+      <MoveSpeed>3.8</MoveSpeed>
+      <ComfyTemperatureMin>-30</ComfyTemperatureMin>
+      <ComfyTemperatureMax>60</ComfyTemperatureMax>
+      <Flammability>1.15</Flammability>
+      <MeatAmount>4</MeatAmount>
+      <MarketValue>65</MarketValue>
+      <ToxicResistance>0.9</ToxicResistance>
+      <WorkSpeedGlobal>0.9</WorkSpeedGlobal>
+    </statBases>
+    <race>
+      <body>FB_BurdenBlobBody</body>
+      <baseBodySize>0.42</baseBodySize>
+      <baseHungerRate>0.08</baseHungerRate>
+      <baseHealthScale>0.55</baseHealthScale>
+      <lifeExpectancy>12</lifeExpectancy>
+      <renderTree>Animal</renderTree>
+      <intelligence>ToolUser</intelligence>
+      <trainability>None</trainability>
+      <thinkTreeMain>FB_BurdenBlobMain</thinkTreeMain>
+      <thinkTreeConstant>FB_BurdenBlobConstant</thinkTreeConstant>
+      <specificMeatDef>Meat_Twisted</specificMeatDef>
+      <canOpenFactionlessDoors>false</canOpenFactionlessDoors>
+      <needsRest>false</needsRest>
+      <hasGenders>false</hasGenders>
+      <foodType>None</foodType>
+      <canBePredatorPrey>false</canBePredatorPrey>
+      <bloodDef>Filth_Blood</bloodDef>
+      <bloodSmearDef>Filth_BloodSmear</bloodSmearDef>
+      <soundMeleeDodge>Pawn_MeleeDodge</soundMeleeDodge>
+      <fleshType>Fleshbeast</fleshType>
+      <isImmuneToInfections>true</isImmuneToInfections>
+      <bleedRateFactor>0.45</bleedRateFactor>
+      <hediffGiverSets />
+      <corpseHiddenWhileUndiscovered>true</corpseHiddenWhileUndiscovered>
+      <deathAction Class="DeathActionProperties_Vanish">
+        <workerClass>DeathActionWorker_Vanish</workerClass>
+        <filth>Filth_TwistedFlesh</filth>
+        <filthCountRange>1~3</filthCountRange>
+        <meatExplosionSize>Small</meatExplosionSize>
+      </deathAction>
+      <lifeStageAges>
+        <li>
+          <def>EntityFullyFormed</def>
+          <soundWounded>Pawn_Fleshbeast_Fingerspike_Wounded</soundWounded>
+          <soundDeath>Pawn_Fleshbeast_Fingerspike_Death</soundDeath>
+          <soundCall>Pawn_Fleshbeast_Fingerspike_Call</soundCall>
+        </li>
+      </lifeStageAges>
+    </race>
+    <comps>
+      <li Class="FB.CompProperties_BurdenBlobHemogel">
+        <maxHemogel>1.4</maxHemogel>
+        <initialHemogel>1.4</initialHemogel>
+        <hemogelPerCellMoved>0.0018</hemogelPerCellMoved>
+        <refillThresholdPercent>0.1</refillThresholdPercent>
+        <refillPerTick>0.008</refillPerTick>
+        <heartSearchRadius>220</heartSearchRadius>
+        <refillInterruptCheckInterval>90</refillInterruptCheckInterval>
+      </li>
+    </comps>
+    <tools>
+      <li>
+        <label>left pseudopod</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>2.6</cooldownTime>
+        <linkedBodyPartsGroup>FirstTentacle</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.45</chanceFactor>
+        <soundMeleeHit>Pawn_Fleshbeast_Attack_Blunt</soundMeleeHit>
+      </li>
+      <li>
+        <label>right pseudopod</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>2.6</cooldownTime>
+        <linkedBodyPartsGroup>SecondTentacle</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.45</chanceFactor>
+        <soundMeleeHit>Pawn_Fleshbeast_Attack_Blunt</soundMeleeHit>
+      </li>
+    </tools>
+  </ThingDef>
+</Defs>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="PawnFlyerBase">
+    <defName>FB_DevourerChargeFlyer</defName>
+    <label>devourer charge</label>
+    <thingClass>FB.PawnFlyer_DevourerCharge</thingClass>
+    <pawnFlyer>
+      <flightDurationMin>0.18</flightDurationMin>
+      <flightSpeed>22</flightSpeed>
+      <heightFactor>0.35</heightFactor>
+    </pawnFlyer>
+  </ThingDef>
+</Defs>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_FleshGeneArchiveInspect>Archived genepacks: {0}</FB_FleshGeneArchiveInspect>
+  <FB_FleshGeneArchiveInvalidGene>That gene pattern cannot be archived.</FB_FleshGeneArchiveInvalidGene>
+  <FB_FleshGeneArchiveFull>The genome archive has no free capacity.</FB_FleshGeneArchiveFull>
+  <FB_ForgetGenepackLabel>Erase stored genepack</FB_ForgetGenepackLabel>
+  <FB_ForgetGenepackDesc>Erase this stored genepack. It will not be ejected or recovered.</FB_ForgetGenepackDesc>
+  <FB_ConfirmForgetGenepack>Erase {0}? This will permanently delete the stored genepack.</FB_ConfirmForgetGenepack>
+  <FB_ContainedPawn>Contained pawn: {0}</FB_ContainedPawn>
+  <FB_WaitingForPawn>Waiting for {0}.</FB_WaitingForPawn>
+  <FB_ColonyBrain_Structure_GenophageCocoon_Label>Genophage cocoon</FB_ColonyBrain_Structure_GenophageCocoon_Label>
+  <FB_ColonyBrain_Structure_GenomeArchive_Label>Genome archive</FB_ColonyBrain_Structure_GenomeArchive_Label>
+  <FB_ColonyBrain_Structure_GeneReweaver_Label>Gene reweaver</FB_ColonyBrain_Structure_GeneReweaver_Label>
+  <FB_GenophageSelectDonorLabel>Select donor</FB_GenophageSelectDonorLabel>
+  <FB_GenophageSelectDonorDesc>Choose a living donor pawn with genes. The cocoon slowly copies any unknown genes it can archive, then releases the donor after extraction.</FB_GenophageSelectDonorDesc>
+  <FB_GenophageNoArchiveSpace>No genome archive with free capacity is available.</FB_GenophageNoArchiveSpace>
+  <FB_GenophageNoGenes>This donor has no genes.</FB_GenophageNoGenes>
+  <FB_GenophageGenesRegrowing>This donor's xenogerm is still regrowing.</FB_GenophageGenesRegrowing>
+  <FB_GenophageExtractingInspect>Extracting genes from {0}: {1} h remaining.</FB_GenophageExtractingInspect>
+  <FB_GenophageExtractedGenes>{PAWN_labelShort} had {0} genes copied by the genophage cocoon. The copied genepack was stored in a genome archive, and the donor was released.</FB_GenophageExtractedGenes>
+  <FB_GenophageReleaseDonorLabel>Release donor</FB_GenophageReleaseDonorLabel>
+  <FB_GenophageReleaseDonorDesc>Spit out the contained donor and cancel the current extraction.</FB_GenophageReleaseDonorDesc>
+  <FB_GenophageDevFinishExtractionLabel>DEV: finish gene extraction</FB_GenophageDevFinishExtractionLabel>
+  <FB_GenophageDevFinishExtractionDesc>Immediately complete this cocoon's current gene extraction.</FB_GenophageDevFinishExtractionDesc>
+  <FB_GeneReweaverRecombineDesc>Choose archived genepacks to weave into an internal flesh xenogerm for cocoon integration.</FB_GeneReweaverRecombineDesc>
+  <FB_GeneReweaverNoArchiveGenes>No archived genepacks are available.</FB_GeneReweaverNoArchiveGenes>
+  <FB_GeneReweaverBusyRecombining>The reweaver is already creating a flesh xenogerm.</FB_GeneReweaverBusyRecombining>
+  <FB_GeneReweaverCurrentOperation>{0}: {1} h remaining</FB_GeneReweaverCurrentOperation>
+  <FB_GeneReweaverCurrentXenogerm>Weaving flesh xenogerm: {0} h remaining</FB_GeneReweaverCurrentXenogerm>
+  <FB_GeneReweaverQueuedOperations>Queued genes: {0}</FB_GeneReweaverQueuedOperations>
+  <FB_GeneReweaverOperationImplant>Weave {0}</FB_GeneReweaverOperationImplant>
+  <FB_GeneReweaverOperationFailed>The flesh xenogerm weaving procedure failed.</FB_GeneReweaverOperationFailed>
+  <FB_ChromophageStoredGenesInspect>Stored genepacks: {0} / {1}</FB_ChromophageStoredGenesInspect>
+  <FB_ChromophageExtractGenesLabel>Extract genes from body</FB_ChromophageExtractGenesLabel>
+  <FB_ChromophageExtractGenesDesc>Extract one or two genes from a humanlike corpse, store them inside the chromophage as a genepack, and consume the remains.</FB_ChromophageExtractGenesDesc>
+  <FB_ChromophageUnloadGenesLabel>Unload genes</FB_ChromophageUnloadGenesLabel>
+  <FB_ChromophageUnloadGenesDesc>Unload stored genepacks into a selected genome archive.</FB_ChromophageUnloadGenesDesc>
+  <FB_ChromophageInvalidCaster>Only a chromophage can perform this gene work.</FB_ChromophageInvalidCaster>
+  <FB_ChromophageStorageFull>The chromophage has no free internal gene storage.</FB_ChromophageStorageFull>
+  <FB_ChromophageInvalidCorpse>Choose a humanlike organic corpse.</FB_ChromophageInvalidCorpse>
+  <FB_ChromophageCorpseExhausted>This corpse has already been stripped of useful genetic traces.</FB_ChromophageCorpseExhausted>
+  <FB_ChromophageNoCorpseGenes>No usable gene traces remain in this corpse.</FB_ChromophageNoCorpseGenes>
+  <FB_ChromophageCannotReachCorpse>The chromophage cannot reach that corpse.</FB_ChromophageCannotReachCorpse>
+  <FB_ChromophageNoStoredGenes>The chromophage is not carrying any genepacks.</FB_ChromophageNoStoredGenes>
+  <FB_ChromophageInvalidArchive>Choose a living genome archive.</FB_ChromophageInvalidArchive>
+  <FB_ChromophageCannotReachArchive>The chromophage cannot reach that archive.</FB_ChromophageCannotReachArchive>
+  <FB_ChromophageExtractedGenes>Chromophage extracted gene traces: {0}.</FB_ChromophageExtractedGenes>
+  <FB_ChromophageUnloadedGenes>Chromophage unloaded gene traces into the genome archive: {0}.</FB_ChromophageUnloadedGenes>
+  <FB_GenophageNoGenesExtracted>{PAWN_labelShort} had no unknown genes for the genophage cocoon to copy into the archive.</FB_GenophageNoGenesExtracted>
+  <FB_GeneReweaverCreateXenogermLabel>Create flesh xenogerm...</FB_GeneReweaverCreateXenogermLabel>
+  <FB_GeneReweaverCreateXenogermDesc>Choose archived genes and weave them into one internal flesh xenogerm. The reweaver works on the full pattern under a single timer.</FB_GeneReweaverCreateXenogermDesc>
+  <FB_GeneReweaverCancelXenogermLabel>Cancel flesh xenogerm</FB_GeneReweaverCancelXenogermLabel>
+  <FB_GeneReweaverCancelXenogermDesc>Cancel the current flesh xenogerm. Already spent hemogel will not be refunded.</FB_GeneReweaverCancelXenogermDesc>
+  <FB_GeneReweaverDevFinishXenogermLabel>DEV: finish flesh xenogerm</FB_GeneReweaverDevFinishXenogermLabel>
+  <FB_GeneReweaverDevFinishXenogermDesc>Immediately finish the gene reweaver's current flesh xenogerm preparation.</FB_GeneReweaverDevFinishXenogermDesc>
+  <FB_GeneReweaverBusyCreating>The reweaver is already creating a flesh xenogerm.</FB_GeneReweaverBusyCreating>
+  <FB_GeneReweaverQueuedXenogerm>Queued {0} genes for a flesh xenogerm.</FB_GeneReweaverQueuedXenogerm>
+  <FB_GeneReweaverPreparedReady>{0} is ready inside the gene reweaver. Genes prepared: {1}.</FB_GeneReweaverPreparedReady>
+  <FB_GeneReweaverPreparedAlready>A prepared flesh xenogerm is already stored inside.</FB_GeneReweaverPreparedAlready>
+  <FB_GeneReweaverIdleInspect>Flesh xenogerm: idle</FB_GeneReweaverIdleInspect>
+  <FB_GeneReweaverCompletedGenes>Integrated genes: {0}</FB_GeneReweaverCompletedGenes>
+  <FB_GeneReweaverDialogHeader>Create flesh xenogerm</FB_GeneReweaverDialogHeader>
+  <FB_GeneReweaverCreateButton>Start weaving</FB_GeneReweaverCreateButton>
+  <FB_GeneReweaverCallPawnLabel>Call pawn to gene cocoon...</FB_GeneReweaverCallPawnLabel>
+  <FB_GeneReweaverCallPawnDesc>Choose a controllable pawn to enter a temporary gene cocoon and integrate the prepared flesh xenogerm.</FB_GeneReweaverCallPawnDesc>
+  <FB_GeneReweaverDissolvePreparedLabel>Dissolve prepared xenogerm</FB_GeneReweaverDissolvePreparedLabel>
+  <FB_GeneReweaverDissolvePreparedDesc>Dissolve the prepared flesh xenogerm stored inside this reweaver. Spent hemogel will not be refunded.</FB_GeneReweaverDissolvePreparedDesc>
+  <FB_GeneReweaverPreparedDissolved>The prepared flesh xenogerm dissolved.</FB_GeneReweaverPreparedDissolved>
+  <FB_GeneReweaverPreparedInspect>Prepared xenogerm: {0} ({1} genes)</FB_GeneReweaverPreparedInspect>
+  <FB_GeneReweaverNoPreparedXenogerm>No prepared flesh xenogerm.</FB_GeneReweaverNoPreparedXenogerm>
+  <FB_GeneReweaverInvalidIntegrationPawn>This pawn cannot integrate the prepared xenogerm.</FB_GeneReweaverInvalidIntegrationPawn>
+  <FB_GeneReweaverDifferentMap>The pawn must be on the same map.</FB_GeneReweaverDifferentMap>
+  <FB_GeneReweaverNoCocoonCell>No reachable cell for a gene cocoon.</FB_GeneReweaverNoCocoonCell>
+  <FB_GeneReweaverCocoonStarted>{PAWN_nameDef} enters a gene cocoon to integrate {XENOGERM}.</FB_GeneReweaverCocoonStarted>
+  <FB_GeneReweaverCocoonComplete>{PAWN_nameDef} emerged from the gene cocoon with {XENOGERM} integrated.</FB_GeneReweaverCocoonComplete>
+  <FB_GeneReweaverCocoonDied>{0} died in the ruptured gene cocoon.</FB_GeneReweaverCocoonDied>
+</LanguageData>

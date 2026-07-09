@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <FB_BrainFleshResurrection_CommandLabel>Воскресить через плоть</FB_BrainFleshResurrection_CommandLabel>
+  <FB_BrainFleshResurrection_CommandDesc>Выберите свежий человеческий труп с целым мозгом. Ближайший способный пальцешип внедрится в тело и воскресит его как часть колонии плоти.</FB_BrainFleshResurrection_CommandDesc>
+  <FB_BrainFleshResurrection_Cooldown>Воскрешение будет готово через {0}.</FB_BrainFleshResurrection_Cooldown>
+  <FB_BrainFleshResurrection_AlreadyAssigned>Воскрешение уже выполняется.</FB_BrainFleshResurrection_AlreadyAssigned>
+  <FB_BrainFleshResurrection_NoFingerspike>Нет доступного пальцешипа игрока, способного выполнить воскрешение.</FB_BrainFleshResurrection_NoFingerspike>
+  <FB_BrainFleshResurrection_NoReachableFingerspike>Ни один способный пальцешип не может добраться до этого трупа.</FB_BrainFleshResurrection_NoReachableFingerspike>
+  <FB_BrainFleshResurrection_CannotStart>Выбранный пальцешип не смог начать воскрешение.</FB_BrainFleshResurrection_CannotStart>
+  <FB_BrainFleshResurrection_Assigned>{0} направляется воскресить {1}.</FB_BrainFleshResurrection_Assigned>
+  <FB_BrainFleshResurrection_InvalidTarget>Выберите свежий человеческий труп на этой карте.</FB_BrainFleshResurrection_InvalidTarget>
+  <FB_BrainFleshResurrection_NotFresh>Через плоть можно воскресить только свежий труп.</FB_BrainFleshResurrection_NotFresh>
+  <FB_BrainFleshResurrection_HumanlikeOnly>Через плоть можно воскресить только человеческий труп.</FB_BrainFleshResurrection_HumanlikeOnly>
+  <FB_BrainFleshResurrection_BrainRequired>Мозг трупа должен быть цел.</FB_BrainFleshResurrection_BrainRequired>
+  <FB_BrainFleshResurrection_TargetAlreadyAssigned>Этот труп уже назначен другому мозгу колонии.</FB_BrainFleshResurrection_TargetAlreadyAssigned>
+  <FB_BrainFleshResurrection_Failed>Плоти не удалось оживить тело.</FB_BrainFleshResurrection_Failed>
+  <FB_BrainFleshResurrection_Success>{0} воскрешён и принят колонией плоти.</FB_BrainFleshResurrection_Success>
+  <FB_BrainFleshResurrection_InspectAssigned>Цель воскрешения: {0}</FB_BrainFleshResurrection_InspectAssigned>
+  <FB_BrainFleshResurrection_InspectCooldown>Перезарядка воскрешения через плоть: {0}</FB_BrainFleshResurrection_InspectCooldown>
+
+</LanguageData>

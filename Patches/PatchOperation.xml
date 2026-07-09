@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[race/fleshType='Fleshbeast' and not(race/allowedOnCaravan)]/race</xpath>
+    <value>
+      <allowedOnCaravan>true</allowedOnCaravan>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[race/fleshType='Fleshbeast']/race/allowedOnCaravan</xpath>
+    <value>
+      <allowedOnCaravan>true</allowedOnCaravan>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThinkTreeDef[defName="FleshbeastConstant"]/thinkRoot/subNodes/li[treeDef="JoinAutoJoinableCaravan"]</xpath>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>/Defs/ThinkTreeDef[defName="FleshbeastConstant"]/thinkRoot/subNodes</xpath>
+      <value>
+        <subNodes>
+          <li Class="ThinkNode_Subtree">
+            <treeDef>Despawned</treeDef>
+          </li>
+          <li Class="ThinkNode_ConditionalCanDoConstantThinkTreeJobNow">
+            <subNodes>
+              <li Class="ThinkNode_Subtree">
+                <treeDef>JoinAutoJoinableCaravan</treeDef>
+              </li>
+            </subNodes>
+          </li>
+          <li Class="ThinkNode_ConditionalCanDoLordJobNow">
+            <subNodes>
+              <li Class="ThinkNode_Subtree">
+                <treeDef>LordDutyConstant</treeDef>
+              </li>
+            </subNodes>
+          </li>
+        </subNodes>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[@Name='Fleshmass']/comps</xpath>
+    <value>
+      <li Class="FB.CompProperties_FleshRegeneration">
+        <ticksPerHeal>2000</ticksPerHeal>
+        <requiresHemogel>false</requiresHemogel>
+        <onlyPlayerFaction>true</onlyPlayerFaction>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[@Name='Fleshmass']/building</xpath>
+    <value>
+      <repairable>false</repairable>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[@Name='Fleshmass']/comps</xpath>
+    <value>
+      <li Class="FB.CompProperties_TransformInto">
+        <targetDef>FB_FleshDoor</targetDef>
+        <commandLabel>Transform to Fleshmass Door</commandLabel>
+        <commandDesc>Transforms this fleshmass into a grotesque flesh door.</commandDesc>
+        <commandIcon>UI/Commands/FleshmassDoorIcon</commandIcon>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <!-- Bulbfreak -->
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Bulbfreak"]/statBases/MarketValue</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Bulbfreak"]/statBases/MarketValue</xpath>
+          <value>
+            <MarketValue>1500</MarketValue>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Bulbfreak"]/statBases</xpath>
+          <value>
+            <MarketValue>1500</MarketValue>
+          </value>
+        </nomatch>
+      </li>
+      <!-- Toughspike -->
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Toughspike"]/statBases/MarketValue</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Toughspike"]/statBases/MarketValue</xpath>
+          <value>
+            <MarketValue>650</MarketValue>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Toughspike"]/statBases</xpath>
+          <value>
+            <MarketValue>650</MarketValue>
+          </value>
+        </nomatch>
+      </li>
+      <!-- Trispike -->
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Trispike"]/statBases/MarketValue</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Trispike"]/statBases/MarketValue</xpath>
+          <value>
+            <MarketValue>420</MarketValue>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Trispike"]/statBases</xpath>
+          <value>
+            <MarketValue>420</MarketValue>
+          </value>
+        </nomatch>
+      </li>
+      <!-- Fingerspike -->
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Fingerspike"]/statBases/MarketValue</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Fingerspike"]/statBases/MarketValue</xpath>
+          <value>
+            <MarketValue>180</MarketValue>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Fingerspike"]/statBases</xpath>
+          <value>
+            <MarketValue>180</MarketValue>
+          </value>
+        </nomatch>
+      </li>
+      <!-- Dreadmeld -->
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Dreadmeld"]/statBases/MarketValue</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Dreadmeld"]/statBases/MarketValue</xpath>
+          <value>
+            <MarketValue>7000</MarketValue>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Dreadmeld"]/statBases</xpath>
+          <value>
+            <MarketValue>7000</MarketValue>
+          </value>
+        </nomatch>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

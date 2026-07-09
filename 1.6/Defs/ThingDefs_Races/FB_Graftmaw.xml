@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Раса: graftmaw (FB_Graftmaw) -->
+  <ThingDef ParentName="BasePawn">
+    <defName>FB_Graftmaw</defName>
+    <label>graftmaw</label>
+    <description>A field medic fleshbeast that stitches wounds, swallows loose or extracted implants, and grafts them directly into chosen colony pawns.</description>
+    <tradeability>None</tradeability>
+    <uiIconPath>Things/Pawn/FB_Graftmaw/FB_Graftmaw_south</uiIconPath>
+    <statBases>
+      <MoveSpeed>2.2</MoveSpeed>
+      <MedicalTendQuality>1.15</MedicalTendQuality>
+      <MeleeHitChance>0.74</MeleeHitChance>
+      <ComfyTemperatureMin>-25</ComfyTemperatureMin>
+      <ComfyTemperatureMax>55</ComfyTemperatureMax>
+      <Flammability>1.15</Flammability>
+      <MeatAmount>7</MeatAmount>
+      <Mass>12</Mass>
+      <MarketValue>185</MarketValue>
+      <ToxicResistance>0.7</ToxicResistance>
+    </statBases>
+    <race>
+      <body>FB_GraftmawBody</body>
+      <baseBodySize>1.2</baseBodySize>
+      <baseHungerRate>0.08</baseHungerRate>
+      <baseHealthScale>0.68</baseHealthScale>
+      <lifeExpectancy>16</lifeExpectancy>
+      <renderTree>Animal</renderTree>
+      <intelligence>ToolUser</intelligence>
+      <trainability>None</trainability>
+      <thinkTreeMain>FB_GraftmawMain</thinkTreeMain>
+      <thinkTreeConstant>FleshbeastConstant</thinkTreeConstant>
+      <specificMeatDef>Meat_Twisted</specificMeatDef>
+      <canOpenFactionlessDoors>false</canOpenFactionlessDoors>
+      <needsRest>false</needsRest>
+      <hasGenders>false</hasGenders>
+      <foodType>None</foodType>
+      <canBePredatorPrey>false</canBePredatorPrey>
+      <bloodDef>Filth_Blood</bloodDef>
+      <bloodSmearDef>Filth_BloodSmear</bloodSmearDef>
+      <soundMeleeDodge>Pawn_MeleeDodge</soundMeleeDodge>
+      <fleshType>Fleshbeast</fleshType>
+      <isImmuneToInfections>true</isImmuneToInfections>
+      <bleedRateFactor>0.52</bleedRateFactor>
+      <corpseHiddenWhileUndiscovered>true</corpseHiddenWhileUndiscovered>
+      <deathAction Class="DeathActionProperties_Vanish">
+        <workerClass>DeathActionWorker_Vanish</workerClass>
+        <filth>Filth_TwistedFlesh</filth>
+        <filthCountRange>2~4</filthCountRange>
+        <meatExplosionSize>Small</meatExplosionSize>
+      </deathAction>
+      <lifeStageAges>
+        <li>
+          <def>EntityFullyFormed</def>
+          <soundWounded>Pawn_Fleshbeast_Fingerspike_Wounded</soundWounded>
+          <soundDeath>Pawn_Fleshbeast_Fingerspike_Death</soundDeath>
+          <soundCall>Pawn_Fleshbeast_Fingerspike_Call</soundCall>
+        </li>
+      </lifeStageAges>
+    </race>
+    <comps>
+      <li Class="FB.CompProperties_GraftmawSurgery">
+		<maxStoredItems>10</maxStoredItems>
+        <absorbDurationTicks>110</absorbDurationTicks>
+        <installDurationTicks>240</installDurationTicks>
+        <extractDurationTicks>220</extractDurationTicks>
+        <tendDurationTicks>90</tendDurationTicks>
+        <minTendQuality>0.7</minTendQuality>
+        <postInstallAnestheticSeverity>1</postInstallAnestheticSeverity>
+        <autoTendMaxDistance>30</autoTendMaxDistance>
+        <autoTendSearchIntervalTicks>250</autoTendSearchIntervalTicks>
+        <absorbLabel>FB_Graftmaw_HarvestSample</absorbLabel>
+        <absorbDesc>FB_Graftmaw_HarvestSampleDesc</absorbDesc>
+        <absorbIconPath>UI/Commands/GraftmawAbsorb</absorbIconPath>
+        <installLabel>FB_Graftmaw_InstallStored</installLabel>
+        <installDesc>FB_Graftmaw_InstallStoredDesc</installDesc>
+        <installIconPath>UI/Commands/GraftmawInstall</installIconPath>
+      </li>
+    </comps>
+    <inspectorTabs>
+      <li>FB.ITab_GraftmawStorage</li>
+    </inspectorTabs>
+    <tools>
+      <li>
+        <label>needle maw</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>2.2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+        <soundMeleeHit>Pawn_Dreadmeld_Attack_Spike</soundMeleeHit>
+      </li>
+      <li>
+        <label>front suturing tendril</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>4.5</power>
+        <cooldownTime>2.4</cooldownTime>
+        <linkedBodyPartsGroup>FirstTentacle</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.5</chanceFactor>
+        <soundMeleeHit>Pawn_Fleshbeast_Attack_Blunt</soundMeleeHit>
+      </li>
+      <li>
+        <label>paired suturing tendril</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>4.5</power>
+        <cooldownTime>2.4</cooldownTime>
+        <linkedBodyPartsGroup>SecondTentacle</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.4</chanceFactor>
+        <soundMeleeHit>Pawn_Fleshbeast_Attack_Blunt</soundMeleeHit>
+      </li>
+    </tools>
+  </ThingDef>
+</Defs>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Состояние: Organic mass (FB_OrganicMass) -->
+  <HediffDef ParentName="AddedMutationBase">
+    <defName>FB_OrganicMass</defName>
+    <label>Organic mass</label>
+    <labelNoun>a Organic mass</labelNoun>
+    <description>This living tissue is used by the dense weaver to heal and replace lost limbs of allied pawns. Over time, the organic mass will continue to grow and spread throughout the host's body, potentially replacing more and more of their original tissues.</description>
+    <stages>
+      <li>
+        <painOffset>0.08</painOffset>
+      </li>
+    </stages>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1</partEfficiency>
+    </addedPartProps>
+    <comps>
+      <li Class="FB.HediffCompProperties_TransformOnThreshold">
+        <threshold>5</threshold>
+        <geneDef>FB_BiomassEvolution</geneDef>
+        <transformationPawnKind>Trispike</transformationPawnKind>
+        <prerequisiteGenes>
+          <li>FB_BiomassEvolution</li>
+          <li>FB_HiveConstructor</li>
+          <li>FB_Assimilator</li>
+          <li>FB_OrganicArmor</li>
+          <li>FB_PulsatingMold</li>
+          <li>FB_Fragmentation</li>
+          <li>FB_ReplicatorParasite</li>
+          <li>FB_Scavenger</li>
+        </prerequisiteGenes>
+        <timeToTransformation>60000</timeToTransformation>
+        <disappearAfterTicks>30000</disappearAfterTicks>
+        <initialNotificationText>Your pawn is transforming soon.</initialNotificationText>
+        <transformationNotificationText>Your pawn has transformed into a flesh monster.</transformationNotificationText>
+      </li>
+    </comps>
+  </HediffDef>
+</Defs>

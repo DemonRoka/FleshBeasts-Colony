@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="PawnFlyerBase">
+    <defName>FB_FleshTunnelEntryFlyer</defName>
+    <label>flesh tunnel entry leap</label>
+    <thingClass>FB.PawnFlyer_FleshTunnelEntry</thingClass>
+    <pawnFlyer>
+      <flightDurationMin>0.18</flightDurationMin>
+      <flightSpeed>20</flightSpeed>
+      <heightFactor>0.35</heightFactor>
+    </pawnFlyer>
+  </ThingDef>
+
+  <ThingDef ParentName="PawnFlyerBase">
+    <defName>FB_FleshTunnelExitFlyer</defName>
+    <label>flesh tunnel exit leap</label>
+    <thingClass>FB.PawnFlyer_FleshTunnelExit</thingClass>
+    <pawnFlyer>
+      <flightDurationMin>0.22</flightDurationMin>
+      <flightSpeed>18</flightSpeed>
+      <heightFactor>0.45</heightFactor>
+    </pawnFlyer>
+  </ThingDef>
+</Defs>

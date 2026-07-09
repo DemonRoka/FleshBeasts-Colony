@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_RequiresSpecificCorpse>Requires a corpse of: {0}.</FB_RequiresSpecificCorpse>
+  <FB_RequiresStoredCorpse>Requires an allowed corpse in storage.</FB_RequiresStoredCorpse>
+  <FB_RequiresSpecificStoredCorpse>Requires an allowed corpse in storage: {0}.</FB_RequiresSpecificStoredCorpse>
+  <FB_AnyCorpse>any corpse</FB_AnyCorpse>
+</LanguageData>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_FleshConvergenceGridTooltip>Выбрать форму объединения плоти.</FB_FleshConvergenceGridTooltip>
+  <FB_FleshConvergenceBulbfreakLabel>Бульбоурод</FB_FleshConvergenceBulbfreakLabel>
+  <FB_FleshConvergenceBulbfreakDesc>Призвать ближайших союзных пальцешипов, трёхшипов и крепкошипов к жестокому объединению, формируя управляемого бульбоурода с носителем, запечатанным внутри.</FB_FleshConvergenceBulbfreakDesc>
+  <FB_FleshConvergenceCarrionArchitectLabel>Архитектор падали</FB_FleshConvergenceCarrionArchitectLabel>
+  <FB_FleshConvergenceCarrionArchitectDesc>Призвать ближайших союзных флешбистов в медленную массивную форму, способную перекраивать органические трупы в новых пальцешипов.</FB_FleshConvergenceCarrionArchitectDesc>
+  <FB_FleshConvergenceChromophageLabel>Хромофаг</FB_FleshConvergenceChromophageLabel>
+  <FB_FleshConvergenceChromophageDesc>Призвать ближайших союзных флешбистов в форму сборщика генов, способную извлекать генетические следы из гуманоидных трупов и выгружать их в геномный архив.</FB_FleshConvergenceChromophageDesc>
+  <FB_FleshConvergencePersonalityDevourerLabel>Поглотитель личностей</FB_FleshConvergencePersonalityDevourerLabel>
+  <FB_FleshConvergencePersonalityDevourerDesc>Призвать ближайших союзных флешбистов в форму пожирателя памяти, который поглощает гуманоидные трупы с сохранившимся мозгом и записывает их в мозг колонии.</FB_FleshConvergencePersonalityDevourerDesc>
+  <FB_FleshConvergenceLockedLabel>Пустая форма</FB_FleshConvergenceLockedLabel>
+  <FB_FleshConvergenceLockedDesc>Этот узор объединения ещё не сформирован.</FB_FleshConvergenceLockedDesc>
+  <FB_FleshConvergenceFormLocked>Эта форма объединения пока недоступна.</FB_FleshConvergenceFormLocked>
+  <FB_FleshConvergenceCooldown>Объединение плоти восстанавливается: {0}.</FB_FleshConvergenceCooldown>
+  <FB_CarrionReworkInvalidCaster>Только Архитектор падали может перекраивать трупы.</FB_CarrionReworkInvalidCaster>
+  <FB_CarrionReworkInvalidTarget>Выберите органический труп.</FB_CarrionReworkInvalidTarget>
+  <FB_CarrionReworkMechanoidCorpse>Трупы механоидов нельзя перекроить во флешбистов.</FB_CarrionReworkMechanoidCorpse>
+  <FB_CarrionReworkNoLineOfSight>Архитектор падали не может дотянуться жгутами до этого трупа.</FB_CarrionReworkNoLineOfSight>
+  <FB_CarrionReworkCannotReach>Архитектор падали не может добраться до этого трупа.</FB_CarrionReworkCannotReach>
+  <FB_CarrionReworkCannotStart>Архитектор падали не может начать переработку этого трупа.</FB_CarrionReworkCannotStart>
+  <FB_CarrionReworkCompleted>Труп лопается в пальцешипов: {0}.</FB_CarrionReworkCompleted>
+</LanguageData>

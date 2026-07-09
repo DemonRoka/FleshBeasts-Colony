@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_FleshbeastBillDonors>Доноры</FB_FleshbeastBillDonors>
+  <FB_FleshbeastBillDonorsAll>Разрешить всех доноров</FB_FleshbeastBillDonorsAll>
+  <FB_FleshbeastBillDonorsNoneBlocked>Должен остаться хотя бы один разрешённый вид доноров.</FB_FleshbeastBillDonorsNoneBlocked>
+  <FB_FleshbeastBillAllowAll>Разрешить всё</FB_FleshbeastBillAllowAll>
+  <FB_FleshbeastBillClearAll>Запретить всё</FB_FleshbeastBillClearAll>
+  <FB_FleshbeastBillNoValidCombination>Нет допустимой комбинации из разрешённых доноров.</FB_FleshbeastBillNoValidCombination>
+  <FB_FleshbeastBillOr>или</FB_FleshbeastBillOr>
+  <FB_FleshbeastBillRepeatHemogelAbove>Если гемогель выше {0}</FB_FleshbeastBillRepeatHemogelAbove>
+  <FB_FleshbeastBillRepeatHemogelAboveMenu>Если гемогель выше X</FB_FleshbeastBillRepeatHemogelAboveMenu>
+  <FB_FleshbeastBillRepeatHemogelInfo>Гемогель: {0} / порог {1}</FB_FleshbeastBillRepeatHemogelInfo>
+</LanguageData>

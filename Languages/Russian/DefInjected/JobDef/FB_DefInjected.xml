@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ConsumeCorpseForSpawning.reportString>выслеживает TargetA.</ConsumeCorpseForSpawning.reportString>
+  <FB_BurdenBlobLatchToWall.reportString>цепляется к стене колонии.</FB_BurdenBlobLatchToWall.reportString>
+  <FB_BurdenBlobRefillAtHeart.reportString>пополняет гемогель у сердца колонии.</FB_BurdenBlobRefillAtHeart.reportString>
+  <FB_CarapaceExcavatorMine.reportString>выкапывает породу.</FB_CarapaceExcavatorMine.reportString>
+  <FB_CarapaceExcavatorRegrowAtHeart.reportString>отращивает копательные пластины.</FB_CarapaceExcavatorRegrowAtHeart.reportString>
+  <FB_CocoonbackCapturePawn.reportString>запечатывает TargetA внутри кокона</FB_CocoonbackCapturePawn.reportString>
+  <FB_CocoonbackRefillAtHeart.reportString>тянет гемогель из сердца колонии</FB_CocoonbackRefillAtHeart.reportString>
+  <FB_CocoonbackReleasePawn.reportString>выпускает пленника</FB_CocoonbackReleasePawn.reportString>
+  <FB_FerrimawConsumeSteel.reportString>поглощает сталь.</FB_FerrimawConsumeSteel.reportString>
+  <FB_FinishFrame.reportString>строит TargetA.</FB_FinishFrame.reportString>
+  <FB_FleshColonyConsumeHemogelAtHeart.reportString>поглощает гемогель из TargetA.</FB_FleshColonyConsumeHemogelAtHeart.reportString>
+  <FB_FleshbeastHealingSleep.reportString>спит в плоти колонии.</FB_FleshbeastHealingSleep.reportString>
+  <FB_GraftmawAbsorbSample.reportString>поглощает имплант или протез.</FB_GraftmawAbsorbSample.reportString>
+  <FB_GraftmawExtractImplant.reportString>извлекает имплант.</FB_GraftmawExtractImplant.reportString>
+  <FB_GraftmawExtractPart.reportString>извлекает внешнюю часть тела.</FB_GraftmawExtractPart.reportString>
+  <FB_GraftmawInstallStoredPart.reportString>устанавливает сохранённый протез.</FB_GraftmawInstallStoredPart.reportString>
+  <FB_GraftmawInstallStoredThing.reportString>устанавливает сохранённый имплант.</FB_GraftmawInstallStoredThing.reportString>
+  <FB_GraftmawTendPatient.reportString>зашивает раны.</FB_GraftmawTendPatient.reportString>
+  <FB_FleshDivisionCeremonySubject.reportString>подставляет плоть для разделения.</FB_FleshDivisionCeremonySubject.reportString>
+  <FB_FleshDivisionCeremonyRipper.reportString>разрывает TargetB на части.</FB_FleshDivisionCeremonyRipper.reportString>
+  <FB_LivingWeaponReturnToOwner.reportString>возвращается к связанному носителю.</FB_LivingWeaponReturnToOwner.reportString>
+  <FB_UsePawn.reportString>использует TargetA.</FB_UsePawn.reportString>
+  <Symbio_EatCorpse.reportString>откусывает голову трупа.</Symbio_EatCorpse.reportString>
+  <FB_TissueIncubatorLearnSample.label>доставить образец ткани в инкубатор</FB_TissueIncubatorLearnSample.label>
+  <FB_TissueIncubatorLearnSample.reportString>доставляет образец ткани к TargetB.</FB_TissueIncubatorLearnSample.reportString>
+  <FB_FleshbeastBeatFire.reportString>тушит пожар.</FB_FleshbeastBeatFire.reportString>
+  <FB_FleshbeastExtinguishSelf.reportString>тушит себя.</FB_FleshbeastExtinguishSelf.reportString>
+</LanguageData>

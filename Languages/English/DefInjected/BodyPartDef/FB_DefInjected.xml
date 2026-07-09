@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_BurdenBlobHemogelSac.label>hemogel sac</FB_BurdenBlobHemogelSac.label>
+  <FB_BurdenPseudopod.label>pseudopod</FB_BurdenPseudopod.label>
+  <FB_CocoonbackLeg.label>cocoon leg</FB_CocoonbackLeg.label>
+  <FB_CocoonbackShell.label>cocoon shell</FB_CocoonbackShell.label>
+  <FB_FerrimawCrusherMaw.label>crusher maw</FB_FerrimawCrusherMaw.label>
+  <FB_FerrimawFerricGut.label>ferric gut</FB_FerrimawFerricGut.label>
+  <FB_FerrimawRaspingLimb.label>rasping limb</FB_FerrimawRaspingLimb.label>
+  <FB_FerrimawSecretionVent.label>secretion vent</FB_FerrimawSecretionVent.label>
+  <FB_FleshHead.label>flesh head</FB_FleshHead.label>
+  <FB_FleshMaw.label>flesh maw</FB_FleshMaw.label>
+  <FB_GraftmawArchiveSac.label>archive sac</FB_GraftmawArchiveSac.label>
+  <FB_GraftmawManipulator.label>surgical manipulator</FB_GraftmawManipulator.label>
+  <FB_GraftmawSutureNode.label>suture node</FB_GraftmawSutureNode.label>
+  <FB_NerveclotCore.label>neural core</FB_NerveclotCore.label>
+  <FB_NerveclotLeg.label>nerve leg</FB_NerveclotLeg.label>
+  <FB_ParasiteCore.label>core</FB_ParasiteCore.label>
+  <FB_ParasiteEye.label>eye</FB_ParasiteEye.label>
+  <FB_ParasiteTentacle.label>tentacle</FB_ParasiteTentacle.label>
+  <FB_ScrapmeldCortex.label>scrap cortex</FB_ScrapmeldCortex.label>
+  <FB_SinewcallerLeg.label>sinew leg</FB_SinewcallerLeg.label>
+  <FB_SinewcallerLureSac.label>lure sac</FB_SinewcallerLureSac.label>
+  <FB_SoftFleshBody.label>soft flesh body</FB_SoftFleshBody.label>
+  <FB_Tentacle.label>tentacle</FB_Tentacle.label>
+  <FB_ThrallbloomBudlink.label>neural budlink</FB_ThrallbloomBudlink.label>
+  <FB_TurretCore.label>fleshmass core</FB_TurretCore.label>
+  <FB_TurretGelSac.label>gel sac</FB_TurretGelSac.label>
+  <FB_TurretSensor.label>surface sensor</FB_TurretSensor.label>
+  <FB_TurretShell.label>fleshmass shell</FB_TurretShell.label>
+  <FB_TurretTentacle.label>tentacle</FB_TurretTentacle.label>
+</LanguageData>

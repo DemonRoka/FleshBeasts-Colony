@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <BodyPartDef>
+    <defName>FB_PersonalityDevourerMemoryGut</defName>
+    <label>memory gut</label>
+    <hitPoints>72</hitPoints>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <skinCovered>false</skinCovered>
+    <tags>
+      <li>MetabolismSource</li>
+    </tags>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>FB_PersonalityDevourerMnemonicCore</defName>
+    <label>mnemonic core</label>
+    <hitPoints>38</hitPoints>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <delicate>true</delicate>
+    <skinCovered>false</skinCovered>
+    <tags>
+      <li>ConsciousnessSource</li>
+    </tags>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>FB_PersonalityDevourerNeuralSieve</defName>
+    <label>neural sieve</label>
+    <hitPoints>30</hitPoints>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <delicate>true</delicate>
+    <skinCovered>false</skinCovered>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>FB_PersonalityDevourerGrasper</defName>
+    <label>grasping tendril</label>
+    <hitPoints>46</hitPoints>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <skinCovered>false</skinCovered>
+    <tags>
+      <li>MovingLimbCore</li>
+      <li>ManipulationLimbCore</li>
+    </tags>
+  </BodyPartDef>
+
+  <BodyDef>
+    <defName>FB_PersonalityDevourerBody</defName>
+    <label>personality devourer</label>
+    <corePart>
+      <def>MovingBodyFleshbeast</def>
+      <height>Middle</height>
+      <depth>Outside</depth>
+      <parts>
+        <li>
+          <def>Spine</def>
+          <coverage>0.025</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Heart</def>
+          <coverage>0.025</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>FB_PersonalityDevourerMemoryGut</def>
+          <coverage>0.12</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>left lung</customLabel>
+          <coverage>0.018</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>right lung</customLabel>
+          <coverage>0.018</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>FleshbeastHead</def>
+          <coverage>0.32</coverage>
+          <groups>
+            <li>UpperHead</li>
+            <li>FullHead</li>
+            <li>HeadAttackTool</li>
+          </groups>
+          <parts>
+            <li>
+              <def>Skull</def>
+              <coverage>0.16</coverage>
+              <depth>Inside</depth>
+              <groups>
+                <li>UpperHead</li>
+                <li>Eyes</li>
+                <li>FullHead</li>
+              </groups>
+              <parts>
+                <li>
+                  <def>Brain</def>
+                  <coverage>0.50</coverage>
+                  <groups>
+                    <li>UpperHead</li>
+                    <li>Eyes</li>
+                    <li>FullHead</li>
+                  </groups>
+                </li>
+                <li>
+                  <def>FB_PersonalityDevourerMnemonicCore</def>
+                  <coverage>0.30</coverage>
+                  <depth>Inside</depth>
+                  <groups>
+                    <li>UpperHead</li>
+                    <li>FullHead</li>
+                  </groups>
+                </li>
+                <li>
+                  <def>FB_PersonalityDevourerNeuralSieve</def>
+                  <coverage>0.15</coverage>
+                  <depth>Inside</depth>
+                  <groups>
+                    <li>UpperHead</li>
+                    <li>FullHead</li>
+                  </groups>
+                </li>
+              </parts>
+            </li>
+            <li>
+              <def>Eye</def>
+              <customLabel>left eye</customLabel>
+              <coverage>0.025</coverage>
+              <groups>
+                <li>Eyes</li>
+                <li>FullHead</li>
+              </groups>
+            </li>
+            <li>
+              <def>Eye</def>
+              <customLabel>right eye</customLabel>
+              <coverage>0.025</coverage>
+              <groups>
+                <li>Eyes</li>
+                <li>FullHead</li>
+              </groups>
+            </li>
+            <li>
+              <def>Jaw</def>
+              <customLabel>assimilation maw</customLabel>
+              <coverage>0.16</coverage>
+              <groups>
+                <li>FullHead</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>FB_PersonalityDevourerGrasper</def>
+          <customLabel>front left grasper</customLabel>
+          <coverage>0.08</coverage>
+          <depth>Outside</depth>
+          <groups>
+            <li>FirstTentacle</li>
+          </groups>
+        </li>
+        <li>
+          <def>FB_PersonalityDevourerGrasper</def>
+          <customLabel>front right grasper</customLabel>
+          <coverage>0.08</coverage>
+          <depth>Outside</depth>
+          <groups>
+            <li>SecondTentacle</li>
+          </groups>
+        </li>
+        <li>
+          <def>FB_PersonalityDevourerGrasper</def>
+          <customLabel>rear left grasper</customLabel>
+          <coverage>0.08</coverage>
+          <depth>Outside</depth>
+          <groups>
+            <li>ThirdTentacle</li>
+          </groups>
+        </li>
+        <li>
+          <def>FB_PersonalityDevourerGrasper</def>
+          <customLabel>rear right grasper</customLabel>
+          <coverage>0.08</coverage>
+          <depth>Outside</depth>
+          <groups>
+            <li>FourthTentacle</li>
+          </groups>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+</Defs>

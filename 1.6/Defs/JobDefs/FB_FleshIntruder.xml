@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <JobDef>
+    <defName>FB_FleshIntruderImplant</defName>
+    <driverClass>FB.JobDriver_FleshIntruderImplant</driverClass>
+    <reportString>burrowing into TargetA.</reportString>
+    <checkOverrideOnDamage>Never</checkOverrideOnDamage>
+  </JobDef>
+</Defs>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/StorytellerDef[@Name="BaseStoryteller"]/comps</xpath>
+		<value>
+			<!-- Matches Odyssey's Mechanoid Signal important quest timing. -->
+			<li Class="StorytellerCompProperties_ImportantQuest">
+				<fireAfterDaysPassed>6</fireAfterDaysPassed>
+				<questIncident>FB_PitBurrowEmergence</questIncident>
+				<questDef>FB_PitBurrowCall</questDef>
+				<allowedTargetTags>
+					<li>Map_PlayerHome</li>
+				</allowedTargetTags>
+			</li>
+		</value>
+	</Operation>
+</Patch>

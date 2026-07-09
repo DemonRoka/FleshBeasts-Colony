@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Дерево мышления: FB_Regenerator -->
+  <ThinkTreeDef>
+    <defName>FB_Regenerator</defName>
+    <thinkRoot Class="ThinkNode_Priority">
+      <subNodes>
+        <li Class="FB.ThinkNode_ConditionalSpawned">
+          <subNodes>
+            <li Class="FB.JobGiver_HealPawn" />
+          </subNodes>
+        </li>
+        <li Class="FB.JobGiver_FindCorpse" />
+        <li Class="ThinkNode_Subtree">
+          <treeDef>Downed</treeDef>
+        </li>
+        <li Class="ThinkNode_Subtree">
+          <treeDef>BurningResponse</treeDef>
+        </li>
+        <li Class="JobGiver_WanderAnywhere">
+          <maxDanger>Deadly</maxDanger>
+          <ticksBetweenWandersRange>120~240</ticksBetweenWandersRange>
+        </li>
+      </subNodes>
+    </thinkRoot>
+  </ThinkTreeDef>
+</Defs>

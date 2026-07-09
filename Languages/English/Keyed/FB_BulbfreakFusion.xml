@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_BulbfreakFusionInvalidCaster>Only a living flesh-colony pawn can begin flesh fusion.</FB_BulbfreakFusionInvalidCaster>
+  <FB_BulbfreakFusionAlreadyActive>This pawn is already involved in flesh fusion.</FB_BulbfreakFusionAlreadyActive>
+  <FB_BulbfreakFusionNoDonors>Not enough suitable allied fingerspikes, trispikes, or toughspikes nearby.</FB_BulbfreakFusionNoDonors>
+  <FB_BulbfreakFusionNoGatherCells>No reachable space around the caster for the fleshbeasts to gather.</FB_BulbfreakFusionNoGatherCells>
+  <FB_BulbfreakFusionInterrupted>{PAWN_labelShort}'s flesh fusion was interrupted.</FB_BulbfreakFusionInterrupted>
+  <FB_BulbfreakFusionStarted>{PAWN_labelShort} calls {0} fleshbeasts into convergence. Combined mass value: {1}.</FB_BulbfreakFusionStarted>
+  <FB_BulbfreakFusionCompleted>{PAWN_labelShort} has converged into {BEAST_labelShort}.</FB_BulbfreakFusionCompleted>
+  <FB_BulbfreakFusionHostInspect>Host: {0}</FB_BulbfreakFusionHostInspect>
+  <FB_BulbfreakCollapseLabel>Release host</FB_BulbfreakCollapseLabel>
+  <FB_BulbfreakCollapseDesc>Collapse this fused fleshbeast, releasing the sealed host and letting the body split apart as if killed. Most of the fleshbeasts spent on the convergence will be lost.</FB_BulbfreakCollapseDesc>
+  <FB_BulbfreakCollapseNoHost>There is no sealed host inside.</FB_BulbfreakCollapseNoHost>
+</LanguageData>

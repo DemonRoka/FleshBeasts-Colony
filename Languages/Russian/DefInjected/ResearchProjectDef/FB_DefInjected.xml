@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <DefenderIncubatorResearch.description>Открывает защитный инкубатор — питаемый гемогелем выводковый орган, способный выпускать группы пальцешипов по приказу или при нападении на колонию.</DefenderIncubatorResearch.description>
+  <DefenderIncubatorResearch.generalRules.rulesStrings.0>subject-&gt;инкубация защитников из плоти</DefenderIncubatorResearch.generalRules.rulesStrings.0>
+  <DefenderIncubatorResearch.generalRules.rulesStrings.1>subject_story-&gt;вырастил биомассу в стражей</DefenderIncubatorResearch.generalRules.rulesStrings.1>
+  <DefenderIncubatorResearch.generalRules.rulesStrings.2>subject_story-&gt;породил органических защитников</DefenderIncubatorResearch.generalRules.rulesStrings.2>
+  <DefenderIncubatorResearch.generalRules.rulesStrings.3>subject_gerund-&gt;инкубация защитников из плоти</DefenderIncubatorResearch.generalRules.rulesStrings.3>
+  <DefenderIncubatorResearch.label>инкубатор защитников</DefenderIncubatorResearch.label>
+  <FB_BroodMotherResearch.description>Открывает симбиотическую выводковую утробу — развитый орган размножения, использующий гемогель, биомассу и накопленную сущность навыков для выращивания базовых боевых зверей и простых рабочих форм по требованию.</FB_BroodMotherResearch.description>
+  <FB_BroodMotherResearch.generalRules.rulesStrings.0>subject-&gt;инкубация выводка плоти</FB_BroodMotherResearch.generalRules.rulesStrings.0>
+  <FB_BroodMotherResearch.generalRules.rulesStrings.1>subject_story-&gt;улучшил вынашивание защитников до контролируемого разведения плотяных зверей</FB_BroodMotherResearch.generalRules.rulesStrings.1>
+  <FB_BroodMotherResearch.generalRules.rulesStrings.2>subject_story-&gt;создал живую утробу для выращенных колонией чудовищ</FB_BroodMotherResearch.generalRules.rulesStrings.2>
+  <FB_BroodMotherResearch.generalRules.rulesStrings.3>subject_gerund-&gt;разведение плотяных зверей</FB_BroodMotherResearch.generalRules.rulesStrings.3>
+  <FB_BroodMotherResearch.label>выводковая матка</FB_BroodMotherResearch.label>
+  <FB_AdaptiveHarvesters.description>Открывает жилозовцев, семена скрапмелда и сшивопастей: специализированных флешбистов, которые приманивают добычу, перерабатывают механойдные останки и извлекают полезные ткани из тел.</FB_AdaptiveHarvesters.description>
+  <FB_AdaptiveHarvesters.generalRules.rulesStrings.0>subject-&gt;адаптивные сборщики флешбистов</FB_AdaptiveHarvesters.generalRules.rulesStrings.0>
+  <FB_AdaptiveHarvesters.generalRules.rulesStrings.1>subject_story-&gt;развил хищные органы в специализированных сборщиков</FB_AdaptiveHarvesters.generalRules.rulesStrings.1>
+  <FB_AdaptiveHarvesters.generalRules.rulesStrings.2>subject_story-&gt;научил зверей колонии собирать тела, добычу и машинные останки</FB_AdaptiveHarvesters.generalRules.rulesStrings.2>
+  <FB_AdaptiveHarvesters.generalRules.rulesStrings.3>subject_gerund-&gt;разведение адаптивных сборщиков</FB_AdaptiveHarvesters.generalRules.rulesStrings.3>
+  <FB_AdaptiveHarvesters.label>адаптивные сборщики</FB_AdaptiveHarvesters.label>
+  <FB_NeuralDominion.description>Открывает коконников и поработителей: продвинутых флешбистов контроля для захвата, живой перевозки и подавления враждебных разумов.</FB_NeuralDominion.description>
+  <FB_NeuralDominion.generalRules.rulesStrings.0>subject-&gt;нейронное подчинение флешбистов</FB_NeuralDominion.generalRules.rulesStrings.0>
+  <FB_NeuralDominion.generalRules.rulesStrings.1>subject_story-&gt;вырастил зверей для захвата и ментального контроля</FB_NeuralDominion.generalRules.rulesStrings.1>
+  <FB_NeuralDominion.generalRules.rulesStrings.2>subject_story-&gt;связал враждебные разумы живыми нейронными органами</FB_NeuralDominion.generalRules.rulesStrings.2>
+  <FB_NeuralDominion.generalRules.rulesStrings.3>subject_gerund-&gt;разведение нейронных поработителей</FB_NeuralDominion.generalRules.rulesStrings.3>
+  <FB_NeuralDominion.label>нейронное подчинение</FB_NeuralDominion.label>
+  <FB_FriendlyCaptureRecognition.description>Учит хватательные органы плоти распознавать союзные и нейтральные биосигнатуры, предотвращая автоматический захват не враждебных пешек.</FB_FriendlyCaptureRecognition.description>
+  <FB_FriendlyCaptureRecognition.generalRules.rulesStrings.0>subject-&gt;распознавание своих и чужих</FB_FriendlyCaptureRecognition.generalRules.rulesStrings.0>
+  <FB_FriendlyCaptureRecognition.generalRules.rulesStrings.1>subject_story-&gt;научился отличать союзников от целей</FB_FriendlyCaptureRecognition.generalRules.rulesStrings.1>
+  <FB_FriendlyCaptureRecognition.generalRules.rulesStrings.2>subject_story-&gt;обучил органы плоти игнорировать дружественные биосигнатуры</FB_FriendlyCaptureRecognition.generalRules.rulesStrings.2>
+  <FB_FriendlyCaptureRecognition.generalRules.rulesStrings.3>subject_gerund-&gt;распознавание дружественных целей</FB_FriendlyCaptureRecognition.generalRules.rulesStrings.3>
+  <FB_FriendlyCaptureRecognition.label>распознавание своих и чужих</FB_FriendlyCaptureRecognition.label>
+  <FB_CapillaryTrawling.description>Открывает капиллярный трал — сосудистый фильтрующий орган, раскидывающий тонкие сети по ближайшей воде и превращающий собранную водную биомассу в гемогель для сердца колонии.</FB_CapillaryTrawling.description>
+  <FB_CapillaryTrawling.generalRules.rulesStrings.0>subject-&gt;капиллярный трал</FB_CapillaryTrawling.generalRules.rulesStrings.0>
+  <FB_CapillaryTrawling.generalRules.rulesStrings.1>subject_story-&gt;раскинул сосудистые сети по воде</FB_CapillaryTrawling.generalRules.rulesStrings.1>
+  <FB_CapillaryTrawling.generalRules.rulesStrings.2>subject_story-&gt;отфильтровал водную биомассу в гемогель</FB_CapillaryTrawling.generalRules.rulesStrings.2>
+  <FB_CapillaryTrawling.generalRules.rulesStrings.3>subject_gerund-&gt;выращивание капиллярных тралов</FB_CapillaryTrawling.generalRules.rulesStrings.3>
+  <FB_CapillaryTrawling.label>капиллярный трал</FB_CapillaryTrawling.label>
+  <FB_FleshTunneling.description>Открывает пасть плотяного туннеля — массивный орган-пасть, расходующий накопленный гемогель, чтобы прогрызть постоянный проход к дальнему тайлу мира.</FB_FleshTunneling.description>
+  <FB_FleshTunneling.generalRules.rulesStrings.0>subject-&gt;Туннели плоти</FB_FleshTunneling.generalRules.rulesStrings.0>
+  <FB_FleshTunneling.generalRules.rulesStrings.1>subject_story-&gt;прогрыз постоянные проходы живой тканью</FB_FleshTunneling.generalRules.rulesStrings.1>
+  <FB_FleshTunneling.generalRules.rulesStrings.2>subject_story-&gt;вырастил пасти, кусающие сквозь мир</FB_FleshTunneling.generalRules.rulesStrings.2>
+  <FB_FleshTunneling.generalRules.rulesStrings.3>subject_gerund-&gt;выращивание плотяных туннелей</FB_FleshTunneling.generalRules.rulesStrings.3>
+  <FB_FleshTunneling.label>Туннели плоти</FB_FleshTunneling.label>
+  <FB_GalvanicCysts.description>Открывает гальваническую кисту — компактный электроцитный орган, расходующий гемогель для питания электросети и хранения небольшого биоэлектрического запаса.</FB_GalvanicCysts.description>
+  <FB_GalvanicCysts.generalRules.rulesStrings.0>subject-&gt;гальванические кисты</FB_GalvanicCysts.generalRules.rulesStrings.0>
+  <FB_GalvanicCysts.generalRules.rulesStrings.1>subject_story-&gt;вырастил электроцитную ткань в энергетические органы</FB_GalvanicCysts.generalRules.rulesStrings.1>
+  <FB_GalvanicCysts.generalRules.rulesStrings.2>subject_story-&gt;превратил гемогель в биоэлектрический заряд</FB_GalvanicCysts.generalRules.rulesStrings.2>
+  <FB_GalvanicCysts.generalRules.rulesStrings.3>subject_gerund-&gt;выращивание гальванических кист</FB_GalvanicCysts.generalRules.rulesStrings.3>
+  <FB_GalvanicCysts.label>гальванические кисты</FB_GalvanicCysts.label>
+  <FB_TissueIncubation.description>Открывает инкубатор плоти — живую камеру, запоминающую доставленные образцы мяса и кожи и выращивающую такие же материалы из гемогеля.</FB_TissueIncubation.description>
+  <FB_TissueIncubation.generalRules.rulesStrings.0>subject-&gt;инкубация тканей</FB_TissueIncubation.generalRules.rulesStrings.0>
+  <FB_TissueIncubation.generalRules.rulesStrings.1>subject_story-&gt;запомнил образцы мяса и кожи в живой ткани</FB_TissueIncubation.generalRules.rulesStrings.1>
+  <FB_TissueIncubation.generalRules.rulesStrings.2>subject_story-&gt;вырастил сохранённые материалы из гемогеля</FB_TissueIncubation.generalRules.rulesStrings.2>
+  <FB_TissueIncubation.generalRules.rulesStrings.3>subject_gerund-&gt;инкубация образцов тканей</FB_TissueIncubation.generalRules.rulesStrings.3>
+  <FB_TissueIncubation.label>инкубация тканей</FB_TissueIncubation.label>
+  <FB_PhotosyntheticFleshtree.description>Открывает слияние плотелистов, позволяя нескольким фотосинтетическим органам объединиться в крупное дерево плоти с повышенной выработкой и запасом гемогеля.</FB_PhotosyntheticFleshtree.description>
+  <FB_PhotosyntheticFleshtree.generalRules.rulesStrings.0>subject-&gt;выращивание фотосинтетического плотедерева</FB_PhotosyntheticFleshtree.generalRules.rulesStrings.0>
+  <FB_PhotosyntheticFleshtree.generalRules.rulesStrings.1>subject_story-&gt;объединил солнечные наросты плоти в единый организм</FB_PhotosyntheticFleshtree.generalRules.rulesStrings.1>
+  <FB_PhotosyntheticFleshtree.generalRules.rulesStrings.2>subject_story-&gt;создал фотосинтетическую древовидную форму, хранящую гемогель</FB_PhotosyntheticFleshtree.generalRules.rulesStrings.2>
+  <FB_PhotosyntheticFleshtree.generalRules.rulesStrings.3>subject_gerund-&gt;выращивание фотосинтетических плотедеревьев</FB_PhotosyntheticFleshtree.generalRules.rulesStrings.3>
+  <FB_PhotosyntheticFleshtree.label>фотосинтетическое плотедерево</FB_PhotosyntheticFleshtree.label>
+  <FeederResearch.description>Открывает кормушку — органический раздатчик, из которого голодные связанные с плотью колонисты могут брать выращенную из гемогеля пищу.</FeederResearch.description>
+  <FeederResearch.generalRules.rulesStrings.0>subject-&gt;преобразование гемогеля в питание</FeederResearch.generalRules.rulesStrings.0>
+  <FeederResearch.generalRules.rulesStrings.1>subject_story-&gt;разработал системы кормления биомассой</FeederResearch.generalRules.rulesStrings.1>
+  <FeederResearch.generalRules.rulesStrings.2>subject_story-&gt;превратил гемогель в пищу</FeederResearch.generalRules.rulesStrings.2>
+  <FeederResearch.generalRules.rulesStrings.3>subject_gerund-&gt;строительство плотяных кормушек</FeederResearch.generalRules.rulesStrings.3>
+  <FeederResearch.label>Кормушка</FeederResearch.label>
+  <FleshmassEngineering.description>Закладывает основы выращивания тканей колонии из гемогеля и открывает путь к более сложным органическим структурам.</FleshmassEngineering.description>
+  <FleshmassEngineering.generalRules.rulesStrings.0>subject-&gt;инженерия плотяной массы</FleshmassEngineering.generalRules.rulesStrings.0>
+  <FleshmassEngineering.generalRules.rulesStrings.1>subject_story-&gt;заложил основы роста органических структур</FleshmassEngineering.generalRules.rulesStrings.1>
+  <FleshmassEngineering.generalRules.rulesStrings.2>subject_story-&gt;придал биомассе управляемые формы</FleshmassEngineering.generalRules.rulesStrings.2>
+  <FleshmassEngineering.generalRules.rulesStrings.3>subject_gerund-&gt;инженерия плотяной массы</FleshmassEngineering.generalRules.rulesStrings.3>
+  <FleshmassEngineering.label>Инженерия плоти</FleshmassEngineering.label>
+  <FleshSeedCreation.description>Открывает споровую колыбель, позволяя колонии создавать органические компоненты и семена плоти, из которых выращивается живое снаряжение.</FleshSeedCreation.description>
+  <FleshSeedCreation.generalRules.rulesStrings.0>subject-&gt;создание семян плоти</FleshSeedCreation.generalRules.rulesStrings.0>
+  <FleshSeedCreation.generalRules.rulesStrings.1>subject_story-&gt;открыл технологию органических семян</FleshSeedCreation.generalRules.rulesStrings.1>
+  <FleshSeedCreation.generalRules.rulesStrings.2>subject_story-&gt;разработал бионасыщенные семена оружия</FleshSeedCreation.generalRules.rulesStrings.2>
+  <FleshSeedCreation.generalRules.rulesStrings.3>subject_gerund-&gt;создание семян плоти</FleshSeedCreation.generalRules.rulesStrings.3>
+  <FleshSeedCreation.label>создание семян плоти</FleshSeedCreation.label>
+  <MinionsHiveResearch.description>Открывает выводковое семя миньонов и улей, выращивающий склерэтов для строительных работ внутри колонии.</MinionsHiveResearch.description>
+  <MinionsHiveResearch.generalRules.rulesStrings.0>subject-&gt;ульи миньонов плотяной массы</MinionsHiveResearch.generalRules.rulesStrings.0>
+  <MinionsHiveResearch.generalRules.rulesStrings.1>subject_story-&gt;вырастил организмы, порождающие рабочих</MinionsHiveResearch.generalRules.rulesStrings.1>
+  <MinionsHiveResearch.generalRules.rulesStrings.2>subject_story-&gt;создал ульи склерэтов для эффективности</MinionsHiveResearch.generalRules.rulesStrings.2>
+  <MinionsHiveResearch.generalRules.rulesStrings.3>subject_gerund-&gt;выращивание ульев миньонов</MinionsHiveResearch.generalRules.rulesStrings.3>
+  <MinionsHiveResearch.label>улей миньонов</MinionsHiveResearch.label>
+  <ParasiteEggConversion.description>Открывает создание яиц личностных паразитов в споровой колыбели, позволяя колонии выращивать их через контролируемую органическую инкубацию.</ParasiteEggConversion.description>
+  <ParasiteEggConversion.generalRules.rulesStrings.0>subject-&gt;инкубация яиц паразитов</ParasiteEggConversion.generalRules.rulesStrings.0>
+  <ParasiteEggConversion.generalRules.rulesStrings.1>subject_story-&gt;приспособил ткани споровой колыбели для выращивания яиц паразитов</ParasiteEggConversion.generalRules.rulesStrings.1>
+  <ParasiteEggConversion.generalRules.rulesStrings.2>subject_story-&gt;придал биомассе форму паразитических инкубаторов</ParasiteEggConversion.generalRules.rulesStrings.2>
+  <ParasiteEggConversion.generalRules.rulesStrings.3>subject_gerund-&gt;инкубация яиц паразитов</ParasiteEggConversion.generalRules.rulesStrings.3>
+  <ParasiteEggConversion.label>инкубация яиц паразитов</ParasiteEggConversion.label>
+  <PhotosyntheticFleshleaf.description>Открывает фотосинтетический плотелист — живой фотосинтезирующий орган, превращающий свет в гемогель и передающий запасы сердцу колонии.</PhotosyntheticFleshleaf.description>
+  <PhotosyntheticFleshleaf.generalRules.rulesStrings.0>subject-&gt;фотосинтетическое получение гемогеля</PhotosyntheticFleshleaf.generalRules.rulesStrings.0>
+  <PhotosyntheticFleshleaf.generalRules.rulesStrings.1>subject_story-&gt;создал биомассу, поглощающую свет</PhotosyntheticFleshleaf.generalRules.rulesStrings.1>
+  <PhotosyntheticFleshleaf.generalRules.rulesStrings.2>subject_story-&gt;вырастил солнечные организмы плоти</PhotosyntheticFleshleaf.generalRules.rulesStrings.2>
+  <PhotosyntheticFleshleaf.generalRules.rulesStrings.3>subject_gerund-&gt;выращивание фотосинтетической плоти</PhotosyntheticFleshleaf.generalRules.rulesStrings.3>
+  <PhotosyntheticFleshleaf.label>фотосинтетический плотелист</PhotosyntheticFleshleaf.label>
+  <SpitterResearch.description>Открывает плевательную железу — защитный орган плоти, вырастающий из эмбриона и плюющий едкой жидкостью по дальним врагам.</SpitterResearch.description>
+  <SpitterResearch.generalRules.rulesStrings.0>subject-&gt;кислотное плевание плотяной массы</SpitterResearch.generalRules.rulesStrings.0>
+  <SpitterResearch.generalRules.rulesStrings.1>subject_story-&gt;создал защиту, выбрасывающую токсины</SpitterResearch.generalRules.rulesStrings.1>
+  <SpitterResearch.generalRules.rulesStrings.2>subject_story-&gt;вырастил биомассу, выбрасывающую кислоту</SpitterResearch.generalRules.rulesStrings.2>
+  <SpitterResearch.generalRules.rulesStrings.3>subject_gerund-&gt;выращивание кислотных плевателей</SpitterResearch.generalRules.rulesStrings.3>
+  <SpitterResearch.label>плевательная железа</SpitterResearch.label>
+  <TentacleTurretResearch.description>Открывает щупальцевую турель — укоренённую защиту из плоти, которая бьёт ближайших врагов щупальцами и стреляет кератиновыми шипами по дальним целям.</TentacleTurretResearch.description>
+  <TentacleTurretResearch.generalRules.rulesStrings.0>subject-&gt;рост щупальцевых турелей плоти</TentacleTurretResearch.generalRules.rulesStrings.0>
+  <TentacleTurretResearch.generalRules.rulesStrings.1>subject_story-&gt;вырастил защитные органические структуры</TentacleTurretResearch.generalRules.rulesStrings.1>
+  <TentacleTurretResearch.generalRules.rulesStrings.2>subject_story-&gt;создал защиту на основе щупалец</TentacleTurretResearch.generalRules.rulesStrings.2>
+  <TentacleTurretResearch.generalRules.rulesStrings.3>subject_gerund-&gt;выращивание плотяных турелей</TentacleTurretResearch.generalRules.rulesStrings.3>
+  <TentacleTurretResearch.label>щупальцевая турель</TentacleTurretResearch.label>
+  <FB_GeoferriteGlands.description>Открывает укоренённые в гейзерах органы, перерабатывающие гемогель в биоферрит.</FB_GeoferriteGlands.description>
+  <FB_GeoferriteGlands.generalRules.rulesStrings.0>subject-&gt;геоферритовые железы</FB_GeoferriteGlands.generalRules.rulesStrings.0>
+  <FB_GeoferriteGlands.generalRules.rulesStrings.1>subject_story-&gt;укоренил органы плоти в паровых гейзерах</FB_GeoferriteGlands.generalRules.rulesStrings.1>
+  <FB_GeoferriteGlands.generalRules.rulesStrings.2>subject_story-&gt;переработал гемогель в биоферрит под геотермальным давлением</FB_GeoferriteGlands.generalRules.rulesStrings.2>
+  <FB_GeoferriteGlands.generalRules.rulesStrings.3>subject_gerund-&gt;выращивание геоферритовых желез</FB_GeoferriteGlands.generalRules.rulesStrings.3>
+  <FB_GeoferriteGlands.label>геоферритовые железы</FB_GeoferriteGlands.label>
+</LanguageData>

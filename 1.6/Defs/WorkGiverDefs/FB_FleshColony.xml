@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Источник работы: carry to auto research (CarryToFBAutoResearch) -->
+  <WorkGiverDef>
+    <defName>CarryToFBAutoResearch</defName>
+    <label>carry to auto research</label>
+    <giverClass>FB.WorkGiver_CarryToAutoResearch</giverClass>
+    <workType>Hauling</workType>
+    <verb>insert</verb>
+    <gerund>inserting</gerund>
+    <priorityInType>90</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+      <li>Moving</li>
+    </requiredCapacities>
+    <canBeDoneByMechs>false</canBeDoneByMechs>
+  </WorkGiverDef>
+
+  <!-- Источник работы: carry selected donor to genophage cocoon (FB_CarryToGenophageCocoon) -->
+  <WorkGiverDef>
+    <defName>FB_CarryToGenophageCocoon</defName>
+    <label>carry to genophage cocoon</label>
+    <giverClass>FB.WorkGiver_CarryToGenophageCocoon</giverClass>
+    <workType>Hauling</workType>
+    <verb>extract genes</verb>
+    <gerund>extracting genes from</gerund>
+    <priorityInType>90</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+      <li>Moving</li>
+    </requiredCapacities>
+    <canBeDoneByMechs>false</canBeDoneByMechs>
+  </WorkGiverDef>
+
+  <!-- Источник работы: carry digestible food to colony stomach (FB_HaulDigestibleFoodToStomach) -->
+  <WorkGiverDef>
+    <defName>FB_HaulDigestibleFoodToStomach</defName>
+    <label>carry digestible food to colony stomach</label>
+    <giverClass>FB.WorkGiver_HaulDigestibleFoodToFleshmassStomach</giverClass>
+    <workType>Hauling</workType>
+    <verb>carry to</verb>
+    <gerund>carrying to colony stomach</gerund>
+    <priorityInType>85</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+      <li>Moving</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+
+  <!-- Источник работы: carry fleshmass nucleus to colony heart (FB_CarryFleshmassNucleusToHeart) -->
+  <WorkGiverDef>
+    <defName>FB_CarryFleshmassNucleusToHeart</defName>
+    <label>carry fleshmass nucleus to colony heart</label>
+    <giverClass>FB.WorkGiver_CarryFleshmassNucleusToHeart</giverClass>
+    <workType>BasicWorker</workType>
+    <verb>carry</verb>
+    <gerund>carrying fleshmass nucleus to</gerund>
+    <priorityInType>95</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+      <li>Moving</li>
+    </requiredCapacities>
+    <canBeDoneByMechs>false</canBeDoneByMechs>
+  </WorkGiverDef>
+
+  <!-- Источник работы: make things at Spore-Cradle (FB_DoBillsUseFleshmassSporeCradle) -->
+  <WorkGiverDef>
+    <defName>FB_DoBillsUseFleshmassSporeCradle</defName>
+    <label>make things at Spore-Cradle</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Crafting</workType>
+    <priorityInType>100</priorityInType>
+    <fixedBillGiverDefs>
+      <li>FB_SporeCradle</li>
+    </fixedBillGiverDefs>
+    <verb>craft at</verb>
+    <gerund>crafting at</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+
+  <!-- Источник работы: construct placed frames (FB_ConstructFinishFrames) -->
+  <WorkGiverDef>
+    <defName>FB_ConstructFinishFrames</defName>
+    <label>construct placed frames</label>
+    <giverClass>FB.WorkGiver_ConstructFinishFrames</giverClass>
+    <workType>Construction</workType>
+    <priorityInType>80</priorityInType>
+    <verb>construct</verb>
+    <gerund>constructing</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <nonColonistsCanDo>true</nonColonistsCanDo>
+    <prioritizeSustains>true</prioritizeSustains>
+    <equivalenceGroup>AssistInConstruction</equivalenceGroup>
+  </WorkGiverDef>
+
+  <!-- Источник работы: deliver resources to blueprints (FB_ConstructDeliverResourcesToBlueprints) -->
+  <WorkGiverDef>
+    <defName>FB_ConstructDeliverResourcesToBlueprints</defName>
+    <label>deliver resources to blueprints</label>
+    <giverClass>FB.WorkGiver_ConstructDeliverResourcesToBlueprints</giverClass>
+    <workType>Construction</workType>
+    <priorityInType>60</priorityInType>
+    <verb>work on</verb>
+    <gerund>working on</gerund>
+    <nonColonistsCanDo>true</nonColonistsCanDo>
+    <prioritizeSustains>true</prioritizeSustains>
+    <equivalenceGroup>AssistInConstruction</equivalenceGroup>
+  </WorkGiverDef>
+
+  <!-- Источник работы: deliver resources to frames (FB_ConstructDeliverResourcesToFrames) -->
+  <WorkGiverDef>
+    <defName>FB_ConstructDeliverResourcesToFrames</defName>
+    <label>deliver resources to frames</label>
+    <giverClass>FB.WorkGiver_ConstructDeliverResourcesToFrames</giverClass>
+    <workType>Construction</workType>
+    <priorityInType>70</priorityInType>
+    <verb>work on</verb>
+    <gerund>working on</gerund>
+    <nonColonistsCanDo>true</nonColonistsCanDo>
+    <prioritizeSustains>true</prioritizeSustains>
+    <equivalenceGroup>AssistInConstruction</equivalenceGroup>
+  </WorkGiverDef>
+</Defs>

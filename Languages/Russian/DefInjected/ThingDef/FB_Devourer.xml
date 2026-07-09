@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_Devourer.label>поглотитель</FB_Devourer.label>
+  <FB_Devourer.description>Крупный бронированный флешбист, заглатывающий не своих существ и переваривающий их в гемогель.</FB_Devourer.description>
+  <FB_Devourer.tools.0.label>дробящая пасть</FB_Devourer.tools.0.label>
+  <FB_Devourer.tools.1.label>крючковатая шкура</FB_Devourer.tools.1.label>
+  <FB_DevourerChargeFlyer.label>рывок поглотителя</FB_DevourerChargeFlyer.label>
+</LanguageData>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_GenophageCocoon.label>генофаговый кокон</FB_GenophageCocoon.label>
+  <FB_GenophageCocoon.description>Генетический кокон копирует выбранные гены живого донора и сохраняет их в архиве генома.</FB_GenophageCocoon.description>
+  <FB_GenomeArchive.label>геномный архив</FB_GenomeArchive.label>
+  <FB_GenomeArchive.description>Живой банк генов, хранящий извлечённые генопаки для просмотра и дальнейшей работы генного переплетателя.</FB_GenomeArchive.description>
+  <FB_GeneReweaver.label>генный переплетатель</FB_GeneReweaver.label>
+  <FB_GeneReweaver.description>Генный переплетатель готовит внутренний плотяной ксеногерм из архивных генов, затем выращивает кокон для внедрения в пешку.</FB_GeneReweaver.description>
+  <FB_GenophageCocoonEmbryo.label>эмбрион генофагового кокона</FB_GenophageCocoonEmbryo.label>
+  <FB_GenophageCocoonEmbryo.description>Незрелый генетический орган, который вырастет в генофаговый кокон.</FB_GenophageCocoonEmbryo.description>
+  <FB_GenomeArchiveEmbryo.label>эмбрион геномного архива</FB_GenomeArchiveEmbryo.label>
+  <FB_GenomeArchiveEmbryo.description>Незрелый орган-хранилище генов, который вырастет в геномный архив.</FB_GenomeArchiveEmbryo.description>
+  <FB_GeneReweaverEmbryo.label>эмбрион генного переплетателя</FB_GeneReweaverEmbryo.label>
+  <FB_GeneReweaverEmbryo.description>Незрелый генный орган, который вырастет в генного переплетателя.</FB_GeneReweaverEmbryo.description>
+  <FB_Chromophage.label>хромофаг</FB_Chromophage.label>
+  <FB_Chromophage.description>Слитый флешбист, извлекающий следы генов из мёртвых гуманоидных тел и переносящий их в геномный архив.</FB_Chromophage.description>
+  <FB_GeneReweaverCocoon.label>кокон генного переплетателя</FB_GeneReweaverCocoon.label>
+  <FB_GeneReweaverCocoon.description>Временный генетический кокон, выращенный генным переплетателем. Он удерживает пешку, пока подготовленный плотяной ксеногерм интегрируется в тело.</FB_GeneReweaverCocoon.description>
+</LanguageData>

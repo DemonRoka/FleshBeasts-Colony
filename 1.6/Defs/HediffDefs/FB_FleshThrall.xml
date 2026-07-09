@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Состояние: flesh thrall (FB_FleshThrall) -->
+  <HediffDef>
+    <defName>FB_FleshThrall</defName>
+    <label>flesh thrall</label>
+    <description>Colony tissue has threaded itself through this corpse, using the remaining body as a puppet rather than rebuilding what was lost.</description>
+    <hediffClass>FB.Hediff_TexDecalOverlay</hediffClass>
+    <everCurableByItem>false</everCurableByItem>
+    <duplicationAllowed>false</duplicationAllowed>
+    <keepOnBodyPartRestoration>True</keepOnBodyPartRestoration>
+    <isBad>false</isBad>
+    <initialSeverity>1</initialSeverity>
+    <maxSeverity>1</maxSeverity>
+    <comps>
+      <li Class="FB.HediffCompProperties_FleshThrallLifetime">
+        <lifetimeTicks>360000</lifetimeTicks>
+        <bodySizeRestoredPerFingerspike>1</bodySizeRestoredPerFingerspike>
+        <workTicks>180</workTicks>
+        <jobDef>FB_FingerspikeRestoreFleshThrall</jobDef>
+        <restoreIconPath>UI/Commands/FleshThrallRestore</restoreIconPath>
+        <releasedFleshbeastKind>Fingerspike</releasedFleshbeastKind>
+        <collapseMeatDef>Meat_Twisted</collapseMeatDef>
+        <collapseMeatFactor>0.5</collapseMeatFactor>
+        <mechanoidSlagChunksPerBodySize>2</mechanoidSlagChunksPerBodySize>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <naturalHealingFactor>0</naturalHealingFactor>
+        <painFactor>0</painFactor>
+        <statFactors>
+          <PsychicSensitivity>0</PsychicSensitivity>
+        </statFactors>
+        <statOffsets>
+          <ComfyTemperatureMin>-60</ComfyTemperatureMin>
+          <ComfyTemperatureMax>30</ComfyTemperatureMax>
+          <ToxicResistance>1</ToxicResistance>
+        </statOffsets>
+      </li>
+    </stages>
+    <renderNodeProperties>
+      <li Class="FB.PawnRenderNodeProperties_FleshThrallOverlay">
+        <debugLabel>Flesh thrall covering (humanlike)</debugLabel>
+        <nodeClass>PawnRenderNode_Body</nodeClass>
+        <workerClass>FB.PawnRenderNodeWorker_FleshThrallOverlay</workerClass>
+        <overlayLayer>Body</overlayLayer>
+        <baseLayer>96</baseLayer>
+        <pawnType>HumanlikeOnly</pawnType>
+        <texSeed>31571</texSeed>
+        <texturePath>Things/Pawn/Overlays/FleshThrall/FleshThrallOverlay</texturePath>
+        <overlayColor>(1, 1, 1, 1)</overlayColor>
+        <textureScaleFactor>2.8</textureScaleFactor>
+        <textureTiles>1.65</textureTiles>
+        <textureOffsetMagnitude>2</textureOffsetMagnitude>
+        <altitudeOffset>0.001</altitudeOffset>
+      </li>
+      <li Class="FB.PawnRenderNodeProperties_FleshThrallOverlay">
+        <debugLabel>Flesh thrall covering (non-humanlike)</debugLabel>
+        <nodeClass>PawnRenderNode_AnimalPart</nodeClass>
+        <workerClass>FB.PawnRenderNodeWorker_FleshThrallOverlay</workerClass>
+        <overlayLayer>Body</overlayLayer>
+        <baseLayer>96</baseLayer>
+        <pawnType>NonHumanlikeOnly</pawnType>
+        <texSeed>31573</texSeed>
+        <texturePath>Things/Pawn/Overlays/FleshThrall/FleshThrallOverlay</texturePath>
+        <overlayColor>(1, 1, 1, 1)</overlayColor>
+        <textureScaleFactor>2.8</textureScaleFactor>
+        <textureTiles>1.65</textureTiles>
+        <textureOffsetMagnitude>2</textureOffsetMagnitude>
+        <altitudeOffset>0.001</altitudeOffset>
+      </li>
+      <li Class="FB.PawnRenderNodeProperties_TexDecals">
+        <debugLabel>Flesh thrall invasive limbs (humanlike)</debugLabel>
+        <nodeClass>PawnRenderNode_Body</nodeClass>
+        <workerClass>FB.PawnRenderNodeWorker_TexDecals</workerClass>
+        <overlayLayer>Body</overlayLayer>
+        <baseLayer>99</baseLayer>
+        <pawnType>HumanlikeOnly</pawnType>
+        <texSeed>31611</texSeed>
+        <decalCount>5</decalCount>
+        <maxTotalTries>650</maxTotalTries>
+        <minDecalDistance>0.16</minDecalDistance>
+        <baseScale>0.26</baseScale>
+        <scaleJitter>0.75~1.25</scaleJitter>
+        <baseAspect>1</baseAspect>
+        <aspectJitter>1~1</aspectJitter>
+        <randomAngle>0~360</randomAngle>
+        <radialAngleChance>0.8</radialAngleChance>
+        <radialAngleJitter>-18~18</radialAngleJitter>
+        <attachU>0.5</attachU>
+        <attachV>0.5</attachV>
+        <clipToBodyAlpha>true</clipToBodyAlpha>
+        <bodyAlphaThreshold>0.25</bodyAlphaThreshold>
+        <decalAlphaThreshold>0.05</decalAlphaThreshold>
+        <minCoverage>0.48</minCoverage>
+        <samplesPerSide>7</samplesPerSide>
+        <wobbleAmount>5</wobbleAmount>
+        <wobbleSpeed>1.7</wobbleSpeed>
+        <decalAltitudeBase>0.0015</decalAltitudeBase>
+        <decalAltitudePerBaseLayer>0.0000025</decalAltitudePerBaseLayer>
+        <decalAltitudeStep>0.00004</decalAltitudeStep>
+        <texPaths>
+          <li>Things/Pawn/Fleshbeast/Bulbfreak/Tentacles/BulbfreakTentacleA</li>
+          <li>Things/Pawn/Fleshbeast/Bulbfreak/Tentacles/BulbfreakTentacleB</li>
+          <li>Things/Pawn/Fleshbeast/Bulbfreak/Tentacles/BulbfreakTentacleC</li>
+          <li>Things/Pawn/Fleshbeast/Fingerspike/Attachments/Fingerspike_TopLimb</li>
+          <li>Things/Pawn/Fleshbeast/Toughspike/Attachments/Toughspike_Spike</li>
+          <li>Things/Pawn/Fleshbeast/Trispike/Attachments/Side/Trispike_SideLimb_east</li>
+          <li>Things/Pawn/Fleshbeast/Trispike/Attachments/Side/Trispike_SideLimb_north</li>
+          <li>Things/Pawn/Fleshbeast/Trispike/Attachments/Side/Trispike_SideLimb_south</li>
+          <li>Things/Pawn/Fleshbeast/Trispike/Attachments/Top/Trispike_TopLimb_east</li>
+          <li>Things/Pawn/Fleshbeast/Trispike/Attachments/Top/Trispike_TopLimb_north</li>
+          <li>Things/Pawn/Fleshbeast/Trispike/Attachments/Top/Trispike_TopLimb_south</li>
+        </texPaths>
+      </li>
+      <li Class="FB.PawnRenderNodeProperties_TexDecals">
+        <debugLabel>Flesh thrall invasive limbs (non-humanlike)</debugLabel>
+        <nodeClass>PawnRenderNode_AnimalPart</nodeClass>
+        <workerClass>FB.PawnRenderNodeWorker_TexDecals</workerClass>
+        <overlayLayer>Body</overlayLayer>
+        <baseLayer>99</baseLayer>
+        <pawnType>NonHumanlikeOnly</pawnType>
+        <texSeed>31613</texSeed>
+        <decalCount>4</decalCount>
+        <maxTotalTries>650</maxTotalTries>
+        <minDecalDistance>0.18</minDecalDistance>
+        <baseScale>0.30</baseScale>
+        <scaleJitter>0.75~1.25</scaleJitter>
+        <baseAspect>1</baseAspect>
+        <aspectJitter>1~1</aspectJitter>
+        <randomAngle>0~360</randomAngle>
+        <radialAngleChance>0.8</radialAngleChance>
+        <radialAngleJitter>-18~18</radialAngleJitter>
+        <attachU>0.5</attachU>
+        <attachV>0.5</attachV>
+        <clipToBodyAlpha>true</clipToBodyAlpha>
+        <bodyAlphaThreshold>0.25</bodyAlphaThreshold>
+        <decalAlphaThreshold>0.05</decalAlphaThreshold>
+        <minCoverage>0.48</minCoverage>
+        <samplesPerSide>7</samplesPerSide>
+        <wobbleAmount>5</wobbleAmount>
+        <wobbleSpeed>1.7</wobbleSpeed>
+        <decalAltitudeBase>0.0015</decalAltitudeBase>
+        <decalAltitudePerBaseLayer>0.0000025</decalAltitudePerBaseLayer>
+        <decalAltitudeStep>0.00004</decalAltitudeStep>
+        <texPaths>
+          <li>Things/Pawn/Fleshbeast/Bulbfreak/Tentacles/BulbfreakTentacleA</li>
+          <li>Things/Pawn/Fleshbeast/Bulbfreak/Tentacles/BulbfreakTentacleB</li>
+          <li>Things/Pawn/Fleshbeast/Bulbfreak/Tentacles/BulbfreakTentacleC</li>
+          <li>Things/Pawn/Fleshbeast/Fingerspike/Attachments/Fingerspike_TopLimb</li>
+          <li>Things/Pawn/Fleshbeast/Toughspike/Attachments/Toughspike_Spike</li>
+          <li>Things/Pawn/Fleshbeast/Trispike/Attachments/Side/Trispike_SideLimb_east</li>
+          <li>Things/Pawn/Fleshbeast/Trispike/Attachments/Side/Trispike_SideLimb_north</li>
+          <li>Things/Pawn/Fleshbeast/Trispike/Attachments/Side/Trispike_SideLimb_south</li>
+          <li>Things/Pawn/Fleshbeast/Trispike/Attachments/Top/Trispike_TopLimb_east</li>
+          <li>Things/Pawn/Fleshbeast/Trispike/Attachments/Top/Trispike_TopLimb_north</li>
+          <li>Things/Pawn/Fleshbeast/Trispike/Attachments/Top/Trispike_TopLimb_south</li>
+        </texPaths>
+      </li>
+    </renderNodeProperties>
+  </HediffDef>
+</Defs>

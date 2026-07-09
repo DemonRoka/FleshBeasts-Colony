@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_DreadmeldShedCommandLabel>shed fleshbeasts</FB_DreadmeldShedCommandLabel>
+  <FB_DreadmeldShedCommandDesc>Tear open the dreadmeld's central mass, inflicting severe damage and forcing several smaller fleshbeasts to break free. Repeated use can kill the dreadmeld.</FB_DreadmeldShedCommandDesc>
+  <FB_DreadmeldShedUnavailable>The dreadmeld cannot shed fleshbeasts in its current condition.</FB_DreadmeldShedUnavailable>
+  <FB_DreadmeldShedCooldown>Reforming: {0} seconds.</FB_DreadmeldShedCooldown>
+</LanguageData>

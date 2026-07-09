@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_BurdenBlobKind.label>burden blob</FB_BurdenBlobKind.label>
+  <FB_CarapaceExcavatorKind.label>carapace excavator</FB_CarapaceExcavatorKind.label>
+  <FB_CocoonbackKind.label>cocoonback</FB_CocoonbackKind.label>
+  <FB_CortexMiteKind.label>cortex mite</FB_CortexMiteKind.label>
+  <FB_DenseWeaver.label>dense weaver</FB_DenseWeaver.label>
+  <FB_Dreadmeld.label>dreadmeld</FB_Dreadmeld.label>
+  <FB_FerrimawKind.label>ferrimaw</FB_FerrimawKind.label>
+  <FB_FingerspikeGauntletKind.label>fingerspike gauntlet</FB_FingerspikeGauntletKind.label>
+  <FB_GraftmawKind.label>graftmaw</FB_GraftmawKind.label>
+  <FB_NerveclotKind.label>nerveclot</FB_NerveclotKind.label>
+  <FB_PersonalityParasite.label>personality parasite</FB_PersonalityParasite.label>
+  <FB_Rotlarva.label>rotlarva</FB_Rotlarva.label>
+  <FB_Sclerat.label>sclerat</FB_Sclerat.label>
+  <FB_ScrapmeldKind.label>scrapmeld</FB_ScrapmeldKind.label>
+  <FB_ScrapmeldNestlingKind.label>scrapmeld seed</FB_ScrapmeldNestlingKind.label>
+  <FB_Shardlings.label>shardlings</FB_Shardlings.label>
+  <FB_SinewcallerKind.label>sinewcaller</FB_SinewcallerKind.label>
+  <FB_SymbioHead.label>symbio head</FB_SymbioHead.label>
+  <FB_TentacleTurret.label>tentacle turret</FB_TentacleTurret.label>
+  <FB_ThrallbloomKind.label>thrallbloom</FB_ThrallbloomKind.label>
+</LanguageData>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Раса: cortex mite (FB_CortexMite) -->
+  <ThingDef ParentName="BasePawn">
+    <defName>FB_CortexMite</defName>
+    <label>cortex mite</label>
+    <description>A compact bio-neural crawler that can root itself into flesh terrain, becoming a permanent organ that feeds the colony's current research project.</description>
+    <tradeability>None</tradeability>
+    <statBases>
+      <MoveSpeed>4.6</MoveSpeed>
+      <ComfyTemperatureMin>-20</ComfyTemperatureMin>
+      <ComfyTemperatureMax>60</ComfyTemperatureMax>
+      <Flammability>1.2</Flammability>
+      <MeatAmount>0</MeatAmount>
+      <MarketValue>120</MarketValue>
+      <ToxicResistance>0.8</ToxicResistance>
+    </statBases>
+    <race>
+      <body>FB_CortexMiteBody</body>
+      <baseBodySize>0.32</baseBodySize>
+      <baseHungerRate>0.05</baseHungerRate>
+      <baseHealthScale>0.45</baseHealthScale>
+      <lifeExpectancy>14</lifeExpectancy>
+      <deathAction Class="FB.DeathActionProperties_CortexMiteBurst">
+        <bloodFilthCountRange>1~3</bloodFilthCountRange>
+      </deathAction>
+      <renderTree>Animal</renderTree>
+      <intelligence>ToolUser</intelligence>
+      <trainability>None</trainability>
+      <thinkTreeMain>FB_CortexMiteMain</thinkTreeMain>
+      <thinkTreeConstant>FleshbeastConstant</thinkTreeConstant>
+      <needsRest>false</needsRest>
+      <hasGenders>false</hasGenders>
+      <foodType>None</foodType>
+      <canBePredatorPrey>false</canBePredatorPrey>
+      <bloodDef>Filth_Blood</bloodDef>
+      <bloodSmearDef>Filth_BloodSmear</bloodSmearDef>
+      <fleshType>Fleshbeast</fleshType>
+      <isImmuneToInfections>true</isImmuneToInfections>
+      <bleedRateFactor>0.4</bleedRateFactor>
+      <lifeStageAges>
+        <li>
+          <def>AnimalAdult</def>
+        </li>
+      </lifeStageAges>
+    </race>
+    <comps>
+      <li Class="FB.CompProperties_CortexMiteAnchorer">
+        <buildingDef>FB_InstalledCortexMite</buildingDef>
+        <anchorJobDef>FB_CortexMiteAnchor</anchorJobDef>
+        <commandLabel>FB_CortexMiteAnchor_Label</commandLabel>
+        <commandDesc>FB_CortexMiteAnchor_Desc</commandDesc>
+        <commandIconPath>UI/Commands/CortexMiteAnchor</commandIconPath>
+        <invalidCellMessage>FB_CortexMiteAnchor_InvalidCell</invalidCellMessage>
+        <workTicks>120</workTicks>
+      </li>
+    </comps>
+    <tools>
+      <li>
+        <label>mandibles</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>2</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+        <soundMeleeHit>Pawn_Fleshbeast_Attack_Blunt</soundMeleeHit>
+      </li>
+    </tools>
+  </ThingDef>
+</Defs>

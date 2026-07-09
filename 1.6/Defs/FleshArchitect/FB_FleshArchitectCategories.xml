@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FB.FleshArchitectCategoryDef>
+    <defName>FB_FleshArchitect_ZonesPlans</defName>
+    <label>Zones/Plans</label>
+    <description>Flesh growth areas and colony construction plans.</description>
+    <order>10</order>
+  </FB.FleshArchitectCategoryDef>
+  <FB.FleshArchitectCategoryDef>
+    <defName>FB_FleshArchitect_HemogelExtraction</defName>
+    <label>Hemogel farm</label>
+    <description>Organs that create hemogel from digestion, photosynthesis, and aquatic filtering.</description>
+    <order>20</order>
+  </FB.FleshArchitectCategoryDef>
+  <FB.FleshArchitectCategoryDef>
+    <defName>FB_FleshArchitect_Structures</defName>
+    <label>Structures</label>
+    <description>Basic fleshmass support structures.</description>
+    <order>30</order>
+  </FB.FleshArchitectCategoryDef>
+  <FB.FleshArchitectCategoryDef>
+    <defName>FB_FleshArchitect_Production</defName>
+    <label>Production</label>
+    <description>Organs that produce, process, store, or refine resources.</description>
+    <order>40</order>
+  </FB.FleshArchitectCategoryDef>
+  <FB.FleshArchitectCategoryDef>
+    <defName>FB_FleshArchitect_Auxiliary</defName>
+    <label>Auxiliary</label>
+    <description>Utility organs that stabilize and maintain the colony.</description>
+    <order>50</order>
+  </FB.FleshArchitectCategoryDef>
+  <FB.FleshArchitectCategoryDef>
+    <defName>FB_FleshArchitect_Genetics</defName>
+    <label>Genetics</label>
+    <description>Gene-shaping structures and genetic archives.</description>
+    <order>60</order>
+  </FB.FleshArchitectCategoryDef>
+  <FB.FleshArchitectCategoryDef>
+    <defName>FB_FleshArchitect_Anomaly</defName>
+    <label>Anomaly</label>
+    <description>Living containment organs for captured entities.</description>
+    <order>65</order>
+  </FB.FleshArchitectCategoryDef>
+  <FB.FleshArchitectCategoryDef>
+    <defName>FB_FleshArchitect_Defense</defName>
+    <label>Defense</label>
+    <description>Organs grown to maim, repel, or consume intruders.</description>
+    <order>70</order>
+  </FB.FleshArchitectCategoryDef>
+  <FB.FleshArchitectCategoryDef>
+    <defName>FB_FleshArchitect_Reproduction</defName>
+    <label>Reproduction</label>
+    <description>Organs that grow, incubate, or command living defenders.</description>
+    <order>80</order>
+  </FB.FleshArchitectCategoryDef>
+  <FB.FleshArchitectCategoryDef>
+    <defName>FB_FleshArchitect_Plants</defName>
+    <label>Plants</label>
+    <description>Living colony flora grown directly from flesh terrain.</description>
+    <order>85</order>
+  </FB.FleshArchitectCategoryDef>
+  <FB.FleshArchitectCategoryDef>
+    <defName>FB_FleshArchitect_Transport</defName>
+    <label>Transport</label>
+    <description>Organs that move the colony through flesh and distance.</description>
+    <order>90</order>
+  </FB.FleshArchitectCategoryDef>
+  <FB.FleshArchitectCategoryDef>
+    <defName>FB_FleshArchitect_FleshMoon</defName>
+    <label>Flesh moon</label>
+    <description>Functions sustained by the permanent link to the flesh moon.</description>
+    <order>95</order>
+    <requiresFleshMoonLink>true</requiresFleshMoonLink>
+    <showWhenEmpty>true</showWhenEmpty>
+  </FB.FleshArchitectCategoryDef>
+  <FB.FleshArchitectCategoryDef>
+    <defName>FB_FleshArchitect_Misc</defName>
+    <label>Misc</label>
+    <description>Unsorted flesh architecture.</description>
+    <order>999</order>
+  </FB.FleshArchitectCategoryDef>
+</Defs>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_BileMortarGland.label>bile mortar gland</FB_BileMortarGland.label>
+  <FB_BileMortarGland.description>A living artillery gland that grows bileburst podlings and launches mature ones as incendiary shells.</FB_BileMortarGland.description>
+  <FB_BileMortarGlandEmbryo.label>bile mortar gland embryo</FB_BileMortarGlandEmbryo.label>
+  <FB_BileMortarGlandEmbryo.description>An immature bile organ that will grow into a bile mortar gland.</FB_BileMortarGlandEmbryo.description>
+  <FB_BileburstPodling.label>bileburst podling</FB_BileburstPodling.label>
+  <FB_BileburstPodling.description>A living bile charge grown by the mortar gland. It matures over time, then detonates itself or loads into a bile mortar.</FB_BileburstPodling.description>
+  <FB_BileburstPodling.tools.0.label>soft bite</FB_BileburstPodling.tools.0.label>
+  <FB_BileburstPodlingShell.label>bileburst podling shell</FB_BileburstPodlingShell.label>
+  <FB_BileburstPodlingShell.description>A bileburst podling folded into an artillery arc, ready to rupture into burning organic bile on impact.</FB_BileburstPodlingShell.description>
+  <FB_VolatileBileFilth.label>volatile bile</FB_VolatileBileFilth.label>
+  <FB_VolatileBileFilth.description>A slick smear of unstable organic bile. It burns readily when exposed to flame.</FB_VolatileBileFilth.description>
+</LanguageData>

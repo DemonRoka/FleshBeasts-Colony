@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Раса: shardlings (FB_Shardlings) -->
+  <ThingDef ParentName="BasePawn">
+    <defName>FB_Shardlings</defName>
+    <label>shardlings</label>
+    <description>Shardlings are small intelligent fragments created solely to preserve their original host. When a pawn voluntarily disintegrates into these shards, the shardlings' main goal is to ensure that at least one fragment survives. If even one fragment survives, it is able to restore the original host. However, this process can only restore the original pawn, not duplicate it. Once the original pawn is successfully recovered from a shardling, all other shardlings will sense this recovery and immediately self-destruct.</description>
+    <statBases>
+      <MoveSpeed>5.1</MoveSpeed>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ComfyTemperatureMin>-40</ComfyTemperatureMin>
+      <ComfyTemperatureMax>60</ComfyTemperatureMax>
+      <Flammability>1.25</Flammability>
+      <MeatAmount>70</MeatAmount>
+    </statBases>
+    <tradeability>None</tradeability>
+    <selectable>false</selectable>
+    <race>
+      <body>FB_Shardlings</body>
+      <baseBodySize>0.6</baseBodySize>
+      <baseHealthScale>0.5</baseHealthScale>
+      <lifeExpectancy>10</lifeExpectancy>
+      <renderTree>Animal</renderTree>
+      <deathAction Class="DeathActionProperties_Vanish">
+        <workerClass>DeathActionWorker_Vanish</workerClass>
+        <filth>Filth_TwistedFlesh</filth>
+        <filthCountRange>1~3</filthCountRange>
+        <meatExplosionSize>Small</meatExplosionSize>
+      </deathAction>
+      <lifeStageAges>
+        <li>
+          <def>EntityFullyFormed</def>
+          <soundWounded>Pawn_Fleshbeast_Fingerspike_Wounded</soundWounded>
+          <soundDeath>Pawn_Fleshbeast_Fingerspike_Death</soundDeath>
+          <soundCall>Pawn_Fleshbeast_Fingerspike_Call</soundCall>
+        </li>
+      </lifeStageAges>
+      <thinkTreeMain>FB_Shardlings</thinkTreeMain>
+      <thinkTreeConstant>FleshbeastConstant</thinkTreeConstant>
+      <intelligence>ToolUser</intelligence>
+      <specificMeatDef>Meat_Twisted</specificMeatDef>
+      <canOpenFactionlessDoors>false</canOpenFactionlessDoors>
+      <needsRest>false</needsRest>
+      <hasGenders>false</hasGenders>
+      <foodType>None</foodType>
+      <canBePredatorPrey>false</canBePredatorPrey>
+      <bloodDef>Filth_Blood</bloodDef>
+      <bloodSmearDef>Filth_BloodSmear</bloodSmearDef>
+      <soundMeleeDodge>Pawn_MeleeDodge</soundMeleeDodge>
+      <trainability>None</trainability>
+      <fleshType>Fleshbeast</fleshType>
+      <isImmuneToInfections>true</isImmuneToInfections>
+      <bleedRateFactor>0.5</bleedRateFactor>
+      <hediffGiverSets />
+      <corpseHiddenWhileUndiscovered>true</corpseHiddenWhileUndiscovered>
+    </race>
+    <comps>
+      <li Class="FB.CompProperties_ShardOriginalPawnMemory">
+        <rebuildDurationTicks>600</rebuildDurationTicks>
+        <rebuildEffect>FleshmassDestroyed</rebuildEffect>
+        <regroupRadius>2.5</regroupRadius>
+        <enemyAvoidRadius>24</enemyAvoidRadius>
+        <effectIntervalTicks>45</effectIntervalTicks>
+      </li>
+      <li Class="FB.CompProperties_OutsideLifetime">
+        <lifetimeTicks>15000</lifetimeTicks>
+      </li>
+    </comps>
+    <tools />
+  </ThingDef>
+</Defs>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_CortexMiteAnchor_Label>Закрепиться</FB_CortexMiteAnchor_Label>
+  <FB_CortexMiteAnchor_Desc>Выберите доступную клетку плотяного пола. Мозговой клещ доползёт туда и станет постоянным исследовательским узлом.</FB_CortexMiteAnchor_Desc>
+  <FB_CortexMiteAnchor_InvalidCell>Здесь нельзя закрепиться.</FB_CortexMiteAnchor_InvalidCell>
+  <FB_CortexMiteAnchor_NotFleshTerrain>Мозговой клещ может закрепиться только на плотяном полу.</FB_CortexMiteAnchor_NotFleshTerrain>
+  <FB_CortexMiteAnchor_BlockedCell>Клетка заблокирована.</FB_CortexMiteAnchor_BlockedCell>
+  <FB_CortexMiteAnchor_Unreachable>Мозговой клещ не может добраться до этой клетки.</FB_CortexMiteAnchor_Unreachable>
+  <FB_CortexMiteAnchor_MissingDef>Для закрепления мозгового клеща не хватает нужных Def.</FB_CortexMiteAnchor_MissingDef>
+  <FB_InstalledCortexMiteNoProjectInspect>Текущий проект исследования: не выбран</FB_InstalledCortexMiteNoProjectInspect>
+  <FB_InstalledCortexMiteResearchInspect>Текущий проект исследования: {0} (+{1}/ч)</FB_InstalledCortexMiteResearchInspect>
+  <FB_InstalledCortexMiteNoHemogelInspect>Нет полного питания гемогелем.</FB_InstalledCortexMiteNoHemogelInspect>
+</LanguageData>

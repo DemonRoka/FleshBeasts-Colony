@@ -1,0 +1,908 @@
+<Defs>
+  <!-- Состояние: flesh-colony acceptance (FB_AcceptanceOfFleshColony) -->
+  <HediffDef>
+    <defName>FB_AcceptanceOfFleshColony</defName>
+    <label>flesh-colony acceptance</label>
+    <labelNoun>flesh-colony accepted</labelNoun>
+    <hediffClass>FB.Hediff_TexDecalOverlay</hediffClass>
+    <description>This pawn’s mind is bound to the psychic patterns of the Flesh Colony. Human attachments and fears lose their edge—the strange horrors around them no longer catch, and reality feels distant and muffled, as if thought is being guided by an alien rhythm. Across the skin, tendrils emerge: not adornment and not wounds, but living conduits of connection, holding the pawn within the shared network. The colony’s influence slowly reinforces damaged tissue, aiding wound healing, immunity, and the fading of old scars.</description>
+    <defaultLabelColor>(0.8, 0.35, 0.35)</defaultLabelColor>
+    <isBad>false</isBad>
+    <everCurableByItem>false</everCurableByItem>
+    <initialSeverity>1</initialSeverity>
+    <comps>
+      <li Class="FB.HediffCompProperties_GiveAbility">
+        <abilityDefs>
+          <li>FB_FleshDivision</li>
+        </abilityDefs>
+      </li>
+      <li Class="FB.HediffCompProperties_FleshConvergenceForms">
+        <searchRadius>60</searchRadius>
+        <mergeDurationTicks>90</mergeDurationTicks>
+        <effectIntervalTicks>12</effectIntervalTicks>
+        <targetValue>1500</targetValue>
+        <minValue>1300</minValue>
+        <maxValue>1700</maxValue>
+        <gatherRadius>3</gatherRadius>
+        <cooldownTicks>2500</cooldownTicks>
+      </li>
+      <li Class="FB.HediffCompProperties_FleshColonyMemoryLink">
+        <refreshIntervalTicks>20000</refreshIntervalTicks>
+      </li>
+      <li Class="FB.HediffCompProperties_SlowScarHealing">
+        <minDays>45</minDays>
+        <maxDays>60</maxDays>
+      </li>
+    </comps>
+    <aptitudes>
+      <Animals>-12</Animals>
+      <Social>-12</Social>
+      <Artistic>-12</Artistic>
+    </aptitudes>
+    <stages>
+      <li>
+        <painOffset>-0.5</painOffset>
+        <opinionOfOthersFactor>0</opinionOfOthersFactor>
+        <statOffsets>
+          <ComfyTemperatureMin>-10</ComfyTemperatureMin>
+        </statOffsets>
+        <statFactors>
+          <InjuryHealingFactor>1.25</InjuryHealingFactor>
+          <ImmunityGainSpeed>1.10</ImmunityGainSpeed>
+        </statFactors>
+        <disablesNeeds>
+          <li>Beauty</li>
+          <li>Outdoors</li>
+          <li>Comfort</li>
+          <li>Joy</li>
+        </disablesNeeds>
+      </li>
+    </stages>
+    <renderNodeProperties>
+      <li Class="FB.PawnRenderNodeProperties_AcceptanceTexDecals">
+        <debugLabel>Flesh colony tendrils (humanlike)</debugLabel>
+        <nodeClass>PawnRenderNode_Body</nodeClass>
+        <workerClass>FB.PawnRenderNodeWorker_TexDecals</workerClass>
+        <overlayLayer>Body</overlayLayer>
+        <baseLayer>99</baseLayer>
+        <pawnType>HumanlikeOnly</pawnType>
+        <texSeed>9142</texSeed>
+        <decalCount>8</decalCount>
+        <maxTotalTries>500</maxTotalTries>
+        <minDecalDistance>0.12</minDecalDistance>
+        <baseScale>0.55</baseScale>
+        <scaleJitter>0.85~1.15</scaleJitter>
+        <baseAspect>1.0</baseAspect>
+        <aspectJitter>0.95~1.05</aspectJitter>
+        <randomAngle>0~360</randomAngle>
+        <attachU>0.5</attachU>
+        <attachV>0.35</attachV>
+        <clipToBodyAlpha>true</clipToBodyAlpha>
+        <bodyAlphaThreshold>0.25</bodyAlphaThreshold>
+        <decalAlphaThreshold>0.05</decalAlphaThreshold>
+        <minCoverage>0.55</minCoverage>
+        <samplesPerSide>7</samplesPerSide>
+        <wobbleAmount>8</wobbleAmount>
+        <wobbleSpeed>2.3</wobbleSpeed>
+        <decalAltitudeBase>0.0012</decalAltitudeBase>
+        <decalAltitudePerBaseLayer>0.0000025</decalAltitudePerBaseLayer>
+        <decalAltitudeStep>0.00003</decalAltitudeStep>
+        <texPaths>
+          <li>Things/Mote/Fleshtendrils</li>
+          <li>Things/Mote/Fleshtendrils2</li>
+        </texPaths>
+      </li>
+    </renderNodeProperties>
+  </HediffDef>
+
+  <!-- Состояние: neural overheat (FB_NeuralOverheat) -->
+  <HediffDef>
+    <defName>FB_NeuralOverheat</defName>
+    <label>neural overheat</label>
+    <description>Residual neural heat accumulated while a pawn is used for accelerated research. Reaching full severity burns the brain and resets the accumulated heat. Outside the synapse core, it gradually dissipates over one day.</description>
+    <hediffClass>FB.Hediff_NeuralOverheat</hediffClass>
+    <defaultLabelColor>(0.85, 0.4, 0.2)</defaultLabelColor>
+    <isBad>true</isBad>
+    <everCurableByItem>false</everCurableByItem>
+    <initialSeverity>0.01</initialSeverity>
+    <maxSeverity>1</maxSeverity>
+  </HediffDef>
+
+  <!-- Состояние: fleshbeast healing coma (FB_FleshbeastHealingComa) -->
+  <HediffDef>
+    <defName>FB_FleshbeastHealingComa</defName>
+    <label>fleshbeast healing torpor</label>
+    <hediffClass>HediffWithComps</hediffClass>
+    <description>The colony flesh immobilizes this creature while sealing and tending its open wounds. The injuries remain and must heal naturally afterward.</description>
+    <isBad>false</isBad>
+    <initialSeverity>1</initialSeverity>
+    <maxSeverity>1</maxSeverity>
+    <defaultLabelColor>(0.75, 1.0, 0.75)</defaultLabelColor>
+    <comps>
+      <li Class="FB.HediffCompProperties_FleshbeastHealingComa">
+        <tendIntervalTicks>240</tendIntervalTicks>
+        <maxDurationTicks>30000</maxDurationTicks>
+        <tendQuality>0.7</tendQuality>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <label>regenerative torpor</label>
+        <painFactor>0</painFactor>
+        <statFactors>
+          <MoveSpeed>0.01</MoveSpeed>
+        </statFactors>
+      </li>
+    </stages>
+  </HediffDef>
+  <!-- Состояние: head organic armor (FB_OrganicArmor_Head) -->
+  <HediffDef>
+    <defName>FB_OrganicArmor_Head</defName>
+    <label>head organic armor</label>
+    <labelNoun>Head organic armor</labelNoun>
+    <hediffClass>HediffWithComps</hediffClass>
+    <description>The skull of this creature has been reinforced with dense bone plates, creating natural protection for its head.</description>
+    <defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
+    <isBad>false</isBad>
+    <initialSeverity>1</initialSeverity>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDayRange>-3</severityPerDayRange>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <label>friable-stage</label>
+        <statOffsets>
+          <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.1</ArmorRating_Heat>
+          <PawnBeauty>-1</PawnBeauty>
+        </statOffsets>
+      </li>
+      <li>
+        <label>decay-stage</label>
+        <minSeverity>0.333</minSeverity>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.15</offset>
+          </li>
+        </capMods>
+        <statOffsets>
+          <ArmorRating_Sharp>0.4</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.3</ArmorRating_Heat>
+          <PawnBeauty>-1</PawnBeauty>
+        </statOffsets>
+      </li>
+      <li>
+        <label>strong-stage</label>
+        <minSeverity>0.666</minSeverity>
+        <vomitMtbDays>2</vomitMtbDays>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.15</offset>
+          </li>
+        </capMods>
+        <statOffsets>
+          <ArmorRating_Sharp>0.70</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.5</ArmorRating_Heat>
+          <PawnBeauty>-2</PawnBeauty>
+        </statOffsets>
+      </li>
+    </stages>
+    <renderNodeProperties>
+      <li>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <texPath>Things/Pawn/FB_Wounds/ChitinHelmet</texPath>
+        <narrowCrownHorizontalOffset>0.03</narrowCrownHorizontalOffset>
+        <useSkinShader>false</useSkinShader>
+        <useRottenColor>true</useRottenColor>
+        <colorType>Skin</colorType>
+        <parentTagDef>Head</parentTagDef>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <visibleFacing>
+          <li>East</li>
+          <li>South</li>
+          <li>West</li>
+          <li>North</li>
+        </visibleFacing>
+        <drawData>
+          <defaultData>
+            <layer>66</layer>
+          </defaultData>
+        </drawData>
+      </li>
+    </renderNodeProperties>
+  </HediffDef>
+  <!-- Состояние: torso organic armor (FB_OrganicArmor_Torso) -->
+  <HediffDef>
+    <defName>FB_OrganicArmor_Torso</defName>
+    <label>torso organic armor</label>
+    <labelNoun>Torso organic armor</labelNoun>
+    <hediffClass>HediffWithComps</hediffClass>
+    <description>A number of large bones have grown on this creature, forming a natural armor that protects its torso.</description>
+    <defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
+    <isBad>false</isBad>
+    <initialSeverity>1</initialSeverity>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDayRange>-3</severityPerDayRange>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <label>friable-stage</label>
+        <statOffsets>
+          <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.1</ArmorRating_Heat>
+          <PawnBeauty>-1</PawnBeauty>
+        </statOffsets>
+      </li>
+      <li>
+        <label>decay-stage</label>
+        <minSeverity>0.333</minSeverity>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.15</offset>
+          </li>
+        </capMods>
+        <statOffsets>
+          <ArmorRating_Sharp>0.4</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.3</ArmorRating_Heat>
+          <PawnBeauty>-1</PawnBeauty>
+        </statOffsets>
+      </li>
+      <li>
+        <label>strong-stage</label>
+        <minSeverity>0.666</minSeverity>
+        <vomitMtbDays>2</vomitMtbDays>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.15</offset>
+          </li>
+        </capMods>
+        <statOffsets>
+          <ArmorRating_Sharp>0.70</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.5</ArmorRating_Heat>
+          <PawnBeauty>-2</PawnBeauty>
+        </statOffsets>
+      </li>
+    </stages>
+    <renderNodeProperties>
+      <li>
+        <debugLabel>torso organic armor</debugLabel>
+        <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+        <texPaths>
+          <li>Things/Pawn/FB_Wounds/ChitinArmor</li>
+        </texPaths>
+        <baseLayer>5</baseLayer>
+        <texSeed>1</texSeed>
+      </li>
+    </renderNodeProperties>
+  </HediffDef>
+  <!-- Состояние: spore growths (FB_SporeGrowths) -->
+  <HediffDef>
+    <defName>FB_SporeGrowths</defName>
+    <label>spore growths</label>
+    <hediffClass>HediffWithComps</hediffClass>
+    <description>Carriers of this gene develop spore-emitting growths on their bodies. These growths can release various types of spores that have different effects on the environment and other creatures.</description>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="FB.HediffCompProperties_SmokeCloud">
+        <toggleSporesIconPath>UI/Commands/ToggleSpores</toggleSporesIconPath>
+        <changeSporeTypeIconPath>UI/Commands/ChangeSpore_Type</changeSporeTypeIconPath>
+        <interval>200</interval>
+        <radius>3.0</radius>
+        <applyHediffInterval>
+          <min>400</min>
+          <max>800</max>
+        </applyHediffInterval>
+        <fleckHediffPairs>
+          <li>
+            <fleckDef>FB_PoisonousSpores</fleckDef>
+            <hediffDef>FB_PoisonousSpores</hediffDef>
+          </li>
+          <li>
+            <fleckDef>FB_FunSpores</fleckDef>
+            <hediffDef>FB_FunSpores</hediffDef>
+          </li>
+          <li>
+            <fleckDef>FB_NeurotoxinSpores</fleckDef>
+            <hediffDef>FB_SporeAnesthesia</hediffDef>
+          </li>
+        </fleckHediffPairs>
+        <severityIncrease>0.2</severityIncrease>
+      </li>
+    </comps>
+    <renderNodeProperties>
+      <li>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <texPath>Things/Pawn/FB_Wounds/SporeGrowths</texPath>
+        <narrowCrownHorizontalOffset>0.03</narrowCrownHorizontalOffset>
+        <useSkinShader>false</useSkinShader>
+        <useRottenColor>true</useRottenColor>
+        <colorType>Skin</colorType>
+        <parentTagDef>Head</parentTagDef>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <visibleFacing>
+          <li>East</li>
+          <li>South</li>
+          <li>West</li>
+          <li>North</li>
+        </visibleFacing>
+        <drawData>
+          <defaultData>
+            <layer>66</layer>
+          </defaultData>
+        </drawData>
+      </li>
+    </renderNodeProperties>
+  </HediffDef>
+  <!-- Состояние: poisonous spores (FB_PoisonousSpores) -->
+  <HediffDef>
+    <defName>FB_PoisonousSpores</defName>
+    <label>poisonous spores</label>
+    <hediffClass>HediffWithComps</hediffClass>
+    <description>Toxic flesh-spores are spreading through the body, weakening movement and coordination as the infection deepens.</description>
+    <isBad>true</isBad>
+    <maxSeverity>1</maxSeverity>
+    <defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
+    <stages>
+      <li>
+        <label>initial exposure</label>
+        <painFactor>0.9</painFactor>
+        <capMods>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>-0.02</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>0.25</minSeverity>
+        <label>light infection</label>
+        <painFactor>0.8</painFactor>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <postFactor>0.9</postFactor>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.05</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>0.4</minSeverity>
+        <label>moderate infection</label>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <postFactor>0.65</postFactor>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.10</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>0.7</minSeverity>
+        <label>severe infection</label>
+        <painOffset>0.05</painOffset>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <postFactor>0.5</postFactor>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.10</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-4</severityPerDay>
+        <showHoursToRecover>true</showHoursToRecover>
+      </li>
+      <li Class="FB.HediffCompProperties_HPDrain">
+        <minTicks>700</minTicks>
+        <maxTicks>2000</maxTicks>
+        <hpLoss>3</hpLoss>
+      </li>
+    </comps>
+  </HediffDef>
+  <!-- Состояние: fun spores (FB_FunSpores) -->
+  <HediffDef>
+    <defName>FB_FunSpores</defName>
+    <label>fun spores</label>
+    <hediffClass>HediffWithComps</hediffClass>
+    <description>Euphoric spores from living flesh are altering the pawn's mood and perception, dulling concern and replacing fear with unnatural pleasure.</description>
+    <isBad>false</isBad>
+    <maxSeverity>1</maxSeverity>
+    <stages>
+      <li>
+        <label>initial exposure</label>
+      </li>
+      <li>
+        <minSeverity>0.25</minSeverity>
+        <label>light infection</label>
+      </li>
+      <li>
+        <minSeverity>0.4</minSeverity>
+        <label>moderate infection</label>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <postFactor>0.95</postFactor>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>0.7</minSeverity>
+        <label>severe infection</label>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <postFactor>0.9</postFactor>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-4</severityPerDay>
+        <showHoursToRecover>true</showHoursToRecover>
+      </li>
+    </comps>
+  </HediffDef>
+  <!-- Состояние: spore anesthesia (FB_SporeAnesthesia) -->
+  <HediffDef ParentName="DiseaseBase">
+    <defName>FB_SporeAnesthesia</defName>
+    <label>spore anesthesia</label>
+    <description>Spore-induced anesthesia renders creatures unconscious and affects their bodily functions.</description>
+    <isBad>false</isBad>
+    <maxSeverity>1</maxSeverity>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-4</severityPerDay>
+        <showHoursToRecover>true</showHoursToRecover>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <label>initial exposure</label>
+        <painFactor>0.8</painFactor>
+        <vomitMtbDays>4</vomitMtbDays>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.9</setMax>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>0.8</minSeverity>
+        <label>drowsy</label>
+        <painFactor>0.6</painFactor>
+        <vomitMtbDays>0.25</vomitMtbDays>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.7</setMax>
+          </li>
+          <li>
+            <capacity>Talking</capacity>
+            <offset>-0.2</offset>
+          </li>
+          <li>
+            <capacity>Sight</capacity>
+            <offset>-0.15</offset>
+          </li>
+        </capMods>
+        <forgetMemoryThoughtMtbDays>5</forgetMemoryThoughtMtbDays>
+        <mentalStateGivers>
+          <li>
+            <mentalState>WanderConfused</mentalState>
+            <mtbDays>5</mtbDays>
+          </li>
+        </mentalStateGivers>
+      </li>
+      <li>
+        <minSeverity>0.95</minSeverity>
+        <label>unconscious</label>
+        <painFactor>0</painFactor>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.01</setMax>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  <!-- Состояние: personality parasite (FB_PersonalityParasite) -->
+  <HediffDef>
+    <defName>FB_PersonalityParasite</defName>
+    <label>personality parasite</label>
+    <description>The host's brain, was filled with the consciousness of the parasite. If the body dies, the parasite disconnects from the body, transferring the consciousness to the next host.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <initialSeverity>0.001</initialSeverity>
+    <comps>
+      <li Class="FB.HediffCompProperties_PawnHealthMemory">
+        <pawnToSpawn>FB_PersonalityParasite</pawnToSpawn>
+      </li>
+      <li Class="FB.HediffCompProperties_RemoveBrainOnDeath" />
+      <li Class="FB.HediffCompProperties_SeverityPerDay_PsySensitivity">
+        <severityPerDay>0.03</severityPerDay>
+        <minPsychicSensitivity>0.01</minPsychicSensitivity>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <label>Parasitic Infusion</label>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <postFactor>0.95</postFactor>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <postFactor>0.95</postFactor>
+          </li>
+          <li>
+            <capacity>Talking</capacity>
+            <postFactor>0.95</postFactor>
+          </li>
+        </capMods>
+        <painFactor>0</painFactor>
+      </li>
+      <li>
+        <minSeverity>0.2</minSeverity>
+        <label>Energy Drain</label>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <postFactor>0.90</postFactor>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <postFactor>0.90</postFactor>
+          </li>
+          <li>
+            <capacity>Talking</capacity>
+            <postFactor>0.90</postFactor>
+          </li>
+        </capMods>
+        <painFactor>0</painFactor>
+      </li>
+      <li>
+        <minSeverity>0.4</minSeverity>
+        <label>Vitality Siphon</label>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <postFactor>0.80</postFactor>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <postFactor>0.80</postFactor>
+          </li>
+          <li>
+            <capacity>Talking</capacity>
+            <postFactor>0.80</postFactor>
+          </li>
+        </capMods>
+        <painFactor>0</painFactor>
+      </li>
+      <li>
+        <minSeverity>0.6</minSeverity>
+        <label>Advanced Depletion</label>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <postFactor>0.70</postFactor>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <postFactor>0.70</postFactor>
+          </li>
+          <li>
+            <capacity>Talking</capacity>
+            <postFactor>0.70</postFactor>
+          </li>
+        </capMods>
+        <painFactor>0</painFactor>
+      </li>
+      <li>
+        <minSeverity>0.8</minSeverity>
+        <label>Terminal Exsanguination</label>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <postFactor>0.50</postFactor>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <postFactor>0.50</postFactor>
+          </li>
+          <li>
+            <capacity>Talking</capacity>
+            <postFactor>0.50</postFactor>
+          </li>
+        </capMods>
+        <painFactor>0</painFactor>
+      </li>
+      <li>
+        <minSeverity>1.0</minSeverity>
+        <label>Death</label>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.0</setMax>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+    <renderNodeProperties>
+      <li>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <texPath>Things/Pawn/FB_Wounds/HeadParasite</texPath>
+        <useSkinShader>true</useSkinShader>
+        <useRottenColor>true</useRottenColor>
+        <colorType>Skin</colorType>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <parentTagDef>Head</parentTagDef>
+        <drawData>
+          <defaultData>
+            <layer>67</layer>
+          </defaultData>
+          <dataNorth>
+            <layer>67</layer>
+          </dataNorth>
+        </drawData>
+      </li>
+    </renderNodeProperties>
+  </HediffDef>
+  <!-- Состояние: genetic fatigue (FB_GeneticFatigue) -->
+  <HediffDef>
+    <defName>FB_GeneticFatigue</defName>
+    <label>genetic fatigue</label>
+    <description>This condition occurs after a gene extraction attempt, causing stress and instability at the genetic level. It leads to increased pain, reduced consciousness, and impaired blood filtration, slowing down recovery processes.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <initialSeverity>0.001</initialSeverity>
+    <deprioritizeHealing>true</deprioritizeHealing>
+    <defaultLabelColor>(0.9, 1.0, 0.35)</defaultLabelColor>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.1</offset>
+          </li>
+          <li>
+            <capacity>BloodFiltration</capacity>
+            <offset>-0.5</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>120000</disappearsAfterTicks>
+        <showRemainingTime>true</showRemainingTime>
+      </li>
+    </comps>
+  </HediffDef>
+  <!-- Состояние: parasite (FB_Parasite) -->
+  <HediffDef>
+    <defName>FB_Parasite</defName>
+    <label>parasite</label>
+    <labelNoun>Parasite</labelNoun>
+    <hediffClass>HediffWithComps</hediffClass>
+    <description>A flesh parasite is developing inside the host. As it matures, the host may vomit up new fleshbeasts while their body is used as living incubator tissue.</description>
+    <defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
+    <isBad>false</isBad>
+    <initialSeverity>0.001</initialSeverity>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDayRange>1</severityPerDayRange>
+      </li>
+      <li Class="FB.HediffCompProperties_CallAndSpawn">
+        <pawnToSpawn>Fingerspike</pawnToSpawn>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <label>early-stage</label>
+        <vomitMtbDays>2.5</vomitMtbDays>
+      </li>
+      <li>
+        <label>middle-stage</label>
+        <minSeverity>0.333</minSeverity>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.15</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>late-stage</label>
+        <minSeverity>0.666</minSeverity>
+        <vomitMtbDays>2</vomitMtbDays>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.30</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  <!-- Состояние: resurrected biomass part (FB_ResurrectedBiomassPart) -->
+  <HediffDef ParentName="AddedMutationBase">
+    <defName>FB_ResurrectedBiomassPart</defName>
+    <label>resurrected biomass</label>
+    <labelNoun>resurrected biomass</labelNoun>
+    <description>Living colony biomass has replaced a missing body part. It functions reliably, but never fully matches the original tissue.</description>
+    <isBad>false</isBad>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>0.8</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <!-- Состояние: shell adaptation (FB_ShellAdaptation) -->
+  <HediffDef>
+    <defName>FB_ShellAdaptation</defName>
+    <label>shell adaptation</label>
+    <description>This resurrected mind is gradually learning to control a body rebuilt and occupied by colony flesh.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <initialSeverity>1</initialSeverity>
+    <maxSeverity>1</maxSeverity>
+    <deprioritizeHealing>true</deprioritizeHealing>
+    <defaultLabelColor>(0.8, 0.35, 0.35)</defaultLabelColor>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.1</severityPerDay>
+        <showHoursToRecover>true</showHoursToRecover>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <label>stabilizing</label>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.05</offset>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>-0.05</offset>
+          </li>
+        </capMods>
+        <statFactors>
+          <WorkSpeedGlobal>0.9</WorkSpeedGlobal>
+        </statFactors>
+      </li>
+      <li>
+        <minSeverity>0.3</minSeverity>
+        <label>disoriented</label>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.08</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.15</offset>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>-0.12</offset>
+          </li>
+        </capMods>
+        <statFactors>
+          <WorkSpeedGlobal>0.8</WorkSpeedGlobal>
+        </statFactors>
+      </li>
+      <li>
+        <minSeverity>0.7</minSeverity>
+        <label>severe rejection</label>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.15</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.3</offset>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>-0.25</offset>
+          </li>
+        </capMods>
+        <statFactors>
+          <WorkSpeedGlobal>0.65</WorkSpeedGlobal>
+        </statFactors>
+      </li>
+    </stages>
+  </HediffDef>
+  <!-- Состояние: resurrection shock (FB_ResurrectionShock) -->
+  <HediffDef>
+    <defName>FB_ResurrectionShock</defName>
+    <label>resurrection shock</label>
+    <description>This person's body and mind have undergone severe stress due to resurrection. They are experiencing temporary weakness and instability.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <initialSeverity>0.001</initialSeverity>
+    <deprioritizeHealing>true</deprioritizeHealing>
+    <defaultLabelColor>(0.9, 0.4, 0.35)</defaultLabelColor>
+    <stages>
+      <li>
+        <painOffset>0.1</painOffset>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.1</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.2</offset>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>-0.15</offset>
+          </li>
+          <li>
+            <capacity>BloodFiltration</capacity>
+            <offset>-0.25</offset>
+          </li>
+          <li>
+            <capacity>BloodPumping</capacity>
+            <offset>-0.2</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>180000</disappearsAfterTicks>
+        <showRemainingTime>true</showRemainingTime>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>FB_FerrimawMetalMetabolismPaused</defName>
+    <label>dormant ferric gut</label>
+    <description>The ferrimaw's metal metabolism is dormant, suppressing hunger until it is allowed to consume stored metal again.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <everCurableByItem>false</everCurableByItem>
+    <initialSeverity>1</initialSeverity>
+    <stages>
+      <li>
+        <disablesNeeds>
+          <li>Food</li>
+        </disablesNeeds>
+      </li>
+    </stages>
+  </HediffDef>
+</Defs>

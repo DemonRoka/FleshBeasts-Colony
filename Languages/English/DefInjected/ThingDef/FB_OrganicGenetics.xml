@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_GenophageCocoon.label>genophage cocoon</FB_GenophageCocoon.label>
+  <FB_GenophageCocoon.description>A genetic cocoon that copies selected genes from a living donor and stores them in a genome archive.</FB_GenophageCocoon.description>
+  <FB_GenomeArchive.label>genome archive</FB_GenomeArchive.label>
+  <FB_GenomeArchive.description>A living gene bank that stores extracted genepacks for inspection and later use by a gene reweaver.</FB_GenomeArchive.description>
+  <FB_GeneReweaver.label>gene reweaver</FB_GeneReweaver.label>
+  <FB_GeneReweaver.description>A gene loom that prepares an internal flesh xenogerm from archived genes, then grows a cocoon to integrate it into a pawn.</FB_GeneReweaver.description>
+  <FB_GenophageCocoonEmbryo.label>genophage cocoon embryo</FB_GenophageCocoonEmbryo.label>
+  <FB_GenophageCocoonEmbryo.description>An immature genetic organ that will grow into a genophage cocoon.</FB_GenophageCocoonEmbryo.description>
+  <FB_GenomeArchiveEmbryo.label>genome archive embryo</FB_GenomeArchiveEmbryo.label>
+  <FB_GenomeArchiveEmbryo.description>An immature gene-storage organ that will grow into a genome archive.</FB_GenomeArchiveEmbryo.description>
+  <FB_GeneReweaverEmbryo.label>gene reweaver embryo</FB_GeneReweaverEmbryo.label>
+  <FB_GeneReweaverEmbryo.description>An immature gene organ that will grow into a gene reweaver.</FB_GeneReweaverEmbryo.description>
+  <FB_Chromophage.label>chromophage</FB_Chromophage.label>
+  <FB_Chromophage.description>A fused fleshbeast that extracts gene traces from dead humanlike bodies and delivers them to a genome archive.</FB_Chromophage.description>
+  <FB_GeneReweaverCocoon.label>gene reweaver cocoon</FB_GeneReweaverCocoon.label>
+  <FB_GeneReweaverCocoon.description>A temporary genetic cocoon grown by a gene reweaver. It holds a pawn while the prepared flesh xenogerm integrates into the body.</FB_GeneReweaverCocoon.description>
+</LanguageData>

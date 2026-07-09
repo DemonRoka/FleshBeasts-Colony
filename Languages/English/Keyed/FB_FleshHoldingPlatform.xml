@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_ColonyBrain_Structure_FleshHoldingPlatform_Label>Flesh holding platform</FB_ColonyBrain_Structure_FleshHoldingPlatform_Label>
+  <FB_ColonyBrain_Structure_FleshHoldingPlatform_Desc>Secures captured entities with vascular restraints. It has slightly stronger containment than a steel holding platform and consumes more hemogel while occupied.</FB_ColonyBrain_Structure_FleshHoldingPlatform_Desc>
+  <FB_FleshHoldingPlatformContainmentTitle>Containment strength</FB_FleshHoldingPlatformContainmentTitle>
+  <FB_FleshHoldingPlatformContainmentBarLabel>{0} / {1} | {2}/h</FB_FleshHoldingPlatformContainmentBarLabel>
+  <FB_FleshHoldingPlatformContainmentTooltip>Adjusts the platform's containment strength from its current room-based minimum ({0}) up to the selected target ({1}). Current effective strength: {2}. Current hemogel consumption: {3}/h.</FB_FleshHoldingPlatformContainmentTooltip>
+</LanguageData>

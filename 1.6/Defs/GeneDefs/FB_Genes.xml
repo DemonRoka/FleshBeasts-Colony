@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Gene category and shared base -->
+  <GeneCategoryDef>
+    <defName>ArchiteFleshmass</defName>
+    <label>archite fleshmass</label>
+    <displayPriorityInXenotype>1112</displayPriorityInXenotype>
+  </GeneCategoryDef>
+  <GeneDef Name="BiomassBaseGene" Abstract="True">
+    <iconColor>(1, 1, 1, 1)</iconColor>
+    <displayCategory>ArchiteFleshmass</displayCategory>
+    <selectionWeight>0.0</selectionWeight>
+    <canGenerateInGeneSet>False</canGenerateInGeneSet>
+    <selectionWeightCultist>0</selectionWeightCultist>
+  </GeneDef>
+  <!-- Colony foundation and utility genes -->
+  <GeneDef ParentName="BiomassBaseGene">
+    <defName>FB_BiomassEvolution</defName>
+    <label>biomass evolution</label>
+    <labelShortAdj>biomass-evolving</labelShortAdj>
+    <description>Carriers can act as a living center of a flesh colony. They may become a Flesh Heart, seal pawns in biomass cocoons to bind and mutate them, and call nearby allied fleshbeasts to escort them.</description>
+    <iconPath>UI/Icons/Genes/Gene_BiomassEvolution</iconPath>
+    <displayOrderInCategory>200</displayOrderInCategory>
+    <biostatArc>3</biostatArc>
+    <biostatMet>-2</biostatMet>
+    <biostatCpx>-1</biostatCpx>
+    <statOffsets>
+      <MaxNutrition>0.35</MaxNutrition>
+    </statOffsets>
+    <sterilize>true</sterilize>
+    <abilities>
+      <li>FB_CocoonFlesh</li>
+      <li>FB_BecomeFleshHeart</li>
+      <li>FB_CallEscort</li>
+    </abilities>
+  </GeneDef>
+  <GeneDef ParentName="BiomassBaseGene">
+    <defName>FB_HiveConstructor</defName>
+    <label>hive constructor</label>
+    <labelShortAdj>hive constructor</labelShortAdj>
+    <description>Carriers develop an internal hive that slowly grows sclerats. When construction, repair, deconstruction, or roof work is available nearby, the brood can be released to perform labor for the colony.</description>
+    <iconPath>UI/Icons/Genes/Gene_HiveConstructor</iconPath>
+    <geneClass>FB.Gene_PawnContainer</geneClass>
+    <biostatArc>2</biostatArc>
+    <biostatMet>-2</biostatMet>
+    <biostatCpx>2</biostatCpx>
+    <statOffsets>
+      <MaxNutrition>0.35</MaxNutrition>
+    </statOffsets>
+    <missingGeneRomanceChanceFactor>0.3</missingGeneRomanceChanceFactor>
+  </GeneDef>
+  <GeneDef ParentName="BiomassBaseGene">
+    <defName>FB_Assimilator</defName>
+    <label>assimilator</label>
+    <description>Carriers can harvest viable limbs and organs from fresh humanlike corpses, grafting them onto their own missing parts. The donor corpse loses the harvested part as it becomes part of the carrier.</description>
+    <iconPath>UI/Icons/Genes/Gene_Assimilator</iconPath>
+    <abilities>
+      <li>FB_BodyPartTransfer</li>
+    </abilities>
+    <descriptionHyperlinks>
+      <AbilityDef>FB_BodyPartTransfer</AbilityDef>
+    </descriptionHyperlinks>
+    <biostatArc>3</biostatArc>
+    <biostatMet>-2</biostatMet>
+    <biostatCpx>-1</biostatCpx>
+    <statOffsets>
+      <MaxNutrition>0.35</MaxNutrition>
+    </statOffsets>
+    <minAgeActive>10</minAgeActive>
+    <symbolPack>
+      <wholeNameSymbols>
+        <li>
+          <symbol>absorb</symbol>
+        </li>
+      </wholeNameSymbols>
+      <prefixSymbols>
+        <li>
+          <symbol>body</symbol>
+        </li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+  <GeneDef ParentName="BiomassBaseGene">
+    <defName>FB_OrganicArmor</defName>
+    <label>organic armor</label>
+    <description>Carriers can force bone-chitin plates to grow over the head and torso. The armor is temporary and decays over time, giving strong protection while making the body uglier and less agile at heavier stages.</description>
+    <iconPath>UI/Icons/Genes/Gene_OrganicArmor</iconPath>
+    <abilities>
+      <li>FB_GrowArmor</li>
+    </abilities>
+    <descriptionHyperlinks>
+      <AbilityDef>FB_GrowArmor</AbilityDef>
+    </descriptionHyperlinks>
+    <biostatArc>3</biostatArc>
+    <biostatMet>-1</biostatMet>
+    <biostatCpx>0</biostatCpx>
+    <statOffsets>
+      <MaxNutrition>0.20</MaxNutrition>
+    </statOffsets>
+    <minAgeActive>0</minAgeActive>
+    <symbolPack>
+      <wholeNameSymbols>
+        <li>
+          <symbol>armor</symbol>
+        </li>
+      </wholeNameSymbols>
+      <prefixSymbols>
+        <li>
+          <symbol>flesh</symbol>
+        </li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+  <GeneDef ParentName="BiomassBaseGene">
+    <defName>FB_PulsatingMold</defName>
+    <label>pulsating mold</label>
+    <labelShortAdj>pulsating mold</labelShortAdj>
+    <description>Carriers grow spore nodules that can be toggled on to emit a selected spore cloud around them. The spores affect nearby creatures with poison, euphoria, or anesthesia depending on the chosen type.</description>
+    <iconPath>UI/Icons/Genes/Gene_PulsatingMold</iconPath>
+    <geneClass>FB.Gene_SporeGrowths</geneClass>
+    <biostatArc>2</biostatArc>
+    <biostatMet>-2</biostatMet>
+    <biostatCpx>1</biostatCpx>
+    <statOffsets>
+      <MaxNutrition>0.35</MaxNutrition>
+    </statOffsets>
+  </GeneDef>
+  <GeneDef ParentName="BiomassBaseGene">
+    <defName>FB_ReplicatorParasite</defName>
+    <label>replicator parasite</label>
+    <description>Carriers can sacrifice a finger to implant a parasite of flesh into a living target. Once mature, bound parasites can be called to burst from their hosts as allied fingerspikes, leaving bleeding wounds behind.</description>
+    <iconPath>UI/Icons/Genes/Gene_ReplicatorParasite</iconPath>
+    <abilities>
+      <li>FB_ParasiteImplant</li>
+      <li>FB_ParasiteCall</li>
+    </abilities>
+    <biostatArc>4</biostatArc>
+    <biostatMet>-3</biostatMet>
+    <biostatCpx>3</biostatCpx>
+    <statOffsets>
+      <MaxNutrition>0.50</MaxNutrition>
+    </statOffsets>
+    <minAgeActive>0</minAgeActive>
+  </GeneDef>
+  <GeneDef ParentName="BiomassBaseGene">
+    <defName>FB_FleshbeastBody</defName>
+    <label>fleshbeast body</label>
+    <labelShortAdj>fleshbeast</labelShortAdj>
+    <description>Carriers are reshaped into a humanoid fleshbeast: hair and ordinary skin give way to living fleshbeast tissue and a warped head. The body feels far less pain, heals faster, and takes slightly less damage, but becomes deeply unsettling to others.</description>
+    <iconPath>UI/Icons/Genes/Gene_FleshbeastTransformation</iconPath>
+    <biostatArc>2</biostatArc>
+    <biostatMet>-2</biostatMet>
+    <biostatCpx>1</biostatCpx>
+    <statOffsets>
+      <MaxNutrition>0.35</MaxNutrition>
+    </statOffsets>
+    <fur>FleshbeastSkin</fur>
+    <missingGeneRomanceChanceFactor>0.9</missingGeneRomanceChanceFactor>
+    <skinIsHairColor>false</skinIsHairColor>
+    <tattoosVisible>false</tattoosVisible>
+    <renderNodeProperties>
+      <li>
+        <debugLabel>Fur</debugLabel>
+        <nodeClass>PawnRenderNode_Fur</nodeClass>
+        <workerClass>PawnRenderNodeWorker_Fur</workerClass>
+        <baseLayer>5</baseLayer>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <parentTagDef>Body</parentTagDef>
+      </li>
+    </renderNodeProperties>
+    <beardTagFilter>
+      <whitelist>true</whitelist>
+      <tags>
+        <li>NoBeard</li>
+      </tags>
+    </beardTagFilter>
+    <exclusionTags>
+      <li>HairStyle</li>
+      <li>Fur</li>
+      <li>BeardStyle</li>
+    </exclusionTags>
+    <forcedHeadTypes>
+      <li>FleshbeastHead</li>
+    </forcedHeadTypes>
+    <forcedHair>Bald</forcedHair>
+    <painFactor>0.3</painFactor>
+    <statFactors>
+      <IncomingDamageFactor>0.82</IncomingDamageFactor>
+      <PawnBeauty>-3</PawnBeauty>
+      <InjuryHealingFactor>2</InjuryHealingFactor>
+    </statFactors>
+  </GeneDef>
+  <GeneDef ParentName="BiomassBaseGene">
+    <defName>FB_Eater</defName>
+    <label>eater</label>
+    <description>Carriers can swallow organic corpses into an internal memory-vat, storing several bodies. Their biomass reserve refills over time, can bud small fleshbeasts, and may be spent to regrow a stored body as a newborn.</description>
+    <iconPath>UI/Icons/Genes/Gene_Eater</iconPath>
+    <geneClass>FB.Gene_Eater</geneClass>
+    <biostatArc>3</biostatArc>
+    <biostatMet>-2</biostatMet>
+    <biostatCpx>-2</biostatCpx>
+    <statOffsets>
+      <MaxNutrition>0.35</MaxNutrition>
+    </statOffsets>
+    <symbolPack>
+      <prefixSymbols>
+        <li>
+          <symbol>bio</symbol>
+        </li>
+        <li>
+          <symbol>organic</symbol>
+        </li>
+        <li>
+          <symbol>cell</symbol>
+        </li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li>
+          <symbol>storage</symbol>
+        </li>
+        <li>
+          <symbol>container</symbol>
+        </li>
+        <li>
+          <symbol>vessel</symbol>
+        </li>
+      </suffixSymbols>
+    </symbolPack>
+    <modExtensions>
+      <li Class="FB.EaterGeneExtension">
+        <biomassMaxLevel>100</biomassMaxLevel>
+        <initialBiomassLevel>0</initialBiomassLevel>
+        <recoveryRate>0.00001</recoveryRate>
+        <creatureDefYellow>Fingerspike</creatureDefYellow>
+        <creatureDefRed>Trispike</creatureDefRed>
+        <spawnChanceYellow>0.00001</spawnChanceYellow>
+        <spawnChanceRed>0.0001</spawnChanceRed>
+        <replacementPawnKind>Toughspike</replacementPawnKind>
+        <replacementChance>0.01</replacementChance>
+        <resurrectedDisease>FB_ResurrectionShock</resurrectedDisease>
+        <diseaseChance>0.01</diseaseChance>
+        <carrierDisease>FB_ResurrectionShock</carrierDisease>
+        <carrierDiseaseChance>0.01</carrierDiseaseChance>
+        <cooldownTicks>900</cooldownTicks>
+        <maxStoredCorpses>3</maxStoredCorpses>
+        <consumptionHediff>FB_ResurrectionShock</consumptionHediff>
+        <consumptionHediffChance>0.01</consumptionHediffChance>
+        <OnlyLife>True</OnlyLife>
+        <OnlyMech>false</OnlyMech>
+        <biomassCostPerBodySize>20</biomassCostPerBodySize>
+        <consumeIconPath>UI/Commands/Consume</consumeIconPath>
+        <spawnIconPath>UI/Commands/Spawn</spawnIconPath>
+      </li>
+    </modExtensions>
+  </GeneDef>
+  <GeneDef ParentName="BiomassBaseGene">
+    <defName>FB_Scavenger</defName>
+    <label>scavenger</label>
+    <description>Carriers can burst a fresh corpse into dense weavers. Larger bodies produce more weavers, while the original corpse is destroyed in a small meat eruption.</description>
+    <iconPath>UI/Icons/Genes/Gene_Scavenger</iconPath>
+    <abilities>
+      <li>FB_Scavenger</li>
+    </abilities>
+    <descriptionHyperlinks>
+      <AbilityDef>FB_Scavenger</AbilityDef>
+    </descriptionHyperlinks>
+    <biostatArc>3</biostatArc>
+    <biostatMet>-2</biostatMet>
+    <biostatCpx>1</biostatCpx>
+    <statOffsets>
+      <MaxNutrition>0.35</MaxNutrition>
+    </statOffsets>
+    <minAgeActive>0</minAgeActive>
+  </GeneDef>
+  <!-- Flesh growth and command genes -->
+  <GeneDef ParentName="BiomassBaseGene">
+    <defName>FB_Fragmentation</defName>
+    <label>Fragmentation</label>
+    <description>Carriers can rupture into shardlings either willingly or automatically to preserve their life. The shardlings flee danger, regroup, and try to rebuild the original body, but the flesh remains unstable for a long time after reassembly.</description>
+    <iconPath>UI/Icons/Genes/Gene_Fragmentation</iconPath>
+    <geneClass>FB.Gene_DivideActivatorRefactored</geneClass>
+    <modExtensions>
+      <li Class="FB.DefModExtension_FragmentationSettings">
+        <spawnCount>3</spawnCount>
+        <spawnPawnKind>FB_Shardlings</spawnPawnKind>
+        <customEffect>MeatExplosionSmall</customEffect>
+        <cooldownTicksAfterReassembly>180000</cooldownTicksAfterReassembly>
+      </li>
+    </modExtensions>
+    <biostatArc>3</biostatArc>
+    <biostatMet>-2</biostatMet>
+    <biostatCpx>2</biostatCpx>
+    <statOffsets>
+      <MaxNutrition>0.35</MaxNutrition>
+    </statOffsets>
+    <minAgeActive>0</minAgeActive>
+    <symbolPack>
+      <wholeNameSymbols>
+        <li>
+          <symbol>divide</symbol>
+        </li>
+      </wholeNameSymbols>
+      <prefixSymbols>
+        <li>
+          <symbol>life</symbol>
+        </li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+  <GeneDef ParentName="BiomassBaseGene">
+    <defName>FB_TriTendrils</defName>
+    <label>tri-tendrils</label>
+    <labelShortAdj>tri-tendriled</labelShortAdj>
+    <description>Three muscular tendrils grow from the carrier's torso. They add extra blunt melee strikes and visibly twitch with fleshbeast motion.</description>
+    <iconPath>UI/Icons/Genes/Gene_TriTendrils</iconPath>
+    <geneClass>FB.Gene_HediffMaintainer</geneClass>
+    <displayOrderInCategory>260</displayOrderInCategory>
+    <biostatArc>2</biostatArc>
+    <biostatMet>-2</biostatMet>
+    <biostatCpx>1</biostatCpx>
+    <statOffsets>
+      <MaxNutrition>0.35</MaxNutrition>
+    </statOffsets>
+    <modExtensions>
+      <li Class="FB.GeneLinkedHediffExtension">
+        <hediffDef>FB_TriTendrilsGrowth</hediffDef>
+      </li>
+    </modExtensions>
+  </GeneDef>
+  <GeneDef ParentName="BiomassBaseGene">
+    <defName>FB_DorsalSpines</defName>
+    <label>dorsal spike pair</label>
+    <labelShortAdj>dorsal-spiked</labelShortAdj>
+    <description>Two stabbing spine-tendrils root into the carrier's back. They sit behind the body and add piercing melee jabs against nearby enemies.</description>
+    <iconPath>UI/Icons/Genes/Gene_DorsalSpines</iconPath>
+    <geneClass>FB.Gene_HediffMaintainer</geneClass>
+    <displayOrderInCategory>270</displayOrderInCategory>
+    <biostatArc>2</biostatArc>
+    <biostatMet>-2</biostatMet>
+    <biostatCpx>2</biostatCpx>
+    <statOffsets>
+      <MaxNutrition>0.35</MaxNutrition>
+    </statOffsets>
+    <modExtensions>
+      <li Class="FB.GeneLinkedHediffExtension">
+        <hediffDef>FB_DorsalSpinesGrowth</hediffDef>
+      </li>
+    </modExtensions>
+  </GeneDef>
+  <GeneDef ParentName="BiomassBaseGene">
+    <defName>FB_MeatBloom</defName>
+    <label>meat bloom</label>
+    <labelShortAdj>meat-blooming</labelShortAdj>
+    <description>The carrier continuously cultivates twisted meat inside their own tissues, shedding small batches onto the ground several times per day. The growth process increases hunger as the new flesh feeds from the body.</description>
+    <iconPath>UI/Icons/Genes/Gene_MeatBloom</iconPath>
+    <geneClass>FB.Gene_MeatBloom</geneClass>
+    <displayOrderInCategory>280</displayOrderInCategory>
+    <biostatArc>1</biostatArc>
+    <biostatMet>-1</biostatMet>
+    <biostatCpx>1</biostatCpx>
+    <statOffsets>
+      <MaxNutrition>0.20</MaxNutrition>
+    </statOffsets>
+    <modExtensions>
+      <li Class="FB.GeneLinkedHediffExtension">
+        <hediffDef>FB_MeatBloomGrowth</hediffDef>
+      </li>
+      <li Class="FB.MeatBloomGeneExtension">
+        <meatDef>Meat_Twisted</meatDef>
+        <meatCount>5</meatCount>
+        <intervalTicks>12000</intervalTicks>
+      </li>
+    </modExtensions>
+  </GeneDef>
+  <GeneDef ParentName="BiomassBaseGene">
+    <defName>FB_FleshMarshal</defName>
+    <label>flesh marshal</label>
+    <labelShortAdj>flesh-marshaled</labelShortAdj>
+    <description>The carrier can broadcast a combat impulse that envelops nearby friendly fleshbeasts in nerveclot resonance, dulling pain, accelerating movement, and rapidly knitting injuries.</description>
+    <iconPath>UI/Icons/Genes/Gene_FleshMarshal</iconPath>
+    <geneClass>FB.Gene_FleshMarshal</geneClass>
+    <abilities>
+      <li>FB_FleshMarshalCommand</li>
+    </abilities>
+    <descriptionHyperlinks>
+      <AbilityDef>FB_FleshMarshalCommand</AbilityDef>
+    </descriptionHyperlinks>
+    <displayOrderInCategory>290</displayOrderInCategory>
+    <biostatArc>2</biostatArc>
+    <biostatMet>-2</biostatMet>
+    <biostatCpx>2</biostatCpx>
+    <statOffsets>
+      <MaxNutrition>0.35</MaxNutrition>
+    </statOffsets>
+  </GeneDef>
+  <GeneDef ParentName="BiomassBaseGene">
+    <defName>FB_BloodTendril</defName>
+    <label>blood tendril</label>
+    <labelShortAdj>blood-tendriled</labelShortAdj>
+    <description>Carriers grow a tendril-organ in the throat. If the organ is intact, they can fire it from the mouth at a target a short distance away, pinning a living non-mechanical victim while drawing blood to restore hunger, blood loss, and hemogen when applicable.</description>
+    <iconPath>UI/Icons/Genes/Gene_BloodTendril</iconPath>
+    <geneClass>FB.Gene_HediffMaintainerOnBodyPart</geneClass>
+    <displayOrderInCategory>300</displayOrderInCategory>
+    <biostatArc>2</biostatArc>
+    <biostatMet>-2</biostatMet>
+    <biostatCpx>2</biostatCpx>
+    <statOffsets>
+      <MaxNutrition>0.35</MaxNutrition>
+    </statOffsets>
+    <modExtensions>
+      <li Class="FB.GeneLinkedBodyPartHediffExtension">
+        <hediffDef>FB_BloodTendrilOrgan</hediffDef>
+        <bodyPartDef>Neck</bodyPartDef>
+      </li>
+    </modExtensions>
+  </GeneDef>
+</Defs>

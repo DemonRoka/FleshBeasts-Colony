@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <PawnKindDef ParentName="BaseFleshbeastKind">
+    <defName>FB_FleshIntruderKind</defName>
+    <label>flesh intruder</label>
+    <labelPlural>flesh intruders</labelPlural>
+    <race>FB_FleshIntruder</race>
+    <combatPower>45</combatPower>
+    <canMeleeAttack>false</canMeleeAttack>
+    <forceDeathOnDowned>true</forceDeathOnDowned>
+    <forceNoDeathNotification>true</forceNoDeathNotification>
+    <defaultFactionDef>PlayerColony</defaultFactionDef>
+    <canOpenDoors>true</canOpenDoors>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/FB_FleshIntruder/FB_FleshIntruder</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <drawSize>1.05</drawSize>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+</Defs>

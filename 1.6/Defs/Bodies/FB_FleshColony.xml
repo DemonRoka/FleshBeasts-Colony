@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Часть тела: soft flesh body (FB_SoftFleshBody) -->
+  <BodyPartDef>
+    <defName>FB_SoftFleshBody</defName>
+    <label>soft flesh body</label>
+    <hitPoints>40</hitPoints>
+    <skinCovered>true</skinCovered>
+    <executionPartPriority>500</executionPartPriority>
+    <frostbiteVulnerability>0.2</frostbiteVulnerability>
+    <tags>
+      <li>MovingLimbCore</li>
+    </tags>
+  </BodyPartDef>
+  <!-- Часть тела: flesh head (FB_FleshHead) -->
+  <BodyPartDef>
+    <defName>FB_FleshHead</defName>
+    <label>flesh head</label>
+    <hitPoints>25</hitPoints>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <skinCovered>true</skinCovered>
+    <executionPartPriority>500</executionPartPriority>
+  </BodyPartDef>
+  <!-- Часть тела: flesh maw (FB_FleshMaw) -->
+  <BodyPartDef>
+    <defName>FB_FleshMaw</defName>
+    <label>flesh maw</label>
+    <hitPoints>10</hitPoints>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <skinCovered>true</skinCovered>
+    <tags>
+      <li>EatingSource</li>
+      <li>ManipulationLimbCore</li>
+    </tags>
+  </BodyPartDef>
+  <!-- Тело: flesh larva body (FB_FleshLarvaBody) -->
+  <BodyDef>
+    <defName>FB_FleshLarvaBody</defName>
+    <label>flesh larva body</label>
+    <corePart>
+      <def>FB_SoftFleshBody</def>
+      <height>Middle</height>
+      <depth>Outside</depth>
+      <parts>
+        <li>
+          <def>Stomach</def>
+          <coverage>0.1</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>InsectHeart</def>
+          <coverage>0.05</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>FB_FleshHead</def>
+          <coverage>0.2</coverage>
+          <height>Top</height>
+          <groups>
+            <li>HeadAttackTool</li>
+          </groups>
+          <parts>
+            <li>
+              <def>Brain</def>
+              <coverage>0.2</coverage>
+              <depth>Inside</depth>
+            </li>
+            <li>
+              <def>Eye</def>
+              <customLabel>left eye</customLabel>
+              <coverage>0.1</coverage>
+            </li>
+            <li>
+              <def>Eye</def>
+              <customLabel>right eye</customLabel>
+              <coverage>0.1</coverage>
+            </li>
+            <li>
+              <def>FB_FleshMaw</def>
+              <coverage>0.1</coverage>
+              <groups>
+                <li>Mouth</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+  <!-- Часть тела: fleshmass shell (FB_TurretShell) -->
+  <BodyPartDef>
+    <defName>FB_TurretShell</defName>
+    <label>fleshmass shell</label>
+    <hitPoints>750</hitPoints>
+    <bleedRate>0</bleedRate>
+    <frostbiteVulnerability>0.1</frostbiteVulnerability>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <skinCovered>true</skinCovered>
+    <solid>true</solid>
+    <alive>true</alive>
+    <tags>
+      <li>ManipulationLimbCore</li>
+    </tags>
+  </BodyPartDef>
+  <!-- Часть тела: fleshmass core (FB_TurretCore) -->
+  <BodyPartDef>
+    <defName>FB_TurretCore</defName>
+    <label>fleshmass core</label>
+    <hitPoints>225</hitPoints>
+    <bleedRate>0.5</bleedRate>
+    <frostbiteVulnerability>0.1</frostbiteVulnerability>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <skinCovered>true</skinCovered>
+    <solid>false</solid>
+    <alive>true</alive>
+    <tags>
+      <li>MetabolismSource</li>
+      <li>ConsciousnessSource</li>
+      <li>BloodPumpingSource</li>
+      <li>BreathingSource</li>
+      <li>MovingLimbCore</li>
+    </tags>
+  </BodyPartDef>
+  <!-- Часть тела: gel sac (FB_TurretGelSac) -->
+  <BodyPartDef>
+    <defName>FB_TurretGelSac</defName>
+    <label>gel sac</label>
+    <hitPoints>150</hitPoints>
+    <bleedRate>0.8</bleedRate>
+    <frostbiteVulnerability>0.2</frostbiteVulnerability>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <skinCovered>true</skinCovered>
+    <solid>false</solid>
+    <alive>true</alive>
+    <tags>
+      <li>BloodFiltrationSource</li>
+    </tags>
+  </BodyPartDef>
+  <!-- Часть тела: surface sensor (FB_TurretSensor) -->
+  <BodyPartDef>
+    <defName>FB_TurretSensor</defName>
+    <label>surface sensor</label>
+    <hitPoints>75</hitPoints>
+    <bleedRate>0.3</bleedRate>
+    <frostbiteVulnerability>0.3</frostbiteVulnerability>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <skinCovered>true</skinCovered>
+    <solid>false</solid>
+    <alive>true</alive>
+    <tags>
+      <li>SightSource</li>
+    </tags>
+  </BodyPartDef>
+  <!-- Часть тела: tentacle (FB_TurretTentacle) -->
+  <BodyPartDef>
+    <defName>FB_TurretTentacle</defName>
+    <label>tentacle</label>
+    <hitPoints>110</hitPoints>
+    <bleedRate>0.4</bleedRate>
+    <frostbiteVulnerability>0.2</frostbiteVulnerability>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <skinCovered>true</skinCovered>
+    <solid>false</solid>
+    <alive>true</alive>
+    <tags>
+      <li>ManipulationLimbCore</li>
+    </tags>
+  </BodyPartDef>
+  <!-- Тело: fleshmass turret body (FB_TentacleTurretBody) -->
+  <BodyDef>
+    <defName>FB_TentacleTurretBody</defName>
+    <label>fleshmass turret body</label>
+    <corePart>
+      <def>FB_TurretShell</def>
+      <height>Middle</height>
+      <depth>Outside</depth>
+      <groups>
+        <li>Torso</li>
+      </groups>
+      <parts>
+        <li>
+          <def>FB_TurretCore</def>
+          <customLabel>core</customLabel>
+          <coverage>0.1</coverage>
+          <depth>Inside</depth>
+          <groups>
+            <li>Torso</li>
+          </groups>
+        </li>
+        <li>
+          <def>FB_TurretGelSac</def>
+          <customLabel>gel sac</customLabel>
+          <coverage>0.1</coverage>
+          <depth>Inside</depth>
+          <groups>
+            <li>Torso</li>
+          </groups>
+        </li>
+        <li>
+          <def>FB_TurretSensor</def>
+          <customLabel>primary sensor</customLabel>
+          <coverage>0.05</coverage>
+          <depth>Outside</depth>
+          <groups>
+            <li>Eyes</li>
+          </groups>
+        </li>
+        <li>
+          <def>FB_TurretSensor</def>
+          <customLabel>secondary sensor</customLabel>
+          <coverage>0.05</coverage>
+          <depth>Outside</depth>
+          <groups>
+            <li>Eyes</li>
+          </groups>
+        </li>
+        <li>
+          <def>FB_TurretTentacle</def>
+          <customLabel>north tentacle</customLabel>
+          <coverage>0.15</coverage>
+          <depth>Outside</depth>
+          <groups>
+            <li>Arms</li>
+            <li>FB_CoreTentacles</li>
+          </groups>
+        </li>
+        <li>
+          <def>FB_TurretTentacle</def>
+          <customLabel>south tentacle</customLabel>
+          <coverage>0.15</coverage>
+          <depth>Outside</depth>
+          <groups>
+            <li>Arms</li>
+            <li>FB_CoreTentacles</li>
+          </groups>
+        </li>
+        <li>
+          <def>FB_TurretTentacle</def>
+          <customLabel>east tentacle</customLabel>
+          <coverage>0.15</coverage>
+          <depth>Outside</depth>
+          <groups>
+            <li>Arms</li>
+            <li>FB_CoreTentacles</li>
+          </groups>
+        </li>
+        <li>
+          <def>FB_TurretTentacle</def>
+          <customLabel>west tentacle</customLabel>
+          <coverage>0.15</coverage>
+          <depth>Outside</depth>
+          <groups>
+            <li>Arms</li>
+            <li>FB_CoreTentacles</li>
+          </groups>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+  <!-- Группа частей тела: core tentacles (FB_CoreTentacles) -->
+  <BodyPartGroupDef>
+    <defName>FB_CoreTentacles</defName>
+    <label>core tentacles</label>
+    <labelShort>tentacles</labelShort>
+    <listOrder>50</listOrder>
+  </BodyPartGroupDef>
+  <!-- Группа частей тела: core eyes (FB_CoreEyes) -->
+  <BodyPartGroupDef>
+    <defName>FB_CoreEyes</defName>
+    <label>core eyes</label>
+    <labelShort>eyes</labelShort>
+    <listOrder>51</listOrder>
+  </BodyPartGroupDef>
+  <!-- Часть тела: core (FB_ParasiteCore) -->
+  <BodyPartDef>
+    <defName>FB_ParasiteCore</defName>
+    <label>core</label>
+    <hitPoints>50</hitPoints>
+    <frostbiteVulnerability>10</frostbiteVulnerability>
+    <tags>
+      <li>ConsciousnessSource</li>
+      <li>BloodPumpingSource</li>
+      <li>BloodFiltrationSource</li>
+      <li>MovingLimbCore</li>
+      <li>BreathingSource</li>
+    </tags>
+  </BodyPartDef>
+  <!-- Часть тела: tentacle (FB_ParasiteTentacle) -->
+  <BodyPartDef>
+    <defName>FB_ParasiteTentacle</defName>
+    <label>tentacle</label>
+    <hitPoints>30</hitPoints>
+    <tags>
+      <li>ManipulationLimbSegment</li>
+    </tags>
+    <pawnGeneratorCanAmputate>true</pawnGeneratorCanAmputate>
+  </BodyPartDef>
+  <!-- Часть тела: eye (FB_ParasiteEye) -->
+  <BodyPartDef>
+    <defName>FB_ParasiteEye</defName>
+    <label>eye</label>
+    <hitPoints>10</hitPoints>
+    <tags>
+      <li>SightSource</li>
+    </tags>
+  </BodyPartDef>
+  <!-- Тело: parasite (FB_ParasiteBody) -->
+  <BodyDef>
+    <defName>FB_ParasiteBody</defName>
+    <label>parasite</label>
+    <corePart>
+      <def>FB_ParasiteCore</def>
+      <height>Middle</height>
+      <depth>Outside</depth>
+      <parts>
+        <li>
+          <def>FB_ParasiteEye</def>
+          <customLabel>first eye</customLabel>
+          <coverage>0.05</coverage>
+          <groups>
+            <li>FB_CoreEyes</li>
+          </groups>
+        </li>
+        <li>
+          <def>FB_ParasiteEye</def>
+          <customLabel>second eye</customLabel>
+          <coverage>0.05</coverage>
+          <groups>
+            <li>FB_CoreEyes</li>
+          </groups>
+        </li>
+        <li>
+          <def>FB_ParasiteEye</def>
+          <customLabel>third eye</customLabel>
+          <coverage>0.05</coverage>
+          <groups>
+            <li>FB_CoreEyes</li>
+          </groups>
+        </li>
+        <li>
+          <def>FB_ParasiteTentacle</def>
+          <customLabel>left tentacle</customLabel>
+          <coverage>0.15</coverage>
+          <groups>
+            <li>FB_CoreTentacles</li>
+          </groups>
+        </li>
+        <li>
+          <def>FB_ParasiteTentacle</def>
+          <customLabel>right tentacle</customLabel>
+          <coverage>0.15</coverage>
+          <groups>
+            <li>FB_CoreTentacles</li>
+          </groups>
+        </li>
+        <li>
+          <def>FB_ParasiteTentacle</def>
+          <customLabel>rear tentacle</customLabel>
+          <coverage>0.15</coverage>
+          <groups>
+            <li>FB_CoreTentacles</li>
+          </groups>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+  <!-- Тело: symbio head (FB_SymbioHeadBody) -->
+  <BodyDef>
+    <defName>FB_SymbioHeadBody</defName>
+    <label>symbio head</label>
+    <corePart>
+      <def>MovingBodyFleshbeast</def>
+      <height>Middle</height>
+      <depth>Outside</depth>
+      <parts>
+        <li>
+          <def>Spine</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Stomach</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Heart</def>
+          <coverage>0.02</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>left lung</customLabel>
+          <coverage>0.025</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>right lung</customLabel>
+          <coverage>0.025</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>left kidney</customLabel>
+          <coverage>0.017</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>right kidney</customLabel>
+          <coverage>0.017</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Liver</def>
+          <coverage>0.025</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>FleshbeastHead</def>
+          <coverage>0.55</coverage>
+          <groups>
+            <li>UpperHead</li>
+            <li>FullHead</li>
+            <li>HeadAttackTool</li>
+          </groups>
+          <parts>
+            <li>
+              <def>Skull</def>
+              <coverage>0.20</coverage>
+              <depth>Inside</depth>
+              <groups>
+                <li>UpperHead</li>
+                <li>Eyes</li>
+                <li>FullHead</li>
+              </groups>
+              <parts>
+                <li>
+                  <def>Brain</def>
+                  <coverage>0.85</coverage>
+                  <groups>
+                    <li>UpperHead</li>
+                    <li>Eyes</li>
+                    <li>FullHead</li>
+                  </groups>
+                </li>
+              </parts>
+            </li>
+            <li>
+              <def>Eye</def>
+              <customLabel>left eye</customLabel>
+              <coverage>0.02</coverage>
+              <groups>
+                <li>FullHead</li>
+                <li>Eyes</li>
+              </groups>
+            </li>
+            <li>
+              <def>Eye</def>
+              <customLabel>right eye</customLabel>
+              <coverage>0.02</coverage>
+              <groups>
+                <li>FullHead</li>
+                <li>Eyes</li>
+              </groups>
+            </li>
+            <li>
+              <def>Tentacle</def>
+              <coverage>0.12</coverage>
+              <depth>Outside</depth>
+              <groups>
+                <li>FirstTentacle</li>
+              </groups>
+            </li>
+            <li>
+              <def>Tentacle</def>
+              <coverage>0.12</coverage>
+              <depth>Outside</depth>
+              <groups>
+                <li>SecondTentacle</li>
+              </groups>
+            </li>
+            <li>
+              <def>Tentacle</def>
+              <coverage>0.12</coverage>
+              <depth>Outside</depth>
+              <groups>
+                <li>ThirdTentacle</li>
+              </groups>
+            </li>
+            <li>
+              <def>Tentacle</def>
+              <coverage>0.12</coverage>
+              <depth>Outside</depth>
+              <groups>
+                <li>FourthTentacle</li>
+              </groups>
+            </li>
+            <li>
+              <def>Tentacle</def>
+              <coverage>0.12</coverage>
+              <depth>Outside</depth>
+              <groups>
+                <li>FifthTentacle</li>
+              </groups>
+            </li>
+            <li>
+              <def>Tentacle</def>
+              <coverage>0.12</coverage>
+              <depth>Outside</depth>
+              <groups>
+                <li>SixthTentacle</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+  <!-- Группа частей тела: tentacle (SixthTentacle) -->
+  <BodyPartGroupDef>
+    <defName>SixthTentacle</defName>
+    <label>tentacle</label>
+    <listOrder>80</listOrder>
+  </BodyPartGroupDef>
+  <!-- Группа частей тела: tentacle (SeventhTentacle) -->
+  <BodyPartGroupDef>
+    <defName>SeventhTentacle</defName>
+    <label>tentacle</label>
+    <listOrder>80</listOrder>
+  </BodyPartGroupDef>
+  <!-- Группа частей тела: tentacle (EighthTentacle) -->
+  <BodyPartGroupDef>
+    <defName>EighthTentacle</defName>
+    <label>tentacle</label>
+    <listOrder>80</listOrder>
+  </BodyPartGroupDef>
+</Defs>

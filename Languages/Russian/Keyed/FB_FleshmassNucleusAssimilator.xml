@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <FB_FleshmassNucleusAssimilator_CommandLabel>Поглотить ядро плоти</FB_FleshmassNucleusAssimilator_CommandLabel>
+  <FB_FleshmassNucleusAssimilator_CommandDesc>Выберите ядро плоти на этой карте. Пешка с базовой работой перенесёт его к сердцу, навсегда увеличив пассивное производство гемогеля.</FB_FleshmassNucleusAssimilator_CommandDesc>
+  <FB_FleshmassNucleusAssimilator_InvalidTarget>Выберите заспавненное ядро плоти на этой карте.</FB_FleshmassNucleusAssimilator_InvalidTarget>
+  <FB_FleshmassNucleusAssimilator_InvalidWorker>Нет подходящего переносчика.</FB_FleshmassNucleusAssimilator_InvalidWorker>
+  <FB_FleshmassNucleusAssimilator_NoHeart>Нет сердца колонии игрока, способного поглотить это ядро.</FB_FleshmassNucleusAssimilator_NoHeart>
+  <FB_FleshmassNucleusAssimilator_TargetAlreadyAssigned>Это ядро плоти уже назначено другому сердцу колонии.</FB_FleshmassNucleusAssimilator_TargetAlreadyAssigned>
+  <FB_FleshmassNucleusAssimilator_TargetDefMissing>Не найден ThingDef цели: {0}.</FB_FleshmassNucleusAssimilator_TargetDefMissing>
+  <FB_FleshmassNucleusAssimilator_Assigned>{0} назначено для поглощения сердцем {1}.</FB_FleshmassNucleusAssimilator_Assigned>
+  <FB_FleshmassNucleusAssimilator_Success>{0} поглотило ядро плоти. Поглощено ядер: {1}.</FB_FleshmassNucleusAssimilator_Success>
+  <FB_FleshmassNucleusAssimilator_Inspect>Поглощено ядер плоти: {0}. Пассивный гемогель: +{1}/ч.</FB_FleshmassNucleusAssimilator_Inspect>
+  <FB_FleshmassNucleusAssimilator_InspectAssigned>Назначенное ядро: {0}</FB_FleshmassNucleusAssimilator_InspectAssigned>
+  <FB_FleshmassNucleusAssimilator_EconomyDetail>Поглощено ядер: {0}; +{1}/ч</FB_FleshmassNucleusAssimilator_EconomyDetail>
+
+</LanguageData>

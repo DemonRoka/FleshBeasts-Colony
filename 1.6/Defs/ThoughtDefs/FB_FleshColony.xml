@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Мысль: FB_InebriatedFunSpore -->
+  <ThoughtDef>
+    <defName>FB_InebriatedFunSpore</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>FB_FunSpores</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+    <stages>
+      <li>
+        <label>pleasant warmth</label>
+        <description>I feel a pleasant warmth spreading through my body. This is quite nice.</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+      <li>
+        <label>giggly</label>
+        <description>I can't stop giggling! Everything seems so funny right now.</description>
+        <baseMoodEffect>7</baseMoodEffect>
+      </li>
+      <li>
+        <label>joyfully tipsy</label>
+        <description>I feel tipsy and joyful! Everything seems more fun!</description>
+        <baseMoodEffect>10</baseMoodEffect>
+      </li>
+      <li>
+        <label>euphoric</label>
+        <description>I'm euphoric and having the time of my life! This is amazing!</description>
+        <baseMoodEffect>15</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- Мысль: масса биошматов в колонии -->
+  <ThoughtDef>
+    <defName>FB_FleshbeastColonyPresence</defName>
+    <workerClass>FB.ThoughtWorker_FleshbeastColonyPresence</workerClass>
+    <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+    <stages>
+      <li>
+        <label>flesh colony presence</label>
+        <description>The colony's beasts move through the shared flesh. Their presence is small, but the rhythm is already comforting.</description>
+        <baseMoodEffect>6</baseMoodEffect>
+      </li>
+      <li>
+        <label>many fleshbeasts nearby</label>
+        <description>The colony has grown enough bodies to feel like a living crowd around me. I am not alone inside the flesh.</description>
+        <baseMoodEffect>14</baseMoodEffect>
+      </li>
+      <li>
+        <label>surrounded by the flesh swarm</label>
+        <description>The colony is dense with living beasts. Their weight presses through the shared mind and steadies my thoughts.</description>
+        <baseMoodEffect>25</baseMoodEffect>
+      </li>
+      <li>
+        <label>the flesh is everywhere</label>
+        <description>The colony is vast, warm, and close. Every beast is another pulse in the same body, and I rest inside it.</description>
+        <baseMoodEffect>40</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- Мысль: съел плотяную биомассу -->
+  <ThoughtDef>
+    <defName>FB_AteFleshBiomass</defName>
+    <durationDays>1</durationDays>
+    <nullifyingHediffs>
+      <li>FB_AcceptanceOfFleshColony</li>
+    </nullifyingHediffs>
+    <stages>
+      <li>
+        <label>ate strange biomass</label>
+        <description>I ate a warm mass of unfamiliar living tissue. It was nourishing, but I would rather not know what was moving inside it.</description>
+        <baseMoodEffect>-4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>

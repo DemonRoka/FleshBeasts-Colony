@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_MinionsHive_DevFinishGrowth>DEV: Finish sclerat growth</FB_MinionsHive_DevFinishGrowth>
+  <FB_MinionsHive_DevFinishGrowthDesc>Immediately completes the current growth cycle. A sclerat is created inside the hive if a slot is available and the required hemogel can be consumed.</FB_MinionsHive_DevFinishGrowthDesc>
+  <FB_MinionsHive_DevNoFreeSlot>All sclerat slots are occupied.</FB_MinionsHive_DevNoFreeSlot>
+  <FB_MinionsHive_DevContainerFull>The hive container has no free space.</FB_MinionsHive_DevContainerFull>
+  <FB_MinionsHive_DevNotEnoughHemogel>Requires {0} hemogel.</FB_MinionsHive_DevNotEnoughHemogel>
+</LanguageData>

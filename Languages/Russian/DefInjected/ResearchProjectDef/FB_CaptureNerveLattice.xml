@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_CaptureNerveLattice.label>сеть нервных узлов захвата</FB_CaptureNerveLattice.label>
+  <FB_CaptureNerveLattice.description>Позволяет выращивать вспомогательные нервные узлы, расширяющие лимит хватательных щупалец сердца колонии и улучшающие выбор добычи по видам и фракциям.</FB_CaptureNerveLattice.description>
+</LanguageData>

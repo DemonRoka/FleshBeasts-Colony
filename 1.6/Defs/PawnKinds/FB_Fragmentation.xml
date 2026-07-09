@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Вид пешки: shardlings (FB_Shardlings) -->
+  <PawnKindDef>
+    <defName>FB_Shardlings</defName>
+    <label>shardlings</label>
+    <race>FB_Shardlings</race>
+    <combatPower>25</combatPower>
+    <alternateGraphicChance>0.8</alternateGraphicChance>
+    <alternateGraphics>
+      <li>
+        <texPath>Things/Pawn/FB_Shardlings/Shardlings1</texPath>
+      </li>
+      <li>
+        <texPath>Things/Pawn/FB_Shardlings/Shardlings2</texPath>
+      </li>
+      <li>
+        <texPath>Things/Pawn/FB_Shardlings/Shardlings3</texPath>
+      </li>
+    </alternateGraphics>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/FB_Shardlings/Shardlings1</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>1</drawSize>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+    <overrideDebugActionCategory>Entity</overrideDebugActionCategory>
+    <meleeAttackInfectionPathways>
+      <li>EntityAttacked</li>
+    </meleeAttackInfectionPathways>
+    <forceNoDeathNotification>true</forceNoDeathNotification>
+  </PawnKindDef>
+</Defs>

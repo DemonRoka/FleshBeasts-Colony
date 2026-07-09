@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AbilityDef>
+    <defName>FB_AcidSpitlingSpit</defName>
+    <label>acid spit</label>
+    <description>Launch an arcing shell of gastric acid at a distant enemy.</description>
+    <iconPath>UI/Abilities/AcidSpitlingSpit</iconPath>
+    <cooldownTicksRange>300</cooldownTicksRange>
+    <aiCanUse>true</aiCanUse>
+    <ai_IsOffensive>true</ai_IsOffensive>
+    <verbProperties>
+      <verbClass>FB.Verb_AbilityAcidSpit</verbClass>
+      <warmupTime>2.5</warmupTime>
+      <range>28.9</range>
+      <minRange>5.9</minRange>
+      <defaultProjectile>Bullet_Shell_AcidSpit</defaultProjectile>
+      <isMortar>true</isMortar>
+      <forcedMissRadius>3</forcedMissRadius>
+      <requireLineOfSight>false</requireLineOfSight>
+      <soundCast>SpitterSpit</soundCast>
+      <ai_IsWeapon>false</ai_IsWeapon>
+      <targetParams>
+        <canTargetSelf>false</canTargetSelf>
+        <canTargetPawns>true</canTargetPawns>
+        <canTargetBuildings>true</canTargetBuildings>
+        <canTargetLocations>false</canTargetLocations>
+        <canTargetItems>false</canTargetItems>
+        <canTargetCorpses>false</canTargetCorpses>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="FB.CompProperties_AbilityAcidSpit">
+        <acidCost>20</acidCost>
+      </li>
+    </comps>
+  </AbilityDef>
+</Defs>

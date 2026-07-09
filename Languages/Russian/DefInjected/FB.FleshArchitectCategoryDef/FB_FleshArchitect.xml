@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_FleshArchitect_ZonesPlans.label>Зоны/планы</FB_FleshArchitect_ZonesPlans.label>
+  <FB_FleshArchitect_ZonesPlans.description>Зоны роста плоти и строительные планы колонии.</FB_FleshArchitect_ZonesPlans.description>
+  <FB_FleshArchitect_HemogelExtraction.label>Гемогель</FB_FleshArchitect_HemogelExtraction.label>
+  <FB_FleshArchitect_HemogelExtraction.description>Органы, создающие гемогель через пищеварение, фотосинтез и фильтрацию воды.</FB_FleshArchitect_HemogelExtraction.description>
+  <FB_FleshArchitect_Structures.label>Структуры</FB_FleshArchitect_Structures.label>
+  <FB_FleshArchitect_Structures.description>Базовые поддерживающие структуры плотемассы.</FB_FleshArchitect_Structures.description>
+  <FB_FleshArchitect_Production.label>Продукция</FB_FleshArchitect_Production.label>
+  <FB_FleshArchitect_Production.description>Органы, которые производят, перерабатывают, хранят или очищают ресурсы.</FB_FleshArchitect_Production.description>
+  <FB_FleshArchitect_Auxiliary.label>Вспомогательные</FB_FleshArchitect_Auxiliary.label>
+  <FB_FleshArchitect_Auxiliary.description>Утилитарные органы, стабилизирующие и поддерживающие колонию.</FB_FleshArchitect_Auxiliary.description>
+  <FB_FleshArchitect_Genetics.label>Генетика</FB_FleshArchitect_Genetics.label>
+  <FB_FleshArchitect_Genetics.description>Генетические архивы и структуры изменения генов.</FB_FleshArchitect_Genetics.description>
+  <FB_FleshArchitect_Anomaly.label>Аномалии</FB_FleshArchitect_Anomaly.label>
+  <FB_FleshArchitect_Anomaly.description>Живые органы удержания для захваченных сущностей.</FB_FleshArchitect_Anomaly.description>
+  <FB_FleshArchitect_Defense.label>Защита</FB_FleshArchitect_Defense.label>
+  <FB_FleshArchitect_Defense.description>Органы, выращенные для увечья, сдерживания или поглощения вторженцев.</FB_FleshArchitect_Defense.description>
+  <FB_FleshArchitect_Reproduction.label>Репродукция</FB_FleshArchitect_Reproduction.label>
+  <FB_FleshArchitect_Reproduction.description>Органы, выращивающие, инкубирующие или направляющие живых защитников.</FB_FleshArchitect_Reproduction.description>
+  <FB_FleshArchitect_Plants.label>Растения</FB_FleshArchitect_Plants.label>
+  <FB_FleshArchitect_Plants.description>Живая флора колонии, выращиваемая прямо из плотяного грунта.</FB_FleshArchitect_Plants.description>
+  <FB_FleshArchitect_Transport.label>Перемещение</FB_FleshArchitect_Transport.label>
+  <FB_FleshArchitect_Transport.description>Органы, перемещающие колонию через плоть и расстояние.</FB_FleshArchitect_Transport.description>
+  <FB_FleshArchitect_FleshMoon.label>Луна плоти</FB_FleshArchitect_FleshMoon.label>
+  <FB_FleshArchitect_FleshMoon.description>Функции, поддерживаемые постоянной связью с луной плоти.</FB_FleshArchitect_FleshMoon.description>
+  <FB_FleshArchitect_Misc.label>Разное</FB_FleshArchitect_Misc.label>
+  <FB_FleshArchitect_Misc.description>Несортированная плотяная архитектура.</FB_FleshArchitect_Misc.description>
+</LanguageData>

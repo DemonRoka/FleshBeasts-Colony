@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Вид пешки: carapace excavator (FB_CarapaceExcavatorKind) -->
+  <PawnKindDef ParentName="BaseFleshbeastKind">
+    <defName>FB_CarapaceExcavatorKind</defName>
+    <label>carapace excavator</label>
+    <race>FB_CarapaceExcavator</race>
+    <combatPower>82</combatPower>
+    <defaultFactionDef>PlayerColony</defaultFactionDef>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/FB_CarapaceExcavator/FB_CarapaceExcavator</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>2.25</drawSize>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+</Defs>

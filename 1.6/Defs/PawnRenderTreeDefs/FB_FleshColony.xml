@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Дерево рендера: FB_TentacleTurret -->
+  <PawnRenderTreeDef>
+    <defName>FB_TentacleTurret</defName>
+    <root Class="PawnRenderNodeProperties_Parent">
+      <debugLabel>Root</debugLabel>
+      <tagDef>Root</tagDef>
+      <children>
+        <li>
+          <debugLabel>Body</debugLabel>
+          <tagDef>Body</tagDef>
+          <useRottenColor>true</useRottenColor>
+          <nodeClass>PawnRenderNode_AnimalPart</nodeClass>
+          <drawSize>1.5</drawSize>
+          <baseLayer>0</baseLayer>
+          <children>
+            <li Class="PawnRenderNodeProperties_BulbfreakTentacle">
+              <debugLabel>NorthTentacle</debugLabel>
+              <texPath>Things/Pawn/Fleshbeast/Trispike/Attachments/Side/Trispike_SideLimb</texPath>
+              <linkedBodyPartsGroup>FB_CoreTentacles</linkedBodyPartsGroup>
+              <rotDrawMode>Fresh, Rotting</rotDrawMode>
+              <rotateFacing>false</rotateFacing>
+              <rotationRange>-25~25</rotationRange>
+              <scaleRange>0.9~1.1</scaleRange>
+              <durationTicksRange>15~45</durationTicksRange>
+              <nextSpasmTicksRange>5~35</nextSpasmTicksRange>
+              <drawSize>1.1</drawSize>
+              <baseLayer>10</baseLayer>
+              <useRottenColor>true</useRottenColor>
+              <drawData>
+                <dataNorth>
+                  <rotationOffset>180</rotationOffset>
+                  <offset>(0, 0, -0.25)</offset>
+                </dataNorth>
+                <dataEast>
+                  <rotationOffset>150</rotationOffset>
+                  <offset>(0.2, 0, -0.1)</offset>
+                </dataEast>
+                <dataSouth>
+                  <rotationOffset>0</rotationOffset>
+                  <offset>(0, 0, 0.25)</offset>
+                  <flip>false</flip>
+                </dataSouth>
+                <dataWest>
+                  <rotationOffset>-150</rotationOffset>
+                  <offset>(-0.2, 0, -0.1)</offset>
+                  <flip>true</flip>
+                </dataWest>
+              </drawData>
+            </li>
+            <li Class="PawnRenderNodeProperties_BulbfreakTentacle">
+              <debugLabel>SouthTentacle</debugLabel>
+              <texPath>Things/Pawn/Fleshbeast/Trispike/Attachments/Side/Trispike_SideLimb</texPath>
+              <linkedBodyPartsGroup>FB_CoreTentacles</linkedBodyPartsGroup>
+              <rotDrawMode>Fresh, Rotting</rotDrawMode>
+              <rotateFacing>false</rotateFacing>
+              <rotationRange>-25~25</rotationRange>
+              <scaleRange>0.9~1.1</scaleRange>
+              <durationTicksRange>15~45</durationTicksRange>
+              <nextSpasmTicksRange>5~35</nextSpasmTicksRange>
+              <drawSize>1.2</drawSize>
+              <baseLayer>10</baseLayer>
+              <useRottenColor>true</useRottenColor>
+              <drawData>
+                <dataNorth>
+                  <rotationOffset>0</rotationOffset>
+                  <offset>(0, 0, 0.25)</offset>
+                  <flip>false</flip>
+                </dataNorth>
+                <dataEast>
+                  <rotationOffset>30</rotationOffset>
+                  <offset>(0.2, 0, 0.1)</offset>
+                </dataEast>
+                <dataSouth>
+                  <rotationOffset>180</rotationOffset>
+                  <offset>(0, 0, -0.25)</offset>
+                  <flip>true</flip>
+                </dataSouth>
+                <dataWest>
+                  <rotationOffset>-30</rotationOffset>
+                  <offset>(-0.2, 0, 0.1)</offset>
+                  <flip>true</flip>
+                </dataWest>
+              </drawData>
+            </li>
+            <li Class="PawnRenderNodeProperties_BulbfreakTentacle">
+              <debugLabel>EastTentacle</debugLabel>
+              <texPath>Things/Pawn/Fleshbeast/Trispike/Attachments/Side/Trispike_SideLimb</texPath>
+              <linkedBodyPartsGroup>FB_CoreTentacles</linkedBodyPartsGroup>
+              <rotDrawMode>Fresh, Rotting</rotDrawMode>
+              <rotateFacing>false</rotateFacing>
+              <rotationRange>-25~25</rotationRange>
+              <scaleRange>0.9~1.1</scaleRange>
+              <durationTicksRange>15~45</durationTicksRange>
+              <nextSpasmTicksRange>5~35</nextSpasmTicksRange>
+              <drawSize>1.15</drawSize>
+              <baseLayer>10</baseLayer>
+              <useRottenColor>true</useRottenColor>
+              <drawData>
+                <dataNorth>
+                  <rotationOffset>-30</rotationOffset>
+                  <offset>(-0.25, 0, 0.05)</offset>
+                  <flip>true</flip>
+                </dataNorth>
+                <dataEast>
+                  <rotationOffset>-180</rotationOffset>
+                  <offset>(-0.25, 0, 0)</offset>
+                  <flip>true</flip>
+                </dataEast>
+                <dataSouth>
+                  <rotationOffset>-30</rotationOffset>
+                  <offset>(-0.25, 0, -0.05)</offset>
+                  <flip>true</flip>
+                </dataSouth>
+                <dataWest>
+                  <rotationOffset>0</rotationOffset>
+                  <offset>(0.2, 0, 0)</offset>
+                  <flip>false</flip>
+                </dataWest>
+              </drawData>
+            </li>
+            <li Class="PawnRenderNodeProperties_BulbfreakTentacle">
+              <debugLabel>WestTentacle</debugLabel>
+              <texPath>Things/Pawn/Fleshbeast/Trispike/Attachments/Side/Trispike_SideLimb</texPath>
+              <linkedBodyPartsGroup>FB_CoreTentacles</linkedBodyPartsGroup>
+              <rotDrawMode>Fresh, Rotting</rotDrawMode>
+              <rotateFacing>false</rotateFacing>
+              <rotationRange>-25~25</rotationRange>
+              <scaleRange>0.9~1.1</scaleRange>
+              <durationTicksRange>15~45</durationTicksRange>
+              <nextSpasmTicksRange>5~35</nextSpasmTicksRange>
+              <drawSize>1.25</drawSize>
+              <baseLayer>10</baseLayer>
+              <useRottenColor>true</useRottenColor>
+              <drawData>
+                <dataNorth>
+                  <rotationOffset>30</rotationOffset>
+                  <offset>(0.25, 0, 0.05)</offset>
+                  <flip>false</flip>
+                </dataNorth>
+                <dataEast>
+                  <rotationOffset>0</rotationOffset>
+                  <offset>(0.2, 0, 0)</offset>
+                  <flip>false</flip>
+                </dataEast>
+                <dataSouth>
+                  <rotationOffset>30</rotationOffset>
+                  <offset>(0.25, 0, -0.05)</offset>
+                  <flip>false</flip>
+                </dataSouth>
+                <dataWest>
+                  <rotationOffset>180</rotationOffset>
+                  <offset>(0.25, 0, 0)</offset>
+                  <flip>true</flip>
+                </dataWest>
+              </drawData>
+            </li>
+            <li>
+              <debugLabel>Wounds</debugLabel>
+              <nodeClass>PawnRenderNode_AnimalPart</nodeClass>
+              <workerClass>PawnRenderNodeWorker_OverlayWounds</workerClass>
+              <overlayLayer>Body</overlayLayer>
+              <baseLayer>10</baseLayer>
+            </li>
+            <li>
+              <debugLabel>Firefoam</debugLabel>
+              <nodeClass>PawnRenderNode_AnimalPart</nodeClass>
+              <workerClass>PawnRenderNodeWorker_OverlayFirefoam</workerClass>
+              <overlayLayer>Body</overlayLayer>
+              <useGraphic>false</useGraphic>
+              <baseLayer>20</baseLayer>
+            </li>
+          </children>
+        </li>
+        <li Class="PawnRenderNodeProperties_Carried">
+          <debugLabel>Carried thing</debugLabel>
+          <workerClass>PawnRenderNodeWorker_Carried</workerClass>
+        </li>
+      </children>
+    </root>
+  </PawnRenderTreeDef>
+
+  <!-- Дерево рендера: FB_FingerspikeGauntlet -->
+  <PawnRenderTreeDef>
+    <defName>FB_FingerspikeGauntlet</defName>
+    <root Class="PawnRenderNodeProperties_Parent">
+      <debugLabel>Root</debugLabel>
+      <tagDef>Root</tagDef>
+      <children>
+        <li>
+          <debugLabel>Body</debugLabel>
+          <tagDef>Body</tagDef>
+          <useRottenColor>true</useRottenColor>
+          <nodeClass>PawnRenderNode_AnimalPart</nodeClass>
+          <children>
+            <li Class="PawnRenderNodeProperties_Spastic">
+              <debugLabel>Spike</debugLabel>
+              <texPath>Things/Pawn/Fleshbeast/Fingerspike/Attachments/Fingerspike_TopLimb</texPath>
+              <linkedBodyPartsGroup>MiddleSpike</linkedBodyPartsGroup>
+              <rotDrawMode>Fresh, Rotting</rotDrawMode>
+              <rotateFacing>false</rotateFacing>
+              <rotationRange>-18~18</rotationRange>
+              <durationTicksRange>15~45</durationTicksRange>
+              <nextSpasmTicksRange>5~30</nextSpasmTicksRange>
+              <scaleRange>0.95~1.05</scaleRange>
+              <drawSize>1.4</drawSize>
+              <baseLayer>10</baseLayer>
+              <useRottenColor>true</useRottenColor>
+              <drawData>
+                <dataNorth>
+                  <rotationOffset>-30</rotationOffset>
+                  <offset>(0, 0, 0.25)</offset>
+                </dataNorth>
+                <dataEast>
+                  <rotationOffset>-30</rotationOffset>
+                  <offset>(0, 0, 0.25</offset>
+                </dataEast>
+                <dataSouth>
+                  <rotationOffset>30</rotationOffset>
+                  <offset>(0, 0, 0.25)</offset>
+                  <flip>true</flip>
+                </dataSouth>
+                <dataWest>
+                  <offset>(0, 0, 0.25)</offset>
+                </dataWest>
+              </drawData>
+            </li>
+            <li>
+              <debugLabel>Wounds</debugLabel>
+              <nodeClass>PawnRenderNode_AnimalPart</nodeClass>
+              <workerClass>PawnRenderNodeWorker_OverlayWounds</workerClass>
+              <overlayLayer>Body</overlayLayer>
+              <baseLayer>10</baseLayer>
+            </li>
+            <li>
+              <debugLabel>Firefoam</debugLabel>
+              <nodeClass>PawnRenderNode_AnimalPart</nodeClass>
+              <workerClass>PawnRenderNodeWorker_OverlayFirefoam</workerClass>
+              <overlayLayer>Body</overlayLayer>
+              <useGraphic>false</useGraphic>
+              <baseLayer>20</baseLayer>
+            </li>
+          </children>
+        </li>
+        <li Class="PawnRenderNodeProperties_Carried">
+          <debugLabel>Carried thing</debugLabel>
+          <workerClass>PawnRenderNodeWorker_Carried</workerClass>
+        </li>
+      </children>
+    </root>
+  </PawnRenderTreeDef>
+</Defs>

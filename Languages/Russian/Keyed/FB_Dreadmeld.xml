@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_DreadmeldShedCommandLabel>сбросить флешбистов</FB_DreadmeldShedCommandLabel>
+  <FB_DreadmeldShedCommandDesc>Разорвать центральную массу дредмелда, нанеся ему тяжёлый урон и заставив нескольких малых флешбистов вырваться наружу. Повторное применение может убить дредмелда.</FB_DreadmeldShedCommandDesc>
+  <FB_DreadmeldShedUnavailable>Дредмелд не может сбросить флешбистов в текущем состоянии.</FB_DreadmeldShedUnavailable>
+  <FB_DreadmeldShedCooldown>Восстановление: {0} сек.</FB_DreadmeldShedCooldown>
+</LanguageData>

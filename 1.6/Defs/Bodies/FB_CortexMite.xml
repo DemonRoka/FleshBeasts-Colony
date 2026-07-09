@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Тело: cortex mite (FB_CortexMiteBody) -->
+  <BodyDef>
+    <defName>FB_CortexMiteBody</defName>
+    <label>cortex mite</label>
+    <corePart>
+      <def>MovingBodyFleshbeast</def>
+      <height>Middle</height>
+      <depth>Outside</depth>
+      <parts>
+        <li>
+          <def>Spine</def>
+          <coverage>0.025</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Stomach</def>
+          <coverage>0.025</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Heart</def>
+          <coverage>0.02</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>left lung</customLabel>
+          <coverage>0.025</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>right lung</customLabel>
+          <coverage>0.025</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>left kidney</customLabel>
+          <coverage>0.017</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>right kidney</customLabel>
+          <coverage>0.017</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Liver</def>
+          <coverage>0.025</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>FleshbeastHead</def>
+          <coverage>0.56</coverage>
+          <groups>
+            <li>UpperHead</li>
+            <li>FullHead</li>
+            <li>HeadAttackTool</li>
+          </groups>
+          <parts>
+            <li>
+              <def>Skull</def>
+              <coverage>0.2</coverage>
+              <depth>Inside</depth>
+              <groups>
+                <li>UpperHead</li>
+                <li>Eyes</li>
+                <li>FullHead</li>
+              </groups>
+              <parts>
+                <li>
+                  <def>Brain</def>
+                  <coverage>0.9</coverage>
+                  <groups>
+                    <li>UpperHead</li>
+                    <li>Eyes</li>
+                    <li>FullHead</li>
+                  </groups>
+                </li>
+              </parts>
+            </li>
+            <li>
+              <def>Eye</def>
+              <customLabel>left anterior eye</customLabel>
+              <coverage>0.02</coverage>
+              <groups>
+                <li>FullHead</li>
+                <li>Eyes</li>
+              </groups>
+            </li>
+            <li>
+              <def>Eye</def>
+              <customLabel>right anterior eye</customLabel>
+              <coverage>0.02</coverage>
+              <groups>
+                <li>FullHead</li>
+                <li>Eyes</li>
+              </groups>
+            </li>
+            <li>
+              <def>Eye</def>
+              <customLabel>left side eye</customLabel>
+              <coverage>0.018</coverage>
+              <groups>
+                <li>FullHead</li>
+                <li>Eyes</li>
+              </groups>
+            </li>
+            <li>
+              <def>Eye</def>
+              <customLabel>right side eye</customLabel>
+              <coverage>0.018</coverage>
+              <groups>
+                <li>FullHead</li>
+                <li>Eyes</li>
+              </groups>
+            </li>
+            <li>
+              <def>Tentacle</def>
+              <customLabel>front left spike-leg</customLabel>
+              <coverage>0.09</coverage>
+              <depth>Outside</depth>
+              <groups>
+                <li>FirstTentacle</li>
+              </groups>
+            </li>
+            <li>
+              <def>Tentacle</def>
+              <customLabel>front right spike-leg</customLabel>
+              <coverage>0.09</coverage>
+              <depth>Outside</depth>
+              <groups>
+                <li>SecondTentacle</li>
+              </groups>
+            </li>
+            <li>
+              <def>Tentacle</def>
+              <customLabel>left mid spike-leg</customLabel>
+              <coverage>0.09</coverage>
+              <depth>Outside</depth>
+              <groups>
+                <li>ThirdTentacle</li>
+              </groups>
+            </li>
+            <li>
+              <def>Tentacle</def>
+              <customLabel>right mid spike-leg</customLabel>
+              <coverage>0.09</coverage>
+              <depth>Outside</depth>
+              <groups>
+                <li>FourthTentacle</li>
+              </groups>
+            </li>
+            <li>
+              <def>Tentacle</def>
+              <customLabel>left rear spike-leg</customLabel>
+              <coverage>0.09</coverage>
+              <depth>Outside</depth>
+              <groups>
+                <li>FifthTentacle</li>
+              </groups>
+            </li>
+            <li>
+              <def>Tentacle</def>
+              <customLabel>right rear spike-leg</customLabel>
+              <coverage>0.09</coverage>
+              <depth>Outside</depth>
+              <groups>
+                <li>SixthTentacle</li>
+              </groups>
+            </li>
+            <li>
+              <def>Tentacle</def>
+              <customLabel>left back spike-leg</customLabel>
+              <coverage>0.085</coverage>
+              <depth>Outside</depth>
+              <groups>
+                <li>SeventhTentacle</li>
+              </groups>
+            </li>
+            <li>
+              <def>Tentacle</def>
+              <customLabel>right back spike-leg</customLabel>
+              <coverage>0.085</coverage>
+              <depth>Outside</depth>
+              <groups>
+                <li>EighthTentacle</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+</Defs>

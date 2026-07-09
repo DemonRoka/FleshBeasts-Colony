@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_HemoghoulReanimation.label>hemoghoul reanimation</FB_HemoghoulReanimation.label>
+  <FB_HemoghoulReanimation.description>Teach the colony brain to implant a fingerspike into a human corpse and raise it as a tireless hemoghoul worker.</FB_HemoghoulReanimation.description>
+  <FB_HemoghoulReanimation.generalRules.rulesStrings.0>subject-&gt;hemoghoul reanimation</FB_HemoghoulReanimation.generalRules.rulesStrings.0>
+  <FB_HemoghoulReanimation.generalRules.rulesStrings.1>subject_story-&gt;raised tireless workers through fingerspike implantation</FB_HemoghoulReanimation.generalRules.rulesStrings.1>
+  <FB_HemoghoulReanimation.generalRules.rulesStrings.2>subject_story-&gt;bound dead flesh into hemogel-fed laborers</FB_HemoghoulReanimation.generalRules.rulesStrings.2>
+  <FB_HemoghoulReanimation.generalRules.rulesStrings.3>subject_gerund-&gt;reanimating hemoghouls</FB_HemoghoulReanimation.generalRules.rulesStrings.3>
+  <FB_FleshResurrection.label>flesh resurrection</FB_FleshResurrection.label>
+  <FB_FleshResurrection.description>Teach the colony brain to restore a dead human through fingerspike implantation and bind the revived pawn to the flesh colony.</FB_FleshResurrection.description>
+  <FB_FleshResurrection.generalRules.rulesStrings.0>subject-&gt;flesh resurrection</FB_FleshResurrection.generalRules.rulesStrings.0>
+  <FB_FleshResurrection.generalRules.rulesStrings.1>subject_story-&gt;restored dead minds through living flesh</FB_FleshResurrection.generalRules.rulesStrings.1>
+  <FB_FleshResurrection.generalRules.rulesStrings.2>subject_story-&gt;used fingerspikes to return corpses to the colony</FB_FleshResurrection.generalRules.rulesStrings.2>
+  <FB_FleshResurrection.generalRules.rulesStrings.3>subject_gerund-&gt;resurrecting through flesh</FB_FleshResurrection.generalRules.rulesStrings.3>
+</LanguageData>

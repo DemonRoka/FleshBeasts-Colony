@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_ColonyBrain_Structure_BileMortarGland_Label>Желчная мортирная железа</FB_ColonyBrain_Structure_BileMortarGland_Label>
+  <FB_BilePodlingSpawnLabel>Вырастить желчного подрывника</FB_BilePodlingSpawnLabel>
+  <FB_BilePodlingSpawnDesc>Вырастить рядом с железой одного желчного подрывника. Требуется полное питание гемогелевой сети.</FB_BilePodlingSpawnDesc>
+  <FB_BilePodlingSpawnFailed>Желчная мортирная железа сейчас не может вырастить подрывника.</FB_BilePodlingSpawnFailed>
+  <FB_BilePodlingNoSpawnCell>Рядом нет свободной клетки для желчного подрывника.</FB_BilePodlingNoSpawnCell>
+  <FB_BilePodlingNoNetworkSupply>Гемогелевая сеть недополучает питание.</FB_BilePodlingNoNetworkSupply>
+  <FB_BilePodlingOwnedInspect>Желчные подрывники: {0}/{1}/{2} (готовые / набухающие / слабый заряд)</FB_BilePodlingOwnedInspect>
+  <FB_BileMortarFireLabel>Выстрелить желчной мортирой</FB_BileMortarFireLabel>
+  <FB_BileMortarFireDesc>Выберите клетку в радиусе {1} клеток для обстрела. Железа призовёт самого заряженного доступного желчного подрывника с запасом горючей желчи не ниже {0}%, загрузит его и выпустит как живой снаряд. Попадание может отклониться примерно на {2} клетки.</FB_BileMortarFireDesc>
+  <FB_BileMortarNoLoadedPodling>Нет доступного желчного подрывника с запасом горючей желчи не ниже {0}%.</FB_BileMortarNoLoadedPodling>
+  <FB_BileMortarCannotFire>Желчная мортирная железа сейчас не может стрелять.</FB_BileMortarCannotFire>
+  <FB_BileMortarInvalidTarget>Недопустимая цель для желчной мортиры.</FB_BileMortarInvalidTarget>
+  <FB_BileMortarCannotReach>Выбранный желчный подрывник не может добраться до мортиры.</FB_BileMortarCannotReach>
+  <FB_BileMortarOutOfRange>Цель вне радиуса желчной мортиры ({0} клеток).</FB_BileMortarOutOfRange>
+  <FB_BileMortarAlreadyLoading>Желчный подрывник уже загружается в эту железу.</FB_BileMortarAlreadyLoading>
+  <FB_BileMortarAutoManualDisabled>Автоогонь включён. Нажмите по команде правой кнопкой, чтобы выключить его перед ручным выстрелом.</FB_BileMortarAutoManualDisabled>
+  <FB_BileMortarAutoState>Автоогонь: {0}</FB_BileMortarAutoState>
+  <FB_BileMortarAutoHint>Левый клик выбирает ручной выстрел, когда автоогонь выключен. Правый клик переключает автоогонь.</FB_BileMortarAutoHint>
+  <FB_VolatileBileInspect>Горючая желчь: {0}%</FB_VolatileBileInspect>
+  <FB_BileburstChargePausedNoSupply>Рост заряда остановлен: связанная мортира недополучает питание гемогелевой сети.</FB_BileburstChargePausedNoSupply>
+  <FB_VolatileBileBarTitle>Горючая желчь</FB_VolatileBileBarTitle>
+  <FB_VolatileBileBarTooltip>Взрывной запас желчи этого подрывника. При 25% и выше он может быть заряжен в желчную мортирную железу.</FB_VolatileBileBarTooltip>
+  <FB_DevBileburstDetonateLabel>DEV: взорвать желчного подрывника</FB_DevBileburstDetonateLabel>
+  <FB_DevBileburstDetonateDesc>Приказать желчному подрывнику доползти до выбранной цели или клетки и разорвать накопленную горючую желчь. Только для dev-режима.</FB_DevBileburstDetonateDesc>
+  <FB_BileburstChargeTooLow>Для взрыва запас горючей желчи должен достичь хотя бы {0}%.</FB_BileburstChargeTooLow>
+  <FB_BileburstCannotDetonate>Этот желчный подрывник не может взорваться там.</FB_BileburstCannotDetonate>
+  <FB_BileburstCannotReach>Желчный подрывник не может добраться до цели взрыва.</FB_BileburstCannotReach>
+</LanguageData>

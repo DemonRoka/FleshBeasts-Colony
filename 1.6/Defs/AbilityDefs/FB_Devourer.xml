@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AbilityDef>
+    <defName>FB_DevourerDevour</defName>
+    <label>devour target</label>
+    <description>Charge into a nearby living non-allied target and swallow it.</description>
+    <iconPath>UI/Commands/DevourerDevour</iconPath>
+    <targetRequired>true</targetRequired>
+    <hostile>true</hostile>
+    <showPsycastEffects>false</showPsycastEffects>
+    <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
+    <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <warmupTime>0.25</warmupTime>
+      <range>9.9</range>
+      <requireLineOfSight>true</requireLineOfSight>
+      <drawHighlightWithLineOfSight>true</drawHighlightWithLineOfSight>
+      <targetParams>
+        <canTargetSelf>false</canTargetSelf>
+        <canTargetPawns>true</canTargetPawns>
+        <canTargetMechs>false</canTargetMechs>
+        <canTargetBuildings>false</canTargetBuildings>
+        <canTargetLocations>false</canTargetLocations>
+        <canTargetItems>false</canTargetItems>
+        <canTargetCorpses>false</canTargetCorpses>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="FB.CompProperties_AbilityDevourerDevour" />
+    </comps>
+  </AbilityDef>
+</Defs>

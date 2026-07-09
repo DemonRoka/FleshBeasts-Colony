@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="PawnFlyerBase">
+    <defName>FB_BulbfreakFusionAbsorbFlyer</defName>
+    <label>flesh fusion leap</label>
+    <thingClass>FB.PawnFlyer_BulbfreakFusionAbsorb</thingClass>
+    <pawnFlyer>
+      <flightDurationMin>0.25</flightDurationMin>
+      <flightSpeed>18</flightSpeed>
+      <heightFactor>0.55</heightFactor>
+    </pawnFlyer>
+  </ThingDef>
+</Defs>

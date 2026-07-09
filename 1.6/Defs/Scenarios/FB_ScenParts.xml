@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ScenPartDef>
+    <defName>FB_StartPitBurrowOnGameStart</defName>
+    <label>start with a flesh burrow</label>
+    <scenPartClass>FB.ScenPart_FB_StartPitBurrow</scenPartClass>
+    <category>Misc</category>
+    <selectionWeight>0</selectionWeight>
+    <summaryPriority>500</summaryPriority>
+    <canBeRandomlyAdded>false</canBeRandomlyAdded>
+    <canBePlayerAddedRemoved>false</canBePlayerAddedRemoved>
+    <maxUses>1</maxUses>
+  </ScenPartDef>
+</Defs>

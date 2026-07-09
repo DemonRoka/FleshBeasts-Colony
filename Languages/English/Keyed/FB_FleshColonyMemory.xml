@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <FB_FleshMemory_Tab>Memory</FB_FleshMemory_Tab>
+  <FB_FleshMemory_Header>Stored minds: {0}</FB_FleshMemory_Header>
+  <FB_FleshMemory_Empty>No minds have been recorded by the flesh colony.</FB_FleshMemory_Empty>
+  <FB_FleshMemory_Unnamed>unnamed mind</FB_FleshMemory_Unnamed>
+  <FB_FleshMemory_Unknown>unknown</FB_FleshMemory_Unknown>
+  <FB_FleshMemory_StatusAlive>Living source</FB_FleshMemory_StatusAlive>
+  <FB_FleshMemory_StatusDead>Available for reconstruction</FB_FleshMemory_StatusDead>
+  <FB_FleshMemory_StatusGrowing>Growing shell: {0}</FB_FleshMemory_StatusGrowing>
+  <FB_FleshMemory_StatusWaiting>Shell ready; waiting for a fingerspike</FB_FleshMemory_StatusWaiting>
+  <FB_FleshMemory_StatusImplanting>Fingerspike is implanting the stored mind</FB_FleshMemory_StatusImplanting>
+  <FB_FleshMemory_ReconstructTooltip>Select a cell and grow a new body from this memory. Costs {0} brain hemogel.</FB_FleshMemory_ReconstructTooltip>
+  <FB_FleshMemory_DeleteTooltip>Erase this memory permanently.</FB_FleshMemory_DeleteTooltip>
+  <FB_FleshMemory_DeleteConfirm>Erase the stored memory of {0}? A living accepted pawn will not be recorded again until it loses and regains flesh-colony acceptance.</FB_FleshMemory_DeleteConfirm>
+  <FB_FleshMemory_DeleteActive>This memory cannot be erased while its shell is growing.</FB_FleshMemory_DeleteActive>
+  <FB_FleshMemory_ReconstructionStarted>The colony brain has begun growing a new body for {0}.</FB_FleshMemory_ReconstructionStarted>
+  <FB_FleshMemory_ReconstructionComplete>{0} has been restored from the colony's memory.</FB_FleshMemory_ReconstructionComplete>
+  <FB_FleshMemory_ArchiveUnavailable>The flesh-colony memory archive is unavailable.</FB_FleshMemory_ArchiveUnavailable>
+  <FB_FleshMemory_InvalidBrain>The selected colony brain cannot begin reconstruction.</FB_FleshMemory_InvalidBrain>
+  <FB_FleshMemory_NotDead>This mind still has a living source.</FB_FleshMemory_NotDead>
+  <FB_FleshMemory_AlreadyGrowing>A body is already being grown from this memory.</FB_FleshMemory_AlreadyGrowing>
+  <FB_FleshMemory_BrainBusy>This colony brain is already growing another body.</FB_FleshMemory_BrainBusy>
+  <FB_FleshMemory_NoGrowthCell>There is no suitable cell near the colony brain for a new shell.</FB_FleshMemory_NoGrowthCell>
+  <FB_FleshMemory_InvalidGrowthCell>Select an empty standable cell for the new shell.</FB_FleshMemory_InvalidGrowthCell>
+  <FB_FleshMemory_CreateShellFailed>The colony brain failed to form a viable shell.</FB_FleshMemory_CreateShellFailed>
+  <FB_FleshMemory_NotEnoughHemogel>Reconstruction requires {0} brain hemogel. Available: {1}.</FB_FleshMemory_NotEnoughHemogel>
+  <FB_FleshMemory_InvalidOperation>The reconstruction operation is no longer valid.</FB_FleshMemory_InvalidOperation>
+  <FB_FleshMemory_ResurrectionFailed>The fingerspike failed to awaken the grown shell.</FB_FleshMemory_ResurrectionFailed>
+  <FB_FleshMemory_ReconstructUnavailable>This memory cannot currently be reconstructed.</FB_FleshMemory_ReconstructUnavailable>
+  <FB_FleshMemory_DetailRace>Race: {0}</FB_FleshMemory_DetailRace>
+  <FB_FleshMemory_DetailGender>Gender: {0}</FB_FleshMemory_DetailGender>
+  <FB_FleshMemory_DetailSkills>Recorded skills:</FB_FleshMemory_DetailSkills>
+  <FB_FleshMemory_DetailTraits>Recorded traits:</FB_FleshMemory_DetailTraits>
+  <FB_FleshMemory_DetailGenes>Recorded genes: {0}</FB_FleshMemory_DetailGenes>
+  <FB_FleshMemory_DetailIdeology>Ideology: {0}</FB_FleshMemory_DetailIdeology>
+  <FB_FleshMemory_DetailRelations>Recorded direct relations: {0}</FB_FleshMemory_DetailRelations>
+
+</LanguageData>

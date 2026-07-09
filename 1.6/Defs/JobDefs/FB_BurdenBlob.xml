@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Задание: FB_BurdenBlobRefillAtHeart -->
+  <JobDef>
+    <defName>FB_BurdenBlobRefillAtHeart</defName>
+    <driverClass>FB.JobDriver_BurdenBlobRefillAtHeart</driverClass>
+    <reportString>refilling hemogel at the colony heart.</reportString>
+  </JobDef>
+
+  <!-- Задание: FB_BurdenBlobLatchToWall -->
+  <JobDef>
+    <defName>FB_BurdenBlobLatchToWall</defName>
+    <driverClass>FB.JobDriver_BurdenBlobLatchToWall</driverClass>
+    <reportString>clinging to a colony wall.</reportString>
+  </JobDef>
+</Defs>

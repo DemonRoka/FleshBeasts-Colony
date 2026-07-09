@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_FleshbeastBillDonors>Donors</FB_FleshbeastBillDonors>
+  <FB_FleshbeastBillDonorsAll>Allow all donors</FB_FleshbeastBillDonorsAll>
+  <FB_FleshbeastBillDonorsNoneBlocked>At least one donor kind must remain allowed.</FB_FleshbeastBillDonorsNoneBlocked>
+  <FB_FleshbeastBillAllowAll>Allow all</FB_FleshbeastBillAllowAll>
+  <FB_FleshbeastBillClearAll>Clear all</FB_FleshbeastBillClearAll>
+  <FB_FleshbeastBillNoValidCombination>No valid combination of the currently allowed donors.</FB_FleshbeastBillNoValidCombination>
+  <FB_FleshbeastBillOr>or</FB_FleshbeastBillOr>
+  <FB_FleshbeastBillRepeatHemogelAbove>Do if hemogel above {0}</FB_FleshbeastBillRepeatHemogelAbove>
+  <FB_FleshbeastBillRepeatHemogelAboveMenu>Do if hemogel above X</FB_FleshbeastBillRepeatHemogelAboveMenu>
+  <FB_FleshbeastBillRepeatHemogelInfo>Hemogel: {0} / threshold {1}</FB_FleshbeastBillRepeatHemogelInfo>
+  <FB_FleshbeastBillPreferredGroup>Group: {0}</FB_FleshbeastBillPreferredGroup>
+  <FB_FleshbeastBillPreferredGroupNone>No group</FB_FleshbeastBillPreferredGroupNone>
+  <FB_FleshbeastBillPreferredGroupDesc>Newly grown or merged fleshbeasts from this bill will be assigned to this group.</FB_FleshbeastBillPreferredGroupDesc>
+</LanguageData>

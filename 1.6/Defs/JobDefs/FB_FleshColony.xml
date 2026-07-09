@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Задание: FB_RotlarvaConsumeFleshmass -->
+  <JobDef>
+    <defName>FB_RotlarvaConsumeFleshmass</defName>
+    <driverClass>FB.JobDriver_RotlarvaConsumeFleshmass</driverClass>
+  </JobDef>
+  <!-- Задание: FB_FinishFrame -->
+  <JobDef>
+    <defName>FB_FinishFrame</defName>
+    <driverClass>FB.JobDriver_ConstructFinishFrame</driverClass>
+    <reportString>building TargetA.</reportString>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+  </JobDef>
+  <!-- Задание: FB_EnterHive -->
+  <JobDef>
+    <defName>FB_EnterHive</defName>
+    <driverClass>FB.JobDriver_EnterHive</driverClass>
+    <reportString>entering hive.</reportString>
+  </JobDef>
+  <JobDef>
+    <defName>FB_EnterFleshTunnel</defName>
+    <driverClass>FB.JobDriver_EnterFleshTunnel</driverClass>
+  </JobDef>
+  <!-- Задание: FB_SelfDestruct -->
+  <JobDef>
+    <defName>FB_SelfDestruct</defName>
+    <driverClass>FB.JobDriver_SelfDestruct</driverClass>
+    <reportString>rupturing.</reportString>
+  </JobDef>
+  <!-- Задание: FB_UsePawn -->
+  <JobDef>
+    <defName>FB_UsePawn</defName>
+    <driverClass>FB.JobDriver_UsePawn</driverClass>
+    <reportString>using TargetA.</reportString>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+  </JobDef>
+  <!-- Задание: FB_TransferConsciousness -->
+  <JobDef>
+    <defName>FB_TransferConsciousness</defName>
+    <driverClass>FB.JobDriver_TransferConsciousness</driverClass>
+  </JobDef>
+  <!-- Задание: ConsumeCorpseForSpawning -->
+  <JobDef>
+    <defName>ConsumeCorpseForSpawning</defName>
+    <driverClass>FB.JobDriver_ConsumeCorpseForSpawning</driverClass>
+    <reportString>stalking TargetA.</reportString>
+    <checkOverrideOnDamage>Never</checkOverrideOnDamage>
+  </JobDef>
+  <!-- Задание: Symbio_EatCorpse -->
+  <JobDef>
+    <defName>Symbio_EatCorpse</defName>
+    <driverClass>FB.JobDriver_SymbioEatCorpse</driverClass>
+    <reportString>devouring TargetA's head.</reportString>
+    <playerInterruptible>true</playerInterruptible>
+  </JobDef>
+  <JobDef>
+    <defName>FB_FleshColonyConsumeHemogelAtHeart</defName>
+    <driverClass>FB.JobDriver_FleshColonyConsumeHemogelAtHeart</driverClass>
+    <reportString>absorbing hemogel from TargetA.</reportString>
+  </JobDef>
+  <JobDef>
+    <defName>FB_TakeMealFromFeeder</defName>
+    <driverClass>FB.JobDriver_TakeMealFromFeeder</driverClass>
+  </JobDef>
+  <JobDef>
+    <defName>FB_FleshbeastHealingSleep</defName>
+    <driverClass>JobDriver_Wait</driverClass>
+    <reportString>sleeping in the colony flesh.</reportString>
+    <isIdle>true</isIdle>
+    <suspendable>false</suspendable>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+    <carryThingAfterJob>true</carryThingAfterJob>
+    <dropThingBeforeJob>false</dropThingBeforeJob>
+    <neverShowWeapon>true</neverShowWeapon>
+  </JobDef>
+  <JobDef>
+    <defName>FB_TissueIncubatorLearnSample</defName>
+    <label>deliver tissue sample to incubator</label>
+    <driverClass>FB.JobDriver_TissueIncubatorLearnSample</driverClass>
+    <reportString>delivering a tissue sample to TargetB.</reportString>
+  </JobDef>
+  <JobDef>
+    <defName>FB_CarryFleshmassNucleusToHeart</defName>
+    <driverClass>FB.JobDriver_CarryFleshmassNucleusToHeart</driverClass>
+    <reportString>carrying fleshmass nucleus to TargetA.</reportString>
+  </JobDef>
+  <JobDef>
+    <defName>FB_FingerspikeResurrectCorpse</defName>
+    <driverClass>FB.JobDriver_FingerspikeResurrectCorpse</driverClass>
+    <reportString>implanting itself into TargetB.</reportString>
+    <checkOverrideOnDamage>Never</checkOverrideOnDamage>
+  </JobDef>
+  <JobDef>
+    <defName>FB_FingerspikeRestoreMemoryShell</defName>
+    <driverClass>FB.JobDriver_FingerspikeRestoreMemoryShell</driverClass>
+    <reportString>implanting a stored consciousness into TargetB.</reportString>
+    <checkOverrideOnDamage>Never</checkOverrideOnDamage>
+  </JobDef>
+
+  <JobDef>
+    <defName>FB_FleshbeastBeatFire</defName>
+    <driverClass>FB.JobDriver_FleshbeastBeatFire</driverClass>
+    <reportString>beating fire out.</reportString>
+    <neverShowWeapon>true</neverShowWeapon>
+    <casualInterruptible>false</casualInterruptible>
+  </JobDef>
+
+  <JobDef>
+    <defName>FB_FleshbeastExtinguishSelf</defName>
+    <driverClass>FB.JobDriver_FleshbeastExtinguishSelf</driverClass>
+    <reportString>extinguishing self.</reportString>
+    <neverShowWeapon>true</neverShowWeapon>
+    <casualInterruptible>false</casualInterruptible>
+  </JobDef>
+</Defs>

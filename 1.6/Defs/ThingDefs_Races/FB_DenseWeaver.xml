@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Раса: dense weaver (FB_DenseWeaver) -->
+  <ThingDef ParentName="BasePawn">
+    <defName>FB_DenseWeaver</defName>
+    <label>dense weaver</label>
+    <description>Small flesh beast designed for rapid healing of lost body parts in friendly pawns. It is created to use the tentacles on its back to quickly restore the functionality of pawns. If its tentacles are depleted, it will seek out dead bodies on the map and absorb their body parts to regenerate its own for further healing.</description>
+    <statBases>
+      <MoveSpeed>4</MoveSpeed>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ComfyTemperatureMin>-40</ComfyTemperatureMin>
+      <ComfyTemperatureMax>60</ComfyTemperatureMax>
+      <Flammability>1.25</Flammability>
+      <MeatAmount>70</MeatAmount>
+    </statBases>
+    <tradeability>None</tradeability>
+    <race>
+      <thinkTreeMain>FB_Regenerator</thinkTreeMain>
+      <thinkTreeConstant>FB_WorkingMinionsConstant</thinkTreeConstant>
+      <body>FB_Regenerator</body>
+      <foodType>None</foodType>
+      <canBePredatorPrey>false</canBePredatorPrey>
+      <renderTree>FB_Regenerator</renderTree>
+      <baseBodySize>0.4</baseBodySize>
+      <baseHealthScale>0.5</baseHealthScale>
+      <lifeExpectancy>10</lifeExpectancy>
+      <deathAction Class="DeathActionProperties_Vanish">
+        <workerClass>DeathActionWorker_Vanish</workerClass>
+        <filth>Filth_TwistedFlesh</filth>
+        <filthCountRange>1~3</filthCountRange>
+        <meatExplosionSize>Small</meatExplosionSize>
+      </deathAction>
+      <lifeStageAges>
+        <li>
+          <def>EntityFullyFormed</def>
+          <soundWounded>Pawn_Fleshbeast_Fingerspike_Wounded</soundWounded>
+          <soundDeath>Pawn_Fleshbeast_Fingerspike_Death</soundDeath>
+          <soundCall>Pawn_Fleshbeast_Fingerspike_Call</soundCall>
+        </li>
+      </lifeStageAges>
+      <intelligence>ToolUser</intelligence>
+      <specificMeatDef>Meat_Twisted</specificMeatDef>
+      <canOpenFactionlessDoors>false</canOpenFactionlessDoors>
+      <needsRest>false</needsRest>
+      <hasGenders>false</hasGenders>
+      <bloodDef>Filth_Blood</bloodDef>
+      <bloodSmearDef>Filth_BloodSmear</bloodSmearDef>
+      <soundMeleeDodge>Pawn_MeleeDodge</soundMeleeDodge>
+      <trainability>None</trainability>
+      <fleshType>Fleshbeast</fleshType>
+      <isImmuneToInfections>true</isImmuneToInfections>
+      <bleedRateFactor>0.5</bleedRateFactor>
+      <hediffGiverSets />
+      <corpseHiddenWhileUndiscovered>true</corpseHiddenWhileUndiscovered>
+    </race>
+    <comps>
+      <li Class="FB.CompProperties_Regenerator">
+        <ticksPerRegenerate>60000</ticksPerRegenerate>
+      </li>
+      <li Class="CompProperties_MechPowerCell">
+        <totalPowerTicks>15000</totalPowerTicks>
+        <labelOverride>Life reserve</labelOverride>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

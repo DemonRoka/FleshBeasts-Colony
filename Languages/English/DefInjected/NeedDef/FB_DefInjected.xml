@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_CarapacePlateSharpness.description>Shows wear on the excavator&apos;s digging plates. Worn plates regrow only while it is anchored near a colony heart and supplied by the hemogel network.</FB_CarapacePlateSharpness.description>
+  <FB_CarapacePlateSharpness.label>digging plate sharpness</FB_CarapacePlateSharpness.label>
+</LanguageData>

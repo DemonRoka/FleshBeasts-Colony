@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_FleshmassBoneWallPlan_Label>План костяных плотяных стен</FB_FleshmassBoneWallPlan_Label>
+  <FB_FleshmassBoneWallPlan_Desc>Отметить обычные плотяные стены колонии для укрепления. Сердце потратит гемогель, чтобы прорастить внутри них жёсткую костную структуру.</FB_FleshmassBoneWallPlan_Desc>
+  <FB_MustTargetNormalFleshmassWall>Нужно выбрать обычную плотяную стену, принадлежащую игроку.</FB_MustTargetNormalFleshmassWall>
+</LanguageData>

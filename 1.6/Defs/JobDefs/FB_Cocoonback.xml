@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Задание: FB_CocoonbackCapturePawn -->
+  <JobDef>
+    <defName>FB_CocoonbackCapturePawn</defName>
+    <driverClass>FB.JobDriver_CocoonbackCapturePawn</driverClass>
+    <reportString>sealing TargetA inside the cocoon</reportString>
+  </JobDef>
+
+  <!-- Задание: FB_CocoonbackReleasePawn -->
+  <JobDef>
+    <defName>FB_CocoonbackReleasePawn</defName>
+    <driverClass>FB.JobDriver_CocoonbackReleasePawn</driverClass>
+    <reportString>releasing a captive</reportString>
+  </JobDef>
+
+  <!-- Задание: FB_CocoonbackRefillAtHeart -->
+  <JobDef>
+    <defName>FB_CocoonbackRefillAtHeart</defName>
+    <driverClass>FB.JobDriver_CocoonbackRefillAtHeart</driverClass>
+    <reportString>drawing hemogel from the colony heart</reportString>
+  </JobDef>
+</Defs>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_BoneMarrowExtractor.label>bone marrow extractor</FB_BoneMarrowExtractor.label>
+  <FB_BoneMarrowExtractor.description>A rooted extraction organ that strains captive entities into bioferrite and a small flow of hemogel. Its feeding spines make containment less stable.</FB_BoneMarrowExtractor.description>
+  <FB_SynapticInhibitor.label>synaptic inhibitor</FB_SynapticInhibitor.label>
+  <FB_SynapticInhibitor.description>A small nerve-anchor that dampens the activity of nearby captive entities, improving containment while it receives hemogel.</FB_SynapticInhibitor.description>
+</LanguageData>

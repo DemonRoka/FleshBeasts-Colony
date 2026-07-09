@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Вид пешки: dense weaver (FB_DenseWeaver) -->
+  <PawnKindDef>
+    <defName>FB_DenseWeaver</defName>
+    <label>dense weaver</label>
+    <race>FB_DenseWeaver</race>
+    <combatPower>25</combatPower>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/FB_DenseWeaver/DenseWeaver</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>1.4</drawSize>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+    <overrideDebugActionCategory>Entity</overrideDebugActionCategory>
+    <meleeAttackInfectionPathways>
+      <li>EntityAttacked</li>
+    </meleeAttackInfectionPathways>
+    <forceNoDeathNotification>true</forceNoDeathNotification>
+  </PawnKindDef>
+</Defs>

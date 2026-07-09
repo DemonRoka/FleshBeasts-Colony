@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <FB_FleshmassNucleusAssimilator_CommandLabel>Assimilate fleshmass nucleus</FB_FleshmassNucleusAssimilator_CommandLabel>
+  <FB_FleshmassNucleusAssimilator_CommandDesc>Select a fleshmass nucleus on this map. A pawn with Basic work will carry it to this heart, permanently increasing passive hemogel production.</FB_FleshmassNucleusAssimilator_CommandDesc>
+  <FB_FleshmassNucleusAssimilator_InvalidTarget>Select a spawned fleshmass nucleus on this map.</FB_FleshmassNucleusAssimilator_InvalidTarget>
+  <FB_FleshmassNucleusAssimilator_InvalidWorker>No valid carrier.</FB_FleshmassNucleusAssimilator_InvalidWorker>
+  <FB_FleshmassNucleusAssimilator_NoHeart>No player colony heart can assimilate this nucleus.</FB_FleshmassNucleusAssimilator_NoHeart>
+  <FB_FleshmassNucleusAssimilator_TargetAlreadyAssigned>This fleshmass nucleus is already assigned to another colony heart.</FB_FleshmassNucleusAssimilator_TargetAlreadyAssigned>
+  <FB_FleshmassNucleusAssimilator_TargetDefMissing>Missing target ThingDef: {0}.</FB_FleshmassNucleusAssimilator_TargetDefMissing>
+  <FB_FleshmassNucleusAssimilator_Assigned>{0} has been assigned for assimilation by {1}.</FB_FleshmassNucleusAssimilator_Assigned>
+  <FB_FleshmassNucleusAssimilator_Success>{0} assimilated a fleshmass nucleus. Assimilated nuclei: {1}.</FB_FleshmassNucleusAssimilator_Success>
+  <FB_FleshmassNucleusAssimilator_Inspect>Assimilated fleshmass nuclei: {0}. Passive hemogel: +{1}/hour.</FB_FleshmassNucleusAssimilator_Inspect>
+  <FB_FleshmassNucleusAssimilator_InspectAssigned>Assigned nucleus: {0}</FB_FleshmassNucleusAssimilator_InspectAssigned>
+  <FB_FleshmassNucleusAssimilator_EconomyDetail>Assimilated nuclei: {0}; +{1}/h</FB_FleshmassNucleusAssimilator_EconomyDetail>
+
+</LanguageData>

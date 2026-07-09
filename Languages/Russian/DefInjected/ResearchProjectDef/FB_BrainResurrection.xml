@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_HemoghoulReanimation.label>оживление гемогулей</FB_HemoghoulReanimation.label>
+  <FB_HemoghoulReanimation.description>Обучает мозг колонии внедрять пальцешипа в человеческий труп и поднимать его как неутомимого рабочего гемогуля.</FB_HemoghoulReanimation.description>
+  <FB_HemoghoulReanimation.generalRules.rulesStrings.0>subject-&gt;оживление гемогулей</FB_HemoghoulReanimation.generalRules.rulesStrings.0>
+  <FB_HemoghoulReanimation.generalRules.rulesStrings.1>subject_story-&gt;подняли неутомимых рабочих внедрением пальцешипов</FB_HemoghoulReanimation.generalRules.rulesStrings.1>
+  <FB_HemoghoulReanimation.generalRules.rulesStrings.2>subject_story-&gt;связали мёртвую плоть в рабочих, питающихся гемогелем</FB_HemoghoulReanimation.generalRules.rulesStrings.2>
+  <FB_HemoghoulReanimation.generalRules.rulesStrings.3>subject_gerund-&gt;оживлением гемогулей</FB_HemoghoulReanimation.generalRules.rulesStrings.3>
+  <FB_FleshResurrection.label>плотяное воскрешение</FB_FleshResurrection.label>
+  <FB_FleshResurrection.description>Обучает мозг колонии восстанавливать умершего человека внедрением пальцешипа и возвращать его колонии плоти.</FB_FleshResurrection.description>
+  <FB_FleshResurrection.generalRules.rulesStrings.0>subject-&gt;плотяное воскрешение</FB_FleshResurrection.generalRules.rulesStrings.0>
+  <FB_FleshResurrection.generalRules.rulesStrings.1>subject_story-&gt;восстановили мёртвый разум через живую плоть</FB_FleshResurrection.generalRules.rulesStrings.1>
+  <FB_FleshResurrection.generalRules.rulesStrings.2>subject_story-&gt;использовали пальцешипов для возвращения трупов в колонию</FB_FleshResurrection.generalRules.rulesStrings.2>
+  <FB_FleshResurrection.generalRules.rulesStrings.3>subject_gerund-&gt;воскрешением через плоть</FB_FleshResurrection.generalRules.rulesStrings.3>
+</LanguageData>

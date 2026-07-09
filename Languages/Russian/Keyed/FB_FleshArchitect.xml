@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_FleshArchitectLockedDesc>Требуется исследование инженерии плотемассы.</FB_FleshArchitectLockedDesc>
+  <FB_FleshArchitectNothingAvailable>В категории {0} ничего не доступно.</FB_FleshArchitectNothingAvailable>
+  <FB_FleshArchitectBrainHemogelBar>Резерв сети: {0} / {1}</FB_FleshArchitectBrainHemogelBar>
+  <FB_FleshArchitectNoColonyBrain>Нет резерва гемогелевой сети</FB_FleshArchitectNoColonyBrain>
+  <FB_FleshArchitectBrainHemogelTooltip>Гемогель в подключённых резервах сети на этой карте. Плотяной архитектор тратит этот резерв при выращивании органов.</FB_FleshArchitectBrainHemogelTooltip>
+  <FB_FleshArchitectBrainHemogelTooltipDev>Гемогель в подключённых резервах сети на этой карте. Режим разработчика игнорирует стоимость строительства, но здесь показан реальный резерв.</FB_FleshArchitectBrainHemogelTooltipDev>
+  <FB_GrowEmbryoDescNoCost>Разместить эмбрион, чтобы вырастить {0}.</FB_GrowEmbryoDescNoCost>
+  <FB_HemogelCostLine>Стоимость гемогеля: {0}</FB_HemogelCostLine>
+  <FB_HemogelNetworkReserveCostLine>Расход из резерва сети: {0}</FB_HemogelNetworkReserveCostLine>
+  <FB_HemogelNetworkBaseConsumptionLine>Базовое потребление сети: {0}/ч</FB_HemogelNetworkBaseConsumptionLine>
+  <FB_ClearColonyEyes_Label>Удалить глаза колонии</FB_ClearColonyEyes_Label>
+  <FB_ClearColonyEyes_Desc>Удаляет органы-глаза колонии в выбранных клетках.</FB_ClearColonyEyes_Desc>
+  <FB_ClearColonyEyes_NoneHere>Здесь нет глаза колонии.</FB_ClearColonyEyes_NoneHere>
+  <FB_GrowColonyEye_Label>Вырастить глаз колонии</FB_GrowColonyEye_Label>
+  <FB_GrowColonyEye_Desc>Выращивает чувствительный глаз на свободной клетке плоти колонии.</FB_GrowColonyEye_Desc>
+  <FB_GrowFleshPlant_Label>Вырастить {0}</FB_GrowFleshPlant_Label>
+  <FB_GrowFleshPlant_Desc>Выращивает {0} из плоти колонии. Растение появляется молодым ростком.</FB_GrowFleshPlant_Desc>
+  <FB_GrowGrassEyes_Label>Вырастить глазную траву</FB_GrowGrassEyes_Label>
+  <FB_GrowGrassEyes_Desc>Выращивает глазную траву из плоти колонии. Растение появляется молодым ростком.</FB_GrowGrassEyes_Desc>
+  <FB_GrowFleshTree_Label>Вырастить древо плоти</FB_GrowFleshTree_Label>
+  <FB_GrowFleshTree_Desc>Выращивает древо плоти из плоти колонии. Растение появляется молодым ростком.</FB_GrowFleshTree_Desc>
+  <FB_FleshPlantCellBlocked>Клетка должна быть пустой.</FB_FleshPlantCellBlocked>
+  <FB_FleshPlantTreeRoofed>Древо плоти не может расти под крышей.</FB_FleshPlantTreeRoofed>
+</LanguageData>

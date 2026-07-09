@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BaseFleshbeast">
+    <defName>FB_CarrionArchitect</defName>
+    <label>carrion architect</label>
+    <description>A slow, massive fleshbeast that reshapes dead bodies into new warforms. It carries a sealed flesh-colony host within its nervous core, directing hooked tendrils and digestive grafts that carve corpses into living fingerspikes.</description>
+    <statBases>
+      <MoveSpeed>2.15</MoveSpeed>
+      <MinimumContainmentStrength>70</MinimumContainmentStrength>
+      <ToxicResistance>0.5</ToxicResistance>
+      <MarketValue>1500</MarketValue>
+    </statBases>
+    <uiIconPath>Things/Pawn/FB_CarrionArchitect/FB_CarrionArchitect_MenuIcon</uiIconPath>
+    <race>
+      <body>Bulbfreak</body>
+      <baseBodySize>4</baseBodySize>
+      <baseHealthScale>0.35</baseHealthScale>
+      <lifeExpectancy>15</lifeExpectancy>
+      <soundMoving>Pawn_Fleshbeast_Bulbfreak_Moving</soundMoving>
+      <deathAction Class="DeathActionProperties_Divide">
+        <divideBloodFilthCountRange>4~6</divideBloodFilthCountRange>
+        <dividePawnCount>1</dividePawnCount>
+        <dividePawnKindOptions>
+          <li>Fingerspike</li>
+          <li>Trispike</li>
+        </dividePawnKindOptions>
+      </deathAction>
+      <renderTree>Animal</renderTree>
+      <lifeStageAges>
+        <li>
+          <def>EntityFullyFormed</def>
+          <soundWounded>Pawn_Fleshbeast_Bulbfreak_Wounded</soundWounded>
+          <soundDeath>Pawn_Fleshbeast_Bulbfreak_Death</soundDeath>
+          <soundCall>Pawn_Fleshbeast_Bulbfreak_Call</soundCall>
+        </li>
+      </lifeStageAges>
+      <canBePredatorPrey>false</canBePredatorPrey>
+    </race>
+    <comps>
+      <li Class="FB.CompProperties_FleshbeastDraftable" />
+      <li Class="FB.CompProperties_BulbfreakHostStorage" />
+    </comps>
+    <tools>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>2.7</cooldownTime>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <soundMeleeHit>Pawn_Fleshbeast_Attack_Blunt</soundMeleeHit>
+      </li>
+      <li>
+        <label>tentacle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>2.4</cooldownTime>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+        <linkedBodyPartsGroup>FirstTentacle</linkedBodyPartsGroup>
+        <soundMeleeHit>Pawn_Fleshbeast_Attack_Blunt</soundMeleeHit>
+      </li>
+      <li>
+        <label>tentacle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>2.4</cooldownTime>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+        <linkedBodyPartsGroup>SecondTentacle</linkedBodyPartsGroup>
+        <soundMeleeHit>Pawn_Fleshbeast_Attack_Blunt</soundMeleeHit>
+      </li>
+    </tools>
+  </ThingDef>
+</Defs>

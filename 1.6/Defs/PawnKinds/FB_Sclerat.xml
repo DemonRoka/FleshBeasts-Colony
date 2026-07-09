@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Вид пешки: sclerat (FB_Sclerat) -->
+  <PawnKindDef>
+    <defName>FB_Sclerat</defName>
+    <label>sclerat</label>
+    <race>FB_Sclerat</race>
+    <combatPower>5</combatPower>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/FB_Sclerat/Sclerat</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>1</drawSize>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+    <overrideDebugActionCategory>Entity</overrideDebugActionCategory>
+    <meleeAttackInfectionPathways>
+      <li>EntityAttacked</li>
+    </meleeAttackInfectionPathways>
+    <forceNoDeathNotification>true</forceNoDeathNotification>
+    <defaultFactionDef>PlayerColony</defaultFactionDef>
+  </PawnKindDef>
+</Defs>

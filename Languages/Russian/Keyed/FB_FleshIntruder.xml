@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_FleshIntruder_ImplantLabel>Внедриться</FB_FleshIntruder_ImplantLabel>
+  <FB_FleshIntruder_ImplantDesc>Приказать внедрильщику броситься на живую цель, прыгнуть в неё и попытаться закрепить роющий орган в случайной внешней части тела. Если проверка брони провалится, внедрильщик погибнет впустую.</FB_FleshIntruder_ImplantDesc>
+  <FB_FleshIntruder_InvalidTarget>Недопустимая цель.</FB_FleshIntruder_InvalidTarget>
+  <FB_FleshIntruder_CannotMove>Внедрильщик не может двигаться.</FB_FleshIntruder_CannotMove>
+  <FB_FleshIntruder_MentalState>Внедрильщик сейчас не может выполнять приказы.</FB_FleshIntruder_MentalState>
+  <FB_FleshIntruder_MissingDefs>Данные внедрения отсутствуют.</FB_FleshIntruder_MissingDefs>
+  <FB_FleshIntruder_NoFriendlyTargets>Внедрильщика нельзя приказать внедрить в союзную пешку.</FB_FleshIntruder_NoFriendlyTargets>
+  <FB_FleshIntruder_NoExternalPart>У цели нет внешней части тела для внедрения.</FB_FleshIntruder_NoExternalPart>
+  <FB_FleshIntruder_CannotReach>Внедрильщик не может добраться до этой цели.</FB_FleshIntruder_CannotReach>
+  <FB_FleshIntruder_ImplantSuccess>{0} внедряется в {2} цели {1}.</FB_FleshIntruder_ImplantSuccess>
+  <FB_FleshIntruder_ImplantFailedArmor>{0} разбивается о броню цели {1}.</FB_FleshIntruder_ImplantFailedArmor>
+  <FB_FleshIntruder_ImplantFailed>{0} разрывается до внедрения.</FB_FleshIntruder_ImplantFailed>
+</LanguageData>

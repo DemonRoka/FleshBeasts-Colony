@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_DeadBastionSegment.label>мёртвый сегмент бастиона</FB_DeadBastionSegment.label>
+  <FB_DeadBastionSegment.labelNoun>мёртвый сегмент бастиона</FB_DeadBastionSegment.labelNoun>
+  <FB_DeadBastionSegment.description>Мёртвый сегмент закрывает пустой слот бастиона, стабилизируя тело, но не считается живым сегментом.</FB_DeadBastionSegment.description>
+</LanguageData>

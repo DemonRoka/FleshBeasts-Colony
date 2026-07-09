@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <CarryToFBAutoResearch.gerund>вставка</CarryToFBAutoResearch.gerund>
+  <CarryToFBAutoResearch.label>нести к автоисследованию</CarryToFBAutoResearch.label>
+  <CarryToFBAutoResearch.verb>вставить</CarryToFBAutoResearch.verb>
+  <FB_ConstructDeliverResourcesToBlueprints.gerund>работа над</FB_ConstructDeliverResourcesToBlueprints.gerund>
+  <FB_ConstructDeliverResourcesToBlueprints.label>доставлять ресурсы к чертежам</FB_ConstructDeliverResourcesToBlueprints.label>
+  <FB_ConstructDeliverResourcesToBlueprints.verb>работать над</FB_ConstructDeliverResourcesToBlueprints.verb>
+  <FB_ConstructDeliverResourcesToFrames.gerund>работа над</FB_ConstructDeliverResourcesToFrames.gerund>
+  <FB_ConstructDeliverResourcesToFrames.label>доставлять ресурсы к каркасам</FB_ConstructDeliverResourcesToFrames.label>
+  <FB_ConstructDeliverResourcesToFrames.verb>работать над</FB_ConstructDeliverResourcesToFrames.verb>
+  <FB_ConstructFinishFrames.gerund>строительство</FB_ConstructFinishFrames.gerund>
+  <FB_ConstructFinishFrames.label>достраивать размещённые каркасы</FB_ConstructFinishFrames.label>
+  <FB_ConstructFinishFrames.verb>строить</FB_ConstructFinishFrames.verb>
+  <FB_DoBillsUseFleshmassSporeCradle.gerund>изготовление у</FB_DoBillsUseFleshmassSporeCradle.gerund>
+  <FB_DoBillsUseFleshmassSporeCradle.label>производить у споровой колыбели</FB_DoBillsUseFleshmassSporeCradle.label>
+  <FB_DoBillsUseFleshmassSporeCradle.verb>изготовить у</FB_DoBillsUseFleshmassSporeCradle.verb>
+</LanguageData>

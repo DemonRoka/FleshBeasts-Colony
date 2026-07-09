@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_InebriatedFunSpore.stages.0.description>I feel a pleasant warmth spreading through my body. This is quite nice.</FB_InebriatedFunSpore.stages.0.description>
+  <FB_InebriatedFunSpore.stages.0.label>pleasant warmth</FB_InebriatedFunSpore.stages.0.label>
+  <FB_InebriatedFunSpore.stages.1.description>I can&apos;t stop giggling! Everything seems so funny right now.</FB_InebriatedFunSpore.stages.1.description>
+  <FB_InebriatedFunSpore.stages.1.label>giggly</FB_InebriatedFunSpore.stages.1.label>
+  <FB_InebriatedFunSpore.stages.2.description>I feel tipsy and joyful! Everything seems more fun!</FB_InebriatedFunSpore.stages.2.description>
+  <FB_InebriatedFunSpore.stages.2.label>joyfully tipsy</FB_InebriatedFunSpore.stages.2.label>
+  <FB_InebriatedFunSpore.stages.3.description>I&apos;m euphoric and having the time of my life! This is amazing!</FB_InebriatedFunSpore.stages.3.description>
+  <FB_InebriatedFunSpore.stages.3.label>euphoric</FB_InebriatedFunSpore.stages.3.label>
+  <FB_FleshbeastColonyPresence.stages.0.description>The colony&apos;s beasts move through the shared flesh. Their presence is small, but the rhythm is already comforting.</FB_FleshbeastColonyPresence.stages.0.description>
+  <FB_FleshbeastColonyPresence.stages.0.label>flesh colony presence</FB_FleshbeastColonyPresence.stages.0.label>
+  <FB_FleshbeastColonyPresence.stages.1.description>The colony has grown enough bodies to feel like a living crowd around me. I am not alone inside the flesh.</FB_FleshbeastColonyPresence.stages.1.description>
+  <FB_FleshbeastColonyPresence.stages.1.label>many fleshbeasts nearby</FB_FleshbeastColonyPresence.stages.1.label>
+  <FB_FleshbeastColonyPresence.stages.2.description>The colony is dense with living beasts. Their weight presses through the shared mind and steadies my thoughts.</FB_FleshbeastColonyPresence.stages.2.description>
+  <FB_FleshbeastColonyPresence.stages.2.label>surrounded by the flesh swarm</FB_FleshbeastColonyPresence.stages.2.label>
+  <FB_FleshbeastColonyPresence.stages.3.description>The colony is vast, warm, and close. Every beast is another pulse in the same body, and I rest inside it.</FB_FleshbeastColonyPresence.stages.3.description>
+  <FB_FleshbeastColonyPresence.stages.3.label>the flesh is everywhere</FB_FleshbeastColonyPresence.stages.3.label>
+  <FB_AteFleshBiomass.stages.0.description>I ate a warm mass of unfamiliar living tissue. It was nourishing, but I would rather not know what was moving inside it.</FB_AteFleshBiomass.stages.0.description>
+  <FB_AteFleshBiomass.stages.0.label>ate strange biomass</FB_AteFleshBiomass.stages.0.label>
+</LanguageData>

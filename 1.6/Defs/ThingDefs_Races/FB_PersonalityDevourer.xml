@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BaseFleshbeast">
+    <defName>FB_PersonalityDevourer</defName>
+    <label>personality devourer</label>
+    <description>A fused fleshbeast that consumes intact-brained humanlike corpses and stores their identities in the colony brain.</description>
+    <tradeability>None</tradeability>
+    <uiIconPath>Things/Pawn/FB_PersonalityDevourer/PersonalityDevourer_MenuIcon</uiIconPath>
+    <statBases>
+      <MoveSpeed>2.35</MoveSpeed>
+      <ComfyTemperatureMin>-35</ComfyTemperatureMin>
+      <ComfyTemperatureMax>60</ComfyTemperatureMax>
+      <Flammability>1.35</Flammability>
+      <MinimumContainmentStrength>80</MinimumContainmentStrength>
+      <ToxicResistance>0.65</ToxicResistance>
+      <MarketValue>1500</MarketValue>
+      <MeatAmount>70</MeatAmount>
+      <ArmorRating_Blunt>0.24</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.28</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.02</ArmorRating_Heat>
+    </statBases>
+    <race>
+      <body>FB_PersonalityDevourerBody</body>
+      <intelligence>ToolUser</intelligence>
+      <specificMeatDef>Meat_Twisted</specificMeatDef>
+      <disableIgniteVerb>true</disableIgniteVerb>
+      <canOpenFactionlessDoors>true</canOpenFactionlessDoors>
+      <bloodDef>Filth_Blood</bloodDef>
+      <bloodSmearDef>Filth_BloodSmear</bloodSmearDef>
+      <soundMeleeDodge>Pawn_MeleeDodge</soundMeleeDodge>
+      <trainability>None</trainability>
+      <baseBodySize>3.2</baseBodySize>
+      <baseHungerRate>0.15</baseHungerRate>
+      <baseHealthScale>0.55</baseHealthScale>
+      <lifeExpectancy>18</lifeExpectancy>
+      <renderTree>Animal</renderTree>
+      <thinkTreeMain>Fleshbeast</thinkTreeMain>
+      <thinkTreeConstant>FleshbeastConstant</thinkTreeConstant>
+      <needsRest>false</needsRest>
+      <hasGenders>false</hasGenders>
+      <foodType>None</foodType>
+      <canBePredatorPrey>false</canBePredatorPrey>
+      <fleshType>Fleshbeast</fleshType>
+      <isImmuneToInfections>true</isImmuneToInfections>
+      <bleedRateFactor>0.50</bleedRateFactor>
+      <hediffGiverSets>
+        <li>Fleshbeast</li>
+      </hediffGiverSets>
+      <soundMoving>Pawn_Fleshbeast_Bulbfreak_Moving</soundMoving>
+      <deathAction Class="DeathActionProperties_Vanish">
+        <workerClass>DeathActionWorker_Vanish</workerClass>
+        <filth>Filth_TwistedFlesh</filth>
+        <filthCountRange>3~5</filthCountRange>
+        <meatExplosionSize>Small</meatExplosionSize>
+      </deathAction>
+      <lifeStageAges>
+        <li>
+          <def>EntityFullyFormed</def>
+          <soundWounded>Pawn_Fleshbeast_Bulbfreak_Wounded</soundWounded>
+          <soundDeath>Pawn_Fleshbeast_Bulbfreak_Death</soundDeath>
+          <soundCall>Pawn_Fleshbeast_Bulbfreak_Call</soundCall>
+        </li>
+      </lifeStageAges>
+    </race>
+    <comps>
+      <li Class="FB.CompProperties_FleshbeastDraftable" />
+      <li Class="FB.CompProperties_PersonalityDevourerConsumeMemoryGizmo" />
+      <li Class="FB.CompProperties_BulbfreakHostStorage" />
+      <li Class="CompProperties_Studiable">
+        <frequencyTicks>120000</frequencyTicks>
+        <knowledgeCategory>Advanced</knowledgeCategory>
+        <anomalyKnowledge>2.5</anomalyKnowledge>
+        <minMonolithLevelForStudy>1</minMonolithLevelForStudy>
+        <requiresHoldingPlatform>true</requiresHoldingPlatform>
+      </li>
+    </comps>
+    <tools>
+      <li>
+        <label>assimilation maw</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>2.8</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <soundMeleeHit>Pawn_Fleshbeast_Attack_Blunt</soundMeleeHit>
+      </li>
+      <li>
+        <label>grasping tendril</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>2.6</cooldownTime>
+        <linkedBodyPartsGroup>FirstTentacle</linkedBodyPartsGroup>
+        <chanceFactor>0.35</chanceFactor>
+        <soundMeleeHit>Pawn_Fleshbeast_Attack_Blunt</soundMeleeHit>
+      </li>
+      <li>
+        <label>grasping tendril</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>2.6</cooldownTime>
+        <linkedBodyPartsGroup>SecondTentacle</linkedBodyPartsGroup>
+        <chanceFactor>0.35</chanceFactor>
+        <soundMeleeHit>Pawn_Fleshbeast_Attack_Blunt</soundMeleeHit>
+      </li>
+    </tools>
+  </ThingDef>
+</Defs>

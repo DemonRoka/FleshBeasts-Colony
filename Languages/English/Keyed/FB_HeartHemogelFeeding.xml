@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_HeartHemogelFeedingToggleLabel>Allow hemogel feeding</FB_HeartHemogelFeedingToggleLabel>
+  <FB_HeartHemogelFeedingToggleDesc>Allow pawns accepted by the flesh colony to feed directly from this heart's hemogel reserve.</FB_HeartHemogelFeedingToggleDesc>
+  <FB_HeartHemogelFeedingInspectEnabled>Accepted pawn feeding: allowed</FB_HeartHemogelFeedingInspectEnabled>
+  <FB_HeartHemogelFeedingInspectDisabled>Accepted pawn feeding: blocked</FB_HeartHemogelFeedingInspectDisabled>
+  <FB_ManualHeartFeedingLabel>Approach and eat</FB_ManualHeartFeedingLabel>
+  <FB_ManualFeederTakeLabel>Take and eat</FB_ManualFeederTakeLabel>
+  <FB_ManualFloatMenuDisabled>{0}: {1}</FB_ManualFloatMenuDisabled>
+  <FB_ManualFeedingPawnUnavailable>This pawn cannot take the order.</FB_ManualFeedingPawnUnavailable>
+  <FB_ManualFeedingNoFoodNeed>This pawn does not need food.</FB_ManualFeedingNoFoodNeed>
+  <FB_ManualFeedingAlreadyFull>This pawn is already full.</FB_ManualFeedingAlreadyFull>
+  <FB_ManualFeedingHeartUnavailable>This heart cannot feed the pawn.</FB_ManualFeedingHeartUnavailable>
+  <FB_ManualFeedingFeederUnavailable>This feeder cannot dispense food.</FB_ManualFeedingFeederUnavailable>
+  <FB_ManualFeedingBlocked>Hemogel feeding is disabled for this heart.</FB_ManualFeedingBlocked>
+  <FB_ManualFeedingForbidden>This structure is forbidden.</FB_ManualFeedingForbidden>
+  <FB_ManualFeedingNoHemogel>Not enough available hemogel.</FB_ManualFeedingNoHemogel>
+  <FB_ManualFeedingNoPath>No reachable interaction cell.</FB_ManualFeedingNoPath>
+  <FB_ManualFeedingHandsFull>The pawn cannot carry another portion.</FB_ManualFeedingHandsFull>
+</LanguageData>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Раса: acid broodmother (FB_AcidBroodmother) -->
+  <ThingDef ParentName="BaseFleshbeast">
+    <defName>FB_AcidBroodmother</defName>
+    <label>acid broodmother</label>
+    <description>A draftable fused fleshbeast that regenerates gastric acid and periodically grows temporary acid-spitting offspring.</description>
+    <tradeability>None</tradeability>
+    <uiIconPath>Things/Pawn/FB_AcidBroodmother/AcidBroodmother</uiIconPath>
+    <statBases>
+      <MoveSpeed>2.65</MoveSpeed>
+      <MinimumContainmentStrength>95</MinimumContainmentStrength>
+      <ToxicResistance>0.7</ToxicResistance>
+      <MarketValue>1800</MarketValue>
+      <MeatAmount>115</MeatAmount>
+      <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.32</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.08</ArmorRating_Heat>
+    </statBases>
+    <race>
+      <body>FB_AcidBroodmotherBody</body>
+      <intelligence>ToolUser</intelligence>
+      <specificMeatDef>Meat_Twisted</specificMeatDef>
+      <disableIgniteVerb>true</disableIgniteVerb>
+      <canOpenFactionlessDoors>true</canOpenFactionlessDoors>
+      <bloodDef>Filth_Blood</bloodDef>
+      <bloodSmearDef>Filth_BloodSmear</bloodSmearDef>
+      <soundMeleeDodge>Pawn_MeleeDodge</soundMeleeDodge>
+      <trainability>None</trainability>
+      <baseBodySize>3.4</baseBodySize>
+      <baseHungerRate>0.18</baseHungerRate>
+      <baseHealthScale>1.35</baseHealthScale>
+      <lifeExpectancy>24</lifeExpectancy>
+      <renderTree>Animal</renderTree>
+      <thinkTreeMain>FB_AcidBroodmotherMain</thinkTreeMain>
+      <thinkTreeConstant>FleshbeastConstant</thinkTreeConstant>
+      <needsRest>false</needsRest>
+      <hasGenders>false</hasGenders>
+      <foodType>None</foodType>
+      <canBePredatorPrey>false</canBePredatorPrey>
+      <fleshType>Fleshbeast</fleshType>
+      <isImmuneToInfections>true</isImmuneToInfections>
+      <bleedRateFactor>0.55</bleedRateFactor>
+      <hediffGiverSets>
+        <li>Fleshbeast</li>
+      </hediffGiverSets>
+      <soundMoving>Pawn_Fleshbeast_Dreadmeld_Moving</soundMoving>
+      <lifeStageAges>
+        <li>
+          <def>EntityFullyFormed</def>
+          <soundWounded>Pawn_Fleshbeast_Dreadmeld_Wounded</soundWounded>
+          <soundDeath>Pawn_Fleshbeast_Dreadmeld_Death</soundDeath>
+          <soundCall>Pawn_Fleshbeast_Dreadmeld_Call</soundCall>
+        </li>
+      </lifeStageAges>
+    </race>
+    <comps>
+      <li Class="FB.CompProperties_AcidReservoir">
+        <maxAcid>600</maxAcid>
+        <initialAcid>600</initialAcid>
+        <regenerationPerHour>20</regenerationPerHour>
+      </li>
+      <li Class="FB.CompProperties_FleshbeastDraftable" />
+      <li Class="FB.CompProperties_AcidBroodmotherController">
+        <spitlingKind>FB_AcidSpitlingKind</spitlingKind>
+        <maxSpitlings>4</maxSpitlings>
+        <spawnIntervalTicks>15000</spawnIntervalTicks>
+        <spawnAcidCost>150</spawnAcidCost>
+        <minimumReserveAfterSpawn>0</minimumReserveAfterSpawn>
+        <spawnRadius>3</spawnRadius>
+        <defendRadius>18</defendRadius>
+        <autoGrowEnabledByDefault>false</autoGrowEnabledByDefault>
+        <toggleIconPath>UI/Commands/AcidBroodmotherGrowSpitlings</toggleIconPath>
+      </li>
+      <li Class="CompProperties_Studiable">
+        <frequencyTicks>120000</frequencyTicks>
+        <knowledgeCategory>Advanced</knowledgeCategory>
+        <anomalyKnowledge>3</anomalyKnowledge>
+        <minMonolithLevelForStudy>1</minMonolithLevelForStudy>
+        <requiresHoldingPlatform>true</requiresHoldingPlatform>
+      </li>
+    </comps>
+    <tools>
+      <li>
+        <label>heavy maw</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>13</power>
+        <cooldownTime>3.1</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <soundMeleeHit>Pawn_Fleshbeast_Attack_Blunt</soundMeleeHit>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <!-- Раса: acid spitling (FB_AcidSpitling) -->
+  <ThingDef ParentName="BaseFleshbeast">
+    <defName>FB_AcidSpitling</defName>
+    <label>acid spitling</label>
+    <description>A temporary offspring that launches acid shells and returns to its broodmother when its internal reservoir runs low.</description>
+    <tradeability>None</tradeability>
+    <uiIconPath>Things/Pawn/FB_AcidSpitling/AcidSpitling</uiIconPath>
+    <statBases>
+      <MoveSpeed>4.2</MoveSpeed>
+      <MinimumContainmentStrength>25</MinimumContainmentStrength>
+      <ToxicResistance>0.8</ToxicResistance>
+      <MarketValue>90</MarketValue>
+      <MeatAmount>8</MeatAmount>
+    </statBases>
+    <race>
+      <body>FB_AcidSpitlingBody</body>
+      <thinkTreeMain>FB_AcidSpitlingMain</thinkTreeMain>
+      <thinkTreeConstant>FleshbeastConstant</thinkTreeConstant>
+      <intelligence>ToolUser</intelligence>
+      <specificMeatDef>Meat_Twisted</specificMeatDef>
+      <disableIgniteVerb>true</disableIgniteVerb>
+      <canOpenFactionlessDoors>true</canOpenFactionlessDoors>
+      <bloodDef>Filth_Blood</bloodDef>
+      <bloodSmearDef>Filth_BloodSmear</bloodSmearDef>
+      <soundMeleeDodge>Pawn_MeleeDodge</soundMeleeDodge>
+      <trainability>None</trainability>
+      <baseBodySize>0.45</baseBodySize>
+      <baseHungerRate>0.04</baseHungerRate>
+      <baseHealthScale>0.55</baseHealthScale>
+      <lifeExpectancy>5</lifeExpectancy>
+      <renderTree>Animal</renderTree>
+      <needsRest>false</needsRest>
+      <hasGenders>false</hasGenders>
+      <foodType>None</foodType>
+      <canBePredatorPrey>false</canBePredatorPrey>
+      <fleshType>Fleshbeast</fleshType>
+      <isImmuneToInfections>true</isImmuneToInfections>
+      <bleedRateFactor>0.35</bleedRateFactor>
+      <deathAction Class="DeathActionProperties_Vanish">
+        <workerClass>DeathActionWorker_Vanish</workerClass>
+        <filth>Filth_TwistedFlesh</filth>
+        <filthCountRange>1~2</filthCountRange>
+        <meatExplosionSize>Small</meatExplosionSize>
+      </deathAction>
+      <lifeStageAges>
+        <li>
+          <def>EntityFullyFormed</def>
+          <soundWounded>Pawn_Fleshbeast_Fingerspike_Wounded</soundWounded>
+          <soundDeath>Pawn_Fleshbeast_Fingerspike_Death</soundDeath>
+          <soundCall>Pawn_Fleshbeast_Fingerspike_Call</soundCall>
+        </li>
+      </lifeStageAges>
+    </race>
+    <comps>
+      <li Class="FB.CompProperties_AcidReservoir">
+        <maxAcid>60</maxAcid>
+        <initialAcid>60</initialAcid>
+        <regenerationPerHour>0</regenerationPerHour>
+      </li>
+      <li Class="FB.CompProperties_AcidSpitlingBond">
+        <refillThreshold>20</refillThreshold>
+        <refillDurationTicks>120</refillDurationTicks>
+      </li>
+      <li Class="FB.CompProperties_OutsideLifetime">
+        <lifetimeTicks>90000</lifetimeTicks>
+      </li>
+    </comps>
+    <tools />
+  </ThingDef>
+</Defs>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_FleshIntruder_ImplantLabel>Implant intruder</FB_FleshIntruder_ImplantLabel>
+  <FB_FleshIntruder_ImplantDesc>Order this flesh intruder to rush a living target, leap into it, and try to lodge a burrowing organ in a random exposed body part. If the armor check fails, the intruder dies without implanting.</FB_FleshIntruder_ImplantDesc>
+  <FB_FleshIntruder_InvalidTarget>Invalid target.</FB_FleshIntruder_InvalidTarget>
+  <FB_FleshIntruder_CannotMove>The flesh intruder cannot move.</FB_FleshIntruder_CannotMove>
+  <FB_FleshIntruder_MentalState>The flesh intruder cannot obey orders right now.</FB_FleshIntruder_MentalState>
+  <FB_FleshIntruder_MissingDefs>Flesh intruder implant data is missing.</FB_FleshIntruder_MissingDefs>
+  <FB_FleshIntruder_NoFriendlyTargets>Flesh intruders cannot be ordered into allied pawns.</FB_FleshIntruder_NoFriendlyTargets>
+  <FB_FleshIntruder_NoExternalPart>That target has no exposed body part to invade.</FB_FleshIntruder_NoExternalPart>
+  <FB_FleshIntruder_CannotReach>The flesh intruder cannot reach that target.</FB_FleshIntruder_CannotReach>
+  <FB_FleshIntruder_ImplantSuccess>{0} burrows into {1}'s {2}.</FB_FleshIntruder_ImplantSuccess>
+  <FB_FleshIntruder_ImplantFailedArmor>{0} ruptures against {1}'s armor.</FB_FleshIntruder_ImplantFailedArmor>
+  <FB_FleshIntruder_ImplantFailed>{0} ruptures before implanting.</FB_FleshIntruder_ImplantFailed>
+</LanguageData>

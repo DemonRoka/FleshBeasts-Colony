@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Часть тела: bastion segment module (FB_BastionSegmentModule) -->
+  <BodyPartDef>
+    <defName>FB_BastionSegmentModule</defName>
+    <label>bastion segment module</label>
+    <hitPoints>80</hitPoints>
+    <skinCovered>true</skinCovered>
+    <frostbiteVulnerability>0.15</frostbiteVulnerability>
+  </BodyPartDef>
+
+  <!-- Часть тела: segmented bastion root mass (FB_SegmentedBastionRootMass) -->
+  <BodyPartDef>
+    <defName>FB_SegmentedBastionRootMass</defName>
+    <label>body</label>
+    <hitPoints>90</hitPoints>
+    <skinCovered>true</skinCovered>
+    <frostbiteVulnerability>0.15</frostbiteVulnerability>
+    <executionPartPriority>500</executionPartPriority>
+    <tags>
+      <li>MovingLimbCore</li>
+    </tags>
+  </BodyPartDef>
+
+  <!-- Часть тела: segmented bastion motion anchor (FB_SegmentedBastionMotionAnchor) -->
+  <BodyPartDef>
+    <defName>FB_SegmentedBastionMotionAnchor</defName>
+    <label>motion anchor</label>
+    <hitPoints>1</hitPoints>
+    <skinCovered>false</skinCovered>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <canSuggestAmputation>false</canSuggestAmputation>
+    <tags>
+      <li>MovingLimbCore</li>
+    </tags>
+  </BodyPartDef>
+
+  <!-- Часть тела: bastion nerve knot (FB_BastionSegmentNerveCore) -->
+  <BodyPartDef>
+    <defName>FB_BastionSegmentNerveCore</defName>
+    <label>bastion nerve knot</label>
+    <hitPoints>18</hitPoints>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <delicate>true</delicate>
+    <skinCovered>false</skinCovered>
+    <tags>
+      <li>ConsciousnessSource</li>
+    </tags>
+    <canSuggestAmputation>false</canSuggestAmputation>
+  </BodyPartDef>
+
+  <!-- Часть тела: bastion mover sac (FB_BastionSegmentMover) -->
+  <BodyPartDef>
+    <defName>FB_BastionSegmentMover</defName>
+    <label>bastion mover sac</label>
+    <hitPoints>24</hitPoints>
+    <skinCovered>true</skinCovered>
+    <tags>
+      <li>MovingLimbCore</li>
+    </tags>
+  </BodyPartDef>
+
+  <!-- Часть тела: bastion spine organ (FB_BastionSegmentSpineOrgan) -->
+  <BodyPartDef>
+    <defName>FB_BastionSegmentSpineOrgan</defName>
+    <label>bastion spine organ</label>
+    <hitPoints>20</hitPoints>
+    <skinCovered>true</skinCovered>
+    <tags>
+      <li>ManipulationLimbCore</li>
+    </tags>
+  </BodyPartDef>
+
+  <!-- Часть тела: bastion vessel core (FB_BastionSegmentVesselCore) -->
+  <BodyPartDef>
+    <defName>FB_BastionSegmentVesselCore</defName>
+    <label>bastion vessel core</label>
+    <hitPoints>18</hitPoints>
+    <skinCovered>false</skinCovered>
+    <tags>
+      <li>BloodPumpingSource</li>
+      <li>MetabolismSource</li>
+    </tags>
+  </BodyPartDef>
+
+  <!-- Тело: bastion spine segment (FB_BastionSpineSegmentBody) -->
+  <BodyDef>
+    <defName>FB_BastionSpineSegmentBody</defName>
+    <label>bastion spine segment</label>
+    <corePart>
+      <def>FB_BastionSegmentModule</def>
+      <height>Middle</height>
+      <depth>Outside</depth>
+      <groups>
+        <li>HeadAttackTool</li>
+      </groups>
+      <parts>
+        <li>
+          <def>FB_BastionSegmentNerveCore</def>
+          <coverage>0.16</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>FB_BastionSegmentMover</def>
+          <coverage>0.22</coverage>
+        </li>
+        <li>
+          <def>FB_BastionSegmentSpineOrgan</def>
+          <coverage>0.18</coverage>
+          <groups>
+            <li>MiddleSpike</li>
+          </groups>
+        </li>
+        <li>
+          <def>FB_BastionSegmentVesselCore</def>
+          <coverage>0.14</coverage>
+          <depth>Inside</depth>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+
+  <!-- Тело: segmented bastion (FB_SegmentedBastionBody) -->
+  <BodyDef>
+    <defName>FB_SegmentedBastionBody</defName>
+    <label>segmented bastion</label>
+    <corePart>
+      <def>FB_SegmentedBastionRootMass</def>
+      <height>Middle</height>
+      <depth>Outside</depth>
+      <parts>
+        <li>
+          <def>FB_SegmentedBastionMotionAnchor</def>
+          <coverage>0</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Spine</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>InsectHeart</def>
+          <coverage>0.04</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>FleshbeastHead</def>
+          <coverage>0.12</coverage>
+          <depth>Inside</depth>
+          <groups>
+            <li>UpperHead</li>
+            <li>FullHead</li>
+            <li>HeadAttackTool</li>
+          </groups>
+          <parts>
+            <li>
+              <def>Skull</def>
+              <coverage>0.18</coverage>
+              <depth>Inside</depth>
+              <parts>
+                <li>
+                  <def>Brain</def>
+                  <coverage>0.8</coverage>
+                  <depth>Inside</depth>
+                </li>
+              </parts>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>FB_BastionSegmentModule</def>
+          <customLabel>segment 1</customLabel>
+          <coverage>0.085</coverage>
+          <depth>Outside</depth>
+          <parts>
+            <li><def>FB_BastionSegmentNerveCore</def><coverage>0.12</coverage><depth>Inside</depth></li>
+            <li><def>FB_BastionSegmentMover</def><coverage>0.2</coverage></li>
+            <li><def>FB_BastionSegmentSpineOrgan</def><coverage>0.16</coverage><groups><li>MiddleSpike</li></groups></li>
+            <li><def>FB_BastionSegmentVesselCore</def><coverage>0.12</coverage><depth>Inside</depth></li>
+          </parts>
+        </li>
+        <li>
+          <def>FB_BastionSegmentModule</def>
+          <customLabel>segment 2</customLabel>
+          <coverage>0.085</coverage>
+          <depth>Outside</depth>
+          <parts>
+            <li><def>FB_BastionSegmentNerveCore</def><coverage>0.12</coverage><depth>Inside</depth></li>
+            <li><def>FB_BastionSegmentMover</def><coverage>0.2</coverage></li>
+            <li><def>FB_BastionSegmentSpineOrgan</def><coverage>0.16</coverage><groups><li>MiddleSpike</li></groups></li>
+            <li><def>FB_BastionSegmentVesselCore</def><coverage>0.12</coverage><depth>Inside</depth></li>
+          </parts>
+        </li>
+        <li>
+          <def>FB_BastionSegmentModule</def>
+          <customLabel>segment 3</customLabel>
+          <coverage>0.085</coverage>
+          <depth>Outside</depth>
+          <parts>
+            <li><def>FB_BastionSegmentNerveCore</def><coverage>0.12</coverage><depth>Inside</depth></li>
+            <li><def>FB_BastionSegmentMover</def><coverage>0.2</coverage></li>
+            <li><def>FB_BastionSegmentSpineOrgan</def><coverage>0.16</coverage><groups><li>MiddleSpike</li></groups></li>
+            <li><def>FB_BastionSegmentVesselCore</def><coverage>0.12</coverage><depth>Inside</depth></li>
+          </parts>
+        </li>
+        <li>
+          <def>FB_BastionSegmentModule</def>
+          <customLabel>segment 4</customLabel>
+          <coverage>0.085</coverage>
+          <depth>Outside</depth>
+          <parts>
+            <li><def>FB_BastionSegmentNerveCore</def><coverage>0.12</coverage><depth>Inside</depth></li>
+            <li><def>FB_BastionSegmentMover</def><coverage>0.2</coverage></li>
+            <li><def>FB_BastionSegmentSpineOrgan</def><coverage>0.16</coverage><groups><li>MiddleSpike</li></groups></li>
+            <li><def>FB_BastionSegmentVesselCore</def><coverage>0.12</coverage><depth>Inside</depth></li>
+          </parts>
+        </li>
+        <li>
+          <def>FB_BastionSegmentModule</def>
+          <customLabel>segment 5</customLabel>
+          <coverage>0.085</coverage>
+          <depth>Outside</depth>
+          <parts>
+            <li><def>FB_BastionSegmentNerveCore</def><coverage>0.12</coverage><depth>Inside</depth></li>
+            <li><def>FB_BastionSegmentMover</def><coverage>0.2</coverage></li>
+            <li><def>FB_BastionSegmentSpineOrgan</def><coverage>0.16</coverage><groups><li>MiddleSpike</li></groups></li>
+            <li><def>FB_BastionSegmentVesselCore</def><coverage>0.12</coverage><depth>Inside</depth></li>
+          </parts>
+        </li>
+        <li>
+          <def>FB_BastionSegmentModule</def>
+          <customLabel>segment 6</customLabel>
+          <coverage>0.085</coverage>
+          <depth>Outside</depth>
+          <parts>
+            <li><def>FB_BastionSegmentNerveCore</def><coverage>0.12</coverage><depth>Inside</depth></li>
+            <li><def>FB_BastionSegmentMover</def><coverage>0.2</coverage></li>
+            <li><def>FB_BastionSegmentSpineOrgan</def><coverage>0.16</coverage><groups><li>MiddleSpike</li></groups></li>
+            <li><def>FB_BastionSegmentVesselCore</def><coverage>0.12</coverage><depth>Inside</depth></li>
+          </parts>
+        </li>
+        <li>
+          <def>FB_BastionSegmentModule</def>
+          <customLabel>segment 7</customLabel>
+          <coverage>0.085</coverage>
+          <depth>Outside</depth>
+          <parts>
+            <li><def>FB_BastionSegmentNerveCore</def><coverage>0.12</coverage><depth>Inside</depth></li>
+            <li><def>FB_BastionSegmentMover</def><coverage>0.2</coverage></li>
+            <li><def>FB_BastionSegmentSpineOrgan</def><coverage>0.16</coverage><groups><li>MiddleSpike</li></groups></li>
+            <li><def>FB_BastionSegmentVesselCore</def><coverage>0.12</coverage><depth>Inside</depth></li>
+          </parts>
+        </li>
+        <li>
+          <def>FB_BastionSegmentModule</def>
+          <customLabel>segment 8</customLabel>
+          <coverage>0.085</coverage>
+          <depth>Outside</depth>
+          <parts>
+            <li><def>FB_BastionSegmentNerveCore</def><coverage>0.12</coverage><depth>Inside</depth></li>
+            <li><def>FB_BastionSegmentMover</def><coverage>0.2</coverage></li>
+            <li><def>FB_BastionSegmentSpineOrgan</def><coverage>0.16</coverage><groups><li>MiddleSpike</li></groups></li>
+            <li><def>FB_BastionSegmentVesselCore</def><coverage>0.12</coverage><depth>Inside</depth></li>
+          </parts>
+        </li>
+        <li>
+          <def>FB_BastionSegmentModule</def>
+          <customLabel>segment 9</customLabel>
+          <coverage>0.085</coverage>
+          <depth>Outside</depth>
+          <parts>
+            <li><def>FB_BastionSegmentNerveCore</def><coverage>0.12</coverage><depth>Inside</depth></li>
+            <li><def>FB_BastionSegmentMover</def><coverage>0.2</coverage></li>
+            <li><def>FB_BastionSegmentSpineOrgan</def><coverage>0.16</coverage><groups><li>MiddleSpike</li></groups></li>
+            <li><def>FB_BastionSegmentVesselCore</def><coverage>0.12</coverage><depth>Inside</depth></li>
+          </parts>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+</Defs>

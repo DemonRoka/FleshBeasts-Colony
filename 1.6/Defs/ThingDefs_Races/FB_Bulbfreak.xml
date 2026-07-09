@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BaseFleshbeast">
+    <defName>FB_Bulbfreak</defName>
+    <label>fused bulbfreak</label>
+    <description>A controllable bulbfreak formed by sealing a flesh-colony pawn inside an amalgam of allied fleshbeasts. The host remains alive within the mass and will be released if the beast is destroyed.</description>
+    <statBases>
+      <MoveSpeed>3.8</MoveSpeed>
+      <MinimumContainmentStrength>75</MinimumContainmentStrength>
+      <ToxicResistance>0.5</ToxicResistance>
+      <MarketValue>1500</MarketValue>
+    </statBases>
+    <uiIconPath>Things/Pawn/Fleshbeast/Bulbfreak/Bulbfreak_MenuIcon</uiIconPath>
+    <race>
+      <body>Bulbfreak</body>
+      <baseBodySize>3.5</baseBodySize>
+      <baseHealthScale>0.3</baseHealthScale>
+      <lifeExpectancy>15</lifeExpectancy>
+      <soundMoving>Pawn_Fleshbeast_Bulbfreak_Moving</soundMoving>
+      <deathAction Class="DeathActionProperties_Divide">
+        <divideBloodFilthCountRange>3~4</divideBloodFilthCountRange>
+        <dividePawnCount>3</dividePawnCount>
+        <dividePawnKindOptions>
+          <li>Toughspike</li>
+          <li>Trispike</li>
+        </dividePawnKindOptions>
+      </deathAction>
+      <renderTree>Bulbfreak</renderTree>
+      <lifeStageAges>
+        <li>
+          <def>EntityFullyFormed</def>
+          <soundWounded>Pawn_Fleshbeast_Bulbfreak_Wounded</soundWounded>
+          <soundDeath>Pawn_Fleshbeast_Bulbfreak_Death</soundDeath>
+          <soundCall>Pawn_Fleshbeast_Bulbfreak_Call</soundCall>
+        </li>
+      </lifeStageAges>
+      <canBePredatorPrey>false</canBePredatorPrey>
+    </race>
+    <comps>
+      <li Class="CompProperties_AttachPoints">
+        <points>
+          <li>
+            <offset>(-.71, 0, .71)</offset>
+            <type>PlatformRestraint0</type>
+          </li>
+          <li>
+            <offset>(.71, 0, .71)</offset>
+            <type>PlatformRestraint1</type>
+          </li>
+          <li>
+            <offset>(.71, 0, -.71)</offset>
+            <type>PlatformRestraint2</type>
+          </li>
+          <li>
+            <offset>(-.71, 0, -.71)</offset>
+            <type>PlatformRestraint3</type>
+          </li>
+        </points>
+      </li>
+      <li Class="CompProperties_Studiable">
+        <frequencyTicks>120000</frequencyTicks>
+        <knowledgeCategory>Advanced</knowledgeCategory>
+        <anomalyKnowledge>2.5</anomalyKnowledge>
+        <minMonolithLevelForStudy>1</minMonolithLevelForStudy>
+        <requiresHoldingPlatform>true</requiresHoldingPlatform>
+      </li>
+
+      <li Class="FB.CompProperties_FleshbeastDraftable" />
+      <li Class="FB.CompProperties_BulbfreakHostStorage" />
+    </comps>
+    <tools>
+      <li>
+        <label>tentacle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>2</cooldownTime>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+        <linkedBodyPartsGroup>FirstTentacle</linkedBodyPartsGroup>
+        <soundMeleeHit>Pawn_Fleshbeast_Attack_Blunt</soundMeleeHit>
+      </li>
+      <li>
+        <label>tentacle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>2</cooldownTime>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+        <linkedBodyPartsGroup>SecondTentacle</linkedBodyPartsGroup>
+        <soundMeleeHit>Pawn_Fleshbeast_Attack_Blunt</soundMeleeHit>
+      </li>
+      <li>
+        <label>tentacle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>2</cooldownTime>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+        <linkedBodyPartsGroup>ThirdTentacle</linkedBodyPartsGroup>
+        <soundMeleeHit>Pawn_Fleshbeast_Attack_Blunt</soundMeleeHit>
+      </li>
+      <li>
+        <label>tentacle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>2</cooldownTime>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+        <linkedBodyPartsGroup>FourthTentacle</linkedBodyPartsGroup>
+        <soundMeleeHit>Pawn_Fleshbeast_Attack_Blunt</soundMeleeHit>
+      </li>
+      <li>
+        <label>tentacle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>2</cooldownTime>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+        <linkedBodyPartsGroup>FifthTentacle</linkedBodyPartsGroup>
+        <soundMeleeHit>Pawn_Fleshbeast_Attack_Blunt</soundMeleeHit>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>3</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+        <soundMeleeHit>Pawn_Fleshbeast_Attack_Blunt</soundMeleeHit>
+      </li>
+    </tools>
+  </ThingDef>
+</Defs>

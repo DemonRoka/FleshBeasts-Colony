@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Вид пешки: devourer (FB_DevourerKind) -->
+  <PawnKindDef ParentName="BaseFleshbeastKind">
+    <defName>FB_DevourerKind</defName>
+    <label>devourer</label>
+    <overrideDeathOnDownedChance>0</overrideDeathOnDownedChance>
+    <ignoresPainShock>true</ignoresPainShock>
+    <race>FB_Devourer</race>
+    <combatPower>430</combatPower>
+    <defaultFactionDef>PlayerColony</defaultFactionDef>
+    <abilities>
+      <li>FB_DevourerDevour</li>
+    </abilities>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/FB_Devourer/Devourer</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <drawSize>3.7</drawSize>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+</Defs>

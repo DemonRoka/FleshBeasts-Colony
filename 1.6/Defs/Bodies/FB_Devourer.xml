@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Часть тела: devourer armored hide (FB_DevourerArmoredHide) -->
+  <BodyPartDef>
+    <defName>FB_DevourerArmoredHide</defName>
+    <label>armored hide</label>
+    <hitPoints>160</hitPoints>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <solid>true</solid>
+    <skinCovered>false</skinCovered>
+    <bleedRate>0</bleedRate>
+  </BodyPartDef>
+
+  <!-- Часть тела: devourer gut (FB_DevourerGut) -->
+  <BodyPartDef>
+    <defName>FB_DevourerGut</defName>
+    <label>digestive gut</label>
+    <hitPoints>90</hitPoints>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <tags>
+      <li>MetabolismSource</li>
+    </tags>
+  </BodyPartDef>
+
+  <!-- Часть тела: devourer locomotor (FB_DevourerLocomotor) -->
+  <BodyPartDef>
+    <defName>FB_DevourerLocomotor</defName>
+    <label>locomotor mass</label>
+    <hitPoints>95</hitPoints>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <skinCovered>false</skinCovered>
+    <tags>
+      <li>MovingLimbCore</li>
+      <li>ManipulationLimbCore</li>
+    </tags>
+  </BodyPartDef>
+
+  <!-- Тело: devourer (FB_DevourerBody) -->
+  <BodyDef>
+    <defName>FB_DevourerBody</defName>
+    <label>devourer</label>
+    <corePart>
+      <def>MovingBodyFleshbeast</def>
+      <height>Middle</height>
+      <depth>Outside</depth>
+      <parts>
+        <li>
+          <def>Spine</def>
+          <coverage>0.025</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Heart</def>
+          <coverage>0.025</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>FB_DevourerGut</def>
+          <coverage>0.08</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>left lung</customLabel>
+          <coverage>0.018</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>right lung</customLabel>
+          <coverage>0.018</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>FB_DevourerArmoredHide</def>
+          <coverage>0.24</coverage>
+          <depth>Outside</depth>
+        </li>
+        <li>
+          <def>FleshbeastHead</def>
+          <coverage>0.28</coverage>
+          <groups>
+            <li>UpperHead</li>
+            <li>FullHead</li>
+            <li>HeadAttackTool</li>
+          </groups>
+          <parts>
+            <li>
+              <def>Skull</def>
+              <coverage>0.16</coverage>
+              <depth>Inside</depth>
+              <groups>
+                <li>UpperHead</li>
+                <li>Eyes</li>
+                <li>FullHead</li>
+              </groups>
+              <parts>
+                <li>
+                  <def>Brain</def>
+                  <coverage>0.75</coverage>
+                  <groups>
+                    <li>UpperHead</li>
+                    <li>Eyes</li>
+                    <li>FullHead</li>
+                  </groups>
+                </li>
+              </parts>
+            </li>
+            <li>
+              <def>Eye</def>
+              <customLabel>left eye</customLabel>
+              <coverage>0.02</coverage>
+              <groups>
+                <li>Eyes</li>
+                <li>FullHead</li>
+              </groups>
+            </li>
+            <li>
+              <def>Eye</def>
+              <customLabel>right eye</customLabel>
+              <coverage>0.02</coverage>
+              <groups>
+                <li>Eyes</li>
+                <li>FullHead</li>
+              </groups>
+            </li>
+            <li>
+              <def>Jaw</def>
+              <coverage>0.16</coverage>
+              <groups>
+                <li>FullHead</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>FB_DevourerLocomotor</def>
+          <customLabel>front left locomotor</customLabel>
+          <coverage>0.075</coverage>
+          <depth>Outside</depth>
+          <groups>
+            <li>FirstTentacle</li>
+          </groups>
+        </li>
+        <li>
+          <def>FB_DevourerLocomotor</def>
+          <customLabel>front right locomotor</customLabel>
+          <coverage>0.075</coverage>
+          <depth>Outside</depth>
+          <groups>
+            <li>SecondTentacle</li>
+          </groups>
+        </li>
+        <li>
+          <def>FB_DevourerLocomotor</def>
+          <customLabel>rear left locomotor</customLabel>
+          <coverage>0.075</coverage>
+          <depth>Outside</depth>
+          <groups>
+            <li>ThirdTentacle</li>
+          </groups>
+        </li>
+        <li>
+          <def>FB_DevourerLocomotor</def>
+          <customLabel>rear right locomotor</customLabel>
+          <coverage>0.075</coverage>
+          <depth>Outside</depth>
+          <groups>
+            <li>FourthTentacle</li>
+          </groups>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+</Defs>

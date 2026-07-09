@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <PawnColumnDef>
+    <defName>FB_FleshbeastKind</defName>
+    <workerClass>FB.PawnColumnWorker_FleshbeastKind</workerClass>
+    <sortable>true</sortable>
+    <width>190</width>
+  </PawnColumnDef>
+
+  <PawnColumnDef>
+    <defName>FB_FleshbeastGroup</defName>
+    <workerClass>FB.PawnColumnWorker_FleshbeastGroup</workerClass>
+    <sortable>true</sortable>
+    <width>145</width>
+  </PawnColumnDef>
+
+  <PawnColumnDef>
+    <defName>FB_FleshbeastMedicalCare</defName>
+    <workerClass>FB.PawnColumnWorker_FleshbeastMedicalCare</workerClass>
+  </PawnColumnDef>
+
+  <PawnColumnDef>
+    <defName>FB_FleshbeastCommandGap</defName>
+    <workerClass>FB.PawnColumnWorker_FleshbeastCommandGap</workerClass>
+    <width>65</width>
+  </PawnColumnDef>
+
+  <PawnColumnDef>
+    <defName>FB_FleshbeastAllowedAreaWide</defName>
+    <workerClass>FB.PawnColumnWorker_FleshbeastAllowedAreaWide</workerClass>
+    <sortable>true</sortable>
+  </PawnColumnDef>
+
+  <PawnTableDef>
+    <defName>FB_FleshbeastsTable</defName>
+    <workerClass>PawnTable_PlayerPawns</workerClass>
+    <columns>
+      <li>FB_FleshbeastKind</li>
+      <li>FB_FleshbeastGroup</li>
+      <li>FB_FleshbeastMedicalCare</li>
+      <li>FB_FleshbeastCommandGap</li>
+      <li>FB_FleshbeastAllowedAreaWide</li>
+    </columns>
+    <minWidth>0</minWidth>
+  </PawnTableDef>
+
+</Defs>

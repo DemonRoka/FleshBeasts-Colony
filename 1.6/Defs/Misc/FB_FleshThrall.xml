@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Мутант: flesh thrall (FB_FleshThrall) -->
+  <MutantDef ParentName="BaseMutantEntity">
+    <defName>FB_FleshThrall</defName>
+    <label>flesh thrall</label>
+    <description>A corpse-puppet driven by colony flesh from within. It keeps the body it was given, missing parts and all.</description>
+    <hediff>FB_FleshThrall</hediff>
+    <thinkTree>Shambler</thinkTree>
+    <thinkTreeConstant>ShamblerConstant</thinkTreeConstant>
+    <hideLabel>true</hideLabel>
+    <namePrefix>flesh-thrall </namePrefix>
+    <useCorpseGraphics>true</useCorpseGraphics>
+    <isConsideredCorpse>true</isConsideredCorpse>
+    <bloodDef>Filth_Blood</bloodDef>
+    <bloodSmearDef>Filth_BloodSmear</bloodSmearDef>
+    <entitledToMedicalCare>false</entitledToMedicalCare>
+    <defaultFaction>PlayerColony</defaultFaction>
+    <standingAnimation>ShamblerSway</standingAnimation>
+    <canOpenDoors>false</canOpenDoors>
+    <makesFootprints>false</makesFootprints>
+    <tameable>false</tameable>
+    <clearMutantStatusOnDeath>true</clearMutantStatusOnDeath>
+    <canTravelInCaravan>false</canTravelInCaravan>
+    <canAttackWhileCrawling>true</canAttackWhileCrawling>
+    <respectsAllowedArea>false</respectsAllowedArea>
+    <disableFlying>true</disableFlying>
+    <canGainXP>false</canGainXP>
+    <canBeDrafted>false</canBeDrafted>
+    <disableHostilityResponse>true</disableHostilityResponse>
+    <deathOnDownedChance>0.25</deathOnDownedChance>
+    <woundColor>(0.65, 0.16, 0.19, 1.0)</woundColor>
+    <soundAttackChance>0.20</soundAttackChance>
+    <soundCall>Pawn_Shambler_Call</soundCall>
+    <soundAttack>Pawn_Shambler_Attack</soundAttack>
+    <soundWounded>Pawn_Shambler_Wounded</soundWounded>
+    <soundDeath>Pawn_Shambler_Killed</soundDeath>
+    <tools>
+      <li>
+        <label>teeth</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>7.0</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>1</chanceFactor>
+        <soundMeleeHit>Pawn_Melee_HumanBite_Hit</soundMeleeHit>
+        <soundMeleeMiss>Pawn_Melee_HumanBite_Miss</soundMeleeMiss>
+      </li>
+      <li>
+        <label>left hand</label>
+        <labelNoLocation>hand</labelNoLocation>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>6.0</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+        <chanceFactor>1.5</chanceFactor>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+      </li>
+      <li>
+        <label>right hand</label>
+        <labelNoLocation>hand</labelNoLocation>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>6.0</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+        <chanceFactor>1.5</chanceFactor>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+      </li>
+    </tools>
+  </MutantDef>
+</Defs>

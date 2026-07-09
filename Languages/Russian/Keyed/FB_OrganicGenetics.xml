@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_FleshGeneArchiveInspect>Архивированные генопаки: {0}</FB_FleshGeneArchiveInspect>
+  <FB_FleshGeneArchiveInvalidGene>Этот генетический узор нельзя поместить в архив.</FB_FleshGeneArchiveInvalidGene>
+  <FB_FleshGeneArchiveFull>В геномном архиве нет свободной ёмкости.</FB_FleshGeneArchiveFull>
+  <FB_ForgetGenepackLabel>Стереть сохранённый генопак</FB_ForgetGenepackLabel>
+  <FB_ForgetGenepackDesc>Стереть этот сохранённый генопак. Он не будет выброшен или восстановлен.</FB_ForgetGenepackDesc>
+  <FB_ConfirmForgetGenepack>Стереть {0}? Это навсегда удалит сохранённый генопак.</FB_ConfirmForgetGenepack>
+  <FB_ContainedPawn>Пешка внутри: {0}</FB_ContainedPawn>
+  <FB_WaitingForPawn>Ожидает {0}.</FB_WaitingForPawn>
+  <FB_ColonyBrain_Structure_GenophageCocoon_Label>Генофаговый кокон</FB_ColonyBrain_Structure_GenophageCocoon_Label>
+  <FB_ColonyBrain_Structure_GenomeArchive_Label>Геномный архив</FB_ColonyBrain_Structure_GenomeArchive_Label>
+  <FB_ColonyBrain_Structure_GeneReweaver_Label>Генный переплетатель</FB_ColonyBrain_Structure_GeneReweaver_Label>
+  <FB_GenophageSelectDonorLabel>Выбрать донора</FB_GenophageSelectDonorLabel>
+  <FB_GenophageSelectDonorDesc>Выбрать живую пешку-донора с генами. Кокон медленно скопирует любые неизвестные гены, которые сможет сохранить в архиве, а затем выпустит донора после извлечения.</FB_GenophageSelectDonorDesc>
+  <FB_GenophageNoArchiveSpace>Нет геномного архива со свободным местом.</FB_GenophageNoArchiveSpace>
+  <FB_GenophageNoGenes>У этого донора нет генов.</FB_GenophageNoGenes>
+  <FB_GenophageGenesRegrowing>Ксеногерм этого донора ещё восстанавливается.</FB_GenophageGenesRegrowing>
+  <FB_GenophageExtractingInspect>Извлекает гены из {0}: осталось {1} ч.</FB_GenophageExtractingInspect>
+  <FB_GenophageExtractedGenes>Генофаговый кокон скопировал гены {PAWN_labelShort}: {0}. Скопированный генопак сохранён в геномном архиве, донор выпущен наружу.</FB_GenophageExtractedGenes>
+  <FB_GenophageReleaseDonorLabel>Выпустить донора</FB_GenophageReleaseDonorLabel>
+  <FB_GenophageReleaseDonorDesc>Выплюнуть помещённого донора и отменить текущее извлечение.</FB_GenophageReleaseDonorDesc>
+  <FB_GenophageDevFinishExtractionLabel>DEV: завершить извлечение генов</FB_GenophageDevFinishExtractionLabel>
+  <FB_GenophageDevFinishExtractionDesc>Мгновенно завершить текущее извлечение генов в этом коконе.</FB_GenophageDevFinishExtractionDesc>
+  <FB_GeneReweaverRecombineDesc>Выбрать архивированные генопаки и сплести из них внутренний плотяной ксеногерм для интеграции через кокон.</FB_GeneReweaverRecombineDesc>
+  <FB_GeneReweaverNoArchiveGenes>Нет доступных архивированных генопаков.</FB_GeneReweaverNoArchiveGenes>
+  <FB_GeneReweaverBusyRecombining>Переплетатель уже создаёт плотяной ксеногерм.</FB_GeneReweaverBusyRecombining>
+  <FB_GeneReweaverCurrentOperation>{0}: осталось {1} ч.</FB_GeneReweaverCurrentOperation>
+  <FB_GeneReweaverCurrentXenogerm>Плетёт плотяной ксеногерм: осталось {0} ч.</FB_GeneReweaverCurrentXenogerm>
+  <FB_GeneReweaverQueuedOperations>Генов в очереди: {0}</FB_GeneReweaverQueuedOperations>
+  <FB_GeneReweaverOperationImplant>Вплести {0}</FB_GeneReweaverOperationImplant>
+  <FB_GeneReweaverOperationFailed>Плетение плотяного ксеногерма провалилось.</FB_GeneReweaverOperationFailed>
+  <FB_ChromophageStoredGenesInspect>Сохранённые генопаки: {0} / {1}</FB_ChromophageStoredGenesInspect>
+  <FB_ChromophageExtractGenesLabel>Извлечь гены из тела</FB_ChromophageExtractGenesLabel>
+  <FB_ChromophageExtractGenesDesc>Извлечь один или два гена из гуманоидного трупа, сохранить их внутри хромофага генопаком и поглотить останки.</FB_ChromophageExtractGenesDesc>
+  <FB_ChromophageUnloadGenesLabel>Выгрузить гены</FB_ChromophageUnloadGenesLabel>
+  <FB_ChromophageUnloadGenesDesc>Выгрузить сохранённые генопаки в выбранный геномный архив.</FB_ChromophageUnloadGenesDesc>
+  <FB_ChromophageInvalidCaster>Только хромофаг может выполнять эту работу с генами.</FB_ChromophageInvalidCaster>
+  <FB_ChromophageStorageFull>У хромофага нет свободного внутреннего хранилища генов.</FB_ChromophageStorageFull>
+  <FB_ChromophageInvalidCorpse>Выберите органический гуманоидный труп.</FB_ChromophageInvalidCorpse>
+  <FB_ChromophageCorpseExhausted>Из этого трупа уже извлечены полезные генетические следы.</FB_ChromophageCorpseExhausted>
+  <FB_ChromophageNoCorpseGenes>В этом трупе не осталось пригодных генетических следов.</FB_ChromophageNoCorpseGenes>
+  <FB_ChromophageCannotReachCorpse>Хромофаг не может добраться до этого трупа.</FB_ChromophageCannotReachCorpse>
+  <FB_ChromophageNoStoredGenes>Хромофаг не несёт генопаков.</FB_ChromophageNoStoredGenes>
+  <FB_ChromophageInvalidArchive>Выберите живой геномный архив.</FB_ChromophageInvalidArchive>
+  <FB_ChromophageCannotReachArchive>Хромофаг не может добраться до этого архива.</FB_ChromophageCannotReachArchive>
+  <FB_ChromophageExtractedGenes>Хромофаг извлёк генетические следы: {0}.</FB_ChromophageExtractedGenes>
+  <FB_ChromophageUnloadedGenes>Хромофаг выгрузил генетические следы в геномный архив: {0}.</FB_ChromophageUnloadedGenes>
+  <FB_GenophageNoGenesExtracted>У {PAWN_labelShort} не оказалось неизвестных генов, которые генофаговый кокон мог бы скопировать в архив.</FB_GenophageNoGenesExtracted>
+  <FB_GeneReweaverCreateXenogermLabel>Создать плотяной ксеногерм...</FB_GeneReweaverCreateXenogermLabel>
+  <FB_GeneReweaverCreateXenogermDesc>Выбрать архивированные гены и сплести из них один внутренний плотяной ксеногерм. Переплетатель работает со всем узором по единому таймеру.</FB_GeneReweaverCreateXenogermDesc>
+  <FB_GeneReweaverCancelXenogermLabel>Отменить плотяной ксеногерм</FB_GeneReweaverCancelXenogermLabel>
+  <FB_GeneReweaverCancelXenogermDesc>Отменить текущий плотяной ксеногерм. Уже потраченный гемогель не вернётся.</FB_GeneReweaverCancelXenogermDesc>
+  <FB_GeneReweaverDevFinishXenogermLabel>DEV: завершить плотяной ксеногерм</FB_GeneReweaverDevFinishXenogermLabel>
+  <FB_GeneReweaverDevFinishXenogermDesc>Мгновенно завершить текущую подготовку плотяного ксеногерма в переплетателе.</FB_GeneReweaverDevFinishXenogermDesc>
+  <FB_GeneReweaverBusyCreating>Переплетатель уже создаёт плотяной ксеногерм.</FB_GeneReweaverBusyCreating>
+  <FB_GeneReweaverQueuedXenogerm>Поставлено в очередь генов для плотяного ксеногерма: {0}.</FB_GeneReweaverQueuedXenogerm>
+  <FB_GeneReweaverPreparedReady>{0} готов внутри генного переплетателя. Подготовлено генов: {1}.</FB_GeneReweaverPreparedReady>
+  <FB_GeneReweaverPreparedAlready>Подготовленный плотяной ксеногерм уже хранится внутри.</FB_GeneReweaverPreparedAlready>
+  <FB_GeneReweaverIdleInspect>Плотяной ксеногерм: покой</FB_GeneReweaverIdleInspect>
+  <FB_GeneReweaverCompletedGenes>Встроено генов: {0}</FB_GeneReweaverCompletedGenes>
+  <FB_GeneReweaverDialogHeader>Создать плотяной ксеногерм</FB_GeneReweaverDialogHeader>
+  <FB_GeneReweaverCreateButton>Начать плетение</FB_GeneReweaverCreateButton>
+  <FB_GeneReweaverCallPawnLabel>Призвать пешку в генный кокон...</FB_GeneReweaverCallPawnLabel>
+  <FB_GeneReweaverCallPawnDesc>Выбрать управляемую пешку, которая войдёт во временный генный кокон и интегрирует подготовленный плотяной ксеногерм.</FB_GeneReweaverCallPawnDesc>
+  <FB_GeneReweaverDissolvePreparedLabel>Растворить подготовленный ксеногерм</FB_GeneReweaverDissolvePreparedLabel>
+  <FB_GeneReweaverDissolvePreparedDesc>Растворить подготовленный плотяной ксеногерм внутри этого переплетателя. Потраченный гемогель не вернётся.</FB_GeneReweaverDissolvePreparedDesc>
+  <FB_GeneReweaverPreparedDissolved>Подготовленный плотяной ксеногерм растворён.</FB_GeneReweaverPreparedDissolved>
+  <FB_GeneReweaverPreparedInspect>Подготовленный ксеногерм: {0} ({1} генов)</FB_GeneReweaverPreparedInspect>
+  <FB_GeneReweaverNoPreparedXenogerm>Нет подготовленного плотяного ксеногерма.</FB_GeneReweaverNoPreparedXenogerm>
+  <FB_GeneReweaverInvalidIntegrationPawn>Эта пешка не может интегрировать подготовленный ксеногерм.</FB_GeneReweaverInvalidIntegrationPawn>
+  <FB_GeneReweaverDifferentMap>Пешка должна находиться на той же карте.</FB_GeneReweaverDifferentMap>
+  <FB_GeneReweaverNoCocoonCell>Нет достижимой клетки для генного кокона.</FB_GeneReweaverNoCocoonCell>
+  <FB_GeneReweaverCocoonStarted>{PAWN_nameDef} входит в генный кокон, чтобы интегрировать {XENOGERM}.</FB_GeneReweaverCocoonStarted>
+  <FB_GeneReweaverCocoonComplete>{PAWN_nameDef} выходит из генного кокона с интегрированным {XENOGERM}.</FB_GeneReweaverCocoonComplete>
+  <FB_GeneReweaverCocoonDied>{0} погибает в разорванном генном коконе.</FB_GeneReweaverCocoonDied>
+</LanguageData>

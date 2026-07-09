@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_AcidReservoir_BarLabel>Acid reserve</FB_AcidReservoir_BarLabel>
+  <FB_AcidReservoir_BarTooltip>Stored gastric acid: {0} / {1}.</FB_AcidReservoir_BarTooltip>
+  <FB_AcidReservoir_Inspect>Acid reserve: {0} / {1}</FB_AcidReservoir_Inspect>
+  <FB_AcidReservoir_DevFill>DEV: Fill acid reserve</FB_AcidReservoir_DevFill>
+
+  <FB_AcidBroodmother_GrowToggleLabel>Grow acid spitlings</FB_AcidBroodmother_GrowToggleLabel>
+  <FB_AcidBroodmother_GrowToggleDesc>When ready, spend {0} acid per offspring to immediately fill up to {1} active spitlings. Each brood requires {2} hours to recharge.</FB_AcidBroodmother_GrowToggleDesc>
+  <FB_AcidBroodmother_Inspect>Acid spitlings: {0} / {1}. Automatic growth: {2}.</FB_AcidBroodmother_Inspect>
+  <FB_AcidBroodmother_GrowthReady>Brood growth: ready.</FB_AcidBroodmother_GrowthReady>
+  <FB_AcidBroodmother_GrowthCooldown>Brood growth ready in: {0}.</FB_AcidBroodmother_GrowthCooldown>
+  <FB_AcidBroodmother_DevSpawnSpitling>DEV: Grow acid spitling</FB_AcidBroodmother_DevSpawnSpitling>
+
+  <FB_AcidSpitling_NoMother>No linked acid broodmother.</FB_AcidSpitling_NoMother>
+  <FB_AcidSpitling_MotherInspect>Linked broodmother: {0}</FB_AcidSpitling_MotherInspect>
+  <FB_AcidSpitling_NotEnoughAcid>Requires {0} acid.</FB_AcidSpitling_NotEnoughAcid>
+
+  <FB_AcidBroodmother_AssembleLabel>Assemble acid broodmother</FB_AcidBroodmother_AssembleLabel>
+  <FB_AcidBroodmother_AssembleDesc>Select an allied fingerspike, trispike, or toughspike as the fusion anchor. Nearby spine fleshbeasts will gather and merge into an acid broodmother.</FB_AcidBroodmother_AssembleDesc>
+  <FB_AcidBroodmother_NoDonors>Not enough available spine fleshbeasts to assemble an acid broodmother.</FB_AcidBroodmother_NoDonors>
+  <FB_AcidBroodmother_AssemblyInvalid>The acid broodmother assembly cannot begin.</FB_AcidBroodmother_AssemblyInvalid>
+  <FB_AcidBroodmother_NoGatherCells>There is not enough reachable space around the selected anchor.</FB_AcidBroodmother_NoGatherCells>
+  <FB_AcidBroodmother_AssemblyStarted>{0} fleshbeasts with a total fusion value of {1} are gathering.</FB_AcidBroodmother_AssemblyStarted>
+  <FB_AcidBroodmother_AssemblyComplete>{0} has formed.</FB_AcidBroodmother_AssemblyComplete>
+  <FB_AcidBroodmother_AssemblyInterrupted>Acid broodmother assembly was interrupted.</FB_AcidBroodmother_AssemblyInterrupted>
+</LanguageData>

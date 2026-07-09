@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="TreeBase">
+    <defName>FB_FleshTree</defName>
+    <label>flesh tree</label>
+    <description>A towering vascular growth rooted into colony flesh. Its trunk pulses with hemogel-rich tissue, spreading shade and mass across living terrain.</description>
+    <graphicData>
+      <texPath>Things/Plant/FleshTree</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shaderType>CutoutPlant</shaderType>
+      <shadowData>
+        <volume>(0.2, 0.35, 0.13)</volume>
+        <offset>(0,0,-0.42)</offset>
+      </shadowData>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>240</MaxHitPoints>
+      <Flammability>0.85</Flammability>
+      <Beauty>-2</Beauty>
+      <BeautyOutdoors>-1</BeautyOutdoors>
+      <Nutrition>2.0</Nutrition>
+    </statBases>
+    <plant>
+      <fertilityMin>0</fertilityMin>
+      <fertilitySensitivity>0</fertilitySensitivity>
+      <growDays>5.5</growDays>
+      <growMinGlow>0</growMinGlow>
+      <growOptimalGlow>0</growOptimalGlow>
+      <cavePlant>true</cavePlant>
+      <harvestedThingDef>Meat_Twisted</harvestedThingDef>
+      <harvestYield>36</harvestYield>
+      <harvestWork>1200</harvestWork>
+      <harvestTag>Wood</harvestTag>
+      <harvestMinGrowth>0.40</harvestMinGrowth>
+      <visualSizeRange>1.55~2.15</visualSizeRange>
+      <topWindExposure>0.12</topWindExposure>
+      <wildClusterRadius>7</wildClusterRadius>
+      <wildClusterWeight>18</wildClusterWeight>
+      <wildOrder>3</wildOrder>
+      <wildEqualLocalDistribution>false</wildEqualLocalDistribution>
+      <wildTerrainTags>
+        <li>FB_FleshColonyTerrain</li>
+      </wildTerrainTags>
+      <sowTags Inherit="False" />
+      <purpose>Misc</purpose>
+      <pollution>Any</pollution>
+      <dieFromToxicFallout>false</dieFromToxicFallout>
+      <neverBlightable>true</neverBlightable>
+      <treeLoversCareIfChopped>false</treeLoversCareIfChopped>
+      <choppedThingDef>FB_StumpChopped_FleshTree</choppedThingDef>
+      <smashedThingDef>FB_StumpSmashed_FleshTree</smashedThingDef>
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="PlantBase">
+    <defName>FB_GrassEyes</defName>
+    <label>eye grass</label>
+    <description>Small watchful shoots that sprout from colony flesh in isolated clumps. They twitch faintly when something moves nearby.</description>
+    <statBases>
+      <MaxHitPoints>55</MaxHitPoints>
+      <Flammability>0.9</Flammability>
+      <Nutrition>0.18</Nutrition>
+      <Beauty>-1</Beauty>
+      <BeautyOutdoors>-1</BeautyOutdoors>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/GrassEyes</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shaderType>CutoutPlant</shaderType>
+    </graphicData>
+    <ingestible />
+    <plant>
+      <fertilityMin>0</fertilityMin>
+      <fertilitySensitivity>0</fertilitySensitivity>
+      <growDays>1.8</growDays>
+      <growMinGlow>0</growMinGlow>
+      <growOptimalGlow>0</growOptimalGlow>
+      <cavePlant>true</cavePlant>
+      <maxMeshCount>1</maxMeshCount>
+      <visualSizeRange>0.5~1.2</visualSizeRange>
+      <topWindExposure>0.08</topWindExposure>
+      <wildClusterRadius>2</wildClusterRadius>
+      <wildClusterWeight>8</wildClusterWeight>
+      <wildOrder>1</wildOrder>
+      <wildEqualLocalDistribution>false</wildEqualLocalDistribution>
+      <wildTerrainTags>
+        <li>FB_FleshColonyTerrain</li>
+      </wildTerrainTags>
+      <purpose>Misc</purpose>
+      <pollution>Any</pollution>
+      <dieFromToxicFallout>false</dieFromToxicFallout>
+      <neverBlightable>true</neverBlightable>
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="StumpChoppedBase">
+    <defName>FB_StumpChopped_FleshTree</defName>
+    <label>chopped flesh tree stump</label>
+    <description>A pulped stump left behind after a flesh tree has been felled. It still twitches around the cut and will slowly rot away if left exposed.</description>
+    <statBases>
+      <Beauty>-2</Beauty>
+      <DeteriorationRate>20</DeteriorationRate>
+      <Flammability>0.85</Flammability>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/Stumps/FleshTree/StumpChopped_FleshTree</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutPlant</shaderType>
+      <shadowData>
+        <volume>(0.15, 0.1, 0.15)</volume>
+        <offset>(0,0,-0.2)</offset>
+      </shadowData>
+    </graphicData>
+    <plant>
+      <fertilityMin>0</fertilityMin>
+      <harvestedThingDef>Meat_Twisted</harvestedThingDef>
+      <harvestYield>5</harvestYield>
+      <harvestWork>90</harvestWork>
+      <wildTerrainTags>
+        <li>FB_FleshColonyTerrain</li>
+      </wildTerrainTags>
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="StumpSmashedBase">
+    <defName>FB_StumpSmashed_FleshTree</defName>
+    <label>smashed flesh tree stump</label>
+    <description>The ruined remains of a flesh tree, crushed into a split mound of vascular tissue.</description>
+    <statBases>
+      <Beauty>-8</Beauty>
+      <Flammability>0.85</Flammability>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/Stumps/FleshTree/StumpSmashed_FleshTree</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutPlant</shaderType>
+      <shadowData>
+        <volume>(0.15, 0.15, 0.15)</volume>
+        <offset>(0,0,-0.2)</offset>
+      </shadowData>
+    </graphicData>
+    <plant>
+      <fertilityMin>0</fertilityMin>
+      <harvestedThingDef>Meat_Twisted</harvestedThingDef>
+      <harvestYield>3</harvestYield>
+      <wildTerrainTags>
+        <li>FB_FleshColonyTerrain</li>
+      </wildTerrainTags>
+    </plant>
+  </ThingDef>
+</Defs>

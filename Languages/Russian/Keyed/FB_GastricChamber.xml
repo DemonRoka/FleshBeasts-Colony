@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_GastricAcidSpewer_ToggleLabel>Распространять желудочный сок</FB_GastricAcidSpewer_ToggleLabel>
+  <FB_GastricAcidSpewer_ToggleDesc>Заполнять ближайшие клетки вокруг этого органа пищеварительной кислотой, пока хватает внутреннего запаса желудочного геля. При выключении орган будет всасывать кислоту обратно клетка за клеткой.</FB_GastricAcidSpewer_ToggleDesc>
+  
+  
+  <FB_GastricAcidSpewer_InspectIdle>Желудочный сок: покой</FB_GastricAcidSpewer_InspectIdle>
+  <FB_GastricAcidSpewer_InspectSpreading>Желудочный сок: распространяется ({0} клет.)</FB_GastricAcidSpewer_InspectSpreading>
+  <FB_GastricAcidSpewer_InspectAbsorbing>Желудочный сок: всасывается ({0} клет.)</FB_GastricAcidSpewer_InspectAbsorbing>
+  <FB_GastricAcidSpewer_InspectReserve>Запас желудочного геля: {0} / {1} клет.</FB_GastricAcidSpewer_InspectReserve>
+  <FB_GastricAcidSpewer_FuelInspect>Внешнее пищеварительное топливо: {0} питательности. Выработка гемогеля: {1}/ч.</FB_GastricAcidSpewer_FuelInspect>
+  <FB_GastricAcidSpewer_HemogelEconomyDetail>Внешнее пищеварительное топливо: {0} питательности; выработка {1}/ч</FB_GastricAcidSpewer_HemogelEconomyDetail>
+  <FB_ColonyBrain_Structure_GastricAcidSpewer_Label>Извергатель желудочного сока</FB_ColonyBrain_Structure_GastricAcidSpewer_Label>
+</LanguageData>

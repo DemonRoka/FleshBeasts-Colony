@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_ResurrectedBiomassPart.label>resurrected biomass</FB_ResurrectedBiomassPart.label>
+  <FB_ResurrectedBiomassPart.labelNoun>resurrected biomass</FB_ResurrectedBiomassPart.labelNoun>
+  <FB_ResurrectedBiomassPart.description>Living colony biomass has replaced a missing body part. It functions reliably, but never fully matches the original tissue.</FB_ResurrectedBiomassPart.description>
+  <FB_ShellAdaptation.label>shell adaptation</FB_ShellAdaptation.label>
+  <FB_ShellAdaptation.description>This resurrected mind is gradually learning to control a body rebuilt and occupied by colony flesh.</FB_ShellAdaptation.description>
+  <FB_ShellAdaptation.stages.0.label>stabilizing</FB_ShellAdaptation.stages.0.label>
+  <FB_ShellAdaptation.stages.1.label>disoriented</FB_ShellAdaptation.stages.1.label>
+  <FB_ShellAdaptation.stages.2.label>severe rejection</FB_ShellAdaptation.stages.2.label>
+</LanguageData>

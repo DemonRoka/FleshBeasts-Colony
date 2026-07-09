@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_DevourerBody.label>поглотитель</FB_DevourerBody.label>
+  <FB_DevourerBody.corePart.parts.3.customLabel>левое лёгкое</FB_DevourerBody.corePart.parts.3.customLabel>
+  <FB_DevourerBody.corePart.parts.4.customLabel>правое лёгкое</FB_DevourerBody.corePart.parts.4.customLabel>
+  <FB_DevourerBody.corePart.parts.6.parts.1.customLabel>левый глаз</FB_DevourerBody.corePart.parts.6.parts.1.customLabel>
+  <FB_DevourerBody.corePart.parts.6.parts.2.customLabel>правый глаз</FB_DevourerBody.corePart.parts.6.parts.2.customLabel>
+  <FB_DevourerBody.corePart.parts.7.customLabel>передняя левая двигательная масса</FB_DevourerBody.corePart.parts.7.customLabel>
+  <FB_DevourerBody.corePart.parts.8.customLabel>передняя правая двигательная масса</FB_DevourerBody.corePart.parts.8.customLabel>
+  <FB_DevourerBody.corePart.parts.9.customLabel>задняя левая двигательная масса</FB_DevourerBody.corePart.parts.9.customLabel>
+  <FB_DevourerBody.corePart.parts.10.customLabel>задняя правая двигательная масса</FB_DevourerBody.corePart.parts.10.customLabel>
+</LanguageData>

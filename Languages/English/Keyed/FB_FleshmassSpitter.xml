@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_FleshmassSpitterFireLabel>Fire acid</FB_FleshmassSpitterFireLabel>
+  <FB_FleshmassSpitterFireDesc>Select a target or cell for the next acid shot. Right-click toggles automatic fire; manual shots remain available while it is disabled.</FB_FleshmassSpitterFireDesc>
+  <FB_FleshmassSpitterFireMode>Automatic fire: {0}</FB_FleshmassSpitterFireMode>
+  <FB_FleshmassSpitterManualTargetQueued>Manual target queued</FB_FleshmassSpitterManualTargetQueued>
+  <FB_FleshmassSpitterManualTargetQueuedMessage>Manual target queued for the next acid shot.</FB_FleshmassSpitterManualTargetQueuedMessage>
+  <FB_FleshmassSpitterFireDisabled>Firing is disabled. Right-click the command to enable it.</FB_FleshmassSpitterFireDisabled>
+  <FB_FleshmassSpitterInvalidTarget>That is not a valid target.</FB_FleshmassSpitterInvalidTarget>
+  <FB_FleshmassSpitterRoofedTarget>The fleshmass spitter cannot fire at a roofed cell.</FB_FleshmassSpitterRoofedTarget>
+  <FB_FleshmassSpitterCannotHitTarget>The target is outside the spitter's firing range.</FB_FleshmassSpitterCannotHitTarget>
+  <FB_DevFleshmassSpitterResetCooldown>DEV: Reset spitter cooldown</FB_DevFleshmassSpitterResetCooldown>
+</LanguageData>

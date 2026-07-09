@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <PawnKindDef ParentName="BaseFleshbeastKind">
+  <defName>FB_BileburstPodlingKind</defName>
+  <label>bileburst podling</label>
+  <race>FB_BileburstPodling</race>
+  <combatPower>22</combatPower>
+  <forceDeathOnDowned>true</forceDeathOnDowned>
+  <defaultFactionDef>PlayerColony</defaultFactionDef>
+  <lifeStages>
+    <li>
+      <bodyGraphicData>
+        <texPath>Things/Pawn/FB_BileburstPodling/BileburstPodling</texPath>
+        <graphicClass>Graphic_Multi</graphicClass>
+        <drawSize>1.1</drawSize>
+      </bodyGraphicData>
+    </li>
+  </lifeStages>
+</PawnKindDef>
+</Defs>

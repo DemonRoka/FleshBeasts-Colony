@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Задание: FB_HealPawn -->
+  <JobDef>
+    <defName>FB_HealPawn</defName>
+    <driverClass>FB.JobDriver_HealPawn</driverClass>
+  </JobDef>
+
+  <!-- Задание: ScavengeCorpse -->
+  <JobDef>
+    <defName>ScavengeCorpse</defName>
+    <driverClass>FB.JobDriver_ScavengeCorpse</driverClass>
+  </JobDef>
+</Defs>

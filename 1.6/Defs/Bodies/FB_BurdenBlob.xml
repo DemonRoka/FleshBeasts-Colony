@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Часть тела: pseudopod (FB_BurdenPseudopod) -->
+  <BodyPartDef>
+    <defName>FB_BurdenPseudopod</defName>
+    <label>pseudopod</label>
+    <hitPoints>26</hitPoints>
+    <frostbiteVulnerability>0.12</frostbiteVulnerability>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <tags>
+      <li>ManipulationLimbCore</li>
+    </tags>
+  </BodyPartDef>
+  <!-- Часть тела: hemogel sac (FB_BurdenBlobHemogelSac) -->
+  <BodyPartDef>
+    <defName>FB_BurdenBlobHemogelSac</defName>
+    <label>hemogel sac</label>
+    <hitPoints>18</hitPoints>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+  </BodyPartDef>
+  <!-- Тело: burden blob (FB_BurdenBlobBody) -->
+  <BodyDef>
+    <defName>FB_BurdenBlobBody</defName>
+    <label>burden blob</label>
+    <corePart>
+      <def>MovingBodyFleshbeast</def>
+      <height>Middle</height>
+      <depth>Outside</depth>
+      <parts>
+        <li>
+          <def>Spine</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Stomach</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Heart</def>
+          <coverage>0.025</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>FB_BurdenBlobHemogelSac</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>left lung</customLabel>
+          <coverage>0.024</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>right lung</customLabel>
+          <coverage>0.024</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>left kidney</customLabel>
+          <coverage>0.018</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>right kidney</customLabel>
+          <coverage>0.018</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Liver</def>
+          <coverage>0.026</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>FleshbeastHead</def>
+          <coverage>0.34</coverage>
+          <groups>
+            <li>UpperHead</li>
+            <li>FullHead</li>
+            <li>HeadAttackTool</li>
+          </groups>
+          <parts>
+            <li>
+              <def>Skull</def>
+              <coverage>0.18</coverage>
+              <depth>Inside</depth>
+              <groups>
+                <li>UpperHead</li>
+                <li>Eyes</li>
+                <li>FullHead</li>
+              </groups>
+              <parts>
+                <li>
+                  <def>Brain</def>
+                  <coverage>0.9</coverage>
+                  <groups>
+                    <li>UpperHead</li>
+                    <li>Eyes</li>
+                    <li>FullHead</li>
+                  </groups>
+                </li>
+              </parts>
+            </li>
+            <li>
+              <def>Eye</def>
+              <customLabel>left eye</customLabel>
+              <coverage>0.018</coverage>
+              <groups>
+                <li>FullHead</li>
+                <li>Eyes</li>
+              </groups>
+            </li>
+            <li>
+              <def>Eye</def>
+              <customLabel>right eye</customLabel>
+              <coverage>0.018</coverage>
+              <groups>
+                <li>FullHead</li>
+                <li>Eyes</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>FB_BurdenPseudopod</def>
+          <customLabel>left hauling pseudopod</customLabel>
+          <coverage>0.12</coverage>
+          <depth>Outside</depth>
+          <groups>
+            <li>FirstTentacle</li>
+          </groups>
+        </li>
+        <li>
+          <def>FB_BurdenPseudopod</def>
+          <customLabel>right hauling pseudopod</customLabel>
+          <coverage>0.12</coverage>
+          <depth>Outside</depth>
+          <groups>
+            <li>SecondTentacle</li>
+          </groups>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+</Defs>

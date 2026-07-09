@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Часть тела: lure sac (FB_SinewcallerLureSac) -->
+  <BodyPartDef>
+    <defName>FB_SinewcallerLureSac</defName>
+    <label>lure sac</label>
+    <hitPoints>16</hitPoints>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <skinCovered>false</skinCovered>
+    <canSuggestAmputation>false</canSuggestAmputation>
+  </BodyPartDef>
+  <!-- Часть тела: sinew leg (FB_SinewcallerLeg) -->
+  <BodyPartDef>
+    <defName>FB_SinewcallerLeg</defName>
+    <label>sinew leg</label>
+    <hitPoints>16</hitPoints>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <skinCovered>false</skinCovered>
+    <tags>
+      <li>MovingLimbCore</li>
+      <li>ManipulationLimbCore</li>
+    </tags>
+  </BodyPartDef>
+  <!-- Тело: sinewcaller (FB_SinewcallerBody) -->
+  <BodyDef>
+    <defName>FB_SinewcallerBody</defName>
+    <label>sinewcaller</label>
+    <corePart>
+      <def>Body</def>
+      <height>Middle</height>
+      <depth>Outside</depth>
+      <parts>
+        <li>
+          <def>Spine</def>
+          <coverage>0.02</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Stomach</def>
+          <coverage>0.02</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Heart</def>
+          <coverage>0.015</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>left lung</customLabel>
+          <coverage>0.012</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>right lung</customLabel>
+          <coverage>0.012</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>left kidney</customLabel>
+          <coverage>0.009</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>right kidney</customLabel>
+          <coverage>0.009</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Liver</def>
+          <coverage>0.012</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>FleshbeastHead</def>
+          <coverage>0.60</coverage>
+          <groups>
+            <li>UpperHead</li>
+            <li>FullHead</li>
+            <li>HeadAttackTool</li>
+          </groups>
+          <parts>
+            <li>
+              <def>Skull</def>
+              <coverage>0.14</coverage>
+              <depth>Inside</depth>
+              <groups>
+                <li>UpperHead</li>
+                <li>Eyes</li>
+                <li>FullHead</li>
+              </groups>
+              <parts>
+                <li>
+                  <def>Brain</def>
+                  <coverage>0.58</coverage>
+                  <groups>
+                    <li>UpperHead</li>
+                    <li>Eyes</li>
+                    <li>FullHead</li>
+                  </groups>
+                </li>
+                <li>
+                  <def>FB_SinewcallerLureSac</def>
+                  <coverage>0.22</coverage>
+                  <depth>Inside</depth>
+                  <groups>
+                    <li>UpperHead</li>
+                    <li>FullHead</li>
+                  </groups>
+                </li>
+              </parts>
+            </li>
+            <li>
+              <def>Eye</def>
+              <customLabel>left eye</customLabel>
+              <coverage>0.02</coverage>
+              <groups>
+                <li>Eyes</li>
+                <li>FullHead</li>
+              </groups>
+            </li>
+            <li>
+              <def>Eye</def>
+              <customLabel>right eye</customLabel>
+              <coverage>0.02</coverage>
+              <groups>
+                <li>Eyes</li>
+                <li>FullHead</li>
+              </groups>
+            </li>
+            <li>
+              <def>Jaw</def>
+              <coverage>0.07</coverage>
+              <groups>
+                <li>FullHead</li>
+              </groups>
+            </li>
+            <li>
+              <def>Tentacle</def>
+              <customLabel>whisper tendril</customLabel>
+              <coverage>0.05</coverage>
+              <depth>Outside</depth>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>FB_SinewcallerLeg</def>
+          <customLabel>front left leg</customLabel>
+          <coverage>0.05</coverage>
+          <depth>Outside</depth>
+          <groups>
+            <li>FirstTentacle</li>
+          </groups>
+        </li>
+        <li>
+          <def>FB_SinewcallerLeg</def>
+          <customLabel>front right leg</customLabel>
+          <coverage>0.05</coverage>
+          <depth>Outside</depth>
+          <groups>
+            <li>SecondTentacle</li>
+          </groups>
+        </li>
+        <li>
+          <def>FB_SinewcallerLeg</def>
+          <customLabel>rear left leg</customLabel>
+          <coverage>0.05</coverage>
+          <depth>Outside</depth>
+          <groups>
+            <li>ThirdTentacle</li>
+          </groups>
+        </li>
+        <li>
+          <def>FB_SinewcallerLeg</def>
+          <customLabel>rear right leg</customLabel>
+          <coverage>0.05</coverage>
+          <depth>Outside</depth>
+          <groups>
+            <li>FourthTentacle</li>
+          </groups>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+</Defs>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_DeadBastionSegment.label>dead bastion segment</FB_DeadBastionSegment.label>
+  <FB_DeadBastionSegment.labelNoun>dead bastion segment</FB_DeadBastionSegment.labelNoun>
+  <FB_DeadBastionSegment.description>A dead segment anchors an empty bastion socket, keeping the body stable without acting as a living segment.</FB_DeadBastionSegment.description>
+</LanguageData>

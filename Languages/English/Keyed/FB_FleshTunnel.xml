@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_FleshTunnelCallAllHomeLabel>Call all fleshbeasts home</FB_FleshTunnelCallAllHomeLabel>
+  <FB_FleshTunnelCallAllHomeDesc>Order every available fleshbeast on this map to return through the tunnel to the source maw.</FB_FleshTunnelCallAllHomeDesc>
+  <FB_FleshTunnelNoFleshbeastsToReturn>No available fleshbeasts on this map can return through the tunnel.</FB_FleshTunnelNoFleshbeastsToReturn>
+  <FB_FleshTunnelCallAllHomeResult>Sent {0} fleshbeasts home through the tunnel. Skipped: {1}.</FB_FleshTunnelCallAllHomeResult>
+  <FB_FleshTunnelCollapseExitLabel>Collapse tunnel</FB_FleshTunnelCollapseExitLabel>
+  <FB_FleshTunnelCollapseExitDesc>Collapse this tunnel exit and permanently destroy its location. Everything left there will be lost.</FB_FleshTunnelCollapseExitDesc>
+  <FB_FleshTunnelCollapseExitConfirm>Collapse this flesh tunnel and permanently destroy the linked location? All pawns and objects left there will be lost.</FB_FleshTunnelCollapseExitConfirm>
+  <FB_FleshTunnelHemogelTargetTitle>Tunnel hemogel limit</FB_FleshTunnelHemogelTargetTitle>
+  <FB_FleshTunnelHemogelTargetTooltip>Stored hemogel: {0}\nTarget limit: {1}\nMaximum capacity: {2}\n\nThe colony heart will not fill this tunnel maw above the target limit.</FB_FleshTunnelHemogelTargetTooltip>
+  <FB_FleshTunnelTargetHemogelInspect>Target hemogel level: {0}</FB_FleshTunnelTargetHemogelInspect>
+</LanguageData>

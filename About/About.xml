@@ -1,0 +1,42 @@
+﻿<ModMetaData>
+  <name>Fleshbeast Colony</name>
+  <description>Погрузись в органический кошмар, который поселяется прямо внутри твоей колонии.
+
+Этот мод расширяет и развивает тему fleshbeasts (флешбистов), добавленную в DLC RimWorld: Anomaly — делая её глубже, масштабнее и ближе к самой колонии.
+
+Вместо привычной инфраструктуры ты получаешь сеть живых построек-органов: они растут, встраиваются в базу и превращают поселение в единую биоструктуру. Сердце этой системы — гемогель: основной ресурс, который питает органическую колонию и поддерживает её «жизнь».
+
+Выбор за тобой: сдержать распространение или позволить ему укорениться — и наблюдать, как колония шаг за шагом становится чем-то новым.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Immerse yourself in an organic nightmare that settles right inside your colony.
+
+This mod expands and develops the fleshbeasts theme added in the RimWorld: Anomaly DLC, making it deeper, larger in scale, and closer to the colony itself.
+
+Instead of the usual infrastructure, you get a network of living organ-like structures: they grow, integrate into the base, and transform the settlement into a single biostructure. At the heart of this system is hemogel: the primary resource that nourishes the organic colony and sustains its “life.”
+
+The choice is yours: contain the spread or allow it to take root — and watch as the colony gradually transforms into something new.</description>
+  <author>DemobRoka</author>
+  <packageId>FB.DemobRoka</packageId>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>Ludeon.RimWorld</li>
+    <li>Ludeon.RimWorld.Royalty</li>
+    <li>Ludeon.RimWorld.Ideology</li>
+    <li>Ludeon.RimWorld.Biotech</li>
+	<li>Ludeon.RimWorld.Anomaly</li>
+  </loadAfter>
+</ModMetaData>

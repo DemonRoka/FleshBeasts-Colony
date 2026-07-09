@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Раса:  () -->
+  <ThingDef ParentName="BasePawn" Name="BaseFleshbeastWeapon" Abstract="True">
+    <techLevel>Animal</techLevel>
+    <alwaysHaulable>true</alwaysHaulable>
+    <equipmentType>Primary</equipmentType>
+    <tradeability>None</tradeability>
+    <hiddenWhileUndiscovered>true</hiddenWhileUndiscovered>
+    <weaponClasses>
+      <li>Ranged</li>
+    </weaponClasses>
+    <weaponTags>
+      <li>FleshWeapon</li>
+      <li>FleshGun</li>
+      <li>FingerspikeWeapon</li>
+    </weaponTags>
+    <tradeTags>
+      <li>FleshWeaponRanged</li>
+    </tradeTags>
+    <thingCategories>
+      <li>WeaponsRanged</li>
+    </thingCategories>
+    <race>
+      <thinkTreeMain>Fleshbeast</thinkTreeMain>
+      <thinkTreeConstant>FleshbeastConstant</thinkTreeConstant>
+      <intelligence>ToolUser</intelligence>
+      <specificMeatDef>Meat_Twisted</specificMeatDef>
+      <disableIgniteVerb>true</disableIgniteVerb>
+      <canOpenFactionlessDoors>false</canOpenFactionlessDoors>
+      <needsRest>false</needsRest>
+      <hasGenders>false</hasGenders>
+      <foodType>None</foodType>
+      <canBePredatorPrey>false</canBePredatorPrey>
+      <bloodDef>Filth_Blood</bloodDef>
+      <bloodSmearDef>Filth_BloodSmear</bloodSmearDef>
+      <soundMeleeDodge>Pawn_MeleeDodge</soundMeleeDodge>
+      <trainability>None</trainability>
+      <fleshType>Fleshbeast</fleshType>
+      <isImmuneToInfections>true</isImmuneToInfections>
+      <bleedRateFactor>0.5</bleedRateFactor>
+      <hediffGiverSets>
+        <li>Fleshbeast</li>
+      </hediffGiverSets>
+      <corpseHiddenWhileUndiscovered>true</corpseHiddenWhileUndiscovered>
+    </race>
+    <statBases>
+      <ComfyTemperatureMin>-40</ComfyTemperatureMin>
+      <ComfyTemperatureMax>60</ComfyTemperatureMax>
+      <Flammability>1.25</Flammability>
+      <MeatAmount>70</MeatAmount>
+    </statBases>
+    <comps>
+      <li Class="FB.CompProperties_Forbiddable_NoForbid" />
+      <li>
+        <compClass>FB.CompEquippable_LivingWeapon</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+  <!-- Раса: fingerspike gauntlet (FB_FingerspikeGauntlet) -->
+  <ThingDef ParentName="BaseFleshbeastWeapon">
+    <defName>FB_FingerspikeGauntlet</defName>
+    <label>fingerspike gauntlet</label>
+    <description>A parasitic flesh-weapon that wraps around an arm and launches grown spikes.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/FingerspikeGauntlet/FingerspikeGauntlet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>1.0</drawSize>
+    </graphicData>
+    <uiIconPath>Things/Item/Equipment/WeaponRanged/FingerspikeGauntlet/FingerspikeGauntlet</uiIconPath>
+    <uiIconScale>1.1</uiIconScale>
+    <soundInteract>Interact_Revolver</soundInteract>
+    <statBases>
+      <MarketValue>400</MarketValue>
+      <Mass>2.2</Mass>
+      <RangedWeapon_Cooldown>4.2</RangedWeapon_Cooldown>
+      <AccuracyTouch>0.75</AccuracyTouch>
+      <AccuracyShort>0.70</AccuracyShort>
+      <AccuracyMedium>0.50</AccuracyMedium>
+      <AccuracyLong>0.25</AccuracyLong>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Spike_Fingerspike</defaultProjectile>
+        <warmupTime>0.35</warmupTime>
+        <range>20</range>
+        <soundCast>Shot_Revolver</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>0</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>spike jab</label>
+        <labelNoLocation>spike</labelNoLocation>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2.2</cooldownTime>
+        <linkedBodyPartsGroup>MiddleSpike</linkedBodyPartsGroup>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+        <chanceFactor>0.4</chanceFactor>
+      </li>
+    </tools>
+    <race>
+      <body>Fingerspike</body>
+      <baseBodySize>0.35</baseBodySize>
+      <baseHealthScale>0.35</baseHealthScale>
+      <lifeExpectancy>10</lifeExpectancy>
+      <renderTree>FB_FingerspikeGauntlet</renderTree>
+      <lifeStageAges>
+        <li>
+          <def>EntityFullyFormed</def>
+        </li>
+      </lifeStageAges>
+      <canBePredatorPrey>false</canBePredatorPrey>
+    </race>
+  </ThingDef>
+</Defs>

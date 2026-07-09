@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_ColonyBrain_Structure_CelestialUmbilicus_Label>Небесная пуповина</FB_ColonyBrain_Structure_CelestialUmbilicus_Label>
+  <FB_ColonyBrain_Structure_CelestialUmbilicus_Desc>Выращивает связанный с поверхностью орбитальный аванпост, способный отправлять помощь колонии плоти в любую точку мира.</FB_ColonyBrain_Structure_CelestialUmbilicus_Desc>
+  <FB_CelestialUmbilicusStartLabel>Начать небесное отпочкование</FB_CelestialUmbilicusStartLabel>
+  <FB_CelestialUmbilicusStartDesc>Требует {0} гемогеля для пробуждения. После запуска весь гемогель, поступающий в пуповину, расходуется, пока не будет потрачено {1}; фракции, способные на рейды, будут отправлять повторяющиеся атаки.</FB_CelestialUmbilicusStartDesc>
+  <FB_CelestialUmbilicusStartWarning>Пробуждение небесной пуповины нельзя отменить. Ей нужно {0} стартового гемогеля, затем она израсходует ещё {1} гемогеля, пока растёт к орбите. Все не-игровые фракции станут враждебными. Продолжить?</FB_CelestialUmbilicusStartWarning>
+  <FB_CelestialUmbilicusAwakenedLetterLabel>Небесная пуповина пробуждена</FB_CelestialUmbilicusAwakenedLetterLabel>
+  <FB_CelestialUmbilicusAwakenedLetterText>Небесная пуповина раскрыла сосудистую глотку к небу. {0} фракций распознают колонию как планетарную заразу и становятся враждебными. Они будут отправлять повторяющиеся рейды, пока столб не будет перерублен или колония плоти не завершит орбитальное отпочкование. Стартовый заряд: {1}. Требуется гемогеля для роста: {2}.</FB_CelestialUmbilicusAwakenedLetterText>
+  <FB_CelestialUmbilicusDestroyedLetterLabel>Небесная пуповина перерублена</FB_CelestialUmbilicusDestroyedLetterLabel>
+  <FB_CelestialUmbilicusDestroyedLetterText>Столб отпочкования уничтожен. Финальный рост сорвался, но фракции, увидевшие намерение колонии, уже не забудут его.</FB_CelestialUmbilicusDestroyedLetterText>
+  <FB_CelestialUmbilicusInspectDormant>Стартовый заряд: {0} / {1} гемогеля ({2}%)</FB_CelestialUmbilicusInspectDormant>
+  <FB_CelestialUmbilicusInspectReady>Стартовый заряд готов: {0} / {1} гемогеля. Ожидает команды роста.</FB_CelestialUmbilicusInspectReady>
+  <FB_CelestialUmbilicusInspectActive>Израсходовано гемогеля на рост: {0} / {1} ({2}%)</FB_CelestialUmbilicusInspectActive>
+  <FB_CelestialUmbilicusInspectLockedHemogel>Запертый гемогель: {0}</FB_CelestialUmbilicusInspectLockedHemogel>
+  <FB_CelestialUmbilicusInspectNextRaid>Следующая враждебная волна: {0}</FB_CelestialUmbilicusInspectNextRaid>
+  <FB_CelestialUmbilicusInspectCompleted>Небесное отпочкование завершено.</FB_CelestialUmbilicusInspectCompleted>
+  <FB_CelestialUmbilicusInspectNoStorage>Нет хранилища гемогеля.</FB_CelestialUmbilicusInspectNoStorage>
+  <FB_CelestialUmbilicusNotPlayerOwned>Пуповина должна принадлежать колонии игрока.</FB_CelestialUmbilicusNotPlayerOwned>
+  <FB_CelestialUmbilicusAlreadyActive>На этой карте уже активна другая небесная пуповина.</FB_CelestialUmbilicusAlreadyActive>
+  <FB_CelestialUmbilicusNotEnoughHemogel>Для запуска нужно {0} гемогеля. Текущий заряд: {1}.</FB_CelestialUmbilicusNotEnoughHemogel>
+  <FB_CelestialUmbilicusVictoryIntro>Планета никогда не была домом. Она была утробой, мешком минералов, воды, памяти и мяса. Корни колонии пили её, пока последний орган не научился тянуться вверх.</FB_CelestialUmbilicusVictoryIntro>
+  <FB_CelestialUmbilicusVictoryEnding>Последние постройки сворачиваются внутрь. Плотяной грунт сдирается с мира, а все пешки колонии входят в небесную пуповину. Колония отпочковывается как малая живая луна, объединяя {0} поглощённых пешек в одном орбитальном организме.</FB_CelestialUmbilicusVictoryEnding>
+  <FB_CelestialUmbilicusInspectSegments>Сегменты столба: {0} / {1}</FB_CelestialUmbilicusInspectSegments>
+  <FB_CelestialUmbilicusInspectInputPaused>Приём гемогеля приостановлен.</FB_CelestialUmbilicusInspectInputPaused>
+  <FB_CelestialUmbilicusHemogelInputLabel>Принимать гемогель</FB_CelestialUmbilicusHemogelInputLabel>
+  <FB_CelestialUmbilicusHemogelInputDesc>Переключить поступление гемогеля из сердца колонии в эту пуповину. Рост приостанавливается, если гемогель не поступает.</FB_CelestialUmbilicusHemogelInputDesc>
+  <FB_CelestialUmbilicusDevStartLabel>DEV: начать небесное отпочкование</FB_CelestialUmbilicusDevStartLabel>
+  <FB_CelestialUmbilicusDevCompleteLabel>DEV: завершить небесное отпочкование</FB_CelestialUmbilicusDevCompleteLabel>
+
+  <FB_FleshMoonFormedLetterLabel>Луна плоти сформирована</FB_FleshMoonFormedLetterLabel>
+  <FB_FleshMoonFormedLetterText>Небесная пуповина сформировала рядом с планетой малую живую луну. Решите, поглотить ли в неё колонию или сохранить постоянную связь.</FB_FleshMoonFormedLetterText>
+  <FB_FleshMoonDecisionCommandLabel>Выбрать судьбу луны плоти</FB_FleshMoonDecisionCommandLabel>
+  <FB_FleshMoonDecisionCommandDesc>Выберите, отпочковать ли колонию в луну плоти или сохранить небесную пуповину как постоянный канал.</FB_FleshMoonDecisionCommandDesc>
+  <FB_CelestialUmbilicusInspectAwaitingChoice>Луна плоти сформирована. Ожидается окончательное решение.</FB_CelestialUmbilicusInspectAwaitingChoice>
+  <FB_CelestialUmbilicusInspectLinked>Постоянная связь с луной плоти активна.</FB_CelestialUmbilicusInspectLinked>
+  <FB_CelestialUmbilicusInspectAbsorbing>Колония поглощается луной плоти.</FB_CelestialUmbilicusInspectAbsorbing>
+  <FB_CelestialUmbilicusInspectAscended>Колония стала луной плоти.</FB_CelestialUmbilicusInspectAscended>
+  <FB_CelestialUmbilicusInspectSevered>Связь с луной плоти разорвана.</FB_CelestialUmbilicusInspectSevered>
+  <FB_FleshMoonLinkSeveredLetterLabel>Связь с луной плоти разорвана</FB_FleshMoonLinkSeveredLetterLabel>
+  <FB_FleshMoonLinkSeveredLetterText>Небесная пуповина уничтожена. Луна плоти осталась на орбите, но колония потеряла связь с ней.</FB_FleshMoonLinkSeveredLetterText>
+  <FB_FleshMoonChoiceText>Луна плоти завершена. Колония может отдать ей всю свою биомассу и отпочковаться от планеты, завершив эту историю, либо сохранить небесную пуповину и получить доступ к будущим лунным функциям.</FB_FleshMoonChoiceText>
+  <FB_FleshMoonChoiceAscend>Поглотить колонию и отпочковаться</FB_FleshMoonChoiceAscend>
+  <FB_FleshMoonChoiceMaintainLink>Сохранить постоянную связь</FB_FleshMoonChoiceMaintainLink>
+  <FB_FleshMoonChoicePostpone>Решить позже</FB_FleshMoonChoicePostpone>
+  <FB_FleshMoonLinkedLetterLabel>Связь с луной плоти сохранена</FB_FleshMoonLinkedLetterLabel>
+  <FB_FleshMoonLinkedLetterText>Небесная пуповина остаётся открытой. В Flesh Architect появилась новая категория для функций, предоставляемых луной плоти.</FB_FleshMoonLinkedLetterText>
+  <FB_FleshMoonMissingSourceMap>Карта колонии больше недоступна.</FB_FleshMoonMissingSourceMap>
+  <FB_FleshMoonAbsorptionStartedLetterLabel>Начато окончательное поглощение</FB_FleshMoonAbsorptionStartedLetterLabel>
+  <FB_FleshMoonAbsorptionStartedLetterText>Колония сворачивается в небесную пуповину. Постройки и органы с гемогелем поглощаются, плотяной грунт стягивается от краёв карты, а все пешки игрока направляются к формирующейся луне.</FB_FleshMoonAbsorptionStartedLetterText>
+</LanguageData>

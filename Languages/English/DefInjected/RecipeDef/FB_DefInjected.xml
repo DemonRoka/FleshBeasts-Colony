@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Make_OrganicComponent.description>Assemble an organic component from bio-organic tissues, suitable for crafting living machines or symbiotic weapons.</Make_OrganicComponent.description>
+  <Make_OrganicComponent.jobString>Assembling organic component.</Make_OrganicComponent.jobString>
+  <Make_OrganicComponent.label>make organic component</Make_OrganicComponent.label>
+  <MakeBudFlesh_CrimsonFangSeed.description>A dark, throbbing seed, veined with crimson streaks and hardened fragments of steel-like matter. Once buried in rich soil, it slowly awakens, feeding on the faint lifeforce of its surroundings. Over time, it sprouts into a grotesque bulb of flesh and sinew, from which a Crimson Fang Blade can be harvested. Careless handling may cause it to leech vitality from the one who carries it.</MakeBudFlesh_CrimsonFangSeed.description>
+  <MakeBudFlesh_CrimsonFangSeed.jobString>Creating Crimson Fang Seed</MakeBudFlesh_CrimsonFangSeed.jobString>
+  <MakeBudFlesh_CrimsonFangSeed.label>Make Crimson Fang Seed</MakeBudFlesh_CrimsonFangSeed.label>
+  <MakeBudFlesh_FerriteSeed.description>A pulsating seed of dark flesh, threaded with ferrite veins and hardened metallic growths. It anchors itself into living tissue, merging with the flesh of the colony and feeding on its lifeforce. Over time, it swells into a grotesque cyst of sinew and mineral, eventually becoming the core of a living weapon — the Ferrite Fang. Prolonged contact may cause it to leech vitality directly from its host.</MakeBudFlesh_FerriteSeed.description>
+  <MakeBudFlesh_FerriteSeed.jobString>Creating Ferrite Seed</MakeBudFlesh_FerriteSeed.jobString>
+  <MakeBudFlesh_FerriteSeed.label>Make Ferrite Seed</MakeBudFlesh_FerriteSeed.label>
+  <MakeBudFlesh_FleshBladeSeed.description>Craft a pulsating seed infused with organic matter and plasteel fragments, which will grow into a Bud Flesh Blade. Requires a biofabrication bench and specific materials.</MakeBudFlesh_FleshBladeSeed.description>
+  <MakeBudFlesh_FleshBladeSeed.jobString>Creating Flesh Blade Seed</MakeBudFlesh_FleshBladeSeed.jobString>
+  <MakeBudFlesh_FleshBladeSeed.label>Make Flesh Blade Seed</MakeBudFlesh_FleshBladeSeed.label>
+  <MakePersonalityParasiteEgg.description>Craft a throbbing, veined egg incubating a consciousness parasite, using rare organic components, advanced materials, and human remains to fuel its psychic gestation. Requires high skill and resources, as the egg demands bioferrite for stability and uranium for neural enhancement.</MakePersonalityParasiteEgg.description>
+  <MakePersonalityParasiteEgg.jobString>Creating Personality Parasite Egg</MakePersonalityParasiteEgg.jobString>
+  <MakePersonalityParasiteEgg.label>Make Personality Parasite Egg</MakePersonalityParasiteEgg.label>
+</LanguageData>

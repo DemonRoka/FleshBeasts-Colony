@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Вкладка исследований: fleshbeast (FB_Fleshbeast) -->
+  <ResearchTabDef>
+    <defName>FB_Fleshbeast</defName>
+    <label>fleshbeast</label>
+    <generalTitle>Fleshbeast research projects</generalTitle>
+    <generalDescription>Unlock flesh-related technologies by engineering organic structures from hemogel and biomass.\n\nYou can have both a basic and an advanced project active at the same time. If no advanced project is active, advanced research will contribute to a basic project instead.</generalDescription>
+    <visibleByDefault>True</visibleByDefault>
+    <minMonolithLevelVisible>1</minMonolithLevelVisible>
+    <tutorTag>Research-Tab-Fleshbeast</tutorTag>
+  </ResearchTabDef>
+</Defs>

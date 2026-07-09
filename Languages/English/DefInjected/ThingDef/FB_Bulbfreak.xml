@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_Bulbfreak.label>fused bulbfreak</FB_Bulbfreak.label>
+  <FB_Bulbfreak.description>A fused combat host made from a flesh-colony pawn and allied beasts. It releases the sealed host if destroyed.</FB_Bulbfreak.description>
+  <FB_Bulbfreak.tools.0.label>tentacle</FB_Bulbfreak.tools.0.label>
+  <FB_Bulbfreak.tools.1.label>tentacle</FB_Bulbfreak.tools.1.label>
+  <FB_Bulbfreak.tools.2.label>tentacle</FB_Bulbfreak.tools.2.label>
+  <FB_Bulbfreak.tools.3.label>tentacle</FB_Bulbfreak.tools.3.label>
+  <FB_Bulbfreak.tools.4.label>tentacle</FB_Bulbfreak.tools.4.label>
+  <FB_Bulbfreak.tools.5.label>head</FB_Bulbfreak.tools.5.label>
+</LanguageData>

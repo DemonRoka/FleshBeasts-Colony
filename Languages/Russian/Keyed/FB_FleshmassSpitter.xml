@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_FleshmassSpitterFireLabel>Плюнуть кислотой</FB_FleshmassSpitterFireLabel>
+  <FB_FleshmassSpitterFireDesc>Выбрать цель или клетку для следующего кислотного плевка. Правый клик переключает автоогонь; ручные выстрелы доступны и при его отключении.</FB_FleshmassSpitterFireDesc>
+  <FB_FleshmassSpitterFireMode>Автоогонь: {0}</FB_FleshmassSpitterFireMode>
+  <FB_FleshmassSpitterManualTargetQueued>Ручная цель назначена</FB_FleshmassSpitterManualTargetQueued>
+  <FB_FleshmassSpitterManualTargetQueuedMessage>Ручная цель назначена для следующего кислотного плевка.</FB_FleshmassSpitterManualTargetQueuedMessage>
+  <FB_FleshmassSpitterFireDisabled>Стрельба отключена. Включите её правым кликом по команде.</FB_FleshmassSpitterFireDisabled>
+  <FB_FleshmassSpitterInvalidTarget>Это неподходящая цель.</FB_FleshmassSpitterInvalidTarget>
+  <FB_FleshmassSpitterRoofedTarget>Плотяной плеватель не может обстреливать клетку под крышей.</FB_FleshmassSpitterRoofedTarget>
+  <FB_FleshmassSpitterCannotHitTarget>Цель находится вне дальности стрельбы плевателя.</FB_FleshmassSpitterCannotHitTarget>
+  <FB_DevFleshmassSpitterResetCooldown>DEV: Сбросить перезарядку плевателя</FB_DevFleshmassSpitterResetCooldown>
+</LanguageData>

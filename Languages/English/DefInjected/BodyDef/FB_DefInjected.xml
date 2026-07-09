@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_BurdenBlobBody.corePart.parts.10.customLabel>left hauling pseudopod</FB_BurdenBlobBody.corePart.parts.10.customLabel>
+  <FB_BurdenBlobBody.corePart.parts.11.customLabel>right hauling pseudopod</FB_BurdenBlobBody.corePart.parts.11.customLabel>
+  <FB_BurdenBlobBody.corePart.parts.4.customLabel>left lung</FB_BurdenBlobBody.corePart.parts.4.customLabel>
+  <FB_BurdenBlobBody.corePart.parts.5.customLabel>right lung</FB_BurdenBlobBody.corePart.parts.5.customLabel>
+  <FB_BurdenBlobBody.corePart.parts.6.customLabel>left kidney</FB_BurdenBlobBody.corePart.parts.6.customLabel>
+  <FB_BurdenBlobBody.corePart.parts.7.customLabel>right kidney</FB_BurdenBlobBody.corePart.parts.7.customLabel>
+  <FB_BurdenBlobBody.corePart.parts.9.parts.1.customLabel>left eye</FB_BurdenBlobBody.corePart.parts.9.parts.1.customLabel>
+  <FB_BurdenBlobBody.corePart.parts.9.parts.2.customLabel>right eye</FB_BurdenBlobBody.corePart.parts.9.parts.2.customLabel>
+  <FB_BurdenBlobBody.label>burden blob</FB_BurdenBlobBody.label>
+  <FB_CarapaceExcavatorBody.corePart.parts.10.customLabel>right shovel claw</FB_CarapaceExcavatorBody.corePart.parts.10.customLabel>
+  <FB_CarapaceExcavatorBody.corePart.parts.11.customLabel>dorsal carapace plate I</FB_CarapaceExcavatorBody.corePart.parts.11.customLabel>
+  <FB_CarapaceExcavatorBody.corePart.parts.12.customLabel>dorsal carapace plate II</FB_CarapaceExcavatorBody.corePart.parts.12.customLabel>
+  <FB_CarapaceExcavatorBody.corePart.parts.13.customLabel>dorsal carapace plate III</FB_CarapaceExcavatorBody.corePart.parts.13.customLabel>
+  <FB_CarapaceExcavatorBody.corePart.parts.14.customLabel>front left support leg</FB_CarapaceExcavatorBody.corePart.parts.14.customLabel>
+  <FB_CarapaceExcavatorBody.corePart.parts.15.customLabel>front right support leg</FB_CarapaceExcavatorBody.corePart.parts.15.customLabel>
+  <FB_CarapaceExcavatorBody.corePart.parts.16.customLabel>rear left support leg</FB_CarapaceExcavatorBody.corePart.parts.16.customLabel>
+  <FB_CarapaceExcavatorBody.corePart.parts.17.customLabel>rear right support leg</FB_CarapaceExcavatorBody.corePart.parts.17.customLabel>
+  <FB_CarapaceExcavatorBody.corePart.parts.3.customLabel>left lung</FB_CarapaceExcavatorBody.corePart.parts.3.customLabel>
+  <FB_CarapaceExcavatorBody.corePart.parts.4.customLabel>right lung</FB_CarapaceExcavatorBody.corePart.parts.4.customLabel>
+  <FB_CarapaceExcavatorBody.corePart.parts.5.customLabel>left kidney</FB_CarapaceExcavatorBody.corePart.parts.5.customLabel>
+  <FB_CarapaceExcavatorBody.corePart.parts.6.customLabel>right kidney</FB_CarapaceExcavatorBody.corePart.parts.6.customLabel>
+  <FB_CarapaceExcavatorBody.corePart.parts.8.parts.1.customLabel>left eye</FB_CarapaceExcavatorBody.corePart.parts.8.parts.1.customLabel>
+  <FB_CarapaceExcavatorBody.corePart.parts.8.parts.2.customLabel>right eye</FB_CarapaceExcavatorBody.corePart.parts.8.parts.2.customLabel>
+  <FB_CarapaceExcavatorBody.corePart.parts.8.parts.3.customLabel>left digging tusk</FB_CarapaceExcavatorBody.corePart.parts.8.parts.3.customLabel>
+  <FB_CarapaceExcavatorBody.corePart.parts.8.parts.4.customLabel>right digging tusk</FB_CarapaceExcavatorBody.corePart.parts.8.parts.4.customLabel>
+  <FB_CarapaceExcavatorBody.corePart.parts.9.customLabel>left shovel claw</FB_CarapaceExcavatorBody.corePart.parts.9.customLabel>
+  <FB_CarapaceExcavatorBody.label>carapace excavator</FB_CarapaceExcavatorBody.label>
+  <FB_CocoonbackBody.corePart.parts.10.customLabel>front left leg</FB_CocoonbackBody.corePart.parts.10.customLabel>
+  <FB_CocoonbackBody.corePart.parts.11.customLabel>front right leg</FB_CocoonbackBody.corePart.parts.11.customLabel>
+  <FB_CocoonbackBody.corePart.parts.12.customLabel>rear left leg</FB_CocoonbackBody.corePart.parts.12.customLabel>
+  <FB_CocoonbackBody.corePart.parts.13.customLabel>rear right leg</FB_CocoonbackBody.corePart.parts.13.customLabel>
+  <FB_CocoonbackBody.corePart.parts.3.customLabel>left lung</FB_CocoonbackBody.corePart.parts.3.customLabel>
+  <FB_CocoonbackBody.corePart.parts.4.customLabel>right lung</FB_CocoonbackBody.corePart.parts.4.customLabel>
+  <FB_CocoonbackBody.corePart.parts.5.customLabel>left kidney</FB_CocoonbackBody.corePart.parts.5.customLabel>
+  <FB_CocoonbackBody.corePart.parts.6.customLabel>right kidney</FB_CocoonbackBody.corePart.parts.6.customLabel>
+  <FB_CocoonbackBody.corePart.parts.9.parts.1.customLabel>left eye</FB_CocoonbackBody.corePart.parts.9.parts.1.customLabel>
+  <FB_CocoonbackBody.corePart.parts.9.parts.2.customLabel>right eye</FB_CocoonbackBody.corePart.parts.9.parts.2.customLabel>
+  <FB_CocoonbackBody.label>cocoonback</FB_CocoonbackBody.label>
+  <FB_CortexMiteBody.corePart.parts.3.customLabel>left lung</FB_CortexMiteBody.corePart.parts.3.customLabel>
+  <FB_CortexMiteBody.corePart.parts.4.customLabel>right lung</FB_CortexMiteBody.corePart.parts.4.customLabel>
+  <FB_CortexMiteBody.corePart.parts.5.customLabel>left kidney</FB_CortexMiteBody.corePart.parts.5.customLabel>
+  <FB_CortexMiteBody.corePart.parts.6.customLabel>right kidney</FB_CortexMiteBody.corePart.parts.6.customLabel>
+  <FB_CortexMiteBody.corePart.parts.8.parts.1.customLabel>left anterior eye</FB_CortexMiteBody.corePart.parts.8.parts.1.customLabel>
+  <FB_CortexMiteBody.corePart.parts.8.parts.10.customLabel>right rear spike-leg</FB_CortexMiteBody.corePart.parts.8.parts.10.customLabel>
+  <FB_CortexMiteBody.corePart.parts.8.parts.11.customLabel>left back spike-leg</FB_CortexMiteBody.corePart.parts.8.parts.11.customLabel>
+  <FB_CortexMiteBody.corePart.parts.8.parts.12.customLabel>right back spike-leg</FB_CortexMiteBody.corePart.parts.8.parts.12.customLabel>
+  <FB_CortexMiteBody.corePart.parts.8.parts.2.customLabel>right anterior eye</FB_CortexMiteBody.corePart.parts.8.parts.2.customLabel>
+  <FB_CortexMiteBody.corePart.parts.8.parts.3.customLabel>left side eye</FB_CortexMiteBody.corePart.parts.8.parts.3.customLabel>
+  <FB_CortexMiteBody.corePart.parts.8.parts.4.customLabel>right side eye</FB_CortexMiteBody.corePart.parts.8.parts.4.customLabel>
+  <FB_CortexMiteBody.corePart.parts.8.parts.5.customLabel>front left spike-leg</FB_CortexMiteBody.corePart.parts.8.parts.5.customLabel>
+  <FB_CortexMiteBody.corePart.parts.8.parts.6.customLabel>front right spike-leg</FB_CortexMiteBody.corePart.parts.8.parts.6.customLabel>
+  <FB_CortexMiteBody.corePart.parts.8.parts.7.customLabel>left mid spike-leg</FB_CortexMiteBody.corePart.parts.8.parts.7.customLabel>
+  <FB_CortexMiteBody.corePart.parts.8.parts.8.customLabel>right mid spike-leg</FB_CortexMiteBody.corePart.parts.8.parts.8.customLabel>
+  <FB_CortexMiteBody.corePart.parts.8.parts.9.customLabel>left rear spike-leg</FB_CortexMiteBody.corePart.parts.8.parts.9.customLabel>
+  <FB_CortexMiteBody.label>cortex mite</FB_CortexMiteBody.label>
+  <FB_FerrimawBody.corePart.parts.10.customLabel>right secretion vent</FB_FerrimawBody.corePart.parts.10.customLabel>
+  <FB_FerrimawBody.corePart.parts.11.parts.1.customLabel>left eye</FB_FerrimawBody.corePart.parts.11.parts.1.customLabel>
+  <FB_FerrimawBody.corePart.parts.11.parts.2.customLabel>right eye</FB_FerrimawBody.corePart.parts.11.parts.2.customLabel>
+  <FB_FerrimawBody.corePart.parts.12.customLabel>front left rasping limb</FB_FerrimawBody.corePart.parts.12.customLabel>
+  <FB_FerrimawBody.corePart.parts.13.customLabel>front right rasping limb</FB_FerrimawBody.corePart.parts.13.customLabel>
+  <FB_FerrimawBody.corePart.parts.14.customLabel>rear left rasping limb</FB_FerrimawBody.corePart.parts.14.customLabel>
+  <FB_FerrimawBody.corePart.parts.15.customLabel>rear right rasping limb</FB_FerrimawBody.corePart.parts.15.customLabel>
+  <FB_FerrimawBody.corePart.parts.3.customLabel>left lung</FB_FerrimawBody.corePart.parts.3.customLabel>
+  <FB_FerrimawBody.corePart.parts.4.customLabel>right lung</FB_FerrimawBody.corePart.parts.4.customLabel>
+  <FB_FerrimawBody.corePart.parts.5.customLabel>left kidney</FB_FerrimawBody.corePart.parts.5.customLabel>
+  <FB_FerrimawBody.corePart.parts.6.customLabel>right kidney</FB_FerrimawBody.corePart.parts.6.customLabel>
+  <FB_FerrimawBody.corePart.parts.9.customLabel>left secretion vent</FB_FerrimawBody.corePart.parts.9.customLabel>
+  <FB_FerrimawBody.label>ferrimaw</FB_FerrimawBody.label>
+  <FB_FleshLarvaBody.corePart.parts.2.parts.1.customLabel>left eye</FB_FleshLarvaBody.corePart.parts.2.parts.1.customLabel>
+  <FB_FleshLarvaBody.corePart.parts.2.parts.2.customLabel>right eye</FB_FleshLarvaBody.corePart.parts.2.parts.2.customLabel>
+  <FB_FleshLarvaBody.label>flesh larva body</FB_FleshLarvaBody.label>
+  <FB_GraftmawBody.corePart.parts.10.customLabel>right suture node</FB_GraftmawBody.corePart.parts.10.customLabel>
+  <FB_GraftmawBody.corePart.parts.11.parts.1.customLabel>left eye</FB_GraftmawBody.corePart.parts.11.parts.1.customLabel>
+  <FB_GraftmawBody.corePart.parts.11.parts.2.customLabel>right eye</FB_GraftmawBody.corePart.parts.11.parts.2.customLabel>
+  <FB_GraftmawBody.corePart.parts.11.parts.4.customLabel>mouth suture fringe</FB_GraftmawBody.corePart.parts.11.parts.4.customLabel>
+  <FB_GraftmawBody.corePart.parts.12.customLabel>front left manipulator</FB_GraftmawBody.corePart.parts.12.customLabel>
+  <FB_GraftmawBody.corePart.parts.13.customLabel>front right manipulator</FB_GraftmawBody.corePart.parts.13.customLabel>
+  <FB_GraftmawBody.corePart.parts.14.customLabel>left middle manipulator</FB_GraftmawBody.corePart.parts.14.customLabel>
+  <FB_GraftmawBody.corePart.parts.15.customLabel>right middle manipulator</FB_GraftmawBody.corePart.parts.15.customLabel>
+  <FB_GraftmawBody.corePart.parts.16.customLabel>rear left manipulator</FB_GraftmawBody.corePart.parts.16.customLabel>
+  <FB_GraftmawBody.corePart.parts.17.customLabel>rear right manipulator</FB_GraftmawBody.corePart.parts.17.customLabel>
+  <FB_GraftmawBody.corePart.parts.3.customLabel>left lung</FB_GraftmawBody.corePart.parts.3.customLabel>
+  <FB_GraftmawBody.corePart.parts.4.customLabel>right lung</FB_GraftmawBody.corePart.parts.4.customLabel>
+  <FB_GraftmawBody.corePart.parts.5.customLabel>left kidney</FB_GraftmawBody.corePart.parts.5.customLabel>
+  <FB_GraftmawBody.corePart.parts.6.customLabel>right kidney</FB_GraftmawBody.corePart.parts.6.customLabel>
+  <FB_GraftmawBody.corePart.parts.9.customLabel>left suture node</FB_GraftmawBody.corePart.parts.9.customLabel>
+  <FB_GraftmawBody.label>graftmaw</FB_GraftmawBody.label>
+  <FB_NerveclotBody.corePart.parts.10.customLabel>front right nerve leg</FB_NerveclotBody.corePart.parts.10.customLabel>
+  <FB_NerveclotBody.corePart.parts.11.customLabel>rear left nerve leg</FB_NerveclotBody.corePart.parts.11.customLabel>
+  <FB_NerveclotBody.corePart.parts.12.customLabel>rear right nerve leg</FB_NerveclotBody.corePart.parts.12.customLabel>
+  <FB_NerveclotBody.corePart.parts.3.customLabel>left lung</FB_NerveclotBody.corePart.parts.3.customLabel>
+  <FB_NerveclotBody.corePart.parts.4.customLabel>right lung</FB_NerveclotBody.corePart.parts.4.customLabel>
+  <FB_NerveclotBody.corePart.parts.5.customLabel>left kidney</FB_NerveclotBody.corePart.parts.5.customLabel>
+  <FB_NerveclotBody.corePart.parts.6.customLabel>right kidney</FB_NerveclotBody.corePart.parts.6.customLabel>
+  <FB_NerveclotBody.corePart.parts.8.parts.1.customLabel>central eye</FB_NerveclotBody.corePart.parts.8.parts.1.customLabel>
+  <FB_NerveclotBody.corePart.parts.8.parts.2.customLabel>upper eye</FB_NerveclotBody.corePart.parts.8.parts.2.customLabel>
+  <FB_NerveclotBody.corePart.parts.8.parts.3.customLabel>left eye</FB_NerveclotBody.corePart.parts.8.parts.3.customLabel>
+  <FB_NerveclotBody.corePart.parts.8.parts.4.customLabel>right eye</FB_NerveclotBody.corePart.parts.8.parts.4.customLabel>
+  <FB_NerveclotBody.corePart.parts.8.parts.5.customLabel>mouth fringe</FB_NerveclotBody.corePart.parts.8.parts.5.customLabel>
+  <FB_NerveclotBody.corePart.parts.8.parts.6.customLabel>left whisper maw</FB_NerveclotBody.corePart.parts.8.parts.6.customLabel>
+  <FB_NerveclotBody.corePart.parts.8.parts.7.customLabel>right whisper maw</FB_NerveclotBody.corePart.parts.8.parts.7.customLabel>
+  <FB_NerveclotBody.corePart.parts.9.customLabel>front left nerve leg</FB_NerveclotBody.corePart.parts.9.customLabel>
+  <FB_NerveclotBody.label>nerveclot</FB_NerveclotBody.label>
+  <FB_ParasiteBody.corePart.parts.0.customLabel>first eye</FB_ParasiteBody.corePart.parts.0.customLabel>
+  <FB_ParasiteBody.corePart.parts.1.customLabel>second eye</FB_ParasiteBody.corePart.parts.1.customLabel>
+  <FB_ParasiteBody.corePart.parts.2.customLabel>third eye</FB_ParasiteBody.corePart.parts.2.customLabel>
+  <FB_ParasiteBody.corePart.parts.3.customLabel>left tentacle</FB_ParasiteBody.corePart.parts.3.customLabel>
+  <FB_ParasiteBody.corePart.parts.4.customLabel>right tentacle</FB_ParasiteBody.corePart.parts.4.customLabel>
+  <FB_ParasiteBody.corePart.parts.5.customLabel>rear tentacle</FB_ParasiteBody.corePart.parts.5.customLabel>
+  <FB_ParasiteBody.label>parasite</FB_ParasiteBody.label>
+  <FB_Regenerator.corePart.parts.0.parts.0.customLabel>tentacle</FB_Regenerator.corePart.parts.0.parts.0.customLabel>
+  <FB_Regenerator.corePart.parts.0.parts.1.customLabel>tentacle</FB_Regenerator.corePart.parts.0.parts.1.customLabel>
+  <FB_Regenerator.corePart.parts.0.parts.2.customLabel>tentacle</FB_Regenerator.corePart.parts.0.parts.2.customLabel>
+  <FB_Regenerator.corePart.parts.0.parts.3.customLabel>tentacle</FB_Regenerator.corePart.parts.0.parts.3.customLabel>
+  <FB_Regenerator.corePart.parts.10.customLabel>right shoulder</FB_Regenerator.corePart.parts.10.customLabel>
+  <FB_Regenerator.corePart.parts.11.customLabel>left tentacle</FB_Regenerator.corePart.parts.11.customLabel>
+  <FB_Regenerator.corePart.parts.12.customLabel>right tentacle</FB_Regenerator.corePart.parts.12.customLabel>
+  <FB_Regenerator.corePart.parts.3.customLabel>left lung</FB_Regenerator.corePart.parts.3.customLabel>
+  <FB_Regenerator.corePart.parts.4.customLabel>right lung</FB_Regenerator.corePart.parts.4.customLabel>
+  <FB_Regenerator.corePart.parts.5.customLabel>left kidney</FB_Regenerator.corePart.parts.5.customLabel>
+  <FB_Regenerator.corePart.parts.6.customLabel>right kidney</FB_Regenerator.corePart.parts.6.customLabel>
+  <FB_Regenerator.corePart.parts.8.parts.0.parts.1.customLabel>left eye</FB_Regenerator.corePart.parts.8.parts.0.parts.1.customLabel>
+  <FB_Regenerator.corePart.parts.8.parts.0.parts.2.customLabel>right eye</FB_Regenerator.corePart.parts.8.parts.0.parts.2.customLabel>
+  <FB_Regenerator.corePart.parts.9.customLabel>left shoulder</FB_Regenerator.corePart.parts.9.customLabel>
+  <FB_Regenerator.label>regenerator</FB_Regenerator.label>
+  <FB_ScrapmeldBody.corePart.parts.3.customLabel>left lung</FB_ScrapmeldBody.corePart.parts.3.customLabel>
+  <FB_ScrapmeldBody.corePart.parts.4.customLabel>right lung</FB_ScrapmeldBody.corePart.parts.4.customLabel>
+  <FB_ScrapmeldBody.corePart.parts.5.customLabel>left kidney</FB_ScrapmeldBody.corePart.parts.5.customLabel>
+  <FB_ScrapmeldBody.corePart.parts.6.customLabel>right kidney</FB_ScrapmeldBody.corePart.parts.6.customLabel>
+  <FB_ScrapmeldBody.corePart.parts.8.parts.1.customLabel>left eye</FB_ScrapmeldBody.corePart.parts.8.parts.1.customLabel>
+  <FB_ScrapmeldBody.corePart.parts.8.parts.2.customLabel>right eye</FB_ScrapmeldBody.corePart.parts.8.parts.2.customLabel>
+  <FB_ScrapmeldBody.label>scrapmeld</FB_ScrapmeldBody.label>
+  <FB_ScrapmeldNestlingBody.corePart.parts.2.parts.1.customLabel>eye</FB_ScrapmeldNestlingBody.corePart.parts.2.parts.1.customLabel>
+  <FB_ScrapmeldNestlingBody.label>scrapmeld seed</FB_ScrapmeldNestlingBody.label>
+  <FB_Shardlings.corePart.parts.10.customLabel>right shoulder</FB_Shardlings.corePart.parts.10.customLabel>
+  <FB_Shardlings.corePart.parts.11.customLabel>left tentacle</FB_Shardlings.corePart.parts.11.customLabel>
+  <FB_Shardlings.corePart.parts.12.customLabel>right tentacle</FB_Shardlings.corePart.parts.12.customLabel>
+  <FB_Shardlings.corePart.parts.3.customLabel>left lung</FB_Shardlings.corePart.parts.3.customLabel>
+  <FB_Shardlings.corePart.parts.4.customLabel>right lung</FB_Shardlings.corePart.parts.4.customLabel>
+  <FB_Shardlings.corePart.parts.5.customLabel>left kidney</FB_Shardlings.corePart.parts.5.customLabel>
+  <FB_Shardlings.corePart.parts.6.customLabel>right kidney</FB_Shardlings.corePart.parts.6.customLabel>
+  <FB_Shardlings.corePart.parts.8.parts.0.parts.1.customLabel>left eye</FB_Shardlings.corePart.parts.8.parts.0.parts.1.customLabel>
+  <FB_Shardlings.corePart.parts.8.parts.0.parts.2.customLabel>right eye</FB_Shardlings.corePart.parts.8.parts.0.parts.2.customLabel>
+  <FB_Shardlings.corePart.parts.9.customLabel>left shoulder</FB_Shardlings.corePart.parts.9.customLabel>
+  <FB_Shardlings.label>Shardlings</FB_Shardlings.label>
+  <FB_SinewcallerBody.corePart.parts.10.customLabel>front right leg</FB_SinewcallerBody.corePart.parts.10.customLabel>
+  <FB_SinewcallerBody.corePart.parts.11.customLabel>rear left leg</FB_SinewcallerBody.corePart.parts.11.customLabel>
+  <FB_SinewcallerBody.corePart.parts.12.customLabel>rear right leg</FB_SinewcallerBody.corePart.parts.12.customLabel>
+  <FB_SinewcallerBody.corePart.parts.3.customLabel>left lung</FB_SinewcallerBody.corePart.parts.3.customLabel>
+  <FB_SinewcallerBody.corePart.parts.4.customLabel>right lung</FB_SinewcallerBody.corePart.parts.4.customLabel>
+  <FB_SinewcallerBody.corePart.parts.5.customLabel>left kidney</FB_SinewcallerBody.corePart.parts.5.customLabel>
+  <FB_SinewcallerBody.corePart.parts.6.customLabel>right kidney</FB_SinewcallerBody.corePart.parts.6.customLabel>
+  <FB_SinewcallerBody.corePart.parts.8.parts.1.customLabel>left eye</FB_SinewcallerBody.corePart.parts.8.parts.1.customLabel>
+  <FB_SinewcallerBody.corePart.parts.8.parts.2.customLabel>right eye</FB_SinewcallerBody.corePart.parts.8.parts.2.customLabel>
+  <FB_SinewcallerBody.corePart.parts.8.parts.4.customLabel>whisper tendril</FB_SinewcallerBody.corePart.parts.8.parts.4.customLabel>
+  <FB_SinewcallerBody.corePart.parts.9.customLabel>front left leg</FB_SinewcallerBody.corePart.parts.9.customLabel>
+  <FB_SinewcallerBody.label>sinewcaller</FB_SinewcallerBody.label>
+  <FB_SymbioHeadBody.corePart.parts.3.customLabel>left lung</FB_SymbioHeadBody.corePart.parts.3.customLabel>
+  <FB_SymbioHeadBody.corePart.parts.4.customLabel>right lung</FB_SymbioHeadBody.corePart.parts.4.customLabel>
+  <FB_SymbioHeadBody.corePart.parts.5.customLabel>left kidney</FB_SymbioHeadBody.corePart.parts.5.customLabel>
+  <FB_SymbioHeadBody.corePart.parts.6.customLabel>right kidney</FB_SymbioHeadBody.corePart.parts.6.customLabel>
+  <FB_SymbioHeadBody.corePart.parts.8.parts.1.customLabel>left eye</FB_SymbioHeadBody.corePart.parts.8.parts.1.customLabel>
+  <FB_SymbioHeadBody.corePart.parts.8.parts.2.customLabel>right eye</FB_SymbioHeadBody.corePart.parts.8.parts.2.customLabel>
+  <FB_SymbioHeadBody.label>symbio head</FB_SymbioHeadBody.label>
+  <FB_TentacleTurretBody.corePart.parts.0.customLabel>core</FB_TentacleTurretBody.corePart.parts.0.customLabel>
+  <FB_TentacleTurretBody.corePart.parts.1.customLabel>gel sac</FB_TentacleTurretBody.corePart.parts.1.customLabel>
+  <FB_TentacleTurretBody.corePart.parts.2.customLabel>primary sensor</FB_TentacleTurretBody.corePart.parts.2.customLabel>
+  <FB_TentacleTurretBody.corePart.parts.3.customLabel>secondary sensor</FB_TentacleTurretBody.corePart.parts.3.customLabel>
+  <FB_TentacleTurretBody.corePart.parts.4.customLabel>north tentacle</FB_TentacleTurretBody.corePart.parts.4.customLabel>
+  <FB_TentacleTurretBody.corePart.parts.5.customLabel>south tentacle</FB_TentacleTurretBody.corePart.parts.5.customLabel>
+  <FB_TentacleTurretBody.corePart.parts.6.customLabel>east tentacle</FB_TentacleTurretBody.corePart.parts.6.customLabel>
+  <FB_TentacleTurretBody.corePart.parts.7.customLabel>west tentacle</FB_TentacleTurretBody.corePart.parts.7.customLabel>
+  <FB_TentacleTurretBody.label>fleshmass turret body</FB_TentacleTurretBody.label>
+  <FB_ThrallbloomBody.corePart.parts.10.customLabel>right tether tendril</FB_ThrallbloomBody.corePart.parts.10.customLabel>
+  <FB_ThrallbloomBody.corePart.parts.11.customLabel>rear left tether tendril</FB_ThrallbloomBody.corePart.parts.11.customLabel>
+  <FB_ThrallbloomBody.corePart.parts.12.customLabel>rear right tether tendril</FB_ThrallbloomBody.corePart.parts.12.customLabel>
+  <FB_ThrallbloomBody.corePart.parts.13.customLabel>left crown spine</FB_ThrallbloomBody.corePart.parts.13.customLabel>
+  <FB_ThrallbloomBody.corePart.parts.14.customLabel>right crown spine</FB_ThrallbloomBody.corePart.parts.14.customLabel>
+  <FB_ThrallbloomBody.corePart.parts.15.parts.1.customLabel>central eye</FB_ThrallbloomBody.corePart.parts.15.parts.1.customLabel>
+  <FB_ThrallbloomBody.corePart.parts.15.parts.2.customLabel>left node eye</FB_ThrallbloomBody.corePart.parts.15.parts.2.customLabel>
+  <FB_ThrallbloomBody.corePart.parts.15.parts.3.customLabel>right node eye</FB_ThrallbloomBody.corePart.parts.15.parts.3.customLabel>
+  <FB_ThrallbloomBody.corePart.parts.15.parts.4.customLabel>feeding tendril cluster</FB_ThrallbloomBody.corePart.parts.15.parts.4.customLabel>
+  <FB_ThrallbloomBody.corePart.parts.3.customLabel>left lung</FB_ThrallbloomBody.corePart.parts.3.customLabel>
+  <FB_ThrallbloomBody.corePart.parts.4.customLabel>right lung</FB_ThrallbloomBody.corePart.parts.4.customLabel>
+  <FB_ThrallbloomBody.corePart.parts.5.customLabel>left kidney</FB_ThrallbloomBody.corePart.parts.5.customLabel>
+  <FB_ThrallbloomBody.corePart.parts.6.customLabel>right kidney</FB_ThrallbloomBody.corePart.parts.6.customLabel>
+  <FB_ThrallbloomBody.corePart.parts.8.customLabel>front tether tendril</FB_ThrallbloomBody.corePart.parts.8.customLabel>
+  <FB_ThrallbloomBody.corePart.parts.9.customLabel>left tether tendril</FB_ThrallbloomBody.corePart.parts.9.customLabel>
+  <FB_ThrallbloomBody.label>thrallbloom</FB_ThrallbloomBody.label>
+</LanguageData>

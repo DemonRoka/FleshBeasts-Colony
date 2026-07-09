@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Вид пешки: personality parasite (FB_PersonalityParasite) -->
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>FB_PersonalityParasite</defName>
+    <label>personality parasite</label>
+    <race>FB_PersonalityParasite</race>
+    <abilities>
+      <li>FB_PersonalityParasiteTransferConsciousness</li>
+    </abilities>
+    <combatPower>0.1</combatPower>
+    <ecoSystemWeight>0.01</ecoSystemWeight>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/FB_PersonalityParasite/PersonalityParasite</texPath>
+          <color>(110,95,82)</color>
+          <drawSize>1.0</drawSize>
+          <shaderType>CutoutComplex</shaderType>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+</Defs>

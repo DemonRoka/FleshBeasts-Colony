@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_CortexMiteAnchor_Label>Anchor</FB_CortexMiteAnchor_Label>
+  <FB_CortexMiteAnchor_Desc>Choose a reachable flesh floor cell. The cortex mite will crawl there and become a permanent research node.</FB_CortexMiteAnchor_Desc>
+  <FB_CortexMiteAnchor_InvalidCell>Cannot anchor there.</FB_CortexMiteAnchor_InvalidCell>
+  <FB_CortexMiteAnchor_NotFleshTerrain>Cortex mites can only anchor into flesh terrain.</FB_CortexMiteAnchor_NotFleshTerrain>
+  <FB_CortexMiteAnchor_BlockedCell>The cell is blocked.</FB_CortexMiteAnchor_BlockedCell>
+  <FB_CortexMiteAnchor_Unreachable>The cortex mite cannot reach that cell.</FB_CortexMiteAnchor_Unreachable>
+  <FB_CortexMiteAnchor_MissingDef>Cortex mite anchoring is missing required defs.</FB_CortexMiteAnchor_MissingDef>
+  <FB_InstalledCortexMiteNoProjectInspect>Current research project: none</FB_InstalledCortexMiteNoProjectInspect>
+  <FB_InstalledCortexMiteResearchInspect>Current research project: {0} (+{1}/h)</FB_InstalledCortexMiteResearchInspect>
+  <FB_InstalledCortexMiteNoHemogelInspect>No full hemogel supply.</FB_InstalledCortexMiteNoHemogelInspect>
+</LanguageData>

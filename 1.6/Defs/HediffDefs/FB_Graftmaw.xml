@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Состояние: graftmaw surgical stasis (FB_GraftmawSurgicalStasis) -->
+  <HediffDef>
+    <defName>FB_GraftmawSurgicalStasis</defName>
+    <label>graftmaw surgical stasis</label>
+    <description>The target is pinned in place by living surgical tendrils and cannot resist the current procedure.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <stages>
+      <li>
+        <painFactor>0</painFactor>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <setMax>0</setMax>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <setMax>0</setMax>
+          </li>
+          <li>
+            <capacity>Talking</capacity>
+            <setMax>0</setMax>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>1800</disappearsAfterTicks>
+      </li>
+    </comps>
+  </HediffDef>
+</Defs>

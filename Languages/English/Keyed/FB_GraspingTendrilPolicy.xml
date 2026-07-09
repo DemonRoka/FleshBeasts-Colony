@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_ColonyBrain_Structure_CaptureNerveNode_Label>Capture Nerve Node</FB_ColonyBrain_Structure_CaptureNerveNode_Label>
+  <FB_ColonyBrain_Structure_CaptureNerveNode_Desc>Extends the colony heart's grasping tendril limit by one and can relay manual tendril commands through the linked heart.</FB_ColonyBrain_Structure_CaptureNerveNode_Desc>
+  <FB_CaptureNerveNode_NoLinkedHeart>No linked colony heart.</FB_CaptureNerveNode_NoLinkedHeart>
+  <FB_CaptureNerveNode_NoCaptureSpawner>The linked heart has no grasping tendril reflex.</FB_CaptureNerveNode_NoCaptureSpawner>
+  <FB_CaptureNerveNode_LinkedHeart>Linked heart: {0}. Node slots: +{1}. Active tendrils: {2} / {3}.</FB_CaptureNerveNode_LinkedHeart>
+  <FB_CaptureNerveNode_SlotsInspect>Node slots: +{0}. Available tendril slots: {1} / {2}.</FB_CaptureNerveNode_SlotsInspect>
+  <FB_GraspingTendrils_HeartSlotsInspect>Grasping tendril slots: {0} / {1} available.</FB_GraspingTendrils_HeartSlotsInspect>
+  <FB_GraspingTendrils_NextSlotReady>Next tendril slot ready in: {0}.</FB_GraspingTendrils_NextSlotReady>
+  <FB_CaptureNerveNode_RaiseTendrilsDesc>Select a valid target near this nerve node. The node relays the command to its linked colony heart, spending the heart's hemogel and using the shared grasping tendril limit.</FB_CaptureNerveNode_RaiseTendrilsDesc>
+  <FB_GraspingTendrils_InvalidTarget>Invalid grasping tendril target.</FB_GraspingTendrils_InvalidTarget>
+  <FB_GraspingTendrils_PlayerProtected>The colony will not grasp its own pawns, owned animals or allied fleshbeasts.</FB_GraspingTendrils_PlayerProtected>
+  <FB_GraspingTendrils_OutOfRange>Target is outside grasping tendril range.</FB_GraspingTendrils_OutOfRange>
+  <FB_GraspingTendrils_PolicyReject>Target is forbidden by the grasping tendril policy.</FB_GraspingTendrils_PolicyReject>
+  <FB_GraspingTendrils_RitualProtected>Target is already bound into an active flesh ritual.</FB_GraspingTendrils_RitualProtected>
+  <FB_GraspingTendrils_NoFreeSlots>No free grasping tendril slots.</FB_GraspingTendrils_NoFreeSlots>
+  <FB_GraspingTendrils_NoFreeSlotsNext>No free grasping tendril slots. Next slot ready in: {0}.</FB_GraspingTendrils_NoFreeSlotsNext>
+  <FB_GraspingPolicy_Tab>Grasping</FB_GraspingPolicy_Tab>
+  <FB_GraspingPolicy_SearchTooltip>Filter this list by name or defName.</FB_GraspingPolicy_SearchTooltip>
+  <FB_GraspingPolicy_Summary>Grasping tendrils: {0} / {1}</FB_GraspingPolicy_Summary>
+  <FB_GraspingPolicy_SlotBreakdown>Base slots: {0}. Nerve node bonus: +{1}.</FB_GraspingPolicy_SlotBreakdown>
+  <FB_GraspingPolicy_PresetHostilesOnly>Hostiles</FB_GraspingPolicy_PresetHostilesOnly>
+  <FB_GraspingPolicy_PresetHostilesWild>Hostiles + wild</FB_GraspingPolicy_PresetHostilesWild>
+  <FB_GraspingPolicy_PresetAllThreats>All threats</FB_GraspingPolicy_PresetAllThreats>
+  <FB_GraspingPolicy_PresetReset>Defaults</FB_GraspingPolicy_PresetReset>
+  <FB_GraspingPolicy_Categories>Categories</FB_GraspingPolicy_Categories>
+  <FB_GraspingPolicy_Factions>Factions</FB_GraspingPolicy_Factions>
+  <FB_GraspingPolicy_Species>Species</FB_GraspingPolicy_Species>
+  <FB_GraspingPolicy_FactionTooltip>Faction rules apply to humanlike targets before category defaults.</FB_GraspingPolicy_FactionTooltip>
+  <FB_GraspingPolicy_SpeciesTooltip>Species exceptions override category and faction rules. Player-owned creatures are still protected.</FB_GraspingPolicy_SpeciesTooltip>
+  <FB_GraspingPolicy_Allow>Allow</FB_GraspingPolicy_Allow>
+  <FB_GraspingPolicy_Deny>Deny</FB_GraspingPolicy_Deny>
+  <FB_GraspingPolicy_Default>Default</FB_GraspingPolicy_Default>
+  <FB_GraspingPolicy_DefaultAllow>Default: allow</FB_GraspingPolicy_DefaultAllow>
+  <FB_GraspingPolicy_DefaultDeny>Default: deny</FB_GraspingPolicy_DefaultDeny>
+  <FB_GraspingPolicy_Category_HostileHumanlikes>Hostile humanlikes</FB_GraspingPolicy_Category_HostileHumanlikes>
+  <FB_GraspingPolicy_Category_HostileHumanlikes_Desc>Humanlike pawns from factions hostile to the player.</FB_GraspingPolicy_Category_HostileHumanlikes_Desc>
+  <FB_GraspingPolicy_Category_NeutralHumanlikes>Neutral humanlikes</FB_GraspingPolicy_Category_NeutralHumanlikes>
+  <FB_GraspingPolicy_Category_NeutralHumanlikes_Desc>Humanlike pawns from non-hostile factions.</FB_GraspingPolicy_Category_NeutralHumanlikes_Desc>
+  <FB_GraspingPolicy_Category_FactionlessHumanlikes>Factionless humanlikes</FB_GraspingPolicy_Category_FactionlessHumanlikes>
+  <FB_GraspingPolicy_Category_FactionlessHumanlikes_Desc>Humanlike pawns with no faction.</FB_GraspingPolicy_Category_FactionlessHumanlikes_Desc>
+  <FB_GraspingPolicy_Category_WildAnimals>Wild animals</FB_GraspingPolicy_Category_WildAnimals>
+  <FB_GraspingPolicy_Category_WildAnimals_Desc>Animals not owned by the player colony.</FB_GraspingPolicy_Category_WildAnimals_Desc>
+  <FB_GraspingPolicy_Category_Mechanoids>Mechanoids</FB_GraspingPolicy_Category_Mechanoids>
+  <FB_GraspingPolicy_Category_Mechanoids_Desc>Mechanical pawns. Current grasping tendrils can only bind flesh targets.</FB_GraspingPolicy_Category_Mechanoids_Desc>
+  <FB_GraspingPolicy_Category_OtherCreatures>Other creatures</FB_GraspingPolicy_Category_OtherCreatures>
+  <FB_GraspingPolicy_Category_OtherCreatures_Desc>Non-humanlike, non-animal flesh creatures not owned by the player.</FB_GraspingPolicy_Category_OtherCreatures_Desc>
+  <FB_GraspingPolicy_ClearAll>Clear all</FB_GraspingPolicy_ClearAll>
+  <FB_GraspingPolicy_AllowAll>Allow all</FB_GraspingPolicy_AllowAll>
+  <FB_GraspingPolicy_Type_Humanlike>Humanlike</FB_GraspingPolicy_Type_Humanlike>
+  <FB_GraspingPolicy_Type_Animal>Animal</FB_GraspingPolicy_Type_Animal>
+  <FB_GraspingPolicy_Type_Insect>Insect</FB_GraspingPolicy_Type_Insect>
+  <FB_GraspingPolicy_Type_Mechanoid>Mechanoid</FB_GraspingPolicy_Type_Mechanoid>
+  <FB_GraspingPolicy_Type_Entity>Entity</FB_GraspingPolicy_Type_Entity>
+  <FB_GraspingPolicy_Type_Other>Other</FB_GraspingPolicy_Type_Other>  <FB_GraspingPolicy_RelationAlly>Ally</FB_GraspingPolicy_RelationAlly>
+  <FB_GraspingPolicy_RelationHostile>Hostile</FB_GraspingPolicy_RelationHostile>
+  <FB_GraspingPolicy_RelationNeutral>Neutral</FB_GraspingPolicy_RelationNeutral>
+  <FB_GraspingPolicy_RelationUnknown>Unknown</FB_GraspingPolicy_RelationUnknown>  <FB_GraspingTendrils_AutoDelay>Auto capture delay on flesh ground: {0} ticks.</FB_GraspingTendrils_AutoDelay></LanguageData>

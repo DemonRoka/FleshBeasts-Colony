@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <FB_PersonalityDevourer_InvalidCaster>Только Поглотитель личностей может поглощать сохранённые сознания.</FB_PersonalityDevourer_InvalidCaster>
+  <FB_PersonalityDevourer_InvalidCorpse>Выберите мёртвое гуманоидное тело.</FB_PersonalityDevourer_InvalidCorpse>
+  <FB_PersonalityDevourer_HumanlikeOnly>Только мёртвые гуманоидные тела можно записать в память колонии.</FB_PersonalityDevourer_HumanlikeOnly>
+  <FB_PersonalityDevourer_BrainRequired>У трупа должен сохраниться мозг.</FB_PersonalityDevourer_BrainRequired>
+  <FB_PersonalityDevourer_AlreadyRecorded>Это сознание уже записано в памяти колонии.</FB_PersonalityDevourer_AlreadyRecorded>
+  <FB_PersonalityDevourer_CannotReachCorpse>Поглотитель личностей не может добраться до этого трупа.</FB_PersonalityDevourer_CannotReachCorpse>
+  <FB_PersonalityDevourer_CannotStart>Поглотитель личностей не может начать поглощение этой памяти.</FB_PersonalityDevourer_CannotStart>
+  <FB_PersonalityDevourer_RecordFailed>Колонии не удалось сохранить эту личность.</FB_PersonalityDevourer_RecordFailed>
+  <FB_PersonalityDevourer_MemoryRecorded>{0} записан в память колонии.</FB_PersonalityDevourer_MemoryRecorded>
+
+</LanguageData>

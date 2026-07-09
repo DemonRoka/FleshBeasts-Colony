@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <JobDef>
+    <defName>FB_ChromophageExtractGenes</defName>
+    <driverClass>FB.JobDriver_ChromophageExtractGenes</driverClass>
+    <reportString>extracting genes from TargetA.</reportString>
+    <casualInterruptible>false</casualInterruptible>
+    <playerInterruptible>true</playerInterruptible>
+    <checkOverrideOnDamage>OnlyIfInstigatorNotJobTarget</checkOverrideOnDamage>
+  </JobDef>
+  <JobDef>
+    <defName>FB_ChromophageUnloadGenes</defName>
+    <driverClass>FB.JobDriver_ChromophageUnloadGenes</driverClass>
+    <reportString>unloading genes into TargetA.</reportString>
+    <casualInterruptible>false</casualInterruptible>
+    <playerInterruptible>true</playerInterruptible>
+    <checkOverrideOnDamage>OnlyIfInstigatorNotJobTarget</checkOverrideOnDamage>
+  </JobDef>
+</Defs>

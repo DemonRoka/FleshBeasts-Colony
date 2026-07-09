@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Вид пешки: thrallbloom (FB_ThrallbloomKind) -->
+  <PawnKindDef ParentName="BaseFleshbeastKind">
+    <defName>FB_ThrallbloomKind</defName>
+    <label>thrallbloom</label>
+    <race>FB_Thrallbloom</race>
+    <combatPower>240</combatPower>
+    <forceDeathOnDowned>true</forceDeathOnDowned>
+    <defaultFactionDef>PlayerColony</defaultFactionDef>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/FB_Thrallbloom/FB_Thrallbloom</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>2.85</drawSize>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+</Defs>

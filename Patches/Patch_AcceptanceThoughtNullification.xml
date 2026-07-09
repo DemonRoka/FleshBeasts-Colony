@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Existing nullifyingHediffs blocks: append flesh-colony acceptance there. -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThoughtDef[
+      defName="DeadMansApparel" or
+      defName="HumanLeatherApparelSad" or
+      defName="ColonistLeftUnburied" or
+      defName="ObservedLayingCorpse" or
+      defName="WitnessedDeathAlly" or
+      defName="WitnessedDeathNonAlly" or
+      defName="WitnessedDeathFamily"
+    ]/nullifyingHediffs</xpath>
+    <value>
+      <li>FB_AcceptanceOfFleshColony</li>
+    </value>
+  </Operation>
+
+  <!-- Family death/loss memory groups: inherited by MySonDied/MyMotherDied/MyLoverDied and matching "Lost" thoughts. -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThoughtDef[@Name="DeathMemoryFamily" or @Name="LostMemoryFamily"]</xpath>
+    <value>
+      <nullifyingHediffs>
+        <li>FB_AcceptanceOfFleshColony</li>
+      </nullifyingHediffs>
+    </value>
+  </Operation>
+
+  <!-- Thought defs without a nullifyingHediffs block yet: add one. -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThoughtDef[
+      defName="AteRawFood" or
+      defName="AteCorpse" or
+      defName="AteHumanlikeMeatDirect" or
+      defName="AteHumanlikeMeatAsIngredient" or
+      defName="AteRawHumanlikeMeat" or
+      defName="AteWithoutTable" or
+      defName="SleepDisturbed" or
+      defName="SleptOutside" or
+      defName="SleptOnGround" or
+      defName="SleptInCold" or
+      defName="SleptInHeat" or
+      defName="SoakingWet" or
+      defName="AteInImpressiveDiningRoom" or
+      defName="JoyActivityInImpressiveRecRoom" or
+      defName="SleptInBedroom" or
+      defName="SleptInBarracks" or
+      defName="SharedBed" or
+      defName="EnvironmentDark" or
+      defName="EnvironmentCold" or
+      defName="EnvironmentHot" or
+      defName="NeedRoomSize" or
+      defName="PrisonCell" or
+      defName="PrisonBarracks" or
+      defName="HospitalPatientRoomStats" or
+      defName="RotStink" or
+      defName="RotStinkLingering" or
+      defName="ToxicFallout" or
+      defName="ObservedLayingRottingCorpse" or
+      defName="WitnessedDeathBloodlust"
+    ]</xpath>
+    <value>
+      <nullifyingHediffs>
+        <li>FB_AcceptanceOfFleshColony</li>
+      </nullifyingHediffs>
+    </value>
+  </Operation>
+</Patch>

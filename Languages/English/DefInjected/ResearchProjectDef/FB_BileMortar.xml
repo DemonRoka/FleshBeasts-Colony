@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_BileMortarResearch.label>bile mortar gland</FB_BileMortarResearch.label>
+  <FB_BileMortarResearch.description>Unlock the Bile Mortar Gland, a living artillery organ that grows bileburst podlings and launches mature ones as volatile incendiary shells.</FB_BileMortarResearch.description>
+  <FB_BileMortarResearch.generalRules.rulesStrings.0>subject-&gt;living bile artillery</FB_BileMortarResearch.generalRules.rulesStrings.0>
+  <FB_BileMortarResearch.generalRules.rulesStrings.1>subject_story-&gt;cultivated volatile bile munitions</FB_BileMortarResearch.generalRules.rulesStrings.1>
+  <FB_BileMortarResearch.generalRules.rulesStrings.2>subject_story-&gt;grew artillery organs from spitter tissue</FB_BileMortarResearch.generalRules.rulesStrings.2>
+  <FB_BileMortarResearch.generalRules.rulesStrings.3>subject_gerund-&gt;growing bile mortars</FB_BileMortarResearch.generalRules.rulesStrings.3>
+</LanguageData>

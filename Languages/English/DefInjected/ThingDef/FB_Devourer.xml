@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_Devourer.label>devourer</FB_Devourer.label>
+  <FB_Devourer.description>A tank fleshbeast that swallows non-allied targets and digests them into hemogel.</FB_Devourer.description>
+  <FB_Devourer.tools.0.label>crushing maw</FB_Devourer.tools.0.label>
+  <FB_Devourer.tools.1.label>hooked hide</FB_Devourer.tools.1.label>
+  <FB_DevourerChargeFlyer.label>devourer charge</FB_DevourerChargeFlyer.label>
+</LanguageData>

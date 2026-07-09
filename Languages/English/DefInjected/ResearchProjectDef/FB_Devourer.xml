@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_DevourerGestation.label>devourer gestation</FB_DevourerGestation.label>
+  <FB_DevourerGestation.description>Teach the colony brain to grow a slow armored devourer that swallows enemies and digests them into hemogel.</FB_DevourerGestation.description>
+  <FB_DevourerGestation.generalRules.rulesStrings.0>subject-&gt;devourer gestation</FB_DevourerGestation.generalRules.rulesStrings.0>
+  <FB_DevourerGestation.generalRules.rulesStrings.1>subject_story-&gt;grew armored stomach-beasts for battlefield capture</FB_DevourerGestation.generalRules.rulesStrings.1>
+  <FB_DevourerGestation.generalRules.rulesStrings.2>subject_story-&gt;turned swallowed prey into hemogel reserves</FB_DevourerGestation.generalRules.rulesStrings.2>
+  <FB_DevourerGestation.generalRules.rulesStrings.3>subject_gerund-&gt;growing devourers</FB_DevourerGestation.generalRules.rulesStrings.3>
+</LanguageData>

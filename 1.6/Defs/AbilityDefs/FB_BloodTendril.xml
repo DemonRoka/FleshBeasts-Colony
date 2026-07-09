@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AbilityDef>
+    <defName>FB_Bloodlash</defName>
+    <label>bloodlash</label>
+    <description>Launch a living blood tendril into a nearby creature, holding it in place while slowly draining blood into the caster.</description>
+    <iconPath>UI/Abilities/Bloodlash</iconPath>
+    <cooldownTicksRange>2500</cooldownTicksRange>
+    <showPsycastEffects>false</showPsycastEffects>
+    <sendMessageOnCooldownComplete>true</sendMessageOnCooldownComplete>
+    <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
+    <moteOffsetAmountTowardsTarget>0.5</moteOffsetAmountTowardsTarget>
+    <warmupSound>AnomalyAbilityWarmup</warmupSound>
+    <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <warmupTime>0.6</warmupTime>
+      <range>5</range>
+      <requireLineOfSight>true</requireLineOfSight>
+      <drawHighlightWithLineOfSight>true</drawHighlightWithLineOfSight>
+      <targetParams>
+        <canTargetSelf>false</canTargetSelf>
+        <canTargetPawns>true</canTargetPawns>
+        <canTargetMechs>false</canTargetMechs>
+        <canTargetBuildings>false</canTargetBuildings>
+        <canTargetLocations>false</canTargetLocations>
+        <canTargetItems>false</canTargetItems>
+        <canTargetCorpses>false</canTargetCorpses>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="FB.CompProperties_AbilityBloodTendril">
+        <organHediffDef>FB_BloodTendrilOrgan</organHediffDef>
+        <targetLatchedHediffDef>FB_BloodTendrilLatched</targetLatchedHediffDef>
+        <casterChannelingHediffDef>FB_BloodTendrilChanneling</casterChannelingHediffDef>
+        <visualMoteDef>FB_BloodTendrilVisualMote</visualMoteDef>
+        <lineTexturePath>Things/Building/Cable</lineTexturePath>
+        <suckerTexturePath>Things/Mote/BloodTendrilLatch</suckerTexturePath>
+        <lineColor>(0.85,0.12,0.08,0.75)</lineColor>
+        <lineWidth>0.16</lineWidth>
+        <suckerDrawSize>1.15</suckerDrawSize>
+        <maxRange>5</maxRange>
+        <drainIntervalTicks>120</drainIntervalTicks>
+        <targetBloodLossSeverityPerDrain>0.01</targetBloodLossSeverityPerDrain>
+        <casterBloodLossSeverityPerDrain>0.006</casterBloodLossSeverityPerDrain>
+        <nutritionGainPerDrain>0.02</nutritionGainPerDrain>
+        <hemogenGainPerDrain>0.02</hemogenGainPerDrain>
+      </li>
+    </comps>
+  </AbilityDef>
+</Defs>

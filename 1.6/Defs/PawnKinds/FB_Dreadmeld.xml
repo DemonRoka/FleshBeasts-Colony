@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Вид пешки: dreadmeld (FB_Dreadmeld) -->
+  <PawnKindDef ParentName="BaseFleshbeastKind">
+    <defName>FB_Dreadmeld</defName>
+    <label>dreadmeld</label>
+    <race>FB_Dreadmeld</race>
+    <forceDeathOnDowned>true</forceDeathOnDowned>
+    <combatPower>650</combatPower>
+    <isBoss>false</isBoss>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Fleshbeast/Dreadmeld/Dreadmeld</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>4</drawSize>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+</Defs>

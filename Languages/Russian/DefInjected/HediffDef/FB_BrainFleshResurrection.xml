@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_ResurrectedBiomassPart.label>воскрешённая биомасса</FB_ResurrectedBiomassPart.label>
+  <FB_ResurrectedBiomassPart.labelNoun>воскрешённая биомасса</FB_ResurrectedBiomassPart.labelNoun>
+  <FB_ResurrectedBiomassPart.description>Живая биомасса колонии заменила утраченную часть тела. Она работает надёжно, но не способна полностью сравниться с исходной тканью.</FB_ResurrectedBiomassPart.description>
+  <FB_ShellAdaptation.label>адаптация к оболочке</FB_ShellAdaptation.label>
+  <FB_ShellAdaptation.description>Воскрешённое сознание постепенно учится управлять телом, восстановленным и занятым плотью колонии.</FB_ShellAdaptation.description>
+  <FB_ShellAdaptation.stages.0.label>стабилизация</FB_ShellAdaptation.stages.0.label>
+  <FB_ShellAdaptation.stages.1.label>дезориентация</FB_ShellAdaptation.stages.1.label>
+  <FB_ShellAdaptation.stages.2.label>тяжёлое отторжение</FB_ShellAdaptation.stages.2.label>
+</LanguageData>

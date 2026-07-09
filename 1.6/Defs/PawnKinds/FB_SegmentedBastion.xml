@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Вид пешки: segmented bastion (FB_SegmentedBastionKind) -->
+  <PawnKindDef ParentName="BaseFleshbeastKind">
+    <defName>FB_SegmentedBastionKind</defName>
+    <label>segmented bastion</label>
+    <overrideDeathOnDownedChance>0</overrideDeathOnDownedChance>
+    <ignoresPainShock>true</ignoresPainShock>
+    <race>FB_SegmentedBastion</race>
+    <combatPower>360</combatPower>
+    <defaultFactionDef>PlayerColony</defaultFactionDef>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/FB_SegmentedBastion/SegmentedBastion</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <drawSize>3.2</drawSize>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+  <!-- Вид пешки: bastion spine segment (FB_BastionSpineSegmentKind) -->
+  <PawnKindDef ParentName="BaseFleshbeastKind">
+    <defName>FB_BastionSpineSegmentKind</defName>
+    <label>bastion spine segment</label>
+    <race>FB_BastionSpineSegment</race>
+    <forceNoDeathNotification>true</forceNoDeathNotification>
+    <forceDeathOnDowned>true</forceDeathOnDowned>
+    <overrideDeathOnDownedChance>1</overrideDeathOnDownedChance>
+    <canMeleeAttack>false</canMeleeAttack>
+    <abilities>
+      <li>SpineLaunch_Gorehulk</li>
+    </abilities>
+    <combatPower>28</combatPower>
+    <defaultFactionDef>PlayerColony</defaultFactionDef>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/FB_BastionSpineSegment/BastionSpineSegment</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <drawSize>1.1</drawSize>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+</Defs>

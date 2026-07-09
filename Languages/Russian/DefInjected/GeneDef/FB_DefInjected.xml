@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_Assimilator.description>Носители могут забирать жизнеспособные конечности и органы из свежих человекоподобных трупов, приживляя их вместо собственных утраченных частей. Донорский труп теряет изъятую часть, когда она становится частью носителя.</FB_Assimilator.description>
+  <FB_Assimilator.label>ассимилятор</FB_Assimilator.label>
+  <FB_BiomassEvolution.description>Носители могут стать живым центром колонии плоти. Они способны превратиться в Сердце плоти, заключать пешек в биомассовые коконы для привязки и мутации, а также призывать ближайших союзных флешбистов для сопровождения.</FB_BiomassEvolution.description>
+  <FB_BiomassEvolution.label>эволюция биомассы</FB_BiomassEvolution.label>
+  <FB_BiomassEvolution.labelShortAdj>эволюционирующий биомассой</FB_BiomassEvolution.labelShortAdj>
+  <FB_Eater.description>Носители могут поглощать органические трупы во внутренний сосуд памяти, сохраняя несколько тел. Запас биомассы постепенно восстанавливается, иногда отпочковывает малых флешбистов и может быть потрачен на восстановление сохранённого тела в виде новорождённого.</FB_Eater.description>
+  <FB_Eater.label>пожиратель</FB_Eater.label>
+  <FB_FleshbeastBody.description>Носитель перестраивается в человекоподобного флешбиста: волосы и обычная кожа уступают место живой плотской ткани и искажённой голове. Тело почти не чувствует боли, быстрее заживает и получает немного меньше урона, но становится пугающе отталкивающим.</FB_FleshbeastBody.description>
+  <FB_FleshbeastBody.label>тело плотяного зверя</FB_FleshbeastBody.label>
+  <FB_FleshbeastBody.labelShortAdj>плотяной зверь</FB_FleshbeastBody.labelShortAdj>
+  <FB_FleshbeastBody.renderNodeProperties.0.debugLabel>мех</FB_FleshbeastBody.renderNodeProperties.0.debugLabel>
+  <FB_Fragmentation.description>Носители могут самостоятельно или автоматически разорваться на осколочников для сохранения своей жизни. Осколочники бегут от опасности, собираются вместе и пытаются восстановить исходное тело, но после сборки плоть ещё долго остаётся нестабильной.</FB_Fragmentation.description>
+  <FB_Fragmentation.label>Фрагментация</FB_Fragmentation.label>
+  <FB_HiveConstructor.description>В теле носителя развивается внутренний улей, медленно выращивающий склератов. Когда рядом есть строительство, ремонт, разборка или работа с крышами, выводок может быть выпущен для труда на благо колонии.</FB_HiveConstructor.description>
+  <FB_HiveConstructor.label>конструктор улья</FB_HiveConstructor.label>
+  <FB_HiveConstructor.labelShortAdj>конструктор улья</FB_HiveConstructor.labelShortAdj>
+  <FB_OrganicArmor.description>Носители могут вырастить костно-хитиновые пластины на голове и туловище. Эта броня временная и постепенно разрушается, давая сильную защиту ценой уродства и снижения подвижности на тяжёлых стадиях.</FB_OrganicArmor.description>
+  <FB_OrganicArmor.label>органическая броня</FB_OrganicArmor.label>
+  <FB_PulsatingMold.description>На теле носителя вырастают споровые наросты, которые можно включить для выброса выбранного облака спор вокруг себя. В зависимости от типа споры отравляют, вызывают эйфорию или погружают ближайших существ в оцепенение.</FB_PulsatingMold.description>
+  <FB_PulsatingMold.label>пульсирующая плесень</FB_PulsatingMold.label>
+  <FB_PulsatingMold.labelShortAdj>пульсирующая плесень</FB_PulsatingMold.labelShortAdj>
+  <FB_ReplicatorParasite.description>Носители могут пожертвовать пальцем, чтобы внедрить паразита плоти в живую цель. После созревания связанные паразиты могут быть призваны, вырываясь из носителей в виде союзных пальцешипов и оставляя кровоточащие раны.</FB_ReplicatorParasite.description>
+  <FB_ReplicatorParasite.label>паразит-репликатор</FB_ReplicatorParasite.label>
+  <FB_Scavenger.description>Носители могут разорвать свежий труп на ткачей плоти. Чем крупнее тело, тем больше ткачей появляется, а исходный труп уничтожается в небольшом мясном выбросе.</FB_Scavenger.description>
+  <FB_Scavenger.label>падальщик</FB_Scavenger.label>
+  <FB_TriTendrils.description>Из торса носителя вырастают три мускулистых щупальца. Они добавляют дополнительные дробящие удары в ближнем бою и заметно подёргиваются плотской жизнью.</FB_TriTendrils.description>
+  <FB_TriTendrils.label>тройные щупальца</FB_TriTendrils.label>
+  <FB_TriTendrils.labelShortAdj>с тройными щупальцами</FB_TriTendrils.labelShortAdj>
+  <FB_DorsalSpines.description>В спину носителя врастают два колющих шипощупальца. Они располагаются за телом и добавляют колющие удары по ближайшим врагам.</FB_DorsalSpines.description>
+  <FB_DorsalSpines.label>спинная пара шипов</FB_DorsalSpines.label>
+  <FB_DorsalSpines.labelShortAdj>со спинной парой шипов</FB_DorsalSpines.labelShortAdj>
+  <FB_MeatBloom.description>Тело носителя непрерывно выращивает искажённое мясо внутри собственных тканей, несколько раз в день сбрасывая небольшие партии на землю. Рост новой плоти усиливает голод, питаясь телом носителя.</FB_MeatBloom.description>
+  <FB_MeatBloom.label>мясное цветение</FB_MeatBloom.label>
+  <FB_MeatBloom.labelShortAdj>мясоцветущий</FB_MeatBloom.labelShortAdj>
+  <FB_FleshMarshal.description>Носитель может передать боевой нервный импульс, окутывающий ближайших дружественных флешбистов резонансом нервосгустка. Эффект притупляет боль, ускоряет движение и быстро затягивает раны.</FB_FleshMarshal.description>
+  <FB_FleshMarshal.label>маршал плоти</FB_FleshMarshal.label>
+  <FB_FleshMarshal.labelShortAdj>маршал плоти</FB_FleshMarshal.labelShortAdj>
+  <FB_BloodTendril.label>кровавое щупальце</FB_BloodTendril.label>
+  <FB_BloodTendril.description>В горле носителя вырастает орган-щупальце. Если он цел, носитель может выстрелить им изо рта в цель на небольшом расстоянии, удерживая живую немеханическую жертву и вытягивая кровь для восстановления голода, кровопотери и гемогена, если он есть.</FB_BloodTendril.description>
+  <FB_BloodTendril.labelShortAdj>кроваво-щупальцевый</FB_BloodTendril.labelShortAdj>
+</LanguageData>

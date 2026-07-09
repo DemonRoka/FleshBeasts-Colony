@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BuildingColonyFleshBase">
+    <defName>FB_FleshTunnelMaw</defName>
+    <label>flesh tunnel maw</label>
+    <description>A massive rooted mouth that spends hemogel to bite a permanent tunnel through the world. Once grown, the tunnel links to a distant tile and cannot be redirected.</description>
+    <thingClass>FB.Building_FleshTunnelMaw</thingClass>
+    <size>(4,4)</size>
+    <tickerType>Normal</tickerType>
+    <drawerType>MapMeshOnly</drawerType>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/FB_Organic/FleshTunnel/FleshTunnelMaw</texPath>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <uiIconPath>Things/Building/FB_Organic/FleshTunnel/FleshTunnelMaw</uiIconPath>
+    <statBases>
+      <MaxHitPoints>650</MaxHitPoints>
+      <Beauty>-25</Beauty>
+      <Flammability>0.7</Flammability>
+      <Mass>100</Mass>
+    </statBases>
+    <killedLeavingsRanges>
+      <Meat_Twisted>120~180</Meat_Twisted>
+    </killedLeavingsRanges>
+    <forceLeavingsAllowed>true</forceLeavingsAllowed>
+    <inspectorTabs>
+      <li>ITab_ContentsMapPortal</li>
+    </inspectorTabs>
+    <modExtensions>
+      <li Class="FB.FleshTunnelMawExtension">
+        <hemogelPerWorldTile>60</hemogelPerWorldTile>
+        <minimumGrowCost>100</minimumGrowCost>
+        <destinationMapSize>120</destinationMapSize>
+        <openingTicks>450</openingTicks>
+        <minimumDigTicks>2500</minimumDigTicks>
+        <digTicksPerWorldTile>600</digTicksPerWorldTile>
+        <closedTexturePath>Things/Building/FB_Organic/FleshTunnel/FleshTunnelMawClosed</closedTexturePath>
+      </li>
+    </modExtensions>
+    <comps Inherit="False">
+      <li Class="FB.CompProperties_FleshRegeneration">
+        <ticksPerHeal>2000</ticksPerHeal>
+        <ticksPerDamage>2000</ticksPerDamage>
+        <hemogelPerHeal>1</hemogelPerHeal>
+      </li>
+      <li Class="FB.CompProperties_MarkSelfForAbsorption" />
+      <li Class="FB.CompProperties_FleshTunnelHemogelStorage">
+        <initialHemogelCapacity>0</initialHemogelCapacity>
+        <maxHemogelCapacity>4000</maxHemogelCapacity>
+        <networkFillPerHour>500</networkFillPerHour>
+        <damageThreshold>0</damageThreshold>
+        <preventHemogelDepletionDamage>true</preventHemogelDepletionDamage>
+        <hideNoHemogelInspectWarning>true</hideNoHemogelInspectWarning>
+        <linkedMaxHemogel>10</linkedMaxHemogel>
+        <hideInspectWhenLinked>true</hideInspectWhenLinked>
+      </li>
+      <li Class="FB.CompProperties_HemogelUpkeep">
+        <hemogelPerHour>0.5</hemogelPerHour>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="BuildingColonyFleshBase">
+    <defName>FB_FleshTunnelExit</defName>
+    <label>flesh tunnel exit</label>
+    <description>The distant mouth of a rooted flesh tunnel. It shares the tunnel's living reserve with the original maw and collapses if either side is destroyed.</description>
+    <thingClass>FB.Building_FleshTunnelExit</thingClass>
+    <size>(4,4)</size>
+    <tickerType>Normal</tickerType>
+    <drawerType>MapMeshOnly</drawerType>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/FB_Organic/FleshTunnel/FleshTunnelExit</texPath>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <uiIconPath>Things/Building/FB_Organic/FleshTunnel/FleshTunnelExit</uiIconPath>
+    <statBases>
+      <MaxHitPoints>450</MaxHitPoints>
+      <Beauty>-20</Beauty>
+      <Flammability>0.7</Flammability>
+    </statBases>
+    <killedLeavingsRanges>
+      <Meat_Twisted>80~130</Meat_Twisted>
+    </killedLeavingsRanges>
+    <forceLeavingsAllowed>true</forceLeavingsAllowed>
+    <inspectorTabs>
+      <li>ITab_ContentsMapPortal</li>
+    </inspectorTabs>
+    <modExtensions>
+      <li Class="FB.FleshTunnelExitExtension">
+        <collapseCommandIconPath>UI/Commands/FleshTunnelCollapse</collapseCommandIconPath>
+      </li>
+    </modExtensions>
+    <comps Inherit="False">
+      <li Class="FB.CompProperties_FleshRegeneration">
+        <ticksPerHeal>2000</ticksPerHeal>
+        <ticksPerDamage>2000</ticksPerDamage>
+        <hemogelPerHeal>1</hemogelPerHeal>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="BuildingBase">
+    <defName>FB_FleshTunnelOpeningMarker</defName>
+    <label>flesh tunnel eruption</label>
+    <description>The ground is splitting as a flesh tunnel forces its way up from below.</description>
+    <thingClass>FB.Building_FleshTunnelOpeningMarker</thingClass>
+    <drawerType>RealtimeOnly</drawerType>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>UI/Commands/FleshGroupTunnel</texPath>
+      <drawSize>(0.01,0.01)</drawSize>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <selectable>false</selectable>
+    <destroyable>false</destroyable>
+    <useHitPoints>false</useHitPoints>
+    <size>(3,3)</size>
+    <passability>Standable</passability>
+    <fillPercent>0</fillPercent>
+    <altitudeLayer>Building</altitudeLayer>
+    <building>
+      <isEdifice>false</isEdifice>
+      <isInert>true</isInert>
+      <isTargetable>false</isTargetable>
+      <claimable>false</claimable>
+      <deconstructible>false</deconstructible>
+      <repairable>false</repairable>
+    </building>
+  </ThingDef>
+</Defs>

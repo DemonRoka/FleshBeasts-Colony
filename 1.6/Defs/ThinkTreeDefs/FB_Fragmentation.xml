@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Дерево мышления: FB_Shardlings -->
+  <ThinkTreeDef>
+    <defName>FB_Shardlings</defName>
+    <thinkRoot Class="ThinkNode_Priority">
+      <subNodes>
+        <li Class="ThinkNode_Subtree">
+          <treeDef>Downed</treeDef>
+        </li>
+        <li Class="ThinkNode_Subtree">
+          <treeDef>BurningResponse</treeDef>
+        </li>
+        <li Class="FB.JobGiver_ShardlingsSurvival" />
+      </subNodes>
+    </thinkRoot>
+  </ThinkTreeDef>
+</Defs>

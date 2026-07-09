@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <PawnColumnDef ParentName="LabelWithIcon">
+    <defName>FB_FleshMemoryLabel</defName>
+    <workerClass>FB.PawnColumnWorker_FleshMemoryLabel</workerClass>
+  </PawnColumnDef>
+
+  <PawnColumnDef>
+    <defName>FB_FleshMemoryStatus</defName>
+    <label>memory status</label>
+    <workerClass>FB.PawnColumnWorker_FleshMemoryStatus</workerClass>
+    <width>110</width>
+  </PawnColumnDef>
+
+  <PawnColumnDef>
+    <defName>FB_FleshMemoryReconstruct</defName>
+    <workerClass>FB.PawnColumnWorker_FleshMemoryReconstruct</workerClass>
+    <width>30</width>
+  </PawnColumnDef>
+
+  <PawnColumnDef>
+    <defName>FB_FleshMemoryDelete</defName>
+    <workerClass>FB.PawnColumnWorker_FleshMemoryDelete</workerClass>
+    <width>30</width>
+  </PawnColumnDef>
+
+  <PawnTableDef>
+    <defName>FB_FleshMemoryTable</defName>
+    <workerClass>PawnTable_PlayerPawns</workerClass>
+    <columns>
+      <li>FB_FleshMemoryLabel</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Ideo</li>
+      <li MayRequire="Ludeon.RimWorld.Biotech">Xenotype</li>
+      <li>FB_FleshMemoryStatus</li>
+      <li>Info</li>
+      <li>FB_FleshMemoryReconstruct</li>
+      <li>FB_FleshMemoryDelete</li>
+      <li>RemainingSpace</li>
+    </columns>
+    <minWidth>0</minWidth>
+  </PawnTableDef>
+
+</Defs>

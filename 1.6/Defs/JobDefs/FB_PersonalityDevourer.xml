@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <JobDef>
+    <defName>FB_PersonalityDevourerConsumeCorpse</defName>
+    <driverClass>FB.JobDriver_PersonalityDevourerConsumeCorpse</driverClass>
+    <reportString>consuming the memory in TargetA.</reportString>
+  </JobDef>
+</Defs>

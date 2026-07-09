@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_CarapacePlateSharpness.description>Показывает износ копательных пластин копателя. Изношенные пластины отрастают только когда он закреплён рядом с сердцем колонии и получает питание от гемогелевой сети.</FB_CarapacePlateSharpness.description>
+  <FB_CarapacePlateSharpness.label>острота копательных пластин</FB_CarapacePlateSharpness.label>
+</LanguageData>

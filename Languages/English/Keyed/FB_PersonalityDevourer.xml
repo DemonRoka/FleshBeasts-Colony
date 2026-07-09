@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <FB_PersonalityDevourer_InvalidCaster>Only a personality devourer can consume stored minds.</FB_PersonalityDevourer_InvalidCaster>
+  <FB_PersonalityDevourer_InvalidCorpse>Choose a dead humanlike body.</FB_PersonalityDevourer_InvalidCorpse>
+  <FB_PersonalityDevourer_HumanlikeOnly>Only dead humanlike bodies can be recorded as colony memories.</FB_PersonalityDevourer_HumanlikeOnly>
+  <FB_PersonalityDevourer_BrainRequired>The corpse must still have a brain.</FB_PersonalityDevourer_BrainRequired>
+  <FB_PersonalityDevourer_AlreadyRecorded>This mind is already recorded in the colony memory.</FB_PersonalityDevourer_AlreadyRecorded>
+  <FB_PersonalityDevourer_CannotReachCorpse>The personality devourer cannot reach that corpse.</FB_PersonalityDevourer_CannotReachCorpse>
+  <FB_PersonalityDevourer_CannotStart>The personality devourer cannot begin consuming that memory.</FB_PersonalityDevourer_CannotStart>
+  <FB_PersonalityDevourer_RecordFailed>The colony failed to preserve that identity.</FB_PersonalityDevourer_RecordFailed>
+  <FB_PersonalityDevourer_MemoryRecorded>{0} has been recorded in the colony memory.</FB_PersonalityDevourer_MemoryRecorded>
+
+</LanguageData>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_ColonyBrain_Structure_BoneMarrowExtractor_Label>Костномозговой вытяжник</FB_ColonyBrain_Structure_BoneMarrowExtractor_Label>
+  <FB_ColonyBrain_Structure_BoneMarrowExtractor_Desc>Извлекает биоферрит и слабый поток гемогеля из связанной удерживаемой сущности. Ослабляет сдерживание как биоферритовый экстрактор.</FB_ColonyBrain_Structure_BoneMarrowExtractor_Desc>
+  <FB_ColonyBrain_Structure_SynapticInhibitor_Label>Синаптический ингибитор</FB_ColonyBrain_Structure_SynapticInhibitor_Label>
+  <FB_ColonyBrain_Structure_SynapticInhibitor_Desc>Подавляет ближайших удерживаемых сущностей через гемогелевую сеть, повышая силу сдерживания при наличии питания.</FB_ColonyBrain_Structure_SynapticInhibitor_Desc>
+  <FB_FleshBoneMarrowExtractor_BioferriteInspect>Запас биоферрита: {0}. Скорость извлечения: +{1}/день.</FB_FleshBoneMarrowExtractor_BioferriteInspect>
+  <FB_FleshBoneMarrowExtractor_HemogelInspect>Выработка гемогеля: +{0}/ч</FB_FleshBoneMarrowExtractor_HemogelInspect>
+  <FB_FleshBoneMarrowExtractor_NoLinkedEntity>Нет связанной удерживаемой сущности.</FB_FleshBoneMarrowExtractor_NoLinkedEntity>
+  <FB_FleshBoneMarrowExtractor_EconomyDetail>Связано удерживаемых сущностей: {0}</FB_FleshBoneMarrowExtractor_EconomyDetail>
+</LanguageData>

@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Эффект: ImpacSteamCloud -->
+  <EffecterDef>
+    <defName>ImpacSteamCloud</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>DustPuffLong</fleckDef>
+        <burstCount>5</burstCount>
+        <positionRadius>1</positionRadius>
+        <scale>7</scale>
+        <rotationRate>-5~5</rotationRate>
+        <angle>0~360</angle>
+        <fleckUsesAngleForVelocity>true</fleckUsesAngleForVelocity>
+        <speed>0.2~2.0</speed>
+      </li>
+    </children>
+  </EffecterDef>
+  <!-- Частица: FB_PoisonousSpores -->
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>FB_PoisonousSpores</defName>
+    <graphicData>
+      <texPath>Things/Mote/PoisonousSpores</texPath>
+      <renderInstanced>true</renderInstanced>
+      <shaderType>MoteGlow</shaderType>
+      <drawSize>4</drawSize>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0.1</fadeInTime>
+    <solidTime>20</solidTime>
+    <fadeOutTime>0.2</fadeOutTime>
+    <growthRate>0.005</growthRate>
+  </FleckDef>
+  <!-- Частица: FB_FunSpores -->
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>FB_FunSpores</defName>
+    <graphicData>
+      <texPath>Things/Mote/LoveSpores</texPath>
+      <renderInstanced>true</renderInstanced>
+      <shaderType>MoteGlow</shaderType>
+      <drawSize>4</drawSize>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0.1</fadeInTime>
+    <solidTime>20</solidTime>
+    <fadeOutTime>0.2</fadeOutTime>
+    <growthRate>0.005</growthRate>
+  </FleckDef>
+  <!-- Частица: FB_NeurotoxinSpores -->
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>FB_NeurotoxinSpores</defName>
+    <graphicData>
+      <texPath>Things/Mote/NeurotoxinSpores</texPath>
+      <renderInstanced>true</renderInstanced>
+      <shaderType>MoteGlow</shaderType>
+      <drawSize>4</drawSize>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0.1</fadeInTime>
+    <solidTime>20</solidTime>
+    <fadeOutTime>0.2</fadeOutTime>
+    <growthRate>0.005</growthRate>
+  </FleckDef>
+  <EffecterDef>
+    <defName>FB_BloodExtinguisherBurst</defName>
+    <children><li>
+  <subEffecterClass>SubEffecter_SoundTriggered</subEffecterClass>
+  <soundDef>MeatExplosionSmall</soundDef>
+  <spawnLocType>OnTarget</spawnLocType>
+</li>
+<li>
+  <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+  <fleckDef>BloodSplashLong</fleckDef>
+  <burstCount>24~30</burstCount>
+  <positionRadius>0.35</positionRadius>
+  <scale>1.6~2.3</scale>
+  <angle>0~360</angle>
+  <fleckUsesAngleForVelocity>true</fleckUsesAngleForVelocity>
+  <speed>3.8~6.8</speed>
+  <color>(190, 35, 25)</color>
+  <spawnLocType>OnSource</spawnLocType>
+</li>
+<li>
+  <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+  <fleckDef>BloodSplash</fleckDef>
+  <burstCount>26~34</burstCount>
+  <positionRadius>0.45</positionRadius>
+  <scale>1.2~1.8</scale>
+  <angle>0~360</angle>
+  <fleckUsesAngleForVelocity>true</fleckUsesAngleForVelocity>
+  <speed>4.2~7.8</speed>
+  <color>(220, 55, 40)</color>
+  <spawnLocType>OnSource</spawnLocType>
+</li>
+<li>
+  <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+  <moteDef>Mote_MeatExplosionMist</moteDef>
+  <burstCount>8~11</burstCount>
+  <rotation>-150~150</rotation>
+  <positionRadius>1.4</positionRadius>
+  <scale>0.9~1.3</scale>
+  <spawnLocType>OnSource</spawnLocType>
+</li>
+<li>
+  <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+  <moteDef>Mote_MeatExplosionFlyingSplatter</moteDef>
+  <burstCount>4~6</burstCount>
+  <rotation>-150~150</rotation>
+  <positionRadius>0.75</positionRadius>
+  <speed>1.0~1.5</speed>
+  <scale>0.9~1.25</scale>
+  <spawnLocType>OnSource</spawnLocType>
+</li>
+<li>
+  <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+  <fleckDef>MeatExplosionSplatterTerrain</fleckDef>
+  <burstCount>5~7</burstCount>
+  <rotation>-150~150</rotation>
+  <positionRadius>1.1</positionRadius>
+  <speed>0</speed>
+  <scale>0.9~1.2</scale>
+  <spawnLocType>OnSource</spawnLocType>
+</li></children>
+  </EffecterDef>
+  <EffecterDef>
+    <defName>FB_FleshTunnelOpening</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_CameraShakeChance</subEffecterClass>
+        <chancePerTick>0.18</chancePerTick>
+        <scale>0.08</scale>
+        <distanceAttenuationScale>1</distanceAttenuationScale>
+        <distanceAttenuationMax>25</distanceAttenuationMax>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>
+        <fleckDef>DustPuffThick</fleckDef>
+        <chancePerTick>0.25</chancePerTick>
+        <burstCount>2~4</burstCount>
+        <spawnLocType>OnSource</spawnLocType>
+        <positionRadius>4</positionRadius>
+        <positionRadiusMin>1.5</positionRadiusMin>
+        <scale>1.2~2.4</scale>
+        <rotationRate>-60~60</rotationRate>
+        <angle>0~360</angle>
+        <fleckUsesAngleForVelocity>true</fleckUsesAngleForVelocity>
+        <speed>0.35~0.8</speed>
+        <makeMoteOnSubtrigger>true</makeMoteOnSubtrigger>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>
+        <chancePerTick>0.45</chancePerTick>
+        <chancePeriodTicks>45</chancePeriodTicks>
+        <avoidLastPositionRadius>1</avoidLastPositionRadius>
+        <fleckDef>GroundCrack</fleckDef>
+        <burstCount>1</burstCount>
+        <color>(1, 1, 1, .75)</color>
+        <spawnLocType>OnSource</spawnLocType>
+        <positionRadius>4</positionRadius>
+        <positionRadiusMin>1.25</positionRadiusMin>
+        <scale>.75~2</scale>
+        <rotation>0~360</rotation>
+        <rotationRate>0</rotationRate>
+        <absoluteAngle>true</absoluteAngle>
+        <positionOffset>(-.5, 0, -.5)</positionOffset>
+        <angle>0</angle>
+        <fleckUsesAngleForVelocity>false</fleckUsesAngleForVelocity>
+        <speed>0</speed>
+        <makeMoteOnSubtrigger>true</makeMoteOnSubtrigger>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>
+        <chancePerTick>0.08</chancePerTick>
+        <chancePeriodTicks>120</chancePeriodTicks>
+        <avoidLastPositionRadius>1</avoidLastPositionRadius>
+        <fleckDef>ThrownDebris</fleckDef>
+        <burstCount>3~6</burstCount>
+        <spawnLocType>OnSource</spawnLocType>
+        <rotationRate>100~200</rotationRate>
+        <positionRadius>3.5</positionRadius>
+        <positionRadiusMin>1.5</positionRadiusMin>
+        <scale>.45~.9</scale>
+        <rotation>0~360</rotation>
+        <positionOffset>(-.5, 0, -.5)</positionOffset>
+        <angle>0~360</angle>
+        <fleckUsesAngleForVelocity>true</fleckUsesAngleForVelocity>
+        <speed>1~2.5</speed>
+        <makeMoteOnSubtrigger>true</makeMoteOnSubtrigger>
+      </li>
+    </children>
+  </EffecterDef>
+</Defs>

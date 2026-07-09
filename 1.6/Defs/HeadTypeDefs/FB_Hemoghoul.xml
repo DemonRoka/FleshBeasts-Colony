@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Тип головы: FB_HemoghoulHead -->
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>FB_HemoghoulHead</defName>
+    <graphicPath>Things/Pawn/FB_Hemoghoul/Heads/HemoghoulHead</graphicPath>
+    <randomChosen>false</randomChosen>
+    <gender>None</gender>
+    <selectionWeight>99999</selectionWeight>
+    <eyeOffsetEastWest>(0.13, 0, 0.17)</eyeOffsetEastWest>
+  </HeadTypeDef>
+</Defs>

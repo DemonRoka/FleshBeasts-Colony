@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Вид пешки: sinewcaller (FB_SinewcallerKind) -->
+  <PawnKindDef ParentName="BaseFleshbeastKind">
+    <defName>FB_SinewcallerKind</defName>
+    <label>sinewcaller</label>
+    <race>FB_Sinewcaller</race>
+    <defaultFactionDef>PlayerColony</defaultFactionDef>
+    <combatPower>40</combatPower>
+    <forceNoDeathNotification>true</forceNoDeathNotification>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/FB_Sinewcaller/Sinewcaller</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>1.35</drawSize>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+</Defs>

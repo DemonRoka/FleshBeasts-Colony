@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Генератор карты: flesh colony undercave (FleshColonyUndercave) -->
+  <MapGeneratorDef Name="FleshColonyUndercave">
+    <defName>FleshColonyUndercave</defName>
+    <label>flesh colony undercave</label>
+    <isUnderground>true</isUnderground>
+    <forceCaves>true</forceCaves>
+    <ignoreAreaRevealedLetter>true</ignoreAreaRevealedLetter>
+    <disableCallAid>true</disableCallAid>
+    <customMapComponents>
+      <li>FB.FB_FleshColonyUndercaveMapComponent</li>
+    </customMapComponents>
+    <genSteps>
+      <li>ElevationFertility</li>
+      <li>Underground_RocksFromGrid</li>
+      <li>Terrain</li>
+      <li>MutatorPostTerrain</li>
+      <li>RockChunks</li>
+      <li>MutatorPostTerrain</li>
+      <li>Underground_ScatterRuinsSimple</li>
+      <li>MutatorCriticalStructures</li>
+      <li>MutatorNonCriticalStructures</li>
+      <li>FB_GenStep_TentacleCaves</li>
+      <li>FB_GenStep_SphericalCave</li>
+      <li>FB_GenStep_FleshStructure</li>
+      <li>FB_GenStep_PitBurrowFleshSacks</li>
+      <li>FB_GenStep_PitBurrowInterest</li>
+      <li>FB_GenStep_PitBurrowFleshbulbs</li>
+      <li>FB_GenStep_RootFleshVeinsTerrain</li>
+      <li>FB_GenStep_FleshmassCaveWalls</li>
+      <li>FB_GenStep_RotFleshmassDecor</li>
+      <li>FB_GenStep_FleshmassCreatures</li>
+      <li>FB_GenStep_FleshmassPollution</li>
+      <li>FB_GenStep_PlaceCaveExit</li>
+      <li>Plants</li>
+      <li>MutatorFinal</li>
+      <li>Fog</li>
+    </genSteps>
+    <pocketMapProperties>
+      <biome>Undercave</biome>
+      <temperature>15</temperature>
+    </pocketMapProperties>
+  </MapGeneratorDef>
+  <!-- Шаг генерации: FB_GenStep_PlaceCaveExit -->
+  <GenStepDef>
+    <defName>FB_GenStep_PlaceCaveExit</defName>
+    <order>340</order>
+    <genStep Class="FB.GenStep_PlaceCaveExit">
+      <clearRadius>4.5</clearRadius>
+    </genStep>
+  </GenStepDef>
+  <!-- Шаг генерации: FB_GenStep_SphericalCave -->
+  <GenStepDef>
+    <defName>FB_GenStep_SphericalCave</defName>
+    <order>16</order>
+    <genStep Class="FB.GenStep_SphericalCave">
+      <BaseRadius>20</BaseRadius>
+      <NoiseScale>0.9</NoiseScale>
+      <NoiseMagnitude>10</NoiseMagnitude>
+    </genStep>
+  </GenStepDef>
+  <!-- Шаг генерации: FB_GenStep_TentacleCaves -->
+  <GenStepDef>
+    <defName>FB_GenStep_TentacleCaves</defName>
+    <order>15</order>
+    <genStep Class="FB.GenStep_TentacleCaves">
+      <TentacleCountRange>4~8</TentacleCountRange>
+      <baseWidth>5</baseWidth>
+    </genStep>
+  </GenStepDef>
+  <!-- Шаг генерации: FB_GenStep_RootFleshVeinsTerrain -->
+  <GenStepDef>
+    <defName>FB_GenStep_RootFleshVeinsTerrain</defName>
+    <order>255</order>
+    <genStep Class="FB.GenStep_RootFleshVeinsTerrain" />
+  </GenStepDef>
+  <!-- Шаг генерации: FB_GenStep_FleshmassCaveWalls -->
+  <GenStepDef>
+    <defName>FB_GenStep_FleshmassCaveWalls</defName>
+    <order>300</order>
+    <genStep Class="FB.GenStep_FleshmassCaveWalls">
+      <fleshReplaceChance>0.9</fleshReplaceChance>
+      <replaceBuildings>false</replaceBuildings>
+      <fleshTerrainChance>0.7</fleshTerrainChance>
+      <extraFleshChance>0.5</extraFleshChance>
+      <extraFleshCountRange>1~3</extraFleshCountRange>
+      <fleshReplaceFalloffRadius>-1</fleshReplaceFalloffRadius>
+      <normalFleshChance>0.2</normalFleshChance>
+      <filthFrequency>0.1</filthFrequency>
+      <filthThreshold>0.1</filthThreshold>
+    </genStep>
+  </GenStepDef>
+  <!-- Шаг генерации: FB_GenStep_FleshmassPollution -->
+  <GenStepDef>
+    <defName>FB_GenStep_FleshmassPollution</defName>
+    <order>350</order>
+    <genStep Class="FB.GenStep_FleshmassPollution" />
+  </GenStepDef>
+  <!-- Шаг генерации: FB_GenStep_FleshStructure -->
+  <GenStepDef>
+    <defName>FB_GenStep_FleshStructure</defName>
+    <order>320</order>
+    <genStep Class="FB.GenStep_FleshStructure">
+      <structureDef>FB_NerveCore</structureDef>
+      <circleRadius>5</circleRadius>
+      <circleThickness>2</circleThickness>
+      <noiseFrequency>0.1</noiseFrequency>
+      <tentacleLength>10</tentacleLength>
+    </genStep>
+  </GenStepDef>
+  <!-- Шаг генерации: FB_GenStep_RotFleshmassDecor -->
+  <GenStepDef>
+    <defName>FB_GenStep_RotFleshmassDecor</defName>
+    <genStep Class="FB.GenStep_RotFleshmassDecor">
+      <structureDefs>
+        <li>FB_RotColonyBrain</li>
+        <li>FB_RotColonyHeart</li>
+      </structureDefs>
+      <baseRadius>12</baseRadius>
+      <minDistanceFromCenter>5</minDistanceFromCenter>
+      <noiseScale>0.5</noiseScale>
+      <noiseMagnitude>5</noiseMagnitude>
+    </genStep>
+    <order>301</order>
+  </GenStepDef>
+  <!-- Шаг генерации: FB_GenStep_FleshmassCreatures -->
+  <GenStepDef>
+    <defName>FB_GenStep_FleshmassCreatures</defName>
+    <order>330</order>
+    <genStep Class="FB.GenStep_FleshmassCreatures">
+      <creatureDefs>
+        <li>FB_Rotlarva</li>
+      </creatureDefs>
+      <creatureCountRange>10~20</creatureCountRange>
+    </genStep>
+  </GenStepDef>
+  <GenStepDef>
+    <defName>FB_GenStep_PitBurrowFleshSacks</defName>
+    <order>321</order>
+    <genStep Class="FB.FB_GenStep_FleshSacksSafe">
+      <sackClumpSize>20</sackClumpSize>
+      <protectedDistanceFromExit>12</protectedDistanceFromExit>
+      <protectedDistanceFromCore>14</protectedDistanceFromCore>
+      <numFleshSacksFromPoints>
+        <points>
+          <li>(0, 1)</li>
+          <li>(500, 2)</li>
+          <li>(1000, 3)</li>
+          <li>(2000, 4)</li>
+        </points>
+      </numFleshSacksFromPoints>
+    </genStep>
+  </GenStepDef>
+  <GenStepDef>
+    <defName>FB_GenStep_PitBurrowInterest</defName>
+    <order>323</order>
+    <genStep Class="FB.FB_GenStep_UndercaveInterestSafe">
+      <minDistanceFromExit>12</minDistanceFromExit>
+      <minDistanceFromNerveCore>14</minDistanceFromNerveCore>
+    </genStep>
+  </GenStepDef>
+  <GenStepDef>
+    <defName>FB_GenStep_PitBurrowFleshbulbs</defName>
+    <order>324</order>
+    <genStep Class="GenStep_ScatterGroup">
+      <minSpacing>18</minSpacing>
+      <count>4</count>
+      <validators>
+        <li Class="ScattererValidator_Buildable">
+          <affordance>Light</affordance>
+        </li>
+        <li Class="ScattererValidator_TerrainDef">
+          <terrainDef>Flesh</terrainDef>
+        </li>
+        <li Class="FB.ScattererValidator_FB_PitBurrowSafe">
+          <radius>4</radius>
+          <minDistanceFromExit>12</minDistanceFromExit>
+          <minDistanceFromNerveCore>14</minDistanceFromNerveCore>
+        </li>
+      </validators>
+      <groups>
+        <li>
+          <things>
+            <Fleshbulb>1</Fleshbulb>
+          </things>
+          <coveredCellsPer10Cells>0.5~1.5</coveredCellsPer10Cells>
+          <clusterRectRadius>2~3</clusterRectRadius>
+        </li>
+      </groups>
+    </genStep>
+  </GenStepDef>
+</Defs>

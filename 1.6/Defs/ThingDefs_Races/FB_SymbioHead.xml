@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Раса: symbio head (FB_SymbioHead) -->
+  <ThingDef ParentName="BaseFleshbeast">
+    <defName>FB_SymbioHead</defName>
+    <label>symbio head</label>
+    <description>A tethered symbiotic head that bites intact heads from nearby corpses, transferring their skills to its brood womb.</description>
+    <statBases>
+      <MoveSpeed>0.9</MoveSpeed>
+      <MinimumContainmentStrength>45</MinimumContainmentStrength>
+      <ToxicResistance>0.5</ToxicResistance>
+      <MeatAmount>30</MeatAmount>
+      <InjuryHealingFactor>30</InjuryHealingFactor>
+      <MeleeHitChance>0.45</MeleeHitChance>
+      <MeleeDodgeChance>0.03</MeleeDodgeChance>
+      <ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.01</ArmorRating_Sharp>
+    </statBases>
+    <race>
+      <body>FB_SymbioHeadBody</body>
+      <baseBodySize>1.8</baseBodySize>
+      <baseHealthScale>0.25</baseHealthScale>
+      <lifeExpectancy>15</lifeExpectancy>
+      <thinkTreeMain>FB_SymbioHead</thinkTreeMain>
+      <thinkTreeConstant>FleshbeastConstant</thinkTreeConstant>
+      <allowedOnCaravan>false</allowedOnCaravan>
+      <lifeStageAges>
+        <li>
+          <def>EntityFullyFormed</def>
+        </li>
+      </lifeStageAges>
+      <canBePredatorPrey>false</canBePredatorPrey>
+    </race>
+    <comps Inherit="True">
+      <li Class="FB.CompProperties_RapidFleshRegeneration">
+        <healIntervalTicks>30</healIntervalTicks>
+        <removeBloodLoss>true</removeBloodLoss>
+        <restoreMissingParts>true</restoreMissingParts>
+        <requireBoundCoreHemogel>true</requireBoundCoreHemogel>
+        <hemogelPerBloodLossRemoval>3</hemogelPerBloodLossRemoval>
+        <hemogelPerHealedInjury>1.5</hemogelPerHealedInjury>
+        <hemogelPerRestoredPart>20</hemogelPerRestoredPart>
+      </li>
+      <li Class="FB.CompProperties_SymbiosisMaw">
+        <eatDurationTicks>600</eatDurationTicks>
+      </li>
+      <li Class="FB.CompProperties_TetherRopesToBuilding">
+        <targetBuildingDef>FB_SymbiosisBroodWomb</targetBuildingDef>
+        <searchRadius>10</searchRadius>
+        <matchFaction>true</matchFaction>
+        <texturePath>Things/Building/Cable</texturePath>
+        <color>(0.63,0.41,0.40,0.75)</color>
+        <altitude>Filth</altitude>
+        <yOffset>0.0015</yOffset>
+        <strandCount>5</strandCount>
+        <baseWidth>0.25</baseWidth>
+        <widthJitter>0.1</widthJitter>
+        <startSpread>0.35</startSpread>
+        <endSpread>0.33</endSpread>
+        <bendStrength>0.5</bendStrength>
+        <bendMax>0.55</bendMax>
+        <segmentsPerStrand>4</segmentsPerStrand>
+      </li>
+    </comps>
+    <tools>
+      <li>
+        <label>maw</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>1.6</power>
+        <cooldownTime>4.5</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <soundMeleeHit>Pawn_Fleshbeast_Attack_Blunt</soundMeleeHit>
+      </li>
+      <li>
+        <label>tentacle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>1.2</power>
+        <cooldownTime>4</cooldownTime>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+        <linkedBodyPartsGroup>FirstTentacle</linkedBodyPartsGroup>
+        <soundMeleeHit>Pawn_Fleshbeast_Attack_Blunt</soundMeleeHit>
+      </li>
+      <li>
+        <label>tentacle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>1.2</power>
+        <cooldownTime>4</cooldownTime>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+        <linkedBodyPartsGroup>SecondTentacle</linkedBodyPartsGroup>
+        <soundMeleeHit>Pawn_Fleshbeast_Attack_Blunt</soundMeleeHit>
+      </li>
+      <li>
+        <label>tentacle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>1.2</power>
+        <cooldownTime>4</cooldownTime>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+        <linkedBodyPartsGroup>ThirdTentacle</linkedBodyPartsGroup>
+        <soundMeleeHit>Pawn_Fleshbeast_Attack_Blunt</soundMeleeHit>
+      </li>
+    </tools>
+  </ThingDef>
+</Defs>

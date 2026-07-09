@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Вид пешки: cocoonback (FB_CocoonbackKind) -->
+  <PawnKindDef ParentName="BaseFleshbeastKind">
+    <defName>FB_CocoonbackKind</defName>
+    <label>cocoonback</label>
+    <race>FB_Cocoonback</race>
+    <forceDeathOnDowned>true</forceDeathOnDowned>
+    <combatPower>70</combatPower>
+    <defaultFactionDef>PlayerColony</defaultFactionDef>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/FB_Cocoonback/Cocoonback</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>3.315</drawSize>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+</Defs>

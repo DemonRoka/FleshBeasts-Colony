@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_FleshMarshalCommand.label>flesh combat command</FB_FleshMarshalCommand.label>
+  <FB_FleshMarshalCommand.description>Broadcast a combat impulse that surrounds nearby friendly fleshbeasts with nerveclot resonance, accelerating movement, suppressing pain, and rapidly knitting injuries.</FB_FleshMarshalCommand.description>
+</LanguageData>

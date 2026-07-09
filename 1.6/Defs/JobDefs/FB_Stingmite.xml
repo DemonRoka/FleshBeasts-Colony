@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <JobDef>
+    <defName>FB_StingmiteAssault</defName>
+    <driverClass>FB.JobDriver_StingmiteAssault</driverClass>
+    <reportString>rushing TargetA.</reportString>
+    <checkOverrideOnDamage>Never</checkOverrideOnDamage>
+  </JobDef>
+</Defs>

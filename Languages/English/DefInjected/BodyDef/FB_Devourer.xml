@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_DevourerBody.label>devourer</FB_DevourerBody.label>
+  <FB_DevourerBody.corePart.parts.3.customLabel>left lung</FB_DevourerBody.corePart.parts.3.customLabel>
+  <FB_DevourerBody.corePart.parts.4.customLabel>right lung</FB_DevourerBody.corePart.parts.4.customLabel>
+  <FB_DevourerBody.corePart.parts.6.parts.1.customLabel>left eye</FB_DevourerBody.corePart.parts.6.parts.1.customLabel>
+  <FB_DevourerBody.corePart.parts.6.parts.2.customLabel>right eye</FB_DevourerBody.corePart.parts.6.parts.2.customLabel>
+  <FB_DevourerBody.corePart.parts.7.customLabel>front left locomotor</FB_DevourerBody.corePart.parts.7.customLabel>
+  <FB_DevourerBody.corePart.parts.8.customLabel>front right locomotor</FB_DevourerBody.corePart.parts.8.customLabel>
+  <FB_DevourerBody.corePart.parts.9.customLabel>rear left locomotor</FB_DevourerBody.corePart.parts.9.customLabel>
+  <FB_DevourerBody.corePart.parts.10.customLabel>rear right locomotor</FB_DevourerBody.corePart.parts.10.customLabel>
+</LanguageData>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <FB_BrainFleshResurrection_CommandLabel>Resurrect through flesh</FB_BrainFleshResurrection_CommandLabel>
+  <FB_BrainFleshResurrection_CommandDesc>Select a fresh humanlike corpse with an intact brain. The nearest capable fingerspike will implant itself into the body and resurrect it as a member of the flesh colony.</FB_BrainFleshResurrection_CommandDesc>
+  <FB_BrainFleshResurrection_Cooldown>Resurrection will be ready in {0}.</FB_BrainFleshResurrection_Cooldown>
+  <FB_BrainFleshResurrection_AlreadyAssigned>A resurrection is already in progress.</FB_BrainFleshResurrection_AlreadyAssigned>
+  <FB_BrainFleshResurrection_NoFingerspike>No capable player-owned fingerspike is available.</FB_BrainFleshResurrection_NoFingerspike>
+  <FB_BrainFleshResurrection_NoReachableFingerspike>No capable fingerspike can reach this corpse.</FB_BrainFleshResurrection_NoReachableFingerspike>
+  <FB_BrainFleshResurrection_CannotStart>The selected fingerspike could not begin the resurrection.</FB_BrainFleshResurrection_CannotStart>
+  <FB_BrainFleshResurrection_Assigned>{0} is moving to resurrect {1}.</FB_BrainFleshResurrection_Assigned>
+  <FB_BrainFleshResurrection_InvalidTarget>Select a fresh humanlike corpse on this map.</FB_BrainFleshResurrection_InvalidTarget>
+  <FB_BrainFleshResurrection_NotFresh>Only fresh corpses can be resurrected through flesh.</FB_BrainFleshResurrection_NotFresh>
+  <FB_BrainFleshResurrection_HumanlikeOnly>Only humanlike corpses can be resurrected through flesh.</FB_BrainFleshResurrection_HumanlikeOnly>
+  <FB_BrainFleshResurrection_BrainRequired>The corpse must have an intact brain.</FB_BrainFleshResurrection_BrainRequired>
+  <FB_BrainFleshResurrection_TargetAlreadyAssigned>This corpse is already assigned to another colony brain.</FB_BrainFleshResurrection_TargetAlreadyAssigned>
+  <FB_BrainFleshResurrection_Failed>The flesh failed to reanimate the corpse.</FB_BrainFleshResurrection_Failed>
+  <FB_BrainFleshResurrection_Success>{0} has been resurrected and accepted by the flesh colony.</FB_BrainFleshResurrection_Success>
+  <FB_BrainFleshResurrection_InspectAssigned>Resurrection target: {0}</FB_BrainFleshResurrection_InspectAssigned>
+  <FB_BrainFleshResurrection_InspectCooldown>Flesh resurrection cooldown: {0}</FB_BrainFleshResurrection_InspectCooldown>
+
+</LanguageData>

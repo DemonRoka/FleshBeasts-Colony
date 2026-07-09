@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <PawnKindDef ParentName="BaseFleshbeastKind">
+    <defName>FB_CarrionArchitectKind</defName>
+    <label>carrion architect</label>
+    <overrideDeathOnDownedChance>0.9</overrideDeathOnDownedChance>
+    <race>FB_CarrionArchitect</race>
+    <combatPower>180</combatPower>
+    <defaultFactionDef>PlayerColony</defaultFactionDef>
+    <abilities>
+      <li>FB_CarrionRework</li>
+    </abilities>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/FB_CarrionArchitect/FB_CarrionArchitect</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>3.2</drawSize>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+</Defs>

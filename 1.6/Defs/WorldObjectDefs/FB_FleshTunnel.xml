@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WorldObjectDef>
+    <defName>FB_FleshTunnelDestination</defName>
+    <label>flesh tunnel</label>
+    <description>A distant tile pierced by a rooted flesh tunnel.</description>
+    <worldObjectClass>FB.FB_FleshTunnelWorldObject</worldObjectClass>
+    <canHaveFaction>true</canHaveFaction>
+    <canHaveMap>true</canHaveMap>
+    <validLaunchTarget>false</validLaunchTarget>
+    <selectable>true</selectable>
+    <texture>Things/Building/FB_Organic/FleshTunnel/FleshTunnelMaw</texture>
+    <expandingIcon>true</expandingIcon>
+    <expandingIconTexture>Things/Building/FB_Organic/FleshTunnel/FleshTunnelMaw</expandingIconTexture>
+    <expandingIconDrawSize>0.75</expandingIconDrawSize>
+    <mapGenerator>Encounter</mapGenerator>
+  </WorldObjectDef>
+</Defs>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_GrowFingerspikeFromHemogel.label>вырастить пальцешипа из гемогеля</FB_GrowFingerspikeFromHemogel.label>
+  <FB_GrowFingerspikeFromHemogel.description>Выращивает пальцешипа напрямую из запаса гемогеля органа.</FB_GrowFingerspikeFromHemogel.description>
+  <FB_GrowTrispikeFromHemogel.label>вырастить троешипа из гемогеля</FB_GrowTrispikeFromHemogel.label>
+  <FB_GrowTrispikeFromHemogel.description>Выращивает троешипа напрямую из запаса гемогеля органа.</FB_GrowTrispikeFromHemogel.description>
+  <FB_GrowToughspikeFromHemogel.label>вырастить твёрдошипа из гемогеля</FB_GrowToughspikeFromHemogel.label>
+  <FB_GrowToughspikeFromHemogel.description>Выращивает твёрдошипа напрямую из запаса гемогеля органа.</FB_GrowToughspikeFromHemogel.description>
+  <FB_GrowBulbfreakFromHemogel.label>вырастить бугрурода из гемогеля</FB_GrowBulbfreakFromHemogel.label>
+  <FB_GrowBulbfreakFromHemogel.description>Выращивает бугрурода напрямую из запаса гемогеля органа.</FB_GrowBulbfreakFromHemogel.description>
+  <FB_MergeTrispike.label>соединить троешипа</FB_MergeTrispike.label>
+  <FB_MergeTrispike.description>Собирает троешипа из разрешённой комбинации малых флешбистов.</FB_MergeTrispike.description>
+  <FB_MergeToughspike.label>соединить твёрдошипа</FB_MergeToughspike.label>
+  <FB_MergeToughspike.description>Собирает твёрдошипа из разрешённой комбинации малых флешбистов.</FB_MergeToughspike.description>
+  <FB_MergeBulbfreak.label>соединить бугрурода</FB_MergeBulbfreak.label>
+  <FB_MergeBulbfreak.description>Собирает бугрурода из разрешённой комбинации шипастых флешбистов.</FB_MergeBulbfreak.description>
+  <FB_MergeDreadmeld.label>соединить жуткоплава</FB_MergeDreadmeld.label>
+  <FB_MergeDreadmeld.description>Собирает жуткоплава из разрешённой комбинации флешбистов.</FB_MergeDreadmeld.description>
+  <FB_AssembleSegmentedBastion.label>собрать сегментный бастион</FB_AssembleSegmentedBastion.label>
+  <FB_AssembleSegmentedBastion.description>Приказывает расходным шипастым флешбистам соединиться в целый сегментный бастион.</FB_AssembleSegmentedBastion.description>
+  <FB_AssembleAcidBroodmother.label>собрать кислотную правматку</FB_AssembleAcidBroodmother.label>
+  <FB_AssembleAcidBroodmother.description>Приказывает расходным шипастым флешбистам соединиться в кислотную правматку.</FB_AssembleAcidBroodmother.description>
+  <FB_AssembleDevourer.label>собрать поглотителя</FB_AssembleDevourer.label>
+  <FB_AssembleDevourer.description>Приказывает расходным шипастым флешбистам соединиться в бронированного поглотителя.</FB_AssembleDevourer.description>
+  <FB_GrowCortexMiteFromSkillEssence.label>вырастить мозгового клеща из эссенции</FB_GrowCortexMiteFromSkillEssence.label>
+  <FB_GrowCortexMiteFromSkillEssence.description>Выращивает мозгового клеща из гемогеля и сохранённой эссенции навыков.</FB_GrowCortexMiteFromSkillEssence.description>
+  <FB_GrowBurdenBlobFromSkillEssence.label>вырастить грузовую каплю из эссенции</FB_GrowBurdenBlobFromSkillEssence.label>
+  <FB_GrowBurdenBlobFromSkillEssence.description>Выращивает грузовую каплю из гемогеля и сохранённой эссенции навыков.</FB_GrowBurdenBlobFromSkillEssence.description>
+  <FB_GrowCarapaceExcavatorFromSkillEssence.label>вырастить панцирного копателя из эссенции</FB_GrowCarapaceExcavatorFromSkillEssence.label>
+  <FB_GrowCarapaceExcavatorFromSkillEssence.description>Выращивает панцирного копателя из гемогеля и сохранённой эссенции навыков.</FB_GrowCarapaceExcavatorFromSkillEssence.description>
+  <FB_GrowScrapmeldNestlingFromSkillEssence.label>вырастить зародыш скрапмелда из эссенции</FB_GrowScrapmeldNestlingFromSkillEssence.label>
+  <FB_GrowScrapmeldNestlingFromSkillEssence.description>Выращивает зародыш скрапмелда из гемогеля и сохранённой эссенции навыков.</FB_GrowScrapmeldNestlingFromSkillEssence.description>
+  <FB_GrowSinewcallerFromSkillEssence.label>вырастить жилозовца из эссенции</FB_GrowSinewcallerFromSkillEssence.label>
+  <FB_GrowSinewcallerFromSkillEssence.description>Выращивает жилозовца из гемогеля и сохранённой эссенции навыков.</FB_GrowSinewcallerFromSkillEssence.description>
+  <FB_GrowGraftmawFromSkillEssence.label>вырастить сшивопасть из эссенции</FB_GrowGraftmawFromSkillEssence.label>
+  <FB_GrowGraftmawFromSkillEssence.description>Выращивает сшивопасть из гемогеля и сохранённой эссенции навыков.</FB_GrowGraftmawFromSkillEssence.description>
+  <FB_GrowCocoonbackFromSkillEssence.label>вырастить коконника из эссенции</FB_GrowCocoonbackFromSkillEssence.label>
+  <FB_GrowCocoonbackFromSkillEssence.description>Выращивает коконника из гемогеля и сохранённой эссенции навыков.</FB_GrowCocoonbackFromSkillEssence.description>
+  <FB_GrowNerveclotFromSkillEssence.label>вырастить нервный сгусток из эссенции</FB_GrowNerveclotFromSkillEssence.label>
+  <FB_GrowNerveclotFromSkillEssence.description>Выращивает нервный сгусток из гемогеля и сохранённой эссенции навыков.</FB_GrowNerveclotFromSkillEssence.description>
+  <FB_GrowThrallbloomFromSkillEssence.label>вырастить поработителя из эссенции</FB_GrowThrallbloomFromSkillEssence.label>
+  <FB_GrowThrallbloomFromSkillEssence.description>Выращивает поработителя из гемогеля и сохранённой эссенции навыков.</FB_GrowThrallbloomFromSkillEssence.description>
+  <FB_GrowFleshIntruderFromSkillEssence.label>вырастить внедрильщика плоти из эссенции</FB_GrowFleshIntruderFromSkillEssence.label>
+  <FB_GrowFleshIntruderFromSkillEssence.description>Выращивает одноразового внедрильщика плоти из гемогеля и сохранённой эссенции навыков.</FB_GrowFleshIntruderFromSkillEssence.description>
+  <FB_GrowFerrimawFromSkillEssence.label>вырастить железопасть из эссенции</FB_GrowFerrimawFromSkillEssence.label>
+  <FB_GrowFerrimawFromSkillEssence.description>Выращивает железопасть из гемогеля и сохранённой эссенции навыков.</FB_GrowFerrimawFromSkillEssence.description>
+</LanguageData>

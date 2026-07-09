@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Часть тела: cocoon shell (FB_CocoonbackShell) -->
+  <BodyPartDef>
+    <defName>FB_CocoonbackShell</defName>
+    <label>cocoon shell</label>
+    <hitPoints>38</hitPoints>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <solid>true</solid>
+    <skinCovered>false</skinCovered>
+    <bleedRate>0</bleedRate>
+  </BodyPartDef>
+  <!-- Часть тела: cocoon leg (FB_CocoonbackLeg) -->
+  <BodyPartDef>
+    <defName>FB_CocoonbackLeg</defName>
+    <label>cocoon leg</label>
+    <hitPoints>22</hitPoints>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <skinCovered>false</skinCovered>
+    <tags>
+      <li>MovingLimbCore</li>
+      <li>ManipulationLimbCore</li>
+    </tags>
+  </BodyPartDef>
+  <!-- Тело: cocoonback (FB_CocoonbackBody) -->
+  <BodyDef>
+    <defName>FB_CocoonbackBody</defName>
+    <label>cocoonback</label>
+    <corePart>
+      <def>MovingBodyFleshbeast</def>
+      <height>Middle</height>
+      <depth>Outside</depth>
+      <parts>
+        <li>
+          <def>Spine</def>
+          <coverage>0.0226</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Stomach</def>
+          <coverage>0.0302</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Heart</def>
+          <coverage>0.0226</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>left lung</customLabel>
+          <coverage>0.0181</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>right lung</customLabel>
+          <coverage>0.0181</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>left kidney</customLabel>
+          <coverage>0.0151</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>right kidney</customLabel>
+          <coverage>0.0151</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Liver</def>
+          <coverage>0.0196</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>FB_CocoonbackShell</def>
+          <coverage>0.196</coverage>
+          <depth>Outside</depth>
+        </li>
+        <li>
+          <def>FleshbeastHead</def>
+          <coverage>0.3618</coverage>
+          <groups>
+            <li>UpperHead</li>
+            <li>FullHead</li>
+            <li>HeadAttackTool</li>
+          </groups>
+          <parts>
+            <li>
+              <def>Skull</def>
+              <coverage>0.14</coverage>
+              <depth>Inside</depth>
+              <groups>
+                <li>UpperHead</li>
+                <li>Eyes</li>
+                <li>FullHead</li>
+              </groups>
+              <parts>
+                <li>
+                  <def>Brain</def>
+                  <coverage>0.62</coverage>
+                  <groups>
+                    <li>UpperHead</li>
+                    <li>Eyes</li>
+                    <li>FullHead</li>
+                  </groups>
+                </li>
+              </parts>
+            </li>
+            <li>
+              <def>Eye</def>
+              <customLabel>left eye</customLabel>
+              <coverage>0.018</coverage>
+              <groups>
+                <li>Eyes</li>
+                <li>FullHead</li>
+              </groups>
+            </li>
+            <li>
+              <def>Eye</def>
+              <customLabel>right eye</customLabel>
+              <coverage>0.018</coverage>
+              <groups>
+                <li>Eyes</li>
+                <li>FullHead</li>
+              </groups>
+            </li>
+            <li>
+              <def>Jaw</def>
+              <coverage>0.08</coverage>
+              <groups>
+                <li>FullHead</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>FB_CocoonbackLeg</def>
+          <customLabel>front left leg</customLabel>
+          <coverage>0.0452</coverage>
+          <depth>Outside</depth>
+          <groups>
+            <li>FirstTentacle</li>
+          </groups>
+        </li>
+        <li>
+          <def>FB_CocoonbackLeg</def>
+          <customLabel>front right leg</customLabel>
+          <coverage>0.0452</coverage>
+          <depth>Outside</depth>
+          <groups>
+            <li>SecondTentacle</li>
+          </groups>
+        </li>
+        <li>
+          <def>FB_CocoonbackLeg</def>
+          <customLabel>rear left leg</customLabel>
+          <coverage>0.0452</coverage>
+          <depth>Outside</depth>
+          <groups>
+            <li>ThirdTentacle</li>
+          </groups>
+        </li>
+        <li>
+          <def>FB_CocoonbackLeg</def>
+          <customLabel>rear right leg</customLabel>
+          <coverage>0.0452</coverage>
+          <depth>Outside</depth>
+          <groups>
+            <li>FourthTentacle</li>
+          </groups>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+</Defs>

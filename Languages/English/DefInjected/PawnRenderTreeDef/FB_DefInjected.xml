@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_CarapaceExcavatorRender.root.children.0.children.0.debugLabel>Claws</FB_CarapaceExcavatorRender.root.children.0.children.0.debugLabel>
+  <FB_CarapaceExcavatorRender.root.children.0.children.1.debugLabel>Wounds</FB_CarapaceExcavatorRender.root.children.0.children.1.debugLabel>
+  <FB_CarapaceExcavatorRender.root.children.0.children.2.debugLabel>Firefoam</FB_CarapaceExcavatorRender.root.children.0.children.2.debugLabel>
+  <FB_CarapaceExcavatorRender.root.children.0.debugLabel>Body</FB_CarapaceExcavatorRender.root.children.0.debugLabel>
+  <FB_CarapaceExcavatorRender.root.children.1.debugLabel>Carried thing</FB_CarapaceExcavatorRender.root.children.1.debugLabel>
+  <FB_CarapaceExcavatorRender.root.debugLabel>Root</FB_CarapaceExcavatorRender.root.debugLabel>
+  <FB_FingerspikeGauntlet.root.children.0.children.0.debugLabel>Spike</FB_FingerspikeGauntlet.root.children.0.children.0.debugLabel>
+  <FB_FingerspikeGauntlet.root.children.0.children.1.debugLabel>Wounds</FB_FingerspikeGauntlet.root.children.0.children.1.debugLabel>
+  <FB_FingerspikeGauntlet.root.children.0.children.2.debugLabel>Firefoam</FB_FingerspikeGauntlet.root.children.0.children.2.debugLabel>
+  <FB_FingerspikeGauntlet.root.children.0.debugLabel>Body</FB_FingerspikeGauntlet.root.children.0.debugLabel>
+  <FB_FingerspikeGauntlet.root.children.1.debugLabel>Carried thing</FB_FingerspikeGauntlet.root.children.1.debugLabel>
+  <FB_FingerspikeGauntlet.root.debugLabel>Root</FB_FingerspikeGauntlet.root.debugLabel>
+  <FB_Regenerator.root.children.0.children.0.debugLabel>TentacleA</FB_Regenerator.root.children.0.children.0.debugLabel>
+  <FB_Regenerator.root.children.0.children.1.debugLabel>TentacleA</FB_Regenerator.root.children.0.children.1.debugLabel>
+  <FB_Regenerator.root.children.0.children.2.debugLabel>TentacleA</FB_Regenerator.root.children.0.children.2.debugLabel>
+  <FB_Regenerator.root.children.0.children.3.debugLabel>TentacleA</FB_Regenerator.root.children.0.children.3.debugLabel>
+  <FB_Regenerator.root.children.0.children.4.debugLabel>Wounds</FB_Regenerator.root.children.0.children.4.debugLabel>
+  <FB_Regenerator.root.children.0.children.5.debugLabel>Firefoam</FB_Regenerator.root.children.0.children.5.debugLabel>
+  <FB_Regenerator.root.children.0.debugLabel>Body</FB_Regenerator.root.children.0.debugLabel>
+  <FB_Regenerator.root.children.1.debugLabel>Carried thing</FB_Regenerator.root.children.1.debugLabel>
+  <FB_Regenerator.root.debugLabel>Root</FB_Regenerator.root.debugLabel>
+  <FB_Sinewcaller.root.children.0.children.0.debugLabel>Tentacle</FB_Sinewcaller.root.children.0.children.0.debugLabel>
+  <FB_Sinewcaller.root.children.0.children.1.debugLabel>Wounds</FB_Sinewcaller.root.children.0.children.1.debugLabel>
+  <FB_Sinewcaller.root.children.0.children.2.debugLabel>Pack</FB_Sinewcaller.root.children.0.children.2.debugLabel>
+  <FB_Sinewcaller.root.children.0.children.3.debugLabel>Firefoam</FB_Sinewcaller.root.children.0.children.3.debugLabel>
+  <FB_Sinewcaller.root.children.0.debugLabel>Body</FB_Sinewcaller.root.children.0.debugLabel>
+  <FB_Sinewcaller.root.children.1.debugLabel>Carried thing</FB_Sinewcaller.root.children.1.debugLabel>
+  <FB_Sinewcaller.root.debugLabel>Root</FB_Sinewcaller.root.debugLabel>
+  <FB_TentacleTurret.root.children.0.children.0.debugLabel>NorthTentacle</FB_TentacleTurret.root.children.0.children.0.debugLabel>
+  <FB_TentacleTurret.root.children.0.children.1.debugLabel>SouthTentacle</FB_TentacleTurret.root.children.0.children.1.debugLabel>
+  <FB_TentacleTurret.root.children.0.children.2.debugLabel>EastTentacle</FB_TentacleTurret.root.children.0.children.2.debugLabel>
+  <FB_TentacleTurret.root.children.0.children.3.debugLabel>WestTentacle</FB_TentacleTurret.root.children.0.children.3.debugLabel>
+  <FB_TentacleTurret.root.children.0.children.4.debugLabel>Wounds</FB_TentacleTurret.root.children.0.children.4.debugLabel>
+  <FB_TentacleTurret.root.children.0.children.5.debugLabel>Firefoam</FB_TentacleTurret.root.children.0.children.5.debugLabel>
+  <FB_TentacleTurret.root.children.0.debugLabel>Body</FB_TentacleTurret.root.children.0.debugLabel>
+  <FB_TentacleTurret.root.children.1.debugLabel>Carried thing</FB_TentacleTurret.root.children.1.debugLabel>
+  <FB_TentacleTurret.root.debugLabel>Root</FB_TentacleTurret.root.debugLabel>
+</LanguageData>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_ColonyBrain_Structure_FleshTunnelMaw_Label>Flesh Tunnel Maw</FB_ColonyBrain_Structure_FleshTunnelMaw_Label>
+  <FB_ColonyBrain_Structure_GalvanicCyst_Label>Galvanic Cyst</FB_ColonyBrain_Structure_GalvanicCyst_Label>
+  <FB_ColonyBrain_Structure_GeoferriteGland_Label>Geoferrite Gland</FB_ColonyBrain_Structure_GeoferriteGland_Label>
+  <FB_ColonyBrain_Structure_GeoferriteGland_Desc>Grows a geyser-rooted organ that refines hemogel into bioferrite.</FB_ColonyBrain_Structure_GeoferriteGland_Desc>
+  <FB_GeoferriteGland_InspectProduction>Bioferrite output: {0}/day. Hemogel use: {1}/day.</FB_GeoferriteGland_InspectProduction>
+  <FB_GeoferriteGland_InspectPaused>Production paused: needs {0} hemogel.</FB_GeoferriteGland_InspectPaused>
+  <FB_GeoferriteGland_InspectNext>Next bioferrite: {0}</FB_GeoferriteGland_InspectNext>
+  <FB_GeoferriteGland_EconomyDetail>Refining bioferrite: {0}/day</FB_GeoferriteGland_EconomyDetail>
+</LanguageData>

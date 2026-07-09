@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Рецепт: Make Personality Parasite Egg (MakePersonalityParasiteEgg) -->
+  <RecipeDef ParentName="PlantFleshRecipe_Base">
+    <defName>MakePersonalityParasiteEgg</defName>
+    <label>Make Personality Parasite Egg</label>
+    <description>Craft a throbbing, veined egg incubating a consciousness parasite, using rare organic components, advanced materials, and human remains to fuel its psychic gestation. Requires high skill and resources, as the egg demands bioferrite for stability and uranium for neural enhancement.</description>
+    <jobString>Creating Personality Parasite Egg</jobString>
+    <workAmount>8000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>FB_OrganicComponent</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Bioferrite</li>
+          </thingDefs>
+        </filter>
+        <count>60</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Uranium</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+    </ingredients>
+    <products>
+      <FB_EggPersonalityParasite>1</FB_EggPersonalityParasite>
+    </products>
+    <skillRequirements>
+      <Crafting>10</Crafting>
+    </skillRequirements>
+    <researchPrerequisite>ParasiteEggConversion</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- Рецепт: make organic component (Make_OrganicComponent) -->
+  <RecipeDef>
+    <defName>Make_OrganicComponent</defName>
+    <label>make organic component</label>
+    <description>Assemble an organic component from bio-organic tissues, suitable for crafting living machines or symbiotic weapons.</description>
+    <jobString>Assembling organic component.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>2500</workAmount>
+    <unfinishedThingDef>UnfinishedOrganicComponent</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+          </categories>
+        </filter>
+        <count>30</count>
+      </li>
+      <li>
+        <filter>
+          <categories>
+            <li>Leathers</li>
+          </categories>
+        </filter>
+        <count>50</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Leathers</li>
+        <li>MeatRaw</li>
+      </categories>
+    </fixedIngredientFilter>
+    <products>
+      <FB_OrganicComponent>1</FB_OrganicComponent>
+    </products>
+    <skillRequirements>
+      <Crafting>10</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+    <displayPriority>10</displayPriority>
+    <recipeUsers>
+      <li>FB_SporeCradle</li>
+    </recipeUsers>
+  </RecipeDef>
+
+  <!-- База рецептов: PlantFleshRecipe_Base -->
+  <RecipeDef Name="PlantFleshRecipe_Base" Abstract="True">
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <workSkillLearnFactor>0.5</workSkillLearnFactor>
+    <recipeUsers>
+      <li>FB_SporeCradle</li>
+    </recipeUsers>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <skillRequirements>
+      <Crafting>5</Crafting>
+    </skillRequirements>
+    <researchPrerequisite>FleshSeedCreation</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- Рецепт: Make Flesh Blade Seed (MakeBudFlesh_FleshBladeSeed) -->
+  <RecipeDef ParentName="PlantFleshRecipe_Base">
+    <defName>MakeBudFlesh_FleshBladeSeed</defName>
+    <label>Make Flesh Blade Seed</label>
+    <description>Craft a pulsating seed infused with organic matter and plasteel fragments, which will grow into a Bud Flesh Blade. Requires a biofabrication bench and specific materials.</description>
+    <jobString>Creating Flesh Blade Seed</jobString>
+    <workAmount>6000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>FB_OrganicComponent</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>CorpsesHumanlike</li>
+      </categories>
+    </fixedIngredientFilter>
+    <products>
+      <BudFlesh_FleshBladeSeed>1</BudFlesh_FleshBladeSeed>
+    </products>
+  </RecipeDef>
+
+  <!-- Рецепт: Make Crimson Fang Seed (MakeBudFlesh_CrimsonFangSeed) -->
+  <RecipeDef ParentName="PlantFleshRecipe_Base">
+    <defName>MakeBudFlesh_CrimsonFangSeed</defName>
+    <label>Make Crimson Fang Seed</label>
+    <description>A dark, throbbing seed, veined with crimson streaks and hardened fragments of steel-like matter. Once buried in rich soil, it slowly awakens, feeding on the faint lifeforce of its surroundings. Over time, it sprouts into a grotesque bulb of flesh and sinew, from which a Crimson Fang Blade can be harvested. Careless handling may cause it to leech vitality from the one who carries it.</description>
+    <jobString>Creating Crimson Fang Seed</jobString>
+    <workAmount>6000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>FB_OrganicComponent</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+      <li>
+        <filter>
+          <categories>
+            <li>Corpses</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>CorpsesHumanlike</li>
+      </categories>
+    </fixedIngredientFilter>
+    <products>
+      <BudFlesh_CrimsonFangSeed>1</BudFlesh_CrimsonFangSeed>
+    </products>
+  </RecipeDef>
+
+  <!-- Рецепт: Make Ferrite Seed (MakeBudFlesh_FerriteSeed) -->
+  <RecipeDef ParentName="PlantFleshRecipe_Base">
+    <defName>MakeBudFlesh_FerriteSeed</defName>
+    <label>Make Ferrite Seed</label>
+    <description>A pulsating seed of dark flesh, threaded with ferrite veins and hardened metallic growths. It anchors itself into living tissue, merging with the flesh of the colony and feeding on its lifeforce. Over time, it swells into a grotesque cyst of sinew and mineral, eventually becoming the core of a living weapon — the Ferrite Fang. Prolonged contact may cause it to leech vitality directly from its host.</description>
+    <jobString>Creating Ferrite Seed</jobString>
+    <workAmount>6000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>FB_OrganicComponent</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+      <li>
+        <filter>
+          <categories>
+            <li>Corpses</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Bioferrite</li>
+          </thingDefs>
+        </filter>
+        <count>25</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>CorpsesHumanlike</li>
+      </categories>
+    </fixedIngredientFilter>
+    <products>
+      <BudFlesh_FerriteFangrootSeed>1</BudFlesh_FerriteFangrootSeed>
+    </products>
+  </RecipeDef>
+</Defs>

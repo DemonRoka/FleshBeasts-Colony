@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <FB_DefenderIncubator_ThreatReleaseHint>Automatically releases defenders when a visible hostile enters the {0}-cell detection radius.</FB_DefenderIncubator_ThreatReleaseHint>
+
+</LanguageData>

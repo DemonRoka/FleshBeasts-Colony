@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AbilityDef>
+    <defName>FB_FleshDivision</defName>
+    <description>Split the caster into a second body through a brief tearing ritual. Both resulting pawns keep only half of the original age and half of every skill's earned experience. Worn apparel is shed to the ground, and both bodies become temporarily flesh-unstable.</description>
+    <label>flesh division</label>
+    <iconPath>UI/Abilities/FleshDivision</iconPath>
+    <cooldownTicksRange>60</cooldownTicksRange>
+    <targetRequired>false</targetRequired>
+    <hostile>false</hostile>
+    <showPsycastEffects>false</showPsycastEffects>
+    <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
+    <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <warmupTime>0</warmupTime>
+      <nonInterruptingSelfCast>true</nonInterruptingSelfCast>
+      <drawAimPie>false</drawAimPie>
+      <range>-1</range>
+      <targetParams>
+        <canTargetSelf>true</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="FB.CompProperties_AbilityFleshDivision">
+        <spawnSearchRadius>4</spawnSearchRadius>
+        <instabilityTicks>180000</instabilityTicks>
+        <bloodFilthCountRange>6~10</bloodFilthCountRange>
+        <humanlikeOnly>true</humanlikeOnly>
+      </li>
+    </comps>
+  </AbilityDef>
+</Defs>

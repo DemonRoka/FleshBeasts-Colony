@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<FB_SkillQuintessenceLabel>квинтэссенция навыка ({0}, {1} XP)</FB_SkillQuintessenceLabel>
+	<FB_SkillQuintessenceInspect>Содержащийся навык: {0}; запас опыта: {1} XP</FB_SkillQuintessenceInspect>
+	<FB_SkillQuintessenceInvalidContents>Эта квинтэссенция не содержит пригодного навыка.</FB_SkillQuintessenceInvalidContents>
+	<FB_UseSkillQuintessence>Поглотить квинтэссенцию навыка {0} ({1} XP)</FB_UseSkillQuintessence>
+	<FB_UseSkillQuintessenceInvalid>Поглотить квинтэссенцию навыка</FB_UseSkillQuintessenceInvalid>
+	<FB_SkillQuintessenceCompress>Сжать</FB_SkillQuintessenceCompress>
+	<FB_SkillQuintessenceCompressTooltip>Сжать накопленные очки навыка в одноразовую квинтэссенцию. Каждое очко становится {0} XP. Один предмет может хранить до {1} XP.</FB_SkillQuintessenceCompressTooltip>
+	<FB_SkillQuintessenceSkillSelector>Навык:</FB_SkillQuintessenceSkillSelector>
+	<FB_SkillQuintessenceSelectSkill>Выбрать навык...</FB_SkillQuintessenceSelectSkill>
+	<FB_SkillQuintessenceSkillOption>{0}: {1} очков</FB_SkillQuintessenceSkillOption>
+	<FB_SkillQuintessenceSliderLabel>{0} XP | стоимость: {1} очков</FB_SkillQuintessenceSliderLabel>
+	<FB_SkillQuintessenceCreated>Создан предмет: {0}.</FB_SkillQuintessenceCreated>
+	<FB_SkillQuintessenceInvalidSkill>Навык не выбран.</FB_SkillQuintessenceInvalidSkill>
+	<FB_SkillQuintessenceInvalidLevels>Квинтэссенция может содержать от 1 до {0} сохранённых очков навыка.</FB_SkillQuintessenceInvalidLevels>
+	<FB_SkillQuintessenceWombUnavailable>Симбиотическая утроба недоступна.</FB_SkillQuintessenceWombUnavailable>
+	<FB_SkillQuintessenceNotEnoughPoints>Недостаточно очков навыка {0}: требуется {1}, доступно {2}.</FB_SkillQuintessenceNotEnoughPoints>
+	<FB_SkillQuintessenceDefMissing>Определение квинтэссенции навыка недоступно.</FB_SkillQuintessenceDefMissing>
+	<FB_SkillQuintessenceNoPlace>Рядом с утробой нет места для квинтэссенции.</FB_SkillQuintessenceNoPlace>
+	<FB_SkillQuintessenceMaxLevel>Навык {0} уже имеет максимальный базовый уровень.</FB_SkillQuintessenceMaxLevel>
+	<FB_SkillQuintessenceUsed>{USER_labelShort} поглощает квинтэссенцию навыка {1}, получая {2} XP. Базовый уровень: {3} -> {4}.</FB_SkillQuintessenceUsed>
+</LanguageData>

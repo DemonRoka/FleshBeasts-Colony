@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_ColonyBrain_Structure_BileMortarGland_Label>Bile Mortar Gland</FB_ColonyBrain_Structure_BileMortarGland_Label>
+  <FB_BilePodlingSpawnLabel>Grow bileburst podling</FB_BilePodlingSpawnLabel>
+  <FB_BilePodlingSpawnDesc>Grow one bileburst podling near this gland. Requires full hemogel network supply.</FB_BilePodlingSpawnDesc>
+  <FB_BilePodlingSpawnFailed>The bile mortar gland cannot grow a bileburst podling right now.</FB_BilePodlingSpawnFailed>
+  <FB_BilePodlingNoSpawnCell>There is no clear cell nearby for a bileburst podling.</FB_BilePodlingNoSpawnCell>
+  <FB_BilePodlingNoNetworkSupply>The hemogel network is underfed.</FB_BilePodlingNoNetworkSupply>
+  <FB_BilePodlingOwnedInspect>Bileburst podlings: {0}/{1}/{2} (ready / swelling / low charge)</FB_BilePodlingOwnedInspect>
+  <FB_BileMortarFireLabel>Fire bile mortar</FB_BileMortarFireLabel>
+  <FB_BileMortarFireDesc>Select a map cell within {1} cells to bombard. The gland will call the most charged reachable bileburst podling with at least {0}% volatile bile, load it, and launch it as a living shell. Impacts can scatter by about {2} cells.</FB_BileMortarFireDesc>
+  <FB_BileMortarNoLoadedPodling>No reachable bileburst podling has at least {0}% volatile bile.</FB_BileMortarNoLoadedPodling>
+  <FB_BileMortarCannotFire>The bile mortar gland cannot fire right now.</FB_BileMortarCannotFire>
+  <FB_BileMortarInvalidTarget>Invalid bile mortar target.</FB_BileMortarInvalidTarget>
+  <FB_BileMortarCannotReach>The selected bileburst podling cannot reach the mortar.</FB_BileMortarCannotReach>
+  <FB_BileMortarOutOfRange>Target is outside bile mortar range ({0} cells).</FB_BileMortarOutOfRange>
+  <FB_BileMortarAlreadyLoading>A bileburst podling is already loading into this gland.</FB_BileMortarAlreadyLoading>
+  <FB_BileMortarAutoManualDisabled>Auto-fire is enabled. Right-click the command to disable it before choosing a manual shot.</FB_BileMortarAutoManualDisabled>
+  <FB_BileMortarAutoState>Auto-fire: {0}</FB_BileMortarAutoState>
+  <FB_BileMortarAutoHint>Left-click for a manual shot when auto-fire is off. Right-click to toggle auto-fire.</FB_BileMortarAutoHint>
+  <FB_VolatileBileInspect>Volatile bile: {0}%</FB_VolatileBileInspect>
+  <FB_BileburstChargePausedNoSupply>Charge growth paused: the linked mortar lacks full hemogel supply.</FB_BileburstChargePausedNoSupply>
+  <FB_VolatileBileBarTitle>Volatile bile</FB_VolatileBileBarTitle>
+  <FB_VolatileBileBarTooltip>This podling's explosive bile charge. At 25% or higher it can be loaded into a bile mortar gland.</FB_VolatileBileBarTooltip>
+  <FB_DevBileburstDetonateLabel>DEV: Detonate bileburst</FB_DevBileburstDetonateLabel>
+  <FB_DevBileburstDetonateDesc>Order this bileburst podling to crawl to a selected target or cell and rupture its stored volatile bile. Dev-only.</FB_DevBileburstDetonateDesc>
+  <FB_BileburstChargeTooLow>Volatile bile must reach at least {0}% before detonation.</FB_BileburstChargeTooLow>
+  <FB_BileburstCannotDetonate>This bileburst podling cannot detonate there.</FB_BileburstCannotDetonate>
+  <FB_BileburstCannotReach>The bileburst podling cannot reach the detonation target.</FB_BileburstCannotReach>
+</LanguageData>

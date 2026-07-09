@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Раса: nerveclot (FB_Nerveclot) -->
+  <ThingDef ParentName="BaseFleshbeast">
+    <defName>FB_Nerveclot</defName>
+    <label>nerveclot</label>
+    <description>A walking knot of eyes, nerves and whispering mouths grown to serve as a mobile neural hub. Nerveclots flood nearby fleshbeasts with frantic impulse, accelerating their bodies, muting pain and urging their flesh to knit shut. When a nerveclot dies, its entire swollen network discharges in a final stunning pulse.</description>
+    <tradeability>None</tradeability>
+    <uiIconPath>Things/Pawn/FB_Nerveclot/Nerveclot_south</uiIconPath>
+    <statBases>
+      <MoveSpeed>3.3</MoveSpeed>
+      <ComfyTemperatureMin>-35</ComfyTemperatureMin>
+      <ComfyTemperatureMax>60</ComfyTemperatureMax>
+      <Flammability>1.1</Flammability>
+      <MinimumContainmentStrength>60</MinimumContainmentStrength>
+      <ToxicResistance>0.65</ToxicResistance>
+      <MarketValue>280</MarketValue>
+      <MeatAmount>18</MeatAmount>
+      <ArmorRating_Blunt>0.16</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+    </statBases>
+    <race>
+      <body>FB_NerveclotBody</body>
+      <intelligence>ToolUser</intelligence>
+      <specificMeatDef>Meat_Twisted</specificMeatDef>
+      <disableIgniteVerb>true</disableIgniteVerb>
+      <canOpenFactionlessDoors>false</canOpenFactionlessDoors>
+      <bloodDef>Filth_Blood</bloodDef>
+      <bloodSmearDef>Filth_BloodSmear</bloodSmearDef>
+      <soundMeleeDodge>Pawn_MeleeDodge</soundMeleeDodge>
+      <trainability>None</trainability>
+      <baseBodySize>1.35</baseBodySize>
+      <baseHungerRate>0.2</baseHungerRate>
+      <baseHealthScale>1.55</baseHealthScale>
+      <lifeExpectancy>18</lifeExpectancy>
+      <renderTree>Animal</renderTree>
+      <thinkTreeMain>FB_NerveclotMain</thinkTreeMain>
+      <thinkTreeConstant>FleshbeastConstant</thinkTreeConstant>
+      <needsRest>false</needsRest>
+      <hasGenders>false</hasGenders>
+      <foodType>None</foodType>
+      <canBePredatorPrey>false</canBePredatorPrey>
+      <fleshType>Fleshbeast</fleshType>
+      <isImmuneToInfections>true</isImmuneToInfections>
+      <bleedRateFactor>0.55</bleedRateFactor>
+      <lifeStageAges>
+        <li>
+          <def>EntityFullyFormed</def>
+          <soundWounded>Pawn_Fleshbeast_Fingerspike_Wounded</soundWounded>
+          <soundDeath>Pawn_Fleshbeast_Fingerspike_Death</soundDeath>
+          <soundCall>Pawn_Fleshbeast_Fingerspike_Call</soundCall>
+        </li>
+      </lifeStageAges>
+      <deathAction Class="DeathActionProperties_Vanish">
+        <workerClass>DeathActionWorker_Vanish</workerClass>
+        <filth>Filth_TwistedFlesh</filth>
+        <filthCountRange>2~4</filthCountRange>
+        <meatExplosionSize>Small</meatExplosionSize>
+      </deathAction>
+    </race>
+    <tools>
+      <li>
+        <label>gnashing maw</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>2.8</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <soundMeleeHit>Pawn_Fleshbeast_Attack_Blunt</soundMeleeHit>
+      </li>
+      <li>
+        <label>nerve lash</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>2</power>
+        <cooldownTime>2.6</cooldownTime>
+        <linkedBodyPartsGroup>FirstTentacle</linkedBodyPartsGroup>
+        <chanceFactor>0.2</chanceFactor>
+        <soundMeleeHit>Pawn_Dreadmeld_Attack_Spike</soundMeleeHit>
+      </li>
+    </tools>
+    <comps>
+      <li Class="FB.CompProperties_FleshbeastDraftable" />
+      <li Class="FB.CompProperties_NerveclotField">
+        <gizmoLabel>FB_Nerveclot_FieldLabel</gizmoLabel>
+        <gizmoDesc>FB_Nerveclot_FieldDesc</gizmoDesc>
+        <iconPath>UI/Commands/NerveclotField</iconPath>
+        <durationTicks>15000</durationTicks>
+        <cooldownTicks>120000</cooldownTicks>
+        <pulseIntervalTicks>30</pulseIntervalTicks>
+        <fieldRadius>10.5</fieldRadius>
+        <deathPulseRadius>4.9</deathPulseRadius>
+        <deathPulseStunTicks>60</deathPulseStunTicks>
+        <hediffRefreshTicks>120</hediffRefreshTicks>
+        <fleshbeastBuffHediffDef>FB_NerveclotResonance</fleshbeastBuffHediffDef>
+        <fieldPulseMoteDefName>Mote_CombatCommand</fieldPulseMoteDefName>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

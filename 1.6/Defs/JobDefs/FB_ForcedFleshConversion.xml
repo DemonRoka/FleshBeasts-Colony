@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <JobDef>
+    <defName>FB_ForcedFleshConversionSubject</defName>
+    <driverClass>FB.JobDriver_ForcedFleshConversionSubject</driverClass>
+    <reportString>being bound to the flesh colony.</reportString>
+    <checkOverrideOnDamage>Never</checkOverrideOnDamage>
+  </JobDef>
+
+  <JobDef>
+    <defName>FB_ForcedFleshConversionDoctor</defName>
+    <driverClass>FB.JobDriver_ForcedFleshConversionDoctor</driverClass>
+    <reportString>guiding the forced flesh acceptance of TargetB.</reportString>
+    <checkOverrideOnDamage>Never</checkOverrideOnDamage>
+  </JobDef>
+
+  <JobDef>
+    <defName>FB_ForcedFleshConversionFingerspike</defName>
+    <driverClass>FB.JobDriver_ForcedFleshConversionFingerspike</driverClass>
+    <reportString>waiting to be used in forced flesh acceptance.</reportString>
+    <checkOverrideOnDamage>Never</checkOverrideOnDamage>
+  </JobDef>
+
+  <JobDef>
+    <defName>FB_ForcedFleshConversionSpectator</defName>
+    <driverClass>FB.JobDriver_ForcedFleshConversionSpectator</driverClass>
+    <reportString>watching forced flesh acceptance.</reportString>
+    <checkOverrideOnDamage>Never</checkOverrideOnDamage>
+  </JobDef>
+</Defs>

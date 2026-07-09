@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Потребность: digging plate sharpness (FB_CarapacePlateSharpness) -->
+  <NeedDef>
+    <defName>FB_CarapacePlateSharpness</defName>
+    <needClass>FB.Need_CarapacePlateSharpness</needClass>
+    <label>digging plate sharpness</label>
+    <description>Shows wear on the excavator's digging plates. Worn plates regrow only while it is anchored near a colony heart and supplied by the hemogel network.</description>
+    <showOnNeedList>true</showOnNeedList>
+    <minIntelligence>ToolUser</minIntelligence>
+    <listPriority>560</listPriority>
+    <major>true</major>
+    <baseLevel>1</baseLevel>
+  </NeedDef>
+</Defs>

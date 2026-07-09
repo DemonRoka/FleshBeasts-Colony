@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Тип головы: FleshbeastHead -->
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>FleshbeastHead</defName>
+    <graphicPath>Things/Pawn/FB_Humanlike/Heads/FleshbeastHead</graphicPath>
+    <randomChosen>false</randomChosen>
+    <gender>None</gender>
+    <selectionWeight>99999</selectionWeight>
+    <requiredGenes>
+      <li>FB_FleshbeastBody</li>
+    </requiredGenes>
+  </HeadTypeDef>
+</Defs>

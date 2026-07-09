@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_FleshArchitectLockedDesc>Requires fleshmass engineering.</FB_FleshArchitectLockedDesc>
+  <FB_FleshArchitectNothingAvailable>Nothing available in {0}.</FB_FleshArchitectNothingAvailable>
+  <FB_FleshArchitectBrainHemogelBar>Network reserve: {0} / {1}</FB_FleshArchitectBrainHemogelBar>
+  <FB_FleshArchitectNoColonyBrain>No hemogel network reserve</FB_FleshArchitectNoColonyBrain>
+  <FB_FleshArchitectBrainHemogelTooltip>Hemogel stored in this map's connected network reserves. Flesh Architect spends this reserve when growing organs.</FB_FleshArchitectBrainHemogelTooltip>
+  <FB_FleshArchitectBrainHemogelTooltipDev>Hemogel stored in this map's connected network reserves. Dev mode ignores building costs, but the real reserve is shown here.</FB_FleshArchitectBrainHemogelTooltipDev>
+  <FB_GrowEmbryoDescNoCost>Place embryo to grow {0}.</FB_GrowEmbryoDescNoCost>
+  <FB_HemogelCostLine>Hemogel cost: {0}</FB_HemogelCostLine>
+  <FB_HemogelNetworkReserveCostLine>Network reserve cost: {0}</FB_HemogelNetworkReserveCostLine>
+  <FB_HemogelNetworkBaseConsumptionLine>Base network consumption: {0}/h</FB_HemogelNetworkBaseConsumptionLine>
+  <FB_ClearColonyEyes_Label>Remove colony eyes</FB_ClearColonyEyes_Label>
+  <FB_ClearColonyEyes_Desc>Remove colony eye organs in the selected cells.</FB_ClearColonyEyes_Desc>
+  <FB_ClearColonyEyes_NoneHere>No colony eye here.</FB_ClearColonyEyes_NoneHere>
+  <FB_GrowColonyEye_Label>Grow colony eye</FB_GrowColonyEye_Label>
+  <FB_GrowColonyEye_Desc>Grow a sensory eye directly from an empty patch of colony flesh.</FB_GrowColonyEye_Desc>
+  <FB_GrowFleshPlant_Label>Grow {0}</FB_GrowFleshPlant_Label>
+  <FB_GrowFleshPlant_Desc>Grow {0} from colony flesh. The plant starts newly sprouted.</FB_GrowFleshPlant_Desc>
+  <FB_GrowGrassEyes_Label>Grow eye grass</FB_GrowGrassEyes_Label>
+  <FB_GrowGrassEyes_Desc>Grow eye grass from colony flesh. The plant starts newly sprouted.</FB_GrowGrassEyes_Desc>
+  <FB_GrowFleshTree_Label>Grow flesh tree</FB_GrowFleshTree_Label>
+  <FB_GrowFleshTree_Desc>Grow a flesh tree from colony flesh. The plant starts newly sprouted.</FB_GrowFleshTree_Desc>
+  <FB_FleshPlantCellBlocked>The cell must be empty.</FB_FleshPlantCellBlocked>
+  <FB_FleshPlantTreeRoofed>Flesh trees cannot grow under roofs.</FB_FleshPlantTreeRoofed>
+</LanguageData>

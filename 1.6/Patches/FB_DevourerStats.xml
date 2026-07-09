@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/StatDef[defName="MoveSpeed"]/parts</xpath>
+    <value>
+      <li Class="FB.StatPart_DevourerMoveSpeed" />
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/StatDef[defName="MeleeDodgeChance"]/parts</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/StatDef[defName="MeleeDodgeChance"]/parts</xpath>
+      <value>
+        <li Class="FB.StatPart_DevourerMeleeDodge" />
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/StatDef[defName="MeleeDodgeChance"]</xpath>
+      <value>
+        <parts>
+          <li Class="FB.StatPart_DevourerMeleeDodge" />
+        </parts>
+      </value>
+    </nomatch>
+  </Operation>
+</Patch>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BasePawn">
+    <defName>FB_Stingmite</defName>
+    <label>stingmite</label>
+    <description>A disposable fleshbeast that rushes hostile humanoids, injects a paralytic nerve toxin, and bursts apart after striking.</description>
+    <tradeability>None</tradeability>
+    <uiIconPath>Things/Pawn/FB_Stingmite/FB_Stingmite</uiIconPath>
+    <statBases>
+      <MoveSpeed>5.8</MoveSpeed>
+      <ComfyTemperatureMin>-30</ComfyTemperatureMin>
+      <ComfyTemperatureMax>60</ComfyTemperatureMax>
+      <Flammability>1.6</Flammability>
+      <MeatAmount>0</MeatAmount>
+      <MarketValue>25</MarketValue>
+      <ToxicResistance>0.7</ToxicResistance>
+    </statBases>
+    <race>
+      <body>FB_StingmiteBody</body>
+      <baseBodySize>0.25</baseBodySize>
+      <baseHungerRate>0</baseHungerRate>
+      <baseHealthScale>0.3</baseHealthScale>
+      <lifeExpectancy>5</lifeExpectancy>
+      <renderTree>Animal</renderTree>
+      <intelligence>ToolUser</intelligence>
+      <trainability>None</trainability>
+      <thinkTreeMain>FB_StingmiteMain</thinkTreeMain>
+      <thinkTreeConstant>FB_StingmiteConstant</thinkTreeConstant>
+      <needsRest>false</needsRest>
+      <hasGenders>false</hasGenders>
+      <foodType>None</foodType>
+      <canBePredatorPrey>false</canBePredatorPrey>
+      <bloodDef>Filth_Blood</bloodDef>
+      <bloodSmearDef>Filth_BloodSmear</bloodSmearDef>
+      <fleshType>Fleshbeast</fleshType>
+      <isImmuneToInfections>true</isImmuneToInfections>
+      <bleedRateFactor>0.35</bleedRateFactor>
+      <specificMeatDef>Meat_Twisted</specificMeatDef>
+      <deathAction Class="DeathActionProperties_Vanish">
+        <workerClass>DeathActionWorker_Vanish</workerClass>
+        <filth>Filth_TwistedFlesh</filth>
+        <filthCountRange>1~2</filthCountRange>
+        <meatExplosionSize>Small</meatExplosionSize>
+      </deathAction>
+      <lifeStageAges>
+        <li>
+          <def>EntityFullyFormed</def>
+          <soundWounded>Pawn_Fleshbeast_Fingerspike_Wounded</soundWounded>
+          <soundDeath>Pawn_Fleshbeast_Fingerspike_Death</soundDeath>
+          <soundCall>Pawn_Fleshbeast_Fingerspike_Call</soundCall>
+        </li>
+      </lifeStageAges>
+    </race>
+    <comps>
+      <li Class="FB.CompProperties_StingmiteAssault">
+        <attackJob>FB_StingmiteAssault</attackJob>
+        <damageDef>Stab</damageDef>
+        <stunDamageDef>NerveStun</stunDamageDef>
+        <detectionRadius>65</detectionRadius>
+        <damageAmount>6</damageAmount>
+        <stunAmount>3</stunAmount>
+        <scanIntervalTicks>60</scanIntervalTicks>
+        <attackDelayTicks>20</attackDelayTicks>
+        <jobExpiryTicks>1200</jobExpiryTicks>
+        <humanlikesOnly>true</humanlikesOnly>
+        <requireLineOfSight>true</requireLineOfSight>
+      </li>
+      <li Class="FB.CompProperties_OutsideLifetime">
+        <lifetimeTicks>7500</lifetimeTicks>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

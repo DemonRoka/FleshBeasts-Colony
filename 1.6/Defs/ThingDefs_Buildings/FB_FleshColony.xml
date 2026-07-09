@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Постройка: flesh colony pit burrow (FB_PitBurrow) -->
+  <ThingDef ParentName="CraterBase">
+    <defName>FB_PitBurrow</defName>
+    <label>flesh colony pit burrow</label>
+    <description>A small hole to a flesh colony undercave.</description>
+    <thingClass>FB.FB_PitBurrow</thingClass>
+    <size>(3,3)</size>
+    <tickerType>Normal</tickerType>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/FB_PitBurrow/FB_PitBurrow</texPath>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+    <building>
+      <uninstallWork>2500</uninstallWork>
+    </building>
+    <portal>
+      <pocketMapGenerator>FleshColonyUndercave</pocketMapGenerator>
+      <exitDef>FB_CaveExit</exitDef>
+      <enteredLetterLabel>Flesh colony lair</enteredLetterLabel>
+      <enteredLetterText>Entered flesh colony undercave. Destroy structures.</enteredLetterText>
+      <enteredLetterDef>ThreatBig</enteredLetterDef>
+      <traverseSound>TraversePitGate</traverseSound>
+    </portal>
+  </ThingDef>
+
+  <!-- База построек: RotColonyStructureBase -->
+  <ThingDef Abstract="True" Name="RotColonyStructureBase" ParentName="BuildingBase">
+    <thingClass>FB.Building_FleshStructure</thingClass>
+    <rotatable>false</rotatable>
+    <fillPercent>0.5</fillPercent>
+    <altitudeLayer>Building</altitudeLayer>
+    <statBases>
+      <Flammability>0.5</Flammability>
+      <WorkToBuild>1000</WorkToBuild>
+    </statBases>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <building>
+      <deconstructible>false</deconstructible>
+      <claimable>false</claimable>
+    </building>
+    <comps>
+    </comps>
+  </ThingDef>
+
+  <!-- Постройка: rotten colony brain (FB_RotColonyBrain) -->
+  <ThingDef ParentName="RotColonyStructureBase">
+    <defName>FB_RotColonyBrain</defName>
+    <label>rotten colony brain</label>
+    <description>A decayed remnant of a fleshmass colony brain. Its organic components have rotted away, leaving it useless.</description>
+    <graphicData>
+      <texPath>Things/Building/FB_RotColonyStructures/RotColonyBrain</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(3.5)</drawSize>
+    </graphicData>
+    <size>(3,3)</size>
+    <statBases>
+      <MaxHitPoints>500</MaxHitPoints>
+    </statBases>
+    <comps>
+      <li Class="FB.CompProperties_FleshmassSpawnOnDeath">
+        <spawnPawnKindDefs>
+          <li>FB_Rotlarva</li>
+        </spawnPawnKindDefs>
+        <spawnPawnCountRange>3~5</spawnPawnCountRange>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- Постройка: rotten colony heart (FB_RotColonyHeart) -->
+  <ThingDef ParentName="RotColonyStructureBase">
+    <defName>FB_RotColonyHeart</defName>
+    <label>rotten colony heart</label>
+    <description>A decayed remnant of a fleshmass colony heart. Its organic components have rotted away, leaving it useless.</description>
+    <graphicData>
+      <texPath>Things/Building/FB_RotColonyStructures/RotColonyHeart</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(3.5)</drawSize>
+    </graphicData>
+    <size>(3,3)</size>
+    <statBases>
+      <MaxHitPoints>500</MaxHitPoints>
+    </statBases>
+    <comps>
+      <li Class="FB.CompProperties_FleshmassSpawnOnDeath">
+        <spawnPawnKindDefs>
+          <li>FB_Rotlarva</li>
+        </spawnPawnKindDefs>
+        <spawnPawnCountRange>3~5</spawnPawnCountRange>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- Постройка: pit gate (PitGate) -->
+  <ThingDef ParentName="BuildingBase">
+    <defName>PitGate</defName>
+    <label>pit gate</label>
+    <description>A massive, foreboding hole that connects the surface with a dark network of underground caves. It is possible to climb down into the caverns below.</description>
+    <size>(8,8)</size>
+    <useHitPoints>false</useHitPoints>
+    <thingClass>PitGate</thingClass>
+    <tickerType>Normal</tickerType>
+    <rotatable>false</rotatable>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <canOverlapZones>false</canOverlapZones>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/PitGate/PitGate</texPath>
+      <drawSize>(8,8)</drawSize>
+    </graphicData>
+    <altitudeLayer>FloorEmplacement</altitudeLayer>
+    <passability>Impassable</passability>
+    <holdsRoof>true</holdsRoof>
+    <destroyable>false</destroyable>
+    <building>
+      <isEdifice>true</isEdifice>
+      <deconstructible>false</deconstructible>
+      <isTargetable>false</isTargetable>
+      <isInert>true</isInert>
+      <claimable>false</claimable>
+      <expandHomeArea>false</expandHomeArea>
+    </building>
+    <portal>
+      <pocketMapGenerator>Undercave</pocketMapGenerator>
+      <exitDef>CaveExit</exitDef>
+      <enteredLetterLabel>Fleshbeast lair</enteredLetterLabel>
+      <enteredLetterText>In the depths of the pit gate, you have discovered a massive cavern system infested with fleshbeasts.\n\nThe cavern system is clogged with masses of living flesh that block your progress. Attack the fleshmass to destroy it.\n\nThe entire cavern system seems unstable. If you find what lies behind the fleshmass, you may be able to collapse the tunnels and close the pit gate.</enteredLetterText>
+      <enteredLetterDef>ThreatBig</enteredLetterDef>
+      <traverseSound>TraversePitGate</traverseSound>
+    </portal>
+    <statBases>
+      <Flammability>0</Flammability>
+    </statBases>
+    <inspectorTabs>
+      <li>ITab_ContentsMapPortal</li>
+    </inspectorTabs>
+    <comps>
+      <li Class="CompProperties_LeaveFilthOnDestroyed">
+        <filthDef>Filth_LooseGround</filthDef>
+        <thickness>5</thickness>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- Постройка: underground emergence (PitGateSpawner) -->
+  <ThingDef>
+    <defName>PitGateSpawner</defName>
+    <label>underground emergence</label>
+    <description>Something is emerging from the ground here.</description>
+    <thingClass>BuildingGroundSpawner</thingClass>
+    <destroyable>false</destroyable>
+    <holdsRoof>true</holdsRoof>
+    <selectable>true</selectable>
+    <tickerType>Normal</tickerType>
+    <useHitPoints>false</useHitPoints>
+    <drawerType>RealtimeOnly</drawerType>
+    <size>(8, 8)</size>
+    <uiIconPath>UI/Icons/UndergroundEmergence</uiIconPath>
+    <building>
+      <groundSpawnerSustainedEffecter>EmergencePointSustained8X8</groundSpawnerSustainedEffecter>
+      <groundSpawnerCompleteEffecter>EmergencePointComplete8X8</groundSpawnerCompleteEffecter>
+      <groundSpawnerThingToSpawn>PitGate</groundSpawnerThingToSpawn>
+      <groundSpawnerSpawnDelay>5000~20000</groundSpawnerSpawnDelay>
+      <groundSpawnerDestroyAdjacent>true</groundSpawnerDestroyAdjacent>
+      <groundSpawnerSustainerSound>PitGateOpening</groundSpawnerSustainerSound>
+      <groundSpawnerLetterLabel>Pit gate opened</groundSpawnerLetterLabel>
+      <groundSpawnerLetterText>The shifting terrain has fallen into the depths below, forming a massive hole.\n\nThis pit gate will remain open until you collapse its entrance. Explore the pit gate to find a way to collapse it from underneath and to find useful items in the undercaves.</groundSpawnerLetterText>
+    </building>
+  </ThingDef>
+
+  <!-- Постройка: underground emergence (PitBurrowSpawner) -->
+  <ThingDef>
+    <defName>PitBurrowSpawner</defName>
+    <label>underground emergence</label>
+    <description>Something is emerging from the ground here.</description>
+    <thingClass>BuildingGroundSpawner</thingClass>
+    <destroyable>false</destroyable>
+    <holdsRoof>true</holdsRoof>
+    <selectable>true</selectable>
+    <tickerType>Normal</tickerType>
+    <useHitPoints>false</useHitPoints>
+    <drawerType>RealtimeOnly</drawerType>
+    <size>(3, 3)</size>
+    <uiIconPath>UI/Icons/UndergroundEmergence</uiIconPath>
+    <building>
+      <groundSpawnerSustainedEffecter>EmergencePointSustained2X2</groundSpawnerSustainedEffecter>
+      <groundSpawnerCompleteEffecter>EmergencePointComplete2X2</groundSpawnerCompleteEffecter>
+      <groundSpawnerThingToSpawn>PitBurrow</groundSpawnerThingToSpawn>
+      <groundSpawnerSpawnDelay>600</groundSpawnerSpawnDelay>
+      <groundSpawnerDestroyAdjacent>true</groundSpawnerDestroyAdjacent>
+      <groundSpawnerSustainerSound>PitBurrowOpening</groundSpawnerSustainerSound>
+    </building>
+  </ThingDef>
+</Defs>

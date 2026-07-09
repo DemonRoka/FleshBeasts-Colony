@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_BurdenBlobBody.corePart.parts.10.customLabel>левая грузовая псевдоподия</FB_BurdenBlobBody.corePart.parts.10.customLabel>
+  <FB_BurdenBlobBody.corePart.parts.11.customLabel>правая грузовая псевдоподия</FB_BurdenBlobBody.corePart.parts.11.customLabel>
+  <FB_BurdenBlobBody.corePart.parts.4.customLabel>левое лёгкое</FB_BurdenBlobBody.corePart.parts.4.customLabel>
+  <FB_BurdenBlobBody.corePart.parts.5.customLabel>правое лёгкое</FB_BurdenBlobBody.corePart.parts.5.customLabel>
+  <FB_BurdenBlobBody.corePart.parts.6.customLabel>левая почка</FB_BurdenBlobBody.corePart.parts.6.customLabel>
+  <FB_BurdenBlobBody.corePart.parts.7.customLabel>правая почка</FB_BurdenBlobBody.corePart.parts.7.customLabel>
+  <FB_BurdenBlobBody.corePart.parts.9.parts.1.customLabel>левый глаз</FB_BurdenBlobBody.corePart.parts.9.parts.1.customLabel>
+  <FB_BurdenBlobBody.corePart.parts.9.parts.2.customLabel>правый глаз</FB_BurdenBlobBody.corePart.parts.9.parts.2.customLabel>
+  <FB_BurdenBlobBody.label>грузовая капля</FB_BurdenBlobBody.label>
+  <FB_CarapaceExcavatorBody.corePart.parts.10.customLabel>правый коготь-лопата</FB_CarapaceExcavatorBody.corePart.parts.10.customLabel>
+  <FB_CarapaceExcavatorBody.corePart.parts.11.customLabel>спинная панцирная пластина I</FB_CarapaceExcavatorBody.corePart.parts.11.customLabel>
+  <FB_CarapaceExcavatorBody.corePart.parts.12.customLabel>спинная панцирная пластина II</FB_CarapaceExcavatorBody.corePart.parts.12.customLabel>
+  <FB_CarapaceExcavatorBody.corePart.parts.13.customLabel>спинная панцирная пластина 3</FB_CarapaceExcavatorBody.corePart.parts.13.customLabel>
+  <FB_CarapaceExcavatorBody.corePart.parts.14.customLabel>передняя левая опорная нога</FB_CarapaceExcavatorBody.corePart.parts.14.customLabel>
+  <FB_CarapaceExcavatorBody.corePart.parts.15.customLabel>передняя правая опорная нога</FB_CarapaceExcavatorBody.corePart.parts.15.customLabel>
+  <FB_CarapaceExcavatorBody.corePart.parts.16.customLabel>задняя левая опорная нога</FB_CarapaceExcavatorBody.corePart.parts.16.customLabel>
+  <FB_CarapaceExcavatorBody.corePart.parts.17.customLabel>задняя правая опорная нога</FB_CarapaceExcavatorBody.corePart.parts.17.customLabel>
+  <FB_CarapaceExcavatorBody.corePart.parts.3.customLabel>левое лёгкое</FB_CarapaceExcavatorBody.corePart.parts.3.customLabel>
+  <FB_CarapaceExcavatorBody.corePart.parts.4.customLabel>правое лёгкое</FB_CarapaceExcavatorBody.corePart.parts.4.customLabel>
+  <FB_CarapaceExcavatorBody.corePart.parts.5.customLabel>левая почка</FB_CarapaceExcavatorBody.corePart.parts.5.customLabel>
+  <FB_CarapaceExcavatorBody.corePart.parts.6.customLabel>правая почка</FB_CarapaceExcavatorBody.corePart.parts.6.customLabel>
+  <FB_CarapaceExcavatorBody.corePart.parts.8.parts.1.customLabel>левый глаз</FB_CarapaceExcavatorBody.corePart.parts.8.parts.1.customLabel>
+  <FB_CarapaceExcavatorBody.corePart.parts.8.parts.2.customLabel>правый глаз</FB_CarapaceExcavatorBody.corePart.parts.8.parts.2.customLabel>
+  <FB_CarapaceExcavatorBody.corePart.parts.8.parts.3.customLabel>левый буровой клык</FB_CarapaceExcavatorBody.corePart.parts.8.parts.3.customLabel>
+  <FB_CarapaceExcavatorBody.corePart.parts.8.parts.4.customLabel>правый буровой клык</FB_CarapaceExcavatorBody.corePart.parts.8.parts.4.customLabel>
+  <FB_CarapaceExcavatorBody.corePart.parts.9.customLabel>левый коготь-лопата</FB_CarapaceExcavatorBody.corePart.parts.9.customLabel>
+  <FB_CarapaceExcavatorBody.label>панцирный копатель</FB_CarapaceExcavatorBody.label>
+  <FB_CocoonbackBody.corePart.parts.10.customLabel>передняя левая нога</FB_CocoonbackBody.corePart.parts.10.customLabel>
+  <FB_CocoonbackBody.corePart.parts.11.customLabel>передняя правая нога</FB_CocoonbackBody.corePart.parts.11.customLabel>
+  <FB_CocoonbackBody.corePart.parts.12.customLabel>задняя левая нога</FB_CocoonbackBody.corePart.parts.12.customLabel>
+  <FB_CocoonbackBody.corePart.parts.13.customLabel>задняя правая нога</FB_CocoonbackBody.corePart.parts.13.customLabel>
+  <FB_CocoonbackBody.corePart.parts.3.customLabel>левое лёгкое</FB_CocoonbackBody.corePart.parts.3.customLabel>
+  <FB_CocoonbackBody.corePart.parts.4.customLabel>правое лёгкое</FB_CocoonbackBody.corePart.parts.4.customLabel>
+  <FB_CocoonbackBody.corePart.parts.5.customLabel>левая почка</FB_CocoonbackBody.corePart.parts.5.customLabel>
+  <FB_CocoonbackBody.corePart.parts.6.customLabel>правая почка</FB_CocoonbackBody.corePart.parts.6.customLabel>
+  <FB_CocoonbackBody.corePart.parts.9.parts.1.customLabel>левый глаз</FB_CocoonbackBody.corePart.parts.9.parts.1.customLabel>
+  <FB_CocoonbackBody.corePart.parts.9.parts.2.customLabel>правый глаз</FB_CocoonbackBody.corePart.parts.9.parts.2.customLabel>
+  <FB_CocoonbackBody.label>коконник</FB_CocoonbackBody.label>
+  <FB_CortexMiteBody.corePart.parts.3.customLabel>левое лёгкое</FB_CortexMiteBody.corePart.parts.3.customLabel>
+  <FB_CortexMiteBody.corePart.parts.4.customLabel>правое лёгкое</FB_CortexMiteBody.corePart.parts.4.customLabel>
+  <FB_CortexMiteBody.corePart.parts.5.customLabel>левая почка</FB_CortexMiteBody.corePart.parts.5.customLabel>
+  <FB_CortexMiteBody.corePart.parts.6.customLabel>правая почка</FB_CortexMiteBody.corePart.parts.6.customLabel>
+  <FB_CortexMiteBody.corePart.parts.8.parts.1.customLabel>левый передний глаз</FB_CortexMiteBody.corePart.parts.8.parts.1.customLabel>
+  <FB_CortexMiteBody.corePart.parts.8.parts.10.customLabel>правая задняя шипонога</FB_CortexMiteBody.corePart.parts.8.parts.10.customLabel>
+  <FB_CortexMiteBody.corePart.parts.8.parts.11.customLabel>левая задняя шипонога</FB_CortexMiteBody.corePart.parts.8.parts.11.customLabel>
+  <FB_CortexMiteBody.corePart.parts.8.parts.12.customLabel>правая задняя шипонога</FB_CortexMiteBody.corePart.parts.8.parts.12.customLabel>
+  <FB_CortexMiteBody.corePart.parts.8.parts.2.customLabel>правый передний глаз</FB_CortexMiteBody.corePart.parts.8.parts.2.customLabel>
+  <FB_CortexMiteBody.corePart.parts.8.parts.3.customLabel>левый боковой глаз</FB_CortexMiteBody.corePart.parts.8.parts.3.customLabel>
+  <FB_CortexMiteBody.corePart.parts.8.parts.4.customLabel>правый боковой глаз</FB_CortexMiteBody.corePart.parts.8.parts.4.customLabel>
+  <FB_CortexMiteBody.corePart.parts.8.parts.5.customLabel>передняя левая шипонога</FB_CortexMiteBody.corePart.parts.8.parts.5.customLabel>
+  <FB_CortexMiteBody.corePart.parts.8.parts.6.customLabel>передняя правая шипонога</FB_CortexMiteBody.corePart.parts.8.parts.6.customLabel>
+  <FB_CortexMiteBody.corePart.parts.8.parts.7.customLabel>левая средняя шипонога</FB_CortexMiteBody.corePart.parts.8.parts.7.customLabel>
+  <FB_CortexMiteBody.corePart.parts.8.parts.8.customLabel>правая средняя шипонога</FB_CortexMiteBody.corePart.parts.8.parts.8.customLabel>
+  <FB_CortexMiteBody.corePart.parts.8.parts.9.customLabel>левая задняя шипонога</FB_CortexMiteBody.corePart.parts.8.parts.9.customLabel>
+  <FB_CortexMiteBody.label>мозговой клещ</FB_CortexMiteBody.label>
+  <FB_FerrimawBody.corePart.parts.10.customLabel>правая выделительная пора</FB_FerrimawBody.corePart.parts.10.customLabel>
+  <FB_FerrimawBody.corePart.parts.11.parts.1.customLabel>левый глаз</FB_FerrimawBody.corePart.parts.11.parts.1.customLabel>
+  <FB_FerrimawBody.corePart.parts.11.parts.2.customLabel>правый глаз</FB_FerrimawBody.corePart.parts.11.parts.2.customLabel>
+  <FB_FerrimawBody.corePart.parts.12.customLabel>передняя левая скребущая конечность</FB_FerrimawBody.corePart.parts.12.customLabel>
+  <FB_FerrimawBody.corePart.parts.13.customLabel>передняя правая скребущая конечность</FB_FerrimawBody.corePart.parts.13.customLabel>
+  <FB_FerrimawBody.corePart.parts.14.customLabel>задняя левая скребущая конечность</FB_FerrimawBody.corePart.parts.14.customLabel>
+  <FB_FerrimawBody.corePart.parts.15.customLabel>задняя правая скребущая конечность</FB_FerrimawBody.corePart.parts.15.customLabel>
+  <FB_FerrimawBody.corePart.parts.3.customLabel>левое лёгкое</FB_FerrimawBody.corePart.parts.3.customLabel>
+  <FB_FerrimawBody.corePart.parts.4.customLabel>правое лёгкое</FB_FerrimawBody.corePart.parts.4.customLabel>
+  <FB_FerrimawBody.corePart.parts.5.customLabel>левая почка</FB_FerrimawBody.corePart.parts.5.customLabel>
+  <FB_FerrimawBody.corePart.parts.6.customLabel>правая почка</FB_FerrimawBody.corePart.parts.6.customLabel>
+  <FB_FerrimawBody.corePart.parts.9.customLabel>левая выделительная пора</FB_FerrimawBody.corePart.parts.9.customLabel>
+  <FB_FerrimawBody.label>железопасть</FB_FerrimawBody.label>
+  <FB_FleshLarvaBody.corePart.parts.2.parts.1.customLabel>левый глаз</FB_FleshLarvaBody.corePart.parts.2.parts.1.customLabel>
+  <FB_FleshLarvaBody.corePart.parts.2.parts.2.customLabel>правый глаз</FB_FleshLarvaBody.corePart.parts.2.parts.2.customLabel>
+  <FB_FleshLarvaBody.label>тело плотяной личинки</FB_FleshLarvaBody.label>
+  <FB_GraftmawBody.corePart.parts.10.customLabel>правый шовный узел</FB_GraftmawBody.corePart.parts.10.customLabel>
+  <FB_GraftmawBody.corePart.parts.11.parts.1.customLabel>левый глаз</FB_GraftmawBody.corePart.parts.11.parts.1.customLabel>
+  <FB_GraftmawBody.corePart.parts.11.parts.2.customLabel>правый глаз</FB_GraftmawBody.corePart.parts.11.parts.2.customLabel>
+  <FB_GraftmawBody.corePart.parts.11.parts.4.customLabel>ротовая шовная бахрома</FB_GraftmawBody.corePart.parts.11.parts.4.customLabel>
+  <FB_GraftmawBody.corePart.parts.12.customLabel>передний левый манипулятор</FB_GraftmawBody.corePart.parts.12.customLabel>
+  <FB_GraftmawBody.corePart.parts.13.customLabel>передний правый манипулятор</FB_GraftmawBody.corePart.parts.13.customLabel>
+  <FB_GraftmawBody.corePart.parts.14.customLabel>левый средний манипулятор</FB_GraftmawBody.corePart.parts.14.customLabel>
+  <FB_GraftmawBody.corePart.parts.15.customLabel>правый средний манипулятор</FB_GraftmawBody.corePart.parts.15.customLabel>
+  <FB_GraftmawBody.corePart.parts.16.customLabel>задний левый манипулятор</FB_GraftmawBody.corePart.parts.16.customLabel>
+  <FB_GraftmawBody.corePart.parts.17.customLabel>задний правый манипулятор</FB_GraftmawBody.corePart.parts.17.customLabel>
+  <FB_GraftmawBody.corePart.parts.3.customLabel>левое лёгкое</FB_GraftmawBody.corePart.parts.3.customLabel>
+  <FB_GraftmawBody.corePart.parts.4.customLabel>правое лёгкое</FB_GraftmawBody.corePart.parts.4.customLabel>
+  <FB_GraftmawBody.corePart.parts.5.customLabel>левая почка</FB_GraftmawBody.corePart.parts.5.customLabel>
+  <FB_GraftmawBody.corePart.parts.6.customLabel>правая почка</FB_GraftmawBody.corePart.parts.6.customLabel>
+  <FB_GraftmawBody.corePart.parts.9.customLabel>левый шовный узел</FB_GraftmawBody.corePart.parts.9.customLabel>
+  <FB_GraftmawBody.label>сшивопасть</FB_GraftmawBody.label>
+  <FB_NerveclotBody.corePart.parts.10.customLabel>передняя правая нервная нога</FB_NerveclotBody.corePart.parts.10.customLabel>
+  <FB_NerveclotBody.corePart.parts.11.customLabel>задняя левая нервная нога</FB_NerveclotBody.corePart.parts.11.customLabel>
+  <FB_NerveclotBody.corePart.parts.12.customLabel>задняя правая нервная нога</FB_NerveclotBody.corePart.parts.12.customLabel>
+  <FB_NerveclotBody.corePart.parts.3.customLabel>левое лёгкое</FB_NerveclotBody.corePart.parts.3.customLabel>
+  <FB_NerveclotBody.corePart.parts.4.customLabel>правое лёгкое</FB_NerveclotBody.corePart.parts.4.customLabel>
+  <FB_NerveclotBody.corePart.parts.5.customLabel>левая почка</FB_NerveclotBody.corePart.parts.5.customLabel>
+  <FB_NerveclotBody.corePart.parts.6.customLabel>правая почка</FB_NerveclotBody.corePart.parts.6.customLabel>
+  <FB_NerveclotBody.corePart.parts.8.parts.1.customLabel>центральный глаз</FB_NerveclotBody.corePart.parts.8.parts.1.customLabel>
+  <FB_NerveclotBody.corePart.parts.8.parts.2.customLabel>верхний глаз</FB_NerveclotBody.corePart.parts.8.parts.2.customLabel>
+  <FB_NerveclotBody.corePart.parts.8.parts.3.customLabel>левый глаз</FB_NerveclotBody.corePart.parts.8.parts.3.customLabel>
+  <FB_NerveclotBody.corePart.parts.8.parts.4.customLabel>правый глаз</FB_NerveclotBody.corePart.parts.8.parts.4.customLabel>
+  <FB_NerveclotBody.corePart.parts.8.parts.5.customLabel>ротовая бахрома</FB_NerveclotBody.corePart.parts.8.parts.5.customLabel>
+  <FB_NerveclotBody.corePart.parts.8.parts.6.customLabel>левая шепчущая пасть</FB_NerveclotBody.corePart.parts.8.parts.6.customLabel>
+  <FB_NerveclotBody.corePart.parts.8.parts.7.customLabel>правая шепчущая пасть</FB_NerveclotBody.corePart.parts.8.parts.7.customLabel>
+  <FB_NerveclotBody.corePart.parts.9.customLabel>передняя левая нервная нога</FB_NerveclotBody.corePart.parts.9.customLabel>
+  <FB_NerveclotBody.label>нервный сгусток</FB_NerveclotBody.label>
+  <FB_ParasiteBody.corePart.parts.0.customLabel>первый глаз</FB_ParasiteBody.corePart.parts.0.customLabel>
+  <FB_ParasiteBody.corePart.parts.1.customLabel>второй глаз</FB_ParasiteBody.corePart.parts.1.customLabel>
+  <FB_ParasiteBody.corePart.parts.2.customLabel>третий глаз</FB_ParasiteBody.corePart.parts.2.customLabel>
+  <FB_ParasiteBody.corePart.parts.3.customLabel>левое щупальце</FB_ParasiteBody.corePart.parts.3.customLabel>
+  <FB_ParasiteBody.corePart.parts.4.customLabel>правое щупальце</FB_ParasiteBody.corePart.parts.4.customLabel>
+  <FB_ParasiteBody.corePart.parts.5.customLabel>заднее щупальце</FB_ParasiteBody.corePart.parts.5.customLabel>
+  <FB_ParasiteBody.label>паразит</FB_ParasiteBody.label>
+  <FB_Regenerator.corePart.parts.0.parts.0.customLabel>щупальце</FB_Regenerator.corePart.parts.0.parts.0.customLabel>
+  <FB_Regenerator.corePart.parts.0.parts.1.customLabel>щупальце</FB_Regenerator.corePart.parts.0.parts.1.customLabel>
+  <FB_Regenerator.corePart.parts.0.parts.2.customLabel>щупальце</FB_Regenerator.corePart.parts.0.parts.2.customLabel>
+  <FB_Regenerator.corePart.parts.0.parts.3.customLabel>щупальце</FB_Regenerator.corePart.parts.0.parts.3.customLabel>
+  <FB_Regenerator.corePart.parts.10.customLabel>правое плечо</FB_Regenerator.corePart.parts.10.customLabel>
+  <FB_Regenerator.corePart.parts.11.customLabel>левое щупальце</FB_Regenerator.corePart.parts.11.customLabel>
+  <FB_Regenerator.corePart.parts.12.customLabel>правое щупальце</FB_Regenerator.corePart.parts.12.customLabel>
+  <FB_Regenerator.corePart.parts.3.customLabel>левое лёгкое</FB_Regenerator.corePart.parts.3.customLabel>
+  <FB_Regenerator.corePart.parts.4.customLabel>правое лёгкое</FB_Regenerator.corePart.parts.4.customLabel>
+  <FB_Regenerator.corePart.parts.5.customLabel>левая почка</FB_Regenerator.corePart.parts.5.customLabel>
+  <FB_Regenerator.corePart.parts.6.customLabel>правая почка</FB_Regenerator.corePart.parts.6.customLabel>
+  <FB_Regenerator.corePart.parts.8.parts.0.parts.1.customLabel>левый глаз</FB_Regenerator.corePart.parts.8.parts.0.parts.1.customLabel>
+  <FB_Regenerator.corePart.parts.8.parts.0.parts.2.customLabel>правый глаз</FB_Regenerator.corePart.parts.8.parts.0.parts.2.customLabel>
+  <FB_Regenerator.corePart.parts.9.customLabel>левое плечо</FB_Regenerator.corePart.parts.9.customLabel>
+  <FB_Regenerator.label>регенератор</FB_Regenerator.label>
+  <FB_ScrapmeldBody.corePart.parts.3.customLabel>левое лёгкое</FB_ScrapmeldBody.corePart.parts.3.customLabel>
+  <FB_ScrapmeldBody.corePart.parts.4.customLabel>правое лёгкое</FB_ScrapmeldBody.corePart.parts.4.customLabel>
+  <FB_ScrapmeldBody.corePart.parts.5.customLabel>левая почка</FB_ScrapmeldBody.corePart.parts.5.customLabel>
+  <FB_ScrapmeldBody.corePart.parts.6.customLabel>правая почка</FB_ScrapmeldBody.corePart.parts.6.customLabel>
+  <FB_ScrapmeldBody.corePart.parts.8.parts.1.customLabel>левый глаз</FB_ScrapmeldBody.corePart.parts.8.parts.1.customLabel>
+  <FB_ScrapmeldBody.corePart.parts.8.parts.2.customLabel>правый глаз</FB_ScrapmeldBody.corePart.parts.8.parts.2.customLabel>
+  <FB_ScrapmeldBody.label>скрапмелд</FB_ScrapmeldBody.label>
+  <FB_ScrapmeldNestlingBody.corePart.parts.2.parts.1.customLabel>глаз</FB_ScrapmeldNestlingBody.corePart.parts.2.parts.1.customLabel>
+  <FB_ScrapmeldNestlingBody.label>зародыш скрапмелда</FB_ScrapmeldNestlingBody.label>
+  <FB_Shardlings.corePart.parts.10.customLabel>правое плечо</FB_Shardlings.corePart.parts.10.customLabel>
+  <FB_Shardlings.corePart.parts.11.customLabel>левое щупальце</FB_Shardlings.corePart.parts.11.customLabel>
+  <FB_Shardlings.corePart.parts.12.customLabel>правое щупальце</FB_Shardlings.corePart.parts.12.customLabel>
+  <FB_Shardlings.corePart.parts.3.customLabel>левое лёгкое</FB_Shardlings.corePart.parts.3.customLabel>
+  <FB_Shardlings.corePart.parts.4.customLabel>правое лёгкое</FB_Shardlings.corePart.parts.4.customLabel>
+  <FB_Shardlings.corePart.parts.5.customLabel>левая почка</FB_Shardlings.corePart.parts.5.customLabel>
+  <FB_Shardlings.corePart.parts.6.customLabel>правая почка</FB_Shardlings.corePart.parts.6.customLabel>
+  <FB_Shardlings.corePart.parts.8.parts.0.parts.1.customLabel>левый глаз</FB_Shardlings.corePart.parts.8.parts.0.parts.1.customLabel>
+  <FB_Shardlings.corePart.parts.8.parts.0.parts.2.customLabel>правый глаз</FB_Shardlings.corePart.parts.8.parts.0.parts.2.customLabel>
+  <FB_Shardlings.corePart.parts.9.customLabel>левое плечо</FB_Shardlings.corePart.parts.9.customLabel>
+  <FB_Shardlings.label>осколочники</FB_Shardlings.label>
+  <FB_SinewcallerBody.corePart.parts.10.customLabel>передняя правая нога</FB_SinewcallerBody.corePart.parts.10.customLabel>
+  <FB_SinewcallerBody.corePart.parts.11.customLabel>задняя левая нога</FB_SinewcallerBody.corePart.parts.11.customLabel>
+  <FB_SinewcallerBody.corePart.parts.12.customLabel>задняя правая нога</FB_SinewcallerBody.corePart.parts.12.customLabel>
+  <FB_SinewcallerBody.corePart.parts.3.customLabel>левое лёгкое</FB_SinewcallerBody.corePart.parts.3.customLabel>
+  <FB_SinewcallerBody.corePart.parts.4.customLabel>правое лёгкое</FB_SinewcallerBody.corePart.parts.4.customLabel>
+  <FB_SinewcallerBody.corePart.parts.5.customLabel>левая почка</FB_SinewcallerBody.corePart.parts.5.customLabel>
+  <FB_SinewcallerBody.corePart.parts.6.customLabel>правая почка</FB_SinewcallerBody.corePart.parts.6.customLabel>
+  <FB_SinewcallerBody.corePart.parts.8.parts.1.customLabel>левый глаз</FB_SinewcallerBody.corePart.parts.8.parts.1.customLabel>
+  <FB_SinewcallerBody.corePart.parts.8.parts.2.customLabel>правый глаз</FB_SinewcallerBody.corePart.parts.8.parts.2.customLabel>
+  <FB_SinewcallerBody.corePart.parts.8.parts.4.customLabel>шепчущее щупальце</FB_SinewcallerBody.corePart.parts.8.parts.4.customLabel>
+  <FB_SinewcallerBody.corePart.parts.9.customLabel>передняя левая нога</FB_SinewcallerBody.corePart.parts.9.customLabel>
+  <FB_SinewcallerBody.label>жилозовец</FB_SinewcallerBody.label>
+  <FB_SymbioHeadBody.corePart.parts.3.customLabel>левое лёгкое</FB_SymbioHeadBody.corePart.parts.3.customLabel>
+  <FB_SymbioHeadBody.corePart.parts.4.customLabel>правое лёгкое</FB_SymbioHeadBody.corePart.parts.4.customLabel>
+  <FB_SymbioHeadBody.corePart.parts.5.customLabel>левая почка</FB_SymbioHeadBody.corePart.parts.5.customLabel>
+  <FB_SymbioHeadBody.corePart.parts.6.customLabel>правая почка</FB_SymbioHeadBody.corePart.parts.6.customLabel>
+  <FB_SymbioHeadBody.corePart.parts.8.parts.1.customLabel>левый глаз</FB_SymbioHeadBody.corePart.parts.8.parts.1.customLabel>
+  <FB_SymbioHeadBody.corePart.parts.8.parts.2.customLabel>правый глаз</FB_SymbioHeadBody.corePart.parts.8.parts.2.customLabel>
+  <FB_SymbioHeadBody.label>симбиотическая голова</FB_SymbioHeadBody.label>
+  <FB_TentacleTurretBody.corePart.parts.0.customLabel>ядро</FB_TentacleTurretBody.corePart.parts.0.customLabel>
+  <FB_TentacleTurretBody.corePart.parts.1.customLabel>гелевый мешок</FB_TentacleTurretBody.corePart.parts.1.customLabel>
+  <FB_TentacleTurretBody.corePart.parts.2.customLabel>первичный сенсор</FB_TentacleTurretBody.corePart.parts.2.customLabel>
+  <FB_TentacleTurretBody.corePart.parts.3.customLabel>вторичный сенсор</FB_TentacleTurretBody.corePart.parts.3.customLabel>
+  <FB_TentacleTurretBody.corePart.parts.4.customLabel>северное щупальце</FB_TentacleTurretBody.corePart.parts.4.customLabel>
+  <FB_TentacleTurretBody.corePart.parts.5.customLabel>южное щупальце</FB_TentacleTurretBody.corePart.parts.5.customLabel>
+  <FB_TentacleTurretBody.corePart.parts.6.customLabel>восточное щупальце</FB_TentacleTurretBody.corePart.parts.6.customLabel>
+  <FB_TentacleTurretBody.corePart.parts.7.customLabel>западное щупальце</FB_TentacleTurretBody.corePart.parts.7.customLabel>
+  <FB_TentacleTurretBody.label>тело плотяной турели</FB_TentacleTurretBody.label>
+  <FB_ThrallbloomBody.corePart.parts.10.customLabel>правое удерживающее щупальце</FB_ThrallbloomBody.corePart.parts.10.customLabel>
+  <FB_ThrallbloomBody.corePart.parts.11.customLabel>заднее левое удерживающее щупальце</FB_ThrallbloomBody.corePart.parts.11.customLabel>
+  <FB_ThrallbloomBody.corePart.parts.12.customLabel>заднее правое удерживающее щупальце</FB_ThrallbloomBody.corePart.parts.12.customLabel>
+  <FB_ThrallbloomBody.corePart.parts.13.customLabel>левый коронный шип</FB_ThrallbloomBody.corePart.parts.13.customLabel>
+  <FB_ThrallbloomBody.corePart.parts.14.customLabel>правый коронный шип</FB_ThrallbloomBody.corePart.parts.14.customLabel>
+  <FB_ThrallbloomBody.corePart.parts.15.parts.1.customLabel>центральный глаз</FB_ThrallbloomBody.corePart.parts.15.parts.1.customLabel>
+  <FB_ThrallbloomBody.corePart.parts.15.parts.2.customLabel>левый узловой глаз</FB_ThrallbloomBody.corePart.parts.15.parts.2.customLabel>
+  <FB_ThrallbloomBody.corePart.parts.15.parts.3.customLabel>правый узловой глаз</FB_ThrallbloomBody.corePart.parts.15.parts.3.customLabel>
+  <FB_ThrallbloomBody.corePart.parts.15.parts.4.customLabel>питающий пучок щупалец</FB_ThrallbloomBody.corePart.parts.15.parts.4.customLabel>
+  <FB_ThrallbloomBody.corePart.parts.3.customLabel>левое лёгкое</FB_ThrallbloomBody.corePart.parts.3.customLabel>
+  <FB_ThrallbloomBody.corePart.parts.4.customLabel>правое лёгкое</FB_ThrallbloomBody.corePart.parts.4.customLabel>
+  <FB_ThrallbloomBody.corePart.parts.5.customLabel>левая почка</FB_ThrallbloomBody.corePart.parts.5.customLabel>
+  <FB_ThrallbloomBody.corePart.parts.6.customLabel>правая почка</FB_ThrallbloomBody.corePart.parts.6.customLabel>
+  <FB_ThrallbloomBody.corePart.parts.8.customLabel>переднее удерживающее щупальце</FB_ThrallbloomBody.corePart.parts.8.customLabel>
+  <FB_ThrallbloomBody.corePart.parts.9.customLabel>левое удерживающее щупальце</FB_ThrallbloomBody.corePart.parts.9.customLabel>
+  <FB_ThrallbloomBody.label>поработитель</FB_ThrallbloomBody.label>
+</LanguageData>

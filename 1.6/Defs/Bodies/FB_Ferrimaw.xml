@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Часть тела: rasping limb (FB_FerrimawRaspingLimb) -->
+  <BodyPartDef>
+    <defName>FB_FerrimawRaspingLimb</defName>
+    <label>rasping limb</label>
+    <hitPoints>24</hitPoints>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <tags>
+      <li>MovingLimbCore</li>
+      <li>ManipulationLimbCore</li>
+    </tags>
+  </BodyPartDef>
+
+  <!-- Часть тела: ferric gut (FB_FerrimawFerricGut) -->
+  <BodyPartDef>
+    <defName>FB_FerrimawFerricGut</defName>
+    <label>ferric gut</label>
+    <hitPoints>26</hitPoints>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <canSuggestAmputation>false</canSuggestAmputation>
+  </BodyPartDef>
+
+  <!-- Часть тела: secretion vent (FB_FerrimawSecretionVent) -->
+  <BodyPartDef>
+    <defName>FB_FerrimawSecretionVent</defName>
+    <label>secretion vent</label>
+    <hitPoints>16</hitPoints>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <canSuggestAmputation>false</canSuggestAmputation>
+  </BodyPartDef>
+
+  <!-- Часть тела: crusher maw (FB_FerrimawCrusherMaw) -->
+  <BodyPartDef>
+    <defName>FB_FerrimawCrusherMaw</defName>
+    <label>crusher maw</label>
+    <hitPoints>20</hitPoints>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+  </BodyPartDef>
+
+  <!-- Тело: ferrimaw (FB_FerrimawBody) -->
+  <BodyDef>
+    <defName>FB_FerrimawBody</defName>
+    <label>ferrimaw</label>
+    <corePart>
+      <def>MovingBodyFleshbeast</def>
+      <height>Middle</height>
+      <depth>Outside</depth>
+      <parts>
+        <li>
+          <def>Spine</def>
+          <coverage>0.02</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Stomach</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Heart</def>
+          <coverage>0.018</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>left lung</customLabel>
+          <coverage>0.016</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>right lung</customLabel>
+          <coverage>0.016</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>left kidney</customLabel>
+          <coverage>0.012</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>right kidney</customLabel>
+          <coverage>0.012</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Liver</def>
+          <coverage>0.018</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>FB_FerrimawFerricGut</def>
+          <coverage>0.05</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>FB_FerrimawSecretionVent</def>
+          <customLabel>left secretion vent</customLabel>
+          <coverage>0.018</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>FB_FerrimawSecretionVent</def>
+          <customLabel>right secretion vent</customLabel>
+          <coverage>0.018</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>FleshbeastHead</def>
+          <coverage>0.32</coverage>
+          <groups>
+            <li>UpperHead</li>
+            <li>FullHead</li>
+            <li>HeadAttackTool</li>
+          </groups>
+          <parts>
+            <li>
+              <def>Skull</def>
+              <coverage>0.16</coverage>
+              <depth>Inside</depth>
+              <groups>
+                <li>UpperHead</li>
+                <li>Eyes</li>
+                <li>FullHead</li>
+              </groups>
+              <parts>
+                <li>
+                  <def>Brain</def>
+                  <coverage>0.66</coverage>
+                  <groups>
+                    <li>UpperHead</li>
+                    <li>Eyes</li>
+                    <li>FullHead</li>
+                  </groups>
+                </li>
+              </parts>
+            </li>
+            <li>
+              <def>Eye</def>
+              <customLabel>left eye</customLabel>
+              <coverage>0.02</coverage>
+              <groups>
+                <li>FullHead</li>
+                <li>Eyes</li>
+              </groups>
+            </li>
+            <li>
+              <def>Eye</def>
+              <customLabel>right eye</customLabel>
+              <coverage>0.02</coverage>
+              <groups>
+                <li>FullHead</li>
+                <li>Eyes</li>
+              </groups>
+            </li>
+            <li>
+              <def>FB_FerrimawCrusherMaw</def>
+              <coverage>0.08</coverage>
+              <groups>
+                <li>FullHead</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>FB_FerrimawRaspingLimb</def>
+          <customLabel>front left rasping limb</customLabel>
+          <coverage>0.07</coverage>
+          <depth>Outside</depth>
+          <groups>
+            <li>FirstTentacle</li>
+          </groups>
+        </li>
+        <li>
+          <def>FB_FerrimawRaspingLimb</def>
+          <customLabel>front right rasping limb</customLabel>
+          <coverage>0.07</coverage>
+          <depth>Outside</depth>
+          <groups>
+            <li>SecondTentacle</li>
+          </groups>
+        </li>
+        <li>
+          <def>FB_FerrimawRaspingLimb</def>
+          <customLabel>rear left rasping limb</customLabel>
+          <coverage>0.07</coverage>
+          <depth>Outside</depth>
+        </li>
+        <li>
+          <def>FB_FerrimawRaspingLimb</def>
+          <customLabel>rear right rasping limb</customLabel>
+          <coverage>0.07</coverage>
+          <depth>Outside</depth>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+</Defs>

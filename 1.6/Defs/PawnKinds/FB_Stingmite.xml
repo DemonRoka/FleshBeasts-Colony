@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <PawnKindDef ParentName="BaseFleshbeastKind">
+    <defName>FB_StingmiteKind</defName>
+    <label>stingmite</label>
+    <labelPlural>stingmites</labelPlural>
+    <race>FB_Stingmite</race>
+    <combatPower>18</combatPower>
+    <canMeleeAttack>false</canMeleeAttack>
+    <forceDeathOnDowned>true</forceDeathOnDowned>
+    <forceNoDeathNotification>true</forceNoDeathNotification>
+    <defaultFactionDef>PlayerColony</defaultFactionDef>
+    <canOpenDoors>true</canOpenDoors>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/FB_Stingmite/FB_Stingmite</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <drawSize>0.85</drawSize>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+</Defs>

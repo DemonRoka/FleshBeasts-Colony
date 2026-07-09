@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_DevourerGestation.label>выращивание поглотителя</FB_DevourerGestation.label>
+  <FB_DevourerGestation.description>Учит мозг колонии выращивать медленного бронированного поглотителя, заглатывающего врагов и переваривающего их в гемогель.</FB_DevourerGestation.description>
+  <FB_DevourerGestation.generalRules.rulesStrings.0>subject-&gt;выращивание поглотителя</FB_DevourerGestation.generalRules.rulesStrings.0>
+  <FB_DevourerGestation.generalRules.rulesStrings.1>subject_story-&gt;вырастили бронированных желудочных зверей для захвата в бою</FB_DevourerGestation.generalRules.rulesStrings.1>
+  <FB_DevourerGestation.generalRules.rulesStrings.2>subject_story-&gt;превратили проглоченную добычу в запасы гемогеля</FB_DevourerGestation.generalRules.rulesStrings.2>
+  <FB_DevourerGestation.generalRules.rulesStrings.3>subject_gerund-&gt;выращивание поглотителей</FB_DevourerGestation.generalRules.rulesStrings.3>
+</LanguageData>

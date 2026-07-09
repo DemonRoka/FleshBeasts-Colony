@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_BileMortarGland.label>желчная мортирная железа</FB_BileMortarGland.label>
+  <FB_BileMortarGland.description>Живая артиллерийская железа, выращивающая желчных подрывников и запускающая зрелых как зажигательные снаряды.</FB_BileMortarGland.description>
+  <FB_BileMortarGlandEmbryo.label>эмбрион желчной мортирной железы</FB_BileMortarGlandEmbryo.label>
+  <FB_BileMortarGlandEmbryo.description>Незрелый желчный орган, который вырастет в желчную мортирную железу.</FB_BileMortarGlandEmbryo.description>
+  <FB_BileburstPodling.label>желчный подрывник</FB_BileburstPodling.label>
+  <FB_BileburstPodling.description>Живой заряд желчи, выращенный мортирной железой. Со временем дозревает, после чего подрывает себя или заряжается в мортиру.</FB_BileburstPodling.description>
+  <FB_BileburstPodling.tools.0.label>мягкий укус</FB_BileburstPodling.tools.0.label>
+  <FB_BileburstPodlingShell.label>снаряд желчного подрывника</FB_BileburstPodlingShell.label>
+  <FB_BileburstPodlingShell.description>Желчный подрывник, сжатый в артиллерийскую дугу и готовый разорваться горящей органической желчью при ударе.</FB_BileburstPodlingShell.description>
+  <FB_VolatileBileFilth.label>горючая желчь</FB_VolatileBileFilth.label>
+  <FB_VolatileBileFilth.description>Скользкое пятно нестабильной органической желчи. Оно легко воспламеняется при контакте с огнём.</FB_VolatileBileFilth.description>
+</LanguageData>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_Devourer_GrowLabel>Grow devourer</FB_Devourer_GrowLabel>
+  <FB_Devourer_GrowDesc>Spend {0} brain hemogel to grow a large armored fleshbeast that swallows enemies and digests them into hemogel.</FB_Devourer_GrowDesc>
+  <FB_Devourer_NotEnoughBrainHemogel>Need {0} brain hemogel. Available: {1}.</FB_Devourer_NotEnoughBrainHemogel>
+  <FB_Devourer_NoSpawnCell>No valid space near the colony brain.</FB_Devourer_NoSpawnCell>
+  <FB_Devourer_GrowSuccess>{0} has grown.</FB_Devourer_GrowSuccess>
+
+  <FB_Devourer_DevourLabel>Devour target</FB_Devourer_DevourLabel>
+  <FB_Devourer_DevourDesc>Charge into a living non-allied target and swallow it. Contained: {0} / {1}.</FB_Devourer_DevourDesc>
+  <FB_Devourer_CannotAct>The devourer cannot act.</FB_Devourer_CannotAct>
+  <FB_Devourer_ContainerFull>The devourer is full.</FB_Devourer_ContainerFull>
+  <FB_Devourer_InvalidTarget>Invalid devour target.</FB_Devourer_InvalidTarget>
+  <FB_Devourer_RejectOwn>Cannot devour player-owned pawns or animals.</FB_Devourer_RejectOwn>
+  <FB_Devourer_RejectMech>Cannot devour mechanoids.</FB_Devourer_RejectMech>
+  <FB_Devourer_RejectTooLarge>{0} is too large to swallow. Maximum body size: {1}.</FB_Devourer_RejectTooLarge>
+  <FB_Devourer_RejectUnreachable>Cannot reach the target.</FB_Devourer_RejectUnreachable>
+  <FB_Devourer_RejectOutOfRange>The target is outside the devour range of {0} cells.</FB_Devourer_RejectOutOfRange>
+  <FB_Devourer_Swallowed>{0} swallowed {1}.</FB_Devourer_Swallowed>
+  <FB_Devourer_Digested>{0} digested {1}, producing {2} hemogel.</FB_Devourer_Digested>
+  <FB_Devourer_ReleasedOnDeath>{0} swallowed victims burst free.</FB_Devourer_ReleasedOnDeath>
+
+  <FB_Devourer_ContainedInspect>Contained: {0} / {1}</FB_Devourer_ContainedInspect>
+  <FB_Devourer_PenaltyInspect>Encumbrance: move speed -{0}, melee dodge -{1}</FB_Devourer_PenaltyInspect>
+  <FB_Devourer_MoveSpeedStatPart>Devourer contents ({0}): x{1}</FB_Devourer_MoveSpeedStatPart>
+  <FB_Devourer_DodgeStatPart>Devourer contents ({0}): x{1}</FB_Devourer_DodgeStatPart>
+</LanguageData>

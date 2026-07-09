@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Предмет: flesh biomass (FB_FleshBiomass) -->
+  <ThingDef ParentName="OrganicProductBase">
+    <defName>FB_FleshBiomass</defName>
+    <tradeability>None</tradeability>
+    <label>flesh biomass</label>
+    <description>A dense serving of edible colony biomass. Nutritious and safe, though deeply unsettling to anyone not bound to the flesh colony.</description>
+    <possessionCount>10</possessionCount>
+    <graphicData>
+      <texPath>Things/Item/Resource/FleshBiomass</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <statBases>
+      <MarketValue>10.0</MarketValue>
+      <Mass>0.05</Mass>
+      <Nutrition>0.5</Nutrition>
+      <FoodPoisonChanceFixedHuman>0.00</FoodPoisonChanceFixedHuman>
+      <DeteriorationRate>20</DeteriorationRate>
+    </statBases>
+    <stackLimit>20</stackLimit>
+    <ingestible>
+      <foodType>Meal</foodType>
+      <preferability>MealAwful</preferability>
+      <tasteThought>FB_AteFleshBiomass</tasteThought>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+      <lowPriorityCaravanFood>true</lowPriorityCaravanFood>
+      <babiesCanIngest>true</babiesCanIngest>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>2</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <thingCategories>
+      <li>FoodMeals</li>
+    </thingCategories>
+    <allowedArchonexusCount>150</allowedArchonexusCount>
+  </ThingDef>
+
+  <!-- Предмет: hemogel ration chunk (FB_HemogelRation) -->
+  <ThingDef ParentName="MealBaseIngredientless">
+    <defName>FB_HemogelRation</defName>
+    <tradeability>None</tradeability>
+    <possessionCount>10</possessionCount>
+    <graphicData>
+      <texPath>Things/Item/Resource/HemogelRation</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>12</MarketValue>
+      <Mass>0.15</Mass>
+      <Nutrition>0.5</Nutrition>
+      <FoodPoisonChanceFixedHuman>0</FoodPoisonChanceFixedHuman>
+      <DeteriorationRate>0.25</DeteriorationRate>
+    </statBases>
+    <stackLimit>50</stackLimit>
+    <ingestible>
+      <foodType>Meal</foodType>
+      <preferability>MealSimple</preferability>
+      <tasteThought>FB_AteFleshBiomass</tasteThought>
+      <optimalityOffsetHumanlikes>-5</optimalityOffsetHumanlikes>
+      <optimalityOffsetFeedingAnimals>-100</optimalityOffsetFeedingAnimals>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+      <babiesCanIngest>true</babiesCanIngest>
+    </ingestible>
+    <allowedArchonexusCount>100</allowedArchonexusCount>
+  </ThingDef>
+
+  <!-- Предмет: organic component (FB_OrganicComponent) -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>FB_OrganicComponent</defName>
+    <tradeability>None</tradeability>
+    <label>organic component</label>
+    <description>Clusters of veins, nodules, membranes, glands, tendrils, and other bio-organic tissues. Required for assembling complex living machines, symbiotic structures, or organic weapons.</description>
+    <possessionCount>2</possessionCount>
+    <graphicData>
+      <texPath>Things/Item/Resource/OrganicComponent</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <soundInteract>Grain_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <stackLimit>50</stackLimit>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <statBases>
+      <MaxHitPoints>60</MaxHitPoints>
+      <MarketValue>40</MarketValue>
+      <Mass>0.5</Mass>
+      <Flammability>0.8</Flammability>
+      <DeteriorationRate>3.0</DeteriorationRate>
+    </statBases>
+    <intricate>true</intricate>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+    <allowedArchonexusCount>10</allowedArchonexusCount>
+    <stuffProps>
+      <color>(139,69,19)</color>
+    </stuffProps>
+  </ThingDef>
+  <!-- Предмет: unfinished organic component (UnfinishedOrganicComponent) -->
+  <ThingDef ParentName="UnfinishedBase">
+    <defName>UnfinishedOrganicComponent</defName>
+    <label>unfinished organic component</label>
+    <description>An uunfinished organic component.</description>
+    <statBases>
+      <Flammability>0.5</Flammability>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Item/Unfinished/UnfinishedOrganicComponent</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stuffCategories Inherit="false" />
+  </ThingDef>
+  <!-- База предметов: BaseWeapon_LivingLink -->
+  <ThingDef Name="BaseWeapon_LivingLink" ParentName="BaseWeapon" Abstract="True">
+    <techLevel>Ultra</techLevel>
+    <tradeNeverStack>true</tradeNeverStack>
+    <relicChance>3</relicChance>
+    <weaponTags>
+      <li>LivingLink</li>
+    </weaponTags>
+    <tradeTags>
+      <li>WeaponMelee</li>
+    </tradeTags>
+    <weaponClasses>
+      <li>Ultratech</li>
+    </weaponClasses>
+    <comps>
+      <li Class="CompProperties_BladelinkWeapon" MayRequire="Ludeon.RimWorld.Royalty">
+        <biocodeOnEquip>False</biocodeOnEquip>
+      </li>
+      <li Class="CompProperties_GeneratedName" MayRequire="Ludeon.RimWorld.Royalty">
+        <nameMaker MayRequire="Ludeon.RimWorld.Royalty">NamerWeaponBladelink</nameMaker>
+      </li>
+    </comps>
+    <smeltable>false</smeltable>
+    <burnableByRecipe>true</burnableByRecipe>
+    <notifyMapRemoved>true</notifyMapRemoved>
+    <thingSetMakerTags>
+      <li>WeaponLivingLink</li>
+    </thingSetMakerTags>
+  </ThingDef>
+  <!-- Предмет: Flesh Blade (FB_FleshBlade) -->
+  <ThingDef ParentName="BaseWeapon_LivingLink">
+    <defName>FB_FleshBlade</defName>
+    <tradeability>None</tradeability>
+    <label>Flesh Blade</label>
+    <description>A living weapon born from a flesh-plant that entwines a plasteel blade, creating a symbiotic Flesh Blade. This grotesque yet powerful sword pulses with organic life, its plasteel edge honed by the plant's growth. Embedded with an onboard persona, it bonds with a single wielder, enhancing their combat prowess with synchronized reflexes, speed, and creative strike patterns.</description>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <Mass>2.5</Mass>
+    </statBases>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Item/Equipment/WeaponMelee/FleshBlade</texPath>
+      <color>(1,1,1)</color>
+    </graphicData>
+    <soundInteract MayRequire="Ludeon.RimWorld.Royalty">Interact_BladelinkMonoSword</soundInteract>
+    <meleeHitSound MayRequire="Ludeon.RimWorld.Royalty">MeleeHit_BladelinkMonoSword</meleeHitSound>
+    <smeltable>false</smeltable>
+    <weaponClasses>
+      <li>Melee</li>
+      <li>MeleePiercer</li>
+    </weaponClasses>
+    <tools>
+      <li>
+        <label>organic hilt</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+      <li>
+        <label>plasteel edge</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>27</power>
+        <cooldownTime>1.6</cooldownTime>
+        <armorPenetration>0.9</armorPenetration>
+      </li>
+      <li>
+        <label>living edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>27</power>
+        <cooldownTime>1.6</cooldownTime>
+        <armorPenetration>0.9</armorPenetration>
+      </li>
+    </tools>
+  </ThingDef>
+  <!-- Предмет: Crimson Fang (FB_CrimsonFang) -->
+  <ThingDef ParentName="BaseWeapon_LivingLink">
+    <defName>FB_CrimsonFang</defName>
+    <tradeability>None</tradeability>
+    <label>Crimson Fang</label>
+    <description>A living weapon grown from a flesh-tendril wrapped around a crescent plasteel blade. Its grotesque form pulses with organic life, while crimson veins channel energy into its razor edge. The fleshy core embedded in the handle beats like a heart, strengthening the wielder’s reflexes and lending hunger to each strike.</description>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <Mass>2.7</Mass>
+    </statBases>
+    <equippedAngleOffset>-70</equippedAngleOffset>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Item/Equipment/WeaponMelee/CrimsonFang</texPath>
+      <color>(1,1,1)</color>
+    </graphicData>
+    <soundInteract MayRequire="Ludeon.RimWorld.Royalty">Interact_BladelinkMonoSword</soundInteract>
+    <meleeHitSound MayRequire="Ludeon.RimWorld.Royalty">MeleeHit_BladelinkMonoSword</meleeHitSound>
+    <smeltable>false</smeltable>
+    <weaponClasses>
+      <li>Melee</li>
+      <li>MeleePiercer</li>
+    </weaponClasses>
+    <tools>
+      <li>
+        <label>fleshy core</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>13</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+      <li>
+        <label>crimson edge</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>28</power>
+        <cooldownTime>1.6</cooldownTime>
+        <armorPenetration>0.95</armorPenetration>
+      </li>
+      <li>
+        <label>living crescent</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>28</power>
+        <cooldownTime>1.6</cooldownTime>
+        <armorPenetration>0.95</armorPenetration>
+      </li>
+    </tools>
+  </ThingDef>
+  <!-- Предмет: Ferrite Sting (FB_FerriteSting) -->
+  <ThingDef ParentName="BaseWeapon_LivingLink">
+    <defName>FB_FerriteSting</defName>
+    <tradeability>None</tradeability>
+    <label>Ferrite Sting</label>
+    <description>A living weapon grown from a flesh-tendril wrapped around a crescent plasteel blade. Its grotesque form pulses with organic life, while crimson veins channel energy into its razor edge. The fleshy core embedded in the handle beats like a heart, strengthening the wielder’s reflexes and lending hunger to each strike.</description>
+    <statBases>
+      <MarketValue>1100</MarketValue>
+      <Mass>3.0</Mass>
+    </statBases>
+    <equippedAngleOffset>-70</equippedAngleOffset>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponMelee/FeritSting</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <color>(1,1,1)</color>
+    </graphicData>
+    <soundInteract MayRequire="Ludeon.RimWorld.Royalty">Interact_BladelinkMonoSword</soundInteract>
+    <meleeHitSound MayRequire="Ludeon.RimWorld.Royalty">MeleeHit_BladelinkMonoSword</meleeHitSound>
+    <smeltable>false</smeltable>
+    <weaponClasses>
+      <li>Melee</li>
+      <li>MeleePiercer</li>
+    </weaponClasses>
+    <tools>
+      <li>
+        <label>fleshy core</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+      <li>
+        <label>crimson edge</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>1.6</cooldownTime>
+        <armorPenetration>0.9</armorPenetration>
+      </li>
+      <li>
+        <label>living crescent</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>1.6</cooldownTime>
+        <armorPenetration>0.9</armorPenetration>
+      </li>
+    </tools>
+    <comps>
+      <li Class="FB.CompProperties_EquippableRandomFixedAbility">
+        <abilityDefs>
+          <li>SpikeLaunch_Toughspike</li>
+          <li>SpikeLaunch_Fingerspike</li>
+          <li>UnnaturalHealing</li>
+          <li>ShapeFlesh</li>
+          <li>CorrosiveSpray</li>
+          <li>RevenantInvisibility</li>
+        </abilityDefs>
+      </li>
+    </comps>
+  </ThingDef>
+  <!-- Предмет: Flesh Blade seed (BudFlesh_FleshBladeSeed) -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>BudFlesh_FleshBladeSeed</defName>
+    <tradeability>None</tradeability>
+    <label>Flesh Blade seed</label>
+    <description>A pulsating seed infused with organic matter and plasteel fragments, capable of sprouting into a Flesh Blade. This seed must be planted on fertile ground, where it will grow into a living plant that fuses with a plasteel blade, eventually yielding a sentient sword. Handle with care, as it thrives on the essence of life around it.</description>
+    <descriptionHyperlinks>
+      <ThingDef>BudFlesh_FleshBlade</ThingDef>
+    </descriptionHyperlinks>
+    <stackLimit>1</stackLimit>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Mass>0.3</Mass>
+      <Beauty>0</Beauty>
+      <MarketValue>70</MarketValue>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Item/FleshBladeSeed</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1, 1)</drawSize>
+    </graphicData>
+    <thingCategories>
+      <li>ItemsMisc</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Plantable">
+        <plantDefToSpawn>BudFlesh_FleshBlade</plantDefToSpawn>
+      </li>
+    </comps>
+  </ThingDef>
+  <!-- Предмет: Crimson Fang Seed (BudFlesh_CrimsonFangSeed) -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>BudFlesh_CrimsonFangSeed</defName>
+    <tradeability>None</tradeability>
+    <label>Crimson Fang Seed</label>
+    <description>A dark, throbbing seed, veined with crimson streaks and hardened fragments of steel-like matter. Once buried in rich soil, it slowly awakens, feeding on the faint lifeforce of its surroundings. Over time, it sprouts into a grotesque bulb of flesh and sinew, from which a Crimson Fang Blade can be harvested. Careless handling may cause it to leech vitality from the one who carries it.</description>
+    <descriptionHyperlinks>
+      <ThingDef>BudFlesh_CrimsonBulb</ThingDef>
+    </descriptionHyperlinks>
+    <stackLimit>1</stackLimit>
+    <statBases>
+      <MaxHitPoints>40</MaxHitPoints>
+      <Mass>0.25</Mass>
+      <Beauty>-3</Beauty>
+      <MarketValue>80</MarketValue>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Item/CrimsonFangSeed</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1, 1)</drawSize>
+    </graphicData>
+    <thingCategories>
+      <li>ItemsMisc</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Plantable">
+        <plantDefToSpawn>BudFlesh_CrimsonBulb</plantDefToSpawn>
+      </li>
+    </comps>
+  </ThingDef>
+  <!-- Предмет: Ferrite Seed (BudFlesh_FerriteFangrootSeed) -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>BudFlesh_FerriteFangrootSeed</defName>
+    <tradeability>None</tradeability>
+    <label>Ferrite Seed</label>
+    <description>A pulsating seed of dark flesh, threaded with ferrite veins and hardened metallic growths. It anchors itself into living tissue, merging with the flesh of the colony and feeding on its lifeforce. Over time, it swells into a grotesque cyst of sinew and mineral, eventually becoming the core of a living weapon — the Ferrite Fang. Prolonged contact may cause it to leech vitality directly from its host.</description>
+    <descriptionHyperlinks>
+      <ThingDef>BudFlesh_FerriteFangroot</ThingDef>
+    </descriptionHyperlinks>
+    <stackLimit>1</stackLimit>
+    <statBases>
+      <MaxHitPoints>45</MaxHitPoints>
+      <Mass>0.28</Mass>
+      <Beauty>-4</Beauty>
+      <MarketValue>85</MarketValue>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Item/FerriteFangrootSeed</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1, 1)</drawSize>
+    </graphicData>
+    <thingCategories>
+      <li>ItemsMisc</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Plantable">
+        <plantDefToSpawn>BudFlesh_FerriteFangroot</plantDefToSpawn>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_LoadBileburstPodlingIntoMortar.reportString>загружается в TargetA.</FB_LoadBileburstPodlingIntoMortar.reportString>
+  <FB_BileburstDetonateAtTarget.reportString>разрывается рядом с TargetA.</FB_BileburstDetonateAtTarget.reportString>
+  <FB_BileburstPodlingLatchToMortar.reportString>устраивается рядом с TargetA.</FB_BileburstPodlingLatchToMortar.reportString>
+</LanguageData>

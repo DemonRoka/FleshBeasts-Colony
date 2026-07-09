@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Задание: FB_CarapaceExcavatorMine -->
+  <JobDef>
+    <defName>FB_CarapaceExcavatorMine</defName>
+    <driverClass>FB.JobDriver_CarapaceExcavatorMine</driverClass>
+    <reportString>excavating rock.</reportString>
+    <playerInterruptible>true</playerInterruptible>
+  </JobDef>
+
+  <!-- Задание: FB_CarapaceExcavatorRegrowAtHeart -->
+  <JobDef>
+    <defName>FB_CarapaceExcavatorRegrowAtHeart</defName>
+    <driverClass>FB.JobDriver_CarapaceExcavatorRegrowAtHeart</driverClass>
+    <reportString>regrowing digging plates.</reportString>
+    <playerInterruptible>true</playerInterruptible>
+  </JobDef>
+</Defs>

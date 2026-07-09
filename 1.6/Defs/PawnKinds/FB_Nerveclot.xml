@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Вид пешки: nerveclot (FB_NerveclotKind) -->
+  <PawnKindDef ParentName="BaseFleshbeastKind">
+  <defName>FB_NerveclotKind</defName>
+  <label>nerveclot</label>
+  <race>FB_Nerveclot</race>
+  <forceDeathOnDowned>true</forceDeathOnDowned>
+  <combatPower>90</combatPower>
+  <defaultFactionDef>PlayerColony</defaultFactionDef>
+  <lifeStages>
+    <li>
+      <bodyGraphicData>
+        <texPath>Things/Pawn/FB_Nerveclot/Nerveclot</texPath>
+        <graphicClass>Graphic_Multi</graphicClass>
+        <drawSize>2.5</drawSize>
+      </bodyGraphicData>
+    </li>
+  </lifeStages>
+</PawnKindDef>
+</Defs>

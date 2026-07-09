@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Состояние: living weapon bond (FB_LivingWeaponBondOwner) -->
+  <HediffDef>
+    <defName>FB_LivingWeaponBondOwner</defName>
+    <label>living weapon bond</label>
+    <description>This colonist is psychically linked to one or more living weapons.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <comps>
+      <li Class="FB.HediffCompProperties_LivingWeaponBondOwner">
+      </li>
+    </comps>
+  </HediffDef>
+  <!-- Состояние: bonded wielder (FB_LivingWeaponBondWeapon) -->
+  <HediffDef>
+    <defName>FB_LivingWeaponBondWeapon</defName>
+    <label>bonded wielder</label>
+    <description>This living weapon recognizes a single bonded wielder.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <comps>
+      <li Class="FB.HediffCompProperties_LivingWeaponBondWeapon" />
+    </comps>
+  </HediffDef>
+</Defs>

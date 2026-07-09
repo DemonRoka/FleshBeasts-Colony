@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <DefenderIncubatorResearch.description>Unlock the Defender Incubator, a hemogel-fed brood organ that can release groups of fingerspikes when commanded or when the colony is attacked.</DefenderIncubatorResearch.description>
+  <DefenderIncubatorResearch.generalRules.rulesStrings.0>subject-&gt;flesh defender incubation</DefenderIncubatorResearch.generalRules.rulesStrings.0>
+  <DefenderIncubatorResearch.generalRules.rulesStrings.1>subject_story-&gt;nurtured biomass into guardians</DefenderIncubatorResearch.generalRules.rulesStrings.1>
+  <DefenderIncubatorResearch.generalRules.rulesStrings.2>subject_story-&gt;birthed organic defenders</DefenderIncubatorResearch.generalRules.rulesStrings.2>
+  <DefenderIncubatorResearch.generalRules.rulesStrings.3>subject_gerund-&gt;incubating flesh defenders</DefenderIncubatorResearch.generalRules.rulesStrings.3>
+  <DefenderIncubatorResearch.label>defender incubator</DefenderIncubatorResearch.label>
+  <FB_BroodMotherResearch.description>Unlock the Symbiosis Brood Womb, an advanced brood organ that uses hemogel, biomass, and stored skill essence to grow basic combat beasts and simple worker strains on demand.</FB_BroodMotherResearch.description>
+  <FB_BroodMotherResearch.generalRules.rulesStrings.0>subject-&gt;fleshmass brood incubation</FB_BroodMotherResearch.generalRules.rulesStrings.0>
+  <FB_BroodMotherResearch.generalRules.rulesStrings.1>subject_story-&gt;refined defender gestation into controlled fleshbeast breeding</FB_BroodMotherResearch.generalRules.rulesStrings.1>
+  <FB_BroodMotherResearch.generalRules.rulesStrings.2>subject_story-&gt;engineered a living womb for colony-grown monstrosities</FB_BroodMotherResearch.generalRules.rulesStrings.2>
+  <FB_BroodMotherResearch.generalRules.rulesStrings.3>subject_gerund-&gt;breeding fleshbeasts</FB_BroodMotherResearch.generalRules.rulesStrings.3>
+  <FB_BroodMotherResearch.label>brood mother</FB_BroodMotherResearch.label>
+  <FB_AdaptiveHarvesters.description>Unlock sinewcallers, scrapmeld seeds, and graftmaws: specialized fleshbeasts that draw in prey, repurpose mechanized remains, and graft useful tissue from bodies.</FB_AdaptiveHarvesters.description>
+  <FB_AdaptiveHarvesters.generalRules.rulesStrings.0>subject-&gt;adaptive fleshbeast harvesters</FB_AdaptiveHarvesters.generalRules.rulesStrings.0>
+  <FB_AdaptiveHarvesters.generalRules.rulesStrings.1>subject_story-&gt;grew predatory organs into specialized harvesters</FB_AdaptiveHarvesters.generalRules.rulesStrings.1>
+  <FB_AdaptiveHarvesters.generalRules.rulesStrings.2>subject_story-&gt;taught colony beasts to gather bodies, beasts, and machine remains</FB_AdaptiveHarvesters.generalRules.rulesStrings.2>
+  <FB_AdaptiveHarvesters.generalRules.rulesStrings.3>subject_gerund-&gt;breeding adaptive harvesters</FB_AdaptiveHarvesters.generalRules.rulesStrings.3>
+  <FB_AdaptiveHarvesters.label>adaptive harvesters</FB_AdaptiveHarvesters.label>
+  <FB_NeuralDominion.description>Unlock cocoonbacks and thrallblooms: advanced control fleshbeasts built for capture, living transport, and domination of hostile minds.</FB_NeuralDominion.description>
+  <FB_NeuralDominion.generalRules.rulesStrings.0>subject-&gt;neural fleshbeast dominion</FB_NeuralDominion.generalRules.rulesStrings.0>
+  <FB_NeuralDominion.generalRules.rulesStrings.1>subject_story-&gt;cultivated beasts for capture and mental control</FB_NeuralDominion.generalRules.rulesStrings.1>
+  <FB_NeuralDominion.generalRules.rulesStrings.2>subject_story-&gt;bound hostile minds through living neural organs</FB_NeuralDominion.generalRules.rulesStrings.2>
+  <FB_NeuralDominion.generalRules.rulesStrings.3>subject_gerund-&gt;breeding neural dominators</FB_NeuralDominion.generalRules.rulesStrings.3>
+  <FB_NeuralDominion.label>neural dominion</FB_NeuralDominion.label>
+  <FB_FriendlyCaptureRecognition.description>Teach grasping flesh organs to recognize allied and neutral bio-signatures, preventing automatic capture of non-hostile pawns.</FB_FriendlyCaptureRecognition.description>
+  <FB_FriendlyCaptureRecognition.generalRules.rulesStrings.0>subject-&gt;friend-or-foe recognition</FB_FriendlyCaptureRecognition.generalRules.rulesStrings.0>
+  <FB_FriendlyCaptureRecognition.generalRules.rulesStrings.1>subject_story-&gt;learned to distinguish allies from targets</FB_FriendlyCaptureRecognition.generalRules.rulesStrings.1>
+  <FB_FriendlyCaptureRecognition.generalRules.rulesStrings.2>subject_story-&gt;trained flesh organs to ignore friendly bio-signatures</FB_FriendlyCaptureRecognition.generalRules.rulesStrings.2>
+  <FB_FriendlyCaptureRecognition.generalRules.rulesStrings.3>subject_gerund-&gt;recognizing friendly targets</FB_FriendlyCaptureRecognition.generalRules.rulesStrings.3>
+  <FB_FriendlyCaptureRecognition.label>friend-or-foe recognition</FB_FriendlyCaptureRecognition.label>
+  <FB_CapillaryTrawling.description>Unlock the Capillary Trawler, a vascular filter-organ that spreads fine nets through nearby water and converts gathered aquatic biomass into hemogel for the colony heart.</FB_CapillaryTrawling.description>
+  <FB_CapillaryTrawling.generalRules.rulesStrings.0>subject-&gt;capillary trawling</FB_CapillaryTrawling.generalRules.rulesStrings.0>
+  <FB_CapillaryTrawling.generalRules.rulesStrings.1>subject_story-&gt;cast vascular nets through water</FB_CapillaryTrawling.generalRules.rulesStrings.1>
+  <FB_CapillaryTrawling.generalRules.rulesStrings.2>subject_story-&gt;filtered aquatic biomass into hemogel</FB_CapillaryTrawling.generalRules.rulesStrings.2>
+  <FB_CapillaryTrawling.generalRules.rulesStrings.3>subject_gerund-&gt;growing capillary trawlers</FB_CapillaryTrawling.generalRules.rulesStrings.3>
+  <FB_CapillaryTrawling.label>capillary trawling</FB_CapillaryTrawling.label>
+  <FB_FleshTunneling.description>Unlock the Flesh Tunnel Maw, a massive mouth-organ that spends stored hemogel to bore a permanent passage to a distant world tile.</FB_FleshTunneling.description>
+  <FB_FleshTunneling.generalRules.rulesStrings.0>subject-&gt;flesh tunneling</FB_FleshTunneling.generalRules.rulesStrings.0>
+  <FB_FleshTunneling.generalRules.rulesStrings.1>subject_story-&gt;bored permanent passages through living tissue</FB_FleshTunneling.generalRules.rulesStrings.1>
+  <FB_FleshTunneling.generalRules.rulesStrings.2>subject_story-&gt;grew mouths that bite through the world</FB_FleshTunneling.generalRules.rulesStrings.2>
+  <FB_FleshTunneling.generalRules.rulesStrings.3>subject_gerund-&gt;growing flesh tunnels</FB_FleshTunneling.generalRules.rulesStrings.3>
+  <FB_FleshTunneling.label>flesh tunneling</FB_FleshTunneling.label>
+  <FB_GalvanicCysts.description>Unlock the Galvanic Cyst, a compact electrocyte organ that consumes hemogel to feed an electrical grid while holding a small bioelectric reserve.</FB_GalvanicCysts.description>
+  <FB_GalvanicCysts.generalRules.rulesStrings.0>subject-&gt;galvanic cysts</FB_GalvanicCysts.generalRules.rulesStrings.0>
+  <FB_GalvanicCysts.generalRules.rulesStrings.1>subject_story-&gt;cultivated electrocyte tissue into power organs</FB_GalvanicCysts.generalRules.rulesStrings.1>
+  <FB_GalvanicCysts.generalRules.rulesStrings.2>subject_story-&gt;turned hemogel into bioelectric charge</FB_GalvanicCysts.generalRules.rulesStrings.2>
+  <FB_GalvanicCysts.generalRules.rulesStrings.3>subject_gerund-&gt;growing galvanic cysts</FB_GalvanicCysts.generalRules.rulesStrings.3>
+  <FB_GalvanicCysts.label>galvanic cysts</FB_GalvanicCysts.label>
+  <FB_TissueIncubation.description>Unlock the Tissue Incubator, a living chamber that memorizes delivered meat and leather samples and grows matching materials from hemogel.</FB_TissueIncubation.description>
+  <FB_TissueIncubation.generalRules.rulesStrings.0>subject-&gt;tissue incubation</FB_TissueIncubation.generalRules.rulesStrings.0>
+  <FB_TissueIncubation.generalRules.rulesStrings.1>subject_story-&gt;memorized meat and leather samples in living tissue</FB_TissueIncubation.generalRules.rulesStrings.1>
+  <FB_TissueIncubation.generalRules.rulesStrings.2>subject_story-&gt;grew stored materials from hemogel</FB_TissueIncubation.generalRules.rulesStrings.2>
+  <FB_TissueIncubation.generalRules.rulesStrings.3>subject_gerund-&gt;incubating tissue samples</FB_TissueIncubation.generalRules.rulesStrings.3>
+  <FB_TissueIncubation.label>tissue incubation</FB_TissueIncubation.label>
+  <FB_PhotosyntheticFleshtree.description>Unlock the Fleshtree fusion process, allowing multiple photosynthetic fleshleaves to merge into a larger organ-tree with greater hemogel production and storage.</FB_PhotosyntheticFleshtree.description>
+  <FB_PhotosyntheticFleshtree.generalRules.rulesStrings.0>subject-&gt;photosynthetic fleshtree cultivation</FB_PhotosyntheticFleshtree.generalRules.rulesStrings.0>
+  <FB_PhotosyntheticFleshtree.generalRules.rulesStrings.1>subject_story-&gt;merged solar flesh growths into a single organism</FB_PhotosyntheticFleshtree.generalRules.rulesStrings.1>
+  <FB_PhotosyntheticFleshtree.generalRules.rulesStrings.2>subject_story-&gt;engineered a hemogel-storing photosynthetic treeform</FB_PhotosyntheticFleshtree.generalRules.rulesStrings.2>
+  <FB_PhotosyntheticFleshtree.generalRules.rulesStrings.3>subject_gerund-&gt;growing photosynthetic fleshtrees</FB_PhotosyntheticFleshtree.generalRules.rulesStrings.3>
+  <FB_PhotosyntheticFleshtree.label>photosynthetic fleshtree</FB_PhotosyntheticFleshtree.label>
+  <FeederResearch.description>Unlock the Feeder, an organic dispenser where hungry flesh-bound colonists can take hemogel-grown meals from its interaction cells.</FeederResearch.description>
+  <FeederResearch.generalRules.rulesStrings.0>subject-&gt;hemogel nutrient conversion</FeederResearch.generalRules.rulesStrings.0>
+  <FeederResearch.generalRules.rulesStrings.1>subject_story-&gt;developed biomass feeding systems</FeederResearch.generalRules.rulesStrings.1>
+  <FeederResearch.generalRules.rulesStrings.2>subject_story-&gt;transformed hemogel into sustenance</FeederResearch.generalRules.rulesStrings.2>
+  <FeederResearch.generalRules.rulesStrings.3>subject_gerund-&gt;building flesh feeders</FeederResearch.generalRules.rulesStrings.3>
+  <FeederResearch.label>feeder</FeederResearch.label>
+  <FleshmassEngineering.description>Establish the basic principles of hemogel-grown colony tissue, opening the path to more specialized organic structures.</FleshmassEngineering.description>
+  <FleshmassEngineering.generalRules.rulesStrings.0>subject-&gt;fleshmass engineering</FleshmassEngineering.generalRules.rulesStrings.0>
+  <FleshmassEngineering.generalRules.rulesStrings.1>subject_story-&gt;pioneered organic structure growth</FleshmassEngineering.generalRules.rulesStrings.1>
+  <FleshmassEngineering.generalRules.rulesStrings.2>subject_story-&gt;manipulated biomass into forms</FleshmassEngineering.generalRules.rulesStrings.2>
+  <FleshmassEngineering.generalRules.rulesStrings.3>subject_gerund-&gt;engineering fleshmass</FleshmassEngineering.generalRules.rulesStrings.3>
+  <FleshmassEngineering.label>fleshmass engineering</FleshmassEngineering.label>
+  <FleshSeedCreation.description>Unlock the Spore-Cradle, allowing the colony to craft organic components and flesh seeds that can be planted into living equipment.</FleshSeedCreation.description>
+  <FleshSeedCreation.generalRules.rulesStrings.0>subject-&gt;flesh seed crafting</FleshSeedCreation.generalRules.rulesStrings.0>
+  <FleshSeedCreation.generalRules.rulesStrings.1>subject_story-&gt;unlocked organic seed technology</FleshSeedCreation.generalRules.rulesStrings.1>
+  <FleshSeedCreation.generalRules.rulesStrings.2>subject_story-&gt;developed bio-infused weapon seeds</FleshSeedCreation.generalRules.rulesStrings.2>
+  <FleshSeedCreation.generalRules.rulesStrings.3>subject_gerund-&gt;creating flesh seeds</FleshSeedCreation.generalRules.rulesStrings.3>
+  <FleshSeedCreation.label>flesh seed creation</FleshSeedCreation.label>
+  <MinionsHiveResearch.description>Unlock the Minion Broodseed and its hive, which gestates sclerats for construction work within the colony.</MinionsHiveResearch.description>
+  <MinionsHiveResearch.generalRules.rulesStrings.0>subject-&gt;fleshmass minion hives</MinionsHiveResearch.generalRules.rulesStrings.0>
+  <MinionsHiveResearch.generalRules.rulesStrings.1>subject_story-&gt;cultivated labor-spawning organisms</MinionsHiveResearch.generalRules.rulesStrings.1>
+  <MinionsHiveResearch.generalRules.rulesStrings.2>subject_story-&gt;engineered sclerat hives for efficiency</MinionsHiveResearch.generalRules.rulesStrings.2>
+  <MinionsHiveResearch.generalRules.rulesStrings.3>subject_gerund-&gt;growing minion hives</MinionsHiveResearch.generalRules.rulesStrings.3>
+  <MinionsHiveResearch.label>minions hive</MinionsHiveResearch.label>
+  <ParasiteEggConversion.description>Unlock parasite egg crafting in the Spore-Cradle, allowing the colony to grow personality parasite eggs through controlled organic incubation.</ParasiteEggConversion.description>
+  <ParasiteEggConversion.generalRules.rulesStrings.0>subject-&gt;parasite egg incubation</ParasiteEggConversion.generalRules.rulesStrings.0>
+  <ParasiteEggConversion.generalRules.rulesStrings.1>subject_story-&gt;adapted spore-cradle tissue to grow parasite eggs</ParasiteEggConversion.generalRules.rulesStrings.1>
+  <ParasiteEggConversion.generalRules.rulesStrings.2>subject_story-&gt;shaped biomass into parasitic incubation chambers</ParasiteEggConversion.generalRules.rulesStrings.2>
+  <ParasiteEggConversion.generalRules.rulesStrings.3>subject_gerund-&gt;incubating parasite eggs</ParasiteEggConversion.generalRules.rulesStrings.3>
+  <ParasiteEggConversion.label>parasite egg incubation</ParasiteEggConversion.label>
+  <PhotosyntheticFleshleaf.description>Unlock the Photosynthetic Fleshleaf, a living photosynthetic organ that converts light into hemogel and transfers its reserves to the colony heart.</PhotosyntheticFleshleaf.description>
+  <PhotosyntheticFleshleaf.generalRules.rulesStrings.0>subject-&gt;photosynthetic hemogel generation</PhotosyntheticFleshleaf.generalRules.rulesStrings.0>
+  <PhotosyntheticFleshleaf.generalRules.rulesStrings.1>subject_story-&gt;engineered light-absorbing biomass</PhotosyntheticFleshleaf.generalRules.rulesStrings.1>
+  <PhotosyntheticFleshleaf.generalRules.rulesStrings.2>subject_story-&gt;cultivated solar flesh organisms</PhotosyntheticFleshleaf.generalRules.rulesStrings.2>
+  <PhotosyntheticFleshleaf.generalRules.rulesStrings.3>subject_gerund-&gt;growing photosynthetic flesh</PhotosyntheticFleshleaf.generalRules.rulesStrings.3>
+  <PhotosyntheticFleshleaf.label>photosynthetic fleshleaf</PhotosyntheticFleshleaf.label>
+  <SpitterResearch.description>Unlock the Spitter Gland, a defensive flesh organ that grows from an embryo and spits corrosive fluid at distant enemies.</SpitterResearch.description>
+  <SpitterResearch.generalRules.rulesStrings.0>subject-&gt;fleshmass acid spitting</SpitterResearch.generalRules.rulesStrings.0>
+  <SpitterResearch.generalRules.rulesStrings.1>subject_story-&gt;engineered toxin-projecting defenses</SpitterResearch.generalRules.rulesStrings.1>
+  <SpitterResearch.generalRules.rulesStrings.2>subject_story-&gt;cultivated acid-projecting biomass</SpitterResearch.generalRules.rulesStrings.2>
+  <SpitterResearch.generalRules.rulesStrings.3>subject_gerund-&gt;growing acid spitters</SpitterResearch.generalRules.rulesStrings.3>
+  <SpitterResearch.label>spitter gland</SpitterResearch.label>
+  <TentacleTurretResearch.description>Unlock the Tentacle Turret, a rooted flesh defense that batters nearby enemies with tentacles and launches keratin spines at distant targets.</TentacleTurretResearch.description>
+  <TentacleTurretResearch.generalRules.rulesStrings.0>subject-&gt;fleshmass turret growth</TentacleTurretResearch.generalRules.rulesStrings.0>
+  <TentacleTurretResearch.generalRules.rulesStrings.1>subject_story-&gt;cultivated defensive organic structures</TentacleTurretResearch.generalRules.rulesStrings.1>
+  <TentacleTurretResearch.generalRules.rulesStrings.2>subject_story-&gt;engineered tentacle-based defenses</TentacleTurretResearch.generalRules.rulesStrings.2>
+  <TentacleTurretResearch.generalRules.rulesStrings.3>subject_gerund-&gt;growing flesh turrets</TentacleTurretResearch.generalRules.rulesStrings.3>
+  <TentacleTurretResearch.label>tentacle turret</TentacleTurretResearch.label>
+  <FB_CaptureNerveLattice.description>Grow auxiliary nerve nodes that expand the colony heart's grasping tendril capacity and allow the heart to choose prey through finer species and faction recognition.</FB_CaptureNerveLattice.description>
+  <FB_CaptureNerveLattice.generalRules.rulesStrings.0>subject-&gt;capture nerve lattice</FB_CaptureNerveLattice.generalRules.rulesStrings.0>
+  <FB_CaptureNerveLattice.generalRules.rulesStrings.1>subject_story-&gt;threaded capture reflexes through auxiliary nerve nodes</FB_CaptureNerveLattice.generalRules.rulesStrings.1>
+  <FB_CaptureNerveLattice.generalRules.rulesStrings.2>subject_story-&gt;trained grasping organs to recognize chosen prey profiles</FB_CaptureNerveLattice.generalRules.rulesStrings.2>
+  <FB_CaptureNerveLattice.generalRules.rulesStrings.3>subject_gerund-&gt;refining grasping tendril targeting</FB_CaptureNerveLattice.generalRules.rulesStrings.3>
+  <FB_CaptureNerveLattice.label>capture nerve lattice</FB_CaptureNerveLattice.label>  <FB_GeoferriteGlands.description>Unlock geyser-rooted organs that refine hemogel into bioferrite.</FB_GeoferriteGlands.description>
+  <FB_GeoferriteGlands.generalRules.rulesStrings.0>subject-&gt;geoferrite glands</FB_GeoferriteGlands.generalRules.rulesStrings.0>
+  <FB_GeoferriteGlands.generalRules.rulesStrings.1>subject_story-&gt;rooted flesh organs into steam geysers</FB_GeoferriteGlands.generalRules.rulesStrings.1>
+  <FB_GeoferriteGlands.generalRules.rulesStrings.2>subject_story-&gt;refined hemogel into bioferrite under geothermal pressure</FB_GeoferriteGlands.generalRules.rulesStrings.2>
+  <FB_GeoferriteGlands.generalRules.rulesStrings.3>subject_gerund-&gt;growing geoferrite glands</FB_GeoferriteGlands.generalRules.rulesStrings.3>
+  <FB_GeoferriteGlands.label>geoferrite glands</FB_GeoferriteGlands.label>
+</LanguageData>

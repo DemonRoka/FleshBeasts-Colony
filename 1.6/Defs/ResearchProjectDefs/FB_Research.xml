@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Исследование: fleshmass engineering (FleshmassEngineering) -->
+  <ResearchProjectDef>
+    <defName>FleshmassEngineering</defName>
+    <label>fleshmass engineering</label>
+    <description>Establish the basic principles of hemogel-grown colony tissue, opening the path to more specialized organic structures.</description>
+    <tab>FB_Fleshbeast</tab>
+    <techLevel>Industrial</techLevel>
+    <baseCost>1000</baseCost>
+    <researchViewX>0.00</researchViewX>
+    <researchViewY>2.80</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject-&gt;fleshmass engineering</li>
+        <li>subject_story-&gt;pioneered organic structure growth</li>
+        <li>subject_story-&gt;manipulated biomass into forms</li>
+        <li>subject_gerund-&gt;engineering fleshmass</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+  <!-- Исследование: fleshmass bone wall reinforcement (FB_FleshmassBoneWallReinforcement) -->
+  <ResearchProjectDef>
+    <defName>FB_FleshmassBoneWallReinforcement</defName>
+    <label>fleshmass bone wall reinforcement</label>
+    <description>Unlock reinforced fleshmass walls, letting the colony heart grow rigid bone structure inside ordinary fleshmass walls at a higher hemogel cost.</description>
+    <tab>FB_Fleshbeast</tab>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>FleshmassEngineering</li>
+    </prerequisites>
+    <baseCost>1200</baseCost>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>4.80</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject-&gt;fleshmass bone wall reinforcement</li>
+        <li>subject_story-&gt;grew bone lattices inside colony walls</li>
+        <li>subject_story-&gt;reinforced living walls with internal skeletal struts</li>
+        <li>subject_gerund-&gt;reinforcing fleshmass walls</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+  <!-- Исследование: flesh seed creation (FleshSeedCreation) -->
+  <ResearchProjectDef>
+    <defName>FleshSeedCreation</defName>
+    <label>flesh seed creation</label>
+    <description>Unlock the Spore-Cradle, allowing the colony to craft organic components and flesh seeds that can be planted into living equipment.</description>
+    <tab>FB_Fleshbeast</tab>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>FleshmassEngineering</li>
+    </prerequisites>
+    <baseCost>1500</baseCost>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>1.10</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject-&gt;flesh seed crafting</li>
+        <li>subject_story-&gt;unlocked organic seed technology</li>
+        <li>subject_story-&gt;developed bio-infused weapon seeds</li>
+        <li>subject_gerund-&gt;creating flesh seeds</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+  <!-- Исследование: parasite egg incubation (ParasiteEggConversion) -->
+  <ResearchProjectDef>
+    <defName>ParasiteEggConversion</defName>
+    <label>parasite egg incubation</label>
+    <description>Unlock parasite egg crafting in the Spore-Cradle, allowing the colony to grow personality parasite eggs through controlled organic incubation.</description>
+    <tab>FB_Fleshbeast</tab>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>FleshSeedCreation</li>
+    </prerequisites>
+    <baseCost>1500</baseCost>
+    <researchViewX>2.50</researchViewX>
+    <researchViewY>1.10</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject-&gt;parasite egg incubation</li>
+        <li>subject_story-&gt;adapted spore-cradle tissue to grow parasite eggs</li>
+        <li>subject_story-&gt;shaped biomass into parasitic incubation chambers</li>
+        <li>subject_gerund-&gt;incubating parasite eggs</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+  <!-- Исследование: flesh tunneling (FB_FleshTunneling) -->
+  <ResearchProjectDef>
+    <defName>FB_FleshTunneling</defName>
+    <label>flesh tunneling</label>
+    <description>Unlock the Flesh Tunnel Maw, a massive mouth-organ that spends stored hemogel to bore a permanent passage to a distant world tile.</description>
+    <tab>FB_Fleshbeast</tab>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>FleshmassEngineering</li>
+    </prerequisites>
+    <baseCost>3000</baseCost>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>4.90</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject-&gt;flesh tunneling</li>
+        <li>subject_story-&gt;bored permanent passages through living tissue</li>
+        <li>subject_story-&gt;grew mouths that bite through the world</li>
+        <li>subject_gerund-&gt;growing flesh tunnels</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+  <!-- Исследование: galvanic cysts (FB_GalvanicCysts) -->
+  <ResearchProjectDef>
+    <defName>FB_GalvanicCysts</defName>
+    <label>galvanic cysts</label>
+    <description>Unlock the Galvanic Cyst, a compact electrocyte organ that consumes hemogel to feed an electrical grid while holding a small bioelectric reserve.</description>
+    <tab>FB_Fleshbeast</tab>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>FleshmassEngineering</li>
+    </prerequisites>
+    <baseCost>1000</baseCost>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>2.70</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject-&gt;galvanic cysts</li>
+        <li>subject_story-&gt;cultivated electrocyte tissue into power organs</li>
+        <li>subject_story-&gt;turned hemogel into bioelectric charge</li>
+        <li>subject_gerund-&gt;growing galvanic cysts</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+  <!-- Исследование: geoferrite glands (FB_GeoferriteGlands) -->
+  <ResearchProjectDef>
+    <defName>FB_GeoferriteGlands</defName>
+    <label>geoferrite glands</label>
+    <description>Unlock geyser-rooted organs that refine hemogel into bioferrite.</description>
+    <tab>FB_Fleshbeast</tab>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>FB_GalvanicCysts</li>
+    </prerequisites>
+    <baseCost>1600</baseCost>
+    <researchViewX>4.00</researchViewX>
+    <researchViewY>2.70</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject-&gt;geoferrite glands</li>
+        <li>subject_story-&gt;rooted flesh organs into steam geysers</li>
+        <li>subject_story-&gt;refined hemogel into bioferrite under geothermal pressure</li>
+        <li>subject_gerund-&gt;growing geoferrite glands</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+  <!-- Исследование: fleshmass spitter (SpitterResearch) -->
+  <ResearchProjectDef>
+    <defName>SpitterResearch</defName>
+    <label>spitter gland</label>
+    <description>Unlock the Spitter Gland, a defensive flesh organ that grows from an embryo and spits corrosive fluid at distant enemies.</description>
+    <tab>FB_Fleshbeast</tab>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>FleshmassEngineering</li>
+    </prerequisites>
+    <baseCost>1200</baseCost>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>1.70</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject-&gt;fleshmass acid spitting</li>
+        <li>subject_story-&gt;engineered toxin-projecting defenses</li>
+        <li>subject_story-&gt;cultivated acid-projecting biomass</li>
+        <li>subject_gerund-&gt;growing acid spitters</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+  <!-- Исследование: gastric chambers (FB_GastricChambers) -->
+  <ResearchProjectDef>
+    <defName>FB_GastricChambers</defName>
+    <label>gastric acid spewers</label>
+    <description>Unlock the Gastric Acid Spewer, a digestive organ that floods nearby cells with acid and converts bodies or food into hemogel.</description>
+    <tab>FB_Fleshbeast</tab>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>FleshmassEngineering</li>
+    </prerequisites>
+    <baseCost>1200</baseCost>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>5.50</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject-&gt;gastric acid spewers</li>
+        <li>subject_story-&gt;grew acid-spewing digestive organs</li>
+        <li>subject_story-&gt;cultivated roaming gastric pools</li>
+        <li>subject_gerund-&gt;growing gastric acid spewers</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+  <!-- Исследование: bile mortar gland (FB_BileMortarResearch) -->
+  <ResearchProjectDef>
+    <defName>FB_BileMortarResearch</defName>
+    <label>bile mortar gland</label>
+    <description>Unlock the Bile Mortar Gland, a living artillery organ that grows bileburst podlings and launches mature ones as volatile incendiary shells.</description>
+    <tab>FB_Fleshbeast</tab>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>SpitterResearch</li>
+    </prerequisites>
+    <baseCost>1800</baseCost>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>1.80</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject-&gt;living bile artillery</li>
+        <li>subject_story-&gt;cultivated volatile bile munitions</li>
+        <li>subject_story-&gt;grew artillery organs from spitter tissue</li>
+        <li>subject_gerund-&gt;growing bile mortars</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+  <!-- Исследование: photosynthetic fleshleaf (PhotosyntheticFleshleaf) -->
+  <ResearchProjectDef>
+    <defName>PhotosyntheticFleshleaf</defName>
+    <label>photosynthetic fleshleaf</label>
+    <description>Unlock the Photosynthetic Fleshleaf, a living photosynthetic organ that converts light into hemogel and transfers its reserves to the colony heart.</description>
+    <tab>FB_Fleshbeast</tab>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>FleshmassEngineering</li>
+    </prerequisites>
+    <baseCost>800</baseCost>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>3.40</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject-&gt;photosynthetic hemogel generation</li>
+        <li>subject_story-&gt;engineered light-absorbing biomass</li>
+        <li>subject_story-&gt;cultivated solar flesh organisms</li>
+        <li>subject_gerund-&gt;growing photosynthetic flesh</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+  <!-- Исследование: tentacle turret (TentacleTurretResearch) -->
+  <ResearchProjectDef>
+    <defName>TentacleTurretResearch</defName>
+    <label>tentacle turret</label>
+    <description>Unlock the Tentacle Turret, a rooted flesh defense that batters nearby enemies with tentacles and launches keratin spines at distant targets.</description>
+    <tab>FB_Fleshbeast</tab>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>FleshmassEngineering</li>
+    </prerequisites>
+    <baseCost>1200</baseCost>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>1.70</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject-&gt;fleshmass turret growth</li>
+        <li>subject_story-&gt;cultivated defensive organic structures</li>
+        <li>subject_story-&gt;engineered tentacle-based defenses</li>
+        <li>subject_gerund-&gt;growing flesh turrets</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+  <!-- Исследование: capillary trawling (FB_CapillaryTrawling) -->
+  <ResearchProjectDef>
+    <defName>FB_CapillaryTrawling</defName>
+    <label>capillary trawling</label>
+    <description>Unlock the Capillary Trawler, a vascular filter-organ that spreads fine nets through nearby water and converts gathered aquatic biomass into hemogel for the colony heart.</description>
+    <tab>FB_Fleshbeast</tab>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>FleshmassEngineering</li>
+    </prerequisites>
+    <baseCost>1200</baseCost>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>2.90</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject-&gt;capillary trawling</li>
+        <li>subject_story-&gt;cast vascular nets through water</li>
+        <li>subject_story-&gt;filtered aquatic biomass into hemogel</li>
+        <li>subject_gerund-&gt;growing capillary trawlers</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+  <!-- Исследование: fleshmass defender incubator (DefenderIncubatorResearch) -->
+  <ResearchProjectDef>
+    <defName>DefenderIncubatorResearch</defName>
+    <label>defender incubator</label>
+    <description>Unlock the Defender Incubator, a hemogel-fed brood organ that can release groups of fingerspikes when commanded or when the colony is attacked.</description>
+    <tab>FB_Fleshbeast</tab>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>FleshmassEngineering</li>
+    </prerequisites>
+    <baseCost>1400</baseCost>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>4.20</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject-&gt;flesh defender incubation</li>
+        <li>subject_story-&gt;nurtured biomass into guardians</li>
+        <li>subject_story-&gt;birthed organic defenders</li>
+        <li>subject_gerund-&gt;incubating flesh defenders</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+  <!-- Исследование: devourer gestation (FB_DevourerGestation) -->
+  <ResearchProjectDef>
+    <defName>FB_DevourerGestation</defName>
+    <label>devourer gestation</label>
+    <description>Teach the colony brain to grow a slow armored devourer that swallows enemies and digests them into hemogel.</description>
+    <tab>FB_Fleshbeast</tab>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>DefenderIncubatorResearch</li>
+    </prerequisites>
+    <baseCost>1800</baseCost>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>4.55</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject-&gt;devourer gestation</li>
+        <li>subject_story-&gt;grew armored stomach-beasts for battlefield capture</li>
+        <li>subject_story-&gt;turned swallowed prey into hemogel reserves</li>
+        <li>subject_gerund-&gt;growing devourers</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+  <!-- Исследование: acid broodmother convergence (FB_AcidBroodmotherConvergence) -->
+  <ResearchProjectDef>
+    <defName>FB_AcidBroodmotherConvergence</defName>
+    <label>acid broodmother convergence</label>
+    <description>Teach the colony brain to fuse spine fleshbeasts into a draftable broodmother that grows temporary acid-spitting offspring.</description>
+    <tab>FB_Fleshbeast</tab>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>DefenderIncubatorResearch</li>
+      <li>FB_GastricChambers</li>
+    </prerequisites>
+    <baseCost>2200</baseCost>
+    <researchViewX>4.00</researchViewX>
+    <researchViewY>5.70</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject-&gt;acid broodmother convergence</li>
+        <li>subject_story-&gt;fused spine fleshbeasts into a mobile acid brood</li>
+        <li>subject_story-&gt;taught a broodmother to grow temporary artillery offspring</li>
+        <li>subject_gerund-&gt;assembling acid broodmothers</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+  <!-- Исследование: fleshmass feeder (FeederResearch) -->
+  <ResearchProjectDef>
+    <defName>FeederResearch</defName>
+    <label>feeder</label>
+    <description>Unlock the Feeder, an organic dispenser where hungry flesh-bound colonists can take hemogel-grown meals from its interaction cells.</description>
+    <tab>FB_Fleshbeast</tab>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>FleshmassEngineering</li>
+    </prerequisites>
+    <baseCost>800</baseCost>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>2.30</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject-&gt;hemogel nutrient conversion</li>
+        <li>subject_story-&gt;developed biomass feeding systems</li>
+        <li>subject_story-&gt;transformed hemogel into sustenance</li>
+        <li>subject_gerund-&gt;building flesh feeders</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+  <!-- Исследование: tissue incubation (FB_TissueIncubation) -->
+  <ResearchProjectDef>
+    <defName>FB_TissueIncubation</defName>
+    <label>tissue incubation</label>
+    <description>Unlock the Tissue Incubator, a living chamber that memorizes delivered meat and leather samples and grows matching materials from hemogel.</description>
+    <tab>FB_Fleshbeast</tab>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>FeederResearch</li>
+    </prerequisites>
+    <baseCost>1200</baseCost>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>2.30</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject-&gt;tissue incubation</li>
+        <li>subject_story-&gt;memorized meat and leather samples in living tissue</li>
+        <li>subject_story-&gt;grew stored materials from hemogel</li>
+        <li>subject_gerund-&gt;incubating tissue samples</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+  <!-- Исследование: fleshmass minions hive (MinionsHiveResearch) -->
+  <ResearchProjectDef>
+    <defName>MinionsHiveResearch</defName>
+    <label>minions hive</label>
+    <description>Unlock the Minion Broodseed and its hive, which gestates sclerats for construction work within the colony.</description>
+    <tab>FB_Fleshbeast</tab>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>FleshmassEngineering</li>
+    </prerequisites>
+    <baseCost>1400</baseCost>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>5.50</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject-&gt;fleshmass minion hives</li>
+        <li>subject_story-&gt;cultivated labor-spawning organisms</li>
+        <li>subject_story-&gt;engineered sclerat hives for efficiency</li>
+        <li>subject_gerund-&gt;growing minion hives</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+  <!-- Исследование: photosynthetic fleshtree (FB_PhotosyntheticFleshtree) -->
+  <ResearchProjectDef>
+    <defName>FB_PhotosyntheticFleshtree</defName>
+    <label>photosynthetic fleshtree</label>
+    <description>Unlock the Fleshtree fusion process, allowing multiple photosynthetic fleshleaves to merge into a larger organ-tree with greater hemogel production and storage.</description>
+    <tab>FB_Fleshbeast</tab>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>PhotosyntheticFleshleaf</li>
+    </prerequisites>
+    <baseCost>1200</baseCost>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>3.40</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject-&gt;photosynthetic fleshtree cultivation</li>
+        <li>subject_story-&gt;merged solar flesh growths into a single organism</li>
+        <li>subject_story-&gt;engineered a hemogel-storing photosynthetic treeform</li>
+        <li>subject_gerund-&gt;growing photosynthetic fleshtrees</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+  <!-- Исследование: friend-or-foe recognition (FB_FriendlyCaptureRecognition) -->
+  <ResearchProjectDef>
+    <defName>FB_FriendlyCaptureRecognition</defName>
+    <label>friend-or-foe recognition</label>
+    <description>Teach grasping flesh organs to recognize allied and neutral bio-signatures, preventing automatic capture of non-hostile pawns.</description>
+    <tab>FB_Fleshbeast</tab>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>FleshmassEngineering</li>
+    </prerequisites>
+    <baseCost>800</baseCost>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>0.40</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject-&gt;friend-or-foe recognition</li>
+        <li>subject_story-&gt;learned to distinguish allies from targets</li>
+        <li>subject_story-&gt;trained flesh organs to ignore friendly bio-signatures</li>
+        <li>subject_gerund-&gt;recognizing friendly targets</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>FB_CaptureNerveLattice</defName>
+    <label>capture nerve lattice</label>
+    <description>Grow auxiliary nerve nodes that expand the colony heart's grasping tendril capacity and allow the heart to choose prey through finer species and faction recognition.</description>
+    <tab>FB_Fleshbeast</tab>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>FB_FriendlyCaptureRecognition</li>
+    </prerequisites>
+    <baseCost>1200</baseCost>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>0.00</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject-&gt;capture nerve lattice</li>
+        <li>subject_story-&gt;threaded capture reflexes through auxiliary nerve nodes</li>
+        <li>subject_story-&gt;trained grasping organs to recognize chosen prey profiles</li>
+        <li>subject_gerund-&gt;refining grasping tendril targeting</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>FB_DeepMawTraps</defName>
+    <label>deep maw traps</label>
+    <description>Grow larger buried mouths with pressure nerves and friend-or-foe restraint. These traps wait before closing, then swallow every body still standing over them.</description>
+    <tab>FB_Fleshbeast</tab>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>FB_FriendlyCaptureRecognition</li>
+    </prerequisites>
+    <baseCost>1400</baseCost>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>0.40</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject-&gt;deep maw traps</li>
+        <li>subject_story-&gt;grew buried mouths that wait before swallowing prey</li>
+        <li>subject_story-&gt;taught colony traps to digest flesh and grind machines apart</li>
+        <li>subject_gerund-&gt;growing deep maw traps</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+  <!-- Исследование: segmented bastion (FB_SegmentedBastionResearch) -->
+  <ResearchProjectDef>
+    <defName>FB_SegmentedBastionResearch</defName>
+    <label>segmented bastion</label>
+    <description>Teach the colony brain to fuse allied spine fleshbeasts into a draftable bastion that can split into its original segment swarm.</description>
+    <tab>FB_Fleshbeast</tab>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>DefenderIncubatorResearch</li>
+    </prerequisites>
+    <baseCost>1800</baseCost>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>3.80</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject-&gt;segmented bastion fusion</li>
+        <li>subject_story-&gt;bound spine fleshbeasts into a closed segment swarm</li>
+        <li>subject_story-&gt;taught bastion segments to remember their original body</li>
+        <li>subject_gerund-&gt;assembling segmented bastions</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+  <!-- Исследование: fleshmass brood mother (FB_BroodMotherResearch) -->
+  <ResearchProjectDef>
+    <defName>FB_BroodMotherResearch</defName>
+    <label>brood mother</label>
+    <description>Unlock the Symbiosis Brood Womb, an advanced brood organ that uses hemogel, biomass, and stored skill essence to grow basic combat beasts and simple worker strains on demand.</description>
+    <tab>FB_Fleshbeast</tab>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>DefenderIncubatorResearch</li>
+    </prerequisites>
+    <baseCost>2200</baseCost>
+    <researchViewX>2.50</researchViewX>
+    <researchViewY>4.20</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject-&gt;fleshmass brood incubation</li>
+        <li>subject_story-&gt;refined defender gestation into controlled fleshbeast breeding</li>
+        <li>subject_story-&gt;engineered a living womb for colony-grown monstrosities</li>
+        <li>subject_gerund-&gt;breeding fleshbeasts</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+  <!-- Исследование: adaptive harvesters (FB_AdaptiveHarvesters) -->
+  <ResearchProjectDef>
+    <defName>FB_AdaptiveHarvesters</defName>
+    <label>adaptive harvesters</label>
+    <description>Unlock sinewcallers, scrapmeld seeds, and graftmaws: specialized fleshbeasts that draw in prey, repurpose mechanized remains, and graft useful tissue from bodies.</description>
+    <tab>FB_Fleshbeast</tab>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>FB_BroodMotherResearch</li>
+    </prerequisites>
+    <baseCost>1800</baseCost>
+    <researchViewX>3.50</researchViewX>
+    <researchViewY>3.90</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject-&gt;adaptive fleshbeast harvesters</li>
+        <li>subject_story-&gt;grew predatory organs into specialized harvesters</li>
+        <li>subject_story-&gt;taught colony beasts to gather bodies, beasts, and machine remains</li>
+        <li>subject_gerund-&gt;breeding adaptive harvesters</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+  <!-- Исследование: neural dominion (FB_NeuralDominion) -->
+  <ResearchProjectDef>
+    <defName>FB_NeuralDominion</defName>
+    <label>neural dominion</label>
+    <description>Unlock cocoonbacks and thrallblooms: advanced control fleshbeasts built for capture, living transport, and domination of hostile minds.</description>
+    <tab>FB_Fleshbeast</tab>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>FB_BroodMotherResearch</li>
+    </prerequisites>
+    <baseCost>2200</baseCost>
+    <researchViewX>3.50</researchViewX>
+    <researchViewY>4.50</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject-&gt;neural fleshbeast dominion</li>
+        <li>subject_story-&gt;cultivated beasts for capture and mental control</li>
+        <li>subject_story-&gt;bound hostile minds through living neural organs</li>
+        <li>subject_gerund-&gt;breeding neural dominators</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+  <!-- Исследование: psychic lure antennae (FB_PsychicLureAntennae) -->
+  <ResearchProjectDef>
+    <defName>FB_PsychicLureAntennae</defName>
+    <label>psychic lure antennae</label>
+    <description>Unlock psychic lure antennae: hemogel-fed neural organs that call hostile bodies toward the colony, feeding the fleshmass and supplying skill essence for brood-womb fleshbeast growth.</description>
+    <tab>FB_Fleshbeast</tab>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>FB_BroodMotherResearch</li>
+    </prerequisites>
+    <baseCost>1800</baseCost>
+    <researchViewX>3.50</researchViewX>
+    <researchViewY>3.30</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject-&gt;psychic lure antennae</li>
+        <li>subject_story-&gt;grew neural organs that call prey and enemies into reach</li>
+        <li>subject_story-&gt;learned to turn psychic noise into biomass harvests</li>
+        <li>subject_gerund-&gt;broadcasting predatory signals</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+  <!-- Исследование: organic genetics (FB_OrganicGenetics) -->
+  <ResearchProjectDef>
+    <defName>FB_OrganicGenetics</defName>
+    <label>organic genetics</label>
+    <description>Unlock the Genophage Cocoon, Genome Archive, and Gene Reweaver: a living genetic suite for harvesting genes into visible genepacks, storing them in organic archives, and weaving them into prepared flesh xenogerms for cocoon integration.</description>
+    <tab>FB_Fleshbeast</tab>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>FleshmassEngineering</li>
+    </prerequisites>
+    <baseCost>2500</baseCost>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>5.50</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject-&gt;organic genetics</li>
+        <li>subject_story-&gt;grew living genetic archives</li>
+        <li>subject_story-&gt;rewove genes through hemogel-fed organs</li>
+        <li>subject_gerund-&gt;reweaving organic genomes</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+  <!-- Исследование: celestial budding (FB_CelestialBudding) -->
+  <ResearchProjectDef>
+    <defName>FB_CelestialBudding</defName>
+    <label>celestial budding</label>
+    <description>Unlock the Celestial Umbilicus, the final organ of the flesh colony. Once charged and awakened, it locks a massive hemogel reserve, grows toward orbit, and provokes every faction into trying to sever the budding column.</description>
+    <tab>FB_Fleshbeast</tab>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>FB_OrganicGenetics</li>
+      <li>FB_NeuralDominion</li>
+      <li>FB_AdaptiveHarvesters</li>
+    </prerequisites>
+    <baseCost>5000</baseCost>
+    <researchViewX>5.00</researchViewX>
+    <researchViewY>4.90</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject-&gt;celestial budding</li>
+        <li>subject_story-&gt;prepared the colony to bud away from the planet</li>
+        <li>subject_story-&gt;grew a living launch umbilicus for a future flesh moon</li>
+        <li>subject_gerund-&gt;feeding the final umbilicus</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+
+  <!-- Research: hemoghoul reanimation (FB_HemoghoulReanimation) -->
+  <ResearchProjectDef>
+    <defName>FB_HemoghoulReanimation</defName>
+    <label>hemoghoul reanimation</label>
+    <description>Teach the colony brain to implant a fingerspike into a human corpse and raise it as a tireless hemoghoul worker.</description>
+    <tab>FB_Fleshbeast</tab>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>FB_FleshResurrection</li>
+    </prerequisites>
+    <baseCost>2000</baseCost>
+    <researchViewX>5.00</researchViewX>
+    <researchViewY>1.70</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject-&gt;hemoghoul reanimation</li>
+        <li>subject_story-&gt;raised tireless workers through fingerspike implantation</li>
+        <li>subject_story-&gt;bound dead flesh into hemogel-fed laborers</li>
+        <li>subject_gerund-&gt;reanimating hemoghouls</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+
+  <!-- Research: flesh resurrection (FB_FleshResurrection) -->
+  <ResearchProjectDef>
+    <defName>FB_FleshResurrection</defName>
+    <label>flesh resurrection</label>
+    <description>Teach the colony brain to restore a dead human through fingerspike implantation and bind the revived pawn to the flesh colony.</description>
+    <tab>FB_Fleshbeast</tab>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>FleshmassEngineering</li>
+    </prerequisites>
+    <baseCost>4000</baseCost>
+    <researchViewX>4.00</researchViewX>
+    <researchViewY>1.80</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject-&gt;flesh resurrection</li>
+        <li>subject_story-&gt;restored dead minds through living flesh</li>
+        <li>subject_story-&gt;used fingerspikes to return corpses to the colony</li>
+        <li>subject_gerund-&gt;resurrecting through flesh</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+</Defs>

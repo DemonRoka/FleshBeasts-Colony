@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_SegmentedBastionResearch.label>segmented bastion</FB_SegmentedBastionResearch.label>
+  <FB_SegmentedBastionResearch.description>Teach the colony brain to fuse allied spine fleshbeasts into a draftable bastion that can split into its original segment swarm.</FB_SegmentedBastionResearch.description>
+  <FB_SegmentedBastionResearch.generalRules.rulesStrings.0>subject-&gt;segmented bastion fusion</FB_SegmentedBastionResearch.generalRules.rulesStrings.0>
+  <FB_SegmentedBastionResearch.generalRules.rulesStrings.1>subject_story-&gt;bound spine fleshbeasts into a closed segment swarm</FB_SegmentedBastionResearch.generalRules.rulesStrings.1>
+  <FB_SegmentedBastionResearch.generalRules.rulesStrings.2>subject_story-&gt;taught bastion segments to remember their original body</FB_SegmentedBastionResearch.generalRules.rulesStrings.2>
+  <FB_SegmentedBastionResearch.generalRules.rulesStrings.3>subject_gerund-&gt;assembling segmented bastions</FB_SegmentedBastionResearch.generalRules.rulesStrings.3>
+</LanguageData>

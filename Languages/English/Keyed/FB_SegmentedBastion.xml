@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_SegmentedBastion_AssembleLabel>Assemble segmented bastion</FB_SegmentedBastion_AssembleLabel>
+  <FB_SegmentedBastion_AssembleDesc>Call allied fingerspikes, trispikes, and toughspikes to fuse into a draftable segmented bastion.</FB_SegmentedBastion_AssembleDesc>
+  <FB_SegmentedBastion_NoDonors>Not enough suitable allied fingerspikes, trispikes, or toughspikes are available.</FB_SegmentedBastion_NoDonors>
+  <FB_SegmentedBastion_NoGatherCell>No reachable space found for the selected fleshbeasts to gather.</FB_SegmentedBastion_NoGatherCell>
+  <FB_SegmentedBastion_Interrupted>The segmented bastion assembly was interrupted.</FB_SegmentedBastion_Interrupted>
+  <FB_SegmentedBastion_AssemblyStarted>{0} fleshbeasts begin converging into a segmented bastion. Combined mass value: {1}.</FB_SegmentedBastion_AssemblyStarted>
+  <FB_SegmentedBastion_AssemblyComplete>{BEAST_labelShort} has formed.</FB_SegmentedBastion_AssemblyComplete>
+  <FB_SegmentedBastion_SplitLabel>Split into spine swarm</FB_SegmentedBastion_SplitLabel>
+  <FB_SegmentedBastion_SplitDesc>Break this bastion into its surviving spine segments. Each segment keeps its original bastion identity.</FB_SegmentedBastion_SplitDesc>
+  <FB_SegmentedBastion_NoViableSegments>No viable segments remain.</FB_SegmentedBastion_NoViableSegments>
+  <FB_SegmentedBastion_ReassembleLabel>Reassemble segmented bastion</FB_SegmentedBastion_ReassembleLabel>
+  <FB_SegmentedBastion_ReassembleDesc>Gather all surviving native segments of this bastion and fuse them back into the large form.</FB_SegmentedBastion_ReassembleDesc>
+  <FB_SegmentedBastion_InvalidSegment>This segment does not remember a bastion identity.</FB_SegmentedBastion_InvalidSegment>
+  <FB_SegmentedBastion_SegmentTooDamaged>This segment is too damaged to reassemble.</FB_SegmentedBastion_SegmentTooDamaged>
+  <FB_SegmentedBastion_ReassemblyActive>This bastion group is already reassembling.</FB_SegmentedBastion_ReassemblyActive>
+  <FB_SegmentedBastion_NoSegments>No surviving native segments are available.</FB_SegmentedBastion_NoSegments>
+  <FB_SegmentedBastion_ReassemblyStarted>{0} bastion segments begin reassembling.</FB_SegmentedBastion_ReassemblyStarted>
+  <FB_SegmentedBastion_ReassemblyComplete>{BEAST_labelShort} has reassembled.</FB_SegmentedBastion_ReassemblyComplete>
+  <FB_SegmentedBastion_RepairLabel>Call fingerspike repair</FB_SegmentedBastion_RepairLabel>
+  <FB_SegmentedBastion_RepairDesc>Order the nearest available fingerspike to embed itself into this bastion, restoring one missing segment or healing the worst surviving segment.</FB_SegmentedBastion_RepairDesc>
+  <FB_SegmentedBastion_RepairFullyHealthy>All bastion segments are fully healthy.</FB_SegmentedBastion_RepairFullyHealthy>
+  <FB_SegmentedBastion_RepairCannotAct>The segmented bastion cannot receive a fingerspike repair right now.</FB_SegmentedBastion_RepairCannotAct>
+  <FB_SegmentedBastion_NoRepairFingerspike>No reachable fingerspike is available.</FB_SegmentedBastion_NoRepairFingerspike>
+</LanguageData>

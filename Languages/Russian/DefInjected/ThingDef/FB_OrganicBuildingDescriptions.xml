@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_CaptureNerveNode.description>Нервный узел, связывающийся с ближайшим сердцем, добавляющий слот хватательных щупалец и вызывающий их вручную.</FB_CaptureNerveNode.description>
+  <FB_CaptureNerveNodeEmbryo.description>Незрелый нервный узел, который вырастет в узел захвата.</FB_CaptureNerveNodeEmbryo.description>
+</LanguageData>

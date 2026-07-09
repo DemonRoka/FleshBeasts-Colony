@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_ColonyBrain_Structure_PsychicLureAntenna_Label>Психическая приманка</FB_ColonyBrain_Structure_PsychicLureAntenna_Label>
+  <FB_ColonyBrain_Structure_PsychicLureAntenna_Desc>Гемогелевая нейронная антенна, которая испускает хищный пси-сигнал и зовёт к колонии враждебные тела как опасную биомассу.</FB_ColonyBrain_Structure_PsychicLureAntenna_Desc>
+  <FB_PsychicLureAntenna_ReleaseLabel>Выпустить пси-приманку</FB_PsychicLureAntenna_ReleaseLabel>
+  <FB_PsychicLureAntenna_ReleaseDesc>Потратить {0} гемогеля, чтобы выпустить психическую приманку. Она случайно зовёт вражеский рейд или стаю обезумевших животных. Угроза прибудет через {2}-{3}; после этого антенна уйдёт в перезарядку на {1}.</FB_PsychicLureAntenna_ReleaseDesc>
+  <FB_PsychicLureAntenna_InspectCharge>Заряд пси-приманки: {0} / {1} гемогеля</FB_PsychicLureAntenna_InspectCharge>
+  <FB_PsychicLureAntenna_InspectPending>Ответ на пси-сигнал прибудет через: {0}</FB_PsychicLureAntenna_InspectPending>
+  <FB_PsychicLureAntenna_InspectCooldown>Перезарядка пси-приманки: {0}</FB_PsychicLureAntenna_InspectCooldown>
+  <FB_PsychicLureAntenna_NoMap>Антенна не находится на подходящей карте.</FB_PsychicLureAntenna_NoMap>
+  <FB_PsychicLureAntenna_NotPlayerOwned>Антенна должна принадлежать колонии игрока.</FB_PsychicLureAntenna_NotPlayerOwned>
+  <FB_PsychicLureAntenna_NoStorage>Отсутствует хранилище гемогеля.</FB_PsychicLureAntenna_NoStorage>
+  <FB_PsychicLureAntenna_NotEnoughHemogel>Для выпуска пси-приманки требуется {0} гемогеля. Текущий заряд: {1}.</FB_PsychicLureAntenna_NotEnoughHemogel>
+  <FB_PsychicLureAntenna_Pending>Ответ на пси-сигнал уже приближается: {0}.</FB_PsychicLureAntenna_Pending>
+  <FB_PsychicLureAntenna_Cooldown>Пси-приманка перезаряжается ещё {0}.</FB_PsychicLureAntenna_Cooldown>
+  <FB_PsychicLureAntenna_NoIncident>На психическую приманку не ответила ни одна подходящая угроза.</FB_PsychicLureAntenna_NoIncident>
+  <FB_PsychicLureAntenna_Released>Антенна психической приманки испускает сигнал во тьму. Враждебный ответ должен прибыть через {0}.</FB_PsychicLureAntenna_Released>
+  <FB_PsychicLureAntenna_PulseDissipated>Пси-приманка рассеивается, не притянув подходящую угрозу.</FB_PsychicLureAntenna_PulseDissipated>
+  <FB_PsychicLureAntenna_ToggleLabel>Передача пси-приманки</FB_PsychicLureAntenna_ToggleLabel>
+  <FB_PsychicLureAntenna_ToggleDesc>Переключить усиленную передачу приманки. В активном режиме антенна потребляет {0} гемогеля в час и зовёт враждебный ответ каждые {1}-{2}.</FB_PsychicLureAntenna_ToggleDesc>
+  <FB_PsychicLureAntenna_InspectDisabled>Передача пси-приманки: выключена</FB_PsychicLureAntenna_InspectDisabled>
+  <FB_PsychicLureAntenna_InspectNoNetworkSupply>Передача пси-приманки приостановлена: гемогелевая сеть недополучает питание.</FB_PsychicLureAntenna_InspectNoNetworkSupply>
+  <FB_PsychicLureAntenna_InspectNextPulse>Следующая пси-приманка через: {0}</FB_PsychicLureAntenna_InspectNextPulse>
+  <FB_PsychicLureAntenna_EconomyActive>Передача активна</FB_PsychicLureAntenna_EconomyActive>
+  <FB_PsychicLureAntenna_EconomyPassive>Ожидание</FB_PsychicLureAntenna_EconomyPassive>
+  <FB_PsychicLureAntenna_DevResetCooldownLabel>DEV: сбросить перезарядку пси-приманки</FB_PsychicLureAntenna_DevResetCooldownLabel>
+  <FB_PsychicLureAntenna_DevResetCooldownDesc>Мгновенно сбрасывает таймер пси-приманки и отменяет уже приближающийся ответ.</FB_PsychicLureAntenna_DevResetCooldownDesc></LanguageData>

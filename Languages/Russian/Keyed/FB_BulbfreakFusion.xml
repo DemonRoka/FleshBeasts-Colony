@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_BulbfreakFusionInvalidCaster>Начать объединение плоти может только живая пешка колонии плоти.</FB_BulbfreakFusionInvalidCaster>
+  <FB_BulbfreakFusionAlreadyActive>Эта пешка уже участвует в объединении плоти.</FB_BulbfreakFusionAlreadyActive>
+  <FB_BulbfreakFusionNoDonors>Рядом недостаточно подходящих союзных пальцешипов, трёхшипов или крепкошипов.</FB_BulbfreakFusionNoDonors>
+  <FB_BulbfreakFusionNoGatherCells>Вокруг носителя нет доступного места, где флешбисты смогут собраться.</FB_BulbfreakFusionNoGatherCells>
+  <FB_BulbfreakFusionInterrupted>Объединение плоти {PAWN_labelShort} было прервано.</FB_BulbfreakFusionInterrupted>
+  <FB_BulbfreakFusionStarted>{PAWN_labelShort} призывает {0} флешбистов к объединению плоти. Общая ценность массы: {1}.</FB_BulbfreakFusionStarted>
+  <FB_BulbfreakFusionCompleted>{PAWN_labelShort} объединяется в {BEAST_labelShort}.</FB_BulbfreakFusionCompleted>
+  <FB_BulbfreakFusionHostInspect>Носитель: {0}</FB_BulbfreakFusionHostInspect>
+  <FB_BulbfreakCollapseLabel>Освободить носителя</FB_BulbfreakCollapseLabel>
+  <FB_BulbfreakCollapseDesc>Схлопнуть объединённого флешбиста, выпустив запечатанного носителя и позволив телу развалиться так, будто оно погибло. Большая часть флешбистов, потраченных на объединение, будет потеряна.</FB_BulbfreakCollapseDesc>
+  <FB_BulbfreakCollapseNoHost>Внутри нет запечатанного носителя.</FB_BulbfreakCollapseNoHost>
+</LanguageData>

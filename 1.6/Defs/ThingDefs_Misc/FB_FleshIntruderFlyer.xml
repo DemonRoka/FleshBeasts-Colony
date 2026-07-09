@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="PawnFlyerBase">
+    <defName>FB_FleshIntruderLeapFlyer</defName>
+    <label>flesh intruder leap</label>
+    <thingClass>FB.PawnFlyer_FleshIntruderLeap</thingClass>
+    <pawnFlyer>
+      <flightDurationMin>0.16</flightDurationMin>
+      <flightSpeed>24</flightSpeed>
+      <heightFactor>0.45</heightFactor>
+    </pawnFlyer>
+  </ThingDef>
+</Defs>

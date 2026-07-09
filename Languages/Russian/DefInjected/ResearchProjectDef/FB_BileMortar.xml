@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_BileMortarResearch.label>желчная мортирная железа</FB_BileMortarResearch.label>
+  <FB_BileMortarResearch.description>Открывает желчную мортирную железу — живой артиллерийский орган, выращивающий желчных подрывников и запускающий зрелых подрывников как горючие биологические снаряды.</FB_BileMortarResearch.description>
+  <FB_BileMortarResearch.generalRules.rulesStrings.0>subject-&gt;живая желчная артиллерия</FB_BileMortarResearch.generalRules.rulesStrings.0>
+  <FB_BileMortarResearch.generalRules.rulesStrings.1>subject_story-&gt;вырастил нестабильные желчные боеприпасы</FB_BileMortarResearch.generalRules.rulesStrings.1>
+  <FB_BileMortarResearch.generalRules.rulesStrings.2>subject_story-&gt;развил артиллерийские органы из тканей плевательной железы</FB_BileMortarResearch.generalRules.rulesStrings.2>
+  <FB_BileMortarResearch.generalRules.rulesStrings.3>subject_gerund-&gt;выращивание желчных мортир</FB_BileMortarResearch.generalRules.rulesStrings.3>
+</LanguageData>

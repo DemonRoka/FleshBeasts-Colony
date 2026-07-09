@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Состояние: neural thrall link (FB_ThrallbloomNeuralLink) -->
+  <HediffDef>
+    <defName>FB_ThrallbloomNeuralLink</defName>
+    <label>neural thrall link</label>
+    <description>This creature is under the control of an external mind through a neural-organic link. It follows commands without resistance, but if the connection is broken, it may become hostile or unstable.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <stages>
+      <li>
+        <painFactor>0</painFactor>
+        <statFactors>
+          <RestFallRateFactor>0.30</RestFallRateFactor>
+        </statFactors>
+        <capMods>
+          <li>
+            <capacity>Talking</capacity>
+            <setMax>0</setMax>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+    <comps>
+      <li Class="FB.HediffCompProperties_ThrallbloomNeuralLink">
+        <refreshIntervalTicks>30</refreshIntervalTicks>
+        <stunTicksOnBreak>180</stunTicksOnBreak>
+        <mindCollapseTicks>180000</mindCollapseTicks>
+        <releasedAftershockHediff>FB_ThrallbloomNeuralAftershock</releasedAftershockHediff>
+        <releasedAftershockTicks>60000</releasedAftershockTicks>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <!-- Состояние: thrallbloom neural aftershock (FB_ThrallbloomNeuralAftershock) -->
+  <HediffDef>
+    <defName>FB_ThrallbloomNeuralAftershock</defName>
+    <label>neural aftershock</label>
+    <description>The thrallbloom link has released this pawn, but its thoughts still move through torn and exhausted pathways.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>true</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <defaultLabelColor>(0.9, 0.35, 0.35)</defaultLabelColor>
+    <stages>
+      <li>
+        <label>disoriented</label>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.15</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.20</offset>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>-0.10</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>60000</disappearsAfterTicks>
+        <showRemainingTime>true</showRemainingTime>
+      </li>
+    </comps>
+  </HediffDef>
+</Defs>

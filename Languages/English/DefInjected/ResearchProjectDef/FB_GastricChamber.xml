@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_GastricChambers.label>gastric acid spewers</FB_GastricChambers.label>
+  <FB_GastricChambers.description>Unlock the Gastric Acid Spewer, a digestive organ that floods nearby cells with acid and converts bodies or food into hemogel.</FB_GastricChambers.description>
+  <FB_GastricChambers.generalRules.rulesStrings.0>subject-&gt;gastric acid spewers</FB_GastricChambers.generalRules.rulesStrings.0>
+  <FB_GastricChambers.generalRules.rulesStrings.1>subject_story-&gt;grew acid-spewing digestive organs</FB_GastricChambers.generalRules.rulesStrings.1>
+  <FB_GastricChambers.generalRules.rulesStrings.2>subject_story-&gt;cultivated roaming gastric pools</FB_GastricChambers.generalRules.rulesStrings.2>
+  <FB_GastricChambers.generalRules.rulesStrings.3>subject_gerund-&gt;growing gastric acid spewers</FB_GastricChambers.generalRules.rulesStrings.3>
+</LanguageData>

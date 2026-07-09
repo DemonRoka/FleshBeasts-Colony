@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <FB_FleshMemory_Tab>Память</FB_FleshMemory_Tab>
+  <FB_FleshMemory_Header>Сохранено сознаний: {0}</FB_FleshMemory_Header>
+  <FB_FleshMemory_Empty>Колония плоти ещё не сохранила ни одного сознания.</FB_FleshMemory_Empty>
+  <FB_FleshMemory_Unnamed>безымянное сознание</FB_FleshMemory_Unnamed>
+  <FB_FleshMemory_Unknown>неизвестно</FB_FleshMemory_Unknown>
+  <FB_FleshMemory_StatusAlive>Источник жив</FB_FleshMemory_StatusAlive>
+  <FB_FleshMemory_StatusDead>Доступно для воссоздания</FB_FleshMemory_StatusDead>
+  <FB_FleshMemory_StatusGrowing>Выращивание оболочки: {0}</FB_FleshMemory_StatusGrowing>
+  <FB_FleshMemory_StatusWaiting>Оболочка готова; ожидается пальцешип</FB_FleshMemory_StatusWaiting>
+  <FB_FleshMemory_StatusImplanting>Пальцешип внедряет сохранённое сознание</FB_FleshMemory_StatusImplanting>
+  <FB_FleshMemory_ReconstructTooltip>Выберите клетку и вырастите новое тело из этой памяти. Требуется {0} гемогеля мозга.</FB_FleshMemory_ReconstructTooltip>
+  <FB_FleshMemory_DeleteTooltip>Навсегда стереть эту память.</FB_FleshMemory_DeleteTooltip>
+  <FB_FleshMemory_DeleteConfirm>Стереть сохранённую память о {0}? Живая принятая пешка не будет записана повторно, пока не потеряет и заново не получит принятие колонией плоти.</FB_FleshMemory_DeleteConfirm>
+  <FB_FleshMemory_DeleteActive>Нельзя стереть память, пока из неё выращивается оболочка.</FB_FleshMemory_DeleteActive>
+  <FB_FleshMemory_ReconstructionStarted>Мозг колонии начал выращивать новое тело для {0}.</FB_FleshMemory_ReconstructionStarted>
+  <FB_FleshMemory_ReconstructionComplete>{0} воссоздан из памяти колонии.</FB_FleshMemory_ReconstructionComplete>
+  <FB_FleshMemory_ArchiveUnavailable>Архив памяти колонии плоти недоступен.</FB_FleshMemory_ArchiveUnavailable>
+  <FB_FleshMemory_InvalidBrain>Выбранный мозг колонии не может начать воссоздание.</FB_FleshMemory_InvalidBrain>
+  <FB_FleshMemory_NotDead>У этого сознания ещё есть живой источник.</FB_FleshMemory_NotDead>
+  <FB_FleshMemory_AlreadyGrowing>Из этой памяти уже выращивается тело.</FB_FleshMemory_AlreadyGrowing>
+  <FB_FleshMemory_BrainBusy>Этот мозг колонии уже выращивает другое тело.</FB_FleshMemory_BrainBusy>
+  <FB_FleshMemory_NoGrowthCell>Рядом с мозгом колонии нет подходящей клетки для новой оболочки.</FB_FleshMemory_NoGrowthCell>
+  <FB_FleshMemory_InvalidGrowthCell>Выберите пустую проходимую клетку для новой оболочки.</FB_FleshMemory_InvalidGrowthCell>
+  <FB_FleshMemory_CreateShellFailed>Мозгу колонии не удалось сформировать жизнеспособную оболочку.</FB_FleshMemory_CreateShellFailed>
+  <FB_FleshMemory_NotEnoughHemogel>Для воссоздания требуется {0} гемогеля мозга. Доступно: {1}.</FB_FleshMemory_NotEnoughHemogel>
+  <FB_FleshMemory_InvalidOperation>Операция воссоздания больше не действительна.</FB_FleshMemory_InvalidOperation>
+  <FB_FleshMemory_ResurrectionFailed>Пальцешипу не удалось пробудить выращенную оболочку.</FB_FleshMemory_ResurrectionFailed>
+  <FB_FleshMemory_ReconstructUnavailable>Эту память сейчас нельзя воссоздать.</FB_FleshMemory_ReconstructUnavailable>
+  <FB_FleshMemory_DetailRace>Раса: {0}</FB_FleshMemory_DetailRace>
+  <FB_FleshMemory_DetailGender>Пол: {0}</FB_FleshMemory_DetailGender>
+  <FB_FleshMemory_DetailSkills>Сохранённые навыки:</FB_FleshMemory_DetailSkills>
+  <FB_FleshMemory_DetailTraits>Сохранённые черты:</FB_FleshMemory_DetailTraits>
+  <FB_FleshMemory_DetailGenes>Сохранено генов: {0}</FB_FleshMemory_DetailGenes>
+  <FB_FleshMemory_DetailIdeology>Идеология: {0}</FB_FleshMemory_DetailIdeology>
+  <FB_FleshMemory_DetailRelations>Сохранено прямых связей: {0}</FB_FleshMemory_DetailRelations>
+
+</LanguageData>

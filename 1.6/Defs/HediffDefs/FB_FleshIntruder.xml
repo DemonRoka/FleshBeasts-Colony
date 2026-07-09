@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HediffDef>
+    <defName>FB_FleshIntrusion</defName>
+    <label>flesh intrusion</label>
+    <description>A burrowing flesh-organ is lodged inside an outer body part, chewing inward until the tissue fails or the organism burns itself out.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>true</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <initialSeverity>0.01</initialSeverity>
+    <maxSeverity>1</maxSeverity>
+    <defaultLabelColor>(0.9, 0.2, 0.2)</defaultLabelColor>
+    <stages>
+      <li>
+        <label>burrowing</label>
+        <painOffset>0.12</painOffset>
+      </li>
+    </stages>
+    <comps>
+      <li Class="FB.HediffCompProperties_FleshIntrusion">
+        <damageDef>Stab</damageDef>
+        <damageIntervalTicks>500</damageIntervalTicks>
+        <durationTicks>45000</durationTicks>
+        <damagePerInterval>4</damagePerInterval>
+        <maxInternalDamage>320</maxInternalDamage>
+        <ruptureCountPerBodySize>0.6</ruptureCountPerBodySize>
+        <maxRupturePawns>5</maxRupturePawns>
+        <rupturePawnKinds>
+          <li>Fingerspike</li>
+          <li>Trispike</li>
+        </rupturePawnKinds>
+      </li>
+    </comps>
+  </HediffDef>
+</Defs>

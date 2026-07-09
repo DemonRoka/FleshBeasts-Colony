@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_FleshmassBoneWallPlan_Label>Fleshmass Bone Wall Plan</FB_FleshmassBoneWallPlan_Label>
+  <FB_FleshmassBoneWallPlan_Desc>Mark ordinary colony fleshmass walls for reinforcement. The colony heart will spend hemogel to grow rigid bone structure inside them.</FB_FleshmassBoneWallPlan_Desc>
+  <FB_MustTargetNormalFleshmassWall>Must target an ordinary player-owned fleshmass wall.</FB_MustTargetNormalFleshmassWall>
+</LanguageData>

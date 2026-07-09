@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_RequiresSpecificCorpse>Требуется труп: {0}.</FB_RequiresSpecificCorpse>
+  <FB_RequiresStoredCorpse>Требуется разрешённый труп в хранилище.</FB_RequiresStoredCorpse>
+  <FB_RequiresSpecificStoredCorpse>Требуется разрешённый труп в хранилище: {0}.</FB_RequiresSpecificStoredCorpse>
+  <FB_AnyCorpse>любой труп</FB_AnyCorpse>
+</LanguageData>

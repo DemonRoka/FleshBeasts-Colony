@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_ColonyBrain_Structure_CelestialUmbilicus_Label>Celestial Umbilicus</FB_ColonyBrain_Structure_CelestialUmbilicus_Label>
+  <FB_ColonyBrain_Structure_CelestialUmbilicus_Desc>Grows a surface-linked orbital outpost able to send aid to the flesh colony anywhere in the world.</FB_ColonyBrain_Structure_CelestialUmbilicus_Desc>
+  <FB_CelestialUmbilicusStartLabel>Start celestial budding</FB_CelestialUmbilicusStartLabel>
+  <FB_CelestialUmbilicusStartDesc>Requires {0} hemogel to awaken. After launch, all hemogel fed into the umbilicus is consumed until {1} has been spent; raid-capable factions will send repeated attacks.</FB_CelestialUmbilicusStartDesc>
+  <FB_CelestialUmbilicusStartWarning>Awakening the celestial umbilicus cannot be cancelled. It requires {0} startup hemogel, then consumes another {1} hemogel as it grows toward orbit. Every non-player faction will turn hostile. Continue?</FB_CelestialUmbilicusStartWarning>
+  <FB_CelestialUmbilicusAwakenedLetterLabel>Celestial umbilicus awakened</FB_CelestialUmbilicusAwakenedLetterLabel>
+  <FB_CelestialUmbilicusAwakenedLetterText>The celestial umbilicus has opened its vascular throat to the sky. {0} factions recognize the colony as a planetary infection and turn hostile. They will send repeated raids until the column is severed or the flesh colony completes its orbital budding. Startup charge: {1}. Required growth hemogel: {2}.</FB_CelestialUmbilicusAwakenedLetterText>
+  <FB_CelestialUmbilicusDestroyedLetterLabel>Celestial umbilicus severed</FB_CelestialUmbilicusDestroyedLetterLabel>
+  <FB_CelestialUmbilicusDestroyedLetterText>The budding column has been destroyed. The final growth has failed, but the factions that saw the colony's intent will not forget it.</FB_CelestialUmbilicusDestroyedLetterText>
+  <FB_CelestialUmbilicusInspectDormant>Startup charge: {0} / {1} hemogel ({2}%)</FB_CelestialUmbilicusInspectDormant>
+  <FB_CelestialUmbilicusInspectReady>Startup charge ready: {0} / {1} hemogel. Awaiting growth command.</FB_CelestialUmbilicusInspectReady>
+  <FB_CelestialUmbilicusInspectActive>Growth hemogel consumed: {0} / {1} ({2}%)</FB_CelestialUmbilicusInspectActive>
+  <FB_CelestialUmbilicusInspectLockedHemogel>Locked hemogel: {0}</FB_CelestialUmbilicusInspectLockedHemogel>
+  <FB_CelestialUmbilicusInspectNextRaid>Next hostile wave: {0}</FB_CelestialUmbilicusInspectNextRaid>
+  <FB_CelestialUmbilicusInspectCompleted>Celestial budding complete.</FB_CelestialUmbilicusInspectCompleted>
+  <FB_CelestialUmbilicusInspectNoStorage>Missing hemogel storage.</FB_CelestialUmbilicusInspectNoStorage>
+  <FB_CelestialUmbilicusNotPlayerOwned>The umbilicus must belong to the player colony.</FB_CelestialUmbilicusNotPlayerOwned>
+  <FB_CelestialUmbilicusAlreadyActive>Another celestial umbilicus is already active on this map.</FB_CelestialUmbilicusAlreadyActive>
+  <FB_CelestialUmbilicusNotEnoughHemogel>Requires {0} hemogel to start. Current charge: {1}.</FB_CelestialUmbilicusNotEnoughHemogel>
+  <FB_CelestialUmbilicusVictoryIntro>The planet was never a home. It was a womb, a sack of minerals, water, memory, and meat. The colony's roots drank it until the last organ learned to pull upward.</FB_CelestialUmbilicusVictoryIntro>
+  <FB_CelestialUmbilicusVictoryEnding>The last structures fold inward. Flesh terrain peels from the world, and every colony pawn enters the celestial umbilicus. The colony buds free as a small living moon, carrying {0} absorbed pawns within one orbital organism.</FB_CelestialUmbilicusVictoryEnding>
+  <FB_CelestialUmbilicusInspectSegments>Column segments: {0} / {1}</FB_CelestialUmbilicusInspectSegments>
+  <FB_CelestialUmbilicusInspectInputPaused>Hemogel intake paused.</FB_CelestialUmbilicusInspectInputPaused>
+  <FB_CelestialUmbilicusHemogelInputLabel>Accept hemogel</FB_CelestialUmbilicusHemogelInputLabel>
+  <FB_CelestialUmbilicusHemogelInputDesc>Toggle whether the colony heart can feed hemogel into this umbilicus. Growth pauses when no hemogel reaches it.</FB_CelestialUmbilicusHemogelInputDesc>
+  <FB_CelestialUmbilicusDevStartLabel>DEV: start celestial budding</FB_CelestialUmbilicusDevStartLabel>
+  <FB_CelestialUmbilicusDevCompleteLabel>DEV: complete celestial budding</FB_CelestialUmbilicusDevCompleteLabel>
+
+  <FB_FleshMoonFormedLetterLabel>Flesh moon formed</FB_FleshMoonFormedLetterLabel>
+  <FB_FleshMoonFormedLetterText>The celestial umbilicus has formed a small living moon beside the planet. Decide whether to absorb the colony into it or preserve a permanent link.</FB_FleshMoonFormedLetterText>
+  <FB_FleshMoonDecisionCommandLabel>Choose flesh moon outcome</FB_FleshMoonDecisionCommandLabel>
+  <FB_FleshMoonDecisionCommandDesc>Choose whether the colony buds into the flesh moon or maintains the celestial umbilicus as a permanent link.</FB_FleshMoonDecisionCommandDesc>
+  <FB_CelestialUmbilicusInspectAwaitingChoice>Flesh moon formed. Awaiting a final decision.</FB_CelestialUmbilicusInspectAwaitingChoice>
+  <FB_CelestialUmbilicusInspectLinked>Permanent flesh moon link active.</FB_CelestialUmbilicusInspectLinked>
+  <FB_CelestialUmbilicusInspectAbsorbing>Absorbing the colony into the flesh moon.</FB_CelestialUmbilicusInspectAbsorbing>
+  <FB_CelestialUmbilicusInspectAscended>The colony has become the flesh moon.</FB_CelestialUmbilicusInspectAscended>
+  <FB_CelestialUmbilicusInspectSevered>The flesh moon link has been severed.</FB_CelestialUmbilicusInspectSevered>
+  <FB_FleshMoonLinkSeveredLetterLabel>Flesh moon link severed</FB_FleshMoonLinkSeveredLetterLabel>
+  <FB_FleshMoonLinkSeveredLetterText>The celestial umbilicus was destroyed. The flesh moon remains in orbit, but its link to the colony has been lost.</FB_FleshMoonLinkSeveredLetterText>
+  <FB_FleshMoonChoiceText>The flesh moon is complete. The colony can now surrender all of its biomass and bud away from the planet, ending this story, or keep the celestial umbilicus active and retain access to future lunar functions.</FB_FleshMoonChoiceText>
+  <FB_FleshMoonChoiceAscend>Absorb the colony and bud off</FB_FleshMoonChoiceAscend>
+  <FB_FleshMoonChoiceMaintainLink>Maintain the permanent link</FB_FleshMoonChoiceMaintainLink>
+  <FB_FleshMoonChoicePostpone>Decide later</FB_FleshMoonChoicePostpone>
+  <FB_FleshMoonLinkedLetterLabel>Flesh moon link maintained</FB_FleshMoonLinkedLetterLabel>
+  <FB_FleshMoonLinkedLetterText>The celestial umbilicus remains open. A new Flesh Architect category is now available for functions provided by the flesh moon.</FB_FleshMoonLinkedLetterText>
+  <FB_FleshMoonMissingSourceMap>The colony map is no longer available.</FB_FleshMoonMissingSourceMap>
+  <FB_FleshMoonAbsorptionStartedLetterLabel>Final absorption begun</FB_FleshMoonAbsorptionStartedLetterLabel>
+  <FB_FleshMoonAbsorptionStartedLetterText>The colony is folding into the celestial umbilicus. Structures and hemogel organs are consumed, flesh terrain peels inward from the map edges, and every player pawn is drawn toward the forming moon.</FB_FleshMoonAbsorptionStartedLetterText>
+</LanguageData>

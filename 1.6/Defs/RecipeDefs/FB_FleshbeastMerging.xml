@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <RecipeDef Name="FB_FleshbeastMergeRecipeBase" Abstract="True">
+    <workerClass>FB.RecipeWorker_FleshbeastMerge</workerClass>
+    <workerCounterClass>FB.RecipeWorkerCounter_FleshbeastMerge</workerCounterClass>
+    <workAmount>1</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+  </RecipeDef>
+
+  <RecipeDef Name="FB_FleshbeastHemogelGrowthRecipeBase" Abstract="True">
+    <workerClass>FB.RecipeWorker_FleshbeastMerge</workerClass>
+    <workerCounterClass>FB.RecipeWorkerCounter_FleshbeastMerge</workerCounterClass>
+    <workAmount>1</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+  </RecipeDef>
+
+  <RecipeDef Name="FB_FleshbeastSkillGrowthRecipeBase" Abstract="True">
+    <workerClass>FB.RecipeWorker_FleshbeastMerge</workerClass>
+    <workerCounterClass>FB.RecipeWorkerCounter_FleshbeastMerge</workerCounterClass>
+    <workAmount>1</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+  </RecipeDef>
+  <RecipeDef ParentName="FB_FleshbeastHemogelGrowthRecipeBase">
+    <defName>FB_GrowFingerspikeFromHemogel</defName>
+    <label>grow fingerspike from hemogel</label>
+    <description>Grows a fingerspike directly from the organ's hemogel reserve.</description>
+    <modExtensions>
+      <li Class="FB.FleshbeastMergeRecipeExtension">
+        <outputKind>Fingerspike</outputKind>
+        <hemogelCost>80</hemogelCost>
+        <hemogelGrowthRadius>5</hemogelGrowthRadius>
+        <hemogelGrowthTicks>100</hemogelGrowthTicks>
+        <hemogelGrowthEffectIntervalTicks>200</hemogelGrowthEffectIntervalTicks>
+        <mergeEffect>MeatExplosionLarge</mergeEffect>
+      </li>
+    </modExtensions>
+  </RecipeDef>
+
+  <RecipeDef ParentName="FB_FleshbeastHemogelGrowthRecipeBase">
+    <defName>FB_GrowTrispikeFromHemogel</defName>
+    <label>grow trispike from hemogel</label>
+    <description>Grows a trispike directly from the organ's hemogel reserve.</description>
+    <modExtensions>
+      <li Class="FB.FleshbeastMergeRecipeExtension">
+        <outputKind>Trispike</outputKind>
+        <hemogelCost>300</hemogelCost>
+        <hemogelGrowthRadius>5</hemogelGrowthRadius>
+        <hemogelGrowthTicks>300</hemogelGrowthTicks>
+        <hemogelGrowthEffectIntervalTicks>200</hemogelGrowthEffectIntervalTicks>
+        <mergeEffect>MeatExplosionLarge</mergeEffect>
+      </li>
+    </modExtensions>
+  </RecipeDef>
+
+  <RecipeDef ParentName="FB_FleshbeastHemogelGrowthRecipeBase">
+    <defName>FB_GrowToughspikeFromHemogel</defName>
+    <label>grow toughspike from hemogel</label>
+    <description>Grows a toughspike directly from the organ's hemogel reserve.</description>
+    <modExtensions>
+      <li Class="FB.FleshbeastMergeRecipeExtension">
+        <outputKind>Toughspike</outputKind>
+        <hemogelCost>420</hemogelCost>
+        <hemogelGrowthRadius>5</hemogelGrowthRadius>
+        <hemogelGrowthTicks>450</hemogelGrowthTicks>
+        <hemogelGrowthEffectIntervalTicks>200</hemogelGrowthEffectIntervalTicks>
+        <mergeEffect>MeatExplosionLarge</mergeEffect>
+      </li>
+    </modExtensions>
+  </RecipeDef>
+
+  <RecipeDef ParentName="FB_FleshbeastHemogelGrowthRecipeBase">
+    <defName>FB_GrowBulbfreakFromHemogel</defName>
+    <label>grow bulbfreak from hemogel</label>
+    <description>Grows a bulbfreak directly from the organ's hemogel reserve.</description>
+    <modExtensions>
+      <li Class="FB.FleshbeastMergeRecipeExtension">
+        <outputKind>Bulbfreak</outputKind>
+        <hemogelCost>1100</hemogelCost>
+        <hemogelGrowthRadius>5</hemogelGrowthRadius>
+        <hemogelGrowthTicks>1200</hemogelGrowthTicks>
+        <hemogelGrowthEffectIntervalTicks>200</hemogelGrowthEffectIntervalTicks>
+        <mergeEffect>MeatExplosionLarge</mergeEffect>
+      </li>
+    </modExtensions>
+  </RecipeDef>
+
+  <RecipeDef ParentName="FB_FleshbeastSkillGrowthRecipeBase">
+    <defName>FB_GrowCortexMiteFromSkillEssence</defName>
+    <label>grow cortex mite from skill essence</label>
+    <description>Grows a cortex mite from hemogel and stored skill essence.</description>
+    <modExtensions>
+      <li Class="FB.FleshbeastMergeRecipeExtension">
+        <outputKind>FB_CortexMiteKind</outputKind>
+        <hemogelCost>210</hemogelCost>
+        <hemogelGrowthRadius>3</hemogelGrowthRadius>
+        <skillPointCosts>
+          <li>
+            <skill>Intellectual</skill>
+            <points>12</points>
+          </li>
+          <li>
+            <skill>Medicine</skill>
+            <points>5</points>
+          </li>
+          <li>
+            <skill>Animals</skill>
+            <points>4</points>
+          </li>
+        </skillPointCosts>
+        <mergeEffect>MeatExplosionLarge</mergeEffect>
+      </li>
+    </modExtensions>
+  </RecipeDef>
+
+  <RecipeDef ParentName="FB_FleshbeastSkillGrowthRecipeBase">
+    <defName>FB_GrowBurdenBlobFromSkillEssence</defName>
+    <label>grow burden blob from skill essence</label>
+    <description>Grows a burden blob from hemogel and stored skill essence.</description>
+    <modExtensions>
+      <li Class="FB.FleshbeastMergeRecipeExtension">
+        <outputKind>FB_BurdenBlobKind</outputKind>
+        <hemogelCost>120</hemogelCost>
+        <hemogelGrowthRadius>3</hemogelGrowthRadius>
+        <skillPointCosts>
+          <li>
+            <skill>Construction</skill>
+            <points>4</points>
+          </li>
+          <li>
+            <skill>Animals</skill>
+            <points>3</points>
+          </li>
+        </skillPointCosts>
+        <mergeEffect>MeatExplosionLarge</mergeEffect>
+      </li>
+    </modExtensions>
+  </RecipeDef>
+
+  <RecipeDef ParentName="FB_FleshbeastSkillGrowthRecipeBase">
+    <defName>FB_GrowCarapaceExcavatorFromSkillEssence</defName>
+    <label>grow carapace excavator from skill essence</label>
+    <description>Grows a carapace excavator from hemogel and stored skill essence.</description>
+    <modExtensions>
+      <li Class="FB.FleshbeastMergeRecipeExtension">
+        <outputKind>FB_CarapaceExcavatorKind</outputKind>
+        <hemogelCost>320</hemogelCost>
+        <hemogelGrowthRadius>3</hemogelGrowthRadius>
+        <skillPointCosts>
+          <li>
+            <skill>Mining</skill>
+            <points>14</points>
+          </li>
+          <li>
+            <skill>Construction</skill>
+            <points>6</points>
+          </li>
+          <li>
+            <skill>Animals</skill>
+            <points>5</points>
+          </li>
+        </skillPointCosts>
+        <mergeEffect>MeatExplosionLarge</mergeEffect>
+      </li>
+    </modExtensions>
+  </RecipeDef>
+
+  <RecipeDef ParentName="FB_FleshbeastSkillGrowthRecipeBase">
+    <defName>FB_GrowFerrimawFromSkillEssence</defName>
+    <label>grow ferrimaw from skill essence</label>
+    <description>Grows a ferrimaw from hemogel and stored skill essence.</description>
+    <researchPrerequisite>FB_AdaptiveHarvesters</researchPrerequisite>
+    <modExtensions>
+      <li Class="FB.FleshbeastMergeRecipeExtension">
+        <outputKind>FB_FerrimawKind</outputKind>
+        <hemogelCost>260</hemogelCost>
+        <hemogelGrowthRadius>3</hemogelGrowthRadius>
+        <skillPointCosts>
+          <li>
+            <skill>Mining</skill>
+            <points>10</points>
+          </li>
+          <li>
+            <skill>Crafting</skill>
+            <points>8</points>
+          </li>
+          <li>
+            <skill>Animals</skill>
+            <points>4</points>
+          </li>
+        </skillPointCosts>
+        <mergeEffect>MeatExplosionLarge</mergeEffect>
+      </li>
+    </modExtensions>
+  </RecipeDef>
+
+  <RecipeDef ParentName="FB_FleshbeastSkillGrowthRecipeBase">
+    <defName>FB_GrowScrapmeldNestlingFromSkillEssence</defName>
+    <label>grow scrapmeld nestling from skill essence</label>
+    <description>Grows a scrapmeld nestling from hemogel and stored skill essence.</description>
+    <researchPrerequisite>FB_AdaptiveHarvesters</researchPrerequisite>
+    <modExtensions>
+      <li Class="FB.FleshbeastMergeRecipeExtension">
+        <outputKind>FB_ScrapmeldNestlingKind</outputKind>
+        <hemogelCost>280</hemogelCost>
+        <hemogelGrowthRadius>3</hemogelGrowthRadius>
+        <skillPointCosts>
+          <li>
+            <skill>Intellectual</skill>
+            <points>12</points>
+          </li>
+          <li>
+            <skill>Shooting</skill>
+            <points>8</points>
+          </li>
+          <li>
+            <skill>Animals</skill>
+            <points>5</points>
+          </li>
+        </skillPointCosts>
+        <mergeEffect>MeatExplosionLarge</mergeEffect>
+      </li>
+    </modExtensions>
+  </RecipeDef>
+
+  <RecipeDef ParentName="FB_FleshbeastSkillGrowthRecipeBase">
+    <defName>FB_GrowSinewcallerFromSkillEssence</defName>
+    <label>grow sinewcaller from skill essence</label>
+    <description>Grows a sinewcaller from hemogel and stored skill essence.</description>
+    <researchPrerequisite>FB_AdaptiveHarvesters</researchPrerequisite>
+    <modExtensions>
+      <li Class="FB.FleshbeastMergeRecipeExtension">
+        <outputKind>FB_SinewcallerKind</outputKind>
+        <hemogelCost>180</hemogelCost>
+        <hemogelGrowthRadius>3</hemogelGrowthRadius>
+        <skillPointCosts>
+          <li>
+            <skill>Animals</skill>
+            <points>10</points>
+          </li>
+          <li>
+            <skill>Shooting</skill>
+            <points>3</points>
+          </li>
+        </skillPointCosts>
+        <mergeEffect>MeatExplosionLarge</mergeEffect>
+      </li>
+    </modExtensions>
+  </RecipeDef>
+
+  <RecipeDef ParentName="FB_FleshbeastSkillGrowthRecipeBase">
+    <defName>FB_GrowGraftmawFromSkillEssence</defName>
+    <label>grow graftmaw from skill essence</label>
+    <description>Grows a graftmaw from hemogel and stored skill essence.</description>
+    <researchPrerequisite>FB_AdaptiveHarvesters</researchPrerequisite>
+    <modExtensions>
+      <li Class="FB.FleshbeastMergeRecipeExtension">
+        <outputKind>FB_GraftmawKind</outputKind>
+        <hemogelCost>260</hemogelCost>
+        <hemogelGrowthRadius>3</hemogelGrowthRadius>
+        <skillPointCosts>
+          <li>
+            <skill>Medicine</skill>
+            <points>14</points>
+          </li>
+          <li>
+            <skill>Intellectual</skill>
+            <points>8</points>
+          </li>
+          <li>
+            <skill>Animals</skill>
+            <points>5</points>
+          </li>
+        </skillPointCosts>
+        <mergeEffect>MeatExplosionLarge</mergeEffect>
+      </li>
+    </modExtensions>
+  </RecipeDef>
+
+  <RecipeDef ParentName="FB_FleshbeastSkillGrowthRecipeBase">
+    <defName>FB_GrowCocoonbackFromSkillEssence</defName>
+    <label>grow cocoonback from skill essence</label>
+    <description>Grows a cocoonback from hemogel and stored skill essence.</description>
+    <researchPrerequisite>FB_NeuralDominion</researchPrerequisite>
+    <modExtensions>
+      <li Class="FB.FleshbeastMergeRecipeExtension">
+        <outputKind>FB_CocoonbackKind</outputKind>
+        <hemogelCost>320</hemogelCost>
+        <hemogelGrowthRadius>3</hemogelGrowthRadius>
+        <skillPointCosts>
+          <li>
+            <skill>Animals</skill>
+            <points>12</points>
+          </li>
+          <li>
+            <skill>Medicine</skill>
+            <points>8</points>
+          </li>
+          <li>
+            <skill>Melee</skill>
+            <points>4</points>
+          </li>
+        </skillPointCosts>
+        <mergeEffect>MeatExplosionLarge</mergeEffect>
+      </li>
+    </modExtensions>
+  </RecipeDef>
+
+  <RecipeDef ParentName="FB_FleshbeastSkillGrowthRecipeBase">
+    <defName>FB_GrowNerveclotFromSkillEssence</defName>
+    <label>grow nerveclot from skill essence</label>
+    <description>Grows a nerveclot from hemogel and stored skill essence.</description>
+    <researchPrerequisite>FB_NeuralDominion</researchPrerequisite>
+    <modExtensions>
+      <li Class="FB.FleshbeastMergeRecipeExtension">
+        <outputKind>FB_NerveclotKind</outputKind>
+        <hemogelCost>300</hemogelCost>
+        <hemogelGrowthRadius>3</hemogelGrowthRadius>
+        <skillPointCosts>
+          <li>
+            <skill>Intellectual</skill>
+            <points>14</points>
+          </li>
+          <li>
+            <skill>Medicine</skill>
+            <points>8</points>
+          </li>
+          <li>
+            <skill>Animals</skill>
+            <points>6</points>
+          </li>
+        </skillPointCosts>
+        <mergeEffect>MeatExplosionLarge</mergeEffect>
+      </li>
+    </modExtensions>
+  </RecipeDef>
+
+  <RecipeDef ParentName="FB_FleshbeastSkillGrowthRecipeBase">
+    <defName>FB_GrowThrallbloomFromSkillEssence</defName>
+    <label>grow thrallbloom from skill essence</label>
+    <description>Grows a thrallbloom from hemogel and stored skill essence.</description>
+    <researchPrerequisite>FB_NeuralDominion</researchPrerequisite>
+    <modExtensions>
+      <li Class="FB.FleshbeastMergeRecipeExtension">
+        <outputKind>FB_ThrallbloomKind</outputKind>
+        <hemogelCost>420</hemogelCost>
+        <hemogelGrowthRadius>3</hemogelGrowthRadius>
+        <skillPointCosts>
+          <li>
+            <skill>Intellectual</skill>
+            <points>16</points>
+          </li>
+          <li>
+            <skill>Medicine</skill>
+            <points>8</points>
+          </li>
+          <li>
+            <skill>Animals</skill>
+            <points>8</points>
+          </li>
+        </skillPointCosts>
+        <mergeEffect>MeatExplosionLarge</mergeEffect>
+      </li>
+    </modExtensions>
+  </RecipeDef>
+
+  <RecipeDef ParentName="FB_FleshbeastSkillGrowthRecipeBase">
+    <defName>FB_GrowFleshIntruderFromSkillEssence</defName>
+    <label>grow flesh intruder from skill essence</label>
+    <description>Grows a one-use flesh intruder from hemogel and stored skill essence.</description>
+    <researchPrerequisite>FB_NeuralDominion</researchPrerequisite>
+    <modExtensions>
+      <li Class="FB.FleshbeastMergeRecipeExtension">
+        <outputKind>FB_FleshIntruderKind</outputKind>
+        <hemogelCost>650</hemogelCost>
+        <hemogelGrowthRadius>3</hemogelGrowthRadius>
+        <skillPointCosts>
+          <li>
+            <skill>Medicine</skill>
+            <points>24</points>
+          </li>
+          <li>
+            <skill>Intellectual</skill>
+            <points>18</points>
+          </li>
+          <li>
+            <skill>Melee</skill>
+            <points>12</points>
+          </li>
+          <li>
+            <skill>Animals</skill>
+            <points>8</points>
+          </li>
+        </skillPointCosts>
+        <mergeEffect>MeatExplosionLarge</mergeEffect>
+      </li>
+    </modExtensions>
+  </RecipeDef>
+  <RecipeDef ParentName="FB_FleshbeastMergeRecipeBase">
+    <defName>FB_MergeTrispike</defName>
+    <label>merge trispike</label>
+    <description>Assembles a trispike from an allowed combination of lesser fleshbeasts.</description>
+    <uiIconPath>UI/Commands/Fuse</uiIconPath>
+    <modExtensions>
+      <li Class="FB.FleshbeastMergeRecipeExtension">
+        <outputKind>Trispike</outputKind>
+        <valueBased>true</valueBased>
+        <minValue>3</minValue>
+        <targetValue>3</targetValue>
+        <maxValue>3</maxValue>
+        <ingredients>
+          <li>
+            <kind>Fingerspike</kind>
+            <value>1</value>
+          </li>
+        </ingredients>
+        <allowedDonorKinds>
+          <li>Fingerspike</li>
+        </allowedDonorKinds>
+        <mergeEffect>MeatExplosionLarge</mergeEffect>
+      </li>
+    </modExtensions>
+  </RecipeDef>
+
+  <RecipeDef ParentName="FB_FleshbeastMergeRecipeBase">
+    <defName>FB_MergeToughspike</defName>
+    <label>merge toughspike</label>
+    <description>Assembles a toughspike from an allowed combination of lesser fleshbeasts.</description>
+    <uiIconPath>UI/Commands/Fuse</uiIconPath>
+    <modExtensions>
+      <li Class="FB.FleshbeastMergeRecipeExtension">
+        <outputKind>Toughspike</outputKind>
+        <valueBased>true</valueBased>
+        <minValue>4</minValue>
+        <targetValue>4</targetValue>
+        <maxValue>4</maxValue>
+        <ingredients>
+          <li>
+            <kind>Fingerspike</kind>
+            <value>1</value>
+          </li>
+        </ingredients>
+        <allowedDonorKinds>
+          <li>Fingerspike</li>
+          <li>Trispike</li>
+        </allowedDonorKinds>
+        <mergeEffect>MeatExplosionLarge</mergeEffect>
+      </li>
+    </modExtensions>
+  </RecipeDef>
+
+  <RecipeDef ParentName="FB_FleshbeastMergeRecipeBase">
+    <defName>FB_MergeBulbfreak</defName>
+    <label>merge bulbfreak</label>
+    <description>Assembles a bulbfreak from an allowed combination of spine fleshbeasts.</description>
+    <uiIconPath>UI/Commands/Fuse</uiIconPath>
+    <modExtensions>
+      <li Class="FB.FleshbeastMergeRecipeExtension">
+        <outputKind>Bulbfreak</outputKind>
+        <valueBased>true</valueBased>
+        <minValue>12</minValue>
+        <targetValue>12</targetValue>
+        <maxValue>12</maxValue>
+        <ingredients>
+          <li>
+            <kind>Fingerspike</kind>
+            <value>1</value>
+          </li>
+        </ingredients>
+        <allowedDonorKinds>
+          <li>Fingerspike</li>
+          <li>Trispike</li>
+          <li>Toughspike</li>
+        </allowedDonorKinds>
+        <mergeEffect>MeatExplosionLarge</mergeEffect>
+      </li>
+    </modExtensions>
+  </RecipeDef>
+
+  <RecipeDef ParentName="FB_FleshbeastMergeRecipeBase">
+    <defName>FB_MergeDreadmeld</defName>
+    <label>merge dreadmeld</label>
+    <description>Assembles a dreadmeld from an allowed combination of fleshbeasts.</description>
+    <uiIconPath>UI/Commands/Fuse</uiIconPath>
+    <modExtensions>
+      <li Class="FB.FleshbeastMergeRecipeExtension">
+        <outputKind>FB_Dreadmeld</outputKind>
+        <valueBased>true</valueBased>
+        <minValue>24</minValue>
+        <targetValue>24</targetValue>
+        <maxValue>24</maxValue>
+        <ingredients>
+          <li>
+            <kind>Fingerspike</kind>
+            <value>1</value>
+          </li>
+        </ingredients>
+        <allowedDonorKinds>
+          <li>Fingerspike</li>
+          <li>Trispike</li>
+          <li>Toughspike</li>
+          <li>Bulbfreak</li>
+        </allowedDonorKinds>
+        <mergeEffect>MeatExplosionLarge</mergeEffect>
+      </li>
+    </modExtensions>
+  </RecipeDef>
+
+  <RecipeDef ParentName="FB_FleshbeastMergeRecipeBase">
+    <defName>FB_AssembleSegmentedBastion</defName>
+    <label>assemble segmented bastion</label>
+    <description>Orders expendable spine fleshbeasts to merge into a complete segmented bastion.</description>
+    <uiIconPath>UI/Commands/SegmentedBastionAssemble</uiIconPath>
+    <researchPrerequisite>FB_SegmentedBastionResearch</researchPrerequisite>
+    <modExtensions>
+      <li Class="FB.FleshbeastMergeRecipeExtension">
+        <outputKind>FB_SegmentedBastionKind</outputKind>
+        <valueBased>true</valueBased>
+        <minValue>9</minValue>
+        <targetValue>9</targetValue>
+        <maxValue>9</maxValue>
+        <ingredients>
+          <li>
+            <kind>Fingerspike</kind>
+            <value>1</value>
+          </li>
+        </ingredients>
+        <allowedDonorKinds>
+          <li>Fingerspike</li>
+          <li>Trispike</li>
+          <li>Toughspike</li>
+          <li>Bulbfreak</li>
+        </allowedDonorKinds>
+        <operationTimeoutTicks>7500</operationTimeoutTicks>
+        <absorptionIntervalTicks>20</absorptionIntervalTicks>
+        <mergeEffect>MeatExplosionLarge</mergeEffect>
+      </li>
+    </modExtensions>
+  </RecipeDef>
+
+  <RecipeDef ParentName="FB_FleshbeastMergeRecipeBase">
+    <defName>FB_AssembleAcidBroodmother</defName>
+    <label>assemble acid broodmother</label>
+    <description>Orders expendable spine fleshbeasts to merge into an acid broodmother.</description>
+    <uiIconPath>UI/Commands/AcidBroodmotherAssemble</uiIconPath>
+    <researchPrerequisite>FB_AcidBroodmotherConvergence</researchPrerequisite>
+    <modExtensions>
+      <li Class="FB.FleshbeastMergeRecipeExtension">
+        <outputKind>FB_AcidBroodmotherKind</outputKind>
+        <valueBased>true</valueBased>
+        <minValue>10</minValue>
+        <targetValue>10</targetValue>
+        <maxValue>10</maxValue>
+        <ingredients>
+          <li>
+            <kind>Fingerspike</kind>
+            <value>1</value>
+          </li>
+        </ingredients>
+        <allowedDonorKinds>
+          <li>Fingerspike</li>
+          <li>Trispike</li>
+          <li>Toughspike</li>
+          <li>Bulbfreak</li>
+        </allowedDonorKinds>
+        <operationTimeoutTicks>7500</operationTimeoutTicks>
+        <absorptionIntervalTicks>20</absorptionIntervalTicks>
+        <mergeEffect>MeatExplosionLarge</mergeEffect>
+      </li>
+    </modExtensions>
+  </RecipeDef>
+
+  <RecipeDef ParentName="FB_FleshbeastMergeRecipeBase">
+    <defName>FB_AssembleDevourer</defName>
+    <label>assemble devourer</label>
+    <description>Orders expendable spine fleshbeasts to merge into an armored devourer.</description>
+    <uiIconPath>UI/Commands/DevourerGrow</uiIconPath>
+    <researchPrerequisite>FB_DevourerGestation</researchPrerequisite>
+    <modExtensions>
+      <li Class="FB.FleshbeastMergeRecipeExtension">
+        <outputKind>FB_DevourerKind</outputKind>
+        <valueBased>true</valueBased>
+        <minValue>10</minValue>
+        <targetValue>10</targetValue>
+        <maxValue>10</maxValue>
+        <ingredients>
+          <li>
+            <kind>Fingerspike</kind>
+            <value>1</value>
+          </li>
+        </ingredients>
+        <allowedDonorKinds>
+          <li>Fingerspike</li>
+          <li>Trispike</li>
+          <li>Toughspike</li>
+          <li>Bulbfreak</li>
+        </allowedDonorKinds>
+        <operationTimeoutTicks>7500</operationTimeoutTicks>
+        <absorptionIntervalTicks>20</absorptionIntervalTicks>
+        <mergeEffect>MeatExplosionLarge</mergeEffect>
+      </li>
+    </modExtensions>
+  </RecipeDef>
+
+</Defs>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  
+  <FB.FleshArchitectDesignatorDef>
+    <defName>FB_FleshArchitect_Cancel</defName>
+    <category>FB_FleshArchitect_Structures</category>
+    <className>RimWorld.Designator_Cancel</className>
+    <order>0</order>
+  </FB.FleshArchitectDesignatorDef>
+
+  <FB.FleshArchitectDesignatorDef>
+    <defName>FB_FleshArchitect_Heart_FloorPlan</defName>
+    <category>FB_FleshArchitect_Structures</category>
+    <className>FB.Designator_FleshmassFloorPlan</className>
+    <iconPath>UI/Designators/FleshmassFloorPlan</iconPath>
+    <requiredSourceBuilding>FB_ColonyHeart</requiredSourceBuilding>
+    <order>10</order>
+  </FB.FleshArchitectDesignatorDef>
+
+  <FB.FleshArchitectDesignatorDef>
+    <defName>FB_FleshArchitect_Heart_AreaFleshGrow</defName>
+    <category>FB_FleshArchitect_ZonesPlans</category>
+    <className>FB.Designator_AreaFleshGrow</className>
+    <iconPath>UI/Designators/AreaFleshGrow</iconPath>
+    <requiredSourceBuilding>FB_ColonyHeart</requiredSourceBuilding>
+    <order>20</order>
+  </FB.FleshArchitectDesignatorDef>
+
+  <FB.FleshArchitectDesignatorDef>
+    <defName>FB_FleshArchitect_Heart_AreaFleshClear</defName>
+    <category>FB_FleshArchitect_ZonesPlans</category>
+    <className>FB.Designator_AreaFleshClear</className>
+    <iconPath>UI/Designators/AreaFleshClear</iconPath>
+    <requiredSourceBuilding>FB_ColonyHeart</requiredSourceBuilding>
+    <order>30</order>
+  </FB.FleshArchitectDesignatorDef>
+
+  <FB.FleshArchitectDesignatorDef>
+    <defName>FB_FleshArchitect_Heart_AreaFleshNoGrow</defName>
+    <category>FB_FleshArchitect_ZonesPlans</category>
+    <className>FB.Designator_AreaFleshNoGrow</className>
+    <iconPath>UI/Designators/AreaFleshNoGrow</iconPath>
+    <requiredSourceBuilding>FB_ColonyHeart</requiredSourceBuilding>
+    <order>40</order>
+  </FB.FleshArchitectDesignatorDef>
+
+  <FB.FleshArchitectDesignatorDef>
+    <defName>FB_FleshArchitect_Heart_AreaFleshNoGrowClear</defName>
+    <category>FB_FleshArchitect_ZonesPlans</category>
+    <className>FB.Designator_AreaFleshNoGrowClear</className>
+    <iconPath>UI/Designators/AreaFleshNoGrowClear</iconPath>
+    <requiredSourceBuilding>FB_ColonyHeart</requiredSourceBuilding>
+    <order>50</order>
+  </FB.FleshArchitectDesignatorDef>
+
+  <FB.FleshArchitectDesignatorDef>
+    <defName>FB_FleshArchitect_Heart_ClearColonyEyes</defName>
+    <category>FB_FleshArchitect_ZonesPlans</category>
+    <className>FB.Designator_ClearColonyEyes</className>
+    <iconPath>UI/Commands/RemoveEyes</iconPath>
+    <requiredSourceBuilding>FB_ColonyHeart</requiredSourceBuilding>
+    <order>60</order>
+  </FB.FleshArchitectDesignatorDef>
+
+  <FB.FleshArchitectDesignatorDef>
+    <defName>FB_FleshArchitect_Brain_GrowColonyEye</defName>
+    <category>FB_FleshArchitect_ZonesPlans</category>
+    <className>FB.Designator_GrowColonyEye</className>
+    <iconPath>UI/Commands/GrowColonyEye</iconPath>
+    <targetThingDef>FB_ColonyEye</targetThingDef>
+    <hemogelCost>10</hemogelCost>
+    <labelKey>FB_GrowColonyEye_Label</labelKey>
+    <descriptionKey>FB_GrowColonyEye_Desc</descriptionKey>
+    <requiredSourceBuilding>FB_ColonyBrain</requiredSourceBuilding>
+    <order>55</order>
+  </FB.FleshArchitectDesignatorDef>
+
+  <FB.FleshArchitectDesignatorDef>
+    <defName>FB_FleshArchitect_Brain_ClearColonyEyes</defName>
+    <category>FB_FleshArchitect_ZonesPlans</category>
+    <className>FB.Designator_ClearColonyEyes</className>
+    <iconPath>UI/Commands/RemoveEyes</iconPath>
+    <requiredSourceBuilding>FB_ColonyBrain</requiredSourceBuilding>
+    <order>61</order>
+  </FB.FleshArchitectDesignatorDef>
+
+  <FB.FleshArchitectDesignatorDef>
+    <defName>FB_FleshArchitect_Heart_AssimilateFleshmassNucleus</defName>
+    <category>FB_FleshArchitect_ZonesPlans</category>
+    <className>FB.Designator_AssimilateFleshmassNucleus</className>
+    <iconPath>UI/Commands/FleshmassNucleusAssimilate</iconPath>
+    <targetThingDef>FleshmassNucleus</targetThingDef>
+    <labelKey>FB_FleshmassNucleusAssimilator_CommandLabel</labelKey>
+    <descriptionKey>FB_FleshmassNucleusAssimilator_CommandDesc</descriptionKey>
+    <requiredSourceBuilding>FB_ColonyHeart</requiredSourceBuilding>
+    <order>65</order>
+  </FB.FleshArchitectDesignatorDef>
+
+  <FB.FleshArchitectDesignatorDef>
+    <defName>FB_FleshArchitect_Brain_WallPlan</defName>
+    <category>FB_FleshArchitect_Structures</category>
+    <className>FB.Designator_FleshmassWallPlan</className>
+    <iconPath>UI/Designators/FleshmassWallPlan</iconPath>
+    <requiredSourceBuilding>FB_ColonyBrain</requiredSourceBuilding>
+    <order>110</order>
+  </FB.FleshArchitectDesignatorDef>
+
+  <FB.FleshArchitectDesignatorDef>
+    <defName>FB_FleshArchitect_Brain_BoneWallPlan</defName>
+    <category>FB_FleshArchitect_Structures</category>
+    <className>FB.Designator_FleshmassBoneWallPlan</className>
+    <iconPath>UI/Designators/FleshmassBoneWallPlan</iconPath>
+    <requiredResearch>FB_FleshmassBoneWallReinforcement</requiredResearch>
+    <requiredSourceBuilding>FB_ColonyBrain</requiredSourceBuilding>
+    <order>120</order>
+  </FB.FleshArchitectDesignatorDef>
+
+  <FB.FleshArchitectDesignatorDef>
+    <defName>FB_FleshArchitect_Brain_FloorPlan</defName>
+    <category>FB_FleshArchitect_Structures</category>
+    <className>FB.Designator_FleshmassFloorPlan</className>
+    <iconPath>UI/Designators/FleshmassFloorPlan</iconPath>
+    <requiredSourceBuilding>FB_ColonyBrain</requiredSourceBuilding>
+    <order>130</order>
+  </FB.FleshArchitectDesignatorDef>
+
+  <FB.FleshArchitectDesignatorDef>
+    <defName>FB_FleshArchitect_Brain_RemovePlan</defName>
+    <category>FB_FleshArchitect_Structures</category>
+    <className>FB.Designator_FleshmassRemovePlan</className>
+    <iconPath>UI/Designators/FleshmassRemovePlan</iconPath>
+    <requiredSourceBuilding>FB_ColonyBrain</requiredSourceBuilding>
+    <order>140</order>
+  </FB.FleshArchitectDesignatorDef>
+
+  <FB.FleshArchitectDesignatorDef>
+    <defName>FB_FleshArchitect_Brain_FloorRemovePlan</defName>
+    <category>FB_FleshArchitect_Structures</category>
+    <className>FB.Designator_FleshmassFloorRemovePlan</className>
+    <iconPath>UI/Designators/FleshmassFloorRemovePlan</iconPath>
+    <requiredSourceBuilding>FB_ColonyBrain</requiredSourceBuilding>
+    <order>150</order>
+  </FB.FleshArchitectDesignatorDef>
+
+  <FB.FleshArchitectDesignatorDef>
+    <defName>FB_FleshArchitect_Brain_GrowGrassEyes</defName>
+    <category>FB_FleshArchitect_Plants</category>
+    <className>FB.Designator_GrowFleshPlant</className>
+    <targetThingDef>FB_GrassEyes</targetThingDef>
+    <hemogelCost>5</hemogelCost>
+    <labelKey>FB_GrowGrassEyes_Label</labelKey>
+    <descriptionKey>FB_GrowGrassEyes_Desc</descriptionKey>
+    <requiredSourceBuilding>FB_ColonyBrain</requiredSourceBuilding>
+    <order>10</order>
+  </FB.FleshArchitectDesignatorDef>
+
+  <FB.FleshArchitectDesignatorDef>
+    <defName>FB_FleshArchitect_Brain_GrowFleshTree</defName>
+    <category>FB_FleshArchitect_Plants</category>
+    <className>FB.Designator_GrowFleshPlant</className>
+    <targetThingDef>FB_FleshTree</targetThingDef>
+    <hemogelCost>25</hemogelCost>
+    <labelKey>FB_GrowFleshTree_Label</labelKey>
+    <descriptionKey>FB_GrowFleshTree_Desc</descriptionKey>
+    <requiredSourceBuilding>FB_ColonyBrain</requiredSourceBuilding>
+    <order>20</order>
+  </FB.FleshArchitectDesignatorDef>
+  <FB.FleshArchitectDesignatorDef>
+    <defName>FB_FleshArchitect_FormFleshbeastMassZone</defName>
+    <category>FB_FleshArchitect_ZonesPlans</category>
+    <className>FB.Designator_FormFleshbeastMassZone</className>
+    <iconPath>UI/Commands/FleshbeastMassZone</iconPath>
+    <labelKey>FB_FormFleshbeastMassZone_Label</labelKey>
+    <descriptionKey>FB_FormFleshbeastMassZone_Desc</descriptionKey>
+    <requiredSourceBuilding>FB_ColonyHeart</requiredSourceBuilding>
+    <order>70</order>
+  </FB.FleshArchitectDesignatorDef>
+</Defs>

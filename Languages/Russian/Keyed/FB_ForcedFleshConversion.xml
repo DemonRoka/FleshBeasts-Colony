@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_ForcedFleshConversion_Label>Насильное принятие плоти</FB_ForcedFleshConversion_Label>
+  <FB_ForcedFleshConversion_Desc>Принести живого пленника или упавшего врага к сердцу колонии и насильно принять плотью. Врач расходует пальцешип во время ритуала. Низкое качество может вызвать ожог мозга, ступор или смерть.</FB_ForcedFleshConversion_Desc>
+  <FB_ForcedFleshConversion_Started>Насильное принятие плоти началось для {0}.</FB_ForcedFleshConversion_Started>
+  <FB_ForcedFleshConversion_ImplantationStarted>Врач начинает внедрять пальцешип в тело {0}.</FB_ForcedFleshConversion_ImplantationStarted>
+  <FB_ForcedFleshConversion_ResultClean>{0} принята колонией плоти без долговременных повреждений.</FB_ForcedFleshConversion_ResultClean>
+  <FB_ForcedFleshConversion_ResultBrainBurn>{0} присоединена к колонии плоти, но психическое давление обожгло мозг.</FB_ForcedFleshConversion_ResultBrainBurn>
+  <FB_ForcedFleshConversion_ResultStupor>{0} присоединена к колонии плоти и впала в плотяной ступор.</FB_ForcedFleshConversion_ResultStupor>
+  <FB_ForcedFleshConversion_ResultDeath>{0} погибла во время насильного принятия плоти.</FB_ForcedFleshConversion_ResultDeath>
+  <FB_ForcedFleshConversion_Interrupted>Насильное принятие плоти для {0} было прервано.</FB_ForcedFleshConversion_Interrupted>
+  <FB_ForcedFleshConversion_InvalidBrain>Нет подходящего мозга колонии.</FB_ForcedFleshConversion_InvalidBrain>
+  <FB_ForcedFleshConversion_InvalidTarget>Выберите живую человекоподобную цель.</FB_ForcedFleshConversion_InvalidTarget>
+  <FB_ForcedFleshConversion_HumanlikeOnly>Насильно принять плотью можно только живых человекоподобных существ.</FB_ForcedFleshConversion_HumanlikeOnly>
+  <FB_ForcedFleshConversion_NotColonists>Колонистов нельзя выбирать целью насильного принятия плоти.</FB_ForcedFleshConversion_NotColonists>
+  <FB_ForcedFleshConversion_TargetStatus>Цель должна быть пленником или упавшей враждебной пешкой.</FB_ForcedFleshConversion_TargetStatus>
+  <FB_ForcedFleshConversion_AlreadyAccepted>Эта пешка уже связана с колонией плоти.</FB_ForcedFleshConversion_AlreadyAccepted>
+  <FB_ForcedFleshConversion_AlreadyInProgress>Эта пешка уже участвует в ритуале принятия плоти.</FB_ForcedFleshConversion_AlreadyInProgress>
+  <FB_ForcedFleshConversion_NoHeart>Для ритуала нет доступного сердца колонии.</FB_ForcedFleshConversion_NoHeart>
+  <FB_ForcedFleshConversion_NoRitualSpace>Рядом с сердцем колонии недостаточно свободного места.</FB_ForcedFleshConversion_NoRitualSpace>
+  <FB_ForcedFleshConversion_NoDoctor>Нет доступного врача, который может дойти до места ритуала.</FB_ForcedFleshConversion_NoDoctor>
+  <FB_ForcedFleshConversion_NoFingerspike>Нет доступного пальцешипа, который может дойти до места ритуала.</FB_ForcedFleshConversion_NoFingerspike>
+  <FB_ForcedFleshConversion_CannotStart>Не удалось начать ритуал.</FB_ForcedFleshConversion_CannotStart>
+  <FB_ForcedFleshConversion_MissingJobDef>Для насильного принятия плоти не настроены задания.</FB_ForcedFleshConversion_MissingJobDef>
+  <FB_ForcedFleshConversion_DevCycleOutcomeLabel>DEV: исход принятия плоти</FB_ForcedFleshConversion_DevCycleOutcomeLabel>
+  <FB_ForcedFleshConversion_DevCycleOutcomeDesc>Переключает принудительный исход следующего ритуала насильного принятия плоти. Сейчас: {0}.</FB_ForcedFleshConversion_DevCycleOutcomeDesc>
+  <FB_ForcedFleshConversion_DevOutcomeSet>Исход принятия плоти: {0}.</FB_ForcedFleshConversion_DevOutcomeSet>
+  <FB_ForcedFleshConversion_DevOutcomeRandom>случайный</FB_ForcedFleshConversion_DevOutcomeRandom>
+  <FB_ForcedFleshConversion_DevOutcomeClean>чистый успех</FB_ForcedFleshConversion_DevOutcomeClean>
+  <FB_ForcedFleshConversion_DevOutcomeBrainBurn>ожог мозга</FB_ForcedFleshConversion_DevOutcomeBrainBurn>
+  <FB_ForcedFleshConversion_DevOutcomeStupor>ступор</FB_ForcedFleshConversion_DevOutcomeStupor>
+  <FB_ForcedFleshConversion_DevOutcomeDeath>смерть</FB_ForcedFleshConversion_DevOutcomeDeath>
+</LanguageData>

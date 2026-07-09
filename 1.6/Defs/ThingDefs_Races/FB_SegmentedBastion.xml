@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Раса: segmented bastion (FB_SegmentedBastion) -->
+  <ThingDef ParentName="BaseFleshbeast">
+    <defName>FB_SegmentedBastion</defName>
+    <label>segmented bastion</label>
+    <description>A draftable fused fleshbeast that can split into its own spine-firing segments and later reassemble from surviving pieces.</description>
+    <statBases>
+      <MoveSpeed>3.2</MoveSpeed>
+      <MinimumContainmentStrength>90</MinimumContainmentStrength>
+      <ToxicResistance>0.65</ToxicResistance>
+      <ArmorRating_Sharp>0.50</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.30</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.20</ArmorRating_Heat>
+      <MarketValue>1700</MarketValue>
+      <MeatAmount>120</MeatAmount>
+    </statBases>
+    <uiIconPath>Things/Pawn/FB_SegmentedBastion/SegmentedBastion</uiIconPath>
+    <race>
+      <body>FB_SegmentedBastionBody</body>
+      <baseBodySize>3.2</baseBodySize>
+      <baseHealthScale>1.25</baseHealthScale>
+      <lifeExpectancy>15</lifeExpectancy>
+      <soundMoving>Pawn_Fleshbeast_Bulbfreak_Moving</soundMoving>
+      <deathAction Class="FB.DeathActionProperties_SegmentedBastionSplit" />
+      <renderTree>Animal</renderTree>
+      <lifeStageAges>
+        <li>
+          <def>EntityFullyFormed</def>
+          <soundWounded>Pawn_Fleshbeast_Bulbfreak_Wounded</soundWounded>
+          <soundDeath>Pawn_Fleshbeast_Bulbfreak_Death</soundDeath>
+          <soundCall>Pawn_Fleshbeast_Bulbfreak_Call</soundCall>
+        </li>
+      </lifeStageAges>
+      <canBePredatorPrey>false</canBePredatorPrey>
+    </race>
+    <comps>
+      <li Class="CompProperties_Studiable">
+        <frequencyTicks>120000</frequencyTicks>
+        <knowledgeCategory>Advanced</knowledgeCategory>
+        <anomalyKnowledge>2.5</anomalyKnowledge>
+        <minMonolithLevelForStudy>1</minMonolithLevelForStudy>
+        <requiresHoldingPlatform>true</requiresHoldingPlatform>
+      </li>
+      <li Class="FB.CompProperties_FleshbeastDraftable" />
+      <li Class="FB.CompProperties_SegmentedBastion">
+        <splitLabel>FB_SegmentedBastion_SplitLabel</splitLabel>
+        <splitDesc>FB_SegmentedBastion_SplitDesc</splitDesc>
+        <splitIconPath>UI/Commands/SegmentedBastionSplit</splitIconPath>
+        <retaliationProjectileDef>Spike_Toughspike</retaliationProjectileDef>
+        <splitEffect>MeatExplosionLarge</splitEffect>
+      </li>
+    </comps>
+    <tools>
+      <li>
+        <label>spine mass</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>11</power>
+        <cooldownTime>2.4</cooldownTime>
+        <linkedBodyPartsGroup>MiddleSpike</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <soundMeleeHit>Pawn_Fleshbeast_Attack_Spike</soundMeleeHit>
+      </li>
+      <li>
+        <label>central bulk</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2.8</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.35</chanceFactor>
+        <soundMeleeHit>Pawn_Fleshbeast_Attack_Blunt</soundMeleeHit>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <!-- Раса: bastion spine segment (FB_BastionSpineSegment) -->
+  <ThingDef ParentName="BaseFleshbeast">
+    <defName>FB_BastionSpineSegment</defName>
+    <label>bastion spine segment</label>
+    <description>A living segment split from a segmented bastion. It keeps its origin identity and can fire keratin spines.</description>
+    <statBases>
+      <MoveSpeed>4.5</MoveSpeed>
+      <MinimumContainmentStrength>35</MinimumContainmentStrength>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ArmorRating_Sharp>0.50</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.30</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.20</ArmorRating_Heat>
+      <MarketValue>180</MarketValue>
+      <MeatAmount>18</MeatAmount>
+    </statBases>
+    <uiIconPath>Things/Pawn/FB_BastionSpineSegment/BastionSpineSegment</uiIconPath>
+    <race>
+      <body>FB_BastionSpineSegmentBody</body>
+      <thinkTreeMain>FB_BastionSpineSegmentMain</thinkTreeMain>
+      <thinkTreeConstant>FB_BastionSpineSegmentConstant</thinkTreeConstant>
+      <baseBodySize>0.75</baseBodySize>
+      <baseHealthScale>0.85</baseHealthScale>
+      <lifeExpectancy>15</lifeExpectancy>
+      <deathAction Class="DeathActionProperties_Vanish">
+        <workerClass>DeathActionWorker_Vanish</workerClass>
+        <filth>Filth_TwistedFlesh</filth>
+        <filthCountRange>1~2</filthCountRange>
+        <meatExplosionSize>Small</meatExplosionSize>
+      </deathAction>
+      <renderTree>Animal</renderTree>
+      <lifeStageAges>
+        <li>
+          <def>EntityFullyFormed</def>
+          <soundWounded>Pawn_Fleshbeast_Fingerspike_Wounded</soundWounded>
+          <soundDeath>Pawn_Fleshbeast_Fingerspike_Death</soundDeath>
+          <soundCall>Pawn_Fleshbeast_Fingerspike_Call</soundCall>
+        </li>
+      </lifeStageAges>
+      <canBePredatorPrey>false</canBePredatorPrey>
+    </race>
+    <comps>
+      <li Class="FB.CompProperties_BastionSegmentMemory">
+        <reassembleLabel>FB_SegmentedBastion_ReassembleLabel</reassembleLabel>
+        <reassembleDesc>FB_SegmentedBastion_ReassembleDesc</reassembleDesc>
+        <reassembleIconPath>UI/Commands/SegmentedBastionReassemble</reassembleIconPath>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

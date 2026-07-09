@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_SegmentedBastion.label>segmented bastion</FB_SegmentedBastion.label>
+  <FB_SegmentedBastion.description>A draftable fused fleshbeast that can split into its own spine-firing segments and later reassemble from surviving pieces.</FB_SegmentedBastion.description>
+  <FB_SegmentedBastion.tools.0.label>spine mass</FB_SegmentedBastion.tools.0.label>
+  <FB_SegmentedBastion.tools.1.label>central bulk</FB_SegmentedBastion.tools.1.label>
+  <FB_BastionSpineSegment.label>bastion spine segment</FB_BastionSpineSegment.label>
+  <FB_BastionSpineSegment.description>A living segment split from a segmented bastion. It keeps its origin identity and can fire keratin spines.</FB_BastionSpineSegment.description>
+</LanguageData>

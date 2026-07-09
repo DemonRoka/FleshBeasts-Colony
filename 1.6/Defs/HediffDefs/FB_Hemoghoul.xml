@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Состояние: hemoghoul (FB_Hemoghoul) -->
+  <HediffDef>
+    <defName>FB_Hemoghoul</defName>
+    <label>hemoghoul</label>
+    <hediffClass>HediffWithComps</hediffClass>
+    <description>A flesh-bound worker raised from a corpse by a fingerspike. It needs no sleep or comfort, feeding only from the colony heart.</description>
+    <defaultLabelColor>(0.8, 0.35, 0.35)</defaultLabelColor>
+    <isBad>false</isBad>
+    <everCurableByItem>false</everCurableByItem>
+    <keepOnBodyPartRestoration>true</keepOnBodyPartRestoration>
+    <comps>
+      <li Class="FB.HediffCompProperties_Hemoghoul" />
+    </comps>
+    <stages>
+      <li>
+        <painFactor>0.25</painFactor>
+        <hungerRateFactorOffset>-0.5</hungerRateFactorOffset>
+        <socialFightChanceFactor>0</socialFightChanceFactor>
+        <statFactors>
+          <PsychicSensitivity>0</PsychicSensitivity>
+        </statFactors>
+        <statOffsets>
+          <ComfyTemperatureMin>-40</ComfyTemperatureMin>
+          <ComfyTemperatureMax>40</ComfyTemperatureMax>
+          <PawnBeauty>-3</PawnBeauty>
+        </statOffsets>
+        <capMods>
+          <li>
+            <capacity>Talking</capacity>
+            <postFactor>0</postFactor>
+          </li>
+        </capMods>
+        <disablesNeeds>
+          <li>Mood</li>
+          <li>Rest</li>
+          <li>Joy</li>
+          <li>Beauty</li>
+          <li>Comfort</li>
+          <li>Outdoors</li>
+        </disablesNeeds>
+      </li>
+    </stages>
+  </HediffDef>
+</Defs>

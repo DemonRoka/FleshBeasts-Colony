@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <MainButtonDef>
+    <defName>FB_FleshArchitect</defName>
+    <label>Flesh Architect</label>
+    <description>Grow living colony organs, flesh zones, and fleshmass plans.</description>
+    <tabWindowClass>FB.MainTabWindow_FleshArchitect</tabWindowClass>
+    <order>2</order>
+    <closesWorldView>true</closesWorldView>
+  </MainButtonDef>
+
+  <MainButtonDef>
+    <defName>FB_Fleshbeasts</defName>
+    <tabWindowClass>FB.MainTabWindow_Fleshbeasts</tabWindowClass>
+    <minimized>true</minimized>
+    <iconPath>UI/Buttons/MainButtons/Fleshbeast</iconPath>
+    <modExtensions>
+      <li Class="FB.FleshbeastTabLayoutExtension">
+        <compactHeightIconPath>UI/Commands/FleshbeastTabCompact</compactHeightIconPath>
+        <standardHeightIconPath>UI/Commands/FleshbeastTabStandard</standardHeightIconPath>
+        <expandedHeightIconPath>UI/Commands/FleshbeastTabExpanded</expandedHeightIconPath>
+      </li>
+    </modExtensions>
+    <order>45</order>
+    <closesWorldView>true</closesWorldView>
+  </MainButtonDef>
+</Defs>

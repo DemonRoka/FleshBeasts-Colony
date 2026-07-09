@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_FeederMakeRationsLabel>Make {0} hemogel ration chunks</FB_FeederMakeRationsLabel>
+  <FB_FeederMakeRationsDesc>Produce {0} non-perishable ration chunks while the feeder is supplied by the hemogel network.</FB_FeederMakeRationsDesc>
+  <FB_FeederNotEnoughHemogelForRations>Requires {0} hemogel. Available: {1}.</FB_FeederNotEnoughHemogelForRations>
+  <FB_FeederCannotPlaceRations>There is no space near the feeder for the ration batch.</FB_FeederCannotPlaceRations>
+
+  <FB_HemogelNetworkNoSupply>Hemogel network supply is insufficient.</FB_HemogelNetworkNoSupply>
+</LanguageData>

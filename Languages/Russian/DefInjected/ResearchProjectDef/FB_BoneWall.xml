@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_FleshmassBoneWallReinforcement.label>костное укрепление плотяных стен</FB_FleshmassBoneWallReinforcement.label>
+  <FB_FleshmassBoneWallReinforcement.description>Открывает укреплённые плотяные стены, позволяя сердцу колонии за повышенную цену в гемогеле проращивать жёсткую костную структуру внутри обычных плотяных стен.</FB_FleshmassBoneWallReinforcement.description>
+  <FB_FleshmassBoneWallReinforcement.generalRules.rulesStrings.0>subject-&gt;костное укрепление плотяных стен</FB_FleshmassBoneWallReinforcement.generalRules.rulesStrings.0>
+  <FB_FleshmassBoneWallReinforcement.generalRules.rulesStrings.1>subject_story-&gt;вырастил костные решётки внутри стен колонии</FB_FleshmassBoneWallReinforcement.generalRules.rulesStrings.1>
+  <FB_FleshmassBoneWallReinforcement.generalRules.rulesStrings.2>subject_story-&gt;укрепил живые стены внутренними скелетными распорками</FB_FleshmassBoneWallReinforcement.generalRules.rulesStrings.2>
+  <FB_FleshmassBoneWallReinforcement.generalRules.rulesStrings.3>subject_gerund-&gt;укрепление плотяных стен</FB_FleshmassBoneWallReinforcement.generalRules.rulesStrings.3>
+</LanguageData>

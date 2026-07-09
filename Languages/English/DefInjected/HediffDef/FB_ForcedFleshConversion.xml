@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_ForcedFleshConversionBrainBurn.label>flesh-burned brain</FB_ForcedFleshConversionBrainBurn.label>
+  <FB_ForcedFleshConversionBrainBurn.description>The colony’s psychic pattern has burned through this pawn’s nervous system, leaving thought and motion unstable while the flesh slowly repairs the damage.</FB_ForcedFleshConversionBrainBurn.description>
+  <FB_ForcedFleshConversionStupor.label>flesh-induced stupor</FB_ForcedFleshConversionStupor.label>
+  <FB_ForcedFleshConversionStupor.description>The pawn’s mind has gone silent while the colony overwrites resistance and binds the body into its shared rhythm.</FB_ForcedFleshConversionStupor.description>
+  <FB_ForcedFleshConversionDeathShock.label>failed flesh acceptance shock</FB_ForcedFleshConversionDeathShock.label>
+  <FB_ForcedFleshConversionDeathShock.description>This body died while being forced into the colony’s pattern. If restored, it will remain weakened while the new bond stabilizes.</FB_ForcedFleshConversionDeathShock.description>
+</LanguageData>

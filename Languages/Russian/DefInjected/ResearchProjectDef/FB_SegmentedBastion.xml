@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_SegmentedBastionResearch.label>сегментный бастион</FB_SegmentedBastionResearch.label>
+  <FB_SegmentedBastionResearch.description>Учит мозг колонии сливать союзных шипастых флешбистов в управляемый бастион, способный разделяться на исходный сегментный рой.</FB_SegmentedBastionResearch.description>
+  <FB_SegmentedBastionResearch.generalRules.rulesStrings.0>subject-&gt;слияние сегментного бастиона</FB_SegmentedBastionResearch.generalRules.rulesStrings.0>
+  <FB_SegmentedBastionResearch.generalRules.rulesStrings.1>subject_story-&gt;связал шипастых флешбистов в закрытый сегментный рой</FB_SegmentedBastionResearch.generalRules.rulesStrings.1>
+  <FB_SegmentedBastionResearch.generalRules.rulesStrings.2>subject_story-&gt;научил сегменты бастиона помнить исходное тело</FB_SegmentedBastionResearch.generalRules.rulesStrings.2>
+  <FB_SegmentedBastionResearch.generalRules.rulesStrings.3>subject_gerund-&gt;сборка сегментных бастионов</FB_SegmentedBastionResearch.generalRules.rulesStrings.3>
+</LanguageData>

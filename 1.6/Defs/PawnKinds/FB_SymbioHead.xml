@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Вид пешки: symbio head (FB_SymbioHead) -->
+  <PawnKindDef ParentName="BaseFleshbeastKind">
+    <defName>FB_SymbioHead</defName>
+    <label>symbio head</label>
+    <overrideDeathOnDownedChance>0.95</overrideDeathOnDownedChance>
+    <race>FB_SymbioHead</race>
+    <combatPower>20</combatPower>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/FB_SymbioHead/SymbioHead</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>1.9</drawSize>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+</Defs>

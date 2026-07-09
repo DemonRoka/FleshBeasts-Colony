@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Состояние: dead bastion segment (FB_DeadBastionSegment) -->
+  <HediffDef ParentName="AddedMutationBase">
+    <defName>FB_DeadBastionSegment</defName>
+    <label>dead bastion segment</label>
+    <labelNoun>dead bastion segment</labelNoun>
+    <description>A dead segment anchors an empty bastion socket, keeping the body stable without acting as a living segment.</description>
+    <isBad>false</isBad>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>0.05</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+</Defs>

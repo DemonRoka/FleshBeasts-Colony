@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AbilityDef>
+    <defName>FB_CarrionRework</defName>
+    <label>carrion rework</label>
+    <description>Hook a dead organic body with surgical tendrils and force its remaining biomass to unfold into fingerspikes. Larger bodies yield more fingerspikes.</description>
+    <iconPath>UI/Abilities/CarrionRework</iconPath>
+    <targetRequired>true</targetRequired>
+    <hostile>false</hostile>
+    <showPsycastEffects>false</showPsycastEffects>
+    <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
+    <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+    <jobDef>CastAbilityOnThingMelee</jobDef>
+    <verbProperties>
+      <verbClass>Verb_CastAbilityTouch</verbClass>
+      <warmupTime>0.6</warmupTime>
+      <drawAimPie>false</drawAimPie>
+      <range>-1</range>
+      <targetParams>
+        <canTargetPawns>false</canTargetPawns>
+        <canTargetBuildings>false</canTargetBuildings>
+        <canTargetMechs>false</canTargetMechs>
+        <canTargetItems>false</canTargetItems>
+        <canTargetCorpses>true</canTargetCorpses>
+        <onlyTargetCorpses>true</onlyTargetCorpses>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="FB.CompProperties_AbilityCarrionRework">
+        <fingerspikesPerBodySize>2</fingerspikesPerBodySize>
+        <spawnRadius>4</spawnRadius>
+        <workTicks>600</workTicks>
+      </li>
+    </comps>
+  </AbilityDef>
+</Defs>

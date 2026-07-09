@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Состояние: flesh instability (FB_FleshInstability) -->
+  <HediffDef>
+    <defName>FB_FleshInstability</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <initialSeverity>1.0</initialSeverity>
+    <isBad>true</isBad>
+    <stages>
+      <li>
+        <minSeverity>0.01</minSeverity>
+      </li>
+      <li>
+        <minSeverity>0.34</minSeverity>
+      </li>
+      <li>
+        <minSeverity>0.67</minSeverity>
+        <painOffset>0.08</painOffset>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>180000</disappearsAfterTicks>
+        <showRemainingTime>true</showRemainingTime>
+      </li>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.33334</severityPerDay>
+      </li>
+    </comps>
+  </HediffDef>
+</Defs>

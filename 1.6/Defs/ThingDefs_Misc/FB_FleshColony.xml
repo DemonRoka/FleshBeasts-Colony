@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Объект: flesh cave exit (FB_CaveExit) -->
+  <ThingDef ParentName="PocketMapExit">
+    <defName>FB_CaveExit</defName>
+    <label>flesh cave exit</label>
+    <description>A rope to climb back from flesh colony.</description>
+    <size>(3,3)</size>
+    <thingClass>FB.FB_CaveExit</thingClass>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/FB_PitBurrow/FB_CaveExit</texPath>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+    <statBases>
+      <Flammability>0</Flammability>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>10</glowRadius>
+        <glowColor>(140,160,184,0)</glowColor>
+      </li>
+      <li Class="CompProperties_Effecter">
+        <effecterDef>UndercaveMapExitLightshafts</effecterDef>
+      </li>
+    </comps>
+  </ThingDef>
+  <!-- Объект: Mote_FleshRootsSide -->
+  <ThingDef ParentName="MoteBase">
+    <defName>Mote_FleshRootsSide</defName>
+    <thingClass>MoteAttached</thingClass>
+    <altitudeLayer>Pawn</altitudeLayer>
+    <mote>
+      <fadeInTime>0.1</fadeInTime>
+      <fadeOutTime>0.1</fadeOutTime>
+      <solidTime>999999</solidTime>
+      <needsMaintenance>false</needsMaintenance>
+    </mote>
+    <graphicData>
+      <graphicClass>Graphic_Mote</graphicClass>
+      <shaderType>Mote</shaderType>
+      <texPath>Things/Mote/FleshRootsSide</texPath>
+      <drawSize>(1.2, 1.2)</drawSize>
+    </graphicData>
+  </ThingDef>
+  <!-- Объект: personality parasite egg (FB_EggPersonalityParasite) -->
+  <ThingDef ParentName="EggFertBase">
+    <defName>FB_EggPersonalityParasite</defName>
+    <tradeability>None</tradeability>
+    <label>personality parasite egg</label>
+    <description>A soft, warm egg containing an immature personality parasite. If allowed to hatch, it will release a creature able to copy and carry a mind between bodies.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>Things/Item/Resource/EggPersonalityParasite</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>100.0</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="FB.CompProperties_PlayerFactionHatcher">
+        <hatcherDaystoHatch>15</hatcherDaystoHatch>
+        <hatcherPawn>FB_PersonalityParasite</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+  <!-- Объект: pit gate exit (PitGateExit) -->
+  <ThingDef ParentName="CaveExit">
+    <defName>PitGateExit</defName>
+    <label>pit gate exit</label>
+  </ThingDef>
+</Defs>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_FleshmassBoneWallReinforcement.label>fleshmass bone wall reinforcement</FB_FleshmassBoneWallReinforcement.label>
+  <FB_FleshmassBoneWallReinforcement.description>Unlock reinforced fleshmass walls, letting the colony heart grow rigid bone structure inside ordinary fleshmass walls at a higher hemogel cost.</FB_FleshmassBoneWallReinforcement.description>
+  <FB_FleshmassBoneWallReinforcement.generalRules.rulesStrings.0>subject-&gt;fleshmass bone wall reinforcement</FB_FleshmassBoneWallReinforcement.generalRules.rulesStrings.0>
+  <FB_FleshmassBoneWallReinforcement.generalRules.rulesStrings.1>subject_story-&gt;grew bone lattices inside colony walls</FB_FleshmassBoneWallReinforcement.generalRules.rulesStrings.1>
+  <FB_FleshmassBoneWallReinforcement.generalRules.rulesStrings.2>subject_story-&gt;reinforced living walls with internal skeletal struts</FB_FleshmassBoneWallReinforcement.generalRules.rulesStrings.2>
+  <FB_FleshmassBoneWallReinforcement.generalRules.rulesStrings.3>subject_gerund-&gt;reinforcing fleshmass walls</FB_FleshmassBoneWallReinforcement.generalRules.rulesStrings.3>
+</LanguageData>

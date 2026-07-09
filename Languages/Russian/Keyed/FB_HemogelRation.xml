@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_FeederMakeRationsLabel>Создать кусочки: {0}</FB_FeederMakeRationsLabel>
+  <FB_FeederMakeRationsDesc>Создать {0} непортящихся пищевых кусочков, пока кормушка питается от сети гемогеля.</FB_FeederMakeRationsDesc>
+  <FB_FeederNotEnoughHemogelForRations>Требуется {0} гемогеля. Доступно: {1}.</FB_FeederNotEnoughHemogelForRations>
+  <FB_FeederCannotPlaceRations>Рядом с кормушкой нет места для созданной партии.</FB_FeederCannotPlaceRations>
+
+  <FB_HemogelNetworkNoSupply>Питания сети гемогеля недостаточно.</FB_HemogelNetworkNoSupply>
+</LanguageData>

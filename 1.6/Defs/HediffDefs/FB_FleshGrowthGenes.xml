@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HediffDef>
+    <defName>FB_TriTendrilsGrowth</defName>
+    <label>tri-tendrils</label>
+    <hediffClass>HediffWithComps</hediffClass>
+    <description>Three muscular tendrils have grown from this pawn's torso. They are part weapon, part organ, lashing out with blunt force when the host fights.</description>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>left tendril</label>
+            <labelNoLocation>tendril</labelNoLocation>
+            <capacities>
+              <li>Blunt</li>
+            </capacities>
+            <power>6</power>
+            <cooldownTime>2</cooldownTime>
+            <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+            <soundMeleeHit>Pawn_Fleshbeast_Attack_Blunt</soundMeleeHit>
+          </li>
+          <li>
+            <label>right tendril</label>
+            <labelNoLocation>tendril</labelNoLocation>
+            <capacities>
+              <li>Blunt</li>
+            </capacities>
+            <power>6</power>
+            <cooldownTime>2</cooldownTime>
+            <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+            <soundMeleeHit>Pawn_Fleshbeast_Attack_Blunt</soundMeleeHit>
+          </li>
+          <li>
+            <label>top tendril</label>
+            <labelNoLocation>tendril</labelNoLocation>
+            <capacities>
+              <li>Blunt</li>
+            </capacities>
+            <power>6</power>
+            <cooldownTime>2</cooldownTime>
+            <chanceFactor>0.5</chanceFactor>
+            <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+            <soundMeleeHit>Pawn_Fleshbeast_Attack_Blunt</soundMeleeHit>
+          </li>
+        </tools>
+      </li>
+    </comps>
+    <renderNodeProperties>
+      <li Class="PawnRenderNodeProperties_Spastic">
+        <debugLabel>left tri-tendril</debugLabel>
+        <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+        <texPath>Things/Pawn/Fleshbeast/Trispike/Attachments/Side/Trispike_SideLimb</texPath>
+        <parentTagDef>Body</parentTagDef>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <rotateFacing>false</rotateFacing>
+        <rotationRange>-25~25</rotationRange>
+        <scaleRange>0.9~1.1</scaleRange>
+        <durationTicksRange>15~45</durationTicksRange>
+        <nextSpasmTicksRange>5~35</nextSpasmTicksRange>
+        <drawSize>1.15</drawSize>
+        <baseLayer>10</baseLayer>
+        <useRottenColor>true</useRottenColor>
+        <drawData>
+          <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+          <dataNorth>
+            <rotationOffset>-20</rotationOffset>
+            <offset>(-0.25, 0, 0.05)</offset>
+          </dataNorth>
+          <dataEast>
+            <rotationOffset>245</rotationOffset>
+            <layer>-5</layer>
+          </dataEast>
+          <dataSouth>
+            <rotationOffset>35</rotationOffset>
+            <offset>(0.25, 0, 0.05)</offset>
+          </dataSouth>
+          <dataWest>
+            <offset>(0, 0, 0.1)</offset>
+            <flip>true</flip>
+          </dataWest>
+        </drawData>
+      </li>
+      <li Class="PawnRenderNodeProperties_Spastic">
+        <debugLabel>right tri-tendril</debugLabel>
+        <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+        <texPath>Things/Pawn/Fleshbeast/Trispike/Attachments/Side/Trispike_SideLimb</texPath>
+        <parentTagDef>Body</parentTagDef>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <rotateFacing>false</rotateFacing>
+        <rotationRange>-25~25</rotationRange>
+        <scaleRange>0.9~1.1</scaleRange>
+        <durationTicksRange>15~45</durationTicksRange>
+        <nextSpasmTicksRange>5~35</nextSpasmTicksRange>
+        <drawSize>1.18</drawSize>
+        <baseLayer>10</baseLayer>
+        <useRottenColor>true</useRottenColor>
+        <drawData>
+          <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+          <dataNorth>
+            <rotationOffset>160</rotationOffset>
+            <offset>(0.2, 0, 0.05)</offset>
+          </dataNorth>
+          <dataEast>
+            <offset>(0, 0, 0.1)</offset>
+          </dataEast>
+          <dataSouth>
+            <rotationOffset>180</rotationOffset>
+            <offset>(-0.25, 0, 0)</offset>
+          </dataSouth>
+          <dataWest>
+            <rotationOffset>120</rotationOffset>
+            <layer>-5</layer>
+            <flip>true</flip>
+          </dataWest>
+        </drawData>
+      </li>
+      <li Class="PawnRenderNodeProperties_Spastic">
+        <debugLabel>top tri-tendril</debugLabel>
+        <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+        <texPath>Things/Pawn/Fleshbeast/Trispike/Attachments/Top/Trispike_TopLimb</texPath>
+        <parentTagDef>Body</parentTagDef>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <rotateFacing>false</rotateFacing>
+        <rotationRange>-30~30</rotationRange>
+        <scaleRange>0.95~1.05</scaleRange>
+        <durationTicksRange>10~60</durationTicksRange>
+        <nextSpasmTicksRange>20~60</nextSpasmTicksRange>
+        <drawSize>1.15</drawSize>
+        <baseLayer>10</baseLayer>
+        <useRottenColor>true</useRottenColor>
+        <drawData>
+          <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+          <defaultData>
+            <offset>(0, 0, 0.3)</offset>
+          </defaultData>
+          <dataNorth>
+            <rotationOffset>60</rotationOffset>
+          </dataNorth>
+          <dataSouth>
+            <rotationOffset>-60</rotationOffset>
+          </dataSouth>
+          <dataWest>
+            <flip>true</flip>
+          </dataWest>
+        </drawData>
+      </li>
+    </renderNodeProperties>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>FB_DorsalSpinesGrowth</defName>
+    <label>dorsal spike pair</label>
+    <hediffClass>HediffWithComps</hediffClass>
+    <description>Two spine-tendrils protrude from this pawn's back. Each one can jab forward in close combat.</description>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>upper left spine</label>
+            <labelNoLocation>spine</labelNoLocation>
+            <capacities>
+              <li>Stab</li>
+            </capacities>
+            <power>7</power>
+            <cooldownTime>2.2</cooldownTime>
+            <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+            <soundMeleeHit>Pawn_Fleshbeast_Attack_Spike</soundMeleeHit>
+          </li>
+          <li>
+            <label>upper right spine</label>
+            <labelNoLocation>spine</labelNoLocation>
+            <capacities>
+              <li>Stab</li>
+            </capacities>
+            <power>7</power>
+            <cooldownTime>2.2</cooldownTime>
+            <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+            <soundMeleeHit>Pawn_Fleshbeast_Attack_Spike</soundMeleeHit>
+          </li>
+        </tools>
+      </li>
+    </comps>
+    <renderNodeProperties>
+      <li Class="PawnRenderNodeProperties_Spastic">
+        <debugLabel>upper left dorsal spine</debugLabel>
+        <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+        <texPath>Things/Pawn/Fleshbeast/Toughspike/Attachments/Toughspike_Spike</texPath>
+        <parentTagDef>Body</parentTagDef>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <rotateFacing>false</rotateFacing>
+        <rotationRange>-30~30</rotationRange>
+        <durationTicksRange>10~35</durationTicksRange>
+        <nextSpasmTicksRange>10~50</nextSpasmTicksRange>
+        <drawSize>1.15</drawSize>
+        <baseLayer>10</baseLayer>
+        <useRottenColor>true</useRottenColor>
+        <drawData>
+          <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+          <dataNorth>
+            <offset>(-0.25, 0.01, 0.25)</offset>
+            <rotationOffset>-45</rotationOffset>
+          </dataNorth>
+          <dataEast>
+            <offset>(-0.22, 0, 0.15)</offset>
+            <layer>-5</layer>
+          </dataEast>
+          <dataSouth>
+            <offset>(0.15, 0, 0.3)</offset>
+            <rotationOffset>45</rotationOffset>
+          </dataSouth>
+          <dataWest>
+            <offset>(0.22, 0, 0.15)</offset>
+            <flip>true</flip>
+          </dataWest>
+        </drawData>
+      </li>
+      <li Class="PawnRenderNodeProperties_Spastic">
+        <debugLabel>upper right dorsal spine</debugLabel>
+        <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+        <texPath>Things/Pawn/Fleshbeast/Toughspike/Attachments/Toughspike_Spike</texPath>
+        <parentTagDef>Body</parentTagDef>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <rotateFacing>false</rotateFacing>
+        <rotationRange>-30~30</rotationRange>
+        <durationTicksRange>10~35</durationTicksRange>
+        <nextSpasmTicksRange>10~50</nextSpasmTicksRange>
+        <drawSize>1.15</drawSize>
+        <baseLayer>10</baseLayer>
+        <useRottenColor>true</useRottenColor>
+        <drawData>
+          <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+          <dataNorth>
+            <offset>(0.25, 0.01, 0.25)</offset>
+            <rotationOffset>-45</rotationOffset>
+            <flip>true</flip>
+          </dataNorth>
+          <dataEast>
+            <offset>(-0.22, 0, 0.15)</offset>
+          </dataEast>
+          <dataSouth>
+            <offset>(-0.15, 0, 0.3)</offset>
+            <rotationOffset>45</rotationOffset>
+            <flip>true</flip>
+          </dataSouth>
+          <dataWest>
+            <offset>(0.22, 0, 0.15)</offset>
+            <layer>-5</layer>
+            <flip>true</flip>
+          </dataWest>
+        </drawData>
+      </li>
+    </renderNodeProperties>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>FB_MeatBloomGrowth</defName>
+    <label>meat bloom</label>
+    <hediffClass>HediffWithComps</hediffClass>
+    <description>This pawn is constantly growing loose edible flesh. The new tissue pulls extra nutrition from the body until it sloughs away.</description>
+    <isBad>false</isBad>
+    <stages>
+      <li>
+        <hungerRateFactorOffset>0.1</hungerRateFactorOffset>
+      </li>
+    </stages>
+  </HediffDef>
+</Defs>

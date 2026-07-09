@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_Assimilator.description>Carriers can harvest viable limbs and organs from fresh humanlike corpses, grafting them onto their own missing parts. The donor corpse loses the harvested part as it becomes part of the carrier.</FB_Assimilator.description>
+  <FB_Assimilator.label>assimilator</FB_Assimilator.label>
+  <FB_BiomassEvolution.description>Carriers can act as a living center of a flesh colony. They may become a Flesh Heart, seal pawns in biomass cocoons to bind and mutate them, and call nearby allied fleshbeasts to escort them.</FB_BiomassEvolution.description>
+  <FB_BiomassEvolution.label>biomass evolution</FB_BiomassEvolution.label>
+  <FB_BiomassEvolution.labelShortAdj>biomass-evolving</FB_BiomassEvolution.labelShortAdj>
+  <FB_Eater.description>Carriers can swallow organic corpses into an internal memory-vat, storing several bodies. Their biomass reserve refills over time, can bud small fleshbeasts, and may be spent to regrow a stored body as a newborn.</FB_Eater.description>
+  <FB_Eater.label>eater</FB_Eater.label>
+  <FB_FleshbeastBody.description>Carriers are reshaped into a humanoid fleshbeast: hair and ordinary skin give way to living fleshbeast tissue and a warped head. The body feels far less pain, heals faster, and takes slightly less damage, but becomes deeply unsettling to others.</FB_FleshbeastBody.description>
+  <FB_FleshbeastBody.label>fleshbeast body</FB_FleshbeastBody.label>
+  <FB_FleshbeastBody.labelShortAdj>fleshbeast</FB_FleshbeastBody.labelShortAdj>
+  <FB_FleshbeastBody.renderNodeProperties.0.debugLabel>Fur</FB_FleshbeastBody.renderNodeProperties.0.debugLabel>
+  <FB_Fragmentation.description>Carriers can rupture into shardlings either willingly or automatically to preserve their life. The shardlings flee danger, regroup, and try to rebuild the original body, but the flesh remains unstable for a long time after reassembly.</FB_Fragmentation.description>
+  <FB_Fragmentation.label>Fragmentation</FB_Fragmentation.label>
+  <FB_HiveConstructor.description>Carriers develop an internal hive that slowly grows sclerats. When construction, repair, deconstruction, or roof work is available nearby, the brood can be released to perform labor for the colony.</FB_HiveConstructor.description>
+  <FB_HiveConstructor.label>hive constructor</FB_HiveConstructor.label>
+  <FB_HiveConstructor.labelShortAdj>hive constructor</FB_HiveConstructor.labelShortAdj>
+  <FB_OrganicArmor.description>Carriers can force bone-chitin plates to grow over the head and torso. The armor is temporary and decays over time, giving strong protection while making the body uglier and less agile at heavier stages.</FB_OrganicArmor.description>
+  <FB_OrganicArmor.label>organic armor</FB_OrganicArmor.label>
+  <FB_PulsatingMold.description>Carriers grow spore nodules that can be toggled on to emit a selected spore cloud around them. The spores affect nearby creatures with poison, euphoria, or anesthesia depending on the chosen type.</FB_PulsatingMold.description>
+  <FB_PulsatingMold.label>pulsating mold</FB_PulsatingMold.label>
+  <FB_PulsatingMold.labelShortAdj>pulsating mold</FB_PulsatingMold.labelShortAdj>
+  <FB_ReplicatorParasite.description>Carriers can sacrifice a finger to implant a parasite of flesh into a living target. Once mature, bound parasites can be called to burst from their hosts as allied fingerspikes, leaving bleeding wounds behind.</FB_ReplicatorParasite.description>
+  <FB_ReplicatorParasite.label>replicator parasite</FB_ReplicatorParasite.label>
+  <FB_Scavenger.description>Carriers can burst a fresh corpse into dense weavers. Larger bodies produce more weavers, while the original corpse is destroyed in a small meat eruption.</FB_Scavenger.description>
+  <FB_Scavenger.label>scavenger</FB_Scavenger.label>
+  <FB_TriTendrils.description>Three muscular tendrils grow from the carrier's torso. They add extra blunt melee strikes and visibly twitch with fleshbeast motion.</FB_TriTendrils.description>
+  <FB_TriTendrils.label>tri-tendrils</FB_TriTendrils.label>
+  <FB_TriTendrils.labelShortAdj>tri-tendriled</FB_TriTendrils.labelShortAdj>
+  <FB_DorsalSpines.description>Two stabbing spine-tendrils root into the carrier's back. They sit behind the body and add piercing melee jabs against nearby enemies.</FB_DorsalSpines.description>
+  <FB_DorsalSpines.label>dorsal spike pair</FB_DorsalSpines.label>
+  <FB_DorsalSpines.labelShortAdj>dorsal-spiked</FB_DorsalSpines.labelShortAdj>
+  <FB_MeatBloom.description>The carrier continuously cultivates twisted meat inside their own tissues, shedding small batches onto the ground several times per day. The growth process increases hunger as the new flesh feeds from the body.</FB_MeatBloom.description>
+  <FB_MeatBloom.label>meat bloom</FB_MeatBloom.label>
+  <FB_MeatBloom.labelShortAdj>meat-blooming</FB_MeatBloom.labelShortAdj>
+  <FB_FleshMarshal.description>The carrier can broadcast a combat impulse that envelops nearby friendly fleshbeasts in nerveclot resonance, dulling pain, accelerating movement, and rapidly knitting injuries.</FB_FleshMarshal.description>
+  <FB_FleshMarshal.label>flesh marshal</FB_FleshMarshal.label>
+  <FB_FleshMarshal.labelShortAdj>flesh-marshaled</FB_FleshMarshal.labelShortAdj>
+  <FB_BloodTendril.label>blood tendril</FB_BloodTendril.label>
+  <FB_BloodTendril.description>Carriers grow a tendril-organ in the throat. If the organ is intact, they can fire it from the mouth at a target a short distance away, pinning a living non-mechanical victim while drawing blood to restore hunger, blood loss, and hemogen when applicable.</FB_BloodTendril.description>
+  <FB_BloodTendril.labelShortAdj>blood-tendriled</FB_BloodTendril.labelShortAdj>
+</LanguageData>

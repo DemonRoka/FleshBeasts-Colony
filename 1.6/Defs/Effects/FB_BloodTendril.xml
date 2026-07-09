@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="MoteBase">
+    <defName>FB_BloodTendrilVisualMote</defName>
+    <thingClass>FB.Mote_BloodTendrilVisual</thingClass>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <drawOffscreen>true</drawOffscreen>
+    <mote>
+      <fadeInTime>0.05</fadeInTime>
+      <fadeOutTime>0.18</fadeOutTime>
+      <solidTime>999999</solidTime>
+      <needsMaintenance>true</needsMaintenance>
+      <fadeOutUnmaintained>true</fadeOutUnmaintained>
+    </mote>
+    <graphicData>
+      <texPath>Things/Building/Cable</texPath>
+      <shaderType>Mote</shaderType>
+      <color>(0.85,0.12,0.08,0.75)</color>
+      <drawSize>(1,0.18)</drawSize>
+    </graphicData>
+  </ThingDef>
+</Defs>

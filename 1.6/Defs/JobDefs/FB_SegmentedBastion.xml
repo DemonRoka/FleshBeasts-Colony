@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <JobDef>
+    <defName>FB_FingerspikeRepairSegmentedBastion</defName>
+    <driverClass>FB.JobDriver_FingerspikeRepairSegmentedBastion</driverClass>
+    <reportString>embedding itself into TargetA.</reportString>
+    <casualInterruptible>false</casualInterruptible>
+    <playerInterruptible>false</playerInterruptible>
+    <checkOverrideOnDamage>Never</checkOverrideOnDamage>
+  </JobDef>
+</Defs>

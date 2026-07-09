@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Тело: carapace excavator (FB_CarapaceExcavatorBody) -->
+  <BodyDef>
+    <defName>FB_CarapaceExcavatorBody</defName>
+    <label>carapace excavator</label>
+    <corePart>
+      <def>MovingBodyFleshbeast</def>
+      <height>Middle</height>
+      <depth>Outside</depth>
+      <parts>
+        <li>
+          <def>Spine</def>
+          <coverage>0.0181</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Stomach</def>
+          <coverage>0.0181</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Heart</def>
+          <coverage>0.0151</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>left lung</customLabel>
+          <coverage>0.0169</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>right lung</customLabel>
+          <coverage>0.0169</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>left kidney</customLabel>
+          <coverage>0.0121</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>right kidney</customLabel>
+          <coverage>0.0121</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Liver</def>
+          <coverage>0.0181</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>FleshbeastHead</def>
+          <coverage>0.2535</coverage>
+          <groups>
+            <li>UpperHead</li>
+            <li>FullHead</li>
+            <li>HeadAttackTool</li>
+          </groups>
+          <parts>
+            <li>
+              <def>Skull</def>
+              <coverage>0.2</coverage>
+              <depth>Inside</depth>
+              <groups>
+                <li>UpperHead</li>
+                <li>Eyes</li>
+                <li>FullHead</li>
+              </groups>
+              <parts>
+                <li>
+                  <def>Brain</def>
+                  <coverage>0.9</coverage>
+                  <groups>
+                    <li>UpperHead</li>
+                    <li>Eyes</li>
+                    <li>FullHead</li>
+                  </groups>
+                </li>
+              </parts>
+            </li>
+            <li>
+              <def>Eye</def>
+              <customLabel>left eye</customLabel>
+              <coverage>0.02</coverage>
+              <groups>
+                <li>FullHead</li>
+                <li>Eyes</li>
+              </groups>
+            </li>
+            <li>
+              <def>Eye</def>
+              <customLabel>right eye</customLabel>
+              <coverage>0.02</coverage>
+              <groups>
+                <li>FullHead</li>
+                <li>Eyes</li>
+              </groups>
+            </li>
+            <li>
+              <def>FleshbeastSpike</def>
+              <customLabel>left digging tusk</customLabel>
+              <coverage>0.08</coverage>
+              <depth>Outside</depth>
+              <groups>
+                <li>LeftSpike</li>
+              </groups>
+            </li>
+            <li>
+              <def>FleshbeastSpike</def>
+              <customLabel>right digging tusk</customLabel>
+              <coverage>0.08</coverage>
+              <depth>Outside</depth>
+              <groups>
+                <li>RightSpike</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Tentacle</def>
+          <customLabel>left shovel claw</customLabel>
+          <coverage>0.0845</coverage>
+          <depth>Outside</depth>
+          <groups>
+            <li>FirstTentacle</li>
+          </groups>
+        </li>
+        <li>
+          <def>Tentacle</def>
+          <customLabel>right shovel claw</customLabel>
+          <coverage>0.0845</coverage>
+          <depth>Outside</depth>
+          <groups>
+            <li>SecondTentacle</li>
+          </groups>
+        </li>
+        <li>
+          <def>FleshbeastSpike</def>
+          <customLabel>dorsal carapace plate I</customLabel>
+          <coverage>0.0604</coverage>
+          <depth>Outside</depth>
+          <groups>
+            <li>ThirdTentacle</li>
+          </groups>
+        </li>
+        <li>
+          <def>FleshbeastSpike</def>
+          <customLabel>dorsal carapace plate II</customLabel>
+          <coverage>0.0604</coverage>
+          <depth>Outside</depth>
+          <groups>
+            <li>FourthTentacle</li>
+          </groups>
+        </li>
+        <li>
+          <def>FleshbeastSpike</def>
+          <customLabel>dorsal carapace plate III</customLabel>
+          <coverage>0.0604</coverage>
+          <depth>Outside</depth>
+          <groups>
+            <li>FifthTentacle</li>
+          </groups>
+        </li>
+        <li>
+          <def>FleshbeastLeg</def>
+          <customLabel>front left support leg</customLabel>
+          <coverage>0.0423</coverage>
+          <depth>Outside</depth>
+        </li>
+        <li>
+          <def>FleshbeastLeg</def>
+          <customLabel>front right support leg</customLabel>
+          <coverage>0.0423</coverage>
+          <depth>Outside</depth>
+        </li>
+        <li>
+          <def>FleshbeastLeg</def>
+          <customLabel>rear left support leg</customLabel>
+          <coverage>0.0423</coverage>
+          <depth>Outside</depth>
+        </li>
+        <li>
+          <def>FleshbeastLeg</def>
+          <customLabel>rear right support leg</customLabel>
+          <coverage>0.0423</coverage>
+          <depth>Outside</depth>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+</Defs>

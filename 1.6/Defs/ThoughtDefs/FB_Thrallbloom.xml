@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Мысль: mental control -->
+  <ThoughtDef>
+    <defName>FB_ThrallbloomMentalControl</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>FB_ThrallbloomNeuralLink</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+    <stages>
+      <li>
+        <label>mental control</label>
+        <description>The neural link smothers fear, doubt, and panic before they can become conscious thoughts.</description>
+        <baseMoodEffect>40</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>

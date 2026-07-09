@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_Fleshbeasts_Header>Fleshbeasts: {0}</FB_Fleshbeasts_Header>
+  <FB_Fleshbeasts_All>All</FB_Fleshbeasts_All>
+  <FB_Fleshbeasts_Unassigned>Unassigned</FB_Fleshbeasts_Unassigned>
+  <FB_Fleshbeasts_NoGroup>No group</FB_Fleshbeasts_NoGroup>
+  <FB_Fleshbeasts_NotCommandable>Not commandable</FB_Fleshbeasts_NotCommandable>
+  <FB_Fleshbeasts_AssignSelectedToActiveGroup>Assign map-selected fleshbeasts to the active group.</FB_Fleshbeasts_AssignSelectedToActiveGroup>
+  <FB_Fleshbeasts_AssignSelectedShort>+</FB_Fleshbeasts_AssignSelectedShort>
+  <FB_Fleshbeasts_ActiveGroupTooltip>Active command group: {0}</FB_Fleshbeasts_ActiveGroupTooltip>
+  <FB_Fleshbeasts_CollapseGroup>Collapse {0} into a summary row.</FB_Fleshbeasts_CollapseGroup>
+  <FB_Fleshbeasts_ExpandGroup>Expand {0}.</FB_Fleshbeasts_ExpandGroup>
+  <FB_Fleshbeasts_CreateNewGroup>Create new group...</FB_Fleshbeasts_CreateNewGroup>
+  <FB_Fleshbeasts_ManageGroups>Manage groups...</FB_Fleshbeasts_ManageGroups>
+  <FB_Fleshbeasts_New>New</FB_Fleshbeasts_New>
+  <FB_Fleshbeasts_Rename>Rename</FB_Fleshbeasts_Rename>
+  <FB_Fleshbeasts_Delete>Delete</FB_Fleshbeasts_Delete>
+  <FB_Fleshbeasts_DeleteConfirm>Delete group {0}? Its active order will be stopped and its members will become unassigned.</FB_Fleshbeasts_DeleteConfirm>
+  <FB_Fleshbeasts_RenamePrompt>Enter a new group name.</FB_Fleshbeasts_RenamePrompt>
+  <FB_Fleshbeasts_NoSelectedGroup>Select a group</FB_Fleshbeasts_NoSelectedGroup>
+  <FB_Fleshbeasts_TableUnavailable>Fleshbeast table is unavailable.</FB_Fleshbeasts_TableUnavailable>
+  <FB_Fleshbeasts_HeightCommandsOnly>Show commands only.</FB_Fleshbeasts_HeightCommandsOnly>
+  <FB_Fleshbeasts_HeightStandard>Use standard list height.</FB_Fleshbeasts_HeightStandard>
+  <FB_Fleshbeasts_HeightExpanded>Expand the fleshbeast list.</FB_Fleshbeasts_HeightExpanded>
+  <FB_FleshThrallCoherenceTitle>Coherence: {0}%</FB_FleshThrallCoherenceTitle>
+  <FB_FleshThrallCoherenceTooltip>Current cohesion: {0}%\nFingerspikes needed for full restoration: {1}</FB_FleshThrallCoherenceTooltip>
+  <FB_FleshThrallTargetLabel>Restore to {0}%</FB_FleshThrallTargetLabel>
+  <FB_FleshThrallRestoreLabel>Restore thrall</FB_FleshThrallRestoreLabel>
+  <FB_FleshThrallRestoreDesc>Call nearby fingerspikes to enter this flesh thrall and restore its cohesion.</FB_FleshThrallRestoreDesc>
+  <FB_FleshThrallRestoreNoFingerspike>No reachable fingerspikes are available.</FB_FleshThrallRestoreNoFingerspike>
+  <FB_FleshThrallRestoreMechanoid>Mechanoid flesh thralls cannot be restored.</FB_FleshThrallRestoreMechanoid>
+  <FB_FleshThrallRestoreFullEnough>The thrall is already fully coherent.</FB_FleshThrallRestoreFullEnough>
+  <FB_FleshThrallRestoreNoJob>Restore job is not configured.</FB_FleshThrallRestoreNoJob>
+  <FB_FleshThrallRestoreStarted>{0} fingerspike(s) assigned to restore {1}.</FB_FleshThrallRestoreStarted>
+  <FB_FleshThrallConvertLabel>Create flesh thrall</FB_FleshThrallConvertLabel>
+  <FB_FleshThrallConvertDesc>Send enough fingerspikes into a living pawn or corpse to bind it as a flesh thrall.</FB_FleshThrallConvertDesc>
+  <FB_FleshThrallConvertInspect>Binding {0}: {1}/{2} fingerspikes.</FB_FleshThrallConvertInspect>
+  <FB_FleshThrallConvertInvalidTarget>Invalid flesh thrall target.</FB_FleshThrallConvertInvalidTarget>
+  <FB_FleshThrallConvertDessicatedCorpse>The corpse is too desiccated to be bound as a flesh thrall.</FB_FleshThrallConvertDessicatedCorpse>
+  <FB_FleshThrallConvertAlreadyThrall>This body is already a flesh thrall.</FB_FleshThrallConvertAlreadyThrall>
+  <FB_FleshThrallConvertAlreadyAssigned>A flesh thrall conversion is already in progress.</FB_FleshThrallConvertAlreadyAssigned>
+  <FB_FleshThrallConvertNoJob>Flesh thrall conversion job is not configured.</FB_FleshThrallConvertNoJob>
+  <FB_FleshThrallConvertNotEnoughFingerspikes>Need {0} available fingerspike(s); only {1} can reach the target.</FB_FleshThrallConvertNotEnoughFingerspikes>
+  <FB_FleshThrallConvertCannotStart>Fingerspikes could not start the conversion.</FB_FleshThrallConvertCannotStart>
+  <FB_FleshThrallConvertAssigned>{0} fingerspike(s) assigned to bind {1}.</FB_FleshThrallConvertAssigned>
+  <FB_FleshThrallConvertSuccess>{0} has become a flesh thrall.</FB_FleshThrallConvertSuccess>
+  <FB_Fleshbeasts_HideNonCommandableOnShort>NC</FB_Fleshbeasts_HideNonCommandableOnShort>
+  <FB_Fleshbeasts_HideNonCommandableOffShort>All</FB_Fleshbeasts_HideNonCommandableOffShort>
+  <FB_Fleshbeasts_HideNonCommandableTooltip>Toggle non-commandable fleshbeasts in this list.</FB_Fleshbeasts_HideNonCommandableTooltip>
+  <FB_FormFleshbeastMassZone_Label>Fleshbeast mass zone</FB_FormFleshbeastMassZone_Label>
+  <FB_FormFleshbeastMassZone_Desc>Designate a zone where fleshbeasts can fold into a dormant mass, reducing active pawns until released.</FB_FormFleshbeastMassZone_Desc>
+  <FB_FleshbeastMassZone_Status>In {0}</FB_FleshbeastMassZone_Status>
+  <FB_FleshbeastMassZone_Label>fleshbeast mass zone</FB_FleshbeastMassZone_Label>
+  <FB_FleshbeastMassZone_Inspect>Contained fleshbeasts: {0}. Total body size: {1}. Capacity: {2}. Hemogel consumption: {3}/h.</FB_FleshbeastMassZone_Inspect>
+  <FB_FleshbeastMassZone_EconomyDetail>Stored: {0}. Body size: {1}/{2}.</FB_FleshbeastMassZone_EconomyDetail>
+  <FB_FleshbeastMassZone_InvalidPawn>That fleshbeast cannot enter the mass zone.</FB_FleshbeastMassZone_InvalidPawn>
+  <FB_FleshbeastMassZone_InvalidZone>The fleshbeast mass zone is no longer valid.</FB_FleshbeastMassZone_InvalidZone>
+  <FB_FleshbeastMassZone_NoCapacity>The mass zone does not have enough free capacity.</FB_FleshbeastMassZone_NoCapacity>
+  <FB_FleshbeastMassZone_CannotStorePawn>The fleshbeast could not enter the mass zone.</FB_FleshbeastMassZone_CannotStorePawn>
+  <FB_FleshbeastMassZone_LoadGizmo>Load fleshbeasts</FB_FleshbeastMassZone_LoadGizmo>
+  <FB_FleshbeastMassZone_LoadGizmoDesc>Select fleshbeasts on this map to fold into this mass zone.</FB_FleshbeastMassZone_LoadGizmoDesc>
+  <FB_FleshbeastMassZone_UnloadAll>Unload all</FB_FleshbeastMassZone_UnloadAll>
+  <FB_FleshbeastMassZone_UnloadAllDesc>Release all fleshbeasts from this mass zone.</FB_FleshbeastMassZone_UnloadAllDesc>
+  <FB_FleshbeastMassZone_UnloadKindShort>Unload</FB_FleshbeastMassZone_UnloadKindShort>
+  <FB_FleshbeastMassZone_UnloadKindTooltip>Release selected {0} from this mass zone.</FB_FleshbeastMassZone_UnloadKindTooltip>
+  <FB_FleshbeastMassZone_UnloadKindSlider>Release {1} of {2} {0}.</FB_FleshbeastMassZone_UnloadKindSlider>
+  <FB_FleshbeastMassZone_UnloadedKind>Released {0} {1}.</FB_FleshbeastMassZone_UnloadedKind>
+  <FB_FleshbeastMassZone_NoSelectablePawns>No valid fleshbeasts selected.</FB_FleshbeastMassZone_NoSelectablePawns>
+  <FB_FleshbeastMassZone_NoReachableCell>No reachable mass zone cell is available.</FB_FleshbeastMassZone_NoReachableCell>
+  <FB_FleshbeastMassZone_Loading>{0} fleshbeast(s) are moving into the mass zone.</FB_FleshbeastMassZone_Loading>
+  <FB_FleshbeastMassZone_OverCapacityEjected>The fleshbeast mass zone became too small; excess fleshbeasts were released.</FB_FleshbeastMassZone_OverCapacityEjected>
+  <FB_FleshbeastMassZone_DisallowedKind>{0} is not allowed in this mass zone.</FB_FleshbeastMassZone_DisallowedKind>
+  <FB_FleshbeastMassZone_FilterTab>Allowed types</FB_FleshbeastMassZone_FilterTab>
+  <FB_FleshbeastMassZone_FilterHeader>Allowed fleshbeast types for this zone.</FB_FleshbeastMassZone_FilterHeader>
+  <FB_FleshbeastMassZone_AllowAll>Allow all</FB_FleshbeastMassZone_AllowAll>
+  <FB_FleshbeastMassZone_ForbidAll>Forbid all</FB_FleshbeastMassZone_ForbidAll>
+  <FB_FleshbeastMassZone_SearchTooltip>Filter this list by name or defName.</FB_FleshbeastMassZone_SearchTooltip>
+  <FB_FleshbeastMassZone_NoKinds>No fleshbeast types found.</FB_FleshbeastMassZone_NoKinds>
+  <FB_FleshbeastMassZone_FilterTooltip>Only allowed types can be loaded into this mass zone.</FB_FleshbeastMassZone_FilterTooltip>
+  <FB_FleshbeastMassZone_ContentsTab>Contents</FB_FleshbeastMassZone_ContentsTab>
+  <FB_FleshbeastMassZone_ContentsSummary>Stored: {0}. Body size: {1}/{2}.</FB_FleshbeastMassZone_ContentsSummary>
+  <FB_FleshbeastMassZone_NoContents>No fleshbeasts stored.</FB_FleshbeastMassZone_NoContents>
+  <FB_FleshbeastMassZone_ContentsBodySize>Body size: {0}</FB_FleshbeastMassZone_ContentsBodySize>
+  <FB_FleshbeastMassZone_ContentsCount>x{0}</FB_FleshbeastMassZone_ContentsCount>
+  <FB_GroupMassZoneTooltip>Send the active group into a selected fleshbeast mass zone.</FB_GroupMassZoneTooltip>
+  <FB_GroupAssignedMassZone>{0} fleshbeast(s) from {1} are moving into {2}.</FB_GroupAssignedMassZone>
+  <FB_GroupDigestCrippledLabel>Digest fleshbeasts</FB_GroupDigestCrippledLabel>
+  <FB_GroupDigestCrippledTooltip>Select fleshbeasts to sacrifice for digestion. Mobile ones move to a stomach or gastric acid; immobile ones die in place and use their normal death effect.</FB_GroupDigestCrippledTooltip>
+  <FB_GroupDigestCrippledNoSelectablePawns>No valid fleshbeasts selected.</FB_GroupDigestCrippledNoSelectablePawns>
+  <FB_GroupDigestCrippledNone>No selected fleshbeasts can be digested.</FB_GroupDigestCrippledNone>
+  <FB_GroupDigestCrippledInvalid>That fleshbeast cannot be digested.</FB_GroupDigestCrippledInvalid>
+  <FB_GroupDigestCrippledNoDestination>No colony stomach with room or reachable gastric acid is available.</FB_GroupDigestCrippledNoDestination>
+  <FB_GroupDigestCrippledAssigned>{0} fleshbeast(s) are moving to digestion. {1} immobile fleshbeast(s) collapsed.</FB_GroupDigestCrippledAssigned>
+</LanguageData>

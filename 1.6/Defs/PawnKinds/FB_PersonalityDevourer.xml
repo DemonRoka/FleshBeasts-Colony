@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <PawnKindDef ParentName="BaseFleshbeastKind">
+    <defName>FB_PersonalityDevourerKind</defName>
+    <label>personality devourer</label>
+    <overrideDeathOnDownedChance>0.9</overrideDeathOnDownedChance>
+    <race>FB_PersonalityDevourer</race>
+    <combatPower>150</combatPower>
+    <defaultFactionDef>PlayerColony</defaultFactionDef>
+    <abilities>
+      <li>FB_PersonalityDevourerConsumeMemory</li>
+    </abilities>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/FB_PersonalityDevourer/PersonalityDevourer</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>3</drawSize>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+</Defs>

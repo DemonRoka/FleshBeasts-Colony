@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Вид пешки: tentacle turret (FB_TentacleTurret) -->
+  <PawnKindDef>
+    <defName>FB_TentacleTurret</defName>
+    <label>tentacle turret</label>
+    <race>FB_TentacleTurret</race>
+    <abilities>
+      <li>FB_SpineLaunch_TentacleTurret</li>
+    </abilities>
+    <combatPower>150</combatPower>
+    <collidesWithPawns>false</collidesWithPawns>
+    <ignoresPainShock>true</ignoresPainShock>
+    <useFixedRotation>true</useFixedRotation>
+    <fixedRotation>South</fixedRotation>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/FB_TentacleTurret/TentacleTurret_Center</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <drawSize>0.9</drawSize>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+</Defs>

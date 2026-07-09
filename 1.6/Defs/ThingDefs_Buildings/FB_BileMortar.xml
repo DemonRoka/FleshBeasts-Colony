@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BuildingColonyFleshBaseAnimation">
+    <defName>FB_BileMortarGland</defName>
+    <label>bile mortar gland</label>
+    <description>A swollen artillery-organ that grows living bileburst podlings and launches mature ones as volatile incendiary shells.</description>
+    <size>(2,2)</size>
+    <statBases>
+      <Beauty>-25</Beauty>
+      <MaxHitPoints>380</MaxHitPoints>
+      <Flammability>0.9</Flammability>
+    </statBases>
+    <killedLeavingsRanges>
+      <Meat_Twisted>25~60</Meat_Twisted>
+    </killedLeavingsRanges>
+    <forceLeavingsAllowed>true</forceLeavingsAllowed>
+    <comps>
+      <li Class="FB.CompProperties_FleshAnimationManager">
+        <animationAmplitude>0.02</animationAmplitude>
+        <animationSideAmplitude>0.012</animationSideAmplitude>
+        <baseAnimationSpeed>0.7</baseAnimationSpeed>
+        <beatDurationTicks>26</beatDurationTicks>
+        <animatedParts>
+          <li>
+            <texturePath>Things/Building/FB_Organic/BileMortarGland/BileMortarGland</texturePath>
+            <positionOffset>(0, 0, 0)</positionOffset>
+            <textureScale>1.55</textureScale>
+            <animationAmplitude>0.035</animationAmplitude>
+            <animationSideAmplitude>0.018</animationSideAmplitude>
+            <animationInterval>0</animationInterval>
+            <animationOffset>0</animationOffset>
+            <altitudeLayer>0</altitudeLayer>
+            <rotationAngle>0</rotationAngle>
+            <beatDelay>0</beatDelay>
+          </li>
+        </animatedParts>
+      </li>
+      <li Class="FB.CompProperties_BilePodlingSpawner">
+        <pawnKindToSpawn>FB_BileburstPodlingKind</pawnKindToSpawn>
+        <spawnRadius>3</spawnRadius>
+        <hemogelPerPodlingPerHour>0.1</hemogelPerPodlingPerHour>
+        <iconPath>UI/Commands/BilePodlingSpawn</iconPath>
+      </li>
+      <li Class="FB.CompProperties_BileMortarLauncher">
+        <minCharge>0.25</minCharge>
+        <maxRange>60</maxRange>
+        <forcedMissRadius>1.5</forcedMissRadius>
+        <autoCheckIntervalTicks>120</autoCheckIntervalTicks>
+        <projectileDef>FB_BileburstPodlingShell</projectileDef>
+        <iconPath>UI/Commands/BileMortarFire</iconPath>
+      </li>
+      <li Class="FB.CompProperties_HemogelUpkeep">
+        <hemogelPerHour>0.8</hemogelPerHour>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="EmbryoStructureBase">
+    <defName>FB_BileMortarGlandEmbryo</defName>
+    <label>bile mortar gland embryo</label>
+    <description>A bile-swollen embryonic organ that will mature into a living artillery gland.</description>
+    <size>(2,2)</size>
+    <comps>
+      <li Class="FB.CompProperties_EmbryoGrowth">
+        <totalMaturationTicks>5000</totalMaturationTicks>
+        <targetDef>FB_BileMortarGland</targetDef>
+      </li>
+      <li Class="FB.CompProperties_FleshAnimationManager">
+        <animationAmplitude>0.035</animationAmplitude>
+        <animationSideAmplitude>0.02</animationSideAmplitude>
+        <baseAnimationSpeed>0.55</baseAnimationSpeed>
+        <beatDurationTicks>30</beatDurationTicks>
+        <animatedParts>
+          <li>
+            <texturePath>Things/Building/FB_Organic/BileMortarGland/BileMortarGlandEmbryo</texturePath>
+            <positionOffset>(0, 0, 0)</positionOffset>
+            <textureScale>1.35</textureScale>
+            <animationAmplitude>0.035</animationAmplitude>
+            <animationSideAmplitude>0.02</animationSideAmplitude>
+            <animationInterval>0</animationInterval>
+            <animationOffset>0</animationOffset>
+            <altitudeLayer>0</altitudeLayer>
+            <rotationAngle>0</rotationAngle>
+            <beatDelay>0</beatDelay>
+          </li>
+        </animatedParts>
+      </li>
+      <li Class="FB.CompProperties_HemogelUpkeep">
+        <hemogelPerHour>0.3</hemogelPerHour>
+      </li>
+    </comps>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/FB_Organic/BileMortarGland/BileMortarGlandEmbryo</texPath>
+      <drawSize>(1.35,1.35)</drawSize>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>FB_BileburstPodlingShell</defName>
+    <label>bileburst podling shell</label>
+    <description>A bileburst podling folded into an artillery arc, ready to rupture into burning organic bile on impact.</description>
+    <thingClass>FB.Projectile_BileburstPodlingShell</thingClass>
+    <graphicData>
+      <texPath>Things/Projectile/BileburstPodlingShell</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.0</drawSize>
+    </graphicData>
+    <projectile>
+      <damageDef>Flame</damageDef>
+      <speed>32</speed>
+      <flyOverhead>true</flyOverhead>
+      <ai_IsIncendiary>true</ai_IsIncendiary>
+      <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+      <soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+      <soundAmbient>MortarRound_Ambient</soundAmbient>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseFilth">
+    <defName>FB_VolatileBileFilth</defName>
+    <label>volatile bile</label>
+    <description>A slick smear of unstable organic bile. It burns readily when exposed to flame.</description>
+    <thingClass>LiquidFuel</thingClass>
+    <useHitPoints>true</useHitPoints>
+    <tickerType>Normal</tickerType>
+    <statBases>
+      <Beauty>-12</Beauty>
+      <Cleanliness>-12</Cleanliness>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Flammability>2.2</Flammability>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Filth/LiquidFuel</texPath>
+      <color>(0.85,0.64,0.14,1)</color>
+    </graphicData>
+    <filth>
+      <ignoreFilthMultiplierStat>true</ignoreFilthMultiplierStat>
+      <disappearsInDays>20~28</disappearsInDays>
+      <rainWashes>true</rainWashes>
+      <cleaningWorkToReduceThickness>80</cleaningWorkToReduceThickness>
+      <canFilthAttach>true</canFilthAttach>
+      <maxThickness>1</maxThickness>
+      <cleaningSound>Interact_CleanFilth_Fluid</cleaningSound>
+    </filth>
+  </ThingDef>
+</Defs>

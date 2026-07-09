@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_ColonyBrain_Structure_BoneMarrowExtractor_Label>Bone marrow extractor</FB_ColonyBrain_Structure_BoneMarrowExtractor_Label>
+  <FB_ColonyBrain_Structure_BoneMarrowExtractor_Desc>Draws bioferrite and a small hemogel flow from a linked captive entity. Weakens containment like a bioferrite harvester.</FB_ColonyBrain_Structure_BoneMarrowExtractor_Desc>
+  <FB_ColonyBrain_Structure_SynapticInhibitor_Label>Synaptic inhibitor</FB_ColonyBrain_Structure_SynapticInhibitor_Label>
+  <FB_ColonyBrain_Structure_SynapticInhibitor_Desc>Suppresses nearby held entities through the hemogel network, raising containment strength while supplied.</FB_ColonyBrain_Structure_SynapticInhibitor_Desc>
+  <FB_FleshBoneMarrowExtractor_BioferriteInspect>Bioferrite stored: {0}. Extraction rate: +{1}/day.</FB_FleshBoneMarrowExtractor_BioferriteInspect>
+  <FB_FleshBoneMarrowExtractor_HemogelInspect>Hemogel output: +{0}/h</FB_FleshBoneMarrowExtractor_HemogelInspect>
+  <FB_FleshBoneMarrowExtractor_NoLinkedEntity>No linked held entity.</FB_FleshBoneMarrowExtractor_NoLinkedEntity>
+  <FB_FleshBoneMarrowExtractor_EconomyDetail>Linked held entities: {0}</FB_FleshBoneMarrowExtractor_EconomyDetail>
+</LanguageData>

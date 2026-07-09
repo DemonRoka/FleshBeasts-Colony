@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <PawnRenderTreeDef>
+    <defName>FB_BileburstPodlingRenderTree</defName>
+    <root Class="PawnRenderNodeProperties_Parent">
+      <debugLabel>Root</debugLabel>
+      <tagDef>Root</tagDef>
+      <children>
+        <li Class="FB.PawnRenderNodeProperties_BileburstPodlingBody">
+          <debugLabel>Body</debugLabel>
+          <tagDef>Body</tagDef>
+          <useRottenColor>true</useRottenColor>
+          <emptyTexPath>Things/Pawn/FB_BileburstPodling/BileburstPodling</emptyTexPath>
+          <mediumTexPath>Things/Pawn/FB_BileburstPodling/BileburstPodlingSacsMedium</mediumTexPath>
+          <fullTexPath>Things/Pawn/FB_BileburstPodling/BileburstPodlingSacsFull</fullTexPath>
+          <mediumStageCharge>0.1</mediumStageCharge>
+          <fullStageCharge>0.4</fullStageCharge>
+          <children>
+            <li>
+              <debugLabel>Wounds</debugLabel>
+              <nodeClass>PawnRenderNode_AnimalPart</nodeClass>
+              <workerClass>PawnRenderNodeWorker_OverlayWounds</workerClass>
+              <overlayLayer>Body</overlayLayer>
+              <useGraphic>false</useGraphic>
+              <baseLayer>3</baseLayer>
+            </li>
+            <li>
+              <debugLabel>Pack</debugLabel>
+              <nodeClass>PawnRenderNode_AnimalPack</nodeClass>
+              <workerClass>PawnRenderNodeWorker_AnimalPack</workerClass>
+              <rotDrawMode>Fresh, Rotting</rotDrawMode>
+              <baseLayer>5</baseLayer>
+            </li>
+            <li>
+              <debugLabel>Firefoam</debugLabel>
+              <nodeClass>PawnRenderNode_AnimalPart</nodeClass>
+              <workerClass>PawnRenderNodeWorker_OverlayFirefoam</workerClass>
+              <overlayLayer>Body</overlayLayer>
+              <useGraphic>false</useGraphic>
+              <baseLayer>10</baseLayer>
+            </li>
+          </children>
+        </li>
+        <li Class="PawnRenderNodeProperties_Carried">
+          <debugLabel>Carried thing</debugLabel>
+          <workerClass>PawnRenderNodeWorker_Carried</workerClass>
+        </li>
+      </children>
+    </root>
+  </PawnRenderTreeDef>
+
+  <ThingDef ParentName="BasePawn">
+    <defName>FB_BileburstPodling</defName>
+    <label>bileburst podling</label>
+    <description>A small living munition bred by the bile mortar gland. It matures over several days, distending with volatile bile until it can hurl itself at a target or be loaded into the gland as an artillery shell.</description>
+    <tradeability>None</tradeability>
+    <uiIconPath>Things/Pawn/FB_BileburstPodling/BileburstPodling_south</uiIconPath>
+    <statBases>
+      <MoveSpeed>3.9</MoveSpeed>
+      <ComfyTemperatureMin>-20</ComfyTemperatureMin>
+      <ComfyTemperatureMax>60</ComfyTemperatureMax>
+      <Flammability>1.8</Flammability>
+      <MeatAmount>0</MeatAmount>
+      <MarketValue>85</MarketValue>
+      <ToxicResistance>0.8</ToxicResistance>
+    </statBases>
+    <race>
+      <body>FB_BileburstPodlingBody</body>
+      <baseBodySize>0.38</baseBodySize>
+      <baseHungerRate>0.03</baseHungerRate>
+      <baseHealthScale>0.42</baseHealthScale>
+      <lifeExpectancy>8</lifeExpectancy>
+      <renderTree>FB_BileburstPodlingRenderTree</renderTree>
+      <intelligence>ToolUser</intelligence>
+      <trainability>None</trainability>
+      <thinkTreeMain>FB_BileburstPodlingMain</thinkTreeMain>
+      <thinkTreeConstant>FleshbeastConstant</thinkTreeConstant>
+      <needsRest>false</needsRest>
+      <hasGenders>false</hasGenders>
+      <foodType>None</foodType>
+      <canBePredatorPrey>false</canBePredatorPrey>
+      <bloodDef>Filth_Blood</bloodDef>
+      <bloodSmearDef>Filth_BloodSmear</bloodSmearDef>
+      <fleshType>Fleshbeast</fleshType>
+      <isImmuneToInfections>true</isImmuneToInfections>
+      <bleedRateFactor>0.35</bleedRateFactor>
+      <specificMeatDef>Meat_Twisted</specificMeatDef>
+      <deathAction Class="DeathActionProperties_Vanish">
+        <workerClass>DeathActionWorker_Vanish</workerClass>
+        <filth>Filth_TwistedFlesh</filth>
+        <filthCountRange>0~0</filthCountRange>
+      </deathAction>
+      <lifeStageAges>
+        <li>
+          <def>EntityFullyFormed</def>
+          <soundWounded>Pawn_Fleshbeast_Fingerspike_Wounded</soundWounded>
+          <soundDeath>Pawn_Fleshbeast_Fingerspike_Death</soundDeath>
+          <soundCall>Pawn_Fleshbeast_Fingerspike_Call</soundCall>
+        </li>
+      </lifeStageAges>
+    </race>
+    <comps>
+      <li Class="FB.CompProperties_VolatileBileCharge">
+        <ticksToFullCharge>180000</ticksToFullCharge>
+        <minUsableCharge>0.25</minUsableCharge>
+        <mediumStageCharge>0.1</mediumStageCharge>
+        <fullStageCharge>0.4</fullStageCharge>
+        <deathFilthDef>FB_VolatileBileFilth</deathFilthDef>
+      </li>
+    </comps>
+    <tools>
+      <li>
+        <label>soft bite</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>3</power>
+        <cooldownTime>2.4</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.25</chanceFactor>
+        <soundMeleeHit>Pawn_Fleshbeast_Attack_Blunt</soundMeleeHit>
+      </li>
+    </tools>
+  </ThingDef>
+</Defs>

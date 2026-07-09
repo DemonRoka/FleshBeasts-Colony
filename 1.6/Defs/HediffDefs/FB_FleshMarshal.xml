@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HediffDef>
+    <defName>FB_FleshMarshalCommandAura</defName>
+    <label>flesh combat command</label>
+    <description>The carrier is broadcasting a combat impulse that strengthens nearby friendly fleshbeasts.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <showRemainingTime>true</showRemainingTime>
+      </li>
+      <li Class="HediffCompProperties_DisappearsOnDeath"/>
+      <li Class="FB.HediffCompProperties_FleshMarshalAura">
+        <radius>10</radius>
+        <pulseIntervalTicks>30</pulseIntervalTicks>
+        <buffRefreshTicks>120</buffRefreshTicks>
+        <buffHediff>FB_NerveclotResonance</buffHediff>
+      </li>
+    </comps>
+  </HediffDef>
+</Defs>

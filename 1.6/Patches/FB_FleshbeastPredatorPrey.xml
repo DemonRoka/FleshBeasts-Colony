@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional" MayRequire="Ludeon.RimWorld.Anomaly">
+    <xpath>Defs/ThingDef[@Name="BaseFleshbeast"]/race/canBePredatorPrey</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[@Name="BaseFleshbeast"]/race/canBePredatorPrey</xpath>
+      <value>
+        <canBePredatorPrey>false</canBePredatorPrey>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[@Name="BaseFleshbeast"]/race</xpath>
+      <value>
+        <canBePredatorPrey>false</canBePredatorPrey>
+      </value>
+    </nomatch>
+  </Operation>
+</Patch>

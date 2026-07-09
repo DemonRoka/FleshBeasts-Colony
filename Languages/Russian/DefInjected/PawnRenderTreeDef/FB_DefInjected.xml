@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_CarapaceExcavatorRender.root.children.0.children.0.debugLabel>когти</FB_CarapaceExcavatorRender.root.children.0.children.0.debugLabel>
+  <FB_CarapaceExcavatorRender.root.children.0.children.1.debugLabel>раны</FB_CarapaceExcavatorRender.root.children.0.children.1.debugLabel>
+  <FB_CarapaceExcavatorRender.root.children.0.children.2.debugLabel>пенотушитель</FB_CarapaceExcavatorRender.root.children.0.children.2.debugLabel>
+  <FB_CarapaceExcavatorRender.root.children.0.debugLabel>тело</FB_CarapaceExcavatorRender.root.children.0.debugLabel>
+  <FB_CarapaceExcavatorRender.root.children.1.debugLabel>переносимый предмет</FB_CarapaceExcavatorRender.root.children.1.debugLabel>
+  <FB_CarapaceExcavatorRender.root.debugLabel>корень</FB_CarapaceExcavatorRender.root.debugLabel>
+  <FB_FingerspikeGauntlet.root.children.0.children.0.debugLabel>шип</FB_FingerspikeGauntlet.root.children.0.children.0.debugLabel>
+  <FB_FingerspikeGauntlet.root.children.0.children.1.debugLabel>раны</FB_FingerspikeGauntlet.root.children.0.children.1.debugLabel>
+  <FB_FingerspikeGauntlet.root.children.0.children.2.debugLabel>пенотушитель</FB_FingerspikeGauntlet.root.children.0.children.2.debugLabel>
+  <FB_FingerspikeGauntlet.root.children.0.debugLabel>тело</FB_FingerspikeGauntlet.root.children.0.debugLabel>
+  <FB_FingerspikeGauntlet.root.children.1.debugLabel>переносимый предмет</FB_FingerspikeGauntlet.root.children.1.debugLabel>
+  <FB_FingerspikeGauntlet.root.debugLabel>корень</FB_FingerspikeGauntlet.root.debugLabel>
+  <FB_Regenerator.root.children.0.children.0.debugLabel>щупальце</FB_Regenerator.root.children.0.children.0.debugLabel>
+  <FB_Regenerator.root.children.0.children.1.debugLabel>щупальце</FB_Regenerator.root.children.0.children.1.debugLabel>
+  <FB_Regenerator.root.children.0.children.2.debugLabel>щупальце</FB_Regenerator.root.children.0.children.2.debugLabel>
+  <FB_Regenerator.root.children.0.children.3.debugLabel>щупальце</FB_Regenerator.root.children.0.children.3.debugLabel>
+  <FB_Regenerator.root.children.0.children.4.debugLabel>раны</FB_Regenerator.root.children.0.children.4.debugLabel>
+  <FB_Regenerator.root.children.0.children.5.debugLabel>пенотушитель</FB_Regenerator.root.children.0.children.5.debugLabel>
+  <FB_Regenerator.root.children.0.debugLabel>тело</FB_Regenerator.root.children.0.debugLabel>
+  <FB_Regenerator.root.children.1.debugLabel>переносимый предмет</FB_Regenerator.root.children.1.debugLabel>
+  <FB_Regenerator.root.debugLabel>корень</FB_Regenerator.root.debugLabel>
+  <FB_Sinewcaller.root.children.0.children.0.debugLabel>щупальце</FB_Sinewcaller.root.children.0.children.0.debugLabel>
+  <FB_Sinewcaller.root.children.0.children.1.debugLabel>раны</FB_Sinewcaller.root.children.0.children.1.debugLabel>
+  <FB_Sinewcaller.root.children.0.children.2.debugLabel>груз</FB_Sinewcaller.root.children.0.children.2.debugLabel>
+  <FB_Sinewcaller.root.children.0.children.3.debugLabel>пенотушитель</FB_Sinewcaller.root.children.0.children.3.debugLabel>
+  <FB_Sinewcaller.root.children.0.debugLabel>тело</FB_Sinewcaller.root.children.0.debugLabel>
+  <FB_Sinewcaller.root.children.1.debugLabel>переносимый предмет</FB_Sinewcaller.root.children.1.debugLabel>
+  <FB_Sinewcaller.root.debugLabel>корень</FB_Sinewcaller.root.debugLabel>
+  <FB_TentacleTurret.root.children.0.children.0.debugLabel>северное щупальце</FB_TentacleTurret.root.children.0.children.0.debugLabel>
+  <FB_TentacleTurret.root.children.0.children.1.debugLabel>южное щупальце</FB_TentacleTurret.root.children.0.children.1.debugLabel>
+  <FB_TentacleTurret.root.children.0.children.2.debugLabel>восточное щупальце</FB_TentacleTurret.root.children.0.children.2.debugLabel>
+  <FB_TentacleTurret.root.children.0.children.3.debugLabel>западное щупальце</FB_TentacleTurret.root.children.0.children.3.debugLabel>
+  <FB_TentacleTurret.root.children.0.children.4.debugLabel>раны</FB_TentacleTurret.root.children.0.children.4.debugLabel>
+  <FB_TentacleTurret.root.children.0.children.5.debugLabel>пенотушитель</FB_TentacleTurret.root.children.0.children.5.debugLabel>
+  <FB_TentacleTurret.root.children.0.debugLabel>тело</FB_TentacleTurret.root.children.0.debugLabel>
+  <FB_TentacleTurret.root.children.1.debugLabel>переносимый предмет</FB_TentacleTurret.root.children.1.debugLabel>
+  <FB_TentacleTurret.root.debugLabel>корень</FB_TentacleTurret.root.debugLabel>
+</LanguageData>

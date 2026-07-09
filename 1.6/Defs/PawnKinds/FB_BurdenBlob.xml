@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Вид пешки: burden blob (FB_BurdenBlobKind) -->
+  <PawnKindDef ParentName="BaseFleshbeastKind">
+    <defName>FB_BurdenBlobKind</defName>
+    <label>burden blob</label>
+    <race>FB_BurdenBlob</race>
+    <combatPower>10</combatPower>
+    <forceNoDeathNotification>true</forceNoDeathNotification>
+    <forceDeathOnDowned>true</forceDeathOnDowned>
+    <defaultFactionDef>PlayerColony</defaultFactionDef>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/FB_BurdenBlob/FB_BurdenBlob</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>0.92</drawSize>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+</Defs>

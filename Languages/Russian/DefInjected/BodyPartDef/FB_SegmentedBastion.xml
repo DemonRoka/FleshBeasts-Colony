@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_BastionSegmentModule.label>сегментный модуль бастиона</FB_BastionSegmentModule.label>
+  <FB_BastionSegmentNerveCore.label>нервный узел бастиона</FB_BastionSegmentNerveCore.label>
+  <FB_BastionSegmentMover.label>двигательный мешок бастиона</FB_BastionSegmentMover.label>
+  <FB_BastionSegmentSpineOrgan.label>шипастый орган бастиона</FB_BastionSegmentSpineOrgan.label>
+  <FB_BastionSegmentVesselCore.label>сосудистое ядро бастиона</FB_BastionSegmentVesselCore.label>
+</LanguageData>

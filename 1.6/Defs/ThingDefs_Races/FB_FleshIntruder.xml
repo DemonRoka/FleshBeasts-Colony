@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BasePawn">
+    <defName>FB_FleshIntruder</defName>
+    <label>flesh intruder</label>
+    <description>A fragile one-use fleshbeast grown to leap into a target, pierce armor, and leave a burrowing organ inside an exposed body part.</description>
+    <tradeability>None</tradeability>
+    <uiIconPath>Things/Pawn/FB_FleshIntruder/FB_FleshIntruder</uiIconPath>
+    <statBases>
+      <MoveSpeed>6.2</MoveSpeed>
+      <ComfyTemperatureMin>-30</ComfyTemperatureMin>
+      <ComfyTemperatureMax>60</ComfyTemperatureMax>
+      <Flammability>1.7</Flammability>
+      <MeatAmount>0</MeatAmount>
+      <MarketValue>420</MarketValue>
+      <ToxicResistance>0.7</ToxicResistance>
+    </statBases>
+    <race>
+      <body>FB_FleshIntruderBody</body>
+      <baseBodySize>0.42</baseBodySize>
+      <baseHungerRate>0</baseHungerRate>
+      <baseHealthScale>0.35</baseHealthScale>
+      <lifeExpectancy>8</lifeExpectancy>
+      <renderTree>Animal</renderTree>
+      <intelligence>ToolUser</intelligence>
+      <trainability>None</trainability>
+      <thinkTreeMain>FB_FleshIntruderMain</thinkTreeMain>
+      <thinkTreeConstant>FleshbeastConstant</thinkTreeConstant>
+      <needsRest>false</needsRest>
+      <hasGenders>false</hasGenders>
+      <foodType>None</foodType>
+      <canBePredatorPrey>false</canBePredatorPrey>
+      <bloodDef>Filth_Blood</bloodDef>
+      <bloodSmearDef>Filth_BloodSmear</bloodSmearDef>
+      <fleshType>Fleshbeast</fleshType>
+      <isImmuneToInfections>true</isImmuneToInfections>
+      <bleedRateFactor>0.25</bleedRateFactor>
+      <specificMeatDef>Meat_Twisted</specificMeatDef>
+      <deathAction Class="DeathActionProperties_Vanish">
+        <workerClass>DeathActionWorker_Vanish</workerClass>
+        <filth>Filth_TwistedFlesh</filth>
+        <filthCountRange>1~2</filthCountRange>
+        <meatExplosionSize>Small</meatExplosionSize>
+      </deathAction>
+      <lifeStageAges>
+        <li>
+          <def>EntityFullyFormed</def>
+          <soundWounded>Pawn_Fleshbeast_Fingerspike_Wounded</soundWounded>
+          <soundDeath>Pawn_Fleshbeast_Fingerspike_Death</soundDeath>
+          <soundCall>Pawn_Fleshbeast_Fingerspike_Call</soundCall>
+        </li>
+      </lifeStageAges>
+    </race>
+    <comps>
+      <li Class="FB.CompProperties_FleshIntruderImplant">
+        <implantJob>FB_FleshIntruderImplant</implantJob>
+        <flyerDef>FB_FleshIntruderLeapFlyer</flyerDef>
+        <intrusionHediffDef>FB_FleshIntrusion</intrusionHediffDef>
+        <penetrationDamageDef>Stab</penetrationDamageDef>
+        <commandIconPath>UI/Commands/FleshIntruderImplant</commandIconPath>
+        <penetrationDamageAmount>18</penetrationDamageAmount>
+        <armorPenetration>0.95</armorPenetration>
+        <jobExpiryTicks>1800</jobExpiryTicks>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

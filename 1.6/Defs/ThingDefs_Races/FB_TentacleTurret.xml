@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Раса: Tentacle Turret (FB_TentacleTurret) -->
+  <ThingDef ParentName="BasePawn">
+    <defName>FB_TentacleTurret</defName>
+    <label>Tentacle Turret</label>
+    <description>A grotesque, stationary mass of writhing tentacles rooted in pulsating flesh. It instinctively lashes out at any hostile creature that ventures too close with its tentacles, defending the colony.</description>
+    <statBases>
+      <MoveSpeed>0</MoveSpeed>
+      <MinimumContainmentStrength>40</MinimumContainmentStrength>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ComfyTemperatureMin>-40</ComfyTemperatureMin>
+      <ComfyTemperatureMax>60</ComfyTemperatureMax>
+      <Flammability>1.25</Flammability>
+      <MeatAmount>0</MeatAmount>
+      <Mass>100</Mass>
+      <PainShockThreshold>100</PainShockThreshold>
+      <MaxHitPoints>2400</MaxHitPoints>
+      <InjuryHealingFactor>4</InjuryHealingFactor>
+    </statBases>
+    <uiIconPath>Things/Pawn/FB_TentacleTurret/TentacleTurret_Icon</uiIconPath>
+    <race>
+      <body>FB_TentacleTurretBody</body>
+      <thinkTreeMain>FB_TentacleTurret</thinkTreeMain>
+      <thinkTreeConstant>FB_TentacleTurretConstant</thinkTreeConstant>
+      <disableIgniteVerb>true</disableIgniteVerb>
+      <canOpenFactionlessDoors>false</canOpenFactionlessDoors>
+      <alwaysAwake>true</alwaysAwake>
+      <doesntMove>true</doesntMove>
+      <needsRest>false</needsRest>
+      <hasGenders>false</hasGenders>
+      <renderTree>FB_TentacleTurret</renderTree>
+      <foodType>None</foodType>
+      <canBePredatorPrey>false</canBePredatorPrey>
+      <bloodSmearDef>Filth_BloodSmear</bloodSmearDef>
+      <soundMeleeDodge>Pawn_MeleeDodge</soundMeleeDodge>
+      <trainability>None</trainability>
+      <fleshType>Fleshbeast</fleshType>
+      <isImmuneToInfections>true</isImmuneToInfections>
+      <bleedRateFactor>0.5</bleedRateFactor>
+      <hediffGiverSets>
+        <li>Fleshbeast</li>
+      </hediffGiverSets>
+      <bloodDef>Filth_Blood</bloodDef>
+      <specificMeatDef>Meat_Twisted</specificMeatDef>
+      <intelligence>ToolUser</intelligence>
+      <baseBodySize>1</baseBodySize>
+      <baseHealthScale>0.9</baseHealthScale>
+      <lifeExpectancy>10</lifeExpectancy>
+      <deathAction Class="DeathActionProperties_Vanish">
+        <workerClass>DeathActionWorker_Vanish</workerClass>
+        <filth>Filth_TwistedFlesh</filth>
+        <filthCountRange>2~4</filthCountRange>
+        <meatExplosionSize>Small</meatExplosionSize>
+      </deathAction>
+      <lifeStageAges>
+        <li>
+          <def>EntityFullyFormed</def>
+          <soundWounded>Pawn_Fleshbeast_Trispike_Wounded</soundWounded>
+          <soundDeath>Pawn_Fleshbeast_Trispike_Death</soundDeath>
+          <soundCall>Pawn_Fleshbeast_Trispike_Call</soundCall>
+        </li>
+      </lifeStageAges>
+    </race>
+    <comps>
+      <li Class="FB.CompProperties_TentacleTurretRegeneration">
+        <regenerationIntervalTicks>420000</regenerationIntervalTicks>
+        <restoreMissingPart>true</restoreMissingPart>
+        <healPermanentWound>true</healPermanentWound>
+        <preferredPartDefName>FB_TurretTentacle</preferredPartDefName>
+        <removeBadHediffs>true</removeBadHediffs>
+        <badHediffHealIntervalTicks>60000</badHediffHealIntervalTicks>
+        <immunityGainPerDay>0.75</immunityGainPerDay>
+      </li>
+    </comps>
+    <passability>Impassable</passability>
+    <tradeability>None</tradeability>
+    <tools>
+      <li>
+        <label>north tentacle</label>
+        <labelNoLocation>tentacle</labelNoLocation>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>FB_CoreTentacles</linkedBodyPartsGroup>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+        <soundMeleeHit>Pawn_Fleshbeast_Attack_Blunt</soundMeleeHit>
+      </li>
+      <li>
+        <label>south tentacle</label>
+        <labelNoLocation>tentacle</labelNoLocation>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>FB_CoreTentacles</linkedBodyPartsGroup>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+        <soundMeleeHit>Pawn_Fleshbeast_Attack_Blunt</soundMeleeHit>
+      </li>
+      <li>
+        <label>east tentacle</label>
+        <labelNoLocation>tentacle</labelNoLocation>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>FB_CoreTentacles</linkedBodyPartsGroup>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+        <soundMeleeHit>Pawn_Fleshbeast_Attack_Blunt</soundMeleeHit>
+      </li>
+      <li>
+        <label>west tentacle</label>
+        <labelNoLocation>tentacle</labelNoLocation>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>FB_CoreTentacles</linkedBodyPartsGroup>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+        <soundMeleeHit>Pawn_Fleshbeast_Attack_Blunt</soundMeleeHit>
+      </li>
+    </tools>
+  </ThingDef>
+</Defs>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_ChromophageExtractGenes.reportString>extracting genes from TargetA.</FB_ChromophageExtractGenes.reportString>
+  <FB_ChromophageUnloadGenes.reportString>unloading genes into TargetA.</FB_ChromophageUnloadGenes.reportString>
+</LanguageData>

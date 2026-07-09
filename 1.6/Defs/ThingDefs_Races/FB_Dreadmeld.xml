@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Раса: dreadmeld (FB_Dreadmeld) -->
+  <ThingDef ParentName="BaseFleshbeast">
+    <defName>FB_Dreadmeld</defName>
+    <label>dreadmeld</label>
+    <description>A gargantuan amalgamation of dozens of smaller fleshbeasts linked together by a loosely shared central nervous system. It uses its massive claws to dig tunnels through solid rock. Fleshbeast dreadmelds are rarely seen above ground, instead sheltering in caverns built from living flesh. They share a psychic connection with the flesh used to create their burrow.</description>
+    <statBases>
+      <MoveSpeed>1.5</MoveSpeed>
+      <PsychicSensitivity>0.5</PsychicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+    </statBases>
+    <uiIconPath>Things/Pawn/Fleshbeast/Dreadmeld/Dreadmeld_MenuIcon</uiIconPath>
+    <race>
+      <body>Dreadmeld</body>
+      <baseBodySize>5</baseBodySize>
+      <baseHealthScale>10</baseHealthScale>
+      <lifeExpectancy>50</lifeExpectancy>
+      <soundMoving>Pawn_Fleshbeast_Dreadmeld_Moving</soundMoving>
+      <deathAction Class="DeathActionProperties_Divide">
+        <divideBloodFilthCountRange>3~4</divideBloodFilthCountRange>
+        <dividePawnKindAdditionalForced>
+          <li>Toughspike</li>
+          <li>Trispike</li>
+          <li>Bulbfreak</li>
+        </dividePawnKindAdditionalForced>
+      </deathAction>
+      <renderTree>Dreadmeld</renderTree>
+      <lifeStageAges>
+        <li>
+          <def>EntityFullyFormed</def>
+          <soundWounded>Pawn_Fleshbeast_Dreadmeld_Wounded</soundWounded>
+          <soundDeath>Pawn_Fleshbeast_Dreadmeld_Death</soundDeath>
+          <soundCall>Pawn_Fleshbeast_Dreadmeld_Call</soundCall>
+        </li>
+      </lifeStageAges>
+      <canBePredatorPrey>false</canBePredatorPrey>
+    </race>
+    <tools>
+      <li>
+        <label>left spike</label>
+        <labelNoLocation>spike</labelNoLocation>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>2</cooldownTime>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+        <linkedBodyPartsGroup>LeftSpike</linkedBodyPartsGroup>
+        <soundMeleeHit>Pawn_Dreadmeld_Attack_Spike</soundMeleeHit>
+      </li>
+      <li>
+        <label>right spike</label>
+        <labelNoLocation>spike</labelNoLocation>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>2</cooldownTime>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+        <linkedBodyPartsGroup>RightSpike</linkedBodyPartsGroup>
+        <soundMeleeHit>Pawn_Dreadmeld_Attack_Spike</soundMeleeHit>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>3</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+        <soundMeleeHit>Pawn_Fleshbeast_Attack_Blunt</soundMeleeHit>
+      </li>
+    </tools>
+    <comps>
+      <li Class="FB.CompProperties_FriendlyDreadmeldSpawns">
+        <firstHitSpawnCount>1~3</firstHitSpawnCount>
+        <wavePointsRange>100~300</wavePointsRange>
+        <bloodFilthCountRange>1~2</bloodFilthCountRange>
+        <damageThreshold>200</damageThreshold>
+        <jumpDist>5</jumpDist>
+        <useFlyerJump>true</useFlyerJump>
+        <maxPawnsPerWave>8</maxPawnsPerWave>
+        <manualShedDamageDef>Cut</manualShedDamageDef>
+        <manualShedDamageFactor>1</manualShedDamageFactor>
+        <manualShedCooldownTicks>60</manualShedCooldownTicks>
+        <manualShedIconPath>UI/Abilities/FB_DreadmeldShed</manualShedIconPath>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

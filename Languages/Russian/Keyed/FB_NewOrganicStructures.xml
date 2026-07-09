@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_ColonyBrain_Structure_FleshTunnelMaw_Label>Пасть плотяного туннеля</FB_ColonyBrain_Structure_FleshTunnelMaw_Label>
+  <FB_ColonyBrain_Structure_GalvanicCyst_Label>Гальваническая киста</FB_ColonyBrain_Structure_GalvanicCyst_Label>
+  <FB_ColonyBrain_Structure_GeoferriteGland_Label>Геоферритовая железа</FB_ColonyBrain_Structure_GeoferriteGland_Label>
+  <FB_ColonyBrain_Structure_GeoferriteGland_Desc>Выращивает укоренённый в гейзере орган, перерабатывающий гемогель в биоферрит.</FB_ColonyBrain_Structure_GeoferriteGland_Desc>
+  <FB_GeoferriteGland_InspectProduction>Выход биоферрита: {0}/день. Расход гемогеля: {1}/день.</FB_GeoferriteGland_InspectProduction>
+  <FB_GeoferriteGland_InspectPaused>Производство остановлено: требуется {0} гемогеля.</FB_GeoferriteGland_InspectPaused>
+  <FB_GeoferriteGland_InspectNext>Следующий биоферрит: {0}</FB_GeoferriteGland_InspectNext>
+  <FB_GeoferriteGland_EconomyDetail>Переработка биоферрита: {0}/день</FB_GeoferriteGland_EconomyDetail>
+</LanguageData>

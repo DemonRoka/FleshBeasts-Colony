@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_PitBurrowCall_QuestName>Зов из глубин</FB_PitBurrowCall_QuestName>
+  <FB_PitBurrowCall_QuestDescription>Колонию начал пронизывать медленный живой пульс. Он звучит не в воздухе, а проходит сквозь почву, кости и сны, призывая вас к чему-то погребённому в глубине.\n\nВы можете ответить на зов и позволить плотяной норе раскрыться внутри колонии. Если проигнорировать его, ничего не произойдёт.</FB_PitBurrowCall_QuestDescription>
+  <FB_PitBurrowCall_SpawnFailed>Зов угас прежде, чем плотяная нора смогла найти место для появления.</FB_PitBurrowCall_SpawnFailed>
+</LanguageData>

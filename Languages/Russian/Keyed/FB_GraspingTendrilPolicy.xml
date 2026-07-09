@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<FB_ColonyBrain_Structure_CaptureNerveNode_Desc>Увеличивает лимит хватательных щупалец сердца на один и передаёт ручные команды через связанное сердце.</FB_ColonyBrain_Structure_CaptureNerveNode_Desc>
+	<FB_CaptureNerveNode_SlotsInspect>Места узла: +{0}. Доступные места щупалец: {1} / {2}.</FB_CaptureNerveNode_SlotsInspect>
+	<FB_GraspingTendrils_HeartSlotsInspect>Места хватательных щупалец: {0} / {1} доступно.</FB_GraspingTendrils_HeartSlotsInspect>
+	<FB_GraspingTendrils_NextSlotReady>Следующее место щупалец восстановится через: {0}.</FB_GraspingTendrils_NextSlotReady>
+	<FB_GraspingTendrils_RitualProtected>Цель уже связана активным ритуалом плоти.</FB_GraspingTendrils_RitualProtected>
+	<FB_GraspingTendrils_NoFreeSlotsNext>Нет свободных мест хватательных щупалец. Следующее место восстановится через: {0}.</FB_GraspingTendrils_NoFreeSlotsNext>
+	<FB_GraspingPolicy_Tab>Захват</FB_GraspingPolicy_Tab>
+	<FB_GraspingPolicy_SearchTooltip>Фильтр списка по названию или defName.</FB_GraspingPolicy_SearchTooltip>
+	<FB_GraspingPolicy_Summary>Хватательные щупальца: {0} / {1}</FB_GraspingPolicy_Summary>
+	<FB_GraspingPolicy_Factions>Фракции</FB_GraspingPolicy_Factions>
+	<FB_GraspingPolicy_Species>Виды</FB_GraspingPolicy_Species>
+	<FB_GraspingPolicy_FactionTooltip>Правила фракций применяются к гуманоидным целям перед базовыми настройками.</FB_GraspingPolicy_FactionTooltip>
+	<FB_GraspingPolicy_SpeciesTooltip>Исключения видов переопределяют базовые правила. Собственные существа игрока всё равно защищены.</FB_GraspingPolicy_SpeciesTooltip>
+	<FB_GraspingPolicy_ClearAll>Запретить всё</FB_GraspingPolicy_ClearAll>
+	<FB_GraspingPolicy_AllowAll>Разрешить всё</FB_GraspingPolicy_AllowAll>
+	<FB_GraspingPolicy_Type_Humanlike>Гуманоиды</FB_GraspingPolicy_Type_Humanlike>
+	<FB_GraspingPolicy_Type_Animal>Животные</FB_GraspingPolicy_Type_Animal>
+	<FB_GraspingPolicy_Type_Insect>Насекомые</FB_GraspingPolicy_Type_Insect>
+	<FB_GraspingPolicy_Type_Mechanoid>Механоиды</FB_GraspingPolicy_Type_Mechanoid>
+	<FB_GraspingPolicy_Type_Entity>Сущности</FB_GraspingPolicy_Type_Entity>
+	<FB_GraspingPolicy_Type_Other>Прочие</FB_GraspingPolicy_Type_Other>	<FB_GraspingPolicy_RelationAlly>Союзник</FB_GraspingPolicy_RelationAlly>
+	<FB_GraspingPolicy_RelationHostile>Враг</FB_GraspingPolicy_RelationHostile>
+	<FB_GraspingPolicy_RelationNeutral>Нейтрал</FB_GraspingPolicy_RelationNeutral>
+	<FB_GraspingPolicy_RelationUnknown>Неизвестно</FB_GraspingPolicy_RelationUnknown>	<FB_GraspingTendrils_AutoDelay>Автозахват на плотяном полу: задержка {0} тиков.</FB_GraspingTendrils_AutoDelay></LanguageData>

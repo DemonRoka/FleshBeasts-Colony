@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Состояние: beckoned by flesh (FB_SinewcallerBeckoned) -->
+  <HediffDef>
+    <defName>FB_SinewcallerBeckoned</defName>
+    <label>beckoned by flesh</label>
+    <description>A probing psychic lure tugs this animal through its hindbrain, overriding instinct and forcing it to shadow the hunter that called it.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <comps>
+      <li Class="FB.HediffCompProperties_SinewcallerCall">
+        <followRefreshTicks>90</followRefreshTicks>
+      </li>
+    </comps>
+  </HediffDef>
+</Defs>

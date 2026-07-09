@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Задание: FB_ScrapmeldCollectMechanoidCorpse -->
+  <JobDef>
+    <defName>FB_ScrapmeldCollectMechanoidCorpse</defName>
+    <driverClass>FB.JobDriver_ScrapmeldCollectMechanoidCorpse</driverClass>
+  </JobDef>
+
+  <!-- Задание: FB_ScrapmeldNestlingHaulCorpse -->
+  <JobDef>
+    <defName>FB_ScrapmeldNestlingHaulCorpse</defName>
+    <driverClass>FB.JobDriver_ScrapmeldNestlingHaulCorpse</driverClass>
+  </JobDef>
+</Defs>

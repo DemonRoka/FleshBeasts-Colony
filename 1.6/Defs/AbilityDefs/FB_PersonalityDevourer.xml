@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AbilityDef ParentName="AbilityTouchBase">
+    <defName>FB_PersonalityDevourerConsumeMemory</defName>
+    <label>consume memory</label>
+    <description>Move to an intact-brained humanlike corpse, consume it, and record its identity in the colony brain.</description>
+    <iconPath>UI/Commands/PersonalityDevourerConsumeMemory</iconPath>
+    <targetRequired>true</targetRequired>
+    <hostile>false</hostile>
+    <showPsycastEffects>false</showPsycastEffects>
+    <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
+    <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+    <jobDef>CastAbilityOnThingMelee</jobDef>
+    <verbProperties>
+      <verbClass>Verb_CastAbilityTouch</verbClass>
+      <warmupTime>0.4</warmupTime>
+      <drawAimPie>false</drawAimPie>
+      <range>-1</range>
+      <targetParams>
+        <canTargetPawns>false</canTargetPawns>
+        <canTargetBuildings>false</canTargetBuildings>
+        <canTargetMechs>false</canTargetMechs>
+        <canTargetItems>false</canTargetItems>
+        <canTargetCorpses>true</canTargetCorpses>
+        <onlyTargetCorpses>true</onlyTargetCorpses>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="FB.CompProperties_AbilityPersonalityDevourerConsumeMemory">
+        <workTicks>300</workTicks>
+      </li>
+    </comps>
+  </AbilityDef>
+</Defs>

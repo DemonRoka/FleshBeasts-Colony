@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Задание: FB_CortexMiteAnchor -->
+  <JobDef>
+    <defName>FB_CortexMiteAnchor</defName>
+    <driverClass>FB.JobDriver_CortexMiteAnchor</driverClass>
+    <reportString>anchors into the ground.</reportString>
+    <playerInterruptible>true</playerInterruptible>
+  </JobDef>
+</Defs>

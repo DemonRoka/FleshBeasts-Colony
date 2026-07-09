@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <JobDef>
+    <defName>FB_FleshbeastDigestInStomach</defName>
+    <driverClass>FB.JobDriver_FleshbeastDigestInStomach</driverClass>
+    <reportString>entering a colony stomach for digestion.</reportString>
+    <checkOverrideOnDamage>Never</checkOverrideOnDamage>
+  </JobDef>
+
+  <JobDef>
+    <defName>FB_FleshbeastDigestOnGastricAcid</defName>
+    <driverClass>FB.JobDriver_FleshbeastDigestOnGastricAcid</driverClass>
+    <reportString>entering gastric acid for digestion.</reportString>
+    <checkOverrideOnDamage>Never</checkOverrideOnDamage>
+  </JobDef>
+</Defs>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ThingDef>
+		<defName>FB_SkillQuintessence</defName>
+		<label>skill quintessence</label>
+		<description>A compact knot of neural tissue containing compressed experience from a single skill.</description>
+		<category>Item</category>
+		<thingClass>ThingWithComps</thingClass>
+		<selectable>true</selectable>
+		<graphicData>
+			<texPath>Things/Item/Special/SkillQuintessence</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<drawGUIOverlay>false</drawGUIOverlay>
+		<drawerType>MapMeshOnly</drawerType>
+		<altitudeLayer>Item</altitudeLayer>
+		<alwaysHaulable>true</alwaysHaulable>
+		<rotatable>false</rotatable>
+		<pathCost>14</pathCost>
+		<stackLimit>1</stackLimit>
+		<tradeability>None</tradeability>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<Mass>0.2</Mass>
+			<MarketValue>200</MarketValue>
+			<DeteriorationRate>2</DeteriorationRate>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<comps>
+			<li Class="FB.CompProperties_SkillQuintessence" />
+			<li Class="FB.CompProperties_UsableSkillQuintessence">
+				<useJob>UseNeurotrainer</useJob>
+				<useLabel>Absorb skill quintessence</useLabel>
+				<showUseGizmo>true</showUseGizmo>
+			</li>
+			<li Class="FB.CompProperties_UseEffectSkillQuintessence" />
+			<li Class="CompProperties_UseEffectPlaySound">
+				<soundOnUsed>MechSerumUsed</soundOnUsed>
+			</li>
+			<li Class="CompProperties_UseEffectDestroySelf" />
+			<li Class="CompProperties_Forbiddable" />
+		</comps>
+		<thingCategories>
+			<li>NeurotrainersSkill</li>
+		</thingCategories>
+	</ThingDef>
+</Defs>

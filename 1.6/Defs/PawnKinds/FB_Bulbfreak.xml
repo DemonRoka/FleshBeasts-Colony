@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <PawnKindDef ParentName="BaseFleshbeastKind">
+    <defName>FB_BulbfreakKind</defName>
+    <label>fused bulbfreak</label>
+    <overrideDeathOnDownedChance>0.9</overrideDeathOnDownedChance>
+    <race>FB_Bulbfreak</race>
+    <combatPower>360</combatPower>
+    <defaultFactionDef>PlayerColony</defaultFactionDef>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Fleshbeast/Bulbfreak/Bulbfreak</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>3</drawSize>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+</Defs>

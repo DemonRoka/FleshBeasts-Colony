@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_SymbioHeadStatusActive>Symbiotic head: active</FB_SymbioHeadStatusActive>
+  <FB_SymbioHeadRegrowthInspect>Symbiotic head regrowing: {0} remaining. Hemogel: {1} / {2}</FB_SymbioHeadRegrowthInspect>
+  <FB_SymbioHeadRegrowthPaused>Regrowth paused to preserve the {0} hemogel safety reserve.</FB_SymbioHeadRegrowthPaused>
+  <FB_SymbioHeadRegrowthPausedNoSupply>Regrowth paused: the hemogel network lacks full supply.</FB_SymbioHeadRegrowthPausedNoSupply>
+  <FB_SymbioHeadRegrowthAwaitingSpace>Symbiotic head ready: waiting for adjacent space.</FB_SymbioHeadRegrowthAwaitingSpace>
+  <FB_SymbioHeadRegrowthEconomyDetail>Regrowing the symbiotic head.</FB_SymbioHeadRegrowthEconomyDetail>
+</LanguageData>

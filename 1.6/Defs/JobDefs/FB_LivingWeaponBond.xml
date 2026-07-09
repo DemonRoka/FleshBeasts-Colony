@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Задание: FB_LivingWeaponReturnToOwner -->
+  <JobDef>
+    <defName>FB_LivingWeaponReturnToOwner</defName>
+    <driverClass>FB.JobDriver_LivingWeaponReturnToOwner</driverClass>
+    <reportString>returning to bonded wielder.</reportString>
+    <casualInterruptible>false</casualInterruptible>
+  </JobDef>
+</Defs>

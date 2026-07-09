@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_BurdenBlobHemogelSac.label>гемогелевый мешок</FB_BurdenBlobHemogelSac.label>
+  <FB_BurdenPseudopod.label>псевдоподия</FB_BurdenPseudopod.label>
+  <FB_CocoonbackLeg.label>коконная нога</FB_CocoonbackLeg.label>
+  <FB_CocoonbackShell.label>коконная оболочка</FB_CocoonbackShell.label>
+  <FB_FerrimawCrusherMaw.label>дробящая пасть</FB_FerrimawCrusherMaw.label>
+  <FB_FerrimawFerricGut.label>ферритовый желудок</FB_FerrimawFerricGut.label>
+  <FB_FerrimawRaspingLimb.label>скребущая конечность</FB_FerrimawRaspingLimb.label>
+  <FB_FerrimawSecretionVent.label>выделительная пора</FB_FerrimawSecretionVent.label>
+  <FB_FleshHead.label>голова из плоти</FB_FleshHead.label>
+  <FB_FleshMaw.label>плотяная пасть</FB_FleshMaw.label>
+  <FB_GraftmawArchiveSac.label>архивный мешок</FB_GraftmawArchiveSac.label>
+  <FB_GraftmawManipulator.label>хирургический манипулятор</FB_GraftmawManipulator.label>
+  <FB_GraftmawSutureNode.label>шовный узел</FB_GraftmawSutureNode.label>
+  <FB_NerveclotCore.label>нейронное ядро</FB_NerveclotCore.label>
+  <FB_NerveclotLeg.label>нервная нога</FB_NerveclotLeg.label>
+  <FB_ParasiteCore.label>ядро</FB_ParasiteCore.label>
+  <FB_ParasiteEye.label>глаз</FB_ParasiteEye.label>
+  <FB_ParasiteTentacle.label>щупальце</FB_ParasiteTentacle.label>
+  <FB_ScrapmeldCortex.label>ломовой кортекс</FB_ScrapmeldCortex.label>
+  <FB_SinewcallerLeg.label>жильная нога</FB_SinewcallerLeg.label>
+  <FB_SinewcallerLureSac.label>приманочный мешок</FB_SinewcallerLureSac.label>
+  <FB_SoftFleshBody.label>мягкое плотяное тело</FB_SoftFleshBody.label>
+  <FB_Tentacle.label>щупальце</FB_Tentacle.label>
+  <FB_ThrallbloomBudlink.label>нейронный бутон-связка</FB_ThrallbloomBudlink.label>
+  <FB_TurretCore.label>плотяное ядро</FB_TurretCore.label>
+  <FB_TurretGelSac.label>гелевый мешок</FB_TurretGelSac.label>
+  <FB_TurretSensor.label>поверхностный сенсор</FB_TurretSensor.label>
+  <FB_TurretShell.label>плотяная оболочка</FB_TurretShell.label>
+  <FB_TurretTentacle.label>щупальце</FB_TurretTentacle.label>
+</LanguageData>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_FleshConvergenceGridTooltip>Choose a flesh fusion form.</FB_FleshConvergenceGridTooltip>
+  <FB_FleshConvergenceBulbfreakLabel>Bulbfreak</FB_FleshConvergenceBulbfreakLabel>
+  <FB_FleshConvergenceBulbfreakDesc>Call nearby allied fingerspikes, trispikes, and toughspikes into a violent convergence, forming a controllable bulbfreak with the host sealed inside.</FB_FleshConvergenceBulbfreakDesc>
+  <FB_FleshConvergenceCarrionArchitectLabel>Carrion architect</FB_FleshConvergenceCarrionArchitectLabel>
+  <FB_FleshConvergenceCarrionArchitectDesc>Call nearby allied fleshbeasts into a slow, massive carrion architect that can reshape organic corpses into new fingerspikes.</FB_FleshConvergenceCarrionArchitectDesc>
+  <FB_FleshConvergenceChromophageLabel>Chromophage</FB_FleshConvergenceChromophageLabel>
+  <FB_FleshConvergenceChromophageDesc>Call nearby allied fleshbeasts into a gene-harvesting chromophage that can strip genetic traces from humanlike corpses and unload them into a genome archive.</FB_FleshConvergenceChromophageDesc>
+  <FB_FleshConvergencePersonalityDevourerLabel>Personality devourer</FB_FleshConvergencePersonalityDevourerLabel>
+  <FB_FleshConvergencePersonalityDevourerDesc>Call nearby allied fleshbeasts into a memory-eating form that consumes intact-brained humanlike corpses and records them in the colony brain.</FB_FleshConvergencePersonalityDevourerDesc>
+  <FB_FleshConvergenceLockedLabel>Empty form</FB_FleshConvergenceLockedLabel>
+  <FB_FleshConvergenceLockedDesc>This convergence pattern has not formed yet.</FB_FleshConvergenceLockedDesc>
+  <FB_FleshConvergenceFormLocked>This convergence form is not available yet.</FB_FleshConvergenceFormLocked>
+  <FB_FleshConvergenceCooldown>Flesh fusion is recovering: {0}.</FB_FleshConvergenceCooldown>
+  <FB_CarrionReworkInvalidCaster>Only a carrion architect can rework corpses.</FB_CarrionReworkInvalidCaster>
+  <FB_CarrionReworkInvalidTarget>Choose an organic corpse.</FB_CarrionReworkInvalidTarget>
+  <FB_CarrionReworkMechanoidCorpse>Mechanoid corpses cannot be reworked into fleshbeasts.</FB_CarrionReworkMechanoidCorpse>
+  <FB_CarrionReworkNoLineOfSight>The carrion architect cannot reach that corpse with its tendrils.</FB_CarrionReworkNoLineOfSight>
+  <FB_CarrionReworkCannotReach>The carrion architect cannot reach that corpse.</FB_CarrionReworkCannotReach>
+  <FB_CarrionReworkCannotStart>The carrion architect cannot begin reworking that corpse.</FB_CarrionReworkCannotStart>
+  <FB_CarrionReworkCompleted>The corpse bursts into fingerspikes: {0}.</FB_CarrionReworkCompleted>
+</LanguageData>

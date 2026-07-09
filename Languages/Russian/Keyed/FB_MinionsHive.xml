@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_MinionsHive_DevFinishGrowth>DEV: Завершить рост склерета</FB_MinionsHive_DevFinishGrowth>
+  <FB_MinionsHive_DevFinishGrowthDesc>Мгновенно завершает текущий цикл роста. Склерет создаётся внутри улья, если есть свободный слот и достаточно гемогеля.</FB_MinionsHive_DevFinishGrowthDesc>
+  <FB_MinionsHive_DevNoFreeSlot>Все слоты склеретов заняты.</FB_MinionsHive_DevNoFreeSlot>
+  <FB_MinionsHive_DevContainerFull>В контейнере улья нет свободного места.</FB_MinionsHive_DevContainerFull>
+  <FB_MinionsHive_DevNotEnoughHemogel>Требуется {0} гемогеля.</FB_MinionsHive_DevNotEnoughHemogel>
+</LanguageData>

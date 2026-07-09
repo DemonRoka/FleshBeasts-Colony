@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_ColonyBrain_Structure_PsychicLureAntenna_Label>Psychic Lure Antenna</FB_ColonyBrain_Structure_PsychicLureAntenna_Label>
+  <FB_ColonyBrain_Structure_PsychicLureAntenna_Desc>A hemogel-fed neural antenna that broadcasts predatory psychic signals, calling hostile bodies toward the colony as dangerous biomass.</FB_ColonyBrain_Structure_PsychicLureAntenna_Desc>
+  <FB_PsychicLureAntenna_ReleaseLabel>Release psychic lure</FB_PsychicLureAntenna_ReleaseLabel>
+  <FB_PsychicLureAntenna_ReleaseDesc>Spend {0} hemogel to broadcast a psychic lure. The lure randomly calls either an enemy raid or a manhunter pack. The threat will arrive in {2} to {3}; the antenna then enters a {1} cooldown.</FB_PsychicLureAntenna_ReleaseDesc>
+  <FB_PsychicLureAntenna_InspectCharge>Psychic lure charge: {0} / {1} hemogel</FB_PsychicLureAntenna_InspectCharge>
+  <FB_PsychicLureAntenna_InspectPending>Psychic response incoming: {0}</FB_PsychicLureAntenna_InspectPending>
+  <FB_PsychicLureAntenna_InspectCooldown>Psychic lure cooldown: {0}</FB_PsychicLureAntenna_InspectCooldown>
+  <FB_PsychicLureAntenna_NoMap>The antenna is not on a valid map.</FB_PsychicLureAntenna_NoMap>
+  <FB_PsychicLureAntenna_NotPlayerOwned>The antenna must belong to the player colony.</FB_PsychicLureAntenna_NotPlayerOwned>
+  <FB_PsychicLureAntenna_NoStorage>Missing hemogel storage.</FB_PsychicLureAntenna_NoStorage>
+  <FB_PsychicLureAntenna_NotEnoughHemogel>Requires {0} hemogel to release a psychic lure. Current charge: {1}.</FB_PsychicLureAntenna_NotEnoughHemogel>
+  <FB_PsychicLureAntenna_Pending>A psychic response is already incoming: {0}.</FB_PsychicLureAntenna_Pending>
+  <FB_PsychicLureAntenna_Cooldown>The psychic lure is recharging for {0}.</FB_PsychicLureAntenna_Cooldown>
+  <FB_PsychicLureAntenna_NoIncident>No valid threat answered the psychic lure.</FB_PsychicLureAntenna_NoIncident>
+  <FB_PsychicLureAntenna_Released>The psychic lure antenna broadcasts into the dark. A hostile response should arrive in {0}.</FB_PsychicLureAntenna_Released>
+  <FB_PsychicLureAntenna_PulseDissipated>The psychic lure dissipates without drawing a valid threat.</FB_PsychicLureAntenna_PulseDissipated>
+  <FB_PsychicLureAntenna_DevResetCooldownLabel>DEV: reset psychic lure cooldown</FB_PsychicLureAntenna_DevResetCooldownLabel>
+  <FB_PsychicLureAntenna_DevResetCooldownDesc>Immediately clears this antenna's psychic lure timer and cancels any pending psychic response.</FB_PsychicLureAntenna_DevResetCooldownDesc>
+  <FB_PsychicLureAntenna_ToggleLabel>Psychic lure broadcast</FB_PsychicLureAntenna_ToggleLabel>
+  <FB_PsychicLureAntenna_ToggleDesc>Toggle high-output lure broadcasting. While active, the antenna consumes {0} hemogel per hour and calls a hostile response every {1}-{2}.</FB_PsychicLureAntenna_ToggleDesc>
+  <FB_PsychicLureAntenna_InspectDisabled>Psychic lure broadcast: off</FB_PsychicLureAntenna_InspectDisabled>
+  <FB_PsychicLureAntenna_InspectNoNetworkSupply>Psychic lure broadcast paused: hemogel network underfed.</FB_PsychicLureAntenna_InspectNoNetworkSupply>
+  <FB_PsychicLureAntenna_InspectNextPulse>Next psychic lure: {0}</FB_PsychicLureAntenna_InspectNextPulse>
+  <FB_PsychicLureAntenna_EconomyActive>Broadcast active</FB_PsychicLureAntenna_EconomyActive>
+  <FB_PsychicLureAntenna_EconomyPassive>Standby</FB_PsychicLureAntenna_EconomyPassive></LanguageData>

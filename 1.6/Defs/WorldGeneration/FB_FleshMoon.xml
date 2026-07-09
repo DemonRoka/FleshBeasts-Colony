@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<BiomeDef>
+		<defName>FB_FleshMoonBiome</defName>
+		<label>flesh moon</label>
+		<description>A budded orbital mass formed from an entire flesh colony.</description>
+		<workerClass>RimWorld.BiomeWorker_TemperateForest</workerClass>
+		<generatesNaturally>false</generatesNaturally>
+		<canBuildBase>false</canBuildBase>
+		<canAutoChoose>false</canAutoChoose>
+		<allowRoads>false</allowRoads>
+		<allowRivers>false</allowRivers>
+		<allowFarmingCamps>false</allowFarmingCamps>
+		<animalDensity>0</animalDensity>
+		<plantDensity>0</plantDensity>
+		<impassable>true</impassable>
+		<hasVirtualPlants>false</hasVirtualPlants>
+		<texture>World/FleshMoon/FleshMoonSurface</texture>
+	</BiomeDef>
+
+	<WorldGenStepDef>
+		<defName>FB_UniformFleshMoon</defName>
+		<order>5</order>
+		<worldGenStep Class="FB.WorldGenStep_UniformFleshMoon" />
+	</WorldGenStepDef>
+
+	<PlanetLayerDef>
+		<defName>FB_FleshMoon</defName>
+		<label>flesh moon</label>
+		<description>A small living moon budded from the flesh colony.</description>
+		<viewGizmoTexPath>UI/Commands/ViewPlanet</viewGizmoTexPath>
+		<viewGizmoOnlyVisibleWithDirectConnection>false</viewGizmoOnlyVisibleWithDirectConnection>
+		<defaultBiome>FB_FleshMoonBiome</defaultBiome>
+		<backgroundBiome>FB_FleshMoonBiome</backgroundBiome>
+		<layerType>SurfaceLayer</layerType>
+		<tileType>SurfaceTile</tileType>
+		<worldGenSteps>
+			<li>FB_UniformFleshMoon</li>
+		</worldGenSteps>
+		<worldDrawLayers>
+			<li>WorldDrawLayer_SelectedTile</li>
+			<li>WorldDrawLayer_MouseTile</li>
+			<li>WorldDrawLayer_UngeneratedPlanetParts</li>
+			<li>FB.WorldDrawLayer_FleshMoonGlow</li>
+			<li>WorldDrawLayer_Terrain</li>
+			<li>FB.WorldDrawLayer_Flesh</li>
+			<li>FB.WorldDrawLayer_FleshMoonTether</li>
+		</worldDrawLayers>
+		<worldTabs>
+			<li>WITab_Planet</li>
+		</worldTabs>
+	</PlanetLayerDef>
+
+</Defs>

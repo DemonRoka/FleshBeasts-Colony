@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_AcidReservoir_BarLabel>Запас кислоты</FB_AcidReservoir_BarLabel>
+  <FB_AcidReservoir_BarTooltip>Запас желудочной кислоты: {0} / {1}.</FB_AcidReservoir_BarTooltip>
+  <FB_AcidReservoir_Inspect>Запас кислоты: {0} / {1}</FB_AcidReservoir_Inspect>
+  <FB_AcidReservoir_DevFill>DEV: заполнить запас кислоты</FB_AcidReservoir_DevFill>
+
+  <FB_AcidBroodmother_GrowToggleLabel>Выращивать кислотных плевак</FB_AcidBroodmother_GrowToggleLabel>
+  <FB_AcidBroodmother_GrowToggleDesc>Когда выводок готов, мгновенно расходует по {0} кислоты, заполняя до {1} мест кислотных плевак. Восстановление выводка занимает {2} ч.</FB_AcidBroodmother_GrowToggleDesc>
+  <FB_AcidBroodmother_Inspect>Кислотные плеваки: {0} / {1}. Автоматический рост: {2}.</FB_AcidBroodmother_Inspect>
+  <FB_AcidBroodmother_GrowthReady>Рост выводка: готов.</FB_AcidBroodmother_GrowthReady>
+  <FB_AcidBroodmother_GrowthCooldown>Рост выводка будет готов через: {0}.</FB_AcidBroodmother_GrowthCooldown>
+  <FB_AcidBroodmother_DevSpawnSpitling>DEV: вырастить кислотную плеваку</FB_AcidBroodmother_DevSpawnSpitling>
+
+  <FB_AcidSpitling_NoMother>Нет связанной кислотной правматки.</FB_AcidSpitling_NoMother>
+  <FB_AcidSpitling_MotherInspect>Связанная правматка: {0}</FB_AcidSpitling_MotherInspect>
+  <FB_AcidSpitling_NotEnoughAcid>Требуется кислота: {0}.</FB_AcidSpitling_NotEnoughAcid>
+
+  <FB_AcidBroodmother_AssembleLabel>Собрать кислотную правматку</FB_AcidBroodmother_AssembleLabel>
+  <FB_AcidBroodmother_AssembleDesc>Выберите союзного пальцешипа, трёхшипа или крепкошипа как основу слияния. Ближайшие шипастые флешбисты соберутся и сольются в кислотную правматку.</FB_AcidBroodmother_AssembleDesc>
+  <FB_AcidBroodmother_NoDonors>Недостаточно доступных шипастых флешбистов для сборки кислотной правматки.</FB_AcidBroodmother_NoDonors>
+  <FB_AcidBroodmother_AssemblyInvalid>Сборку кислотной правматки нельзя начать.</FB_AcidBroodmother_AssemblyInvalid>
+  <FB_AcidBroodmother_NoGatherCells>Вокруг выбранной основы недостаточно доступного места.</FB_AcidBroodmother_NoGatherCells>
+  <FB_AcidBroodmother_AssemblyStarted>Собираются флешбисты: {0}. Общая ценность слияния: {1}.</FB_AcidBroodmother_AssemblyStarted>
+  <FB_AcidBroodmother_AssemblyComplete>Сформирована новая особь: {0}.</FB_AcidBroodmother_AssemblyComplete>
+  <FB_AcidBroodmother_AssemblyInterrupted>Сборка кислотной правматки прервана.</FB_AcidBroodmother_AssemblyInterrupted>
+</LanguageData>

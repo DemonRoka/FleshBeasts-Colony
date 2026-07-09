@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_GastricChambers.label>извергатели желудочного сока</FB_GastricChambers.label>
+  <FB_GastricChambers.description>Открывает извергатель желудочного сока — пищеварительный орган, способный заливать ближайшие клетки кислотой и превращать тела или пищу в гемогель.</FB_GastricChambers.description>
+  <FB_GastricChambers.generalRules.rulesStrings.0>subject-&gt;извергатели желудочного сока</FB_GastricChambers.generalRules.rulesStrings.0>
+  <FB_GastricChambers.generalRules.rulesStrings.1>subject_story-&gt;вырастил пищеварительные органы-извергатели</FB_GastricChambers.generalRules.rulesStrings.1>
+  <FB_GastricChambers.generalRules.rulesStrings.2>subject_story-&gt;вырастил источники текучего желудочного сока</FB_GastricChambers.generalRules.rulesStrings.2>
+  <FB_GastricChambers.generalRules.rulesStrings.3>subject_gerund-&gt;выращивание извергателей желудочного сока</FB_GastricChambers.generalRules.rulesStrings.3>
+</LanguageData>

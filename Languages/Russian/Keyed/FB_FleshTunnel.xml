@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_FleshTunnelCallAllHomeLabel>Позвать всех флешбистов домой</FB_FleshTunnelCallAllHomeLabel>
+  <FB_FleshTunnelCallAllHomeDesc>Приказать всем доступным флешбистам на этой карте вернуться через туннель к исходной пасти.</FB_FleshTunnelCallAllHomeDesc>
+  <FB_FleshTunnelNoFleshbeastsToReturn>На этой карте нет доступных флешбистов, способных вернуться через туннель.</FB_FleshTunnelNoFleshbeastsToReturn>
+  <FB_FleshTunnelCallAllHomeResult>Через туннель домой отправлено флешбистов: {0}. Пропущено: {1}.</FB_FleshTunnelCallAllHomeResult>
+  <FB_FleshTunnelCollapseExitLabel>Захлопнуть туннель</FB_FleshTunnelCollapseExitLabel>
+  <FB_FleshTunnelCollapseExitDesc>Захлопывает этот выход туннеля и безвозвратно уничтожает его локацию. Всё оставшееся там будет потеряно.</FB_FleshTunnelCollapseExitDesc>
+  <FB_FleshTunnelCollapseExitConfirm>Захлопнуть плотяной туннель и безвозвратно уничтожить связанную локацию? Все оставшиеся там пешки и предметы будут потеряны.</FB_FleshTunnelCollapseExitConfirm>
+  <FB_FleshTunnelHemogelTargetTitle>Лимит гемогеля туннеля</FB_FleshTunnelHemogelTargetTitle>
+  <FB_FleshTunnelHemogelTargetTooltip>Запас гемогеля: {0}\nЦелевой лимит: {1}\nМаксимальная вместимость: {2}\n\nСердце колонии не будет наполнять пасть туннеля выше заданного лимита.</FB_FleshTunnelHemogelTargetTooltip>
+  <FB_FleshTunnelTargetHemogelInspect>Целевой уровень гемогеля: {0}</FB_FleshTunnelTargetHemogelInspect>
+</LanguageData>

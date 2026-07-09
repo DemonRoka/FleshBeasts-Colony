@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Дерево рендера: FB_Regenerator -->
+  <PawnRenderTreeDef>
+    <defName>FB_Regenerator</defName>
+    <root Class="PawnRenderNodeProperties_Parent">
+      <debugLabel>Root</debugLabel>
+      <tagDef>Root</tagDef>
+      <children>
+        <li>
+          <debugLabel>Body</debugLabel>
+          <tagDef>Body</tagDef>
+          <useRottenColor>true</useRottenColor>
+          <nodeClass>PawnRenderNode_AnimalPart</nodeClass>
+          <children>
+            <li Class="PawnRenderNodeProperties_BulbfreakTentacle">
+              <debugLabel>TentacleA</debugLabel>
+              <texPath>Things/Pawn/FB_DenseWeaver/Attachments/DenseWeaver_Tentacle</texPath>
+              <drawSize>1.1</drawSize>
+              <useRottenColor>true</useRottenColor>
+              <linkedBodyPartsGroup>FB_FirstTentacle</linkedBodyPartsGroup>
+              <drawData>
+                <defaultData>
+                  <pivot>(0.5, 0.5)</pivot>
+                  <layer>7</layer>
+                </defaultData>
+                <dataSouth>
+                  <rotationOffset>170</rotationOffset>
+                  <offset>(-0.28, 0, 0.327)</offset>
+                </dataSouth>
+                <dataNorth>
+                  <rotationOffset>0</rotationOffset>
+                  <offset>(-0.28, 0, 0.327)</offset>
+                </dataNorth>
+                <dataEast>
+                  <rotationOffset>286</rotationOffset>
+                  <offset>(0.05, 0, 0.373)</offset>
+                </dataEast>
+                <dataWest>
+                  <rotationOffset>270</rotationOffset>
+                  <offset>(0, 0, 0.373)</offset>
+                  <flip>true</flip>
+                </dataWest>
+              </drawData>
+              <rotateFacing>True</rotateFacing>
+              <scaleRange>1~1.2</scaleRange>
+              <rotationRange>0~10</rotationRange>
+            </li>
+            <li Class="PawnRenderNodeProperties_BulbfreakTentacle">
+              <debugLabel>TentacleA</debugLabel>
+              <texPath>Things/Pawn/FB_DenseWeaver/Attachments/DenseWeaver_Tentacle</texPath>
+              <drawSize>1.1</drawSize>
+              <useRottenColor>true</useRottenColor>
+              <linkedBodyPartsGroup>FB_SecondTentacle</linkedBodyPartsGroup>
+              <drawData>
+                <defaultData>
+                  <pivot>(0.5, 0.5)</pivot>
+                  <layer>6</layer>
+                </defaultData>
+                <dataSouth>
+                  <rotationOffset>200</rotationOffset>
+                  <offset>(-0.13, 0, 0.4)</offset>
+                </dataSouth>
+                <dataNorth>
+                  <rotationOffset>20</rotationOffset>
+                  <offset>(-0.13, 0, 0.4)</offset>
+                </dataNorth>
+                <dataEast>
+                  <rotationOffset>270</rotationOffset>
+                  <offset>(-0.15, 0, 0.3)</offset>
+                </dataEast>
+                <dataWest>
+                  <rotationOffset>260</rotationOffset>
+                  <offset>(0.2, 0, 0.3)</offset>
+                  <flip>true</flip>
+                </dataWest>
+              </drawData>
+              <rotateFacing>True</rotateFacing>
+              <scaleRange>1~1.2</scaleRange>
+              <rotationRange>0~10</rotationRange>
+            </li>
+            <li Class="PawnRenderNodeProperties_BulbfreakTentacle">
+              <debugLabel>TentacleA</debugLabel>
+              <texPath>Things/Pawn/FB_DenseWeaver/Attachments/DenseWeaver_Tentacle</texPath>
+              <drawSize>1.1</drawSize>
+              <useRottenColor>true</useRottenColor>
+              <linkedBodyPartsGroup>FB_ThirdTentacle</linkedBodyPartsGroup>
+              <drawData>
+                <defaultData>
+                  <pivot>(0.5, 0.5)</pivot>
+                  <layer>7</layer>
+                </defaultData>
+                <dataSouth>
+                  <rotationOffset>170</rotationOffset>
+                  <offset>(0.28, 0, 0.327)</offset>
+                  <flip>true</flip>
+                </dataSouth>
+                <dataNorth>
+                  <rotationOffset>0</rotationOffset>
+                  <offset>(0.28, 0, 0.327)</offset>
+                  <flip>true</flip>
+                </dataNorth>
+                <dataEast>
+                  <rotationOffset>295</rotationOffset>
+                  <offset>(0.15, 0, 0.373)</offset>
+                  <layer>-7</layer>
+                </dataEast>
+                <dataWest>
+                  <rotationOffset>280</rotationOffset>
+                  <offset>(-0.15, 0, 0.373)</offset>
+                  <flip>true</flip>
+                  <layer>-7</layer>
+                </dataWest>
+              </drawData>
+              <rotateFacing>True</rotateFacing>
+              <scaleRange>1~1.2</scaleRange>
+              <rotationRange>0~10</rotationRange>
+            </li>
+            <li Class="PawnRenderNodeProperties_BulbfreakTentacle">
+              <debugLabel>TentacleA</debugLabel>
+              <texPath>Things/Pawn/FB_DenseWeaver/Attachments/DenseWeaver_Tentacle</texPath>
+              <drawSize>1.1</drawSize>
+              <useRottenColor>true</useRottenColor>
+              <linkedBodyPartsGroup>FB_ThirdTentacle</linkedBodyPartsGroup>
+              <drawData>
+                <defaultData>
+                  <pivot>(0.5, 0.5)</pivot>
+                </defaultData>
+                <dataSouth>
+                  <rotationOffset>200</rotationOffset>
+                  <offset>(0.15, 0, 0.35)</offset>
+                  <flip>true</flip>
+                  <layer>6</layer>
+                </dataSouth>
+                <dataNorth>
+                  <rotationOffset>20</rotationOffset>
+                  <offset>(0.15, 0, 0.35)</offset>
+                  <flip>true</flip>
+                  <layer>6</layer>
+                </dataNorth>
+                <dataEast>
+                  <rotationOffset>295</rotationOffset>
+                  <offset>(0.15, 0, 0.373)</offset>
+                  <layer>-7</layer>
+                </dataEast>
+                <dataWest>
+                  <rotationOffset>280</rotationOffset>
+                  <offset>(-0.15, 0, 0.373)</offset>
+                  <flip>true</flip>
+                  <layer>-7</layer>
+                </dataWest>
+              </drawData>
+              <rotateFacing>True</rotateFacing>
+              <scaleRange>1~1.1</scaleRange>
+              <rotationRange>0~15</rotationRange>
+            </li>
+            <li>
+              <debugLabel>Wounds</debugLabel>
+              <nodeClass>PawnRenderNode_AnimalPart</nodeClass>
+              <workerClass>PawnRenderNodeWorker_OverlayWounds</workerClass>
+              <overlayLayer>Body</overlayLayer>
+              <useGraphic>false</useGraphic>
+              <baseLayer>10</baseLayer>
+            </li>
+            <li>
+              <debugLabel>Firefoam</debugLabel>
+              <nodeClass>PawnRenderNode_AnimalPart</nodeClass>
+              <workerClass>PawnRenderNodeWorker_OverlayFirefoam</workerClass>
+              <overlayLayer>Body</overlayLayer>
+              <useGraphic>false</useGraphic>
+              <baseLayer>20</baseLayer>
+            </li>
+          </children>
+        </li>
+        <li Class="PawnRenderNodeProperties_Carried">
+          <debugLabel>Carried thing</debugLabel>
+          <workerClass>PawnRenderNodeWorker_Carried</workerClass>
+        </li>
+      </children>
+    </root>
+  </PawnRenderTreeDef>
+</Defs>

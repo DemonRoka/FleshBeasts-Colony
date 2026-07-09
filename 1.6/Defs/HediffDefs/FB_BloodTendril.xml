@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HediffDef>
+    <defName>FB_BloodTendrilOrgan</defName>
+    <label>blood tendril</label>
+    <hediffClass>HediffWithComps</hediffClass>
+    <description>A specialized organic tendril embedded in the throat. It can extend from the mouth to latch onto distant prey and draw blood back into the host.</description>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="FB.HediffCompProperties_GiveAbility">
+        <abilityDef>FB_Bloodlash</abilityDef>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>FB_BloodTendrilLatched</defName>
+    <label>blood tendril latch</label>
+    <hediffClass>HediffWithComps</hediffClass>
+    <description>A blood tendril is hooked into this body, pinning it in place while it drains blood.</description>
+    <isBad>true</isBad>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>300</disappearsAfterTicks>
+        <showRemainingTime>false</showRemainingTime>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <painOffset>0.12</painOffset>
+        <statFactors>
+          <MoveSpeed>0.01</MoveSpeed>
+        </statFactors>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>FB_BloodTendrilChanneling</defName>
+    <label>blood tendril channeling</label>
+    <hediffClass>HediffWithComps</hediffClass>
+    <description>This pawn is rooted in place while a blood tendril pumps stolen blood back into the body.</description>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="FB.HediffCompProperties_BloodTendrilChannel">
+        <moteMaintainTicks>6</moteMaintainTicks>
+      </li>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>300</disappearsAfterTicks>
+        <showRemainingTime>false</showRemainingTime>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <statFactors>
+          <MoveSpeed>0.05</MoveSpeed>
+        </statFactors>
+      </li>
+    </stages>
+  </HediffDef>
+</Defs>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_AcidBroodmother.label>кислотная правматка</FB_AcidBroodmother.label>
+  <FB_AcidBroodmother.description>Управляемый слитый флешбист, восстанавливающий желудочную кислоту и периодически выращивающий временных кислотных плевак.</FB_AcidBroodmother.description>
+  <FB_AcidBroodmother.tools.0.label>тяжёлая пасть</FB_AcidBroodmother.tools.0.label>
+  <FB_AcidSpitling.label>кислотная плевака</FB_AcidSpitling.label>
+  <FB_AcidSpitling.description>Временный детёныш, запускающий кислотные снаряды и возвращающийся к правматке, когда его внутренний запас иссякает.</FB_AcidSpitling.description>
+</LanguageData>

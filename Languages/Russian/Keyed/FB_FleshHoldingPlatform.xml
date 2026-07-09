@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_ColonyBrain_Structure_FleshHoldingPlatform_Label>Плотяная платформа удержания</FB_ColonyBrain_Structure_FleshHoldingPlatform_Label>
+  <FB_ColonyBrain_Structure_FleshHoldingPlatform_Desc>Удерживает захваченных сущностей сосудистыми путами. Сдерживает немного крепче стальной платформы и потребляет больше гемогеля, пока занята.</FB_ColonyBrain_Structure_FleshHoldingPlatform_Desc>
+  <FB_FleshHoldingPlatformContainmentTitle>Сила удержания</FB_FleshHoldingPlatformContainmentTitle>
+  <FB_FleshHoldingPlatformContainmentBarLabel>{0} / {1} | {2}/ч</FB_FleshHoldingPlatformContainmentBarLabel>
+  <FB_FleshHoldingPlatformContainmentTooltip>Настраивает силу удержания платформы от текущего минимума комнаты ({0}) до выбранной цели ({1}). Текущая эффективная сила: {2}. Текущее потребление гемогеля: {3}/ч.</FB_FleshHoldingPlatformContainmentTooltip>
+</LanguageData>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Дерево рендера: FB_CarapaceExcavatorRender -->
+  <PawnRenderTreeDef>
+    <defName>FB_CarapaceExcavatorRender</defName>
+    <root Class="PawnRenderNodeProperties_Parent">
+      <debugLabel>Root</debugLabel>
+      <tagDef>Root</tagDef>
+      <children>
+        <li>
+          <debugLabel>Body</debugLabel>
+          <tagDef>Body</tagDef>
+          <useRottenColor>true</useRottenColor>
+          <nodeClass>PawnRenderNode_AnimalPart</nodeClass>
+          <children>
+            <li Class="FB.PawnRenderNodeProperties_CarapaceExcavatorClaws">
+              <debugLabel>Claws</debugLabel>
+              <nodeClass>PawnRenderNode_AnimalPart</nodeClass>
+              <workerClass>FB.PawnRenderNodeWorker_CarapaceExcavatorClaws</workerClass>
+              <baseLayer>8</baseLayer>
+              <altitudeOffset>0</altitudeOffset>
+              <stageOneMinSharpness>0.67</stageOneMinSharpness>
+              <stageTwoMinSharpness>0.34</stageTwoMinSharpness>
+              <eastStageOneTexPath>Things/Pawn/FB_CarapaceExcavator/FB_CarapaceExcavatorClaws_east_1</eastStageOneTexPath>
+              <eastStageTwoTexPath>Things/Pawn/FB_CarapaceExcavator/FB_CarapaceExcavatorClaws_east_2</eastStageTwoTexPath>
+              <eastStageThreeTexPath>Things/Pawn/FB_CarapaceExcavator/FB_CarapaceExcavatorClaws_east_3</eastStageThreeTexPath>
+              <southStageOneTexPath>Things/Pawn/FB_CarapaceExcavator/FB_CarapaceExcavatorClaws_south_1</southStageOneTexPath>
+              <southStageTwoTexPath>Things/Pawn/FB_CarapaceExcavator/FB_CarapaceExcavatorClaws_south_2</southStageTwoTexPath>
+              <southStageThreeTexPath>Things/Pawn/FB_CarapaceExcavator/FB_CarapaceExcavatorClaws_south_3</southStageThreeTexPath>
+            </li>
+            <li>
+              <debugLabel>Wounds</debugLabel>
+              <nodeClass>PawnRenderNode_AnimalPart</nodeClass>
+              <workerClass>PawnRenderNodeWorker_OverlayWounds</workerClass>
+              <overlayLayer>Body</overlayLayer>
+              <baseLayer>10</baseLayer>
+            </li>
+            <li>
+              <debugLabel>Firefoam</debugLabel>
+              <nodeClass>PawnRenderNode_AnimalPart</nodeClass>
+              <workerClass>PawnRenderNodeWorker_OverlayFirefoam</workerClass>
+              <overlayLayer>Body</overlayLayer>
+              <useGraphic>false</useGraphic>
+              <baseLayer>20</baseLayer>
+            </li>
+          </children>
+        </li>
+        <li Class="PawnRenderNodeProperties_Carried">
+          <debugLabel>Carried thing</debugLabel>
+          <workerClass>PawnRenderNodeWorker_Carried</workerClass>
+        </li>
+      </children>
+    </root>
+  </PawnRenderTreeDef>
+</Defs>

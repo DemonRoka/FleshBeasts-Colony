@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Постройка: управляемый плотяной плеватель -->
+  <ThingDef ParentName="BuildingNaturalBase">
+    <defName>FB_FleshmassSpitter</defName>
+    <label>fleshmass spitter</label>
+    <description>A defensive fleshmass organ that can spit acid long distances. The acid is a natural byproduct of toxins filtered from the surrounding biomass.</description>
+    <thingClass>FB.Building_ControllableFleshmassSpitter</thingClass>
+    <size>(2, 2)</size>
+    <statBases>
+      <MaxHitPoints>300</MaxHitPoints>
+      <Flammability>0.7</Flammability>
+      <Beauty>-12</Beauty>
+    </statBases>
+    <graphicData>
+      <graphicClass>Graphic_Indexed_SquashNStretch</graphicClass>
+      <texPath>Things/Building/Fleshmass/FleshmassSpitter</texPath>
+      <drawSize>(2.5, 2.5)</drawSize>
+      <drawOffset>(0, 0.02, 0)</drawOffset>
+      <shaderType>BuildingSquashNStretch</shaderType>
+      <maxSnS>(.9, .95)</maxSnS>
+      <offsetSnS>(.5, -.45)</offsetSnS>
+      <damageData>
+        <rect>(0.3, 0.3, 1.4, 1.4)</rect>
+        <scratches>
+          <li>Damage/FleshScratch1</li>
+          <li>Damage/FleshScratch2</li>
+          <li>Damage/FleshScratch3</li>
+        </scratches>
+      </damageData>
+    </graphicData>
+    <drawerType>RealtimeOnly</drawerType>
+    <tickerType>Normal</tickerType>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Impassable</passability>
+    <blockWind>true</blockWind>
+    <fillPercent>0.75</fillPercent>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <soundSpawned>SpitterSpawn</soundSpawned>
+    <soundImpactDefault>Fleshmass_Damaged</soundImpactDefault>
+    <rotatable>false</rotatable>
+    <building>
+      <isInert>true</isInert>
+      <claimable>false</claimable>
+      <canBuildNonEdificesUnder>false</canBuildNonEdificesUnder>
+      <deconstructible>false</deconstructible>
+      <quickTargetable>true</quickTargetable>
+      <isTargetable>true</isTargetable>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <destroyEffecter>FleshmassDestroyed</destroyEffecter>
+    </building>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+        <warmupTime>4.0</warmupTime>
+        <forcedMissRadius>3</forcedMissRadius>
+        <defaultProjectile>Bullet_Shell_AcidSpit</defaultProjectile>
+        <isMortar>true</isMortar>
+        <requireLineOfSight>false</requireLineOfSight>
+        <minRange>6.9</minRange>
+        <range>41.9</range>
+        <burstShotCount>1</burstShotCount>
+        <soundCast>SpitterSpit</soundCast>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="FB.CompProperties_FleshRegeneration">
+        <ticksPerHeal>2000</ticksPerHeal>
+        <ticksPerDamage>2000</ticksPerDamage>
+        <hemogelPerHeal>1</hemogelPerHeal>
+      </li>
+      <li Class="FB.CompProperties_ControllableFleshmassSpitter">
+        <spitIntervalRangeTicks>5000~7500</spitIntervalRangeTicks>
+        <spitCheckIntervalTicks>180</spitCheckIntervalTicks>
+        <autoFireEnabledByDefault>true</autoFireEnabledByDefault>
+        <commandIconPath>UI/Commands/FB_FleshmassSpitterFire</commandIconPath>
+      </li>
+      <li Class="CompProperties_FleshmassBase">
+        <size>2</size>
+      </li>
+      <li Class="FB.CompProperties_HemogelUpkeep">
+        <hemogelPerHour>0.8</hemogelPerHour>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

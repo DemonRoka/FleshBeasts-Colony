@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<FB_SkillQuintessenceLabel>skill quintessence ({0}, {1} XP)</FB_SkillQuintessenceLabel>
+	<FB_SkillQuintessenceInspect>Contained skill: {0}; stored experience: {1} XP</FB_SkillQuintessenceInspect>
+	<FB_SkillQuintessenceInvalidContents>This quintessence contains no usable skill.</FB_SkillQuintessenceInvalidContents>
+	<FB_UseSkillQuintessence>Absorb {0} quintessence ({1} XP)</FB_UseSkillQuintessence>
+	<FB_UseSkillQuintessenceInvalid>Absorb skill quintessence</FB_UseSkillQuintessenceInvalid>
+	<FB_SkillQuintessenceCompress>Compress</FB_SkillQuintessenceCompress>
+	<FB_SkillQuintessenceCompressTooltip>Compress stored skill points into a single-use quintessence. Each point becomes {0} XP. One item can hold up to {1} XP.</FB_SkillQuintessenceCompressTooltip>
+	<FB_SkillQuintessenceSkillSelector>Skill:</FB_SkillQuintessenceSkillSelector>
+	<FB_SkillQuintessenceSelectSkill>Select skill...</FB_SkillQuintessenceSelectSkill>
+	<FB_SkillQuintessenceSkillOption>{0}: {1} points</FB_SkillQuintessenceSkillOption>
+	<FB_SkillQuintessenceSliderLabel>{0} XP | cost: {1} points</FB_SkillQuintessenceSliderLabel>
+	<FB_SkillQuintessenceCreated>Created {0}.</FB_SkillQuintessenceCreated>
+	<FB_SkillQuintessenceInvalidSkill>No skill was selected.</FB_SkillQuintessenceInvalidSkill>
+	<FB_SkillQuintessenceInvalidLevels>A quintessence can contain from 1 to {0} stored skill points.</FB_SkillQuintessenceInvalidLevels>
+	<FB_SkillQuintessenceWombUnavailable>The symbiosis brood womb is unavailable.</FB_SkillQuintessenceWombUnavailable>
+	<FB_SkillQuintessenceNotEnoughPoints>Not enough {0} points: {1} required, {2} available.</FB_SkillQuintessenceNotEnoughPoints>
+	<FB_SkillQuintessenceDefMissing>The skill quintessence definition is unavailable.</FB_SkillQuintessenceDefMissing>
+	<FB_SkillQuintessenceNoPlace>There is no space near the womb for the quintessence.</FB_SkillQuintessenceNoPlace>
+	<FB_SkillQuintessenceMaxLevel>{0} is already at its maximum base level.</FB_SkillQuintessenceMaxLevel>
+	<FB_SkillQuintessenceUsed>{USER_labelShort} absorbed {1} quintessence, gaining {2} XP. Base level: {3} -> {4}.</FB_SkillQuintessenceUsed>
+</LanguageData>

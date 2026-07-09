@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_PitBurrowCall_QuestName>The call below</FB_PitBurrowCall_QuestName>
+  <FB_PitBurrowCall_QuestDescription>A slow, living pulse has begun to echo through the colony. It does not sound in the air; it presses through soil, bone, and sleep, calling you toward something buried below.\n\nYou can answer the call and allow a flesh burrow to open within the colony. If you ignore it, nothing will emerge.</FB_PitBurrowCall_QuestDescription>
+  <FB_PitBurrowCall_SpawnFailed>The call faded before a flesh burrow could find a place to emerge.</FB_PitBurrowCall_SpawnFailed>
+</LanguageData>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Инцидент: flesh burrow emergence (FB_PitBurrowEmergence) -->
+  <IncidentDef>
+    <defName>FB_PitBurrowEmergence</defName>
+    <label>flesh burrow emergence</label>
+    <category>GiveQuest</category>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <questScriptDef>FB_PitBurrowCall</questScriptDef>
+    <letterLabel>Flesh burrow emerging</letterLabel>
+    <letterText>A flesh burrow has emerged, spawning beasts from underground.</letterText>
+    <letterDef>ThreatBig</letterDef>
+    <workerClass>FB.FB_IncidentWorker_PitBurrowEmergence</workerClass>
+    <baseChance>0</baseChance>
+    <requireColonistsPresent>true</requireColonistsPresent>
+    <pointsScaleable>false</pointsScaleable>
+  </IncidentDef>
+
+  <QuestScriptDef>
+    <defName>FB_PitBurrowCall</defName>
+    <isRootSpecial>true</isRootSpecial>
+    <questAvailableLetterTextIsDescription>true</questAvailableLetterTextIsDescription>
+    <root Class="FB.FB_QuestNode_Root_PitBurrowCall" />
+  </QuestScriptDef>
+</Defs>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Вид пешки: acid broodmother (FB_AcidBroodmotherKind) -->
+  <PawnKindDef ParentName="BaseFleshbeastKind">
+    <defName>FB_AcidBroodmotherKind</defName>
+    <label>acid broodmother</label>
+    <overrideDeathOnDownedChance>0</overrideDeathOnDownedChance>
+    <ignoresPainShock>true</ignoresPainShock>
+    <race>FB_AcidBroodmother</race>
+    <canMeleeAttack>false</canMeleeAttack>
+    <combatPower>410</combatPower>
+    <defaultFactionDef>PlayerColony</defaultFactionDef>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/FB_AcidBroodmother/AcidBroodmother</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <drawSize>3.6</drawSize>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+  <!-- Вид пешки: acid spitling (FB_AcidSpitlingKind) -->
+  <PawnKindDef ParentName="BaseFleshbeastKind">
+    <defName>FB_AcidSpitlingKind</defName>
+    <label>acid spitling</label>
+    <race>FB_AcidSpitling</race>
+    <forceDeathOnDowned>true</forceDeathOnDowned>
+    <overrideDeathOnDownedChance>1</overrideDeathOnDownedChance>
+    <canMeleeAttack>false</canMeleeAttack>
+    <abilities>
+      <li>FB_AcidSpitlingSpit</li>
+    </abilities>
+    <combatPower>42</combatPower>
+    <defaultFactionDef>PlayerColony</defaultFactionDef>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/FB_AcidSpitling/AcidSpitling</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <drawSize>1.05</drawSize>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+</Defs>

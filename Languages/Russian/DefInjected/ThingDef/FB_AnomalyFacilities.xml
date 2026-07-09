@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_BoneMarrowExtractor.label>костномозговой вытяжник</FB_BoneMarrowExtractor.label>
+  <FB_BoneMarrowExtractor.description>Корневой орган извлечения, который процеживает удерживаемых сущностей в биоферрит и слабый поток гемогеля. Питающие шипы ослабляют сдерживание.</FB_BoneMarrowExtractor.description>
+  <FB_SynapticInhibitor.label>синаптический ингибитор</FB_SynapticInhibitor.label>
+  <FB_SynapticInhibitor.description>Малый нервный якорь, подавляющий активность ближайших удерживаемых сущностей и усиливающий сдерживание, пока получает гемогель.</FB_SynapticInhibitor.description>
+</LanguageData>

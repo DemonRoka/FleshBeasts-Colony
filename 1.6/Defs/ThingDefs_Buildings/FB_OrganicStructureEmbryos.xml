@@ -1,0 +1,630 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- База построек: EmbryoStructureBase -->
+  <ThingDef ParentName="BuildingNaturalBase" Name="EmbryoStructureBase" Abstract="True">
+    <category>Building</category>
+    <thingClass>FB.Building_FleshAnimatedStructure</thingClass>
+    <altitudeLayer>Building</altitudeLayer>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+    </statBases>
+    <tickerType>Long</tickerType>
+    <selectable>true</selectable>
+    <drawerType>RealtimeOnly</drawerType>
+    <blockWind>true</blockWind>
+    <building>
+      <destroyEffecter>FleshmassHeartDestroyed</destroyEffecter>
+      <deconstructible>false</deconstructible>
+      <isEdifice>false</isEdifice>
+      <isInert>true</isInert>
+      <isTargetable>true</isTargetable>
+      <claimable>false</claimable>
+      <canBuildNonEdificesUnder>false</canBuildNonEdificesUnder>
+      <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+      <repairable>false</repairable>
+      <ai_combatDangerous>true</ai_combatDangerous>
+    </building>
+    <comps>
+      <li Class="FB.CompProperties_MarkSelfForAbsorption" />
+    </comps>
+  </ThingDef>
+  <!-- Постройка: Embryonic Colony Heart (FB_EmbryoColonyHeart) -->
+  <ThingDef ParentName="EmbryoStructureBase">
+    <defName>FB_EmbryoColonyHeart</defName>
+    <label>Embryonic Colony Heart</label>
+    <description>A pulsating organic embryo, destined to mature into the central heart of the fleshmass colony. Its rhythmic beats signal the birth of a new core, sustained by hemogel reserves.</description>
+    <size>(3,3)</size>
+    <comps>
+      <li Class="FB.CompProperties_EmbryoGrowth">
+        <totalMaturationTicks>5000</totalMaturationTicks>
+        <targetDef>FB_ColonyHeart</targetDef>
+      </li>
+      <li Class="FB.CompProperties_FleshAnimationManager">
+        <animationAmplitude>0.05</animationAmplitude>
+        <animationSideAmplitude>0.03</animationSideAmplitude>
+        <baseAnimationSpeed>0.5</baseAnimationSpeed>
+        <beatDurationTicks>30</beatDurationTicks>
+        <animatedParts>
+          <li>
+            <texturePath>Things/Building/FB_Organic/ColonyHeart/EmbryoColonyHeart</texturePath>
+            <positionOffset>(0, 0, 0)</positionOffset>
+            <textureScale>1.5</textureScale>
+            <animationAmplitude>0.05</animationAmplitude>
+            <animationSideAmplitude>0.03</animationSideAmplitude>
+            <animationInterval>0</animationInterval>
+            <animationOffset>0.0</animationOffset>
+            <altitudeLayer>0</altitudeLayer>
+            <rotationAngle>0</rotationAngle>
+            <beatDelay>0</beatDelay>
+          </li>
+        </animatedParts>
+      </li>
+      <li Class="FB.CompProperties_HemogelUpkeep">
+        <hemogelPerHour>0.3</hemogelPerHour>
+      </li>
+    </comps>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/FB_Organic/ColonyHeart/EmbryoColonyHeart</texPath>
+      <drawSize>(0.1,0.1)</drawSize>
+    </graphicData>
+  </ThingDef>
+  <!-- Постройка: Colony Brain Embryo (FB_ColonyBrainEmbryo) -->
+  <ThingDef ParentName="EmbryoStructureBase">
+    <defName>FB_ColonyBrainEmbryo</defName>
+    <label>Colony Brain Embryo</label>
+    <description>A quivering mass of proto-neural tissue, beginning to form the cognitive core of the colony. It reacts to nearby activity with twitching pulses, slowly growing tendrils to interface with other structures.</description>
+    <size>(3,3)</size>
+    <comps>
+      <li Class="FB.CompProperties_EmbryoGrowth">
+        <totalMaturationTicks>12000</totalMaturationTicks>
+        <targetDef>FB_ColonyBrain</targetDef>
+      </li>
+      <li Class="FB.CompProperties_HemogelUpkeep">
+        <hemogelPerHour>0.3</hemogelPerHour>
+      </li>
+    </comps>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/FB_Organic/ColonyBrain/EmbryoColonyBrain</texPath>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+  </ThingDef>
+  <!-- Постройка: Colony Stomach Embryo (FB_ColonyStomachEmbryo) -->
+  <ThingDef ParentName="EmbryoStructureBase">
+    <defName>FB_ColonyStomachEmbryo</defName>
+    <label>Colony Stomach Embryo</label>
+    <description>A nascent organic pit, its walls trembling with nascent mucous tissue. This embryo begins to secrete a faint greenish fluid and sprouts delicate tendrils, slowly forming the foundation of a stomach that will digest organic matter into hemogel for the colony.</description>
+    <size>(2,2)</size>
+    <comps>
+      <li Class="FB.CompProperties_EmbryoGrowth">
+        <totalMaturationTicks>6000</totalMaturationTicks>
+        <targetDef>FB_ColonyStomach</targetDef>
+      </li>
+      <li Class="FB.CompProperties_HemogelUpkeep">
+        <hemogelPerHour>0.3</hemogelPerHour>
+      </li>
+    </comps>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/FB_Organic/ColonyStomach/EmbryoColonyStomach</texPath>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+  </ThingDef>
+  <!-- Постройка: Gastric Acid Spewer Embryo (FB_GastricAcidSpewerEmbryo) -->
+  <ThingDef ParentName="EmbryoStructureBase">
+    <defName>FB_GastricAcidSpewerEmbryo</defName>
+    <label>gastric acid spewer embryo</label>
+    <description>A clenched digestive bud, slick with dormant acid sacs. When mature, it becomes a chamber organ able to fill an enclosed room with gastric acid.</description>
+    <size>(1,1)</size>
+    <comps>
+      <li Class="FB.CompProperties_EmbryoGrowth">
+        <totalMaturationTicks>7000</totalMaturationTicks>
+        <targetDef>FB_GastricAcidSpewer</targetDef>
+      </li>
+      <li Class="FB.CompProperties_HemogelUpkeep">
+        <hemogelPerHour>0.3</hemogelPerHour>
+      </li>
+    </comps>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/FB_Organic/GastricAcidSpewer/GastricAcidSpewerEmbryo</texPath>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+  </ThingDef>
+  <!-- Постройка: Hemogel Sac Embryo (FB_HemogelSacEmbryo) -->
+  <ThingDef ParentName="EmbryoStructureBase">
+    <defName>FB_HemogelSacEmbryo</defName>
+    <label>Hemogel Sac Embryo</label>
+    <description>A delicate organic bud, its surface glistening with a soft, gelatinous sheen. This embryo pulses faintly, nurturing a nascent network of translucent veins that will eventually form a sac to store hemogel.</description>
+    <size>(1,1)</size>
+    <comps>
+      <li Class="FB.CompProperties_EmbryoGrowth">
+        <totalMaturationTicks>6000</totalMaturationTicks>
+        <targetDef>FB_HemogelSac</targetDef>
+      </li>
+      <li Class="FB.CompProperties_HemogelUpkeep">
+        <hemogelPerHour>0.3</hemogelPerHour>
+      </li>
+    </comps>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/FB_Organic/HemogelSac/EmbryoHemogelSac</texPath>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+  </ThingDef>
+  <!-- Постройка: Tentacle Turret Embryo (FB_TentacleTurretEmbryo) -->
+  <ThingDef ParentName="EmbryoStructureBase">
+    <defName>FB_TentacleTurretEmbryo</defName>
+    <label>Tentacle Turret Embryo</label>
+    <description>A twitching node of muscular tissue, saturated with neural impulses. This embryo occasionally flexes and extends rudimentary tendrils, testing its reflexes as it prepares to grow into a defensive appendage of the colony. Its core pulses erratically, anticipating contact with future intruders.</description>
+    <size>(1,1)</size>
+    <comps>
+      <li Class="FB.CompProperties_EmbryoGrowth">
+        <totalMaturationTicks>5000</totalMaturationTicks>
+        <targetPawnKind>FB_TentacleTurret</targetPawnKind>
+      </li>
+      <li Class="FB.CompProperties_HemogelUpkeep">
+        <hemogelPerHour>0.3</hemogelPerHour>
+      </li>
+    </comps>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Pawn/FB_TentacleTurret/TentacleTurretEmbryo</texPath>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+  </ThingDef>
+  <!-- Постройка: Defender Incubator Embryo (FB_DefenderIncubatorEmbryo) -->
+  <ThingDef ParentName="EmbryoStructureBase">
+    <defName>FB_DefenderIncubatorEmbryo</defName>
+    <label>Defender Incubator Embryo</label>
+    <description>A quivering lump of fresh-grown tissue, barely formed yet already stirring. This embryonic mass contains the blueprint of a future defender incubator, quietly absorbing hemogel and biomass as it prepares to become a spawning node for the colony's guardians.</description>
+    <size>(2,2)</size>
+    <comps>
+      <li Class="FB.CompProperties_EmbryoGrowth">
+        <totalMaturationTicks>5000</totalMaturationTicks>
+        <targetDef>FB_DefenderIncubator</targetDef>
+      </li>
+      <li Class="FB.CompProperties_HemogelUpkeep">
+        <hemogelPerHour>0.3</hemogelPerHour>
+      </li>
+    </comps>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/FB_Organic/DefenderIncubator/DefenderIncubatorEmbryo</texPath>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+  </ThingDef>
+  <!-- Постройка: Synapse Core Embryo (FB_SynapseCoreEmbryo) -->
+  <ThingDef ParentName="EmbryoStructureBase">
+    <defName>FB_SynapseCoreEmbryo</defName>
+    <label>Synapse Core Embryo</label>
+    <description>A developing synapse core, still soft and unfinished. When mature, it will become a neural research organ able to house a pawn beneath a living membrane.</description>
+    <size>(3,3)</size>
+    <comps>
+      <li Class="FB.CompProperties_EmbryoGrowth">
+        <totalMaturationTicks>5000</totalMaturationTicks>
+        <targetDef>FB_SynapseCore</targetDef>
+      </li>
+      <li Class="FB.CompProperties_HemogelUpkeep">
+        <hemogelPerHour>0.3</hemogelPerHour>
+      </li>
+    </comps>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/FB_Organic/SynapseCore/EmbryoSynapseCore</texPath>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+  </ThingDef>
+  <!-- Постройка: Photosynthetic Fleshleaf Embryo (FB_PhotosyntheticFleshleafEmbryo) -->
+  <ThingDef ParentName="EmbryoStructureBase">
+    <defName>FB_PhotosyntheticFleshleafEmbryo</defName>
+    <label>Photosynthetic Fleshleaf Embryo</label>
+    <description>A pale, gelatinous sprout with four budding lobes, faintly translucent and gently twitching in response to light. As it matures, the embryo develops a thin, green-tinged membrane — a sign of its photosynthetic potential. Once fully grown, it will unfurl its fleshy lobes to capture sunlight and generate hemogel for the colony.</description>
+    <size>(2,2)</size>
+    <comps>
+      <li Class="FB.CompProperties_EmbryoGrowth">
+        <totalMaturationTicks>5000</totalMaturationTicks>
+        <targetDef>FB_PhotosyntheticFleshleaf</targetDef>
+      </li>
+      <li Class="FB.CompProperties_HemogelUpkeep">
+        <hemogelPerHour>0.3</hemogelPerHour>
+      </li>
+    </comps>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/FB_Organic/PhotosyntheticFleshleaf/PhotosyntheticFleshleafEmbryo</texPath>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+  </ThingDef>
+  <!-- Постройка: Embryonic Feeder (FB_EmbryonicFeeder) -->
+  <ThingDef ParentName="EmbryoStructureBase">
+    <defName>FB_EmbryonicFeeder</defName>
+    <label>Embryonic Feeder</label>
+    <description>A glistening pod of fleshy tissue, gently pulsing with faint internal contractions. This embryo begins shaping the rudimentary canals and glandular sacs that will convert hemogel into nutrient mass.</description>
+    <size>(2,2)</size>
+    <comps>
+      <li Class="FB.CompProperties_EmbryoGrowth">
+        <totalMaturationTicks>5000</totalMaturationTicks>
+        <targetDef>FB_Feeder</targetDef>
+      </li>
+      <li Class="FB.CompProperties_HemogelUpkeep">
+        <hemogelPerHour>0.3</hemogelPerHour>
+      </li>
+    </comps>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/FB_Organic/Feeder/FeederEmbryo</texPath>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+  </ThingDef>
+  <ThingDef ParentName="EmbryoStructureBase">
+    <defName>FB_TissueIncubatorEmbryo</defName>
+    <label>Tissue incubator embryo</label>
+    <description>A sealed embryonic organ that slowly forms the chambers and sample-memory tissues of a future tissue incubator.</description>
+    <size>(2,2)</size>
+    <comps>
+      <li Class="FB.CompProperties_EmbryoGrowth">
+        <totalMaturationTicks>6000</totalMaturationTicks>
+        <targetDef>FB_TissueIncubator</targetDef>
+      </li>
+      <li Class="FB.CompProperties_HemogelUpkeep">
+        <hemogelPerHour>0.3</hemogelPerHour>
+      </li>
+    </comps>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/FB_Organic/TissueIncubator/TissueIncubatorEmbryo</texPath>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+  </ThingDef>
+  <ThingDef ParentName="EmbryoStructureBase">
+    <defName>FB_CapillaryTrawlerEmbryo</defName>
+    <label>Capillary trawler embryo</label>
+    <description>A damp vascular bud that prepares to unfold into a capillary net for gathering aquatic biomass into hemogel.</description>
+    <size>(2,2)</size>
+    <comps>
+      <li Class="FB.CompProperties_EmbryoGrowth">
+        <totalMaturationTicks>7000</totalMaturationTicks>
+        <targetDef>FB_CapillaryTrawler</targetDef>
+      </li>
+      <li Class="FB.CompProperties_HemogelUpkeep">
+        <hemogelPerHour>0.3</hemogelPerHour>
+      </li>
+    </comps>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/FB_Organic/CapillaryTrawler/CapillaryTrawlerEmbryo</texPath>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+  </ThingDef>
+  <ThingDef ParentName="EmbryoStructureBase">
+    <defName>FB_GalvanicCystEmbryo</defName>
+    <label>Galvanic cyst embryo</label>
+    <description>A small twitching electrocyte bud. When mature, it becomes a galvanic cyst able to convert hemogel into bioelectric power.</description>
+    <size>(1,1)</size>
+    <comps>
+      <li Class="FB.CompProperties_EmbryoGrowth">
+        <totalMaturationTicks>5000</totalMaturationTicks>
+        <targetDef>FB_GalvanicCyst</targetDef>
+      </li>
+      <li Class="FB.CompProperties_HemogelUpkeep">
+        <hemogelPerHour>0.3</hemogelPerHour>
+      </li>
+    </comps>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/FB_Organic/GalvanicCyst/GalvanicCystEmbryo</texPath>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+  </ThingDef>
+  <ThingDef ParentName="EmbryoStructureBase">
+    <defName>FB_GeoferriteGlandEmbryo</defName>
+    <label>geoferrite gland embryo</label>
+    <description>An immature geyser organ that will grow into a geoferrite gland.</description>
+    <size>(3,3)</size>
+    <placeWorkers>
+      <li>PlaceWorker_OnSteamGeyser</li>
+    </placeWorkers>
+    <comps>
+      <li Class="FB.CompProperties_EmbryoGrowth">
+        <totalMaturationTicks>7000</totalMaturationTicks>
+        <targetDef>FB_GeoferriteGland</targetDef>
+        <requiresFleshGround>false</requiresFleshGround>
+      </li>
+      <li Class="FB.CompProperties_HemogelUpkeep">
+        <hemogelPerHour>0.3</hemogelPerHour>
+      </li>
+    </comps>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/FB_Organic/GeoferriteGland/GeoferriteGlandEmbryo</texPath>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+  </ThingDef>
+  <ThingDef ParentName="EmbryoStructureBase">
+    <defName>FB_FleshTunnelMawEmbryo</defName>
+    <label>Flesh tunnel maw embryo</label>
+    <description>A heavy sealed mouth-bud packed with root nerves. When mature, it becomes a flesh tunnel maw able to bore permanent passages through the world.</description>
+    <size>(4,4)</size>
+    <comps>
+      <li Class="FB.CompProperties_EmbryoGrowth">
+        <totalMaturationTicks>12000</totalMaturationTicks>
+        <targetDef>FB_FleshTunnelMaw</targetDef>
+      </li>
+      <li Class="FB.CompProperties_HemogelUpkeep">
+        <hemogelPerHour>0.3</hemogelPerHour>
+      </li>
+    </comps>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/FB_Organic/FleshTunnel/FleshTunnelMawEmbryo</texPath>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+  </ThingDef>
+  <!-- Постройка: Embryonic Spitter (FB_EmbryonicSpitter) -->
+  <ThingDef ParentName="EmbryoStructureBase">
+    <defName>FB_EmbryonicSpitter</defName>
+    <label>Embryonic Spitter</label>
+    <description>A bulbous embryonic organ, twitching softly as it begins to form an internal cavity. Thin channels inside collect volatile toxins from the fleshmass around it, preparing to evolve into a gland capable of spitting corrosive fluid.</description>
+    <size>(2,2)</size>
+    <comps>
+      <li Class="FB.CompProperties_EmbryoGrowth">
+        <totalMaturationTicks>5000</totalMaturationTicks>
+        <targetDef>FB_FleshmassSpitter</targetDef>
+      </li>
+      <li Class="FB.CompProperties_HemogelUpkeep">
+        <hemogelPerHour>0.3</hemogelPerHour>
+      </li>
+    </comps>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/FB_Organic/ColonySpitter/ColonyEmbryonicSpitter</texPath>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+  </ThingDef>
+  <!-- Постройка: Minion Broodseed (FB_MinionBroodseed) -->
+  <ThingDef ParentName="EmbryoStructureBase">
+    <defName>FB_MinionBroodseed</defName>
+    <label>Minion Broodseed</label>
+    <description>This soft, pulsating embryo holds the genetic blueprint for a minion hive. Once implanted into organic ground, it begins growing a fleshy chamber that will eventually give birth to sclerats. While dormant, the embryo is immobile and fragile, requiring protection until maturation begins.</description>
+    <size>(2,2)</size>
+    <comps>
+      <li Class="FB.CompProperties_EmbryoGrowth">
+        <totalMaturationTicks>5000</totalMaturationTicks>
+        <targetDef>FB_MinionsHive</targetDef>
+      </li>
+      <li Class="FB.CompProperties_HemogelUpkeep">
+        <hemogelPerHour>0.3</hemogelPerHour>
+      </li>
+    </comps>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/FB_Organic/MinionsHive/MinionBroodseed</texPath>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+  </ThingDef>
+  <!-- Постройка: Spore-Cradle Embryo (FB_SporeCradleEmbryo) -->
+  <ThingDef ParentName="EmbryoStructureBase">
+    <defName>FB_SporeCradleEmbryo</defName>
+    <label>Spore-Cradle Embryo</label>
+    <description>A quivering organic embryo, its surface slick with nutrient gel and threaded with fleshy tendrils. This nascent structure pulses faintly, beginning to form a semi-transparent dome that will regulate the growth of spore-seeds. Once matured, it will transform into a workstation where colonists can imprint bio-organic blueprints for living equipment.</description>
+    <size>(2,2)</size>
+    <comps>
+      <li Class="FB.CompProperties_EmbryoGrowth">
+        <totalMaturationTicks>6000</totalMaturationTicks>
+        <targetDef>FB_SporeCradle</targetDef>
+      </li>
+      <li Class="FB.CompProperties_HemogelUpkeep">
+        <hemogelPerHour>0.3</hemogelPerHour>
+      </li>
+    </comps>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/FB_Organic/SporeCradle/EmbryoSporeCradle</texPath>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+  </ThingDef>
+  <!-- Постройка: Sun Flower Embryo (FB_FleshSunFlowerEmbryo) -->
+  <ThingDef ParentName="EmbryoStructureBase">
+    <defName>FB_FleshSunFlowerEmbryo</defName>
+    <label>Sun Flower Embryo</label>
+    <description>A compact bud of fresh-grown tissue, still sealed tight. Thick petals cradle a dim, forming core — a warm nucleus gathering strength. Once matured, it will bloom into a Sun Flower, bathing the colony in daylike radiance.</description>
+    <size>(1,1)</size>
+    <comps>
+      <li Class="FB.CompProperties_EmbryoGrowth">
+        <totalMaturationTicks>7000</totalMaturationTicks>
+        <targetDef>FB_FleshSunFlower</targetDef>
+      </li>
+      <li Class="FB.CompProperties_HemogelUpkeep">
+        <hemogelPerHour>0.3</hemogelPerHour>
+      </li>
+    </comps>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/FB_Organic/FleshSunFlower/EmbryoSunFlower</texPath>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+  </ThingDef>
+  <!-- Постройка: Stone Crusher Embryo (FB_StoneCrusherEmbryo) -->
+  <ThingDef ParentName="EmbryoStructureBase">
+    <defName>FB_StoneCrusherEmbryo</defName>
+    <label>Stone Crusher Embryo</label>
+    <description>A compact, thick-walled bud with a tightly sealed grinding ring. Inside, soft cartilage teeth are already forming into layered rows, rehearsing the motions that will one day mill stone into blocks. While dormant, it remains closed and heavy, gathering hemogel to harden its rim and awaken its grinder core.</description>
+    <size>(1,1)</size>
+    <comps>
+      <li Class="FB.CompProperties_EmbryoGrowth">
+        <totalMaturationTicks>7000</totalMaturationTicks>
+        <targetDef>FB_StoneCrusher</targetDef>
+      </li>
+      <li Class="FB.CompProperties_HemogelUpkeep">
+        <hemogelPerHour>0.3</hemogelPerHour>
+      </li>
+    </comps>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/FB_Organic/StoneCrusher/EmbryoStoneCrusher</texPath>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+  </ThingDef>
+  <ThingDef ParentName="EmbryoStructureBase">
+    <defName>FB_GenophageCocoonEmbryo</defName>
+    <label>genophage cocoon embryo</label>
+    <description>A folded genetic cocoon embryo. When mature, it becomes a genetic organ able to harvest genes from a living donor and release the donor after extraction.</description>
+    <size>(2,2)</size>
+    <comps>
+      <li Class="FB.CompProperties_EmbryoGrowth">
+        <totalMaturationTicks>6000</totalMaturationTicks>
+        <targetDef>FB_GenophageCocoon</targetDef>
+      </li>
+      <li Class="FB.CompProperties_HemogelUpkeep">
+        <hemogelPerHour>0.3</hemogelPerHour>
+      </li>
+    </comps>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/FB_Organic/GenophageCocoon/GenophageCocoonEmbryo</texPath>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+  </ThingDef>
+  <ThingDef ParentName="EmbryoStructureBase">
+    <defName>FB_GenomeArchiveEmbryo</defName>
+    <label>genome archive embryo</label>
+    <description>A soft cluster of proto-neural storage tissue. When mature, it becomes a living archive for gene patterns gathered by the flesh colony.</description>
+    <size>(2,2)</size>
+    <comps>
+      <li Class="FB.CompProperties_EmbryoGrowth">
+        <totalMaturationTicks>5000</totalMaturationTicks>
+        <targetDef>FB_GenomeArchive</targetDef>
+      </li>
+      <li Class="FB.CompProperties_HemogelUpkeep">
+        <hemogelPerHour>0.3</hemogelPerHour>
+      </li>
+    </comps>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/FB_Organic/GenomeArchive/GenomeArchiveEmbryo</texPath>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+  </ThingDef>
+  <ThingDef ParentName="EmbryoStructureBase">
+    <defName>FB_GeneReweaverEmbryo</defName>
+    <label>gene reweaver embryo</label>
+    <description>A heavy embryo of braided nerves and glandular tissue. When mature, it becomes a gene reweaver able to prepare archived genepacks as internal flesh xenogerms for cocoon integration.</description>
+    <size>(3,3)</size>
+    <comps>
+      <li Class="FB.CompProperties_EmbryoGrowth">
+        <totalMaturationTicks>8000</totalMaturationTicks>
+        <targetDef>FB_GeneReweaver</targetDef>
+      </li>
+      <li Class="FB.CompProperties_HemogelUpkeep">
+        <hemogelPerHour>0.3</hemogelPerHour>
+      </li>
+    </comps>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/FB_Organic/GeneReweaver/GeneReweaverEmbryo</texPath>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+  </ThingDef>
+  <!-- Building: deep maw trap embryo (FB_DeepMawTrapEmbryo) -->
+  <ThingDef ParentName="EmbryoStructureBase">
+    <defName>FB_DeepMawTrapEmbryo</defName>
+    <label>deep maw trap embryo</label>
+    <description>A folded mouth-bud grown around pressure nerves and sealed digestive folds. When mature, it sinks its larger mass below the colony floor and becomes a deep maw trap.</description>
+    <size>(2,2)</size>
+    <comps>
+      <li Class="FB.CompProperties_EmbryoGrowth">
+        <totalMaturationTicks>7000</totalMaturationTicks>
+        <targetDef>FB_DeepMawTrap</targetDef>
+      </li>
+      <li Class="FB.CompProperties_HemogelUpkeep">
+        <hemogelPerHour>0.3</hemogelPerHour>
+      </li>
+    </comps>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/FB_Organic/Traps/DeepMawTrapEmbryo</texPath>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+  </ThingDef>
+  <!-- Building: capture nerve node embryo (FB_CaptureNerveNodeEmbryo) -->
+  <ThingDef ParentName="EmbryoStructureBase">
+    <defName>FB_CaptureNerveNodeEmbryo</defName>
+    <label>capture nerve node embryo</label>
+    <description>A small trembling neural bud. When mature, it becomes a capture nerve node that extends the colony heart's grasping reflexes.</description>
+    <size>(1,1)</size>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Beauty>-10</Beauty>
+    </statBases>
+    <comps>
+      <li Class="FB.CompProperties_EmbryoGrowth">
+        <totalMaturationTicks>7000</totalMaturationTicks>
+        <targetDef>FB_CaptureNerveNode</targetDef>
+      </li>
+      <li Class="FB.CompProperties_HemogelUpkeep">
+        <hemogelPerHour>0.3</hemogelPerHour>
+      </li>
+    </comps>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/FB_Organic/CaptureNerveNode/CaptureNerveNodeEmbryo</texPath>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+  </ThingDef>
+
+  <!-- Building: psychic lure antenna embryo (FB_PsychicLureAntennaEmbryo) -->
+  <ThingDef ParentName="EmbryoStructureBase">
+  <defName>FB_PsychicLureAntennaEmbryo</defName>
+  <label>psychic lure antenna embryo</label>
+  <description>A quivering knot of neural feelers. When mature, it becomes a psychic lure antenna able to call dangerous biomass toward the colony.</description>
+  <size>(2,2)</size>
+  <statBases>
+    <MaxHitPoints>160</MaxHitPoints>
+    <Beauty>-20</Beauty>
+  </statBases>
+  <comps>
+    <li Class="FB.CompProperties_EmbryoGrowth">
+      <totalMaturationTicks>7000</totalMaturationTicks>
+      <targetDef>FB_PsychicLureAntenna</targetDef>
+    </li>
+    <li Class="FB.CompProperties_HemogelUpkeep">
+      <hemogelPerHour>0.3</hemogelPerHour>
+    </li>
+  </comps>
+  <graphicData>
+    <graphicClass>Graphic_Single</graphicClass>
+    <texPath>Things/Building/FB_Organic/PsychicLureAntenna/PsychicLureAntennaEmbryo</texPath>
+    <drawSize>(3,3)</drawSize>
+    <drawOffset>(0, 0.1, 0.6)</drawOffset>
+  </graphicData>
+</ThingDef>
+
+  <!-- Building: celestial umbilicus embryo (FB_CelestialUmbilicusEmbryo) -->
+  <ThingDef ParentName="EmbryoStructureBase">
+    <defName>FB_CelestialUmbilicusEmbryo</defName>
+    <label>celestial umbilicus embryo</label>
+    <description>A dense knot of vascular launch-tissue. When mature, it becomes a celestial umbilicus: the final organ used by the flesh colony to bud itself away from the planet.</description>
+    <size>(5,5)</size>
+    <statBases>
+      <MaxHitPoints>900</MaxHitPoints>
+      <Beauty>-60</Beauty>
+    </statBases>
+    <comps>
+      <li Class="FB.CompProperties_EmbryoGrowth">
+        <totalMaturationTicks>30000</totalMaturationTicks>
+        <targetDef>FB_CelestialUmbilicus</targetDef>
+      </li>
+      <li Class="FB.CompProperties_HemogelUpkeep">
+        <hemogelPerHour>0.3</hemogelPerHour>
+      </li>
+    </comps>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/FB_Organic/CelestialUmbilicus/CelestialUmbilicusEmbryo</texPath>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+  </ThingDef>
+</Defs>

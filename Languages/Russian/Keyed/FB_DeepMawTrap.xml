@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_DeepMawTrapArmingInspect>Пробуждение: {0}</FB_DeepMawTrapArmingInspect>
+  <FB_DeepMawTrapDigestingInspect>Переваривает жертв: {0}</FB_DeepMawTrapDigestingInspect>
+  <FB_DeepMawTrapResistanceInspect>Жертвы сопротивляются: {0}</FB_DeepMawTrapResistanceInspect>
+  <FB_DeepMawTrapReleasingInspect>Разорвана изнутри: {0}</FB_DeepMawTrapReleasingInspect>
+  <FB_DeepMawTrapCooldownInspect>Зарастает: {0}</FB_DeepMawTrapCooldownInspect>
+  <FB_DeepMawTrapDevSnapLabel>Dev: захлопнуть пасть</FB_DeepMawTrapDevSnapLabel>
+  <FB_DeepMawTrapDevSnapDesc>Мгновенно заставляет глубокую пасть попытаться проглотить пешек на занятых клетках.</FB_DeepMawTrapDevSnapDesc>
+  <FB_DeepMawTrapDevFinishDigestLabel>Dev: завершить переваривание</FB_DeepMawTrapDevFinishDigestLabel>
+  <FB_DeepMawTrapDevFinishDigestDesc>Мгновенно завершает переваривание органических жертв, а механических убивает и выплёвывает наружу.</FB_DeepMawTrapDevFinishDigestDesc>
+  <FB_ColonyBrain_Structure_DeepMawTrap_Label>Глубокая пасть-ловушка</FB_ColonyBrain_Structure_DeepMawTrap_Label>
+</LanguageData>

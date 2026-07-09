@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_GeneticReweavingFatigue.label>genetic reweaving fatigue</FB_GeneticReweavingFatigue.label>
+  <FB_GeneticReweavingFatigue.description>The pawn's genome is bruised by a failed organic reweaving procedure, leaving the body slow to stabilize.</FB_GeneticReweavingFatigue.description>
+</LanguageData>

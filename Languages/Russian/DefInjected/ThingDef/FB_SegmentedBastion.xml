@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_SegmentedBastion.label>сегментный бастион</FB_SegmentedBastion.label>
+  <FB_SegmentedBastion.description>Управляемый слитый флешбист, который разделяется на собственные стреляющие сегменты и позже собирается из выживших частей.</FB_SegmentedBastion.description>
+  <FB_SegmentedBastion.tools.0.label>масса шипов</FB_SegmentedBastion.tools.0.label>
+  <FB_SegmentedBastion.tools.1.label>центральная туша</FB_SegmentedBastion.tools.1.label>
+  <FB_BastionSpineSegment.label>шипастый сегмент бастиона</FB_BastionSpineSegment.label>
+  <FB_BastionSpineSegment.description>Живой сегмент, отделённый от сегментного бастиона. Помнит исходную принадлежность и стреляет кератиновыми шипами.</FB_BastionSpineSegment.description>
+</LanguageData>

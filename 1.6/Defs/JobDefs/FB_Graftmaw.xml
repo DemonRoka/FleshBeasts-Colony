@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Задание: FB_GraftmawAbsorbSample -->
+  <JobDef>
+    <defName>FB_GraftmawAbsorbSample</defName>
+    <driverClass>FB.JobDriver_GraftmawAbsorbSample</driverClass>
+    <reportString>absorbing an implant or prosthetic.</reportString>
+  </JobDef>
+
+  <!-- Задание: FB_GraftmawInstallStoredThing -->
+  <JobDef>
+    <defName>FB_GraftmawInstallStoredThing</defName>
+    <driverClass>FB.JobDriver_GraftmawInstallStoredThing</driverClass>
+    <reportString>installing a stored implant.</reportString>
+  </JobDef>
+
+  <!-- Задание: FB_GraftmawInstallStoredPart -->
+  <JobDef>
+    <defName>FB_GraftmawInstallStoredPart</defName>
+    <driverClass>FB.JobDriver_GraftmawInstallStoredPart</driverClass>
+    <reportString>installing a stored prosthetic.</reportString>
+  </JobDef>
+
+  <!-- Задание: FB_GraftmawExtractPart -->
+  <JobDef>
+    <defName>FB_GraftmawExtractPart</defName>
+    <driverClass>FB.JobDriver_GraftmawExtractPart</driverClass>
+    <reportString>extracting an outside body part.</reportString>
+  </JobDef>
+
+  <!-- Задание: FB_GraftmawExtractImplant -->
+  <JobDef>
+    <defName>FB_GraftmawExtractImplant</defName>
+    <driverClass>FB.JobDriver_GraftmawExtractImplant</driverClass>
+    <reportString>extracting a stored implant.</reportString>
+  </JobDef>
+
+  <!-- Задание: FB_GraftmawTendPatient -->
+  <JobDef>
+    <defName>FB_GraftmawTendPatient</defName>
+    <driverClass>FB.JobDriver_GraftmawTendPatient</driverClass>
+    <reportString>stitching wounds.</reportString>
+  </JobDef>
+</Defs>

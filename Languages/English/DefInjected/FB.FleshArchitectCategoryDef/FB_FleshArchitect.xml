@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_FleshArchitect_ZonesPlans.label>Zones/Plans</FB_FleshArchitect_ZonesPlans.label>
+  <FB_FleshArchitect_ZonesPlans.description>Flesh growth areas and colony construction plans.</FB_FleshArchitect_ZonesPlans.description>
+  <FB_FleshArchitect_HemogelExtraction.label>Hemogel farm</FB_FleshArchitect_HemogelExtraction.label>
+  <FB_FleshArchitect_HemogelExtraction.description>Organs that create hemogel from digestion, photosynthesis, and aquatic filtering.</FB_FleshArchitect_HemogelExtraction.description>
+  <FB_FleshArchitect_Structures.label>Structures</FB_FleshArchitect_Structures.label>
+  <FB_FleshArchitect_Structures.description>Basic fleshmass support structures.</FB_FleshArchitect_Structures.description>
+  <FB_FleshArchitect_Production.label>Production</FB_FleshArchitect_Production.label>
+  <FB_FleshArchitect_Production.description>Organs that produce, process, store, or refine resources.</FB_FleshArchitect_Production.description>
+  <FB_FleshArchitect_Auxiliary.label>Auxiliary</FB_FleshArchitect_Auxiliary.label>
+  <FB_FleshArchitect_Auxiliary.description>Utility organs that stabilize and maintain the colony.</FB_FleshArchitect_Auxiliary.description>
+  <FB_FleshArchitect_Genetics.label>Genetics</FB_FleshArchitect_Genetics.label>
+  <FB_FleshArchitect_Genetics.description>Gene-shaping structures and genetic archives.</FB_FleshArchitect_Genetics.description>
+  <FB_FleshArchitect_Anomaly.label>Anomaly</FB_FleshArchitect_Anomaly.label>
+  <FB_FleshArchitect_Anomaly.description>Living containment organs for captured entities.</FB_FleshArchitect_Anomaly.description>
+  <FB_FleshArchitect_Defense.label>Defense</FB_FleshArchitect_Defense.label>
+  <FB_FleshArchitect_Defense.description>Organs grown to maim, repel, or consume intruders.</FB_FleshArchitect_Defense.description>
+  <FB_FleshArchitect_Reproduction.label>Reproduction</FB_FleshArchitect_Reproduction.label>
+  <FB_FleshArchitect_Reproduction.description>Organs that grow, incubate, or command living defenders.</FB_FleshArchitect_Reproduction.description>
+  <FB_FleshArchitect_Plants.label>Plants</FB_FleshArchitect_Plants.label>
+  <FB_FleshArchitect_Plants.description>Living colony flora grown directly from flesh terrain.</FB_FleshArchitect_Plants.description>
+  <FB_FleshArchitect_Transport.label>Transport</FB_FleshArchitect_Transport.label>
+  <FB_FleshArchitect_Transport.description>Organs that move the colony through flesh and distance.</FB_FleshArchitect_Transport.description>
+  <FB_FleshArchitect_FleshMoon.label>Flesh moon</FB_FleshArchitect_FleshMoon.label>
+  <FB_FleshArchitect_FleshMoon.description>Functions sustained by the permanent link to the flesh moon.</FB_FleshArchitect_FleshMoon.description>
+  <FB_FleshArchitect_Misc.label>Misc</FB_FleshArchitect_Misc.label>
+  <FB_FleshArchitect_Misc.description>Unsorted flesh architecture.</FB_FleshArchitect_Misc.description>
+</LanguageData>

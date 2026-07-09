@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_BurdenBlobKind.label>грузовая капля</FB_BurdenBlobKind.label>
+  <FB_CarapaceExcavatorKind.label>панцирный копатель</FB_CarapaceExcavatorKind.label>
+  <FB_CocoonbackKind.label>коконник</FB_CocoonbackKind.label>
+  <FB_CortexMiteKind.label>мозговой клещ</FB_CortexMiteKind.label>
+  <FB_DenseWeaver.label>ткач плоти</FB_DenseWeaver.label>
+  <FB_Dreadmeld.label>дредмелд</FB_Dreadmeld.label>
+  <FB_FerrimawKind.label>железопасть</FB_FerrimawKind.label>
+  <FB_FingerspikeGauntletKind.label>пальцешипная перчатка</FB_FingerspikeGauntletKind.label>
+  <FB_GraftmawKind.label>сшивопасть</FB_GraftmawKind.label>
+  <FB_NerveclotKind.label>нервный сгусток</FB_NerveclotKind.label>
+  <FB_PersonalityParasite.label>личностный паразит</FB_PersonalityParasite.label>
+  <FB_Rotlarva.label>гнилостная личинка</FB_Rotlarva.label>
+  <FB_Sclerat.label>склерэт</FB_Sclerat.label>
+  <FB_ScrapmeldKind.label>скрапмелд</FB_ScrapmeldKind.label>
+  <FB_ScrapmeldNestlingKind.label>зародыш скрапмелда</FB_ScrapmeldNestlingKind.label>
+  <FB_Shardlings.label>осколочники</FB_Shardlings.label>
+  <FB_SinewcallerKind.label>жилозовец</FB_SinewcallerKind.label>
+  <FB_SymbioHead.label>симбиотическая голова</FB_SymbioHead.label>
+  <FB_TentacleTurret.label>щупальцевая турель</FB_TentacleTurret.label>
+  <FB_ThrallbloomKind.label>поработитель</FB_ThrallbloomKind.label>
+</LanguageData>

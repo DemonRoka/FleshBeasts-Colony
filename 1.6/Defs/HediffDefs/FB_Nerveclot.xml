@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Состояние: nerveclot resonance (FB_NerveclotResonance) -->
+  <HediffDef>
+    <defName>FB_NerveclotResonance</defName>
+    <label>nerveclot resonance</label>
+    <description>This creature is wrapped in nerveclot resonance. Its pain response dulls, its flesh knits faster, and its muscles move with frantic speed.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <stages>
+      <li>
+        <painFactor>0.55</painFactor>
+        <statOffsets>
+          <MoveSpeed>0.9</MoveSpeed>
+          <InjuryHealingFactor>4</InjuryHealingFactor>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>120</disappearsAfterTicks>
+      </li>
+      <li Class="FB.HediffCompProperties_NerveclotRegeneration">
+        <healAmount>1.2</healAmount>
+        <ticksPerHeal>60</ticksPerHeal>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <!-- Состояние: neural static (FB_NeuralStatic) -->
+  <HediffDef>
+    <defName>FB_NeuralStatic</defName>
+    <label>neural static</label>
+    <description>Neural chatter from a nearby nerveclot scrambles focus and sleep rhythms, leaving the mind tense and trigger-happy.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>true</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <stages>
+      <li>
+        <statOffsets>
+          <ShootingAccuracyPawn>-0.35</ShootingAccuracyPawn>
+          <AimingDelayFactor>0.35</AimingDelayFactor>
+          <RestFallRateFactor>0.35</RestFallRateFactor>
+          <MentalBreakThreshold>0.08</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>120</disappearsAfterTicks>
+      </li>
+    </comps>
+  </HediffDef>
+</Defs>

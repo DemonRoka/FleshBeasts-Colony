@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Дерево рендера: FB_Sinewcaller -->
+  <PawnRenderTreeDef>
+    <defName>FB_Sinewcaller</defName>
+    <root Class="PawnRenderNodeProperties_Parent">
+      <debugLabel>Root</debugLabel>
+      <tagDef>Root</tagDef>
+      <children>
+        <li>
+          <debugLabel>Body</debugLabel>
+          <tagDef>Body</tagDef>
+          <nodeClass>PawnRenderNode_AnimalPart_Body</nodeClass>
+          <workerClass>PawnRenderNodeWorker_AnimalBody</workerClass>
+          <useRottenColor>true</useRottenColor>
+          <children>
+            <li Class="PawnRenderNodeProperties_BulbfreakTentacle">
+              <debugLabel>Tentacle</debugLabel>
+              <texPath>Things/Pawn/FB_Sinewcaller/Sinewcaller_Tentacle</texPath>
+              <drawSize>0.95</drawSize>
+              <useRottenColor>true</useRottenColor>
+              <linkedBodyPartsGroup>FourthTentacle</linkedBodyPartsGroup>
+              <drawData>
+                <defaultData>
+                  <pivot>(0.5, 0.9)</pivot>
+                  <layer>-8</layer>
+                </defaultData>
+                <dataSouth>
+                  <rotationOffset>-105</rotationOffset>
+                  <offset>(-0.3, 0, -0.52)</offset>
+                </dataSouth>
+                <dataNorth>
+                  <rotationOffset>-105</rotationOffset>
+                  <offset>(0.3, 0, 1.2)</offset>
+                </dataNorth>
+                <dataEast>
+                  <rotationOffset>270</rotationOffset>
+                  <offset>(0.8, 0, -0.05)</offset>
+                </dataEast>
+                <dataWest>
+                  <rotationOffset>270</rotationOffset>
+                  <offset>(-0.8, 0, -0.05)</offset>
+                  <flip>true</flip>
+                </dataWest>
+              </drawData>
+              <rotateFacing>true</rotateFacing>
+              <scaleRange>1~1.05</scaleRange>
+              <rotationRange>0~3</rotationRange>
+            </li>
+            <li>
+              <debugLabel>Wounds</debugLabel>
+              <nodeClass>PawnRenderNode_AnimalPart</nodeClass>
+              <workerClass>PawnRenderNodeWorker_OverlayWounds</workerClass>
+              <overlayLayer>Body</overlayLayer>
+              <useGraphic>false</useGraphic>
+              <baseLayer>3</baseLayer>
+            </li>
+            <li>
+              <debugLabel>Pack</debugLabel>
+              <nodeClass>PawnRenderNode_AnimalPack</nodeClass>
+              <workerClass>PawnRenderNodeWorker_AnimalPack</workerClass>
+              <rotDrawMode>Fresh, Rotting</rotDrawMode>
+              <baseLayer>5</baseLayer>
+            </li>
+            <li>
+              <debugLabel>Firefoam</debugLabel>
+              <nodeClass>PawnRenderNode_AnimalPart</nodeClass>
+              <workerClass>PawnRenderNodeWorker_OverlayFirefoam</workerClass>
+              <overlayLayer>Body</overlayLayer>
+              <useGraphic>false</useGraphic>
+              <baseLayer>10</baseLayer>
+            </li>
+          </children>
+        </li>
+        <li Class="PawnRenderNodeProperties_Carried">
+          <debugLabel>Carried thing</debugLabel>
+          <workerClass>PawnRenderNodeWorker_Carried</workerClass>
+        </li>
+      </children>
+    </root>
+  </PawnRenderTreeDef>
+</Defs>

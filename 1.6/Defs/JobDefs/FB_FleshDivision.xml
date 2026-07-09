@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <JobDef>
+    <defName>FB_FleshDivisionCeremonySubject</defName>
+    <driverClass>FB.JobDriver_FleshDivisionCeremonySubject</driverClass>
+    <reportString>yielding flesh to division.</reportString>
+    <casualInterruptible>false</casualInterruptible>
+    <playerInterruptible>false</playerInterruptible>
+    <checkOverrideOnDamage>Never</checkOverrideOnDamage>
+  </JobDef>
+
+  <JobDef>
+    <defName>FB_FleshDivisionCeremonyRipper</defName>
+    <driverClass>FB.JobDriver_FleshDivisionCeremonyRipper</driverClass>
+    <reportString>tearing TargetB apart.</reportString>
+    <casualInterruptible>false</casualInterruptible>
+    <playerInterruptible>false</playerInterruptible>
+    <checkOverrideOnDamage>Never</checkOverrideOnDamage>
+  </JobDef>
+</Defs>

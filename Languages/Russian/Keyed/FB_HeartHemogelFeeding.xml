@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_HeartHemogelFeedingToggleLabel>Разрешить гемогелевое кормление</FB_HeartHemogelFeedingToggleLabel>
+  <FB_HeartHemogelFeedingToggleDesc>Позволяет пешкам, принятым колонией плоти, питаться напрямую из запаса гемогеля этого сердца.</FB_HeartHemogelFeedingToggleDesc>
+  <FB_HeartHemogelFeedingInspectEnabled>Кормление принятых пешек: разрешено</FB_HeartHemogelFeedingInspectEnabled>
+  <FB_HeartHemogelFeedingInspectDisabled>Кормление принятых пешек: запрещено</FB_HeartHemogelFeedingInspectDisabled>
+  <FB_ManualHeartFeedingLabel>Подойти и поесть</FB_ManualHeartFeedingLabel>
+  <FB_ManualFeederTakeLabel>Взять и поесть</FB_ManualFeederTakeLabel>
+  <FB_ManualFloatMenuDisabled>{0}: {1}</FB_ManualFloatMenuDisabled>
+  <FB_ManualFeedingPawnUnavailable>Эта пешка не может выполнить приказ.</FB_ManualFeedingPawnUnavailable>
+  <FB_ManualFeedingNoFoodNeed>Этой пешке не требуется пища.</FB_ManualFeedingNoFoodNeed>
+  <FB_ManualFeedingAlreadyFull>Пешка уже сыта.</FB_ManualFeedingAlreadyFull>
+  <FB_ManualFeedingHeartUnavailable>Это сердце не может накормить пешку.</FB_ManualFeedingHeartUnavailable>
+  <FB_ManualFeedingFeederUnavailable>Эта кормушка не может выдать пищу.</FB_ManualFeedingFeederUnavailable>
+  <FB_ManualFeedingBlocked>Гемогелевое кормление этого сердца отключено.</FB_ManualFeedingBlocked>
+  <FB_ManualFeedingForbidden>Эта постройка запрещена.</FB_ManualFeedingForbidden>
+  <FB_ManualFeedingNoHemogel>Недостаточно доступного гемогеля.</FB_ManualFeedingNoHemogel>
+  <FB_ManualFeedingNoPath>Нет достижимой клетки взаимодействия.</FB_ManualFeedingNoPath>
+  <FB_ManualFeedingHandsFull>Пешка не может нести ещё одну порцию.</FB_ManualFeedingHandsFull>
+</LanguageData>

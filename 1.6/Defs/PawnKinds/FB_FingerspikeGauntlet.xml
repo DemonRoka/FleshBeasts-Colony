@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Вид пешки: fingerspike gauntlet (FB_FingerspikeGauntletKind) -->
+  <PawnKindDef>
+    <defName>FB_FingerspikeGauntletKind</defName>
+    <label>fingerspike gauntlet</label>
+    <race>FB_FingerspikeGauntlet</race>
+    <ecoSystemWeight>0</ecoSystemWeight>
+    <fixedGender>None</fixedGender>
+    <defaultFactionType>PlayerColony</defaultFactionType>
+    <combatPower>20</combatPower>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/FB_FingerspikeGauntlet/FingerspikeGauntlet</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>2.3</drawSize>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+</Defs>

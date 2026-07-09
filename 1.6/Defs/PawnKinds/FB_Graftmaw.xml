@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Вид пешки: graftmaw (FB_GraftmawKind) -->
+  <PawnKindDef ParentName="BaseFleshbeastKind">
+    <defName>FB_GraftmawKind</defName>
+    <label>graftmaw</label>
+    <race>FB_Graftmaw</race>
+    <combatPower>55</combatPower>
+    <defaultFactionDef>PlayerColony</defaultFactionDef>
+    <forceNoDeathNotification>true</forceNoDeathNotification>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/FB_Graftmaw/FB_Graftmaw</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>2</drawSize>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+</Defs>

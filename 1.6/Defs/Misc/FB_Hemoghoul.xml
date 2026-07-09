@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Мутант: hemoghoul (FB_Hemoghoul) -->
+  <MutantDef>
+    <defName>FB_Hemoghoul</defName>
+    <label>hemoghoul</label>
+    <description>A flesh-bound worker raised from a corpse by a fingerspike. It needs no sleep or comfort, feeding only from the colony heart.</description>
+    <hediff>FB_Hemoghoul</hediff>
+    <thinkTree>FB_Hemoghoul</thinkTree>
+    <thinkTreeConstant>FB_HemoghoulConstant</thinkTreeConstant>
+    <showJobReport>true</showJobReport>
+    <disableApparel>true</disableApparel>
+    <allowedDevelopmentalStages>Adult</allowedDevelopmentalStages>
+    <preventsMentalBreaks>true</preventsMentalBreaks>
+    <disableNeeds>true</disableNeeds>
+    <needWhitelist>
+      <li>Food</li>
+    </needWhitelist>
+    <disableEatingAtTable>true</disableEatingAtTable>
+    <incapableOfSocialInteractions>true</incapableOfSocialInteractions>
+    <disableTitles>true</disableTitles>
+    <disableOwnership>true</disableOwnership>
+    <disablesIdeo>true</disablesIdeo>
+    <canBeDrafted>true</canBeDrafted>
+    <respectsAllowedArea>true</respectsAllowedArea>
+    <canTravelInCaravan>false</canTravelInCaravan>
+    <terminatePregnancy>true</terminatePregnancy>
+    <isImmuneToInfections>true</isImmuneToInfections>
+    <removeChronicIllnesses>true</removeChronicIllnesses>
+    <removeAddictions>true</removeAddictions>
+    <disableAging>true</disableAging>
+    <removePermanentInjuries>true</removePermanentInjuries>
+    <restoreLegs>true</restoreLegs>
+    <defaultFaction>PlayerColony</defaultFaction>
+    <bloodDef>Filth_Blood</bloodDef>
+    <bloodSmearDef>Filth_BloodSmear</bloodSmearDef>
+    <woundColor>(0.65, 0.25, 0.28, 1)</woundColor>
+    <skinColorOverride>(0.65, 0.32, 0.34)</skinColorOverride>
+    <hairColorOverride>(0.65, 0.32, 0.34)</hairColorOverride>
+    <bodyTypeGraphicPaths>
+      <Hulk>Things/Pawn/FB_Hemoghoul/Bodies/HemoghoulBody_Hulk</Hulk>
+    </bodyTypeGraphicPaths>
+    <forcedHeadTypes>
+      <li>FB_HemoghoulHead</li>
+    </forcedHeadTypes>
+    <hairTagFilter>
+      <whitelist>true</whitelist>
+      <tags>
+        <li>FB_Hemoghoul</li>
+      </tags>
+    </hairTagFilter>
+    <beardTagFilter>
+      <whitelist>true</whitelist>
+      <tags>
+        <li>NoBeard</li>
+      </tags>
+    </beardTagFilter>
+    <soundAttackChance>0.15</soundAttackChance>
+    <soundCall>Pawn_Ghoul_Call</soundCall>
+    <soundAttack>Pawn_Ghoul_Attack</soundAttack>
+    <soundWounded>Pawn_Ghoul_Pain</soundWounded>
+    <soundDeath>Pawn_Ghoul_Killed</soundDeath>
+    <tools>
+      <li>
+        <label>teeth</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>6.8</power>
+        <cooldownTime>2.2</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.5</chanceFactor>
+        <soundMeleeHit>Pawn_Melee_HumanBite_Hit</soundMeleeHit>
+        <soundMeleeMiss>Pawn_Melee_HumanBite_Miss</soundMeleeMiss>
+      </li>
+      <li>
+        <label>left claw</label>
+        <labelNoLocation>claw</labelNoLocation>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>6.0</power>
+        <cooldownTime>2.2</cooldownTime>
+        <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+        <chanceFactor>1.5</chanceFactor>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+        <soundMeleeHit>Pawn_Ghoul_Scratch</soundMeleeHit>
+        <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+      </li>
+      <li>
+        <label>right claw</label>
+        <labelNoLocation>claw</labelNoLocation>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>6.0</power>
+        <cooldownTime>2.2</cooldownTime>
+        <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+        <chanceFactor>1.5</chanceFactor>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+        <soundMeleeHit>Pawn_Ghoul_Scratch</soundMeleeHit>
+        <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+      </li>
+    </tools>
+  </MutantDef>
+
+  
+  
+  
+  <!-- Черта: hemoghoul nature (FB_HemoghoulNature) -->
+  <TraitDef>
+    <defName>FB_HemoghoulNature</defName>
+    <label>hemoghoul nature</label>
+    <commonality>0</commonality>
+    <disabledWorkTags>
+      <li>Caring</li>
+      <li>Social</li>
+      <li>Animals</li>
+      <li>Cooking</li>
+      <li>Intellectual</li>
+      <li>Artistic</li>
+      <li>Hunting</li>
+      <li>Shooting</li>
+    </disabledWorkTags>
+    <degreeDatas>
+      <li>
+        <label>hemoghoul nature</label>
+        <description>{PAWN_nameDef} has been remade for tireless physical labor. Higher faculties needed for cooking, medicine, ranged combat, animal handling, social work, research and art are absent.</description>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Волосы-заглушка: hemoghoul bald (FB_HemoghoulBald) -->
+  <HairDef>
+    <defName>FB_HemoghoulBald</defName>
+    <label>hemoghoul bald</label>
+    <noGraphic>true</noGraphic>
+    <styleGender>Any</styleGender>
+    <styleTags>
+      <li>FB_Hemoghoul</li>
+    </styleTags>
+  </HairDef>
+</Defs>

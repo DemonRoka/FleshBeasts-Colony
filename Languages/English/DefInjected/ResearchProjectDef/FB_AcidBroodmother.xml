@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_AcidBroodmotherConvergence.label>acid broodmother convergence</FB_AcidBroodmotherConvergence.label>
+  <FB_AcidBroodmotherConvergence.description>Teach the colony brain to fuse spine fleshbeasts into a draftable broodmother that grows temporary acid-spitting offspring.</FB_AcidBroodmotherConvergence.description>
+  <FB_AcidBroodmotherConvergence.generalRules.rulesStrings.0>subject-&gt;acid broodmother convergence</FB_AcidBroodmotherConvergence.generalRules.rulesStrings.0>
+  <FB_AcidBroodmotherConvergence.generalRules.rulesStrings.1>subject_story-&gt;fused spine fleshbeasts into a mobile acid brood</FB_AcidBroodmotherConvergence.generalRules.rulesStrings.1>
+  <FB_AcidBroodmotherConvergence.generalRules.rulesStrings.2>subject_story-&gt;taught a broodmother to grow temporary artillery offspring</FB_AcidBroodmotherConvergence.generalRules.rulesStrings.2>
+  <FB_AcidBroodmotherConvergence.generalRules.rulesStrings.3>subject_gerund-&gt;assembling acid broodmothers</FB_AcidBroodmotherConvergence.generalRules.rulesStrings.3>
+</LanguageData>

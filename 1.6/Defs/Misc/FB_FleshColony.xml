@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Обозначение: FleshmassWallPlan -->
+  <DesignationDef>
+    <defName>FleshmassWallPlan</defName>
+    <texturePath>UI/Plan/FleshmassWallPlan</texturePath>
+    <targetType>Cell</targetType>
+  </DesignationDef>
+  <!-- Обозначение: FleshmassBoneWallPlan -->
+  <DesignationDef>
+    <defName>FleshmassBoneWallPlan</defName>
+    <texturePath>UI/Plan/FleshmassBoneWallPlan</texturePath>
+    <targetType>Cell</targetType>
+  </DesignationDef>
+
+  <!-- Обозначение: FleshmassFloorPlan -->
+  <DesignationDef>
+    <defName>FleshmassFloorPlan</defName>
+    <texturePath>UI/Plan/FleshmassFloorPlan</texturePath>
+    <targetType>Cell</targetType>
+  </DesignationDef>
+
+  <!-- Обозначение: FleshmassRemovePlan -->
+  <DesignationDef>
+    <defName>FleshmassRemovePlan</defName>
+    <texturePath>UI/Plan/FleshmassRemovePlan</texturePath>
+    <targetType>Cell</targetType>
+  </DesignationDef>
+
+  <!-- Обозначение: FleshmassFloorRemovePlan -->
+  <DesignationDef>
+    <defName>FleshmassFloorRemovePlan</defName>
+    <texturePath>UI/Plan/FleshmassRemovePlan</texturePath>
+    <targetType>Cell</targetType>
+  </DesignationDef>
+
+  <!-- Group attack target marker -->
+  <DesignationDef>
+    <defName>FB_FleshbeastAttackTarget</defName>
+    <texturePath>Designations/FB_FleshbeastAttackTarget</texturePath>
+    <targetType>Thing</targetType>
+    <designateCancelable>false</designateCancelable>
+  </DesignationDef>
+
+  <!-- Fleshbeast group attack duty -->
+  <DutyDef>
+    <defName>FB_FleshbeastAttackMarkedTargets</defName>
+    <alwaysShowWeapon>true</alwaysShowWeapon>
+    <thinkNode Class="ThinkNode_Priority">
+      <subNodes>
+        <li Class="FB.JobGiver_FleshbeastAttackMarkedTarget">
+          <maxReachabilityChecks>4</maxReachabilityChecks>
+          <jobExpiryInterval>900</jobExpiryInterval>
+          <maxDanger>Deadly</maxDanger>
+        </li>
+      </subNodes>
+    </thinkNode>
+  </DutyDef>
+
+  <!-- Тип меха: FleshbeastSkin -->
+  <FurDef>
+    <defName>FleshbeastSkin</defName>
+    <noGraphic>true</noGraphic>
+    <bodyTypeGraphicPaths>
+      <Male>Things/Pawn/FB_Humanlike/Bodies/FleshbeastBody_Male</Male>
+      <Female>Things/Pawn/FB_Humanlike/Bodies/FleshbeastBody_Female</Female>
+      <Hulk>Things/Pawn/FB_Humanlike/Bodies/FleshbeastBody_Hulk</Hulk>
+      <Fat>Things/Pawn/FB_Humanlike/Bodies/FleshbeastBody_Fat</Fat>
+      <Thin>Things/Pawn/FB_Humanlike/Bodies/FleshbeastBody_Thin</Thin>
+      <Child>Things/Pawn/FB_Humanlike/Bodies/Naked_FleshbeastBody</Child>
+      <Baby>Things/Pawn/FB_Humanlike/Bodies/Naked_FleshbeastBody</Baby>
+    </bodyTypeGraphicPaths>
+  </FurDef>
+</Defs>

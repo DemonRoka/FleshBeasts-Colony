@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Вид пешки: scrapmeld (FB_ScrapmeldKind) -->
+  <PawnKindDef ParentName="BaseFleshbeastKind">
+    <defName>FB_ScrapmeldKind</defName>
+    <label>scrapmeld</label>
+    <race>FB_Scrapmeld</race>
+    <combatPower>25</combatPower>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/FB_Scrapmeld/Scrapmeld</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>3.2</drawSize>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+  <!-- Вид пешки: scrapmeld seed (FB_ScrapmeldNestlingKind) -->
+  <PawnKindDef ParentName="BaseFleshbeastKind">
+    <defName>FB_ScrapmeldNestlingKind</defName>
+    <label>scrapmeld seed</label>
+    <race>FB_ScrapmeldNestling</race>
+    <combatPower>12</combatPower>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/FB_ScrapmeldNestling/ScrapmeldNestling</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>1.7</drawSize>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+</Defs>

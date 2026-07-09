@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Вид пешки: cortex mite (FB_CortexMiteKind) -->
+  <PawnKindDef ParentName="BaseFleshbeastKind">
+    <defName>FB_CortexMiteKind</defName>
+    <label>cortex mite</label>
+    <race>FB_CortexMite</race>
+    <combatPower>35</combatPower>
+    <forceDeathOnDowned>true</forceDeathOnDowned>
+    <defaultFactionDef>PlayerColony</defaultFactionDef>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/FB_CortexMite/FB_CortexMite</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>1.35</drawSize>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+</Defs>
