@@ -115,6 +115,13 @@
       <soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
       <soundAmbient>MortarRound_Ambient</soundAmbient>
     </projectile>
+    <comps>
+      <li Class="FB.CompProperties_BileburstPayloadCarrier">
+        <requiredCharge>0.4</requiredCharge>
+        <absorbTicks>120</absorbTicks>
+        <absorbIconPath>UI/Commands/BilePodlingSpawn</absorbIconPath>
+      </li>
+    </comps>
   </ThingDef>
 
   <ThingDef ParentName="BaseFilth">

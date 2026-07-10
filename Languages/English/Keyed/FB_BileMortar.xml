@@ -22,8 +22,21 @@
   <FB_BileburstChargePausedNoSupply>Charge growth paused: the linked mortar lacks full hemogel supply.</FB_BileburstChargePausedNoSupply>
   <FB_VolatileBileBarTitle>Volatile bile</FB_VolatileBileBarTitle>
   <FB_VolatileBileBarTooltip>This podling's explosive bile charge. At 25% or higher it can be loaded into a bile mortar gland.</FB_VolatileBileBarTooltip>
+  <FB_BileburstAbsorbPayloadLabel>Absorb payload</FB_BileburstAbsorbPayloadLabel>
+  <FB_BileburstAbsorbPayloadDesc>Swallow one haulable item into this podling once it reaches {0}% volatile bile. If launched by a bile mortar, the item is released at the impact site; explosive payloads are ignited after the bileburst rupture.</FB_BileburstAbsorbPayloadDesc>
+  <FB_BileburstPayloadInspect>Payload: {0}</FB_BileburstPayloadInspect>
+  <FB_BileburstPayloadAlreadyLoaded>This bileburst podling already contains a payload.</FB_BileburstPayloadAlreadyLoaded>
+  <FB_BileburstPayloadChargeTooLow>Volatile bile must reach at least {0}% before this podling can absorb a payload.</FB_BileburstPayloadChargeTooLow>
+  <FB_BileburstPayloadInvalidTarget>That is not a valid haulable payload.</FB_BileburstPayloadInvalidTarget>
+  <FB_BileburstPayloadCannotReach>The bileburst podling cannot reach that payload.</FB_BileburstPayloadCannotReach>
+  <FB_BileburstPayloadCannotAbsorb>This bileburst podling cannot absorb a payload right now.</FB_BileburstPayloadCannotAbsorb>
+  <FB_BileburstPayloadAbsorbed>{0} absorbed {1}.</FB_BileburstPayloadAbsorbed>
+  <FB_BileburstDetonateLabel>Detonate bileburst</FB_BileburstDetonateLabel>
+  <FB_BileburstDetonateDesc>Order this bileburst podling to crawl to a selected target or cell and rupture its stored volatile bile.</FB_BileburstDetonateDesc>
   <FB_DevBileburstDetonateLabel>DEV: Detonate bileburst</FB_DevBileburstDetonateLabel>
   <FB_DevBileburstDetonateDesc>Order this bileburst podling to crawl to a selected target or cell and rupture its stored volatile bile. Dev-only.</FB_DevBileburstDetonateDesc>
+  <FB_BileburstDetonatingInspect>Detonating in {0}.</FB_BileburstDetonatingInspect>
+  <FB_BileburstAlreadyDetonating>This bileburst podling is already detonating.</FB_BileburstAlreadyDetonating>
   <FB_BileburstChargeTooLow>Volatile bile must reach at least {0}% before detonation.</FB_BileburstChargeTooLow>
   <FB_BileburstCannotDetonate>This bileburst podling cannot detonate there.</FB_BileburstCannotDetonate>
   <FB_BileburstCannotReach>The bileburst podling cannot reach the detonation target.</FB_BileburstCannotReach>

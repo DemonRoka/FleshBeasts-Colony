@@ -22,8 +22,21 @@
   <FB_BileburstChargePausedNoSupply>Рост заряда остановлен: связанная мортира недополучает питание гемогелевой сети.</FB_BileburstChargePausedNoSupply>
   <FB_VolatileBileBarTitle>Горючая желчь</FB_VolatileBileBarTitle>
   <FB_VolatileBileBarTooltip>Взрывной запас желчи этого подрывника. При 25% и выше он может быть заряжен в желчную мортирную железу.</FB_VolatileBileBarTooltip>
+  <FB_BileburstAbsorbPayloadLabel>Поглотить груз</FB_BileburstAbsorbPayloadLabel>
+  <FB_BileburstAbsorbPayloadDesc>Поглотить один переносимый предмет, когда запас горючей желчи достигнет {0}%. Если желчная мортира выпустит подрывника, предмет выпадет в месте попадания; взрывной груз будет подожжён после разрыва.</FB_BileburstAbsorbPayloadDesc>
+  <FB_BileburstPayloadInspect>Груз: {0}</FB_BileburstPayloadInspect>
+  <FB_BileburstPayloadAlreadyLoaded>В этом желчном подрывнике уже есть груз.</FB_BileburstPayloadAlreadyLoaded>
+  <FB_BileburstPayloadChargeTooLow>Для поглощения груза запас горючей желчи должен достичь хотя бы {0}%.</FB_BileburstPayloadChargeTooLow>
+  <FB_BileburstPayloadInvalidTarget>Это не подходящий переносимый груз.</FB_BileburstPayloadInvalidTarget>
+  <FB_BileburstPayloadCannotReach>Желчный подрывник не может добраться до этого груза.</FB_BileburstPayloadCannotReach>
+  <FB_BileburstPayloadCannotAbsorb>Желчный подрывник сейчас не может поглотить груз.</FB_BileburstPayloadCannotAbsorb>
+  <FB_BileburstPayloadAbsorbed>{0} поглотил {1}.</FB_BileburstPayloadAbsorbed>
+  <FB_BileburstDetonateLabel>Взорвать желчного подрывника</FB_BileburstDetonateLabel>
+  <FB_BileburstDetonateDesc>Приказать желчному подрывнику доползти до выбранной цели или клетки и разорвать накопленную горючую желчь.</FB_BileburstDetonateDesc>
   <FB_DevBileburstDetonateLabel>DEV: взорвать желчного подрывника</FB_DevBileburstDetonateLabel>
   <FB_DevBileburstDetonateDesc>Приказать желчному подрывнику доползти до выбранной цели или клетки и разорвать накопленную горючую желчь. Только для dev-режима.</FB_DevBileburstDetonateDesc>
+  <FB_BileburstDetonatingInspect>Взорвётся через {0}.</FB_BileburstDetonatingInspect>
+  <FB_BileburstAlreadyDetonating>Этот желчный подрывник уже взрывается.</FB_BileburstAlreadyDetonating>
   <FB_BileburstChargeTooLow>Для взрыва запас горючей желчи должен достичь хотя бы {0}%.</FB_BileburstChargeTooLow>
   <FB_BileburstCannotDetonate>Этот желчный подрывник не может взорваться там.</FB_BileburstCannotDetonate>
   <FB_BileburstCannotReach>Желчный подрывник не может добраться до цели взрыва.</FB_BileburstCannotReach>

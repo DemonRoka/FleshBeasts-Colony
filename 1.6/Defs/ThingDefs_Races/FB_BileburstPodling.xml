@@ -16,6 +16,13 @@
           <mediumStageCharge>0.1</mediumStageCharge>
           <fullStageCharge>0.4</fullStageCharge>
           <children>
+            <li Class="FB.PawnRenderNodeProperties_BileburstPayload">
+              <debugLabel>Payload</debugLabel>
+              <baseLayer>4</baseLayer>
+              <alpha>0.5</alpha>
+              <drawScale>0.62</drawScale>
+              <altitudeOffset>0.006</altitudeOffset>
+            </li>
             <li>
               <debugLabel>Wounds</debugLabel>
               <nodeClass>PawnRenderNode_AnimalPart</nodeClass>
@@ -106,6 +113,11 @@
         <mediumStageCharge>0.1</mediumStageCharge>
         <fullStageCharge>0.4</fullStageCharge>
         <deathFilthDef>FB_VolatileBileFilth</deathFilthDef>
+      </li>
+      <li Class="FB.CompProperties_BileburstPayloadCarrier">
+        <requiredCharge>0.4</requiredCharge>
+        <absorbTicks>120</absorbTicks>
+        <absorbIconPath>UI/Commands/BilePodlingSpawn</absorbIconPath>
       </li>
     </comps>
     <tools>

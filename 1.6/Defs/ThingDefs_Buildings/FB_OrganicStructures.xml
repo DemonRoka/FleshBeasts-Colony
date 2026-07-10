@@ -1162,6 +1162,13 @@
           <categories>
             <li>Corpses</li>
           </categories>
+          <specialFiltersToDisallow>
+            <li>AllowCorpsesColonist</li>
+          </specialFiltersToDisallow>
+          <specialFiltersToAllow>
+            <li MayRequire="Ludeon.RimWorld.Ideology">AllowCorpsesSlave</li>
+            <li>AllowCorpsesStranger</li>
+          </specialFiltersToAllow>
           <disallowedCategories>
             <li>CorpsesMechanoid</li>
             <li MayRequire="Ludeon.RimWorld.Odyssey">CorpsesDrone</li>

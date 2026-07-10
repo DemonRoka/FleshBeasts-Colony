@@ -13,6 +13,12 @@
   </JobDef>
 
   <JobDef>
+    <defName>FB_BileburstAbsorbPayload</defName>
+    <driverClass>FB.JobDriver_BileburstAbsorbPayload</driverClass>
+    <reportString>swallowing TargetA.</reportString>
+  </JobDef>
+
+  <JobDef>
     <defName>FB_BileburstPodlingLatchToMortar</defName>
     <driverClass>FB.JobDriver_BileburstPodlingLatchToMortar</driverClass>
     <reportString>settling near TargetA.</reportString>
