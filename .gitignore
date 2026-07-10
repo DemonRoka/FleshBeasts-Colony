@@ -619,3 +619,6 @@ FleshBeasts/obj/Release/net472/FleshBeasts.dll
 FleshBeasts/obj/Release/net472/FleshBeasts.GeneratedMSBuildEditorConfig.editorconfig
 FleshBeasts/obj/Release/net472/FleshBeasts.pdb
 FleshBeasts/Properties/AssemblyInfo.cs
+*.cs
+FleshBeasts/obj/Release/net472/FleshBeasts.sourcelink.json
+FleshBeasts/obj/Release/net472/FleshBeasts.sourcelink.json

@@ -60,6 +60,21 @@
     </stages>
   </ThoughtDef>
 
+  <!-- Мысль: принятые плотью щупальца -->
+  <ThoughtDef MayRequire="Ludeon.RimWorld.Anomaly">
+    <defName>FB_FleshTentacleAccepted</defName>
+    <workerClass>FB.ThoughtWorker_FleshTentacleAccepted</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+    <stages>
+      <li>
+        <label>flesh tentacle accepted</label>
+        <description>The tentacle is no longer an alien growth, but another limb of the colony's shared flesh.</description>
+        <baseMoodEffect>6</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
   <!-- Мысль: съел плотяную биомассу -->
   <ThoughtDef>
     <defName>FB_AteFleshBiomass</defName>

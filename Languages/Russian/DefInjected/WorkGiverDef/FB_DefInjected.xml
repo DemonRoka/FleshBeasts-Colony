@@ -3,6 +3,9 @@
   <CarryToFBAutoResearch.gerund>вставка</CarryToFBAutoResearch.gerund>
   <CarryToFBAutoResearch.label>нести к автоисследованию</CarryToFBAutoResearch.label>
   <CarryToFBAutoResearch.verb>вставить</CarryToFBAutoResearch.verb>
+  <FB_BurdenBlobCleanFilth.gerund>уборка</FB_BurdenBlobCleanFilth.gerund>
+  <FB_BurdenBlobCleanFilth.label>чистить грязь колонии</FB_BurdenBlobCleanFilth.label>
+  <FB_BurdenBlobCleanFilth.verb>чистить</FB_BurdenBlobCleanFilth.verb>
   <FB_ConstructDeliverResourcesToBlueprints.gerund>работа над</FB_ConstructDeliverResourcesToBlueprints.gerund>
   <FB_ConstructDeliverResourcesToBlueprints.label>доставлять ресурсы к чертежам</FB_ConstructDeliverResourcesToBlueprints.label>
   <FB_ConstructDeliverResourcesToBlueprints.verb>работать над</FB_ConstructDeliverResourcesToBlueprints.verb>

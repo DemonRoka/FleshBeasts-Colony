@@ -13,4 +13,11 @@
     <driverClass>FB.JobDriver_BurdenBlobLatchToWall</driverClass>
     <reportString>clinging to a colony wall.</reportString>
   </JobDef>
+
+  <!-- Задание: FB_BurdenBlobCleanFilth -->
+  <JobDef>
+    <defName>FB_BurdenBlobCleanFilth</defName>
+    <driverClass>FB.JobDriver_BurdenBlobCleanFilth</driverClass>
+    <reportString>cleaning TargetA.</reportString>
+  </JobDef>
 </Defs>

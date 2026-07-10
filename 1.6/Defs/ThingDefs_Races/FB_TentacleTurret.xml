@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <!-- Раса: Tentacle Turret (FB_TentacleTurret) -->
   <ThingDef ParentName="BasePawn">
@@ -73,7 +73,7 @@
         <immunityGainPerDay>0.75</immunityGainPerDay>
       </li>
     </comps>
-    <passability>Impassable</passability>
+    <passability>Standable</passability>
     <tradeability>None</tradeability>
     <tools>
       <li>

@@ -125,4 +125,20 @@
     <prioritizeSustains>true</prioritizeSustains>
     <equivalenceGroup>AssistInConstruction</equivalenceGroup>
   </WorkGiverDef>
+
+  <!-- Источник работы: clean colony filth (FB_BurdenBlobCleanFilth) -->
+  <WorkGiverDef>
+    <defName>FB_BurdenBlobCleanFilth</defName>
+    <label>clean colony filth</label>
+    <giverClass>FB.WorkGiver_BurdenBlobCleanFilth</giverClass>
+    <workType>Cleaning</workType>
+    <priorityInType>50</priorityInType>
+    <verb>clean</verb>
+    <gerund>cleaning</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+      <li>Moving</li>
+    </requiredCapacities>
+    <canBeDoneByMechs>false</canBeDoneByMechs>
+  </WorkGiverDef>
 </Defs>

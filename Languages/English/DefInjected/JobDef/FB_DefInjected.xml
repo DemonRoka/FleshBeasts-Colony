@@ -2,6 +2,7 @@
 <LanguageData>
   <ConsumeCorpseForSpawning.reportString>stalking TargetA.</ConsumeCorpseForSpawning.reportString>
   <FB_BurdenBlobLatchToWall.reportString>clinging to a colony wall.</FB_BurdenBlobLatchToWall.reportString>
+  <FB_BurdenBlobCleanFilth.reportString>cleaning TargetA.</FB_BurdenBlobCleanFilth.reportString>
   <FB_BurdenBlobRefillAtHeart.reportString>refilling hemogel at the colony heart.</FB_BurdenBlobRefillAtHeart.reportString>
   <FB_CarapaceExcavatorMine.reportString>excavating rock.</FB_CarapaceExcavatorMine.reportString>
   <FB_CarapaceExcavatorRegrowAtHeart.reportString>regrowing digging plates.</FB_CarapaceExcavatorRegrowAtHeart.reportString>

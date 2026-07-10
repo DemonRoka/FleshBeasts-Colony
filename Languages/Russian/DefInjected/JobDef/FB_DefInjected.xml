@@ -2,6 +2,7 @@
 <LanguageData>
   <ConsumeCorpseForSpawning.reportString>выслеживает TargetA.</ConsumeCorpseForSpawning.reportString>
   <FB_BurdenBlobLatchToWall.reportString>цепляется к стене колонии.</FB_BurdenBlobLatchToWall.reportString>
+  <FB_BurdenBlobCleanFilth.reportString>чистит TargetA.</FB_BurdenBlobCleanFilth.reportString>
   <FB_BurdenBlobRefillAtHeart.reportString>пополняет гемогель у сердца колонии.</FB_BurdenBlobRefillAtHeart.reportString>
   <FB_CarapaceExcavatorMine.reportString>выкапывает породу.</FB_CarapaceExcavatorMine.reportString>
   <FB_CarapaceExcavatorRegrowAtHeart.reportString>отращивает копательные пластины.</FB_CarapaceExcavatorRegrowAtHeart.reportString>

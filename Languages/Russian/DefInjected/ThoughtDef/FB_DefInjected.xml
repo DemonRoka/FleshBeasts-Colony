@@ -16,6 +16,8 @@
   <FB_FleshbeastColonyPresence.stages.2.label>окружён роем плоти</FB_FleshbeastColonyPresence.stages.2.label>
   <FB_FleshbeastColonyPresence.stages.3.description>Колония огромна, тепла и близка. Каждый зверь — ещё один пульс общего тела, и я покоюсь внутри него.</FB_FleshbeastColonyPresence.stages.3.description>
   <FB_FleshbeastColonyPresence.stages.3.label>плоть повсюду</FB_FleshbeastColonyPresence.stages.3.label>
+  <FB_FleshTentacleAccepted.stages.0.description>Щупальце больше не кажется чужим наростом — это ещё одна конечность общей плоти колонии.</FB_FleshTentacleAccepted.stages.0.description>
+  <FB_FleshTentacleAccepted.stages.0.label>щупальце принято плотью</FB_FleshTentacleAccepted.stages.0.label>
   <FB_AteFleshBiomass.stages.0.description>Я съел тёплую массу незнакомой живой ткани. Она питательна, но мне лучше не знать, что внутри неё шевелилось.</FB_AteFleshBiomass.stages.0.description>
   <FB_AteFleshBiomass.stages.0.label>съел странную биомассу</FB_AteFleshBiomass.stages.0.label>
 </LanguageData>

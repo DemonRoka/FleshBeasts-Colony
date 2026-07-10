@@ -3,6 +3,9 @@
   <CarryToFBAutoResearch.gerund>inserting</CarryToFBAutoResearch.gerund>
   <CarryToFBAutoResearch.label>carry to auto research</CarryToFBAutoResearch.label>
   <CarryToFBAutoResearch.verb>insert</CarryToFBAutoResearch.verb>
+  <FB_BurdenBlobCleanFilth.gerund>cleaning</FB_BurdenBlobCleanFilth.gerund>
+  <FB_BurdenBlobCleanFilth.label>clean colony filth</FB_BurdenBlobCleanFilth.label>
+  <FB_BurdenBlobCleanFilth.verb>clean</FB_BurdenBlobCleanFilth.verb>
   <FB_ConstructDeliverResourcesToBlueprints.gerund>working on</FB_ConstructDeliverResourcesToBlueprints.gerund>
   <FB_ConstructDeliverResourcesToBlueprints.label>deliver resources to blueprints</FB_ConstructDeliverResourcesToBlueprints.label>
   <FB_ConstructDeliverResourcesToBlueprints.verb>work on</FB_ConstructDeliverResourcesToBlueprints.verb>
