@@ -14,5 +14,8 @@
     <expandingIconTexture>Things/Building/FB_Organic/FleshTunnel/FleshTunnelMaw</expandingIconTexture>
     <expandingIconDrawSize>0.75</expandingIconDrawSize>
     <mapGenerator>Encounter</mapGenerator>
+    <comps>
+      <li Class="WorldObjectCompProperties_FormCaravan" />
+    </comps>
   </WorldObjectDef>
 </Defs>

@@ -18,6 +18,12 @@
   <FB_FleshbeastColonyPresence.stages.3.label>the flesh is everywhere</FB_FleshbeastColonyPresence.stages.3.label>
   <FB_FleshTentacleAccepted.stages.0.description>The tentacle is no longer an alien growth, but another limb of the colony&apos;s shared flesh.</FB_FleshTentacleAccepted.stages.0.description>
   <FB_FleshTentacleAccepted.stages.0.label>flesh tentacle accepted</FB_FleshTentacleAccepted.stages.0.label>
+  <FB_FleshWhipAccepted.stages.0.description>The living whip is no longer alien. It serves the colony&apos;s shared flesh.</FB_FleshWhipAccepted.stages.0.description>
+  <FB_FleshWhipAccepted.stages.0.label>flesh whip accepted</FB_FleshWhipAccepted.stages.0.label>
+  <FB_FleshmassStomachAccepted.stages.0.description>The stomach&apos;s acid is part of the colony&apos;s metabolism.</FB_FleshmassStomachAccepted.stages.0.description>
+  <FB_FleshmassStomachAccepted.stages.0.label>fleshmass stomach accepted</FB_FleshmassStomachAccepted.stages.0.label>
+  <FB_FleshmassLungAccepted.stages.0.description>The lung renews itself in rhythm with the colony&apos;s flesh.</FB_FleshmassLungAccepted.stages.0.description>
+  <FB_FleshmassLungAccepted.stages.0.label>fleshmass lung accepted</FB_FleshmassLungAccepted.stages.0.label>
   <FB_AteFleshBiomass.stages.0.description>I ate a warm mass of unfamiliar living tissue. It was nourishing, but I would rather not know what was moving inside it.</FB_AteFleshBiomass.stages.0.description>
   <FB_AteFleshBiomass.stages.0.label>ate strange biomass</FB_AteFleshBiomass.stages.0.label>
 </LanguageData>

@@ -60,16 +60,62 @@
     </stages>
   </ThoughtDef>
 
-  <!-- Мысль: принятые плотью щупальца -->
+  <!-- Мысли: мутации плоти, принятые колонией -->
   <ThoughtDef MayRequire="Ludeon.RimWorld.Anomaly">
     <defName>FB_FleshTentacleAccepted</defName>
-    <workerClass>FB.ThoughtWorker_FleshTentacleAccepted</workerClass>
+    <workerClass>FB.ThoughtWorker_FleshMutationAccepted</workerClass>
+    <hediff>Tentacle</hediff>
     <validWhileDespawned>true</validWhileDespawned>
     <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
     <stages>
       <li>
         <label>flesh tentacle accepted</label>
         <description>The tentacle is no longer an alien growth, but another limb of the colony's shared flesh.</description>
+        <baseMoodEffect>6</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef MayRequire="Ludeon.RimWorld.Anomaly">
+    <defName>FB_FleshWhipAccepted</defName>
+    <workerClass>FB.ThoughtWorker_FleshMutationAccepted</workerClass>
+    <hediff>FleshWhip</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+    <stages>
+      <li>
+        <label>flesh whip accepted</label>
+        <description>The living whip is no longer alien. It serves the colony's shared flesh.</description>
+        <baseMoodEffect>6</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef MayRequire="Ludeon.RimWorld.Anomaly">
+    <defName>FB_FleshmassStomachAccepted</defName>
+    <workerClass>FB.ThoughtWorker_FleshMutationAccepted</workerClass>
+    <hediff>FleshmassStomach</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+    <stages>
+      <li>
+        <label>fleshmass stomach accepted</label>
+        <description>The stomach's acid is part of the colony's metabolism.</description>
+        <baseMoodEffect>6</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef MayRequire="Ludeon.RimWorld.Anomaly">
+    <defName>FB_FleshmassLungAccepted</defName>
+    <workerClass>FB.ThoughtWorker_FleshMutationAccepted</workerClass>
+    <hediff>FleshmassLung</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+    <stages>
+      <li>
+        <label>fleshmass lung accepted</label>
+        <description>The lung renews itself in rhythm with the colony's flesh.</description>
         <baseMoodEffect>6</baseMoodEffect>
       </li>
     </stages>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <!-- База построек: BuildingColonyFleshBase -->
   <ThingDef Name="BuildingColonyFleshBase" Abstract="True">
@@ -443,7 +443,6 @@
     <li Class="FB.CompProperties_FleshNoGrowAreaCleaner">
       <cleanIntervalTicks>500</cleanIntervalTicks>
       <maxCellsPerCheck>3</maxCellsPerCheck>
-      <cleanRadius>79</cleanRadius>
       <terrainDefsToClean>
         <li>Flesh</li>
         <li>FleshVeins</li>
@@ -474,7 +473,6 @@
       <clearIconPath>UI/Commands/RemoveEyes</clearIconPath>
     </li>
     <li Class="FB.CompProperties_FleshmassAutoBuilder">
-      <scanRadius>79</scanRadius>
       <organicMaxWallThickness>2</organicMaxWallThickness>
       <wallDef>Fleshmass</wallDef>
       <floorDefs>
@@ -1075,6 +1073,9 @@
       <carrierJobDef>FB_ForcedFleshConversionDoctor</carrierJobDef>
       <fingerspikeJobDef>FB_ForcedFleshConversionFingerspike</fingerspikeJobDef>
       <stasisHediff>FB_GraftmawSurgicalStasis</stasisHediff>
+      <anesthesiaHediff>Anesthetic</anesthesiaHediff>
+      <restraintMoteDefName>Mote_HarbingerTreeRoots</restraintMoteDefName>
+      <anesthesiaRefreshTicks>2000</anesthesiaRefreshTicks>
       <biomassPartHediff>FB_ResurrectedBiomassPart</biomassPartHediff>
       <unrecruitableResultPawnKind>Toughspike</unrecruitableResultPawnKind>
       <commandIconPath>UI/Commands/ForcedFleshConversion</commandIconPath>

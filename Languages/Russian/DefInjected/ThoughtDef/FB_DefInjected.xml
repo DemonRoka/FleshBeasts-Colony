@@ -18,6 +18,12 @@
   <FB_FleshbeastColonyPresence.stages.3.label>плоть повсюду</FB_FleshbeastColonyPresence.stages.3.label>
   <FB_FleshTentacleAccepted.stages.0.description>Щупальце больше не кажется чужим наростом — это ещё одна конечность общей плоти колонии.</FB_FleshTentacleAccepted.stages.0.description>
   <FB_FleshTentacleAccepted.stages.0.label>щупальце принято плотью</FB_FleshTentacleAccepted.stages.0.label>
+  <FB_FleshWhipAccepted.stages.0.description>Живой хлыст больше не кажется чужим. Он служит общей плоти колонии.</FB_FleshWhipAccepted.stages.0.description>
+  <FB_FleshWhipAccepted.stages.0.label>хлыст принят плотью</FB_FleshWhipAccepted.stages.0.label>
+  <FB_FleshmassStomachAccepted.stages.0.description>Кислота желудка стала частью обмена веществ колонии.</FB_FleshmassStomachAccepted.stages.0.description>
+  <FB_FleshmassStomachAccepted.stages.0.label>желудок из биомассы принят плотью</FB_FleshmassStomachAccepted.stages.0.label>
+  <FB_FleshmassLungAccepted.stages.0.description>Лёгкое обновляется в ритме с плотью колонии.</FB_FleshmassLungAccepted.stages.0.description>
+  <FB_FleshmassLungAccepted.stages.0.label>лёгкое из биомассы принято плотью</FB_FleshmassLungAccepted.stages.0.label>
   <FB_AteFleshBiomass.stages.0.description>Я съел тёплую массу незнакомой живой ткани. Она питательна, но мне лучше не знать, что внутри неё шевелилось.</FB_AteFleshBiomass.stages.0.description>
   <FB_AteFleshBiomass.stages.0.label>съел странную биомассу</FB_AteFleshBiomass.stages.0.label>
 </LanguageData>
