@@ -135,7 +135,6 @@
         <li Class="ThinkNode_Subtree">
           <treeDef>BurningResponse</treeDef>
         </li>
-        <li Class="FB.JobGiver_TransferConsciousness" />
         <li Class="FB.JobGiver_PersonalityParasiteWanderHome" />
       </subNodes>
     </thinkRoot>

@@ -9,14 +9,11 @@
   <FB_FleshMemory_StatusAlive>Источник жив</FB_FleshMemory_StatusAlive>
   <FB_FleshMemory_StatusDead>Доступно для воссоздания</FB_FleshMemory_StatusDead>
   <FB_FleshMemory_StatusGrowing>Выращивание оболочки: {0}</FB_FleshMemory_StatusGrowing>
-  <FB_FleshMemory_StatusWaiting>Оболочка готова; ожидается пальцешип</FB_FleshMemory_StatusWaiting>
-  <FB_FleshMemory_StatusImplanting>Пальцешип внедряет сохранённое сознание</FB_FleshMemory_StatusImplanting>
-  <FB_FleshMemory_ReconstructTooltip>Выберите клетку и вырастите новое тело из этой памяти. Требуется {0} гемогеля мозга.</FB_FleshMemory_ReconstructTooltip>
+  <FB_FleshMemory_ReconstructTooltip>Выберите клетку и вырастите новое тело из этой памяти. Требуется {0} гемогеля мозга. Готовую оболочку нужно вручную пробудить командой «Воскресить через плоть».</FB_FleshMemory_ReconstructTooltip>
   <FB_FleshMemory_DeleteTooltip>Навсегда стереть эту память.</FB_FleshMemory_DeleteTooltip>
   <FB_FleshMemory_DeleteConfirm>Стереть сохранённую память о {0}? Живая принятая пешка не будет записана повторно, пока не потеряет и заново не получит принятие колонией плоти.</FB_FleshMemory_DeleteConfirm>
-  <FB_FleshMemory_DeleteActive>Нельзя стереть память, пока из неё выращивается оболочка.</FB_FleshMemory_DeleteActive>
+  <FB_FleshMemory_DeleteActive>Нельзя стереть память, пока существует выращенная из неё оболочка.</FB_FleshMemory_DeleteActive>
   <FB_FleshMemory_ReconstructionStarted>Мозг колонии начал выращивать новое тело для {0}.</FB_FleshMemory_ReconstructionStarted>
-  <FB_FleshMemory_ReconstructionComplete>{0} воссоздан из памяти колонии.</FB_FleshMemory_ReconstructionComplete>
   <FB_FleshMemory_ArchiveUnavailable>Архив памяти колонии плоти недоступен.</FB_FleshMemory_ArchiveUnavailable>
   <FB_FleshMemory_InvalidBrain>Выбранный мозг колонии не может начать воссоздание.</FB_FleshMemory_InvalidBrain>
   <FB_FleshMemory_NotDead>У этого сознания ещё есть живой источник.</FB_FleshMemory_NotDead>
@@ -26,9 +23,16 @@
   <FB_FleshMemory_InvalidGrowthCell>Выберите пустую проходимую клетку для новой оболочки.</FB_FleshMemory_InvalidGrowthCell>
   <FB_FleshMemory_CreateShellFailed>Мозгу колонии не удалось сформировать жизнеспособную оболочку.</FB_FleshMemory_CreateShellFailed>
   <FB_FleshMemory_NotEnoughHemogel>Для воссоздания требуется {0} гемогеля мозга. Доступно: {1}.</FB_FleshMemory_NotEnoughHemogel>
-  <FB_FleshMemory_InvalidOperation>Операция воссоздания больше не действительна.</FB_FleshMemory_InvalidOperation>
-  <FB_FleshMemory_ResurrectionFailed>Пальцешипу не удалось пробудить выращенную оболочку.</FB_FleshMemory_ResurrectionFailed>
   <FB_FleshMemory_ReconstructUnavailable>Эту память сейчас нельзя воссоздать.</FB_FleshMemory_ReconstructUnavailable>
+  <FB_FleshMemory_DepositLabel>Раствориться в памяти колонии</FB_FleshMemory_DepositLabel>
+  <FB_FleshMemory_DepositUnavailable>Эта пешка не может войти в память колонии.</FB_FleshMemory_DepositUnavailable>
+  <FB_FleshMemory_DepositNoPersonality>Этот паразит не несёт сохранённую личность.</FB_FleshMemory_DepositNoPersonality>
+  <FB_FleshMemory_DepositNoParasite>В память колонии может войти только пешка с личностным паразитом.</FB_FleshMemory_DepositNoParasite>
+  <FB_FleshMemory_DepositCannotMove>Эта пешка не может самостоятельно добраться до мозга колонии.</FB_FleshMemory_DepositCannotMove>
+  <FB_FleshMemory_DepositCannotReach>Эта пешка не может добраться до мозга колонии.</FB_FleshMemory_DepositCannotReach>
+  <FB_FleshMemory_DepositCannotStart>Не удалось начать перенос в память колонии.</FB_FleshMemory_DepositCannotStart>
+  <FB_FleshMemory_DepositFailed>Мозгу колонии не удалось сохранить эту личность.</FB_FleshMemory_DepositFailed>
+  <FB_FleshMemory_DepositComplete>{0} растворяется в памяти колонии.</FB_FleshMemory_DepositComplete>
   <FB_FleshMemory_DetailRace>Раса: {0}</FB_FleshMemory_DetailRace>
   <FB_FleshMemory_DetailGender>Пол: {0}</FB_FleshMemory_DetailGender>
   <FB_FleshMemory_DetailSkills>Сохранённые навыки:</FB_FleshMemory_DetailSkills>

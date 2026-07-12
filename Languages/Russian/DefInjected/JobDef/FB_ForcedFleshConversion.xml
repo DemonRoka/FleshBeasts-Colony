@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <FB_ForcedFleshConversionSubject.reportString>связывается с колонией плоти.</FB_ForcedFleshConversionSubject.reportString>
-  <FB_ForcedFleshConversionDoctor.reportString>направляет насильное принятие плоти для TargetB.</FB_ForcedFleshConversionDoctor.reportString>
-  <FB_ForcedFleshConversionFingerspike.reportString>ждёт использования в ритуале принятия плоти.</FB_ForcedFleshConversionFingerspike.reportString>
-  <FB_ForcedFleshConversionSpectator.reportString>наблюдает за насильным принятием плоти.</FB_ForcedFleshConversionSpectator.reportString>
+  <FB_ForcedFleshConversionDoctor.reportString>несёт TargetA к сердцу колонии.</FB_ForcedFleshConversionDoctor.reportString>
+  <FB_ForcedFleshConversionFingerspike.reportString>внедряется в TargetB.</FB_ForcedFleshConversionFingerspike.reportString>
 </LanguageData>

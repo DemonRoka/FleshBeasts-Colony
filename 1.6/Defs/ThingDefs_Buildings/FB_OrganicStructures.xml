@@ -1049,8 +1049,8 @@
       <tentacleHediffDefName>Tentacle</tentacleHediffDefName>
       <commandIconPath>UI/Commands/BrainFleshResurrection</commandIconPath>
       <workTicks>300</workTicks>
-      <cooldownTicks>60000</cooldownTicks>
       <tentacleMutationChance>0.5</tentacleMutationChance>
+      <marketValuePerFingerspike>300</marketValuePerFingerspike>
     </li>
     <li Class="FB.CompProperties_BrainHemoghoulConversion">
       <requiredResearch>FB_HemoghoulReanimation</requiredResearch>
@@ -1059,35 +1059,38 @@
       <forcedBodyType>Hulk</forcedBodyType>
       <commandIconPath>UI/Commands/HemoghoulConversion</commandIconPath>
       <workTicks>300</workTicks>
+      <marketValuePerFingerspike>300</marketValuePerFingerspike>
     </li>
     <li Class="FB.CompProperties_BrainFleshThrallConversion">
+      <requiredResearch>FB_FleshThrallReanimation</requiredResearch>
       <jobDef>FB_FingerspikeCreateFleshThrall</jobDef>
       <fleshThrallHediff>FB_FleshThrall</fleshThrallHediff>
       <fleshThrallMutant>FB_FleshThrall</fleshThrallMutant>
       <commandIconPath>UI/Commands/FleshThrallConversion</commandIconPath>
       <workTicks>180</workTicks>
-      <bodySizeRestoredPerFingerspike>1</bodySizeRestoredPerFingerspike>
+      <marketValuePerFingerspike>300</marketValuePerFingerspike>
     </li>
     <li Class="FB.CompProperties_BrainForcedFleshConversion">
-      <requiredResearch>FleshmassEngineering</requiredResearch>
-      <subjectJobDef>FB_ForcedFleshConversionSubject</subjectJobDef>
-      <doctorJobDef>FB_ForcedFleshConversionDoctor</doctorJobDef>
+      <requiredResearch>FB_FingerspikeImplantation</requiredResearch>
+      <carrierJobDef>FB_ForcedFleshConversionDoctor</carrierJobDef>
       <fingerspikeJobDef>FB_ForcedFleshConversionFingerspike</fingerspikeJobDef>
-      <spectatorJobDef>FB_ForcedFleshConversionSpectator</spectatorJobDef>
       <stasisHediff>FB_GraftmawSurgicalStasis</stasisHediff>
-      <brainBurnHediff>FB_ForcedFleshConversionBrainBurn</brainBurnHediff>
-      <stuporHediff>FB_ForcedFleshConversionStupor</stuporHediff>
-      <deathShockHediff>FB_ForcedFleshConversionDeathShock</deathShockHediff>
+      <biomassPartHediff>FB_ResurrectedBiomassPart</biomassPartHediff>
+      <unrecruitableResultPawnKind>Toughspike</unrecruitableResultPawnKind>
       <commandIconPath>UI/Commands/ForcedFleshConversion</commandIconPath>
-      <durationTicks>900</durationTicks>
-      <ritualMinDistanceFromHeart>2</ritualMinDistanceFromHeart>
-      <ritualPreferredDistanceFromHeart>3</ritualPreferredDistanceFromHeart>
+      <marketValuePerFingerspike>300</marketValuePerFingerspike>
+      <treatmentQuality>0.8</treatmentQuality>
+      <anchorSearchRadius>9</anchorSearchRadius>
+      <anchorMinDistanceFromHeart>2</anchorMinDistanceFromHeart>
+      <anchorPreferredDistanceFromHeart>3</anchorPreferredDistanceFromHeart>
     </li>
     <li Class="FB.CompProperties_FleshColonyMemoryBrain">
+      <requiredResearch>FB_ColonyMemoryArchive</requiredResearch>
       <reconstructionCost>500</reconstructionCost>
       <growthTicks>1000</growthTicks>
-      <fingerspikeWorkTicks>300</fingerspikeWorkTicks>
       <spawnRadius>5</spawnRadius>
+      <depositMemoryJob>FB_DepositPersonalityInColonyMemory</depositMemoryJob>
+      <depositMemoryWorkTicks>180</depositMemoryWorkTicks>
       <reconstructIconPath>UI/Commands/FleshMemoryReconstruct</reconstructIconPath>
       <deleteIconPath>UI/Commands/FleshMemoryDelete</deleteIconPath>
     </li>

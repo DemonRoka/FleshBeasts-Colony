@@ -17,6 +17,7 @@
         <lifetimeTicks>360000</lifetimeTicks>
         <bodySizeRestoredPerFingerspike>1</bodySizeRestoredPerFingerspike>
         <workTicks>180</workTicks>
+        <autoRestoreRetryTicks>2000</autoRestoreRetryTicks>
         <jobDef>FB_FingerspikeRestoreFleshThrall</jobDef>
         <restoreIconPath>UI/Commands/FleshThrallRestore</restoreIconPath>
         <releasedFleshbeastKind>Fingerspike</releasedFleshbeastKind>

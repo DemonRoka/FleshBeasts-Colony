@@ -92,9 +92,9 @@
     <checkOverrideOnDamage>Never</checkOverrideOnDamage>
   </JobDef>
   <JobDef>
-    <defName>FB_FingerspikeRestoreMemoryShell</defName>
-    <driverClass>FB.JobDriver_FingerspikeRestoreMemoryShell</driverClass>
-    <reportString>implanting a stored consciousness into TargetB.</reportString>
+    <defName>FB_DepositPersonalityInColonyMemory</defName>
+    <driverClass>FB.JobDriver_DepositPersonalityInColonyMemory</driverClass>
+    <reportString>dissolving into TargetA.</reportString>
     <checkOverrideOnDamage>Never</checkOverrideOnDamage>
   </JobDef>
 

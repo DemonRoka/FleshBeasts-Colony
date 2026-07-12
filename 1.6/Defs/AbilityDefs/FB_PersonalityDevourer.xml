@@ -28,6 +28,7 @@
     </verbProperties>
     <comps>
       <li Class="FB.CompProperties_AbilityPersonalityDevourerConsumeMemory">
+        <requiredResearch>FB_ColonyMemoryArchive</requiredResearch>
         <workTicks>300</workTicks>
       </li>
     </comps>

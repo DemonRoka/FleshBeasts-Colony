@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <FB_ForcedFleshConversionSubject.reportString>being bound to the flesh colony.</FB_ForcedFleshConversionSubject.reportString>
-  <FB_ForcedFleshConversionDoctor.reportString>guiding the forced flesh acceptance of TargetB.</FB_ForcedFleshConversionDoctor.reportString>
-  <FB_ForcedFleshConversionFingerspike.reportString>waiting to be used in forced flesh acceptance.</FB_ForcedFleshConversionFingerspike.reportString>
-  <FB_ForcedFleshConversionSpectator.reportString>watching forced flesh acceptance.</FB_ForcedFleshConversionSpectator.reportString>
+  <FB_ForcedFleshConversionDoctor.reportString>carrying TargetA to the colony heart.</FB_ForcedFleshConversionDoctor.reportString>
+  <FB_ForcedFleshConversionFingerspike.reportString>implanting itself into TargetB.</FB_ForcedFleshConversionFingerspike.reportString>
 </LanguageData>

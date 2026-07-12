@@ -4,7 +4,7 @@
 	<FB_CaptureNerveNode_SlotsInspect>Места узла: +{0}. Доступные места щупалец: {1} / {2}.</FB_CaptureNerveNode_SlotsInspect>
 	<FB_GraspingTendrils_HeartSlotsInspect>Места хватательных щупалец: {0} / {1} доступно.</FB_GraspingTendrils_HeartSlotsInspect>
 	<FB_GraspingTendrils_NextSlotReady>Следующее место щупалец восстановится через: {0}.</FB_GraspingTendrils_NextSlotReady>
-	<FB_GraspingTendrils_RitualProtected>Цель уже связана активным ритуалом плоти.</FB_GraspingTendrils_RitualProtected>
+	<FB_GraspingTendrils_RitualProtected>Цель уже принимается колонией плоти.</FB_GraspingTendrils_RitualProtected>
 	<FB_GraspingTendrils_NoFreeSlotsNext>Нет свободных мест хватательных щупалец. Следующее место восстановится через: {0}.</FB_GraspingTendrils_NoFreeSlotsNext>
 	<FB_GraspingPolicy_Tab>Захват</FB_GraspingPolicy_Tab>
 	<FB_GraspingPolicy_SearchTooltip>Фильтр списка по названию или defName.</FB_GraspingPolicy_SearchTooltip>

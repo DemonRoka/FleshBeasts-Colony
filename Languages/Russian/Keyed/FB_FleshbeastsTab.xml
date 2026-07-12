@@ -27,13 +27,13 @@
   <FB_FleshThrallTargetLabel>Восстанавливать до {0}%</FB_FleshThrallTargetLabel>
   <FB_FleshThrallRestoreLabel>Восстановить раба</FB_FleshThrallRestoreLabel>
   <FB_FleshThrallRestoreDesc>Позвать ближайших пальцешипов, чтобы они внедрились в мясного раба и восстановили его сцепление.</FB_FleshThrallRestoreDesc>
+  <FB_FleshThrallAutoRestoreDesc>Щёлкните правой кнопкой по этой команде, чтобы включить автоматическое восстановление. В этом режиме один доступный пальцешип вызывается после потери объёма сцепления, который он может восполнить, или при падении ниже 20%.</FB_FleshThrallAutoRestoreDesc>
   <FB_FleshThrallRestoreNoFingerspike>Нет доступных пальцешипов, способных добраться до цели.</FB_FleshThrallRestoreNoFingerspike>
-  <FB_FleshThrallRestoreMechanoid>Механоидных мясных рабов нельзя восстанавливать.</FB_FleshThrallRestoreMechanoid>
   <FB_FleshThrallRestoreFullEnough>Раб уже полностью сцеплен.</FB_FleshThrallRestoreFullEnough>
   <FB_FleshThrallRestoreNoJob>Работа восстановления не настроена.</FB_FleshThrallRestoreNoJob>
   <FB_FleshThrallRestoreStarted>{0} пальцешип(ов) назначено на восстановление {1}.</FB_FleshThrallRestoreStarted>
   <FB_FleshThrallConvertLabel>Создать мясного раба</FB_FleshThrallConvertLabel>
-  <FB_FleshThrallConvertDesc>Отправить нужное число пальцешипов в живую пешку или труп, чтобы связать тело как мясного раба.</FB_FleshThrallConvertDesc>
+  <FB_FleshThrallConvertDesc>Отправить нужное число пальцешипов в труп, чтобы связать тело как плотяного раба.</FB_FleshThrallConvertDesc>
   <FB_FleshThrallConvertInspect>Связывание {0}: {1}/{2} пальцешипов.</FB_FleshThrallConvertInspect>
   <FB_FleshThrallConvertInvalidTarget>Недопустимая цель для мясного раба.</FB_FleshThrallConvertInvalidTarget>
   <FB_FleshThrallConvertDessicatedCorpse>Труп уже высох до костей и не подходит для связывания как мясной раб.</FB_FleshThrallConvertDessicatedCorpse>

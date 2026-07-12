@@ -4,6 +4,7 @@
   <FB_PersonalityDevourer_InvalidCaster>Только Поглотитель личностей может поглощать сохранённые сознания.</FB_PersonalityDevourer_InvalidCaster>
   <FB_PersonalityDevourer_InvalidCorpse>Выберите мёртвое гуманоидное тело.</FB_PersonalityDevourer_InvalidCorpse>
   <FB_PersonalityDevourer_HumanlikeOnly>Только мёртвые гуманоидные тела можно записать в память колонии.</FB_PersonalityDevourer_HumanlikeOnly>
+  <FB_PersonalityDevourer_Dessicated>В высохшем скелете уже не осталось личности, которую можно восстановить.</FB_PersonalityDevourer_Dessicated>
   <FB_PersonalityDevourer_BrainRequired>У трупа должен сохраниться мозг.</FB_PersonalityDevourer_BrainRequired>
   <FB_PersonalityDevourer_AlreadyRecorded>Это сознание уже записано в памяти колонии.</FB_PersonalityDevourer_AlreadyRecorded>
   <FB_PersonalityDevourer_CannotReachCorpse>Поглотитель личностей не может добраться до этого трупа.</FB_PersonalityDevourer_CannotReachCorpse>

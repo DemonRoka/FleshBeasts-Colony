@@ -23,9 +23,10 @@
         <targetValue>1500</targetValue>
         <minValue>1300</minValue>
         <maxValue>1700</maxValue>
-        <gatherRadius>3</gatherRadius>
-        <cooldownTicks>2500</cooldownTicks>
-      </li>
+          <gatherRadius>3</gatherRadius>
+          <cooldownTicks>2500</cooldownTicks>
+          <personalityDevourerResearch>FB_ColonyMemoryArchive</personalityDevourerResearch>
+        </li>
       <li Class="FB.HediffCompProperties_FleshColonyMemoryLink">
         <refreshIntervalTicks>20000</refreshIntervalTicks>
       </li>

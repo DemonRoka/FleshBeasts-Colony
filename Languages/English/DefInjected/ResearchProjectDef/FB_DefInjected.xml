@@ -119,4 +119,22 @@
   <FB_GeoferriteGlands.generalRules.rulesStrings.2>subject_story-&gt;refined hemogel into bioferrite under geothermal pressure</FB_GeoferriteGlands.generalRules.rulesStrings.2>
   <FB_GeoferriteGlands.generalRules.rulesStrings.3>subject_gerund-&gt;growing geoferrite glands</FB_GeoferriteGlands.generalRules.rulesStrings.3>
   <FB_GeoferriteGlands.label>geoferrite glands</FB_GeoferriteGlands.label>
+  <FB_FingerspikeImplantation.label>fingerspike implantation</FB_FingerspikeImplantation.label>
+  <FB_FingerspikeImplantation.description>Teach the colony to implant fingerspikes into living bodies, forcibly accepting new members into the flesh colony.</FB_FingerspikeImplantation.description>
+  <FB_FingerspikeImplantation.generalRules.rulesStrings.0>subject-&gt;fingerspike implantation</FB_FingerspikeImplantation.generalRules.rulesStrings.0>
+  <FB_FingerspikeImplantation.generalRules.rulesStrings.1>subject_story-&gt;learned to bind living minds through fingerspikes</FB_FingerspikeImplantation.generalRules.rulesStrings.1>
+  <FB_FingerspikeImplantation.generalRules.rulesStrings.2>subject_story-&gt;adapted fingerspikes for controlled implantation</FB_FingerspikeImplantation.generalRules.rulesStrings.2>
+  <FB_FingerspikeImplantation.generalRules.rulesStrings.3>subject_gerund-&gt;implanting fingerspikes</FB_FingerspikeImplantation.generalRules.rulesStrings.3>
+  <FB_FleshThrallReanimation.label>flesh thrall reanimation</FB_FleshThrallReanimation.label>
+  <FB_FleshThrallReanimation.description>Teach the colony brain to rebuild a body around fingerspikes and raise it as a controllable flesh thrall.</FB_FleshThrallReanimation.description>
+  <FB_FleshThrallReanimation.generalRules.rulesStrings.0>subject-&gt;flesh thrall reanimation</FB_FleshThrallReanimation.generalRules.rulesStrings.0>
+  <FB_FleshThrallReanimation.generalRules.rulesStrings.1>subject_story-&gt;raised obedient servants through unstable flesh</FB_FleshThrallReanimation.generalRules.rulesStrings.1>
+  <FB_FleshThrallReanimation.generalRules.rulesStrings.2>subject_story-&gt;used fingerspikes to sustain temporary thralls</FB_FleshThrallReanimation.generalRules.rulesStrings.2>
+  <FB_FleshThrallReanimation.generalRules.rulesStrings.3>subject_gerund-&gt;raising flesh thralls</FB_FleshThrallReanimation.generalRules.rulesStrings.3>
+  <FB_ColonyMemoryArchive.label>colony memory archive</FB_ColonyMemoryArchive.label>
+  <FB_ColonyMemoryArchive.description>Teach personality devourers to preserve identities in the colony brain and reconstruct them in fresh flesh shells.</FB_ColonyMemoryArchive.description>
+  <FB_ColonyMemoryArchive.generalRules.rulesStrings.0>subject-&gt;colony memory archive</FB_ColonyMemoryArchive.generalRules.rulesStrings.0>
+  <FB_ColonyMemoryArchive.generalRules.rulesStrings.1>subject_story-&gt;preserved identities within the colony brain</FB_ColonyMemoryArchive.generalRules.rulesStrings.1>
+  <FB_ColonyMemoryArchive.generalRules.rulesStrings.2>subject_story-&gt;learned to rebuild minds in prepared flesh shells</FB_ColonyMemoryArchive.generalRules.rulesStrings.2>
+  <FB_ColonyMemoryArchive.generalRules.rulesStrings.3>subject_gerund-&gt;archiving colony memories</FB_ColonyMemoryArchive.generalRules.rulesStrings.3>
 </LanguageData>

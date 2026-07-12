@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_PersonalityDevourerConsumeMemory.label>consume memory</FB_PersonalityDevourerConsumeMemory.label>
-  <FB_PersonalityDevourerConsumeMemory.description>Move to an intact-brained humanlike corpse, consume it, and record its identity in the colony brain.</FB_PersonalityDevourerConsumeMemory.description>
+  <FB_PersonalityDevourerConsumeMemory.description>Move to a fresh or rotting humanlike corpse with an intact brain, consume it, and record its identity in the colony brain.</FB_PersonalityDevourerConsumeMemory.description>
 </LanguageData>

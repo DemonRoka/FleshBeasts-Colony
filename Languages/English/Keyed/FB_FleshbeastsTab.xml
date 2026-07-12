@@ -27,13 +27,13 @@
   <FB_FleshThrallTargetLabel>Restore to {0}%</FB_FleshThrallTargetLabel>
   <FB_FleshThrallRestoreLabel>Restore thrall</FB_FleshThrallRestoreLabel>
   <FB_FleshThrallRestoreDesc>Call nearby fingerspikes to enter this flesh thrall and restore its cohesion.</FB_FleshThrallRestoreDesc>
+  <FB_FleshThrallAutoRestoreDesc>Right-click this command to toggle automatic restoration. When enabled, one available fingerspike is called after the thrall has lost one fingerspike's worth of cohesion, or falls below 20%.</FB_FleshThrallAutoRestoreDesc>
   <FB_FleshThrallRestoreNoFingerspike>No reachable fingerspikes are available.</FB_FleshThrallRestoreNoFingerspike>
-  <FB_FleshThrallRestoreMechanoid>Mechanoid flesh thralls cannot be restored.</FB_FleshThrallRestoreMechanoid>
   <FB_FleshThrallRestoreFullEnough>The thrall is already fully coherent.</FB_FleshThrallRestoreFullEnough>
   <FB_FleshThrallRestoreNoJob>Restore job is not configured.</FB_FleshThrallRestoreNoJob>
   <FB_FleshThrallRestoreStarted>{0} fingerspike(s) assigned to restore {1}.</FB_FleshThrallRestoreStarted>
   <FB_FleshThrallConvertLabel>Create flesh thrall</FB_FleshThrallConvertLabel>
-  <FB_FleshThrallConvertDesc>Send enough fingerspikes into a living pawn or corpse to bind it as a flesh thrall.</FB_FleshThrallConvertDesc>
+  <FB_FleshThrallConvertDesc>Send enough fingerspikes into a corpse to bind it as a flesh thrall.</FB_FleshThrallConvertDesc>
   <FB_FleshThrallConvertInspect>Binding {0}: {1}/{2} fingerspikes.</FB_FleshThrallConvertInspect>
   <FB_FleshThrallConvertInvalidTarget>Invalid flesh thrall target.</FB_FleshThrallConvertInvalidTarget>
   <FB_FleshThrallConvertDessicatedCorpse>The corpse is too desiccated to be bound as a flesh thrall.</FB_FleshThrallConvertDessicatedCorpse>

@@ -31,7 +31,7 @@
     </prerequisites>
     <baseCost>1200</baseCost>
     <researchViewX>1.00</researchViewX>
-    <researchViewY>4.80</researchViewY>
+    <researchViewY>5.40</researchViewY>
     <generalRules>
       <rulesStrings>
         <li>subject-&gt;fleshmass bone wall reinforcement</li>
@@ -52,8 +52,8 @@
       <li>FleshmassEngineering</li>
     </prerequisites>
     <baseCost>1500</baseCost>
-    <researchViewX>1.00</researchViewX>
-    <researchViewY>1.10</researchViewY>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>0.50</researchViewY>
     <generalRules>
       <rulesStrings>
         <li>subject-&gt;flesh seed crafting</li>
@@ -72,10 +72,11 @@
     <techLevel>Industrial</techLevel>
     <prerequisites>
       <li>FleshSeedCreation</li>
+      <li>FB_FleshResurrection</li>
     </prerequisites>
-    <baseCost>1500</baseCost>
-    <researchViewX>2.50</researchViewX>
-    <researchViewY>1.10</researchViewY>
+    <baseCost>1800</baseCost>
+    <researchViewX>4.00</researchViewX>
+    <researchViewY>0.00</researchViewY>
     <generalRules>
       <rulesStrings>
         <li>subject-&gt;parasite egg incubation</li>
@@ -96,8 +97,8 @@
       <li>FleshmassEngineering</li>
     </prerequisites>
     <baseCost>3000</baseCost>
-    <researchViewX>2.00</researchViewX>
-    <researchViewY>4.90</researchViewY>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>4.40</researchViewY>
     <generalRules>
       <rulesStrings>
         <li>subject-&gt;flesh tunneling</li>
@@ -163,7 +164,7 @@
     </prerequisites>
     <baseCost>1200</baseCost>
     <researchViewX>1.00</researchViewX>
-    <researchViewY>1.70</researchViewY>
+    <researchViewY>0.00</researchViewY>
     <generalRules>
       <rulesStrings>
         <li>subject-&gt;fleshmass acid spitting</li>
@@ -185,7 +186,7 @@
     </prerequisites>
     <baseCost>1200</baseCost>
     <researchViewX>2.00</researchViewX>
-    <researchViewY>5.50</researchViewY>
+    <researchViewY>2.90</researchViewY>
     <generalRules>
       <rulesStrings>
         <li>subject-&gt;gastric acid spewers</li>
@@ -206,8 +207,8 @@
       <li>SpitterResearch</li>
     </prerequisites>
     <baseCost>1800</baseCost>
-    <researchViewX>3.00</researchViewX>
-    <researchViewY>1.80</researchViewY>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>0.00</researchViewY>
     <generalRules>
       <rulesStrings>
         <li>subject-&gt;living bile artillery</li>
@@ -229,7 +230,7 @@
     </prerequisites>
     <baseCost>800</baseCost>
     <researchViewX>1.00</researchViewX>
-    <researchViewY>3.40</researchViewY>
+    <researchViewY>3.80</researchViewY>
     <generalRules>
       <rulesStrings>
         <li>subject-&gt;photosynthetic hemogel generation</li>
@@ -250,8 +251,8 @@
       <li>FleshmassEngineering</li>
     </prerequisites>
     <baseCost>1200</baseCost>
-    <researchViewX>2.00</researchViewX>
-    <researchViewY>1.70</researchViewY>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>3.30</researchViewY>
     <generalRules>
       <rulesStrings>
         <li>subject-&gt;fleshmass turret growth</li>
@@ -273,7 +274,7 @@
     </prerequisites>
     <baseCost>1200</baseCost>
     <researchViewX>1.00</researchViewX>
-    <researchViewY>2.90</researchViewY>
+    <researchViewY>0.60</researchViewY>
     <generalRules>
       <rulesStrings>
         <li>subject-&gt;capillary trawling</li>
@@ -295,7 +296,7 @@
     </prerequisites>
     <baseCost>1400</baseCost>
     <researchViewX>1.00</researchViewX>
-    <researchViewY>4.20</researchViewY>
+    <researchViewY>4.90</researchViewY>
     <generalRules>
       <rulesStrings>
         <li>subject-&gt;flesh defender incubation</li>
@@ -317,7 +318,7 @@
     </prerequisites>
     <baseCost>1800</baseCost>
     <researchViewX>2.00</researchViewX>
-    <researchViewY>4.55</researchViewY>
+    <researchViewY>5.60</researchViewY>
     <generalRules>
       <rulesStrings>
         <li>subject-&gt;devourer gestation</li>
@@ -339,8 +340,8 @@
       <li>FB_GastricChambers</li>
     </prerequisites>
     <baseCost>2200</baseCost>
-    <researchViewX>4.00</researchViewX>
-    <researchViewY>5.70</researchViewY>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>3.90</researchViewY>
     <generalRules>
       <rulesStrings>
         <li>subject-&gt;acid broodmother convergence</li>
@@ -406,7 +407,7 @@
     </prerequisites>
     <baseCost>1400</baseCost>
     <researchViewX>1.00</researchViewX>
-    <researchViewY>5.50</researchViewY>
+    <researchViewY>1.10</researchViewY>
     <generalRules>
       <rulesStrings>
         <li>subject-&gt;fleshmass minion hives</li>
@@ -428,7 +429,7 @@
     </prerequisites>
     <baseCost>1200</baseCost>
     <researchViewX>2.00</researchViewX>
-    <researchViewY>3.40</researchViewY>
+    <researchViewY>3.80</researchViewY>
     <generalRules>
       <rulesStrings>
         <li>subject-&gt;photosynthetic fleshtree cultivation</li>
@@ -450,7 +451,7 @@
     </prerequisites>
     <baseCost>800</baseCost>
     <researchViewX>1.00</researchViewX>
-    <researchViewY>0.40</researchViewY>
+    <researchViewY>1.60</researchViewY>
     <generalRules>
       <rulesStrings>
         <li>subject-&gt;friend-or-foe recognition</li>
@@ -471,7 +472,7 @@
     </prerequisites>
     <baseCost>1200</baseCost>
     <researchViewX>2.00</researchViewX>
-    <researchViewY>0.00</researchViewY>
+    <researchViewY>3.40</researchViewY>
     <generalRules>
       <rulesStrings>
         <li>subject-&gt;capture nerve lattice</li>
@@ -492,8 +493,8 @@
       <li>FB_FriendlyCaptureRecognition</li>
     </prerequisites>
     <baseCost>1400</baseCost>
-    <researchViewX>3.00</researchViewX>
-    <researchViewY>0.40</researchViewY>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>1.00</researchViewY>
     <generalRules>
       <rulesStrings>
         <li>subject-&gt;deep maw traps</li>
@@ -515,7 +516,7 @@
     </prerequisites>
     <baseCost>1800</baseCost>
     <researchViewX>2.00</researchViewX>
-    <researchViewY>3.80</researchViewY>
+    <researchViewY>5.10</researchViewY>
     <generalRules>
       <rulesStrings>
         <li>subject-&gt;segmented bastion fusion</li>
@@ -536,8 +537,8 @@
       <li>DefenderIncubatorResearch</li>
     </prerequisites>
     <baseCost>2200</baseCost>
-    <researchViewX>2.50</researchViewX>
-    <researchViewY>4.20</researchViewY>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>4.60</researchViewY>
     <generalRules>
       <rulesStrings>
         <li>subject-&gt;fleshmass brood incubation</li>
@@ -558,8 +559,8 @@
       <li>FB_BroodMotherResearch</li>
     </prerequisites>
     <baseCost>1800</baseCost>
-    <researchViewX>3.50</researchViewX>
-    <researchViewY>3.90</researchViewY>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>4.60</researchViewY>
     <generalRules>
       <rulesStrings>
         <li>subject-&gt;adaptive fleshbeast harvesters</li>
@@ -580,8 +581,8 @@
       <li>FB_BroodMotherResearch</li>
     </prerequisites>
     <baseCost>2200</baseCost>
-    <researchViewX>3.50</researchViewX>
-    <researchViewY>4.50</researchViewY>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>5.10</researchViewY>
     <generalRules>
       <rulesStrings>
         <li>subject-&gt;neural fleshbeast dominion</li>
@@ -602,8 +603,8 @@
       <li>FB_BroodMotherResearch</li>
     </prerequisites>
     <baseCost>1800</baseCost>
-    <researchViewX>3.50</researchViewX>
-    <researchViewY>3.30</researchViewY>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>5.60</researchViewY>
     <generalRules>
       <rulesStrings>
         <li>subject-&gt;psychic lure antennae</li>
@@ -624,8 +625,8 @@
       <li>FleshmassEngineering</li>
     </prerequisites>
     <baseCost>2500</baseCost>
-    <researchViewX>3.00</researchViewX>
-    <researchViewY>5.50</researchViewY>
+    <researchViewX>5.00</researchViewX>
+    <researchViewY>2.20</researchViewY>
     <generalRules>
       <rulesStrings>
         <li>subject-&gt;organic genetics</li>
@@ -648,8 +649,8 @@
       <li>FB_AdaptiveHarvesters</li>
     </prerequisites>
     <baseCost>5000</baseCost>
-    <researchViewX>5.00</researchViewX>
-    <researchViewY>4.90</researchViewY>
+    <researchViewX>7.00</researchViewX>
+    <researchViewY>2.20</researchViewY>
     <generalRules>
       <rulesStrings>
         <li>subject-&gt;celestial budding</li>
@@ -669,10 +670,11 @@
     <techLevel>Industrial</techLevel>
     <prerequisites>
       <li>FB_FleshResurrection</li>
+      <li>FB_FleshThrallReanimation</li>
     </prerequisites>
-    <baseCost>2000</baseCost>
-    <researchViewX>5.00</researchViewX>
-    <researchViewY>1.70</researchViewY>
+    <baseCost>2500</baseCost>
+    <researchViewX>6.00</researchViewX>
+    <researchViewY>0.70</researchViewY>
     <generalRules>
       <rulesStrings>
         <li>subject-&gt;hemoghoul reanimation</li>
@@ -691,17 +693,86 @@
     <tab>FB_Fleshbeast</tab>
     <techLevel>Industrial</techLevel>
     <prerequisites>
-      <li>FleshmassEngineering</li>
+      <li>FB_FingerspikeImplantation</li>
     </prerequisites>
     <baseCost>4000</baseCost>
-    <researchViewX>4.00</researchViewX>
-    <researchViewY>1.80</researchViewY>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>1.10</researchViewY>
     <generalRules>
       <rulesStrings>
         <li>subject-&gt;flesh resurrection</li>
         <li>subject_story-&gt;restored dead minds through living flesh</li>
         <li>subject_story-&gt;used fingerspikes to return corpses to the colony</li>
         <li>subject_gerund-&gt;resurrecting through flesh</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+
+  <!-- Research: fingerspike implantation (FB_FingerspikeImplantation) -->
+  <ResearchProjectDef>
+    <defName>FB_FingerspikeImplantation</defName>
+    <label>fingerspike implantation</label>
+    <description>Teach the colony to implant fingerspikes into living bodies, forcibly accepting new members into the flesh colony.</description>
+    <tab>FB_Fleshbeast</tab>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>FleshmassEngineering</li>
+    </prerequisites>
+    <baseCost>900</baseCost>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>1.60</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject-&gt;fingerspike implantation</li>
+        <li>subject_story-&gt;learned to bind living minds through fingerspikes</li>
+        <li>subject_story-&gt;adapted fingerspikes for controlled implantation</li>
+        <li>subject_gerund-&gt;implanting fingerspikes</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+
+  <!-- Research: flesh thrall reanimation (FB_FleshThrallReanimation) -->
+  <ResearchProjectDef>
+    <defName>FB_FleshThrallReanimation</defName>
+    <label>flesh thrall reanimation</label>
+    <description>Teach the colony brain to rebuild a body around fingerspikes and raise it as a controllable flesh thrall.</description>
+    <tab>FB_Fleshbeast</tab>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>FB_FingerspikeImplantation</li>
+    </prerequisites>
+    <baseCost>1600</baseCost>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>1.80</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject-&gt;flesh thrall reanimation</li>
+        <li>subject_story-&gt;raised obedient servants through unstable flesh</li>
+        <li>subject_story-&gt;used fingerspikes to sustain temporary thralls</li>
+        <li>subject_gerund-&gt;raising flesh thralls</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+
+  <!-- Research: colony memory archive (FB_ColonyMemoryArchive) -->
+  <ResearchProjectDef>
+    <defName>FB_ColonyMemoryArchive</defName>
+    <label>colony memory archive</label>
+    <description>Teach personality devourers to preserve identities in the colony brain and reconstruct them in fresh flesh shells.</description>
+    <tab>FB_Fleshbeast</tab>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>ParasiteEggConversion</li>
+    </prerequisites>
+    <baseCost>3200</baseCost>
+    <researchViewX>6.00</researchViewX>
+    <researchViewY>0.00</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject-&gt;colony memory archive</li>
+        <li>subject_story-&gt;preserved identities within the colony brain</li>
+        <li>subject_story-&gt;learned to rebuild minds in prepared flesh shells</li>
+        <li>subject_gerund-&gt;archiving colony memories</li>
       </rulesStrings>
     </generalRules>
   </ResearchProjectDef>

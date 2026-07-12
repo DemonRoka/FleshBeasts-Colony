@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_Hemoghoul_CommandLabel>Создать гемогуля</FB_Hemoghoul_CommandLabel>
-  <FB_Hemoghoul_CommandDesc>Отправить доступного пальцешипа внедриться в свежий гуманоидный труп и поднять его как неутомимого рабочего, питающегося гемогелем.</FB_Hemoghoul_CommandDesc>
+  <FB_Hemoghoul_CommandDesc>Отправить достаточно пальцешипов в свежий гуманоидный труп и поднять его как неутомимого рабочего, питающегося гемогелем. Требуется один пальцешип на каждые 300 рыночной ценности здоровой пешки.</FB_Hemoghoul_CommandDesc>
   <FB_Hemoghoul_Name>Гемогуль</FB_Hemoghoul_Name>
   <FB_Hemoghoul_Title>гемогуль</FB_Hemoghoul_Title>
   <FB_Hemoghoul_InvalidTarget>Недопустимая цель для создания гемогуля.</FB_Hemoghoul_InvalidTarget>
@@ -9,12 +9,12 @@
   <FB_Hemoghoul_HumanlikeOnly>Целью должен быть мёртвый гуманоидный труп.</FB_Hemoghoul_HumanlikeOnly>
   <FB_Hemoghoul_MutantCorpse>Труп мутанта нельзя поднять как гемогуля.</FB_Hemoghoul_MutantCorpse>
   <FB_Hemoghoul_NoFingerspike>Нет доступного пальцешипа для внедрения.</FB_Hemoghoul_NoFingerspike>
-  <FB_Hemoghoul_NoReachableFingerspike>Ни один доступный пальцешип не может добраться до трупа.</FB_Hemoghoul_NoReachableFingerspike>
+  <FB_Hemoghoul_NotEnoughFingerspikes>Для создания этого гемогуля требуется {0} доступных пальцешипов; добраться могут только {1}.</FB_Hemoghoul_NotEnoughFingerspikes>
   <FB_Hemoghoul_CannotStart>Не удалось начать внедрение гемогуля.</FB_Hemoghoul_CannotStart>
-  <FB_Hemoghoul_Assigned>{0} внедряется в {1}.</FB_Hemoghoul_Assigned>
+  <FB_Hemoghoul_Assigned>{0} пальцешипов направляются создать гемогуля из {1}.</FB_Hemoghoul_Assigned>
   <FB_Hemoghoul_Success>{0} поднят как гемогуль.</FB_Hemoghoul_Success>
   <FB_Hemoghoul_Failed>Не удалось поднять труп как гемогуля.</FB_Hemoghoul_Failed>
   <FB_Hemoghoul_AlreadyAssigned>Внедрение гемогуля уже назначено.</FB_Hemoghoul_AlreadyAssigned>
   <FB_Hemoghoul_TargetAlreadyAssigned>Этот труп уже назначен для операции плоти.</FB_Hemoghoul_TargetAlreadyAssigned>
-  <FB_Hemoghoul_InspectAssigned>Внедрение гемогуля: {0}</FB_Hemoghoul_InspectAssigned>
+  <FB_Hemoghoul_InspectAssigned>Цель создания гемогуля: {0} (внедрено пальцешипов: {1}/{2})</FB_Hemoghoul_InspectAssigned>
 </LanguageData>

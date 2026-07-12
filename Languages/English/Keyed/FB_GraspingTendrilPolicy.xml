@@ -13,7 +13,7 @@
   <FB_GraspingTendrils_PlayerProtected>The colony will not grasp its own pawns, owned animals or allied fleshbeasts.</FB_GraspingTendrils_PlayerProtected>
   <FB_GraspingTendrils_OutOfRange>Target is outside grasping tendril range.</FB_GraspingTendrils_OutOfRange>
   <FB_GraspingTendrils_PolicyReject>Target is forbidden by the grasping tendril policy.</FB_GraspingTendrils_PolicyReject>
-  <FB_GraspingTendrils_RitualProtected>Target is already bound into an active flesh ritual.</FB_GraspingTendrils_RitualProtected>
+  <FB_GraspingTendrils_RitualProtected>Target is already being accepted by the flesh colony.</FB_GraspingTendrils_RitualProtected>
   <FB_GraspingTendrils_NoFreeSlots>No free grasping tendril slots.</FB_GraspingTendrils_NoFreeSlots>
   <FB_GraspingTendrils_NoFreeSlotsNext>No free grasping tendril slots. Next slot ready in: {0}.</FB_GraspingTendrils_NoFreeSlotsNext>
   <FB_GraspingPolicy_Tab>Grasping</FB_GraspingPolicy_Tab>

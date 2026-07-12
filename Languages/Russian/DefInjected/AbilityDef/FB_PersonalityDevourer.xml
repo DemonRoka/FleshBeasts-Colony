@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_PersonalityDevourerConsumeMemory.label>поглотить память</FB_PersonalityDevourerConsumeMemory.label>
-  <FB_PersonalityDevourerConsumeMemory.description>Подойти к гуманоидному трупу с сохранившимся мозгом, поглотить его и записать личность в мозг колонии.</FB_PersonalityDevourerConsumeMemory.description>
+  <FB_PersonalityDevourerConsumeMemory.description>Подойти к свежему или подгнившему гуманоидному трупу с сохранившимся мозгом, поглотить его и записать личность в мозг колонии.</FB_PersonalityDevourerConsumeMemory.description>
 </LanguageData>

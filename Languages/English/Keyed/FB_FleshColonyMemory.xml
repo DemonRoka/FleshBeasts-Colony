@@ -9,14 +9,11 @@
   <FB_FleshMemory_StatusAlive>Living source</FB_FleshMemory_StatusAlive>
   <FB_FleshMemory_StatusDead>Available for reconstruction</FB_FleshMemory_StatusDead>
   <FB_FleshMemory_StatusGrowing>Growing shell: {0}</FB_FleshMemory_StatusGrowing>
-  <FB_FleshMemory_StatusWaiting>Shell ready; waiting for a fingerspike</FB_FleshMemory_StatusWaiting>
-  <FB_FleshMemory_StatusImplanting>Fingerspike is implanting the stored mind</FB_FleshMemory_StatusImplanting>
-  <FB_FleshMemory_ReconstructTooltip>Select a cell and grow a new body from this memory. Costs {0} brain hemogel.</FB_FleshMemory_ReconstructTooltip>
+  <FB_FleshMemory_ReconstructTooltip>Select a cell and grow a new body from this memory. Costs {0} brain hemogel. Once complete, awaken it manually with Resurrect through flesh.</FB_FleshMemory_ReconstructTooltip>
   <FB_FleshMemory_DeleteTooltip>Erase this memory permanently.</FB_FleshMemory_DeleteTooltip>
   <FB_FleshMemory_DeleteConfirm>Erase the stored memory of {0}? A living accepted pawn will not be recorded again until it loses and regains flesh-colony acceptance.</FB_FleshMemory_DeleteConfirm>
-  <FB_FleshMemory_DeleteActive>This memory cannot be erased while its shell is growing.</FB_FleshMemory_DeleteActive>
+  <FB_FleshMemory_DeleteActive>This memory cannot be erased while its shell exists.</FB_FleshMemory_DeleteActive>
   <FB_FleshMemory_ReconstructionStarted>The colony brain has begun growing a new body for {0}.</FB_FleshMemory_ReconstructionStarted>
-  <FB_FleshMemory_ReconstructionComplete>{0} has been restored from the colony's memory.</FB_FleshMemory_ReconstructionComplete>
   <FB_FleshMemory_ArchiveUnavailable>The flesh-colony memory archive is unavailable.</FB_FleshMemory_ArchiveUnavailable>
   <FB_FleshMemory_InvalidBrain>The selected colony brain cannot begin reconstruction.</FB_FleshMemory_InvalidBrain>
   <FB_FleshMemory_NotDead>This mind still has a living source.</FB_FleshMemory_NotDead>
@@ -26,9 +23,16 @@
   <FB_FleshMemory_InvalidGrowthCell>Select an empty standable cell for the new shell.</FB_FleshMemory_InvalidGrowthCell>
   <FB_FleshMemory_CreateShellFailed>The colony brain failed to form a viable shell.</FB_FleshMemory_CreateShellFailed>
   <FB_FleshMemory_NotEnoughHemogel>Reconstruction requires {0} brain hemogel. Available: {1}.</FB_FleshMemory_NotEnoughHemogel>
-  <FB_FleshMemory_InvalidOperation>The reconstruction operation is no longer valid.</FB_FleshMemory_InvalidOperation>
-  <FB_FleshMemory_ResurrectionFailed>The fingerspike failed to awaken the grown shell.</FB_FleshMemory_ResurrectionFailed>
   <FB_FleshMemory_ReconstructUnavailable>This memory cannot currently be reconstructed.</FB_FleshMemory_ReconstructUnavailable>
+  <FB_FleshMemory_DepositLabel>Dissolve into colony memory</FB_FleshMemory_DepositLabel>
+  <FB_FleshMemory_DepositUnavailable>This pawn cannot enter the colony memory.</FB_FleshMemory_DepositUnavailable>
+  <FB_FleshMemory_DepositNoPersonality>This parasite carries no stored personality.</FB_FleshMemory_DepositNoPersonality>
+  <FB_FleshMemory_DepositNoParasite>Only a pawn carrying a personality parasite can enter the colony memory.</FB_FleshMemory_DepositNoParasite>
+  <FB_FleshMemory_DepositCannotMove>This pawn cannot reach the colony brain under its own power.</FB_FleshMemory_DepositCannotMove>
+  <FB_FleshMemory_DepositCannotReach>This pawn cannot reach the colony brain.</FB_FleshMemory_DepositCannotReach>
+  <FB_FleshMemory_DepositCannotStart>The transfer into colony memory could not begin.</FB_FleshMemory_DepositCannotStart>
+  <FB_FleshMemory_DepositFailed>The colony brain failed to preserve this personality.</FB_FleshMemory_DepositFailed>
+  <FB_FleshMemory_DepositComplete>{0} has dissolved into the colony memory.</FB_FleshMemory_DepositComplete>
   <FB_FleshMemory_DetailRace>Race: {0}</FB_FleshMemory_DetailRace>
   <FB_FleshMemory_DetailGender>Gender: {0}</FB_FleshMemory_DetailGender>
   <FB_FleshMemory_DetailSkills>Recorded skills:</FB_FleshMemory_DetailSkills>

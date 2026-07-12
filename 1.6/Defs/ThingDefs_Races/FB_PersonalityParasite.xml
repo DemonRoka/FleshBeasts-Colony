@@ -102,14 +102,7 @@
         <bodyPart>Brain</bodyPart>
       </li>
       <li Class="FB.CompProperties_FleshbeastDraftable" />
-      <li Class="FB.CompProperties_PersonalityParasiteController">
-        <wanderRadius>10</wanderRadius>
-        <gizmoLabel>FB_PersonalityParasite_HostTransferLabel</gizmoLabel>
-        <gizmoDesc>FB_PersonalityParasite_HostTransferDesc</gizmoDesc>
-        <iconPath>UI/Commands/PersonalityParasiteTransferConsciousness</iconPath>
-        <invalidTargetMessage>FB_PersonalityParasite_InvalidTarget</invalidTargetMessage>
-        <noReachableTargetMessage>FB_PersonalityParasite_NoReachableTarget</noReachableTargetMessage>
-      </li>
+      <li Class="FB.CompProperties_PersonalityParasiteController" />
     </comps>
   </ThingDef>
 </Defs>
