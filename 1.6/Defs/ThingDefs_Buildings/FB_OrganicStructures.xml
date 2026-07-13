@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <!-- База построек: BuildingColonyFleshBase -->
   <ThingDef Name="BuildingColonyFleshBase" Abstract="True">
@@ -1840,6 +1840,7 @@
   <description>A segment of living wall formed from dense flesh, this door-like structure is embedded with responsive nerve clusters. When touched, it parts to allow passage, then closes seamlessly behind, restoring structural cohesion. Though it offers little in terms of security, its integration with surrounding tissue makes it ideal for preserving the colony’s living environment.</description>
   <thingClass>FB.Building_FleshDoorRaidTarget</thingClass>
   <altitudeLayer>DoorMoveable</altitudeLayer>
+  <passability>Standable</passability>
   <fillPercent>1</fillPercent>
   <useHitPoints>true</useHitPoints>
   <statBases>
@@ -2717,6 +2718,9 @@
     </graphicData>
     <drawerType>MapMeshAndRealTime</drawerType>
     <tickerType>Normal</tickerType>
+    <building>
+      <expandHomeArea>false</expandHomeArea>
+    </building>
     <comps Inherit="False">
       <li Class="FB.CompProperties_CaptureRootDrawer">
         <moteDefSmall>Mote_HarbingerTreeRoots</moteDefSmall>

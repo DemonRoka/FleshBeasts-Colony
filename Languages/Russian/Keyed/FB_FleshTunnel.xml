@@ -10,4 +10,5 @@
   <FB_FleshTunnelHemogelTargetTitle>Лимит гемогеля туннеля</FB_FleshTunnelHemogelTargetTitle>
   <FB_FleshTunnelHemogelTargetTooltip>Запас гемогеля: {0}\nЦелевой лимит: {1}\nМаксимальная вместимость: {2}\n\nСердце колонии не будет наполнять пасть туннеля выше заданного лимита.</FB_FleshTunnelHemogelTargetTooltip>
   <FB_FleshTunnelTargetHemogelInspect>Целевой уровень гемогеля: {0}</FB_FleshTunnelTargetHemogelInspect>
+  <FB_FleshTunnelNoWorldAnchor>Плотяной туннель не может определить мировую клетку этой карманной карты.</FB_FleshTunnelNoWorldAnchor>
 </LanguageData>
