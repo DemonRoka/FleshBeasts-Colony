@@ -3,7 +3,7 @@
   <ThingDef ParentName="BuildingColonyFleshBase">
     <defName>FB_FleshTunnelMaw</defName>
     <label>flesh tunnel maw</label>
-    <description>A massive rooted mouth that spends hemogel to bite a permanent tunnel through the world. Once grown, the tunnel links to a distant tile and cannot be redirected.</description>
+    <description>A massive rooted mouth that spends hemogel from the colony reserve to bite a permanent tunnel through the world. Once grown, the tunnel cannot be redirected.</description>
     <thingClass>FB.Building_FleshTunnelMaw</thingClass>
     <size>(4,4)</size>
     <tickerType>Normal</tickerType>
@@ -45,16 +45,6 @@
         <hemogelPerHeal>1</hemogelPerHeal>
       </li>
       <li Class="FB.CompProperties_MarkSelfForAbsorption" />
-      <li Class="FB.CompProperties_FleshTunnelHemogelStorage">
-        <initialHemogelCapacity>0</initialHemogelCapacity>
-        <maxHemogelCapacity>4000</maxHemogelCapacity>
-        <networkFillPerHour>500</networkFillPerHour>
-        <damageThreshold>0</damageThreshold>
-        <preventHemogelDepletionDamage>true</preventHemogelDepletionDamage>
-        <hideNoHemogelInspectWarning>true</hideNoHemogelInspectWarning>
-        <linkedMaxHemogel>10</linkedMaxHemogel>
-        <hideInspectWhenLinked>true</hideInspectWhenLinked>
-      </li>
       <li Class="FB.CompProperties_HemogelUpkeep">
         <hemogelPerHour>0.5</hemogelPerHour>
       </li>
@@ -63,7 +53,7 @@
   <ThingDef ParentName="BuildingColonyFleshBase">
     <defName>FB_FleshTunnelExit</defName>
     <label>flesh tunnel exit</label>
-    <description>The distant mouth of a rooted flesh tunnel. It shares the tunnel's living reserve with the original maw and collapses if either side is destroyed.</description>
+    <description>The distant mouth of a rooted flesh tunnel. It remains bound to the source maw and collapses if either side is destroyed.</description>
     <thingClass>FB.Building_FleshTunnelExit</thingClass>
     <size>(4,4)</size>
     <tickerType>Normal</tickerType>

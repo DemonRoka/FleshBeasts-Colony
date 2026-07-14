@@ -7,8 +7,5 @@
   <FB_FleshTunnelCollapseExitLabel>Захлопнуть туннель</FB_FleshTunnelCollapseExitLabel>
   <FB_FleshTunnelCollapseExitDesc>Захлопывает этот выход туннеля и безвозвратно уничтожает его локацию. Всё оставшееся там будет потеряно.</FB_FleshTunnelCollapseExitDesc>
   <FB_FleshTunnelCollapseExitConfirm>Захлопнуть плотяной туннель и безвозвратно уничтожить связанную локацию? Все оставшиеся там пешки и предметы будут потеряны.</FB_FleshTunnelCollapseExitConfirm>
-  <FB_FleshTunnelHemogelTargetTitle>Лимит гемогеля туннеля</FB_FleshTunnelHemogelTargetTitle>
-  <FB_FleshTunnelHemogelTargetTooltip>Запас гемогеля: {0}\nЦелевой лимит: {1}\nМаксимальная вместимость: {2}\n\nСердце колонии не будет наполнять пасть туннеля выше заданного лимита.</FB_FleshTunnelHemogelTargetTooltip>
-  <FB_FleshTunnelTargetHemogelInspect>Целевой уровень гемогеля: {0}</FB_FleshTunnelTargetHemogelInspect>
   <FB_FleshTunnelNoWorldAnchor>Плотяной туннель не может определить мировую клетку этой карманной карты.</FB_FleshTunnelNoWorldAnchor>
 </LanguageData>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_GrowFingerspikeFromHemogel.label>вырастить пальцешипа из гемогеля</FB_GrowFingerspikeFromHemogel.label>
-  <FB_GrowFingerspikeFromHemogel.description>Выращивает пальцешипа напрямую из запаса гемогеля органа.</FB_GrowFingerspikeFromHemogel.description>
+  <FB_GrowFingerspikeFromHemogel.description>Выращивает пальцешипа из общего запаса гемогеля колонии.</FB_GrowFingerspikeFromHemogel.description>
   <FB_GrowTrispikeFromHemogel.label>вырастить троешипа из гемогеля</FB_GrowTrispikeFromHemogel.label>
-  <FB_GrowTrispikeFromHemogel.description>Выращивает троешипа напрямую из запаса гемогеля органа.</FB_GrowTrispikeFromHemogel.description>
+  <FB_GrowTrispikeFromHemogel.description>Выращивает троешипа из общего запаса гемогеля колонии.</FB_GrowTrispikeFromHemogel.description>
   <FB_GrowToughspikeFromHemogel.label>вырастить твёрдошипа из гемогеля</FB_GrowToughspikeFromHemogel.label>
-  <FB_GrowToughspikeFromHemogel.description>Выращивает твёрдошипа напрямую из запаса гемогеля органа.</FB_GrowToughspikeFromHemogel.description>
+  <FB_GrowToughspikeFromHemogel.description>Выращивает твёрдошипа из общего запаса гемогеля колонии.</FB_GrowToughspikeFromHemogel.description>
   <FB_GrowBulbfreakFromHemogel.label>вырастить бугрурода из гемогеля</FB_GrowBulbfreakFromHemogel.label>
-  <FB_GrowBulbfreakFromHemogel.description>Выращивает бугрурода напрямую из запаса гемогеля органа.</FB_GrowBulbfreakFromHemogel.description>
+  <FB_GrowBulbfreakFromHemogel.description>Выращивает бугрурода из общего запаса гемогеля колонии.</FB_GrowBulbfreakFromHemogel.description>
   <FB_MergeTrispike.label>соединить троешипа</FB_MergeTrispike.label>
   <FB_MergeTrispike.description>Собирает троешипа из разрешённой комбинации малых флешбистов.</FB_MergeTrispike.description>
   <FB_MergeToughspike.label>соединить твёрдошипа</FB_MergeToughspike.label>

@@ -9,9 +9,6 @@
     <race>FB_Devourer</race>
     <combatPower>430</combatPower>
     <defaultFactionDef>PlayerColony</defaultFactionDef>
-    <abilities>
-      <li>FB_DevourerDevour</li>
-    </abilities>
     <lifeStages>
       <li>
         <bodyGraphicData>

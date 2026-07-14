@@ -7,8 +7,5 @@
   <FB_FleshTunnelCollapseExitLabel>Collapse tunnel</FB_FleshTunnelCollapseExitLabel>
   <FB_FleshTunnelCollapseExitDesc>Collapse this tunnel exit and permanently destroy its location. Everything left there will be lost.</FB_FleshTunnelCollapseExitDesc>
   <FB_FleshTunnelCollapseExitConfirm>Collapse this flesh tunnel and permanently destroy the linked location? All pawns and objects left there will be lost.</FB_FleshTunnelCollapseExitConfirm>
-  <FB_FleshTunnelHemogelTargetTitle>Tunnel hemogel limit</FB_FleshTunnelHemogelTargetTitle>
-  <FB_FleshTunnelHemogelTargetTooltip>Stored hemogel: {0}\nTarget limit: {1}\nMaximum capacity: {2}\n\nThe colony heart will not fill this tunnel maw above the target limit.</FB_FleshTunnelHemogelTargetTooltip>
-  <FB_FleshTunnelTargetHemogelInspect>Target hemogel level: {0}</FB_FleshTunnelTargetHemogelInspect>
   <FB_FleshTunnelNoWorldAnchor>The flesh tunnel cannot find a world location for this pocket map.</FB_FleshTunnelNoWorldAnchor>
 </LanguageData>

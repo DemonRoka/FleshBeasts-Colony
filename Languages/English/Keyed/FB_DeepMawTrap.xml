@@ -3,11 +3,10 @@
   <FB_DeepMawTrapArmingInspect>Waking: {0}</FB_DeepMawTrapArmingInspect>
   <FB_DeepMawTrapDigestingInspect>Digesting victims: {0}</FB_DeepMawTrapDigestingInspect>
   <FB_DeepMawTrapResistanceInspect>Victims resisting: {0}</FB_DeepMawTrapResistanceInspect>
+  <FB_DeepMawTrapHemogelRate>Digestion: {0} hemogel/h</FB_DeepMawTrapHemogelRate>
   <FB_DeepMawTrapReleasingInspect>Ruptured open: {0}</FB_DeepMawTrapReleasingInspect>
   <FB_DeepMawTrapCooldownInspect>Re-sealing: {0}</FB_DeepMawTrapCooldownInspect>
   <FB_DeepMawTrapDevSnapLabel>Dev: snap maw</FB_DeepMawTrapDevSnapLabel>
   <FB_DeepMawTrapDevSnapDesc>Immediately forces the deep maw trap to try swallowing pawns on its occupied cells.</FB_DeepMawTrapDevSnapDesc>
-  <FB_DeepMawTrapDevFinishDigestLabel>Dev: finish digestion</FB_DeepMawTrapDevFinishDigestLabel>
-  <FB_DeepMawTrapDevFinishDigestDesc>Immediately completes digestion for organic victims and kills then ejects mechanical victims.</FB_DeepMawTrapDevFinishDigestDesc>
   <FB_ColonyBrain_Structure_DeepMawTrap_Label>Deep maw trap</FB_ColonyBrain_Structure_DeepMawTrap_Label>
 </LanguageData>

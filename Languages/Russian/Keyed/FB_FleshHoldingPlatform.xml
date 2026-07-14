@@ -5,4 +5,21 @@
   <FB_FleshHoldingPlatformContainmentTitle>Сила удержания</FB_FleshHoldingPlatformContainmentTitle>
   <FB_FleshHoldingPlatformContainmentBarLabel>{0} / {1} | {2}/ч</FB_FleshHoldingPlatformContainmentBarLabel>
   <FB_FleshHoldingPlatformContainmentTooltip>Настраивает силу удержания платформы от текущего минимума комнаты ({0}) до выбранной цели ({1}). Текущая эффективная сила: {2}. Текущее потребление гемогеля: {3}/ч.</FB_FleshHoldingPlatformContainmentTooltip>
+  <FB_FleshHoldingPlatformCopySettingsLabel>Копировать настройки</FB_FleshHoldingPlatformCopySettingsLabel>
+  <FB_FleshHoldingPlatformCopySettingsDesc>Копирует настройку ползунка силы удержания этой платформы. Гемогель не копируется.</FB_FleshHoldingPlatformCopySettingsDesc>
+  <FB_FleshHoldingPlatformPasteSettingsLabel>Вставить настройки</FB_FleshHoldingPlatformPasteSettingsLabel>
+  <FB_FleshHoldingPlatformPasteSettingsDesc>Применяет скопированную настройку ползунка силы удержания ко всем выбранным плотяным платформам удержания. Гемогель не изменяется.</FB_FleshHoldingPlatformPasteSettingsDesc>
+  <FB_FleshHoldingPlatformPasteSettingsUnavailable>Настройки силы удержания ещё не скопированы.</FB_FleshHoldingPlatformPasteSettingsUnavailable>
+  <FB_FleshHoldingPlatformLinkSettingsLabel>Связать настройки</FB_FleshHoldingPlatformLinkSettingsLabel>
+  <FB_FleshHoldingPlatformLinkSettingsDesc>Связывает выбранные плотяные платформы удержания: они используют одну настройку силы удержания.</FB_FleshHoldingPlatformLinkSettingsDesc>
+  <FB_FleshHoldingPlatformLinkSettingsNeedTwo>Выберите хотя бы две плотяные платформы удержания на этой карте.</FB_FleshHoldingPlatformLinkSettingsNeedTwo>
+  <FB_FleshHoldingPlatformUnlinkSettingsLabel>Разорвать связь</FB_FleshHoldingPlatformUnlinkSettingsLabel>
+  <FB_FleshHoldingPlatformUnlinkSettingsDesc>Возвращает выбранным платформам отдельные настройки силы удержания.</FB_FleshHoldingPlatformUnlinkSettingsDesc>
+  <FB_FleshHoldingPlatformUnlinkSettingsUnavailable>Эта платформа не связана с группой настроек.</FB_FleshHoldingPlatformUnlinkSettingsUnavailable>
+  <FB_FleshHoldingPlatformSelectLinkedLabel>Выбрать связанные</FB_FleshHoldingPlatformSelectLinkedLabel>
+  <FB_FleshHoldingPlatformSelectLinkedDesc>Выделяет все плотяные платформы удержания, связанные с этой.</FB_FleshHoldingPlatformSelectLinkedDesc>
+  <FB_FleshHoldingPlatformSettingsCopied>Настройки силы удержания скопированы.</FB_FleshHoldingPlatformSettingsCopied>
+  <FB_FleshHoldingPlatformSettingsPasted>Настройки силы удержания применены к платформам: {0}.</FB_FleshHoldingPlatformSettingsPasted>
+  <FB_FleshHoldingPlatformSettingsLinked>Настройки силы удержания связаны для платформ: {0}.</FB_FleshHoldingPlatformSettingsLinked>
+  <FB_FleshHoldingPlatformSettingsUnlinked>Связь настроек разорвана для платформ: {0}.</FB_FleshHoldingPlatformSettingsUnlinked>
 </LanguageData>

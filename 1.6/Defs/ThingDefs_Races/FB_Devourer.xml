@@ -64,19 +64,20 @@
       </lifeStageAges>
     </race>
     <comps>
-      <li Class="FB.CompProperties_HemogelStorage">
-        <initialHemogelCapacity>0</initialHemogelCapacity>
-        <maxHemogelCapacity>500</maxHemogelCapacity>
-        <showHemogelInInspector>true</showHemogelInInspector>
-        <preventHemogelDepletionDamage>true</preventHemogelDepletionDamage>
-      </li>
       <li Class="FB.CompProperties_FleshbeastDraftable" />
       <li Class="FB.CompProperties_DevourerContainment">
         <maxCapacity>5</maxCapacity>
         <maxTargetBodySize>2.5</maxTargetBodySize>
         <digestionIntervalTicks>250</digestionIntervalTicks>
         <digestionDamage>10</digestionDamage>
-        <maxInternalDamage>5</maxInternalDamage>
+        <hemogelProductionPerHour>50</hemogelProductionPerHour>
+        <hemogelPerNutrition>20</hemogelPerNutrition>
+        <digestionDurationFactor>2</digestionDurationFactor>
+        <autoDevourCheckIntervalTicks>30</autoDevourCheckIntervalTicks>
+        <resistanceIntervalTicks>180</resistanceIntervalTicks>
+        <maxResistanceDamagePerPulse>24</maxResistanceDamagePerPulse>
+        <internalResistanceDamageFactor>0.5</internalResistanceDamageFactor>
+        <forcedReleaseHitPointFraction>0.1</forcedReleaseHitPointFraction>
       </li>
       <li Class="CompProperties_Studiable">
         <frequencyTicks>120000</frequencyTicks>

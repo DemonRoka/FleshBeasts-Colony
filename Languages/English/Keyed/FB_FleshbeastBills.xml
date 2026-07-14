@@ -9,7 +9,7 @@
   <FB_FleshbeastBillOr>or</FB_FleshbeastBillOr>
   <FB_FleshbeastBillRepeatHemogelAbove>Do if hemogel above {0}</FB_FleshbeastBillRepeatHemogelAbove>
   <FB_FleshbeastBillRepeatHemogelAboveMenu>Do if hemogel above X</FB_FleshbeastBillRepeatHemogelAboveMenu>
-  <FB_FleshbeastBillRepeatHemogelInfo>Hemogel: {0} / threshold {1}</FB_FleshbeastBillRepeatHemogelInfo>
+  <FB_FleshbeastBillRepeatHemogelInfo>Network hemogel: {0} / threshold {1}</FB_FleshbeastBillRepeatHemogelInfo>
   <FB_FleshbeastBillPreferredGroup>Group: {0}</FB_FleshbeastBillPreferredGroup>
   <FB_FleshbeastBillPreferredGroupNone>No group</FB_FleshbeastBillPreferredGroupNone>
   <FB_FleshbeastBillPreferredGroupDesc>Newly grown or merged fleshbeasts from this bill will be assigned to this group.</FB_FleshbeastBillPreferredGroupDesc>

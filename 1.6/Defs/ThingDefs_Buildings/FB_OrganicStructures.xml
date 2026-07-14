@@ -238,6 +238,12 @@
       <networkFillPerHour>500</networkFillPerHour>
       <damageThreshold>0.04</damageThreshold>
     </li>
+    <li Class="FB.CompProperties_SpawnInitialPawnsAdjacent">
+      <pawnKind>FB_BurdenBlobKind</pawnKind>
+      <count>3</count>
+      <spawnRadius>5</spawnRadius>
+      <onlyPlayerFaction>true</onlyPlayerFaction>
+    </li>
     <li Class="FB.CompProperties_FleshbeastBillExecutor">
       <checkIntervalTicks>250</checkIntervalTicks>
       <recipes>
@@ -301,14 +307,8 @@
       <removePlants>true</removePlants>
     </li>
     <li Class="FB.CompProperties_HemogelTransmitter">
-      <transmissionIntervalTicks>5</transmissionIntervalTicks>
-      <transmissionAmount>5</transmissionAmount>
       <reserveFraction>0.3</reserveFraction>
       <reserveAbsoluteAmount>50</reserveAbsoluteAmount>
-      <temperatureAffectsTransmission>true</temperatureAffectsTransmission>
-      <minimumTransferTemperature>-30</minimumTransferTemperature>
-      <fullTransferTemperature>20</fullTransferTemperature>
-      <minimumTransmissionAmount>1</minimumTransmissionAmount>
       <forbiddenBuildingDefs>
         <li>FB_ColonyStomach</li>
         <li>FB_PhotosyntheticFleshleaf</li>
@@ -322,10 +322,6 @@
         <li>FB_ColonyEye</li>
         <li>FB_StorageCavity</li>
       </hiddenFromHemogelEconomyDefs>
-      <terrainDefs>
-        <li>FleshVeins</li>
-        <li>Flesh</li>
-      </terrainDefs>
     </li>
     <li Class="FB.CompProperties_FleshAnimationManager">
       <animationAmplitude>0.15</animationAmplitude>
@@ -1038,6 +1034,14 @@
         <li>FB_AssembleDevourer</li>
       </recipes>
     </li>
+    <li Class="FB.CompProperties_ColonyBrainNeuralResearch">
+      <progressIntervalTicks>420</progressIntervalTicks>
+      <researchPointsPerPulse>1.05</researchPointsPerPulse>
+      <additionalHemogelPerHour>4</additionalHemogelPerHour>
+      <gizmoLabel>FB_ColonyBrainNeuralActivity_Label</gizmoLabel>
+      <gizmoDesc>FB_ColonyBrainNeuralActivity_Desc</gizmoDesc>
+      <iconPath>UI/Commands/CortexMiteChooseResearch</iconPath>
+    </li>
     <li Class="FB.CompProperties_BrainFleshResurrection">
       <requiredResearch>FB_FleshResurrection</requiredResearch>
       <jobDef>FB_FingerspikeResurrectCorpse</jobDef>
@@ -1204,13 +1208,7 @@
     <forceLeavingsAllowed>true</forceLeavingsAllowed>
     <comps>
       <li Class="FB.CompProperties_HemogelTransmitter">
-        <transmissionIntervalTicks>50</transmissionIntervalTicks>
-        <transmissionAmount>50</transmissionAmount>
         <reserveFraction>0.1</reserveFraction>
-        <terrainDefs>
-          <li>FleshVeins</li>
-          <li>Flesh</li>
-        </terrainDefs>
         <allowedBuildingDefs>
           <li>FB_ColonyHeart</li>
         </allowedBuildingDefs>
@@ -1445,13 +1443,7 @@
         </animatedParts>
       </li>
       <li Class="FB.CompProperties_HemogelTransmitter">
-        <transmissionIntervalTicks>5</transmissionIntervalTicks>
-        <transmissionAmount>5</transmissionAmount>
         <reserveFraction>0.2</reserveFraction>
-        <terrainDefs>
-          <li>FleshVeins</li>
-          <li>Flesh</li>
-        </terrainDefs>
         <allowedBuildingDefs>
           <li>FB_ColonyHeart</li>
         </allowedBuildingDefs>
@@ -1574,13 +1566,7 @@
         </animatedParts>
       </li>
       <li Class="FB.CompProperties_HemogelTransmitter">
-        <transmissionIntervalTicks>5</transmissionIntervalTicks>
-        <transmissionAmount>5</transmissionAmount>
         <reserveFraction>0.2</reserveFraction>
-        <terrainDefs>
-          <li>FleshVeins</li>
-          <li>Flesh</li>
-        </terrainDefs>
         <allowedBuildingDefs>
           <li>FB_ColonyHeart</li>
         </allowedBuildingDefs>
@@ -1674,13 +1660,7 @@
     </li>
     <li Class="FB.CompProperties_MarkSelfForAbsorption" />
     <li Class="FB.CompProperties_HemogelTransmitter">
-      <transmissionIntervalTicks>50</transmissionIntervalTicks>
-      <transmissionAmount>50</transmissionAmount>
       <reserveFraction>0</reserveFraction>
-      <terrainDefs>
-        <li>FleshVeins</li>
-        <li>Flesh</li>
-      </terrainDefs>
       <allowedBuildingDefs>
         <li>FB_ColonyHeart</li>
       </allowedBuildingDefs>
@@ -2993,12 +2973,6 @@
       <destroyEffecter>FleshmassDestroyed</destroyEffecter>
     </building>
     <comps>
-      <li Class="FB.CompProperties_HemogelStorage">
-        <initialHemogelCapacity>1000</initialHemogelCapacity>
-        <maxHemogelCapacity>1200</maxHemogelCapacity>
-        <networkFillPerHour>500</networkFillPerHour>
-        <damageThreshold>0.1</damageThreshold>
-      </li>
       <li Class="FB.CompProperties_SymbiosisCore">
         <scanIntervalTicks>5000</scanIntervalTicks>
         <scanRadius>4</scanRadius>

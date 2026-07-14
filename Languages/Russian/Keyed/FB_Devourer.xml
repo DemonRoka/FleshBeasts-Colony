@@ -9,6 +9,7 @@
   <FB_Devourer_DevourLabel>Поглотить цель</FB_Devourer_DevourLabel>
   <FB_Devourer_DevourDesc>Рывком врезаться в живую не свою цель и заглотить её. Внутри: {0} / {1}.</FB_Devourer_DevourDesc>
   <FB_Devourer_CannotAct>Поглотитель не может действовать.</FB_Devourer_CannotAct>
+  <FB_Devourer_TooInjuredToDevour>Поглотитель слишком повреждён, чтобы заглотить новую цель.</FB_Devourer_TooInjuredToDevour>
   <FB_Devourer_ContainerFull>Поглотитель переполнен.</FB_Devourer_ContainerFull>
   <FB_Devourer_InvalidTarget>Недопустимая цель для поглощения.</FB_Devourer_InvalidTarget>
   <FB_Devourer_RejectOwn>Нельзя поглощать пешек и животных игрока.</FB_Devourer_RejectOwn>
@@ -17,11 +18,9 @@
   <FB_Devourer_RejectUnreachable>До цели нельзя добраться.</FB_Devourer_RejectUnreachable>
   <FB_Devourer_RejectOutOfRange>Цель находится вне радиуса поглощения в {0} клеток.</FB_Devourer_RejectOutOfRange>
   <FB_Devourer_Swallowed>{0} заглотил {1}.</FB_Devourer_Swallowed>
-  <FB_Devourer_Digested>{0} переварил {1}, произведя {2} гемогеля.</FB_Devourer_Digested>
   <FB_Devourer_ReleasedOnDeath>{0} проглоченных жертв вырвались наружу.</FB_Devourer_ReleasedOnDeath>
 
   <FB_Devourer_ContainedInspect>Внутри: {0} / {1}</FB_Devourer_ContainedInspect>
-  <FB_Devourer_PenaltyInspect>Нагрузка: скорость -{0}, уклонение в ближнем бою -{1}</FB_Devourer_PenaltyInspect>
-  <FB_Devourer_MoveSpeedStatPart>Содержимое поглотителя ({0}): x{1}</FB_Devourer_MoveSpeedStatPart>
-  <FB_Devourer_DodgeStatPart>Содержимое поглотителя ({0}): x{1}</FB_Devourer_DodgeStatPart>
+  <FB_Devourer_DigestingInspect>Переваривание: осталось питательности {0}. Гемогель: {1}/ч.</FB_Devourer_DigestingInspect>
+  <FB_Devourer_HemogelRate>Переваривание: {0} гемогеля/ч</FB_Devourer_HemogelRate>
 </LanguageData>

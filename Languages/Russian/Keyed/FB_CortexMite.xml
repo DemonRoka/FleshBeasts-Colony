@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_CortexMiteAnchor_Label>Закрепиться</FB_CortexMiteAnchor_Label>
   <FB_CortexMiteAnchor_Desc>Выберите доступную клетку плотяного пола. Мозговой клещ доползёт туда и станет постоянным исследовательским узлом.</FB_CortexMiteAnchor_Desc>
@@ -10,4 +10,9 @@
   <FB_InstalledCortexMiteNoProjectInspect>Текущий проект исследования: не выбран</FB_InstalledCortexMiteNoProjectInspect>
   <FB_InstalledCortexMiteResearchInspect>Текущий проект исследования: {0} (+{1}/ч)</FB_InstalledCortexMiteResearchInspect>
   <FB_InstalledCortexMiteNoHemogelInspect>Нет полного питания гемогелем.</FB_InstalledCortexMiteNoHemogelInspect>
+  <FB_ColonyBrainNeuralActivity_Label>Активировать нейронную активность</FB_ColonyBrainNeuralActivity_Label>
+  <FB_ColonyBrainNeuralActivity_Desc>Превращает мозг колонии в нейронную исследовательскую станцию. Пока выбран проект, мозг исследует его со скоростью одного закреплённого мозгового клеща и увеличивает расход гемогеля с 2 до 6 в час.</FB_ColonyBrainNeuralActivity_Desc>
+  <FB_ColonyBrainNeuralActivity_InactiveInspect>Нейронная активность: выключена</FB_ColonyBrainNeuralActivity_InactiveInspect>
+  <FB_ColonyBrainNeuralActivity_NoProjectInspect>Нейронная активность: ожидает выбранный проект исследования</FB_ColonyBrainNeuralActivity_NoProjectInspect>
+  <FB_ColonyBrainNeuralActivity_ResearchInspect>Нейронная активность: исследуется {0} (+{1}/ч)</FB_ColonyBrainNeuralActivity_ResearchInspect>
 </LanguageData>

@@ -5,4 +5,21 @@
   <FB_FleshHoldingPlatformContainmentTitle>Containment strength</FB_FleshHoldingPlatformContainmentTitle>
   <FB_FleshHoldingPlatformContainmentBarLabel>{0} / {1} | {2}/h</FB_FleshHoldingPlatformContainmentBarLabel>
   <FB_FleshHoldingPlatformContainmentTooltip>Adjusts the platform's containment strength from its current room-based minimum ({0}) up to the selected target ({1}). Current effective strength: {2}. Current hemogel consumption: {3}/h.</FB_FleshHoldingPlatformContainmentTooltip>
+  <FB_FleshHoldingPlatformCopySettingsLabel>Copy settings</FB_FleshHoldingPlatformCopySettingsLabel>
+  <FB_FleshHoldingPlatformCopySettingsDesc>Copy this platform's containment-strength slider setting. This does not copy hemogel.</FB_FleshHoldingPlatformCopySettingsDesc>
+  <FB_FleshHoldingPlatformPasteSettingsLabel>Paste settings</FB_FleshHoldingPlatformPasteSettingsLabel>
+  <FB_FleshHoldingPlatformPasteSettingsDesc>Apply the copied containment-strength slider setting to the selected flesh holding platforms. This does not change hemogel.</FB_FleshHoldingPlatformPasteSettingsDesc>
+  <FB_FleshHoldingPlatformPasteSettingsUnavailable>No containment settings have been copied.</FB_FleshHoldingPlatformPasteSettingsUnavailable>
+  <FB_FleshHoldingPlatformLinkSettingsLabel>Link settings</FB_FleshHoldingPlatformLinkSettingsLabel>
+  <FB_FleshHoldingPlatformLinkSettingsDesc>Link the selected flesh holding platforms so they share one containment-strength setting.</FB_FleshHoldingPlatformLinkSettingsDesc>
+  <FB_FleshHoldingPlatformLinkSettingsNeedTwo>Select at least two flesh holding platforms on this map.</FB_FleshHoldingPlatformLinkSettingsNeedTwo>
+  <FB_FleshHoldingPlatformUnlinkSettingsLabel>Unlink settings</FB_FleshHoldingPlatformUnlinkSettingsLabel>
+  <FB_FleshHoldingPlatformUnlinkSettingsDesc>Give the selected platforms their own containment-strength settings.</FB_FleshHoldingPlatformUnlinkSettingsDesc>
+  <FB_FleshHoldingPlatformUnlinkSettingsUnavailable>This platform is not linked to a settings group.</FB_FleshHoldingPlatformUnlinkSettingsUnavailable>
+  <FB_FleshHoldingPlatformSelectLinkedLabel>Select all linked</FB_FleshHoldingPlatformSelectLinkedLabel>
+  <FB_FleshHoldingPlatformSelectLinkedDesc>Select every flesh holding platform linked to this platform.</FB_FleshHoldingPlatformSelectLinkedDesc>
+  <FB_FleshHoldingPlatformSettingsCopied>Containment settings copied.</FB_FleshHoldingPlatformSettingsCopied>
+  <FB_FleshHoldingPlatformSettingsPasted>Containment settings pasted to {0} platform(s).</FB_FleshHoldingPlatformSettingsPasted>
+  <FB_FleshHoldingPlatformSettingsLinked>Containment settings linked for {0} platform(s).</FB_FleshHoldingPlatformSettingsLinked>
+  <FB_FleshHoldingPlatformSettingsUnlinked>Containment settings unlinked for {0} platform(s).</FB_FleshHoldingPlatformSettingsUnlinked>
 </LanguageData>

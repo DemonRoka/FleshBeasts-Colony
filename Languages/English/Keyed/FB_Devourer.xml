@@ -9,6 +9,7 @@
   <FB_Devourer_DevourLabel>Devour target</FB_Devourer_DevourLabel>
   <FB_Devourer_DevourDesc>Charge into a living non-allied target and swallow it. Contained: {0} / {1}.</FB_Devourer_DevourDesc>
   <FB_Devourer_CannotAct>The devourer cannot act.</FB_Devourer_CannotAct>
+  <FB_Devourer_TooInjuredToDevour>The devourer is too badly injured to swallow another target.</FB_Devourer_TooInjuredToDevour>
   <FB_Devourer_ContainerFull>The devourer is full.</FB_Devourer_ContainerFull>
   <FB_Devourer_InvalidTarget>Invalid devour target.</FB_Devourer_InvalidTarget>
   <FB_Devourer_RejectOwn>Cannot devour player-owned pawns or animals.</FB_Devourer_RejectOwn>
@@ -17,11 +18,9 @@
   <FB_Devourer_RejectUnreachable>Cannot reach the target.</FB_Devourer_RejectUnreachable>
   <FB_Devourer_RejectOutOfRange>The target is outside the devour range of {0} cells.</FB_Devourer_RejectOutOfRange>
   <FB_Devourer_Swallowed>{0} swallowed {1}.</FB_Devourer_Swallowed>
-  <FB_Devourer_Digested>{0} digested {1}, producing {2} hemogel.</FB_Devourer_Digested>
   <FB_Devourer_ReleasedOnDeath>{0} swallowed victims burst free.</FB_Devourer_ReleasedOnDeath>
 
   <FB_Devourer_ContainedInspect>Contained: {0} / {1}</FB_Devourer_ContainedInspect>
-  <FB_Devourer_PenaltyInspect>Encumbrance: move speed -{0}, melee dodge -{1}</FB_Devourer_PenaltyInspect>
-  <FB_Devourer_MoveSpeedStatPart>Devourer contents ({0}): x{1}</FB_Devourer_MoveSpeedStatPart>
-  <FB_Devourer_DodgeStatPart>Devourer contents ({0}): x{1}</FB_Devourer_DodgeStatPart>
+  <FB_Devourer_DigestingInspect>Digesting: {0} nutrition remaining. Hemogel: {1}/h.</FB_Devourer_DigestingInspect>
+  <FB_Devourer_HemogelRate>Digestion: {0} hemogel/h</FB_Devourer_HemogelRate>
 </LanguageData>

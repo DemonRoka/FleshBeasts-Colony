@@ -11,6 +11,7 @@
     <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
     <disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
     <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+    <aiCanUse>true</aiCanUse>
     <verbProperties>
       <verbClass>Verb_CastAbility</verbClass>
       <warmupTime>0.25</warmupTime>

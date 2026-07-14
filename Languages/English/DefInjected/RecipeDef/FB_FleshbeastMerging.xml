@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_GrowFingerspikeFromHemogel.label>grow fingerspike from hemogel</FB_GrowFingerspikeFromHemogel.label>
-  <FB_GrowFingerspikeFromHemogel.description>Grows a fingerspike directly from the organ's hemogel reserve.</FB_GrowFingerspikeFromHemogel.description>
+  <FB_GrowFingerspikeFromHemogel.description>Grows a fingerspike from the colony's shared hemogel reserve.</FB_GrowFingerspikeFromHemogel.description>
   <FB_GrowTrispikeFromHemogel.label>grow trispike from hemogel</FB_GrowTrispikeFromHemogel.label>
-  <FB_GrowTrispikeFromHemogel.description>Grows a trispike directly from the organ's hemogel reserve.</FB_GrowTrispikeFromHemogel.description>
+  <FB_GrowTrispikeFromHemogel.description>Grows a trispike from the colony's shared hemogel reserve.</FB_GrowTrispikeFromHemogel.description>
   <FB_GrowToughspikeFromHemogel.label>grow toughspike from hemogel</FB_GrowToughspikeFromHemogel.label>
-  <FB_GrowToughspikeFromHemogel.description>Grows a toughspike directly from the organ's hemogel reserve.</FB_GrowToughspikeFromHemogel.description>
+  <FB_GrowToughspikeFromHemogel.description>Grows a toughspike from the colony's shared hemogel reserve.</FB_GrowToughspikeFromHemogel.description>
   <FB_GrowBulbfreakFromHemogel.label>grow bulbfreak from hemogel</FB_GrowBulbfreakFromHemogel.label>
-  <FB_GrowBulbfreakFromHemogel.description>Grows a bulbfreak directly from the organ's hemogel reserve.</FB_GrowBulbfreakFromHemogel.description>
+  <FB_GrowBulbfreakFromHemogel.description>Grows a bulbfreak from the colony's shared hemogel reserve.</FB_GrowBulbfreakFromHemogel.description>
   <FB_MergeTrispike.label>merge trispike</FB_MergeTrispike.label>
   <FB_MergeTrispike.description>Assembles a trispike from an allowed combination of lesser fleshbeasts.</FB_MergeTrispike.description>
   <FB_MergeToughspike.label>merge toughspike</FB_MergeToughspike.label>
