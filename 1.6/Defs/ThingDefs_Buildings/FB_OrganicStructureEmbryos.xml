@@ -116,7 +116,7 @@
   <ThingDef ParentName="EmbryoStructureBase">
     <defName>FB_GastricAcidSpewerEmbryo</defName>
     <label>gastric acid spewer embryo</label>
-    <description>A clenched digestive bud, slick with dormant acid sacs. When mature, it becomes a chamber organ able to fill an enclosed room with gastric acid.</description>
+    <description>A clenched digestive bud that will mature into an organ able to spread gastric acid and digest organic fuel for the hemogel network.</description>
     <size>(1,1)</size>
     <comps>
       <li Class="FB.CompProperties_EmbryoGrowth">
@@ -137,7 +137,7 @@
   <ThingDef ParentName="EmbryoStructureBase">
     <defName>FB_HemogelSacEmbryo</defName>
     <label>Hemogel Sac Embryo</label>
-    <description>A delicate organic bud, its surface glistening with a soft, gelatinous sheen. This embryo pulses faintly, nurturing a nascent network of translucent veins that will eventually form a sac to store hemogel.</description>
+    <description>An immature reserve organ that will grow into a hemogel sac.</description>
     <size>(1,1)</size>
     <comps>
       <li Class="FB.CompProperties_EmbryoGrowth">
@@ -451,7 +451,7 @@
   <ThingDef ParentName="EmbryoStructureBase">
     <defName>FB_StoneCrusherEmbryo</defName>
     <label>Stone Crusher Embryo</label>
-    <description>A compact, thick-walled bud with a tightly sealed grinding ring. Inside, soft cartilage teeth are already forming into layered rows, rehearsing the motions that will one day mill stone into blocks. While dormant, it remains closed and heavy, gathering hemogel to harden its rim and awaken its grinder core.</description>
+    <description>An immature grinder organ that will grow into a stone crusher.</description>
     <size>(1,1)</size>
     <comps>
       <li Class="FB.CompProperties_EmbryoGrowth">
@@ -579,7 +579,7 @@
   <ThingDef ParentName="EmbryoStructureBase">
   <defName>FB_PsychicLureAntennaEmbryo</defName>
   <label>psychic lure antenna embryo</label>
-  <description>A quivering knot of neural feelers. When mature, it becomes a psychic lure antenna able to call dangerous biomass toward the colony.</description>
+  <description>An immature neural organ that will grow into a psychic lure antenna.</description>
   <size>(2,2)</size>
   <statBases>
     <MaxHitPoints>160</MaxHitPoints>

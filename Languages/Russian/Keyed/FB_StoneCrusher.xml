@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_StoneCrusher_Processing>Перемалывает {0}: {1}%.</FB_StoneCrusher_Processing>
+  <FB_StoneCrusher_WaitingChunks>Ожидает каменные глыбы.</FB_StoneCrusher_WaitingChunks>
+  <FB_StoneCrusher_WaitingHemogel>Ожидает гемогель.</FB_StoneCrusher_WaitingHemogel>
+  <FB_StoneCrusher_UnknownChunk>каменная глыба</FB_StoneCrusher_UnknownChunk>
+</LanguageData>

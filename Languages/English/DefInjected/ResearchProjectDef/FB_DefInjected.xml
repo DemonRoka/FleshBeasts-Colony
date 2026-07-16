@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <DefenderIncubatorResearch.description>Unlock the Defender Incubator, a hemogel-fed brood organ that can release groups of fingerspikes when commanded or when the colony is attacked.</DefenderIncubatorResearch.description>
   <DefenderIncubatorResearch.generalRules.rulesStrings.0>subject-&gt;flesh defender incubation</DefenderIncubatorResearch.generalRules.rulesStrings.0>
@@ -54,7 +54,7 @@
   <FB_TissueIncubation.generalRules.rulesStrings.2>subject_story-&gt;grew stored materials from hemogel</FB_TissueIncubation.generalRules.rulesStrings.2>
   <FB_TissueIncubation.generalRules.rulesStrings.3>subject_gerund-&gt;incubating tissue samples</FB_TissueIncubation.generalRules.rulesStrings.3>
   <FB_TissueIncubation.label>tissue incubation</FB_TissueIncubation.label>
-  <FB_PhotosyntheticFleshtree.description>Unlock the Fleshtree fusion process, allowing multiple photosynthetic fleshleaves to merge into a larger organ-tree with greater hemogel production and storage.</FB_PhotosyntheticFleshtree.description>
+  <FB_PhotosyntheticFleshtree.description>Unlocks fleshtree fusion, allowing five photosynthetic fleshleaves to merge into a compact organ-tree that produces roughly four leaves' worth of daylight hemogel.</FB_PhotosyntheticFleshtree.description>
   <FB_PhotosyntheticFleshtree.generalRules.rulesStrings.0>subject-&gt;photosynthetic fleshtree cultivation</FB_PhotosyntheticFleshtree.generalRules.rulesStrings.0>
   <FB_PhotosyntheticFleshtree.generalRules.rulesStrings.1>subject_story-&gt;merged solar flesh growths into a single organism</FB_PhotosyntheticFleshtree.generalRules.rulesStrings.1>
   <FB_PhotosyntheticFleshtree.generalRules.rulesStrings.2>subject_story-&gt;engineered a hemogel-storing photosynthetic treeform</FB_PhotosyntheticFleshtree.generalRules.rulesStrings.2>
@@ -90,7 +90,7 @@
   <ParasiteEggConversion.generalRules.rulesStrings.2>subject_story-&gt;shaped biomass into parasitic incubation chambers</ParasiteEggConversion.generalRules.rulesStrings.2>
   <ParasiteEggConversion.generalRules.rulesStrings.3>subject_gerund-&gt;incubating parasite eggs</ParasiteEggConversion.generalRules.rulesStrings.3>
   <ParasiteEggConversion.label>parasite egg incubation</ParasiteEggConversion.label>
-  <PhotosyntheticFleshleaf.description>Unlock the Photosynthetic Fleshleaf, a living photosynthetic organ that converts light into hemogel and transfers its reserves to the colony heart.</PhotosyntheticFleshleaf.description>
+  <PhotosyntheticFleshleaf.description>Unlocks the Photosynthetic Fleshleaf, a living organ that converts unroofed daylight into hemogel for the colony network.</PhotosyntheticFleshleaf.description>
   <PhotosyntheticFleshleaf.generalRules.rulesStrings.0>subject-&gt;photosynthetic hemogel generation</PhotosyntheticFleshleaf.generalRules.rulesStrings.0>
   <PhotosyntheticFleshleaf.generalRules.rulesStrings.1>subject_story-&gt;engineered light-absorbing biomass</PhotosyntheticFleshleaf.generalRules.rulesStrings.1>
   <PhotosyntheticFleshleaf.generalRules.rulesStrings.2>subject_story-&gt;cultivated solar flesh organisms</PhotosyntheticFleshleaf.generalRules.rulesStrings.2>

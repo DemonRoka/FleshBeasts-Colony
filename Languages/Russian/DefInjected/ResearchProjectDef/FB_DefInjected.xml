@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <DefenderIncubatorResearch.description>Открывает защитный инкубатор — питаемый гемогелем выводковый орган, способный выпускать группы пальцешипов по приказу или при нападении на колонию.</DefenderIncubatorResearch.description>
   <DefenderIncubatorResearch.generalRules.rulesStrings.0>subject-&gt;инкубация защитников из плоти</DefenderIncubatorResearch.generalRules.rulesStrings.0>
@@ -54,7 +54,7 @@
   <FB_TissueIncubation.generalRules.rulesStrings.2>subject_story-&gt;вырастил сохранённые материалы из гемогеля</FB_TissueIncubation.generalRules.rulesStrings.2>
   <FB_TissueIncubation.generalRules.rulesStrings.3>subject_gerund-&gt;инкубация образцов тканей</FB_TissueIncubation.generalRules.rulesStrings.3>
   <FB_TissueIncubation.label>инкубация тканей</FB_TissueIncubation.label>
-  <FB_PhotosyntheticFleshtree.description>Открывает слияние плотелистов, позволяя нескольким фотосинтетическим органам объединиться в крупное дерево плоти с повышенной выработкой и запасом гемогеля.</FB_PhotosyntheticFleshtree.description>
+  <FB_PhotosyntheticFleshtree.description>Открывает слияние плотелистов, позволяя пяти фотосинтетическим органам объединиться в компактное дерево, производящее примерно как четыре листа.</FB_PhotosyntheticFleshtree.description>
   <FB_PhotosyntheticFleshtree.generalRules.rulesStrings.0>subject-&gt;выращивание фотосинтетического плотедерева</FB_PhotosyntheticFleshtree.generalRules.rulesStrings.0>
   <FB_PhotosyntheticFleshtree.generalRules.rulesStrings.1>subject_story-&gt;объединил солнечные наросты плоти в единый организм</FB_PhotosyntheticFleshtree.generalRules.rulesStrings.1>
   <FB_PhotosyntheticFleshtree.generalRules.rulesStrings.2>subject_story-&gt;создал фотосинтетическую древовидную форму, хранящую гемогель</FB_PhotosyntheticFleshtree.generalRules.rulesStrings.2>
@@ -90,7 +90,7 @@
   <ParasiteEggConversion.generalRules.rulesStrings.2>subject_story-&gt;придал биомассе форму паразитических инкубаторов</ParasiteEggConversion.generalRules.rulesStrings.2>
   <ParasiteEggConversion.generalRules.rulesStrings.3>subject_gerund-&gt;инкубация яиц паразитов</ParasiteEggConversion.generalRules.rulesStrings.3>
   <ParasiteEggConversion.label>инкубация яиц паразитов</ParasiteEggConversion.label>
-  <PhotosyntheticFleshleaf.description>Открывает фотосинтетический плотелист — живой фотосинтезирующий орган, превращающий свет в гемогель и передающий запасы сердцу колонии.</PhotosyntheticFleshleaf.description>
+  <PhotosyntheticFleshleaf.description>Открывает фотосинтетический плотелист — живой орган, превращающий незакрытый крышей дневной свет в гемогель для сети колонии.</PhotosyntheticFleshleaf.description>
   <PhotosyntheticFleshleaf.generalRules.rulesStrings.0>subject-&gt;фотосинтетическое получение гемогеля</PhotosyntheticFleshleaf.generalRules.rulesStrings.0>
   <PhotosyntheticFleshleaf.generalRules.rulesStrings.1>subject_story-&gt;создал биомассу, поглощающую свет</PhotosyntheticFleshleaf.generalRules.rulesStrings.1>
   <PhotosyntheticFleshleaf.generalRules.rulesStrings.2>subject_story-&gt;вырастил солнечные организмы плоти</PhotosyntheticFleshleaf.generalRules.rulesStrings.2>

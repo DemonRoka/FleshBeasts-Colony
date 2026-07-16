@@ -629,7 +629,7 @@
         </li>
         <li>
           <embryoDef>FB_HemogelSacEmbryo</embryoDef>
-          <label>FB_ColonyStomach_Structure_HemogelSac_Label</label>
+          <label>FB_ColonyBrain_Structure_HemogelSac_Label</label>
           <texPath>Things/Building/FB_Organic/HemogelSac/HemogelSac</texPath>
           <drawSize>(1,1)</drawSize>
           <cost>100</cost>
@@ -648,6 +648,7 @@
           <embryoDef>FB_PsychicLureAntennaEmbryo</embryoDef>
           <label>FB_ColonyBrain_Structure_PsychicLureAntenna_Label</label>
           <texPath>Things/Building/FB_Organic/PsychicLureAntenna/PsychicLureAntenna</texPath>
+          <description>FB_ColonyBrain_Structure_PsychicLureAntenna_Desc</description>
           <drawSize>(2,2)</drawSize>
           <cost>650</cost>
           <requiredResearch>FB_PsychicLureAntennae</requiredResearch>
@@ -761,6 +762,7 @@
         <li>
           <embryoDef>FB_PhotosyntheticFleshleafEmbryo</embryoDef>
           <label>FB_ColonyBrain_Structure_PhotosyntheticFleshleaf_Label</label>
+          <description>FB_ColonyBrain_Structure_PhotosyntheticFleshleaf_Desc</description>
           <texPath>Things/Building/FB_Organic/PhotosyntheticFleshleaf/PhotosyntheticFleshleaf</texPath>
           <drawSize>(2,2)</drawSize>
           <cost>350</cost>
@@ -1207,12 +1209,6 @@
     </killedLeavingsRanges>
     <forceLeavingsAllowed>true</forceLeavingsAllowed>
     <comps>
-      <li Class="FB.CompProperties_HemogelTransmitter">
-        <reserveFraction>0.1</reserveFraction>
-        <allowedBuildingDefs>
-          <li>FB_ColonyHeart</li>
-        </allowedBuildingDefs>
-      </li>
       <li Class="FB.CompProperties_HemogelUpkeep">
         <hemogelPerHour>0.4</hemogelPerHour>
       </li>
@@ -1226,7 +1222,7 @@
   <defName>FB_GastricAcidSpewer</defName>
   <thingClass>Building</thingClass>
   <label>gastric acid spewer</label>
-  <description>A rooted digestive organ that can flood nearby cells with caustic gastric acid, dissolving bodies and food into hemogel for the colony.</description>
+  <description>A rooted digestive organ that spreads gastric acid nearby. Organic bodies and food left in the connected acid pool slowly feed the hemogel network.</description>
   <drawerType>MapMeshAndRealTime</drawerType>
   <size>(1,1)</size>
   <statBases>
@@ -1261,17 +1257,8 @@
       <terrainOnAbsorb>Flesh</terrainOnAbsorb>
       <spreadIntervalTicks>45</spreadIntervalTicks>
       <absorbIntervalTicks>30</absorbIntervalTicks>
-      <pawnDamageIntervalTicks>120</pawnDamageIntervalTicks>
       <itemDigestIntervalTicks>250</itemDigestIntervalTicks>
-      <doorRescanIntervalTicks>250</doorRescanIntervalTicks>
-      <pawnDamageAmount>5</pawnDamageAmount>
-      <wornGearDamageAmount>2</wornGearDamageAmount>
-      <looseThingDamageAmount>3</looseThingDamageAmount>
-      <buildingDamageAmount>10</buildingDamageAmount>
       <maxAcidCells>20</maxAcidCells>
-      <baseProcessingTicks>2000</baseProcessingTicks>
-      <baseHemogelYield>100</baseHemogelYield>
-      <hemogelYieldPerNutrition>20</hemogelYieldPerNutrition>
       <hemogelProductionPerHour>50</hemogelProductionPerHour>
       <hemogelPerNutrition>20</hemogelPerNutrition>
       <digestionDurationFactor>2</digestionDurationFactor>
@@ -1285,7 +1272,7 @@
   <ThingDef ParentName="BuildingColonyFleshBaseAnimation">
     <defName>FB_HemogelSac</defName>
     <label>Hemogel Sac</label>
-    <description>A pulsating organic sac, its translucent walls shimmering with a viscous, greenish fluid. This structure serves as a reservoir for hemogel, storing the lifeblood of the fleshmass colony. Colonists can harvest this resource to fuel various processes, while its tendrils subtly regulate the sac's internal pressure.</description>
+    <description>A reserve organ that stores excess heart hemogel and returns it when the colony network runs low.</description>
     <size>(1,1)</size>
     <statBases>
       <Beauty>-20</Beauty>
@@ -1297,30 +1284,16 @@
     <forceLeavingsAllowed>true</forceLeavingsAllowed>
     <comps>
       <li Class="FB.CompProperties_HemogelStorage">
-        <initialHemogelCapacity>100</initialHemogelCapacity>
+        <initialHemogelCapacity>0</initialHemogelCapacity>
         <maxHemogelCapacity>100</maxHemogelCapacity>
         <networkFillPerHour>50</networkFillPerHour>
-        <damageThreshold>0.002</damageThreshold>
         <preventHemogelDepletionDamage>true</preventHemogelDepletionDamage>
         <hideNoHemogelInspectWarning>true</hideNoHemogelInspectWarning>
       </li>
       <li Class="FB.CompProperties_HemogelUpkeep">
         <hemogelPerHour>0.05</hemogelPerHour>
       </li>
-      <li Class="FB.CompProperties_HemogelReserveNode">
-        <transferIntervalTicks>50</transferIntervalTicks>
-        <rescanIntervalTicks>600</rescanIntervalTicks>
-        <transferAmount>50</transferAmount>
-        <collectAboveHeartFraction>0.9</collectAboveHeartFraction>
-        <collectAboveHeartAmount>1150</collectAboveHeartAmount>
-        <releaseBelowHeartFraction>0.55</releaseBelowHeartFraction>
-        <releaseTargetHeartFraction>0.75</releaseTargetHeartFraction>
-        <targetHeartDef>FB_ColonyHeart</targetHeartDef>
-        <allowedTerrainDefs>
-          <li>FleshVeins</li>
-          <li>Flesh</li>
-        </allowedTerrainDefs>
-      </li>
+      <li Class="FB.CompProperties_HemogelReserveNode" />
       <li Class="FB.CompProperties_FleshAnimationManager">
         <animationAmplitude>0.1</animationAmplitude>
         <animationSideAmplitude>0.07</animationSideAmplitude>
@@ -1405,70 +1378,65 @@
   </ThingDef>
   <!-- Постройка: Photosynthetic Fleshleaf (FB_PhotosyntheticFleshleaf) -->
   <ThingDef ParentName="BuildingColonyFleshBaseAnimation">
-    <defName>FB_PhotosyntheticFleshleaf</defName>
-    <label>Fleshleaf</label>
-    <description>A broad, fleshy organism with leaf-like lobes coated in a photosensitive membrane. During daylight, the lobes orient themselves toward the sun, absorbing light and converting it into hemogel — the vital essence of the colony. Though inert by night, its internal chambers steadily accumulate reserves during clear days, making it a passive but reliable organic generator.</description>
-    <size>(2,2)</size>
-    <statBases>
-      <Beauty>-20</Beauty>
-      <MaxHitPoints>300</MaxHitPoints>
-    </statBases>
-    <killedLeavingsRanges>
-      <Meat_Twisted>50~100</Meat_Twisted>
-    </killedLeavingsRanges>
-    <forceLeavingsAllowed>true</forceLeavingsAllowed>
-    <comps>
-      <li Class="FB.CompProperties_HemogelSolarProducer">
-        <hemogelPerDay>40</hemogelPerDay>
-      </li>
-      <li Class="FB.CompProperties_FleshAnimationManager">
-        <animationAmplitude>0.02</animationAmplitude>
-        <animationSideAmplitude>0.01</animationSideAmplitude>
-        <baseAnimationSpeed>0.2</baseAnimationSpeed>
-        <beatDurationTicks>45</beatDurationTicks>
-        <colorDependsOnHemogel>false</colorDependsOnHemogel>
-        <animatedParts>
-          <li>
-            <texturePath>Things/Building/FB_Organic/PhotosyntheticFleshleaf/PhotosyntheticFleshleaf</texturePath>
-            <positionOffset>(0, 0, 0)</positionOffset>
-            <textureScale>1.5</textureScale>
-            <animationAmplitude>0.02</animationAmplitude>
-            <animationSideAmplitude>0.01</animationSideAmplitude>
-            <animationInterval>0</animationInterval>
-            <animationOffset>0.0</animationOffset>
-            <altitudeLayer>0</altitudeLayer>
-            <rotationAngle>0</rotationAngle>
-            <beatDelay>0</beatDelay>
-          </li>
-        </animatedParts>
-      </li>
-      <li Class="FB.CompProperties_HemogelTransmitter">
-        <reserveFraction>0.2</reserveFraction>
-        <allowedBuildingDefs>
-          <li>FB_ColonyHeart</li>
-        </allowedBuildingDefs>
-      </li>
-      <li Class="FB.CompProperties_FleshFuseBuildings">
-        <inputBuildingDef>FB_PhotosyntheticFleshleaf</inputBuildingDef>
-        <requiredCount>4</requiredCount>
-        <outputBuildingDef>FB_PhotosyntheticFleshtree</outputBuildingDef>
-        <requiredResearch>FB_PhotosyntheticFleshtree</requiredResearch>
-        <searchRadius>14</searchRadius>
-        <mergeEffectOnce>MeatExplosionLarge</mergeEffectOnce>
-        <gizmoLabel>FB_FleshFuseBuildingsLabel</gizmoLabel>
-        <gizmoDesc>FB_FleshFuseBuildingsDesc</gizmoDesc>
-        <iconPath>UI/Commands/Absorb</iconPath>
-      </li>
-      <li Class="FB.CompProperties_HemogelUpkeep">
-        <hemogelPerHour>0.1</hemogelPerHour>
-      </li>
-    </comps>
-  </ThingDef>
+  <defName>FB_PhotosyntheticFleshleaf</defName>
+  <label>Fleshleaf</label>
+  <description>A photosynthetic flesh organ that converts unroofed daylight into hemogel for the colony network. Partial roofing reduces output.</description>
+  <size>(2,2)</size>
+  <statBases>
+    <Beauty>-20</Beauty>
+    <MaxHitPoints>300</MaxHitPoints>
+  </statBases>
+  <killedLeavingsRanges>
+    <Meat_Twisted>50~100</Meat_Twisted>
+  </killedLeavingsRanges>
+  <forceLeavingsAllowed>true</forceLeavingsAllowed>
+  <comps>
+    <li Class="FB.CompProperties_HemogelSolarProducer">
+      <hemogelPerDay>40</hemogelPerDay>
+    </li>
+    <li Class="FB.CompProperties_FleshAnimationManager">
+      <animationAmplitude>0.02</animationAmplitude>
+      <animationSideAmplitude>0.01</animationSideAmplitude>
+      <baseAnimationSpeed>0.2</baseAnimationSpeed>
+      <beatDurationTicks>45</beatDurationTicks>
+      <playHeartbeatSound>false</playHeartbeatSound>
+      <colorDependsOnHemogel>false</colorDependsOnHemogel>
+      <animatedParts>
+        <li>
+          <texturePath>Things/Building/FB_Organic/PhotosyntheticFleshleaf/PhotosyntheticFleshleaf</texturePath>
+          <positionOffset>(0, 0, 0)</positionOffset>
+          <textureScale>1.5</textureScale>
+          <animationAmplitude>0.02</animationAmplitude>
+          <animationSideAmplitude>0.01</animationSideAmplitude>
+          <animationInterval>0</animationInterval>
+          <animationOffset>0.0</animationOffset>
+          <altitudeLayer>0</altitudeLayer>
+          <rotationAngle>0</rotationAngle>
+          <beatDelay>0</beatDelay>
+        </li>
+      </animatedParts>
+    </li>
+    <li Class="FB.CompProperties_FleshFuseBuildings">
+      <inputBuildingDef>FB_PhotosyntheticFleshleaf</inputBuildingDef>
+      <requiredCount>4</requiredCount>
+      <outputBuildingDef>FB_PhotosyntheticFleshtree</outputBuildingDef>
+      <requiredResearch>FB_PhotosyntheticFleshtree</requiredResearch>
+      <searchRadius>14</searchRadius>
+      <mergeEffectOnce>MeatExplosionLarge</mergeEffectOnce>
+      <gizmoLabel>FB_FleshFuseBuildingsLabel</gizmoLabel>
+      <gizmoDesc>FB_FleshFuseBuildingsDesc</gizmoDesc>
+      <iconPath>UI/Commands/Absorb</iconPath>
+    </li>
+    <li Class="FB.CompProperties_HemogelUpkeep">
+      <hemogelPerHour>0.1</hemogelPerHour>
+    </li>
+  </comps>
+</ThingDef>
   <!-- Постройка: Photosynthetic Fleshtree (FB_PhotosyntheticFleshtree) -->
   <ThingDef ParentName="BuildingColonyFleshBaseAnimation">
     <defName>FB_PhotosyntheticFleshtree</defName>
     <label>Fleshtree</label>
-    <description>A towering photosynthetic organ-tree with a thick, veined trunk and a canopy of four massive fleshy leaves. By day, the leaves slowly flex and orient toward the sun, converting light into hemogel that pools inside its swollen internal sacs. At night it falls still, but the reserves remain — a heavy, reliable organic generator for established colonies.</description>
+    <description>A compact organ-tree fused from five fleshleaves. It produces about four leaves' worth of hemogel from daylight while occupying far less space and requiring less upkeep.</description>
     <graphicData>
       <texPath>Things/Building/FB_Organic/PhotosyntheticFleshtree/PhotosyntheticFleshtree</texPath>
       <drawSize>(4,4)</drawSize>
@@ -1501,6 +1469,7 @@
         <animationSideAmplitude>0.01</animationSideAmplitude>
         <baseAnimationSpeed>0.2</baseAnimationSpeed>
         <beatDurationTicks>45</beatDurationTicks>
+        <playHeartbeatSound>false</playHeartbeatSound>
         <colorDependsOnHemogel>false</colorDependsOnHemogel>
         <animatedParts>
           <li>
@@ -1564,12 +1533,6 @@
             <beatDelay>28</beatDelay>
           </li>
         </animatedParts>
-      </li>
-      <li Class="FB.CompProperties_HemogelTransmitter">
-        <reserveFraction>0.2</reserveFraction>
-        <allowedBuildingDefs>
-          <li>FB_ColonyHeart</li>
-        </allowedBuildingDefs>
       </li>
       <li Class="FB.CompProperties_HemogelUpkeep">
         <hemogelPerHour>0.2</hemogelPerHour>
@@ -1659,12 +1622,6 @@
       <requiresHemogel>false</requiresHemogel>
     </li>
     <li Class="FB.CompProperties_MarkSelfForAbsorption" />
-    <li Class="FB.CompProperties_HemogelTransmitter">
-      <reserveFraction>0</reserveFraction>
-      <allowedBuildingDefs>
-        <li>FB_ColonyHeart</li>
-      </allowedBuildingDefs>
-    </li>
     <li Class="FB.CompProperties_HemogelWaterNet">
       <scanRadius>8</scanRadius>
       <scanIntervalTicks>2500</scanIntervalTicks>
@@ -1894,8 +1851,10 @@
     <uiOrder>2040</uiOrder>
     <altitudeLayer>Building</altitudeLayer>
     <passability>PassThroughOnly</passability>
+    <blockWind>false</blockWind>
     <fillPercent>0.25</fillPercent>
     <pathCost>0</pathCost>
+    <tickerType>Rare</tickerType>
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>
       <Mass>15</Mass>
@@ -1936,7 +1895,6 @@
         <ticksPerDamage>2000</ticksPerDamage>
         <hemogelPerHeal>1</hemogelPerHeal>
       </li>
-      <li Class="CompProperties_Styleable" />
       <li Class="FB.CompProperties_HemogelUpkeep">
         <hemogelPerHour>0.2</hemogelPerHour>
       </li>
@@ -2049,7 +2007,7 @@
     <thingClass>FB.Building_FleshBedRaidTarget</thingClass>
     <tickerType>Rare</tickerType>
     <altitudeLayer>Building</altitudeLayer>
-    <description>A warm living shelter grown from colony tissue. Its soft inner walls cradle a resting body, protect it from the cold, and help the colony hold vulnerable pawns inside living flesh.</description>
+    <description>A living bed that shelters a resting pawn, feeds them through a nutrient drip, and tends bleeding wounds when assigned for medical use.</description>
     <graphicData>
       <texPath>Things/Building/FB_Organic/FleshShelter/FleshShelter</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -2069,6 +2027,9 @@
       <Beauty>-7</Beauty>
       <Mass>30</Mass>
       <BedRestEffectiveness>1</BedRestEffectiveness>
+      <Flammability>1.0</Flammability>
+      <ImmunityGainSpeedFactor>1.07</ImmunityGainSpeedFactor>
+      <Comfort>1.5</Comfort>
     </statBases>
     <size>(1,1)</size>
     <uiOrder>2010</uiOrder>
@@ -2078,7 +2039,6 @@
         <compClass>CompAssignableToPawn_Bed</compClass>
       </li>
       <li Class="FB.CompProperties_FleshShelterMedical">
-        <hemogelPerTreatment>6</hemogelPerTreatment>
         <tendQuality>0.9</tendQuality>
         <maxTendQuality>0.95</maxTendQuality>
         <treatmentIntervalTicks>1250</treatmentIntervalTicks>
@@ -2100,11 +2060,6 @@
       <repairable>false</repairable>
       <roamerCanOpen>true</roamerCanOpen>
     </building>
-    <statBases>
-      <Flammability>1.0</Flammability>
-      <ImmunityGainSpeedFactor>1.07</ImmunityGainSpeedFactor>
-      <Comfort>1.5</Comfort>
-    </statBases>
     <fillPercent>0.4</fillPercent>
   </ThingDef>
   <!-- Постройка: Storage Cavity (FB_StorageCavity) -->
@@ -2590,13 +2545,6 @@
         <requireHemogelToTurnOn>true</requireHemogelToTurnOn>
         <autoDisableWhenEmpty>true</autoDisableWhenEmpty>
       </li>
-      <li Class="FB.CompProperties_FleshShelterMedical">
-        <hemogelPerTreatment>6</hemogelPerTreatment>
-        <tendQuality>0.9</tendQuality>
-        <maxTendQuality>0.95</maxTendQuality>
-        <treatmentIntervalTicks>1250</treatmentIntervalTicks>
-        <maxInjuriesPerRareTick>1</maxInjuriesPerRareTick>
-      </li>
       <li Class="FB.CompProperties_HemogelUpkeep">
         <hemogelPerHour>0.3</hemogelPerHour>
       </li>
@@ -2607,7 +2555,7 @@
   <ThingDef ParentName="BuildingColonyFleshBaseAnimation">
     <defName>FB_StoneCrusher</defName>
     <label>Stone Crusher</label>
-    <description>A massive living grinder crowned with a hard chitin-bone cap and concentric rows of cutting teeth. It doesn’t swallow stone — it chews it down layer by layer, pulping chunks into neat building blocks for the colony’s expansion.</description>
+    <description>A living grinder that chews stone chunks into usable blocks.</description>
     <thingClass>FB.Building_FleshStorageRaidTarget</thingClass>
     <size>(1,1)</size>
     <altitudeLayer>Building</altitudeLayer>
@@ -2629,25 +2577,6 @@
       <canBuildNonEdificesUnder>false</canBuildNonEdificesUnder>
       <deconstructible>false</deconstructible>
       <destroyEffecter>FleshmassDestroyed</destroyEffecter>
-    </building>
-    <killedLeavingsRanges>
-      <Meat_Twisted>10~25</Meat_Twisted>
-    </killedLeavingsRanges>
-    <forceLeavingsAllowed>true</forceLeavingsAllowed>
-    <graphicData>
-      <graphicClass>Graphic_Single</graphicClass>
-      <texPath>Things/Building/FB_Organic/StoneCrusher/StoneCrusher</texPath>
-      <drawSize>(2,2)</drawSize>
-      <damageData>
-        <enabled>false</enabled>
-      </damageData>
-    </graphicData>
-    <surfaceType>Item</surfaceType>
-    <canOverlapZones>false</canOverlapZones>
-    <inspectorTabs>
-      <li>ITab_Storage</li>
-    </inspectorTabs>
-    <building>
       <maxItemsInCell>1</maxItemsInCell>
       <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
       <storageGroupTag>Shelf</storageGroupTag>
@@ -2667,11 +2596,27 @@
         </filter>
       </defaultStorageSettings>
     </building>
+    <killedLeavingsRanges>
+      <Meat_Twisted>10~25</Meat_Twisted>
+    </killedLeavingsRanges>
+    <forceLeavingsAllowed>true</forceLeavingsAllowed>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/FB_Organic/StoneCrusher/StoneCrusher</texPath>
+      <drawSize>(2,2)</drawSize>
+      <damageData>
+        <enabled>false</enabled>
+      </damageData>
+    </graphicData>
+    <surfaceType>Item</surfaceType>
+    <canOverlapZones>false</canOverlapZones>
+    <inspectorTabs>
+      <li>ITab_Storage</li>
+    </inspectorTabs>
     <comps>
       <li Class="FB.CompProperties_RecipeStoneProcessor">
         <checkIntervalTicks>100</checkIntervalTicks>
         <processDurationTicks>3000</processDurationTicks>
-        <hemogelCostPerChunk>5</hemogelCostPerChunk>
         <processingEffecterDef>ImpactSmallDustCloud</processingEffecterDef>
         <completionEffecterDef>ImpactSmallDustCloud</completionEffecterDef>
       </li>
@@ -3348,8 +3293,9 @@
   <!-- Building: psychic lure antenna (FB_PsychicLureAntenna) -->
   <ThingDef ParentName="BuildingColonyFleshBase">
   <defName>FB_PsychicLureAntenna</defName>
+  <thingClass>FB.Building_PsychicLureAntenna</thingClass>
   <label>psychic lure antenna</label>
-  <description>A wet neural antenna that throws hunger-signals into the surrounding psychic noise. When charged with hemogel, it can lure hostile bodies toward the colony as dangerous biomass.</description>
+  <description>An organic antenna. When active, it emits waves of psychoactive hum, drawing the attention of raiders and provoking aggression in animals. Make sure the colony is ready to defend itself.</description>
   <drawerType>MapMeshAndRealTime</drawerType>
   <size>(2,2)</size>
   <statBases>
@@ -3360,6 +3306,7 @@
   </statBases>
   <graphicData>
     <graphicClass>Graphic_Single</graphicClass>
+    <shaderType>CutoutPlant</shaderType>
     <texPath>Things/Building/FB_Organic/PsychicLureAntenna/PsychicLureAntenna</texPath>
     <drawSize>(4,4)</drawSize>
     <drawOffset>(0, 0.1, 1.0)</drawOffset>
@@ -3397,7 +3344,11 @@
       <maxArrivalDelayTicks>60000</maxArrivalDelayTicks>
       <minThreatPoints>200</minThreatPoints>
       <threatPointsMultiplier>1</threatPointsMultiplier>
-      <commandIconPath>Things/Building/FB_Organic/PsychicLureAntenna/PsychicLureAntenna</commandIconPath>
+      <incidentDefs>
+        <li>RaidEnemy</li>
+        <li>ManhunterPack</li>
+      </incidentDefs>
+      <commandIconPath>UI/Commands/PsychicLureBroadcast</commandIconPath>
       <successFleckDef>PsycastPsychicEffect</successFleckDef>
     </li>
   </comps>

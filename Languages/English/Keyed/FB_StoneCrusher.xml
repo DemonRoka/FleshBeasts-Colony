@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_StoneCrusher_Processing>Grinding {0}: {1}%.</FB_StoneCrusher_Processing>
+  <FB_StoneCrusher_WaitingChunks>Waiting for stone chunks.</FB_StoneCrusher_WaitingChunks>
+  <FB_StoneCrusher_WaitingHemogel>Waiting for hemogel.</FB_StoneCrusher_WaitingHemogel>
+  <FB_StoneCrusher_UnknownChunk>stone chunk</FB_StoneCrusher_UnknownChunk>
+</LanguageData>

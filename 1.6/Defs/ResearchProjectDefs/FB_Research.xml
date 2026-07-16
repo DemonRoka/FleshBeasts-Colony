@@ -222,7 +222,7 @@
   <ResearchProjectDef>
     <defName>PhotosyntheticFleshleaf</defName>
     <label>photosynthetic fleshleaf</label>
-    <description>Unlock the Photosynthetic Fleshleaf, a living photosynthetic organ that converts light into hemogel and transfers its reserves to the colony heart.</description>
+    <description>Unlocks the Photosynthetic Fleshleaf, a living organ that converts unroofed daylight into hemogel for the colony network.</description>
     <tab>FB_Fleshbeast</tab>
     <techLevel>Industrial</techLevel>
     <prerequisites>
@@ -421,7 +421,7 @@
   <ResearchProjectDef>
     <defName>FB_PhotosyntheticFleshtree</defName>
     <label>photosynthetic fleshtree</label>
-    <description>Unlock the Fleshtree fusion process, allowing multiple photosynthetic fleshleaves to merge into a larger organ-tree with greater hemogel production and storage.</description>
+    <description>Unlocks fleshtree fusion, allowing five photosynthetic fleshleaves to merge into a compact organ-tree that produces roughly four leaves' worth of daylight hemogel.</description>
     <tab>FB_Fleshbeast</tab>
     <techLevel>Industrial</techLevel>
     <prerequisites>
@@ -596,7 +596,7 @@
   <ResearchProjectDef>
     <defName>FB_PsychicLureAntennae</defName>
     <label>psychic lure antennae</label>
-    <description>Unlock psychic lure antennae: hemogel-fed neural organs that call hostile bodies toward the colony, feeding the fleshmass and supplying skill essence for brood-womb fleshbeast growth.</description>
+    <description>Unlock psychic lure antennae: organic antennas that emit psychoactive hums, drawing raiders and enraging animals as dangerous biomass for the colony.</description>
     <tab>FB_Fleshbeast</tab>
     <techLevel>Industrial</techLevel>
     <prerequisites>
