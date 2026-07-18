@@ -76,7 +76,7 @@
     <defName>FB_OrganicComponent</defName>
     <tradeability>None</tradeability>
     <label>organic component</label>
-    <description>Clusters of veins, nodules, membranes, glands, tendrils, and other bio-organic tissues. Required for assembling complex living machines, symbiotic structures, or organic weapons.</description>
+    <description>A bundle of prepared living tissue used to craft organic machinery, symbiotic gear, and flesh-grown weapons.</description>
     <possessionCount>2</possessionCount>
     <graphicData>
       <texPath>Things/Item/Resource/OrganicComponent</texPath>
@@ -106,7 +106,7 @@
   <ThingDef ParentName="UnfinishedBase">
     <defName>UnfinishedOrganicComponent</defName>
     <label>unfinished organic component</label>
-    <description>An uunfinished organic component.</description>
+    <description>An unfinished organic component.</description>
     <statBases>
       <Flammability>0.5</Flammability>
     </statBases>
@@ -318,7 +318,7 @@
     <defName>BudFlesh_FleshBladeSeed</defName>
     <tradeability>None</tradeability>
     <label>Flesh Blade seed</label>
-    <description>A pulsating seed infused with organic matter and plasteel fragments, capable of sprouting into a Flesh Blade. This seed must be planted on fertile ground, where it will grow into a living plant that fuses with a plasteel blade, eventually yielding a sentient sword. Handle with care, as it thrives on the essence of life around it.</description>
+    <description>A seed for growing a Bud Flesh Blade. Plant it on suitable living ground, then harvest the mature plant to obtain a Flesh Blade.</description>
     <descriptionHyperlinks>
       <ThingDef>BudFlesh_FleshBlade</ThingDef>
     </descriptionHyperlinks>
@@ -348,7 +348,7 @@
     <defName>BudFlesh_CrimsonFangSeed</defName>
     <tradeability>None</tradeability>
     <label>Crimson Fang Seed</label>
-    <description>A dark, throbbing seed, veined with crimson streaks and hardened fragments of steel-like matter. Once buried in rich soil, it slowly awakens, feeding on the faint lifeforce of its surroundings. Over time, it sprouts into a grotesque bulb of flesh and sinew, from which a Crimson Fang Blade can be harvested. Careless handling may cause it to leech vitality from the one who carries it.</description>
+    <description>A seed for growing a Crimson Bulb. Plant it on suitable living ground, then harvest the mature plant to obtain a Crimson Fang.</description>
     <descriptionHyperlinks>
       <ThingDef>BudFlesh_CrimsonBulb</ThingDef>
     </descriptionHyperlinks>
@@ -378,7 +378,7 @@
     <defName>BudFlesh_FerriteFangrootSeed</defName>
     <tradeability>None</tradeability>
     <label>Ferrite Seed</label>
-    <description>A pulsating seed of dark flesh, threaded with ferrite veins and hardened metallic growths. It anchors itself into living tissue, merging with the flesh of the colony and feeding on its lifeforce. Over time, it swells into a grotesque cyst of sinew and mineral, eventually becoming the core of a living weapon — the Ferrite Fang. Prolonged contact may cause it to leech vitality directly from its host.</description>
+    <description>A seed for growing a Ferrite Fangroot. Plant it on suitable living ground, then harvest the mature plant to obtain a Ferrite Sting.</description>
     <descriptionHyperlinks>
       <ThingDef>BudFlesh_FerriteFangroot</ThingDef>
     </descriptionHyperlinks>

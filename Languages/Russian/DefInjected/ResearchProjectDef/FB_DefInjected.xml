@@ -42,7 +42,7 @@
   <FB_FleshTunneling.generalRules.rulesStrings.2>subject_story-&gt;вырастил пасти, кусающие сквозь мир</FB_FleshTunneling.generalRules.rulesStrings.2>
   <FB_FleshTunneling.generalRules.rulesStrings.3>subject_gerund-&gt;выращивание плотяных туннелей</FB_FleshTunneling.generalRules.rulesStrings.3>
   <FB_FleshTunneling.label>Туннели плоти</FB_FleshTunneling.label>
-  <FB_GalvanicCysts.description>Открывает гальваническую кисту — компактный электроцитный орган, расходующий гемогель для питания электросети и хранения небольшого биоэлектрического запаса.</FB_GalvanicCysts.description>
+  <FB_GalvanicCysts.description>Открывает гальваническую кисту — компактный электроцитный орган, расходующий гемогель для питания подключённых электросетей.</FB_GalvanicCysts.description>
   <FB_GalvanicCysts.generalRules.rulesStrings.0>subject-&gt;гальванические кисты</FB_GalvanicCysts.generalRules.rulesStrings.0>
   <FB_GalvanicCysts.generalRules.rulesStrings.1>subject_story-&gt;вырастил электроцитную ткань в энергетические органы</FB_GalvanicCysts.generalRules.rulesStrings.1>
   <FB_GalvanicCysts.generalRules.rulesStrings.2>subject_story-&gt;превратил гемогель в биоэлектрический заряд</FB_GalvanicCysts.generalRules.rulesStrings.2>
@@ -60,7 +60,7 @@
   <FB_PhotosyntheticFleshtree.generalRules.rulesStrings.2>subject_story-&gt;создал фотосинтетическую древовидную форму, хранящую гемогель</FB_PhotosyntheticFleshtree.generalRules.rulesStrings.2>
   <FB_PhotosyntheticFleshtree.generalRules.rulesStrings.3>subject_gerund-&gt;выращивание фотосинтетических плотедеревьев</FB_PhotosyntheticFleshtree.generalRules.rulesStrings.3>
   <FB_PhotosyntheticFleshtree.label>фотосинтетическое плотедерево</FB_PhotosyntheticFleshtree.label>
-  <FeederResearch.description>Открывает кормушку — органический раздатчик, из которого голодные связанные с плотью колонисты могут брать выращенную из гемогеля пищу.</FeederResearch.description>
+  <FeederResearch.description>Открывает кормушку — органический раздатчик, из которого любой голодный колонист может брать выращенную из гемогеля биомассу.</FeederResearch.description>
   <FeederResearch.generalRules.rulesStrings.0>subject-&gt;преобразование гемогеля в питание</FeederResearch.generalRules.rulesStrings.0>
   <FeederResearch.generalRules.rulesStrings.1>subject_story-&gt;разработал системы кормления биомассой</FeederResearch.generalRules.rulesStrings.1>
   <FeederResearch.generalRules.rulesStrings.2>subject_story-&gt;превратил гемогель в пищу</FeederResearch.generalRules.rulesStrings.2>

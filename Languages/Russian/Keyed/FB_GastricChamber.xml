@@ -11,4 +11,5 @@
   <FB_GastricAcidSpewer_FuelInspect>Внешнее пищеварительное топливо: {0} питательности. Выработка гемогеля: {1}/ч.</FB_GastricAcidSpewer_FuelInspect>
   <FB_GastricAcidSpewer_HemogelEconomyDetail>Внешнее пищеварительное топливо: {0} питательности; выработка {1}/ч</FB_GastricAcidSpewer_HemogelEconomyDetail>
   <FB_ColonyBrain_Structure_GastricAcidSpewer_Label>Извергатель желудочного сока</FB_ColonyBrain_Structure_GastricAcidSpewer_Label>
+  <FB_ColonyBrainTendrilHauling_Inspect>Грузовые щупальца: активно {0} / {1}.</FB_ColonyBrainTendrilHauling_Inspect>
 </LanguageData>

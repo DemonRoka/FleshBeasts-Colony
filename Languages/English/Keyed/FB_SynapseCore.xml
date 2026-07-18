@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 	<FB_DestroyBrainModeDesc>Doubles research speed. Neural overheat is stored on each pawn. Every 500 research points accumulated by that pawn inflicts 3 toxic damage directly to their brain. Outside the synapse core, the accumulated heat dissipates over one day.</FB_DestroyBrainModeDesc>
+	<FB_SynapseCoreLoadCarriedPawn>Place {PAWN_labelShort} into {BUILDING_label}</FB_SynapseCoreLoadCarriedPawn>
+	<FB_SynapseCorePawnAlreadyReserved>{PAWN_labelShort} is already reserved for another synapse core.</FB_SynapseCorePawnAlreadyReserved>
+	<FB_SynapseCoreResearchHemogelConsumption>Research hemogel demand: {0}/h</FB_SynapseCoreResearchHemogelConsumption>
 </LanguageData>

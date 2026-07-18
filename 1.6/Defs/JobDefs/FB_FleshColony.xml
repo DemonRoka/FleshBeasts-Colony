@@ -86,6 +86,13 @@
     <reportString>carrying fleshmass nucleus to TargetA.</reportString>
   </JobDef>
   <JobDef>
+    <defName>FB_CarryCarriedPawnToSynapseCore</defName>
+    <driverClass>FB.JobDriver_CarryCarriedPawnToSynapseCore</driverClass>
+    <reportString>placing TargetB into TargetA.</reportString>
+    <carryThingAfterJob>true</carryThingAfterJob>
+    <dropThingBeforeJob>false</dropThingBeforeJob>
+  </JobDef>
+  <JobDef>
     <defName>FB_FingerspikeResurrectCorpse</defName>
     <driverClass>FB.JobDriver_FingerspikeResurrectCorpse</driverClass>
     <reportString>implanting itself into TargetB.</reportString>

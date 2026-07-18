@@ -71,11 +71,69 @@
     </plant>
     <selectable>False</selectable>
   </ThingDef>
+  <!-- База растений: flesh weapon bud (BudFlesh_WeaponPlantBase) -->
+  <ThingDef ParentName="PlantBaseNonEdible" Name="BudFlesh_WeaponPlantBase" Abstract="True">
+    <plant>
+      <terrainBlacklist>
+        <li>Ice</li>
+        <li>Sand</li>
+        <li>SoftSand</li>
+        <li>Soil</li>
+        <li>SoilRich</li>
+        <li>Underwall</li>
+        <li>Concrete</li>
+        <li>AncientConcrete</li>
+        <li>MetalTile</li>
+        <li>AncientTile</li>
+        <li>Gravel</li>
+        <li>WaterDeep</li>
+        <li>WaterShallow</li>
+        <li>WaterMovingChestDeep</li>
+        <li>WaterMovingShallow</li>
+        <li>WaterOceanDeep</li>
+        <li>WaterOceanShallow</li>
+        <li>PavedTile</li>
+        <li>WoodPlankFloor</li>
+        <li>TileSandstone</li>
+        <li>Marsh</li>
+        <li>Mud</li>
+        <li>FlagstoneSandstone</li>
+        <li>Bridge</li>
+        <li>Sandstone_Smooth</li>
+        <li>PackedDirt</li>
+        <li>BrokenAsphalt</li>
+        <li>Riverbank</li>
+        <li>FungalGravel</li>
+        <li>Voidmetal</li>
+        <li>GraySurface</li>
+        <li>Substructure</li>
+        <li>AncientMegastructure</li>
+        <li>LavaDeep</li>
+        <li>LavaShallow</li>
+        <li>CooledLava</li>
+        <li>VolcanicRock</li>
+        <li>ThinIce</li>
+        <li>ShallowFloodwater</li>
+        <li>MarshFlood</li>
+        <li>Space</li>
+        <li>ToxicWaterShallow</li>
+        <li>ToxicWaterDeep</li>
+        <li>InsectSludge</li>
+        <li>OrbitalPlatform</li>
+        <li>MechanoidPlatform</li>
+        <li>DryLakeBed</li>
+        <li>HotSpring</li>
+        <li>HeavyBridge</li>
+        <li>Vacstone_Rough</li>
+        <li>Vacstone_RoughHewn</li>
+      </terrainBlacklist>
+    </plant>
+  </ThingDef>
   <!-- Растение: Bud Flesh Blade (BudFlesh_FleshBlade) -->
-  <ThingDef ParentName="PlantBaseNonEdible">
+  <ThingDef ParentName="BudFlesh_WeaponPlantBase">
     <defName>BudFlesh_FleshBlade</defName>
     <label>Bud Flesh Blade</label>
-    <description>A grotesque yet wondrous plant of living flesh that entwines a plasteel blade, growing into a sentient, symbiotic weapon. This organic structure feeds on the vitality of its surroundings, gradually shaping the blade into a living Flesh Blade sword. Harvesting yields the matured weapon, but the process requires careful nurturing on suitable terrain.</description>
+    <description>A flesh-plant grown from a blade seed. Once mature, it can be harvested into a symbiotic Flesh Blade.</description>
     <graphicData>
       <texPath>Things/Plant/BudFlesh_FleshBlade</texPath>
       <graphicClass>Graphic_Random</graphicClass>
@@ -111,67 +169,14 @@
       <growMinGlow>0</growMinGlow>
       <growOptimalGlow>0</growOptimalGlow>
       <harvestMinGrowth>0.98</harvestMinGrowth>
-      <terrainBlacklist>
-        <li>Ice</li>
-        <li>Sand</li>
-        <li>SoftSand</li>
-        <li>Soil</li>
-        <li>SoilRich</li>
-        <li>Underwall</li>
-        <li>Concrete</li>
-        <li>AncientConcrete</li>
-        <li>MetalTile</li>
-        <li>AncientTile</li>
-        <li>Gravel</li>
-        <li>WaterDeep</li>
-        <li>WaterShallow</li>
-        <li>WaterMovingChestDeep</li>
-        <li>WaterMovingShallow</li>
-        <li>WaterOceanDeep</li>
-        <li>WaterOceanShallow</li>
-        <li>PavedTile</li>
-        <li>WoodPlankFloor</li>
-        <li>TileSandstone</li>
-        <li>Marsh</li>
-        <li>Mud</li>
-        <li>FlagstoneSandstone</li>
-        <li>Bridge</li>
-        <li>Sandstone_Smooth</li>
-        <li>PackedDirt</li>
-        <li>BrokenAsphalt</li>
-        <li>Riverbank</li>
-        <li>FungalGravel</li>
-        <li>Voidmetal</li>
-        <li>GraySurface</li>
-        <li>Substructure</li>
-        <li>AncientMegastructure</li>
-        <li>LavaDeep</li>
-        <li>LavaShallow</li>
-        <li>CooledLava</li>
-        <li>VolcanicRock</li>
-        <li>ThinIce</li>
-        <li>ShallowFloodwater</li>
-        <li>MarshFlood</li>
-        <li>Space</li>
-        <li>ToxicWaterShallow</li>
-        <li>ToxicWaterDeep</li>
-        <li>InsectSludge</li>
-        <li>OrbitalPlatform</li>
-        <li>MechanoidPlatform</li>
-        <li>DryLakeBed</li>
-        <li>HotSpring</li>
-        <li>HeavyBridge</li>
-        <li>Vacstone_Rough</li>
-        <li>Vacstone_RoughHewn</li>
-      </terrainBlacklist>
       <neverBlightable>true</neverBlightable>
     </plant>
   </ThingDef>
   <!-- Растение: Crimson Bulb (BudFlesh_CrimsonBulb) -->
-  <ThingDef ParentName="PlantBaseNonEdible">
+  <ThingDef ParentName="BudFlesh_WeaponPlantBase">
     <defName>BudFlesh_CrimsonBulb</defName>
     <label>Crimson Bulb</label>
-    <description>A fleshy bulb that anchors itself deep into the soil, its veins spreading outward like roots seeking lifeblood. From this grotesque core rises a blade, slowly shaped by the plant’s pulsating growth. The more life surrounds it, the faster it matures, until the weapon is ready to be severed from its host and wielded in battle.</description>
+    <description>A flesh-plant grown from a crimson fang seed. Once mature, it can be harvested into a Crimson Fang.</description>
     <graphicData>
       <texPath>Things/Plant/BudFlesh_CrimsonBulb</texPath>
       <graphicClass>Graphic_Random</graphicClass>
@@ -207,67 +212,14 @@
       <growMinGlow>0</growMinGlow>
       <growOptimalGlow>0</growOptimalGlow>
       <harvestMinGrowth>0.98</harvestMinGrowth>
-      <terrainBlacklist>
-        <li>Ice</li>
-        <li>Sand</li>
-        <li>SoftSand</li>
-        <li>Soil</li>
-        <li>SoilRich</li>
-        <li>Underwall</li>
-        <li>Concrete</li>
-        <li>AncientConcrete</li>
-        <li>MetalTile</li>
-        <li>AncientTile</li>
-        <li>Gravel</li>
-        <li>WaterDeep</li>
-        <li>WaterShallow</li>
-        <li>WaterMovingChestDeep</li>
-        <li>WaterMovingShallow</li>
-        <li>WaterOceanDeep</li>
-        <li>WaterOceanShallow</li>
-        <li>PavedTile</li>
-        <li>WoodPlankFloor</li>
-        <li>TileSandstone</li>
-        <li>Marsh</li>
-        <li>Mud</li>
-        <li>FlagstoneSandstone</li>
-        <li>Bridge</li>
-        <li>Sandstone_Smooth</li>
-        <li>PackedDirt</li>
-        <li>BrokenAsphalt</li>
-        <li>Riverbank</li>
-        <li>FungalGravel</li>
-        <li>Voidmetal</li>
-        <li>GraySurface</li>
-        <li>Substructure</li>
-        <li>AncientMegastructure</li>
-        <li>LavaDeep</li>
-        <li>LavaShallow</li>
-        <li>CooledLava</li>
-        <li>VolcanicRock</li>
-        <li>ThinIce</li>
-        <li>ShallowFloodwater</li>
-        <li>MarshFlood</li>
-        <li>Space</li>
-        <li>ToxicWaterShallow</li>
-        <li>ToxicWaterDeep</li>
-        <li>InsectSludge</li>
-        <li>OrbitalPlatform</li>
-        <li>MechanoidPlatform</li>
-        <li>DryLakeBed</li>
-        <li>HotSpring</li>
-        <li>HeavyBridge</li>
-        <li>Vacstone_Rough</li>
-        <li>Vacstone_RoughHewn</li>
-      </terrainBlacklist>
       <neverBlightable>true</neverBlightable>
     </plant>
   </ThingDef>
   <!-- Растение: Ferrite Fangroot (BudFlesh_FerriteFangroot) -->
-  <ThingDef ParentName="PlantBaseNonEdible">
+  <ThingDef ParentName="BudFlesh_WeaponPlantBase">
     <defName>BudFlesh_FerriteFangroot</defName>
     <label>Ferrite Fangroot</label>
-    <description>A grotesque plant born from the fusion of living flesh and ferrite metal. Its roots writhe like tendrils, drawing strength from the soil and feeding a pulsating core with a single watchful eye. From this eye sprouts a jagged ferrite blade, grown as part of the organism itself. Once fully matured, the plant can be harvested, yielding a unique living weapon. Only those strong enough to withstand its gaze and hunger may claim the blade.</description>
+    <description>A flesh-metal plant grown from a ferrite seed. Once mature, it can be harvested into a Ferrite Sting.</description>
     <graphicData>
       <texPath>Things/Plant/BudFlesh_FerriteFangroot</texPath>
       <graphicClass>Graphic_Random</graphicClass>
@@ -303,59 +255,6 @@
       <growMinGlow>0</growMinGlow>
       <growOptimalGlow>0</growOptimalGlow>
       <harvestMinGrowth>0.98</harvestMinGrowth>
-      <terrainBlacklist>
-        <li>Ice</li>
-        <li>Sand</li>
-        <li>SoftSand</li>
-        <li>Soil</li>
-        <li>SoilRich</li>
-        <li>Underwall</li>
-        <li>Concrete</li>
-        <li>AncientConcrete</li>
-        <li>MetalTile</li>
-        <li>AncientTile</li>
-        <li>Gravel</li>
-        <li>WaterDeep</li>
-        <li>WaterShallow</li>
-        <li>WaterMovingChestDeep</li>
-        <li>WaterMovingShallow</li>
-        <li>WaterOceanDeep</li>
-        <li>WaterOceanShallow</li>
-        <li>PavedTile</li>
-        <li>WoodPlankFloor</li>
-        <li>TileSandstone</li>
-        <li>Marsh</li>
-        <li>Mud</li>
-        <li>FlagstoneSandstone</li>
-        <li>Bridge</li>
-        <li>Sandstone_Smooth</li>
-        <li>PackedDirt</li>
-        <li>BrokenAsphalt</li>
-        <li>Riverbank</li>
-        <li>FungalGravel</li>
-        <li>Voidmetal</li>
-        <li>GraySurface</li>
-        <li>Substructure</li>
-        <li>AncientMegastructure</li>
-        <li>LavaDeep</li>
-        <li>LavaShallow</li>
-        <li>CooledLava</li>
-        <li>VolcanicRock</li>
-        <li>ThinIce</li>
-        <li>ShallowFloodwater</li>
-        <li>MarshFlood</li>
-        <li>Space</li>
-        <li>ToxicWaterShallow</li>
-        <li>ToxicWaterDeep</li>
-        <li>InsectSludge</li>
-        <li>OrbitalPlatform</li>
-        <li>MechanoidPlatform</li>
-        <li>DryLakeBed</li>
-        <li>HotSpring</li>
-        <li>HeavyBridge</li>
-        <li>Vacstone_Rough</li>
-        <li>Vacstone_RoughHewn</li>
-      </terrainBlacklist>
       <neverBlightable>true</neverBlightable>
     </plant>
   </ThingDef>

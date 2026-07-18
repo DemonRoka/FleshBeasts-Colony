@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 	<FB_DestroyBrainModeDesc>Удваивает скорость исследования. Нейронный перегрев хранится отдельно на каждой пешке. Каждые накопленные этой пешкой 500 очков исследования наносят ей 3 единицы токсического урона прямо в мозг. Вне синаптического ядра накопленный перегрев рассеивается за один день.</FB_DestroyBrainModeDesc>
+	<FB_SynapseCoreLoadCarriedPawn>Поместить {PAWN_labelShort} в {BUILDING_label}</FB_SynapseCoreLoadCarriedPawn>
+	<FB_SynapseCorePawnAlreadyReserved>{PAWN_labelShort} уже назначен в другое синаптическое ядро.</FB_SynapseCorePawnAlreadyReserved>
+	<FB_SynapseCoreResearchHemogelConsumption>Расход гемогеля на исследование: {0}/ч</FB_SynapseCoreResearchHemogelConsumption>
 </LanguageData>

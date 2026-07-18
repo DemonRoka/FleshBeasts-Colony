@@ -42,7 +42,7 @@
   <FB_FleshTunneling.generalRules.rulesStrings.2>subject_story-&gt;grew mouths that bite through the world</FB_FleshTunneling.generalRules.rulesStrings.2>
   <FB_FleshTunneling.generalRules.rulesStrings.3>subject_gerund-&gt;growing flesh tunnels</FB_FleshTunneling.generalRules.rulesStrings.3>
   <FB_FleshTunneling.label>flesh tunneling</FB_FleshTunneling.label>
-  <FB_GalvanicCysts.description>Unlock the Galvanic Cyst, a compact electrocyte organ that consumes hemogel to feed an electrical grid while holding a small bioelectric reserve.</FB_GalvanicCysts.description>
+  <FB_GalvanicCysts.description>Unlock the Galvanic Cyst, a compact electrocyte organ that consumes hemogel to feed connected electrical grids.</FB_GalvanicCysts.description>
   <FB_GalvanicCysts.generalRules.rulesStrings.0>subject-&gt;galvanic cysts</FB_GalvanicCysts.generalRules.rulesStrings.0>
   <FB_GalvanicCysts.generalRules.rulesStrings.1>subject_story-&gt;cultivated electrocyte tissue into power organs</FB_GalvanicCysts.generalRules.rulesStrings.1>
   <FB_GalvanicCysts.generalRules.rulesStrings.2>subject_story-&gt;turned hemogel into bioelectric charge</FB_GalvanicCysts.generalRules.rulesStrings.2>
@@ -60,7 +60,7 @@
   <FB_PhotosyntheticFleshtree.generalRules.rulesStrings.2>subject_story-&gt;engineered a hemogel-storing photosynthetic treeform</FB_PhotosyntheticFleshtree.generalRules.rulesStrings.2>
   <FB_PhotosyntheticFleshtree.generalRules.rulesStrings.3>subject_gerund-&gt;growing photosynthetic fleshtrees</FB_PhotosyntheticFleshtree.generalRules.rulesStrings.3>
   <FB_PhotosyntheticFleshtree.label>photosynthetic fleshtree</FB_PhotosyntheticFleshtree.label>
-  <FeederResearch.description>Unlock the Feeder, an organic dispenser where hungry flesh-bound colonists can take hemogel-grown meals from its interaction cells.</FeederResearch.description>
+  <FeederResearch.description>Unlock the Feeder, an organic dispenser where any hungry colonist can take hemogel-grown biomass from its interaction cells.</FeederResearch.description>
   <FeederResearch.generalRules.rulesStrings.0>subject-&gt;hemogel nutrient conversion</FeederResearch.generalRules.rulesStrings.0>
   <FeederResearch.generalRules.rulesStrings.1>subject_story-&gt;developed biomass feeding systems</FeederResearch.generalRules.rulesStrings.1>
   <FeederResearch.generalRules.rulesStrings.2>subject_story-&gt;transformed hemogel into sustenance</FeederResearch.generalRules.rulesStrings.2>

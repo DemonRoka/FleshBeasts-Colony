@@ -3,7 +3,7 @@
   <ThingDef ParentName="BasePawn">
     <defName>FB_Stingmite</defName>
     <label>stingmite</label>
-    <description>A disposable fleshbeast that rushes hostile humanoids, injects a paralytic nerve toxin, and bursts apart after striking.</description>
+    <description>A disposable fleshbeast that rushes hostile targets, injects a paralytic nerve toxin into living prey, and bursts harmlessly against mechanoids.</description>
     <tradeability>None</tradeability>
     <uiIconPath>Things/Pawn/FB_Stingmite/FB_Stingmite</uiIconPath>
     <statBases>
@@ -62,7 +62,7 @@
         <scanIntervalTicks>60</scanIntervalTicks>
         <attackDelayTicks>20</attackDelayTicks>
         <jobExpiryTicks>1200</jobExpiryTicks>
-        <humanlikesOnly>true</humanlikesOnly>
+        <humanlikesOnly>false</humanlikesOnly>
         <requireLineOfSight>true</requireLineOfSight>
       </li>
       <li Class="FB.CompProperties_OutsideLifetime">

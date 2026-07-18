@@ -112,7 +112,7 @@
   <ResearchProjectDef>
     <defName>FB_GalvanicCysts</defName>
     <label>galvanic cysts</label>
-    <description>Unlock the Galvanic Cyst, a compact electrocyte organ that consumes hemogel to feed an electrical grid while holding a small bioelectric reserve.</description>
+    <description>Unlock the Galvanic Cyst, a compact electrocyte organ that consumes hemogel to feed connected electrical grids.</description>
     <tab>FB_Fleshbeast</tab>
     <techLevel>Industrial</techLevel>
     <prerequisites>
@@ -355,7 +355,7 @@
   <ResearchProjectDef>
     <defName>FeederResearch</defName>
     <label>feeder</label>
-    <description>Unlock the Feeder, an organic dispenser where hungry flesh-bound colonists can take hemogel-grown meals from its interaction cells.</description>
+    <description>Unlock the Feeder, an organic dispenser where any hungry colonist can take hemogel-grown biomass from its interaction cells.</description>
     <tab>FB_Fleshbeast</tab>
     <techLevel>Industrial</techLevel>
     <prerequisites>

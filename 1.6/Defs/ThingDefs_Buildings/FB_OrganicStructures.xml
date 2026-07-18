@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <!-- База построек: BuildingColonyFleshBase -->
   <ThingDef Name="BuildingColonyFleshBase" Abstract="True">
@@ -238,12 +238,14 @@
       <networkFillPerHour>500</networkFillPerHour>
       <damageThreshold>0.04</damageThreshold>
     </li>
+    <!--
     <li Class="FB.CompProperties_SpawnInitialPawnsAdjacent">
       <pawnKind>FB_BurdenBlobKind</pawnKind>
       <count>3</count>
       <spawnRadius>5</spawnRadius>
       <onlyPlayerFaction>true</onlyPlayerFaction>
     </li>
+    -->
     <li Class="FB.CompProperties_FleshbeastBillExecutor">
       <checkIntervalTicks>250</checkIntervalTicks>
       <recipes>
@@ -320,7 +322,6 @@
       </forbiddenBuildingDefs>
       <hiddenFromHemogelEconomyDefs>
         <li>FB_ColonyEye</li>
-        <li>FB_StorageCavity</li>
       </hiddenFromHemogelEconomyDefs>
     </li>
     <li Class="FB.CompProperties_FleshAnimationManager">
@@ -959,6 +960,15 @@
         </li>
       </structurePairs>
     </li>
+    <li Class="FB.CompProperties_ColonyBrainTendrilHauling">
+      <maxActiveTendrils>5</maxActiveTendrils>
+      <tendrilReach>7</tendrilReach>
+      <scanIntervalTicks>180</scanIntervalTicks>
+      <maxCandidatesPerScan>35</maxCandidatesPerScan>
+      <anchorSearchRadius>4</anchorSearchRadius>
+      <captureRadiusFromFlesh>5</captureRadiusFromFlesh>
+      <routeSpacingFactor>0.85</routeSpacingFactor>
+    </li>
     <li Class="FB.CompProperties_BuildingSpawner">
       <buildingDefs>
         <li>FB_ColonyEye</li>
@@ -1543,7 +1553,7 @@
   <ThingDef ParentName="BuildingColonyFleshBaseAnimation">
     <defName>FB_TissueIncubator</defName>
     <label>Tissue incubator</label>
-    <description>A living tissue incubator that memorizes delivered meat and leather samples, then grows matching materials from hemogel inside sealed, pulsing chambers.</description>
+    <description>A living incubator that memorizes meat, leather, or whole corpses, then grows matching materials from hemogel.</description>
     <thingClass>FB.Building_TissueIncubator</thingClass>
     <size>(2,2)</size>
     <multipleInteractionCellOffsets>
@@ -1570,8 +1580,6 @@
         <ticksPerCycle>60000</ticksPerCycle>
         <meatOutputCount>25</meatOutputCount>
         <leatherOutputCount>15</leatherOutputCount>
-        <hemogelPerMeat>1</hemogelPerMeat>
-        <hemogelPerLeather>2</hemogelPerLeather>
       </li>
     </modExtensions>
     <comps>
@@ -1639,8 +1647,9 @@
   <ThingDef ParentName="BuildingColonyFleshBase">
     <defName>FB_GalvanicCyst</defName>
     <label>galvanic cyst</label>
-    <description>A fist-sized knot of electrocyte tissue that metabolizes hemogel into bioelectric charge. It stores the charge in swollen organic cells and stops feeding when its inner reserve is full.</description>
+    <description>A compact electrocyte organ that consumes hemogel from the colony network to supply connected electrical devices.</description>
     <size>(1,1)</size>
+    <blockWind>false</blockWind>
     <statBases>
       <MaxHitPoints>120</MaxHitPoints>
       <Beauty>-12</Beauty>
@@ -1661,10 +1670,7 @@
       </li>
       <li Class="FB.CompProperties_MarkSelfForAbsorption" />
       <li Class="FB.CompProperties_HemogelPowerPlant">
-        <basePowerConsumption>-300</basePowerConsumption>
-        <transmitsPower>true</transmitsPower>
         <hemogelPerDayAtFullOutput>24</hemogelPerDayAtFullOutput>
-        <hemogelConsumeIntervalTicks>60</hemogelConsumeIntervalTicks>
       </li>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
@@ -1710,7 +1716,7 @@
   <!-- Постройка: Feeder (FB_Feeder) -->
   <ThingDef ParentName="BuildingColonyFleshBaseAnimation">
     <defName>FB_Feeder</defName>
-    <description>An organic feeding structure that converts hemogel into edible biomass. Hungry colonists can approach from any open side and draw a fresh portion directly from the feeder.</description>
+    <description>An organic feeding structure that uses hemogel network power to dispense edible biomass. Any hungry colonist can draw a fresh portion from its open sides, though unaccepted pawns may dislike the meal.</description>
     <label>Feeder</label>
     <thingClass>FB.Building_HemogelFeeder</thingClass>
     <size>(2,2)</size>
@@ -1739,10 +1745,8 @@
         <scanRadius>40</scanRadius>
         <foodDef>FB_FleshBiomass</foodDef>
         <hungerThreshold>0.35</hungerThreshold>
-        <hemogelCostPerFullNutritionBar>20</hemogelCostPerFullNutritionBar>
         <rationDef>FB_HemogelRation</rationDef>
         <rationBatchSize>10</rationBatchSize>
-        <rationBatchHemogelCost>120</rationBatchHemogelCost>
         <rationCommandIconPath>UI/Commands/MakeHemogelRations</rationCommandIconPath>
       </li>
       <li Class="FB.CompProperties_FleshAnimationManager">
@@ -2066,8 +2070,9 @@
   <ThingDef ParentName="BuildingColonyFleshBase">
     <defName>FB_StorageCavity</defName>
     <label>Storage Cavity</label>
-    <description>A fleshy, ribbed structure with organic recesses. This shelf-like node stores items securely within moist, flexible tissue. Contents remain protected from decay and weathering, and blend visually with the living colony. Not suitable for heavy or bulky items like chunks, buildings, plants, or large corpses.</description>
+    <description>A living shelf that protects stored items from weather and decay, but cannot hold chunks, buildings, plants, or large corpses.</description>
     <thingClass>FB.Building_FleshStorageRaidTarget</thingClass>
+    <tickerType>Rare</tickerType>
     <building>
       <isEdifice>true</isEdifice>
       <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
@@ -2106,7 +2111,7 @@
           </categories>
         </filter>
       </defaultStorageSettings>
-      <maxItemsInCell>6</maxItemsInCell>
+      <maxItemsInCell>4</maxItemsInCell>
       <paintable>false</paintable>
     </building>
     <size>(2,2)</size>
@@ -2126,7 +2131,7 @@
     </graphicData>
     <uiIconScale>0.5</uiIconScale>
     <statBases>
-      <MaxHitPoints>50</MaxHitPoints>
+      <MaxHitPoints>80</MaxHitPoints>
       <Mass>4</Mass>
       <Flammability>1.0</Flammability>
       <Beauty>0.5</Beauty>
@@ -2139,7 +2144,7 @@
       </li>
       <li Class="FB.CompProperties_MarkSelfForAbsorption" />
       <li Class="FB.CompProperties_HemogelUpkeep">
-        <hemogelPerHour>0.3</hemogelPerHour>
+        <hemogelPerHour>0.1</hemogelPerHour>
       </li>
     </comps>
     <altitudeLayer>Building</altitudeLayer>
@@ -2155,7 +2160,7 @@
   <ThingDef ParentName="BuildingColonyFleshBase">
     <defName>FB_SporeCradle</defName>
     <label>Spore-Cradle</label>
-    <description>A bio-organic workstation where colonists shape raw biomass into embryonic spore-seeds. At its center pulsates a semi-transparent dome filled with nutrient gel, regulated by fleshy tendrils. When a colonist interacts with it, organic processes are triggered to imprint the blueprint of a chosen item into the seed, which can later be planted to grow equipment within the colony.</description>
+    <description>A living worktable where colonists shape biomass and rare materials into seeds for growing organic equipment.</description>
     <thingClass>FB.Building_FleshWorkTableRaidTarget</thingClass>
     <tickerType>Normal</tickerType>
     <graphicData>
@@ -2163,9 +2168,9 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(2.2)</drawSize>
     </graphicData>
-    <statBases>
-      <WorkTableWorkSpeedFactor>0.5</WorkTableWorkSpeedFactor>
-      <MaxHitPoints>200</MaxHitPoints>
+      <statBases>
+        <WorkTableWorkSpeedFactor>1</WorkTableWorkSpeedFactor>
+        <MaxHitPoints>200</MaxHitPoints>
       <Beauty>-20</Beauty>
       <Flammability>0.7</Flammability>
     </statBases>
@@ -2513,9 +2518,10 @@
   <ThingDef ParentName="BuildingColonyFleshBase">
     <defName>FB_FleshSunFlower</defName>
     <label>sun flower</label>
-    <description>A towering chitin-fleshed flower that unfurls into a full crown. At its center burns a pulsing, sun-bright core — a living organ that floods the area with daylike radiance and lets crops grow where true sunlight cannot reach. When the colony’s will quiets, the petals fold over the core, sealing the glow behind a protective husk.</description>
+    <description>A living sun lamp that spends hemogel network power to emit crop-growing light, folding shut when inactive.</description>
     <thingClass>FB.Building_FleshSunFlower</thingClass>
     <size>(1,1)</size>
+    <fillPercent>0.20</fillPercent>
     <rotatable>false</rotatable>
     <tickerType>Normal</tickerType>
     <drawerType>MapMeshAndRealTime</drawerType>
@@ -2540,16 +2546,15 @@
         <overlightRadius>7.0</overlightRadius>
         <glowRadius>14</glowRadius>
         <glowColor>(370,370,370,0)</glowColor>
-        <hemogelConsumeIntervalTicks>1000</hemogelConsumeIntervalTicks>
-        <hemogelConsumeAmount>1</hemogelConsumeAmount>
+        <activeHemogelPerHour>0.5</activeHemogelPerHour>
         <requireHemogelToTurnOn>true</requireHemogelToTurnOn>
         <autoDisableWhenEmpty>true</autoDisableWhenEmpty>
       </li>
       <li Class="FB.CompProperties_HemogelUpkeep">
-        <hemogelPerHour>0.3</hemogelPerHour>
+        <hemogelPerHour>0.2</hemogelPerHour>
       </li>
     </comps>
-    <specialDisplayRadius>5.8</specialDisplayRadius>
+    <specialDisplayRadius>7.0</specialDisplayRadius>
   </ThingDef>
   <!-- Постройка: Stone Crusher (FB_StoneCrusher) -->
   <ThingDef ParentName="BuildingColonyFleshBaseAnimation">
@@ -2994,6 +2999,7 @@
   <label>genome archive</label>
   <description>A living gene bank that stores extracted genepacks inside organic memory tissue. Its contents can be inspected directly and used by a gene reweaver.</description>
   <thingClass>FB.Building_GenomeArchive</thingClass>
+  <tickerType>Normal</tickerType>
   <size>(2,2)</size>
   <statBases>
     <MaxHitPoints>220</MaxHitPoints>

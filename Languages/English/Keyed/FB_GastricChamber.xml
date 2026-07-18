@@ -11,4 +11,5 @@
   <FB_GastricAcidSpewer_FuelInspect>External digestive fuel: {0} nutrition. Hemogel output: {1}/h.</FB_GastricAcidSpewer_FuelInspect>
   <FB_GastricAcidSpewer_HemogelEconomyDetail>External digestive fuel: {0} nutrition; output {1}/h</FB_GastricAcidSpewer_HemogelEconomyDetail>
   <FB_ColonyBrain_Structure_GastricAcidSpewer_Label>Gastric Acid Spewer</FB_ColonyBrain_Structure_GastricAcidSpewer_Label>
+  <FB_ColonyBrainTendrilHauling_Inspect>Hauling tendrils: {0} / {1} active.</FB_ColonyBrainTendrilHauling_Inspect>
 </LanguageData>

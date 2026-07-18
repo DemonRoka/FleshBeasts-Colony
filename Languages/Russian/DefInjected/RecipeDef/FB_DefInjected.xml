@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <Make_OrganicComponent.description>Собрать органический компонент из биоорганических тканей, пригодный для создания живых машин или симбиотического оружия.</Make_OrganicComponent.description>
+  <Make_OrganicComponent.description>Создать органический компонент из сырого мяса и кожи для живых построек, симбиотического снаряжения и выращенного оружия.</Make_OrganicComponent.description>
   <Make_OrganicComponent.jobString>Сборка органического компонента.</Make_OrganicComponent.jobString>
   <Make_OrganicComponent.label>сделать органический компонент</Make_OrganicComponent.label>
-  <MakeBudFlesh_CrimsonFangSeed.description>Тёмное, пульсирующее семя с багровыми прожилками и вкраплениями стальной ткани. Попав в плодородную почву, оно медленно пробуждается, питаясь слабой жизненной энергией вокруг. Со временем из него прорастает уродливая луковица из плоти и жил, из которой можно собрать Багровый Клык. Неосторожное обращение может привести к утечке жизненной силы у того, кто его носит.</MakeBudFlesh_CrimsonFangSeed.description>
+  <MakeBudFlesh_CrimsonFangSeed.description>Создать семя багрового клыка из органических компонентов и пластали. Посадите его, чтобы вырастить багровую луковицу и собрать Багровый Клык.</MakeBudFlesh_CrimsonFangSeed.description>
   <MakeBudFlesh_CrimsonFangSeed.jobString>Создание семени багрового клыка</MakeBudFlesh_CrimsonFangSeed.jobString>
   <MakeBudFlesh_CrimsonFangSeed.label>Сделать семя багрового клыка</MakeBudFlesh_CrimsonFangSeed.label>
-  <MakeBudFlesh_FerriteSeed.description>Пульсирующее семя из тёмной плоти, пронизанной ферритовыми жилами и металлическими наростами. Оно закрепляется в живой ткани, срастаясь с плотью колонии и питаясь её жизненной энергией. Со временем оно раздувается в уродливую кисту из жил и минерала, превращающуюся в ядро живого оружия — Ферритовый Клык. Длительный контакт может привести к утечке жизненных сил носителя.</MakeBudFlesh_FerriteSeed.description>
+  <MakeBudFlesh_FerriteSeed.description>Создать ферритовое семя из органических компонентов и биоферрита. Посадите его, чтобы вырастить ферритовый корнеклык и собрать Ферритовое Жало.</MakeBudFlesh_FerriteSeed.description>
   <MakeBudFlesh_FerriteSeed.jobString>Создание ферритового семени</MakeBudFlesh_FerriteSeed.jobString>
   <MakeBudFlesh_FerriteSeed.label>Сделать ферритовое семя</MakeBudFlesh_FerriteSeed.label>
-  <MakeBudFlesh_FleshBladeSeed.description>Создать пульсирующее семя, насыщенное органикой и фрагментами пластали. Со временем оно прорастёт в почку меча плоти. Требуется биофабрикация и подходящие материалы.</MakeBudFlesh_FleshBladeSeed.description>
+  <MakeBudFlesh_FleshBladeSeed.description>Создать семя меча плоти из органических компонентов и пластали. Посадите его, чтобы вырастить почку меча плоти и собрать Меч Плоти.</MakeBudFlesh_FleshBladeSeed.description>
   <MakeBudFlesh_FleshBladeSeed.jobString>Создание семени меча плоти</MakeBudFlesh_FleshBladeSeed.jobString>
   <MakeBudFlesh_FleshBladeSeed.label>Сделать семя меча плоти</MakeBudFlesh_FleshBladeSeed.label>
-  <MakePersonalityParasiteEgg.description>Создать пульсирующее, испещрённое жилами яйцо, в котором созревает паразит сознания. Для его психического развития нужны редкие органические компоненты, продвинутые материалы и человеческие останки. Рецепт требует высокого навыка и ценных ресурсов: биоферрит стабилизирует оболочку, а уран усиливает нейронный рост.</MakePersonalityParasiteEgg.description>
+  <MakePersonalityParasiteEgg.description>Создать яйцо личностного паразита из органических компонентов, биоферрита и урана. Из яйца вылупится паразит, способный переносить сохранённый разум.</MakePersonalityParasiteEgg.description>
   <MakePersonalityParasiteEgg.jobString>Создание яйца личностного паразита</MakePersonalityParasiteEgg.jobString>
   <MakePersonalityParasiteEgg.label>Сделать яйцо личностного паразита</MakePersonalityParasiteEgg.label>
 </LanguageData>
