@@ -4,7 +4,7 @@
   <ThingDef ParentName="BaseFleshbeast">
     <defName>FB_Cocoonback</defName>
     <label>cocoonback</label>
-    <description>A living containment beast with its own hemogel reservoir. It seals humanlike captives inside a back cocoon, feeding and sedating them until release.</description>
+    <description>A living containment beast that seals humanlike captives inside a back cocoon, feeding and sedating them through the hemogel network until release.</description>
     <tradeability>None</tradeability>
     <uiIconPath>Things/Pawn/FB_Cocoonback/Cocoonback_south</uiIconPath>
     <statBases>
@@ -72,24 +72,12 @@
       </li>
     </tools>
     <comps>
-      <li Class="FB.CompProperties_HemogelStorage">
-        <initialHemogelCapacity>820</initialHemogelCapacity>
-        <maxHemogelCapacity>820</maxHemogelCapacity>
-        <showHemogelInInspector>true</showHemogelInInspector>
-      </li>
       <li Class="FB.CompProperties_CocoonbackContainment">
         <maxCapacity>10</maxCapacity>
-        <baseHemogelPerCapture>40</baseHemogelPerCapture>
-        <hemogelPerBleedingSeverity>18</hemogelPerBleedingSeverity>
-        <hemogelPerBleedingWound>6</hemogelPerBleedingWound>
         <restoreIntervalTicks>2500</restoreIntervalTicks>
-        <upkeepIntervalTicks>2500</upkeepIntervalTicks>
         <foodRestorePerInterval>0.08</foodRestorePerInterval>
         <restRestorePerInterval>0.1</restRestorePerInterval>
-        <hemogelDrainPerPawnPerDay>14</hemogelDrainPerPawnPerDay>
-        <lowHemogelThresholdPercent>0.1</lowHemogelThresholdPercent>
-        <refillPerTick>4.2</refillPerTick>
-        <heartSearchRadius>90</heartSearchRadius>
+        <hemogelPerPawnPerHour>0.1</hemogelPerPawnPerHour>
         <releaseAnestheticSeverity>1</releaseAnestheticSeverity>
         <captureGizmoLabel>FB_Cocoonback_Cocoon</captureGizmoLabel>
         <captureGizmoDesc>FB_Cocoonback_DefaultCaptureDesc</captureGizmoDesc>
@@ -97,10 +85,8 @@
         <releaseGizmoDesc>FB_Cocoonback_DefaultReleaseDesc</releaseGizmoDesc>
         <captureIconPath>UI/Commands/CocoonbackCapture</captureIconPath>
         <releaseIconPath>UI/Commands/CocoonbackRelease</releaseIconPath>
-        <notEnoughHemogelMessage>FB_Cocoonback_NotEnoughHemogel</notEnoughHemogelMessage>
         <noCaptivesMessage>FB_Cocoonback_NoCaptives</noCaptivesMessage>
         <capacityFullMessage>FB_Cocoonback_CapacityFull</capacityFullMessage>
-        <ropeTexturePath>Things/Building/Cable</ropeTexturePath>
         <southDisplayZone>
           <pointA>
             <x>-0.35</x>

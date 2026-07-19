@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <ThingDef ParentName="BuildingColonyFleshBaseAnimation">
     <defName>FB_BileMortarGland</defName>
@@ -58,7 +58,7 @@
   <ThingDef ParentName="EmbryoStructureBase">
     <defName>FB_BileMortarGlandEmbryo</defName>
     <label>bile mortar gland embryo</label>
-    <description>A bile-swollen embryonic organ that will mature into a living artillery gland.</description>
+    <description>An immature bile organ that will grow into a bile mortar gland.</description>
     <size>(2,2)</size>
     <comps>
       <li Class="FB.CompProperties_EmbryoGrowth">

@@ -1,7 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_GastricAcidSpewer.label>извергатель желудочного сока</FB_GastricAcidSpewer.label>
   <FB_GastricAcidSpewer.description>Пищеварительный орган, растекающий желудочный сок поблизости. Органические тела и пища в связанной кислотной луже медленно питают гемогелевую сеть.</FB_GastricAcidSpewer.description>
   <FB_GastricAcidSpewerEmbryo.label>эмбрион извергателя желудочного сока</FB_GastricAcidSpewerEmbryo.label>
-  <FB_GastricAcidSpewerEmbryo.description>Незрелый пищеварительный орган, который созреет в извергатель желудочного сока.</FB_GastricAcidSpewerEmbryo.description>
+  <FB_GastricAcidSpewerEmbryo.description>Незрелый пищеварительный орган, который вырастет в извергатель желудочного сока.</FB_GastricAcidSpewerEmbryo.description>
 </LanguageData>

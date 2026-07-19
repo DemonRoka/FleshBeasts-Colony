@@ -23,4 +23,8 @@
   <FB_GrowFleshTree_Desc>Grow a flesh tree from colony flesh. The plant starts newly sprouted.</FB_GrowFleshTree_Desc>
   <FB_FleshPlantCellBlocked>The cell must be empty.</FB_FleshPlantCellBlocked>
   <FB_FleshPlantTreeRoofed>Flesh trees cannot grow under roofs.</FB_FleshPlantTreeRoofed>
-</LanguageData>
+  <FB_MaturationBlocked>Maturation of {0} is blocked: {1}</FB_MaturationBlocked>
+  <FB_DevFinishMaturation>DEV: finish maturation</FB_DevFinishMaturation>
+  <FB_DevFinishMaturationDesc>Immediately completes this embryo's maturation if the mature form can be placed.</FB_DevFinishMaturationDesc>
+  <FB_FailedSpawnThing>Failed to create {0}.</FB_FailedSpawnThing>
+  <FB_FailedGeneratePawnKind>Failed to generate {0}.</FB_FailedGeneratePawnKind></LanguageData>

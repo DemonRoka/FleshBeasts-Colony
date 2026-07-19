@@ -10,4 +10,5 @@
   <FB_FleshbeastBillRepeatHemogelAbove>Если гемогель выше {0}</FB_FleshbeastBillRepeatHemogelAbove>
   <FB_FleshbeastBillRepeatHemogelAboveMenu>Если гемогель выше X</FB_FleshbeastBillRepeatHemogelAboveMenu>
   <FB_FleshbeastBillRepeatHemogelInfo>Гемогель сети: {0} / порог {1}</FB_FleshbeastBillRepeatHemogelInfo>
+  <FB_NoAvailableMedicalOperations>Для этого биошмата нет доступных процедур.</FB_NoAvailableMedicalOperations>
 </LanguageData>

@@ -1,7 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_GastricAcidSpewer.label>gastric acid spewer</FB_GastricAcidSpewer.label>
   <FB_GastricAcidSpewer.description>A digestive organ that spreads gastric acid nearby. Organic bodies and food left in the connected acid pool slowly feed the hemogel network.</FB_GastricAcidSpewer.description>
   <FB_GastricAcidSpewerEmbryo.label>gastric acid spewer embryo</FB_GastricAcidSpewerEmbryo.label>
-  <FB_GastricAcidSpewerEmbryo.description>An immature digestive organ that will mature into a gastric acid spewer.</FB_GastricAcidSpewerEmbryo.description>
+  <FB_GastricAcidSpewerEmbryo.description>An immature digestive organ that will grow into a gastric acid spewer.</FB_GastricAcidSpewerEmbryo.description>
 </LanguageData>

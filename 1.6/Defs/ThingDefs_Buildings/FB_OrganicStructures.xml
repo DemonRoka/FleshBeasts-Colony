@@ -961,7 +961,9 @@
       </structurePairs>
     </li>
     <li Class="FB.CompProperties_ColonyBrainTendrilHauling">
-      <maxActiveTendrils>5</maxActiveTendrils>
+      <maxActiveTendrils>10</maxActiveTendrils>
+      <defaultActiveTendrils>5</defaultActiveTendrils>
+      <hemogelPerTendrilPerHour>0.3</hemogelPerTendrilPerHour>
       <tendrilReach>7</tendrilReach>
       <scanIntervalTicks>180</scanIntervalTicks>
       <maxCandidatesPerScan>35</maxCandidatesPerScan>
@@ -2766,6 +2768,7 @@
         <size>1</size>
         <rotationSpeed>5</rotationSpeed>
         <baseRotation>-90</baseRotation>
+        <overlayAltitudeLayer>BuildingOnTop</overlayAltitudeLayer>
         <targetDefs>
           <li>Human</li>
         </targetDefs>

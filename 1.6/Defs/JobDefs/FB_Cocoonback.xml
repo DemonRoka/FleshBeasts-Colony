@@ -13,11 +13,4 @@
     <driverClass>FB.JobDriver_CocoonbackReleasePawn</driverClass>
     <reportString>releasing a captive</reportString>
   </JobDef>
-
-  <!-- Задание: FB_CocoonbackRefillAtHeart -->
-  <JobDef>
-    <defName>FB_CocoonbackRefillAtHeart</defName>
-    <driverClass>FB.JobDriver_CocoonbackRefillAtHeart</driverClass>
-    <reportString>drawing hemogel from the colony heart</reportString>
-  </JobDef>
 </Defs>

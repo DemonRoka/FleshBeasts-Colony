@@ -23,4 +23,8 @@
   <FB_GrowFleshTree_Desc>Выращивает древо плоти из плоти колонии. Растение появляется молодым ростком.</FB_GrowFleshTree_Desc>
   <FB_FleshPlantCellBlocked>Клетка должна быть пустой.</FB_FleshPlantCellBlocked>
   <FB_FleshPlantTreeRoofed>Древо плоти не может расти под крышей.</FB_FleshPlantTreeRoofed>
-</LanguageData>
+  <FB_MaturationBlocked>Созревание {0} заблокировано: {1}</FB_MaturationBlocked>
+  <FB_DevFinishMaturation>РАЗР: завершить созревание</FB_DevFinishMaturation>
+  <FB_DevFinishMaturationDesc>Мгновенно завершает созревание эмбриона, если взрослую форму можно разместить.</FB_DevFinishMaturationDesc>
+  <FB_FailedSpawnThing>Не удалось создать {0}.</FB_FailedSpawnThing>
+  <FB_FailedGeneratePawnKind>Не удалось сгенерировать {0}.</FB_FailedGeneratePawnKind></LanguageData>

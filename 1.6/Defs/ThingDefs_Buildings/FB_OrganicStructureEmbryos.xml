@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <!-- База построек: EmbryoStructureBase -->
   <ThingDef ParentName="BuildingNaturalBase" Name="EmbryoStructureBase" Abstract="True">
@@ -9,7 +9,7 @@
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
     </statBases>
-    <tickerType>Long</tickerType>
+    <tickerType>Rare</tickerType>
     <selectable>true</selectable>
     <drawerType>RealtimeOnly</drawerType>
     <blockWind>true</blockWind>
@@ -33,7 +33,7 @@
   <ThingDef ParentName="EmbryoStructureBase">
     <defName>FB_EmbryoColonyHeart</defName>
     <label>Embryonic Colony Heart</label>
-    <description>A pulsating organic embryo, destined to mature into the central heart of the fleshmass colony. Its rhythmic beats signal the birth of a new core, sustained by hemogel reserves.</description>
+    <description>An immature heart organ that will grow into a colony heart.</description>
     <size>(3,3)</size>
     <comps>
       <li Class="FB.CompProperties_EmbryoGrowth">
@@ -74,7 +74,7 @@
   <ThingDef ParentName="EmbryoStructureBase">
     <defName>FB_ColonyBrainEmbryo</defName>
     <label>Colony Brain Embryo</label>
-    <description>A quivering mass of proto-neural tissue, beginning to form the cognitive core of the colony. It reacts to nearby activity with twitching pulses, slowly growing tendrils to interface with other structures.</description>
+    <description>An immature neural organ that will grow into a colony brain.</description>
     <size>(3,3)</size>
     <comps>
       <li Class="FB.CompProperties_EmbryoGrowth">
@@ -95,7 +95,7 @@
   <ThingDef ParentName="EmbryoStructureBase">
     <defName>FB_ColonyStomachEmbryo</defName>
     <label>Colony Stomach Embryo</label>
-    <description>A nascent organic pit, its walls trembling with nascent mucous tissue. This embryo begins to secrete a faint greenish fluid and sprouts delicate tendrils, slowly forming the foundation of a stomach that will digest organic matter into hemogel for the colony.</description>
+    <description>An immature digestive organ that will grow into a colony stomach.</description>
     <size>(2,2)</size>
     <comps>
       <li Class="FB.CompProperties_EmbryoGrowth">
@@ -116,7 +116,7 @@
   <ThingDef ParentName="EmbryoStructureBase">
     <defName>FB_GastricAcidSpewerEmbryo</defName>
     <label>gastric acid spewer embryo</label>
-    <description>A clenched digestive bud that will mature into an organ able to spread gastric acid and digest organic fuel for the hemogel network.</description>
+    <description>An immature digestive organ that will grow into a gastric acid spewer.</description>
     <size>(1,1)</size>
     <comps>
       <li Class="FB.CompProperties_EmbryoGrowth">
@@ -158,7 +158,7 @@
   <ThingDef ParentName="EmbryoStructureBase">
     <defName>FB_TentacleTurretEmbryo</defName>
     <label>Tentacle Turret Embryo</label>
-    <description>A twitching node of muscular tissue, saturated with neural impulses. This embryo occasionally flexes and extends rudimentary tendrils, testing its reflexes as it prepares to grow into a defensive appendage of the colony. Its core pulses erratically, anticipating contact with future intruders.</description>
+    <description>An immature defensive organ that will grow into a tentacle turret.</description>
     <size>(1,1)</size>
     <comps>
       <li Class="FB.CompProperties_EmbryoGrowth">
@@ -179,7 +179,7 @@
   <ThingDef ParentName="EmbryoStructureBase">
     <defName>FB_DefenderIncubatorEmbryo</defName>
     <label>Defender Incubator Embryo</label>
-    <description>A quivering lump of fresh-grown tissue, barely formed yet already stirring. This embryonic mass contains the blueprint of a future defender incubator, quietly absorbing hemogel and biomass as it prepares to become a spawning node for the colony's guardians.</description>
+    <description>An immature spawning organ that will grow into a defender incubator.</description>
     <size>(2,2)</size>
     <comps>
       <li Class="FB.CompProperties_EmbryoGrowth">
@@ -200,7 +200,7 @@
   <ThingDef ParentName="EmbryoStructureBase">
     <defName>FB_SynapseCoreEmbryo</defName>
     <label>Synapse Core Embryo</label>
-    <description>A developing synapse core, still soft and unfinished. When mature, it will become a neural research organ able to house a pawn beneath a living membrane.</description>
+    <description>An immature research organ that will grow into a synapse core.</description>
     <size>(3,3)</size>
     <comps>
       <li Class="FB.CompProperties_EmbryoGrowth">
@@ -221,7 +221,7 @@
   <ThingDef ParentName="EmbryoStructureBase">
     <defName>FB_PhotosyntheticFleshleafEmbryo</defName>
     <label>Photosynthetic Fleshleaf Embryo</label>
-    <description>A pale, gelatinous sprout with four budding lobes, faintly translucent and gently twitching in response to light. As it matures, the embryo develops a thin, green-tinged membrane — a sign of its photosynthetic potential. Once fully grown, it will unfurl its fleshy lobes to capture sunlight and generate hemogel for the colony.</description>
+    <description>An immature leaf-organ that will grow into a daylight hemogel generator.</description>
     <size>(2,2)</size>
     <comps>
       <li Class="FB.CompProperties_EmbryoGrowth">
@@ -242,7 +242,7 @@
   <ThingDef ParentName="EmbryoStructureBase">
     <defName>FB_EmbryonicFeeder</defName>
     <label>Embryonic Feeder</label>
-    <description>A glistening pod of fleshy tissue, gently pulsing with faint internal contractions. This embryo begins shaping the rudimentary canals and glandular sacs that will convert hemogel into nutrient mass.</description>
+    <description>An immature feeding organ that will grow into a feeder.</description>
     <size>(2,2)</size>
     <comps>
       <li Class="FB.CompProperties_EmbryoGrowth">
@@ -282,7 +282,7 @@
   <ThingDef ParentName="EmbryoStructureBase">
     <defName>FB_CapillaryTrawlerEmbryo</defName>
     <label>Capillary trawler embryo</label>
-    <description>A damp vascular bud that prepares to unfold into a capillary net for gathering aquatic biomass into hemogel.</description>
+    <description>An immature filter-organ that will grow into a capillary trawler.</description>
     <size>(2,2)</size>
     <comps>
       <li Class="FB.CompProperties_EmbryoGrowth">
@@ -302,7 +302,7 @@
   <ThingDef ParentName="EmbryoStructureBase">
     <defName>FB_GalvanicCystEmbryo</defName>
     <label>Galvanic cyst embryo</label>
-    <description>A small twitching electrocyte bud. When mature, it becomes a galvanic cyst able to convert hemogel into bioelectric power.</description>
+    <description>An immature bioelectric organ that will grow into a galvanic cyst.</description>
     <size>(1,1)</size>
     <comps>
       <li Class="FB.CompProperties_EmbryoGrowth">
@@ -346,7 +346,7 @@
   <ThingDef ParentName="EmbryoStructureBase">
     <defName>FB_FleshTunnelMawEmbryo</defName>
     <label>Flesh tunnel maw embryo</label>
-    <description>A heavy sealed mouth-bud packed with root nerves. When mature, it becomes a flesh tunnel maw able to bore permanent passages through the world.</description>
+    <description>An immature tunnel organ that will grow into a flesh tunnel maw.</description>
     <size>(4,4)</size>
     <comps>
       <li Class="FB.CompProperties_EmbryoGrowth">
@@ -367,7 +367,7 @@
   <ThingDef ParentName="EmbryoStructureBase">
     <defName>FB_EmbryonicSpitter</defName>
     <label>Embryonic Spitter</label>
-    <description>A bulbous embryonic organ, twitching softly as it begins to form an internal cavity. Thin channels inside collect volatile toxins from the fleshmass around it, preparing to evolve into a gland capable of spitting corrosive fluid.</description>
+    <description>An immature acid gland that will grow into a fleshmass spitter.</description>
     <size>(2,2)</size>
     <comps>
       <li Class="FB.CompProperties_EmbryoGrowth">
@@ -388,7 +388,7 @@
   <ThingDef ParentName="EmbryoStructureBase">
     <defName>FB_MinionBroodseed</defName>
     <label>Minion Broodseed</label>
-    <description>This soft, pulsating embryo holds the genetic blueprint for a minion hive. Once implanted into organic ground, it begins growing a fleshy chamber that will eventually give birth to sclerats. While dormant, the embryo is immobile and fragile, requiring protection until maturation begins.</description>
+    <description>An immature hive seed that will grow into a minion hive.</description>
     <size>(2,2)</size>
     <comps>
       <li Class="FB.CompProperties_EmbryoGrowth">
@@ -471,7 +471,7 @@
   <ThingDef ParentName="EmbryoStructureBase">
     <defName>FB_GenophageCocoonEmbryo</defName>
     <label>genophage cocoon embryo</label>
-    <description>A folded genetic cocoon embryo. When mature, it becomes a genetic organ able to harvest genes from a living donor and release the donor after extraction.</description>
+    <description>An immature genetic organ that will grow into a genophage cocoon.</description>
     <size>(2,2)</size>
     <comps>
       <li Class="FB.CompProperties_EmbryoGrowth">
@@ -491,7 +491,7 @@
   <ThingDef ParentName="EmbryoStructureBase">
     <defName>FB_GenomeArchiveEmbryo</defName>
     <label>genome archive embryo</label>
-    <description>A soft cluster of proto-neural storage tissue. When mature, it becomes a living archive for gene patterns gathered by the flesh colony.</description>
+    <description>An immature gene-storage organ that will grow into a genome archive.</description>
     <size>(2,2)</size>
     <comps>
       <li Class="FB.CompProperties_EmbryoGrowth">
@@ -511,7 +511,7 @@
   <ThingDef ParentName="EmbryoStructureBase">
     <defName>FB_GeneReweaverEmbryo</defName>
     <label>gene reweaver embryo</label>
-    <description>A heavy embryo of braided nerves and glandular tissue. When mature, it becomes a gene reweaver able to prepare archived genepacks as internal flesh xenogerms for cocoon integration.</description>
+    <description>An immature gene organ that will grow into a gene reweaver.</description>
     <size>(3,3)</size>
     <comps>
       <li Class="FB.CompProperties_EmbryoGrowth">
@@ -532,7 +532,7 @@
   <ThingDef ParentName="EmbryoStructureBase">
     <defName>FB_DeepMawTrapEmbryo</defName>
     <label>deep maw trap embryo</label>
-    <description>A folded mouth-bud grown around pressure nerves and sealed digestive folds. When mature, it sinks its larger mass below the colony floor and becomes a deep maw trap.</description>
+    <description>An immature trap organ that will grow into a deep maw trap.</description>
     <size>(2,2)</size>
     <comps>
       <li Class="FB.CompProperties_EmbryoGrowth">
@@ -553,7 +553,7 @@
   <ThingDef ParentName="EmbryoStructureBase">
     <defName>FB_CaptureNerveNodeEmbryo</defName>
     <label>capture nerve node embryo</label>
-    <description>A small trembling neural bud. When mature, it becomes a capture nerve node that extends the colony heart's grasping reflexes.</description>
+    <description>An immature nerve relay that will grow into a capture nerve node.</description>
     <size>(1,1)</size>
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
@@ -606,7 +606,7 @@
   <ThingDef ParentName="EmbryoStructureBase">
     <defName>FB_CelestialUmbilicusEmbryo</defName>
     <label>celestial umbilicus embryo</label>
-    <description>A dense knot of vascular launch-tissue. When mature, it becomes a celestial umbilicus: the final organ used by the flesh colony to bud itself away from the planet.</description>
+    <description>An immature orbital organ that will grow into a celestial umbilicus.</description>
     <size>(5,5)</size>
     <statBases>
       <MaxHitPoints>900</MaxHitPoints>

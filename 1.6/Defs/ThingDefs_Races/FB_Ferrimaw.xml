@@ -62,7 +62,7 @@
         <consumeTicksPerSteel>12</consumeTicksPerSteel>
         <failedSearchCooldownTicks>2000</failedSearchCooldownTicks>
         <maxItemsPerConsumption>75</maxItemsPerConsumption>
-        <autoConsumeIconPath>UI/Commands/Consume</autoConsumeIconPath>
+        <autoConsumeIconPath>UI/Commands/FerrimawConsumeMetal</autoConsumeIconPath>
         <metabolismPausedHediff>FB_FerrimawMetalMetabolismPaused</metabolismPausedHediff>
         <metalSources>
           <li>

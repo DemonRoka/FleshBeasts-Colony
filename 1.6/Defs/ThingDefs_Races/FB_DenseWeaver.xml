@@ -57,9 +57,8 @@
       <li Class="FB.CompProperties_Regenerator">
         <ticksPerRegenerate>60000</ticksPerRegenerate>
       </li>
-      <li Class="CompProperties_MechPowerCell">
-        <totalPowerTicks>15000</totalPowerTicks>
-        <labelOverride>Life reserve</labelOverride>
+      <li Class="FB.CompProperties_OutsideLifetime">
+        <lifetimeTicks>15000</lifetimeTicks>
       </li>
     </comps>
   </ThingDef>

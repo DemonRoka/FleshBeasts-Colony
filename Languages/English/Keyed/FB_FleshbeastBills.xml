@@ -13,4 +13,5 @@
   <FB_FleshbeastBillPreferredGroup>Group: {0}</FB_FleshbeastBillPreferredGroup>
   <FB_FleshbeastBillPreferredGroupNone>No group</FB_FleshbeastBillPreferredGroupNone>
   <FB_FleshbeastBillPreferredGroupDesc>Newly grown or merged fleshbeasts from this bill will be assigned to this group.</FB_FleshbeastBillPreferredGroupDesc>
+  <FB_NoAvailableMedicalOperations>No available procedures for this fleshbeast.</FB_NoAvailableMedicalOperations>
 </LanguageData>
