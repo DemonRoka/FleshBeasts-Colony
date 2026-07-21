@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
-  <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Anomaly">
-    <xpath>Defs/ThingDef[defName="Fleshmass"]/building/canBuildNonEdificesUnder</xpath>
-    <value>
-      <canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
-    </value>
+  <Operation Class="PatchOperationSequence" MayRequire="Ludeon.RimWorld.Anomaly">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Fleshmass"]/building/canBuildNonEdificesUnder</xpath>
+        <value>
+          <canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Fleshmass"]/comps</xpath>
+        <value>
+          <li Class="FB.CompProperties_FleshmassWallCopyCommands" />
+        </value>
+      </li>
+    </operations>
   </Operation>
 </Patch>

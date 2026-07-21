@@ -73,6 +73,7 @@
         <ticksPerDamage>2000</ticksPerDamage>
         <hemogelPerHeal>1</hemogelPerHeal>
       </li>
+      <li Class="FB.CompProperties_OrganoidCopyCommands" />
       <li Class="FB.CompProperties_ControllableFleshmassSpitter">
         <spitIntervalRangeTicks>5000~7500</spitIntervalRangeTicks>
         <spitCheckIntervalTicks>180</spitCheckIntervalTicks>

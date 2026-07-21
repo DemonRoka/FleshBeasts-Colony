@@ -2,4 +2,6 @@
 <LanguageData>
   <FB_FleshTunnelDestination.description>Дальний тайл, пробитый укоренённым плотяным туннелем.</FB_FleshTunnelDestination.description>
   <FB_FleshTunnelDestination.label>плотяной туннель</FB_FleshTunnelDestination.label>
+  <FB_FleshMoonWorldObject.description>Живая орбитальная масса, соединённая с колонией небесной пуповиной.</FB_FleshMoonWorldObject.description>
+  <FB_FleshMoonWorldObject.label>луна плоти</FB_FleshMoonWorldObject.label>
 </LanguageData>

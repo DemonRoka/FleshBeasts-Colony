@@ -37,6 +37,7 @@
         <ticksPerDamage>2000</ticksPerDamage>
         <hemogelPerHeal>1</hemogelPerHeal>
       </li>
+      <li Class="FB.CompProperties_OrganoidCopyCommands" />
       <li Class="FB.CompProperties_MarkSelfForAbsorption" />
     </comps>
     <soundImpactDefault>Fleshmass_Damaged</soundImpactDefault>
@@ -182,6 +183,7 @@
     </statBases>
     <comps Inherit="False">
       <li Class="CompProperties_Fleshmass" />
+      <li Class="FB.CompProperties_FleshmassWallCopyCommands" />
       <li Class="CompProperties_CascadeOnDestroyed">
         <cascadeThingDefs>
           <li>Fleshmass</li>
@@ -943,8 +945,8 @@
           <embryoDef>FB_CelestialUmbilicusEmbryo</embryoDef>
           <label>FB_ColonyBrain_Structure_CelestialUmbilicus_Label</label>
           <description>FB_ColonyBrain_Structure_CelestialUmbilicus_Desc</description>
-          <texPath>Things/Building/FB_Organic/CelestialUmbilicus/CelestialUmbilicus</texPath>
-          <drawSize>(5,5)</drawSize>
+          <texPath>Things/Building/FB_Organic/CelestialUmbilicus/CelestialUmbilicusSegmentStart</texPath>
+          <drawSize>(7,7)</drawSize>
           <cost>2500</cost>
           <requiredResearch>FB_CelestialBudding</requiredResearch>
           <fleshArchitectCategory>FB_FleshArchitect_Structures</fleshArchitectCategory>
@@ -1632,6 +1634,7 @@
       <requiresHemogel>false</requiresHemogel>
     </li>
     <li Class="FB.CompProperties_MarkSelfForAbsorption" />
+    <li Class="FB.CompProperties_OrganoidCopyCommands" />
     <li Class="FB.CompProperties_HemogelWaterNet">
       <scanRadius>8</scanRadius>
       <scanIntervalTicks>2500</scanIntervalTicks>
@@ -1671,6 +1674,7 @@
         <hemogelPerHeal>1</hemogelPerHeal>
       </li>
       <li Class="FB.CompProperties_MarkSelfForAbsorption" />
+      <li Class="FB.CompProperties_OrganoidCopyCommands" />
       <li Class="FB.CompProperties_HemogelPowerPlant">
         <hemogelPerDayAtFullOutput>24</hemogelPerDayAtFullOutput>
       </li>
@@ -1709,6 +1713,7 @@
         <hemogelPerHeal>1</hemogelPerHeal>
       </li>
       <li Class="FB.CompProperties_MarkSelfForAbsorption" />
+      <li Class="FB.CompProperties_OrganoidCopyCommands" />
       <li Class="FB.CompProperties_HemogelBioferriteProducer">
         <hemogelPerDay>120</hemogelPerDay>
         <bioferritePerDay>4</bioferritePerDay>
@@ -1901,6 +1906,7 @@
         <ticksPerDamage>2000</ticksPerDamage>
         <hemogelPerHeal>1</hemogelPerHeal>
       </li>
+      <li Class="FB.CompProperties_OrganoidCopyCommands" />
       <li Class="FB.CompProperties_HemogelUpkeep">
         <hemogelPerHour>0.2</hemogelPerHour>
       </li>
@@ -2145,6 +2151,7 @@
         <hemogelPerHeal>1</hemogelPerHeal>
       </li>
       <li Class="FB.CompProperties_MarkSelfForAbsorption" />
+      <li Class="FB.CompProperties_OrganoidCopyCommands" />
       <li Class="FB.CompProperties_HemogelUpkeep">
         <hemogelPerHour>0.1</hemogelPerHour>
       </li>
@@ -2367,6 +2374,7 @@
         <requiresHemogel>false</requiresHemogel>
         <onlyPlayerFaction>true</onlyPlayerFaction>
       </li>
+      <li Class="FB.CompProperties_OrganoidCopyCommands" />
       <li Class="FB.CompProperties_InstantBurstExplosive">
         <explosiveRadius>9.9</explosiveRadius>
         <explosiveDamageType>Extinguish</explosiveDamageType>
@@ -3200,6 +3208,7 @@
         <entityLungeSoundHi>EntityChainHigh</entityLungeSoundHi>
         <entityLungeSoundLow>EntityChainLow</entityLungeSoundLow>
       </li>
+      <li Class="FB.CompProperties_OrganoidCopyCommands" />
       <li Class="FB.CompProperties_MarkSelfForAbsorption" />
     </comps>
   </ThingDef>
@@ -3367,9 +3376,9 @@
   <ThingDef ParentName="BuildingColonyFleshBase">
     <defName>FB_CelestialUmbilicus</defName>
     <label>celestial umbilicus</label>
-    <description>A colossal living column grown to feed the colony's final budding. Once charged with hemogel and awakened, it begins pulling a cyclopean vein toward orbit, turning every faction hostile until the flesh colony tears itself free as a new cosmic body.</description>
+    <description>A colossal living column that consumes network hemogel to grow toward orbit. Once awakened, every faction will try to sever it before the flesh colony buds free.</description>
     <drawerType>MapMeshAndRealTime</drawerType>
-    <size>(5,5)</size>
+    <size>(7,7)</size>
     <statBases>
       <Mass>200</Mass>
       <MaxHitPoints>4000</MaxHitPoints>
@@ -3379,10 +3388,10 @@
     </statBases>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
-      <texPath>Things/Building/FB_Organic/CelestialUmbilicus/CelestialUmbilicus</texPath>
-      <drawSize>(5,5)</drawSize>
+      <texPath>Things/Building/FB_Organic/CelestialUmbilicus/CelestialUmbilicusSegmentStart</texPath>
+      <drawSize>(7,7)</drawSize>
       <damageData>
-        <rect>(0.45, 0.45, 4.1, 4.1)</rect>
+        <rect>(0.63, 0.63, 5.74, 5.74)</rect>
         <scratches>
           <li>Damage/FleshScratch1</li>
           <li>Damage/FleshScratch2</li>
@@ -3390,7 +3399,7 @@
         </scratches>
       </damageData>
     </graphicData>
-    <uiIconPath>Things/Building/FB_Organic/CelestialUmbilicus/CelestialUmbilicus</uiIconPath>
+    <uiIconPath>Things/Building/FB_Organic/CelestialUmbilicus/CelestialUmbilicusSegmentStart</uiIconPath>
     <building>
       <expandHomeArea>false</expandHomeArea>
       <isTargetable>true</isTargetable>
@@ -3407,19 +3416,13 @@
     </killedLeavingsRanges>
     <forceLeavingsAllowed>true</forceLeavingsAllowed>
     <comps>
-      <li Class="FB.CompProperties_HemogelStorage">
-        <initialHemogelCapacity>0</initialHemogelCapacity>
-        <maxHemogelCapacity>2000</maxHemogelCapacity>
-        <networkFillPerHour>500</networkFillPerHour>
-        <damageThreshold>0</damageThreshold>
-        <preventHemogelDepletionDamage>true</preventHemogelDepletionDamage>
-        <hideNoHemogelInspectWarning>true</hideNoHemogelInspectWarning>
-      </li>
       <li Class="FB.CompProperties_CelestialUmbilicus">
-        <startupHemogel>2000</startupHemogel>
-        <requiredHemogel>40000</requiredHemogel>
-        <consumeIntervalTicks>250</consumeIntervalTicks>
-        <growthDurationTicks>840000</growthDurationTicks>
+        <growthWorkRequired>40000</growthWorkRequired>
+        <growthTickInterval>250</growthTickInterval>
+        <minFlowHemogelPerHour>1</minFlowHemogelPerHour>
+        <maxFlowHemogelPerHour>500</maxFlowHemogelPerHour>
+        <defaultFlowHemogelPerHour>100</defaultFlowHemogelPerHour>
+        <flowBarIncrements>10</flowBarIncrements>
         <raidInitialDelayTicks>6000</raidInitialDelayTicks>
         <raidIntervalTicks>45000</raidIntervalTicks>
         <factionHostilityRefreshTicks>2500</factionHostilityRefreshTicks>
@@ -3427,19 +3430,16 @@
         <raidPointsMultiplier>1.25</raidPointsMultiplier>
         <minRaidPoints>250</minRaidPoints>
         <startIconPath>UI/Commands/CelestialUmbilicusStart</startIconPath>
-        <hemogelInputToggleIconPath>UI/Commands/CelestialUmbilicusHemogelInput</hemogelInputToggleIconPath>
         <decisionIconPath>UI/Commands/CelestialUmbilicusDecision</decisionIconPath>
-        <segmentStartTexturePath>Things/Building/FB_Organic/CelestialUmbilicus/CelestialUmbilicusSegmentStart</segmentStartTexturePath>
         <segmentMiddleTexturePath>Things/Building/FB_Organic/CelestialUmbilicus/CelestialUmbilicusSegmentMiddle</segmentMiddleTexturePath>
         <segmentGrowingTexturePath>Things/Building/FB_Organic/CelestialUmbilicus/CelestialUmbilicusSegmentGrowing</segmentGrowingTexturePath>
-        <segmentDrawSize>(5,2)</segmentDrawSize>
-        <segmentFirstOffset>3.2</segmentFirstOffset>
-        <segmentStep>1.45</segmentStep>
+        <segmentDrawSize>(7,7)</segmentDrawSize>
+        <segmentFirstOffset>7</segmentFirstOffset>
+        <segmentStep>7</segmentStep>
         <segmentHemogel>1000</segmentHemogel>
-        <maxVisibleSegments>10</maxVisibleSegments>
-      </li>
-      <li Class="FB.CompProperties_HemogelUpkeep">
-        <hemogelPerHour>1.5</hemogelPerHour>
+        <maxVisibleSegments>5</maxVisibleSegments>
+        <segmentSwayAmplitude>0.35</segmentSwayAmplitude>
+        <segmentSwaySpeed>0.45</segmentSwaySpeed>
       </li>
     </comps>
   </ThingDef>

@@ -33,7 +33,7 @@
 		<viewGizmoOnlyVisibleWithDirectConnection>false</viewGizmoOnlyVisibleWithDirectConnection>
 		<defaultBiome>FB_FleshMoonBiome</defaultBiome>
 		<backgroundBiome>FB_FleshMoonBiome</backgroundBiome>
-		<layerType>SurfaceLayer</layerType>
+		<layerType>FB.FleshMoonPlanetLayer</layerType>
 		<tileType>SurfaceTile</tileType>
 		<worldGenSteps>
 			<li>FB_UniformFleshMoon</li>

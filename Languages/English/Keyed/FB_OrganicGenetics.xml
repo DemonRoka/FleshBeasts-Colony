@@ -17,7 +17,7 @@
   <FB_GenophageNoGenes>This donor has no genes.</FB_GenophageNoGenes>
   <FB_GenophageGenesRegrowing>This donor's xenogerm is still regrowing.</FB_GenophageGenesRegrowing>
   <FB_GenophageExtractingInspect>Extracting genes from {0}: {1} h remaining.</FB_GenophageExtractingInspect>
-  <FB_GenophageExtractedGenes>{PAWN_labelShort} had {0} genes copied by the genophage cocoon. The copied genepack was stored in a genome archive, and the donor was released.</FB_GenophageExtractedGenes>
+  <FB_GenophageExtractedGenes>Gene extraction complete: {0}.</FB_GenophageExtractedGenes>
   <FB_GenophageReleaseDonorLabel>Release donor</FB_GenophageReleaseDonorLabel>
   <FB_GenophageReleaseDonorDesc>Spit out the contained donor and cancel the current extraction.</FB_GenophageReleaseDonorDesc>
   <FB_GenophageDevFinishExtractionLabel>DEV: finish gene extraction</FB_GenophageDevFinishExtractionLabel>

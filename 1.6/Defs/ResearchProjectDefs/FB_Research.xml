@@ -640,7 +640,7 @@
   <ResearchProjectDef>
     <defName>FB_CelestialBudding</defName>
     <label>celestial budding</label>
-    <description>Unlock the Celestial Umbilicus, the final organ of the flesh colony. Once charged and awakened, it locks a massive hemogel reserve, grows toward orbit, and provokes every faction into trying to sever the budding column.</description>
+    <description>Unlock the Celestial Umbilicus, the final organ of the flesh colony. Once awakened, it consumes network hemogel to grow toward orbit and provokes every faction into trying to sever the budding column.</description>
     <tab>FB_Fleshbeast</tab>
     <techLevel>Industrial</techLevel>
     <prerequisites>

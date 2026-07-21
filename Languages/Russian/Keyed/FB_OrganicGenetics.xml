@@ -17,7 +17,7 @@
   <FB_GenophageNoGenes>У этого донора нет генов.</FB_GenophageNoGenes>
   <FB_GenophageGenesRegrowing>Ксеногерм этого донора ещё восстанавливается.</FB_GenophageGenesRegrowing>
   <FB_GenophageExtractingInspect>Извлекает гены из {0}: осталось {1} ч.</FB_GenophageExtractingInspect>
-  <FB_GenophageExtractedGenes>Генофаговый кокон скопировал гены {PAWN_labelShort}: {0}. Скопированный генопак сохранён в геномном архиве, донор выпущен наружу.</FB_GenophageExtractedGenes>
+  <FB_GenophageExtractedGenes>Экстракция генов завершена: {0}.</FB_GenophageExtractedGenes>
   <FB_GenophageReleaseDonorLabel>Выпустить донора</FB_GenophageReleaseDonorLabel>
   <FB_GenophageReleaseDonorDesc>Выплюнуть помещённого донора и отменить текущее извлечение.</FB_GenophageReleaseDonorDesc>
   <FB_GenophageDevFinishExtractionLabel>DEV: завершить извлечение генов</FB_GenophageDevFinishExtractionLabel>

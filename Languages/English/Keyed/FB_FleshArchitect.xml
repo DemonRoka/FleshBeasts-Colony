@@ -7,6 +7,12 @@
   <FB_FleshArchitectBrainHemogelTooltip>Hemogel stored in this map's connected network reserves. Flesh Architect spends this reserve when growing organs.</FB_FleshArchitectBrainHemogelTooltip>
   <FB_FleshArchitectBrainHemogelTooltipDev>Hemogel stored in this map's connected network reserves. Dev mode ignores building costs, but the real reserve is shown here.</FB_FleshArchitectBrainHemogelTooltipDev>
   <FB_GrowEmbryoDescNoCost>Place embryo to grow {0}.</FB_GrowEmbryoDescNoCost>
+  <FB_GrowOrganoidCopy_Label>Grow copy</FB_GrowOrganoidCopy_Label>
+  <FB_GrowOrganoidCopy_Desc>Select a place to grow another {0} through the Flesh Architect.</FB_GrowOrganoidCopy_Desc>
+  <FB_CopyFleshmassWallPlan_Label>Place flesh wall plan</FB_CopyFleshmassWallPlan_Label>
+  <FB_CopyFleshmassWallPlan_Desc>Select cells where the colony should grow more flesh walls.</FB_CopyFleshmassWallPlan_Desc>
+  <FB_CopyFleshmassBoneWallPlan_Label>Place reinforced wall plan</FB_CopyFleshmassBoneWallPlan_Label>
+  <FB_CopyFleshmassBoneWallPlan_Desc>Select existing flesh walls that should be reinforced by the colony.</FB_CopyFleshmassBoneWallPlan_Desc>
   <FB_HemogelCostLine>Hemogel cost: {0}</FB_HemogelCostLine>
   <FB_HemogelNetworkReserveCostLine>Network reserve cost: {0}</FB_HemogelNetworkReserveCostLine>
   <FB_HemogelNetworkBaseConsumptionLine>Base network consumption: {0}/h</FB_HemogelNetworkBaseConsumptionLine>

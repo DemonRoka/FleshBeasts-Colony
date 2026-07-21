@@ -622,3 +622,4 @@ FleshBeasts/Properties/AssemblyInfo.cs
 *.cs
 FleshBeasts/obj/Release/net472/FleshBeasts.sourcelink.json
 FleshBeasts/obj/Release/net472/FleshBeasts.sourcelink.json
+RebuildDLL.cmd

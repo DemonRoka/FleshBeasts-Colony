@@ -2,4 +2,6 @@
 <LanguageData>
   <FB_FleshTunnelDestination.description>A distant tile pierced by a rooted flesh tunnel.</FB_FleshTunnelDestination.description>
   <FB_FleshTunnelDestination.label>flesh tunnel</FB_FleshTunnelDestination.label>
+  <FB_FleshMoonWorldObject.description>A living orbital mass tethered to the colony by the celestial umbilicus.</FB_FleshMoonWorldObject.description>
+  <FB_FleshMoonWorldObject.label>flesh moon</FB_FleshMoonWorldObject.label>
 </LanguageData>

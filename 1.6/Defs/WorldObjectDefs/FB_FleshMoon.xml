@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WorldObjectDef>
+    <defName>FB_FleshMoonWorldObject</defName>
+    <label>flesh moon</label>
+    <description>A living orbital mass tethered to the colony by the celestial umbilicus.</description>
+    <worldObjectClass>FB.FB_FleshMoonWorldObject</worldObjectClass>
+    <canHaveFaction>true</canHaveFaction>
+    <canHaveMap>true</canHaveMap>
+    <canBePlayerHome>true</canBePlayerHome>
+    <treatAsPlayerHome>true</treatAsPlayerHome>
+    <validLaunchTarget>false</validLaunchTarget>
+    <selectable>true</selectable>
+    <texture>World/FleshMoon/FleshMoonSurface</texture>
+    <expandingIcon>true</expandingIcon>
+    <expandingIconTexture>World/FleshMoon/FleshMoonSurface</expandingIconTexture>
+    <expandingIconDrawSize>1.2</expandingIconDrawSize>
+    <expandingIconPriority>20</expandingIconPriority>
+    <mapGenerator>FB_FleshMoonPocket</mapGenerator>
+  </WorldObjectDef>
+</Defs>

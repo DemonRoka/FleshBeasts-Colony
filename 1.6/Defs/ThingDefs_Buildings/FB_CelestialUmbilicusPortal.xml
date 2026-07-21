@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BuildingBase">
+    <defName>FB_CelestialUmbilicusPortal</defName>
+    <label>celestial umbilicus portal</label>
+    <description>A stabilized living umbilicus that links the colony to the flesh moon.</description>
+    <thingClass>FB.Building_CelestialUmbilicusPortal</thingClass>
+    <category>Building</category>
+    <selectable>true</selectable>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <tickerType>Normal</tickerType>
+    <size>(7,7)</size>
+    <rotatable>false</rotatable>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.75</fillPercent>
+    <altitudeLayer>Building</altitudeLayer>
+    <filthLeaving>Filth_Fleshmass</filthLeaving>
+    <preventSkyfallersLandingOn>true</preventSkyfallersLandingOn>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/FB_Organic/CelestialUmbilicus/CelestialUmbilicusSegmentStart</texPath>
+      <drawSize>(7,7)</drawSize>
+    </graphicData>
+    <uiIconPath>Things/Building/FB_Organic/CelestialUmbilicus/CelestialUmbilicusSegmentStart</uiIconPath>
+    <statBases>
+      <MaxHitPoints>900</MaxHitPoints>
+      <Beauty>-25</Beauty>
+      <Flammability>0.7</Flammability>
+      <Mass>100</Mass>
+    </statBases>
+    <building>
+      <isEdifice>true</isEdifice>
+      <isInert>true</isInert>
+      <isTargetable>true</isTargetable>
+      <claimable>false</claimable>
+      <deconstructible>false</deconstructible>
+      <repairable>false</repairable>
+      <destroyEffecter>FleshmassDestroyed</destroyEffecter>
+      <ai_combatDangerous>true</ai_combatDangerous>
+    </building>
+    <portal>
+      <pocketMapGenerator>FB_FleshMoonPocket</pocketMapGenerator>
+      <exitDef>FB_CelestialUmbilicusMoonExit</exitDef>
+      <pocketMapSize>125</pocketMapSize>
+      <traverseSound>TraversePitGate</traverseSound>
+    </portal>
+    <inspectorTabs>
+      <li>ITab_ContentsMapPortal</li>
+    </inspectorTabs>
+  </ThingDef>
+
+  <ThingDef ParentName="PocketMapExit">
+    <defName>FB_CelestialUmbilicusMoonExit</defName>
+    <label>celestial umbilicus</label>
+    <description>The moon-side root of a stabilized celestial umbilicus.</description>
+    <thingClass>FB.Building_CelestialUmbilicusMoonExit</thingClass>
+    <size>(7,7)</size>
+    <useHitPoints>true</useHitPoints>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <tickerType>Normal</tickerType>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.75</fillPercent>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/FB_Organic/CelestialUmbilicus/CelestialUmbilicusSegmentStart</texPath>
+      <drawSize>(7,7)</drawSize>
+    </graphicData>
+    <uiIconPath>Things/Building/FB_Organic/CelestialUmbilicus/CelestialUmbilicusSegmentStart</uiIconPath>
+    <statBases>
+      <MaxHitPoints>900</MaxHitPoints>
+      <Beauty>-25</Beauty>
+      <Flammability>0.7</Flammability>
+    </statBases>
+  </ThingDef>
+</Defs>

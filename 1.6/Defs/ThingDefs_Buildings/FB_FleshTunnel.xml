@@ -45,6 +45,7 @@
         <hemogelPerHeal>1</hemogelPerHeal>
       </li>
       <li Class="FB.CompProperties_MarkSelfForAbsorption" />
+      <li Class="FB.CompProperties_OrganoidCopyCommands" />
       <li Class="FB.CompProperties_HemogelUpkeep">
         <hemogelPerHour>0.5</hemogelPerHour>
       </li>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <MapGeneratorDef>
+    <defName>FB_FleshMoonPocket</defName>
+    <label>flesh moon interior</label>
+    <isUnderground>true</isUnderground>
+    <forceCaves>true</forceCaves>
+    <ignoreAreaRevealedLetter>true</ignoreAreaRevealedLetter>
+    <disableCallAid>true</disableCallAid>
+    <pocketMapProperties>
+      <biome>FB_FleshMoonBiome</biome>
+      <temperature>23</temperature>
+    </pocketMapProperties>
+    <genSteps>
+      <li>FB_GenStep_FleshMoonTerrain</li>
+      <li>FB_GenStep_FleshMoonPlants</li>
+      <li>FB_GenStep_FleshMoonUmbilicusExit</li>
+      <li>Fog</li>
+    </genSteps>
+  </MapGeneratorDef>
+
+  <GenStepDef>
+    <defName>FB_GenStep_FleshMoonTerrain</defName>
+    <order>10</order>
+    <genStep Class="FB.GenStep_FleshMoonTerrain">
+      <floorTerrains>
+        <li>Flesh</li>
+        <li>FleshVeins</li>
+      </floorTerrains>
+      <acidTerrain>FB_GastricAcid</acidTerrain>
+      <wallDef>Fleshmass</wallDef>
+      <solidCaveShell>true</solidCaveShell>
+      <mountainLobeCount>16</mountainLobeCount>
+      <mountainLobeRadiusRange>30~70</mountainLobeRadiusRange>
+      <mountainLobeWeightRange>0.55~0.95</mountainLobeWeightRange>
+      <mountainThreshold>0.54</mountainThreshold>
+      <thickRoofThreshold>0.78</thickRoofThreshold>
+      <edgeMountainStrength>0.72</edgeMountainStrength>
+      <caveChamberCount>14</caveChamberCount>
+      <caveChamberRadiusRange>3~6</caveChamberRadiusRange>
+      <caveTunnelWidthRange>1.6~2.6</caveTunnelWidthRange>
+      <caveOpenTunnelsPer10k>4</caveOpenTunnelsPer10k>
+      <caveClosedTunnelsPer10k>1.5</caveClosedTunnelsPer10k>
+      <caveBranchChance>0.04</caveBranchChance>
+      <caveMinTunnelWidth>1.7</caveMinTunnelWidth>
+      <caveWidthOffsetPerCell>0.001</caveWidthOffsetPerCell>
+      <acidLakeCount>3</acidLakeCount>
+      <acidLakeRadiusRange>5~10</acidLakeRadiusRange>
+    </genStep>
+  </GenStepDef>
+
+  <GenStepDef>
+    <defName>FB_GenStep_FleshMoonPlants</defName>
+    <order>20</order>
+    <genStep Class="FB.GenStep_FleshMoonPlants">
+      <spawnChance>0.05</spawnChance>
+      <plantDefs>
+        <li>FB_FleshTree</li>
+        <li>FB_GrassEyes</li>
+        <li>FB_FleshProtuberances</li>
+        <li>FB_FleshFatProtuberances</li>
+        <li>FB_Fleshbulb</li>
+      </plantDefs>
+    </genStep>
+  </GenStepDef>
+
+  <GenStepDef>
+    <defName>FB_GenStep_FleshMoonUmbilicusExit</defName>
+    <order>40</order>
+    <genStep Class="FB.GenStep_FleshMoonUmbilicusExit">
+      <clearRadius>10</clearRadius>
+    </genStep>
+  </GenStepDef>
+</Defs>

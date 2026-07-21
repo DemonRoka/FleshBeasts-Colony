@@ -7,6 +7,12 @@
   <FB_FleshArchitectBrainHemogelTooltip>Гемогель в подключённых резервах сети на этой карте. Плотяной архитектор тратит этот резерв при выращивании органов.</FB_FleshArchitectBrainHemogelTooltip>
   <FB_FleshArchitectBrainHemogelTooltipDev>Гемогель в подключённых резервах сети на этой карте. Режим разработчика игнорирует стоимость строительства, но здесь показан реальный резерв.</FB_FleshArchitectBrainHemogelTooltipDev>
   <FB_GrowEmbryoDescNoCost>Разместить эмбрион, чтобы вырастить {0}.</FB_GrowEmbryoDescNoCost>
+  <FB_GrowOrganoidCopy_Label>Вырастить копию</FB_GrowOrganoidCopy_Label>
+  <FB_GrowOrganoidCopy_Desc>Выбрать место, где плотяной архитектор вырастит ещё один органоид: {0}.</FB_GrowOrganoidCopy_Desc>
+  <FB_CopyFleshmassWallPlan_Label>Разместить план стены плоти</FB_CopyFleshmassWallPlan_Label>
+  <FB_CopyFleshmassWallPlan_Desc>Выбрать клетки, где колония должна вырастить новые стены плоти.</FB_CopyFleshmassWallPlan_Desc>
+  <FB_CopyFleshmassBoneWallPlan_Label>Разместить план усиленной стены</FB_CopyFleshmassBoneWallPlan_Label>
+  <FB_CopyFleshmassBoneWallPlan_Desc>Выбрать существующие стены плоти, которые колония должна усилить.</FB_CopyFleshmassBoneWallPlan_Desc>
   <FB_HemogelCostLine>Стоимость гемогеля: {0}</FB_HemogelCostLine>
   <FB_HemogelNetworkReserveCostLine>Расход из резерва сети: {0}</FB_HemogelNetworkReserveCostLine>
   <FB_HemogelNetworkBaseConsumptionLine>Базовое потребление сети: {0}/ч</FB_HemogelNetworkBaseConsumptionLine>

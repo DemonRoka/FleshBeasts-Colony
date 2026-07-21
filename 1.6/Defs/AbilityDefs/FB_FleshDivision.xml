@@ -1,9 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <AbilityDef>
     <defName>FB_FleshDivision</defName>
+    <gizmoClass>FB.Command_FleshDivisionAbility</gizmoClass>
     <description>Split the caster into a second body through a brief tearing ritual. Both resulting pawns keep only half of the original age and half of every skill's earned experience. Worn apparel is shed to the ground, and both bodies become temporarily flesh-unstable.</description>
     <label>flesh division</label>
+    <confirmationDialogText>Start flesh division? This will split the pawn into two unstable bodies, halve age and skill experience, and drop worn apparel.</confirmationDialogText>
     <iconPath>UI/Abilities/FleshDivision</iconPath>
     <cooldownTicksRange>60</cooldownTicksRange>
     <targetRequired>false</targetRequired>

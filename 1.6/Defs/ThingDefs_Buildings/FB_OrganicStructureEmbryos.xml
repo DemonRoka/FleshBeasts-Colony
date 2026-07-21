@@ -607,7 +607,7 @@
     <defName>FB_CelestialUmbilicusEmbryo</defName>
     <label>celestial umbilicus embryo</label>
     <description>An immature orbital organ that will grow into a celestial umbilicus.</description>
-    <size>(5,5)</size>
+    <size>(7,7)</size>
     <statBases>
       <MaxHitPoints>900</MaxHitPoints>
       <Beauty>-60</Beauty>
@@ -624,7 +624,7 @@
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <texPath>Things/Building/FB_Organic/CelestialUmbilicus/CelestialUmbilicusEmbryo</texPath>
-      <drawSize>(5,5)</drawSize>
+      <drawSize>(7,7)</drawSize>
     </graphicData>
   </ThingDef>
 </Defs>

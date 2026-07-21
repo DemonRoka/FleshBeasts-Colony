@@ -1,7 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_CelestialUmbilicus.label>celestial umbilicus</FB_CelestialUmbilicus.label>
-  <FB_CelestialUmbilicus.description>A colossal umbilical that grows a surface-linked orbital outpost able to send aid to the flesh colony anywhere in the world.</FB_CelestialUmbilicus.description>
+  <FB_CelestialUmbilicus.description>A colossal umbilical that consumes hemogel power to grow a living orbital tether.</FB_CelestialUmbilicus.description>
+  <FB_CelestialUmbilicusPortal.label>celestial umbilicus portal</FB_CelestialUmbilicusPortal.label>
+  <FB_CelestialUmbilicusPortal.description>A stabilized living umbilicus that links the colony to the flesh moon.</FB_CelestialUmbilicusPortal.description>
+  <FB_CelestialUmbilicusMoonExit.label>celestial umbilicus</FB_CelestialUmbilicusMoonExit.label>
+  <FB_CelestialUmbilicusMoonExit.description>The moon-side root of a stabilized celestial umbilicus.</FB_CelestialUmbilicusMoonExit.description>
   <FB_CelestialUmbilicusEmbryo.label>celestial umbilicus embryo</FB_CelestialUmbilicusEmbryo.label>
   <FB_CelestialUmbilicusEmbryo.description>An immature orbital organ that will grow into a celestial umbilicus.</FB_CelestialUmbilicusEmbryo.description>
 </LanguageData>

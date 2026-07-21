@@ -1,7 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_CelestialUmbilicus.label>небесная пуповина</FB_CelestialUmbilicus.label>
-  <FB_CelestialUmbilicus.description>Колоссальная пуповина, выращивающая связанный с поверхностью орбитальный аванпост, способный отправлять помощь колонии плоти в любую точку мира.</FB_CelestialUmbilicus.description>
+  <FB_CelestialUmbilicus.description>Колоссальная пуповина, потребляющая мощность гемогеля для роста живого орбитального канала.</FB_CelestialUmbilicus.description>
+  <FB_CelestialUmbilicusPortal.label>портальная небесная пуповина</FB_CelestialUmbilicusPortal.label>
+  <FB_CelestialUmbilicusPortal.description>Стабилизированная живая пуповина, соединяющая колонию с луной плоти.</FB_CelestialUmbilicusPortal.description>
+  <FB_CelestialUmbilicusMoonExit.label>небесная пуповина</FB_CelestialUmbilicusMoonExit.label>
+  <FB_CelestialUmbilicusMoonExit.description>Лунный корень стабилизированной небесной пуповины.</FB_CelestialUmbilicusMoonExit.description>
   <FB_CelestialUmbilicusEmbryo.label>эмбрион небесной пуповины</FB_CelestialUmbilicusEmbryo.label>
   <FB_CelestialUmbilicusEmbryo.description>Незрелый орбитальный орган, который вырастет в небесную пуповину.</FB_CelestialUmbilicusEmbryo.description>
 </LanguageData>
