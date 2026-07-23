@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThingDef ParentName="EtherealThingBase">
+    <defName>FB_FleshMoonBileBombardment</defName>
+    <label>flesh moon bile bombardment</label>
+    <thingClass>FB.Thing_FleshMoonBileBombardment</thingClass>
+    <tickerType>Normal</tickerType>
+    <drawerType>RealtimeOnly</drawerType>
+    <drawOffscreen>true</drawOffscreen>
+    <seeThroughFog>true</seeThroughFog>
+  </ThingDef>
+
+</Defs>

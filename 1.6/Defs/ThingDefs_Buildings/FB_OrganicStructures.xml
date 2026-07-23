@@ -319,7 +319,7 @@
         <li>FB_HemogelSac</li>
         <li>FB_GraspingTendrils</li>
         <li>FB_PhotosyntheticFleshtree</li>
-        <li>FB_FirefoamGland</li>
+        <li>FB_HemogelBlister</li>
         <li>FB_CapillaryTrawler</li>
       </forbiddenBuildingDefs>
       <hiddenFromHemogelEconomyDefs>
@@ -952,9 +952,9 @@
           <fleshArchitectCategory>FB_FleshArchitect_Structures</fleshArchitectCategory>
         </li>
         <li>
-          <embryoDef>FB_FirefoamGland</embryoDef>
+          <embryoDef>FB_HemogelBlister</embryoDef>
           <label>FB_ColonyBrain_Structure_HemogelBlister_Label</label>
-          <description>FB_FirefoamGland_StructureDesc</description>
+          <description>FB_HemogelBlister_StructureDesc</description>
           <texPath>Things/Building/FB_Organic/HemogelBlister/HemogelBlister</texPath>
           <drawSize>(1,1)</drawSize>
           <cost>100</cost>
@@ -2286,7 +2286,7 @@
   <ThingDef ParentName="BuildingColonyFleshBaseAnimation">
     <defName>FB_MucousDecontaminator</defName>
     <label>mucous decontaminator</label>
-    <description>A living decontaminator. A wide carpet of semi-transparent veins spreads across nearby tiles and converges into a central muscular sphincter. It slowly cleans polluted terrain and periodically compresses to expel soft waste cysts that must be hauled away.</description>
+    <description>A living cleaner that spends hemogel network power to remove nearby pollution and periodically expels toxic wastepacks.</description>
     <tickerType>Normal</tickerType>
     <graphicData>
       <texPath>Things/Building/FB_Organic/MucousDecontaminator/MucousDecontaminator</texPath>
@@ -2311,11 +2311,13 @@
     </statBases>
     <size>(1,1)</size>
     <comps>
-      <li Class="CompProperties_PollutionPump">
+      <li Class="FB.CompProperties_FleshPollutionPump">
         <radius>10</radius>
         <pumpEffecterDef>PollutionPumped</pumpEffecterDef>
         <pumpsPerWastepack>6</pumpsPerWastepack>
         <intervalTicks>15000</intervalTicks>
+        <passiveHemogelPerHour>0.1</passiveHemogelPerHour>
+        <activeHemogelPerHour>0.5</activeHemogelPerHour>
       </li>
       <li Class="FB.CompProperties_OrganicVeinToPollution">
         <color>(0.55, 0.70, 0.45, 0.42)</color>
@@ -2323,25 +2325,22 @@
         <maxTargets>10</maxTargets>
         <checkIntervalTicks>2000</checkIntervalTicks>
       </li>
-      <li Class="FB.CompProperties_HemogelUpkeep">
-        <hemogelPerHour>0.4</hemogelPerHour>
-      </li>
     </comps>
     <placeWorkers>
-      <li>PlaceWorker_PollutionPump</li>
+      <li>FB.PlaceWorker_FleshPollutionPump</li>
     </placeWorkers>
     <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
   </ThingDef>
   <ThingDef ParentName="BuildingColonyFleshBase">
-    <defName>FB_FirefoamGland</defName>
+    <defName>FB_HemogelBlister</defName>
     <label>hemogel blister</label>
-    <description>A swollen hemogel blister filled with pressurized hemogel. If flames get too close or the organ is destroyed, it bursts in a heavy spray that drenches the surrounding area before fire can spread through living tissue.</description>
-    <thingClass>FB.Building_FleshFirefoamPopperRaidTarget</thingClass>
+    <description>A pressurized hemogel blister that bursts in a spray of blood when flames approach, the organ is manually triggered, or it is destroyed.</description>
+    <thingClass>FB.Building_HemogelBlister</thingClass>
     <size>(1,1)</size>
     <altitudeLayer>Building</altitudeLayer>
     <fillPercent>0.20</fillPercent>
     <pathCost>0</pathCost>
-    <specialDisplayRadius>9.9</specialDisplayRadius>
+    <specialDisplayRadius>6</specialDisplayRadius>
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
       <Mass>8</Mass>
@@ -2375,9 +2374,11 @@
         <onlyPlayerFaction>true</onlyPlayerFaction>
       </li>
       <li Class="FB.CompProperties_OrganoidCopyCommands" />
+      <li Class="FB.CompProperties_MarkSelfForAbsorption" />
       <li Class="FB.CompProperties_InstantBurstExplosive">
-        <explosiveRadius>9.9</explosiveRadius>
+        <explosiveRadius>6</explosiveRadius>
         <explosiveDamageType>Extinguish</explosiveDamageType>
+        <explodeOnKilled>true</explodeOnKilled>
         <postExplosionSpawnThingDef>Filth_Blood</postExplosionSpawnThingDef>
         <postExplosionSpawnChance>1</postExplosionSpawnChance>
         <postExplosionSpawnThingCount>3</postExplosionSpawnThingCount>
@@ -2400,7 +2401,7 @@
       </li>
       <li Class="FB.CompProperties_InstantBurstProximityFuse">
         <target>Fire</target>
-        <radius>9.9</radius>
+        <radius>6</radius>
       </li>
       <li Class="FB.CompProperties_HemogelUpkeep">
         <hemogelPerHour>0.3</hemogelPerHour>
@@ -2409,69 +2410,71 @@
   </ThingDef>
   <!-- Постройка: Thermoregulator (FB_Thermoregulator) -->
   <ThingDef ParentName="BuildingColonyFleshBaseAnimation">
-    <defName>FB_Thermoregulator</defName>
-    <label>Thermoregulator</label>
-    <description>A compact living heat-exchange organ. It steadily regulates the surrounding air by pulsing warm hemogel through layered tissue, smoothing temperature swings in enclosed rooms. The core throbs faintly as it adapts, releasing or absorbing heat to maintain a stable, habitable climate.</description>
-    <size>(1,1)</size>
-    <tickerType>Rare</tickerType>
-    <altitudeLayer>Building</altitudeLayer>
-    <rotatable>false</rotatable>
-    <statBases>
-      <MaxHitPoints>180</MaxHitPoints>
-      <Beauty>-8</Beauty>
-      <Flammability>1.0</Flammability>
-      <Mass>6</Mass>
-    </statBases>
-    <graphicData>
-      <graphicClass>Graphic_Single</graphicClass>
-      <texPath>Things/Building/Plaseholder</texPath>
-      <drawSize>(0.1,0.1)</drawSize>
-      <drawOffset>(0, 0, 0)</drawOffset>
-      <damageData>
-        <rect>(0.15, 0.15, 0.7, 0.7)</rect>
-        <scratches>
-          <li>Damage/FleshScratch1</li>
-          <li>Damage/FleshScratch2</li>
-          <li>Damage/FleshScratch3</li>
-        </scratches>
-      </damageData>
-    </graphicData>
-    <uiIconPath>Things/Building/FB_Organic/Thermoregulator/Thermoregulator</uiIconPath>
-    <killedLeavingsRanges>
-      <Meat_Twisted>15~35</Meat_Twisted>
-    </killedLeavingsRanges>
-    <forceLeavingsAllowed>true</forceLeavingsAllowed>
-    <comps>
-      <li Class="FB.CompProperties_FleshThermoregulator">
-        <thermalPowerPerSecond>12</thermalPowerPerSecond>
-        <targetTemperature>21</targetTemperature>
-        <onlyIndoors>true</onlyIndoors>
-      </li>
-      <li Class="FB.CompProperties_FleshAnimationManager">
-        <animationAmplitude>0.006</animationAmplitude>
-        <animationSideAmplitude>0.003</animationSideAmplitude>
-        <baseAnimationSpeed>0.15</baseAnimationSpeed>
-        <beatDurationTicks>70</beatDurationTicks>
-        <animatedParts>
-          <li>
-            <texturePath>Things/Building/FB_Organic/Thermoregulator/Thermoregulator</texturePath>
-            <positionOffset>(0, 0, 0)</positionOffset>
-            <textureScale>1.2</textureScale>
-            <animationAmplitude>0.006</animationAmplitude>
-            <animationSideAmplitude>0.003</animationSideAmplitude>
-            <animationInterval>0</animationInterval>
-            <animationOffset>0.0</animationOffset>
-            <altitudeLayer>0</altitudeLayer>
-            <rotationAngle>0</rotationAngle>
-            <beatDelay>0</beatDelay>
-          </li>
-        </animatedParts>
-      </li>
-      <li Class="FB.CompProperties_HemogelUpkeep">
-        <hemogelPerHour>1.2</hemogelPerHour>
-      </li>
-    </comps>
-  </ThingDef>
+  <defName>FB_Thermoregulator</defName>
+  <label>Thermoregulator</label>
+  <description>A living heat exchanger that spends hemogel network power to regulate the temperature of enclosed rooms.</description>
+  <size>(1,1)</size>
+  <tickerType>Rare</tickerType>
+  <altitudeLayer>Building</altitudeLayer>
+  <rotatable>false</rotatable>
+  <statBases>
+    <MaxHitPoints>180</MaxHitPoints>
+    <Beauty>-8</Beauty>
+    <Flammability>1.0</Flammability>
+    <Mass>6</Mass>
+  </statBases>
+  <graphicData>
+    <graphicClass>Graphic_Single</graphicClass>
+    <texPath>Things/Building/Plaseholder</texPath>
+    <drawSize>(0.1,0.1)</drawSize>
+    <drawOffset>(0, 0, 0)</drawOffset>
+    <damageData>
+      <rect>(0.15, 0.15, 0.7, 0.7)</rect>
+      <scratches>
+        <li>Damage/FleshScratch1</li>
+        <li>Damage/FleshScratch2</li>
+        <li>Damage/FleshScratch3</li>
+      </scratches>
+    </damageData>
+  </graphicData>
+  <uiIconPath>Things/Building/FB_Organic/Thermoregulator/Thermoregulator</uiIconPath>
+  <killedLeavingsRanges>
+    <Meat_Twisted>15~35</Meat_Twisted>
+  </killedLeavingsRanges>
+  <forceLeavingsAllowed>true</forceLeavingsAllowed>
+  <comps>
+    <li Class="FB.CompProperties_FleshThermoregulator">
+      <thermalPowerPerSecond>12</thermalPowerPerSecond>
+      <defaultTargetTemperature>21</defaultTargetTemperature>
+      <baselineTargetTemperature>21</baselineTargetTemperature>
+      <baseHemogelPerHour>2</baseHemogelPerHour>
+      <hemogelPerHourPerTenDegreesOffset>1</hemogelPerHourPerTenDegreesOffset>
+      <minTargetTemperature>-50</minTargetTemperature>
+      <maxTargetTemperature>50</maxTargetTemperature>
+      <onlyIndoors>true</onlyIndoors>
+    </li>
+    <li Class="FB.CompProperties_FleshAnimationManager">
+      <animationAmplitude>0.006</animationAmplitude>
+      <animationSideAmplitude>0.003</animationSideAmplitude>
+      <baseAnimationSpeed>0.15</baseAnimationSpeed>
+      <beatDurationTicks>70</beatDurationTicks>
+      <animatedParts>
+        <li>
+          <texturePath>Things/Building/FB_Organic/Thermoregulator/Thermoregulator</texturePath>
+          <positionOffset>(0, 0, 0)</positionOffset>
+          <textureScale>1.2</textureScale>
+          <animationAmplitude>0.006</animationAmplitude>
+          <animationSideAmplitude>0.003</animationSideAmplitude>
+          <animationInterval>0</animationInterval>
+          <animationOffset>0.0</animationOffset>
+          <altitudeLayer>0</altitudeLayer>
+          <rotationAngle>0</rotationAngle>
+          <beatDelay>0</beatDelay>
+        </li>
+      </animatedParts>
+    </li>
+  </comps>
+</ThingDef>
   <!-- Постройка: live cocoon growth (FB_LiveCocoonGrowth) -->
   <ThingDef ParentName="BuildingColonyFleshBase">
     <defName>FB_LiveCocoonGrowth</defName>
@@ -2977,7 +2980,7 @@
   <ThingDef ParentName="BuildingColonyFleshBase">
     <defName>FB_GenophageCocoon</defName>
     <label>genophage cocoon</label>
-    <description>A genetic cocoon that swallows a living donor with genes, stores a few extracted genes as a genepack in a genome archive, then releases the donor once extraction is complete.</description>
+    <description>A genetic cocoon that extracts one to three random genes from a living donor, stores them as a genepack in a genome archive, then releases the donor.</description>
     <thingClass>FB.Building_GenophageCocoon</thingClass>
     <containedPawnsSelectable>true</containedPawnsSelectable>
     <drawerType>MapMeshAndRealTime</drawerType>

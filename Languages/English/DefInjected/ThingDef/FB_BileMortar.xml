@@ -9,6 +9,7 @@
   <FB_BileburstPodling.tools.0.label>soft bite</FB_BileburstPodling.tools.0.label>
   <FB_BileburstPodlingShell.label>bileburst podling shell</FB_BileburstPodlingShell.label>
   <FB_BileburstPodlingShell.description>A bileburst podling folded into an artillery arc, ready to rupture into burning organic bile on impact.</FB_BileburstPodlingShell.description>
+  <FB_FleshMoonBileBombardment.label>flesh moon bile bombardment</FB_FleshMoonBileBombardment.label>
   <FB_VolatileBileFilth.label>volatile bile</FB_VolatileBileFilth.label>
   <FB_VolatileBileFilth.description>A slick smear of unstable organic bile. It burns readily when exposed to flame.</FB_VolatileBileFilth.description>
 </LanguageData>

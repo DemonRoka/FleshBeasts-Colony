@@ -1,4 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_HemogelTransferTemperatureEfficiency>Эффективность передачи гемогеля: {0} (температура сердца: {1}).</FB_HemogelTransferTemperatureEfficiency>
+  <FB_Thermoregulator_TargetTemperature>Целевая температура: {0}</FB_Thermoregulator_TargetTemperature>
+  <FB_Thermoregulator_HemogelConsumption>Потребление гемогеля: {0}/ч</FB_Thermoregulator_HemogelConsumption>
+  <FB_Thermoregulator_StatusIdle>Статус: поддерживает температуру.</FB_Thermoregulator_StatusIdle>
+  <FB_Thermoregulator_StatusHeating>Статус: нагревает.</FB_Thermoregulator_StatusHeating>
+  <FB_Thermoregulator_StatusCooling>Статус: охлаждает.</FB_Thermoregulator_StatusCooling>
+  <FB_Thermoregulator_StatusPausedNoHemogel>Статус: остановлен, не хватает мощности гемогеля.</FB_Thermoregulator_StatusPausedNoHemogel>
+  <FB_Thermoregulator_StatusNoRoom>Статус: нет закрытой комнаты.</FB_Thermoregulator_StatusNoRoom>
+  <FB_Thermoregulator_StatusOutdoors>Статус: требуется закрытая комната.</FB_Thermoregulator_StatusOutdoors>
+  <FB_Thermoregulator_StatusBroken>Статус: сломан.</FB_Thermoregulator_StatusBroken>
+  <FB_Thermoregulator_EconomyIdle>Бездействует</FB_Thermoregulator_EconomyIdle>
+  <FB_Thermoregulator_EconomyMaintaining>Поддержание температуры</FB_Thermoregulator_EconomyMaintaining>
+  <FB_Thermoregulator_EconomyHeating>Нагрев</FB_Thermoregulator_EconomyHeating>
+  <FB_Thermoregulator_EconomyCooling>Охлаждение</FB_Thermoregulator_EconomyCooling>
+  <FB_Thermoregulator_EconomyPausedNoHemogel>Остановлен: не хватает мощности гемогеля</FB_Thermoregulator_EconomyPausedNoHemogel>
 </LanguageData>

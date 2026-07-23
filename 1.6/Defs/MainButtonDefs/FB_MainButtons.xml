@@ -5,6 +5,8 @@
     <label>Flesh Architect</label>
     <description>Grow living colony organs, flesh zones, and fleshmass plans.</description>
     <tabWindowClass>FB.MainTabWindow_FleshArchitect</tabWindowClass>
+    <minimized>true</minimized>
+    <iconPath>UI/Buttons/MainButtons/FleshArchitect</iconPath>
     <order>2</order>
     <closesWorldView>true</closesWorldView>
   </MainButtonDef>

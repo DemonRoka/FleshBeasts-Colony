@@ -12,7 +12,7 @@
   <FB_ColonyBrain_Structure_GenomeArchive_Label>Геномный архив</FB_ColonyBrain_Structure_GenomeArchive_Label>
   <FB_ColonyBrain_Structure_GeneReweaver_Label>Генный переплетатель</FB_ColonyBrain_Structure_GeneReweaver_Label>
   <FB_GenophageSelectDonorLabel>Выбрать донора</FB_GenophageSelectDonorLabel>
-  <FB_GenophageSelectDonorDesc>Выбрать живую пешку-донора с генами. Кокон медленно скопирует любые неизвестные гены, которые сможет сохранить в архиве, а затем выпустит донора после извлечения.</FB_GenophageSelectDonorDesc>
+  <FB_GenophageSelectDonorDesc>Выбрать живую пешку-донора с генами. Кокон медленно скопирует от одного до трёх случайных генов в архив, а затем выпустит донора после извлечения.</FB_GenophageSelectDonorDesc>
   <FB_GenophageNoArchiveSpace>Нет геномного архива со свободным местом.</FB_GenophageNoArchiveSpace>
   <FB_GenophageNoGenes>У этого донора нет генов.</FB_GenophageNoGenes>
   <FB_GenophageGenesRegrowing>Ксеногерм этого донора ещё восстанавливается.</FB_GenophageGenesRegrowing>
@@ -46,7 +46,6 @@
   <FB_ChromophageCannotReachArchive>Хромофаг не может добраться до этого архива.</FB_ChromophageCannotReachArchive>
   <FB_ChromophageExtractedGenes>Хромофаг извлёк генетические следы: {0}.</FB_ChromophageExtractedGenes>
   <FB_ChromophageUnloadedGenes>Хромофаг выгрузил генетические следы в геномный архив: {0}.</FB_ChromophageUnloadedGenes>
-  <FB_GenophageNoGenesExtracted>У {PAWN_labelShort} не оказалось неизвестных генов, которые генофаговый кокон мог бы скопировать в архив.</FB_GenophageNoGenesExtracted>
   <FB_GeneReweaverCreateXenogermLabel>Создать плотяной ксеногерм...</FB_GeneReweaverCreateXenogermLabel>
   <FB_GeneReweaverCreateXenogermDesc>Выбрать архивированные гены и сплести из них один внутренний плотяной ксеногерм. Переплетатель работает со всем узором по единому таймеру.</FB_GeneReweaverCreateXenogermDesc>
   <FB_GeneReweaverCancelXenogermLabel>Отменить плотяной ксеногерм</FB_GeneReweaverCancelXenogermLabel>

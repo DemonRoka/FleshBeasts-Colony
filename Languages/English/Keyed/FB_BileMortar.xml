@@ -40,4 +40,9 @@
   <FB_BileburstChargeTooLow>Volatile bile must reach at least {0}% before detonation.</FB_BileburstChargeTooLow>
   <FB_BileburstCannotDetonate>This bileburst podling cannot detonate there.</FB_BileburstCannotDetonate>
   <FB_BileburstCannotReach>The bileburst podling cannot reach the detonation target.</FB_BileburstCannotReach>
+  <FB_FleshMoonBileBombardmentLabel>Call bilefall bombardment</FB_FleshMoonBileBombardmentLabel>
+  <FB_FleshMoonBileBombardmentDesc>Select a map point. The flesh moon will rain 15-20 bileburst shells across a 10-cell area over about a third of an hour. Free test action.</FB_FleshMoonBileBombardmentDesc>
+  <FB_FleshMoonBileBombardmentNoLink>The flesh moon is not linked.</FB_FleshMoonBileBombardmentNoLink>
+  <FB_FleshMoonBileBombardmentInvalidTarget>Invalid bombardment target.</FB_FleshMoonBileBombardmentInvalidTarget>
+  <FB_FleshMoonBileBombardmentStarted>The flesh moon begins a bilefall bombardment.</FB_FleshMoonBileBombardmentStarted>
 </LanguageData>

@@ -175,4 +175,15 @@
     <requiredSourceBuilding>FB_ColonyHeart</requiredSourceBuilding>
     <order>70</order>
   </FB.FleshArchitectDesignatorDef>
+
+  <FB.FleshArchitectDesignatorDef>
+    <defName>FB_FleshArchitect_FleshMoon_BileBombardment</defName>
+    <category>FB_FleshArchitect_FleshMoon</category>
+    <className>FB.Designator_FleshMoonBileBombardment</className>
+    <iconPath>UI/Commands/BileMortarFire</iconPath>
+    <labelKey>FB_FleshMoonBileBombardmentLabel</labelKey>
+    <descriptionKey>FB_FleshMoonBileBombardmentDesc</descriptionKey>
+    <requiredResearch>FB_BileMortarResearch</requiredResearch>
+    <order>10</order>
+  </FB.FleshArchitectDesignatorDef>
 </Defs>

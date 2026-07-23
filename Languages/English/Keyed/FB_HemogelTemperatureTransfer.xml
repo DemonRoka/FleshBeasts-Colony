@@ -1,4 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_HemogelTransferTemperatureEfficiency>Hemogel transfer efficiency: {0} (heart temperature: {1}).</FB_HemogelTransferTemperatureEfficiency>
+  <FB_Thermoregulator_TargetTemperature>Target temperature: {0}</FB_Thermoregulator_TargetTemperature>
+  <FB_Thermoregulator_HemogelConsumption>Hemogel consumption: {0}/h</FB_Thermoregulator_HemogelConsumption>
+  <FB_Thermoregulator_StatusIdle>Status: maintaining temperature.</FB_Thermoregulator_StatusIdle>
+  <FB_Thermoregulator_StatusHeating>Status: heating.</FB_Thermoregulator_StatusHeating>
+  <FB_Thermoregulator_StatusCooling>Status: cooling.</FB_Thermoregulator_StatusCooling>
+  <FB_Thermoregulator_StatusPausedNoHemogel>Status: paused, not enough hemogel power.</FB_Thermoregulator_StatusPausedNoHemogel>
+  <FB_Thermoregulator_StatusNoRoom>Status: no enclosed room.</FB_Thermoregulator_StatusNoRoom>
+  <FB_Thermoregulator_StatusOutdoors>Status: requires an enclosed room.</FB_Thermoregulator_StatusOutdoors>
+  <FB_Thermoregulator_StatusBroken>Status: broken down.</FB_Thermoregulator_StatusBroken>
+  <FB_Thermoregulator_EconomyIdle>Idle</FB_Thermoregulator_EconomyIdle>
+  <FB_Thermoregulator_EconomyMaintaining>Maintaining temperature</FB_Thermoregulator_EconomyMaintaining>
+  <FB_Thermoregulator_EconomyHeating>Heating</FB_Thermoregulator_EconomyHeating>
+  <FB_Thermoregulator_EconomyCooling>Cooling</FB_Thermoregulator_EconomyCooling>
+  <FB_Thermoregulator_EconomyPausedNoHemogel>Paused: not enough hemogel power</FB_Thermoregulator_EconomyPausedNoHemogel>
 </LanguageData>

@@ -9,6 +9,7 @@
   <FB_BileburstPodling.tools.0.label>мягкий укус</FB_BileburstPodling.tools.0.label>
   <FB_BileburstPodlingShell.label>снаряд желчного подрывника</FB_BileburstPodlingShell.label>
   <FB_BileburstPodlingShell.description>Желчный подрывник, сжатый в артиллерийскую дугу и готовый разорваться горящей органической желчью при ударе.</FB_BileburstPodlingShell.description>
+  <FB_FleshMoonBileBombardment.label>желчный обстрел мясной луны</FB_FleshMoonBileBombardment.label>
   <FB_VolatileBileFilth.label>горючая желчь</FB_VolatileBileFilth.label>
   <FB_VolatileBileFilth.description>Скользкое пятно нестабильной органической желчи. Оно легко воспламеняется при контакте с огнём.</FB_VolatileBileFilth.description>
 </LanguageData>

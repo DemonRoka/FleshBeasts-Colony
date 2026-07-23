@@ -40,4 +40,9 @@
   <FB_BileburstChargeTooLow>Для взрыва запас горючей желчи должен достичь хотя бы {0}%.</FB_BileburstChargeTooLow>
   <FB_BileburstCannotDetonate>Этот желчный подрывник не может взорваться там.</FB_BileburstCannotDetonate>
   <FB_BileburstCannotReach>Желчный подрывник не может добраться до цели взрыва.</FB_BileburstCannotReach>
+  <FB_FleshMoonBileBombardmentLabel>Вызвать желчный обстрел</FB_FleshMoonBileBombardmentLabel>
+  <FB_FleshMoonBileBombardmentDesc>Выберите точку на карте. Мясная луна сбросит 15-20 желчных снарядов в радиусе 10 клеток примерно за треть игрового часа. Тестовая команда бесплатна.</FB_FleshMoonBileBombardmentDesc>
+  <FB_FleshMoonBileBombardmentNoLink>Связь с мясной луной не закреплена.</FB_FleshMoonBileBombardmentNoLink>
+  <FB_FleshMoonBileBombardmentInvalidTarget>Недопустимая цель обстрела.</FB_FleshMoonBileBombardmentInvalidTarget>
+  <FB_FleshMoonBileBombardmentStarted>Мясная луна начинает желчный обстрел.</FB_FleshMoonBileBombardmentStarted>
 </LanguageData>

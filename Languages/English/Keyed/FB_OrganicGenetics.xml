@@ -12,7 +12,7 @@
   <FB_ColonyBrain_Structure_GenomeArchive_Label>Genome archive</FB_ColonyBrain_Structure_GenomeArchive_Label>
   <FB_ColonyBrain_Structure_GeneReweaver_Label>Gene reweaver</FB_ColonyBrain_Structure_GeneReweaver_Label>
   <FB_GenophageSelectDonorLabel>Select donor</FB_GenophageSelectDonorLabel>
-  <FB_GenophageSelectDonorDesc>Choose a living donor pawn with genes. The cocoon slowly copies any unknown genes it can archive, then releases the donor after extraction.</FB_GenophageSelectDonorDesc>
+  <FB_GenophageSelectDonorDesc>Choose a living donor pawn with genes. The cocoon slowly copies one to three random genes into the archive, then releases the donor after extraction.</FB_GenophageSelectDonorDesc>
   <FB_GenophageNoArchiveSpace>No genome archive with free capacity is available.</FB_GenophageNoArchiveSpace>
   <FB_GenophageNoGenes>This donor has no genes.</FB_GenophageNoGenes>
   <FB_GenophageGenesRegrowing>This donor's xenogerm is still regrowing.</FB_GenophageGenesRegrowing>
@@ -46,7 +46,6 @@
   <FB_ChromophageCannotReachArchive>The chromophage cannot reach that archive.</FB_ChromophageCannotReachArchive>
   <FB_ChromophageExtractedGenes>Chromophage extracted gene traces: {0}.</FB_ChromophageExtractedGenes>
   <FB_ChromophageUnloadedGenes>Chromophage unloaded gene traces into the genome archive: {0}.</FB_ChromophageUnloadedGenes>
-  <FB_GenophageNoGenesExtracted>{PAWN_labelShort} had no unknown genes for the genophage cocoon to copy into the archive.</FB_GenophageNoGenesExtracted>
   <FB_GeneReweaverCreateXenogermLabel>Create flesh xenogerm...</FB_GeneReweaverCreateXenogermLabel>
   <FB_GeneReweaverCreateXenogermDesc>Choose archived genes and weave them into one internal flesh xenogerm. The reweaver works on the full pattern under a single timer.</FB_GeneReweaverCreateXenogermDesc>
   <FB_GeneReweaverCancelXenogermLabel>Cancel flesh xenogerm</FB_GeneReweaverCancelXenogermLabel>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_GenophageCocoon.label>genophage cocoon</FB_GenophageCocoon.label>
-  <FB_GenophageCocoon.description>A genetic cocoon that copies selected genes from a living donor and stores them in a genome archive.</FB_GenophageCocoon.description>
+  <FB_GenophageCocoon.description>A genetic cocoon that extracts one to three random genes from a living donor and stores them as a genepack in a genome archive.</FB_GenophageCocoon.description>
   <FB_GenomeArchive.label>genome archive</FB_GenomeArchive.label>
   <FB_GenomeArchive.description>A living gene bank that stores extracted genepacks for inspection and later use by a gene reweaver.</FB_GenomeArchive.description>
   <FB_GeneReweaver.label>gene reweaver</FB_GeneReweaver.label>
