@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_FleshMoonNerveNodeDesignatorLabel>Grow lunar nerve node</FB_FleshMoonNerveNodeDesignatorLabel>
+  <FB_FleshMoonNerveNodeDesignatorDesc>Grow a local command organ for the flesh moon. It stores the moon's hemogel reserve and coordinates hauling tendrils.</FB_FleshMoonNerveNodeDesignatorDesc>
+  <FB_FleshMoonDesignatorOnlyOnMoon>This can only be used inside the flesh moon.</FB_FleshMoonDesignatorOnlyOnMoon>
+  <FB_FleshMoonNerveNodeAlreadyExists>The flesh moon already has a nerve node.</FB_FleshMoonNerveNodeAlreadyExists>
+  <FB_FleshMoonNerveNodeBlocked>Requires a clear 3x3 area of flesh floor.</FB_FleshMoonNerveNodeBlocked>
+  <FB_FleshMoonNerveNode_Inspect>Lunar upkeep: {0} hemogel/h.</FB_FleshMoonNerveNode_Inspect>
+  <FB_FleshMoonNerveNode_EconomyDetail>Lunar upkeep: {0}/h</FB_FleshMoonNerveNode_EconomyDetail>
+  <FB_FleshMoonGastricAcidCreateLabel>Form gastric acid</FB_FleshMoonGastricAcidCreateLabel>
+  <FB_FleshMoonGastricAcidCreateDesc>Turn flesh floor inside the moon into gastric acid. Organic matter left in it feeds the lunar hemogel reserve.</FB_FleshMoonGastricAcidCreateDesc>
+  <FB_FleshMoonGastricAcidRemoveLabel>Remove gastric acid</FB_FleshMoonGastricAcidRemoveLabel>
+  <FB_FleshMoonGastricAcidRemoveDesc>Absorb gastric acid inside the moon and restore flesh floor.</FB_FleshMoonGastricAcidRemoveDesc>
+  <FB_FleshMoonGastricAcidMustBeOnFlesh>Requires flesh floor.</FB_FleshMoonGastricAcidMustBeOnFlesh>
+  <FB_FleshMoonGastricAcidAlreadyHere>There is already gastric acid here.</FB_FleshMoonGastricAcidAlreadyHere>
+  <FB_FleshMoonGastricAcidMissing>There is no gastric acid here.</FB_FleshMoonGastricAcidMissing>
+  <FB_FleshMoonGastricAcidBlocked>Cannot form gastric acid under a building.</FB_FleshMoonGastricAcidBlocked>
+  <FB_FleshMoonGastricAcidDigester_Inspect>Lunar digestive fuel: {0} nutrition. Hemogel output: {1}/h.</FB_FleshMoonGastricAcidDigester_Inspect>
+  <FB_FleshMoonGastricAcidDigester_EconomyDetail>Lunar digestive fuel: {0} nutrition; output {1}/h</FB_FleshMoonGastricAcidDigester_EconomyDetail>
+  <FB_BiomassTransformNoHeartOnFleshMoon>The flesh moon cannot grow another colony heart.</FB_BiomassTransformNoHeartOnFleshMoon>
+</LanguageData>

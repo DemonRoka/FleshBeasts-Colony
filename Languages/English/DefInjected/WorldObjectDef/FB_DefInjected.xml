@@ -1,7 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_FleshTunnelDestination.description>A distant tile pierced by a rooted flesh tunnel.</FB_FleshTunnelDestination.description>
   <FB_FleshTunnelDestination.label>flesh tunnel</FB_FleshTunnelDestination.label>
   <FB_FleshMoonWorldObject.description>A living orbital mass tethered to the colony by the celestial umbilicus.</FB_FleshMoonWorldObject.description>
   <FB_FleshMoonWorldObject.label>flesh moon</FB_FleshMoonWorldObject.label>
+
+  <FB_FleshMoonSurfaceAnchor.label>flesh moon anchor</FB_FleshMoonSurfaceAnchor.label>
+  <FB_FleshMoonSurfaceAnchor.description>A surface point pierced by the flesh moon's celestial umbilicus.</FB_FleshMoonSurfaceAnchor.description>
 </LanguageData>

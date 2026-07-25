@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <!-- База построек: BuildingColonyFleshBase -->
   <ThingDef Name="BuildingColonyFleshBase" Abstract="True">
@@ -203,6 +203,198 @@
       </li>
     </comps>
   </ThingDef>
+  <!-- Постройка: Flesh Moon Nerve Node (FB_FleshMoonNerveNode) -->
+  <ThingDef ParentName="BuildingColonyFleshBaseAnimation">
+  <defName>FB_FleshMoonNerveNode</defName>
+    <label>flesh moon nerve node</label>
+    <description>A local command organ for the flesh moon. It stores the moon's hemogel reserve, sustains the interior, and coordinates hauling tendrils.</description>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <size>(3,3)</size>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/FB_Organic/FleshMoonNerveNode/FleshMoonNerveNode</texPath>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+    <uiIconPath>Things/Building/FB_Organic/FleshMoonNerveNode/FleshMoonNerveNode</uiIconPath>
+    <statBases>
+      <MaxHitPoints>800</MaxHitPoints>
+      <Beauty>-35</Beauty>
+      <Cleanliness>-8</Cleanliness>
+      <Flammability>0.7</Flammability>
+    </statBases>
+    <building>
+      <expandHomeArea>false</expandHomeArea>
+      <isTargetable>true</isTargetable>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <isEdifice>true</isEdifice>
+      <isInert>true</isInert>
+      <claimable>false</claimable>
+      <deconstructible>false</deconstructible>
+      <repairable>false</repairable>
+      <destroyEffecter>FleshmassDestroyed</destroyEffecter>
+    </building>
+	  <inspectorTabs>
+		  <li>FB.ITab_FleshbeastBills</li>
+		  <li>FB.ITab_HemogelEconomy</li>
+		  <li>FB.ITab_GraspingTendrilPolicy</li>
+	  </inspectorTabs>
+    <comps>
+      <li Class="FB.CompProperties_HemogelStorage">
+        <initialHemogelCapacity>30000</initialHemogelCapacity>
+        <maxHemogelCapacity>100000</maxHemogelCapacity>
+        <networkFillPerHour>-1</networkFillPerHour>
+        <damageThreshold>0.04</damageThreshold>
+        <hideNoHemogelInspectWarning>true</hideNoHemogelInspectWarning>
+      </li>
+      <li Class="FB.CompProperties_HemogelReserveNode" />
+      <li Class="FB.CompProperties_FleshMoonNerveNode">
+        <idleHemogelPerHour>50</idleHemogelPerHour>
+        <movingHemogelPerHour>100</movingHemogelPerHour>
+      </li>
+      <li Class="FB.CompProperties_FleshmassSpawner">
+        <spawnIntervalTicks>125</spawnIntervalTicks>
+        <thingDefToSpawn>Fleshmass</thingDefToSpawn>
+        <terrainDefsToSpawn>
+          <li>Flesh</li>
+          <li>FleshVeins</li>
+        </terrainDefsToSpawn>
+        <terrainDefsToRemove>
+          <li>Flesh</li>
+          <li>FleshVeins</li>
+          <li>RootFlesh</li>
+          <li>RootFleshVeins</li>
+        </terrainDefsToRemove>
+        <thingDefsForbiddenToRemove>
+          <li>FB_FleshMoonNerveNode</li>
+          <li>FB_CelestialUmbilicusMoonExit</li>
+        </thingDefsForbiddenToRemove>
+      </li>
+      <li Class="FB.CompProperties_FleshmassAutoBuilder">
+        <organicMaxWallThickness>2</organicMaxWallThickness>
+        <wallDef>Fleshmass</wallDef>
+        <floorDefs>
+          <li>Flesh</li>
+          <li>FleshVeins</li>
+        </floorDefs>
+        <buildIntervalTicks>25</buildIntervalTicks>
+        <checkIntervalTicks>900</checkIntervalTicks>
+        <hemogelCostFloor>5</hemogelCostFloor>
+        <hemogelCostWall>10</hemogelCostWall>
+        <autoBuildLabel>FB_AutoGrowthLabel</autoBuildLabel>
+        <autoBuildIconPath>UI/Commands/AutoGrowth</autoBuildIconPath>
+      </li>
+      <li Class="FB.CompProperties_FleshMoonGastricAcidDigester">
+        <acidTerrain>FB_GastricAcid</acidTerrain>
+        <terrainOnAbsorb>Flesh</terrainOnAbsorb>
+        <hemogelProductionPerHour>50</hemogelProductionPerHour>
+        <hemogelPerNutrition>20</hemogelPerNutrition>
+        <digestionDurationFactor>2</digestionDurationFactor>
+      </li>
+      <li Class="FB.CompProperties_ColonyBrainTendrilHauling">
+        <maxActiveTendrils>20</maxActiveTendrils>
+        <defaultActiveTendrils>10</defaultActiveTendrils>
+        <hemogelPerTendrilPerHour>0.1</hemogelPerTendrilPerHour>
+        <tendrilReach>7</tendrilReach>
+        <scanIntervalTicks>180</scanIntervalTicks>
+        <maxCandidatesPerScan>35</maxCandidatesPerScan>
+        <anchorSearchRadius>4</anchorSearchRadius>
+        <captureRadiusFromFlesh>5</captureRadiusFromFlesh>
+        <routeSpacingFactor>0.85</routeSpacingFactor>
+      </li>
+		<li Class="FB.CompProperties_FleshbeastBillExecutor">
+			<checkIntervalTicks>250</checkIntervalTicks>
+			<recipes>
+				<li>FB_GrowFingerspikeFromHemogel</li>
+				<li>FB_GrowTrispikeFromHemogel</li>
+				<li>FB_GrowToughspikeFromHemogel</li>
+				<li>FB_GrowBulbfreakFromHemogel</li>
+			</recipes>
+		</li>
+		<li Class="FB.CompProperties_AcceptanceHemogelFeedingToggle">
+			<allowByDefault>true</allowByDefault>
+			<iconPath>UI/Commands/HeartHemogelFeeding</iconPath>
+		</li>
+		<li Class="FB.CompProperties_HemogelBloodAbsorber">
+			<hemogelPerBloodSmear>2</hemogelPerBloodSmear>
+			<allowedTerrains>
+				<li>Flesh</li>
+				<li>FleshVeins</li>
+			</allowedTerrains>
+			<bloodFilthDefs>
+				<li>Filth_Blood</li>
+				<li>Filth_BloodSmear</li>
+				<li>Filth_BloodInsect</li>
+				<li>Filth_AmnioticFluid</li>
+				<li>Filth_GestationFluid</li>
+				<li>Filth_Slime</li>
+				<li>Filth_CorpseBile</li>
+			</bloodFilthDefs>
+		</li>
+		<li Class="FB.CompProperties_FleshbeastAutoHealer">
+			<healingRootMoteDefSmall>Mote_HarbingerTreeRoots</healingRootMoteDefSmall>
+			<healingRootMoteDefLarge>Mote_FleshRootsSide</healingRootMoteDefLarge>
+			<healingRootVisualUpdateTicks>120</healingRootVisualUpdateTicks>
+			<autoHealingEnabledByDefault>true</autoHealingEnabledByDefault>
+			<autoHealingRadius>60</autoHealingRadius>
+			<autoCheckIntervalTicks>120</autoCheckIntervalTicks>
+			<healingCooldownTicks>2400</healingCooldownTicks>
+			<autoHealingTerrains>
+				<li>Flesh</li>
+				<li>FleshVeins</li>
+				<li>RootFlesh</li>
+				<li>RootFleshVeins</li>
+			</autoHealingTerrains>
+			<gizmoLabel>FB_ManualFleshbeastHealingLabel</gizmoLabel>
+			<gizmoDesc>FB_ManualFleshbeastHealingDesc</gizmoDesc>
+			<iconPath>UI/Commands/FleshbeastAutoHeal</iconPath>
+		</li>
+		<li Class="FB.CompProperties_StructureSelector">
+			<structurePairs>
+				<li>
+					<embryoDef>FB_ColonyBrainEmbryo</embryoDef>
+					<label>FB_ColonyHeart_Structure_ColonyBrain_Label</label>
+					<description>FB_ColonyHeart_Structure_ColonyBrain_Desc</description>
+					<texPath>Things/Building/FB_Organic/ColonyBrain/ColonyBrain_icon</texPath>
+					<drawSize>(3,3)</drawSize>
+					<cost>850</cost>
+					<requiredCorpseDefs>
+						<li>Human</li>
+					</requiredCorpseDefs>
+				</li>
+			</structurePairs>
+		</li>
+		<li Class="FB.CompProperties_FleshNoGrowAreaCleaner">
+			<cleanIntervalTicks>500</cleanIntervalTicks>
+			<maxCellsPerCheck>3</maxCellsPerCheck>
+			<terrainDefsToClean>
+				<li>Flesh</li>
+				<li>FleshVeins</li>
+				<li>RootFlesh</li>
+				<li>RootFleshVeins</li>
+			</terrainDefsToClean>
+		</li>
+		<li Class="FB.CompProperties_RootDrawer">
+			<radius>20</radius>
+			<moteDefSmall>Mote_HarbingerTreeRoots</moteDefSmall>
+			<moteDefLarge>Mote_FleshRootsSide</moteDefLarge>
+			<ignoredThingDefs>
+				<li>FB_ColonyEye</li>
+			</ignoredThingDefs>
+		</li>
+		<li Class="FB.CompProperties_FleshSpawnBlankBody">
+			<hemogelCost>100</hemogelCost>
+			<requiredResearch>ParasiteEggConversion</requiredResearch>
+			<gizmoLabel>FB_CreateBodyLabel</gizmoLabel>
+			<gizmoDesc>FB_CreateBodyDesc</gizmoDesc>
+			<iconPath>UI/Commands/CreateShell</iconPath>
+			<allowedTerrains>
+				<li>Flesh</li>
+				<li>FleshVeins</li>
+			</allowedTerrains>
+		</li>
+    </comps>
+  </ThingDef>
+
   <!-- Постройка: Colony Heart (FB_ColonyHeart) -->
   <ThingDef ParentName="BuildingColonyFleshBaseAnimation">
   <defName>FB_ColonyHeart</defName>
@@ -269,8 +461,6 @@
     </li>
     <li Class="FB.CompProperties_HemogelBloodAbsorber">
       <hemogelPerBloodSmear>2</hemogelPerBloodSmear>
-      <checkIntervalTicks>600</checkIntervalTicks>
-      <searchRadius>40</searchRadius>
       <allowedTerrains>
         <li>Flesh</li>
         <li>FleshVeins</li>
@@ -1121,7 +1311,6 @@
         <li>FB_SymbioHead</li>
         <li>FB_AcidSpitlingKind</li>
         <li>FB_BileburstPodlingKind</li>
-        <li>FB_BurdenBlobKind</li>
         <li>FB_CarapaceExcavatorKind</li>
         <li>FB_CocoonbackKind</li>
         <li>FB_CortexMiteKind</li>
@@ -1406,7 +1595,7 @@
   <forceLeavingsAllowed>true</forceLeavingsAllowed>
   <comps>
     <li Class="FB.CompProperties_HemogelSolarProducer">
-      <hemogelPerDay>40</hemogelPerDay>
+      <hemogelPerDay>15</hemogelPerDay>
     </li>
     <li Class="FB.CompProperties_FleshAnimationManager">
       <animationAmplitude>0.02</animationAmplitude>
@@ -1476,7 +1665,7 @@
     <forceLeavingsAllowed>true</forceLeavingsAllowed>
     <comps>
       <li Class="FB.CompProperties_HemogelSolarProducer">
-        <hemogelPerDay>160</hemogelPerDay>
+        <hemogelPerDay>50</hemogelPerDay>
       </li>
       <li Class="FB.CompProperties_FleshAnimationManager">
         <animationAmplitude>0.02</animationAmplitude>
@@ -1638,7 +1827,7 @@
     <li Class="FB.CompProperties_HemogelWaterNet">
       <scanRadius>8</scanRadius>
       <scanIntervalTicks>2500</scanIntervalTicks>
-      <hemogelPerWaterCell>0.04</hemogelPerWaterCell>
+      <hemogelPerWaterCell>0.08</hemogelPerWaterCell>
       <maxVisualCells>30</maxVisualCells>
       <veinTexturePath>Things/Building/Cable</veinTexturePath>
       <veinColor>(0.85,0.57,0.55,0.7)</veinColor>
@@ -2669,7 +2858,7 @@
         <moteDefSmall>Mote_HarbingerTreeRoots</moteDefSmall>
         <moteDefLarge>Mote_FleshRootsSide</moteDefLarge>
         <updateEveryTicks>100</updateEveryTicks>
-        <hemogelPerHourWhileHolding>2</hemogelPerHourWhileHolding>
+        <hemogelPerHourWhileHolding>10</hemogelPerHourWhileHolding>
         <tentacleDamageEveryTicks>500</tentacleDamageEveryTicks>
         <tentacleHitChance>0.7</tentacleHitChance>
         <tentacleDamageMin>4</tentacleDamageMin>

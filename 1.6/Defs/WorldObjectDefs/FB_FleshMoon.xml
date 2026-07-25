@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <WorldObjectDef>
     <defName>FB_FleshMoonWorldObject</defName>
@@ -18,4 +18,15 @@
     <expandingIconPriority>20</expandingIconPriority>
     <mapGenerator>FB_FleshMoonPocket</mapGenerator>
   </WorldObjectDef>
-</Defs>
+
+  <WorldObjectDef>
+    <defName>FB_FleshMoonSurfaceAnchor</defName>
+    <label>flesh moon anchor</label>
+    <description>A surface point pierced by the flesh moon's celestial umbilicus.</description>
+    <worldObjectClass>FB.FB_FleshMoonSurfaceAnchorWorldObject</worldObjectClass>
+    <canHaveFaction>true</canHaveFaction>
+    <canHaveMap>true</canHaveMap>
+    <validLaunchTarget>false</validLaunchTarget>
+    <selectable>false</selectable>
+    <mapGenerator>Encounter</mapGenerator>
+  </WorldObjectDef></Defs>

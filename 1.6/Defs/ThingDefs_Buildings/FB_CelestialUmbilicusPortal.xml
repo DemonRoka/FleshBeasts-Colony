@@ -71,5 +71,8 @@
       <Beauty>-25</Beauty>
       <Flammability>0.7</Flammability>
     </statBases>
+    <inspectorTabs>
+      <li>ITab_ContentsMapPortal</li>
+    </inspectorTabs>
   </ThingDef>
 </Defs>

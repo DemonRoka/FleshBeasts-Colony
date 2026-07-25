@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_FleshMoonNerveNodeDesignatorLabel>Вырастить лунный нервный узел</FB_FleshMoonNerveNodeDesignatorLabel>
+  <FB_FleshMoonNerveNodeDesignatorDesc>Вырастить локальный орган управления луной плоти. Он хранит лунный резерв гемогеля и направляет грузовые щупальца.</FB_FleshMoonNerveNodeDesignatorDesc>
+  <FB_FleshMoonDesignatorOnlyOnMoon>Это можно использовать только внутри луны плоти.</FB_FleshMoonDesignatorOnlyOnMoon>
+  <FB_FleshMoonNerveNodeAlreadyExists>У луны плоти уже есть нервный узел.</FB_FleshMoonNerveNodeAlreadyExists>
+  <FB_FleshMoonNerveNodeBlocked>Требуется свободная область 3x3 на полу из плоти.</FB_FleshMoonNerveNodeBlocked>
+  <FB_FleshMoonNerveNode_Inspect>Лунное содержание: {0} гемогеля/ч.</FB_FleshMoonNerveNode_Inspect>
+  <FB_FleshMoonNerveNode_EconomyDetail>Лунное содержание: {0}/ч</FB_FleshMoonNerveNode_EconomyDetail>
+  <FB_FleshMoonGastricAcidCreateLabel>Сформировать желудочный сок</FB_FleshMoonGastricAcidCreateLabel>
+  <FB_FleshMoonGastricAcidCreateDesc>Превратить пол из плоти внутри луны в желудочный сок. Органика в нём питает лунный резерв гемогеля.</FB_FleshMoonGastricAcidCreateDesc>
+  <FB_FleshMoonGastricAcidRemoveLabel>Убрать желудочный сок</FB_FleshMoonGastricAcidRemoveLabel>
+  <FB_FleshMoonGastricAcidRemoveDesc>Поглотить желудочный сок внутри луны и восстановить пол из плоти.</FB_FleshMoonGastricAcidRemoveDesc>
+  <FB_FleshMoonGastricAcidMustBeOnFlesh>Требуется пол из плоти.</FB_FleshMoonGastricAcidMustBeOnFlesh>
+  <FB_FleshMoonGastricAcidAlreadyHere>Здесь уже есть желудочный сок.</FB_FleshMoonGastricAcidAlreadyHere>
+  <FB_FleshMoonGastricAcidMissing>Здесь нет желудочного сока.</FB_FleshMoonGastricAcidMissing>
+  <FB_FleshMoonGastricAcidBlocked>Нельзя сформировать желудочный сок под постройкой.</FB_FleshMoonGastricAcidBlocked>
+  <FB_FleshMoonGastricAcidDigester_Inspect>Лунное пищеварительное топливо: {0} питания. Выход гемогеля: {1}/ч.</FB_FleshMoonGastricAcidDigester_Inspect>
+  <FB_FleshMoonGastricAcidDigester_EconomyDetail>Лунное пищеварительное топливо: {0} питания; выход {1}/ч</FB_FleshMoonGastricAcidDigester_EconomyDetail>
+  <FB_BiomassTransformNoHeartOnFleshMoon>Луна плоти не может вырастить ещё одно сердце колонии.</FB_BiomassTransformNoHeartOnFleshMoon>
+</LanguageData>

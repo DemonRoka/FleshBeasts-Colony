@@ -9,6 +9,7 @@
 		<generatesNaturally>false</generatesNaturally>
 		<canBuildBase>false</canBuildBase>
 		<canAutoChoose>false</canAutoChoose>
+		<constantOutdoorTemperature>21</constantOutdoorTemperature>
 		<allowRoads>false</allowRoads>
 		<allowRivers>false</allowRivers>
 		<allowFarmingCamps>false</allowFarmingCamps>
@@ -31,6 +32,7 @@
 		<description>A small living moon budded from the flesh colony.</description>
 		<viewGizmoTexPath>UI/Commands/ViewPlanet</viewGizmoTexPath>
 		<viewGizmoOnlyVisibleWithDirectConnection>false</viewGizmoOnlyVisibleWithDirectConnection>
+		<canFormCaravans>false</canFormCaravans>
 		<defaultBiome>FB_FleshMoonBiome</defaultBiome>
 		<backgroundBiome>FB_FleshMoonBiome</backgroundBiome>
 		<layerType>FB.FleshMoonPlanetLayer</layerType>
@@ -46,6 +48,7 @@
 			<li>WorldDrawLayer_Terrain</li>
 			<li>FB.WorldDrawLayer_Flesh</li>
 			<li>FB.WorldDrawLayer_FleshMoonTether</li>
+			<li>FB.WorldDrawLayer_FleshMoonTendrils</li>
 		</worldDrawLayers>
 		<worldTabs>
 			<li>WITab_Planet</li>

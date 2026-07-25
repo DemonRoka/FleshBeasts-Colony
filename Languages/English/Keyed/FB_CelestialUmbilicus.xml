@@ -55,4 +55,32 @@
   <FB_FleshMoonWorldObjectViewMoonMapLabel>View flesh moon interior</FB_FleshMoonWorldObjectViewMoonMapLabel>
   <FB_FleshMoonWorldObjectViewMoonMapDesc>Jump to the generated interior map of the flesh moon.</FB_FleshMoonWorldObjectViewMoonMapDesc>
   <FB_FleshMoonWorldObjectNoUmbilicus>The celestial umbilicus is no longer available.</FB_FleshMoonWorldObjectNoUmbilicus>
+
+  <FB_FleshMoonWorldObjectMoveLabel>Move flesh moon</FB_FleshMoonWorldObjectMoveLabel>
+  <FB_FleshMoonWorldObjectMoveDesc>Choose a surface tile and send the flesh moon drifting toward it. Moving severs the current umbilicus link.</FB_FleshMoonWorldObjectMoveDesc>
+  <FB_FleshMoonWorldObjectAnchorLabel>Anchor umbilicus</FB_FleshMoonWorldObjectAnchorLabel>
+  <FB_FleshMoonWorldObjectAnchorDesc>Deploy the celestial umbilicus into the surface tile below the flesh moon and reopen travel to the planet.</FB_FleshMoonWorldObjectAnchorDesc>
+  <FB_FleshMoonWorldObjectDetachLabel>Detach umbilicus</FB_FleshMoonWorldObjectDetachLabel>
+  <FB_FleshMoonWorldObjectDetachDesc>Sever the current surface umbilicus and remove its ground-side edge without moving the flesh moon.</FB_FleshMoonWorldObjectDetachDesc>
+  <FB_FleshMoonWorldObjectInactiveDisabled>The flesh moon is not active.</FB_FleshMoonWorldObjectInactiveDisabled>
+  <FB_FleshMoonWorldObjectAbsorbingDisabled>The flesh moon is absorbing the colony.</FB_FleshMoonWorldObjectAbsorbingDisabled>
+  <FB_FleshMoonWorldObjectMovingDisabled>The flesh moon is already moving.</FB_FleshMoonWorldObjectMovingDisabled>
+  <FB_FleshMoonWorldObjectAnchorMovingDisabled>The flesh moon must finish moving before it can anchor.</FB_FleshMoonWorldObjectAnchorMovingDisabled>
+  <FB_FleshMoonWorldObjectAnchorLinkedDisabled>The flesh moon is already anchored.</FB_FleshMoonWorldObjectAnchorLinkedDisabled>
+  <FB_FleshMoonWorldObjectNoLinkedUmbilicus>The flesh moon has no active surface umbilicus.</FB_FleshMoonWorldObjectNoLinkedUmbilicus>
+  <FB_FleshMoonWorldObjectNoSurfaceTile>The flesh moon has no surface tile below it.</FB_FleshMoonWorldObjectNoSurfaceTile>
+  <FB_FleshMoonWorldObjectMoveTargetLabel>Move flesh moon here</FB_FleshMoonWorldObjectMoveTargetLabel>
+  <FB_FleshMoonWorldObjectInvalidTarget>Choose a valid surface tile.</FB_FleshMoonWorldObjectInvalidTarget>
+  <FB_FleshMoonWorldObjectTargetImpassable>The flesh moon cannot anchor above impassable world terrain.</FB_FleshMoonWorldObjectTargetImpassable>
+  <FB_FleshMoonMoveStarted>Flesh moon relocation started.</FB_FleshMoonMoveStarted>
+  <FB_FleshMoonMoveArrived>Flesh moon relocation complete.</FB_FleshMoonMoveArrived>
+  <FB_FleshMoonAnchored>Celestial umbilicus anchored.</FB_FleshMoonAnchored>
+  <FB_FleshMoonDetached>Celestial umbilicus detached.</FB_FleshMoonDetached>
+  <FB_FleshMoonAnchorFailed>Failed to anchor the celestial umbilicus.</FB_FleshMoonAnchorFailed>
+  <FB_FleshMoonSettlementAnchorLetterLabel>Settlement pierced</FB_FleshMoonSettlementAnchorLetterLabel>
+  <FB_FleshMoonSettlementAnchorLetterText>The celestial umbilicus has pierced {0}, opening a surface portal inside the settlement. This is an attack; expect immediate resistance.</FB_FleshMoonSettlementAnchorLetterText>
+  <FB_FleshMoonInspectMoving>Flesh moon moving: {0}%.</FB_FleshMoonInspectMoving>
+  <FB_FleshMoonInspectUnanchored>The flesh moon is unanchored.</FB_FleshMoonInspectUnanchored>
+  <FB_FleshMoonSurfaceAnchorInspectLinked>Anchored to the flesh moon.</FB_FleshMoonSurfaceAnchorInspectLinked>
+  <FB_FleshMoonSurfaceAnchorInspectUnlinked>The flesh moon link is inactive.</FB_FleshMoonSurfaceAnchorInspectUnlinked>
 </LanguageData>

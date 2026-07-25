@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <MapGeneratorDef>
     <defName>FB_FleshMoonPocket</defName>
@@ -9,7 +9,7 @@
     <disableCallAid>true</disableCallAid>
     <pocketMapProperties>
       <biome>FB_FleshMoonBiome</biome>
-      <temperature>23</temperature>
+      <temperature>21</temperature>
     </pocketMapProperties>
     <genSteps>
       <li>FB_GenStep_FleshMoonTerrain</li>
@@ -59,7 +59,6 @@
         <li>FB_GrassEyes</li>
         <li>FB_FleshProtuberances</li>
         <li>FB_FleshFatProtuberances</li>
-        <li>FB_Fleshbulb</li>
       </plantDefs>
     </genStep>
   </GenStepDef>
