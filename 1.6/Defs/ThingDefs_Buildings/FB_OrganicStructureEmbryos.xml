@@ -154,27 +154,6 @@
       <drawSize>(1,1)</drawSize>
     </graphicData>
   </ThingDef>
-  <!-- Постройка: Tentacle Turret Embryo (FB_TentacleTurretEmbryo) -->
-  <ThingDef ParentName="EmbryoStructureBase">
-    <defName>FB_TentacleTurretEmbryo</defName>
-    <label>Tentacle Turret Embryo</label>
-    <description>An immature defensive organ that will grow into a tentacle turret.</description>
-    <size>(1,1)</size>
-    <comps>
-      <li Class="FB.CompProperties_EmbryoGrowth">
-        <totalMaturationTicks>5000</totalMaturationTicks>
-        <targetPawnKind>FB_TentacleTurret</targetPawnKind>
-      </li>
-      <li Class="FB.CompProperties_HemogelUpkeep">
-        <hemogelPerHour>0.3</hemogelPerHour>
-      </li>
-    </comps>
-    <graphicData>
-      <graphicClass>Graphic_Single</graphicClass>
-      <texPath>Things/Pawn/FB_TentacleTurret/TentacleTurretEmbryo</texPath>
-      <drawSize>(1,1)</drawSize>
-    </graphicData>
-  </ThingDef>
   <!-- Постройка: Defender Incubator Embryo (FB_DefenderIncubatorEmbryo) -->
   <ThingDef ParentName="EmbryoStructureBase">
     <defName>FB_DefenderIncubatorEmbryo</defName>
@@ -528,53 +507,6 @@
       <drawSize>(3,3)</drawSize>
     </graphicData>
   </ThingDef>
-  <!-- Building: deep maw trap embryo (FB_DeepMawTrapEmbryo) -->
-  <ThingDef ParentName="EmbryoStructureBase">
-    <defName>FB_DeepMawTrapEmbryo</defName>
-    <label>deep maw trap embryo</label>
-    <description>An immature trap organ that will grow into a deep maw trap.</description>
-    <size>(2,2)</size>
-    <comps>
-      <li Class="FB.CompProperties_EmbryoGrowth">
-        <totalMaturationTicks>7000</totalMaturationTicks>
-        <targetDef>FB_DeepMawTrap</targetDef>
-      </li>
-      <li Class="FB.CompProperties_HemogelUpkeep">
-        <hemogelPerHour>0.3</hemogelPerHour>
-      </li>
-    </comps>
-    <graphicData>
-      <graphicClass>Graphic_Single</graphicClass>
-      <texPath>Things/Building/FB_Organic/Traps/DeepMawTrapEmbryo</texPath>
-      <drawSize>(2,2)</drawSize>
-    </graphicData>
-  </ThingDef>
-  <!-- Building: capture nerve node embryo (FB_CaptureNerveNodeEmbryo) -->
-  <ThingDef ParentName="EmbryoStructureBase">
-    <defName>FB_CaptureNerveNodeEmbryo</defName>
-    <label>capture nerve node embryo</label>
-    <description>An immature nerve relay that will grow into a capture nerve node.</description>
-    <size>(1,1)</size>
-    <statBases>
-      <MaxHitPoints>100</MaxHitPoints>
-      <Beauty>-10</Beauty>
-    </statBases>
-    <comps>
-      <li Class="FB.CompProperties_EmbryoGrowth">
-        <totalMaturationTicks>7000</totalMaturationTicks>
-        <targetDef>FB_CaptureNerveNode</targetDef>
-      </li>
-      <li Class="FB.CompProperties_HemogelUpkeep">
-        <hemogelPerHour>0.3</hemogelPerHour>
-      </li>
-    </comps>
-    <graphicData>
-      <graphicClass>Graphic_Single</graphicClass>
-      <texPath>Things/Building/FB_Organic/CaptureNerveNode/CaptureNerveNodeEmbryo</texPath>
-      <drawSize>(1,1)</drawSize>
-    </graphicData>
-  </ThingDef>
-
   <!-- Building: psychic lure antenna embryo (FB_PsychicLureAntennaEmbryo) -->
   <ThingDef ParentName="EmbryoStructureBase">
   <defName>FB_PsychicLureAntennaEmbryo</defName>

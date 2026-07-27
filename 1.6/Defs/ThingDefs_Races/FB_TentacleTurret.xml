@@ -1,10 +1,209 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <!-- Раса: Tentacle Turret (FB_TentacleTurret) -->
+
+  <!-- Body part: fleshmass shell (FB_TurretShell) -->
+  <BodyPartDef>
+    <defName>FB_TurretShell</defName>
+    <label>fleshmass shell</label>
+    <hitPoints>750</hitPoints>
+    <bleedRate>0</bleedRate>
+    <frostbiteVulnerability>0.1</frostbiteVulnerability>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <skinCovered>true</skinCovered>
+    <solid>true</solid>
+    <alive>true</alive>
+    <tags>
+      <li>ManipulationLimbCore</li>
+    </tags>
+  </BodyPartDef>
+
+  <!-- Body part: fleshmass core (FB_TurretCore) -->
+  <BodyPartDef>
+    <defName>FB_TurretCore</defName>
+    <label>fleshmass core</label>
+    <hitPoints>225</hitPoints>
+    <bleedRate>0.5</bleedRate>
+    <frostbiteVulnerability>0.1</frostbiteVulnerability>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <skinCovered>true</skinCovered>
+    <solid>false</solid>
+    <alive>true</alive>
+    <tags>
+      <li>MetabolismSource</li>
+      <li>ConsciousnessSource</li>
+      <li>BloodPumpingSource</li>
+      <li>BreathingSource</li>
+      <li>MovingLimbCore</li>
+    </tags>
+  </BodyPartDef>
+
+  <!-- Body part: gel sac (FB_TurretGelSac) -->
+  <BodyPartDef>
+    <defName>FB_TurretGelSac</defName>
+    <label>gel sac</label>
+    <hitPoints>150</hitPoints>
+    <bleedRate>0.8</bleedRate>
+    <frostbiteVulnerability>0.2</frostbiteVulnerability>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <skinCovered>true</skinCovered>
+    <solid>false</solid>
+    <alive>true</alive>
+    <tags>
+      <li>BloodFiltrationSource</li>
+    </tags>
+  </BodyPartDef>
+
+  <!-- Body part: surface sensor (FB_TurretSensor) -->
+  <BodyPartDef>
+    <defName>FB_TurretSensor</defName>
+    <label>surface sensor</label>
+    <hitPoints>75</hitPoints>
+    <bleedRate>0.3</bleedRate>
+    <frostbiteVulnerability>0.3</frostbiteVulnerability>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <skinCovered>true</skinCovered>
+    <solid>false</solid>
+    <alive>true</alive>
+    <tags>
+      <li>SightSource</li>
+    </tags>
+  </BodyPartDef>
+
+  <!-- Body part: tentacle (FB_TurretTentacle) -->
+  <BodyPartDef>
+    <defName>FB_TurretTentacle</defName>
+    <label>tentacle</label>
+    <hitPoints>110</hitPoints>
+    <bleedRate>0.4</bleedRate>
+    <frostbiteVulnerability>0.2</frostbiteVulnerability>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <skinCovered>true</skinCovered>
+    <solid>false</solid>
+    <alive>true</alive>
+    <tags>
+      <li>ManipulationLimbCore</li>
+    </tags>
+  </BodyPartDef>
+
+  <!-- Body: fleshmass turret body (FB_TentacleTurretBody) -->
+  <BodyDef>
+    <defName>FB_TentacleTurretBody</defName>
+    <label>fleshmass turret body</label>
+    <corePart>
+      <def>FB_TurretShell</def>
+      <height>Middle</height>
+      <depth>Outside</depth>
+      <groups>
+        <li>Torso</li>
+      </groups>
+      <parts>
+        <li>
+          <def>FB_TurretCore</def>
+          <customLabel>core</customLabel>
+          <coverage>0.1</coverage>
+          <depth>Inside</depth>
+          <groups>
+            <li>Torso</li>
+          </groups>
+        </li>
+        <li>
+          <def>FB_TurretGelSac</def>
+          <customLabel>gel sac</customLabel>
+          <coverage>0.1</coverage>
+          <depth>Inside</depth>
+          <groups>
+            <li>Torso</li>
+          </groups>
+        </li>
+        <li>
+          <def>FB_TurretSensor</def>
+          <customLabel>primary sensor</customLabel>
+          <coverage>0.05</coverage>
+          <depth>Outside</depth>
+          <groups>
+            <li>Eyes</li>
+          </groups>
+        </li>
+        <li>
+          <def>FB_TurretSensor</def>
+          <customLabel>secondary sensor</customLabel>
+          <coverage>0.05</coverage>
+          <depth>Outside</depth>
+          <groups>
+            <li>Eyes</li>
+          </groups>
+        </li>
+        <li>
+          <def>FB_TurretTentacle</def>
+          <customLabel>north tentacle</customLabel>
+          <coverage>0.15</coverage>
+          <depth>Outside</depth>
+          <groups>
+            <li>Arms</li>
+            <li>FB_CoreTentacles</li>
+          </groups>
+        </li>
+        <li>
+          <def>FB_TurretTentacle</def>
+          <customLabel>south tentacle</customLabel>
+          <coverage>0.15</coverage>
+          <depth>Outside</depth>
+          <groups>
+            <li>Arms</li>
+            <li>FB_CoreTentacles</li>
+          </groups>
+        </li>
+        <li>
+          <def>FB_TurretTentacle</def>
+          <customLabel>east tentacle</customLabel>
+          <coverage>0.15</coverage>
+          <depth>Outside</depth>
+          <groups>
+            <li>Arms</li>
+            <li>FB_CoreTentacles</li>
+          </groups>
+        </li>
+        <li>
+          <def>FB_TurretTentacle</def>
+          <customLabel>west tentacle</customLabel>
+          <coverage>0.15</coverage>
+          <depth>Outside</depth>
+          <groups>
+            <li>Arms</li>
+            <li>FB_CoreTentacles</li>
+          </groups>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+
+  <!-- Embryo structure: Tentacle Turret Embryo (FB_TentacleTurretEmbryo) -->
+  <ThingDef ParentName="EmbryoStructureBase">
+    <defName>FB_TentacleTurretEmbryo</defName>
+    <label>Tentacle Turret Embryo</label>
+    <description>An immature defensive organ that will grow into a tentacle turret.</description>
+    <size>(1,1)</size>
+    <comps>
+      <li Class="FB.CompProperties_EmbryoGrowth">
+        <totalMaturationTicks>5000</totalMaturationTicks>
+        <targetPawnKind>FB_TentacleTurret</targetPawnKind>
+      </li>
+      <li Class="FB.CompProperties_HemogelUpkeep">
+        <hemogelPerHour>0.3</hemogelPerHour>
+      </li>
+    </comps>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Pawn/FB_TentacleTurret/TentacleTurretEmbryo</texPath>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+  </ThingDef>
+
+  <!-- Pawn: Tentacle Turret (FB_TentacleTurret) -->
   <ThingDef ParentName="BasePawn">
     <defName>FB_TentacleTurret</defName>
     <label>Tentacle Turret</label>
-    <description>A grotesque, stationary mass of writhing tentacles rooted in pulsating flesh. It instinctively lashes out at any hostile creature that ventures too close with its tentacles, defending the colony.</description>
+    <description>A stationary fleshbeast defense that launches keratin spines at distant intruders and lashes nearby enemies with heavy tentacles.</description>
     <statBases>
       <MoveSpeed>0</MoveSpeed>
       <MinimumContainmentStrength>40</MinimumContainmentStrength>
@@ -70,7 +269,6 @@
         <preferredPartDefName>FB_TurretTentacle</preferredPartDefName>
         <removeBadHediffs>true</removeBadHediffs>
         <badHediffHealIntervalTicks>60000</badHediffHealIntervalTicks>
-        <immunityGainPerDay>0.75</immunityGainPerDay>
       </li>
     </comps>
     <passability>Standable</passability>
@@ -126,4 +324,260 @@
       </li>
     </tools>
   </ThingDef>
+
+  <!-- Pawn kind: tentacle turret (FB_TentacleTurret) -->
+  <PawnKindDef>
+    <defName>FB_TentacleTurret</defName>
+    <label>tentacle turret</label>
+    <race>FB_TentacleTurret</race>
+    <abilities>
+      <li>FB_SpineLaunch_TentacleTurret</li>
+    </abilities>
+    <combatPower>150</combatPower>
+    <collidesWithPawns>false</collidesWithPawns>
+    <ignoresPainShock>true</ignoresPainShock>
+    <useFixedRotation>true</useFixedRotation>
+    <fixedRotation>South</fixedRotation>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/FB_TentacleTurret/TentacleTurret_Center</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <drawSize>0.9</drawSize>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+  <!-- Render tree: FB_TentacleTurret -->
+  <PawnRenderTreeDef>
+    <defName>FB_TentacleTurret</defName>
+    <root Class="PawnRenderNodeProperties_Parent">
+      <debugLabel>Root</debugLabel>
+      <tagDef>Root</tagDef>
+      <children>
+        <li>
+          <debugLabel>Body</debugLabel>
+          <tagDef>Body</tagDef>
+          <useRottenColor>true</useRottenColor>
+          <nodeClass>PawnRenderNode_AnimalPart</nodeClass>
+          <drawSize>1.5</drawSize>
+          <baseLayer>0</baseLayer>
+          <children>
+            <li Class="PawnRenderNodeProperties_BulbfreakTentacle">
+              <debugLabel>NorthTentacle</debugLabel>
+              <texPath>Things/Pawn/Fleshbeast/Trispike/Attachments/Side/Trispike_SideLimb</texPath>
+              <linkedBodyPartsGroup>FB_CoreTentacles</linkedBodyPartsGroup>
+              <rotDrawMode>Fresh, Rotting</rotDrawMode>
+              <rotateFacing>false</rotateFacing>
+              <rotationRange>-25~25</rotationRange>
+              <scaleRange>0.9~1.1</scaleRange>
+              <durationTicksRange>15~45</durationTicksRange>
+              <nextSpasmTicksRange>5~35</nextSpasmTicksRange>
+              <drawSize>1.1</drawSize>
+              <baseLayer>10</baseLayer>
+              <useRottenColor>true</useRottenColor>
+              <drawData>
+                <dataNorth>
+                  <rotationOffset>180</rotationOffset>
+                  <offset>(0, 0, -0.25)</offset>
+                </dataNorth>
+                <dataEast>
+                  <rotationOffset>150</rotationOffset>
+                  <offset>(0.2, 0, -0.1)</offset>
+                </dataEast>
+                <dataSouth>
+                  <rotationOffset>0</rotationOffset>
+                  <offset>(0, 0, 0.25)</offset>
+                  <flip>false</flip>
+                </dataSouth>
+                <dataWest>
+                  <rotationOffset>-150</rotationOffset>
+                  <offset>(-0.2, 0, -0.1)</offset>
+                  <flip>true</flip>
+                </dataWest>
+              </drawData>
+            </li>
+            <li Class="PawnRenderNodeProperties_BulbfreakTentacle">
+              <debugLabel>SouthTentacle</debugLabel>
+              <texPath>Things/Pawn/Fleshbeast/Trispike/Attachments/Side/Trispike_SideLimb</texPath>
+              <linkedBodyPartsGroup>FB_CoreTentacles</linkedBodyPartsGroup>
+              <rotDrawMode>Fresh, Rotting</rotDrawMode>
+              <rotateFacing>false</rotateFacing>
+              <rotationRange>-25~25</rotationRange>
+              <scaleRange>0.9~1.1</scaleRange>
+              <durationTicksRange>15~45</durationTicksRange>
+              <nextSpasmTicksRange>5~35</nextSpasmTicksRange>
+              <drawSize>1.2</drawSize>
+              <baseLayer>10</baseLayer>
+              <useRottenColor>true</useRottenColor>
+              <drawData>
+                <dataNorth>
+                  <rotationOffset>0</rotationOffset>
+                  <offset>(0, 0, 0.25)</offset>
+                  <flip>false</flip>
+                </dataNorth>
+                <dataEast>
+                  <rotationOffset>30</rotationOffset>
+                  <offset>(0.2, 0, 0.1)</offset>
+                </dataEast>
+                <dataSouth>
+                  <rotationOffset>180</rotationOffset>
+                  <offset>(0, 0, -0.25)</offset>
+                  <flip>true</flip>
+                </dataSouth>
+                <dataWest>
+                  <rotationOffset>-30</rotationOffset>
+                  <offset>(-0.2, 0, 0.1)</offset>
+                  <flip>true</flip>
+                </dataWest>
+              </drawData>
+            </li>
+            <li Class="PawnRenderNodeProperties_BulbfreakTentacle">
+              <debugLabel>EastTentacle</debugLabel>
+              <texPath>Things/Pawn/Fleshbeast/Trispike/Attachments/Side/Trispike_SideLimb</texPath>
+              <linkedBodyPartsGroup>FB_CoreTentacles</linkedBodyPartsGroup>
+              <rotDrawMode>Fresh, Rotting</rotDrawMode>
+              <rotateFacing>false</rotateFacing>
+              <rotationRange>-25~25</rotationRange>
+              <scaleRange>0.9~1.1</scaleRange>
+              <durationTicksRange>15~45</durationTicksRange>
+              <nextSpasmTicksRange>5~35</nextSpasmTicksRange>
+              <drawSize>1.15</drawSize>
+              <baseLayer>10</baseLayer>
+              <useRottenColor>true</useRottenColor>
+              <drawData>
+                <dataNorth>
+                  <rotationOffset>-30</rotationOffset>
+                  <offset>(-0.25, 0, 0.05)</offset>
+                  <flip>true</flip>
+                </dataNorth>
+                <dataEast>
+                  <rotationOffset>-180</rotationOffset>
+                  <offset>(-0.25, 0, 0)</offset>
+                  <flip>true</flip>
+                </dataEast>
+                <dataSouth>
+                  <rotationOffset>-30</rotationOffset>
+                  <offset>(-0.25, 0, -0.05)</offset>
+                  <flip>true</flip>
+                </dataSouth>
+                <dataWest>
+                  <rotationOffset>0</rotationOffset>
+                  <offset>(0.2, 0, 0)</offset>
+                  <flip>false</flip>
+                </dataWest>
+              </drawData>
+            </li>
+            <li Class="PawnRenderNodeProperties_BulbfreakTentacle">
+              <debugLabel>WestTentacle</debugLabel>
+              <texPath>Things/Pawn/Fleshbeast/Trispike/Attachments/Side/Trispike_SideLimb</texPath>
+              <linkedBodyPartsGroup>FB_CoreTentacles</linkedBodyPartsGroup>
+              <rotDrawMode>Fresh, Rotting</rotDrawMode>
+              <rotateFacing>false</rotateFacing>
+              <rotationRange>-25~25</rotationRange>
+              <scaleRange>0.9~1.1</scaleRange>
+              <durationTicksRange>15~45</durationTicksRange>
+              <nextSpasmTicksRange>5~35</nextSpasmTicksRange>
+              <drawSize>1.25</drawSize>
+              <baseLayer>10</baseLayer>
+              <useRottenColor>true</useRottenColor>
+              <drawData>
+                <dataNorth>
+                  <rotationOffset>30</rotationOffset>
+                  <offset>(0.25, 0, 0.05)</offset>
+                  <flip>false</flip>
+                </dataNorth>
+                <dataEast>
+                  <rotationOffset>0</rotationOffset>
+                  <offset>(0.2, 0, 0)</offset>
+                  <flip>false</flip>
+                </dataEast>
+                <dataSouth>
+                  <rotationOffset>30</rotationOffset>
+                  <offset>(0.25, 0, -0.05)</offset>
+                  <flip>false</flip>
+                </dataSouth>
+                <dataWest>
+                  <rotationOffset>180</rotationOffset>
+                  <offset>(0.25, 0, 0)</offset>
+                  <flip>true</flip>
+                </dataWest>
+              </drawData>
+            </li>
+            <li>
+              <debugLabel>Wounds</debugLabel>
+              <nodeClass>PawnRenderNode_AnimalPart</nodeClass>
+              <workerClass>PawnRenderNodeWorker_OverlayWounds</workerClass>
+              <overlayLayer>Body</overlayLayer>
+              <baseLayer>10</baseLayer>
+            </li>
+            <li>
+              <debugLabel>Firefoam</debugLabel>
+              <nodeClass>PawnRenderNode_AnimalPart</nodeClass>
+              <workerClass>PawnRenderNodeWorker_OverlayFirefoam</workerClass>
+              <overlayLayer>Body</overlayLayer>
+              <useGraphic>false</useGraphic>
+              <baseLayer>20</baseLayer>
+            </li>
+          </children>
+        </li>
+        <li Class="PawnRenderNodeProperties_Carried">
+          <debugLabel>Carried thing</debugLabel>
+          <workerClass>PawnRenderNodeWorker_Carried</workerClass>
+        </li>
+      </children>
+    </root>
+  </PawnRenderTreeDef>
+
+  <!-- Ability: spine launch (FB_SpineLaunch_TentacleTurret) -->
+  <AbilityDef ParentName="SpikeLaunchBase">
+    <defName>FB_SpineLaunch_TentacleTurret</defName>
+    <label>spine launch</label>
+    <description>Launch a keratin spine at a target to do damage.</description>
+    <cooldownTicksRange>240</cooldownTicksRange>
+    <verbProperties>
+      <range>17.9</range>
+      <soundCast>Gorehulk_Spine_Launch</soundCast>
+      <defaultProjectile>Spine_Gorehulk</defaultProjectile>
+    </verbProperties>
+  </AbilityDef>
+
+  <!-- Think tree: FB_TentacleTurret -->
+  <ThinkTreeDef>
+    <defName>FB_TentacleTurret</defName>
+    <thinkRoot Class="ThinkNode_Priority">
+      <subNodes>
+        <li Class="ThinkNode_Subtree">
+          <treeDef>Despawned</treeDef>
+        </li>
+        <li Class="ThinkNode_Subtree">
+          <treeDef>Downed</treeDef>
+        </li>
+        <li Class="JobGiver_AIFightEnemies">
+          <targetAcquireRadius>1.9</targetAcquireRadius>
+          <targetKeepRadius>3.0</targetKeepRadius>
+          <chaseTarget>false</chaseTarget>
+        </li>
+        <li Class="FB.JobGiver_StaticAbilityFight">
+          <targetAcquireRadius>18.5</targetAcquireRadius>
+          <targetKeepRadius>20.5</targetKeepRadius>
+          <ability>FB_SpineLaunch_TentacleTurret</ability>
+        </li>
+        <li Class="JobGiver_Idle" />
+      </subNodes>
+    </thinkRoot>
+  </ThinkTreeDef>
+
+  <!-- Think tree: FB_TentacleTurretConstant -->
+  <ThinkTreeDef>
+    <defName>FB_TentacleTurretConstant</defName>
+    <thinkRoot Class="ThinkNode_Priority">
+      <subNodes>
+        <li Class="ThinkNode_Subtree">
+          <treeDef>Despawned</treeDef>
+        </li>
+      </subNodes>
+    </thinkRoot>
+  </ThinkTreeDef>
 </Defs>

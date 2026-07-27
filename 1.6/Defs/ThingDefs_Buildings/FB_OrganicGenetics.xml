@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Постройка: gene reweaver cocoon (FB_GeneReweaverCocoon) -->
+  <ThingDef>
+    <defName>FB_GeneReweaverCocoon</defName>
+    <label>gene reweaver cocoon</label>
+    <thingClass>FB.ThingWithComps_FleshRaidTarget</thingClass>
+    <category>Building</category>
+    <description>A temporary genetic cocoon grown by a gene reweaver. It holds a pawn while the prepared flesh xenogerm integrates into the body.</description>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <altitudeLayer>Building</altitudeLayer>
+    <tickerType>Normal</tickerType>
+    <graphicData>
+      <texPath>Things/Building/Misc/BiomassCocoon/BiomassCocoon</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.3, 1.3)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Flammability>1.25</Flammability>
+    </statBases>
+    <fillPercent>0.5</fillPercent>
+    <selectable>true</selectable>
+    <building>
+      <deconstructible>false</deconstructible>
+    </building>
+    <comps>
+      <li Class="FB.CompProperties_GeneReweaverCocoon">
+        <ticksToComplete>42000</ticksToComplete>
+        <completeEffecter>MeatExplosionSmall</completeEffecter>
+        <destroyEffecter>MeatExplosionSmall</destroyEffecter>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- Постройка: genophage cocoon (FB_GenophageCocoon) -->
+  <ThingDef ParentName="BuildingColonyFleshBase">
+    <defName>FB_GenophageCocoon</defName>
+    <label>genophage cocoon</label>
+    <description>A genetic cocoon that extracts one to three random genes from a living donor, stores them as a genepack in a genome archive, then releases the donor.</description>
+    <thingClass>FB.Building_GenophageCocoon</thingClass>
+    <containedPawnsSelectable>true</containedPawnsSelectable>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <size>(2,2)</size>
+    <statBases>
+      <MaxHitPoints>260</MaxHitPoints>
+      <Beauty>-18</Beauty>
+      <Mass>12</Mass>
+    </statBases>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/FB_Organic/GenophageCocoon/GenophageCocoon</texPath>
+      <drawSize>(2.5,2.5)</drawSize>
+    </graphicData>
+    <uiIconPath>Things/Building/FB_Organic/GenophageCocoon/GenophageCocoon</uiIconPath>
+    <comps>
+      <li Class="FB.CompProperties_OverlayTexture">
+        <texturePath>Things/Building/FB_Organic/GenophageCocoon/GenophageCocoonMembrane</texturePath>
+        <altitudeLayer>Gas</altitudeLayer>
+        <drawSize>(2.5,2.5)</drawSize>
+      </li>
+      <li Class="FB.CompProperties_HemogelUpkeep">
+        <hemogelPerHour>0.6</hemogelPerHour>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- Постройка: genome archive (FB_GenomeArchive) -->
+  <ThingDef ParentName="BuildingColonyFleshBase">
+    <defName>FB_GenomeArchive</defName>
+    <label>genome archive</label>
+    <description>A living gene bank that stores extracted genepacks inside organic memory tissue. Its contents can be inspected directly and used by a gene reweaver.</description>
+    <thingClass>FB.Building_GenomeArchive</thingClass>
+    <tickerType>Normal</tickerType>
+    <size>(2,2)</size>
+    <statBases>
+      <MaxHitPoints>220</MaxHitPoints>
+      <Beauty>-12</Beauty>
+      <Mass>10</Mass>
+    </statBases>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/FB_Organic/GenomeArchive/GenomeArchive</texPath>
+      <drawSize>(2.3,2.3)</drawSize>
+    </graphicData>
+    <uiIconPath>Things/Building/FB_Organic/GenomeArchive/GenomeArchive</uiIconPath>
+    <inspectorTabs>
+      <li>FB.ITab_OrganicGeneArchiveContents</li>
+    </inspectorTabs>
+    <comps>
+      <li Class="FB.CompProperties_OrganicGeneArchiveContainer">
+        <maxCapacity>999999</maxCapacity>
+      </li>
+      <li Class="CompProperties_Power">
+        <compClass>FB.CompSilentGeneArchivePower</compClass>
+        <basePowerConsumption>0</basePowerConsumption>
+        <showPowerNeededIfOff>false</showPowerNeededIfOff>
+      </li>
+      <li Class="FB.CompProperties_HemogelUpkeep">
+        <hemogelPerHour>0.6</hemogelPerHour>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- Постройка: gene reweaver (FB_GeneReweaver) -->
+  <ThingDef ParentName="BuildingColonyFleshBase">
+    <defName>FB_GeneReweaver</defName>
+    <label>gene reweaver</label>
+    <description>A large organic gene loom that recombines archived genepacks into an internal prepared flesh xenogerm, then grows a temporary cocoon to integrate the selected xenogenes into a chosen pawn.</description>
+    <thingClass>FB.Building_GeneReweaver</thingClass>
+    <size>(3,3)</size>
+    <statBases>
+      <MaxHitPoints>380</MaxHitPoints>
+      <Beauty>-20</Beauty>
+      <Mass>24</Mass>
+    </statBases>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/FB_Organic/GeneReweaver/GeneReweaver</texPath>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+    <uiIconPath>Things/Building/FB_Organic/GeneReweaver/GeneReweaver</uiIconPath>
+    <comps>
+      <li Class="FB.CompProperties_HemogelUpkeep">
+        <hemogelPerHour>0.6</hemogelPerHour>
+      </li>
+    </comps>
+  </ThingDef>
+
+</Defs>

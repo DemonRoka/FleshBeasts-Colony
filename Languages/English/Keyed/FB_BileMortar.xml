@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_ColonyBrain_Structure_BileMortarGland_Label>Bile Mortar Gland</FB_ColonyBrain_Structure_BileMortarGland_Label>
+  <FB_ColonyBrain_Structure_BileMortarGland_Desc>Grow a bile mortar gland that cultivates bileburst podlings and launches mature ones as incendiary shells.</FB_ColonyBrain_Structure_BileMortarGland_Desc>
   <FB_BilePodlingSpawnLabel>Grow bileburst podling</FB_BilePodlingSpawnLabel>
   <FB_BilePodlingSpawnDesc>Grow one bileburst podling near this gland. Requires full hemogel network supply.</FB_BilePodlingSpawnDesc>
   <FB_BilePodlingSpawnFailed>The bile mortar gland cannot grow a bileburst podling right now.</FB_BilePodlingSpawnFailed>
@@ -41,7 +42,9 @@
   <FB_BileburstCannotDetonate>This bileburst podling cannot detonate there.</FB_BileburstCannotDetonate>
   <FB_BileburstCannotReach>The bileburst podling cannot reach the detonation target.</FB_BileburstCannotReach>
   <FB_FleshMoonBileBombardmentLabel>Call bilefall bombardment</FB_FleshMoonBileBombardmentLabel>
-  <FB_FleshMoonBileBombardmentDesc>Select a map point. The flesh moon will rain 15-20 bileburst shells across a 10-cell area over about a third of an hour. Free test action.</FB_FleshMoonBileBombardmentDesc>
+  <FB_FleshMoonBileBombardmentDesc>Select a map point. The flesh moon rains 10 bileburst shells across a 20-cell area over about a third of an hour.</FB_FleshMoonBileBombardmentDesc>
+  <FB_FleshMoonBileBombardmentCostLine>Lunar hemogel cost: {0}</FB_FleshMoonBileBombardmentCostLine>
+  <FB_FleshMoonBileBombardmentNotEnoughHemogel>The flesh moon reserve lacks {0} hemogel.</FB_FleshMoonBileBombardmentNotEnoughHemogel>
   <FB_FleshMoonBileBombardmentNoLink>The flesh moon is not linked.</FB_FleshMoonBileBombardmentNoLink>
   <FB_FleshMoonBileBombardmentInvalidTarget>Invalid bombardment target.</FB_FleshMoonBileBombardmentInvalidTarget>
   <FB_FleshMoonBileBombardmentStarted>The flesh moon begins a bilefall bombardment.</FB_FleshMoonBileBombardmentStarted>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_DeepMawTrap.label>deep maw trap</FB_DeepMawTrap.label>
-  <FB_DeepMawTrap.description>A hidden maw trap that suddenly opens, swallows pawns standing above it, and digests organic victims into hemogel.</FB_DeepMawTrap.description>
+  <FB_DeepMawTrap.description>A buried colony mouth hidden under flesh. Hostile movement wakes it; after a short delay, it snaps open and swallows every living pawn still on its 2x2 mouth, including allies. It digests organic victims into hemogel and grinds mechanoids until their remains are expelled.</FB_DeepMawTrap.description>
   <FB_DeepMawTrapEmbryo.label>deep maw trap embryo</FB_DeepMawTrapEmbryo.label>
   <FB_DeepMawTrapEmbryo.description>An immature trap organ that will grow into a deep maw trap.</FB_DeepMawTrapEmbryo.description>
 </LanguageData>

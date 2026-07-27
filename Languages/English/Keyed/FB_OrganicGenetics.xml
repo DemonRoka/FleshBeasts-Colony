@@ -22,14 +22,9 @@
   <FB_GenophageReleaseDonorDesc>Spit out the contained donor and cancel the current extraction.</FB_GenophageReleaseDonorDesc>
   <FB_GenophageDevFinishExtractionLabel>DEV: finish gene extraction</FB_GenophageDevFinishExtractionLabel>
   <FB_GenophageDevFinishExtractionDesc>Immediately complete this cocoon's current gene extraction.</FB_GenophageDevFinishExtractionDesc>
-  <FB_GeneReweaverRecombineDesc>Choose archived genepacks to weave into an internal flesh xenogerm for cocoon integration.</FB_GeneReweaverRecombineDesc>
   <FB_GeneReweaverNoArchiveGenes>No archived genepacks are available.</FB_GeneReweaverNoArchiveGenes>
-  <FB_GeneReweaverBusyRecombining>The reweaver is already creating a flesh xenogerm.</FB_GeneReweaverBusyRecombining>
-  <FB_GeneReweaverCurrentOperation>{0}: {1} h remaining</FB_GeneReweaverCurrentOperation>
   <FB_GeneReweaverCurrentXenogerm>Weaving flesh xenogerm: {0} h remaining</FB_GeneReweaverCurrentXenogerm>
   <FB_GeneReweaverQueuedOperations>Queued genes: {0}</FB_GeneReweaverQueuedOperations>
-  <FB_GeneReweaverOperationImplant>Weave {0}</FB_GeneReweaverOperationImplant>
-  <FB_GeneReweaverOperationFailed>The flesh xenogerm weaving procedure failed.</FB_GeneReweaverOperationFailed>
   <FB_ChromophageStoredGenesInspect>Stored genepacks: {0} / {1}</FB_ChromophageStoredGenesInspect>
   <FB_ChromophageExtractGenesLabel>Extract genes from body</FB_ChromophageExtractGenesLabel>
   <FB_ChromophageExtractGenesDesc>Extract one or two genes from a humanlike corpse, store them inside the chromophage as a genepack, and consume the remains.</FB_ChromophageExtractGenesDesc>
@@ -57,7 +52,6 @@
   <FB_GeneReweaverPreparedReady>{0} is ready inside the gene reweaver. Genes prepared: {1}.</FB_GeneReweaverPreparedReady>
   <FB_GeneReweaverPreparedAlready>A prepared flesh xenogerm is already stored inside.</FB_GeneReweaverPreparedAlready>
   <FB_GeneReweaverIdleInspect>Flesh xenogerm: idle</FB_GeneReweaverIdleInspect>
-  <FB_GeneReweaverCompletedGenes>Integrated genes: {0}</FB_GeneReweaverCompletedGenes>
   <FB_GeneReweaverDialogHeader>Create flesh xenogerm</FB_GeneReweaverDialogHeader>
   <FB_GeneReweaverCreateButton>Start weaving</FB_GeneReweaverCreateButton>
   <FB_GeneReweaverCallPawnLabel>Call pawn to gene cocoon...</FB_GeneReweaverCallPawnLabel>
@@ -70,6 +64,8 @@
   <FB_GeneReweaverInvalidIntegrationPawn>This pawn cannot integrate the prepared xenogerm.</FB_GeneReweaverInvalidIntegrationPawn>
   <FB_GeneReweaverDifferentMap>The pawn must be on the same map.</FB_GeneReweaverDifferentMap>
   <FB_GeneReweaverNoCocoonCell>No reachable cell for a gene cocoon.</FB_GeneReweaverNoCocoonCell>
+  <FB_GeneReweaverIntegrationWarningDesc>{PAWN_nameDef} will enter a gene cocoon for {DURATION} to integrate {XENOGERM}.</FB_GeneReweaverIntegrationWarningDesc>
+  <FB_GeneReweaverPawnCallExpired>{0} did not reach the gene cocoon in time.</FB_GeneReweaverPawnCallExpired>
   <FB_GeneReweaverCocoonStarted>{PAWN_nameDef} enters a gene cocoon to integrate {XENOGERM}.</FB_GeneReweaverCocoonStarted>
   <FB_GeneReweaverCocoonComplete>{PAWN_nameDef} emerged from the gene cocoon with {XENOGERM} integrated.</FB_GeneReweaverCocoonComplete>
   <FB_GeneReweaverCocoonDied>{0} died in the ruptured gene cocoon.</FB_GeneReweaverCocoonDied>

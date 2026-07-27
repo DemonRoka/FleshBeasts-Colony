@@ -12,8 +12,8 @@
     <lifeStages>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/FB_Devourer/Devourer</texPath>
-          <graphicClass>Graphic_Single</graphicClass>
+          <texPath>Things/Pawn/FB_Devourer/FB_Devourer_Closed</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
           <drawSize>3.7</drawSize>
         </bodyGraphicData>
       </li>

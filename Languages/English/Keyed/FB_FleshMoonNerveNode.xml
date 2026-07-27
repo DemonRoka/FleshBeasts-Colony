@@ -7,6 +7,26 @@
   <FB_FleshMoonNerveNodeBlocked>Requires a clear 3x3 area of flesh floor.</FB_FleshMoonNerveNodeBlocked>
   <FB_FleshMoonNerveNode_Inspect>Lunar upkeep: {0} hemogel/h.</FB_FleshMoonNerveNode_Inspect>
   <FB_FleshMoonNerveNode_EconomyDetail>Lunar upkeep: {0}/h</FB_FleshMoonNerveNode_EconomyDetail>
+  <FB_FleshMoonTileDrainToggleLabel>Drain surface nutrition</FB_FleshMoonTileDrainToggleLabel>
+  <FB_FleshMoonTileDrainToggleDesc>Allow anchored celestial umbilici to drain world tile nutrition into the lunar hemogel reserve.</FB_FleshMoonTileDrainToggleDesc>
+  <FB_FleshMoonTileDrainNodeInspectOn>Surface nutrition drain: enabled.</FB_FleshMoonTileDrainNodeInspectOn>
+  <FB_FleshMoonTileDrainNodeInspectOff>Surface nutrition drain: disabled.</FB_FleshMoonTileDrainNodeInspectOff>
+  <FB_FleshMoonSurfaceNutritionDrainInspect>Surface drain output: {0}/h; tile nutrition {1}%.</FB_FleshMoonSurfaceNutritionDrainInspect>
+  <FB_FleshMoonSurfaceNutritionDrainLabel>Surface nutrition drain</FB_FleshMoonSurfaceNutritionDrainLabel>
+  <FB_FleshMoonSurfaceNutritionDrainEconomyDetail>Tile nutrition: {0}%; initial factor {1}; output {2}/h</FB_FleshMoonSurfaceNutritionDrainEconomyDetail>
+  <FB_FleshMoonSurfaceNutritionDrainEconomyDisabled>Disabled at the lunar nerve node; tile nutrition {0}%.</FB_FleshMoonSurfaceNutritionDrainEconomyDisabled>
+  <FB_CelestialUmbilicusSiphonLabel>Siphon hemogel to moon</FB_CelestialUmbilicusSiphonLabel>
+  <FB_CelestialUmbilicusSiphonDesc>Transfer hemogel from this map's local network into the flesh moon reserve at up to {0}/h. Requires the umbilicus to stand on flesh terrain.</FB_CelestialUmbilicusSiphonDesc>
+  <FB_CelestialUmbilicusSiphonInspectOn>Lunar siphon: on, network up to {0}/h.</FB_CelestialUmbilicusSiphonInspectOn>
+  <FB_CelestialUmbilicusSiphonInspectOff>Lunar siphon: off.</FB_CelestialUmbilicusSiphonInspectOff>
+  <FB_CelestialUmbilicusTileDrainInspect>Location drain: {0}/h; tile nutrition {1}%.</FB_CelestialUmbilicusTileDrainInspect>
+  <FB_CelestialUmbilicusTileDrainDisabledInspect>Location drain: disabled at the lunar nerve node.</FB_CelestialUmbilicusTileDrainDisabledInspect>
+  <FB_CelestialUmbilicusDevTileNutritionInspect>DEV tile nutrition: {0}% remaining; initial factor {1}; effective factor {2}.</FB_CelestialUmbilicusDevTileNutritionInspect>
+  <FB_CelestialUmbilicusDevDrainSpeedTitle>DEV: surface drain speed</FB_CelestialUmbilicusDevDrainSpeedTitle>
+  <FB_CelestialUmbilicusDevDrainSpeedBarLabel>x{0}; output {1}/h</FB_CelestialUmbilicusDevDrainSpeedBarLabel>
+  <FB_CelestialUmbilicusDevDrainSpeedTooltip>Changes surface nutrition drain speed for testing. Current multiplier: x{0}. Applies only while dev gizmos are visible; normal play uses x1.</FB_CelestialUmbilicusDevDrainSpeedTooltip>
+  <FB_CelestialUmbilicusUpkeepInspect>Umbilicus upkeep: {0}/h.</FB_CelestialUmbilicusUpkeepInspect>
+  <FB_CelestialUmbilicusUpkeepEconomyDetail>Celestial umbilicus upkeep: {0}/h</FB_CelestialUmbilicusUpkeepEconomyDetail>
   <FB_FleshMoonGastricAcidCreateLabel>Form gastric acid</FB_FleshMoonGastricAcidCreateLabel>
   <FB_FleshMoonGastricAcidCreateDesc>Turn flesh floor inside the moon into gastric acid. Organic matter left in it feeds the lunar hemogel reserve.</FB_FleshMoonGastricAcidCreateDesc>
   <FB_FleshMoonGastricAcidRemoveLabel>Remove gastric acid</FB_FleshMoonGastricAcidRemoveLabel>

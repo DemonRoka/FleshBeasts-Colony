@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <!-- Дерево мышления: FB_RotlarvaMain -->
   <ThinkTreeDef>
@@ -59,43 +59,6 @@
           </subNodes>
         </li>
         <li Class="JobGiver_IdleError" />
-      </subNodes>
-    </thinkRoot>
-  </ThinkTreeDef>
-  <!-- Дерево мышления: FB_TentacleTurret -->
-  <ThinkTreeDef>
-    <defName>FB_TentacleTurret</defName>
-    <thinkRoot Class="ThinkNode_Priority">
-      <subNodes>
-        <li Class="ThinkNode_Subtree">
-          <treeDef>Despawned</treeDef>
-        </li>
-        <li Class="ThinkNode_Subtree">
-          <treeDef>Downed</treeDef>
-        </li>
-        <li Class="JobGiver_AIFightEnemies">
-          <targetAcquireRadius>1.9</targetAcquireRadius>
-          <targetKeepRadius>3.0</targetKeepRadius>
-          <chaseTarget>false</chaseTarget>
-        </li>
-        <li Class="FB.JobGiver_StaticAbilityFight">
-          <targetAcquireRadius>18.5</targetAcquireRadius>
-          <targetKeepRadius>20.5</targetKeepRadius>
-          <ability>FB_SpineLaunch_TentacleTurret</ability>
-          <needLOSToAcquireNonPawnTargets>true</needLOSToAcquireNonPawnTargets>
-        </li>
-        <li Class="JobGiver_Idle" />
-      </subNodes>
-    </thinkRoot>
-  </ThinkTreeDef>
-  <!-- Дерево мышления: FB_TentacleTurretConstant -->
-  <ThinkTreeDef>
-    <defName>FB_TentacleTurretConstant</defName>
-    <thinkRoot Class="ThinkNode_Priority">
-      <subNodes>
-        <li Class="ThinkNode_Subtree">
-          <treeDef>Despawned</treeDef>
-        </li>
       </subNodes>
     </thinkRoot>
   </ThinkTreeDef>

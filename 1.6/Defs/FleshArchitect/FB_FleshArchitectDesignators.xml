@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   
   <FB.FleshArchitectDesignatorDef>
@@ -215,6 +215,7 @@
     <iconPath>UI/Commands/BileMortarFire</iconPath>
     <labelKey>FB_FleshMoonBileBombardmentLabel</labelKey>
     <descriptionKey>FB_FleshMoonBileBombardmentDesc</descriptionKey>
+    <hemogelCost>1000</hemogelCost>
     <requiredResearch>FB_BileMortarResearch</requiredResearch>
     <order>10</order>
   </FB.FleshArchitectDesignatorDef>

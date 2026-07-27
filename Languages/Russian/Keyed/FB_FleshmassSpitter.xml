@@ -5,7 +5,6 @@
   <FB_FleshmassSpitterFireMode>Автоогонь: {0}</FB_FleshmassSpitterFireMode>
   <FB_FleshmassSpitterManualTargetQueued>Ручная цель назначена</FB_FleshmassSpitterManualTargetQueued>
   <FB_FleshmassSpitterManualTargetQueuedMessage>Ручная цель назначена для следующего кислотного плевка.</FB_FleshmassSpitterManualTargetQueuedMessage>
-  <FB_FleshmassSpitterFireDisabled>Стрельба отключена. Включите её правым кликом по команде.</FB_FleshmassSpitterFireDisabled>
   <FB_FleshmassSpitterInvalidTarget>Это неподходящая цель.</FB_FleshmassSpitterInvalidTarget>
   <FB_FleshmassSpitterRoofedTarget>Плотяной плеватель не может обстреливать клетку под крышей.</FB_FleshmassSpitterRoofedTarget>
   <FB_FleshmassSpitterCannotHitTarget>Цель находится вне дальности стрельбы плевателя.</FB_FleshmassSpitterCannotHitTarget>

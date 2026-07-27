@@ -1,3 +1,9 @@
+﻿# Codex local artifacts
+.codex/
+CodexBackups/
+tmp_*/
+decompiled_from_dll/
+
 AGENTS.md
 CHANGELOG.md
 FleshBeasts/.vs/FleshBeasts/v17/.suo
@@ -623,3 +629,8 @@ FleshBeasts/Properties/AssemblyInfo.cs
 FleshBeasts/obj/Release/net472/FleshBeasts.sourcelink.json
 FleshBeasts/obj/Release/net472/FleshBeasts.sourcelink.json
 RebuildDLL.cmd
+docs/codex-rimworld-rules.md
+docs/codex-token-workflow.md
+tools/codex-run.ps1
+tools/codex-def-index.ps1
+tools/codex-context.ps1

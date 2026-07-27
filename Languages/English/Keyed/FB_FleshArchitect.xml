@@ -33,4 +33,6 @@
   <FB_DevFinishMaturation>DEV: finish maturation</FB_DevFinishMaturation>
   <FB_DevFinishMaturationDesc>Immediately completes this embryo's maturation if the mature form can be placed.</FB_DevFinishMaturationDesc>
   <FB_FailedSpawnThing>Failed to create {0}.</FB_FailedSpawnThing>
-  <FB_FailedGeneratePawnKind>Failed to generate {0}.</FB_FailedGeneratePawnKind></LanguageData>
+  <FB_FailedGeneratePawnKind>Failed to generate {0}.</FB_FailedGeneratePawnKind>
+  <FB_ColonyBrain_Structure_TentacleTurret_Desc>Grows a stationary fleshbeast defense that launches keratin spines at distant intruders and lashes nearby enemies with heavy tentacles.</FB_ColonyBrain_Structure_TentacleTurret_Desc>
+</LanguageData>

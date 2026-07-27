@@ -4,9 +4,9 @@
   <ThingDef ParentName="BaseFleshbeast">
     <defName>FB_Devourer</defName>
     <label>devourer</label>
-    <description>A tank fleshbeast that swallows non-allied targets and digests them into hemogel.</description>
+    <description>A tank fleshbeast that swallows hostile targets and digests them into hemogel.</description>
     <tradeability>None</tradeability>
-    <uiIconPath>Things/Pawn/FB_Devourer/Devourer</uiIconPath>
+    <uiIconPath>Things/Pawn/FB_Devourer/FB_Devourer_Closed_south</uiIconPath>
     <statBases>
       <MoveSpeed>1.65</MoveSpeed>
       <ComfyTemperatureMin>-35</ComfyTemperatureMin>
@@ -34,7 +34,7 @@
       <baseHungerRate>0.18</baseHungerRate>
       <baseHealthScale>1.9</baseHealthScale>
       <lifeExpectancy>26</lifeExpectancy>
-      <renderTree>Animal</renderTree>
+      <renderTree>FB_DevourerRender</renderTree>
       <thinkTreeMain>Fleshbeast</thinkTreeMain>
       <thinkTreeConstant>FleshbeastConstant</thinkTreeConstant>
       <needsRest>false</needsRest>

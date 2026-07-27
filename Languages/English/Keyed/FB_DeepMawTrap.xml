@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_DeepMawTrapArmingInspect>Waking: {0}</FB_DeepMawTrapArmingInspect>
-  <FB_DeepMawTrapDigestingInspect>Digesting victims: {0}</FB_DeepMawTrapDigestingInspect>
+  <FB_DeepMawTrapContainedInspect>Inside: {0}</FB_DeepMawTrapContainedInspect>
+  <FB_DeepMawTrapDigestingInspect>Digesting: {0} bodies, {1} nutrition remaining. Hemogel: {2}/h.</FB_DeepMawTrapDigestingInspect>
   <FB_DeepMawTrapResistanceInspect>Victims resisting: {0}</FB_DeepMawTrapResistanceInspect>
   <FB_DeepMawTrapHemogelRate>Digestion: {0} hemogel/h</FB_DeepMawTrapHemogelRate>
   <FB_DeepMawTrapReleasingInspect>Ruptured open: {0}</FB_DeepMawTrapReleasingInspect>
@@ -9,4 +10,5 @@
   <FB_DeepMawTrapDevSnapLabel>Dev: snap maw</FB_DeepMawTrapDevSnapLabel>
   <FB_DeepMawTrapDevSnapDesc>Immediately forces the deep maw trap to try swallowing pawns on its occupied cells.</FB_DeepMawTrapDevSnapDesc>
   <FB_ColonyBrain_Structure_DeepMawTrap_Label>Deep maw trap</FB_ColonyBrain_Structure_DeepMawTrap_Label>
+  <FB_ColonyBrain_Structure_DeepMawTrap_Desc>Grows a buried 2x2 maw trap. Hostile movement wakes it; when it snaps shut it swallows every pawn still on top, digests organic bodies into hemogel, and spits out mechanoid remains.</FB_ColonyBrain_Structure_DeepMawTrap_Desc>
 </LanguageData>

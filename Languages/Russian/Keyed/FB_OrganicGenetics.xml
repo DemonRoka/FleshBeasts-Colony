@@ -22,14 +22,9 @@
   <FB_GenophageReleaseDonorDesc>Выплюнуть помещённого донора и отменить текущее извлечение.</FB_GenophageReleaseDonorDesc>
   <FB_GenophageDevFinishExtractionLabel>DEV: завершить извлечение генов</FB_GenophageDevFinishExtractionLabel>
   <FB_GenophageDevFinishExtractionDesc>Мгновенно завершить текущее извлечение генов в этом коконе.</FB_GenophageDevFinishExtractionDesc>
-  <FB_GeneReweaverRecombineDesc>Выбрать архивированные генопаки и сплести из них внутренний плотяной ксеногерм для интеграции через кокон.</FB_GeneReweaverRecombineDesc>
   <FB_GeneReweaverNoArchiveGenes>Нет доступных архивированных генопаков.</FB_GeneReweaverNoArchiveGenes>
-  <FB_GeneReweaverBusyRecombining>Переплетатель уже создаёт плотяной ксеногерм.</FB_GeneReweaverBusyRecombining>
-  <FB_GeneReweaverCurrentOperation>{0}: осталось {1} ч.</FB_GeneReweaverCurrentOperation>
   <FB_GeneReweaverCurrentXenogerm>Плетёт плотяной ксеногерм: осталось {0} ч.</FB_GeneReweaverCurrentXenogerm>
   <FB_GeneReweaverQueuedOperations>Генов в очереди: {0}</FB_GeneReweaverQueuedOperations>
-  <FB_GeneReweaverOperationImplant>Вплести {0}</FB_GeneReweaverOperationImplant>
-  <FB_GeneReweaverOperationFailed>Плетение плотяного ксеногерма провалилось.</FB_GeneReweaverOperationFailed>
   <FB_ChromophageStoredGenesInspect>Сохранённые генопаки: {0} / {1}</FB_ChromophageStoredGenesInspect>
   <FB_ChromophageExtractGenesLabel>Извлечь гены из тела</FB_ChromophageExtractGenesLabel>
   <FB_ChromophageExtractGenesDesc>Извлечь один или два гена из гуманоидного трупа, сохранить их внутри хромофага генопаком и поглотить останки.</FB_ChromophageExtractGenesDesc>
@@ -57,7 +52,6 @@
   <FB_GeneReweaverPreparedReady>{0} готов внутри генного переплетателя. Подготовлено генов: {1}.</FB_GeneReweaverPreparedReady>
   <FB_GeneReweaverPreparedAlready>Подготовленный плотяной ксеногерм уже хранится внутри.</FB_GeneReweaverPreparedAlready>
   <FB_GeneReweaverIdleInspect>Плотяной ксеногерм: покой</FB_GeneReweaverIdleInspect>
-  <FB_GeneReweaverCompletedGenes>Встроено генов: {0}</FB_GeneReweaverCompletedGenes>
   <FB_GeneReweaverDialogHeader>Создать плотяной ксеногерм</FB_GeneReweaverDialogHeader>
   <FB_GeneReweaverCreateButton>Начать плетение</FB_GeneReweaverCreateButton>
   <FB_GeneReweaverCallPawnLabel>Призвать пешку в генный кокон...</FB_GeneReweaverCallPawnLabel>
@@ -70,6 +64,8 @@
   <FB_GeneReweaverInvalidIntegrationPawn>Эта пешка не может интегрировать подготовленный ксеногерм.</FB_GeneReweaverInvalidIntegrationPawn>
   <FB_GeneReweaverDifferentMap>Пешка должна находиться на той же карте.</FB_GeneReweaverDifferentMap>
   <FB_GeneReweaverNoCocoonCell>Нет достижимой клетки для генного кокона.</FB_GeneReweaverNoCocoonCell>
+  <FB_GeneReweaverIntegrationWarningDesc>{PAWN_nameDef} войдёт в генный кокон на {DURATION}, чтобы интегрировать {XENOGERM}.</FB_GeneReweaverIntegrationWarningDesc>
+  <FB_GeneReweaverPawnCallExpired>{0} не успел дойти до генного кокона.</FB_GeneReweaverPawnCallExpired>
   <FB_GeneReweaverCocoonStarted>{PAWN_nameDef} входит в генный кокон, чтобы интегрировать {XENOGERM}.</FB_GeneReweaverCocoonStarted>
   <FB_GeneReweaverCocoonComplete>{PAWN_nameDef} выходит из генного кокона с интегрированным {XENOGERM}.</FB_GeneReweaverCocoonComplete>
   <FB_GeneReweaverCocoonDied>{0} погибает в разорванном генном коконе.</FB_GeneReweaverCocoonDied>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <PawnRenderTreeDef>
     <defName>FB_BileburstPodlingRenderTree</defName>
@@ -117,7 +117,7 @@
       <li Class="FB.CompProperties_BileburstPayloadCarrier">
         <requiredCharge>0.4</requiredCharge>
         <absorbTicks>120</absorbTicks>
-        <absorbIconPath>UI/Commands/BilePodlingSpawn</absorbIconPath>
+        <absorbIconPath>UI/Commands/BileburstAbsorbPayload</absorbIconPath>
       </li>
     </comps>
     <tools>

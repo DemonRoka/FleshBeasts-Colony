@@ -17,8 +17,9 @@
   <FB_FleshConvergenceDonorEquivalentLine>Requires: {0} fingerspikes, {1} trispikes, or {2} toughspikes.</FB_FleshConvergenceDonorEquivalentLine>
   <FB_CarrionReworkInvalidCaster>Only a carrion architect can rework corpses.</FB_CarrionReworkInvalidCaster>
   <FB_CarrionReworkInvalidTarget>Choose an organic corpse.</FB_CarrionReworkInvalidTarget>
+  <FB_CarrionReworkForbidden>That corpse is forbidden.</FB_CarrionReworkForbidden>
   <FB_CarrionReworkMechanoidCorpse>Mechanoid corpses cannot be reworked into fleshbeasts.</FB_CarrionReworkMechanoidCorpse>
-  <FB_CarrionReworkNoLineOfSight>The carrion architect cannot reach that corpse with its tendrils.</FB_CarrionReworkNoLineOfSight>
+  <FB_CarrionReworkDessicatedCorpse>Choose a fresh or rotting organic corpse. Skeletons cannot be reworked.</FB_CarrionReworkDessicatedCorpse>
   <FB_CarrionReworkCannotReach>The carrion architect cannot reach that corpse.</FB_CarrionReworkCannotReach>
   <FB_CarrionReworkCannotStart>The carrion architect cannot begin reworking that corpse.</FB_CarrionReworkCannotStart>
   <FB_CarrionReworkCompleted>The corpse bursts into fingerspikes: {0}.</FB_CarrionReworkCompleted>

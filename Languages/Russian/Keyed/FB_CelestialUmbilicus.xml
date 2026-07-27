@@ -59,19 +59,26 @@
   <FB_FleshMoonWorldObjectMoveLabel>Переместить луну плоти</FB_FleshMoonWorldObjectMoveLabel>
   <FB_FleshMoonWorldObjectMoveDesc>Выберите клетку поверхности и отправьте луну плоти к ней. Перелёт разорвёт текущую связь пуповины.</FB_FleshMoonWorldObjectMoveDesc>
   <FB_FleshMoonWorldObjectAnchorLabel>Закрепить пуповину</FB_FleshMoonWorldObjectAnchorLabel>
-  <FB_FleshMoonWorldObjectAnchorDesc>Опустить небесную пуповину в клетку поверхности под луной плоти и восстановить путь на планету.</FB_FleshMoonWorldObjectAnchorDesc>
+  <FB_FleshMoonWorldObjectAnchorDesc>Загрузить клетку поверхности под луной плоти, поставить игру на паузу и выбрать точное место падения небесной пуповины.</FB_FleshMoonWorldObjectAnchorDesc>
   <FB_FleshMoonWorldObjectDetachLabel>Отсоединить пуповину</FB_FleshMoonWorldObjectDetachLabel>
   <FB_FleshMoonWorldObjectDetachDesc>Разорвать текущую наземную привязку пуповины и удалить её край на поверхности без перелёта луны.</FB_FleshMoonWorldObjectDetachDesc>
   <FB_FleshMoonWorldObjectInactiveDisabled>Луна плоти не активна.</FB_FleshMoonWorldObjectInactiveDisabled>
   <FB_FleshMoonWorldObjectAbsorbingDisabled>Луна плоти поглощает колонию.</FB_FleshMoonWorldObjectAbsorbingDisabled>
   <FB_FleshMoonWorldObjectMovingDisabled>Луна плоти уже перемещается.</FB_FleshMoonWorldObjectMovingDisabled>
   <FB_FleshMoonWorldObjectAnchorMovingDisabled>Луна плоти должна завершить перелёт перед закреплением.</FB_FleshMoonWorldObjectAnchorMovingDisabled>
+  <FB_FleshMoonWorldObjectAnchorIncomingDisabled>Небесная пуповина уже падает к выбранной точке.</FB_FleshMoonWorldObjectAnchorIncomingDisabled>
   <FB_FleshMoonWorldObjectAnchorLinkedDisabled>Луна плоти уже закреплена.</FB_FleshMoonWorldObjectAnchorLinkedDisabled>
   <FB_FleshMoonWorldObjectNoLinkedUmbilicus>У луны плоти нет активной наземной пуповины.</FB_FleshMoonWorldObjectNoLinkedUmbilicus>
   <FB_FleshMoonWorldObjectNoSurfaceTile>Под луной плоти нет точки поверхности.</FB_FleshMoonWorldObjectNoSurfaceTile>
   <FB_FleshMoonWorldObjectMoveTargetLabel>Переместить луну плоти сюда</FB_FleshMoonWorldObjectMoveTargetLabel>
   <FB_FleshMoonWorldObjectInvalidTarget>Выберите допустимую клетку поверхности.</FB_FleshMoonWorldObjectInvalidTarget>
   <FB_FleshMoonWorldObjectTargetImpassable>Луна плоти не может закрепиться над непроходимой клеткой мира.</FB_FleshMoonWorldObjectTargetImpassable>
+  <FB_FleshMoonUmbilicusPlacementStarted>Выберите место падения небесной пуповины на загруженной карте. ПКМ или Esc отменяет выбор.</FB_FleshMoonUmbilicusPlacementStarted>
+  <FB_FleshMoonUmbilicusPlacementMouseLabel>Выберите место падения пуповины</FB_FleshMoonUmbilicusPlacementMouseLabel>
+  <FB_FleshMoonUmbilicusPlacementInvalid>Здесь нельзя закрепить пуповину: {0}</FB_FleshMoonUmbilicusPlacementInvalid>
+  <FB_FleshMoonUmbilicusPlacementWrongMap>Вернитесь на загруженную поверхность под луной плоти, чтобы выбрать место пуповины.</FB_FleshMoonUmbilicusPlacementWrongMap>
+  <FB_FleshMoonUmbilicusPlacementThickRoof>Пуповина не может пробить толстую горную крышу.</FB_FleshMoonUmbilicusPlacementThickRoof>
+  <FB_FleshMoonUmbilicusIncomingStarted>Небесная пуповина срывается с луны плоти.</FB_FleshMoonUmbilicusIncomingStarted>
   <FB_FleshMoonMoveStarted>Луна плоти начала перелёт.</FB_FleshMoonMoveStarted>
   <FB_FleshMoonMoveArrived>Луна плоти завершила перелёт.</FB_FleshMoonMoveArrived>
   <FB_FleshMoonAnchored>Небесная пуповина закреплена.</FB_FleshMoonAnchored>
@@ -80,7 +87,23 @@
   <FB_FleshMoonSettlementAnchorLetterLabel>Поселение пронзено</FB_FleshMoonSettlementAnchorLetterLabel>
   <FB_FleshMoonSettlementAnchorLetterText>Небесная пуповина пробила {0}, открыв наземный портал внутри поселения. Это нападение; ожидайте сопротивления.</FB_FleshMoonSettlementAnchorLetterText>
   <FB_FleshMoonInspectMoving>Луна плоти перемещается: {0}%.</FB_FleshMoonInspectMoving>
+  <FB_FleshMoonInspectAnchoring>Небесная пуповина падает к поверхности.</FB_FleshMoonInspectAnchoring>
   <FB_FleshMoonInspectUnanchored>Луна плоти не закреплена.</FB_FleshMoonInspectUnanchored>
   <FB_FleshMoonSurfaceAnchorInspectLinked>Соединено с луной плоти.</FB_FleshMoonSurfaceAnchorInspectLinked>
   <FB_FleshMoonSurfaceAnchorInspectUnlinked>Связь с луной плоти неактивна.</FB_FleshMoonSurfaceAnchorInspectUnlinked>
+  <FB_FleshMoonWorldObjectUmbilicusRetractingDisabled>Небесная пуповина втягивается.</FB_FleshMoonWorldObjectUmbilicusRetractingDisabled>
+  <FB_FleshMoonWorldObjectUmbilicusRegrowingDisabled>Новая небесная пуповина ещё выращивается.</FB_FleshMoonWorldObjectUmbilicusRegrowingDisabled>
+  <FB_FleshMoonWorldObjectUmbilicusMissingDisabled>Небесную пуповину нужно заново вырастить внутри луны плоти.</FB_FleshMoonWorldObjectUmbilicusMissingDisabled>
+  <FB_FleshMoonUmbilicusRetractionStarted>Небесная пуповина втягивается. Осталось: {0}.</FB_FleshMoonUmbilicusRetractionStarted>
+  <FB_FleshMoonInspectUmbilicusRetracting>Небесная пуповина втягивается: осталось {0}.</FB_FleshMoonInspectUmbilicusRetracting>
+  <FB_FleshMoonUmbilicusReadyInspect>Свёрнутая небесная пуповина готова к выпуску.</FB_FleshMoonUmbilicusReadyInspect>
+  <FB_FleshMoonUmbilicusMissingInspect>Наземная пуповина была отсечена. Запустите выращивание замены. Потребление во время роста: {0}/ч.</FB_FleshMoonUmbilicusMissingInspect>
+  <FB_FleshMoonUmbilicusRegrowthInspect>Выращивание пуповины: {0}% завершено; осталось {1}; потребление {2}/ч.</FB_FleshMoonUmbilicusRegrowthInspect>
+  <FB_FleshMoonUmbilicusRegrowthStalledInspect>Рост остановлен: у луны плоти нет гемогеля для питания.</FB_FleshMoonUmbilicusRegrowthStalledInspect>
+  <FB_FleshMoonUmbilicusRegrowthAlreadyReady>Небесная пуповина уже готова.</FB_FleshMoonUmbilicusRegrowthAlreadyReady>
+  <FB_FleshMoonUmbilicusRegrowthAlreadyActive>Небесная пуповина уже выращивается.</FB_FleshMoonUmbilicusRegrowthAlreadyActive>
+  <FB_FleshMoonUmbilicusRegrowthStarted>Выращивание небесной пуповины начато. Потребление пуповины увеличено до {0}/ч.</FB_FleshMoonUmbilicusRegrowthStarted>
+  <FB_FleshMoonUmbilicusRegrowthComplete>Выращивание небесной пуповины завершено.</FB_FleshMoonUmbilicusRegrowthComplete>
+  <FB_FleshMoonUmbilicusRegrowthCommandLabel>Вырастить небесную пуповину</FB_FleshMoonUmbilicusRegrowthCommandLabel>
+  <FB_FleshMoonUmbilicusRegrowthCommandDesc>Начать выращивание замены внутри луны плоти. Это занимает три дня и повышает потребление пуповины до {0}/ч; если её нечем питать, рост остановится.</FB_FleshMoonUmbilicusRegrowthCommandDesc>
 </LanguageData>

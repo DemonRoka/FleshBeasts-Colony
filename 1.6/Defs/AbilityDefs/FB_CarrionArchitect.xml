@@ -3,7 +3,7 @@
   <AbilityDef>
     <defName>FB_CarrionRework</defName>
     <label>carrion rework</label>
-    <description>Hook a dead organic body with surgical tendrils and force its remaining biomass to unfold into fingerspikes. Larger bodies yield more fingerspikes.</description>
+    <description>Hook a fresh or rotting organic corpse with surgical tendrils and force its remaining biomass to unfold into fingerspikes. Skeletons cannot be reworked.</description>
     <iconPath>UI/Abilities/CarrionRework</iconPath>
     <targetRequired>true</targetRequired>
     <hostile>false</hostile>

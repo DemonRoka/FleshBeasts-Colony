@@ -33,4 +33,6 @@
   <FB_DevFinishMaturation>РАЗР: завершить созревание</FB_DevFinishMaturation>
   <FB_DevFinishMaturationDesc>Мгновенно завершает созревание эмбриона, если взрослую форму можно разместить.</FB_DevFinishMaturationDesc>
   <FB_FailedSpawnThing>Не удалось создать {0}.</FB_FailedSpawnThing>
-  <FB_FailedGeneratePawnKind>Не удалось сгенерировать {0}.</FB_FailedGeneratePawnKind></LanguageData>
+  <FB_FailedGeneratePawnKind>Не удалось сгенерировать {0}.</FB_FailedGeneratePawnKind>
+  <FB_ColonyBrain_Structure_TentacleTurret_Desc>Выращивает неподвижного флешбиста-защитника, который выпускает кератиновые шипы по далёким врагам и хлещет ближайших тяжёлыми щупальцами.</FB_ColonyBrain_Structure_TentacleTurret_Desc>
+</LanguageData>

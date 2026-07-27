@@ -7,9 +7,6 @@
     <race>FB_CarrionArchitect</race>
     <combatPower>180</combatPower>
     <defaultFactionDef>PlayerColony</defaultFactionDef>
-    <abilities>
-      <li>FB_CarrionRework</li>
-    </abilities>
     <lifeStages>
       <li>
         <bodyGraphicData>

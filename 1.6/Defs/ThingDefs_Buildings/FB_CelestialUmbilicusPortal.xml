@@ -1,78 +1,139 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <ThingDef ParentName="BuildingBase">
-    <defName>FB_CelestialUmbilicusPortal</defName>
-    <label>celestial umbilicus portal</label>
-    <description>A stabilized living umbilicus that links the colony to the flesh moon.</description>
-    <thingClass>FB.Building_CelestialUmbilicusPortal</thingClass>
-    <category>Building</category>
-    <selectable>true</selectable>
-    <drawerType>MapMeshAndRealTime</drawerType>
-    <tickerType>Normal</tickerType>
-    <size>(7,7)</size>
-    <rotatable>false</rotatable>
-    <passability>PassThroughOnly</passability>
-    <fillPercent>0.75</fillPercent>
-    <altitudeLayer>Building</altitudeLayer>
-    <filthLeaving>Filth_Fleshmass</filthLeaving>
-    <preventSkyfallersLandingOn>true</preventSkyfallersLandingOn>
-    <graphicData>
-      <graphicClass>Graphic_Single</graphicClass>
-      <texPath>Things/Building/FB_Organic/CelestialUmbilicus/CelestialUmbilicusSegmentStart</texPath>
-      <drawSize>(7,7)</drawSize>
-    </graphicData>
-    <uiIconPath>Things/Building/FB_Organic/CelestialUmbilicus/CelestialUmbilicusSegmentStart</uiIconPath>
-    <statBases>
-      <MaxHitPoints>900</MaxHitPoints>
-      <Beauty>-25</Beauty>
-      <Flammability>0.7</Flammability>
-      <Mass>100</Mass>
-    </statBases>
-    <building>
-      <isEdifice>true</isEdifice>
-      <isInert>true</isInert>
-      <isTargetable>true</isTargetable>
-      <claimable>false</claimable>
-      <deconstructible>false</deconstructible>
-      <repairable>false</repairable>
-      <destroyEffecter>FleshmassDestroyed</destroyEffecter>
-      <ai_combatDangerous>true</ai_combatDangerous>
-    </building>
-    <portal>
-      <pocketMapGenerator>FB_FleshMoonPocket</pocketMapGenerator>
-      <exitDef>FB_CelestialUmbilicusMoonExit</exitDef>
-      <pocketMapSize>125</pocketMapSize>
-      <traverseSound>TraversePitGate</traverseSound>
-    </portal>
-    <inspectorTabs>
-      <li>ITab_ContentsMapPortal</li>
-    </inspectorTabs>
-  </ThingDef>
+  <defName>FB_CelestialUmbilicusPortal</defName>
+  <label>celestial umbilicus portal</label>
+  <description>A stabilized living umbilicus that links the colony to the flesh moon.</description>
+  <thingClass>FB.Building_CelestialUmbilicusPortal</thingClass>
+  <category>Building</category>
+  <selectable>true</selectable>
+  <drawerType>MapMeshAndRealTime</drawerType>
+  <tickerType>Normal</tickerType>
+  <size>(7,7)</size>
+  <rotatable>false</rotatable>
+  <passability>PassThroughOnly</passability>
+  <fillPercent>0.75</fillPercent>
+  <altitudeLayer>BuildingOnTop</altitudeLayer>
+  <filthLeaving>Filth_Fleshmass</filthLeaving>
+  <preventSkyfallersLandingOn>true</preventSkyfallersLandingOn>
+  <graphicData>
+    <graphicClass>Graphic_Single</graphicClass>
+    <texPath>Things/Building/FB_Organic/CelestialUmbilicus/CelestialUmbilicusSegmentStart</texPath>
+    <drawSize>(11.2,11.2)</drawSize>
+    <drawOffset>(-0.04, 0, 1.35)</drawOffset>
+  </graphicData>
+  <uiIconPath>Things/Building/FB_Organic/CelestialUmbilicus/CelestialUmbilicusSegmentStart</uiIconPath>
+  <statBases>
+    <MaxHitPoints>900</MaxHitPoints>
+    <Beauty>-25</Beauty>
+    <Flammability>0.7</Flammability>
+    <Mass>100</Mass>
+  </statBases>
+  <building>
+    <isEdifice>true</isEdifice>
+    <isInert>true</isInert>
+    <isTargetable>true</isTargetable>
+    <claimable>false</claimable>
+    <deconstructible>false</deconstructible>
+    <repairable>false</repairable>
+    <destroyEffecter>FleshmassDestroyed</destroyEffecter>
+    <ai_combatDangerous>true</ai_combatDangerous>
+  </building>
+  <portal>
+    <pocketMapGenerator>FB_FleshMoonPocket</pocketMapGenerator>
+    <exitDef>FB_CelestialUmbilicusMoonExit</exitDef>
+    <pocketMapSize>125</pocketMapSize>
+    <traverseSound>TraversePitGate</traverseSound>
+  </portal>
+  <comps>
+    <li Class="FB.CompProperties_FleshTerrainSpreader">
+      <terrainDefs>
+        <li>Flesh</li>
+        <li>FleshVeins</li>
+      </terrainDefs>
+      <enabledByDefault>true</enabledByDefault>
+      <showGizmo>false</showGizmo>
+      <fillParentFootprint>true</fillParentFootprint>
+      <checkIntervalTicks>5000</checkIntervalTicks>
+      <maxGrowthPerCheck>5</maxGrowthPerCheck>
+      <initialBurstGrowth>0</initialBurstGrowth>
+    </li>
+  </comps>
+  <inspectorTabs>
+    <li>ITab_ContentsMapPortal</li>
+  </inspectorTabs>
+</ThingDef>
+
+  <ThingDef ParentName="SkyfallerBase">
+  <defName>FB_CelestialUmbilicusPortalIncoming</defName>
+  <label>celestial umbilicus (incoming)</label>
+  <thingClass>FB.Skyfaller_CelestialUmbilicusPortalIncoming</thingClass>
+  <size>(7,7)</size>
+  <graphicData>
+    <graphicClass>Graphic_Single</graphicClass>
+    <texPath>Things/Building/FB_Organic/CelestialUmbilicus/CelestialUmbilicusSegmentStart</texPath>
+    <shaderType>CutoutFlying</shaderType>
+    <drawSize>(11.2,11.2)</drawSize>
+    <drawOffset>(-0.04, 0, 1.35)</drawOffset>
+  </graphicData>
+  <skyfaller>
+    <movementType>Decelerate</movementType>
+    <ticksToImpactRange>90~90</ticksToImpactRange>
+    <shadow>Things/Skyfaller/SkyfallerShadowCircle</shadow>
+    <shadowSize>(13, 13)</shadowSize>
+    <anticipationSound>DropPod_Fall</anticipationSound>
+    <anticipationSoundTicks>80</anticipationSoundTicks>
+    <motesPerCell>0</motesPerCell>
+  </skyfaller>
+</ThingDef>
+
+  <ThingDef ParentName="EtherealThingBase">
+  <defName>FB_CelestialUmbilicusImpactDustWave</defName>
+  <label>celestial umbilicus impact dust wave</label>
+  <thingClass>FB.Thing_CelestialUmbilicusImpactDustWave</thingClass>
+  <tickerType>Normal</tickerType>
+  <drawerType>RealtimeOnly</drawerType>
+  <drawOffscreen>true</drawOffscreen>
+  <seeThroughFog>true</seeThroughFog>
+</ThingDef>
 
   <ThingDef ParentName="PocketMapExit">
-    <defName>FB_CelestialUmbilicusMoonExit</defName>
-    <label>celestial umbilicus</label>
-    <description>The moon-side root of a stabilized celestial umbilicus.</description>
-    <thingClass>FB.Building_CelestialUmbilicusMoonExit</thingClass>
-    <size>(7,7)</size>
-    <useHitPoints>true</useHitPoints>
-    <drawerType>MapMeshAndRealTime</drawerType>
-    <tickerType>Normal</tickerType>
-    <passability>PassThroughOnly</passability>
-    <fillPercent>0.75</fillPercent>
-    <graphicData>
-      <graphicClass>Graphic_Single</graphicClass>
-      <texPath>Things/Building/FB_Organic/CelestialUmbilicus/CelestialUmbilicusSegmentStart</texPath>
-      <drawSize>(7,7)</drawSize>
-    </graphicData>
-    <uiIconPath>Things/Building/FB_Organic/CelestialUmbilicus/CelestialUmbilicusSegmentStart</uiIconPath>
-    <statBases>
-      <MaxHitPoints>900</MaxHitPoints>
-      <Beauty>-25</Beauty>
-      <Flammability>0.7</Flammability>
-    </statBases>
-    <inspectorTabs>
-      <li>ITab_ContentsMapPortal</li>
-    </inspectorTabs>
-  </ThingDef>
+  <defName>FB_CelestialUmbilicusMoonExit</defName>
+  <label>celestial umbilicus</label>
+  <description>The moon-side root of a stabilized celestial umbilicus.</description>
+  <thingClass>FB.Building_CelestialUmbilicusMoonExit</thingClass>
+  <size>(7,7)</size>
+  <useHitPoints>true</useHitPoints>
+  <destroyable>true</destroyable>
+  <drawerType>MapMeshAndRealTime</drawerType>
+  <tickerType>Normal</tickerType>
+  <passability>PassThroughOnly</passability>
+  <fillPercent>0.75</fillPercent>
+  <altitudeLayer>BuildingOnTop</altitudeLayer>
+  <graphicData>
+    <graphicClass>Graphic_Single</graphicClass>
+    <texPath>Things/Building/FB_Organic/CelestialUmbilicus/CelestialUmbilicusSegmentStart</texPath>
+    <drawSize>(11.2,11.2)</drawSize>
+    <drawOffset>(-0.04, 0, 1.35)</drawOffset>
+  </graphicData>
+  <uiIconPath>Things/Building/FB_Organic/CelestialUmbilicus/CelestialUmbilicusSegmentStart</uiIconPath>
+  <statBases>
+    <MaxHitPoints>900</MaxHitPoints>
+    <Beauty>-25</Beauty>
+    <Flammability>0.7</Flammability>
+  </statBases>
+  <building>
+    <isEdifice>true</isEdifice>
+    <isTargetable>true</isTargetable>
+    <ai_combatDangerous>true</ai_combatDangerous>
+    <isInert>true</isInert>
+    <claimable>false</claimable>
+    <deconstructible>false</deconstructible>
+    <repairable>false</repairable>
+    <destroyEffecter>FleshmassDestroyed</destroyEffecter>
+  </building>
+  <inspectorTabs>
+    <li>ITab_ContentsMapPortal</li>
+  </inspectorTabs>
+</ThingDef>
 </Defs>

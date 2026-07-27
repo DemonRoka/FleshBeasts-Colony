@@ -327,16 +327,4 @@
 			</li>
 		</comps>
 	</AbilityDef>
-
-	<AbilityDef ParentName="SpikeLaunchBase">
-		<defName>FB_SpineLaunch_TentacleTurret</defName>
-		<label>spine launch</label>
-		<description>Launch a keratin spine at a target to do damage.</description>
-		<cooldownTicksRange>240</cooldownTicksRange>
-		<verbProperties>
-			<range>17.9</range>
-			<soundCast>Gorehulk_Spine_Launch</soundCast>
-			<defaultProjectile>Spine_Gorehulk</defaultProjectile>
-		</verbProperties>
-	</AbilityDef>
 </Defs>

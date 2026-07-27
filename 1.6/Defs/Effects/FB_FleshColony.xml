@@ -62,6 +62,29 @@
     <fadeOutTime>0.2</fadeOutTime>
     <growthRate>0.005</growthRate>
   </FleckDef>
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>FB_CelestialUmbilicusImpactDust</defName>
+    <graphicData>
+      <texPath>Things/Mote/DustPuff</texPath>
+      <renderInstanced>true</renderInstanced>
+    </graphicData>
+    <altitudeLayer>MoteLow</altitudeLayer>
+    <fadeInTime>0.1</fadeInTime>
+    <solidTime>0.6</solidTime>
+    <fadeOutTime>1.4</fadeOutTime>
+  </FleckDef>
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>FB_CelestialUmbilicusImpactSmoke</defName>
+    <graphicData>
+      <texPath>Things/Mote/Smoke</texPath>
+      <renderInstanced>true</renderInstanced>
+    </graphicData>
+    <altitudeLayer>MoteLow</altitudeLayer>
+    <fadeInTime>0.5</fadeInTime>
+    <solidTime>6</solidTime>
+    <fadeOutTime>3.2</fadeOutTime>
+    <growthRate>0.005</growthRate>
+  </FleckDef>
   <EffecterDef>
     <defName>FB_BloodExtinguisherBurst</defName>
     <children><li>

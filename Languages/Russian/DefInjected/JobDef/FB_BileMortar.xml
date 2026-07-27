@@ -2,5 +2,6 @@
 <LanguageData>
   <FB_LoadBileburstPodlingIntoMortar.reportString>загружается в TargetA.</FB_LoadBileburstPodlingIntoMortar.reportString>
   <FB_BileburstDetonateAtTarget.reportString>разрывается рядом с TargetA.</FB_BileburstDetonateAtTarget.reportString>
+  <FB_BileburstAbsorbPayload.reportString>поглощает TargetA.</FB_BileburstAbsorbPayload.reportString>
   <FB_BileburstPodlingLatchToMortar.reportString>устраивается рядом с TargetA.</FB_BileburstPodlingLatchToMortar.reportString>
 </LanguageData>

@@ -3,7 +3,7 @@
   <ThingDef ParentName="BaseFleshbeast">
     <defName>FB_CarrionArchitect</defName>
     <label>carrion architect</label>
-    <description>A slow, massive fleshbeast that reshapes dead bodies into new warforms. It carries a sealed flesh-colony host within its nervous core, directing hooked tendrils and digestive grafts that carve corpses into living fingerspikes.</description>
+    <description>A slow, massive fleshbeast that reshapes fresh and rotting bodies into new warforms. It carries a sealed flesh-colony host within its nervous core, directing hooked tendrils and digestive grafts that carve corpses into living fingerspikes.</description>
     <statBases>
       <MoveSpeed>2.15</MoveSpeed>
       <MinimumContainmentStrength>70</MinimumContainmentStrength>
@@ -38,6 +38,9 @@
     </race>
     <comps>
       <li Class="FB.CompProperties_FleshbeastDraftable" />
+      <li Class="FB.CompProperties_CarrionReworkAbility">
+        <abilityDef>FB_CarrionRework</abilityDef>
+      </li>
       <li Class="FB.CompProperties_BulbfreakHostStorage" />
     </comps>
     <tools>

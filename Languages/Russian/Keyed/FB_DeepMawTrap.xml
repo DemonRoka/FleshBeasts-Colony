@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_DeepMawTrapArmingInspect>Пробуждение: {0}</FB_DeepMawTrapArmingInspect>
-  <FB_DeepMawTrapDigestingInspect>Переваривает жертв: {0}</FB_DeepMawTrapDigestingInspect>
-  <FB_DeepMawTrapResistanceInspect>Жертвы сопротивляются: {0}</FB_DeepMawTrapResistanceInspect>
+  <FB_DeepMawTrapContainedInspect>Внутри: {0}</FB_DeepMawTrapContainedInspect>
+  <FB_DeepMawTrapDigestingInspect>Переваривание: {0} тел; питательность: {1}; гемогель: {2}/ч.</FB_DeepMawTrapDigestingInspect>
+  <FB_DeepMawTrapResistanceInspect>Сопротивляются: {0}</FB_DeepMawTrapResistanceInspect>
   <FB_DeepMawTrapHemogelRate>Переваривание: {0} гемогеля/ч</FB_DeepMawTrapHemogelRate>
   <FB_DeepMawTrapReleasingInspect>Разорвана изнутри: {0}</FB_DeepMawTrapReleasingInspect>
   <FB_DeepMawTrapCooldownInspect>Зарастает: {0}</FB_DeepMawTrapCooldownInspect>
   <FB_DeepMawTrapDevSnapLabel>Dev: захлопнуть пасть</FB_DeepMawTrapDevSnapLabel>
   <FB_DeepMawTrapDevSnapDesc>Мгновенно заставляет глубокую пасть попытаться проглотить пешек на занятых клетках.</FB_DeepMawTrapDevSnapDesc>
   <FB_ColonyBrain_Structure_DeepMawTrap_Label>Глубокая пасть-ловушка</FB_ColonyBrain_Structure_DeepMawTrap_Label>
+  <FB_ColonyBrain_Structure_DeepMawTrap_Desc>Выращивает скрытую пасть-ловушку 2x2. Враждебное движение пробуждает её; при захлопывании она глотает всех пешек сверху, переваривает органические тела в гемогель и выплёвывает останки механоидов.</FB_ColonyBrain_Structure_DeepMawTrap_Desc>
 </LanguageData>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <!-- Покрытие: flesh veins (FleshVeins) -->
   <TerrainDef ParentName="FloorBase">
@@ -111,12 +111,12 @@
     <filthAcceptanceMask>
       <li>None</li>
     </filthAcceptanceMask>
-    <tags>
+    <tags Inherit="False">
       <li>FB_FleshColonyTerrain</li>
     </tags>
     <passability>Standable</passability>
     <waterBodyType>None</waterBodyType>
-    <affordances>
+    <affordances Inherit="False">
       <li>Bridgeable</li>
       <li>Walkable</li>
     </affordances>
