@@ -58,7 +58,7 @@
       <li Class="FB.CompProperties_AcidReservoir">
         <maxAcid>600</maxAcid>
         <initialAcid>600</initialAcid>
-        <regenerationPerHour>20</regenerationPerHour>
+        <regenerationPerHour>80</regenerationPerHour>
       </li>
       <li Class="FB.CompProperties_FleshbeastDraftable" />
       <li Class="FB.CompProperties_AcidBroodmotherController">

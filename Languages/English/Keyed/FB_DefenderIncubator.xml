@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <FB_DefenderIncubator_ThreatReleaseHint>Automatically releases defenders when a visible hostile enters the {0}-cell detection radius.</FB_DefenderIncubator_ThreatReleaseHint>
+  <FB_DefenderIncubator_ReleaseLabel>Release defenders</FB_DefenderIncubator_ReleaseLabel>
+  <FB_DefenderIncubator_ReleaseDesc>Releases {0} short-lived defenders. Cost: {2} hemogel. The incubator must regrow a new brood before another release.</FB_DefenderIncubator_ReleaseDesc>
+  <FB_DefenderIncubator_RechargingDesc>Regrowing a new defender brood. Ready in {0} days.</FB_DefenderIncubator_RechargingDesc>
+  <FB_DefenderIncubator_ThreatReleaseHint>Automatically releases defenders when a hostile enters the {0}-cell detection radius.</FB_DefenderIncubator_ThreatReleaseHint>
 
 </LanguageData>

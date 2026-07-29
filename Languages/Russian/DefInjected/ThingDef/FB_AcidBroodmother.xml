@@ -5,4 +5,5 @@
   <FB_AcidBroodmother.tools.0.label>тяжёлая пасть</FB_AcidBroodmother.tools.0.label>
   <FB_AcidSpitling.label>кислотная плевака</FB_AcidSpitling.label>
   <FB_AcidSpitling.description>Временный детёныш, запускающий кислотные снаряды и возвращающийся к правматке, когда его внутренний запас иссякает.</FB_AcidSpitling.description>
+  <FB_AcidSpitlingSpitProjectile.label>кислотный снаряд</FB_AcidSpitlingSpitProjectile.label>
 </LanguageData>

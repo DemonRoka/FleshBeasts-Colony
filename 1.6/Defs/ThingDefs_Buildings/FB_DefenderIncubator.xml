@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Постройка: Defender Incubator (FB_DefenderIncubator) -->
+  <ThingDef ParentName="BuildingColonyFleshBaseAnimation">
+    <defName>FB_DefenderIncubator</defName>
+    <label>Defender Incubator</label>
+    <description>A defensive incubator that periodically releases short-lived fleshbeast defenders on command or when a hostile enters its detection radius, then regrows a new brood before it can release again.</description>
+    <size>(2,2)</size>
+    <statBases>
+      <Beauty>-20</Beauty>
+      <MaxHitPoints>300</MaxHitPoints>
+    </statBases>
+    <killedLeavingsRanges>
+      <Meat_Twisted>20~50</Meat_Twisted>
+    </killedLeavingsRanges>
+    <forceLeavingsAllowed>true</forceLeavingsAllowed>
+    <comps>
+      <li Class="FB.CompProperties_FleshAnimationManager">
+        <animationAmplitude>0.025</animationAmplitude>
+        <animationSideAmplitude>0.015</animationSideAmplitude>
+        <baseAnimationSpeed>0.9</baseAnimationSpeed>
+        <beatDurationTicks>20</beatDurationTicks>
+        <animatedParts>
+          <li>
+            <texturePath>Things/Building/FB_Organic/DefenderIncubator/DefenderIncubator</texturePath>
+            <positionOffset>(0, 0, 0)</positionOffset>
+            <textureScale>1.3</textureScale>
+            <animationAmplitude>0.05</animationAmplitude>
+            <animationSideAmplitude>0.035</animationSideAmplitude>
+            <animationInterval>0</animationInterval>
+            <animationOffset>0.0</animationOffset>
+            <altitudeLayer>0</altitudeLayer>
+            <rotationAngle>0</rotationAngle>
+            <beatDelay>0</beatDelay>
+          </li>
+        </animatedParts>
+      </li>
+      <li Class="FB.CompProperties_PawnSpawnerOnDemand">
+        <pawnKindToSpawn>FB_StingmiteKind</pawnKindToSpawn>
+        <pawnsToSpawn>4</pawnsToSpawn>
+        <rechargeTicks>90000</rechargeTicks>
+        <spawnRadius>3</spawnRadius>
+        <hemogelCost>0</hemogelCost>
+        <enemyDetectionRadius>20</enemyDetectionRadius>
+        <enemyScanIntervalTicks>60</enemyScanIntervalTicks>
+        <requireLineOfSight>false</requireLineOfSight>
+        <randomPawnChance>0.05</randomPawnChance>
+        <randomPawnKinds>
+          <li>FB_FingerspikeGauntletKind</li>
+        </randomPawnKinds>
+        <iconPath>Things/Building/FB_Organic/DefenderIncubator/DefenderIncubator</iconPath>
+        <gizmoLabel>FB_DefenderIncubator_ReleaseLabel</gizmoLabel>
+        <gizmoDesc>FB_DefenderIncubator_ReleaseDesc</gizmoDesc>
+        <gizmoRechargingDesc>FB_DefenderIncubator_RechargingDesc</gizmoRechargingDesc>
+        <showThreatReleaseHint>true</showThreatReleaseHint>
+      </li>
+      <li Class="FB.CompProperties_HemogelUpkeep">
+        <hemogelPerHour>1</hemogelPerHour>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

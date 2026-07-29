@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Building: grasping tendrils (FB_GraspingTendrils) -->
+  <ThingDef ParentName="BuildingColonyFleshBase">
+    <defName>FB_GraspingTendrils</defName>
+    <label>Grasping Tendrils</label>
+    <description>A sudden bloom of living tendrils forced up through the ground. They coil and cinch without warning, hauling the victim into a choking knot of flesh and root-fibers. The colony's hunger works quickly; once the grip is spent, the growth withers and sinks back into the soil.</description>
+    <thingClass>FB.Building_FleshCapturePlatform</thingClass>
+    <size>(1,1)</size>
+    <selectable>true</selectable>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Beauty>-25</Beauty>
+    </statBases>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/Plaseholder</texPath>
+      <drawSize>(0.01,0.01)</drawSize>
+    </graphicData>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <tickerType>Normal</tickerType>
+    <passability>PassThroughOnly</passability>
+    <blockWind>true</blockWind>
+    <fillPercent>0.75</fillPercent>
+    <rotatable>false</rotatable>
+    <altitudeLayer>Building</altitudeLayer>
+    <building>
+      <expandHomeArea>false</expandHomeArea>
+      <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+      <repairable>false</repairable>
+      <roamerCanOpen>true</roamerCanOpen>
+      <isEdifice>true</isEdifice>
+      <isInert>true</isInert>
+      <isTargetable>true</isTargetable>
+      <claimable>false</claimable>
+      <canBuildNonEdificesUnder>false</canBuildNonEdificesUnder>
+      <deconstructible>false</deconstructible>
+      <destroyEffecter>FleshmassDestroyed</destroyEffecter>
+      <ai_combatDangerous>true</ai_combatDangerous>
+    </building>
+    <comps Inherit="False">
+      <li Class="FB.CompProperties_CaptureRootDrawer">
+        <moteDefSmall>Mote_HarbingerTreeRoots</moteDefSmall>
+        <moteDefLarge>Mote_FleshRootsSide</moteDefLarge>
+        <updateEveryTicks>100</updateEveryTicks>
+        <hemogelPerHourWhileHolding>10</hemogelPerHourWhileHolding>
+        <tentacleDamageEveryTicks>500</tentacleDamageEveryTicks>
+        <tentacleHitChance>0.7</tentacleHitChance>
+        <tentacleDamageMin>4</tentacleDamageMin>
+        <tentacleDamageMax>8</tentacleDamageMax>
+        <killAndVanishOnEject>true</killAndVanishOnEject>
+        <releaseCommandIconPath>UI/Commands/ReleaseGraspingTendrils</releaseCommandIconPath>
+      </li>
+      <li Class="FB.CompProperties_FleshRegeneration">
+        <ticksPerHeal>500</ticksPerHeal>
+        <ticksPerDamage>2000</ticksPerDamage>
+        <hemogelPerHeal>0</hemogelPerHeal>
+      </li>
+      <li Class="FB.CompProperties_HemogelUpkeep">
+        <hemogelPerHour>0.1</hemogelPerHour>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

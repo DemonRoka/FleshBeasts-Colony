@@ -46,6 +46,7 @@
       </li>
       <li Class="FB.CompProperties_TetherRopesToBuilding">
         <targetBuildingDef>FB_SymbiosisBroodWomb</targetBuildingDef>
+        <useSymbiosisMawCoreTarget>true</useSymbiosisMawCoreTarget>
         <searchRadius>10</searchRadius>
         <matchFaction>true</matchFaction>
         <texturePath>Things/Building/Cable</texturePath>

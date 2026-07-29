@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <DefenderIncubatorResearch.description>Unlock the Defender Incubator, a hemogel-fed brood organ that can release groups of fingerspikes when commanded or when the colony is attacked.</DefenderIncubatorResearch.description>
+  <DefenderIncubatorResearch.description>Unlock the Defender Incubator, a brood organ that periodically releases short-lived fleshbeast defenders when commanded or when hostiles approach.</DefenderIncubatorResearch.description>
   <DefenderIncubatorResearch.generalRules.rulesStrings.0>subject-&gt;flesh defender incubation</DefenderIncubatorResearch.generalRules.rulesStrings.0>
   <DefenderIncubatorResearch.generalRules.rulesStrings.1>subject_story-&gt;nurtured biomass into guardians</DefenderIncubatorResearch.generalRules.rulesStrings.1>
   <DefenderIncubatorResearch.generalRules.rulesStrings.2>subject_story-&gt;birthed organic defenders</DefenderIncubatorResearch.generalRules.rulesStrings.2>

@@ -57,7 +57,6 @@
       </subNodes>
     </thinkRoot>
   </ThinkTreeDef>
-
   <ThinkTreeDef>
     <defName>FB_AcidSpitlingMain</defName>
     <thinkRoot Class="ThinkNode_Priority">
@@ -92,7 +91,7 @@
         <li Class="JobGiver_AIAbilityFight">
           <targetAcquireRadius>65</targetAcquireRadius>
           <targetKeepRadius>72</targetKeepRadius>
-          <skipIfCantTargetNow>false</skipIfCantTargetNow>
+          <skipIfCantTargetNow>true</skipIfCantTargetNow>
           <ability>FB_AcidSpitlingSpit</ability>
           <allowTurrets>true</allowTurrets>
           <needLOSToAcquireNonPawnTargets>false</needLOSToAcquireNonPawnTargets>

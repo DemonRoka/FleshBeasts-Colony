@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Постройка: minions hive (FB_MinionsHive) -->
+  <ThingDef ParentName="BuildingColonyFleshBase">
+    <defName>FB_MinionsHive</defName>
+    <label>minions hive</label>
+    <description>A living hive that grows sclerats for construction material delivery, simple building, and deconstruction work.</description>
+    <size>(2,2)</size>
+    <statBases>
+      <MaxHitPoints>300</MaxHitPoints>
+      <Beauty>-20</Beauty>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/FB_Organic/MinionsHive/MinionsHive</texPath>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+    <comps>
+      <li Class="FB.CompProperties_PawnContainer">
+        <showContainedPawnsInGizmos>True</showContainedPawnsInGizmos>
+        <maxCapacity>5</maxCapacity>
+      </li>
+      <li Class="FB.CompProperties_ReleaseAllMinions">
+        <iconPath>UI/Commands/ReleaseMinions</iconPath>
+      </li>
+      <li Class="FB.CompProperties_SpawnInitialMinions">
+        <pawnKind>FB_Sclerat</pawnKind>
+        <hemogelCostPerMinion>0</hemogelCostPerMinion>
+        <respawnTicksPerMinion>15000</respawnTicksPerMinion>
+      </li>
+      <li Class="FB.CompProperties_HemogelUpkeep">
+        <hemogelPerHour>1.2</hemogelPerHour>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

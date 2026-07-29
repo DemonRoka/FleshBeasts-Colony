@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Постройка: symbiosis brood womb (FB_SymbiosisBroodWomb) -->
+  <ThingDef ParentName="BuildingColonyFleshBase">
+    <defName>FB_SymbiosisBroodWomb</defName>
+    <label>symbiosis brood womb</label>
+    <description>A swollen, pulsating womb-node grown from hemogel-fed biomass. It stores harvested skill essence and distills it into living defenders, while a bound maw scavenges nearby corpses to keep the node nourished.</description>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/FB_Organic/SymbiosisBroodWomb/SymbiosisBroodWomb</texPath>
+      <drawSize>4.5</drawSize>
+      <damageData>
+        <rect>(0.10, 0.10, 0.80, 0.80)</rect>
+        <scratches>
+          <li>Damage/FleshScratch1</li>
+          <li>Damage/FleshScratch2</li>
+          <li>Damage/FleshScratch3</li>
+        </scratches>
+      </damageData>
+    </graphicData>
+    <inspectorTabs>
+      <li>FB.ITab_FleshbeastBills</li>
+      <li>FB.ITab_SymbiosisCore_Skills</li>
+    </inspectorTabs>
+    <size>(3,3)</size>
+    <passability>Impassable</passability>
+    <fillPercent>0.80</fillPercent>
+    <rotatable>false</rotatable>
+    <preventSkyfallersLandingOn>true</preventSkyfallersLandingOn>
+    <altitudeLayer>Building</altitudeLayer>
+    <tickerType>Normal</tickerType>
+    <statBases>
+      <MaxHitPoints>700</MaxHitPoints>
+      <Beauty>-25</Beauty>
+      <Flammability>0.7</Flammability>
+    </statBases>
+    <killedLeavingsRanges>
+      <Meat_Twisted>200~300</Meat_Twisted>
+    </killedLeavingsRanges>
+    <forceLeavingsAllowed>true</forceLeavingsAllowed>
+    <building>
+      <isEdifice>true</isEdifice>
+      <isInert>true</isInert>
+      <isTargetable>true</isTargetable>
+      <claimable>false</claimable>
+      <canBuildNonEdificesUnder>false</canBuildNonEdificesUnder>
+      <deconstructible>false</deconstructible>
+      <destroyEffecter>FleshmassDestroyed</destroyEffecter>
+    </building>
+    <comps>
+      <li Class="FB.CompProperties_SymbiosisCore">
+        <scanIntervalTicks>2000</scanIntervalTicks>
+        <scanRadius>4</scanRadius>
+      </li>
+      <li Class="FB.CompProperties_SpawnBoundPawnAdjacent">
+        <pawnKind>FB_SymbioHead</pawnKind>
+        <autoBindMawToCore>true</autoBindMawToCore>
+        <destroyPawnWithParent>true</destroyPawnWithParent>
+        <regrowAfterPawnDeath>true</regrowAfterPawnDeath>
+        <regrowthDurationTicks>60000</regrowthDurationTicks>
+        <regrowthHemogelCost>200</regrowthHemogelCost>
+        <regrowthTickInterval>250</regrowthTickInterval>
+        <missingPawnCheckIntervalTicks>60000</missingPawnCheckIntervalTicks>
+      </li>
+      <li Class="FB.CompProperties_CreateCorpseZoneButton">
+        <radius>4</radius>
+        <zoneLabel>FB_CorpseStorageZone</zoneLabel>
+        <priority>Preferred</priority>
+        <skipCellsAlreadyInZones>true</skipCellsAlreadyInZones>
+        <skipCellsWithEdifice>true</skipCellsWithEdifice>
+        <iconPath>UI/Icons/CorpseStockpileZone</iconPath>
+      </li>
+      <li Class="FB.CompProperties_FleshbeastBillExecutor">
+        <checkIntervalTicks>250</checkIntervalTicks>
+        <recipes>
+          <li>FB_GrowCortexMiteFromSkillEssence</li>
+          <li>FB_GrowBurdenBlobFromSkillEssence</li>
+          <li>FB_GrowCarapaceExcavatorFromSkillEssence</li>
+          <li>FB_GrowFerrimawFromSkillEssence</li>
+          <li>FB_GrowScrapmeldNestlingFromSkillEssence</li>
+          <li>FB_GrowSinewcallerFromSkillEssence</li>
+          <li>FB_GrowGraftmawFromSkillEssence</li>
+          <li>FB_GrowCocoonbackFromSkillEssence</li>
+          <li>FB_GrowNerveclotFromSkillEssence</li>
+          <li>FB_GrowThrallbloomFromSkillEssence</li>
+          <li>FB_GrowFleshIntruderFromSkillEssence</li>
+        </recipes>
+      </li>
+      <li Class="FB.CompProperties_HemogelUpkeep">
+        <hemogelPerHour>0.8</hemogelPerHour>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

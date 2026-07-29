@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Постройка: live cocoon growth (FB_LiveCocoonGrowth) -->
+  <ThingDef ParentName="BuildingColonyFleshBase">
+    <defName>FB_LiveCocoonGrowth</defName>
+    <label>live cocoon growth</label>
+    <description>A living wall cocoon grown by the colony heart. When destroyed or starved of hemogel, it ruptures and releases a fingerspike defender.</description>
+    <rotatable>true</rotatable>
+    <graphicData>
+      <texPath>Things/Building/FB_Organic/LiveCocoonGrowth/LiveCocoonGrowth</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawOffsetNorth>(0,0,1)</drawOffsetNorth>
+      <drawOffsetSouth>(0,0,-1)</drawOffsetSouth>
+      <drawOffsetWest>(-0.9,0,0)</drawOffsetWest>
+      <drawOffsetEast>(0.9,0,0)</drawOffsetEast>
+      <drawSize>1.4</drawSize>
+      <damageData>
+        <enabled>false</enabled>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>BuildingOnTop</altitudeLayer>
+    <statBases>
+      <MaxHitPoints>35</MaxHitPoints>
+      <Mass>2</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <passability>Standable</passability>
+    <terrainAffordanceNeeded IsNull="True" />
+    <building>
+      <isEdifice>false</isEdifice>
+      <isAttachment>true</isAttachment>
+    </building>
+    <placeWorkers>
+      <li>Placeworker_AttachedToWall</li>
+    </placeWorkers>
+    <comps Inherit="False">
+      <li Class="FB.CompProperties_FleshRegeneration">
+        <ticksPerHeal>2000</ticksPerHeal>
+        <ticksPerDamage>2000</ticksPerDamage>
+        <hemogelPerHeal>1</hemogelPerHeal>
+      </li>
+      <li Class="FB.CompProperties_SpawnPawnOnDestroy">
+        <pawnKind>Fingerspike</pawnKind>
+        <spawnCount>1</spawnCount>
+        <destroyEffecter>FleshmassDestroyed</destroyEffecter>
+        <spawnAsPlayerFactionIfPossible>true</spawnAsPlayerFactionIfPossible>
+        <forceSpawnedPawnMedCare>true</forceSpawnedPawnMedCare>
+        <spawnedPawnMedCare>NoMeds</spawnedPawnMedCare>
+      </li>
+      <li Class="FB.CompProperties_MarkSelfForAbsorption" />
+      <li Class="FB.CompProperties_HemogelUpkeep">
+        <hemogelPerHour>0.3</hemogelPerHour>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

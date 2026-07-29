@@ -634,3 +634,14 @@ docs/codex-token-workflow.md
 tools/codex-run.ps1
 tools/codex-def-index.ps1
 tools/codex-context.ps1
+ArtistGitTools/artist-create-branch.ps1
+ArtistGitTools/artist-git-common.ps1
+ArtistGitTools/artist-sync-main.ps1
+ArtistGitTools/artist-upload.ps1
+ArtistGitTools/CreateBranch.cmd
+ArtistGitTools/README.md
+ArtistGitTools/SyncMain.cmd
+ArtistGitTools/Upload.cmd
+Assemblies/FleshBeasts.dll
+ArtistGitTools/ArtistGitApp.ps1
+ArtistGitTools/StartApp.cmd

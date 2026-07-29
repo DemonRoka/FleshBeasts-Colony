@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <!-- Постройка: Colony Brain (FB_ColonyBrain) -->
   <ThingDef ParentName="BuildingColonyFleshBaseAnimation">
@@ -255,6 +255,7 @@
           <embryoDef>FB_DefenderIncubatorEmbryo</embryoDef>
           <label>FB_ColonyBrain_Structure_DefenderIncubator_Label</label>
           <texPath>Things/Building/FB_Organic/DefenderIncubator/DefenderIncubator</texPath>
+          <description>FB_ColonyBrain_Structure_DefenderIncubator_Desc</description>
           <drawSize>(2,2)</drawSize>
           <cost>450</cost>
           <requiredResearch>DefenderIncubatorResearch</requiredResearch>
@@ -311,6 +312,7 @@
         <li>
           <embryoDef>FB_MinionBroodseed</embryoDef>
           <label>FB_ColonyBrain_Structure_MinionBroodseed_Label</label>
+          <description>FB_ColonyBrain_Structure_MinionBroodseed_Desc</description>
           <texPath>Things/Building/FB_Organic/MinionsHive/MinionsHive</texPath>
           <drawSize>(2,2)</drawSize>
           <cost>500</cost>
@@ -381,6 +383,7 @@
         <li>
           <embryoDef>FB_FleshTunnelMawEmbryo</embryoDef>
           <label>FB_ColonyBrain_Structure_FleshTunnelMaw_Label</label>
+          <description>FB_ColonyBrain_Structure_FleshTunnelMaw_Desc</description>
           <texPath>Things/Building/FB_Organic/FleshTunnel/FleshTunnelMaw</texPath>
           <drawSize>(5,5)</drawSize>
           <cost>500</cost>

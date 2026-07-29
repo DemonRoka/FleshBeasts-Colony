@@ -708,7 +708,7 @@
       <enabledByDefault>true</enabledByDefault>
       <maxSimultaneous>3</maxSimultaneous>
       <searchRadius>60</searchRadius>
-      <checkIntervalTicks>3000</checkIntervalTicks>
+      <checkIntervalTicks>1000</checkIntervalTicks>
       <researchToAvoidFriendly>FB_FriendlyCaptureRecognition</researchToAvoidFriendly>
     </li>
     <li Class="FB.CompProperties_HemogelFarmFromTerrain">
@@ -930,60 +930,6 @@
       <drawSize>(0.1,0.1)</drawSize>
     </graphicData>
     <uiIconPath>Things/Building/FB_Organic/HemogelSac/HemogelSac</uiIconPath>
-  </ThingDef>
-  <!-- Постройка: Defender Incubator (FB_DefenderIncubator) -->
-  <ThingDef ParentName="BuildingColonyFleshBaseAnimation">
-    <defName>FB_DefenderIncubator</defName>
-    <label>Defender Incubator</label>
-    <description>A defensive incubator that spends hemogel to release short-lived fleshbeast defenders on command or when a hostile enters its detection radius.</description>
-    <size>(2,2)</size>
-    <statBases>
-      <Beauty>-20</Beauty>
-      <MaxHitPoints>300</MaxHitPoints>
-    </statBases>
-    <killedLeavingsRanges>
-      <Meat_Twisted>20~50</Meat_Twisted>
-    </killedLeavingsRanges>
-    <forceLeavingsAllowed>true</forceLeavingsAllowed>
-    <comps>
-      <li Class="FB.CompProperties_FleshAnimationManager">
-        <animationAmplitude>0.025</animationAmplitude>
-        <animationSideAmplitude>0.015</animationSideAmplitude>
-        <baseAnimationSpeed>0.9</baseAnimationSpeed>
-        <beatDurationTicks>20</beatDurationTicks>
-        <animatedParts>
-          <li>
-            <texturePath>Things/Building/FB_Organic/DefenderIncubator/DefenderIncubator</texturePath>
-            <positionOffset>(0, 0, 0)</positionOffset>
-            <textureScale>1.3</textureScale>
-            <animationAmplitude>0.05</animationAmplitude>
-            <animationSideAmplitude>0.035</animationSideAmplitude>
-            <animationInterval>0</animationInterval>
-            <animationOffset>0.0</animationOffset>
-            <altitudeLayer>0</altitudeLayer>
-            <rotationAngle>0</rotationAngle>
-            <beatDelay>0</beatDelay>
-          </li>
-        </animatedParts>
-      </li>
-      <li Class="FB.CompProperties_PawnSpawnerOnDemand">
-        <pawnKindToSpawn>FB_StingmiteKind</pawnKindToSpawn>
-        <pawnsToSpawn>4</pawnsToSpawn>
-        <rechargeTicks>90000</rechargeTicks>
-        <spawnRadius>3</spawnRadius>
-        <hemogelCost>0</hemogelCost>
-        <enemyDetectionRadius>20</enemyDetectionRadius>
-        <enemyScanIntervalTicks>60</enemyScanIntervalTicks>
-        <requireLineOfSight>true</requireLineOfSight>
-        <randomPawnChance>0.05</randomPawnChance>
-        <randomPawnKinds>
-          <li>FB_FingerspikeGauntletKind</li>
-        </randomPawnKinds>
-      </li>
-      <li Class="FB.CompProperties_HemogelUpkeep">
-        <hemogelPerHour>1</hemogelPerHour>
-      </li>
-    </comps>
   </ThingDef>
   <!-- Постройка: Photosynthetic Fleshleaf (FB_PhotosyntheticFleshleaf) -->
   <ThingDef ParentName="BuildingColonyFleshBaseAnimation">
@@ -2066,58 +2012,6 @@
     </li>
   </comps>
 </ThingDef>
-  <!-- Постройка: live cocoon growth (FB_LiveCocoonGrowth) -->
-  <ThingDef ParentName="BuildingColonyFleshBase">
-    <defName>FB_LiveCocoonGrowth</defName>
-    <label>live cocoon growth</label>
-    <description>A living wall-bloom of fleshmass—an anchored cocoon that swells within the colony’s walls. When needed, it can rupture and release a small flesh defender to aid the colony. Its membrane stays tense and quiet while it accumulates hemogel reserves.</description>
-    <rotatable>true</rotatable>
-    <graphicData>
-      <texPath>Things/Building/FB_Organic/LiveCocoonGrowth/LiveCocoonGrowth</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <drawOffsetNorth>(0,0,1)</drawOffsetNorth>
-      <drawOffsetSouth>(0,0,-1)</drawOffsetSouth>
-      <drawOffsetWest>(-0.9,0,0)</drawOffsetWest>
-      <drawOffsetEast>(0.9,0,0)</drawOffsetEast>
-      <drawSize>1.4</drawSize>
-      <damageData>
-        <enabled>false</enabled>
-      </damageData>
-    </graphicData>
-    <altitudeLayer>BuildingOnTop</altitudeLayer>
-    <statBases>
-      <MaxHitPoints>35</MaxHitPoints>
-      <Mass>2</Mass>
-      <Flammability>0</Flammability>
-    </statBases>
-    <passability>Standable</passability>
-    <terrainAffordanceNeeded IsNull="True" />
-    <building>
-      <isEdifice>false</isEdifice>
-      <isAttachment>true</isAttachment>
-    </building>
-    <placeWorkers>
-      <li>Placeworker_AttachedToWall</li>
-    </placeWorkers>
-    <comps Inherit="False">
-      <li Class="FB.CompProperties_FleshRegeneration">
-        <ticksPerHeal>2000</ticksPerHeal>
-        <ticksPerDamage>2000</ticksPerDamage>
-        <hemogelPerHeal>1</hemogelPerHeal>
-      </li>
-      <li Class="FB.CompProperties_SpawnPawnOnDestroy">
-        <pawnKind>Fingerspike</pawnKind>
-        <spawnCount>1</spawnCount>
-        <destroyEffecter>FleshmassDestroyed</destroyEffecter>
-        <forceSpawnedPawnMedCare>true</forceSpawnedPawnMedCare>
-        <spawnedPawnMedCare>NoMeds</spawnedPawnMedCare>
-      </li>
-      <li Class="FB.CompProperties_MarkSelfForAbsorption" />
-      <li Class="FB.CompProperties_HemogelUpkeep">
-        <hemogelPerHour>0.3</hemogelPerHour>
-      </li>
-    </comps>
-  </ThingDef>
   <!-- Постройка: sun flower (FB_FleshSunFlower) -->
   <ThingDef ParentName="BuildingColonyFleshBase">
     <defName>FB_FleshSunFlower</defName>
@@ -2368,129 +2262,6 @@
         <daysToComplete>1</daysToComplete>
         <completeEffecter>MeatExplosionSmall</completeEffecter>
         <destroyEffecter>MeatExplosionSmall</destroyEffecter>
-      </li>
-    </comps>
-  </ThingDef>
-  
-  
-  <!-- Постройка: minions hive (FB_MinionsHive) -->
-  <ThingDef ParentName="BuildingColonyFleshBase">
-    <defName>FB_MinionsHive</defName>
-    <label>minions hive</label>
-    <description>A hive of minions is an organic structure created by carriers of the HiveConstructor gene. This hive spawns small carnivorous creatures known as sclerats, which perform a variety of labor-intensive tasks such as building, dismantling, and transporting materials, greatly improving the colony's efficiency and productivity.</description>
-    <size>(2,2)</size>
-    <statBases>
-      <MaxHitPoints>300</MaxHitPoints>
-      <Beauty>-20</Beauty>
-    </statBases>
-    <tickerType>Normal</tickerType>
-    <graphicData>
-      <graphicClass>Graphic_Single</graphicClass>
-      <texPath>Things/Building/FB_Organic/MinionsHive/MinionsHive</texPath>
-      <drawSize>(3,3)</drawSize>
-    </graphicData>
-    <comps>
-      <li Class="FB.CompProperties_PawnContainer">
-        <showContainedPawnsInGizmos>True</showContainedPawnsInGizmos>
-        <maxCapacity>5</maxCapacity>
-      </li>
-      <li Class="FB.CompProperties_ReleaseAllMinions">
-        <iconPath>UI/Commands/ReleaseMinions</iconPath>
-      </li>
-      <li Class="FB.CompProperties_SpawnInitialMinions">
-        <pawnKind>FB_Sclerat</pawnKind>
-        <hemogelCostPerMinion>0</hemogelCostPerMinion>
-        <respawnTicksPerMinion>15000</respawnTicksPerMinion>
-      </li>
-      <li Class="FB.CompProperties_HemogelUpkeep">
-        <hemogelPerHour>1.2</hemogelPerHour>
-      </li>
-    </comps>
-  </ThingDef>
-  <!-- Постройка: symbiosis brood womb (FB_SymbiosisBroodWomb) -->
-  <ThingDef ParentName="BuildingColonyFleshBase">
-    <defName>FB_SymbiosisBroodWomb</defName>
-    <label>symbiosis brood womb</label>
-    <description>A swollen, pulsating womb-node grown from hemogel-fed biomass. It stores harvested skill essence and distills it into living defenders, while a bound maw scavenges nearby corpses to keep the node nourished.</description>
-    <graphicData>
-      <graphicClass>Graphic_Single</graphicClass>
-      <texPath>Things/Building/FB_Organic/SymbiosisBroodWomb/SymbiosisBroodWomb</texPath>
-      <drawSize>4.5</drawSize>
-      <damageData>
-        <rect>(0.10, 0.10, 0.80, 0.80)</rect>
-        <scratches>
-          <li>Damage/FleshScratch1</li>
-          <li>Damage/FleshScratch2</li>
-          <li>Damage/FleshScratch3</li>
-        </scratches>
-      </damageData>
-    </graphicData>
-    <inspectorTabs>
-      <li>FB.ITab_FleshbeastBills</li>
-      <li>FB.ITab_SymbiosisCore_Skills</li>
-    </inspectorTabs>
-    <size>(3,3)</size>
-    <passability>Impassable</passability>
-    <fillPercent>0.80</fillPercent>
-    <rotatable>false</rotatable>
-    <preventSkyfallersLandingOn>true</preventSkyfallersLandingOn>
-    <altitudeLayer>Building</altitudeLayer>
-    <tickerType>Normal</tickerType>
-    <statBases>
-      <MaxHitPoints>700</MaxHitPoints>
-      <Beauty>-25</Beauty>
-      <Flammability>0.7</Flammability>
-    </statBases>
-    <killedLeavingsRanges>
-      <Meat_Twisted>200~300</Meat_Twisted>
-    </killedLeavingsRanges>
-    <forceLeavingsAllowed>true</forceLeavingsAllowed>
-    <building>
-      <isEdifice>true</isEdifice>
-      <isInert>true</isInert>
-      <isTargetable>true</isTargetable>
-      <claimable>false</claimable>
-      <canBuildNonEdificesUnder>false</canBuildNonEdificesUnder>
-      <deconstructible>false</deconstructible>
-      <destroyEffecter>FleshmassDestroyed</destroyEffecter>
-    </building>
-    <comps>
-      <li Class="FB.CompProperties_SymbiosisCore">
-        <scanIntervalTicks>5000</scanIntervalTicks>
-        <scanRadius>4</scanRadius>
-      </li>
-      <li Class="FB.CompProperties_SpawnBoundPawnAdjacent">
-        <pawnKind>FB_SymbioHead</pawnKind>
-        <autoBindMawToCore>true</autoBindMawToCore>
-        <destroyPawnWithParent>true</destroyPawnWithParent>
-        <regrowAfterPawnDeath>true</regrowAfterPawnDeath>
-        <regrowthDurationTicks>60000</regrowthDurationTicks>
-        <regrowthHemogelCost>200</regrowthHemogelCost>
-        <regrowthTickInterval>250</regrowthTickInterval>
-      </li>
-      <li Class="FB.CompProperties_CreateCorpseZoneButton">
-        <radius>4</radius>
-        <zoneLabel>FB_CorpseStorageZone</zoneLabel>
-        <priority>Preferred</priority>
-        <skipCellsAlreadyInZones>true</skipCellsAlreadyInZones>
-        <skipCellsWithEdifice>true</skipCellsWithEdifice>
-        <iconPath>UI/Icons/CorpseStockpileZone</iconPath>
-      </li>
-      <li Class="FB.CompProperties_FleshbeastBillExecutor">
-        <checkIntervalTicks>250</checkIntervalTicks>
-        <recipes>
-          <li>FB_GrowCortexMiteFromSkillEssence</li>
-          <li>FB_GrowBurdenBlobFromSkillEssence</li>
-          <li>FB_GrowCarapaceExcavatorFromSkillEssence</li>
-          <li>FB_GrowScrapmeldNestlingFromSkillEssence</li>
-          <li>FB_GrowSinewcallerFromSkillEssence</li>
-          <li>FB_GrowGraftmawFromSkillEssence</li>
-          <li>FB_GrowCocoonbackFromSkillEssence</li>
-          <li>FB_GrowThrallbloomFromSkillEssence</li>
-        </recipes>
-      </li>
-      <li Class="FB.CompProperties_HemogelUpkeep">
-        <hemogelPerHour>0.8</hemogelPerHour>
       </li>
     </comps>
   </ThingDef>

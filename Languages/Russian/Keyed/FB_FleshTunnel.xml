@@ -5,7 +5,7 @@
   <FB_FleshTunnelNoFleshbeastsToReturn>На этой карте нет доступных флешбистов, способных вернуться через туннель.</FB_FleshTunnelNoFleshbeastsToReturn>
   <FB_FleshTunnelCallAllHomeResult>Через туннель домой отправлено флешбистов: {0}. Пропущено: {1}.</FB_FleshTunnelCallAllHomeResult>
   <FB_FleshTunnelCollapseExitLabel>Захлопнуть туннель</FB_FleshTunnelCollapseExitLabel>
-  <FB_FleshTunnelCollapseExitDesc>Захлопывает этот выход туннеля и безвозвратно уничтожает его локацию. Всё оставшееся там будет потеряно.</FB_FleshTunnelCollapseExitDesc>
-  <FB_FleshTunnelCollapseExitConfirm>Захлопнуть плотяной туннель и безвозвратно уничтожить связанную локацию? Все оставшиеся там пешки и предметы будут потеряны.</FB_FleshTunnelCollapseExitConfirm>
+  <FB_FleshTunnelCollapseExitDesc>Захлопывает этот выход и весь связанный туннель, безвозвратно уничтожая его локацию. Всё оставшееся там будет потеряно.</FB_FleshTunnelCollapseExitDesc>
+  <FB_FleshTunnelCollapseExitConfirm>Захлопнуть весь плотяной туннель? Это уничтожит выход, оборвёт связь с исходной пастью и безвозвратно удалит связанную локацию. Все оставшиеся там пешки и предметы будут потеряны.</FB_FleshTunnelCollapseExitConfirm>
   <FB_FleshTunnelNoWorldAnchor>Плотяной туннель не может определить мировую клетку этой карманной карты.</FB_FleshTunnelNoWorldAnchor>
 </LanguageData>

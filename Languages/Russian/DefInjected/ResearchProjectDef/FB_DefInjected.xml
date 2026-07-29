@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <DefenderIncubatorResearch.description>Открывает защитный инкубатор — питаемый гемогелем выводковый орган, способный выпускать группы пальцешипов по приказу или при нападении на колонию.</DefenderIncubatorResearch.description>
+  <DefenderIncubatorResearch.description>Открывает инкубатор защитников - выводковый орган, который периодически выпускает недолговечных флешбистов по приказу или при приближении врагов.</DefenderIncubatorResearch.description>
   <DefenderIncubatorResearch.generalRules.rulesStrings.0>subject-&gt;инкубация защитников из плоти</DefenderIncubatorResearch.generalRules.rulesStrings.0>
   <DefenderIncubatorResearch.generalRules.rulesStrings.1>subject_story-&gt;вырастил биомассу в стражей</DefenderIncubatorResearch.generalRules.rulesStrings.1>
   <DefenderIncubatorResearch.generalRules.rulesStrings.2>subject_story-&gt;породил органических защитников</DefenderIncubatorResearch.generalRules.rulesStrings.2>

@@ -15,7 +15,10 @@
   <FB_GraspingTendrils_RitualProtected>Target is already being accepted by the flesh colony.</FB_GraspingTendrils_RitualProtected>
   <FB_GraspingTendrils_NoFreeSlots>No free grasping tendril slots.</FB_GraspingTendrils_NoFreeSlots>
   <FB_GraspingTendrils_NoFreeSlotsNext>No free grasping tendril slots. Next slot ready in: {0}.</FB_GraspingTendrils_NoFreeSlotsNext>
-  <FB_GraspingTendrils_AutoDelay>Auto capture delay on flesh ground: {0} ticks.</FB_GraspingTendrils_AutoDelay>
+  <FB_GraspingTendrils_AutoDelay>Auto capture delay on flesh ground: {0}.</FB_GraspingTendrils_AutoDelay>
+  <FB_GraspingTendrilsHoldingInspect>Holding: {0}</FB_GraspingTendrilsHoldingInspect>
+  <FB_ReleaseGraspingTendrils>Release prey</FB_ReleaseGraspingTendrils>
+  <FB_ReleaseGraspingTendrilsDesc>Release the held pawn onto the tendrils' cell and wither this temporary growth.</FB_ReleaseGraspingTendrilsDesc>
   <FB_GraspingPolicy_Tab>Grasping</FB_GraspingPolicy_Tab>
   <FB_GraspingPolicy_SearchTooltip>Filter this list by name or defName.</FB_GraspingPolicy_SearchTooltip>
   <FB_GraspingPolicy_Summary>Grasping tendrils: {0} / {1}</FB_GraspingPolicy_Summary>
