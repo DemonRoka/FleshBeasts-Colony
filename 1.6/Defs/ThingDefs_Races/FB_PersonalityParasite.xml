@@ -52,8 +52,8 @@
       </li>
     </tools>
     <race>
-      <thinkTreeMain>Fleshbeast</thinkTreeMain>
-      <thinkTreeConstant>FleshbeastConstant</thinkTreeConstant>
+      <thinkTreeMain>FB_FleshbeastStandardMain</thinkTreeMain>
+      <thinkTreeConstant>FB_FleshbeastStandardConstant</thinkTreeConstant>
       <body>FB_ParasiteBody</body>
       <foodType>None</foodType>
       <canBePredatorPrey>false</canBePredatorPrey>

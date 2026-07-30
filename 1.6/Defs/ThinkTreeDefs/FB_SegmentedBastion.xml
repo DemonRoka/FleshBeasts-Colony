@@ -1,44 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <!-- Дерево мышления: bastion spine segment (FB_BastionSpineSegmentMain) -->
-  <ThinkTreeDef>
+  <ThinkTreeDef ParentName="FB_FleshbeastBaseMain">
     <defName>FB_BastionSpineSegmentMain</defName>
-    <thinkRoot Class="ThinkNode_Priority">
+    <thinkRoot Class="FB.ThinkNode_FleshbeastBehaviorPriority">
       <subNodes>
-        <li Class="ThinkNode_Subtree">
-          <treeDef>Despawned</treeDef>
-        </li>
-        <li Class="ThinkNode_Subtree">
-          <treeDef>Downed</treeDef>
-        </li>
-        <li Class="ThinkNode_Subtree">
-          <treeDef>BurningResponse</treeDef>
-        </li>
-        <li Class="ThinkNode_Subtree">
-          <treeDef>MentalStateCritical</treeDef>
-        </li>
-        <li Class="ThinkNodeConditional_EscapingHoldingPlatform">
-          <subNodes>
-            <li Class="JobGiver_EscapingHoldingPlatform" />
-          </subNodes>
-        </li>
-        <li Class="ThinkNode_QueuedJob" />
-        <li Class="ThinkNode_Subtree">
-          <treeDef>MentalStateNonCritical</treeDef>
-        </li>
-        <li Class="ThinkNode_Subtree">
-          <treeDef>RopedPawn</treeDef>
-        </li>
-        <li Class="ThinkNode_ConditionalForcedGoto">
-          <subNodes>
-            <li Class="ThinkNode_Tagger">
-              <tagToGive>Misc</tagToGive>
-              <subNodes>
-                <li Class="JobGiver_ForcedGoto" />
-              </subNodes>
-            </li>
-          </subNodes>
-        </li>
         <li Class="FB.JobGiver_StaticAbilityFight">
           <targetAcquireRadius>18.5</targetAcquireRadius>
           <targetKeepRadius>20.5</targetKeepRadius>
@@ -73,23 +39,11 @@
       </subNodes>
     </thinkRoot>
   </ThinkTreeDef>
-
   <!-- Дерево мышления: bastion spine segment constant (FB_BastionSpineSegmentConstant) -->
-  <ThinkTreeDef>
+  <ThinkTreeDef ParentName="FB_FleshbeastBaseConstantWithLordDuty">
     <defName>FB_BastionSpineSegmentConstant</defName>
-    <thinkRoot Class="ThinkNode_Priority">
-      <subNodes>
-        <li Class="ThinkNode_Subtree">
-          <treeDef>Despawned</treeDef>
-        </li>
-        <li Class="ThinkNode_ConditionalCanDoLordJobNow">
-          <subNodes>
-            <li Class="ThinkNode_Subtree">
-              <treeDef>LordDutyConstant</treeDef>
-            </li>
-          </subNodes>
-        </li>
-      </subNodes>
+    <thinkRoot Class="FB.ThinkNode_FleshbeastBehaviorPriority">
+      <subNodes></subNodes>
     </thinkRoot>
   </ThinkTreeDef>
 </Defs>

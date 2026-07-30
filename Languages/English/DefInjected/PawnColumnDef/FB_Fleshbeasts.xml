@@ -2,4 +2,6 @@
 <LanguageData>
   <FB_FleshbeastKind.label>species</FB_FleshbeastKind.label>
   <FB_FleshbeastGroup.label>group</FB_FleshbeastGroup.label>
+  <FB_FleshbeastBehavior.headerTip>Fleshbeast behavior</FB_FleshbeastBehavior.headerTip>
+  <FB_FleshbeastMedicalCare.headerTip>Medical care</FB_FleshbeastMedicalCare.headerTip>
 </LanguageData>

@@ -34,8 +34,8 @@
       <baseHealthScale>0.55</baseHealthScale>
       <lifeExpectancy>18</lifeExpectancy>
       <renderTree>Animal</renderTree>
-      <thinkTreeMain>Fleshbeast</thinkTreeMain>
-      <thinkTreeConstant>FleshbeastConstant</thinkTreeConstant>
+      <thinkTreeMain>FB_FleshbeastStandardMain</thinkTreeMain>
+      <thinkTreeConstant>FB_FleshbeastStandardConstant</thinkTreeConstant>
       <needsRest>false</needsRest>
       <hasGenders>false</hasGenders>
       <foodType>None</foodType>

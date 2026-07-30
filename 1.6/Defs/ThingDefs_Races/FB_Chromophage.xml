@@ -12,6 +12,8 @@
     </statBases>
     <uiIconPath>Things/Pawn/FB_Chromophage/Chromophage_MenuIcon</uiIconPath>
     <race>
+      <thinkTreeMain>FB_FleshbeastStandardMain</thinkTreeMain>
+      <thinkTreeConstant>FB_FleshbeastStandardConstant</thinkTreeConstant>
       <body>Bulbfreak</body>
       <baseBodySize>3.6</baseBodySize>
       <baseHealthScale>0.32</baseHealthScale>

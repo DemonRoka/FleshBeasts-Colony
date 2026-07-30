@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_LivingWeaponPersonality_SoothingPulse.label>soothing pulse</FB_LivingWeaponPersonality_SoothingPulse.label>
+  <FB_LivingWeaponPersonality_SoothingPulse.description>This weapon's simple mind settles into a warm, steady rhythm.</FB_LivingWeaponPersonality_SoothingPulse.description>
+  <FB_LivingWeaponPersonality_PredatoryAppetite.label>predatory appetite</FB_LivingWeaponPersonality_PredatoryAppetite.label>
+  <FB_LivingWeaponPersonality_PredatoryAppetite.description>This weapon's simple mind urges the wielder toward fresh violence.</FB_LivingWeaponPersonality_PredatoryAppetite.description>
+  <FB_LivingWeaponPersonality_RestlessNerves.label>restless nerves</FB_LivingWeaponPersonality_RestlessNerves.label>
+  <FB_LivingWeaponPersonality_RestlessNerves.description>This weapon's simple mind chatters with twitching, impatient signals.</FB_LivingWeaponPersonality_RestlessNerves.description>
+  <FB_LivingWeaponPersonality_GuardingWill.label>guarding will</FB_LivingWeaponPersonality_GuardingWill.label>
+  <FB_LivingWeaponPersonality_GuardingWill.description>This weapon's simple mind presses close, protective and watchful.</FB_LivingWeaponPersonality_GuardingWill.description>
+</LanguageData>

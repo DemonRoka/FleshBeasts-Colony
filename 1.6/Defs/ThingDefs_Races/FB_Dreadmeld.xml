@@ -12,6 +12,8 @@
     </statBases>
     <uiIconPath>Things/Pawn/Fleshbeast/Dreadmeld/Dreadmeld_MenuIcon</uiIconPath>
     <race>
+      <thinkTreeMain>FB_FleshbeastStandardMain</thinkTreeMain>
+      <thinkTreeConstant>FB_FleshbeastStandardConstant</thinkTreeConstant>
       <body>Dreadmeld</body>
       <baseBodySize>5</baseBodySize>
       <baseHealthScale>10</baseHealthScale>

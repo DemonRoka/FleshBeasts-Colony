@@ -38,7 +38,7 @@
       <lifeExpectancy>20</lifeExpectancy>
       <renderTree>Animal</renderTree>
       <thinkTreeMain>FB_ThrallbloomMain</thinkTreeMain>
-      <thinkTreeConstant>FleshbeastConstant</thinkTreeConstant>
+      <thinkTreeConstant>FB_FleshbeastStandardConstant</thinkTreeConstant>
       <needsRest>false</needsRest>
       <hasGenders>false</hasGenders>
       <foodType>None</foodType>

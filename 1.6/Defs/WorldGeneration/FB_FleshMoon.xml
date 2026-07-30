@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
 	<BiomeDef>
@@ -16,6 +16,24 @@
 		<animalDensity>0</animalDensity>
 		<plantDensity>0</plantDensity>
 		<impassable>true</impassable>
+		<hasVirtualPlants>false</hasVirtualPlants>
+		<texture>World/FleshMoon/FleshMoonSurface</texture>
+	</BiomeDef>
+
+	<BiomeDef>
+		<defName>FB_CrashedFleshMoonBiome</defName>
+		<label>fallen flesh moon</label>
+		<description>A ruptured impact biome left where the starving flesh moon fell back to the planet.</description>
+		<workerClass>RimWorld.BiomeWorker_TemperateForest</workerClass>
+		<generatesNaturally>false</generatesNaturally>
+		<canBuildBase>true</canBuildBase>
+		<canAutoChoose>false</canAutoChoose>
+		<constantOutdoorTemperature>21</constantOutdoorTemperature>
+		<allowRoads>false</allowRoads>
+		<allowRivers>false</allowRivers>
+		<allowFarmingCamps>false</allowFarmingCamps>
+		<animalDensity>0</animalDensity>
+		<plantDensity>0</plantDensity>
 		<hasVirtualPlants>false</hasVirtualPlants>
 		<texture>World/FleshMoon/FleshMoonSurface</texture>
 	</BiomeDef>
@@ -55,4 +73,6 @@
 		</worldTabs>
 	</PlanetLayerDef>
 
-</Defs>
+
+
+	</Defs>

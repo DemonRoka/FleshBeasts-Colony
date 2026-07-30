@@ -6,8 +6,8 @@
     <label>flesh thrall</label>
     <description>A corpse-puppet driven by colony flesh from within. It keeps the body it was given, missing parts and all.</description>
     <hediff>FB_FleshThrall</hediff>
-    <thinkTree>Shambler</thinkTree>
-    <thinkTreeConstant>ShamblerConstant</thinkTreeConstant>
+    <thinkTree>FB_FleshThrallMain</thinkTree>
+    <thinkTreeConstant>FB_FleshThrallConstant</thinkTreeConstant>
     <hideLabel>true</hideLabel>
     <namePrefix>flesh-thrall </namePrefix>
     <useCorpseGraphics>true</useCorpseGraphics>

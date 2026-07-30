@@ -28,7 +28,7 @@
       <intelligence>ToolUser</intelligence>
       <trainability>None</trainability>
       <thinkTreeMain>FB_CortexMiteMain</thinkTreeMain>
-      <thinkTreeConstant>FleshbeastConstant</thinkTreeConstant>
+      <thinkTreeConstant>FB_FleshbeastStandardConstant</thinkTreeConstant>
       <needsRest>false</needsRest>
       <hasGenders>false</hasGenders>
       <foodType>None</foodType>

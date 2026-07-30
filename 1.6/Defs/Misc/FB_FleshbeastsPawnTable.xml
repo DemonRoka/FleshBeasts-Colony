@@ -15,9 +15,22 @@
     <width>145</width>
   </PawnColumnDef>
 
+  
+  <PawnColumnDef>
+    <defName>FB_FleshbeastBehavior</defName>
+    <headerIcon>UI/Icons/PawnHostility</headerIcon>
+    <workerClass>FB.PawnColumnWorker_FleshbeastBehavior</workerClass>
+    <headerTip>Fleshbeast behavior</headerTip>
+    <sortable>true</sortable>
+    <width>28</width>
+  </PawnColumnDef>
+
   <PawnColumnDef>
     <defName>FB_FleshbeastMedicalCare</defName>
     <workerClass>FB.PawnColumnWorker_FleshbeastMedicalCare</workerClass>
+    <headerIcon>UI/Icons/ThingCategories/Medicine</headerIcon>
+    <headerTip>Medical care</headerTip>
+    <sortable>true</sortable>
   </PawnColumnDef>
 
   <PawnColumnDef>
@@ -38,6 +51,7 @@
     <columns>
       <li>FB_FleshbeastKind</li>
       <li>FB_FleshbeastGroup</li>
+      <li>FB_FleshbeastBehavior</li>
       <li>FB_FleshbeastMedicalCare</li>
       <li>FB_FleshbeastCommandGap</li>
       <li>FB_FleshbeastAllowedAreaWide</li>

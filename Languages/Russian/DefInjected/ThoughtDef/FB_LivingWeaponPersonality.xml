@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_LivingWeaponThought_SoothingPulse.stages.0.label>успокаивающий пульс {WEAPON}</FB_LivingWeaponThought_SoothingPulse.stages.0.label>
+  <FB_LivingWeaponThought_SoothingPulse.stages.0.description>{WEAPON} медленно пульсирует в руке. Этот ритм выравнивает мои мысли.</FB_LivingWeaponThought_SoothingPulse.stages.0.description>
+  <FB_LivingWeaponThought_PredatoryAppetite.stages.0.label>хищный голод {WEAPON}</FB_LivingWeaponThought_PredatoryAppetite.stages.0.label>
+  <FB_LivingWeaponThought_PredatoryAppetite.stages.0.description>{WEAPON} хочет свежего мяса и быстрых ударов. Его голод делает насилие простым.</FB_LivingWeaponThought_PredatoryAppetite.stages.0.description>
+  <FB_LivingWeaponThought_RestlessNerves.stages.0.label>беспокойные нервы {WEAPON}</FB_LivingWeaponThought_RestlessNerves.stages.0.label>
+  <FB_LivingWeaponThought_RestlessNerves.stages.0.description>{WEAPON} подрагивает и шепчет через рукоять. Его случайные импульсы ползут у меня под кожей.</FB_LivingWeaponThought_RestlessNerves.stages.0.description>
+  <FB_LivingWeaponThought_GuardingWill.stages.0.label>охранная воля {WEAPON}</FB_LivingWeaponThought_GuardingWill.stages.0.label>
+  <FB_LivingWeaponThought_GuardingWill.stages.0.description>{WEAPON} оборачивает вокруг меня своё внимание, настороженное и защитное. Я чувствую, что за мной присматривают.</FB_LivingWeaponThought_GuardingWill.stages.0.description>
+</LanguageData>

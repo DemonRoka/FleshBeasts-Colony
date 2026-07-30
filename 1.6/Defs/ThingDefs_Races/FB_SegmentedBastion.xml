@@ -17,6 +17,8 @@
     </statBases>
     <uiIconPath>Things/Pawn/FB_SegmentedBastion/SegmentedBastion</uiIconPath>
     <race>
+      <thinkTreeMain>FB_FleshbeastStandardMain</thinkTreeMain>
+      <thinkTreeConstant>FB_FleshbeastStandardConstant</thinkTreeConstant>
       <body>FB_SegmentedBastionBody</body>
       <baseBodySize>3.2</baseBodySize>
       <baseHealthScale>1.25</baseHealthScale>
@@ -77,7 +79,6 @@
       </li>
     </tools>
   </ThingDef>
-
   <!-- Раса: bastion spine segment (FB_BastionSpineSegment) -->
   <ThingDef ParentName="BaseFleshbeast">
     <defName>FB_BastionSpineSegment</defName>

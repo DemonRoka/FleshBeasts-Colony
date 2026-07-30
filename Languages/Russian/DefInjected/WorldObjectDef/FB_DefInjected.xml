@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_FleshTunnelDestination.description>Дальний тайл, пробитый укоренённым плотяным туннелем.</FB_FleshTunnelDestination.description>
   <FB_FleshTunnelDestination.label>плотяной туннель</FB_FleshTunnelDestination.label>
@@ -7,4 +7,7 @@
 
   <FB_FleshMoonSurfaceAnchor.label>якорь луны плоти</FB_FleshMoonSurfaceAnchor.label>
   <FB_FleshMoonSurfaceAnchor.description>Точка поверхности, пробитая небесной пуповиной луны плоти.</FB_FleshMoonSurfaceAnchor.description>
+
+  <FB_FleshMoonCrashSite.label>упавшая луна плоти</FB_FleshMoonCrashSite.label>
+  <FB_FleshMoonCrashSite.description>Шрам на поверхности, где голодающая луна плоти рухнула и расплескалась по местности.</FB_FleshMoonCrashSite.description>
 </LanguageData>

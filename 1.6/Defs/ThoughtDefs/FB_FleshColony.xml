@@ -136,4 +136,61 @@
       </li>
     </stages>
   </ThoughtDef>
+
+  <!-- Мысли: личность живого оружия -->
+  <ThoughtDef>
+    <defName>FB_LivingWeaponThought_SoothingPulse</defName>
+    <workerClass>FB.ThoughtWorker_LivingWeaponPersonalityEquipped</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+    <stages>
+      <li>
+        <label>{WEAPON}'s soothing pulse</label>
+        <description>{WEAPON} settles into a slow pulse against my hand. The rhythm steadies my thoughts.</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>FB_LivingWeaponThought_PredatoryAppetite</defName>
+    <workerClass>FB.ThoughtWorker_LivingWeaponPersonalityEquipped</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+    <stages>
+      <li>
+        <label>{WEAPON}'s predatory appetite</label>
+        <description>{WEAPON} wants fresh meat and quick cuts. Its hunger makes violence feel easy.</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>FB_LivingWeaponThought_RestlessNerves</defName>
+    <workerClass>FB.ThoughtWorker_LivingWeaponPersonalityEquipped</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+    <stages>
+      <li>
+        <label>{WEAPON}'s restless nerves</label>
+        <description>{WEAPON} twitches and mutters through the grip. Its stray impulses keep crawling under my skin.</description>
+        <baseMoodEffect>-3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>FB_LivingWeaponThought_GuardingWill</defName>
+    <workerClass>FB.ThoughtWorker_LivingWeaponPersonalityEquipped</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+    <stages>
+      <li>
+        <label>{WEAPON}'s guarding will</label>
+        <description>{WEAPON} curls its awareness around me, alert and protective. I feel watched over.</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
 </Defs>

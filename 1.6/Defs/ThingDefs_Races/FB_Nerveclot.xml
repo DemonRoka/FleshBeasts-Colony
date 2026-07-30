@@ -35,7 +35,7 @@
       <lifeExpectancy>18</lifeExpectancy>
       <renderTree>Animal</renderTree>
       <thinkTreeMain>FB_NerveclotMain</thinkTreeMain>
-      <thinkTreeConstant>FleshbeastConstant</thinkTreeConstant>
+      <thinkTreeConstant>FB_FleshbeastStandardConstant</thinkTreeConstant>
       <needsRest>false</needsRest>
       <hasGenders>false</hasGenders>
       <foodType>None</foodType>

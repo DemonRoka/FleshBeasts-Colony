@@ -2,4 +2,7 @@
 <LanguageData>
   <FB_FleshMoonBiome.label>flesh moon</FB_FleshMoonBiome.label>
   <FB_FleshMoonBiome.description>A budded orbital mass formed from an entire flesh colony.</FB_FleshMoonBiome.description>
+
+  <FB_CrashedFleshMoonBiome.label>fallen flesh moon</FB_CrashedFleshMoonBiome.label>
+  <FB_CrashedFleshMoonBiome.description>A ruptured impact biome left where the starving flesh moon fell back to the planet.</FB_CrashedFleshMoonBiome.description>
 </LanguageData>

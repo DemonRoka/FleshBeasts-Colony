@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_ColonyBrain_Structure_CelestialUmbilicus_Label>Celestial Umbilicus</FB_ColonyBrain_Structure_CelestialUmbilicus_Label>
   <FB_ColonyBrain_Structure_CelestialUmbilicus_Desc>Grows a living orbital tether by consuming hemogel power from the colony network.</FB_ColonyBrain_Structure_CelestialUmbilicus_Desc>
@@ -57,7 +57,7 @@
   <FB_FleshMoonWorldObjectNoUmbilicus>The celestial umbilicus is no longer available.</FB_FleshMoonWorldObjectNoUmbilicus>
 
   <FB_FleshMoonWorldObjectMoveLabel>Move flesh moon</FB_FleshMoonWorldObjectMoveLabel>
-  <FB_FleshMoonWorldObjectMoveDesc>Choose a surface tile and send the flesh moon drifting toward it. Moving severs the current umbilicus link.</FB_FleshMoonWorldObjectMoveDesc>
+  <FB_FleshMoonWorldObjectMoveDesc>Choose a surface tile and send the flesh moon drifting toward it. The surface umbilicus must be detached first.</FB_FleshMoonWorldObjectMoveDesc>
   <FB_FleshMoonWorldObjectAnchorLabel>Anchor umbilicus</FB_FleshMoonWorldObjectAnchorLabel>
   <FB_FleshMoonWorldObjectAnchorDesc>Load the surface tile below the flesh moon, pause the game, and choose the exact impact site for the celestial umbilicus.</FB_FleshMoonWorldObjectAnchorDesc>
   <FB_FleshMoonWorldObjectDetachLabel>Detach umbilicus</FB_FleshMoonWorldObjectDetachLabel>
@@ -65,6 +65,7 @@
   <FB_FleshMoonWorldObjectInactiveDisabled>The flesh moon is not active.</FB_FleshMoonWorldObjectInactiveDisabled>
   <FB_FleshMoonWorldObjectAbsorbingDisabled>The flesh moon is absorbing the colony.</FB_FleshMoonWorldObjectAbsorbingDisabled>
   <FB_FleshMoonWorldObjectMovingDisabled>The flesh moon is already moving.</FB_FleshMoonWorldObjectMovingDisabled>
+  <FB_FleshMoonWorldObjectMoveLinkedDisabled>Detach the surface umbilicus before moving the flesh moon.</FB_FleshMoonWorldObjectMoveLinkedDisabled>
   <FB_FleshMoonWorldObjectAnchorMovingDisabled>The flesh moon must finish moving before it can anchor.</FB_FleshMoonWorldObjectAnchorMovingDisabled>
   <FB_FleshMoonWorldObjectAnchorIncomingDisabled>The celestial umbilicus is already falling toward the chosen site.</FB_FleshMoonWorldObjectAnchorIncomingDisabled>
   <FB_FleshMoonWorldObjectAnchorLinkedDisabled>The flesh moon is already anchored.</FB_FleshMoonWorldObjectAnchorLinkedDisabled>
@@ -106,4 +107,18 @@
   <FB_FleshMoonUmbilicusRegrowthComplete>Celestial umbilicus regrowth complete.</FB_FleshMoonUmbilicusRegrowthComplete>
   <FB_FleshMoonUmbilicusRegrowthCommandLabel>Regrow celestial umbilicus</FB_FleshMoonUmbilicusRegrowthCommandLabel>
   <FB_FleshMoonUmbilicusRegrowthCommandDesc>Start growing a replacement umbilicus inside the flesh moon. It takes three days and raises umbilicus upkeep to {0}/h; if it cannot be fed, growth stalls.</FB_FleshMoonUmbilicusRegrowthCommandDesc>
+
+  <FB_FleshMoonStarvationLetterLabel>Flesh moon starving</FB_FleshMoonStarvationLetterLabel>
+  <FB_FleshMoonStarvationLetterText>The flesh moon has exhausted its hemogel reserve while its lunar hemogel balance is {1}/h. Feed it or restore a non-negative balance within {0}, or it will fall onto the surface below.</FB_FleshMoonStarvationLetterText>
+  <FB_FleshMoonStarvationCountdown>Flesh moon collapse countdown: {0} remaining; balance {1}/h.</FB_FleshMoonStarvationCountdown>
+  <FB_FleshMoonCrashGeneratingMap>Flesh moon impact...</FB_FleshMoonCrashGeneratingMap>
+  <FB_FleshMoonCrashedLetterLabel>Flesh moon impact</FB_FleshMoonCrashedLetterLabel>
+  <FB_FleshMoonCrashedLetterText>The starving flesh moon has fallen onto the surface below. Living creatures on the impact map vanish without corpses, player pawns are thrown into the center, and exposed terrain and things are buried under fresh and rotten flesh.</FB_FleshMoonCrashedLetterText>
+  <FB_FleshMoonCrashUnavailable>The flesh moon cannot fall now.</FB_FleshMoonCrashUnavailable>
+  <FB_FleshMoonCrashNoSurfaceTile>The flesh moon has no valid surface tile below it.</FB_FleshMoonCrashNoSurfaceTile>
+  <FB_FleshMoonCrashFailed>Failed to generate the flesh moon impact map.</FB_FleshMoonCrashFailed>
+  <FB_FleshMoonInspectCrashed>The flesh moon has fallen onto the surface.</FB_FleshMoonInspectCrashed>
+  <FB_FleshMoonSurfaceAnchorInspectCrashed>Flesh moon impact site.</FB_FleshMoonSurfaceAnchorInspectCrashed>
+  <FB_FleshMoonCrashDevLabel>DEV: crash flesh moon</FB_FleshMoonCrashDevLabel>
+  <FB_FleshMoonCrashDevDesc>Immediately drop the flesh moon onto the surface tile below it.</FB_FleshMoonCrashDevDesc>
 </LanguageData>

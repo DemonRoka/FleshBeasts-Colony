@@ -1,50 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <!-- Дерево мышления: FB_RotlarvaMain -->
-  <ThinkTreeDef>
+  <ThinkTreeDef ParentName="FB_FleshbeastBaseMainWithMeleeThreat">
     <defName>FB_RotlarvaMain</defName>
-    <thinkRoot Class="ThinkNode_Priority">
+    <thinkRoot Class="FB.ThinkNode_FleshbeastBehaviorPriority">
       <subNodes>
         <li Class="FB.JobGiver_RotlarvaConsumeFleshmass">
           <searchRadius>60</searchRadius>
           <jobExpiryInterval>900</jobExpiryInterval>
           <eatDurationTicks>1000</eatDurationTicks>
           <threatScanRadius>12</threatScanRadius>
-        </li>
-        <li Class="ThinkNode_ConditionalMustKeepLyingDown">
-          <subNodes>
-            <li Class="ThinkNode_QueuedJob">
-              <inBedOnly>true</inBedOnly>
-            </li>
-            <li Class="JobGiver_KeepLyingDown" />
-          </subNodes>
-        </li>
-        <li Class="ThinkNode_Subtree">
-          <treeDef>Downed</treeDef>
-        </li>
-        <li Class="ThinkNode_Subtree">
-          <treeDef>BurningResponse</treeDef>
-        </li>
-        <li Class="ThinkNode_Subtree">
-          <treeDef>MentalStateCritical</treeDef>
-        </li>
-        <li Class="JobGiver_ReactToCloseMeleeThreat" />
-        <li Class="ThinkNode_QueuedJob" />
-        <li Class="ThinkNode_Subtree">
-          <treeDef>MentalStateNonCritical</treeDef>
-        </li>
-        <li Class="ThinkNode_Subtree">
-          <treeDef>RopedPawn</treeDef>
-        </li>
-        <li Class="ThinkNode_ConditionalForcedGoto">
-          <subNodes>
-            <li Class="ThinkNode_Tagger">
-              <tagToGive>Misc</tagToGive>
-              <subNodes>
-                <li Class="JobGiver_ForcedGoto" />
-              </subNodes>
-            </li>
-          </subNodes>
         </li>
         <li Class="ThinkNode_Subtree">
           <treeDef>LordDuty</treeDef>
@@ -63,13 +28,10 @@
     </thinkRoot>
   </ThinkTreeDef>
   <!-- Дерево мышления: FB_WorkingMinions -->
-  <ThinkTreeDef>
+  <ThinkTreeDef ParentName="FB_FleshbeastBaseMain">
     <defName>FB_WorkingMinions</defName>
-    <thinkRoot Class="ThinkNode_Priority">
+    <thinkRoot Class="FB.ThinkNode_FleshbeastBehaviorPriority">
       <subNodes>
-        <li Class="ThinkNode_Subtree">
-          <treeDef>Downed</treeDef>
-        </li>
         <li Class="FB.ThinkNode_ConditionalSpawned">
           <subNodes>
             <li Class="FB.JobGiver_DoWorkOld" />
@@ -81,23 +43,17 @@
     </thinkRoot>
   </ThinkTreeDef>
   <!-- Дерево мышления: FB_WorkingMinionsConstant -->
-  <ThinkTreeDef>
+  <ThinkTreeDef ParentName="FB_FleshbeastBaseConstant">
     <defName>FB_WorkingMinionsConstant</defName>
-    <thinkRoot Class="ThinkNode_Priority">
+    <thinkRoot Class="FB.ThinkNode_FleshbeastBehaviorPriority">
       <subNodes />
     </thinkRoot>
   </ThinkTreeDef>
   <!-- Дерево мышления: FB_PersonalityParasite -->
-  <ThinkTreeDef>
+  <ThinkTreeDef ParentName="FB_FleshbeastBaseMain">
     <defName>FB_PersonalityParasite</defName>
-    <thinkRoot Class="ThinkNode_Priority">
+    <thinkRoot Class="FB.ThinkNode_FleshbeastBehaviorPriority">
       <subNodes>
-        <li Class="ThinkNode_Subtree">
-          <treeDef>Downed</treeDef>
-        </li>
-        <li Class="ThinkNode_Subtree">
-          <treeDef>BurningResponse</treeDef>
-        </li>
         <li Class="FB.JobGiver_PersonalityParasiteWanderHome" />
       </subNodes>
     </thinkRoot>
@@ -178,13 +134,10 @@
       </subNodes>
     </thinkRoot>
   </ThinkTreeDef>
-  <ThinkTreeDef>
+  <ThinkTreeDef ParentName="FB_FleshbeastBaseConstant">
     <defName>FB_RotlarvaConstant</defName>
-    <thinkRoot Class="ThinkNode_Priority">
+    <thinkRoot Class="FB.ThinkNode_FleshbeastBehaviorPriority">
       <subNodes>
-        <li Class="ThinkNode_Subtree">
-          <treeDef>Despawned</treeDef>
-        </li>
         <li Class="ThinkNode_ConditionalCanDoConstantThinkTreeJobNow">
           <subNodes>
             <li Class="JobGiver_AnimalFlee" />

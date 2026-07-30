@@ -29,7 +29,7 @@
       <intelligence>ToolUser</intelligence>
       <trainability>None</trainability>
       <thinkTreeMain>FB_FerrimawMain</thinkTreeMain>
-      <thinkTreeConstant>FleshbeastConstant</thinkTreeConstant>
+      <thinkTreeConstant>FB_FleshbeastStandardConstant</thinkTreeConstant>
       <specificMeatDef>Meat_Twisted</specificMeatDef>
       <canOpenFactionlessDoors>false</canOpenFactionlessDoors>
       <needsRest>false</needsRest>

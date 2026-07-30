@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Flesh thralls keep shambler AI semantics, but use mod-owned tree defs for later behavior-mode integration. -->
+  <ThinkTreeDef>
+    <defName>FB_FleshThrallMain</defName>
+    <thinkRoot Class="FB.ThinkNode_FleshbeastBehaviorPriority">
+      <subNodes>
+        <li Class="ThinkNode_Subtree">
+          <treeDef>Despawned</treeDef>
+        </li>
+        <li Class="ThinkNode_ConditionalDowned">
+          <subNodes>
+            <li Class="ThinkNode_ConditionalCanCrawl">
+              <invert>true</invert>
+              <subNodes>
+                <li Class="ThinkNode_Subtree">
+                  <treeDef>Downed</treeDef>
+                </li>
+              </subNodes>
+            </li>
+          </subNodes>
+        </li>
+        <li Class="ThinkNode_QueuedJob" />
+        <li Class="ThinkNodeConditional_EscapingHoldingPlatform">
+          <subNodes>
+            <li Class="JobGiver_EscapingHoldingPlatform" />
+          </subNodes>
+        </li>
+        <li Class="FB.JobGiver_FleshbeastFleeResponse" />
+        <li Class="FB.JobGiver_FleshbeastHuntAggressiveTargets" />
+        <li Class="JobGiver_ReactToCloseMeleeThreat" />
+        <li Class="ThinkNode_Subtree">
+          <treeDef>LordDuty</treeDef>
+        </li>
+        <li Class="ThinkNode_SubtreesByTag">
+          <insertTag>Shambler_PreMain</insertTag>
+        </li>
+        <li Class="JobGiver_ShamblerFight">
+          <targetAcquireRadius>20</targetAcquireRadius>
+          <targetKeepRadius>30</targetKeepRadius>
+        </li>
+        <li Class="ThinkNode_SubtreesByTag">
+          <insertTag>Shambler_PreWander</insertTag>
+        </li>
+        <li Class="JobGiver_ShamblerWander">
+          <wanderRadius>5</wanderRadius>
+        </li>
+      </subNodes>
+    </thinkRoot>
+  </ThinkTreeDef>
+
+  <ThinkTreeDef>
+    <defName>FB_FleshThrallConstant</defName>
+    <thinkRoot Class="FB.ThinkNode_FleshbeastBehaviorPriority">
+      <subNodes>
+        <li Class="ThinkNode_Subtree">
+          <treeDef>Despawned</treeDef>
+        </li>
+        
+        <li Class="ThinkNode_ConditionalCanDoConstantThinkTreeJobNow">
+          <subNodes>
+            <li Class="FB.JobGiver_FleshbeastFleeResponse" />
+            <li Class="FB.JobGiver_FleshbeastHuntAggressiveTargets" />
+          </subNodes>
+        </li>
+        <li Class="ThinkNode_ConditionalCanDoLordJobNow">
+          <subNodes>
+            <li Class="ThinkNode_Subtree">
+              <treeDef>LordDutyConstant</treeDef>
+            </li>
+          </subNodes>
+        </li>
+      </subNodes>
+    </thinkRoot>
+  </ThinkTreeDef>
+</Defs>

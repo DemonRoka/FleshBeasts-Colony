@@ -20,7 +20,7 @@
     <tradeability>None</tradeability>
     <race>
       <thinkTreeMain>FB_SinewcallerMain</thinkTreeMain>
-      <thinkTreeConstant>FleshbeastConstant</thinkTreeConstant>
+      <thinkTreeConstant>FB_FleshbeastStandardConstant</thinkTreeConstant>
       <body>FB_SinewcallerBody</body>
       <renderTree>FB_Sinewcaller</renderTree>
       <baseBodySize>0.7</baseBodySize>

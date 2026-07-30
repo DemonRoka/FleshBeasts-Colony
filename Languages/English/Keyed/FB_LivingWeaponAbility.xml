@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_EquippedAbilityDescriptionPart>Equipped ability: {0}</FB_EquippedAbilityDescriptionPart>
+  <FB_EquippedAbilityStatLabel>Equipped ability</FB_EquippedAbilityStatLabel>
+  <FB_EquippedAbilityStatDesc>This weapon grants {0} to the wielder while equipped.</FB_EquippedAbilityStatDesc>
+</LanguageData>

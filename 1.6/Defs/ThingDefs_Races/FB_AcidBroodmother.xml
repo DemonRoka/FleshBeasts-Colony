@@ -33,7 +33,7 @@
       <lifeExpectancy>24</lifeExpectancy>
       <renderTree>Animal</renderTree>
       <thinkTreeMain>FB_AcidBroodmotherMain</thinkTreeMain>
-      <thinkTreeConstant>FleshbeastConstant</thinkTreeConstant>
+      <thinkTreeConstant>FB_FleshbeastStandardConstant</thinkTreeConstant>
       <needsRest>false</needsRest>
       <hasGenders>false</hasGenders>
       <foodType>None</foodType>
@@ -94,7 +94,6 @@
       </li>
     </tools>
   </ThingDef>
-
   <!-- Раса: acid spitling (FB_AcidSpitling) -->
   <ThingDef ParentName="BaseFleshbeast">
     <defName>FB_AcidSpitling</defName>
@@ -112,7 +111,7 @@
     <race>
       <body>FB_AcidSpitlingBody</body>
       <thinkTreeMain>FB_AcidSpitlingMain</thinkTreeMain>
-      <thinkTreeConstant>FleshbeastConstant</thinkTreeConstant>
+      <thinkTreeConstant>FB_FleshbeastStandardConstant</thinkTreeConstant>
       <intelligence>ToolUser</intelligence>
       <specificMeatDef>Meat_Twisted</specificMeatDef>
       <disableIgniteVerb>true</disableIgniteVerb>

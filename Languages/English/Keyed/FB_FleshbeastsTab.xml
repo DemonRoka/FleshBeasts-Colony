@@ -22,6 +22,16 @@
   <FB_Fleshbeasts_HeightCommandsOnly>Show commands only.</FB_Fleshbeasts_HeightCommandsOnly>
   <FB_Fleshbeasts_HeightStandard>Use standard list height.</FB_Fleshbeasts_HeightStandard>
   <FB_Fleshbeasts_HeightExpanded>Expand the fleshbeast list.</FB_Fleshbeasts_HeightExpanded>
+  <FB_FleshbeastBehaviorMode_Ignore>Ignore</FB_FleshbeastBehaviorMode_Ignore>
+  <FB_FleshbeastBehaviorMode_Attack>Attack</FB_FleshbeastBehaviorMode_Attack>
+  <FB_FleshbeastBehaviorMode_Flee>Flee</FB_FleshbeastBehaviorMode_Flee>
+  <FB_FleshbeastBehaviorMode_Hunt>Hunt</FB_FleshbeastBehaviorMode_Hunt>
+  <FB_FleshbeastBehaviorTip>Choose how this fleshbeast responds to hostile creatures.</FB_FleshbeastBehaviorTip>
+  <FB_FleshbeastBehaviorCurrentMode>Current mode: {0}</FB_FleshbeastBehaviorCurrentMode>
+  <FB_FleshbeastBehaviorGroupMixed>Mixed</FB_FleshbeastBehaviorGroupMixed>
+  <FB_FleshbeastMedicalCareTip>Choose medical care for this fleshbeast.</FB_FleshbeastMedicalCareTip>
+  <FB_FleshbeastMedicalCareCurrent>Current care: {0}</FB_FleshbeastMedicalCareCurrent>
+  <FB_FleshbeastMedicalCareGroupMixed>Mixed</FB_FleshbeastMedicalCareGroupMixed>
   <FB_FleshThrallCoherenceTitle>Coherence: {0}%</FB_FleshThrallCoherenceTitle>
   <FB_FleshThrallCoherenceTooltip>Current cohesion: {0}%\nFingerspikes needed for full restoration: {1}</FB_FleshThrallCoherenceTooltip>
   <FB_FleshThrallTargetLabel>Restore to {0}%</FB_FleshThrallTargetLabel>

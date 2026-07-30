@@ -12,6 +12,8 @@
     </statBases>
     <uiIconPath>Things/Pawn/FB_CarrionArchitect/FB_CarrionArchitect_MenuIcon</uiIconPath>
     <race>
+      <thinkTreeMain>FB_FleshbeastStandardMain</thinkTreeMain>
+      <thinkTreeConstant>FB_FleshbeastStandardConstant</thinkTreeConstant>
       <body>Bulbfreak</body>
       <baseBodySize>4</baseBodySize>
       <baseHealthScale>0.35</baseHealthScale>

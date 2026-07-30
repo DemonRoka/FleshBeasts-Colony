@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <WorldObjectDef>
     <defName>FB_FleshMoonWorldObject</defName>
@@ -29,4 +29,24 @@
     <validLaunchTarget>false</validLaunchTarget>
     <selectable>false</selectable>
     <mapGenerator>Encounter</mapGenerator>
-  </WorldObjectDef></Defs>
+  </WorldObjectDef>
+
+  <WorldObjectDef>
+    <defName>FB_FleshMoonCrashSite</defName>
+    <label>fallen flesh moon</label>
+    <description>A surface scar where the starving flesh moon fell and burst across the terrain.</description>
+    <worldObjectClass>FB.FB_FleshMoonCrashSiteWorldObject</worldObjectClass>
+    <canHaveFaction>true</canHaveFaction>
+    <canHaveMap>true</canHaveMap>
+    <canBePlayerHome>true</canBePlayerHome>
+    <treatAsPlayerHome>true</treatAsPlayerHome>
+    <validLaunchTarget>false</validLaunchTarget>
+    <selectable>true</selectable>
+    <texture>World/FleshMoon/FleshMoonSurface</texture>
+    <expandingIcon>true</expandingIcon>
+    <expandingIconTexture>World/FleshMoon/FleshMoonSurface</expandingIconTexture>
+    <expandingIconDrawSize>1.2</expandingIconDrawSize>
+    <expandingIconPriority>22</expandingIconPriority>
+    <mapGenerator>Encounter</mapGenerator>
+  </WorldObjectDef>
+</Defs>

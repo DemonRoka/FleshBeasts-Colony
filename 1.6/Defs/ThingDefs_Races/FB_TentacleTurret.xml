@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <!-- Body part: fleshmass shell (FB_TurretShell) -->
   <BodyPartDef>
     <defName>FB_TurretShell</defName>
@@ -16,7 +15,6 @@
       <li>ManipulationLimbCore</li>
     </tags>
   </BodyPartDef>
-
   <!-- Body part: fleshmass core (FB_TurretCore) -->
   <BodyPartDef>
     <defName>FB_TurretCore</defName>
@@ -36,7 +34,6 @@
       <li>MovingLimbCore</li>
     </tags>
   </BodyPartDef>
-
   <!-- Body part: gel sac (FB_TurretGelSac) -->
   <BodyPartDef>
     <defName>FB_TurretGelSac</defName>
@@ -52,7 +49,6 @@
       <li>BloodFiltrationSource</li>
     </tags>
   </BodyPartDef>
-
   <!-- Body part: surface sensor (FB_TurretSensor) -->
   <BodyPartDef>
     <defName>FB_TurretSensor</defName>
@@ -68,7 +64,6 @@
       <li>SightSource</li>
     </tags>
   </BodyPartDef>
-
   <!-- Body part: tentacle (FB_TurretTentacle) -->
   <BodyPartDef>
     <defName>FB_TurretTentacle</defName>
@@ -84,7 +79,6 @@
       <li>ManipulationLimbCore</li>
     </tags>
   </BodyPartDef>
-
   <!-- Body: fleshmass turret body (FB_TentacleTurretBody) -->
   <BodyDef>
     <defName>FB_TentacleTurretBody</defName>
@@ -176,7 +170,6 @@
       </parts>
     </corePart>
   </BodyDef>
-
   <!-- Embryo structure: Tentacle Turret Embryo (FB_TentacleTurretEmbryo) -->
   <ThingDef ParentName="EmbryoStructureBase">
     <defName>FB_TentacleTurretEmbryo</defName>
@@ -198,7 +191,6 @@
       <drawSize>(1,1)</drawSize>
     </graphicData>
   </ThingDef>
-
   <!-- Pawn: Tentacle Turret (FB_TentacleTurret) -->
   <ThingDef ParentName="BasePawn">
     <defName>FB_TentacleTurret</defName>
@@ -324,7 +316,6 @@
       </li>
     </tools>
   </ThingDef>
-
   <!-- Pawn kind: tentacle turret (FB_TentacleTurret) -->
   <PawnKindDef>
     <defName>FB_TentacleTurret</defName>
@@ -348,7 +339,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <!-- Render tree: FB_TentacleTurret -->
   <PawnRenderTreeDef>
     <defName>FB_TentacleTurret</defName>
@@ -529,7 +519,6 @@
       </children>
     </root>
   </PawnRenderTreeDef>
-
   <!-- Ability: spine launch (FB_SpineLaunch_TentacleTurret) -->
   <AbilityDef ParentName="SpikeLaunchBase">
     <defName>FB_SpineLaunch_TentacleTurret</defName>
@@ -542,18 +531,11 @@
       <defaultProjectile>Spine_Gorehulk</defaultProjectile>
     </verbProperties>
   </AbilityDef>
-
   <!-- Think tree: FB_TentacleTurret -->
-  <ThinkTreeDef>
+  <ThinkTreeDef ParentName="FB_FleshbeastBaseMain">
     <defName>FB_TentacleTurret</defName>
-    <thinkRoot Class="ThinkNode_Priority">
+    <thinkRoot Class="FB.ThinkNode_FleshbeastBehaviorPriority">
       <subNodes>
-        <li Class="ThinkNode_Subtree">
-          <treeDef>Despawned</treeDef>
-        </li>
-        <li Class="ThinkNode_Subtree">
-          <treeDef>Downed</treeDef>
-        </li>
         <li Class="JobGiver_AIFightEnemies">
           <targetAcquireRadius>1.9</targetAcquireRadius>
           <targetKeepRadius>3.0</targetKeepRadius>
@@ -568,16 +550,11 @@
       </subNodes>
     </thinkRoot>
   </ThinkTreeDef>
-
   <!-- Think tree: FB_TentacleTurretConstant -->
-  <ThinkTreeDef>
+  <ThinkTreeDef ParentName="FB_FleshbeastBaseConstant">
     <defName>FB_TentacleTurretConstant</defName>
-    <thinkRoot Class="ThinkNode_Priority">
-      <subNodes>
-        <li Class="ThinkNode_Subtree">
-          <treeDef>Despawned</treeDef>
-        </li>
-      </subNodes>
+    <thinkRoot Class="FB.ThinkNode_FleshbeastBehaviorPriority">
+      <subNodes></subNodes>
     </thinkRoot>
   </ThinkTreeDef>
 </Defs>

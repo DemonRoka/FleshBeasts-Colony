@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence" MayRequire="Ludeon.RimWorld.Anomaly">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[@Name="BaseFleshbeast"]/race/thinkTreeMain</xpath>
+        <value>
+          <thinkTreeMain>FB_FleshbeastStandardMain</thinkTreeMain>
+        </value>
+      </li>
+
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[@Name="BaseFleshbeast"]/race/thinkTreeConstant</xpath>
+        <value>
+          <thinkTreeConstant>FB_FleshbeastStandardConstant</thinkTreeConstant>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

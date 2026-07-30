@@ -2,4 +2,6 @@
 <LanguageData>
   <FB_FleshbeastKind.label>вид</FB_FleshbeastKind.label>
   <FB_FleshbeastGroup.label>группа</FB_FleshbeastGroup.label>
+  <FB_FleshbeastBehavior.headerTip>Поведение флешбиста</FB_FleshbeastBehavior.headerTip>
+  <FB_FleshbeastMedicalCare.headerTip>Медицинский уход</FB_FleshbeastMedicalCare.headerTip>
 </LanguageData>

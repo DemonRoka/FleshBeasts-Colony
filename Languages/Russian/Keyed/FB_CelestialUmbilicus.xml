@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_ColonyBrain_Structure_CelestialUmbilicus_Label>Небесная пуповина</FB_ColonyBrain_Structure_CelestialUmbilicus_Label>
   <FB_ColonyBrain_Structure_CelestialUmbilicus_Desc>Выращивает живой орбитальный канал, потребляя мощность гемогеля из сети колонии.</FB_ColonyBrain_Structure_CelestialUmbilicus_Desc>
@@ -57,7 +57,7 @@
   <FB_FleshMoonWorldObjectNoUmbilicus>Небесная пуповина больше недоступна.</FB_FleshMoonWorldObjectNoUmbilicus>
 
   <FB_FleshMoonWorldObjectMoveLabel>Переместить луну плоти</FB_FleshMoonWorldObjectMoveLabel>
-  <FB_FleshMoonWorldObjectMoveDesc>Выберите клетку поверхности и отправьте луну плоти к ней. Перелёт разорвёт текущую связь пуповины.</FB_FleshMoonWorldObjectMoveDesc>
+  <FB_FleshMoonWorldObjectMoveDesc>Выберите клетку поверхности и отправьте луну плоти к ней. Наземную пуповину нужно сначала отсоединить.</FB_FleshMoonWorldObjectMoveDesc>
   <FB_FleshMoonWorldObjectAnchorLabel>Закрепить пуповину</FB_FleshMoonWorldObjectAnchorLabel>
   <FB_FleshMoonWorldObjectAnchorDesc>Загрузить клетку поверхности под луной плоти, поставить игру на паузу и выбрать точное место падения небесной пуповины.</FB_FleshMoonWorldObjectAnchorDesc>
   <FB_FleshMoonWorldObjectDetachLabel>Отсоединить пуповину</FB_FleshMoonWorldObjectDetachLabel>
@@ -65,6 +65,7 @@
   <FB_FleshMoonWorldObjectInactiveDisabled>Луна плоти не активна.</FB_FleshMoonWorldObjectInactiveDisabled>
   <FB_FleshMoonWorldObjectAbsorbingDisabled>Луна плоти поглощает колонию.</FB_FleshMoonWorldObjectAbsorbingDisabled>
   <FB_FleshMoonWorldObjectMovingDisabled>Луна плоти уже перемещается.</FB_FleshMoonWorldObjectMovingDisabled>
+  <FB_FleshMoonWorldObjectMoveLinkedDisabled>Сначала отсоедините наземную пуповину, затем перемещайте луну плоти.</FB_FleshMoonWorldObjectMoveLinkedDisabled>
   <FB_FleshMoonWorldObjectAnchorMovingDisabled>Луна плоти должна завершить перелёт перед закреплением.</FB_FleshMoonWorldObjectAnchorMovingDisabled>
   <FB_FleshMoonWorldObjectAnchorIncomingDisabled>Небесная пуповина уже падает к выбранной точке.</FB_FleshMoonWorldObjectAnchorIncomingDisabled>
   <FB_FleshMoonWorldObjectAnchorLinkedDisabled>Луна плоти уже закреплена.</FB_FleshMoonWorldObjectAnchorLinkedDisabled>
@@ -106,4 +107,18 @@
   <FB_FleshMoonUmbilicusRegrowthComplete>Выращивание небесной пуповины завершено.</FB_FleshMoonUmbilicusRegrowthComplete>
   <FB_FleshMoonUmbilicusRegrowthCommandLabel>Вырастить небесную пуповину</FB_FleshMoonUmbilicusRegrowthCommandLabel>
   <FB_FleshMoonUmbilicusRegrowthCommandDesc>Начать выращивание замены внутри луны плоти. Это занимает три дня и повышает потребление пуповины до {0}/ч; если её нечем питать, рост остановится.</FB_FleshMoonUmbilicusRegrowthCommandDesc>
+
+  <FB_FleshMoonStarvationLetterLabel>Луна плоти голодает</FB_FleshMoonStarvationLetterLabel>
+  <FB_FleshMoonStarvationLetterText>Луна плоти исчерпала запас гемогеля, а её лунный баланс составляет {1}/ч. Накормите её или выведите баланс в ноль в течение {0}, иначе она упадёт на поверхность под собой.</FB_FleshMoonStarvationLetterText>
+  <FB_FleshMoonStarvationCountdown>Обратный отсчёт падения луны плоти: осталось {0}; баланс {1}/ч.</FB_FleshMoonStarvationCountdown>
+  <FB_FleshMoonCrashGeneratingMap>Луна плоти падает...</FB_FleshMoonCrashGeneratingMap>
+  <FB_FleshMoonCrashedLetterLabel>Удар луны плоти</FB_FleshMoonCrashedLetterLabel>
+  <FB_FleshMoonCrashedLetterText>Голодающая луна плоти рухнула на поверхность под собой. Живые существа на карте удара исчезают без трупов, пешки игрока выброшены в центр, а открытая местность и вещи погребены под свежей и гнилой плотью.</FB_FleshMoonCrashedLetterText>
+  <FB_FleshMoonCrashUnavailable>Луна плоти сейчас не может упасть.</FB_FleshMoonCrashUnavailable>
+  <FB_FleshMoonCrashNoSurfaceTile>Под луной плоти нет допустимой клетки поверхности.</FB_FleshMoonCrashNoSurfaceTile>
+  <FB_FleshMoonCrashFailed>Не удалось сгенерировать карту удара луны плоти.</FB_FleshMoonCrashFailed>
+  <FB_FleshMoonInspectCrashed>Луна плоти рухнула на поверхность.</FB_FleshMoonInspectCrashed>
+  <FB_FleshMoonSurfaceAnchorInspectCrashed>Место удара луны плоти.</FB_FleshMoonSurfaceAnchorInspectCrashed>
+  <FB_FleshMoonCrashDevLabel>DEV: уронить луну плоти</FB_FleshMoonCrashDevLabel>
+  <FB_FleshMoonCrashDevDesc>Немедленно уронить луну плоти на клетку поверхности под ней.</FB_FleshMoonCrashDevDesc>
 </LanguageData>

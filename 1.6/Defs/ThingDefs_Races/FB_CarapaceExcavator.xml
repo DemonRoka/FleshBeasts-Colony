@@ -30,7 +30,7 @@
       <intelligence>ToolUser</intelligence>
       <trainability>None</trainability>
       <thinkTreeMain>FB_CarapaceExcavatorMain</thinkTreeMain>
-      <thinkTreeConstant>FleshbeastConstant</thinkTreeConstant>
+      <thinkTreeConstant>FB_FleshbeastStandardConstant</thinkTreeConstant>
       <needsRest>false</needsRest>
       <hasGenders>false</hasGenders>
       <foodType>None</foodType>
@@ -40,7 +40,6 @@
       <fleshType>Fleshbeast</fleshType>
       <isImmuneToInfections>true</isImmuneToInfections>
       <bleedRateFactor>0.45</bleedRateFactor>
-
       <lifeStageAges>
         <li>
           <def>EntityFullyFormed</def>
@@ -53,7 +52,7 @@
     <comps>
       <li Class="FB.CompProperties_CarapaceExcavatorDigTuning">
         <blocksMinedUntilFullyWorn>36</blocksMinedUntilFullyWorn>
-					<plateRegrowthPerDay>1.0</plateRegrowthPerDay>
+        <plateRegrowthPerDay>1.0</plateRegrowthPerDay>
         <minSharpnessToMine>0</minSharpnessToMine>
         <regrowthHemogelPerHour>0.1</regrowthHemogelPerHour>
       </li>

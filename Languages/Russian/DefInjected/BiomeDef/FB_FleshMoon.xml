@@ -2,4 +2,7 @@
 <LanguageData>
   <FB_FleshMoonBiome.label>луна плоти</FB_FleshMoonBiome.label>
   <FB_FleshMoonBiome.description>Отпочковавшаяся орбитальная масса, сформированная из целой колонии плоти.</FB_FleshMoonBiome.description>
+
+  <FB_CrashedFleshMoonBiome.label>упавшая луна плоти</FB_CrashedFleshMoonBiome.label>
+  <FB_CrashedFleshMoonBiome.description>Разорванный ударный биом, оставшийся там, где голодающая луна плоти рухнула обратно на планету.</FB_CrashedFleshMoonBiome.description>
 </LanguageData>

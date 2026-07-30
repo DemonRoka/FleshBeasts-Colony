@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_EquippedAbilityDescriptionPart>Способность при экипировке: {0}</FB_EquippedAbilityDescriptionPart>
+  <FB_EquippedAbilityStatLabel>Способность при экипировке</FB_EquippedAbilityStatLabel>
+  <FB_EquippedAbilityStatDesc>Это оружие даёт носителю способность {0}, пока экипировано.</FB_EquippedAbilityStatDesc>
+</LanguageData>

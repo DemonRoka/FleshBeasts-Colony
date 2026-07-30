@@ -55,7 +55,6 @@
       </children>
     </root>
   </PawnRenderTreeDef>
-
   <ThingDef ParentName="BasePawn">
     <defName>FB_BileburstPodling</defName>
     <label>bileburst podling</label>
@@ -81,7 +80,7 @@
       <intelligence>ToolUser</intelligence>
       <trainability>None</trainability>
       <thinkTreeMain>FB_BileburstPodlingMain</thinkTreeMain>
-      <thinkTreeConstant>FleshbeastConstant</thinkTreeConstant>
+      <thinkTreeConstant>FB_FleshbeastStandardConstant</thinkTreeConstant>
       <needsRest>false</needsRest>
       <hasGenders>false</hasGenders>
       <foodType>None</foodType>

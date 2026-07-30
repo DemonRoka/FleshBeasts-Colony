@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_LivingWeaponPersonality_SoothingPulse.label>успокаивающий пульс</FB_LivingWeaponPersonality_SoothingPulse.label>
+  <FB_LivingWeaponPersonality_SoothingPulse.description>Простой разум этого оружия входит в тёплый и ровный ритм.</FB_LivingWeaponPersonality_SoothingPulse.description>
+  <FB_LivingWeaponPersonality_PredatoryAppetite.label>хищный голод</FB_LivingWeaponPersonality_PredatoryAppetite.label>
+  <FB_LivingWeaponPersonality_PredatoryAppetite.description>Простой разум этого оружия подталкивает носителя к свежему насилию.</FB_LivingWeaponPersonality_PredatoryAppetite.description>
+  <FB_LivingWeaponPersonality_RestlessNerves.label>беспокойные нервы</FB_LivingWeaponPersonality_RestlessNerves.label>
+  <FB_LivingWeaponPersonality_RestlessNerves.description>Простой разум этого оружия шепчет дрожащими, нетерпеливыми сигналами.</FB_LivingWeaponPersonality_RestlessNerves.description>
+  <FB_LivingWeaponPersonality_GuardingWill.label>охранная воля</FB_LivingWeaponPersonality_GuardingWill.label>
+  <FB_LivingWeaponPersonality_GuardingWill.description>Простой разум этого оружия прижимается близко, настороженный и защитный.</FB_LivingWeaponPersonality_GuardingWill.description>
+</LanguageData>

@@ -22,6 +22,16 @@
   <FB_Fleshbeasts_HeightCommandsOnly>Показать только команды.</FB_Fleshbeasts_HeightCommandsOnly>
   <FB_Fleshbeasts_HeightStandard>Обычная высота списка.</FB_Fleshbeasts_HeightStandard>
   <FB_Fleshbeasts_HeightExpanded>Расширить список флешбистов.</FB_Fleshbeasts_HeightExpanded>
+  <FB_FleshbeastBehaviorMode_Ignore>Игнорировать</FB_FleshbeastBehaviorMode_Ignore>
+  <FB_FleshbeastBehaviorMode_Attack>Атаковать</FB_FleshbeastBehaviorMode_Attack>
+  <FB_FleshbeastBehaviorMode_Flee>Бежать</FB_FleshbeastBehaviorMode_Flee>
+  <FB_FleshbeastBehaviorMode_Hunt>Автоатака</FB_FleshbeastBehaviorMode_Hunt>
+  <FB_FleshbeastBehaviorTip>Выберите, как этот флешбист реагирует на враждебных существ.</FB_FleshbeastBehaviorTip>
+  <FB_FleshbeastBehaviorCurrentMode>Текущий режим: {0}</FB_FleshbeastBehaviorCurrentMode>
+  <FB_FleshbeastBehaviorGroupMixed>Разное</FB_FleshbeastBehaviorGroupMixed>
+  <FB_FleshbeastMedicalCareTip>Выберите уровень медицинского ухода для этого флешбиста.</FB_FleshbeastMedicalCareTip>
+  <FB_FleshbeastMedicalCareCurrent>Текущий уход: {0}</FB_FleshbeastMedicalCareCurrent>
+  <FB_FleshbeastMedicalCareGroupMixed>Разное</FB_FleshbeastMedicalCareGroupMixed>
   <FB_FleshThrallCoherenceTitle>Сцепление: {0}%</FB_FleshThrallCoherenceTitle>
   <FB_FleshThrallCoherenceTooltip>Текущее сцепление: {0}%\nНужно пальцешипов до полного восстановления: {1}</FB_FleshThrallCoherenceTooltip>
   <FB_FleshThrallTargetLabel>Восстанавливать до {0}%</FB_FleshThrallTargetLabel>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <!-- Дерево мышления: FB_Regenerator -->
-  <ThinkTreeDef>
+  <ThinkTreeDef ParentName="FB_FleshbeastBaseMain">
     <defName>FB_Regenerator</defName>
-    <thinkRoot Class="ThinkNode_Priority">
+    <thinkRoot Class="FB.ThinkNode_FleshbeastBehaviorPriority">
       <subNodes>
         <li Class="FB.ThinkNode_ConditionalSpawned">
           <subNodes>
@@ -11,12 +11,6 @@
           </subNodes>
         </li>
         <li Class="FB.JobGiver_FindCorpse" />
-        <li Class="ThinkNode_Subtree">
-          <treeDef>Downed</treeDef>
-        </li>
-        <li Class="ThinkNode_Subtree">
-          <treeDef>BurningResponse</treeDef>
-        </li>
         <li Class="JobGiver_WanderAnywhere">
           <maxDanger>Deadly</maxDanger>
           <ticksBetweenWandersRange>120~240</ticksBetweenWandersRange>

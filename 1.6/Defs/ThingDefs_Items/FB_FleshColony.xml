@@ -131,13 +131,11 @@
       <li>Ultratech</li>
     </weaponClasses>
     <comps>
-      <li Class="CompProperties_BladelinkWeapon" MayRequire="Ludeon.RimWorld.Royalty">
-        <biocodeOnEquip>False</biocodeOnEquip>
-      </li>
-      <li Class="CompProperties_GeneratedName" MayRequire="Ludeon.RimWorld.Royalty">
-        <nameMaker MayRequire="Ludeon.RimWorld.Royalty">NamerWeaponBladelink</nameMaker>
-      </li>
+      <li Class="FB.CompProperties_LivingWeaponPersonality" />
     </comps>
+    <thingCategories>
+      <li>WeaponsMelee</li>
+    </thingCategories>
     <smeltable>false</smeltable>
     <burnableByRecipe>true</burnableByRecipe>
     <notifyMapRemoved>true</notifyMapRemoved>
@@ -150,7 +148,7 @@
     <defName>FB_FleshBlade</defName>
     <tradeability>None</tradeability>
     <label>Flesh Blade</label>
-    <description>A living weapon born from a flesh-plant that entwines a plasteel blade, creating a symbiotic Flesh Blade. This grotesque yet powerful sword pulses with organic life, its plasteel edge honed by the plant's growth. Embedded with an onboard persona, it bonds with a single wielder, enhancing their combat prowess with synchronized reflexes, speed, and creative strike patterns.</description>
+    <description>A living weapon born from a flesh-plant that entwines a plasteel blade, creating a symbiotic Flesh Blade. This grotesque yet powerful sword pulses with organic life, its plasteel edge honed by the plant's growth. A simple onboard mind whispers through the grip while carried, shaping the wielder's mood without binding itself to them.</description>
     <statBases>
       <MarketValue>1000</MarketValue>
       <Mass>2.5</Mass>
@@ -161,8 +159,6 @@
       <texPath>Things/Item/Equipment/WeaponMelee/FleshBlade</texPath>
       <color>(1,1,1)</color>
     </graphicData>
-    <soundInteract MayRequire="Ludeon.RimWorld.Royalty">Interact_BladelinkMonoSword</soundInteract>
-    <meleeHitSound MayRequire="Ludeon.RimWorld.Royalty">MeleeHit_BladelinkMonoSword</meleeHitSound>
     <smeltable>false</smeltable>
     <weaponClasses>
       <li>Melee</li>
@@ -213,8 +209,6 @@
       <texPath>Things/Item/Equipment/WeaponMelee/CrimsonFang</texPath>
       <color>(1,1,1)</color>
     </graphicData>
-    <soundInteract MayRequire="Ludeon.RimWorld.Royalty">Interact_BladelinkMonoSword</soundInteract>
-    <meleeHitSound MayRequire="Ludeon.RimWorld.Royalty">MeleeHit_BladelinkMonoSword</meleeHitSound>
     <smeltable>false</smeltable>
     <weaponClasses>
       <li>Melee</li>
@@ -254,7 +248,7 @@
     <defName>FB_FerriteSting</defName>
     <tradeability>None</tradeability>
     <label>Ferrite Sting</label>
-    <description>A living weapon grown from a flesh-tendril wrapped around a crescent plasteel blade. Its grotesque form pulses with organic life, while crimson veins channel energy into its razor edge. The fleshy core embedded in the handle beats like a heart, strengthening the wielder’s reflexes and lending hunger to each strike.</description>
+    <description>A living weapon grown around a jagged core of bioferrite. Its nerve bundles twitch against the handle, feeding a metallic whisper into the wielder's thoughts while the hardened sting tears into armor and flesh.</description>
     <statBases>
       <MarketValue>1100</MarketValue>
       <Mass>3.0</Mass>
@@ -265,8 +259,6 @@
       <graphicClass>Graphic_Random</graphicClass>
       <color>(1,1,1)</color>
     </graphicData>
-    <soundInteract MayRequire="Ludeon.RimWorld.Royalty">Interact_BladelinkMonoSword</soundInteract>
-    <meleeHitSound MayRequire="Ludeon.RimWorld.Royalty">MeleeHit_BladelinkMonoSword</meleeHitSound>
     <smeltable>false</smeltable>
     <weaponClasses>
       <li>Melee</li>
@@ -274,7 +266,7 @@
     </weaponClasses>
     <tools>
       <li>
-        <label>fleshy core</label>
+        <label>ferrite core</label>
         <capacities>
           <li>Blunt</li>
         </capacities>
@@ -282,7 +274,7 @@
         <cooldownTime>1.6</cooldownTime>
       </li>
       <li>
-        <label>crimson edge</label>
+        <label>jagged sting</label>
         <capacities>
           <li>Stab</li>
         </capacities>
@@ -291,7 +283,7 @@
         <armorPenetration>0.9</armorPenetration>
       </li>
       <li>
-        <label>living crescent</label>
+        <label>living barb</label>
         <capacities>
           <li>Cut</li>
         </capacities>

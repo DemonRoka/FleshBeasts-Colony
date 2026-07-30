@@ -22,8 +22,8 @@
       <li>WeaponsRanged</li>
     </thingCategories>
     <race>
-      <thinkTreeMain>Fleshbeast</thinkTreeMain>
-      <thinkTreeConstant>FleshbeastConstant</thinkTreeConstant>
+      <thinkTreeMain>FB_FleshbeastStandardMain</thinkTreeMain>
+      <thinkTreeConstant>FB_FleshbeastStandardConstant</thinkTreeConstant>
       <intelligence>ToolUser</intelligence>
       <specificMeatDef>Meat_Twisted</specificMeatDef>
       <disableIgniteVerb>true</disableIgniteVerb>
@@ -107,6 +107,8 @@
       </li>
     </tools>
     <race>
+      <thinkTreeMain>FB_FleshbeastStandardMain</thinkTreeMain>
+      <thinkTreeConstant>FB_FleshbeastStandardConstant</thinkTreeConstant>
       <body>Fingerspike</body>
       <baseBodySize>0.35</baseBodySize>
       <baseHealthScale>0.35</baseHealthScale>

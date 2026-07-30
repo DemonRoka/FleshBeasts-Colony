@@ -36,7 +36,7 @@
         </li>
       </lifeStageAges>
       <thinkTreeMain>FB_Shardlings</thinkTreeMain>
-      <thinkTreeConstant>FleshbeastConstant</thinkTreeConstant>
+      <thinkTreeConstant>FB_FleshbeastStandardConstant</thinkTreeConstant>
       <intelligence>ToolUser</intelligence>
       <specificMeatDef>Meat_Twisted</specificMeatDef>
       <canOpenFactionlessDoors>false</canOpenFactionlessDoors>

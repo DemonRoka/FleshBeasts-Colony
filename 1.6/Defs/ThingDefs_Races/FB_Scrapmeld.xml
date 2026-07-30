@@ -12,7 +12,7 @@
     </statBases>
     <race>
       <thinkTreeMain>FB_ScrapmeldMain</thinkTreeMain>
-      <thinkTreeConstant>FleshbeastConstant</thinkTreeConstant>
+      <thinkTreeConstant>FB_FleshbeastStandardConstant</thinkTreeConstant>
       <body>FB_ScrapmeldBody</body>
       <baseBodySize>3.2</baseBodySize>
       <baseHealthScale>8</baseHealthScale>

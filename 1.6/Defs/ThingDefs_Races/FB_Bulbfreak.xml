@@ -12,6 +12,8 @@
     </statBases>
     <uiIconPath>Things/Pawn/Fleshbeast/Bulbfreak/Bulbfreak_MenuIcon</uiIconPath>
     <race>
+      <thinkTreeMain>FB_FleshbeastStandardMain</thinkTreeMain>
+      <thinkTreeConstant>FB_FleshbeastStandardConstant</thinkTreeConstant>
       <body>Bulbfreak</body>
       <baseBodySize>3.5</baseBodySize>
       <baseHealthScale>0.3</baseHealthScale>
@@ -64,7 +66,6 @@
         <minMonolithLevelForStudy>1</minMonolithLevelForStudy>
         <requiresHoldingPlatform>true</requiresHoldingPlatform>
       </li>
-
       <li Class="FB.CompProperties_FleshbeastDraftable" />
       <li Class="FB.CompProperties_BulbfreakHostStorage" />
     </comps>
