@@ -28,6 +28,70 @@
       <li>FB_FleshColonyTerrain</li>
     </tags>
   </TerrainDef>
+  <!-- Основной грунт: lunar flesh (FB_FleshMoonFlesh) -->
+  <TerrainDef ParentName="NaturalTerrainBase">
+    <defName>FB_FleshMoonFlesh</defName>
+    <label>lunar flesh</label>
+    <description>A living flesh moon surface, grown as the ground itself rather than a layer over soil.</description>
+    <texturePath>Terrain/Surfaces/Flesh</texturePath>
+    <edgeType>FadeRough</edgeType>
+    <categoryType>Soil</categoryType>
+    <preventCraters>true</preventCraters>
+    <renderPrecedence>340</renderPrecedence>
+    <pathCost>2</pathCost>
+    <statBases>
+      <Beauty>-10</Beauty>
+      <BeautyOutdoors>-5</BeautyOutdoors>
+      <Cleanliness>-3</Cleanliness>
+      <Flammability>0</Flammability>
+      <CleaningTimeFactor>1.5</CleaningTimeFactor>
+    </statBases>
+    <affordances>
+      <li>Light</li>
+      <li>Medium</li>
+      <li>Heavy</li>
+      <li>GrowSoil</li>
+      <li>Diggable</li>
+    </affordances>
+    <fertility>0</fertility>
+    <heatPerTick>0.0001</heatPerTick>
+    <canBePolluted>False</canBePolluted>
+    <tags>
+      <li>FB_FleshColonyTerrain</li>
+    </tags>
+  </TerrainDef>
+  <!-- Основной грунт: veined lunar flesh (FB_FleshMoonFleshVeins) -->
+  <TerrainDef ParentName="NaturalTerrainBase">
+    <defName>FB_FleshMoonFleshVeins</defName>
+    <label>veined lunar flesh</label>
+    <description>Veined living tissue grown through the flesh moon's ground, pulsing below the surface.</description>
+    <texturePath>Terrain/Surfaces/FleshVeins</texturePath>
+    <edgeType>FadeRough</edgeType>
+    <categoryType>Soil</categoryType>
+    <preventCraters>true</preventCraters>
+    <renderPrecedence>340</renderPrecedence>
+    <pathCost>2</pathCost>
+    <statBases>
+      <Beauty>-10</Beauty>
+      <BeautyOutdoors>-5</BeautyOutdoors>
+      <Cleanliness>-3</Cleanliness>
+      <Flammability>0</Flammability>
+      <CleaningTimeFactor>1.5</CleaningTimeFactor>
+    </statBases>
+    <affordances>
+      <li>Light</li>
+      <li>Medium</li>
+      <li>Heavy</li>
+      <li>GrowSoil</li>
+      <li>Diggable</li>
+    </affordances>
+    <fertility>0.1</fertility>
+    <heatPerTick>0.0005</heatPerTick>
+    <canBePolluted>False</canBePolluted>
+    <tags>
+      <li>FB_FleshColonyTerrain</li>
+    </tags>
+  </TerrainDef>
   <!-- Покрытие: root flesh veins (RootFleshVeins) -->
   <TerrainDef ParentName="FloorBase">
     <defName>RootFleshVeins</defName>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Ген: Assimilator (FB_Assimilator) -->
+  <GeneDef ParentName="BiomassBaseGene">
+    <defName>FB_Assimilator</defName>
+    <label>assimilator</label>
+    <description>Carriers can harvest one compatible limb or organ at a time from fresh humanlike corpses, grafting it onto their own missing parts. The donor corpse loses the harvested part as it becomes part of the carrier.</description>
+    <iconPath>UI/Icons/Genes/Gene_Assimilator</iconPath>
+    <abilities>
+      <li>FB_BodyPartTransfer</li>
+    </abilities>
+    <descriptionHyperlinks>
+      <AbilityDef>FB_BodyPartTransfer</AbilityDef>
+    </descriptionHyperlinks>
+    <biostatArc>3</biostatArc>
+    <biostatMet>-2</biostatMet>
+    <biostatCpx>-1</biostatCpx>
+    <statOffsets>
+      <MaxNutrition>0.35</MaxNutrition>
+    </statOffsets>
+    <minAgeActive>10</minAgeActive>
+    <symbolPack>
+      <wholeNameSymbols>
+        <li>
+          <symbol>absorb</symbol>
+        </li>
+      </wholeNameSymbols>
+      <prefixSymbols>
+        <li>
+          <symbol>body</symbol>
+        </li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+</Defs>

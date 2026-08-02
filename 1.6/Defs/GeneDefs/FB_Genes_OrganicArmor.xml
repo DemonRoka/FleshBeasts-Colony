@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Ген: Organic armor (FB_OrganicArmor) -->
+  <GeneDef ParentName="BiomassBaseGene">
+    <defName>FB_OrganicArmor</defName>
+    <label>organic armor</label>
+    <description>Carriers can force bone-chitin plates to grow over the head and torso. The armor is temporary and decays over time, giving strong protection while making the body uglier and less agile at heavier stages.</description>
+    <iconPath>UI/Icons/Genes/Gene_OrganicArmor</iconPath>
+    <abilities>
+      <li>FB_GrowArmor</li>
+    </abilities>
+    <descriptionHyperlinks>
+      <AbilityDef>FB_GrowArmor</AbilityDef>
+    </descriptionHyperlinks>
+    <biostatArc>3</biostatArc>
+    <biostatMet>-1</biostatMet>
+    <biostatCpx>0</biostatCpx>
+    <statOffsets>
+      <MaxNutrition>0.20</MaxNutrition>
+    </statOffsets>
+    <minAgeActive>0</minAgeActive>
+    <symbolPack>
+      <wholeNameSymbols>
+        <li>
+          <symbol>armor</symbol>
+        </li>
+      </wholeNameSymbols>
+      <prefixSymbols>
+        <li>
+          <symbol>flesh</symbol>
+        </li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+</Defs>

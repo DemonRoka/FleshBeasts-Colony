@@ -22,10 +22,11 @@
 	<FB_GraspingPolicy_Tab>Захват</FB_GraspingPolicy_Tab>
 	<FB_GraspingPolicy_SearchTooltip>Фильтр списка по названию или defName.</FB_GraspingPolicy_SearchTooltip>
 	<FB_GraspingPolicy_Summary>Хватательные щупальца: {0} / {1}</FB_GraspingPolicy_Summary>
+	<FB_GraspingPolicy_LunarSummary>Лунные хватательные щупальца: активно {0}, лимита нет.</FB_GraspingPolicy_LunarSummary>
 	<FB_GraspingPolicy_Factions>Фракции</FB_GraspingPolicy_Factions>
 	<FB_GraspingPolicy_Species>Виды</FB_GraspingPolicy_Species>
 	<FB_GraspingPolicy_FactionTooltip>Правила фракций применяются к гуманоидным целям перед базовыми настройками.</FB_GraspingPolicy_FactionTooltip>
-	<FB_GraspingPolicy_SpeciesTooltip>Исключения видов переопределяют базовые правила. Собственные существа игрока все равно защищены.</FB_GraspingPolicy_SpeciesTooltip>
+	<FB_GraspingPolicy_SpeciesTooltip>Исключения видов переопределяют базовые правила. Вне луны плоти собственные существа игрока защищены.</FB_GraspingPolicy_SpeciesTooltip>
 	<FB_GraspingPolicy_ClearAll>Запретить все</FB_GraspingPolicy_ClearAll>
 	<FB_GraspingPolicy_AllowAll>Разрешить все</FB_GraspingPolicy_AllowAll>
 	<FB_GraspingPolicy_Type_Humanlike>Гуманоиды</FB_GraspingPolicy_Type_Humanlike>

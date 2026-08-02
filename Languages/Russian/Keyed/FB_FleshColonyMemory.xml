@@ -2,8 +2,8 @@
 <LanguageData>
 
   <FB_FleshMemory_Tab>Память</FB_FleshMemory_Tab>
-  <FB_FleshMemory_Header>Сохранено сознаний: {0}</FB_FleshMemory_Header>
-  <FB_FleshMemory_Empty>Колония плоти ещё не сохранила ни одного сознания.</FB_FleshMemory_Empty>
+  <FB_FleshMemory_Header>Сохранено воспоминаний: {0}</FB_FleshMemory_Header>
+  <FB_FleshMemory_Empty>Воспоминания не сохранены.</FB_FleshMemory_Empty>
   <FB_FleshMemory_Unnamed>безымянное сознание</FB_FleshMemory_Unnamed>
   <FB_FleshMemory_Unknown>неизвестно</FB_FleshMemory_Unknown>
   <FB_FleshMemory_StatusAlive>Источник жив</FB_FleshMemory_StatusAlive>
@@ -20,7 +20,7 @@
   <FB_FleshMemory_AlreadyGrowing>Из этой памяти уже выращивается тело.</FB_FleshMemory_AlreadyGrowing>
   <FB_FleshMemory_BrainBusy>Этот мозг колонии уже выращивает другое тело.</FB_FleshMemory_BrainBusy>
   <FB_FleshMemory_NoGrowthCell>Рядом с мозгом колонии нет подходящей клетки для новой оболочки.</FB_FleshMemory_NoGrowthCell>
-  <FB_FleshMemory_InvalidGrowthCell>Выберите пустую проходимую клетку для новой оболочки.</FB_FleshMemory_InvalidGrowthCell>
+  <FB_FleshMemory_InvalidGrowthCell>Выберите пустую проходимую клетку плоти для новой оболочки.</FB_FleshMemory_InvalidGrowthCell>
   <FB_FleshMemory_CreateShellFailed>Мозгу колонии не удалось сформировать жизнеспособную оболочку.</FB_FleshMemory_CreateShellFailed>
   <FB_FleshMemory_NotEnoughHemogel>Для воссоздания требуется {0} гемогеля мозга. Доступно: {1}.</FB_FleshMemory_NotEnoughHemogel>
   <FB_FleshMemory_ReconstructUnavailable>Эту память сейчас нельзя воссоздать.</FB_FleshMemory_ReconstructUnavailable>

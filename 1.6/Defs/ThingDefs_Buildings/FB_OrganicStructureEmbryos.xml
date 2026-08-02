@@ -548,6 +548,12 @@
       <li Class="FB.CompProperties_EmbryoGrowth">
         <totalMaturationTicks>30000</totalMaturationTicks>
         <targetDef>FB_CelestialUmbilicus</targetDef>
+        <onePerMap>true</onePerMap>
+        <forbidPocketMaps>true</forbidPocketMaps>
+        <onePerMapAdditionalThingDefs>
+          <li>FB_CelestialUmbilicusPortal</li>
+          <li>FB_CelestialUmbilicusMoonExit</li>
+        </onePerMapAdditionalThingDefs>
       </li>
       <li Class="FB.CompProperties_HemogelUpkeep">
         <hemogelPerHour>0.3</hemogelPerHour>

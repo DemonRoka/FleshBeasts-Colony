@@ -37,5 +37,5 @@
   <FB_FleshMoonGastricAcidBlocked>Cannot form gastric acid under a building.</FB_FleshMoonGastricAcidBlocked>
   <FB_FleshMoonGastricAcidDigester_Inspect>Lunar digestive fuel: {0} nutrition. Hemogel output: {1}/h.</FB_FleshMoonGastricAcidDigester_Inspect>
   <FB_FleshMoonGastricAcidDigester_EconomyDetail>Lunar digestive fuel: {0} nutrition; output {1}/h</FB_FleshMoonGastricAcidDigester_EconomyDetail>
-  <FB_BiomassTransformNoHeartOnFleshMoon>The flesh moon cannot grow another colony heart.</FB_BiomassTransformNoHeartOnFleshMoon>
+  <FB_BiomassTransformNoHeartOnFleshMoon>You cannot grow a Flesh Heart inside the flesh moon. Instead, grow a lunar nerve node from the Build menu's Flesh moon tab.</FB_BiomassTransformNoHeartOnFleshMoon>
 </LanguageData>

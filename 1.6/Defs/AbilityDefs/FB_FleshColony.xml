@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <!-- Способность: Cocoon of Flesh (FB_CocoonFlesh) -->
   <AbilityDef ParentName="AbilityTouchBase">
@@ -48,7 +48,7 @@
           <li>FB_ReplicatorParasite</li>
           <li>FB_Scavenger</li>
           <li>FB_FleshbeastBody</li>
-		  <li>FB_Eater</li>
+          <li>FB_Eater</li>
         </genesToAdd>
         <hediffDefs>
           <li>FB_AcceptanceOfFleshColony</li>
@@ -56,16 +56,15 @@
       </li>
     </comps>
   </AbilityDef>
-
   <!-- Способность: Become the Flesh Heart (FB_BecomeFleshHeart) -->
   <AbilityDef>
     <defName>FB_BecomeFleshHeart</defName>
     <label>Become the Flesh Heart</label>
-    <description>Sacrifice your physical form to transform into the Flesh Heart — a pulsating biomass core that begins the expansion.</description>
+    <description>Select a valid site and sacrifice your physical form to transform there into the Flesh Heart — a pulsating biomass core that begins the expansion.</description>
     <iconPath>UI/Abilities/BecomeFleshHeart</iconPath>
     <cooldownTicksRange>900000</cooldownTicksRange>
     <aiCanUse>true</aiCanUse>
-    <targetRequired>false</targetRequired>
+    <targetRequired>true</targetRequired>
     <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
     <disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
     <showCastingProgressBar>true</showCastingProgressBar>
@@ -78,6 +77,7 @@
     <useAverageTargetPositionForWarmupEffecter>true</useAverageTargetPositionForWarmupEffecter>
     <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
     <hasExternallyHandledCooldown>true</hasExternallyHandledCooldown>
+    <jobDef>FB_BiomassTransformAtCell</jobDef>
     <verbProperties>
       <verbClass>Verb_CastAbility</verbClass>
       <warmupEffecter>Fire_Burst_Warmup</warmupEffecter>
@@ -85,22 +85,28 @@
       <requireLineOfSight>false</requireLineOfSight>
       <drawAimPie>false</drawAimPie>
       <targetParams>
-        <canTargetSelf>true</canTargetSelf>
+        <canTargetLocations>true</canTargetLocations>
+        <canTargetSelf>false</canTargetSelf>
+        <canTargetPawns>false</canTargetPawns>
+        <canTargetBuildings>false</canTargetBuildings>
+        <canTargetItems>false</canTargetItems>
+        <mapObjectTargetsMustBeAutoAttackable>false</mapObjectTargetsMustBeAutoAttackable>
       </targetParams>
+      <range>-1</range>
     </verbProperties>
     <comps>
       <li Class="FB.CompProperties_BiomassTransform">
         <transformBuilding>FB_ColonyHeart</transformBuilding>
+        <previewGraphicPath>Things/Building/FB_Organic/ColonyHeart/ColonyHeart_icon</previewGraphicPath>
         <allowMultiple>false</allowMultiple>
       </li>
     </comps>
   </AbilityDef>
-
   <!-- Способность: body part transfer (FB_BodyPartTransfer) -->
   <AbilityDef ParentName="AbilityTouchBase">
     <defName>FB_BodyPartTransfer</defName>
     <label>body part transfer</label>
-    <description>Transfer a missing body part from a dead target to restore your own missing part.</description>
+    <description>Transfer one compatible missing body part from a fresh humanlike corpse.</description>
     <iconPath>UI/Abilities/BodyPartTransfer</iconPath>
     <stunTargetWhileCasting>false</stunTargetWhileCasting>
     <warmupMote>Mote_HoraxSmallSpellWarmup</warmupMote>
@@ -109,6 +115,7 @@
     <displayOrder>500</displayOrder>
     <cooldownTicksRange>90000</cooldownTicksRange>
     <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+    <jobDef>FB_BodyPartTransferJob</jobDef>
     <verbProperties>
       <verbClass>Verb_CastAbilityTouch</verbClass>
       <drawAimPie>false</drawAimPie>
@@ -124,15 +131,12 @@
       </targetParams>
     </verbProperties>
     <comps>
-      <li Class="FB.CompProperties_AbilityBodyPartTransfer">
-        <transferSuccessChance>1.0</transferSuccessChance>
-      </li>
+      <li Class="FB.CompProperties_AbilityBodyPartTransfer" />
       <li Class="CompProperties_AbilityFleckOnTarget">
         <fleckDef>BloodSplash</fleckDef>
       </li>
     </comps>
   </AbilityDef>
-
   <!-- Способность: grow armor (FB_GrowArmor) -->
   <AbilityDef>
     <defName>FB_GrowArmor</defName>
@@ -166,7 +170,6 @@
       </li>
     </comps>
   </AbilityDef>
-
   <!-- Способность: convert to parasite egg (FB_ConvertCorpseToParasiteEgg) -->
   <AbilityDef ParentName="AbilityTouchBase">
     <defName>FB_ConvertCorpseToParasiteEgg</defName>
@@ -198,17 +201,16 @@
       </li>
     </comps>
   </AbilityDef>
-
   <!-- Способность: implant parasite (FB_ParasiteImplant) -->
   <AbilityDef ParentName="AbilityTouchBase">
     <defName>FB_ParasiteImplant</defName>
     <label>implant parasite</label>
-    <description>Implants a maturing parasite into the target's torso by sacrificing one of the carrier's fingers. The parasite develops over time and can be called to burst out in combat when ready.</description>
+    <description>Implants a maturing parasite into the target's torso by sacrificing one of the carrier's fingers. This is a hostile attack; mature parasites can later burst out when called or when the host dies.</description>
     <iconPath>UI/Abilities/ParasiteImplant</iconPath>
     <warmupEffecter>Implant_Xenogerm</warmupEffecter>
     <displayOrder>500</displayOrder>
-    <hostile>false</hostile>
-    <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+    <hostile>true</hostile>
+    <casterMustBeCapableOfViolence>true</casterMustBeCapableOfViolence>
     <cooldownTicksRange>100000</cooldownTicksRange>
     <displayGizmoWhileUndrafted>True</displayGizmoWhileUndrafted>
     <verbProperties>
@@ -227,15 +229,15 @@
     <comps>
       <li Class="FB.CompProperties_ApplyHediffAndRemoveFinger">
         <hediffDef>FB_Parasite</hediffDef>
+        <goodwillImpact>-15</goodwillImpact>
       </li>
     </comps>
   </AbilityDef>
-
   <!-- Способность: parasite call (FB_ParasiteCall) -->
   <AbilityDef>
     <defName>FB_ParasiteCall</defName>
     <label>parasite call</label>
-    <description>Calls all matured parasites implanted in targets to burst out immediately during danger, spawning combat-ready entities to aid the carrier.</description>
+    <description>Calls all mature parasites on the current map to burst from living hosts or corpses as allied fingerspikes.</description>
     <iconPath>UI/Abilities/ParasiteCall</iconPath>
     <cooldownTicksRange>100000</cooldownTicksRange>
     <targetRequired>false</targetRequired>
@@ -250,81 +252,45 @@
       </targetParams>
     </verbProperties>
     <comps>
-      <li Class="FB.CompProperties_CallParasites" />
-    </comps>
-    <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
-  </AbilityDef>
-
-  <!-- Способность: call escort (FB_CallEscort) -->
-  <AbilityDef>
-    <defName>FB_CallEscort</defName>
-    <label>call escort</label>
-    <description>Calls nearby creatures to the caster. They approach and escort the caster for a while.</description>
-    <iconPath>UI/Abilities/CallEscort</iconPath>
-    <cooldownTicksRange>60000</cooldownTicksRange>
-    <targetRequired>false</targetRequired>
-    <hostile>false</hostile>
-    <verbProperties>
-      <verbClass>Verb_CastAbility</verbClass>
-      <warmupTime>1</warmupTime>
-      <drawAimPie>false</drawAimPie>
-      <targetParams>
-        <canTargetSelf>true</canTargetSelf>
-      </targetParams>
-    </verbProperties>
-    <comps>
-      <li Class="FB.CompProperties_AbilityEffect_CallEscort">
-        <pawnKinds>
-          <li>Fingerspike</li>
-          <li>Trispike</li>
-          <li>Toughspike</li>
-          <li>Bulbfreak</li>
-          <li>Dreadmeld</li>
-        </pawnKinds>
-        <count>5</count>
-        <searchRadius>60</searchRadius>
-        <durationTicks>10000</durationTicks>
-        <followRadius>6</followRadius>
-        <endIfCasterDowned>true</endIfCasterDowned>
-        <endIfCasterDespawned>true</endIfCasterDespawned>
+      <li Class="FB.CompProperties_CallParasites">
+        <hediffDef>FB_Parasite</hediffDef>
       </li>
     </comps>
     <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
   </AbilityDef>
-
-	<!-- Способность: scavenger (FB_Scavenger) -->
-	<AbilityDef Name="ShapeFlesh">
-		<defName>FB_Scavenger</defName>
-		<label>scavenger</label>
-		<description>Transforms a fresh corpse into one or more DenseWeaver creatures, triggering a small meat explosion effect.</description>
-		<iconPath>UI/Abilities/Scavenger</iconPath>
-		<cooldownTicksRange>24000</cooldownTicksRange>
-		<showPsycastEffects>false</showPsycastEffects>
-		<sendMessageOnCooldownComplete>true</sendMessageOnCooldownComplete>
-		<displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
-		<disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
-		<moteOffsetAmountTowardsTarget>0.5</moteOffsetAmountTowardsTarget>
-		<warmupSound>AnomalyAbilityWarmup</warmupSound>
-		<casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
-		<verbProperties>
-			<verbClass>Verb_CastAbility</verbClass>
-			<warmupTime>2</warmupTime>
-			<range>5</range>
-			<requireLineOfSight>True</requireLineOfSight>
-			<drawHighlightWithLineOfSight>true</drawHighlightWithLineOfSight>
-			<targetParams>
-				<canTargetSelf>false</canTargetSelf>
-				<canTargetMechs>false</canTargetMechs>
-				<canTargetBuildings>false</canTargetBuildings>
-				<canTargetCorpses>true</canTargetCorpses>
-				<onlyTargetCorpses>true</onlyTargetCorpses>
-			</targetParams>
-		</verbProperties>
-		<comps>
-			<li Class="FB.CompProperties_TransformCorpse">
-				<transformedPawnKind>FB_DenseWeaver</transformedPawnKind>
-				<customEffect>MeatExplosionSmall</customEffect>
-			</li>
-		</comps>
-	</AbilityDef>
+  <!-- Способность: scavenger (FB_Scavenger) -->
+  <AbilityDef Name="ShapeFlesh">
+    <defName>FB_Scavenger</defName>
+    <label>scavenger</label>
+    <description>Transforms a fresh corpse into one or more DenseWeaver creatures, triggering a small meat explosion effect.</description>
+    <iconPath>UI/Abilities/Scavenger</iconPath>
+    <cooldownTicksRange>24000</cooldownTicksRange>
+    <showPsycastEffects>false</showPsycastEffects>
+    <sendMessageOnCooldownComplete>true</sendMessageOnCooldownComplete>
+    <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
+    <moteOffsetAmountTowardsTarget>0.5</moteOffsetAmountTowardsTarget>
+    <warmupSound>AnomalyAbilityWarmup</warmupSound>
+    <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <warmupTime>2</warmupTime>
+      <range>5</range>
+      <requireLineOfSight>True</requireLineOfSight>
+      <drawHighlightWithLineOfSight>true</drawHighlightWithLineOfSight>
+      <targetParams>
+        <canTargetSelf>false</canTargetSelf>
+        <canTargetMechs>false</canTargetMechs>
+        <canTargetBuildings>false</canTargetBuildings>
+        <canTargetCorpses>true</canTargetCorpses>
+        <onlyTargetCorpses>true</onlyTargetCorpses>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="FB.CompProperties_TransformCorpse">
+        <transformedPawnKind>FB_DenseWeaver</transformedPawnKind>
+        <customEffect>MeatExplosionSmall</customEffect>
+      </li>
+    </comps>
+  </AbilityDef>
 </Defs>

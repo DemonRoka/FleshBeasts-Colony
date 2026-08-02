@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <FB_Assimilator.description>Carriers can harvest viable limbs and organs from fresh humanlike corpses, grafting them onto their own missing parts. The donor corpse loses the harvested part as it becomes part of the carrier.</FB_Assimilator.description>
+  <FB_Assimilator.description>Carriers can harvest one compatible limb or organ at a time from fresh humanlike corpses, grafting it onto their own missing parts. The donor corpse loses the harvested part as it becomes part of the carrier.</FB_Assimilator.description>
   <FB_Assimilator.label>assimilator</FB_Assimilator.label>
-  <FB_BiomassEvolution.description>Carriers can act as a living center of a flesh colony. They may become a Flesh Heart, seal pawns in biomass cocoons to bind and mutate them, and call nearby allied fleshbeasts to escort them.</FB_BiomassEvolution.description>
+  <FB_BiomassEvolution.description>Carriers can act as a living center of a flesh colony. They may become a Flesh Heart, seal pawns in biomass cocoons to bind and mutate them, and direct the colony's growth from within living flesh.</FB_BiomassEvolution.description>
   <FB_BiomassEvolution.label>biomass evolution</FB_BiomassEvolution.label>
   <FB_BiomassEvolution.labelShortAdj>biomass-evolving</FB_BiomassEvolution.labelShortAdj>
-  <FB_Eater.description>Carriers can swallow organic corpses into an internal memory-vat, storing several bodies. Their biomass reserve refills over time, can bud small fleshbeasts, and may be spent to regrow a stored body as a newborn.</FB_Eater.description>
+  <FB_Eater.description>Carriers can consume organic corpses into personal body memory, then spend colony hemogel to regrow stored creatures as living newborns on chosen flesh-covered cells.</FB_Eater.description>
   <FB_Eater.label>eater</FB_Eater.label>
   <FB_FleshbeastBody.description>Carriers are reshaped into a humanoid fleshbeast: hair and ordinary skin give way to living fleshbeast tissue and a warped head. The body feels far less pain, heals faster, and takes slightly less damage, but becomes deeply unsettling to others.</FB_FleshbeastBody.description>
   <FB_FleshbeastBody.label>fleshbeast body</FB_FleshbeastBody.label>
@@ -21,7 +21,7 @@
   <FB_PulsatingMold.description>Carriers grow spore nodules that can be toggled on to emit a selected spore cloud around them. The spores affect nearby creatures with poison, euphoria, or anesthesia depending on the chosen type.</FB_PulsatingMold.description>
   <FB_PulsatingMold.label>pulsating mold</FB_PulsatingMold.label>
   <FB_PulsatingMold.labelShortAdj>pulsating mold</FB_PulsatingMold.labelShortAdj>
-  <FB_ReplicatorParasite.description>Carriers can sacrifice a finger to implant a parasite of flesh into a living target. Once mature, bound parasites can be called to burst from their hosts as allied fingerspikes, leaving bleeding wounds behind.</FB_ReplicatorParasite.description>
+  <FB_ReplicatorParasite.description>Carriers can sacrifice fingers to implant hostile flesh parasites into living targets. Mature parasites can be called out on the current map or burst from a host that dies, and the carrier regrows one missing natural finger per day.</FB_ReplicatorParasite.description>
   <FB_ReplicatorParasite.label>replicator parasite</FB_ReplicatorParasite.label>
   <FB_Scavenger.description>Carriers can burst a fresh corpse into dense weavers. Larger bodies produce more weavers, while the original corpse is destroyed in a small meat eruption.</FB_Scavenger.description>
   <FB_Scavenger.label>scavenger</FB_Scavenger.label>

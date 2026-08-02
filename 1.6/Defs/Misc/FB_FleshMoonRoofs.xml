@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Крыша: flesh moon overhead mass (FB_FleshMoonRoofThick) -->
+  <RoofDef>
+    <defName>FB_FleshMoonRoofThick</defName>
+    <label>flesh moon overhead mass</label>
+    <isThickRoof>true</isThickRoof>
+    <isNatural>true</isNatural>
+    <collapseLeavingThingDef>Fleshmass</collapseLeavingThingDef>
+    <filthLeaving>Filth_Fleshmass</filthLeaving>
+  </RoofDef>
+</Defs>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <!-- Задание: FB_HealPawn -->
   <JobDef>
@@ -6,9 +6,9 @@
     <driverClass>FB.JobDriver_HealPawn</driverClass>
   </JobDef>
 
-  <!-- Задание: ScavengeCorpse -->
+  <!-- Задание: FB_ScavengeCorpse -->
   <JobDef>
-    <defName>ScavengeCorpse</defName>
+    <defName>FB_ScavengeCorpse</defName>
     <driverClass>FB.JobDriver_ScavengeCorpse</driverClass>
   </JobDef>
 </Defs>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Ген: Pulsating Mold (FB_PulsatingMold) -->
+  <GeneDef ParentName="BiomassBaseGene">
+    <defName>FB_PulsatingMold</defName>
+    <label>pulsating mold</label>
+    <labelShortAdj>pulsating mold</labelShortAdj>
+    <description>Carriers grow spore nodules that can be toggled on to emit a selected spore cloud around them. The spores affect nearby creatures with poison, euphoria, or anesthesia depending on the chosen type.</description>
+    <iconPath>UI/Icons/Genes/Gene_PulsatingMold</iconPath>
+    <geneClass>FB.Gene_HediffMaintainer</geneClass>
+    <biostatArc>2</biostatArc>
+    <biostatMet>-2</biostatMet>
+    <biostatCpx>1</biostatCpx>
+    <statOffsets>
+      <MaxNutrition>0.35</MaxNutrition>
+    </statOffsets>
+    <modExtensions>
+      <li Class="FB.GeneLinkedHediffExtension">
+        <hediffDef>FB_SporeGrowths</hediffDef>
+      </li>
+    </modExtensions>
+  </GeneDef>
+</Defs>

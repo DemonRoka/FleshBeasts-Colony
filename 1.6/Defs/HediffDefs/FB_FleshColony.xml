@@ -1,4 +1,4 @@
-<Defs>
+﻿<?xml version="1.0" encoding="utf-8"?><Defs>
   <!-- Состояние: flesh-colony acceptance (FB_AcceptanceOfFleshColony) -->
   <HediffDef>
     <defName>FB_AcceptanceOfFleshColony</defName>
@@ -426,6 +426,7 @@
         <minTicks>700</minTicks>
         <maxTicks>2000</maxTicks>
         <hpLoss>3</hpLoss>
+        <damageDef>AcidBurn</damageDef>
       </li>
     </comps>
   </HediffDef>
@@ -490,7 +491,6 @@
       <li>
         <label>initial exposure</label>
         <painFactor>0.8</painFactor>
-        <vomitMtbDays>4</vomitMtbDays>
         <capMods>
           <li>
             <capacity>Consciousness</capacity>
@@ -502,7 +502,6 @@
         <minSeverity>0.8</minSeverity>
         <label>drowsy</label>
         <painFactor>0.6</painFactor>
-        <vomitMtbDays>0.25</vomitMtbDays>
         <capMods>
           <li>
             <capacity>Consciousness</capacity>
@@ -719,10 +718,11 @@
     <label>parasite</label>
     <labelNoun>Parasite</labelNoun>
     <hediffClass>HediffWithComps</hediffClass>
-    <description>A flesh parasite is developing inside the host. As it matures, the host may vomit up new fleshbeasts while their body is used as living incubator tissue.</description>
+    <description>A hostile flesh parasite matures inside the host. Once mature, it can be called out of a living host or corpse, and it bursts out automatically if the host dies.</description>
     <defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
-    <isBad>false</isBad>
+    <isBad>true</isBad>
     <initialSeverity>0.001</initialSeverity>
+    <maxSeverity>1</maxSeverity>
     <comps>
       <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDayRange>1</severityPerDayRange>

@@ -10,6 +10,9 @@
 		<canBuildBase>false</canBuildBase>
 		<canAutoChoose>false</canAutoChoose>
 		<constantOutdoorTemperature>21</constantOutdoorTemperature>
+		<baseWeatherCommonalities>
+			<Clear>1</Clear>
+		</baseWeatherCommonalities>
 		<allowRoads>false</allowRoads>
 		<allowRivers>false</allowRivers>
 		<allowFarmingCamps>false</allowFarmingCamps>
@@ -29,6 +32,9 @@
 		<canBuildBase>true</canBuildBase>
 		<canAutoChoose>false</canAutoChoose>
 		<constantOutdoorTemperature>21</constantOutdoorTemperature>
+		<baseWeatherCommonalities>
+			<Clear>1</Clear>
+		</baseWeatherCommonalities>
 		<allowRoads>false</allowRoads>
 		<allowRivers>false</allowRivers>
 		<allowFarmingCamps>false</allowFarmingCamps>

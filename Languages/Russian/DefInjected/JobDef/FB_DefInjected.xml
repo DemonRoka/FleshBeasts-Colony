@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <ConsumeCorpseForSpawning.reportString>выслеживает TargetA.</ConsumeCorpseForSpawning.reportString>
+  <FB_ConsumeCorpseForSpawning.reportString>записывает память TargetA.</FB_ConsumeCorpseForSpawning.reportString>
+  <FB_EaterRegrowMemory.reportString>выращивает память тела.</FB_EaterRegrowMemory.reportString>
+  <FB_BodyPartTransferJob.reportString>переносит часть тела из TargetA.</FB_BodyPartTransferJob.reportString>
   <FB_BurdenBlobLatchToWall.reportString>цепляется к стене колонии.</FB_BurdenBlobLatchToWall.reportString>
   <FB_BurdenBlobCleanFilth.reportString>чистит TargetA.</FB_BurdenBlobCleanFilth.reportString>
   <FB_BurdenBlobRefillAtHeart.reportString>пополняет гемогель у сердца колонии.</FB_BurdenBlobRefillAtHeart.reportString>

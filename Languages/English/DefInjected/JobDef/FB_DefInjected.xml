@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <ConsumeCorpseForSpawning.reportString>stalking TargetA.</ConsumeCorpseForSpawning.reportString>
+  <FB_ConsumeCorpseForSpawning.reportString>recording memory of TargetA.</FB_ConsumeCorpseForSpawning.reportString>
+  <FB_EaterRegrowMemory.reportString>regrowing a body memory.</FB_EaterRegrowMemory.reportString>
+  <FB_BodyPartTransferJob.reportString>transferring a body part from TargetA.</FB_BodyPartTransferJob.reportString>
   <FB_BurdenBlobLatchToWall.reportString>clinging to a colony wall.</FB_BurdenBlobLatchToWall.reportString>
   <FB_BurdenBlobCleanFilth.reportString>cleaning TargetA.</FB_BurdenBlobCleanFilth.reportString>
   <FB_BurdenBlobRefillAtHeart.reportString>refilling hemogel at the colony heart.</FB_BurdenBlobRefillAtHeart.reportString>

@@ -34,7 +34,7 @@
       <subNodes>
         <li Class="FB.ThinkNode_ConditionalSpawned">
           <subNodes>
-            <li Class="FB.JobGiver_DoWorkOld" />
+            <li Class="FB.JobGiver_DoConfiguredWork" />
             <li Class="FB.JobGiver_EnterHive" />
             <li Class="JobGiver_Idle" />
           </subNodes>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_FleshMoonDeepScannerNoDepositsLabel>No useful deposits found</FB_FleshMoonDeepScannerNoDepositsLabel>
+  <FB_FleshMoonDeepScannerNoDepositsText>The ground-penetrating scanner completed its sweep of the flesh moon. No useful underground deposits were detected on this map.</FB_FleshMoonDeepScannerNoDepositsText>
+  <FB_FleshMoonDeepDrill_InspectHemogelConsumption>Lunar drilling hemogel demand: {0}/h while operated.</FB_FleshMoonDeepDrill_InspectHemogelConsumption>
+  <FB_FleshMoonDeepDrill_EconomyDetail>Lunar deep drilling: {0}/h while operated</FB_FleshMoonDeepDrill_EconomyDetail>
+</LanguageData>

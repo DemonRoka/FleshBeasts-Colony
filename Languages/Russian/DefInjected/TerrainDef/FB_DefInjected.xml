@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FleshVeins.label>жилы плоти</FleshVeins.label>
+  <FB_FleshMoonFlesh.label>лунная плоть</FB_FleshMoonFlesh.label>
+  <FB_FleshMoonFlesh.description>Живая поверхность луны плоти, выросшая как сам грунт, а не слой поверх почвы.</FB_FleshMoonFlesh.description>
+  <FB_FleshMoonFleshVeins.label>жилистая лунная плоть</FB_FleshMoonFleshVeins.label>
+  <FB_FleshMoonFleshVeins.description>Жилистая живая ткань, проросшая через грунт луны плоти и пульсирующая под поверхностью.</FB_FleshMoonFleshVeins.description>
   <RootFlesh.label>корневая плоть</RootFlesh.label>
   <RootFleshVeins.label>жилы корневой плоти</RootFleshVeins.label>
 </LanguageData>

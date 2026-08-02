@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Ген: eater (FB_Eater) -->
+  <GeneDef ParentName="BiomassBaseGene">
+    <defName>FB_Eater</defName>
+    <label>eater</label>
+    <description>Carriers can consume organic corpses into personal body memory, then spend colony hemogel to regrow stored creatures as living newborns on chosen flesh-covered cells.</description>
+    <iconPath>UI/Icons/Genes/Gene_Eater</iconPath>
+    <geneClass>FB.Gene_Eater</geneClass>
+    <biostatArc>3</biostatArc>
+    <biostatMet>-2</biostatMet>
+    <biostatCpx>-2</biostatCpx>
+    <statOffsets>
+      <MaxNutrition>0.35</MaxNutrition>
+    </statOffsets>
+    <symbolPack>
+      <prefixSymbols>
+        <li>
+          <symbol>bio</symbol>
+        </li>
+        <li>
+          <symbol>organic</symbol>
+        </li>
+        <li>
+          <symbol>cell</symbol>
+        </li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li>
+          <symbol>storage</symbol>
+        </li>
+        <li>
+          <symbol>container</symbol>
+        </li>
+        <li>
+          <symbol>vessel</symbol>
+        </li>
+      </suffixSymbols>
+    </symbolPack>
+    <modExtensions>
+      <li Class="FB.EaterGeneExtension">
+        <workTicks>300</workTicks>
+        <regrowWorkTicks>600</regrowWorkTicks>
+        <maxStoredMemories>3</maxStoredMemories>
+        <hemogelCostPerBodySize>100</hemogelCostPerBodySize>
+        <consumeIconPath>UI/Commands/Consume</consumeIconPath>
+        <reconstructIconPath>UI/Commands/FleshMemoryReconstruct</reconstructIconPath>
+        <deleteIconPath>UI/Commands/FleshMemoryDelete</deleteIconPath>
+      </li>
+    </modExtensions>
+  </GeneDef>
+</Defs>

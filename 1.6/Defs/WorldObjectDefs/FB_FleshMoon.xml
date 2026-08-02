@@ -7,8 +7,6 @@
     <worldObjectClass>FB.FB_FleshMoonWorldObject</worldObjectClass>
     <canHaveFaction>true</canHaveFaction>
     <canHaveMap>true</canHaveMap>
-    <canBePlayerHome>true</canBePlayerHome>
-    <treatAsPlayerHome>true</treatAsPlayerHome>
     <validLaunchTarget>false</validLaunchTarget>
     <selectable>true</selectable>
     <texture>World/FleshMoon/FleshMoonSurface</texture>

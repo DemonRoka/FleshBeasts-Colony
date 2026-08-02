@@ -29,6 +29,8 @@
   <FB_GrowFleshTree_Desc>Выращивает древо плоти из плоти колонии. Растение появляется молодым ростком.</FB_GrowFleshTree_Desc>
   <FB_FleshPlantCellBlocked>Клетка должна быть пустой.</FB_FleshPlantCellBlocked>
   <FB_FleshPlantTreeRoofed>Древо плоти не может расти под крышей.</FB_FleshPlantTreeRoofed>
+  <FB_EmbryoGrowthOnePerMap>{0} уже есть на этой карте.</FB_EmbryoGrowthOnePerMap>
+  <FB_EmbryoGrowthForbiddenInPocketMap>{0} нельзя выращивать на луне плоти или внутри карманных карт.</FB_EmbryoGrowthForbiddenInPocketMap>
   <FB_MaturationBlocked>Созревание {0} заблокировано: {1}</FB_MaturationBlocked>
   <FB_DevFinishMaturation>РАЗР: завершить созревание</FB_DevFinishMaturation>
   <FB_DevFinishMaturationDesc>Мгновенно завершает созревание эмбриона, если взрослую форму можно разместить.</FB_DevFinishMaturationDesc>

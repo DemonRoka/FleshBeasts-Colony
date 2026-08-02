@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="DeepDrill"]/comps</xpath>
+    <value>
+      <li Class="FB.CompProperties_FleshMoonDeepDrillHemogelConsumer">
+        <hemogelPerHour>0.2</hemogelPerHour>
+        <meatCountRange>15~35</meatCountRange>
+      </li>
+    </value>
+  </Operation>
+</Patch>

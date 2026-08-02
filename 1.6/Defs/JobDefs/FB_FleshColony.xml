@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <!-- Задание: FB_RotlarvaConsumeFleshmass -->
+  <!-- Задание: FB_BiomassTransformAtCell -->
+  <JobDef>
+    <defName>FB_BiomassTransformAtCell</defName>
+    <driverClass>FB.JobDriver_BiomassTransformAtCell</driverClass>
+    <reportString>becoming the flesh heart.</reportString>
+  </JobDef>
   <JobDef>
     <defName>FB_RotlarvaConsumeFleshmass</defName>
     <driverClass>FB.JobDriver_RotlarvaConsumeFleshmass</driverClass>
@@ -40,11 +45,17 @@
     <defName>FB_TransferConsciousness</defName>
     <driverClass>FB.JobDriver_TransferConsciousness</driverClass>
   </JobDef>
-  <!-- Задание: ConsumeCorpseForSpawning -->
+  <!-- Задание: consume corpse for spawning (FB_ConsumeCorpseForSpawning) -->
   <JobDef>
-    <defName>ConsumeCorpseForSpawning</defName>
+    <defName>FB_ConsumeCorpseForSpawning</defName>
     <driverClass>FB.JobDriver_ConsumeCorpseForSpawning</driverClass>
-    <reportString>stalking TargetA.</reportString>
+    <reportString>recording memory of TargetA.</reportString>
+    <checkOverrideOnDamage>Never</checkOverrideOnDamage>
+  </JobDef>
+  <JobDef>
+    <defName>FB_EaterRegrowMemory</defName>
+    <driverClass>FB.JobDriver_EaterRegrowMemory</driverClass>
+    <reportString>regrowing a body memory.</reportString>
     <checkOverrideOnDamage>Never</checkOverrideOnDamage>
   </JobDef>
   <!-- Задание: Symbio_EatCorpse -->
@@ -104,7 +115,6 @@
     <reportString>dissolving into TargetA.</reportString>
     <checkOverrideOnDamage>Never</checkOverrideOnDamage>
   </JobDef>
-
   <JobDef>
     <defName>FB_FleshbeastBeatFire</defName>
     <driverClass>FB.JobDriver_FleshbeastBeatFire</driverClass>
@@ -112,7 +122,6 @@
     <neverShowWeapon>true</neverShowWeapon>
     <casualInterruptible>false</casualInterruptible>
   </JobDef>
-
   <JobDef>
     <defName>FB_FleshbeastExtinguishSelf</defName>
     <driverClass>FB.JobDriver_FleshbeastExtinguishSelf</driverClass>

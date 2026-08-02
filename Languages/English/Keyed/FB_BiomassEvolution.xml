@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_NotEnoughRoomForFleshHeart>Not enough open space to grow a Flesh Heart.</FB_NotEnoughRoomForFleshHeart>
+  <FB_NoReachableTransformCell>The chosen heart center is not reachable.</FB_NoReachableTransformCell>
+  <FB_FailedSpawnFleshHeart>Failed to grow the Flesh Heart.</FB_FailedSpawnFleshHeart>
+  <FB_BiomassTransformBuildingNotSet>No Flesh Heart building is configured.</FB_BiomassTransformBuildingNotSet>
+</LanguageData>

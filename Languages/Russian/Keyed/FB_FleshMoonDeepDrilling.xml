@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_FleshMoonDeepScannerNoDepositsLabel>Полезных залежей нет</FB_FleshMoonDeepScannerNoDepositsLabel>
+  <FB_FleshMoonDeepScannerNoDepositsText>Глубинный сканер завершил проверку луны плоти. Полезных подземных залежей на этой карте не обнаружено.</FB_FleshMoonDeepScannerNoDepositsText>
+  <FB_FleshMoonDeepDrill_InspectHemogelConsumption>Расход гемогеля при лунном бурении: {0}/ч во время работы.</FB_FleshMoonDeepDrill_InspectHemogelConsumption>
+  <FB_FleshMoonDeepDrill_EconomyDetail>Лунное глубинное бурение: {0}/ч во время работы</FB_FleshMoonDeepDrill_EconomyDetail>
+</LanguageData>

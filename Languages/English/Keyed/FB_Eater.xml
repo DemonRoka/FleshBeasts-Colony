@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <FB_EaterReconstructTooltip>Order the carrier to walk to a flesh-covered cell and regrow {0} as a living newborn. Cost: {1} hemogel.</FB_EaterReconstructTooltip>
+  <FB_EaterForgetTooltip>Forget this body memory.</FB_EaterForgetTooltip>
+  <FB_EaterForgetConfirm>Forget the stored body memory of {0}?</FB_EaterForgetConfirm>
+  <FB_EaterMemoryFull>Body memory is full: {0} stored.</FB_EaterMemoryFull>
+  <FB_EaterMemoryStoreFailed>The carrier failed to store that body memory.</FB_EaterMemoryStoreFailed>
+  <FB_EaterOrganicCorpseOnly>Only organic non-fleshbeast corpses can be stored.</FB_EaterOrganicCorpseOnly>
+  <FB_EaterNotEnoughHemogel>Regrowth requires {0} hemogel. Available: {1}.</FB_EaterNotEnoughHemogel>
+  <FB_EaterInvalidMemory>That body memory can no longer be regrown.</FB_EaterInvalidMemory>
+  <FB_EaterMissingMemory>missing memory</FB_EaterMissingMemory>
+  <FB_EaterRegrowthInProgress>Regrowth in progress</FB_EaterRegrowthInProgress>
+  <FB_EaterRegrowthComplete>Regrowth complete: {0}.</FB_EaterRegrowthComplete>
+
+</LanguageData>

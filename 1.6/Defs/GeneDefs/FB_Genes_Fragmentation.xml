@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <GeneDef ParentName="BiomassBaseGene">
+    <defName>FB_Fragmentation</defName>
+    <label>Fragmentation</label>
+    <description>Carriers can rupture into shardlings either willingly or automatically to preserve their life. The shardlings flee danger, regroup, and try to rebuild the original body, but the flesh remains unstable for a long time after reassembly.</description>
+    <iconPath>UI/Icons/Genes/Gene_Fragmentation</iconPath>
+    <geneClass>FB.Gene_Fragmentation</geneClass>
+    <modExtensions>
+      <li Class="FB.DefModExtension_FragmentationSettings">
+        <spawnCount>3</spawnCount>
+        <spawnPawnKind>FB_Shardlings</spawnPawnKind>
+        <customEffect>MeatExplosionSmall</customEffect>
+        <cooldownTicksAfterReassembly>180000</cooldownTicksAfterReassembly>
+      </li>
+    </modExtensions>
+    <biostatArc>3</biostatArc>
+    <biostatMet>-2</biostatMet>
+    <biostatCpx>2</biostatCpx>
+    <statOffsets>
+      <MaxNutrition>0.35</MaxNutrition>
+    </statOffsets>
+    <minAgeActive>0</minAgeActive>
+    <symbolPack>
+      <wholeNameSymbols>
+        <li>
+          <symbol>divide</symbol>
+        </li>
+      </wholeNameSymbols>
+      <prefixSymbols>
+        <li>
+          <symbol>life</symbol>
+        </li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+</Defs>

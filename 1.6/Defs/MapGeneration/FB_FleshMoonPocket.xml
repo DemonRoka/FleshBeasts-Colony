@@ -4,6 +4,7 @@
     <defName>FB_FleshMoonPocket</defName>
     <label>flesh moon interior</label>
     <isUnderground>true</isUnderground>
+    <roofDef>FB_FleshMoonRoofThick</roofDef>
     <forceCaves>true</forceCaves>
     <ignoreAreaRevealedLetter>true</ignoreAreaRevealedLetter>
     <disableCallAid>true</disableCallAid>
@@ -24,17 +25,17 @@
     <order>10</order>
     <genStep Class="FB.GenStep_FleshMoonTerrain">
       <floorTerrains>
-        <li>Flesh</li>
-        <li>FleshVeins</li>
+        <li>FB_FleshMoonFlesh</li>
+        <li>FB_FleshMoonFleshVeins</li>
       </floorTerrains>
       <acidTerrain>FB_GastricAcid</acidTerrain>
       <wallDef>Fleshmass</wallDef>
+      <thickRoofDef>FB_FleshMoonRoofThick</thickRoofDef>
       <solidCaveShell>true</solidCaveShell>
       <mountainLobeCount>16</mountainLobeCount>
       <mountainLobeRadiusRange>30~70</mountainLobeRadiusRange>
       <mountainLobeWeightRange>0.55~0.95</mountainLobeWeightRange>
       <mountainThreshold>0.54</mountainThreshold>
-      <thickRoofThreshold>0.78</thickRoofThreshold>
       <edgeMountainStrength>0.72</edgeMountainStrength>
       <caveChamberCount>14</caveChamberCount>
       <caveChamberRadiusRange>3~6</caveChamberRadiusRange>

@@ -2,8 +2,8 @@
 <LanguageData>
 
   <FB_FleshMemory_Tab>Memory</FB_FleshMemory_Tab>
-  <FB_FleshMemory_Header>Stored minds: {0}</FB_FleshMemory_Header>
-  <FB_FleshMemory_Empty>No minds have been recorded by the flesh colony.</FB_FleshMemory_Empty>
+  <FB_FleshMemory_Header>Stored memories: {0}</FB_FleshMemory_Header>
+  <FB_FleshMemory_Empty>No memories have been recorded.</FB_FleshMemory_Empty>
   <FB_FleshMemory_Unnamed>unnamed mind</FB_FleshMemory_Unnamed>
   <FB_FleshMemory_Unknown>unknown</FB_FleshMemory_Unknown>
   <FB_FleshMemory_StatusAlive>Living source</FB_FleshMemory_StatusAlive>
@@ -20,7 +20,7 @@
   <FB_FleshMemory_AlreadyGrowing>A body is already being grown from this memory.</FB_FleshMemory_AlreadyGrowing>
   <FB_FleshMemory_BrainBusy>This colony brain is already growing another body.</FB_FleshMemory_BrainBusy>
   <FB_FleshMemory_NoGrowthCell>There is no suitable cell near the colony brain for a new shell.</FB_FleshMemory_NoGrowthCell>
-  <FB_FleshMemory_InvalidGrowthCell>Select an empty standable cell for the new shell.</FB_FleshMemory_InvalidGrowthCell>
+  <FB_FleshMemory_InvalidGrowthCell>Select an empty standable flesh-covered cell for the new shell.</FB_FleshMemory_InvalidGrowthCell>
   <FB_FleshMemory_CreateShellFailed>The colony brain failed to form a viable shell.</FB_FleshMemory_CreateShellFailed>
   <FB_FleshMemory_NotEnoughHemogel>Reconstruction requires {0} brain hemogel. Available: {1}.</FB_FleshMemory_NotEnoughHemogel>
   <FB_FleshMemory_ReconstructUnavailable>This memory cannot currently be reconstructed.</FB_FleshMemory_ReconstructUnavailable>

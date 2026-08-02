@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Gene: Biomass evolution (FB_BiomassEvolution) -->
+  <GeneDef ParentName="BiomassBaseGene">
+    <defName>FB_BiomassEvolution</defName>
+    <label>biomass evolution</label>
+    <labelShortAdj>biomass-evolving</labelShortAdj>
+    <description>Carriers can act as a living center of a flesh colony. They may become a Flesh Heart, seal pawns in biomass cocoons to bind and mutate them, and direct the colony's growth from within living flesh.</description>
+    <iconPath>UI/Icons/Genes/Gene_BiomassEvolution</iconPath>
+    <displayOrderInCategory>200</displayOrderInCategory>
+    <biostatArc>3</biostatArc>
+    <biostatMet>-2</biostatMet>
+    <biostatCpx>-1</biostatCpx>
+    <statOffsets>
+      <MaxNutrition>0.35</MaxNutrition>
+    </statOffsets>
+    <sterilize>true</sterilize>
+    <abilities>
+      <li>FB_CocoonFlesh</li>
+      <li>FB_BecomeFleshHeart</li>
+    </abilities>
+  </GeneDef>
+</Defs>

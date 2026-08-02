@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <!-- Дерево рендера: FB_Regenerator -->
   <PawnRenderTreeDef>
@@ -121,7 +121,7 @@
               <texPath>Things/Pawn/FB_DenseWeaver/Attachments/DenseWeaver_Tentacle</texPath>
               <drawSize>1.1</drawSize>
               <useRottenColor>true</useRottenColor>
-              <linkedBodyPartsGroup>FB_ThirdTentacle</linkedBodyPartsGroup>
+              <linkedBodyPartsGroup>FB_FourthTentacle</linkedBodyPartsGroup>
               <drawData>
                 <defaultData>
                   <pivot>(0.5, 0.5)</pivot>

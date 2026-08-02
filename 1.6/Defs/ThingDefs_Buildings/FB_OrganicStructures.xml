@@ -285,7 +285,7 @@
       </li>
       <li Class="FB.CompProperties_FleshMoonGastricAcidDigester">
         <acidTerrain>FB_GastricAcid</acidTerrain>
-        <terrainOnAbsorb>Flesh</terrainOnAbsorb>
+        <terrainOnAbsorb>FB_FleshMoonFlesh</terrainOnAbsorb>
         <hemogelProductionPerHour>50</hemogelProductionPerHour>
         <hemogelPerNutrition>20</hemogelPerNutrition>
         <digestionDurationFactor>2</digestionDurationFactor>

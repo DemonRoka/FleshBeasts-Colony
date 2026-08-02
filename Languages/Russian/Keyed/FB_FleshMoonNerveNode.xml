@@ -37,5 +37,5 @@
   <FB_FleshMoonGastricAcidBlocked>Нельзя сформировать желудочный сок под постройкой.</FB_FleshMoonGastricAcidBlocked>
   <FB_FleshMoonGastricAcidDigester_Inspect>Лунное пищеварительное топливо: {0} питания. Выход гемогеля: {1}/ч.</FB_FleshMoonGastricAcidDigester_Inspect>
   <FB_FleshMoonGastricAcidDigester_EconomyDetail>Лунное пищеварительное топливо: {0} питания; выход {1}/ч</FB_FleshMoonGastricAcidDigester_EconomyDetail>
-  <FB_BiomassTransformNoHeartOnFleshMoon>Луна плоти не может вырастить ещё одно сердце колонии.</FB_BiomassTransformNoHeartOnFleshMoon>
+  <FB_BiomassTransformNoHeartOnFleshMoon>Нельзя вырастить Сердце плоти внутри луны плоти. Вместо него создайте лунный нервный узел в меню строительства, во вкладке «Луна плоти».</FB_BiomassTransformNoHeartOnFleshMoon>
 </LanguageData>

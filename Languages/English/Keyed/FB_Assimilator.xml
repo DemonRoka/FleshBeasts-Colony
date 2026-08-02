@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_BodyPartTransfer_NoMissingParts>The caster has no missing body parts to restore.</FB_BodyPartTransfer_NoMissingParts>
+  <FB_BodyPartTransfer_NoCompatibleDonorPart>The corpse has no compatible viable body part.</FB_BodyPartTransfer_NoCompatibleDonorPart>
+</LanguageData>

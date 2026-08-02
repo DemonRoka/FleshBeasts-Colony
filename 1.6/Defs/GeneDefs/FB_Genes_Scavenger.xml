@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Ген: scavenger (FB_Scavenger) -->
+  <GeneDef ParentName="BiomassBaseGene">
+    <defName>FB_Scavenger</defName>
+    <label>scavenger</label>
+    <description>Carriers can burst a fresh corpse into dense weavers. Larger bodies produce more weavers, while the original corpse is destroyed in a small meat eruption.</description>
+    <iconPath>UI/Icons/Genes/Gene_Scavenger</iconPath>
+    <abilities>
+      <li>FB_Scavenger</li>
+    </abilities>
+    <descriptionHyperlinks>
+      <AbilityDef>FB_Scavenger</AbilityDef>
+    </descriptionHyperlinks>
+    <biostatArc>3</biostatArc>
+    <biostatMet>-2</biostatMet>
+    <biostatCpx>1</biostatCpx>
+    <statOffsets>
+      <MaxNutrition>0.35</MaxNutrition>
+    </statOffsets>
+    <minAgeActive>0</minAgeActive>
+  </GeneDef>
+</Defs>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_NotEnoughRoomForFleshHeart>Недостаточно свободного места, чтобы вырастить Сердце плоти.</FB_NotEnoughRoomForFleshHeart>
+  <FB_NoReachableTransformCell>Выбранный центр сердца недостижим.</FB_NoReachableTransformCell>
+  <FB_FailedSpawnFleshHeart>Не удалось вырастить Сердце плоти.</FB_FailedSpawnFleshHeart>
+  <FB_BiomassTransformBuildingNotSet>Постройка Сердца плоти не настроена.</FB_BiomassTransformBuildingNotSet>
+</LanguageData>

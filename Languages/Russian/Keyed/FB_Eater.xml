@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <FB_EaterReconstructTooltip>Приказать носителю подойти к клетке плоти и вырастить {0} живым новорождённым. Стоимость: {1} гемогеля.</FB_EaterReconstructTooltip>
+  <FB_EaterForgetTooltip>Забыть это воспоминание тела.</FB_EaterForgetTooltip>
+  <FB_EaterForgetConfirm>Забыть сохранённое воспоминание тела {0}?</FB_EaterForgetConfirm>
+  <FB_EaterMemoryFull>Память тел заполнена: {0} сохранено.</FB_EaterMemoryFull>
+  <FB_EaterMemoryStoreFailed>Носитель не смог сохранить это воспоминание тела.</FB_EaterMemoryStoreFailed>
+  <FB_EaterOrganicCorpseOnly>Можно сохранять только органические трупы, не являющиеся флешбистами.</FB_EaterOrganicCorpseOnly>
+  <FB_EaterNotEnoughHemogel>Для роста требуется {0} гемогеля. Доступно: {1}.</FB_EaterNotEnoughHemogel>
+  <FB_EaterInvalidMemory>Это воспоминание тела больше нельзя вырастить.</FB_EaterInvalidMemory>
+  <FB_EaterMissingMemory>потерянное воспоминание</FB_EaterMissingMemory>
+  <FB_EaterRegrowthInProgress>Рост выполняется</FB_EaterRegrowthInProgress>
+  <FB_EaterRegrowthComplete>Рост завершён: {0}.</FB_EaterRegrowthComplete>
+
+</LanguageData>

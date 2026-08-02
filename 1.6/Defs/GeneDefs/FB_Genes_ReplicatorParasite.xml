@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Ген: replicator parasite (FB_ReplicatorParasite) -->
+  <GeneDef ParentName="BiomassBaseGene">
+    <defName>FB_ReplicatorParasite</defName>
+    <label>replicator parasite</label>
+    <description>Carriers can sacrifice fingers to implant hostile flesh parasites into living targets. Mature parasites can be called out on the current map or burst from a host that dies, and the carrier regrows one missing natural finger per day.</description>
+    <iconPath>UI/Icons/Genes/Gene_ReplicatorParasite</iconPath>
+    <geneClass>FB.Gene_ReplicatorParasite</geneClass>
+    <abilities>
+      <li>FB_ParasiteImplant</li>
+      <li>FB_ParasiteCall</li>
+    </abilities>
+    <biostatArc>4</biostatArc>
+    <biostatMet>-3</biostatMet>
+    <biostatCpx>3</biostatCpx>
+    <statOffsets>
+      <MaxNutrition>0.50</MaxNutrition>
+    </statOffsets>
+    <minAgeActive>0</minAgeActive>
+  </GeneDef>
+</Defs>

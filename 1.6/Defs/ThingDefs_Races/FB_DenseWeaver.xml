@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <!-- Раса: dense weaver (FB_DenseWeaver) -->
   <ThingDef ParentName="BasePawn">
@@ -54,9 +54,6 @@
       <corpseHiddenWhileUndiscovered>true</corpseHiddenWhileUndiscovered>
     </race>
     <comps>
-      <li Class="FB.CompProperties_Regenerator">
-        <ticksPerRegenerate>60000</ticksPerRegenerate>
-      </li>
       <li Class="FB.CompProperties_OutsideLifetime">
         <lifetimeTicks>15000</lifetimeTicks>
       </li>
