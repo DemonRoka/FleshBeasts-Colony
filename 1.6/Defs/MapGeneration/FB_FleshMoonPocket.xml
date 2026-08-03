@@ -11,11 +11,34 @@
     <pocketMapProperties>
       <biome>FB_FleshMoonBiome</biome>
       <temperature>21</temperature>
+      <destroyOnParentMapAbandoned>false</destroyOnParentMapAbandoned>
     </pocketMapProperties>
     <genSteps>
       <li>FB_GenStep_FleshMoonTerrain</li>
       <li>FB_GenStep_FleshMoonPlants</li>
       <li>FB_GenStep_FleshMoonUmbilicusExit</li>
+      <li>Fog</li>
+    </genSteps>
+  </MapGeneratorDef>
+
+  <MapGeneratorDef>
+    <defName>FB_FleshMoonScenarioStart</defName>
+    <label>flesh moon scenario start</label>
+    <isUnderground>true</isUnderground>
+    <roofDef>FB_FleshMoonRoofThick</roofDef>
+    <forceCaves>true</forceCaves>
+    <ignoreAreaRevealedLetter>true</ignoreAreaRevealedLetter>
+    <disableCallAid>true</disableCallAid>
+    <pocketMapProperties>
+      <biome>FB_FleshMoonBiome</biome>
+      <temperature>21</temperature>
+      <destroyOnParentMapAbandoned>false</destroyOnParentMapAbandoned>
+    </pocketMapProperties>
+    <genSteps>
+      <li>FB_GenStep_FleshMoonTerrain</li>
+      <li>FB_GenStep_FleshMoonPlants</li>
+      <li>FB_GenStep_FleshMoonUmbilicusExit</li>
+      <li>ScenParts</li>
       <li>Fog</li>
     </genSteps>
   </MapGeneratorDef>

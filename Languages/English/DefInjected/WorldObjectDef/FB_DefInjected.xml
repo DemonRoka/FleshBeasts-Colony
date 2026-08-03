@@ -4,6 +4,8 @@
   <FB_FleshTunnelDestination.label>flesh tunnel</FB_FleshTunnelDestination.label>
   <FB_FleshMoonWorldObject.description>A living orbital mass tethered to the colony by the celestial umbilicus.</FB_FleshMoonWorldObject.description>
   <FB_FleshMoonWorldObject.label>flesh moon</FB_FleshMoonWorldObject.label>
+  <FB_FleshMoonStartingSettlement.description>A hidden scenario handoff object used to let the flesh moon be generated as the player's first map.</FB_FleshMoonStartingSettlement.description>
+  <FB_FleshMoonStartingSettlement.label>flesh moon</FB_FleshMoonStartingSettlement.label>
 
   <FB_FleshMoonSurfaceAnchor.label>flesh moon anchor</FB_FleshMoonSurfaceAnchor.label>
   <FB_FleshMoonSurfaceAnchor.description>A surface point pierced by the flesh moon's celestial umbilicus.</FB_FleshMoonSurfaceAnchor.description>

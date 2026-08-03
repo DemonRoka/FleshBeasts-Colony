@@ -8,6 +8,12 @@
   <FB_GrowToughspikeFromHemogel.description>Grows a toughspike from the colony's shared hemogel reserve.</FB_GrowToughspikeFromHemogel.description>
   <FB_GrowBulbfreakFromHemogel.label>grow bulbfreak from hemogel</FB_GrowBulbfreakFromHemogel.label>
   <FB_GrowBulbfreakFromHemogel.description>Grows a bulbfreak from the colony's shared hemogel reserve.</FB_GrowBulbfreakFromHemogel.description>
+  <FB_GrowFourFingerspikesFromHemogel.label>grow 4 fingerspikes from hemogel</FB_GrowFourFingerspikesFromHemogel.label>
+  <FB_GrowFourFingerspikesFromHemogel.description>Grows four fingerspikes from the colony's shared hemogel reserve.</FB_GrowFourFingerspikesFromHemogel.description>
+  <FB_GrowFourTrispikesFromHemogel.label>grow 4 trispikes from hemogel</FB_GrowFourTrispikesFromHemogel.label>
+  <FB_GrowFourTrispikesFromHemogel.description>Grows four trispikes from the colony's shared hemogel reserve.</FB_GrowFourTrispikesFromHemogel.description>
+  <FB_GrowFourToughspikesFromHemogel.label>grow 4 toughspikes from hemogel</FB_GrowFourToughspikesFromHemogel.label>
+  <FB_GrowFourToughspikesFromHemogel.description>Grows four toughspikes from the colony's shared hemogel reserve.</FB_GrowFourToughspikesFromHemogel.description>
   <FB_MergeTrispike.label>merge trispike</FB_MergeTrispike.label>
   <FB_MergeTrispike.description>Assembles a trispike from an allowed combination of lesser fleshbeasts.</FB_MergeTrispike.description>
   <FB_MergeToughspike.label>merge toughspike</FB_MergeToughspike.label>

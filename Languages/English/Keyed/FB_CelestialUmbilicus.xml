@@ -62,6 +62,7 @@
   <FB_FleshMoonWorldObjectAnchorDesc>Load the surface tile below the flesh moon, pause the game, and choose the exact impact site for the celestial umbilicus.</FB_FleshMoonWorldObjectAnchorDesc>
   <FB_FleshMoonWorldObjectDetachLabel>Detach umbilicus</FB_FleshMoonWorldObjectDetachLabel>
   <FB_FleshMoonWorldObjectDetachDesc>Sever the current surface umbilicus and remove its ground-side edge without moving the flesh moon.</FB_FleshMoonWorldObjectDetachDesc>
+  <FB_FleshMoonWorldObjectDetachFleshbeastsWarning>The umbilicus surface map has no colonists, but {0} fleshbeasts remain there. If you detach the umbilicus now, the temporary map will collapse and those fleshbeasts will be lost with the location. Continue?</FB_FleshMoonWorldObjectDetachFleshbeastsWarning>
   <FB_FleshMoonWorldObjectInactiveDisabled>The flesh moon is not active.</FB_FleshMoonWorldObjectInactiveDisabled>
   <FB_FleshMoonWorldObjectAbsorbingDisabled>The flesh moon is absorbing the colony.</FB_FleshMoonWorldObjectAbsorbingDisabled>
   <FB_FleshMoonWorldObjectMovingDisabled>The flesh moon is already moving.</FB_FleshMoonWorldObjectMovingDisabled>

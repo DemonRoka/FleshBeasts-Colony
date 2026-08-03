@@ -62,6 +62,7 @@
   <FB_FleshMoonWorldObjectAnchorDesc>Загрузить клетку поверхности под луной плоти, поставить игру на паузу и выбрать точное место падения небесной пуповины.</FB_FleshMoonWorldObjectAnchorDesc>
   <FB_FleshMoonWorldObjectDetachLabel>Отсоединить пуповину</FB_FleshMoonWorldObjectDetachLabel>
   <FB_FleshMoonWorldObjectDetachDesc>Разорвать текущую наземную привязку пуповины и удалить её край на поверхности без перелёта луны.</FB_FleshMoonWorldObjectDetachDesc>
+  <FB_FleshMoonWorldObjectDetachFleshbeastsWarning>На поверхности у пуповины нет колонистов, но осталось биошматов: {0}. Если отсоединить пуповину сейчас, временная карта схлопнется, а эти биошматы будут потеряны вместе с локацией. Продолжить?</FB_FleshMoonWorldObjectDetachFleshbeastsWarning>
   <FB_FleshMoonWorldObjectInactiveDisabled>Луна плоти не активна.</FB_FleshMoonWorldObjectInactiveDisabled>
   <FB_FleshMoonWorldObjectAbsorbingDisabled>Луна плоти поглощает колонию.</FB_FleshMoonWorldObjectAbsorbingDisabled>
   <FB_FleshMoonWorldObjectMovingDisabled>Луна плоти уже перемещается.</FB_FleshMoonWorldObjectMovingDisabled>

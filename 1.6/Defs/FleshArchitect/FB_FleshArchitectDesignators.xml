@@ -177,6 +177,27 @@
   </FB.FleshArchitectDesignatorDef>
 
   <FB.FleshArchitectDesignatorDef>
+    <defName>FB_FleshArchitect_Local_RelocateBuilding</defName>
+    <category>FB_FleshArchitect_ZonesPlans</category>
+    <className>FB.Designator_LocalFleshRelocateBuilding</className>
+    <iconPath>UI/Commands/FleshMoonMove</iconPath>
+    <labelKey>FB_LocalFleshRelocateBuilding_Label</labelKey>
+    <descriptionKey>FB_LocalFleshRelocateBuilding_Desc</descriptionKey>
+    <forbiddenRelocationThingDefs>
+      <li>FB_ColonyHeart</li>
+      <li>FB_FleshMoonNerveNode</li>
+      <li>FB_CelestialUmbilicus</li>
+      <li>FB_CelestialUmbilicusEmbryo</li>
+      <li>FB_CelestialUmbilicusPortal</li>
+      <li>FB_CelestialUmbilicusPortalIncoming</li>
+      <li>FB_CelestialUmbilicusMoonExit</li>
+      <li>FB_FleshTunnelMaw</li>
+      <li>FB_FleshTunnelExit</li>
+    </forbiddenRelocationThingDefs>
+    <order>75</order>
+  </FB.FleshArchitectDesignatorDef>
+
+  <FB.FleshArchitectDesignatorDef>
     <defName>FB_FleshArchitect_FleshMoon_NerveNode</defName>
     <category>FB_FleshArchitect_FleshMoon</category>
     <className>FB.Designator_FleshMoonNerveNode</className>
@@ -206,6 +227,27 @@
     <labelKey>FB_FleshMoonGastricAcidRemoveLabel</labelKey>
     <descriptionKey>FB_FleshMoonGastricAcidRemoveDesc</descriptionKey>
     <order>2</order>
+  </FB.FleshArchitectDesignatorDef>
+
+  <FB.FleshArchitectDesignatorDef>
+    <defName>FB_FleshArchitect_FleshMoon_RelocateBuilding</defName>
+    <category>FB_FleshArchitect_FleshMoon</category>
+    <className>FB.Designator_FleshMoonRelocateBuilding</className>
+    <iconPath>UI/Commands/FleshMoonMove</iconPath>
+    <labelKey>FB_FleshMoonRelocateBuilding_Label</labelKey>
+    <descriptionKey>FB_FleshMoonRelocateBuilding_Desc</descriptionKey>
+    <forbiddenRelocationThingDefs>
+      <li>FB_ColonyHeart</li>
+      <li>FB_FleshMoonNerveNode</li>
+      <li>FB_CelestialUmbilicus</li>
+      <li>FB_CelestialUmbilicusEmbryo</li>
+      <li>FB_CelestialUmbilicusPortal</li>
+      <li>FB_CelestialUmbilicusPortalIncoming</li>
+      <li>FB_CelestialUmbilicusMoonExit</li>
+      <li>FB_FleshTunnelMaw</li>
+      <li>FB_FleshTunnelExit</li>
+    </forbiddenRelocationThingDefs>
+    <order>3</order>
   </FB.FleshArchitectDesignatorDef>
 
   <FB.FleshArchitectDesignatorDef>

@@ -37,4 +37,32 @@
   <FB_FailedSpawnThing>Failed to create {0}.</FB_FailedSpawnThing>
   <FB_FailedGeneratePawnKind>Failed to generate {0}.</FB_FailedGeneratePawnKind>
   <FB_ColonyBrain_Structure_TentacleTurret_Desc>Grows a stationary fleshbeast defense that launches keratin spines at distant intruders and lashes nearby enemies with heavy tentacles.</FB_ColonyBrain_Structure_TentacleTurret_Desc>
+  <FB_LocalFleshRelocateBuilding_Label>Move flesh structure</FB_LocalFleshRelocateBuilding_Label>
+  <FB_LocalFleshRelocateBuilding_Desc>Select a player-controlled flesh building, then choose a new flesh-covered destination on the same map.</FB_LocalFleshRelocateBuilding_Desc>
+  <FB_FleshMoonRelocateBuilding_Label>Relocate flesh structure</FB_FleshMoonRelocateBuilding_Label>
+  <FB_FleshMoonRelocateBuilding_Desc>Select a player-controlled flesh building on this map, then choose a flesh-covered destination on the linked map.</FB_FleshMoonRelocateBuilding_Desc>
+  <FB_FleshRelocationAlreadyHere>Choose a different destination.</FB_FleshRelocationAlreadyHere>
+  <FB_LocalFleshRelocationNoMap>No local map is available.</FB_LocalFleshRelocationNoMap>
+  <FB_FleshMoonRelocationNoLinkedMap>No linked surface or flesh moon map is available from this map.</FB_FleshMoonRelocationNoLinkedMap>
+  <FB_FleshMoonRelocationSelectSource>Select a flesh building to relocate.</FB_FleshMoonRelocationSelectSource>
+  <FB_FleshMoonRelocationSelectDestination>Choose a destination for {0}.</FB_FleshMoonRelocationSelectDestination>
+  <FB_FleshMoonRelocationInvalidSource>Choose a valid spawned flesh building.</FB_FleshMoonRelocationInvalidSource>
+  <FB_FleshMoonRelocationMustBeBuilding>Only buildings can be relocated.</FB_FleshMoonRelocationMustBeBuilding>
+  <FB_FleshMoonRelocationMustBeFleshBuilding>Only organic flesh buildings can be relocated.</FB_FleshMoonRelocationMustBeFleshBuilding>
+  <FB_FleshMoonRelocationMustBePlayerOwned>Only player-controlled flesh buildings can be relocated.</FB_FleshMoonRelocationMustBePlayerOwned>
+  <FB_FleshMoonRelocationCriticalStructure>This structure holds the moon link and cannot be relocated.</FB_FleshMoonRelocationCriticalStructure>
+  <FB_FleshMoonRelocationForbiddenBuilding>This structure is anchored to colony systems and cannot be relocated.</FB_FleshMoonRelocationForbiddenBuilding>
+  <FB_FleshMoonRelocationAttachedUnsupported>Buildings with wall attachments or attachment buildings cannot be relocated yet.</FB_FleshMoonRelocationAttachedUnsupported>
+  <FB_FleshMoonRelocationCannotPlaceHere>Cannot place the relocated building here.</FB_FleshMoonRelocationCannotPlaceHere>
+  <FB_FleshMoonRelocationTargetBlocked>The destination footprint must be empty.</FB_FleshMoonRelocationTargetBlocked>
+  <FB_FleshMoonRelocationBlockedByAcid>Remove the gastric acid before relocating a building here.</FB_FleshMoonRelocationBlockedByAcid>
+  <FB_FleshMoonRelocationTargetReserved>Another relocation is already growing into this footprint.</FB_FleshMoonRelocationTargetReserved>
+  <FB_FleshMoonRelocationInProgress>This building is already being relocated.</FB_FleshMoonRelocationInProgress>
+  <FB_FleshMoonRelocationStarted>{0} is being absorbed for relocation.</FB_FleshMoonRelocationStarted>
+  <FB_FleshMoonRelocationFailed>Failed to relocate {0}; it was returned if possible.</FB_FleshMoonRelocationFailed>
+  <FB_FleshMoonRelocationCompleted>{0} relocated.</FB_FleshMoonRelocationCompleted>
+  <FB_FleshMoonRelocationCanceled>{0} relocation canceled.</FB_FleshMoonRelocationCanceled>
+  <FB_FleshMoonRelocationCancel_Label>Cancel relocation</FB_FleshMoonRelocationCancel_Label>
+  <FB_FleshMoonRelocationCancel_Desc>Stop the relocation while the structure is still being absorbed.</FB_FleshMoonRelocationCancel_Desc>
+  <FB_FleshMoonRelocationCancelCannot>This relocation can no longer be canceled.</FB_FleshMoonRelocationCancelCannot>
 </LanguageData>

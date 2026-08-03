@@ -8,6 +8,12 @@
   <FB_GrowToughspikeFromHemogel.description>Выращивает твёрдошипа из общего запаса гемогеля колонии.</FB_GrowToughspikeFromHemogel.description>
   <FB_GrowBulbfreakFromHemogel.label>вырастить бугрурода из гемогеля</FB_GrowBulbfreakFromHemogel.label>
   <FB_GrowBulbfreakFromHemogel.description>Выращивает бугрурода из общего запаса гемогеля колонии.</FB_GrowBulbfreakFromHemogel.description>
+  <FB_GrowFourFingerspikesFromHemogel.label>вырастить 4 пальцешипа из гемогеля</FB_GrowFourFingerspikesFromHemogel.label>
+  <FB_GrowFourFingerspikesFromHemogel.description>Выращивает 4 пальцешипа из общего запаса гемогеля колонии.</FB_GrowFourFingerspikesFromHemogel.description>
+  <FB_GrowFourTrispikesFromHemogel.label>вырастить 4 троешипа из гемогеля</FB_GrowFourTrispikesFromHemogel.label>
+  <FB_GrowFourTrispikesFromHemogel.description>Выращивает 4 троешипа из общего запаса гемогеля колонии.</FB_GrowFourTrispikesFromHemogel.description>
+  <FB_GrowFourToughspikesFromHemogel.label>вырастить 4 твёрдошипа из гемогеля</FB_GrowFourToughspikesFromHemogel.label>
+  <FB_GrowFourToughspikesFromHemogel.description>Выращивает 4 твёрдошипа из общего запаса гемогеля колонии.</FB_GrowFourToughspikesFromHemogel.description>
   <FB_MergeTrispike.label>соединить троешипа</FB_MergeTrispike.label>
   <FB_MergeTrispike.description>Собирает троешипа из разрешённой комбинации малых флешбистов.</FB_MergeTrispike.description>
   <FB_MergeToughspike.label>соединить твёрдошипа</FB_MergeToughspike.label>

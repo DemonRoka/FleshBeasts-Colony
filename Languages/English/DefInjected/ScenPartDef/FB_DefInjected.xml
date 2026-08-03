@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_StartPitBurrowOnGameStart.label>start with a flesh burrow</FB_StartPitBurrowOnGameStart.label>
+  <FB_ForcedFleshMoonMap.label>force flesh moon starting map</FB_ForcedFleshMoonMap.label>
+  <FB_StartFleshMoonOnGameStart.label>start on the flesh moon</FB_StartFleshMoonOnGameStart.label>
 </LanguageData>

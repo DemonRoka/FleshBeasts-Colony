@@ -6,6 +6,13 @@
   <FB_ForgetGenepackLabel>Стереть сохранённый генопак</FB_ForgetGenepackLabel>
   <FB_ForgetGenepackDesc>Стереть этот сохранённый генопак. Он не будет выброшен или восстановлен.</FB_ForgetGenepackDesc>
   <FB_ConfirmForgetGenepack>Стереть {0}? Это навсегда удалит сохранённый генопак.</FB_ConfirmForgetGenepack>
+  <FB_GeneArchiveTransferToMoonDesc>Передать этот генопак в лунное хранилище связанной луны плоти.</FB_GeneArchiveTransferToMoonDesc>
+  <FB_GeneArchiveTransferToSurfaceDesc>Вернуть этот генопак в геномный архив связанной поверхности.</FB_GeneArchiveTransferToSurfaceDesc>
+  <FB_GeneArchiveTransferNoLink>Луна плоти не подключена к этой карте.</FB_GeneArchiveTransferNoLink>
+  <FB_GeneArchiveTransferMissing>Этот генопак уже отсутствует в архиве.</FB_GeneArchiveTransferMissing>
+  <FB_GeneArchiveTransferFailed>Не удалось передать генопак.</FB_GeneArchiveTransferFailed>
+  <FB_GeneArchiveTransferredToMoon>{0} передан в лунное хранилище.</FB_GeneArchiveTransferredToMoon>
+  <FB_GeneArchiveTransferredToSurface>{0} возвращён в архив поверхности.</FB_GeneArchiveTransferredToSurface>
   <FB_ContainedPawn>Пешка внутри: {0}</FB_ContainedPawn>
   <FB_WaitingForPawn>Ожидает {0}.</FB_WaitingForPawn>
   <FB_ColonyBrain_Structure_GenophageCocoon_Label>Генофаговый кокон</FB_ColonyBrain_Structure_GenophageCocoon_Label>

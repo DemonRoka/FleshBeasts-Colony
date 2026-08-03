@@ -59,6 +59,7 @@
 		<canFormCaravans>false</canFormCaravans>
 		<defaultBiome>FB_FleshMoonBiome</defaultBiome>
 		<backgroundBiome>FB_FleshMoonBiome</backgroundBiome>
+		<settlementWorldObjectDef>FB_FleshMoonStartingSettlement</settlementWorldObjectDef>
 		<layerType>FB.FleshMoonPlanetLayer</layerType>
 		<tileType>SurfaceTile</tileType>
 		<worldGenSteps>

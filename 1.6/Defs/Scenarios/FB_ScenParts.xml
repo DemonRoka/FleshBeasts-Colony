@@ -11,4 +11,28 @@
     <canBePlayerAddedRemoved>false</canBePlayerAddedRemoved>
     <maxUses>1</maxUses>
   </ScenPartDef>
+
+  <ScenPartDef>
+    <defName>FB_ForcedFleshMoonMap</defName>
+    <label>force flesh moon starting map</label>
+    <scenPartClass>FB.ScenPart_FB_ForcedFleshMoonMap</scenPartClass>
+    <category>Misc</category>
+    <selectionWeight>0</selectionWeight>
+    <summaryPriority>500</summaryPriority>
+    <canBeRandomlyAdded>false</canBeRandomlyAdded>
+    <canBePlayerAddedRemoved>false</canBePlayerAddedRemoved>
+    <maxUses>1</maxUses>
+  </ScenPartDef>
+
+  <ScenPartDef>
+    <defName>FB_StartFleshMoonOnGameStart</defName>
+    <label>start on the flesh moon</label>
+    <scenPartClass>FB.ScenPart_FB_StartFleshMoon</scenPartClass>
+    <category>Misc</category>
+    <selectionWeight>0</selectionWeight>
+    <summaryPriority>500</summaryPriority>
+    <canBeRandomlyAdded>false</canBeRandomlyAdded>
+    <canBePlayerAddedRemoved>false</canBePlayerAddedRemoved>
+    <maxUses>1</maxUses>
+  </ScenPartDef>
 </Defs>

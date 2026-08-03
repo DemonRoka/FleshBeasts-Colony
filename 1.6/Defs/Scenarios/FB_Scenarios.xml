@@ -77,4 +77,41 @@ Starts with 3 colonists. A flesh burrow opens shortly after the game begins, gra
       </parts>
     </scenario>
   </ScenarioDef>
+
+  <ScenarioDef ParentName="ScenarioBase">
+    <defName>FB_HungryMoon</defName>
+    <label>Hungry Moon</label>
+    <description>A vast living moon has reached this planet hungry and intact. It does not land. It does not negotiate. It opens its inner flesh, creates three naked extensions of its will, and prepares to feed from orbit.
+
+There is no surface colony. Your first shelter is the moon itself: a breathing cavern around a folded celestial umbilicus, a reserve of hemogel, a few bodies to harvest, and enough fleshbeasts to begin shaping the invasion below.
+
+This is a casual introductory scenario meant for learning the flesh moon, not a strict challenge.
+
+Starts with 3 naked colonists on the flesh moon. Each starts with 4 random flesh genes and flesh-colony acceptance. The moon reserve contains 10000 hemogel. Research through celestial budding is completed. No ordinary supplies are provided.</description>
+    <scenario>
+      <summary>Three naked moon-born colonists awaken inside a flesh moon with its initial hemogel reserve and organic servants.</summary>
+      <parts>
+        <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+          <def>ConfigPage_ConfigureStartingPawns</def>
+          <pawnCount>3</pawnCount>
+          <pawnChoiceCount>8</pawnChoiceCount>
+        </li>
+        <li Class="FB.ScenPart_FB_ForcedFleshMoonMap">
+          <def>FB_ForcedFleshMoonMap</def>
+          <mapGenerator>FB_FleshMoonScenarioStart</mapGenerator>
+          <layerDef>FB_FleshMoon</layerDef>
+          <visible>false</visible>
+        </li>
+        <li Class="ScenPart_PlayerPawnsArriveMethod">
+          <def>PlayerPawnsArriveMethod</def>
+          <method>Standing</method>
+          <visible>false</visible>
+        </li>
+        <li Class="FB.ScenPart_FB_StartFleshMoon">
+          <def>FB_StartFleshMoonOnGameStart</def>
+          <visible>false</visible>
+        </li>
+      </parts>
+    </scenario>
+  </ScenarioDef>
 </Defs>

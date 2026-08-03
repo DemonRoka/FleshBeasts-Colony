@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_StartPitBurrowOnGameStart.label>начать с плотяной норы</FB_StartPitBurrowOnGameStart.label>
+  <FB_ForcedFleshMoonMap.label>принудительная стартовая карта луны плоти</FB_ForcedFleshMoonMap.label>
+  <FB_StartFleshMoonOnGameStart.label>начать на луне плоти</FB_StartFleshMoonOnGameStart.label>
 </LanguageData>

@@ -4,6 +4,8 @@
   <FB_FleshTunnelDestination.label>плотяной туннель</FB_FleshTunnelDestination.label>
   <FB_FleshMoonWorldObject.description>Живая орбитальная масса, соединённая с колонией небесной пуповиной.</FB_FleshMoonWorldObject.description>
   <FB_FleshMoonWorldObject.label>луна плоти</FB_FleshMoonWorldObject.label>
+  <FB_FleshMoonStartingSettlement.description>Скрытый сценарный объект-посредник, позволяющий сгенерировать луну плоти как первую карту игрока.</FB_FleshMoonStartingSettlement.description>
+  <FB_FleshMoonStartingSettlement.label>луна плоти</FB_FleshMoonStartingSettlement.label>
 
   <FB_FleshMoonSurfaceAnchor.label>якорь луны плоти</FB_FleshMoonSurfaceAnchor.label>
   <FB_FleshMoonSurfaceAnchor.description>Точка поверхности, пробитая небесной пуповиной луны плоти.</FB_FleshMoonSurfaceAnchor.description>

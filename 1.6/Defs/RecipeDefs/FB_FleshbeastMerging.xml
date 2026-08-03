@@ -85,6 +85,60 @@
     </modExtensions>
   </RecipeDef>
 
+  <RecipeDef ParentName="FB_FleshbeastHemogelGrowthRecipeBase">
+    <defName>FB_GrowFourFingerspikesFromHemogel</defName>
+    <label>grow 4 fingerspikes from hemogel</label>
+    <description>Grows four fingerspikes directly from the organ's hemogel reserve.</description>
+    <targetCountAdjustment>4</targetCountAdjustment>
+    <modExtensions>
+      <li Class="FB.FleshbeastMergeRecipeExtension">
+        <outputKind>Fingerspike</outputKind>
+        <outputCount>4</outputCount>
+        <hemogelCost>320</hemogelCost>
+        <hemogelGrowthRadius>5</hemogelGrowthRadius>
+        <hemogelGrowthTicks>400</hemogelGrowthTicks>
+        <hemogelGrowthEffectIntervalTicks>200</hemogelGrowthEffectIntervalTicks>
+        <mergeEffect>MeatExplosionLarge</mergeEffect>
+      </li>
+    </modExtensions>
+  </RecipeDef>
+
+  <RecipeDef ParentName="FB_FleshbeastHemogelGrowthRecipeBase">
+    <defName>FB_GrowFourTrispikesFromHemogel</defName>
+    <label>grow 4 trispikes from hemogel</label>
+    <description>Grows four trispikes directly from the organ's hemogel reserve.</description>
+    <targetCountAdjustment>4</targetCountAdjustment>
+    <modExtensions>
+      <li Class="FB.FleshbeastMergeRecipeExtension">
+        <outputKind>Trispike</outputKind>
+        <outputCount>4</outputCount>
+        <hemogelCost>1200</hemogelCost>
+        <hemogelGrowthRadius>5</hemogelGrowthRadius>
+        <hemogelGrowthTicks>1200</hemogelGrowthTicks>
+        <hemogelGrowthEffectIntervalTicks>200</hemogelGrowthEffectIntervalTicks>
+        <mergeEffect>MeatExplosionLarge</mergeEffect>
+      </li>
+    </modExtensions>
+  </RecipeDef>
+
+  <RecipeDef ParentName="FB_FleshbeastHemogelGrowthRecipeBase">
+    <defName>FB_GrowFourToughspikesFromHemogel</defName>
+    <label>grow 4 toughspikes from hemogel</label>
+    <description>Grows four toughspikes directly from the organ's hemogel reserve.</description>
+    <targetCountAdjustment>4</targetCountAdjustment>
+    <modExtensions>
+      <li Class="FB.FleshbeastMergeRecipeExtension">
+        <outputKind>Toughspike</outputKind>
+        <outputCount>4</outputCount>
+        <hemogelCost>1680</hemogelCost>
+        <hemogelGrowthRadius>5</hemogelGrowthRadius>
+        <hemogelGrowthTicks>1800</hemogelGrowthTicks>
+        <hemogelGrowthEffectIntervalTicks>200</hemogelGrowthEffectIntervalTicks>
+        <mergeEffect>MeatExplosionLarge</mergeEffect>
+      </li>
+    </modExtensions>
+  </RecipeDef>
+
   <RecipeDef ParentName="FB_FleshbeastSkillGrowthRecipeBase">
     <defName>FB_GrowCortexMiteFromSkillEssence</defName>
     <label>grow cortex mite from skill essence</label>

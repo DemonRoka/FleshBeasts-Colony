@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_HemogelEconomyTileNutritionSummary>Tile nutrition: {0}% | output x{1} | drying {2}</FB_HemogelEconomyTileNutritionSummary>
+  <FB_HemogelEconomyTileNutritionTooltip>World tile nutrition remaining: {0}%. Initial biome factor: x{1}. Current passive output factor: x{2}. Total passive drying factor: {3}; current depletion speed: {4}/h.</FB_HemogelEconomyTileNutritionTooltip>
+</LanguageData>

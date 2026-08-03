@@ -1,59 +1,44 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <ThingDef ParentName="BuildingColonyFleshBaseAnimation">
-    <defName>FB_BileMortarGland</defName>
-    <label>bile mortar gland</label>
-    <description>A swollen artillery-organ that grows living bileburst podlings and launches mature ones as volatile incendiary shells.</description>
-    <size>(2,2)</size>
-    <statBases>
-      <Beauty>-25</Beauty>
-      <MaxHitPoints>380</MaxHitPoints>
-      <Flammability>0.9</Flammability>
-    </statBases>
-    <killedLeavingsRanges>
-      <Meat_Twisted>25~60</Meat_Twisted>
-    </killedLeavingsRanges>
-    <forceLeavingsAllowed>true</forceLeavingsAllowed>
-    <comps>
-      <li Class="FB.CompProperties_FleshAnimationManager">
-        <animationAmplitude>0.02</animationAmplitude>
-        <animationSideAmplitude>0.012</animationSideAmplitude>
-        <baseAnimationSpeed>0.7</baseAnimationSpeed>
-        <beatDurationTicks>26</beatDurationTicks>
-        <animatedParts>
-          <li>
-            <texturePath>Things/Building/FB_Organic/BileMortarGland/BileMortarGland</texturePath>
-            <positionOffset>(0, 0, 0)</positionOffset>
-            <textureScale>1.55</textureScale>
-            <animationAmplitude>0.035</animationAmplitude>
-            <animationSideAmplitude>0.018</animationSideAmplitude>
-            <animationInterval>0</animationInterval>
-            <animationOffset>0</animationOffset>
-            <altitudeLayer>0</altitudeLayer>
-            <rotationAngle>0</rotationAngle>
-            <beatDelay>0</beatDelay>
-          </li>
-        </animatedParts>
-      </li>
-      <li Class="FB.CompProperties_BilePodlingSpawner">
-        <pawnKindToSpawn>FB_BileburstPodlingKind</pawnKindToSpawn>
-        <spawnRadius>3</spawnRadius>
-        <hemogelPerPodlingPerHour>0.1</hemogelPerPodlingPerHour>
-        <iconPath>UI/Commands/BilePodlingSpawn</iconPath>
-      </li>
-      <li Class="FB.CompProperties_BileMortarLauncher">
-        <minCharge>0.25</minCharge>
-        <maxRange>60</maxRange>
-        <forcedMissRadius>1.5</forcedMissRadius>
-        <autoCheckIntervalTicks>120</autoCheckIntervalTicks>
-        <projectileDef>FB_BileburstPodlingShell</projectileDef>
-        <iconPath>UI/Commands/BileMortarFire</iconPath>
-      </li>
-      <li Class="FB.CompProperties_HemogelUpkeep">
-        <hemogelPerHour>0.8</hemogelPerHour>
-      </li>
-    </comps>
-  </ThingDef>
+  <ThingDef ParentName="BuildingColonyFleshBase">
+  <defName>FB_BileMortarGland</defName>
+  <label>bile mortar gland</label>
+  <description>A swollen artillery-organ that grows living bileburst podlings and launches mature ones as volatile incendiary shells.</description>
+  <size>(2,2)</size>
+  <graphicData>
+    <graphicClass>Graphic_Single</graphicClass>
+    <texPath>Things/Building/FB_Organic/BileMortarGland/BileMortarGland</texPath>
+    <drawSize>(2.75,2.75)</drawSize>
+  </graphicData>
+  <statBases>
+    <Beauty>-25</Beauty>
+    <MaxHitPoints>380</MaxHitPoints>
+    <Flammability>0.9</Flammability>
+  </statBases>
+  <killedLeavingsRanges>
+    <Meat_Twisted>25~60</Meat_Twisted>
+  </killedLeavingsRanges>
+  <forceLeavingsAllowed>true</forceLeavingsAllowed>
+  <comps>
+    <li Class="FB.CompProperties_BilePodlingSpawner">
+      <pawnKindToSpawn>FB_BileburstPodlingKind</pawnKindToSpawn>
+      <spawnRadius>3</spawnRadius>
+      <hemogelPerPodlingPerHour>0.1</hemogelPerPodlingPerHour>
+      <iconPath>UI/Commands/BilePodlingSpawn</iconPath>
+    </li>
+    <li Class="FB.CompProperties_BileMortarLauncher">
+      <minCharge>0.25</minCharge>
+      <maxRange>60</maxRange>
+      <forcedMissRadius>1.5</forcedMissRadius>
+      <autoCheckIntervalTicks>120</autoCheckIntervalTicks>
+      <projectileDef>FB_BileburstPodlingShell</projectileDef>
+      <iconPath>UI/Commands/BileMortarFire</iconPath>
+    </li>
+    <li Class="FB.CompProperties_HemogelUpkeep">
+      <hemogelPerHour>0.8</hemogelPerHour>
+    </li>
+  </comps>
+</ThingDef>
 
   <ThingDef ParentName="EmbryoStructureBase">
     <defName>FB_BileMortarGlandEmbryo</defName>

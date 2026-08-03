@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_HemogelEconomyTileNutritionSummary>Питательность тайла: {0}% | выработка x{1} | иссушение {2}</FB_HemogelEconomyTileNutritionSummary>
+  <FB_HemogelEconomyTileNutritionTooltip>Остаток питательности мирового тайла: {0}%. Стартовый множитель биома: x{1}. Текущий множитель пассивной выработки: x{2}. Суммарный фактор иссушения пассивных производителей: {3}; текущая скорость истощения: {4}/ч.</FB_HemogelEconomyTileNutritionTooltip>
+</LanguageData>

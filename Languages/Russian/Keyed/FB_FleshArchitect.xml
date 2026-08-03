@@ -37,4 +37,32 @@
   <FB_FailedSpawnThing>Не удалось создать {0}.</FB_FailedSpawnThing>
   <FB_FailedGeneratePawnKind>Не удалось сгенерировать {0}.</FB_FailedGeneratePawnKind>
   <FB_ColonyBrain_Structure_TentacleTurret_Desc>Выращивает неподвижного флешбиста-защитника, который выпускает кератиновые шипы по далёким врагам и хлещет ближайших тяжёлыми щупальцами.</FB_ColonyBrain_Structure_TentacleTurret_Desc>
+  <FB_LocalFleshRelocateBuilding_Label>Передвинуть мясную постройку</FB_LocalFleshRelocateBuilding_Label>
+  <FB_LocalFleshRelocateBuilding_Desc>Выберите управляемую игроком постройку из плоти, затем укажите новое покрытое плотью место на этой же карте.</FB_LocalFleshRelocateBuilding_Desc>
+  <FB_FleshMoonRelocateBuilding_Label>Перенести мясную постройку</FB_FleshMoonRelocateBuilding_Label>
+  <FB_FleshMoonRelocateBuilding_Desc>Выберите управляемую игроком постройку из плоти на этой карте, затем укажите покрытое плотью место на связанной карте.</FB_FleshMoonRelocateBuilding_Desc>
+  <FB_FleshRelocationAlreadyHere>Выберите другое место.</FB_FleshRelocationAlreadyHere>
+  <FB_LocalFleshRelocationNoMap>Локальная карта недоступна.</FB_LocalFleshRelocationNoMap>
+  <FB_FleshMoonRelocationNoLinkedMap>С этой карты нет доступной связанной поверхности или карты луны плоти.</FB_FleshMoonRelocationNoLinkedMap>
+  <FB_FleshMoonRelocationSelectSource>Выберите мясную постройку для переноса.</FB_FleshMoonRelocationSelectSource>
+  <FB_FleshMoonRelocationSelectDestination>Выберите место для {0}.</FB_FleshMoonRelocationSelectDestination>
+  <FB_FleshMoonRelocationInvalidSource>Выберите допустимую размещённую постройку из плоти.</FB_FleshMoonRelocationInvalidSource>
+  <FB_FleshMoonRelocationMustBeBuilding>Переносить можно только постройки.</FB_FleshMoonRelocationMustBeBuilding>
+  <FB_FleshMoonRelocationMustBeFleshBuilding>Переносить можно только органические постройки из плоти.</FB_FleshMoonRelocationMustBeFleshBuilding>
+  <FB_FleshMoonRelocationMustBePlayerOwned>Переносить можно только управляемые игроком мясные постройки.</FB_FleshMoonRelocationMustBePlayerOwned>
+  <FB_FleshMoonRelocationCriticalStructure>Эта постройка удерживает связь с луной и не может быть перенесена.</FB_FleshMoonRelocationCriticalStructure>
+  <FB_FleshMoonRelocationForbiddenBuilding>Эта постройка закреплена в системах колонии и не может быть перенесена.</FB_FleshMoonRelocationForbiddenBuilding>
+  <FB_FleshMoonRelocationAttachedUnsupported>Постройки с настенными креплениями и сами крепления пока нельзя переносить.</FB_FleshMoonRelocationAttachedUnsupported>
+  <FB_FleshMoonRelocationCannotPlaceHere>Здесь нельзя разместить переносимую постройку.</FB_FleshMoonRelocationCannotPlaceHere>
+  <FB_FleshMoonRelocationTargetBlocked>Площадь назначения должна быть пустой.</FB_FleshMoonRelocationTargetBlocked>
+  <FB_FleshMoonRelocationBlockedByAcid>Уберите желудочную кислоту, прежде чем переносить сюда постройку.</FB_FleshMoonRelocationBlockedByAcid>
+  <FB_FleshMoonRelocationTargetReserved>Другая постройка уже переносится в эту площадь.</FB_FleshMoonRelocationTargetReserved>
+  <FB_FleshMoonRelocationInProgress>Эта постройка уже переносится.</FB_FleshMoonRelocationInProgress>
+  <FB_FleshMoonRelocationStarted>{0} начала поглощаться для переноса.</FB_FleshMoonRelocationStarted>
+  <FB_FleshMoonRelocationFailed>Не удалось перенести {0}; постройка возвращена назад, если это было возможно.</FB_FleshMoonRelocationFailed>
+  <FB_FleshMoonRelocationCompleted>{0} перенесена.</FB_FleshMoonRelocationCompleted>
+  <FB_FleshMoonRelocationCanceled>Перенос {0} отменён.</FB_FleshMoonRelocationCanceled>
+  <FB_FleshMoonRelocationCancel_Label>Отменить перенос</FB_FleshMoonRelocationCancel_Label>
+  <FB_FleshMoonRelocationCancel_Desc>Остановить перенос, пока постройка ещё поглощается.</FB_FleshMoonRelocationCancel_Desc>
+  <FB_FleshMoonRelocationCancelCannot>Этот перенос уже нельзя отменить.</FB_FleshMoonRelocationCancelCannot>
 </LanguageData>

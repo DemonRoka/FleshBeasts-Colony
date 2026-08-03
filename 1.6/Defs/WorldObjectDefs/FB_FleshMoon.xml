@@ -7,6 +7,8 @@
     <worldObjectClass>FB.FB_FleshMoonWorldObject</worldObjectClass>
     <canHaveFaction>true</canHaveFaction>
     <canHaveMap>true</canHaveMap>
+    <canBePlayerHome>true</canBePlayerHome>
+    <treatAsPlayerHome>true</treatAsPlayerHome>
     <validLaunchTarget>false</validLaunchTarget>
     <selectable>true</selectable>
     <texture>World/FleshMoon/FleshMoonSurface</texture>
@@ -14,6 +16,21 @@
     <expandingIconTexture>World/FleshMoon/FleshMoonSurface</expandingIconTexture>
     <expandingIconDrawSize>1.2</expandingIconDrawSize>
     <expandingIconPriority>20</expandingIconPriority>
+    <mapGenerator>FB_FleshMoonPocket</mapGenerator>
+  </WorldObjectDef>
+
+  <WorldObjectDef>
+    <defName>FB_FleshMoonStartingSettlement</defName>
+    <label>flesh moon</label>
+    <description>A hidden scenario handoff object used to let the flesh moon be generated as the player's first map.</description>
+    <worldObjectClass>FB.FB_FleshMoonStartingSettlement</worldObjectClass>
+    <canHaveFaction>true</canHaveFaction>
+    <canHaveMap>true</canHaveMap>
+    <canBePlayerHome>true</canBePlayerHome>
+    <treatAsPlayerHome>true</treatAsPlayerHome>
+    <validLaunchTarget>false</validLaunchTarget>
+    <selectable>false</selectable>
+    <texture>World/FleshMoon/FleshMoonSurface</texture>
     <mapGenerator>FB_FleshMoonPocket</mapGenerator>
   </WorldObjectDef>
 
