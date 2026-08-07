@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <FB_FleshArchitectLockedDesc>Requires fleshmass engineering.</FB_FleshArchitectLockedDesc>
+  
   <FB_FleshArchitectNothingAvailable>Nothing available in {0}.</FB_FleshArchitectNothingAvailable>
   <FB_FleshArchitectBrainHemogelBar>Network reserve: {0} / {1}</FB_FleshArchitectBrainHemogelBar>
   <FB_FleshArchitectNoColonyBrain>No hemogel network reserve</FB_FleshArchitectNoColonyBrain>
-  <FB_FleshArchitectBrainHemogelTooltip>Hemogel stored in this map's connected network reserves. Flesh Architect spends this reserve when growing organs.</FB_FleshArchitectBrainHemogelTooltip>
-  <FB_FleshArchitectBrainHemogelTooltipDev>Hemogel stored in this map's connected network reserves. Dev mode ignores building costs, but the real reserve is shown here.</FB_FleshArchitectBrainHemogelTooltipDev>
+  <FB_FleshArchitectBrainHemogelTooltip>Hemogel stored in this map's connected network reserves, including the umbilicus lunar link. Flesh Architect spends this reserve when growing organs.</FB_FleshArchitectBrainHemogelTooltip>
+  <FB_FleshArchitectBrainHemogelTooltipDev>Hemogel stored in this map's connected network reserves, including the umbilicus lunar link. Dev mode ignores building costs, but the real reserve is shown here.</FB_FleshArchitectBrainHemogelTooltipDev>
   <FB_GrowEmbryoDescNoCost>Place embryo to grow {0}.</FB_GrowEmbryoDescNoCost>
   <FB_GrowOrganoidCopy_Label>Grow copy</FB_GrowOrganoidCopy_Label>
   <FB_GrowOrganoidCopy_Desc>Select a place to grow another {0} through the Flesh Architect.</FB_GrowOrganoidCopy_Desc>
@@ -50,7 +50,7 @@
   <FB_FleshMoonRelocationMustBeBuilding>Only buildings can be relocated.</FB_FleshMoonRelocationMustBeBuilding>
   <FB_FleshMoonRelocationMustBeFleshBuilding>Only organic flesh buildings can be relocated.</FB_FleshMoonRelocationMustBeFleshBuilding>
   <FB_FleshMoonRelocationMustBePlayerOwned>Only player-controlled flesh buildings can be relocated.</FB_FleshMoonRelocationMustBePlayerOwned>
-  <FB_FleshMoonRelocationCriticalStructure>This structure holds the moon link and cannot be relocated.</FB_FleshMoonRelocationCriticalStructure>
+  
   <FB_FleshMoonRelocationForbiddenBuilding>This structure is anchored to colony systems and cannot be relocated.</FB_FleshMoonRelocationForbiddenBuilding>
   <FB_FleshMoonRelocationAttachedUnsupported>Buildings with wall attachments or attachment buildings cannot be relocated yet.</FB_FleshMoonRelocationAttachedUnsupported>
   <FB_FleshMoonRelocationCannotPlaceHere>Cannot place the relocated building here.</FB_FleshMoonRelocationCannotPlaceHere>

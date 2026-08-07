@@ -645,3 +645,4 @@ ArtistGitTools/Upload.cmd
 Assemblies/FleshBeasts.dll
 ArtistGitTools/ArtistGitApp.ps1
 ArtistGitTools/StartApp.cmd
+tools/codex-unused-scan.ps1

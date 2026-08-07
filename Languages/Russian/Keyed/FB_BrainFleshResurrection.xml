@@ -5,7 +5,7 @@
   <FB_BrainFleshResurrection_CommandDesc>Выберите свежий гуманоидный труп с целым мозгом. Воскрешение расходует один пальцешип на каждые 300 рыночной ценности здоровой пешки.</FB_BrainFleshResurrection_CommandDesc>
   <FB_BrainFleshResurrection_AlreadyAssigned>Воскрешение уже выполняется.</FB_BrainFleshResurrection_AlreadyAssigned>
   <FB_BrainFleshResurrection_NoFingerspike>Нет доступного пальцешипа игрока, способного выполнить воскрешение.</FB_BrainFleshResurrection_NoFingerspike>
-  <FB_BrainFleshResurrection_NoReachableFingerspike>Ни один способный пальцешип не может добраться до этого трупа.</FB_BrainFleshResurrection_NoReachableFingerspike>
+  
   <FB_BrainFleshResurrection_CannotStart>Выбранный пальцешип не смог начать воскрешение.</FB_BrainFleshResurrection_CannotStart>
   <FB_BrainFleshResurrection_Assigned>{0} пальцешипов направляются воскресить {1}.</FB_BrainFleshResurrection_Assigned>
   <FB_BrainFleshResurrection_NotEnoughFingerspikes>Для воскрешения нужно пальцешипов: {0}; к телу могут добраться только: {1}.</FB_BrainFleshResurrection_NotEnoughFingerspikes>

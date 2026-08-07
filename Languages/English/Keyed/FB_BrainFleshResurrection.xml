@@ -5,7 +5,7 @@
   <FB_BrainFleshResurrection_CommandDesc>Select a fresh humanlike corpse with an intact brain. Resurrection consumes one fingerspike per 300 of the pawn's healthy Market Value.</FB_BrainFleshResurrection_CommandDesc>
   <FB_BrainFleshResurrection_AlreadyAssigned>A resurrection is already in progress.</FB_BrainFleshResurrection_AlreadyAssigned>
   <FB_BrainFleshResurrection_NoFingerspike>No capable player-owned fingerspike is available.</FB_BrainFleshResurrection_NoFingerspike>
-  <FB_BrainFleshResurrection_NoReachableFingerspike>No capable fingerspike can reach this corpse.</FB_BrainFleshResurrection_NoReachableFingerspike>
+  
   <FB_BrainFleshResurrection_CannotStart>The selected fingerspike could not begin the resurrection.</FB_BrainFleshResurrection_CannotStart>
   <FB_BrainFleshResurrection_Assigned>{0} fingerspikes are moving to resurrect {1}.</FB_BrainFleshResurrection_Assigned>
   <FB_BrainFleshResurrection_NotEnoughFingerspikes>Resurrection needs {0} fingerspikes, but only {1} can reach this corpse.</FB_BrainFleshResurrection_NotEnoughFingerspikes>

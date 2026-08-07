@@ -314,6 +314,53 @@
 			<allowByDefault>true</allowByDefault>
 			<iconPath>UI/Commands/HeartHemogelFeeding</iconPath>
 		</li>
+		<li Class="FB.CompProperties_BrainFleshResurrection">
+			<requiredResearch>FB_FleshResurrection</requiredResearch>
+			<jobDef>FB_FingerspikeResurrectCorpse</jobDef>
+			<acceptanceHediff>FB_AcceptanceOfFleshColony</acceptanceHediff>
+			<shellAdaptationHediff>FB_ShellAdaptation</shellAdaptationHediff>
+			<biomassPartHediff>FB_ResurrectedBiomassPart</biomassPartHediff>
+			<tentacleHediffDefName>Tentacle</tentacleHediffDefName>
+			<commandIconPath>UI/Commands/BrainFleshResurrection</commandIconPath>
+			<workTicks>300</workTicks>
+			<tentacleMutationChance>0.5</tentacleMutationChance>
+			<marketValuePerFingerspike>300</marketValuePerFingerspike>
+		</li>
+		<li Class="FB.CompProperties_BrainHemoghoulConversion">
+			<requiredResearch>FB_HemoghoulReanimation</requiredResearch>
+			<jobDef>FB_FingerspikeCreateHemoghoul</jobDef>
+			<hemoghoulMutant>FB_Hemoghoul</hemoghoulMutant>
+			<forcedBodyType>Hulk</forcedBodyType>
+			<commandIconPath>UI/Commands/HemoghoulConversion</commandIconPath>
+			<workTicks>300</workTicks>
+			<marketValuePerFingerspike>300</marketValuePerFingerspike>
+		</li>
+		<li Class="FB.CompProperties_BrainFleshThrallConversion">
+			<requiredResearch>FB_FleshThrallReanimation</requiredResearch>
+			<jobDef>FB_FingerspikeCreateFleshThrall</jobDef>
+			<fleshThrallHediff>FB_FleshThrall</fleshThrallHediff>
+			<fleshThrallMutant>FB_FleshThrall</fleshThrallMutant>
+			<commandIconPath>UI/Commands/FleshThrallConversion</commandIconPath>
+			<workTicks>180</workTicks>
+			<marketValuePerFingerspike>300</marketValuePerFingerspike>
+		</li>
+		<li Class="FB.CompProperties_BrainForcedFleshConversion">
+			<requiredResearch>FB_FingerspikeImplantation</requiredResearch>
+			<carrierJobDef>FB_ForcedFleshConversionDoctor</carrierJobDef>
+			<fingerspikeJobDef>FB_ForcedFleshConversionFingerspike</fingerspikeJobDef>
+			<stasisHediff>FB_GraftmawSurgicalStasis</stasisHediff>
+			<anesthesiaHediff>Anesthetic</anesthesiaHediff>
+			<restraintMoteDefName>Mote_HarbingerTreeRoots</restraintMoteDefName>
+			<anesthesiaRefreshTicks>2000</anesthesiaRefreshTicks>
+			<biomassPartHediff>FB_ResurrectedBiomassPart</biomassPartHediff>
+			<unrecruitableResultPawnKind>Toughspike</unrecruitableResultPawnKind>
+			<commandIconPath>UI/Commands/ForcedFleshConversion</commandIconPath>
+			<marketValuePerFingerspike>300</marketValuePerFingerspike>
+			<treatmentQuality>0.8</treatmentQuality>
+			<anchorSearchRadius>9</anchorSearchRadius>
+			<anchorMinDistanceFromHeart>2</anchorMinDistanceFromHeart>
+			<anchorPreferredDistanceFromHeart>3</anchorPreferredDistanceFromHeart>
+		</li>
 		<li Class="FB.CompProperties_HemogelBloodAbsorber">
 			<hemogelPerBloodSmear>2</hemogelPerBloodSmear>
 			<allowedTerrains>
@@ -2527,7 +2574,6 @@
       <raidPointsMultiplier>1.25</raidPointsMultiplier>
       <minRaidPoints>250</minRaidPoints>
       <startIconPath>UI/Commands/CelestialUmbilicusStart</startIconPath>
-      <decisionIconPath>UI/Commands/CelestialUmbilicusDecision</decisionIconPath>
       <segmentMiddleTexturePath>Things/Building/FB_Organic/CelestialUmbilicus/CelestialUmbilicusSegmentMiddle</segmentMiddleTexturePath>
       <segmentGrowingTexturePath>Things/Building/FB_Organic/CelestialUmbilicus/CelestialUmbilicusSegmentGrowing</segmentGrowingTexturePath>
       <segmentDrawSize>(10.5,10.5)</segmentDrawSize>

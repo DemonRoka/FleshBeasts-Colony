@@ -6,4 +6,21 @@
   <FB_BloodTendrilLatched.label>захват кровавым щупальцем</FB_BloodTendrilLatched.label>
   <FB_BloodTendrilOrgan.label>кровавое щупальце</FB_BloodTendrilOrgan.label>
 <FB_NeuralOverheat.label>нейронный перегрев</FB_NeuralOverheat.label><FB_NeuralOverheat.description>Остаточный нейронный жар, накопленный во время ускоренного исследования. При полном заполнении перегрев обжигает мозг и сбрасывает накопленный уровень. Вне синаптического ядра он постепенно рассеивается за один день.</FB_NeuralOverheat.description><FB_FerrimawMetalMetabolismPaused.label>спящее железное брюхо</FB_FerrimawMetalMetabolismPaused.label><FB_FerrimawMetalMetabolismPaused.description>Металлический обмен железопасти спит, подавляя голод до тех пор, пока ей снова не разрешат поглощать складской металл.</FB_FerrimawMetalMetabolismPaused.description>
+  <FB_DecentralizedOrganism.description>Жизненно важные функции носителя больше не сосредоточены в отдельных органах. Распределённая масса плоти колонии может разорвать себя на два молодых тела в момент смерти, а затем с огромной скоростью восстановиться до взрослого состояния.</FB_DecentralizedOrganism.description>
+  <FB_DecentralizedOrganism.label>децентрализованный организм</FB_DecentralizedOrganism.label>
+  <FB_DecentralizedOrganism.stages.0.label>распределённая плоть</FB_DecentralizedOrganism.stages.0.label>
+  <FB_DecentralizedOrganism.comps.1.tools.0.label>левое хватающее щупальце</FB_DecentralizedOrganism.comps.1.tools.0.label>
+  <FB_DecentralizedOrganism.comps.1.tools.0.labelNoLocation>щупальце</FB_DecentralizedOrganism.comps.1.tools.0.labelNoLocation>
+  <FB_DecentralizedOrganism.comps.1.tools.1.label>правое хватающее щупальце</FB_DecentralizedOrganism.comps.1.tools.1.label>
+  <FB_DecentralizedOrganism.comps.1.tools.1.labelNoLocation>щупальце</FB_DecentralizedOrganism.comps.1.tools.1.labelNoLocation>
+  <FB_DecentralizedOrganism.comps.1.tools.2.label>верхнее колющее щупальце</FB_DecentralizedOrganism.comps.1.tools.2.label>
+  <FB_DecentralizedOrganism.comps.1.tools.2.labelNoLocation>щупальце</FB_DecentralizedOrganism.comps.1.tools.2.labelNoLocation>
+  <FB_DecentralizedOrganism.comps.1.tools.3.label>нижнее колющее щупальце</FB_DecentralizedOrganism.comps.1.tools.3.label>
+  <FB_DecentralizedOrganism.comps.1.tools.3.labelNoLocation>щупальце</FB_DecentralizedOrganism.comps.1.tools.3.labelNoLocation>
+  <FB_DecentralizedFleshTorso.description>Торс заменён распределённой массой мыслящих мышц и резервных органов. Прежние конечности и органы больше не являются отдельными жизненно важными системами.</FB_DecentralizedFleshTorso.description>
+  <FB_DecentralizedFleshTorso.label>децентрализованная плотская масса</FB_DecentralizedFleshTorso.label>
+  <FB_DecentralizedFleshTorso.labelNoun>децентрализованная плотская масса</FB_DecentralizedFleshTorso.labelNoun>
+  <FB_DecentralizedFleshHead.description>Голова превратилась в заменяемый узел чувствующей плоти. Зрение, слух, речь и мышление распределены по организму, а не завязаны на хрупкие человеческие органы.</FB_DecentralizedFleshHead.description>
+  <FB_DecentralizedFleshHead.label>распределённый сенсорный узел</FB_DecentralizedFleshHead.label>
+  <FB_DecentralizedFleshHead.labelNoun>распределённый сенсорный узел</FB_DecentralizedFleshHead.labelNoun>
 </LanguageData>

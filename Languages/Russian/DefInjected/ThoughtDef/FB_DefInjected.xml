@@ -16,6 +16,14 @@
   <FB_FleshbeastColonyPresence.stages.2.label>окружён роем плоти</FB_FleshbeastColonyPresence.stages.2.label>
   <FB_FleshbeastColonyPresence.stages.3.description>Колония огромна, тепла и близка. Каждый зверь — ещё один пульс общего тела, и я покоюсь внутри него.</FB_FleshbeastColonyPresence.stages.3.description>
   <FB_FleshbeastColonyPresence.stages.3.label>плоть повсюду</FB_FleshbeastColonyPresence.stages.3.label>
+  <FB_SawFleshHorror.stages.0.description>Я увидел живую ткань там, где должны быть обычные стены и полы. Об этом трудно перестать думать.</FB_SawFleshHorror.stages.0.description>
+  <FB_SawFleshHorror.stages.0.label>увидел живую плоть</FB_SawFleshHorror.stages.0.label>
+  <FB_SawFleshHorror.stages.1.description>Плоть колонии была достаточно близко, чтобы разглядеть её влажное движение и невозможные органы. Мне всё ещё кажется, что она смотрит.</FB_SawFleshHorror.stages.1.description>
+  <FB_SawFleshHorror.stages.1.label>увидел колонию плоти</FB_SawFleshHorror.stages.1.label>
+  <FB_SawFleshHorror.stages.2.description>Живые стены, органы и звери заполнили пространство вокруг меня. Это воспоминание снова и снова лезет в мысли.</FB_SawFleshHorror.stages.2.description>
+  <FB_SawFleshHorror.stages.2.label>окружён живой плотью</FB_SawFleshHorror.stages.2.label>
+  <FB_SawFleshHorror.stages.3.description>Я стоял внутри огромного тела из полов, органов и зверей. На миг всё это место казалось живым и голодным.</FB_SawFleshHorror.stages.3.description>
+  <FB_SawFleshHorror.stages.3.label>плоть была повсюду</FB_SawFleshHorror.stages.3.label>
   <FB_FleshTentacleAccepted.stages.0.description>Щупальце больше не кажется чужим наростом — это ещё одна конечность общей плоти колонии.</FB_FleshTentacleAccepted.stages.0.description>
   <FB_FleshTentacleAccepted.stages.0.label>щупальце принято плотью</FB_FleshTentacleAccepted.stages.0.label>
   <FB_FleshWhipAccepted.stages.0.description>Живой хлыст больше не кажется чужим. Он служит общей плоти колонии.</FB_FleshWhipAccepted.stages.0.description>

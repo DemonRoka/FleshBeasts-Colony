@@ -52,6 +52,26 @@
         <retaliationProjectileDef>Spike_Toughspike</retaliationProjectileDef>
         <splitEffect>MeatExplosionLarge</splitEffect>
       </li>
+      <li Class="FB.CompProperties_SegmentedBastionSpineTurret">
+        <checkIntervalTicks>15</checkIntervalTicks>
+        <segmentCooldownTicks>210</segmentCooldownTicks>
+        <cooldownJitterTicks>30</cooldownJitterTicks>
+        <initialCooldownMaxTicks>160</initialCooldownMaxTicks>
+        <maxShotsPerCheck>2</maxShotsPerCheck>
+        <verbs>
+          <li>
+            <verbClass>Verb_Shoot</verbClass>
+            <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+            <warmupTime>0</warmupTime>
+            <defaultProjectile>Spine_Gorehulk</defaultProjectile>
+            <range>17.9</range>
+            <burstShotCount>1</burstShotCount>
+            <soundCast>Gorehulk_Spine_Launch</soundCast>
+            <muzzleFlashScale>0</muzzleFlashScale>
+            <ai_IsWeapon>false</ai_IsWeapon>
+          </li>
+        </verbs>
+      </li>
     </comps>
     <tools>
       <li>

@@ -15,10 +15,6 @@
   <FB_FleshMoonSurfaceNutritionDrainLabel>Выкачивание питательности поверхности</FB_FleshMoonSurfaceNutritionDrainLabel>
   <FB_FleshMoonSurfaceNutritionDrainEconomyDetail>Питательность тайла: {0}%; стартовый множитель {1}; выход {2}/ч</FB_FleshMoonSurfaceNutritionDrainEconomyDetail>
   <FB_FleshMoonSurfaceNutritionDrainEconomyDisabled>Выключено на лунном нервном узле; питательность тайла {0}%.</FB_FleshMoonSurfaceNutritionDrainEconomyDisabled>
-  <FB_CelestialUmbilicusSiphonLabel>Перекачивать гемогель в луну</FB_CelestialUmbilicusSiphonLabel>
-  <FB_CelestialUmbilicusSiphonDesc>Перекачивает гемогель из локальной сети этой карты в лунный резерв со скоростью до {0}/ч. Требует, чтобы пуповина стояла на полу из плоти.</FB_CelestialUmbilicusSiphonDesc>
-  <FB_CelestialUmbilicusSiphonInspectOn>Лунная перекачка: включена, сеть до {0}/ч.</FB_CelestialUmbilicusSiphonInspectOn>
-  <FB_CelestialUmbilicusSiphonInspectOff>Лунная перекачка: выключена.</FB_CelestialUmbilicusSiphonInspectOff>
   <FB_CelestialUmbilicusTileDrainInspect>Выкачивание локации: {0}/ч; питательность тайла {1}%.</FB_CelestialUmbilicusTileDrainInspect>
   <FB_CelestialUmbilicusTileDrainDisabledInspect>Выкачивание локации: выключено на лунном нервном узле.</FB_CelestialUmbilicusTileDrainDisabledInspect>
   <FB_CelestialUmbilicusDevTileNutritionInspect>DEV питательность тайла: осталось {0}%; стартовый множитель {1}; текущий множитель {2}.</FB_CelestialUmbilicusDevTileNutritionInspect>

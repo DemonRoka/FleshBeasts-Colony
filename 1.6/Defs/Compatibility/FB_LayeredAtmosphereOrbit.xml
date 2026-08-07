@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<LayeredAtmosphereOrbit.PlanetLayerGroupDef MayRequire="MrHydralisk.LayeredAtmosphereOrbit">
+		<defName>FB_LAO_FleshMoonSurface</defName>
+		<label>flesh moon</label>
+		<description>A living lunar body grown by the flesh colony.</description>
+		<defaultPlanetLayer>FB_FleshMoon</defaultPlanetLayer>
+		<viewGizmoTexPath>UI/Commands/ViewPlanet</viewGizmoTexPath>
+		<planet>LAO_Rimworld</planet>
+		<planetLayerGroupsDirectConnection>
+			<li>LAO_Surface</li>
+			<li>LAO_Orbit</li>
+		</planetLayerGroupsDirectConnection>
+	</LayeredAtmosphereOrbit.PlanetLayerGroupDef>
+
+</Defs>

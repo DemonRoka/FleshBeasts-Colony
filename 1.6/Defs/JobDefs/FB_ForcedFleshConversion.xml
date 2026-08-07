@@ -3,7 +3,7 @@
   <JobDef>
     <defName>FB_ForcedFleshConversionDoctor</defName>
     <driverClass>FB.JobDriver_ForcedFleshConversionDoctor</driverClass>
-    <reportString>carrying TargetA to the colony heart.</reportString>
+    <reportString>carrying TargetA to a colony heart or lunar nerve node.</reportString>
     <checkOverrideOnDamage>Never</checkOverrideOnDamage>
   </JobDef>
 

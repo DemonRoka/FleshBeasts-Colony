@@ -15,10 +15,6 @@
   <FB_FleshMoonSurfaceNutritionDrainLabel>Surface nutrition drain</FB_FleshMoonSurfaceNutritionDrainLabel>
   <FB_FleshMoonSurfaceNutritionDrainEconomyDetail>Tile nutrition: {0}%; initial factor {1}; output {2}/h</FB_FleshMoonSurfaceNutritionDrainEconomyDetail>
   <FB_FleshMoonSurfaceNutritionDrainEconomyDisabled>Disabled at the lunar nerve node; tile nutrition {0}%.</FB_FleshMoonSurfaceNutritionDrainEconomyDisabled>
-  <FB_CelestialUmbilicusSiphonLabel>Siphon hemogel to moon</FB_CelestialUmbilicusSiphonLabel>
-  <FB_CelestialUmbilicusSiphonDesc>Transfer hemogel from this map's local network into the flesh moon reserve at up to {0}/h. Requires the umbilicus to stand on flesh terrain.</FB_CelestialUmbilicusSiphonDesc>
-  <FB_CelestialUmbilicusSiphonInspectOn>Lunar siphon: on, network up to {0}/h.</FB_CelestialUmbilicusSiphonInspectOn>
-  <FB_CelestialUmbilicusSiphonInspectOff>Lunar siphon: off.</FB_CelestialUmbilicusSiphonInspectOff>
   <FB_CelestialUmbilicusTileDrainInspect>Location drain: {0}/h; tile nutrition {1}%.</FB_CelestialUmbilicusTileDrainInspect>
   <FB_CelestialUmbilicusTileDrainDisabledInspect>Location drain: disabled at the lunar nerve node.</FB_CelestialUmbilicusTileDrainDisabledInspect>
   <FB_CelestialUmbilicusDevTileNutritionInspect>DEV tile nutrition: {0}% remaining; initial factor {1}; effective factor {2}.</FB_CelestialUmbilicusDevTileNutritionInspect>

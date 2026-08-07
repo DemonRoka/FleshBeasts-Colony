@@ -13,7 +13,7 @@
   <FB_GeneArchiveTransferFailed>Не удалось передать генопак.</FB_GeneArchiveTransferFailed>
   <FB_GeneArchiveTransferredToMoon>{0} передан в лунное хранилище.</FB_GeneArchiveTransferredToMoon>
   <FB_GeneArchiveTransferredToSurface>{0} возвращён в архив поверхности.</FB_GeneArchiveTransferredToSurface>
-  <FB_ContainedPawn>Пешка внутри: {0}</FB_ContainedPawn>
+  
   <FB_WaitingForPawn>Ожидает {0}.</FB_WaitingForPawn>
   <FB_ColonyBrain_Structure_GenophageCocoon_Label>Генофаговый кокон</FB_ColonyBrain_Structure_GenophageCocoon_Label>
   <FB_ColonyBrain_Structure_GenomeArchive_Label>Геномный архив</FB_ColonyBrain_Structure_GenomeArchive_Label>

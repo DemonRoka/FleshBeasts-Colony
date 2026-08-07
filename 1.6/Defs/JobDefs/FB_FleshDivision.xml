@@ -17,4 +17,13 @@
     <playerInterruptible>false</playerInterruptible>
     <checkOverrideOnDamage>Never</checkOverrideOnDamage>
   </JobDef>
+
+  <JobDef>
+    <defName>FB_DecentralizedOrganismMerge</defName>
+    <driverClass>FB.JobDriver_DecentralizedOrganismMerge</driverClass>
+    <reportString>merging with TargetA.</reportString>
+    <casualInterruptible>false</casualInterruptible>
+    <playerInterruptible>true</playerInterruptible>
+    <checkOverrideOnDamage>Never</checkOverrideOnDamage>
+  </JobDef>
 </Defs>

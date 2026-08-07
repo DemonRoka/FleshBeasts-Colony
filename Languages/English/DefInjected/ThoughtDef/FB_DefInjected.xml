@@ -16,6 +16,14 @@
   <FB_FleshbeastColonyPresence.stages.2.label>surrounded by the flesh swarm</FB_FleshbeastColonyPresence.stages.2.label>
   <FB_FleshbeastColonyPresence.stages.3.description>The colony is vast, warm, and close. Every beast is another pulse in the same body, and I rest inside it.</FB_FleshbeastColonyPresence.stages.3.description>
   <FB_FleshbeastColonyPresence.stages.3.label>the flesh is everywhere</FB_FleshbeastColonyPresence.stages.3.label>
+  <FB_SawFleshHorror.stages.0.description>I saw living tissue where ordinary walls and floors should be. It is hard to stop thinking about it.</FB_SawFleshHorror.stages.0.description>
+  <FB_SawFleshHorror.stages.0.label>saw living flesh</FB_SawFleshHorror.stages.0.label>
+  <FB_SawFleshHorror.stages.1.description>The colony&apos;s flesh was close enough to see its wet movement and impossible organs. I still feel watched by it.</FB_SawFleshHorror.stages.1.description>
+  <FB_SawFleshHorror.stages.1.label>saw a flesh colony</FB_SawFleshHorror.stages.1.label>
+  <FB_SawFleshHorror.stages.2.description>Living walls, organs, and beasts filled the space around me. The memory keeps crawling back into my thoughts.</FB_SawFleshHorror.stages.2.description>
+  <FB_SawFleshHorror.stages.2.label>surrounded by living flesh</FB_SawFleshHorror.stages.2.label>
+  <FB_SawFleshHorror.stages.3.description>I stood inside a vast body of floors, organs, and beasts. For a moment the whole place felt alive and hungry.</FB_SawFleshHorror.stages.3.description>
+  <FB_SawFleshHorror.stages.3.label>the flesh was everywhere</FB_SawFleshHorror.stages.3.label>
   <FB_FleshTentacleAccepted.stages.0.description>The tentacle is no longer an alien growth, but another limb of the colony&apos;s shared flesh.</FB_FleshTentacleAccepted.stages.0.description>
   <FB_FleshTentacleAccepted.stages.0.label>flesh tentacle accepted</FB_FleshTentacleAccepted.stages.0.label>
   <FB_FleshWhipAccepted.stages.0.description>The living whip is no longer alien. It serves the colony&apos;s shared flesh.</FB_FleshWhipAccepted.stages.0.description>

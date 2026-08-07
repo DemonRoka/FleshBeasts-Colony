@@ -58,6 +58,56 @@
       <maxGrowthPerCheck>5</maxGrowthPerCheck>
       <initialBurstGrowth>0</initialBurstGrowth>
     </li>
+    <li Class="FB.CompProperties_FleshmassSpawner">
+      <spawnIntervalTicks>500</spawnIntervalTicks>
+      <thingDefToSpawn>Fleshmass</thingDefToSpawn>
+      <terrainDefsToSpawn>
+        <li>Flesh</li>
+        <li>FleshVeins</li>
+      </terrainDefsToSpawn>
+      <terrainDefsToRemove>
+        <li>Flesh</li>
+        <li>FleshVeins</li>
+        <li>RootFlesh</li>
+        <li>RootFleshVeins</li>
+      </terrainDefsToRemove>
+      <thingDefsForbiddenToRemove>
+        <li>FB_CelestialUmbilicusPortal</li>
+        <li>FB_ColonyHeart</li>
+      </thingDefsForbiddenToRemove>
+    </li>
+    <li Class="FB.CompProperties_FleshNoGrowAreaCleaner">
+      <cleanIntervalTicks>500</cleanIntervalTicks>
+      <maxCellsPerCheck>3</maxCellsPerCheck>
+      <terrainDefsToClean>
+        <li>Flesh</li>
+        <li>FleshVeins</li>
+        <li>RootFlesh</li>
+        <li>RootFleshVeins</li>
+      </terrainDefsToClean>
+    </li>
+    <li Class="FB.CompProperties_FleshmassAutoBuilder">
+      <organicMaxWallThickness>2</organicMaxWallThickness>
+      <wallDef>Fleshmass</wallDef>
+      <floorDefs>
+        <li>Flesh</li>
+        <li>FleshVeins</li>
+      </floorDefs>
+      <buildIntervalTicks>100</buildIntervalTicks>
+      <hemogelCostFloor>5</hemogelCostFloor>
+      <hemogelCostWall>10</hemogelCostWall>
+      <autoBuildLabel>FB_AutoGrowthLabel</autoBuildLabel>
+      <autoBuildIconPath>UI/Commands/AutoGrowth</autoBuildIconPath>
+    </li>
+    <li Class="FB.CompProperties_FleshmassBoneWallUpgrader">
+      <upgradeDesignation>FleshmassBoneWallPlan</upgradeDesignation>
+      <sourceWallDef>Fleshmass</sourceWallDef>
+      <reinforcedWallDef>FB_ReinforcedFleshmassWall</reinforcedWallDef>
+      <requiredResearch>FB_FleshmassBoneWallReinforcement</requiredResearch>
+      <hemogelCost>20</hemogelCost>
+      <checkIntervalTicks>100</checkIntervalTicks>
+      <maxUpgradesPerCheck>1</maxUpgradesPerCheck>
+    </li>
   </comps>
   <inspectorTabs>
     <li>ITab_ContentsMapPortal</li>

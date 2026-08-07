@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <FB_HemogelTransferTemperatureEfficiency>Hemogel transfer efficiency: {0} (heart temperature: {1}).</FB_HemogelTransferTemperatureEfficiency>
+  
   <FB_Thermoregulator_TargetTemperature>Target temperature: {0}</FB_Thermoregulator_TargetTemperature>
   <FB_Thermoregulator_HemogelConsumption>Hemogel consumption: {0}/h</FB_Thermoregulator_HemogelConsumption>
   <FB_Thermoregulator_StatusIdle>Status: maintaining temperature.</FB_Thermoregulator_StatusIdle>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Layered Atmosphere and Orbit</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/PlanetLayerDef[defName="FB_FleshMoon"]/modExtensions</xpath>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/PlanetLayerDef[defName="FB_FleshMoon"]</xpath>
+            <order>Append</order>
+            <value>
+              <modExtensions>
+                <li Class="LayeredAtmosphereOrbit.LayeredAtmosphereOrbitDefModExtension" MayRequire="MrHydralisk.LayeredAtmosphereOrbit">
+                  <isReplaceConnections>true</isReplaceConnections>
+                  <isSurface>true</isSurface>
+                  <elevation>0</elevation>
+                  <planetLayerGroup>FB_LAO_FleshMoonSurface</planetLayerGroup>
+                </li>
+              </modExtensions>
+            </value>
+          </nomatch>
+          <match Class="PatchOperationAdd">
+            <xpath>Defs/PlanetLayerDef[defName="FB_FleshMoon"]/modExtensions</xpath>
+            <order>Append</order>
+            <value>
+              <li Class="LayeredAtmosphereOrbit.LayeredAtmosphereOrbitDefModExtension" MayRequire="MrHydralisk.LayeredAtmosphereOrbit">
+                <isReplaceConnections>true</isReplaceConnections>
+                <isSurface>true</isSurface>
+                <elevation>0</elevation>
+                <planetLayerGroup>FB_LAO_FleshMoonSurface</planetLayerGroup>
+              </li>
+            </value>
+          </match>
+        </li>
+
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/LayeredAtmosphereOrbit.PlanetLayerGroupDef[defName="LAO_Surface"]/planetLayerGroupsDirectConnection</xpath>
+          <order>Append</order>
+          <value>
+            <li>FB_LAO_FleshMoonSurface</li>
+          </value>
+        </li>
+
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/LayeredAtmosphereOrbit.PlanetLayerGroupDef[defName="LAO_Orbit"]/planetLayerGroupsDirectConnection</xpath>
+          <order>Append</order>
+          <value>
+            <li>FB_LAO_FleshMoonSurface</li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

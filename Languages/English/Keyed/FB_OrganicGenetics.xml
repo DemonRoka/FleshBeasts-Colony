@@ -13,7 +13,7 @@
   <FB_GeneArchiveTransferFailed>Could not transfer the genepack.</FB_GeneArchiveTransferFailed>
   <FB_GeneArchiveTransferredToMoon>{0} was transferred to lunar storage.</FB_GeneArchiveTransferredToMoon>
   <FB_GeneArchiveTransferredToSurface>{0} was returned to the surface archive.</FB_GeneArchiveTransferredToSurface>
-  <FB_ContainedPawn>Contained pawn: {0}</FB_ContainedPawn>
+  
   <FB_WaitingForPawn>Waiting for {0}.</FB_WaitingForPawn>
   <FB_ColonyBrain_Structure_GenophageCocoon_Label>Genophage cocoon</FB_ColonyBrain_Structure_GenophageCocoon_Label>
   <FB_ColonyBrain_Structure_GenomeArchive_Label>Genome archive</FB_ColonyBrain_Structure_GenomeArchive_Label>

@@ -15,8 +15,6 @@
   <FB_CelestialUmbilicusInspectCompleted>Celestial budding complete.</FB_CelestialUmbilicusInspectCompleted>
   <FB_CelestialUmbilicusNotPlayerOwned>The umbilicus must belong to the player colony.</FB_CelestialUmbilicusNotPlayerOwned>
   <FB_CelestialUmbilicusAlreadyActive>Only one celestial umbilicus can exist on this map.</FB_CelestialUmbilicusAlreadyActive>
-  <FB_CelestialUmbilicusVictoryIntro>The planet was never a home. It was a womb, a sack of minerals, water, memory, and meat. The colony's roots drank it until the last organ learned to pull upward.</FB_CelestialUmbilicusVictoryIntro>
-  <FB_CelestialUmbilicusVictoryEnding>The last structures fold inward. Flesh terrain peels from the world, and every colony pawn enters the celestial umbilicus. The colony buds free as a small living moon, carrying {0} absorbed pawns within one orbital organism.</FB_CelestialUmbilicusVictoryEnding>
   <FB_CelestialUmbilicusInspectSegments>Column segments: {0} / {1}. Next segment: {2}%.</FB_CelestialUmbilicusInspectSegments>
   <FB_CelestialUmbilicusDevStartLabel>DEV: start celestial budding</FB_CelestialUmbilicusDevStartLabel>
   <FB_CelestialUmbilicusDevCompleteLabel>DEV: complete celestial budding</FB_CelestialUmbilicusDevCompleteLabel>
@@ -25,36 +23,33 @@
   <FB_CelestialUmbilicusFlowBarTooltip>Sets how much hemogel power the umbilicus requests from the network while growing. Range: {0}-{1} hemogel/h. Current request: {2}/h; effective supplied growth: {3}/h.</FB_CelestialUmbilicusFlowBarTooltip>
   <FB_CelestialUmbilicusHemogelEconomyDetail>Celestial growth flow: {0}/h requested, {1}/h supplied.</FB_CelestialUmbilicusHemogelEconomyDetail>
 
-  <FB_FleshMoonFormedLetterLabel>Flesh moon formed</FB_FleshMoonFormedLetterLabel>
-  <FB_FleshMoonFormedLetterText>The celestial umbilicus has formed a small living moon beside the planet. Decide whether to absorb the colony into it or preserve a permanent link.</FB_FleshMoonFormedLetterText>
-  <FB_FleshMoonDecisionCommandLabel>Choose flesh moon outcome</FB_FleshMoonDecisionCommandLabel>
-  <FB_FleshMoonDecisionCommandDesc>Choose whether the colony buds into the flesh moon or maintains the celestial umbilicus as a permanent link.</FB_FleshMoonDecisionCommandDesc>
-  <FB_CelestialUmbilicusInspectAwaitingChoice>Flesh moon formed. Awaiting a final decision.</FB_CelestialUmbilicusInspectAwaitingChoice>
+  <FB_CelestialUmbilicusInspectAwaitingChoice>Flesh moon formed. Stabilizing the channel.</FB_CelestialUmbilicusInspectAwaitingChoice>
   <FB_CelestialUmbilicusInspectLinked>Permanent flesh moon link active.</FB_CelestialUmbilicusInspectLinked>
   <FB_CelestialUmbilicusInspectAbsorbing>Absorbing the colony into the flesh moon.</FB_CelestialUmbilicusInspectAbsorbing>
   <FB_CelestialUmbilicusInspectAscended>The colony has become the flesh moon.</FB_CelestialUmbilicusInspectAscended>
   <FB_CelestialUmbilicusInspectSevered>The flesh moon link has been severed.</FB_CelestialUmbilicusInspectSevered>
   <FB_FleshMoonLinkSeveredLetterLabel>Flesh moon link severed</FB_FleshMoonLinkSeveredLetterLabel>
   <FB_FleshMoonLinkSeveredLetterText>The celestial umbilicus was destroyed. The flesh moon remains in orbit, but its link to the colony has been lost.</FB_FleshMoonLinkSeveredLetterText>
-  <FB_FleshMoonChoiceText>The flesh moon is complete. The colony can now surrender all of its biomass and bud away from the planet, ending this story, or keep the celestial umbilicus active and retain access to future lunar functions.</FB_FleshMoonChoiceText>
-  <FB_FleshMoonChoiceAscend>Absorb the colony and bud off</FB_FleshMoonChoiceAscend>
-  <FB_FleshMoonChoiceMaintainLink>Maintain the permanent link</FB_FleshMoonChoiceMaintainLink>
-  <FB_FleshMoonChoicePostpone>Decide later</FB_FleshMoonChoicePostpone>
-  <FB_FleshMoonLinkedLetterLabel>Flesh moon link maintained</FB_FleshMoonLinkedLetterLabel>
-  <FB_FleshMoonLinkedLetterText>The celestial umbilicus has stabilized into a permanent portal. Colonists, fleshbeasts, prisoners, and supplies can now be sent between the colony and the flesh moon.</FB_FleshMoonLinkedLetterText>
+  <FB_FleshMoonLinkedLetterLabel>Flesh moon link stabilized</FB_FleshMoonLinkedLetterLabel>
+  <FB_FleshMoonLinkedLetterText>The fed celestial umbilicus has automatically stabilized into a permanent channel. Colonists, fleshbeasts, prisoners, and supplies can now be sent between the surface and the flesh moon.</FB_FleshMoonLinkedLetterText>
   <FB_FleshMoonMissingSourceMap>The colony map is no longer available.</FB_FleshMoonMissingSourceMap>
-  <FB_FleshMoonAbsorptionStartedLetterLabel>Final absorption begun</FB_FleshMoonAbsorptionStartedLetterLabel>
-  <FB_FleshMoonAbsorptionStartedLetterText>The colony is folding into the celestial umbilicus. Structures and hemogel organs are consumed, flesh terrain peels inward from the map edges, and every player pawn is drawn toward the forming moon.</FB_FleshMoonAbsorptionStartedLetterText>
+  <FB_FleshMoonAbsorptionStartedLetterLabel>Surface absorption begun</FB_FleshMoonAbsorptionStartedLetterLabel>
+  <FB_FleshMoonAbsorptionStartedLetterText>The surface colony is folding into the celestial umbilicus. Player, prisoner, slave, mech, animal, and fleshbeast pawns are ordered to enter the umbilicus, local hemogel is pumped upward, and grown flesh structures are reclaimed for partial hemogel.</FB_FleshMoonAbsorptionStartedLetterText>
+  <FB_FleshMoonAbsorptionCompletedLetterLabel>Surface absorption complete</FB_FleshMoonAbsorptionCompletedLetterLabel>
+  <FB_FleshMoonAbsorptionCompletedLetterText>The celestial umbilicus has finished receiving the colony's living pawns through the portal and digesting the surface growth. Pawns that left the map: {0}.</FB_FleshMoonAbsorptionCompletedLetterText>
+  <FB_CelestialUmbilicusDetachAbsorbCommandLabel>Detach and absorb surface</FB_CelestialUmbilicusDetachAbsorbCommandLabel>
+  <FB_CelestialUmbilicusDetachAbsorbCommandDesc>Retract this surface umbilicus by absorbing the local flesh colony. Player, prisoner, slave, mech, animal, and fleshbeast pawns are ordered to enter the umbilicus, stored hemogel is pumped upward, and grown flesh structures refund part of their hemogel cost.</FB_CelestialUmbilicusDetachAbsorbCommandDesc>
+  <FB_CelestialUmbilicusDetachAbsorbWarning>This will detach the surface umbilicus and absorb this map's flesh colony. Player, prisoner, slave, mech, animal, and fleshbeast pawns will be ordered to enter the umbilicus, local hemogel will be pumped into lunar storage, and grown flesh terrain or organs will be consumed for partial hemogel recovery. Continue?</FB_CelestialUmbilicusDetachAbsorbWarning>
   <FB_CelestialUmbilicusPortalEnterLabel>Enter the flesh moon</FB_CelestialUmbilicusPortalEnterLabel>
   <FB_CelestialUmbilicusPortalCancelLabel>Cancel moon transfer</FB_CelestialUmbilicusPortalCancelLabel>
   <FB_CelestialUmbilicusMoonExitEnterLabel>Return through the umbilicus</FB_CelestialUmbilicusMoonExitEnterLabel>
   <FB_CelestialUmbilicusPortalSevered>The celestial umbilicus link has been severed.</FB_CelestialUmbilicusPortalSevered>
   <FB_CelestialUmbilicusPortalCreateFailed>Failed to stabilize the celestial umbilicus into a portal.</FB_CelestialUmbilicusPortalCreateFailed>
-  <FB_FleshMoonWorldObjectViewUmbilicusLabel>View umbilicus</FB_FleshMoonWorldObjectViewUmbilicusLabel>
-  <FB_FleshMoonWorldObjectViewUmbilicusDesc>Jump to the celestial umbilicus that anchors the flesh moon link.</FB_FleshMoonWorldObjectViewUmbilicusDesc>
+  
+  
   <FB_FleshMoonWorldObjectViewMoonMapLabel>View flesh moon interior</FB_FleshMoonWorldObjectViewMoonMapLabel>
   <FB_FleshMoonWorldObjectViewMoonMapDesc>Jump to the generated interior map of the flesh moon.</FB_FleshMoonWorldObjectViewMoonMapDesc>
-  <FB_FleshMoonWorldObjectNoUmbilicus>The celestial umbilicus is no longer available.</FB_FleshMoonWorldObjectNoUmbilicus>
+  
 
   <FB_FleshMoonWorldObjectMoveLabel>Move flesh moon</FB_FleshMoonWorldObjectMoveLabel>
   <FB_FleshMoonWorldObjectMoveDesc>Choose a surface tile and send the flesh moon drifting toward it. The surface umbilicus must be detached first.</FB_FleshMoonWorldObjectMoveDesc>
@@ -62,7 +57,6 @@
   <FB_FleshMoonWorldObjectAnchorDesc>Load the surface tile below the flesh moon, pause the game, and choose the exact impact site for the celestial umbilicus.</FB_FleshMoonWorldObjectAnchorDesc>
   <FB_FleshMoonWorldObjectDetachLabel>Detach umbilicus</FB_FleshMoonWorldObjectDetachLabel>
   <FB_FleshMoonWorldObjectDetachDesc>Sever the current surface umbilicus and remove its ground-side edge without moving the flesh moon.</FB_FleshMoonWorldObjectDetachDesc>
-  <FB_FleshMoonWorldObjectDetachFleshbeastsWarning>The umbilicus surface map has no colonists, but {0} fleshbeasts remain there. If you detach the umbilicus now, the temporary map will collapse and those fleshbeasts will be lost with the location. Continue?</FB_FleshMoonWorldObjectDetachFleshbeastsWarning>
   <FB_FleshMoonWorldObjectInactiveDisabled>The flesh moon is not active.</FB_FleshMoonWorldObjectInactiveDisabled>
   <FB_FleshMoonWorldObjectAbsorbingDisabled>The flesh moon is absorbing the colony.</FB_FleshMoonWorldObjectAbsorbingDisabled>
   <FB_FleshMoonWorldObjectMovingDisabled>The flesh moon is already moving.</FB_FleshMoonWorldObjectMovingDisabled>
@@ -111,7 +105,8 @@
 
   <FB_FleshMoonStarvationLetterLabel>Flesh moon starving</FB_FleshMoonStarvationLetterLabel>
   <FB_FleshMoonStarvationLetterText>The flesh moon has exhausted its hemogel reserve while its lunar hemogel balance is {1}/h. Feed it or restore a non-negative balance within {0}, or it will fall onto the surface below.</FB_FleshMoonStarvationLetterText>
-  <FB_FleshMoonStarvationCountdown>Flesh moon collapse countdown: {0} remaining; balance {1}/h.</FB_FleshMoonStarvationCountdown>
+  <FB_FleshMoonStarvationAlertLabel>Flesh moon starving: {0}</FB_FleshMoonStarvationAlertLabel>
+  <FB_FleshMoonStarvationAlertDesc>The flesh moon is out of hemogel and will fall if its lunar balance stays negative. Feed it or restore a non-negative balance before the countdown ends.&#10;&#10;Time remaining: {0}&#10;Current balance: {1}/h</FB_FleshMoonStarvationAlertDesc>
   <FB_FleshMoonCrashGeneratingMap>Flesh moon impact...</FB_FleshMoonCrashGeneratingMap>
   <FB_FleshMoonCrashedLetterLabel>Flesh moon impact</FB_FleshMoonCrashedLetterLabel>
   <FB_FleshMoonCrashedLetterText>The starving flesh moon has fallen onto the surface below. Living creatures on the impact map vanish without corpses, player pawns are thrown into the center, and exposed terrain and things are buried under fresh and rotten flesh.</FB_FleshMoonCrashedLetterText>

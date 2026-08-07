@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <FB_HemogelTransferTemperatureEfficiency>Эффективность передачи гемогеля: {0} (температура сердца: {1}).</FB_HemogelTransferTemperatureEfficiency>
+  
   <FB_Thermoregulator_TargetTemperature>Целевая температура: {0}</FB_Thermoregulator_TargetTemperature>
   <FB_Thermoregulator_HemogelConsumption>Потребление гемогеля: {0}/ч</FB_Thermoregulator_HemogelConsumption>
   <FB_Thermoregulator_StatusIdle>Статус: поддерживает температуру.</FB_Thermoregulator_StatusIdle>

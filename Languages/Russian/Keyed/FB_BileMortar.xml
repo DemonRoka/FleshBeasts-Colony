@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_ColonyBrain_Structure_BileMortarGland_Label>Желчная мортирная железа</FB_ColonyBrain_Structure_BileMortarGland_Label>
   <FB_ColonyBrain_Structure_BileMortarGland_Desc>Вырастить желчную мортирную железу, которая выводит желчных подрывников и запускает зрелых как зажигательные снаряды.</FB_ColonyBrain_Structure_BileMortarGland_Desc>
@@ -34,8 +34,8 @@
   <FB_BileburstPayloadAbsorbed>{0} поглотил {1}.</FB_BileburstPayloadAbsorbed>
   <FB_BileburstDetonateLabel>Взорвать желчного подрывника</FB_BileburstDetonateLabel>
   <FB_BileburstDetonateDesc>Приказать желчному подрывнику доползти до выбранной цели или клетки и разорвать накопленную горючую желчь.</FB_BileburstDetonateDesc>
-  <FB_DevBileburstDetonateLabel>DEV: взорвать желчного подрывника</FB_DevBileburstDetonateLabel>
-  <FB_DevBileburstDetonateDesc>Приказать желчному подрывнику доползти до выбранной цели или клетки и разорвать накопленную горючую желчь. Только для dev-режима.</FB_DevBileburstDetonateDesc>
+  
+  
   <FB_BileburstDetonatingInspect>Взорвётся через {0}.</FB_BileburstDetonatingInspect>
   <FB_BileburstAlreadyDetonating>Этот желчный подрывник уже взрывается.</FB_BileburstAlreadyDetonating>
   <FB_BileburstChargeTooLow>Для взрыва запас горючей желчи должен достичь хотя бы {0}%.</FB_BileburstChargeTooLow>

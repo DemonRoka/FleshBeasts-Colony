@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <FB_Fleshbeasts_Header>Флешбисты: {0}</FB_Fleshbeasts_Header>
-  <FB_Fleshbeasts_All>Все</FB_Fleshbeasts_All>
-  <FB_Fleshbeasts_Unassigned>Без группы</FB_Fleshbeasts_Unassigned>
+  
+  
+  
   <FB_Fleshbeasts_NoGroup>Без группы</FB_Fleshbeasts_NoGroup>
   <FB_Fleshbeasts_NotCommandable>Не подчиняется</FB_Fleshbeasts_NotCommandable>
   <FB_Fleshbeasts_AssignSelectedToActiveGroup>Добавить выделенных на карте флешбистов в активную группу.</FB_Fleshbeasts_AssignSelectedToActiveGroup>
@@ -34,7 +34,7 @@
   <FB_FleshbeastMedicalCareGroupMixed>Разное</FB_FleshbeastMedicalCareGroupMixed>
   <FB_FleshThrallCoherenceTitle>Сцепление: {0}%</FB_FleshThrallCoherenceTitle>
   <FB_FleshThrallCoherenceTooltip>Текущее сцепление: {0}%\nНужно пальцешипов до полного восстановления: {1}</FB_FleshThrallCoherenceTooltip>
-  <FB_FleshThrallTargetLabel>Восстанавливать до {0}%</FB_FleshThrallTargetLabel>
+  
   <FB_FleshThrallRestoreLabel>Восстановить раба</FB_FleshThrallRestoreLabel>
   <FB_FleshThrallRestoreDesc>Позвать ближайших пальцешипов, чтобы они внедрились в мясного раба и восстановили его сцепление.</FB_FleshThrallRestoreDesc>
   <FB_FleshThrallAutoRestoreDesc>Щёлкните правой кнопкой по этой команде, чтобы включить автоматическое восстановление. В этом режиме один доступный пальцешип вызывается после потери объёма сцепления, который он может восполнить, или при падении ниже 20%.</FB_FleshThrallAutoRestoreDesc>
@@ -54,15 +54,14 @@
   <FB_FleshThrallConvertCannotStart>Пальцешипы не смогли начать связывание.</FB_FleshThrallConvertCannotStart>
   <FB_FleshThrallConvertAssigned>{0} пальцешип(ов) назначено на связывание {1}.</FB_FleshThrallConvertAssigned>
   <FB_FleshThrallConvertSuccess>{0} стал мясным рабом.</FB_FleshThrallConvertSuccess>
-  <FB_Fleshbeasts_HideNonCommandableOnShort>НК</FB_Fleshbeasts_HideNonCommandableOnShort>
-  <FB_Fleshbeasts_HideNonCommandableOffShort>Все</FB_Fleshbeasts_HideNonCommandableOffShort>
+  
+  
   <FB_Fleshbeasts_HideNonCommandableTooltip>Показать или скрыть некомандуемых флешбистов в списке.</FB_Fleshbeasts_HideNonCommandableTooltip>
   <FB_FormFleshbeastMassZone_Label>Зона мясной массы</FB_FormFleshbeastMassZone_Label>
   <FB_FormFleshbeastMassZone_Desc>Обозначить зону, где флешбисты могут свернуться в спящую массу, уменьшая число активных пешек до выпуска.</FB_FormFleshbeastMassZone_Desc>
   <FB_FleshbeastMassZone_Status>Внутри {0}</FB_FleshbeastMassZone_Status>
   <FB_FleshbeastMassZone_Label>зона мясной массы</FB_FleshbeastMassZone_Label>
-  <FB_FleshbeastMassZone_Inspect>Флешбистов внутри: {0}. Общий размер тел: {1}. Вместимость: {2}. Потребление гемогеля: {3}/ч.</FB_FleshbeastMassZone_Inspect>
-  <FB_FleshbeastMassZone_EconomyDetail>Внутри: {0}. Размер тел: {1}/{2}.</FB_FleshbeastMassZone_EconomyDetail>
+  <FB_FleshbeastMassZone_Inspect>Флешбистов внутри: {0}. Общий размер тел: {1}. Вместимость: {2}.</FB_FleshbeastMassZone_Inspect>
   <FB_FleshbeastMassZone_InvalidPawn>Этот флешбист не может войти в зону мясной массы.</FB_FleshbeastMassZone_InvalidPawn>
   <FB_FleshbeastMassZone_InvalidZone>Зона мясной массы больше недействительна.</FB_FleshbeastMassZone_InvalidZone>
   <FB_FleshbeastMassZone_NoCapacity>В зоне мясной массы не хватает свободной вместимости.</FB_FleshbeastMassZone_NoCapacity>
@@ -79,6 +78,7 @@
   <FB_FleshbeastMassZone_NoReachableCell>Нет доступной клетки зоны мясной массы.</FB_FleshbeastMassZone_NoReachableCell>
   <FB_FleshbeastMassZone_Loading>{0} флешбист(ов) идут в зону мясной массы.</FB_FleshbeastMassZone_Loading>
   <FB_FleshbeastMassZone_OverCapacityEjected>Зона мясной массы стала слишком маленькой; лишние флешбисты выпущены наружу.</FB_FleshbeastMassZone_OverCapacityEjected>
+  <FB_FleshbeastMassZone_ThreatRelease>Флешбисты вырываются из {0}, реагируя на врагов рядом.</FB_FleshbeastMassZone_ThreatRelease>
   <FB_FleshbeastMassZone_DisallowedKind>{0} запрещён для этой зоны мясной массы.</FB_FleshbeastMassZone_DisallowedKind>
   <FB_FleshbeastMassZone_FilterTab>Типы</FB_FleshbeastMassZone_FilterTab>
   <FB_FleshbeastMassZone_FilterHeader>Разрешённые типы флешбистов для этой зоны.</FB_FleshbeastMassZone_FilterHeader>
@@ -97,7 +97,7 @@
   <FB_GroupDigestCrippledLabel>Переварить флешбистов</FB_GroupDigestCrippledLabel>
   <FB_GroupDigestCrippledTooltip>Выбрать флешбистов для жертвенного переваривания. Подвижные сами идут к желудку или кислоте; обездвиженные погибают на месте через свой обычный эффект смерти.</FB_GroupDigestCrippledTooltip>
   <FB_GroupDigestCrippledNoSelectablePawns>Нет подходящих выбранных флешбистов.</FB_GroupDigestCrippledNoSelectablePawns>
-  <FB_GroupDigestCrippledNone>Выбранных флешбистов нельзя переварить.</FB_GroupDigestCrippledNone>
+  
   <FB_GroupDigestCrippledInvalid>Этого флешбиста нельзя переварить.</FB_GroupDigestCrippledInvalid>
   <FB_GroupDigestCrippledNoDestination>Нет желудка колонии с местом или доступной клетки желудочного сока.</FB_GroupDigestCrippledNoDestination>
   <FB_GroupDigestCrippledAssigned>{0} флешбист(ов) идут на переваривание. {1} обездвиженных погибло на месте.</FB_GroupDigestCrippledAssigned>

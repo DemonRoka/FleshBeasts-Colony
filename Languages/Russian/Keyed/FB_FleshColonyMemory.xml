@@ -5,7 +5,7 @@
   <FB_FleshMemory_Header>Сохранено воспоминаний: {0}</FB_FleshMemory_Header>
   <FB_FleshMemory_Empty>Воспоминания не сохранены.</FB_FleshMemory_Empty>
   <FB_FleshMemory_Unnamed>безымянное сознание</FB_FleshMemory_Unnamed>
-  <FB_FleshMemory_Unknown>неизвестно</FB_FleshMemory_Unknown>
+  
   <FB_FleshMemory_StatusAlive>Источник жив</FB_FleshMemory_StatusAlive>
   <FB_FleshMemory_StatusDead>Доступно для воссоздания</FB_FleshMemory_StatusDead>
   <FB_FleshMemory_StatusGrowing>Выращивание оболочки: {0}</FB_FleshMemory_StatusGrowing>
@@ -33,12 +33,12 @@
   <FB_FleshMemory_DepositCannotStart>Не удалось начать перенос в память колонии.</FB_FleshMemory_DepositCannotStart>
   <FB_FleshMemory_DepositFailed>Мозгу колонии не удалось сохранить эту личность.</FB_FleshMemory_DepositFailed>
   <FB_FleshMemory_DepositComplete>{0} растворяется в памяти колонии.</FB_FleshMemory_DepositComplete>
-  <FB_FleshMemory_DetailRace>Раса: {0}</FB_FleshMemory_DetailRace>
-  <FB_FleshMemory_DetailGender>Пол: {0}</FB_FleshMemory_DetailGender>
-  <FB_FleshMemory_DetailSkills>Сохранённые навыки:</FB_FleshMemory_DetailSkills>
-  <FB_FleshMemory_DetailTraits>Сохранённые черты:</FB_FleshMemory_DetailTraits>
-  <FB_FleshMemory_DetailGenes>Сохранено генов: {0}</FB_FleshMemory_DetailGenes>
-  <FB_FleshMemory_DetailIdeology>Идеология: {0}</FB_FleshMemory_DetailIdeology>
-  <FB_FleshMemory_DetailRelations>Сохранено прямых связей: {0}</FB_FleshMemory_DetailRelations>
+  
+  
+  
+  
+  
+  
+  
 
 </LanguageData>

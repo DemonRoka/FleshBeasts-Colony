@@ -7,7 +7,7 @@
   <FB_FleshmassNucleusAssimilator_InvalidWorker>Нет подходящего переносчика.</FB_FleshmassNucleusAssimilator_InvalidWorker>
   <FB_FleshmassNucleusAssimilator_NoHeart>Нет сердца колонии игрока, способного поглотить это ядро.</FB_FleshmassNucleusAssimilator_NoHeart>
   <FB_FleshmassNucleusAssimilator_TargetAlreadyAssigned>Это ядро плоти уже назначено другому сердцу колонии.</FB_FleshmassNucleusAssimilator_TargetAlreadyAssigned>
-  <FB_FleshmassNucleusAssimilator_TargetDefMissing>Не найден ThingDef цели: {0}.</FB_FleshmassNucleusAssimilator_TargetDefMissing>
+  
   <FB_FleshmassNucleusAssimilator_Assigned>{0} назначено для поглощения сердцем {1}.</FB_FleshmassNucleusAssimilator_Assigned>
   <FB_FleshmassNucleusAssimilator_Success>{0} поглотило ядро плоти. Поглощено ядер: {1}.</FB_FleshmassNucleusAssimilator_Success>
   <FB_FleshmassNucleusAssimilator_Inspect>Поглощено ядер плоти: {0}. Пассивный гемогель: +{1}/ч.</FB_FleshmassNucleusAssimilator_Inspect>

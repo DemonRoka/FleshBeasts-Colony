@@ -60,6 +60,42 @@
     </stages>
   </ThoughtDef>
 
+  <!-- Мысль: увидел открытую плоть колонии -->
+  <ThoughtDef>
+    <defName>FB_SawFleshHorror</defName>
+    <durationDays>0.3</durationDays>
+    <nullifyingTraits>
+      <li>Psychopath</li>
+      <li>Bloodlust</li>
+    </nullifyingTraits>
+    <nullifyingHediffs>
+      <li>FB_AcceptanceOfFleshColony</li>
+    </nullifyingHediffs>
+    <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+    <stages>
+      <li>
+        <label>saw living flesh</label>
+        <description>I saw living tissue where ordinary walls and floors should be. It is hard to stop thinking about it.</description>
+        <baseMoodEffect>-4</baseMoodEffect>
+      </li>
+      <li>
+        <label>saw a flesh colony</label>
+        <description>The colony's flesh was close enough to see its wet movement and impossible organs. I still feel watched by it.</description>
+        <baseMoodEffect>-8</baseMoodEffect>
+      </li>
+      <li>
+        <label>surrounded by living flesh</label>
+        <description>Living walls, organs, and beasts filled the space around me. The memory keeps crawling back into my thoughts.</description>
+        <baseMoodEffect>-14</baseMoodEffect>
+      </li>
+      <li>
+        <label>the flesh was everywhere</label>
+        <description>I stood inside a vast body of floors, organs, and beasts. For a moment the whole place felt alive and hungry.</description>
+        <baseMoodEffect>-22</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
   <!-- Мысли: мутации плоти, принятые колонией -->
   <ThoughtDef MayRequire="Ludeon.RimWorld.Anomaly">
     <defName>FB_FleshTentacleAccepted</defName>

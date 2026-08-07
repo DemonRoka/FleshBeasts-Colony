@@ -564,22 +564,6 @@
       </li>
       <li Class="FB.CompProperties_FleshbeastGroups">
         <maxGroups>16</maxGroups>
-        <excludedPawnKinds>
-          <li>FB_SymbioHead</li>
-          <li>FB_AcidSpitlingKind</li>
-          <li>FB_BileburstPodlingKind</li>
-          <li>FB_CarapaceExcavatorKind</li>
-          <li>FB_CocoonbackKind</li>
-          <li>FB_CortexMiteKind</li>
-          <li>FB_DenseWeaver</li>
-          <li>FB_FerrimawKind</li>
-          <li>FB_Rotlarva</li>
-          <li>FB_ScrapmeldNestlingKind</li>
-          <li>FB_Shardlings</li>
-          <li>FB_SinewcallerKind</li>
-          <li>FB_StingmiteKind</li>
-          <li>FB_TentacleTurret</li>
-        </excludedPawnKinds>
         <defendDurationTicks>10000</defendDurationTicks>
         <defendRadius>14</defendRadius>
         <returnRadius>8</returnRadius>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_ColonyBrain_Structure_BileMortarGland_Label>Bile Mortar Gland</FB_ColonyBrain_Structure_BileMortarGland_Label>
   <FB_ColonyBrain_Structure_BileMortarGland_Desc>Grow a bile mortar gland that cultivates bileburst podlings and launches mature ones as incendiary shells.</FB_ColonyBrain_Structure_BileMortarGland_Desc>
@@ -34,8 +34,8 @@
   <FB_BileburstPayloadAbsorbed>{0} absorbed {1}.</FB_BileburstPayloadAbsorbed>
   <FB_BileburstDetonateLabel>Detonate bileburst</FB_BileburstDetonateLabel>
   <FB_BileburstDetonateDesc>Order this bileburst podling to crawl to a selected target or cell and rupture its stored volatile bile.</FB_BileburstDetonateDesc>
-  <FB_DevBileburstDetonateLabel>DEV: Detonate bileburst</FB_DevBileburstDetonateLabel>
-  <FB_DevBileburstDetonateDesc>Order this bileburst podling to crawl to a selected target or cell and rupture its stored volatile bile. Dev-only.</FB_DevBileburstDetonateDesc>
+  
+  
   <FB_BileburstDetonatingInspect>Detonating in {0}.</FB_BileburstDetonatingInspect>
   <FB_BileburstAlreadyDetonating>This bileburst podling is already detonating.</FB_BileburstAlreadyDetonating>
   <FB_BileburstChargeTooLow>Volatile bile must reach at least {0}% before detonation.</FB_BileburstChargeTooLow>

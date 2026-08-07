@@ -2,8 +2,8 @@
 <LanguageData>
   <FB_Hemoghoul_CommandLabel>Create hemoghoul</FB_Hemoghoul_CommandLabel>
   <FB_Hemoghoul_CommandDesc>Send enough fingerspikes into a fresh humanlike corpse to raise it as a tireless hemogel-fed worker. Costs one fingerspike per 300 healthy Market Value.</FB_Hemoghoul_CommandDesc>
-  <FB_Hemoghoul_Name>Hemoghoul</FB_Hemoghoul_Name>
-  <FB_Hemoghoul_Title>hemoghoul</FB_Hemoghoul_Title>
+  
+  
   <FB_Hemoghoul_InvalidTarget>Invalid hemoghoul target.</FB_Hemoghoul_InvalidTarget>
   <FB_Hemoghoul_NotFresh>The corpse must be fresh.</FB_Hemoghoul_NotFresh>
   <FB_Hemoghoul_HumanlikeOnly>The target must be a dead humanlike corpse.</FB_Hemoghoul_HumanlikeOnly>

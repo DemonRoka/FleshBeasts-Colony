@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_ForcedFleshConversion_Label>Force flesh acceptance</FB_ForcedFleshConversion_Label>
-  <FB_ForcedFleshConversion_Desc>Carry a living prisoner or downed hostile to a colony heart. Fingerspikes implant themselves into the target; one is required for every 300 market value. Unrecruitable targets are remade as toughspikes.</FB_ForcedFleshConversion_Desc>
+  <FB_ForcedFleshConversion_Desc>Carry a living prisoner or downed hostile to a colony heart or lunar nerve node. Fingerspikes implant themselves into the target; one is required for every 300 market value. Unrecruitable targets are remade as toughspikes.</FB_ForcedFleshConversion_Desc>
   <FB_ForcedFleshConversion_Started>Flesh acceptance has begun for {0}.</FB_ForcedFleshConversion_Started>
   <FB_ForcedFleshConversion_Success>{0} has been accepted by the flesh colony.</FB_ForcedFleshConversion_Success>
   <FB_ForcedFleshConversion_Toughspike>{0} could not be recruited and was remade as a toughspike.</FB_ForcedFleshConversion_Toughspike>
@@ -12,10 +12,10 @@
   <FB_ForcedFleshConversion_TargetStatus>Target must be a prisoner or a downed hostile pawn.</FB_ForcedFleshConversion_TargetStatus>
   <FB_ForcedFleshConversion_AlreadyAccepted>This pawn is already bound to the flesh colony.</FB_ForcedFleshConversion_AlreadyAccepted>
   <FB_ForcedFleshConversion_AlreadyInProgress>This pawn is already being accepted by the flesh colony.</FB_ForcedFleshConversion_AlreadyInProgress>
-  <FB_ForcedFleshConversion_NoHeart>No valid colony heart is available.</FB_ForcedFleshConversion_NoHeart>
-  <FB_ForcedFleshConversion_NoAnchor>There is no clear place near a colony heart for the target.</FB_ForcedFleshConversion_NoAnchor>
-  <FB_ForcedFleshConversion_NoCarrier>No capable colonist can carry this target to a colony heart.</FB_ForcedFleshConversion_NoCarrier>
-  <FB_ForcedFleshConversion_NotEnoughFingerspikes>Flesh acceptance needs {0} fingerspikes, but only {1} can reach the colony heart.</FB_ForcedFleshConversion_NotEnoughFingerspikes>
+  <FB_ForcedFleshConversion_NoHeart>No valid colony heart or lunar nerve node is available.</FB_ForcedFleshConversion_NoHeart>
+  <FB_ForcedFleshConversion_NoAnchor>There is no clear place near a colony heart or lunar nerve node for the target.</FB_ForcedFleshConversion_NoAnchor>
+  <FB_ForcedFleshConversion_NoCarrier>No capable colonist can carry this target to a colony heart or lunar nerve node.</FB_ForcedFleshConversion_NoCarrier>
+  <FB_ForcedFleshConversion_NotEnoughFingerspikes>Flesh acceptance needs {0} fingerspikes, but only {1} can reach the colony heart or lunar nerve node.</FB_ForcedFleshConversion_NotEnoughFingerspikes>
   <FB_ForcedFleshConversion_CannotStart>Flesh acceptance could not be started.</FB_ForcedFleshConversion_CannotStart>
   <FB_ForcedFleshConversion_MissingJobDef>Forced flesh acceptance is missing job definitions.</FB_ForcedFleshConversion_MissingJobDef>
 </LanguageData>

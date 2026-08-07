@@ -5,7 +5,7 @@
   <FB_FleshMemory_Header>Stored memories: {0}</FB_FleshMemory_Header>
   <FB_FleshMemory_Empty>No memories have been recorded.</FB_FleshMemory_Empty>
   <FB_FleshMemory_Unnamed>unnamed mind</FB_FleshMemory_Unnamed>
-  <FB_FleshMemory_Unknown>unknown</FB_FleshMemory_Unknown>
+  
   <FB_FleshMemory_StatusAlive>Living source</FB_FleshMemory_StatusAlive>
   <FB_FleshMemory_StatusDead>Available for reconstruction</FB_FleshMemory_StatusDead>
   <FB_FleshMemory_StatusGrowing>Growing shell: {0}</FB_FleshMemory_StatusGrowing>
@@ -33,12 +33,12 @@
   <FB_FleshMemory_DepositCannotStart>The transfer into colony memory could not begin.</FB_FleshMemory_DepositCannotStart>
   <FB_FleshMemory_DepositFailed>The colony brain failed to preserve this personality.</FB_FleshMemory_DepositFailed>
   <FB_FleshMemory_DepositComplete>{0} has dissolved into the colony memory.</FB_FleshMemory_DepositComplete>
-  <FB_FleshMemory_DetailRace>Race: {0}</FB_FleshMemory_DetailRace>
-  <FB_FleshMemory_DetailGender>Gender: {0}</FB_FleshMemory_DetailGender>
-  <FB_FleshMemory_DetailSkills>Recorded skills:</FB_FleshMemory_DetailSkills>
-  <FB_FleshMemory_DetailTraits>Recorded traits:</FB_FleshMemory_DetailTraits>
-  <FB_FleshMemory_DetailGenes>Recorded genes: {0}</FB_FleshMemory_DetailGenes>
-  <FB_FleshMemory_DetailIdeology>Ideology: {0}</FB_FleshMemory_DetailIdeology>
-  <FB_FleshMemory_DetailRelations>Recorded direct relations: {0}</FB_FleshMemory_DetailRelations>
+  
+  
+  
+  
+  
+  
+  
 
 </LanguageData>

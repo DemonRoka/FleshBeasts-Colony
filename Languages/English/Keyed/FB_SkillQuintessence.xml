@@ -7,6 +7,8 @@
 	<FB_UseSkillQuintessenceInvalid>Absorb skill quintessence</FB_UseSkillQuintessenceInvalid>
 	<FB_SkillQuintessenceCompress>Compress</FB_SkillQuintessenceCompress>
 	<FB_SkillQuintessenceCompressTooltip>Compress stored skill points into a single-use quintessence. Each point becomes {0} XP. One item can hold up to {1} XP.</FB_SkillQuintessenceCompressTooltip>
+	<FB_SymbiosisSharedSkillPool>Shared skill pool on this map</FB_SymbiosisSharedSkillPool>
+	<FB_SymbiosisSharedSkillPoolTooltip>All symbiosis brood wombs on this map add to and spend from the same stored skill pool.</FB_SymbiosisSharedSkillPoolTooltip>
 	<FB_SkillQuintessenceSkillSelector>Skill:</FB_SkillQuintessenceSkillSelector>
 	<FB_SkillQuintessenceSelectSkill>Select skill...</FB_SkillQuintessenceSelectSkill>
 	<FB_SkillQuintessenceSkillOption>{0}: {1} points</FB_SkillQuintessenceSkillOption>

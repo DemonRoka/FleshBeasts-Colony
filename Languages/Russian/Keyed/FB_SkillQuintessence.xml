@@ -7,6 +7,8 @@
 	<FB_UseSkillQuintessenceInvalid>Поглотить квинтэссенцию навыка</FB_UseSkillQuintessenceInvalid>
 	<FB_SkillQuintessenceCompress>Сжать</FB_SkillQuintessenceCompress>
 	<FB_SkillQuintessenceCompressTooltip>Сжать накопленные очки навыка в одноразовую квинтэссенцию. Каждое очко становится {0} XP. Один предмет может хранить до {1} XP.</FB_SkillQuintessenceCompressTooltip>
+	<FB_SymbiosisSharedSkillPool>Общий пул навыков на этой карте</FB_SymbiosisSharedSkillPool>
+	<FB_SymbiosisSharedSkillPoolTooltip>Все симбиотические утробы на этой карте пополняют и тратят один общий запас очков навыков.</FB_SymbiosisSharedSkillPoolTooltip>
 	<FB_SkillQuintessenceSkillSelector>Навык:</FB_SkillQuintessenceSkillSelector>
 	<FB_SkillQuintessenceSelectSkill>Выбрать навык...</FB_SkillQuintessenceSelectSkill>
 	<FB_SkillQuintessenceSkillOption>{0}: {1} очков</FB_SkillQuintessenceSkillOption>

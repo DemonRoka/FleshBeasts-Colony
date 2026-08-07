@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_FleshbeastBillDonors>Donors</FB_FleshbeastBillDonors>
-  <FB_FleshbeastBillDonorsAll>Allow all donors</FB_FleshbeastBillDonorsAll>
-  <FB_FleshbeastBillDonorsNoneBlocked>At least one donor kind must remain allowed.</FB_FleshbeastBillDonorsNoneBlocked>
+  
+  
   <FB_FleshbeastBillAllowAll>Allow all</FB_FleshbeastBillAllowAll>
   <FB_FleshbeastBillClearAll>Clear all</FB_FleshbeastBillClearAll>
   <FB_FleshbeastBillNoValidCombination>No valid combination of the currently allowed donors.</FB_FleshbeastBillNoValidCombination>

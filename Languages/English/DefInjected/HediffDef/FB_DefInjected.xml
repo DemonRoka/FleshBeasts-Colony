@@ -6,4 +6,21 @@
   <FB_BloodTendrilLatched.label>blood tendril latch</FB_BloodTendrilLatched.label>
   <FB_BloodTendrilOrgan.label>blood tendril</FB_BloodTendrilOrgan.label>
 <FB_NeuralOverheat.label>neural overheat</FB_NeuralOverheat.label><FB_NeuralOverheat.description>Residual neural heat accumulated while a pawn is used for accelerated research. Reaching full severity burns the brain and resets the accumulated heat. Outside the synapse core, it gradually dissipates over one day.</FB_NeuralOverheat.description><FB_FerrimawMetalMetabolismPaused.label>dormant ferric gut</FB_FerrimawMetalMetabolismPaused.label><FB_FerrimawMetalMetabolismPaused.description>The ferrimaw's metal metabolism is dormant, suppressing hunger until it is allowed to consume stored metal again.</FB_FerrimawMetalMetabolismPaused.description>
+  <FB_DecentralizedOrganism.description>The host's vital systems are no longer concentrated in individual organs. A distributed mass of colony flesh can tear itself into two younger bodies at the moment of death, then rebuild toward adulthood at extreme speed.</FB_DecentralizedOrganism.description>
+  <FB_DecentralizedOrganism.label>decentralized organism</FB_DecentralizedOrganism.label>
+  <FB_DecentralizedOrganism.stages.0.label>distributed flesh</FB_DecentralizedOrganism.stages.0.label>
+  <FB_DecentralizedOrganism.comps.1.tools.0.label>left grasping tendril</FB_DecentralizedOrganism.comps.1.tools.0.label>
+  <FB_DecentralizedOrganism.comps.1.tools.0.labelNoLocation>tendril</FB_DecentralizedOrganism.comps.1.tools.0.labelNoLocation>
+  <FB_DecentralizedOrganism.comps.1.tools.1.label>right grasping tendril</FB_DecentralizedOrganism.comps.1.tools.1.label>
+  <FB_DecentralizedOrganism.comps.1.tools.1.labelNoLocation>tendril</FB_DecentralizedOrganism.comps.1.tools.1.labelNoLocation>
+  <FB_DecentralizedOrganism.comps.1.tools.2.label>upper piercing tendril</FB_DecentralizedOrganism.comps.1.tools.2.label>
+  <FB_DecentralizedOrganism.comps.1.tools.2.labelNoLocation>tendril</FB_DecentralizedOrganism.comps.1.tools.2.labelNoLocation>
+  <FB_DecentralizedOrganism.comps.1.tools.3.label>lower piercing tendril</FB_DecentralizedOrganism.comps.1.tools.3.label>
+  <FB_DecentralizedOrganism.comps.1.tools.3.labelNoLocation>tendril</FB_DecentralizedOrganism.comps.1.tools.3.labelNoLocation>
+  <FB_DecentralizedFleshTorso.description>The torso has been replaced by a distributed mass of thinking muscle and redundant organs. The original limbs and organs are no longer separate vital systems.</FB_DecentralizedFleshTorso.description>
+  <FB_DecentralizedFleshTorso.label>decentralized flesh mass</FB_DecentralizedFleshTorso.label>
+  <FB_DecentralizedFleshTorso.labelNoun>decentralized flesh mass</FB_DecentralizedFleshTorso.labelNoun>
+  <FB_DecentralizedFleshHead.description>The head has become a replaceable knot of sensory flesh. Sight, hearing, speech, and thought are distributed through the organism instead of relying on fragile human organs.</FB_DecentralizedFleshHead.description>
+  <FB_DecentralizedFleshHead.label>distributed sensor node</FB_DecentralizedFleshHead.label>
+  <FB_DecentralizedFleshHead.labelNoun>distributed sensor node</FB_DecentralizedFleshHead.labelNoun>
 </LanguageData>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Состояние: decentralized organism (FB_DecentralizedOrganism) -->
+  <HediffDef>
+    <defName>FB_DecentralizedOrganism</defName>
+    <label>decentralized organism</label>
+    <description>The host's vital systems are no longer concentrated in individual organs. A distributed mass of colony flesh can tear itself into two younger bodies at the moment of death, then rebuild toward adulthood at extreme speed.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <initialSeverity>1</initialSeverity>
+    <maxSeverity>1</maxSeverity>
+    <isBad>false</isBad>
+    <defaultLabelColor>(0.9, 0.28, 0.28)</defaultLabelColor>
+    <comps>
+      <li Class="FB.HediffCompProperties_DecentralizedOrganism">
+        <torsoPartHediff>FB_DecentralizedFleshTorso</torsoPartHediff>
+        <headPartHediff>FB_DecentralizedFleshHead</headPartHediff>
+        <ensureBodyIntervalTicks>2500</ensureBodyIntervalTicks>
+        <deathSplitSpawnSearchRadius>8</deathSplitSpawnSearchRadius>
+        <deathSplitInstabilityTicks>180000</deathSplitInstabilityTicks>
+        <minSplitResultAgeYears>3</minSplitResultAgeYears>
+        <postSplitBloodLossSeverity>0.45</postSplitBloodLossSeverity>
+        <lethalSeverityFactorAfterSplit>0.5</lethalSeverityFactorAfterSplit>
+        <minPostSplitCoreHealthPercent>0.55</minPostSplitCoreHealthPercent>
+        <acceleratedGrowthFactor>10</acceleratedGrowthFactor>
+        <acceleratedGrowthMaxAgeYears>18</acceleratedGrowthMaxAgeYears>
+      </li>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>left grasping tendril</label>
+            <labelNoLocation>tendril</labelNoLocation>
+            <capacities>
+              <li>Blunt</li>
+            </capacities>
+            <power>8</power>
+            <cooldownTime>2</cooldownTime>
+            <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+            <soundMeleeHit>Pawn_Fleshbeast_Attack_Blunt</soundMeleeHit>
+          </li>
+          <li>
+            <label>right grasping tendril</label>
+            <labelNoLocation>tendril</labelNoLocation>
+            <capacities>
+              <li>Blunt</li>
+            </capacities>
+            <power>8</power>
+            <cooldownTime>2</cooldownTime>
+            <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+            <soundMeleeHit>Pawn_Fleshbeast_Attack_Blunt</soundMeleeHit>
+          </li>
+          <li>
+            <label>upper piercing tendril</label>
+            <labelNoLocation>tendril</labelNoLocation>
+            <capacities>
+              <li>Stab</li>
+            </capacities>
+            <power>9</power>
+            <cooldownTime>2.2</cooldownTime>
+            <chanceFactor>0.75</chanceFactor>
+            <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+            <soundMeleeHit>Pawn_Fleshbeast_Attack_Spike</soundMeleeHit>
+          </li>
+          <li>
+            <label>lower piercing tendril</label>
+            <labelNoLocation>tendril</labelNoLocation>
+            <capacities>
+              <li>Stab</li>
+            </capacities>
+            <power>9</power>
+            <cooldownTime>2.2</cooldownTime>
+            <chanceFactor>0.75</chanceFactor>
+            <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+            <soundMeleeHit>Pawn_Fleshbeast_Attack_Spike</soundMeleeHit>
+          </li>
+        </tools>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <label>distributed flesh</label>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>0.20</offset>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>0.20</offset>
+          </li>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>0.10</offset>
+          </li>
+          <li>
+            <capacity>Sight</capacity>
+            <offset>0.15</offset>
+          </li>
+          <li>
+            <capacity>Hearing</capacity>
+            <offset>0.15</offset>
+          </li>
+          <li>
+            <capacity>Talking</capacity>
+            <offset>0.15</offset>
+          </li>
+          <li>
+            <capacity>Breathing</capacity>
+            <offset>0.15</offset>
+          </li>
+          <li>
+            <capacity>BloodFiltration</capacity>
+            <offset>0.15</offset>
+          </li>
+          <li>
+            <capacity>BloodPumping</capacity>
+            <offset>0.15</offset>
+          </li>
+        </capMods>
+        <statFactors>
+          <MoveSpeed>1.15</MoveSpeed>
+          <WorkSpeedGlobal>1.10</WorkSpeedGlobal>
+        </statFactors>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- Состояние: decentralized flesh torso (FB_DecentralizedFleshTorso) -->
+  <HediffDef ParentName="AddedMutationBase">
+    <defName>FB_DecentralizedFleshTorso</defName>
+    <label>decentralized flesh mass</label>
+    <labelNoun>decentralized flesh mass</labelNoun>
+    <description>The torso has been replaced by a distributed mass of thinking muscle and redundant organs. The original limbs and organs are no longer separate vital systems.</description>
+    <defaultInstallPart>Torso</defaultInstallPart>
+    <isBad>false</isBad>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.15</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+
+  <!-- Состояние: decentralized flesh sensor (FB_DecentralizedFleshHead) -->
+  <HediffDef ParentName="AddedMutationBase">
+    <defName>FB_DecentralizedFleshHead</defName>
+    <label>distributed sensor node</label>
+    <labelNoun>distributed sensor node</labelNoun>
+    <description>The head has become a replaceable knot of sensory flesh. Sight, hearing, speech, and thought are distributed through the organism instead of relying on fragile human organs.</description>
+    <defaultInstallPart>Head</defaultInstallPart>
+    <isBad>false</isBad>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.05</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+</Defs>

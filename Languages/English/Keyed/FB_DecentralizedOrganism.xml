@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_DecentralizedOrganism_DeathSplit>{PAWN_nameDef}'s flesh ruptures into two younger bodies.</FB_DecentralizedOrganism_DeathSplit>
+  <FB_DecentralizedOrganismMerge_Label>Merge with {0}</FB_DecentralizedOrganismMerge_Label>
+  <FB_DecentralizedOrganismMerge_Complete>{PAWN_nameDef} absorbs the other half and becomes whole again.</FB_DecentralizedOrganismMerge_Complete>
+  <FB_DecentralizedOrganismMerge_NoPath>No path.</FB_DecentralizedOrganismMerge_NoPath>
+  <FB_DecentralizedOrganismMerge_NotAvailable>The halves are not available.</FB_DecentralizedOrganismMerge_NotAvailable>
+  <FB_DecentralizedOrganismMerge_NotCapable>Both halves must be alive, mobile, and conscious.</FB_DecentralizedOrganismMerge_NotCapable>
+  <FB_DecentralizedOrganismMerge_NotFinal>Requires two decentralized halves.</FB_DecentralizedOrganismMerge_NotFinal>
+  <FB_DecentralizedOrganismMerge_NotPair>This is not a related half of the same organism.</FB_DecentralizedOrganismMerge_NotPair>
+  <FB_DecentralizedOrganismMerge_NotSameFaction>The halves must belong to the same faction.</FB_DecentralizedOrganismMerge_NotSameFaction>
+</LanguageData>

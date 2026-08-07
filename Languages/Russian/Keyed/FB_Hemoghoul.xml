@@ -2,8 +2,8 @@
 <LanguageData>
   <FB_Hemoghoul_CommandLabel>Создать гемогуля</FB_Hemoghoul_CommandLabel>
   <FB_Hemoghoul_CommandDesc>Отправить достаточно пальцешипов в свежий гуманоидный труп и поднять его как неутомимого рабочего, питающегося гемогелем. Требуется один пальцешип на каждые 300 рыночной ценности здоровой пешки.</FB_Hemoghoul_CommandDesc>
-  <FB_Hemoghoul_Name>Гемогуль</FB_Hemoghoul_Name>
-  <FB_Hemoghoul_Title>гемогуль</FB_Hemoghoul_Title>
+  
+  
   <FB_Hemoghoul_InvalidTarget>Недопустимая цель для создания гемогуля.</FB_Hemoghoul_InvalidTarget>
   <FB_Hemoghoul_NotFresh>Труп должен быть свежим.</FB_Hemoghoul_NotFresh>
   <FB_Hemoghoul_HumanlikeOnly>Целью должен быть мёртвый гуманоидный труп.</FB_Hemoghoul_HumanlikeOnly>

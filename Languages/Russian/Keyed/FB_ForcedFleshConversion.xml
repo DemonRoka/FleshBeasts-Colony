@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_ForcedFleshConversion_Label>Насильное принятие плоти</FB_ForcedFleshConversion_Label>
-  <FB_ForcedFleshConversion_Desc>Принести живого пленника или упавшего врага к сердцу колонии. Пальцешипы внедряются в цель: один нужен на каждые 300 рыночной ценности. Невербуемые цели преобразуются в твердошипов.</FB_ForcedFleshConversion_Desc>
+  <FB_ForcedFleshConversion_Desc>Принести живого пленника или упавшего врага к сердцу колонии или лунному нервному узлу. Пальцешипы внедряются в цель: один нужен на каждые 300 рыночной ценности. Невербуемые цели преобразуются в твердошипов.</FB_ForcedFleshConversion_Desc>
   <FB_ForcedFleshConversion_Started>Принятие плоти началось для {0}.</FB_ForcedFleshConversion_Started>
   <FB_ForcedFleshConversion_Success>{0} принята колонией плоти.</FB_ForcedFleshConversion_Success>
   <FB_ForcedFleshConversion_Toughspike>{0} нельзя завербовать, поэтому тело было преобразовано в твердошипа.</FB_ForcedFleshConversion_Toughspike>
@@ -12,10 +12,10 @@
   <FB_ForcedFleshConversion_TargetStatus>Цель должна быть пленником или упавшей враждебной пешкой.</FB_ForcedFleshConversion_TargetStatus>
   <FB_ForcedFleshConversion_AlreadyAccepted>Эта пешка уже связана с колонией плоти.</FB_ForcedFleshConversion_AlreadyAccepted>
   <FB_ForcedFleshConversion_AlreadyInProgress>Эта пешка уже принимается колонией плоти.</FB_ForcedFleshConversion_AlreadyInProgress>
-  <FB_ForcedFleshConversion_NoHeart>Нет доступного сердца колонии.</FB_ForcedFleshConversion_NoHeart>
-  <FB_ForcedFleshConversion_NoAnchor>Рядом с сердцем колонии нет свободного места для цели.</FB_ForcedFleshConversion_NoAnchor>
-  <FB_ForcedFleshConversion_NoCarrier>Нет способного колониста, который может донести эту цель до сердца колонии.</FB_ForcedFleshConversion_NoCarrier>
-  <FB_ForcedFleshConversion_NotEnoughFingerspikes>Для принятия плоти нужно пальцешипов: {0}; к сердцу могут добраться только: {1}.</FB_ForcedFleshConversion_NotEnoughFingerspikes>
+  <FB_ForcedFleshConversion_NoHeart>Нет доступного сердца колонии или лунного нервного узла.</FB_ForcedFleshConversion_NoHeart>
+  <FB_ForcedFleshConversion_NoAnchor>Рядом с сердцем колонии или лунным нервным узлом нет свободного места для цели.</FB_ForcedFleshConversion_NoAnchor>
+  <FB_ForcedFleshConversion_NoCarrier>Нет способного колониста, который может донести эту цель до сердца колонии или лунного нервного узла.</FB_ForcedFleshConversion_NoCarrier>
+  <FB_ForcedFleshConversion_NotEnoughFingerspikes>Для принятия плоти нужно пальцешипов: {0}; до сердца колонии или лунного нервного узла могут добраться только: {1}.</FB_ForcedFleshConversion_NotEnoughFingerspikes>
   <FB_ForcedFleshConversion_CannotStart>Не удалось начать принятие плоти.</FB_ForcedFleshConversion_CannotStart>
   <FB_ForcedFleshConversion_MissingJobDef>Для насильного принятия плоти не настроены задания.</FB_ForcedFleshConversion_MissingJobDef>
 </LanguageData>
