@@ -82,6 +82,22 @@
             <fleshArchitectCategory>FB_FleshArchitect_HemogelExtraction</fleshArchitectCategory>
           </li>
           <li>
+            <embryoDef>FB_HemogelCisternEmbryo</embryoDef>
+            <label>FB_ColonyBrain_Structure_HemogelCistern_Label</label>
+            <texPath>Things/Building/FB_Organic/HemogelCistern/HemogelCistern</texPath>
+            <drawSize>(2,2)</drawSize>
+            <cost>800</cost>
+            <fleshArchitectCategory>FB_FleshArchitect_HemogelExtraction</fleshArchitectCategory>
+          </li>
+          <li>
+            <embryoDef>FB_HemogelReservoirEmbryo</embryoDef>
+            <label>FB_ColonyBrain_Structure_HemogelReservoir_Label</label>
+            <texPath>Things/Building/FB_Organic/HemogelReservoir/HemogelReservoir</texPath>
+            <drawSize>(3,3)</drawSize>
+            <cost>2000</cost>
+            <fleshArchitectCategory>FB_FleshArchitect_HemogelExtraction</fleshArchitectCategory>
+          </li>
+          <li>
             <embryoDef>FB_GastricAcidSpewerEmbryo</embryoDef>
             <label>FB_ColonyBrain_Structure_GastricAcidSpewer_Label</label>
             <texPath>Things/Building/FB_Organic/GastricAcidSpewer/GastricAcidSpewer</texPath>

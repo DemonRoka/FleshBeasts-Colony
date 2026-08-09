@@ -154,6 +154,48 @@
       <drawSize>(1,1)</drawSize>
     </graphicData>
   </ThingDef>
+  <!-- Постройка: Hemogel Cistern Embryo (FB_HemogelCisternEmbryo) -->
+  <ThingDef ParentName="EmbryoStructureBase">
+    <defName>FB_HemogelCisternEmbryo</defName>
+    <label>Hemogel Cistern Embryo</label>
+    <description>An immature reserve organ that will grow into a hemogel cistern.</description>
+    <size>(2,2)</size>
+    <comps>
+      <li Class="FB.CompProperties_EmbryoGrowth">
+        <totalMaturationTicks>7000</totalMaturationTicks>
+        <targetDef>FB_HemogelCistern</targetDef>
+      </li>
+      <li Class="FB.CompProperties_HemogelUpkeep">
+        <hemogelPerHour>0.3</hemogelPerHour>
+      </li>
+    </comps>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/FB_Organic/HemogelCistern/HemogelCisternEmbryo</texPath>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+  </ThingDef>
+  <!-- Постройка: Hemogel Reservoir Embryo (FB_HemogelReservoirEmbryo) -->
+  <ThingDef ParentName="EmbryoStructureBase">
+    <defName>FB_HemogelReservoirEmbryo</defName>
+    <label>Hemogel Reservoir Embryo</label>
+    <description>An immature reserve organ that will grow into a hemogel reservoir.</description>
+    <size>(3,3)</size>
+    <comps>
+      <li Class="FB.CompProperties_EmbryoGrowth">
+        <totalMaturationTicks>10000</totalMaturationTicks>
+        <targetDef>FB_HemogelReservoir</targetDef>
+      </li>
+      <li Class="FB.CompProperties_HemogelUpkeep">
+        <hemogelPerHour>0.3</hemogelPerHour>
+      </li>
+    </comps>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/FB_Organic/HemogelReservoir/HemogelReservoirEmbryo</texPath>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+  </ThingDef>
   <!-- Постройка: Defender Incubator Embryo (FB_DefenderIncubatorEmbryo) -->
   <ThingDef ParentName="EmbryoStructureBase">
     <defName>FB_DefenderIncubatorEmbryo</defName>

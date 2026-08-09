@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <!-- База построек: BuildingColonyFleshBase -->
   <ThingDef Name="BuildingColonyFleshBase" Abstract="True">
@@ -557,6 +557,8 @@
         <li>FB_ColonyStomach</li>
         <li>FB_PhotosyntheticFleshleaf</li>
         <li>FB_HemogelSac</li>
+        <li>FB_HemogelCistern</li>
+        <li>FB_HemogelReservoir</li>
         <li>FB_GraspingTendrils</li>
         <li>FB_PhotosyntheticFleshtree</li>
         <li>FB_HemogelBlister</li>
@@ -981,6 +983,114 @@
     </graphicData>
     <uiIconPath>Things/Building/FB_Organic/HemogelSac/HemogelSac</uiIconPath>
   </ThingDef>
+  <!-- Постройка: Hemogel Cistern (FB_HemogelCistern) -->
+  <ThingDef ParentName="BuildingColonyFleshBaseAnimation">
+  <defName>FB_HemogelCistern</defName>
+  <label>Hemogel Cistern</label>
+  <description>A swollen reserve organ that stores a large hemogel buffer for the colony network and releases it during shortages.</description>
+  <size>(2,2)</size>
+  <statBases>
+    <Beauty>-30</Beauty>
+    <MaxHitPoints>300</MaxHitPoints>
+  </statBases>
+  <killedLeavingsRanges>
+    <Meat_Twisted>80~160</Meat_Twisted>
+  </killedLeavingsRanges>
+  <forceLeavingsAllowed>true</forceLeavingsAllowed>
+  <comps>
+    <li Class="FB.CompProperties_HemogelStorage">
+      <initialHemogelCapacity>0</initialHemogelCapacity>
+      <maxHemogelCapacity>800</maxHemogelCapacity>
+      <networkFillPerHour>400</networkFillPerHour>
+      <preventHemogelDepletionDamage>true</preventHemogelDepletionDamage>
+      <hideNoHemogelInspectWarning>true</hideNoHemogelInspectWarning>
+    </li>
+    <li Class="FB.CompProperties_HemogelUpkeep">
+      <hemogelPerHour>0.4</hemogelPerHour>
+    </li>
+    <li Class="FB.CompProperties_HemogelReserveNode" />
+    <li Class="FB.CompProperties_FleshAnimationManager">
+      <animationAmplitude>0.08</animationAmplitude>
+      <animationSideAmplitude>0.06</animationSideAmplitude>
+      <baseAnimationSpeed>0.45</baseAnimationSpeed>
+      <beatDurationTicks>24</beatDurationTicks>
+      <animatedParts>
+        <li>
+          <texturePath>Things/Building/FB_Organic/HemogelCistern/HemogelCistern</texturePath>
+          <positionOffset>(0, 0, 0)</positionOffset>
+          <textureScale>1</textureScale>
+          <animationAmplitude>0.08</animationAmplitude>
+          <animationSideAmplitude>0.06</animationSideAmplitude>
+          <animationInterval>0</animationInterval>
+          <animationOffset>0.0</animationOffset>
+          <altitudeLayer>0</altitudeLayer>
+          <rotationAngle>0</rotationAngle>
+          <beatDelay>0</beatDelay>
+        </li>
+      </animatedParts>
+    </li>
+  </comps>
+  <graphicData>
+    <graphicClass>Graphic_Single</graphicClass>
+    <texPath>Things/Building/FB_Organic/HemogelCistern/HemogelCistern</texPath>
+    <drawSize>(0.1,0.1)</drawSize>
+  </graphicData>
+  <uiIconPath>Things/Building/FB_Organic/HemogelCistern/HemogelCistern</uiIconPath>
+</ThingDef>
+  <!-- Постройка: Hemogel Reservoir (FB_HemogelReservoir) -->
+  <ThingDef ParentName="BuildingColonyFleshBaseAnimation">
+  <defName>FB_HemogelReservoir</defName>
+  <label>Hemogel Reservoir</label>
+  <description>A massive vascular reservoir that stores deep hemogel reserves for the colony network and gives them back during shortages.</description>
+  <size>(3,3)</size>
+  <statBases>
+    <Beauty>-40</Beauty>
+    <MaxHitPoints>600</MaxHitPoints>
+  </statBases>
+  <killedLeavingsRanges>
+    <Meat_Twisted>180~320</Meat_Twisted>
+  </killedLeavingsRanges>
+  <forceLeavingsAllowed>true</forceLeavingsAllowed>
+  <comps>
+    <li Class="FB.CompProperties_HemogelStorage">
+      <initialHemogelCapacity>0</initialHemogelCapacity>
+      <maxHemogelCapacity>2000</maxHemogelCapacity>
+      <networkFillPerHour>1000</networkFillPerHour>
+      <preventHemogelDepletionDamage>true</preventHemogelDepletionDamage>
+      <hideNoHemogelInspectWarning>true</hideNoHemogelInspectWarning>
+    </li>
+    <li Class="FB.CompProperties_HemogelUpkeep">
+      <hemogelPerHour>1</hemogelPerHour>
+    </li>
+    <li Class="FB.CompProperties_HemogelReserveNode" />
+    <li Class="FB.CompProperties_FleshAnimationManager">
+      <animationAmplitude>0.06</animationAmplitude>
+      <animationSideAmplitude>0.05</animationSideAmplitude>
+      <baseAnimationSpeed>0.4</baseAnimationSpeed>
+      <beatDurationTicks>30</beatDurationTicks>
+      <animatedParts>
+        <li>
+          <texturePath>Things/Building/FB_Organic/HemogelReservoir/HemogelReservoir</texturePath>
+          <positionOffset>(0, 0, 0)</positionOffset>
+          <textureScale>1</textureScale>
+          <animationAmplitude>0.06</animationAmplitude>
+          <animationSideAmplitude>0.05</animationSideAmplitude>
+          <animationInterval>0</animationInterval>
+          <animationOffset>0.0</animationOffset>
+          <altitudeLayer>0</altitudeLayer>
+          <rotationAngle>0</rotationAngle>
+          <beatDelay>0</beatDelay>
+        </li>
+      </animatedParts>
+    </li>
+  </comps>
+  <graphicData>
+    <graphicClass>Graphic_Single</graphicClass>
+    <texPath>Things/Building/FB_Organic/HemogelReservoir/HemogelReservoir</texPath>
+    <drawSize>(0.1,0.1)</drawSize>
+  </graphicData>
+  <uiIconPath>Things/Building/FB_Organic/HemogelReservoir/HemogelReservoir</uiIconPath>
+</ThingDef>
   <!-- Постройка: Photosynthetic Fleshleaf (FB_PhotosyntheticFleshleaf) -->
   <ThingDef ParentName="BuildingColonyFleshBaseAnimation">
   <defName>FB_PhotosyntheticFleshleaf</defName>
