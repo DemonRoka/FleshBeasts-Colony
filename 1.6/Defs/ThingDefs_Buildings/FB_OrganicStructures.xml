@@ -1519,6 +1519,7 @@
     <deconstructible>false</deconstructible>
     <repairable>false</repairable>
     <roamerCanOpen>true</roamerCanOpen>
+    <canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
   </building>
   <comps Inherit="False">
     <li Class="CompProperties_Forbiddable">

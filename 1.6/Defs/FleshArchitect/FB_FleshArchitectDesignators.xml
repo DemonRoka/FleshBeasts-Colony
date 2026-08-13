@@ -259,6 +259,20 @@
     <descriptionKey>FB_FleshMoonBileBombardmentDesc</descriptionKey>
     <hemogelCost>1000</hemogelCost>
     <requiredResearch>FB_BileMortarResearch</requiredResearch>
+    <requiresMoonOverCurrentMap>true</requiresMoonOverCurrentMap>
     <order>10</order>
+  </FB.FleshArchitectDesignatorDef>
+
+  <FB.FleshArchitectDesignatorDef>
+    <defName>FB_FleshArchitect_FleshMoon_AcidRain</defName>
+    <category>FB_FleshArchitect_FleshMoon</category>
+    <className>FB.Designator_FleshMoonAcidRain</className>
+    <iconPath>UI/Designators/FleshMoonGastricAcid</iconPath>
+    <labelKey>FB_FleshMoonAcidRainLabel</labelKey>
+    <descriptionKey>FB_FleshMoonAcidRainDesc</descriptionKey>
+    <hemogelCost>2000</hemogelCost>
+    <requiredResearch>FB_AcidBroodmotherConvergence</requiredResearch>
+    <requiresMoonOverCurrentMap>true</requiresMoonOverCurrentMap>
+    <order>11</order>
   </FB.FleshArchitectDesignatorDef>
 </Defs>

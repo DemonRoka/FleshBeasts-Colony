@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_FleshMoonAcidRain.label>flesh moon acid rain</FB_FleshMoonAcidRain.label>
+  <FB_FleshMoonAcidRain.description>The flesh moon saturates the clouds with caustic bile, rapidly poisoning and burning anything left exposed outside.</FB_FleshMoonAcidRain.description>
+  <FB_FleshMoonAcidRain.letterText>Caustic rain is falling from the flesh moon. Keep pawns, animals, crops, and supplies under roof.</FB_FleshMoonAcidRain.letterText>
+  <FB_FleshMoonAcidRain.endMessage>The acid rain is ending.</FB_FleshMoonAcidRain.endMessage>
+</LanguageData>

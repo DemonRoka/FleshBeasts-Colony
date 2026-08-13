@@ -18,8 +18,12 @@
   <FB_SegmentedBastion_NoSegments>No surviving native segments are available.</FB_SegmentedBastion_NoSegments>
   <FB_SegmentedBastion_ReassemblyStarted>{0} bastion segments begin reassembling.</FB_SegmentedBastion_ReassemblyStarted>
   <FB_SegmentedBastion_ReassemblyComplete>{BEAST_labelShort} has reassembled.</FB_SegmentedBastion_ReassemblyComplete>
-  <FB_SegmentedBastion_RepairLabel>Call fingerspike repair</FB_SegmentedBastion_RepairLabel>
-  <FB_SegmentedBastion_RepairDesc>Order the nearest available fingerspike to embed itself into this bastion, restoring one missing segment or healing the worst surviving segment.</FB_SegmentedBastion_RepairDesc>
+  <FB_SegmentedBastion_RepairLabel>Call fingerspike repairs</FB_SegmentedBastion_RepairLabel>
+  <FB_SegmentedBastion_RepairDesc>Order available fingerspikes to embed themselves into this bastion, restoring missing dead segments and healing damaged ones.</FB_SegmentedBastion_RepairDesc>
+  <FB_SegmentedBastion_AutoRepairState>Auto-repair: {0}</FB_SegmentedBastion_AutoRepairState>
+  <FB_SegmentedBastion_AutoRepairHint>Enabled by default; right-click to toggle. When enabled, the bastion checks every {0} ticks and calls available fingerspikes for missing or dead segments.</FB_SegmentedBastion_AutoRepairHint>
+  <FB_SegmentedBastion_RepairStarted>Fingerspikes assigned to repair: {0}.</FB_SegmentedBastion_RepairStarted>
+  <FB_SegmentedBastion_RepairAlreadyQueued>Repairs for the needed segments are already assigned.</FB_SegmentedBastion_RepairAlreadyQueued>
   <FB_SegmentedBastion_RepairFullyHealthy>All bastion segments are fully healthy.</FB_SegmentedBastion_RepairFullyHealthy>
   <FB_SegmentedBastion_RepairCannotAct>The segmented bastion cannot receive a fingerspike repair right now.</FB_SegmentedBastion_RepairCannotAct>
   <FB_SegmentedBastion_NoRepairFingerspike>No reachable fingerspike is available.</FB_SegmentedBastion_NoRepairFingerspike>

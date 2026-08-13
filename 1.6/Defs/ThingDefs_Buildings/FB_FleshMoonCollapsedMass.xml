@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Постройка: collapsed flesh moon mass (FB_FleshMoonCollapsedMass) -->
+  <ThingDef ParentName="Fleshmass">
+    <defName>FB_FleshMoonCollapsedMass</defName>
+    <label>collapsed flesh moon mass</label>
+    <description>A dense slab of lunar flesh torn loose by a roof collapse. It blocks movement until absorbed, but holds no usable hemogel.</description>
+  </ThingDef>
+</Defs>

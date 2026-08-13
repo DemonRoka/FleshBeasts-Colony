@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<GameConditionDef>
+		<defName>FB_FleshMoonAcidRain</defName>
+		<conditionClass>FB.GameCondition_FleshMoonAcidRain</conditionClass>
+		<label>flesh moon acid rain</label>
+		<description>The flesh moon saturates the clouds with caustic bile, rapidly poisoning and burning anything left exposed outside.</description>
+		<weatherDef>FB_AcidRain</weatherDef>
+		<canBePermanent>true</canBePermanent>
+		<natural>false</natural>
+		<letterText>Caustic rain is falling from the flesh moon. Keep pawns, animals, crops, and supplies under roof.</letterText>
+		<endMessage>The acid rain is ending.</endMessage>
+		<allowUnderground>false</allowUnderground>
+		<pennedAnimalsSeekShelter>true</pennedAnimalsSeekShelter>
+	</GameConditionDef>
+
+</Defs>

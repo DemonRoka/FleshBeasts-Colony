@@ -53,6 +53,8 @@
 
   <FB_FleshMoonWorldObjectMoveLabel>Move flesh moon</FB_FleshMoonWorldObjectMoveLabel>
   <FB_FleshMoonWorldObjectMoveDesc>Choose a surface tile and send the flesh moon drifting toward it. The surface umbilicus must be detached first.</FB_FleshMoonWorldObjectMoveDesc>
+  <FB_FleshMoonWorldObjectStopMoveLabel>Stop flight</FB_FleshMoonWorldObjectStopMoveLabel>
+  <FB_FleshMoonWorldObjectStopMoveDesc>End the current relocation over the nearest valid surface tile beneath the moving flesh moon.</FB_FleshMoonWorldObjectStopMoveDesc>
   <FB_FleshMoonWorldObjectAnchorLabel>Anchor umbilicus</FB_FleshMoonWorldObjectAnchorLabel>
   <FB_FleshMoonWorldObjectAnchorDesc>Load the surface tile below the flesh moon, pause the game, and choose the exact impact site for the celestial umbilicus.</FB_FleshMoonWorldObjectAnchorDesc>
   <FB_FleshMoonWorldObjectDetachLabel>Detach umbilicus</FB_FleshMoonWorldObjectDetachLabel>
@@ -60,6 +62,7 @@
   <FB_FleshMoonWorldObjectInactiveDisabled>The flesh moon is not active.</FB_FleshMoonWorldObjectInactiveDisabled>
   <FB_FleshMoonWorldObjectAbsorbingDisabled>The flesh moon is absorbing the colony.</FB_FleshMoonWorldObjectAbsorbingDisabled>
   <FB_FleshMoonWorldObjectMovingDisabled>The flesh moon is already moving.</FB_FleshMoonWorldObjectMovingDisabled>
+  <FB_FleshMoonWorldObjectNotMovingDisabled>The flesh moon is not moving.</FB_FleshMoonWorldObjectNotMovingDisabled>
   <FB_FleshMoonWorldObjectMoveLinkedDisabled>Detach the surface umbilicus before moving the flesh moon.</FB_FleshMoonWorldObjectMoveLinkedDisabled>
   <FB_FleshMoonWorldObjectAnchorMovingDisabled>The flesh moon must finish moving before it can anchor.</FB_FleshMoonWorldObjectAnchorMovingDisabled>
   <FB_FleshMoonWorldObjectAnchorIncomingDisabled>The celestial umbilicus is already falling toward the chosen site.</FB_FleshMoonWorldObjectAnchorIncomingDisabled>
@@ -76,7 +79,9 @@
   <FB_FleshMoonUmbilicusPlacementThickRoof>The umbilicus cannot pierce thick overhead mountain.</FB_FleshMoonUmbilicusPlacementThickRoof>
   <FB_FleshMoonUmbilicusIncomingStarted>The celestial umbilicus drops from the flesh moon.</FB_FleshMoonUmbilicusIncomingStarted>
   <FB_FleshMoonMoveStarted>Flesh moon relocation started.</FB_FleshMoonMoveStarted>
+  <FB_FleshMoonMoveStopped>Flesh moon relocation stopped over the nearest valid surface tile.</FB_FleshMoonMoveStopped>
   <FB_FleshMoonMoveArrived>Flesh moon relocation complete.</FB_FleshMoonMoveArrived>
+  <FB_FleshMoonStopMoveNoValidTile>No valid surface tile was found beneath the moving flesh moon.</FB_FleshMoonStopMoveNoValidTile>
   <FB_FleshMoonAnchored>Celestial umbilicus anchored.</FB_FleshMoonAnchored>
   <FB_FleshMoonDetached>Celestial umbilicus detached.</FB_FleshMoonDetached>
   <FB_FleshMoonAnchorFailed>Failed to anchor the celestial umbilicus.</FB_FleshMoonAnchorFailed>

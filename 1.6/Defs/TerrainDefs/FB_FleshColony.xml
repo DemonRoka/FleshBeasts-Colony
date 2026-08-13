@@ -53,7 +53,7 @@
       <li>GrowSoil</li>
       <li>Diggable</li>
     </affordances>
-    <fertility>0</fertility>
+    <fertility>0.1</fertility>
     <heatPerTick>0.0001</heatPerTick>
     <canBePolluted>False</canBePolluted>
     <tags>

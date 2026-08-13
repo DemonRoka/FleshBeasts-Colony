@@ -588,7 +588,7 @@
         <returnIconPath>UI/Commands/FleshGroupReturn</returnIconPath>
         <stopIconPath>UI/Commands/FleshGroupStop</stopIconPath>
         <tunnelIconPath>UI/Commands/FleshGroupTunnel</tunnelIconPath>
-        <massZoneIconPath>UI/Commands/FleshbeastMassZone</massZoneIconPath>
+        <massZoneIconPath>UI/Commands/LoadFleshbeasts</massZoneIconPath>
         <digestCrippledIconPath>UI/Commands/FleshGroupDigestCrippled</digestCrippledIconPath>
         <selectIconPath>UI/Commands/SelectHeld</selectIconPath>
       </li>

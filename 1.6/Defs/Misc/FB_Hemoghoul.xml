@@ -20,7 +20,6 @@
     <incapableOfSocialInteractions>true</incapableOfSocialInteractions>
     <disableTitles>true</disableTitles>
     <disableOwnership>true</disableOwnership>
-    <disablesIdeo>true</disablesIdeo>
     <canBeDrafted>true</canBeDrafted>
     <respectsAllowedArea>true</respectsAllowedArea>
     <canTravelInCaravan>false</canTravelInCaravan>

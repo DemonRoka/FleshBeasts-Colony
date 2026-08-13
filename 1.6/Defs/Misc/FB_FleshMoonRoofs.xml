@@ -6,7 +6,7 @@
     <label>flesh moon overhead mass</label>
     <isThickRoof>true</isThickRoof>
     <isNatural>true</isNatural>
-    <collapseLeavingThingDef>Fleshmass</collapseLeavingThingDef>
+    <collapseLeavingThingDef>FB_FleshMoonCollapsedMass</collapseLeavingThingDef>
     <filthLeaving>Filth_Fleshmass</filthLeaving>
   </RoofDef>
 </Defs>

@@ -43,6 +43,7 @@
     <canHaveMap>true</canHaveMap>
     <validLaunchTarget>false</validLaunchTarget>
     <selectable>false</selectable>
+    <texture>World/FleshMoon/FleshMoonSurface</texture>
     <mapGenerator>Encounter</mapGenerator>
   </WorldObjectDef>
 

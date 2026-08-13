@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<WeatherDef>
+		<defName>FB_AcidRain</defName>
+		<label>acid rain</label>
+		<description>Deadly caustic rain from the flesh moon rapidly poisons and burns exposed beings while killing outdoor plants and corroding items.</description>
+		<temperatureRange>0~100</temperatureRange>
+		<windSpeedFactor>1.5</windSpeedFactor>
+		<accuracyMultiplier>0.8</accuracyMultiplier>
+		<favorability>VeryBad</favorability>
+		<perceivePriority>3</perceivePriority>
+		<rainRate>1</rainRate>
+		<moveSpeedMultiplier>0.9</moveSpeedMultiplier>
+		<ambientSounds>
+			<li>Ambient_Rain</li>
+		</ambientSounds>
+		<overlayClasses>
+			<li>FB.WeatherOverlay_FleshMoonAcidRain</li>
+		</overlayClasses>
+		<skyColorsDay>
+			<sky>(0.58,0.72,0.48)</sky>
+			<shadow>(0.82,0.92,0.72)</shadow>
+			<overlay>(0.55,0.8,0.45)</overlay>
+			<saturation>0.85</saturation>
+		</skyColorsDay>
+		<skyColorsDusk>
+			<sky>(0.62,0.74,0.42)</sky>
+			<shadow>(0.86,0.92,0.68)</shadow>
+			<overlay>(0.55,0.72,0.35)</overlay>
+			<saturation>0.85</saturation>
+		</skyColorsDusk>
+		<skyColorsNightEdge>
+			<sky>(0.28,0.38,0.24)</sky>
+			<shadow>(0.68,0.78,0.58)</shadow>
+			<overlay>(0.35,0.55,0.25)</overlay>
+			<saturation>0.8</saturation>
+		</skyColorsNightEdge>
+		<skyColorsNightMid>
+			<sky>(0.22,0.32,0.2)</sky>
+			<shadow>(0.62,0.72,0.52)</shadow>
+			<overlay>(0.3,0.48,0.22)</overlay>
+			<saturation>0.75</saturation>
+		</skyColorsNightMid>
+	</WeatherDef>
+
+</Defs>

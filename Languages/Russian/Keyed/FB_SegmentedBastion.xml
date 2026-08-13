@@ -18,8 +18,12 @@
   <FB_SegmentedBastion_NoSegments>Нет выживших родных сегментов.</FB_SegmentedBastion_NoSegments>
   <FB_SegmentedBastion_ReassemblyStarted>{0} сегментов бастиона начинают сборку.</FB_SegmentedBastion_ReassemblyStarted>
   <FB_SegmentedBastion_ReassemblyComplete>{BEAST_labelShort} собран заново.</FB_SegmentedBastion_ReassemblyComplete>
-  <FB_SegmentedBastion_RepairLabel>Позвать пальцешипа для ремонта</FB_SegmentedBastion_RepairLabel>
-  <FB_SegmentedBastion_RepairDesc>Приказывает ближайшему доступному пальцешипу встроиться в бастион, восстановив отсутствующий сегмент или залечив самый повреждённый.</FB_SegmentedBastion_RepairDesc>
+  <FB_SegmentedBastion_RepairLabel>Позвать пальцешипов для ремонта</FB_SegmentedBastion_RepairLabel>
+  <FB_SegmentedBastion_RepairDesc>Приказывает доступным пальцешипам встроиться в бастион, восстановив отсутствующие мёртвые сегменты и залечив повреждённые.</FB_SegmentedBastion_RepairDesc>
+  <FB_SegmentedBastion_AutoRepairState>Авторемонт: {0}</FB_SegmentedBastion_AutoRepairState>
+  <FB_SegmentedBastion_AutoRepairHint>Включён по умолчанию; ПКМ переключает режим. Когда он включён, бастион раз в {0} тиков призывает доступных пальцешипов к отсутствующим или мёртвым сегментам.</FB_SegmentedBastion_AutoRepairHint>
+  <FB_SegmentedBastion_RepairStarted>Отправлено пальцешипов на ремонт: {0}.</FB_SegmentedBastion_RepairStarted>
+  <FB_SegmentedBastion_RepairAlreadyQueued>Ремонт нужных сегментов уже назначен.</FB_SegmentedBastion_RepairAlreadyQueued>
   <FB_SegmentedBastion_RepairFullyHealthy>Все сегменты бастиона полностью здоровы.</FB_SegmentedBastion_RepairFullyHealthy>
   <FB_SegmentedBastion_RepairCannotAct>Сегментный бастион сейчас не может принять ремонт пальцешипом.</FB_SegmentedBastion_RepairCannotAct>
   <FB_SegmentedBastion_NoRepairFingerspike>Нет доступного достижимого пальцешипа.</FB_SegmentedBastion_NoRepairFingerspike>

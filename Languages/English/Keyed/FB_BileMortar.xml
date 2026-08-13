@@ -48,4 +48,19 @@
   <FB_FleshMoonBileBombardmentNoLink>The flesh moon is not linked.</FB_FleshMoonBileBombardmentNoLink>
   <FB_FleshMoonBileBombardmentInvalidTarget>Invalid bombardment target.</FB_FleshMoonBileBombardmentInvalidTarget>
   <FB_FleshMoonBileBombardmentStarted>The flesh moon begins a bilefall bombardment.</FB_FleshMoonBileBombardmentStarted>
+  <FB_FleshMoonOrbitalAbilityNoMoon>The flesh moon is not available.</FB_FleshMoonOrbitalAbilityNoMoon>
+  <FB_FleshMoonOrbitalAbilityNoSurfaceTile>The flesh moon is not above a surface tile.</FB_FleshMoonOrbitalAbilityNoSurfaceTile>
+  <FB_FleshMoonOrbitalAbilityNoLoadedMap>No loaded map lies beneath the flesh moon.</FB_FleshMoonOrbitalAbilityNoLoadedMap>
+  <FB_FleshMoonOrbitalAbilityWrongMap>The flesh moon is not above this map.</FB_FleshMoonOrbitalAbilityWrongMap>
+  <FB_FleshMoonOrbitalAbilitySurfaceOnly>This can only be called on the surface map beneath the flesh moon.</FB_FleshMoonOrbitalAbilitySurfaceOnly>
+  <FB_FleshMoonAcidRainLabel>Call acid rain</FB_FleshMoonAcidRainLabel>
+  <FB_FleshMoonAcidRainDesc>Select a map point beneath the flesh moon. After two to three hours, deadly caustic rain will rapidly poison and burn exposed pawns while killing outdoor plants and corroding items.</FB_FleshMoonAcidRainDesc>
+  <FB_FleshMoonAcidRainCostLine>Lunar hemogel cost: {0}</FB_FleshMoonAcidRainCostLine>
+  <FB_FleshMoonAcidRainNotEnoughHemogel>The flesh moon reserve lacks {0} hemogel.</FB_FleshMoonAcidRainNotEnoughHemogel>
+  <FB_FleshMoonAcidRainInvalidTarget>Invalid acid rain target.</FB_FleshMoonAcidRainInvalidTarget>
+  <FB_FleshMoonAcidRainAlreadyActive>Acid rain is already falling on this map.</FB_FleshMoonAcidRainAlreadyActive>
+  <FB_FleshMoonAcidRainAlreadyPending>Acid rain has already been called to this map.</FB_FleshMoonAcidRainAlreadyPending>
+  <FB_FleshMoonAcidRainScheduled>The flesh moon gathers caustic clouds. Acid rain will arrive in {0}.</FB_FleshMoonAcidRainScheduled>
+  <FB_FleshMoonAcidRainArrivedLetterLabel>Acid rain</FB_FleshMoonAcidRainArrivedLetterLabel>
+  <FB_FleshMoonAcidRainArrivedLetterText>The flesh moon has saturated the clouds with caustic bile. Acid rain is falling across the map. Roofs protect pawns and supplies; fleshbeasts resist the rain.</FB_FleshMoonAcidRainArrivedLetterText>
 </LanguageData>

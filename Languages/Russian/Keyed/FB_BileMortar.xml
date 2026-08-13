@@ -48,4 +48,19 @@
   <FB_FleshMoonBileBombardmentNoLink>Связь с мясной луной не закреплена.</FB_FleshMoonBileBombardmentNoLink>
   <FB_FleshMoonBileBombardmentInvalidTarget>Недопустимая цель обстрела.</FB_FleshMoonBileBombardmentInvalidTarget>
   <FB_FleshMoonBileBombardmentStarted>Мясная луна начинает желчный обстрел.</FB_FleshMoonBileBombardmentStarted>
+  <FB_FleshMoonOrbitalAbilityNoMoon>Мясная луна недоступна.</FB_FleshMoonOrbitalAbilityNoMoon>
+  <FB_FleshMoonOrbitalAbilityNoSurfaceTile>Мясная луна сейчас не находится над поверхностной клеткой.</FB_FleshMoonOrbitalAbilityNoSurfaceTile>
+  <FB_FleshMoonOrbitalAbilityNoLoadedMap>Под мясной луной нет прогруженной карты.</FB_FleshMoonOrbitalAbilityNoLoadedMap>
+  <FB_FleshMoonOrbitalAbilityWrongMap>Мясная луна сейчас не находится над этой картой.</FB_FleshMoonOrbitalAbilityWrongMap>
+  <FB_FleshMoonOrbitalAbilitySurfaceOnly>Это можно вызвать только на поверхностной карте под мясной луной.</FB_FleshMoonOrbitalAbilitySurfaceOnly>
+  <FB_FleshMoonAcidRainLabel>Вызвать кислотный дождь</FB_FleshMoonAcidRainLabel>
+  <FB_FleshMoonAcidRainDesc>Выберите точку на карте под мясной луной. Через два-три часа смертельно едкий дождь начнёт быстро травить и обжигать неукрытых пешек, убивая растения и разъедая предметы под открытым небом.</FB_FleshMoonAcidRainDesc>
+  <FB_FleshMoonAcidRainCostLine>Стоимость из лунного резерва гемогеля: {0}</FB_FleshMoonAcidRainCostLine>
+  <FB_FleshMoonAcidRainNotEnoughHemogel>В резерве мясной луны не хватает {0} гемогеля.</FB_FleshMoonAcidRainNotEnoughHemogel>
+  <FB_FleshMoonAcidRainInvalidTarget>Недопустимая цель кислотного дождя.</FB_FleshMoonAcidRainInvalidTarget>
+  <FB_FleshMoonAcidRainAlreadyActive>На этой карте уже идёт кислотный дождь.</FB_FleshMoonAcidRainAlreadyActive>
+  <FB_FleshMoonAcidRainAlreadyPending>Кислотный дождь уже вызван на эту карту.</FB_FleshMoonAcidRainAlreadyPending>
+  <FB_FleshMoonAcidRainScheduled>Мясная луна собирает едкие облака. Кислотный дождь начнётся через {0}.</FB_FleshMoonAcidRainScheduled>
+  <FB_FleshMoonAcidRainArrivedLetterLabel>Кислотный дождь</FB_FleshMoonAcidRainArrivedLetterLabel>
+  <FB_FleshMoonAcidRainArrivedLetterText>Мясная луна насытила облака едкой желчью. Кислотный дождь идёт по всей карте. Крыши защищают пешек и припасы; флешбисты устойчивы к дождю.</FB_FleshMoonAcidRainArrivedLetterText>
 </LanguageData>
