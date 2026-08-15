@@ -519,7 +519,7 @@
         <additionalHemogelPerHour>4</additionalHemogelPerHour>
         <gizmoLabel>FB_ColonyBrainNeuralActivity_Label</gizmoLabel>
         <gizmoDesc>FB_ColonyBrainNeuralActivity_Desc</gizmoDesc>
-        <iconPath>UI/Commands/CortexMiteChooseResearch</iconPath>
+        <iconPath>UI/Commands/ColonyBrainNeuralActivity</iconPath>
       </li>
       <li Class="FB.CompProperties_BrainFleshResurrection">
         <requiredResearch>FB_FleshResurrection</requiredResearch>

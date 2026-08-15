@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_RenounceFlesh.description>Remove flesh-aligned genes, organic mutations, and other flesh-linked conditions from the patient. This is costly and invasive.</FB_RenounceFlesh.description>
+  <FB_RenounceFlesh.jobString>Renouncing flesh.</FB_RenounceFlesh.jobString>
+  <FB_RenounceFlesh.label>renounce flesh</FB_RenounceFlesh.label>
+</LanguageData>

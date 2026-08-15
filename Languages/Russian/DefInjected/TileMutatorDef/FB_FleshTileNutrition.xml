@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_FleshTileNutritionStrained.label>истощенная экосистема</FB_FleshTileNutritionStrained.label>
+  <FB_FleshTileNutritionStrained.description>Луна плоти выпила достаточно питательности, чтобы диких растений и животных стало меньше.</FB_FleshTileNutritionStrained.description>
+
+  <FB_FleshTileNutritionBarren.label>скудная экосистема</FB_FleshTileNutritionBarren.label>
+  <FB_FleshTileNutritionBarren.description>Луна плоти оставила эту клетку с редкой дикой жизнью и слабым восстановлением.</FB_FleshTileNutritionBarren.description>
+
+  <FB_FleshTileNutritionDepleted.label>выпитая экосистема</FB_FleshTileNutritionDepleted.label>
+  <FB_FleshTileNutritionDepleted.description>Луна плоти почти исчерпала эту клетку, оставив почти без диких растений и животных.</FB_FleshTileNutritionDepleted.description>
+</LanguageData>

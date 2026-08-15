@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Мутации тайла: истощение питательности поверхности луной плоти -->
+  <TileMutatorDef>
+    <defName>FB_FleshTileNutritionStrained</defName>
+    <label>strained ecosystem</label>
+    <description>The flesh moon has drained enough nutrition here to thin out wild plants and animals.</description>
+    <categories>
+      <li>FleshTileNutrition</li>
+    </categories>
+    <displayPriority>-40</displayPriority>
+    <plantDensityFactor>0.65</plantDensityFactor>
+    <animalDensityFactor>0.7</animalDensityFactor>
+  </TileMutatorDef>
+
+  <TileMutatorDef>
+    <defName>FB_FleshTileNutritionBarren</defName>
+    <label>barren ecosystem</label>
+    <description>The flesh moon has left this tile with little wild life and weak regrowth.</description>
+    <categories>
+      <li>FleshTileNutrition</li>
+    </categories>
+    <displayPriority>-40</displayPriority>
+    <plantDensityFactor>0.22</plantDensityFactor>
+    <animalDensityFactor>0.25</animalDensityFactor>
+  </TileMutatorDef>
+
+  <TileMutatorDef>
+    <defName>FB_FleshTileNutritionDepleted</defName>
+    <label>depleted ecosystem</label>
+    <description>The flesh moon has nearly exhausted this tile, leaving almost no wild plants or animals.</description>
+    <categories>
+      <li>FleshTileNutrition</li>
+    </categories>
+    <displayPriority>-40</displayPriority>
+    <plantDensityFactor>0</plantDensityFactor>
+    <animalDensityFactor>0</animalDensityFactor>
+    <preventGenSteps>
+      <li>Plants</li>
+      <li>Animals</li>
+    </preventGenSteps>
+  </TileMutatorDef>
+
+  <!-- Шаг генерации: FB_GenStep_FleshMoonSurfaceDepletion -->
+  <GenStepDef>
+    <defName>FB_GenStep_FleshMoonSurfaceDepletion</defName>
+    <order>840</order>
+    <genStep Class="FB.GenStep_FleshMoonSurfaceDepletion">
+      <minimumVisualDepletion>0.01</minimumVisualDepletion>
+      <scarCellsPer10k>260</scarCellsPer10k>
+      <maxScarCells>3200</maxScarCells>
+      <maxScarPatchCount>10</maxScarPatchCount>
+      <minScarRadius>5</minScarRadius>
+      <maxScarRadius>18</maxScarRadius>
+    </genStep>
+  </GenStepDef>
+</Defs>

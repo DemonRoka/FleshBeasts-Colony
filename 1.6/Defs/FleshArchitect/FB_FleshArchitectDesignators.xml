@@ -180,7 +180,7 @@
     <defName>FB_FleshArchitect_Local_RelocateBuilding</defName>
     <category>FB_FleshArchitect_ZonesPlans</category>
     <className>FB.Designator_LocalFleshRelocateBuilding</className>
-    <iconPath>UI/Commands/FleshMoonMove</iconPath>
+		<iconPath>UI/Commands/FleshStructureMove</iconPath>
     <labelKey>FB_LocalFleshRelocateBuilding_Label</labelKey>
     <descriptionKey>FB_LocalFleshRelocateBuilding_Desc</descriptionKey>
     <forbiddenRelocationThingDefs>
@@ -233,7 +233,7 @@
     <defName>FB_FleshArchitect_FleshMoon_RelocateBuilding</defName>
     <category>FB_FleshArchitect_FleshMoon</category>
     <className>FB.Designator_FleshMoonRelocateBuilding</className>
-    <iconPath>UI/Commands/FleshMoonMove</iconPath>
+    <iconPath>UI/Commands/FleshStructureMoonMove</iconPath>
     <labelKey>FB_FleshMoonRelocateBuilding_Label</labelKey>
     <descriptionKey>FB_FleshMoonRelocateBuilding_Desc</descriptionKey>
     <forbiddenRelocationThingDefs>
@@ -267,7 +267,7 @@
     <defName>FB_FleshArchitect_FleshMoon_AcidRain</defName>
     <category>FB_FleshArchitect_FleshMoon</category>
     <className>FB.Designator_FleshMoonAcidRain</className>
-    <iconPath>UI/Designators/FleshMoonGastricAcid</iconPath>
+    <iconPath>UI/Commands/FleshMoonAcidRain</iconPath>
     <labelKey>FB_FleshMoonAcidRainLabel</labelKey>
     <descriptionKey>FB_FleshMoonAcidRainDesc</descriptionKey>
     <hemogelCost>2000</hemogelCost>

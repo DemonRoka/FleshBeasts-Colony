@@ -916,6 +916,7 @@
     <li Class="FB.CompProperties_GastricAcidSpewer">
       <acidTerrain>FB_GastricAcid</acidTerrain>
       <terrainOnAbsorb>Flesh</terrainOnAbsorb>
+      <gizmoIconPath>UI/Commands/FB_GastricAcidSpewerSpread</gizmoIconPath>
       <spreadIntervalTicks>45</spreadIntervalTicks>
       <absorbIntervalTicks>30</absorbIntervalTicks>
       <itemDigestIntervalTicks>250</itemDigestIntervalTicks>

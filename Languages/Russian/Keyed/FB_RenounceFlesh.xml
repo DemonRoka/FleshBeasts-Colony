@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_RenounceFlesh_NoFleshToRenounce>Нет даров плоти для отречения.</FB_RenounceFlesh_NoFleshToRenounce>
+  <FB_RenounceFlesh_Confirmation>{PAWN_nameDef} навсегда потеряет все гены FleshBeasts, органические мутации плоти и связанные с плотью хедиффы. Продолжить?</FB_RenounceFlesh_Confirmation>
+  <FB_RenounceFlesh_Complete>{PAWN_nameDef} отрёкся от плоти. Удалено генов: {GENES}; удалено плотяных состояний: {HEDIFFS}.</FB_RenounceFlesh_Complete>
+</LanguageData>

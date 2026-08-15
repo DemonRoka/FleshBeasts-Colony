@@ -6,7 +6,6 @@
     <label>acid broodmother</label>
     <description>A draftable fused fleshbeast that regenerates gastric acid and periodically grows temporary acid-spitting offspring.</description>
     <tradeability>None</tradeability>
-    <uiIconPath>Things/Pawn/FB_AcidBroodmother/AcidBroodmother</uiIconPath>
     <statBases>
       <MoveSpeed>2.65</MoveSpeed>
       <MinimumContainmentStrength>95</MinimumContainmentStrength>

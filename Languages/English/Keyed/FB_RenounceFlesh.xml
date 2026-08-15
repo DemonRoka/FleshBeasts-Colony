@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_RenounceFlesh_NoFleshToRenounce>No flesh gifts to renounce.</FB_RenounceFlesh_NoFleshToRenounce>
+  <FB_RenounceFlesh_Confirmation>{PAWN_nameDef} will permanently lose all FleshBeasts genes, organic flesh mutations, and flesh-linked hediffs. Continue?</FB_RenounceFlesh_Confirmation>
+  <FB_RenounceFlesh_Complete>{PAWN_nameDef} renounced the flesh. Removed genes: {GENES}; removed flesh conditions: {HEDIFFS}.</FB_RenounceFlesh_Complete>
+</LanguageData>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Surgery: renounce flesh (FB_RenounceFlesh) -->
+  <RecipeDef ParentName="SurgeryFlesh">
+    <defName>FB_RenounceFlesh</defName>
+    <label>renounce flesh</label>
+    <description>Remove flesh-aligned genes, organic mutations, and other flesh-linked conditions from the patient. This is costly and invasive.</description>
+    <jobString>Renouncing flesh.</jobString>
+    <workerClass>FB.Recipe_RenounceFlesh</workerClass>
+    <workAmount>9000</workAmount>
+    <workSkill>Medicine</workSkill>
+    <workSkillLearnFactor>0.35</workSkillLearnFactor>
+    <targetsBodyPart>false</targetsBodyPart>
+    <humanlikeOnly>true</humanlikeOnly>
+    <surgerySuccessChanceFactor>0.85</surgerySuccessChanceFactor>
+    <deathOnFailedSurgeryChance>0.08</deathOnFailedSurgeryChance>
+    <skillRequirements>
+      <Medicine>10</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MedicineUltratech</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>MedicineUltratech</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <recipeUsers>
+      <li>Human</li>
+    </recipeUsers>
+    <displayPriority>840</displayPriority>
+  </RecipeDef>
+</Defs>
