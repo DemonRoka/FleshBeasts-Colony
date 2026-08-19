@@ -280,7 +280,7 @@
         <buildIntervalTicks>25</buildIntervalTicks>
         <checkIntervalTicks>900</checkIntervalTicks>
         <hemogelCostFloor>5</hemogelCostFloor>
-        <hemogelCostWall>10</hemogelCostWall>
+        <hemogelCostWall>5</hemogelCostWall>
         <autoBuildLabel>FB_AutoGrowthLabel</autoBuildLabel>
         <autoBuildIconPath>UI/Commands/AutoGrowth</autoBuildIconPath>
       </li>
@@ -723,7 +723,7 @@
       </floorDefs>
       <buildIntervalTicks>100</buildIntervalTicks>
       <hemogelCostFloor>5</hemogelCostFloor>
-      <hemogelCostWall>10</hemogelCostWall>
+      <hemogelCostWall>5</hemogelCostWall>
       <autoBuildLabel>FB_AutoGrowthLabel</autoBuildLabel>
       <autoBuildIconPath>UI/Commands/AutoGrowth</autoBuildIconPath>
     </li>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <!-- Задание: FB_BiomassTransformAtCell -->
   <JobDef>
@@ -91,11 +91,7 @@
     <driverClass>FB.JobDriver_TissueIncubatorLearnSample</driverClass>
     <reportString>delivering a tissue sample to TargetB.</reportString>
   </JobDef>
-  <JobDef>
-    <defName>FB_CarryFleshmassNucleusToHeart</defName>
-    <driverClass>FB.JobDriver_CarryFleshmassNucleusToHeart</driverClass>
-    <reportString>carrying fleshmass nucleus to TargetA.</reportString>
-  </JobDef>
+  
   <JobDef>
     <defName>FB_CarryCarriedPawnToSynapseCore</defName>
     <driverClass>FB.JobDriver_CarryCarriedPawnToSynapseCore</driverClass>

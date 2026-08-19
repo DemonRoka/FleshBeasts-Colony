@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <!-- Источник работы: carry to auto research (CarryToFBAutoResearch) -->
   <WorkGiverDef>
@@ -45,22 +45,6 @@
       <li>Manipulation</li>
       <li>Moving</li>
     </requiredCapacities>
-  </WorkGiverDef>
-
-  <!-- Источник работы: carry fleshmass nucleus to colony heart (FB_CarryFleshmassNucleusToHeart) -->
-  <WorkGiverDef>
-    <defName>FB_CarryFleshmassNucleusToHeart</defName>
-    <label>carry fleshmass nucleus to colony heart</label>
-    <giverClass>FB.WorkGiver_CarryFleshmassNucleusToHeart</giverClass>
-    <workType>BasicWorker</workType>
-    <verb>carry</verb>
-    <gerund>carrying fleshmass nucleus to</gerund>
-    <priorityInType>95</priorityInType>
-    <requiredCapacities>
-      <li>Manipulation</li>
-      <li>Moving</li>
-    </requiredCapacities>
-    <canBeDoneByMechs>false</canBeDoneByMechs>
   </WorkGiverDef>
 
   <!-- Источник работы: make things at Spore-Cradle (FB_DoBillsUseFleshmassSporeCradle) -->
