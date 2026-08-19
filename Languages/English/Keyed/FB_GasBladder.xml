@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_GasBladder_InspectStored>Stored gas: {0} ({1} / {2}).</FB_GasBladder_InspectStored>
+  <FB_GasBladder_InspectEmpty>Stored gas: none.</FB_GasBladder_InspectEmpty>
+  <FB_GasBladder_BarLabel>Gas reserve</FB_GasBladder_BarLabel>
+  <FB_GasBladder_BarValue>{0} / {1}</FB_GasBladder_BarValue>
+  <FB_GasBladder_BarTooltip>Stored gas: {0}. Reserve: {1} / {2}. A full gas cloud adds 5 reserve.</FB_GasBladder_BarTooltip>
+  <FB_GasBladder_BarTooltipEmpty>Absorbs the first nearby gas type it finds. A full gas cloud adds 5 reserve.</FB_GasBladder_BarTooltipEmpty>
+  <FB_GasVent_InspectSelected>Selected gas: {0} ({1} stored).</FB_GasVent_InspectSelected>
+  <FB_GasVent_InspectNoSelection>Selected gas: none.</FB_GasVent_InspectNoSelection>
+  <FB_GasVent_InspectReleasing>Gas release: on.</FB_GasVent_InspectReleasing>
+  <FB_GasVent_InspectIdle>Gas release: off.</FB_GasVent_InspectIdle>
+  <FB_GasVent_ChooseGasLabel>Choose gas</FB_GasVent_ChooseGasLabel>
+  <FB_GasVent_ChooseGasDesc>Select which stored gas type this outlet should release. Current selection: {0}.</FB_GasVent_ChooseGasDesc>
+  <FB_GasVent_ReleaseGasToggleLabel>Release gas</FB_GasVent_ReleaseGasToggleLabel>
+  <FB_GasVent_ReleaseGasToggleDesc>Toggle gradual release of {0}. Available: {1}. Consumption: {2} reserve every {3} ticks.</FB_GasVent_ReleaseGasToggleDesc>
+  <FB_GasVent_GasOption>{0}: {1} stored</FB_GasVent_GasOption>
+  <FB_GasVent_NoStoredGas>No stored gas.</FB_GasVent_NoStoredGas>
+  <FB_GasVent_NoSelectedGas>No gas type selected.</FB_GasVent_NoSelectedGas>
+  <FB_GasVent_NoSelectedGasShort>none</FB_GasVent_NoSelectedGasShort>
+  <FB_GasVent_SelectedGasEmpty>No {0} is stored.</FB_GasVent_SelectedGasEmpty>
+  <FB_GasVent_SelectedGasUnavailable>{0} is unavailable.</FB_GasVent_SelectedGasUnavailable>
+  <FB_ColonyBrain_Structure_GasBladder_Label>gas bladder</FB_ColonyBrain_Structure_GasBladder_Label>
+  <FB_ColonyBrain_Structure_GasBladder_Desc>Absorbs one nearby gas type into a fragile reserve bubble that bursts when damaged.</FB_ColonyBrain_Structure_GasBladder_Desc>
+  <FB_ColonyBrain_Structure_GasVent_Label>gas vent</FB_ColonyBrain_Structure_GasVent_Label>
+  <FB_ColonyBrain_Structure_GasVent_Desc>Releases gas stored across colony gas bladders from this cell.</FB_ColonyBrain_Structure_GasVent_Desc>
+</LanguageData>

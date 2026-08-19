@@ -9,5 +9,8 @@
     <visibleByDefault>True</visibleByDefault>
     <minMonolithLevelVisible>1</minMonolithLevelVisible>
     <tutorTag>Research-Tab-Fleshbeast</tutorTag>
+    <modExtensions>
+      <li Class="FB.FB_FleshResearchOnlyExtension" />
+    </modExtensions>
   </ResearchTabDef>
 </Defs>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <!-- Мутации тайла: истощение питательности поверхности луной плоти -->
+  <!-- Мутации тайла: иссушение дикой экосистемы гемогелевой добычей -->
   <TileMutatorDef>
     <defName>FB_FleshTileNutritionStrained</defName>
     <label>strained ecosystem</label>
-    <description>The flesh moon has drained enough nutrition here to thin out wild plants and animals.</description>
+    <description>Hemogel extraction has thinned the wild plants and animal presence on this tile.</description>
     <categories>
       <li>FleshTileNutrition</li>
     </categories>
@@ -16,7 +16,7 @@
   <TileMutatorDef>
     <defName>FB_FleshTileNutritionBarren</defName>
     <label>barren ecosystem</label>
-    <description>The flesh moon has left this tile with little wild life and weak regrowth.</description>
+    <description>Hemogel extraction has left this tile with sparse wild plants and few animals.</description>
     <categories>
       <li>FleshTileNutrition</li>
     </categories>
@@ -28,7 +28,7 @@
   <TileMutatorDef>
     <defName>FB_FleshTileNutritionDepleted</defName>
     <label>depleted ecosystem</label>
-    <description>The flesh moon has nearly exhausted this tile, leaving almost no wild plants or animals.</description>
+    <description>Hemogel extraction has nearly stripped this tile of wild plants and animal presence.</description>
     <categories>
       <li>FleshTileNutrition</li>
     </categories>
@@ -47,11 +47,7 @@
     <order>840</order>
     <genStep Class="FB.GenStep_FleshMoonSurfaceDepletion">
       <minimumVisualDepletion>0.01</minimumVisualDepletion>
-      <scarCellsPer10k>260</scarCellsPer10k>
-      <maxScarCells>3200</maxScarCells>
-      <maxScarPatchCount>10</maxScarPatchCount>
-      <minScarRadius>5</minScarRadius>
-      <maxScarRadius>18</maxScarRadius>
+      <maxWildPlantRemovalChance>0.95</maxWildPlantRemovalChance>
     </genStep>
   </GenStepDef>
 </Defs>

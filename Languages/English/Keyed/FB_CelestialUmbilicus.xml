@@ -70,6 +70,7 @@
   <FB_FleshMoonWorldObjectNoLinkedUmbilicus>The flesh moon has no active surface umbilicus.</FB_FleshMoonWorldObjectNoLinkedUmbilicus>
   <FB_FleshMoonWorldObjectNoSurfaceTile>The flesh moon has no surface tile below it.</FB_FleshMoonWorldObjectNoSurfaceTile>
   <FB_FleshMoonWorldObjectMoveTargetLabel>Move flesh moon here</FB_FleshMoonWorldObjectMoveTargetLabel>
+  <FB_FleshMoonWorldObjectMoveTargetTimed>Move flesh moon here: {0}</FB_FleshMoonWorldObjectMoveTargetTimed>
   <FB_FleshMoonWorldObjectInvalidTarget>Choose a valid surface tile.</FB_FleshMoonWorldObjectInvalidTarget>
   <FB_FleshMoonWorldObjectTargetImpassable>The flesh moon cannot anchor above impassable world terrain.</FB_FleshMoonWorldObjectTargetImpassable>
   <FB_FleshMoonUmbilicusPlacementStarted>Choose the celestial umbilicus impact site on the loaded map. Right-click or Esc cancels placement.</FB_FleshMoonUmbilicusPlacementStarted>
@@ -87,7 +88,9 @@
   <FB_FleshMoonAnchorFailed>Failed to anchor the celestial umbilicus.</FB_FleshMoonAnchorFailed>
   <FB_FleshMoonSettlementAnchorLetterLabel>Settlement pierced</FB_FleshMoonSettlementAnchorLetterLabel>
   <FB_FleshMoonSettlementAnchorLetterText>The celestial umbilicus has pierced {0}, opening a surface portal inside the settlement. This is an attack; expect immediate resistance.</FB_FleshMoonSettlementAnchorLetterText>
-  <FB_FleshMoonInspectMoving>Flesh moon moving: {0}%.</FB_FleshMoonInspectMoving>
+  <FB_FleshMoonInspectMoving>Flesh moon moving: {0}%; {1} remaining.</FB_FleshMoonInspectMoving>
+  <FB_FleshMoonMoveTimeDaysHours>{0} d {1} h</FB_FleshMoonMoveTimeDaysHours>
+  <FB_FleshMoonMoveTimeHours>{0} h</FB_FleshMoonMoveTimeHours>
   <FB_FleshMoonInspectAnchoring>The celestial umbilicus is falling toward the surface.</FB_FleshMoonInspectAnchoring>
   <FB_FleshMoonInspectUnanchored>The flesh moon is unanchored.</FB_FleshMoonInspectUnanchored>
   <FB_FleshMoonSurfaceAnchorInspectLinked>Anchored to the flesh moon.</FB_FleshMoonSurfaceAnchorInspectLinked>

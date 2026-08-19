@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_FleshBaitPod.label>flesh bait pod</FB_FleshBaitPod.label>
+  <FB_FleshBaitPod.description>A small rooted pod that grows a tempting flesh-sprout. Hungry wild animals may treat the sprout as food; when they begin feeding, the pod borrows a free colony-heart grasping slot and tightens root tendrils around the prey.</FB_FleshBaitPod.description>
+  <FB_FleshBaitSprout.label>flesh bait sprout</FB_FleshBaitSprout.label>
+  <FB_FleshBaitSprout.description>A short-lived lure sprout grown inside a flesh bait pod. Its tissue mimics green matter and fresh meat well enough to draw hungry wild animals.</FB_FleshBaitSprout.description>
+</LanguageData>

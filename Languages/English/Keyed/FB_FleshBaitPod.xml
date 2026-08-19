@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_ColonyBrain_Structure_FleshBaitPod_Label>Flesh Bait Pod</FB_ColonyBrain_Structure_FleshBaitPod_Label>
+  <FB_ColonyBrain_Structure_FleshBaitPod_Desc>Grows a lure sprout that hungry wild animals can eat. If a wild animal begins feeding and a colony heart has a free grasping slot, the pod binds the prey with root tendrils.</FB_ColonyBrain_Structure_FleshBaitPod_Desc>
+  <FB_FleshBaitPod_GrowthInspect>Bait sprout growth: {0}</FB_FleshBaitPod_GrowthInspect>
+  <FB_FleshBaitPod_RegrowingInspect>Regrowing bait sprout.</FB_FleshBaitPod_RegrowingInspect>
+  <FB_FleshBaitPod_HoldingInspect>Holding: {0}</FB_FleshBaitPod_HoldingInspect>
+  <FB_FleshBaitPod_ReleasePrey>Release prey</FB_FleshBaitPod_ReleasePrey>
+  <FB_FleshBaitPod_ReleasePreyDesc>Release the held prey and free the colony heart's grasping slot.</FB_FleshBaitPod_ReleasePreyDesc>
+</LanguageData>

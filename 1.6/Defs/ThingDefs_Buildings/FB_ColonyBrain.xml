@@ -117,6 +117,15 @@
             <fleshArchitectCategory>FB_FleshArchitect_HemogelExtraction</fleshArchitectCategory>
           </li>
           <li>
+            <embryoDef>FB_FleshBaitPod</embryoDef>
+            <label>FB_ColonyBrain_Structure_FleshBaitPod_Label</label>
+            <description>FB_ColonyBrain_Structure_FleshBaitPod_Desc</description>
+            <texPath>Things/Building/FB_Organic/FleshBaitPod/FleshBaitPod</texPath>
+            <drawSize>(1,1)</drawSize>
+            <cost>120</cost>
+            <fleshArchitectCategory>FB_FleshArchitect_HemogelExtraction</fleshArchitectCategory>
+          </li>
+          <li>
             <embryoDef>FB_Thermoregulator</embryoDef>
             <label>FB_ColonyBrain_Structure_Thermoregulator_Label</label>
             <texPath>Things/Building/FB_Organic/Thermoregulator/Thermoregulator</texPath>
@@ -358,6 +367,24 @@
             <texPath>Things/Building/FB_Organic/MucousDecontaminator/MucousDecontaminator</texPath>
             <drawSize>(1,1)</drawSize>
             <cost>450</cost>
+            <fleshArchitectCategory>FB_FleshArchitect_Auxiliary</fleshArchitectCategory>
+          </li>
+          <li>
+            <embryoDef>FB_GasBladder</embryoDef>
+            <label>FB_ColonyBrain_Structure_GasBladder_Label</label>
+            <description>FB_ColonyBrain_Structure_GasBladder_Desc</description>
+            <texPath>Things/Building/FB_Organic/GasBladder/GasBladder</texPath>
+            <drawSize>(1,1)</drawSize>
+            <cost>100</cost>
+            <fleshArchitectCategory>FB_FleshArchitect_Auxiliary</fleshArchitectCategory>
+          </li>
+          <li>
+            <embryoDef>FB_GasVent</embryoDef>
+            <label>FB_ColonyBrain_Structure_GasVent_Label</label>
+            <description>FB_ColonyBrain_Structure_GasVent_Desc</description>
+            <texPath>Things/Building/FB_Organic/GasVent/GasVent</texPath>
+            <drawSize>(1,1)</drawSize>
+            <cost>150</cost>
             <fleshArchitectCategory>FB_FleshArchitect_Auxiliary</fleshArchitectCategory>
           </li>
           <li>

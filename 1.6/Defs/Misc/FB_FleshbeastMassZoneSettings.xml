@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<FB.FleshbeastMassZoneSettingsDef>
 		<defName>FB_FleshbeastMassZoneSettings</defName>
@@ -8,6 +8,7 @@
 		<threatCheckIntervalTicks>250</threatCheckIntervalTicks>
 		<threatReleaseRadius>5</threatReleaseRadius>
 		<loadGizmoIconPath>UI/Commands/LoadFleshbeasts</loadGizmoIconPath>
+		<unloadAllGizmoIconPath>UI/Commands/FleshbeastMassZoneUnloadAll</unloadAllGizmoIconPath>
 		<defaultAllowedPawnKinds>
 			<li>Fingerspike</li>
 			<li>Toughspike</li>

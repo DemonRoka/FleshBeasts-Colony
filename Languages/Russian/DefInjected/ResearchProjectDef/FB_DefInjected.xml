@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+
 <LanguageData>
   <DefenderIncubatorResearch.description>Открывает инкубатор защитников - выводковый орган, который периодически выпускает недолговечных флешбистов по приказу или при приближении врагов.</DefenderIncubatorResearch.description>
   <DefenderIncubatorResearch.generalRules.rulesStrings.0>subject-&gt;инкубация защитников из плоти</DefenderIncubatorResearch.generalRules.rulesStrings.0>
@@ -48,9 +48,9 @@
   <FB_GalvanicCysts.generalRules.rulesStrings.2>subject_story-&gt;превратил гемогель в биоэлектрический заряд</FB_GalvanicCysts.generalRules.rulesStrings.2>
   <FB_GalvanicCysts.generalRules.rulesStrings.3>subject_gerund-&gt;выращивание гальванических кист</FB_GalvanicCysts.generalRules.rulesStrings.3>
   <FB_GalvanicCysts.label>гальванические кисты</FB_GalvanicCysts.label>
-  <FB_TissueIncubation.description>Открывает инкубатор плоти — живую камеру, запоминающую доставленные образцы мяса и кожи и выращивающую такие же материалы из гемогеля.</FB_TissueIncubation.description>
+  <FB_TissueIncubation.description>Открывает инкубатор плоти — живую камеру, запоминающую доставленные образцы мяса, кожи и органической ткани и выращивающую такие же материалы из гемогеля.</FB_TissueIncubation.description>
   <FB_TissueIncubation.generalRules.rulesStrings.0>subject-&gt;инкубация тканей</FB_TissueIncubation.generalRules.rulesStrings.0>
-  <FB_TissueIncubation.generalRules.rulesStrings.1>subject_story-&gt;запомнил образцы мяса и кожи в живой ткани</FB_TissueIncubation.generalRules.rulesStrings.1>
+  <FB_TissueIncubation.generalRules.rulesStrings.1>subject_story-&gt;запомнил образцы мяса, кожи и органической ткани в живой ткани</FB_TissueIncubation.generalRules.rulesStrings.1>
   <FB_TissueIncubation.generalRules.rulesStrings.2>subject_story-&gt;вырастил сохранённые материалы из гемогеля</FB_TissueIncubation.generalRules.rulesStrings.2>
   <FB_TissueIncubation.generalRules.rulesStrings.3>subject_gerund-&gt;инкубация образцов тканей</FB_TissueIncubation.generalRules.rulesStrings.3>
   <FB_TissueIncubation.label>инкубация тканей</FB_TissueIncubation.label>

@@ -41,6 +41,51 @@
       </wildTerrainTags>
     </plant>
   </ThingDef>
+  <!-- Растение: flesh bait sprout (FB_FleshBaitSprout) -->
+  <ThingDef ParentName="PlantBase">
+    <defName>FB_FleshBaitSprout</defName>
+    <label>flesh bait sprout</label>
+    <description>A short-lived lure sprout grown inside a flesh bait pod. Its tissue mimics green matter and fresh meat well enough to draw hungry wild animals.</description>
+    <selectable>false</selectable>
+    <statBases>
+      <MaxHitPoints>35</MaxHitPoints>
+      <Flammability>1.4</Flammability>
+      <Nutrition>0.70</Nutrition>
+    </statBases>
+    <comps>
+      <li Class="FB.CompProperties_Forbiddable_NoForbid" />
+    </comps>
+    <graphicData>
+      <texPath>Things/Plant/FleshBaitSprout</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(0.65,0.65)</drawSize>
+    </graphicData>
+    <altitudeLayer>Item</altitudeLayer>
+    <hideAtSnowOrSandDepth>0.5</hideAtSnowOrSandDepth>
+    <ingestible>
+      <foodType>Plant, Meat, AnimalProduct</foodType>
+      <preferability>DesperateOnlyForHumanlikes</preferability>
+      <baseIngestTicks>500</baseIngestTicks>
+    </ingestible>
+    <plant>
+      <pollution>Any</pollution>
+      <fertilityMin>0</fertilityMin>
+      <fertilitySensitivity>0</fertilitySensitivity>
+      <growDays>0.45</growDays>
+      <maxMeshCount>4</maxMeshCount>
+      <visualSizeRange>0.75~1.05</visualSizeRange>
+      <topWindExposure>0.05</topWindExposure>
+      <wildOrder>0</wildOrder>
+      <maxGrowthTemperature>75</maxGrowthTemperature>
+      <growMinGlow>0</growMinGlow>
+      <growOptimalGlow>0</growOptimalGlow>
+      <cavePlant>true</cavePlant>
+      <purpose>Misc</purpose>
+      <dieFromToxicFallout>false</dieFromToxicFallout>
+      <neverBlightable>true</neverBlightable>
+      <allowAutoCut>false</allowAutoCut>
+    </plant>
+  </ThingDef>
   <!-- Растение: fat flesh protuberances (FB_FleshFatProtuberances) -->
   <ThingDef ParentName="PlantBase">
     <defName>FB_FleshFatProtuberances</defName>

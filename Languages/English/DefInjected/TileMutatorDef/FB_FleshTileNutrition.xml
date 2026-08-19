@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_FleshTileNutritionStrained.label>strained ecosystem</FB_FleshTileNutritionStrained.label>
-  <FB_FleshTileNutritionStrained.description>The flesh moon has drained enough nutrition here to thin out wild plants and animals.</FB_FleshTileNutritionStrained.description>
+  <FB_FleshTileNutritionStrained.description>Hemogel extraction has thinned the wild plants and animal presence on this tile.</FB_FleshTileNutritionStrained.description>
 
   <FB_FleshTileNutritionBarren.label>barren ecosystem</FB_FleshTileNutritionBarren.label>
-  <FB_FleshTileNutritionBarren.description>The flesh moon has left this tile with little wild life and weak regrowth.</FB_FleshTileNutritionBarren.description>
+  <FB_FleshTileNutritionBarren.description>Hemogel extraction has left this tile with sparse wild plants and few animals.</FB_FleshTileNutritionBarren.description>
 
   <FB_FleshTileNutritionDepleted.label>depleted ecosystem</FB_FleshTileNutritionDepleted.label>
-  <FB_FleshTileNutritionDepleted.description>The flesh moon has nearly exhausted this tile, leaving almost no wild plants or animals.</FB_FleshTileNutritionDepleted.description>
+  <FB_FleshTileNutritionDepleted.description>Hemogel extraction has nearly stripped this tile of wild plants and animal presence.</FB_FleshTileNutritionDepleted.description>
 </LanguageData>

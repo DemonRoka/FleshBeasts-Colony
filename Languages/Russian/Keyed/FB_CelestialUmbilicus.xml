@@ -70,6 +70,7 @@
   <FB_FleshMoonWorldObjectNoLinkedUmbilicus>У луны плоти нет активной наземной пуповины.</FB_FleshMoonWorldObjectNoLinkedUmbilicus>
   <FB_FleshMoonWorldObjectNoSurfaceTile>Под луной плоти нет точки поверхности.</FB_FleshMoonWorldObjectNoSurfaceTile>
   <FB_FleshMoonWorldObjectMoveTargetLabel>Переместить луну плоти сюда</FB_FleshMoonWorldObjectMoveTargetLabel>
+  <FB_FleshMoonWorldObjectMoveTargetTimed>Переместить луну плоти сюда: {0}</FB_FleshMoonWorldObjectMoveTargetTimed>
   <FB_FleshMoonWorldObjectInvalidTarget>Выберите допустимую клетку поверхности.</FB_FleshMoonWorldObjectInvalidTarget>
   <FB_FleshMoonWorldObjectTargetImpassable>Луна плоти не может закрепиться над непроходимой клеткой мира.</FB_FleshMoonWorldObjectTargetImpassable>
   <FB_FleshMoonUmbilicusPlacementStarted>Выберите место падения небесной пуповины на загруженной карте. ПКМ или Esc отменяет выбор.</FB_FleshMoonUmbilicusPlacementStarted>
@@ -87,7 +88,9 @@
   <FB_FleshMoonAnchorFailed>Не удалось закрепить небесную пуповину.</FB_FleshMoonAnchorFailed>
   <FB_FleshMoonSettlementAnchorLetterLabel>Поселение пронзено</FB_FleshMoonSettlementAnchorLetterLabel>
   <FB_FleshMoonSettlementAnchorLetterText>Небесная пуповина пробила {0}, открыв наземный портал внутри поселения. Это нападение; ожидайте сопротивления.</FB_FleshMoonSettlementAnchorLetterText>
-  <FB_FleshMoonInspectMoving>Луна плоти перемещается: {0}%.</FB_FleshMoonInspectMoving>
+  <FB_FleshMoonInspectMoving>Луна плоти перемещается: {0}%; осталось {1}.</FB_FleshMoonInspectMoving>
+  <FB_FleshMoonMoveTimeDaysHours>{0} д. {1} ч.</FB_FleshMoonMoveTimeDaysHours>
+  <FB_FleshMoonMoveTimeHours>{0} ч.</FB_FleshMoonMoveTimeHours>
   <FB_FleshMoonInspectAnchoring>Небесная пуповина падает к поверхности.</FB_FleshMoonInspectAnchoring>
   <FB_FleshMoonInspectUnanchored>Луна плоти не закреплена.</FB_FleshMoonInspectUnanchored>
   <FB_FleshMoonSurfaceAnchorInspectLinked>Соединено с луной плоти.</FB_FleshMoonSurfaceAnchorInspectLinked>

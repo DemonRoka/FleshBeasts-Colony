@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="FB_FleshDoor"]/comps</xpath>
+    <value>
+      <li Class="FB.CompProperties_MarkSelfForAbsorption">
+        <requirePlayerFaction>true</requirePlayerFaction>
+      </li>
+    </value>
+  </Operation>
+</Patch>

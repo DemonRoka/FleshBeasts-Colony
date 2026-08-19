@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_ColonyBrain_Structure_FleshBaitPod_Label>Приманочный под плоти</FB_ColonyBrain_Structure_FleshBaitPod_Label>
+  <FB_ColonyBrain_Structure_FleshBaitPod_Desc>Выращивает росток-приманку, который голодные дикие животные могут принять за еду. Если дикое животное начинает есть росток, а у сердца колонии есть свободный слот захвата, под связывает добычу корневыми щупальцами.</FB_ColonyBrain_Structure_FleshBaitPod_Desc>
+  <FB_FleshBaitPod_GrowthInspect>Рост приманочного ростка: {0}</FB_FleshBaitPod_GrowthInspect>
+  <FB_FleshBaitPod_RegrowingInspect>Отращивает приманочный росток.</FB_FleshBaitPod_RegrowingInspect>
+  <FB_FleshBaitPod_HoldingInspect>Удерживает: {0}</FB_FleshBaitPod_HoldingInspect>
+  <FB_FleshBaitPod_ReleasePrey>Отпустить добычу</FB_FleshBaitPod_ReleasePrey>
+  <FB_FleshBaitPod_ReleasePreyDesc>Отпустить удерживаемую добычу и освободить слот хватательных щупалец сердца колонии.</FB_FleshBaitPod_ReleasePreyDesc>
+</LanguageData>

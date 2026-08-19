@@ -377,7 +377,7 @@
   <ResearchProjectDef>
     <defName>FB_TissueIncubation</defName>
     <label>tissue incubation</label>
-    <description>Unlock the Tissue Incubator, a living chamber that memorizes delivered meat and leather samples and grows matching materials from hemogel.</description>
+    <description>Unlock the Tissue Incubator, a living chamber that memorizes delivered meat, leather, and organic fabric samples and grows matching materials from hemogel.</description>
     <tab>FB_Fleshbeast</tab>
     <techLevel>Industrial</techLevel>
     <prerequisites>
@@ -389,7 +389,7 @@
     <generalRules>
       <rulesStrings>
         <li>subject-&gt;tissue incubation</li>
-        <li>subject_story-&gt;memorized meat and leather samples in living tissue</li>
+        <li>subject_story-&gt;memorized meat, leather, and organic fabric samples in living tissue</li>
         <li>subject_story-&gt;grew stored materials from hemogel</li>
         <li>subject_gerund-&gt;incubating tissue samples</li>
       </rulesStrings>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Building: flesh bait pod (FB_FleshBaitPod) -->
+  <ThingDef ParentName="BuildingColonyFleshBase">
+    <defName>FB_FleshBaitPod</defName>
+    <label>flesh bait pod</label>
+    <description>A small rooted pod that grows a tempting flesh-sprout. Hungry wild animals may treat the sprout as food; when they begin feeding, the pod borrows a free colony-heart grasping slot and tightens root tendrils around the prey.</description>
+    <thingClass>FB.Building_FleshBaitPod</thingClass>
+    <size>(1,1)</size>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <tickerType>Normal</tickerType>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>14</pathCost>
+    <fillPercent>0.20</fillPercent>
+    <blockWind>false</blockWind>
+    <fertility>1.4</fertility>
+    <statBases>
+      <MaxHitPoints>130</MaxHitPoints>
+      <Mass>5</Mass>
+      <Flammability>0.9</Flammability>
+      <Beauty>-8</Beauty>
+      <Cleanliness>-3</Cleanliness>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Building/FB_Organic/FleshBaitPod/FleshBaitPod</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(0.85,0.85)</drawSize>
+      <damageData>
+        <rect>(0.18,0.18,0.64,0.64)</rect>
+        <scratches>
+          <li>Damage/FleshScratch1</li>
+          <li>Damage/FleshScratch2</li>
+          <li>Damage/FleshScratch3</li>
+        </scratches>
+      </damageData>
+    </graphicData>
+    <uiIconPath>Things/Building/FB_Organic/FleshBaitPod/FleshBaitPod</uiIconPath>
+    <building>
+      <defaultPlantToGrow>FB_FleshBaitSprout</defaultPlantToGrow>
+      <sowTag>FB_FleshBaitPod</sowTag>
+      <expandHomeArea>false</expandHomeArea>
+      <isInert>true</isInert>
+      <isTargetable>true</isTargetable>
+      <isEdifice>true</isEdifice>
+      <claimable>false</claimable>
+      <deconstructible>false</deconstructible>
+      <repairable>false</repairable>
+      <paintable>false</paintable>
+      <ai_chillDestination>false</ai_chillDestination>
+      <destroyEffecter>FleshmassDestroyed</destroyEffecter>
+      <ai_combatDangerous>true</ai_combatDangerous>
+    </building>
+    <killedLeavingsRanges>
+      <Meat_Twisted>15~30</Meat_Twisted>
+    </killedLeavingsRanges>
+    <forceLeavingsAllowed>true</forceLeavingsAllowed>
+    <comps>
+      <li Class="FB.CompProperties_CaptureRootDrawer">
+        <moteDefSmall>Mote_HarbingerTreeRoots</moteDefSmall>
+        <moteDefLarge>Mote_FleshRootsSide</moteDefLarge>
+        <updateEveryTicks>100</updateEveryTicks>
+        <hemogelPerHourWhileHolding>8</hemogelPerHourWhileHolding>
+        <tentacleDamageEveryTicks>500</tentacleDamageEveryTicks>
+        <tentacleHitChance>0.7</tentacleHitChance>
+        <tentacleDamageMin>4</tentacleDamageMin>
+        <tentacleDamageMax>8</tentacleDamageMax>
+        <killAndVanishOnEject>false</killAndVanishOnEject>
+        <releaseCommandIconPath>UI/Commands/ReleaseGraspingTendrils</releaseCommandIconPath>
+      </li>
+      <li Class="FB.CompProperties_HemogelUpkeep">
+        <hemogelPerHour>0.2</hemogelPerHour>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

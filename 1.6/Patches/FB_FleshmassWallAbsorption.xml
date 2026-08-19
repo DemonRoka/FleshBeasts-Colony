@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence" MayRequire="Ludeon.RimWorld.Anomaly">
+    <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Fleshmass"]/comps</xpath>
+        <value>
+          <li Class="FB.CompProperties_MarkSelfForAbsorption">
+            <requirePlayerFaction>true</requirePlayerFaction>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="FB_RootFleshmass"]/comps</xpath>
+        <value>
+          <li Class="FB.CompProperties_MarkSelfForAbsorption">
+            <requirePlayerFaction>true</requirePlayerFaction>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="FB_ReinforcedFleshmassWall"]/comps</xpath>
+        <value>
+          <li Class="FB.CompProperties_MarkSelfForAbsorption">
+            <requirePlayerFaction>true</requirePlayerFaction>
+          </li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

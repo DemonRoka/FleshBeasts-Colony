@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_GasBladder_InspectStored>Запасённый газ: {0} ({1} / {2}).</FB_GasBladder_InspectStored>
+  <FB_GasBladder_InspectEmpty>Запасённый газ: нет.</FB_GasBladder_InspectEmpty>
+  <FB_GasBladder_BarLabel>Запас газа</FB_GasBladder_BarLabel>
+  <FB_GasBladder_BarValue>{0} / {1}</FB_GasBladder_BarValue>
+  <FB_GasBladder_BarTooltip>Запасённый газ: {0}. Запас: {1} / {2}. Полное облако газа даёт 5 запаса.</FB_GasBladder_BarTooltip>
+  <FB_GasBladder_BarTooltipEmpty>Поглощает первый найденный поблизости тип газа. Полное облако газа даёт 5 запаса.</FB_GasBladder_BarTooltipEmpty>
+  <FB_GasVent_InspectSelected>Выбранный газ: {0} (запасено {1}).</FB_GasVent_InspectSelected>
+  <FB_GasVent_InspectNoSelection>Выбранный газ: нет.</FB_GasVent_InspectNoSelection>
+  <FB_GasVent_InspectReleasing>Выпуск газа: включён.</FB_GasVent_InspectReleasing>
+  <FB_GasVent_InspectIdle>Выпуск газа: выключен.</FB_GasVent_InspectIdle>
+  <FB_GasVent_ChooseGasLabel>Выбрать газ</FB_GasVent_ChooseGasLabel>
+  <FB_GasVent_ChooseGasDesc>Выбрать, какой запасённый тип газа этот выпускатель будет выбрасывать. Сейчас выбрано: {0}.</FB_GasVent_ChooseGasDesc>
+  <FB_GasVent_ReleaseGasToggleLabel>Выпускать газ</FB_GasVent_ReleaseGasToggleLabel>
+  <FB_GasVent_ReleaseGasToggleDesc>Переключить постепенный выпуск газа {0}. Доступно: {1}. Расход: {2} ед. запаса каждые {3} тиков.</FB_GasVent_ReleaseGasToggleDesc>
+  <FB_GasVent_GasOption>{0}: запасено {1}</FB_GasVent_GasOption>
+  <FB_GasVent_NoStoredGas>Нет запасённого газа.</FB_GasVent_NoStoredGas>
+  <FB_GasVent_NoSelectedGas>Тип газа не выбран.</FB_GasVent_NoSelectedGas>
+  <FB_GasVent_NoSelectedGasShort>нет</FB_GasVent_NoSelectedGasShort>
+  <FB_GasVent_SelectedGasEmpty>Газ {0} не запасён.</FB_GasVent_SelectedGasEmpty>
+  <FB_GasVent_SelectedGasUnavailable>{0} недоступен.</FB_GasVent_SelectedGasUnavailable>
+  <FB_ColonyBrain_Structure_GasBladder_Label>газовый пузырь</FB_ColonyBrain_Structure_GasBladder_Label>
+  <FB_ColonyBrain_Structure_GasBladder_Desc>Поглощает один тип газа рядом с собой в хрупкий запасной пузырь, который лопается от урона.</FB_ColonyBrain_Structure_GasBladder_Desc>
+  <FB_ColonyBrain_Structure_GasVent_Label>газовый выпускатель</FB_ColonyBrain_Structure_GasVent_Label>
+  <FB_ColonyBrain_Structure_GasVent_Desc>Выпускает из своей клетки газ, накопленный в газовых пузырях колонии.</FB_ColonyBrain_Structure_GasVent_Desc>
+</LanguageData>

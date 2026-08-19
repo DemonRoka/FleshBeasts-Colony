@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_GasBladder.label>gas bladder</FB_GasBladder.label>
+  <FB_GasBladder.description>A fragile fleshy bladder that absorbs one nearby gas type and bursts the stored cloud back out when struck.</FB_GasBladder.description>
+  <FB_GasVent.label>gas vent</FB_GasVent.label>
+  <FB_GasVent.description>A small fleshy outlet that releases gas previously stored in colony gas bladders.</FB_GasVent.description>
+</LanguageData>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_GasBladder.label>газовый пузырь</FB_GasBladder.label>
+  <FB_GasBladder.description>Хрупкий плотяной пузырь, который поглощает один тип газа рядом с собой и выбрасывает запасённое облако при ударе.</FB_GasBladder.description>
+  <FB_GasVent.label>газовый выпускатель</FB_GasVent.label>
+  <FB_GasVent.description>Малый плотяной выход, выпускающий газ, ранее запасённый в газовых пузырях колонии.</FB_GasVent.description>
+</LanguageData>

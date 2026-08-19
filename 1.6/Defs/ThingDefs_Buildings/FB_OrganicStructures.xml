@@ -250,6 +250,7 @@
       <li Class="FB.CompProperties_FleshMoonNerveNode">
         <idleHemogelPerHour>50</idleHemogelPerHour>
         <movingHemogelPerHour>100</movingHemogelPerHour>
+        <tileDrainIconPath>UI/Commands/FleshMoonSurfaceNutritionDrain</tileDrainIconPath>
       </li>
       <li Class="FB.CompProperties_FleshmassSpawner">
         <spawnIntervalTicks>125</spawnIntervalTicks>
@@ -1259,7 +1260,7 @@
   <ThingDef ParentName="BuildingColonyFleshBaseAnimation">
     <defName>FB_TissueIncubator</defName>
     <label>Tissue incubator</label>
-    <description>A living incubator that memorizes meat, leather, or whole corpses, then grows matching materials from hemogel.</description>
+    <description>A living incubator that memorizes meat, leather, organic fabric, or whole corpses, then grows matching materials from hemogel.</description>
     <thingClass>FB.Building_TissueIncubator</thingClass>
     <size>(2,2)</size>
     <multipleInteractionCellOffsets>
@@ -1286,6 +1287,7 @@
         <ticksPerCycle>60000</ticksPerCycle>
         <meatOutputCount>25</meatOutputCount>
         <leatherOutputCount>15</leatherOutputCount>
+        <fabricOutputCount>15</fabricOutputCount>
       </li>
     </modExtensions>
     <comps>
@@ -2029,6 +2031,112 @@
       <li>FB.PlaceWorker_FleshPollutionPump</li>
     </placeWorkers>
     <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+  </ThingDef>
+  <!-- Постройка: gas bladder (FB_GasBladder) -->
+  <ThingDef ParentName="BuildingColonyFleshBase">
+    <defName>FB_GasBladder</defName>
+    <label>gas bladder</label>
+    <description>A fragile fleshy bladder that absorbs one nearby gas type and bursts the stored cloud back out when struck.</description>
+    <thingClass>FB.Building_GasBladder</thingClass>
+    <tickerType>Normal</tickerType>
+    <size>(1,1)</size>
+    <altitudeLayer>Building</altitudeLayer>
+    <fillPercent>0.15</fillPercent>
+    <pathCost>0</pathCost>
+    <specialDisplayRadius>2</specialDisplayRadius>
+    <statBases>
+      <MaxHitPoints>15</MaxHitPoints>
+      <Mass>4</Mass>
+      <Flammability>0.8</Flammability>
+      <Beauty>-6</Beauty>
+      <Cleanliness>-1</Cleanliness>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Building/FB_Organic/GasBladder/GasBladder</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+      <damageData>
+        <rect>(0.18,0.18,0.64,0.64)</rect>
+        <scratches>
+          <li>Damage/FleshScratch1</li>
+          <li>Damage/FleshScratch2</li>
+          <li>Damage/FleshScratch3</li>
+        </scratches>
+      </damageData>
+    </graphicData>
+    <uiIconPath>Things/Building/FB_Organic/GasBladder/GasBladder</uiIconPath>
+    <building>
+      <isInert>true</isInert>
+      <ai_chillDestination>false</ai_chillDestination>
+      <paintable>false</paintable>
+    </building>
+    <comps Inherit="False">
+      <li Class="FB.CompProperties_OrganoidCopyCommands" />
+      <li Class="FB.CompProperties_MarkSelfForAbsorption" />
+      <li Class="FB.CompProperties_HemogelUpkeep">
+        <hemogelPerHour>0.1</hemogelPerHour>
+      </li>
+    </comps>
+    <modExtensions>
+      <li Class="FB.GasBladderExtension">
+        <absorptionRadius>2</absorptionRadius>
+        <scanIntervalTicks>200</scanIntervalTicks>
+        <maxGasReserve>100</maxGasReserve>
+        <reservePerFullGasCell>5</reservePerFullGasCell>
+      </li>
+    </modExtensions>
+  </ThingDef>
+  <!-- Постройка: gas vent (FB_GasVent) -->
+  <ThingDef ParentName="BuildingColonyFleshBase">
+    <defName>FB_GasVent</defName>
+    <label>gas vent</label>
+    <description>A small fleshy outlet that releases gas previously stored in colony gas bladders.</description>
+    <thingClass>FB.Building_GasVent</thingClass>
+    <size>(1,1)</size>
+    <altitudeLayer>Building</altitudeLayer>
+    <fillPercent>0.15</fillPercent>
+    <pathCost>0</pathCost>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <Mass>6</Mass>
+      <Flammability>0.6</Flammability>
+      <Beauty>-6</Beauty>
+      <Cleanliness>-1</Cleanliness>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Building/FB_Organic/GasVent/GasVent</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+      <damageData>
+        <rect>(0.18,0.18,0.64,0.64)</rect>
+        <scratches>
+          <li>Damage/FleshScratch1</li>
+          <li>Damage/FleshScratch2</li>
+          <li>Damage/FleshScratch3</li>
+        </scratches>
+      </damageData>
+    </graphicData>
+    <uiIconPath>Things/Building/FB_Organic/GasVent/GasVent</uiIconPath>
+    <building>
+      <isInert>true</isInert>
+      <ai_chillDestination>false</ai_chillDestination>
+      <paintable>false</paintable>
+    </building>
+    <comps Inherit="False">
+      <li Class="FB.CompProperties_OrganoidCopyCommands" />
+      <li Class="FB.CompProperties_MarkSelfForAbsorption" />
+      <li Class="FB.CompProperties_HemogelUpkeep">
+        <hemogelPerHour>0.1</hemogelPerHour>
+      </li>
+    </comps>
+    <modExtensions>
+      <li Class="FB.GasVentExtension">
+        <releaseReservePerPulse>5</releaseReservePerPulse>
+        <releaseIntervalTicks>100</releaseIntervalTicks>
+        <chooseGasIconPath>UI/Commands/FB_GasVentChooseGas</chooseGasIconPath>
+        <releaseGasIconPath>UI/Commands/FB_GasVentReleaseGas</releaseGasIconPath>
+      </li>
+    </modExtensions>
   </ThingDef>
   <ThingDef ParentName="BuildingColonyFleshBase">
     <defName>FB_HemogelBlister</defName>

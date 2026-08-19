@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+
 <LanguageData>
   <DefenderIncubatorResearch.description>Unlock the Defender Incubator, a brood organ that periodically releases short-lived fleshbeast defenders when commanded or when hostiles approach.</DefenderIncubatorResearch.description>
   <DefenderIncubatorResearch.generalRules.rulesStrings.0>subject-&gt;flesh defender incubation</DefenderIncubatorResearch.generalRules.rulesStrings.0>
@@ -48,9 +48,9 @@
   <FB_GalvanicCysts.generalRules.rulesStrings.2>subject_story-&gt;turned hemogel into bioelectric charge</FB_GalvanicCysts.generalRules.rulesStrings.2>
   <FB_GalvanicCysts.generalRules.rulesStrings.3>subject_gerund-&gt;growing galvanic cysts</FB_GalvanicCysts.generalRules.rulesStrings.3>
   <FB_GalvanicCysts.label>galvanic cysts</FB_GalvanicCysts.label>
-  <FB_TissueIncubation.description>Unlock the Tissue Incubator, a living chamber that memorizes delivered meat and leather samples and grows matching materials from hemogel.</FB_TissueIncubation.description>
+  <FB_TissueIncubation.description>Unlock the Tissue Incubator, a living chamber that memorizes delivered meat, leather, and organic fabric samples and grows matching materials from hemogel.</FB_TissueIncubation.description>
   <FB_TissueIncubation.generalRules.rulesStrings.0>subject-&gt;tissue incubation</FB_TissueIncubation.generalRules.rulesStrings.0>
-  <FB_TissueIncubation.generalRules.rulesStrings.1>subject_story-&gt;memorized meat and leather samples in living tissue</FB_TissueIncubation.generalRules.rulesStrings.1>
+  <FB_TissueIncubation.generalRules.rulesStrings.1>subject_story-&gt;memorized meat, leather, and organic fabric samples in living tissue</FB_TissueIncubation.generalRules.rulesStrings.1>
   <FB_TissueIncubation.generalRules.rulesStrings.2>subject_story-&gt;grew stored materials from hemogel</FB_TissueIncubation.generalRules.rulesStrings.2>
   <FB_TissueIncubation.generalRules.rulesStrings.3>subject_gerund-&gt;incubating tissue samples</FB_TissueIncubation.generalRules.rulesStrings.3>
   <FB_TissueIncubation.label>tissue incubation</FB_TissueIncubation.label>
