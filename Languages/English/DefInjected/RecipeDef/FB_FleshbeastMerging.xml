@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+  <FB_DreadmeldShedFingerspike.label>shed fingerspike</FB_DreadmeldShedFingerspike.label>
+  <FB_DreadmeldShedFingerspike.description>The dreadmeld tears a fingerspike from its own mass, paying with a deep wound instead of hemogel.</FB_DreadmeldShedFingerspike.description>
+  <FB_DreadmeldShedTrispike.label>shed trispike</FB_DreadmeldShedTrispike.label>
+  <FB_DreadmeldShedTrispike.description>The dreadmeld tears a trispike from its own mass, paying with a deep wound instead of hemogel.</FB_DreadmeldShedTrispike.description>
+  <FB_DreadmeldShedToughspike.label>shed toughspike</FB_DreadmeldShedToughspike.label>
+  <FB_DreadmeldShedToughspike.description>The dreadmeld tears a toughspike from its own mass, paying with a deep wound instead of hemogel.</FB_DreadmeldShedToughspike.description>
   <FB_GrowFingerspikeFromHemogel.label>grow fingerspike from hemogel</FB_GrowFingerspikeFromHemogel.label>
   <FB_GrowFingerspikeFromHemogel.description>Grows a fingerspike from the colony's shared hemogel reserve.</FB_GrowFingerspikeFromHemogel.description>
   <FB_GrowTrispikeFromHemogel.label>grow trispike from hemogel</FB_GrowTrispikeFromHemogel.label>

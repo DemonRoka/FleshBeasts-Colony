@@ -21,6 +21,64 @@
     <workAmount>1</workAmount>
     <targetCountAdjustment>1</targetCountAdjustment>
   </RecipeDef>
+
+  <RecipeDef ParentName="FB_FleshbeastHemogelGrowthRecipeBase">
+    <defName>FB_DreadmeldShedFingerspike</defName>
+    <label>shed fingerspike</label>
+    <description>The dreadmeld tears a fingerspike from its own mass, paying with a deep wound instead of hemogel.</description>
+    <modExtensions>
+      <li Class="FB.FleshbeastMergeRecipeExtension">
+        <outputKind>Fingerspike</outputKind>
+        <selfDamageCost>45</selfDamageCost>
+        <selfDamageDef>Cut</selfDamageDef>
+        <minHealthPercentAfterSelfDamage>0.35</minHealthPercentAfterSelfDamage>
+        <spawnFromBillGiverAsFlyer>true</spawnFromBillGiverAsFlyer>
+        <selfDamageSpawnJumpDistance>5</selfDamageSpawnJumpDistance>
+        <hemogelGrowthTicks>120</hemogelGrowthTicks>
+        <hemogelGrowthEffectIntervalTicks>60</hemogelGrowthEffectIntervalTicks>
+        <mergeEffect>MeatExplosionLarge</mergeEffect>
+      </li>
+    </modExtensions>
+  </RecipeDef>
+
+  <RecipeDef ParentName="FB_FleshbeastHemogelGrowthRecipeBase">
+    <defName>FB_DreadmeldShedTrispike</defName>
+    <label>shed trispike</label>
+    <description>The dreadmeld tears a trispike from its own mass, paying with a deep wound instead of hemogel.</description>
+    <modExtensions>
+      <li Class="FB.FleshbeastMergeRecipeExtension">
+        <outputKind>Trispike</outputKind>
+        <selfDamageCost>120</selfDamageCost>
+        <selfDamageDef>Cut</selfDamageDef>
+        <minHealthPercentAfterSelfDamage>0.35</minHealthPercentAfterSelfDamage>
+        <spawnFromBillGiverAsFlyer>true</spawnFromBillGiverAsFlyer>
+        <selfDamageSpawnJumpDistance>5</selfDamageSpawnJumpDistance>
+        <hemogelGrowthTicks>300</hemogelGrowthTicks>
+        <hemogelGrowthEffectIntervalTicks>90</hemogelGrowthEffectIntervalTicks>
+        <mergeEffect>MeatExplosionLarge</mergeEffect>
+      </li>
+    </modExtensions>
+  </RecipeDef>
+
+  <RecipeDef ParentName="FB_FleshbeastHemogelGrowthRecipeBase">
+    <defName>FB_DreadmeldShedToughspike</defName>
+    <label>shed toughspike</label>
+    <description>The dreadmeld tears a toughspike from its own mass, paying with a deep wound instead of hemogel.</description>
+    <modExtensions>
+      <li Class="FB.FleshbeastMergeRecipeExtension">
+        <outputKind>Toughspike</outputKind>
+        <selfDamageCost>170</selfDamageCost>
+        <selfDamageDef>Cut</selfDamageDef>
+        <minHealthPercentAfterSelfDamage>0.35</minHealthPercentAfterSelfDamage>
+        <spawnFromBillGiverAsFlyer>true</spawnFromBillGiverAsFlyer>
+        <selfDamageSpawnJumpDistance>5</selfDamageSpawnJumpDistance>
+        <hemogelGrowthTicks>450</hemogelGrowthTicks>
+        <hemogelGrowthEffectIntervalTicks>120</hemogelGrowthEffectIntervalTicks>
+        <mergeEffect>MeatExplosionLarge</mergeEffect>
+      </li>
+    </modExtensions>
+  </RecipeDef>
+
   <RecipeDef ParentName="FB_FleshbeastHemogelGrowthRecipeBase">
     <defName>FB_GrowFingerspikeFromHemogel</defName>
     <label>grow fingerspike from hemogel</label>

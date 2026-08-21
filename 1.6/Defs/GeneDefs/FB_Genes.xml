@@ -134,7 +134,7 @@
     <defName>FB_FleshMarshal</defName>
     <label>flesh marshal</label>
     <labelShortAdj>flesh-marshaled</labelShortAdj>
-    <description>The carrier can broadcast a combat impulse that envelops nearby friendly fleshbeasts in nerveclot resonance, dulling pain, accelerating movement, and rapidly knitting injuries.</description>
+    <description>The carrier can broadcast a combat impulse that envelops nearby friendly fleshbeasts in nerveclot resonance, accelerating movement, reducing incoming damage, and rapidly knitting injuries.</description>
     <iconPath>UI/Icons/Genes/Gene_FleshMarshal</iconPath>
     <geneClass>FB.Gene_FleshMarshal</geneClass>
     <abilities>

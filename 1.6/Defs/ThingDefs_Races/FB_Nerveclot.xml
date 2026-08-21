@@ -4,7 +4,7 @@
   <ThingDef ParentName="BaseFleshbeast">
     <defName>FB_Nerveclot</defName>
     <label>nerveclot</label>
-    <description>A walking knot of eyes, nerves and whispering mouths grown to serve as a mobile neural hub. Nerveclots flood nearby fleshbeasts with frantic impulse, accelerating their bodies, muting pain and urging their flesh to knit shut. When a nerveclot dies, its entire swollen network discharges in a final stunning pulse.</description>
+    <description>A walking knot of eyes, nerves and whispering mouths grown to serve as a mobile neural hub. Nerveclots flood nearby allied pawns with frantic impulse, accelerating movement, hardening bodies against harm and urging wounds to knit shut. When a nerveclot dies, its entire swollen network discharges in a final stunning pulse.</description>
     <tradeability>None</tradeability>
     <uiIconPath>Things/Pawn/FB_Nerveclot/Nerveclot_south</uiIconPath>
     <statBases>

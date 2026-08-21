@@ -4,17 +4,19 @@
   <HediffDef>
     <defName>FB_NerveclotResonance</defName>
     <label>nerveclot resonance</label>
-    <description>This creature is wrapped in nerveclot resonance. Its pain response dulls, its flesh knits faster, and its muscles move with frantic speed.</description>
+    <description>This pawn is wrapped in nerveclot resonance, accelerating movement, reducing incoming damage, and knitting injuries faster.</description>
     <hediffClass>HediffWithComps</hediffClass>
     <isBad>false</isBad>
     <scenarioCanAdd>false</scenarioCanAdd>
     <stages>
       <li>
-        <painFactor>0.55</painFactor>
         <statOffsets>
           <MoveSpeed>0.9</MoveSpeed>
           <InjuryHealingFactor>4</InjuryHealingFactor>
         </statOffsets>
+        <statFactors>
+          <IncomingDamageFactor>0.75</IncomingDamageFactor>
+        </statFactors>
       </li>
     </stages>
     <comps>

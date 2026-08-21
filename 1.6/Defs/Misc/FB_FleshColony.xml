@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <!-- Обозначение: FleshmassWallPlan -->
   <DesignationDef>
@@ -32,6 +32,13 @@
     <defName>FleshmassFloorRemovePlan</defName>
     <texturePath>UI/Plan/FleshmassRemovePlan</texturePath>
     <targetType>Cell</targetType>
+  </DesignationDef>
+
+  <!-- Chromophage gene extraction marker -->
+  <DesignationDef>
+    <defName>FB_ChromophageExtractGeneTarget</defName>
+    <texturePath>UI/Plan/ChromophageGeneExtractionPlan</texturePath>
+    <targetType>Thing</targetType>
   </DesignationDef>
 
   <!-- Group attack target marker -->

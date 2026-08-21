@@ -34,12 +34,14 @@
   <FB_GeneReweaverQueuedOperations>Генов в очереди: {0}</FB_GeneReweaverQueuedOperations>
   <FB_ChromophageStoredGenesInspect>Сохранённые генопаки: {0} / {1}</FB_ChromophageStoredGenesInspect>
   <FB_ChromophageExtractGenesLabel>Извлечь гены из тела</FB_ChromophageExtractGenesLabel>
-  <FB_ChromophageExtractGenesDesc>Извлечь один или два гена из гуманоидного трупа, сохранить их внутри хромофага генопаком и поглотить останки.</FB_ChromophageExtractGenesDesc>
+  <FB_ChromophageExtractGenesDesc>Отметить свежие или подгнившие гуманоидные трупы для последовательного извлечения генов. Нажмите на одно тело или протяните рамку по нескольким; каждый обработанный труп станет скелетом и сохранит один или два гена внутри хромофага как генопак.</FB_ChromophageExtractGenesDesc>
   <FB_ChromophageUnloadGenesLabel>Выгрузить гены</FB_ChromophageUnloadGenesLabel>
   <FB_ChromophageUnloadGenesDesc>Выгрузить сохранённые генопаки в выбранный геномный архив.</FB_ChromophageUnloadGenesDesc>
   <FB_ChromophageInvalidCaster>Только хромофаг может выполнять эту работу с генами.</FB_ChromophageInvalidCaster>
   <FB_ChromophageStorageFull>У хромофага нет свободного внутреннего хранилища генов.</FB_ChromophageStorageFull>
   <FB_ChromophageInvalidCorpse>Выберите органический гуманоидный труп.</FB_ChromophageInvalidCorpse>
+  <FB_ChromophageCorpseAlreadyMarked>Этот труп уже отмечен для извлечения генов хромофагом.</FB_ChromophageCorpseAlreadyMarked>
+  <FB_ChromophageCorpseTooDegraded>Гены можно извлекать только из свежих или подгнивших трупов.</FB_ChromophageCorpseTooDegraded>
   <FB_ChromophageCorpseExhausted>Из этого трупа уже извлечены полезные генетические следы.</FB_ChromophageCorpseExhausted>
   <FB_ChromophageNoCorpseGenes>В этом трупе не осталось пригодных генетических следов.</FB_ChromophageNoCorpseGenes>
   <FB_ChromophageCannotReachCorpse>Хромофаг не может добраться до этого трупа.</FB_ChromophageCannotReachCorpse>

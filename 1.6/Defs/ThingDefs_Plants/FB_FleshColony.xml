@@ -80,6 +80,7 @@
       <growMinGlow>0</growMinGlow>
       <growOptimalGlow>0</growOptimalGlow>
       <cavePlant>true</cavePlant>
+      <cavePlantWeight>0</cavePlantWeight>
       <purpose>Misc</purpose>
       <dieFromToxicFallout>false</dieFromToxicFallout>
       <neverBlightable>true</neverBlightable>

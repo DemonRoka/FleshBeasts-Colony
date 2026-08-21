@@ -38,6 +38,9 @@
       </lifeStageAges>
       <canBePredatorPrey>false</canBePredatorPrey>
     </race>
+    <inspectorTabs>
+      <li>FB.ITab_FleshbeastBills</li>
+    </inspectorTabs>
     <tools>
       <li>
         <label>left spike</label>
@@ -85,10 +88,14 @@
         <jumpDist>5</jumpDist>
         <useFlyerJump>true</useFlyerJump>
         <maxPawnsPerWave>8</maxPawnsPerWave>
-        <manualShedDamageDef>Cut</manualShedDamageDef>
-        <manualShedDamageFactor>1</manualShedDamageFactor>
-        <manualShedCooldownTicks>60</manualShedCooldownTicks>
-        <manualShedIconPath>UI/Abilities/FB_DreadmeldShed</manualShedIconPath>
+      </li>
+      <li Class="FB.CompProperties_FleshbeastBillExecutor">
+        <checkIntervalTicks>120</checkIntervalTicks>
+        <recipes>
+          <li>FB_DreadmeldShedFingerspike</li>
+          <li>FB_DreadmeldShedTrispike</li>
+          <li>FB_DreadmeldShedToughspike</li>
+        </recipes>
       </li>
     </comps>
   </ThingDef>

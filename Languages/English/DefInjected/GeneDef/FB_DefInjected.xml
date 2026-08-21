@@ -34,7 +34,7 @@
   <FB_MeatBloom.description>The carrier continuously cultivates twisted meat inside their own tissues, shedding small batches onto the ground several times per day. The growth process increases hunger as the new flesh feeds from the body.</FB_MeatBloom.description>
   <FB_MeatBloom.label>meat bloom</FB_MeatBloom.label>
   <FB_MeatBloom.labelShortAdj>meat-blooming</FB_MeatBloom.labelShortAdj>
-  <FB_FleshMarshal.description>The carrier can broadcast a combat impulse that envelops nearby friendly fleshbeasts in nerveclot resonance, dulling pain, accelerating movement, and rapidly knitting injuries.</FB_FleshMarshal.description>
+  <FB_FleshMarshal.description>The carrier can broadcast a combat impulse that envelops nearby friendly fleshbeasts in nerveclot resonance, accelerating movement, reducing incoming damage, and rapidly knitting injuries.</FB_FleshMarshal.description>
   <FB_FleshMarshal.label>flesh marshal</FB_FleshMarshal.label>
   <FB_FleshMarshal.labelShortAdj>flesh-marshaled</FB_FleshMarshal.labelShortAdj>
   <FB_BloodTendril.label>blood tendril</FB_BloodTendril.label>

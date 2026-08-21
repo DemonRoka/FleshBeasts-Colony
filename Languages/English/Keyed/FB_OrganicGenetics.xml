@@ -34,12 +34,14 @@
   <FB_GeneReweaverQueuedOperations>Queued genes: {0}</FB_GeneReweaverQueuedOperations>
   <FB_ChromophageStoredGenesInspect>Stored genepacks: {0} / {1}</FB_ChromophageStoredGenesInspect>
   <FB_ChromophageExtractGenesLabel>Extract genes from body</FB_ChromophageExtractGenesLabel>
-  <FB_ChromophageExtractGenesDesc>Extract one or two genes from a humanlike corpse, store them inside the chromophage as a genepack, and consume the remains.</FB_ChromophageExtractGenesDesc>
+  <FB_ChromophageExtractGenesDesc>Mark fresh or rotting humanlike corpses for sequential gene extraction. Click one body or drag over many; each processed corpse becomes a skeleton and stores one or two genes inside the chromophage as a genepack.</FB_ChromophageExtractGenesDesc>
   <FB_ChromophageUnloadGenesLabel>Unload genes</FB_ChromophageUnloadGenesLabel>
   <FB_ChromophageUnloadGenesDesc>Unload stored genepacks into a selected genome archive.</FB_ChromophageUnloadGenesDesc>
   <FB_ChromophageInvalidCaster>Only a chromophage can perform this gene work.</FB_ChromophageInvalidCaster>
   <FB_ChromophageStorageFull>The chromophage has no free internal gene storage.</FB_ChromophageStorageFull>
   <FB_ChromophageInvalidCorpse>Choose a humanlike organic corpse.</FB_ChromophageInvalidCorpse>
+  <FB_ChromophageCorpseAlreadyMarked>This corpse is already marked for chromophage gene extraction.</FB_ChromophageCorpseAlreadyMarked>
+  <FB_ChromophageCorpseTooDegraded>Only fresh or rotting corpses can yield genes.</FB_ChromophageCorpseTooDegraded>
   <FB_ChromophageCorpseExhausted>This corpse has already been stripped of useful genetic traces.</FB_ChromophageCorpseExhausted>
   <FB_ChromophageNoCorpseGenes>No usable gene traces remain in this corpse.</FB_ChromophageNoCorpseGenes>
   <FB_ChromophageCannotReachCorpse>The chromophage cannot reach that corpse.</FB_ChromophageCannotReachCorpse>

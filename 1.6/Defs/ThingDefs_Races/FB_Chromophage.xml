@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <ThingDef ParentName="BaseFleshbeast">
     <defName>FB_Chromophage</defName>
@@ -45,7 +45,7 @@
       <li Class="FB.CompProperties_FleshbeastDraftable" />
       <li Class="FB.CompProperties_BulbfreakHostStorage" />
       <li Class="FB.CompProperties_ChromophageGenepackContainer">
-        <maxCapacity>8</maxCapacity>
+        <maxCapacity>20</maxCapacity>
       </li>
       <li Class="CompProperties_Power">
         <compClass>FB.CompSilentGeneArchivePower</compClass>
@@ -53,7 +53,7 @@
         <showPowerNeededIfOff>false</showPowerNeededIfOff>
       </li>
       <li Class="FB.CompProperties_ChromophageGeneHarvester">
-        <capacity>8</capacity>
+        <capacity>20</capacity>
         <extractWorkTicks>420</extractWorkTicks>
         <unloadWorkTicks>240</unloadWorkTicks>
       </li>

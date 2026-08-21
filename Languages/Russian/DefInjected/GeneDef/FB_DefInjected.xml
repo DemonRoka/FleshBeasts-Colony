@@ -34,7 +34,7 @@
   <FB_MeatBloom.description>Тело носителя непрерывно выращивает искажённое мясо внутри собственных тканей, несколько раз в день сбрасывая небольшие партии на землю. Рост новой плоти усиливает голод, питаясь телом носителя.</FB_MeatBloom.description>
   <FB_MeatBloom.label>мясное цветение</FB_MeatBloom.label>
   <FB_MeatBloom.labelShortAdj>мясоцветущий</FB_MeatBloom.labelShortAdj>
-  <FB_FleshMarshal.description>Носитель может передать боевой нервный импульс, окутывающий ближайших дружественных флешбистов резонансом нервосгустка. Эффект притупляет боль, ускоряет движение и быстро затягивает раны.</FB_FleshMarshal.description>
+  <FB_FleshMarshal.description>Носитель может передать боевой нервный импульс, окутывающий ближайших дружественных флешбистов резонансом нервосгустка. Эффект ускоряет движение, снижает входящий урон и быстро затягивает раны.</FB_FleshMarshal.description>
   <FB_FleshMarshal.label>маршал плоти</FB_FleshMarshal.label>
   <FB_FleshMarshal.labelShortAdj>маршал плоти</FB_FleshMarshal.labelShortAdj>
   <FB_BloodTendril.label>кровавое щупальце</FB_BloodTendril.label>

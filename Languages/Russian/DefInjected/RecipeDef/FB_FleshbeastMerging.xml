@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+  <FB_DreadmeldShedFingerspike.label>отделить пальцешипа</FB_DreadmeldShedFingerspike.label>
+  <FB_DreadmeldShedFingerspike.description>Дредмелд отрывает пальцешипа от собственной массы, расплачиваясь глубокой раной вместо гемогеля.</FB_DreadmeldShedFingerspike.description>
+  <FB_DreadmeldShedTrispike.label>отделить троешипа</FB_DreadmeldShedTrispike.label>
+  <FB_DreadmeldShedTrispike.description>Дредмелд отрывает троешипа от собственной массы, расплачиваясь глубокой раной вместо гемогеля.</FB_DreadmeldShedTrispike.description>
+  <FB_DreadmeldShedToughspike.label>отделить твёрдошипа</FB_DreadmeldShedToughspike.label>
+  <FB_DreadmeldShedToughspike.description>Дредмелд отрывает твёрдошипа от собственной массы, расплачиваясь глубокой раной вместо гемогеля.</FB_DreadmeldShedToughspike.description>
   <FB_GrowFingerspikeFromHemogel.label>вырастить пальцешипа из гемогеля</FB_GrowFingerspikeFromHemogel.label>
   <FB_GrowFingerspikeFromHemogel.description>Выращивает пальцешипа из общего запаса гемогеля колонии.</FB_GrowFingerspikeFromHemogel.description>
   <FB_GrowTrispikeFromHemogel.label>вырастить троешипа из гемогеля</FB_GrowTrispikeFromHemogel.label>
