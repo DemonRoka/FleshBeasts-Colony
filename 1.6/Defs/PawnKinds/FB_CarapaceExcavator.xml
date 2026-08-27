@@ -5,7 +5,7 @@
     <defName>FB_CarapaceExcavatorKind</defName>
     <label>carapace excavator</label>
     <race>FB_CarapaceExcavator</race>
-    <combatPower>82</combatPower>
+    <combatPower>18</combatPower>
     <defaultFactionDef>PlayerColony</defaultFactionDef>
     <lifeStages>
       <li>

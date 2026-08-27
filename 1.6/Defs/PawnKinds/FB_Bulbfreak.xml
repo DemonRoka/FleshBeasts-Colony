@@ -5,7 +5,7 @@
     <label>fused bulbfreak</label>
     <overrideDeathOnDownedChance>0.9</overrideDeathOnDownedChance>
     <race>FB_Bulbfreak</race>
-    <combatPower>360</combatPower>
+    <combatPower>95</combatPower>
     <defaultFactionDef>PlayerColony</defaultFactionDef>
     <lifeStages>
       <li>

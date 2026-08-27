@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <MainButtonDef>
+    <defName>FB_FleshPlanetaryNetwork</defName>
+    <label>Planetary network</label>
+    <description>Control the spread of flesh across the planet and direct its outposts.</description>
+    <workerClass>FB.MainButtonWorker_FleshPlanetaryNetwork</workerClass>
+    <tabWindowClass>FB.MainTabWindow_FleshPlanetaryNetwork</tabWindowClass>
+    <minimized>true</minimized>
+    <validWithoutMap>true</validWithoutMap>
+    <iconPath>UI/Buttons/MainButtons/FleshPlanetaryNetwork</iconPath>
+    <order>3</order>
+    <closesWorldView>false</closesWorldView>
+  </MainButtonDef>
+</Defs>

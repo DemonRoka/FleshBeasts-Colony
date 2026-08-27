@@ -7,7 +7,7 @@
     <overrideDeathOnDownedChance>0</overrideDeathOnDownedChance>
     <ignoresPainShock>true</ignoresPainShock>
     <race>FB_SegmentedBastion</race>
-    <combatPower>360</combatPower>
+    <combatPower>95</combatPower>
     <defaultFactionDef>PlayerColony</defaultFactionDef>
     <lifeStages>
       <li>
@@ -32,7 +32,7 @@
     <abilities>
       <li>SpineLaunch_Gorehulk</li>
     </abilities>
-    <combatPower>28</combatPower>
+    <combatPower>20</combatPower>
     <defaultFactionDef>PlayerColony</defaultFactionDef>
     <lifeStages>
       <li>

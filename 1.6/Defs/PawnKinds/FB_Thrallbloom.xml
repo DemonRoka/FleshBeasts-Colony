@@ -5,7 +5,7 @@
     <defName>FB_ThrallbloomKind</defName>
     <label>thrallbloom</label>
     <race>FB_Thrallbloom</race>
-    <combatPower>240</combatPower>
+    <combatPower>80</combatPower>
     <forceDeathOnDowned>true</forceDeathOnDowned>
     <defaultFactionDef>PlayerColony</defaultFactionDef>
     <lifeStages>

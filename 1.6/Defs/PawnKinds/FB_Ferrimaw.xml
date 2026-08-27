@@ -5,7 +5,7 @@
   <defName>FB_FerrimawKind</defName>
   <label>ferrimaw</label>
   <race>FB_Ferrimaw</race>
-  <combatPower>42</combatPower>
+  <combatPower>14</combatPower>
   <defaultFactionDef>PlayerColony</defaultFactionDef>
   <forceNoDeathNotification>true</forceNoDeathNotification>
   <lifeStages>

@@ -5,7 +5,7 @@
     <label>flesh intruder</label>
     <labelPlural>flesh intruders</labelPlural>
     <race>FB_FleshIntruder</race>
-    <combatPower>45</combatPower>
+    <combatPower>40</combatPower>
     <canMeleeAttack>false</canMeleeAttack>
     <forceDeathOnDowned>true</forceDeathOnDowned>
     <forceNoDeathNotification>true</forceNoDeathNotification>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_PlanetaryNetworkHemogelSummary>Available hemogel: {0} / {1}</FB_PlanetaryNetworkHemogelSummary>
+  <FB_PlanetaryNetworkMoonConnected>connected</FB_PlanetaryNetworkMoonConnected>
+  <FB_PlanetaryNetworkMoonDisconnected>local reserve</FB_PlanetaryNetworkMoonDisconnected>
+  <FB_PlanetaryNetworkOverflowTooltip>The network is over capacity. Stored hemogel is preserved, but new production is blocked until the reserve falls below capacity.</FB_PlanetaryNetworkOverflowTooltip>
+  <FB_PlanetaryNetworkFoundingDescription>Place the stationary flesh moon over an empty surface tile or one of your loaded settlements. First attach the umbilicus to that tile, then found the first abstract outpost. An empty tile only needs a mapless feeding link; consuming your settlement requires an open physical channel. The operation is irreversible and costs {0} hemogel from the Moon.</FB_PlanetaryNetworkFoundingDescription>
+  <FB_PlanetaryNetworkFoundFirstOutpost>Found first flesh outpost</FB_PlanetaryNetworkFoundFirstOutpost>
+  <FB_PlanetaryNetworkExpansionTab>Expansion</FB_PlanetaryNetworkExpansionTab>
+  <FB_PlanetaryNetworkOutpostsTab>Outposts</FB_PlanetaryNetworkOutpostsTab>
+  <FB_PlanetaryNetworkOutpostOrder>Target tile: {0}
+Remaining: {1}</FB_PlanetaryNetworkOutpostOrder>
+  <FB_PlanetaryNetworkOutpostIdle>No active capture order</FB_PlanetaryNetworkOutpostIdle>
+  <FB_PlanetaryNetworkCapture>Capture tile</FB_PlanetaryNetworkCapture>
+  <FB_PlanetaryNetworkCaptureConfirm>Spend {0} hemogel to order the capture of world tile {1}? Estimated time: {2}. Manually canceling the order will not refund the payment.</FB_PlanetaryNetworkCaptureConfirm>
+  <FB_PlanetaryNetworkCancelOrder>Cancel order</FB_PlanetaryNetworkCancelOrder>
+  <FB_PlanetaryNetworkCancelOrderWarning>Cancel this capture order? The paid {0} hemogel will not be refunded.</FB_PlanetaryNetworkCancelOrderWarning>
+  <FB_PlanetaryNetworkCreateOutpost>Grow flesh outpost</FB_PlanetaryNetworkCreateOutpost>
+  <FB_PlanetaryNetworkCreateOutpostWarning>Grow a permanent abstract outpost here for {0} hemogel? It cannot be removed or visited, and only {1}% of its host tile output will reach the network.</FB_PlanetaryNetworkCreateOutpostWarning>
+  <FB_FleshTerritoryEnterLabel>Enter flesh territory</FB_FleshTerritoryEnterLabel>
+  <FB_FleshTerritoryEnterDesc>Materialize this covered tile as a temporary map and enter it. The map cannot become a permanent settlement.</FB_FleshTerritoryEnterDesc>
+  <FB_FirstOutpostConvertPlayerMapWarning>Consume this player settlement and found the first flesh outpost for {0} Moon hemogel? All {1} eligible colonists, prisoners, animals, and controlled fleshbeasts will be evacuated to the Moon. Local hemogel will be transferred in full and existing flesh structures and terrain will return {2} hemogel. All other buildings, items, and map contents will be destroyed without payment. The map and its settlement will be deleted permanently.</FB_FirstOutpostConvertPlayerMapWarning>
+  <FB_FirstOutpostConvertMoonMapUnavailable>The Moon map must be loaded and able to receive the evacuation.</FB_FirstOutpostConvertMoonMapUnavailable>
+  <FB_FirstOutpostConvertPhysicalChannelRequired>Open a physical umbilicus channel to this player settlement before consuming it into the first flesh outpost.</FB_FirstOutpostConvertPhysicalChannelRequired>
+  <FB_FirstOutpostConvertContainedPawns>{0} controlled living pawn(s) are inside containers or otherwise unspawned. Release them onto the map before consuming the settlement.</FB_FirstOutpostConvertContainedPawns>
+  <FB_FirstOutpostConvertQuestBlocked>This settlement, tile, or one of its evacuees is involved in an active quest.</FB_FirstOutpostConvertQuestBlocked>
+  <FB_FirstOutpostConvertArrivalSpaceUnavailable>There is not enough safe free space on the Moon to evacuate every eligible pawn.</FB_FirstOutpostConvertArrivalSpaceUnavailable>
+  <FB_FirstOutpostConvertFailed>The settlement could not be converted into the first flesh outpost.</FB_FirstOutpostConvertFailed>
+  <FB_FirstOutpostConvertCompleted>Settlement consumed. Evacuated pawns: {0}. Flesh refund: {1} hemogel.</FB_FirstOutpostConvertCompleted>
+  <FB_PlanetaryNetworkExpansionDesc>Choose the active Moon or flesh outpost with the reserve bar, then spread flesh or grow another command center.</FB_PlanetaryNetworkExpansionDesc>
+  <FB_PlanetaryNetworkNodeReserveBar>Network reserve: {0} / {1}</FB_PlanetaryNetworkNodeReserveBar>
+  <FB_PlanetaryNetworkNodeReserveTooltip>Hemogel available to the connected flesh component controlled from the outpost on tile {0}. Click to choose another node.</FB_PlanetaryNetworkNodeReserveTooltip>
+  <FB_PlanetaryNetworkMoonReserveBar>Moon reserve: {0} / {1}</FB_PlanetaryNetworkMoonReserveBar>
+  <FB_PlanetaryNetworkMoonReserveTooltip>The Moon strategic commands spend only its own internal reserve. Click to choose another node.</FB_PlanetaryNetworkMoonReserveTooltip>
+  <FB_PlanetaryNetworkNoNodeSelected>No flesh network node selected</FB_PlanetaryNetworkNoNodeSelected>
+  <FB_PlanetaryNetworkSelectNodeTooltip>Click to select the Moon or a flesh outpost.</FB_PlanetaryNetworkSelectNodeTooltip>
+  <FB_PlanetaryNetworkSourceMoon>Flesh moon</FB_PlanetaryNetworkSourceMoon>
+  <FB_PlanetaryNetworkSourceOutpost>Outpost at tile {0}</FB_PlanetaryNetworkSourceOutpost>
+  <FB_PlanetaryNetworkSourceOutpostNetwork>Outpost network: {0} outposts (tile {1})</FB_PlanetaryNetworkSourceOutpostNetwork>
+  <FB_PlanetaryNetworkCaptureDesc>Left-click to choose an empty world tile adjacent to covered territory and issue one paid capture order. Distance from the outpost does not matter. Live hostile settlements cannot be consumed by this command; use Attack settlement instead. Right-click toggles automatic expansion; the outpost then chooses the cheapest valid empty frontier tile of its own connected network whenever it is idle and that network can pay. If hemogel is insufficient, automatic expansion stays enabled and waits for the network reserve to refill.</FB_PlanetaryNetworkCaptureDesc>
+  <FB_PlanetaryNetworkAutoCaptureState>Automatic expansion: {0}</FB_PlanetaryNetworkAutoCaptureState>
+  <FB_PlanetaryNetworkCreateOutpostDesc>Grow an abstract outpost on an unloaded covered tile in this connected network for {0} hemogel. The hive keeps part of its own tile output, so only {1}% reaches the network.</FB_PlanetaryNetworkCreateOutpostDesc>
+  <FB_PlanetaryNetworkFirstOutpostRequired>Found the first flesh outpost before creating a separate infection focus.</FB_PlanetaryNetworkFirstOutpostRequired>
+  <FB_PlanetaryNetworkMoonSeed>Create flesh tile</FB_PlanetaryNetworkMoonSeed>
+  <FB_PlanetaryNetworkMoonSeedDesc>Instantly consume the empty surface tile directly beneath the stationary Moon after attaching its mapless umbilicus there. The terrain-based price is paid strictly from the Moon internal reserve, creating a new flesh focus.</FB_PlanetaryNetworkMoonSeedDesc>
+  <FB_PlanetaryNetworkMoonSeedConfirm>Spend {0} hemogel from the Moon internal reserve and irreversibly cover world tile {1} with flesh?</FB_PlanetaryNetworkMoonSeedConfirm>
+  <FB_PlanetaryNetworkMoonSeeded>The Moon has established a new flesh focus on world tile {0}.</FB_PlanetaryNetworkMoonSeeded>
+  <FB_PlanetaryNetworkMoonCreateOutpostDesc>Instantly grow an outpost beneath the stationary Moon for {0} hemogel from its internal reserve. The umbilicus must already be attached to this tile. If the tile is not covered yet, its terrain-based flesh seeding cost is added and both operations are confirmed together. Only {1}% of the host tile output reaches the network.</FB_PlanetaryNetworkMoonCreateOutpostDesc>
+  <FB_PlanetaryNetworkMoonCreateOutpostConfirm>Spend {0} hemogel from the Moon internal reserve and grow a permanent abstract outpost here? The hive leaves only {1}% of this tile output for the network and cannot be visited or removed.</FB_PlanetaryNetworkMoonCreateOutpostConfirm>
+  <FB_PlanetaryNetworkMoonCreateOutpostWithSeedConfirm>There is no flesh on this tile yet. Cover it with flesh for {0} hemogel and immediately grow an outpost for another {1} hemogel? Total Moon reserve cost: {2}. The permanent abstract hive cannot be visited or removed and leaves only {3}% of its tile output for the network.</FB_PlanetaryNetworkMoonCreateOutpostWithSeedConfirm>
+  <FB_PlanetaryNetworkMoonOutpostCreated>The Moon has grown a flesh outpost on world tile {0}.</FB_PlanetaryNetworkMoonOutpostCreated>
+  <FB_PlanetaryNetworkMoonOutpostCreatedWithSeed>The Moon covered world tile {0} with flesh and grew a new outpost on it.</FB_PlanetaryNetworkMoonOutpostCreatedWithSeed>
+  <FB_PlanetaryNetworkMoonAnchorRequired>First attach the Moon's mapless umbilicus to the current world tile.</FB_PlanetaryNetworkMoonAnchorRequired>
+  <FB_PlanetaryNetworkOutpostTab>Hemogel</FB_PlanetaryNetworkOutpostTab>
+  <FB_PlanetaryNetworkOutpostTabTitle>Network hemogel</FB_PlanetaryNetworkOutpostTabTitle>
+  <FB_PlanetaryNetworkOutpostRenamed>The outpost network is now called "{0}".</FB_PlanetaryNetworkOutpostRenamed>
+  <FB_PlanetaryNetworkBalance>Balance</FB_PlanetaryNetworkBalance>
+  <FB_PlanetaryNetworkMoonStatus>Moon</FB_PlanetaryNetworkMoonStatus>
+  <FB_PlanetaryNetworkCoveredTiles>Covered tiles</FB_PlanetaryNetworkCoveredTiles>
+  <FB_PlanetaryNetworkConnectedOutposts>Connected outposts</FB_PlanetaryNetworkConnectedOutposts>
+  <FB_PlanetaryNetworkCurrentOrderLabel>Current order</FB_PlanetaryNetworkCurrentOrderLabel>
+  <FB_PlanetaryNetworkOutpostOrderCompact>Tile {0}, {1} remaining</FB_PlanetaryNetworkOutpostOrderCompact>
+  <FB_PlanetaryNetworkOutpostTileHiveShare>The outpost has no hemogel upkeep. Its hive retains half of the host tile production; {0}% of that tile normal output reaches this network.</FB_PlanetaryNetworkOutpostTileHiveShare>
+  <FB_PlanetaryNetworkProductionFacilitiesTab>Production organs</FB_PlanetaryNetworkProductionFacilitiesTab>
+  <FB_PlanetaryNetworkAmbushesTab>Ambushes</FB_PlanetaryNetworkAmbushesTab>
+  <FB_PlanetaryNetworkOutpostsCategoryDesc>Grow additional abstract command centers on covered, unloaded and unoccupied tiles in the selected outpost network.</FB_PlanetaryNetworkOutpostsCategoryDesc>
+  <FB_PlanetaryNetworkProductionFacilitiesDesc>Build abstract planetary extraction organs on covered tiles of the selected outpost network. These objects cannot be visited and multiply hemogel extraction from their host tile.</FB_PlanetaryNetworkProductionFacilitiesDesc>
+  <FB_PlanetaryNetworkAmbushesDesc>Build abstract ambush camps on covered tiles of the selected outpost network. Camps cannot be visited, multiply host-tile extraction, and can store occasional world loot.</FB_PlanetaryNetworkAmbushesDesc>
+  <FB_PlanetaryNetworkFacilitySourceRequiredDesc>Select a flesh outpost through the reserve bar before building planetary organs or ambush camps.</FB_PlanetaryNetworkFacilitySourceRequiredDesc>
+  <FB_PlanetaryNetworkBuildFacility>Build {0}</FB_PlanetaryNetworkBuildFacility>
+  <FB_PlanetaryNetworkBuildFacilityDesc>Build this abstract world object on a covered, unloaded and unoccupied tile in the selected outpost network. Cost: {1} hemogel from that network. Host tile extraction multiplier: x{2}. Facility tiles cannot be loaded as maps.</FB_PlanetaryNetworkBuildFacilityDesc>
+  <FB_PlanetaryNetworkBuildFacilityConfirm>Build {0} on world tile {1} for {2} hemogel? The tile will remain abstract and cannot be visited. Host tile extraction multiplier: x{3}.</FB_PlanetaryNetworkBuildFacilityConfirm>
+  <FB_PlanetaryNetworkBuildFacilityTooltip>{0}
+Cost: {1} hemogel
+Host tile extraction: x{2}</FB_PlanetaryNetworkBuildFacilityTooltip>
+  <FB_PlanetaryNetworkFacilityRequiresWater>This facility requires a covered land tile with a river, coast, lake or adjacent water.</FB_PlanetaryNetworkFacilityRequiresWater>
+  <FB_PlanetaryNetworkFacilityBuilt>{0} has grown on world tile {1}.</FB_PlanetaryNetworkFacilityBuilt>
+  <FB_FleshWorldFacilityInspect>Host tile extraction: x{0}</FB_FleshWorldFacilityInspect>
+  <FB_FleshAmbushCampInspect>Stored stacks: {0}
+Next ambush check: {1}</FB_FleshAmbushCampInspect>
+  <FB_FleshAmbushCampNoRoutes>The camp is fully isolated from useful prey routes.</FB_FleshAmbushCampNoRoutes>
+  <FB_FleshAmbushCampMoonNotAnchored>Anchor the Moon&apos;s mapless umbilicus to this camp tile before sending stored loot upward.</FB_FleshAmbushCampMoonNotAnchored>
+  <FB_FleshAmbushCampMoonMapUnavailable>The Moon interior map is not available.</FB_FleshAmbushCampMoonMapUnavailable>
+  <FB_FleshAmbushCampStorageTab>Storage</FB_FleshAmbushCampStorageTab>
+  <FB_FleshAmbushCampStoredItems>Stored loot: {0} stack(s)</FB_FleshAmbushCampStoredItems>
+  <FB_FleshAmbushCampDevGenerateLoot>Dev: generate loot</FB_FleshAmbushCampDevGenerateLoot>
+  <FB_FleshAmbushCampDevGenerateLootDesc>Immediately roll one ambush haul for this camp, ignoring the usual timer and chance.</FB_FleshAmbushCampDevGenerateLootDesc>
+  <FB_FleshAmbushCampLootGenerated>The camp ambushed a caravan and stored {0} stack(s) of loot.</FB_FleshAmbushCampLootGenerated>
+  <FB_DevInstantCaptureDone>Dev: world tile {0} was captured instantly.</FB_DevInstantCaptureDone>
+  <FB_DevFillNetworkHemogel>Dev: fill hemogel</FB_DevFillNetworkHemogel>
+  <FB_DevFillNetworkHemogelDesc>Fill this network's hemogel reserve up to its capacity.</FB_DevFillNetworkHemogelDesc>
+  <FB_DevDrainNetworkHemogel>Dev: drain hemogel</FB_DevDrainNetworkHemogel>
+  <FB_DevDrainNetworkHemogelDesc>Drain every spendable unit of hemogel from this network's reserve.</FB_DevDrainNetworkHemogelDesc>
+  <FB_DevNetworkHemogelFilled>Dev: {0} hemogel was added to the network.</FB_DevNetworkHemogelFilled>
+  <FB_DevNetworkHemogelDrained>Dev: {0} hemogel was drained from the network.</FB_DevNetworkHemogelDrained>
+  <FB_FleshAmbushCampSendToMoon>To Moon</FB_FleshAmbushCampSendToMoon>
+  <FB_FleshAmbushCampDeleteConfirm>Delete {0} from this camp storage?</FB_FleshAmbushCampDeleteConfirm>
+  <FB_PlanetaryNetworkAttackSettlement>Attack settlement</FB_PlanetaryNetworkAttackSettlement>
+  <FB_PlanetaryNetworkAttackSettlementDesc>Form an abstract flesh assault party from this outpost's connected hemogel reserve, send it across the world map, and resolve the attack mathematically when it reaches a hostile humanlike settlement.</FB_PlanetaryNetworkAttackSettlementDesc>
+  <FB_PlanetaryNetworkAssaultRequiresHostileSettlement>Choose an unloaded humanlike settlement without active quest links.</FB_PlanetaryNetworkAssaultRequiresHostileSettlement>
+  <FB_PlanetaryNetworkAssaultSettlementQuestLinked>This settlement is tied to an active quest and cannot be assaulted.</FB_PlanetaryNetworkAssaultSettlementQuestLinked>
+  <FB_PlanetaryNetworkAssaultSettlementLoaded>This settlement's map is loaded. Assaults only work on unloaded settlements.</FB_PlanetaryNetworkAssaultSettlementLoaded>
+  <FB_PlanetaryNetworkAssaultTargetTooltip>{0}
+Difficulty: {1}</FB_PlanetaryNetworkAssaultTargetTooltip>
+  <FB_PlanetaryNetworkAssaultPredictedWin>expected victory</FB_PlanetaryNetworkAssaultPredictedWin>
+  <FB_PlanetaryNetworkAssaultPredictedLoss>too weak</FB_PlanetaryNetworkAssaultPredictedLoss>
+  <FB_PlanetaryNetworkAssaultLaunched>A flesh assault party was launched against {0}. Strength: {1}.</FB_PlanetaryNetworkAssaultLaunched>
+  <FB_FleshAssaultInspectAttacking>Attacking tile {1}
+Strength: {0}</FB_FleshAssaultInspectAttacking>
+  <FB_FleshAssaultInspectCarrying>Hauling loot to tile {0}
+Beasts: {1}   Cargo: {2} stack(s), {3} / {4} kg</FB_FleshAssaultInspectCarrying>
+  <FB_FleshAssaultVictoryLabel>Settlement destroyed</FB_FleshAssaultVictoryLabel>
+  <FB_FleshAssaultVictoryText>The flesh assault party destroyed {0} without opening a tactical map. Beasts returning home: {1}, lost in the fight: {2}.</FB_FleshAssaultVictoryText>
+  <FB_FleshAssaultDefeatedLabel>Flesh assault destroyed</FB_FleshAssaultDefeatedLabel>
+  <FB_FleshAssaultDefeatedText>The flesh assault party failed to break {0}. Strength {1} was below the calculated difficulty {2}, and the committed hemogel was lost.</FB_FleshAssaultDefeatedText>
+  <FB_FleshAssaultInvalidTargetLabel>Flesh assault aborted</FB_FleshAssaultInvalidTargetLabel>
+  <FB_FleshAssaultInvalidTargetText>The target at world tile {0} is no longer a valid hostile settlement. The assault party is returning.</FB_FleshAssaultInvalidTargetText>
+</LanguageData>

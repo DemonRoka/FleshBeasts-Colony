@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <FB_CaptureNerveNode.description>Нервный узел, связывающийся с ближайшим сердцем, добавляющий слот хватательных щупалец и передающий команду щупалец этого сердца.</FB_CaptureNerveNode.description>
+  <FB_CaptureNerveNode.description>Нервный узел, связывающийся с ближайшим сердцем и добавляющий ему один общий слот хватательных щупалец. Без сердца все узлы захвата на карте объединяют свои слоты в единый автономный пул.</FB_CaptureNerveNode.description>
   <FB_CaptureNerveNodeEmbryo.description>Незрелый нервный узел, который вырастет в узел захвата.</FB_CaptureNerveNodeEmbryo.description>
 </LanguageData>

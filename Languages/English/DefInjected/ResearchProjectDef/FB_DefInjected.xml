@@ -108,7 +108,7 @@
   <TentacleTurretResearch.generalRules.rulesStrings.2>subject_story-&gt;engineered tentacle-based defenses</TentacleTurretResearch.generalRules.rulesStrings.2>
   <TentacleTurretResearch.generalRules.rulesStrings.3>subject_gerund-&gt;growing flesh turrets</TentacleTurretResearch.generalRules.rulesStrings.3>
   <TentacleTurretResearch.label>tentacle turret</TentacleTurretResearch.label>
-  <FB_CaptureNerveLattice.description>Grow auxiliary nerve nodes that expand the colony heart's grasping tendril capacity and allow the heart to choose prey through finer species and faction recognition.</FB_CaptureNerveLattice.description>
+  <FB_CaptureNerveLattice.description>Grow capture nerve nodes that expand a colony heart's grasping tendril capacity or combine into one autonomous capture pool without a heart, while sharing refined species and faction recognition.</FB_CaptureNerveLattice.description>
   <FB_CaptureNerveLattice.generalRules.rulesStrings.0>subject-&gt;capture nerve lattice</FB_CaptureNerveLattice.generalRules.rulesStrings.0>
   <FB_CaptureNerveLattice.generalRules.rulesStrings.1>subject_story-&gt;threaded capture reflexes through auxiliary nerve nodes</FB_CaptureNerveLattice.generalRules.rulesStrings.1>
   <FB_CaptureNerveLattice.generalRules.rulesStrings.2>subject_story-&gt;trained grasping organs to recognize chosen prey profiles</FB_CaptureNerveLattice.generalRules.rulesStrings.2>

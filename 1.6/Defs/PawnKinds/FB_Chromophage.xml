@@ -5,7 +5,7 @@
     <label>chromophage</label>
     <overrideDeathOnDownedChance>0.9</overrideDeathOnDownedChance>
     <race>FB_Chromophage</race>
-    <combatPower>160</combatPower>
+    <combatPower>75</combatPower>
     <defaultFactionDef>PlayerColony</defaultFactionDef>
     <lifeStages>
       <li>

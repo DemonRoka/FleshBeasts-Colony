@@ -7,7 +7,7 @@
   <FB_BiomassEvolution.labelShortAdj>biomass-evolving</FB_BiomassEvolution.labelShortAdj>
   <FB_Eater.description>Carriers can consume organic corpses into personal body memory, then spend colony hemogel to regrow stored creatures as living newborns on chosen flesh-covered cells.</FB_Eater.description>
   <FB_Eater.label>eater</FB_Eater.label>
-  <FB_FleshbeastBody.description>Carriers are reshaped into a humanoid fleshbeast: hair and ordinary skin give way to living fleshbeast tissue and a warped head. The body feels far less pain, heals faster, and takes slightly less damage, but becomes deeply unsettling to others.</FB_FleshbeastBody.description>
+  <FB_FleshbeastBody.description>Carriers are reshaped into a humanoid fleshbeast: hair and ordinary skin give way to living fleshbeast tissue and a warped head. The body feels far less pain, heals faster, and takes slightly less damage, but becomes deeply unsettling to others. Vital systems spread through the whole mass, so a killing blow tears the carrier into two younger bodies instead of killing them. Cannot be combined with fragmentation - a body can come apart in only one way.</FB_FleshbeastBody.description>
   <FB_FleshbeastBody.label>fleshbeast body</FB_FleshbeastBody.label>
   <FB_FleshbeastBody.labelShortAdj>fleshbeast</FB_FleshbeastBody.labelShortAdj>
   <FB_FleshbeastBody.renderNodeProperties.0.debugLabel>Fur</FB_FleshbeastBody.renderNodeProperties.0.debugLabel>

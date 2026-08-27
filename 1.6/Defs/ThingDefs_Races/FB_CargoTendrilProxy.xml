@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Раса: cargo tendril proxy (FB_CargoTendrilProxy) -->
+  <ThingDef ParentName="BasePawn">
+    <defName>FB_CargoTendrilProxy</defName>
+    <label>cargo tendril proxy</label>
+    <description>An unseen hauling proxy maintained by a colony brain or lunar nerve node. Its movement is represented by cargo tendrils.</description>
+    <tradeability>None</tradeability>
+    <destroyable>false</destroyable>
+    <selectable>false</selectable>
+    <drawGUIOverlay>false</drawGUIOverlay>
+    <drawHighlight>false</drawHighlight>
+    <uiIconPath>Things/Pawn/FB_CargoTendrilProxy/FB_CargoTendrilProxy_south</uiIconPath>
+    <statBases>
+      <MoveSpeed>3.0</MoveSpeed>
+      <CarryingCapacity>600</CarryingCapacity>
+      <ComfyTemperatureMin>-40</ComfyTemperatureMin>
+      <ComfyTemperatureMax>60</ComfyTemperatureMax>
+      <Flammability>0</Flammability>
+      <MeatAmount>2</MeatAmount>
+      <MarketValue>20</MarketValue>
+      <ToxicResistance>1</ToxicResistance>
+      <WorkSpeedGlobal>1</WorkSpeedGlobal>
+    </statBases>
+    <race>
+      <body>FB_CargoTendrilProxyBody</body>
+      <baseBodySize>0.35</baseBodySize>
+      <baseHungerRate>0.02</baseHungerRate>
+      <baseHealthScale>0.35</baseHealthScale>
+      <waterCellCost>1</waterCellCost>
+      <lifeExpectancy>10</lifeExpectancy>
+      <renderTree>Animal</renderTree>
+      <intelligence>ToolUser</intelligence>
+      <trainability>None</trainability>
+      <thinkTreeMain>FB_CargoTendrilProxyMain</thinkTreeMain>
+      <thinkTreeConstant>FB_CargoTendrilProxyConstant</thinkTreeConstant>
+      <specificMeatDef>Meat_Twisted</specificMeatDef>
+      <canOpenFactionlessDoors>false</canOpenFactionlessDoors>
+      <needsRest>false</needsRest>
+      <hasGenders>false</hasGenders>
+      <foodType>None</foodType>
+      <canBePredatorPrey>false</canBePredatorPrey>
+      <bloodDef>Filth_Blood</bloodDef>
+      <bloodSmearDef>Filth_BloodSmear</bloodSmearDef>
+      <soundMeleeDodge>Pawn_MeleeDodge</soundMeleeDodge>
+      <fleshType>Fleshbeast</fleshType>
+      <isImmuneToInfections>true</isImmuneToInfections>
+      <bleedRateFactor>0.35</bleedRateFactor>
+      <hediffGiverSets />
+      <corpseHiddenWhileUndiscovered>true</corpseHiddenWhileUndiscovered>
+      <deathAction Class="DeathActionProperties_Vanish">
+        <workerClass>DeathActionWorker_Vanish</workerClass>
+        <filth>Filth_TwistedFlesh</filth>
+        <filthCountRange>1~2</filthCountRange>
+        <meatExplosionSize>Small</meatExplosionSize>
+      </deathAction>
+      <lifeStageAges>
+        <li>
+          <def>EntityFullyFormed</def>
+          <soundWounded>Pawn_Fleshbeast_Fingerspike_Wounded</soundWounded>
+          <soundDeath>Pawn_Fleshbeast_Fingerspike_Death</soundDeath>
+          <soundCall>Pawn_Fleshbeast_Fingerspike_Call</soundCall>
+        </li>
+      </lifeStageAges>
+    </race>
+    <comps>
+      <li Class="FB.CompProperties_CargoTendrilProxyVisual">
+        <sourceSearchIntervalTicks>120</sourceSearchIntervalTicks>
+        <maxSourceSearchRadius>9999</maxSourceSearchRadius>
+        <applyPsychologicalInvisibility>true</applyPsychologicalInvisibility>
+        <invisibilityHediffDefName>FB_CargoTendrilProxyInvisibility</invisibilityHediffDefName>
+        <invisibilityRefreshTicks>120</invisibilityRefreshTicks>
+      </li>
+    </comps>
+    <tools />
+  </ThingDef>
+</Defs>

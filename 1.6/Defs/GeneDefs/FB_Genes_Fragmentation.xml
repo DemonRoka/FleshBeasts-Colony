@@ -6,6 +6,9 @@
     <description>Carriers can rupture into shardlings either willingly or automatically to preserve their life. The shardlings flee danger, regroup, and try to rebuild the original body, but the flesh remains unstable for a long time after reassembly.</description>
     <iconPath>UI/Icons/Genes/Gene_Fragmentation</iconPath>
     <geneClass>FB.Gene_Fragmentation</geneClass>
+    <exclusionTags>
+      <li>FleshBeastsDeathDivision</li>
+    </exclusionTags>
     <modExtensions>
       <li Class="FB.DefModExtension_FragmentationSettings">
         <spawnCount>3</spawnCount>

@@ -6,7 +6,7 @@
     <label>dreadmeld</label>
     <race>FB_Dreadmeld</race>
     <forceDeathOnDowned>true</forceDeathOnDowned>
-    <combatPower>650</combatPower>
+    <combatPower>120</combatPower>
     <isBoss>false</isBoss>
     <lifeStages>
       <li>

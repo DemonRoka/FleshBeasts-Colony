@@ -4,6 +4,7 @@
     <xpath>Defs/PlanetLayerDef[defName="Surface"]/worldDrawLayers</xpath>
     <value>
       <li>FB.WorldDrawLayer_Flesh</li>
+      <li>FB.WorldDrawLayer_FleshVeins</li>
     </value>
   </Operation>
 </Patch>

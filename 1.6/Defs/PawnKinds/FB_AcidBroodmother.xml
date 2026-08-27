@@ -8,7 +8,7 @@
   <ignoresPainShock>true</ignoresPainShock>
   <race>FB_AcidBroodmother</race>
   <canMeleeAttack>false</canMeleeAttack>
-  <combatPower>410</combatPower>
+  <combatPower>100</combatPower>
   <defaultFactionDef>PlayerColony</defaultFactionDef>
   <lifeStages>
     <li>
@@ -32,7 +32,7 @@
     <abilities>
       <li>FB_AcidSpitlingSpit</li>
     </abilities>
-    <combatPower>42</combatPower>
+    <combatPower>20</combatPower>
     <defaultFactionDef>PlayerColony</defaultFactionDef>
     <lifeStages>
       <li>

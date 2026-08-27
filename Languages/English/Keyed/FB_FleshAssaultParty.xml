@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_FleshAssaultRosterSummary>Units: {0}   Pack strength: {1}   Defence: {2}   {3}</FB_FleshAssaultRosterSummary>
+  <FB_FleshAssaultRosterEmpty>Add at least one beast to the pack.</FB_FleshAssaultRosterEmpty>
+  <FB_FleshAssaultRosterLaunched>An assault pack of {1} beasts is moving against {0}.</FB_FleshAssaultRosterLaunched>
+  <FB_FleshAssaultArrivalTitle>The pack has reached its target</FB_FleshAssaultArrivalTitle>
+  <FB_FleshAssaultArrivalText>The assault pack has reached {0}. It carries {1} beasts with a combined strength of {2}; the settlement's defence is rated at {3}.\n\nFight the battle yourself, or let the pack resolve it without loading the map?</FB_FleshAssaultArrivalText>
+  <FB_FleshAssaultArrivalManual>Manual battle</FB_FleshAssaultArrivalManual>
+  <FB_FleshAssaultArrivalAuto>Automatic battle</FB_FleshAssaultArrivalAuto>
+  <FB_FleshAssaultArrivalTimeout>The pack will wait {0} for orders. Without an answer it fights the battle on its own.</FB_FleshAssaultArrivalTimeout>
+  <FB_FleshAssaultArrivalTimedOut>The pack at {0} waited too long for orders and resolved the battle itself.</FB_FleshAssaultArrivalTimedOut>
+  <FB_FleshAssaultInspectAwaitingOrder>Awaiting orders at tile {0}
+Automatic battle in: {1}</FB_FleshAssaultInspectAwaitingOrder>
+  <FB_FleshAssaultBattleStarted>The pack landed at {0}: {1} beasts are on the map. The map is held until you withdraw them - select the settlement on the world map and press "Withdraw pack".</FB_FleshAssaultBattleStarted>
+  <FB_FleshAssaultWithdrawLabel>Withdraw pack</FB_FleshAssaultWithdrawLabel>
+  <FB_FleshAssaultWithdrawDesc>Form the return caravan: pick which beasts leave and what they drag along. Once confirmed the map closes and the pack carries the loot home to its outpost.</FB_FleshAssaultWithdrawDesc>
+  <FB_FleshAssaultWithdrawDone>The pack withdrew: {0} beasts returned and {1} stack(s) of loot reached the outpost.</FB_FleshAssaultWithdrawDone>
+  <FB_FleshAssaultCaravanTitle>Return caravan</FB_FleshAssaultCaravanTitle>
+  <FB_FleshAssaultCaravanBeastsTab>Beasts</FB_FleshAssaultCaravanBeastsTab>
+  <FB_FleshAssaultCaravanBeastsSection>Pack beasts</FB_FleshAssaultCaravanBeastsSection>
+  <FB_FleshAssaultCaravanCountTip>How much to carry off the battlefield.</FB_FleshAssaultCaravanCountTip>
+  <FB_FleshAssaultCaravanMass>Cargo: {0} / {1} kg</FB_FleshAssaultCaravanMass>
+  <FB_FleshAssaultCaravanMassTip>Each beast hauls {0} kg per point of body size. Downed beasts carry nothing.</FB_FleshAssaultCaravanMassTip>
+  <FB_FleshAssaultCaravanConfirm>Leave as a caravan</FB_FleshAssaultCaravanConfirm>
+  <FB_FleshAssaultCaravanOverloaded>The pack cannot haul that much: {0} kg against a capacity of {1} kg.</FB_FleshAssaultCaravanOverloaded>
+  <FB_FleshAssaultCaravanAbandonConfirm>Beasts left behind collapse with the map and are lost. Abandon {0} beast(s) on the battlefield?</FB_FleshAssaultCaravanAbandonConfirm>
+  <FB_FleshAssaultCaravanSent>The caravan set out: {0} beasts and {1} stack(s) of cargo are travelling to the outpost.</FB_FleshAssaultCaravanSent>
+  <FB_FleshAssaultCaravanArrived>The caravan reached the outpost: {0} beasts joined the stock and {1} stack(s) went into storage.</FB_FleshAssaultCaravanArrived>
+  <FB_FleshAssaultCaravanNoOutpost>The home outpost is gone: the pack and its loot are lost.</FB_FleshAssaultCaravanNoOutpost>
+  <FB_FleshAssaultCaravanAbandoned>Beasts abandoned on the battlefield: {0}.</FB_FleshAssaultCaravanAbandoned>
+  <FB_FleshAssaultCaravanCargoHeader>Cargo: {0} stack(s), {1} / {2} kg</FB_FleshAssaultCaravanCargoHeader>
+  <FB_FleshAssaultCaravanDropTip>Drop on the road</FB_FleshAssaultCaravanDropTip>
+  <FB_FleshAssaultCaravanDropConfirm>Drop {0} along the way? The cargo is lost.</FB_FleshAssaultCaravanDropConfirm>
+  <FB_FleshAssaultPartyBeastsTab>Composition</FB_FleshAssaultPartyBeastsTab>
+  <FB_FleshAssaultPartyBeastsSummary>Beasts: {0}   Pack strength: {1}</FB_FleshAssaultPartyBeastsSummary>
+  <FB_FleshOutpostStoredItems>Stored loot: {0} stack(s)</FB_FleshOutpostStoredItems>
+  <FB_DevAssaultProbeLabel>DEV: battle estimate</FB_DevAssaultProbeLabel>
+  <FB_DevAssaultProbeDesc>Measure the map's defence and our pack in vanilla combat points. The report goes to the log and to a window.</FB_DevAssaultProbeDesc>
+  <FB_DevAssaultProbeReport>Defence: {0} pawns, {1} points (turrets: {2})\nPack: {3} pawns, {4} points\nPack/defence ratio: {5}\nReference: vanilla generation spends 1150-1600 points on settlement defenders regardless of faction.</FB_DevAssaultProbeReport>
+  <FB_DevAssaultProbeDefenders>Defenders by kind:</FB_DevAssaultProbeDefenders>
+  <FB_DevAssaultProbeAttackers>Pack by kind:</FB_DevAssaultProbeAttackers>
+</LanguageData>

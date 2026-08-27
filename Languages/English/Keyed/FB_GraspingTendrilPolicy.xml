@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_ColonyBrain_Structure_CaptureNerveNode_Label>Capture Nerve Node</FB_ColonyBrain_Structure_CaptureNerveNode_Label>
-  <FB_ColonyBrain_Structure_CaptureNerveNode_Desc>Extends the colony heart's grasping tendril limit by one and relays that heart's tendril command.</FB_ColonyBrain_Structure_CaptureNerveNode_Desc>
+  <FB_ColonyBrain_Structure_CaptureNerveNode_Desc>Adds one shared grasping tendril slot to a colony heart. Without a heart, all capture nerve nodes combine their slots into one autonomous pool.</FB_ColonyBrain_Structure_CaptureNerveNode_Desc>
   <FB_CaptureNerveNode_NoLinkedHeart>No linked colony heart.</FB_CaptureNerveNode_NoLinkedHeart>
-  <FB_CaptureNerveNode_NoCaptureSpawner>The linked heart has no grasping tendril reflex.</FB_CaptureNerveNode_NoCaptureSpawner>
+  <FB_CaptureNerveNode_NoCaptureSpawner>No operational grasping tendril reflex.</FB_CaptureNerveNode_NoCaptureSpawner>
   <FB_CaptureNerveNode_SlotsInspect>Node slots: +{0}. Available tendril slots: {1} / {2}.</FB_CaptureNerveNode_SlotsInspect>
+  <FB_CaptureNerveNode_StandaloneSlotsInspect>Autonomous capture pool: {0} / {1} slots available.</FB_CaptureNerveNode_StandaloneSlotsInspect>
   <FB_GraspingTendrils_HeartSlotsInspect>Grasping tendril slots: {0} / {1} available.</FB_GraspingTendrils_HeartSlotsInspect>
   <FB_GraspingTendrils_NextSlotReady>Next tendril slot ready in: {0}.</FB_GraspingTendrils_NextSlotReady>
   <FB_GraspingTendrils_InvalidTarget>Invalid grasping tendril target.</FB_GraspingTendrils_InvalidTarget>

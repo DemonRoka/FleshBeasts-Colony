@@ -4,7 +4,7 @@
   <ThingDef ParentName="BaseFleshbeast">
     <defName>FB_Sinewcaller</defName>
     <label>sinewcaller</label>
-    <description>A small lure-hunter grown to keep a flesh colony fed. It waits near the colony heart, then calls wild animals marked for hunting back toward available grasping tendrils.</description>
+    <description>A small lure-hunter grown to keep a flesh colony fed. It leads marked wild animals to a colony heart or standalone capture nerve node; without either, it brings prey to a flesh structure or living flesh terrain.</description>
     <uiIconPath>Things/Pawn/FB_Sinewcaller/Sinewcaller_south</uiIconPath>
     <statBases>
       <MoveSpeed>5.1</MoveSpeed>

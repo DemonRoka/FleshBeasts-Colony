@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WorldObjectDef>
+    <defName>FB_FleshAssaultParty</defName>
+    <label>flesh assault party</label>
+    <description>An abstract world-map mass of combat biomatter sent from a flesh outpost to break a hostile settlement without generating a tactical map.</description>
+    <worldObjectClass>FB.WorldObject_FleshAssaultParty</worldObjectClass>
+    <canHaveFaction>true</canHaveFaction>
+    <canHaveMap>false</canHaveMap>
+    <validLaunchTarget>false</validLaunchTarget>
+    <selectable>true</selectable>
+    <useDynamicDrawer>true</useDynamicDrawer>
+    <texture>World/Flesh/FleshAssaultParty</texture>
+    <expandingIcon>true</expandingIcon>
+    <expandingIconTexture>World/Flesh/FleshAssaultParty</expandingIconTexture>
+    <expandingIconDrawSize>0.85</expandingIconDrawSize>
+    <expandingIconPriority>17</expandingIconPriority>
+    <inspectorTabs>
+      <li>FB.WITab_FleshAssaultPartyBeasts</li>
+      <li>FB.WITab_FleshAssaultPartyStorage</li>
+    </inspectorTabs>
+  </WorldObjectDef>
+</Defs>

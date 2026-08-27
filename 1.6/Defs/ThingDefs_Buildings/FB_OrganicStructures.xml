@@ -279,8 +279,6 @@
         </floorDefs>
         <buildIntervalTicks>25</buildIntervalTicks>
         <checkIntervalTicks>900</checkIntervalTicks>
-        <hemogelCostFloor>5</hemogelCostFloor>
-        <hemogelCostWall>5</hemogelCostWall>
         <autoBuildLabel>FB_AutoGrowthLabel</autoBuildLabel>
         <autoBuildIconPath>UI/Commands/AutoGrowth</autoBuildIconPath>
       </li>
@@ -291,13 +289,12 @@
         <hemogelPerNutrition>20</hemogelPerNutrition>
         <digestionDurationFactor>2</digestionDurationFactor>
       </li>
-      <li Class="FB.CompProperties_ColonyBrainTendrilHauling">
+      <li Class="FB.CompProperties_CargoTendrilPawnHauling">
+        <proxyPawnKind>FB_CargoTendrilProxyKind</proxyPawnKind>
         <maxActiveTendrils>20</maxActiveTendrils>
         <defaultActiveTendrils>10</defaultActiveTendrils>
         <hemogelPerTendrilPerHour>0.1</hemogelPerTendrilPerHour>
         <tendrilReach>7</tendrilReach>
-        <scanIntervalTicks>180</scanIntervalTicks>
-        <maxCandidatesPerScan>35</maxCandidatesPerScan>
         <anchorSearchRadius>4</anchorSearchRadius>
         <captureRadiusFromFlesh>5</captureRadiusFromFlesh>
         <routeSpacingFactor>0.85</routeSpacingFactor>
@@ -460,7 +457,7 @@
     <li>FB.ITab_FleshbeastBills</li>
     <li>FB.ITab_HemogelEconomy</li>
     <li>FB.ITab_GraspingTendrilPolicy</li>
-  </inspectorTabs>
+    </inspectorTabs>
   <building>
     <isEdifice>true</isEdifice>
     <isInert>true</isInert>
@@ -722,8 +719,7 @@
         <li>FleshVeins</li>
       </floorDefs>
       <buildIntervalTicks>100</buildIntervalTicks>
-      <hemogelCostFloor>5</hemogelCostFloor>
-      <hemogelCostWall>5</hemogelCostWall>
+      <checkIntervalTicks>3600</checkIntervalTicks>
       <autoBuildLabel>FB_AutoGrowthLabel</autoBuildLabel>
       <autoBuildIconPath>UI/Commands/AutoGrowth</autoBuildIconPath>
     </li>

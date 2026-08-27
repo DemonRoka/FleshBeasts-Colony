@@ -5,7 +5,7 @@
     <label>carrion architect</label>
     <overrideDeathOnDownedChance>0.9</overrideDeathOnDownedChance>
     <race>FB_CarrionArchitect</race>
-    <combatPower>180</combatPower>
+    <combatPower>60</combatPower>
     <defaultFactionDef>PlayerColony</defaultFactionDef>
     <lifeStages>
       <li>

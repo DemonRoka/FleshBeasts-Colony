@@ -122,8 +122,6 @@
         <li>FleshVeins</li>
       </floorDefs>
       <buildIntervalTicks>100</buildIntervalTicks>
-      <hemogelCostFloor>5</hemogelCostFloor>
-      <hemogelCostWall>5</hemogelCostWall>
       <autoBuildLabel>FB_AutoGrowthLabel</autoBuildLabel>
       <autoBuildIconPath>UI/Commands/AutoGrowth</autoBuildIconPath>
     </li>

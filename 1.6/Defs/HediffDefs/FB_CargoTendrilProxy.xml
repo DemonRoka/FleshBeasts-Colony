@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Состояние: cargo tendril proxy perceptual shroud (FB_CargoTendrilProxyInvisibility) -->
+  <HediffDef>
+    <defName>FB_CargoTendrilProxyInvisibility</defName>
+    <label>cargo tendril perceptual shroud</label>
+    <description>This hauling tendril proxy is psychically folded out of hostile attention, causing enemies to ignore it as a target.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <comps>
+      <li Class="HediffCompProperties_Invisibility">
+        <visibleToPlayer>false</visibleToPlayer>
+        <fadeDurationTicks>1</fadeDurationTicks>
+        <recoverFromDisruptedTicks>0</recoverFromDisruptedTicks>
+        <affectedByDisruptor>false</affectedByDisruptor>
+      </li>
+      <li Class="HediffCompProperties_DisappearsOnDeath" />
+    </comps>
+  </HediffDef>
+</Defs>

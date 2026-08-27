@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_OutpostBeastsTab>Beasts</FB_OutpostBeastsTab>
+  <FB_OutpostBeastsStock>Ready in this outpost: {0}</FB_OutpostBeastsStock>
+  <FB_OutpostBillReserve>Reserve: {0} hemogel</FB_OutpostBillReserve>
+  <FB_OutpostBillOption>{0} ({1} hemogel each)</FB_OutpostBillOption>
+  <FB_OutpostBillFinished>Finished</FB_OutpostBillFinished>
+  <FB_OutpostBillWaitingHemogel>Waiting for hemogel</FB_OutpostBillWaitingHemogel>
+  <FB_OutpostBillGrowing>Growing: {0} left</FB_OutpostBillGrowing>
+  <FB_OutpostBillStockReached>Stock is already {0} - growing is paused</FB_OutpostBillStockReached>
+  <FB_FleshGarrisonCardTooltip>{0}\nIn stock: {1}\nAssault strength each: {2}</FB_FleshGarrisonCardTooltip>
+  <FB_FleshAssaultDeployTitle>Send a pack against {0}</FB_FleshAssaultDeployTitle>
+  <FB_FleshAssaultDeployCategory>Fleshbeasts</FB_FleshAssaultDeployCategory>
+  <FB_FleshAssaultDeployStrength>{0} str</FB_FleshAssaultDeployStrength>
+  <FB_FleshAssaultDeployInfoUnits>Beasts</FB_FleshAssaultDeployInfoUnits>
+  <FB_FleshAssaultDeployInfoUnitsTip>How many beasts will leave with this party.</FB_FleshAssaultDeployInfoUnitsTip>
+  <FB_FleshAssaultDeployInfoStrength>Pack strength</FB_FleshAssaultDeployInfoStrength>
+  <FB_FleshAssaultDeployInfoStrengthTip>Combined combat power of the marked beasts, in vanilla points.</FB_FleshAssaultDeployInfoStrengthTip>
+  <FB_FleshAssaultDeployInfoDefence>Defence</FB_FleshAssaultDeployInfoDefence>
+  <FB_FleshAssaultDeployInfoDefenceTip>The defence of {0} is rated at this many points.</FB_FleshAssaultDeployInfoDefenceTip>
+  <FB_FleshAssaultDeployInfoVerdict>Forecast</FB_FleshAssaultDeployInfoVerdict>
+  <FB_FleshAssaultDeployInfoVerdictTip>The calculated outcome if the battle is resolved automatically. A manual battle can go differently.</FB_FleshAssaultDeployInfoVerdictTip>
+  <FB_FleshAssaultDeploySortCategory>By name</FB_FleshAssaultDeploySortCategory>
+  <FB_FleshAssaultDeploySortStrength>By strength</FB_FleshAssaultDeploySortStrength>
+  <FB_FleshAssaultDeployAvailableTip>How many beasts of this kind the outpost has in stock.</FB_FleshAssaultDeployAvailableTip>
+  <FB_FleshAssaultGarrisonEmpty>This outpost has no grown beasts. Add a growth order in the outpost's Beasts tab first.</FB_FleshAssaultGarrisonEmpty>
+</LanguageData>

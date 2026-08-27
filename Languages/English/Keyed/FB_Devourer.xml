@@ -7,13 +7,14 @@
   <FB_Devourer_RejectOwn>Cannot devour player-owned pawns or animals.</FB_Devourer_RejectOwn>
   <FB_Devourer_RejectNonHostile>Can only devour hostile targets.</FB_Devourer_RejectNonHostile>
   <FB_Devourer_RejectMech>Cannot devour mechanoids.</FB_Devourer_RejectMech>
-  <FB_Devourer_RejectTooLarge>{0} is too large to swallow. Maximum body size: {1}.</FB_Devourer_RejectTooLarge>
+  <FB_Devourer_RejectTooLarge>The target is too large to swallow.</FB_Devourer_RejectTooLarge>
+  <FB_Devourer_RejectMassCapacity>Not enough room in the devourer's stomach.</FB_Devourer_RejectMassCapacity>
   <FB_Devourer_RejectUnreachable>Cannot reach the target.</FB_Devourer_RejectUnreachable>
   <FB_Devourer_RejectOutOfRange>The target is outside the devour range of {0} cells.</FB_Devourer_RejectOutOfRange>
   <FB_Devourer_Swallowed>{0} swallowed {1}.</FB_Devourer_Swallowed>
   <FB_Devourer_ReleasedOnDeath>{0} swallowed victims burst free.</FB_Devourer_ReleasedOnDeath>
 
-  <FB_Devourer_ContainedInspect>Contained: {0} / {1}</FB_Devourer_ContainedInspect>
+  <FB_Devourer_ContainedInspect>Contained mass: {0} / {1}. Victims: {2}.</FB_Devourer_ContainedInspect>
   <FB_Devourer_DigestingInspect>Digesting: {0} nutrition remaining. Hemogel: {1}/h.</FB_Devourer_DigestingInspect>
   <FB_Devourer_HemogelRate>Digestion: {0} hemogel/h</FB_Devourer_HemogelRate>
 </LanguageData>

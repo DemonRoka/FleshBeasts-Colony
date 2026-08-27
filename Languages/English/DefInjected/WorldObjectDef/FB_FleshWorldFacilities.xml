@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_FleshBulwark.label>flesh bulwark</FB_FleshBulwark.label>
+  <FB_FleshBulwark.description>A hardened knot of defensive tissue. It does not extract hemogel, but the surrounding covered tiles grow thick armoured plating that turns aside outside raids.</FB_FleshBulwark.description>
+  <FB_FleshTreeNursery.label>flesh tree and leaf nursery</FB_FleshTreeNursery.label>
+  <FB_FleshTreeNursery.description>An abstract planetary growth site that accelerates hemogel extraction from its covered world tile.</FB_FleshTreeNursery.description>
+  <FB_FleshRiverSiphon.label>great river siphon</FB_FleshRiverSiphon.label>
+  <FB_FleshRiverSiphon.description>An abstract planetary organ that drinks from rivers, lakes or nearby coasts and greatly accelerates hemogel extraction from its covered world tile.</FB_FleshRiverSiphon.description>
+  <FB_FleshAmbushCamp.label>flesh ambush camp</FB_FleshAmbushCamp.label>
+  <FB_FleshAmbushCamp.description>An abstract planetary trap-camp that harvests hemogel from its covered tile and stores occasional loot taken from animals and passing caravans.</FB_FleshAmbushCamp.description>
+</LanguageData>

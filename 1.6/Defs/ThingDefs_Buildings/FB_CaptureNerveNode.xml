@@ -4,7 +4,7 @@
   <ThingDef ParentName="BuildingColonyFleshBase">
     <defName>FB_CaptureNerveNode</defName>
     <label>capture nerve node</label>
-    <description>A small relay-organ of wet nerves and gripping reflex tissue. It links to the nearest colony heart, expands the heart's grasping tendril capacity, and relays that heart's tendril commands.</description>
+    <description>A small relay-organ of wet nerves and gripping reflex tissue. It links to the nearest colony heart and adds one shared grasping tendril slot. Without a heart, all capture nerve nodes on the map combine their slots into one autonomous capture pool.</description>
     <drawerType>MapMeshAndRealTime</drawerType>
     <size>(1,1)</size>
     <tickerType>Normal</tickerType>
@@ -49,6 +49,24 @@
     <comps>
       <li Class="FB.CompProperties_CaptureNerveNode">
         <extraCaptureSlots>1</extraCaptureSlots>
+      </li>
+      <li Class="FB.CompProperties_BuildingSpawnThing">
+        <thingDefToSpawn>FB_GraspingTendrils</thingDefToSpawn>
+        <allowedTerrains>
+          <li>Flesh</li>
+          <li>FleshVeins</li>
+          <li>RootFlesh</li>
+          <li>RootFleshVeins</li>
+        </allowedTerrains>
+        <gizmoLabel>FB_RaiseGraspingTendrilsLabel</gizmoLabel>
+        <gizmoDesc>FB_RaiseGraspingTendrilsDesc</gizmoDesc>
+        <iconPath>UI/Abilities/RaiseGraspingTendrils</iconPath>
+        <rejectMessage>FB_CannotPlaceTendrilsHere</rejectMessage>
+        <enabledByDefault>true</enabledByDefault>
+        <maxSimultaneous>1</maxSimultaneous>
+        <searchRadius>60</searchRadius>
+        <checkIntervalTicks>1000</checkIntervalTicks>
+        <researchToAvoidFriendly>FB_FriendlyCaptureRecognition</researchToAvoidFriendly>
       </li>
       <li Class="FB.CompProperties_HemogelUpkeep">
         <hemogelPerHour>0.7</hemogelPerHour>

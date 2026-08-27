@@ -5,7 +5,7 @@
     <label>personality devourer</label>
     <overrideDeathOnDownedChance>0.9</overrideDeathOnDownedChance>
     <race>FB_PersonalityDevourer</race>
-    <combatPower>150</combatPower>
+    <combatPower>70</combatPower>
     <defaultFactionDef>PlayerColony</defaultFactionDef>
     <abilities>
       <li>FB_PersonalityDevourerConsumeMemory</li>

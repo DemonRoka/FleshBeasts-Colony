@@ -5,7 +5,7 @@
     <defName>FB_GraftmawKind</defName>
     <label>graftmaw</label>
     <race>FB_Graftmaw</race>
-    <combatPower>55</combatPower>
+    <combatPower>15</combatPower>
     <defaultFactionDef>PlayerColony</defaultFactionDef>
     <forceNoDeathNotification>true</forceNoDeathNotification>
     <lifeStages>

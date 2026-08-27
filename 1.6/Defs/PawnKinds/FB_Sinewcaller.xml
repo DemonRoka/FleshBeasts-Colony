@@ -6,7 +6,7 @@
     <label>sinewcaller</label>
     <race>FB_Sinewcaller</race>
     <defaultFactionDef>PlayerColony</defaultFactionDef>
-    <combatPower>40</combatPower>
+    <combatPower>12</combatPower>
     <forceNoDeathNotification>true</forceNoDeathNotification>
     <lifeStages>
       <li>

@@ -6,7 +6,7 @@
   <label>nerveclot</label>
   <race>FB_Nerveclot</race>
   <forceDeathOnDowned>true</forceDeathOnDowned>
-  <combatPower>90</combatPower>
+  <combatPower>20</combatPower>
   <defaultFactionDef>PlayerColony</defaultFactionDef>
   <lifeStages>
     <li>

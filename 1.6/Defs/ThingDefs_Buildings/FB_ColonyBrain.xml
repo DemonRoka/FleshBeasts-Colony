@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <!-- Постройка: Colony Brain (FB_ColonyBrain) -->
   <ThingDef ParentName="BuildingColonyFleshBaseAnimation">
@@ -454,13 +454,12 @@
           </li>
         </structurePairs>
       </li>
-      <li Class="FB.CompProperties_ColonyBrainTendrilHauling">
+      <li Class="FB.CompProperties_CargoTendrilPawnHauling">
+        <proxyPawnKind>FB_CargoTendrilProxyKind</proxyPawnKind>
         <maxActiveTendrils>10</maxActiveTendrils>
         <defaultActiveTendrils>5</defaultActiveTendrils>
         <hemogelPerTendrilPerHour>0.3</hemogelPerTendrilPerHour>
         <tendrilReach>7</tendrilReach>
-        <scanIntervalTicks>180</scanIntervalTicks>
-        <maxCandidatesPerScan>35</maxCandidatesPerScan>
         <anchorSearchRadius>4</anchorSearchRadius>
         <captureRadiusFromFlesh>5</captureRadiusFromFlesh>
         <routeSpacingFactor>0.85</routeSpacingFactor>

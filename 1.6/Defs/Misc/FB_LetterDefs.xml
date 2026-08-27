@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <LetterDef>
+    <defName>FB_FleshAssaultArrival</defName>
+    <letterClass>FB.ChoiceLetter_FleshAssaultArrival</letterClass>
+    <color>(95, 151, 191)</color>
+    <flashInterval>-1</flashInterval>
+  </LetterDef>
+
+</Defs>

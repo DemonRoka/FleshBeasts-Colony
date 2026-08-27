@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WorldObjectDef>
+    <defName>FB_FleshTerritoryTemporaryMap</defName>
+    <label>flesh territory</label>
+    <description>A temporary materialization of a world tile fully consumed by living flesh.</description>
+    <worldObjectClass>FB.FB_FleshTerritoryTemporaryMapParent</worldObjectClass>
+    <canHaveFaction>true</canHaveFaction>
+    <canHaveMap>true</canHaveMap>
+    <canBePlayerHome>false</canBePlayerHome>
+    <treatAsPlayerHome>false</treatAsPlayerHome>
+    <validLaunchTarget>false</validLaunchTarget>
+    <selectable>true</selectable>
+    <texture>World/Flesh/FleshTerritoryTemporaryMap</texture>
+    <mapGenerator>Encounter</mapGenerator>
+    <comps>
+      <li Class="WorldObjectCompProperties_FormCaravan" />
+    </comps>
+  </WorldObjectDef>
+</Defs>

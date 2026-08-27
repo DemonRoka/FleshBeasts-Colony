@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WorldObjectDef>
+    <defName>FB_FleshOutpost</defName>
+    <label>flesh outpost</label>
+    <description>An abstract nerve center that directs the spread of flesh across nearby world tiles.</description>
+    <worldObjectClass>FB.WorldObject_FleshOutpost</worldObjectClass>
+    <canHaveFaction>true</canHaveFaction>
+    <canHaveMap>false</canHaveMap>
+    <validLaunchTarget>false</validLaunchTarget>
+    <selectable>true</selectable>
+    <texture>World/Flesh/FleshOutpost</texture>
+    <expandingIcon>true</expandingIcon>
+    <expandingIconTexture>World/Flesh/FleshOutpost</expandingIconTexture>
+    <expandingIconDrawSize>0.9</expandingIconDrawSize>
+    <expandingIconPriority>18</expandingIconPriority>
+    <inspectorTabs>
+      <li>FB.WITab_FleshOutpostNetwork</li>
+    
+      <li>FB.WITab_FleshOutpostBeasts</li>
+      <li>FB.WITab_FleshOutpostStorage</li>
+    </inspectorTabs>
+  </WorldObjectDef>
+</Defs>

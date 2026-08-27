@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FB.FleshWorldStrategyDef>
+    <defName>FB_FleshWorldStrategy</defName>
+
+    <firstOutpostCost>30000</firstOutpostCost>
+    <outpostCost>30000</outpostCost>
+    <firstWorldReserve>15000</firstWorldReserve>
+    <outpostTileProductionFactor>0.5</outpostTileProductionFactor>
+
+    <baseCaptureCost>10000</baseCaptureCost>
+    <costRounding>1000</costRounding>
+    <emptyCaptureTicks>60000</emptyCaptureTicks>
+
+    <assaultPartyTicksPerMove>3300</assaultPartyTicksPerMove>
+    <assaultArrivalChoiceTicks>60000</assaultArrivalChoiceTicks>
+
+    <!-- Сила стаи считается в ванильных очках боевой мощи один к одному. -->
+    <assaultStrengthPerCombatPower>1</assaultStrengthPerCombatPower>
+    <assaultDefenderPoints>1375</assaultDefenderPoints>
+    <assaultRelationMinFactor>1</assaultRelationMinFactor>
+    <assaultRelationMaxFactor>1.1</assaultRelationMaxFactor>
+    <assaultSettlementCountFactorPerBase>0.015</assaultSettlementCountFactorPerBase>
+    <assaultSettlementCountMaxBonus>0.2</assaultSettlementCountMaxBonus>
+    <assaultNearbyFleshPreparednessRadius>15</assaultNearbyFleshPreparednessRadius>
+    <assaultNearbyFleshMaxBonus>0.15</assaultNearbyFleshMaxBonus>
+    <assaultMaxSurvivalFraction>0.85</assaultMaxSurvivalFraction>
+
+    <hillOffsetFlat>0</hillOffsetFlat>
+    <hillOffsetSmallHills>0.5</hillOffsetSmallHills>
+    <hillOffsetLargeHills>1.5</hillOffsetLargeHills>
+    <hillOffsetMountainous>3</hillOffsetMountainous>
+
+    <!--
+      Сколько очков стаи нужно на очко обороны поселения. Неолит (1.3) и индустриал (2.4)
+      измерены ручными боями твердошипами; spacer и выше - экстраполяция по качеству брони.
+    -->
+    <techFactorAnimal>1.1</techFactorAnimal>
+    <techFactorNeolithic>1.3</techFactorNeolithic>
+    <techFactorMedieval>1.7</techFactorMedieval>
+    <techFactorIndustrial>2.4</techFactorIndustrial>
+    <techFactorSpacer>3.5</techFactorSpacer>
+    <techFactorUltra>4.4</techFactorUltra>
+    <techFactorArchotech>5.5</techFactorArchotech>
+    <techFactorUndefined>2.4</techFactorUndefined>
+
+    <coverageThreshold>0.6</coverageThreshold>
+    <tileBiomassResourcePerEcology>300000</tileBiomassResourcePerEcology>
+    <coveredTileCapacity>100000</coveredTileCapacity>
+    <passiveNutritionDrainPerHour>250</passiveNutritionDrainPerHour>
+    <productiveHemogelPerHour>125</productiveHemogelPerHour>
+    <depletedHemogelPerHour>10</depletedHemogelPerHour>
+    <firstVisitFingerspikeCount>3</firstVisitFingerspikeCount>
+    <firstVisitTrispikeCount>2</firstVisitTrispikeCount>
+    <firstVisitToughspikeCount>1</firstVisitToughspikeCount>
+    <outpostWorldObjectDef>FB_FleshOutpost</outpostWorldObjectDef>
+  </FB.FleshWorldStrategyDef>
+</Defs>

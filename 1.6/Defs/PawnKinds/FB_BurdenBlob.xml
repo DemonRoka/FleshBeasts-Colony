@@ -5,7 +5,7 @@
     <defName>FB_BurdenBlobKind</defName>
     <label>burden blob</label>
     <race>FB_BurdenBlob</race>
-    <combatPower>10</combatPower>
+    <combatPower>4</combatPower>
     <forceNoDeathNotification>true</forceNoDeathNotification>
     <forceDeathOnDowned>true</forceDeathOnDowned>
     <defaultFactionDef>PlayerColony</defaultFactionDef>

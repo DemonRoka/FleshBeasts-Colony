@@ -5,7 +5,7 @@
     <defName>FB_DenseWeaver</defName>
     <label>dense weaver</label>
     <race>FB_DenseWeaver</race>
-    <combatPower>25</combatPower>
+    <combatPower>8</combatPower>
     <lifeStages>
       <li>
         <bodyGraphicData>

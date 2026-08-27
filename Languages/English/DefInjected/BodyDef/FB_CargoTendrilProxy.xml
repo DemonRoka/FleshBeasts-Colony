@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_CargoTendrilProxyBody.label>cargo tendril proxy</FB_CargoTendrilProxyBody.label>
+  <FB_CargoTendrilProxyBody.corePart.parts.4.customLabel>left lung</FB_CargoTendrilProxyBody.corePart.parts.4.customLabel>
+  <FB_CargoTendrilProxyBody.corePart.parts.5.customLabel>right lung</FB_CargoTendrilProxyBody.corePart.parts.5.customLabel>
+  <FB_CargoTendrilProxyBody.corePart.parts.6.customLabel>left kidney</FB_CargoTendrilProxyBody.corePart.parts.6.customLabel>
+  <FB_CargoTendrilProxyBody.corePart.parts.7.customLabel>right kidney</FB_CargoTendrilProxyBody.corePart.parts.7.customLabel>
+  <FB_CargoTendrilProxyBody.corePart.parts.9.parts.1.customLabel>left eye</FB_CargoTendrilProxyBody.corePart.parts.9.parts.1.customLabel>
+  <FB_CargoTendrilProxyBody.corePart.parts.9.parts.2.customLabel>right eye</FB_CargoTendrilProxyBody.corePart.parts.9.parts.2.customLabel>
+  <FB_CargoTendrilProxyBody.corePart.parts.10.customLabel>left hauling pseudopod</FB_CargoTendrilProxyBody.corePart.parts.10.customLabel>
+  <FB_CargoTendrilProxyBody.corePart.parts.11.customLabel>right hauling pseudopod</FB_CargoTendrilProxyBody.corePart.parts.11.customLabel>
+</LanguageData>

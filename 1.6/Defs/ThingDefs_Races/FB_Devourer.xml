@@ -4,7 +4,7 @@
   <ThingDef ParentName="BaseFleshbeast">
     <defName>FB_Devourer</defName>
     <label>devourer</label>
-    <description>A tank fleshbeast that swallows hostile targets and digests them into hemogel.</description>
+    <description>A tank fleshbeast that swallows valid prey within its stomach mass limits and digests them into hemogel.</description>
     <tradeability>None</tradeability>
     <uiIconPath>Things/Pawn/FB_Devourer/FB_Devourer_Closed_south</uiIconPath>
     <statBases>
@@ -66,8 +66,8 @@
     <comps>
       <li Class="FB.CompProperties_FleshbeastDraftable" />
       <li Class="FB.CompProperties_DevourerContainment">
-        <maxCapacity>5</maxCapacity>
-        <maxTargetBodySize>2.5</maxTargetBodySize>
+        <maxContainedMass>200</maxContainedMass>
+        <maxTargetMass>150</maxTargetMass>
         <digestionIntervalTicks>250</digestionIntervalTicks>
         <digestionDamage>10</digestionDamage>
         <hemogelProductionPerHour>50</hemogelProductionPerHour>

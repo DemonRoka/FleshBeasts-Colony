@@ -5,7 +5,7 @@
     <defName>FB_Shardlings</defName>
     <label>shardlings</label>
     <race>FB_Shardlings</race>
-    <combatPower>25</combatPower>
+    <combatPower>8</combatPower>
     <alternateGraphicChance>0.8</alternateGraphicChance>
     <alternateGraphics>
       <li>

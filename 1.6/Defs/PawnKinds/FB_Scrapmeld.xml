@@ -5,7 +5,7 @@
     <defName>FB_ScrapmeldKind</defName>
     <label>scrapmeld</label>
     <race>FB_Scrapmeld</race>
-    <combatPower>25</combatPower>
+    <combatPower>10</combatPower>
     <lifeStages>
       <li>
         <bodyGraphicData>
@@ -22,7 +22,7 @@
     <defName>FB_ScrapmeldNestlingKind</defName>
     <label>scrapmeld seed</label>
     <race>FB_ScrapmeldNestling</race>
-    <combatPower>12</combatPower>
+    <combatPower>4</combatPower>
     <lifeStages>
       <li>
         <bodyGraphicData>

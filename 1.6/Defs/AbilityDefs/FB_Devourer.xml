@@ -3,7 +3,7 @@
   <AbilityDef>
   <defName>FB_DevourerDevour</defName>
   <label>devour target</label>
-  <description>Charge into a nearby hostile target and swallow it.</description>
+  <description>Charge into a nearby non-player pawn or animal and swallow it if its mass fits the devourer's remaining stomach capacity. Automatic use only chooses hostile outsiders.</description>
   <iconPath>UI/Commands/DevourerDevour</iconPath>
   <cooldownTicksRange>1000</cooldownTicksRange>
   <targetRequired>true</targetRequired>
@@ -22,7 +22,8 @@
     <targetParams>
       <canTargetSelf>false</canTargetSelf>
       <canTargetPawns>true</canTargetPawns>
-      <canTargetMechs>false</canTargetMechs>
+      <canTargetAnimals>true</canTargetAnimals>
+      <canTargetMechs>true</canTargetMechs>
       <canTargetBuildings>false</canTargetBuildings>
       <canTargetLocations>false</canTargetLocations>
       <canTargetItems>false</canTargetItems>

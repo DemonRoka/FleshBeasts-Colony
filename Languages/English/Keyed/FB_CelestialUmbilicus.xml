@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <FB_ColonyBrain_Structure_CelestialUmbilicus_Label>Celestial Umbilicus</FB_ColonyBrain_Structure_CelestialUmbilicus_Label>
-  <FB_ColonyBrain_Structure_CelestialUmbilicus_Desc>Grows a living orbital tether by consuming hemogel power from the colony network.</FB_ColonyBrain_Structure_CelestialUmbilicus_Desc>
   <FB_CelestialUmbilicusStartLabel>Start celestial budding</FB_CelestialUmbilicusStartLabel>
   <FB_CelestialUmbilicusStartDesc>Awakens the umbilicus and begins growth. It needs {0} total growth work; current flow is {1} hemogel/h and can be raised up to {2} hemogel/h.</FB_CelestialUmbilicusStartDesc>
   <FB_CelestialUmbilicusStartWarning>Awakening the celestial umbilicus cannot be cancelled. It will consume hemogel power from the network until {0} growth work is complete. Current flow: {1} hemogel/h; maximum flow: {2} hemogel/h. Every non-player faction will turn hostile. Continue?</FB_CelestialUmbilicusStartWarning>
@@ -47,18 +45,24 @@
   <FB_CelestialUmbilicusPortalCreateFailed>Failed to stabilize the celestial umbilicus into a portal.</FB_CelestialUmbilicusPortalCreateFailed>
   
   
-  <FB_FleshMoonWorldObjectViewMoonMapLabel>View flesh moon interior</FB_FleshMoonWorldObjectViewMoonMapLabel>
-  <FB_FleshMoonWorldObjectViewMoonMapDesc>Jump to the generated interior map of the flesh moon.</FB_FleshMoonWorldObjectViewMoonMapDesc>
   
 
   <FB_FleshMoonWorldObjectMoveLabel>Move flesh moon</FB_FleshMoonWorldObjectMoveLabel>
   <FB_FleshMoonWorldObjectMoveDesc>Choose a surface tile and send the flesh moon drifting toward it. The surface umbilicus must be detached first.</FB_FleshMoonWorldObjectMoveDesc>
   <FB_FleshMoonWorldObjectStopMoveLabel>Stop flight</FB_FleshMoonWorldObjectStopMoveLabel>
   <FB_FleshMoonWorldObjectStopMoveDesc>End the current relocation over the nearest valid surface tile beneath the moving flesh moon.</FB_FleshMoonWorldObjectStopMoveDesc>
-  <FB_FleshMoonWorldObjectAnchorLabel>Anchor umbilicus</FB_FleshMoonWorldObjectAnchorLabel>
-  <FB_FleshMoonWorldObjectAnchorDesc>Load the surface tile below the flesh moon, pause the game, and choose the exact impact site for the celestial umbilicus.</FB_FleshMoonWorldObjectAnchorDesc>
+  <FB_FleshMoonWorldObjectAnchorLabel>Deploy physical umbilicus</FB_FleshMoonWorldObjectAnchorLabel>
+  <FB_FleshMoonWorldObjectAnchorDesc>Generate or load the surface map below the flesh moon and deploy a physical celestial umbilicus. Use this tactical channel for settlements, landing pawns, and moving cargo.</FB_FleshMoonWorldObjectAnchorDesc>
+  <FB_FleshMoonWorldObjectMaplessAnchorLabel>Lower feeding umbilicus</FB_FleshMoonWorldObjectMaplessAnchorLabel>
+  <FB_FleshMoonWorldObjectMaplessAnchorDesc>Attach the celestial umbilicus to the valid surface tile below without generating a map. It immediately starts extracting the tile's finite nutrition into the Moon reserve. If the tile is or becomes covered with flesh, the Moon also joins that territory's hemogel network. This works on empty or covered tiles and abstract flesh outposts, but not on settlements, sites, or loaded maps.</FB_FleshMoonWorldObjectMaplessAnchorDesc>
+  <FB_FleshMoonWorldObjectChannelOpenLabel>Open physical channel</FB_FleshMoonWorldObjectChannelOpenLabel>
+  <FB_FleshMoonWorldObjectChannelOpenDesc>Materialize the logically anchored surface tile and automatically deploy the celestial umbilicus near the map center. This allows pawns and cargo to descend. Abstract outpost tiles cannot be materialized.</FB_FleshMoonWorldObjectChannelOpenDesc>
   <FB_FleshMoonWorldObjectDetachLabel>Detach umbilicus</FB_FleshMoonWorldObjectDetachLabel>
   <FB_FleshMoonWorldObjectDetachDesc>Sever the current surface umbilicus and remove its ground-side edge without moving the flesh moon.</FB_FleshMoonWorldObjectDetachDesc>
+  <FB_FleshMoonWorldObjectNetworkDisconnectLabel>Retract feeding umbilicus</FB_FleshMoonWorldObjectNetworkDisconnectLabel>
+  <FB_FleshMoonWorldObjectNetworkDisconnectDesc>Disconnect the Moon's mapless feeding umbilicus from its surface tile. No map is generated or removed.</FB_FleshMoonWorldObjectNetworkDisconnectDesc>
+  <FB_FleshMoonWorldObjectChannelRetractLabel>Retract physical channel</FB_FleshMoonWorldObjectChannelRetractLabel>
+  <FB_FleshMoonWorldObjectChannelRetractDesc>Retract the physical celestial umbilicus while keeping the Moon's mapless feeding connection to this surface tile.</FB_FleshMoonWorldObjectChannelRetractDesc>
   <FB_FleshMoonWorldObjectInactiveDisabled>The flesh moon is not active.</FB_FleshMoonWorldObjectInactiveDisabled>
   <FB_FleshMoonWorldObjectAbsorbingDisabled>The flesh moon is absorbing the colony.</FB_FleshMoonWorldObjectAbsorbingDisabled>
   <FB_FleshMoonWorldObjectMovingDisabled>The flesh moon is already moving.</FB_FleshMoonWorldObjectMovingDisabled>
@@ -69,7 +73,6 @@
   <FB_FleshMoonWorldObjectAnchorLinkedDisabled>The flesh moon is already anchored.</FB_FleshMoonWorldObjectAnchorLinkedDisabled>
   <FB_FleshMoonWorldObjectNoLinkedUmbilicus>The flesh moon has no active surface umbilicus.</FB_FleshMoonWorldObjectNoLinkedUmbilicus>
   <FB_FleshMoonWorldObjectNoSurfaceTile>The flesh moon has no surface tile below it.</FB_FleshMoonWorldObjectNoSurfaceTile>
-  <FB_FleshMoonWorldObjectMoveTargetLabel>Move flesh moon here</FB_FleshMoonWorldObjectMoveTargetLabel>
   <FB_FleshMoonWorldObjectMoveTargetTimed>Move flesh moon here: {0}</FB_FleshMoonWorldObjectMoveTargetTimed>
   <FB_FleshMoonWorldObjectInvalidTarget>Choose a valid surface tile.</FB_FleshMoonWorldObjectInvalidTarget>
   <FB_FleshMoonWorldObjectTargetImpassable>The flesh moon cannot anchor above impassable world terrain.</FB_FleshMoonWorldObjectTargetImpassable>
@@ -85,6 +88,9 @@
   <FB_FleshMoonStopMoveNoValidTile>No valid surface tile was found beneath the moving flesh moon.</FB_FleshMoonStopMoveNoValidTile>
   <FB_FleshMoonAnchored>Celestial umbilicus anchored.</FB_FleshMoonAnchored>
   <FB_FleshMoonDetached>Celestial umbilicus detached.</FB_FleshMoonDetached>
+  <FB_FleshMoonMaplessAnchored>The feeding umbilicus is attached to world tile {0} without generating a map.</FB_FleshMoonMaplessAnchored>
+  <FB_FleshMoonNetworkDisconnected>Flesh moon disconnected from the planetary network.</FB_FleshMoonNetworkDisconnected>
+  <FB_FleshMoonChannelRetracted>The physical channel has retracted; the flesh moon keeps its mapless feeding connection to the surface tile.</FB_FleshMoonChannelRetracted>
   <FB_FleshMoonAnchorFailed>Failed to anchor the celestial umbilicus.</FB_FleshMoonAnchorFailed>
   <FB_FleshMoonSettlementAnchorLetterLabel>Settlement pierced</FB_FleshMoonSettlementAnchorLetterLabel>
   <FB_FleshMoonSettlementAnchorLetterText>The celestial umbilicus has pierced {0}, opening a surface portal inside the settlement. This is an attack; expect immediate resistance.</FB_FleshMoonSettlementAnchorLetterText>
@@ -101,6 +107,7 @@
   <FB_FleshMoonUmbilicusRetractionStarted>The celestial umbilicus is retracting. Remaining time: {0}.</FB_FleshMoonUmbilicusRetractionStarted>
   <FB_FleshMoonInspectUmbilicusRetracting>Celestial umbilicus retracting: {0} remaining.</FB_FleshMoonInspectUmbilicusRetracting>
   <FB_FleshMoonUmbilicusReadyInspect>Collapsed celestial umbilicus ready for deployment.</FB_FleshMoonUmbilicusReadyInspect>
+  <FB_FleshMoonUmbilicusMaplessInspect>Feeding umbilicus attached without a surface map. Using Return through the umbilicus will materialize the tile and open a physical channel.</FB_FleshMoonUmbilicusMaplessInspect>
   <FB_FleshMoonUmbilicusMissingInspect>The surface umbilicus was severed. Start regrowth to replace it. Upkeep while growing: {0}/h.</FB_FleshMoonUmbilicusMissingInspect>
   <FB_FleshMoonUmbilicusRegrowthInspect>Umbilicus regrowth: {0}% complete; {1} remaining; upkeep {2}/h.</FB_FleshMoonUmbilicusRegrowthInspect>
   <FB_FleshMoonUmbilicusRegrowthStalledInspect>Regrowth stalled: the flesh moon has no hemogel to feed it.</FB_FleshMoonUmbilicusRegrowthStalledInspect>

@@ -5,7 +5,7 @@
     <label>stingmite</label>
     <labelPlural>stingmites</labelPlural>
     <race>FB_Stingmite</race>
-    <combatPower>18</combatPower>
+    <combatPower>15</combatPower>
     <canMeleeAttack>false</canMeleeAttack>
     <forceDeathOnDowned>true</forceDeathOnDowned>
     <forceNoDeathNotification>true</forceNoDeathNotification>

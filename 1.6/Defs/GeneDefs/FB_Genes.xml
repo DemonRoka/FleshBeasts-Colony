@@ -18,8 +18,14 @@
     <defName>FB_FleshbeastBody</defName>
     <label>fleshbeast body</label>
     <labelShortAdj>fleshbeast</labelShortAdj>
-    <description>Carriers are reshaped into a humanoid fleshbeast: hair and ordinary skin give way to living fleshbeast tissue and a warped head. The body feels far less pain, heals faster, and takes slightly less damage, but becomes deeply unsettling to others.</description>
+    <description>Carriers are reshaped into a humanoid fleshbeast: hair and ordinary skin give way to living fleshbeast tissue and a warped head. The body feels far less pain, heals faster, and takes slightly less damage, but becomes deeply unsettling to others. Vital systems spread through the whole mass, so a killing blow tears the carrier into two younger bodies instead of killing them. Cannot be combined with fragmentation - a body can come apart in only one way.</description>
     <iconPath>UI/Icons/Genes/Gene_FleshbeastTransformation</iconPath>
+    <geneClass>FB.Gene_HediffMaintainer</geneClass>
+    <modExtensions>
+      <li Class="FB.GeneLinkedHediffExtension">
+        <hediffDef>FB_DecentralizedOrganism</hediffDef>
+      </li>
+    </modExtensions>
     <biostatArc>2</biostatArc>
     <biostatMet>-2</biostatMet>
     <biostatCpx>1</biostatCpx>
@@ -50,6 +56,7 @@
       <li>HairStyle</li>
       <li>Fur</li>
       <li>BeardStyle</li>
+      <li>FleshBeastsDeathDivision</li>
     </exclusionTags>
     <forcedHeadTypes>
       <li>FleshbeastHead</li>

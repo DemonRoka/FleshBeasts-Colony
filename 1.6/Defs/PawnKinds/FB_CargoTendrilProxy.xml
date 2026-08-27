@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Вид пешки: cargo tendril proxy (FB_CargoTendrilProxyKind) -->
+  <PawnKindDef ParentName="BaseFleshbeastKind">
+    <defName>FB_CargoTendrilProxyKind</defName>
+    <label>cargo tendril proxy</label>
+    <race>FB_CargoTendrilProxy</race>
+    <combatPower>5</combatPower>
+    <forceNoDeathNotification>true</forceNoDeathNotification>
+    <forceDeathOnDowned>true</forceDeathOnDowned>
+    <defaultFactionDef>PlayerColony</defaultFactionDef>
+    <overrideDebugActionCategory>FleshBeasts</overrideDebugActionCategory>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/FB_CargoTendrilProxy/FB_CargoTendrilProxy</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>0.85</drawSize>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+</Defs>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_OutpostBeastsTab>Биошматы</FB_OutpostBeastsTab>
+  <FB_OutpostBeastsStock>Готово в этом аванпосте: {0}</FB_OutpostBeastsStock>
+  <FB_OutpostBillReserve>Резерв: {0} гемогеля</FB_OutpostBillReserve>
+  <FB_OutpostBillOption>{0} ({1} гемогеля за штуку)</FB_OutpostBillOption>
+  <FB_OutpostBillFinished>Завершён</FB_OutpostBillFinished>
+  <FB_OutpostBillWaitingHemogel>Ожидание гемогеля</FB_OutpostBillWaitingHemogel>
+  <FB_OutpostBillGrowing>Растёт: осталось {0}</FB_OutpostBillGrowing>
+  <FB_OutpostBillStockReached>В запасе уже {0} - выращивание на паузе</FB_OutpostBillStockReached>
+  <FB_FleshGarrisonCardTooltip>{0}\nВ запасе: {1}\nСила в штурме за штуку: {2}</FB_FleshGarrisonCardTooltip>
+  <FB_FleshAssaultDeployTitle>Отправить стаю на «{0}»</FB_FleshAssaultDeployTitle>
+  <FB_FleshAssaultDeployCategory>Биошматы</FB_FleshAssaultDeployCategory>
+  <FB_FleshAssaultDeployStrength>сила {0}</FB_FleshAssaultDeployStrength>
+  <FB_FleshAssaultDeployInfoUnits>Тварей</FB_FleshAssaultDeployInfoUnits>
+  <FB_FleshAssaultDeployInfoUnitsTip>Сколько тварей уйдёт с этим отрядом.</FB_FleshAssaultDeployInfoUnitsTip>
+  <FB_FleshAssaultDeployInfoStrength>Сила стаи</FB_FleshAssaultDeployInfoStrength>
+  <FB_FleshAssaultDeployInfoStrengthTip>Суммарная боевая мощь отмеченных тварей в ванильных очках.</FB_FleshAssaultDeployInfoStrengthTip>
+  <FB_FleshAssaultDeployInfoDefence>Оборона</FB_FleshAssaultDeployInfoDefence>
+  <FB_FleshAssaultDeployInfoDefenceTip>Во столько очков оценивается оборона «{0}».</FB_FleshAssaultDeployInfoDefenceTip>
+  <FB_FleshAssaultDeployInfoVerdict>Прогноз</FB_FleshAssaultDeployInfoVerdict>
+  <FB_FleshAssaultDeployInfoVerdictTip>Расчётный исход, если бой свернётся в автоматический. Ручной бой может пойти иначе.</FB_FleshAssaultDeployInfoVerdictTip>
+  <FB_FleshAssaultDeploySortCategory>По названию</FB_FleshAssaultDeploySortCategory>
+  <FB_FleshAssaultDeploySortStrength>По силе</FB_FleshAssaultDeploySortStrength>
+  <FB_FleshAssaultDeployAvailableTip>Сколько таких тварей есть в запасе аванпоста.</FB_FleshAssaultDeployAvailableTip>
+  <FB_FleshAssaultGarrisonEmpty>В этом аванпосте нет выращенных тварей. Сначала добавьте заказ во вкладке «Биошматы» самого аванпоста.</FB_FleshAssaultGarrisonEmpty>
+</LanguageData>

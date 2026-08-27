@@ -7,13 +7,14 @@
   <FB_Devourer_RejectOwn>Нельзя поглощать пешек и животных игрока.</FB_Devourer_RejectOwn>
   <FB_Devourer_RejectNonHostile>Можно поглощать только враждебные цели.</FB_Devourer_RejectNonHostile>
   <FB_Devourer_RejectMech>Нельзя поглощать механоидов.</FB_Devourer_RejectMech>
-  <FB_Devourer_RejectTooLarge>{0} слишком крупная цель. Максимальный размер тела: {1}.</FB_Devourer_RejectTooLarge>
+  <FB_Devourer_RejectTooLarge>Цель слишком большая, чтобы её заглотить.</FB_Devourer_RejectTooLarge>
+  <FB_Devourer_RejectMassCapacity>В желудке поглотителя не хватает места.</FB_Devourer_RejectMassCapacity>
   <FB_Devourer_RejectUnreachable>До цели нельзя добраться.</FB_Devourer_RejectUnreachable>
   <FB_Devourer_RejectOutOfRange>Цель находится вне радиуса поглощения в {0} клеток.</FB_Devourer_RejectOutOfRange>
   <FB_Devourer_Swallowed>{0} заглотил {1}.</FB_Devourer_Swallowed>
   <FB_Devourer_ReleasedOnDeath>{0} проглоченных жертв вырвались наружу.</FB_Devourer_ReleasedOnDeath>
 
-  <FB_Devourer_ContainedInspect>Внутри: {0} / {1}</FB_Devourer_ContainedInspect>
+  <FB_Devourer_ContainedInspect>Масса внутри: {0} / {1}. Жертв: {2}.</FB_Devourer_ContainedInspect>
   <FB_Devourer_DigestingInspect>Переваривание: осталось питательности {0}. Гемогель: {1}/ч.</FB_Devourer_DigestingInspect>
   <FB_Devourer_HemogelRate>Переваривание: {0} гемогеля/ч</FB_Devourer_HemogelRate>
 </LanguageData>

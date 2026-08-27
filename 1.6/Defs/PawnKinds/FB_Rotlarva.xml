@@ -5,7 +5,7 @@
     <defName>FB_Rotlarva</defName>
     <label>rotlarva</label>
     <race>FB_Rotlarva</race>
-    <combatPower>12</combatPower>
+    <combatPower>8</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
     <ecoSystemWeight>0.3</ecoSystemWeight>
     <lifeStages>

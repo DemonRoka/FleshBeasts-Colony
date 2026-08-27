@@ -11,6 +11,7 @@
   <FB_ManualFeedingNoFoodNeed>Этой пешке не требуется пища.</FB_ManualFeedingNoFoodNeed>
   <FB_ManualFeedingAlreadyFull>Пешка уже сыта.</FB_ManualFeedingAlreadyFull>
   <FB_ManualFeedingHeartUnavailable>Это сердце не может накормить пешку.</FB_ManualFeedingHeartUnavailable>
+  <FB_ManualFeedingSourceUnavailable>Этот источник гемогеля не может накормить пешку.</FB_ManualFeedingSourceUnavailable>
   <FB_ManualFeedingFeederUnavailable>Эта кормушка не может выдать пищу.</FB_ManualFeedingFeederUnavailable>
   <FB_ManualFeedingBlocked>Гемогелевое кормление этого сердца отключено.</FB_ManualFeedingBlocked>
   <FB_ManualFeedingForbidden>Эта постройка запрещена.</FB_ManualFeedingForbidden>

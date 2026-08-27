@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!--
+    Ценовая политика вкладки заказов аванпоста. Штурмовой аванпост выращивает только бойцов.
+    Цена = боевая ценность x 6, время = 250 + (ценность / 120)^1.5 x 2250 тиков,
+    поэтому дредмелд зреет ровно один игровой час, а лёгкие твари - за пять-восемь минут.
+  -->
+  <FB.FleshOutpostRosterDef>
+    <defName>FB_FleshOutpostRoster</defName>
+
+    <entries>
+
+      <!-- Лёгкие -->
+      <li>
+        <pawnKind>Fingerspike</pawnKind>
+        <hemogelCost>150</hemogelCost>
+        <growthTicks>450</growthTicks>
+      </li>
+      <li>
+        <pawnKind>FB_StingmiteKind</pawnKind>
+        <hemogelCost>90</hemogelCost>
+        <growthTicks>350</growthTicks>
+      </li>
+      <li>
+        <pawnKind>FB_FleshIntruderKind</pawnKind>
+        <hemogelCost>240</hemogelCost>
+        <growthTicks>700</growthTicks>
+      </li>
+
+      <!-- Средние -->
+      <li>
+        <pawnKind>Toughspike</pawnKind>
+        <hemogelCost>420</hemogelCost>
+        <growthTicks>1250</growthTicks>
+      </li>
+      <li>
+        <pawnKind>FB_ThrallbloomKind</pawnKind>
+        <hemogelCost>480</hemogelCost>
+        <growthTicks>1450</growthTicks>
+      </li>
+      <li>
+        <pawnKind>Trispike</pawnKind>
+        <hemogelCost>540</hemogelCost>
+        <growthTicks>1700</growthTicks>
+      </li>
+
+      <!-- Тяжёлые -->
+      <li>
+        <pawnKind>FB_DevourerKind</pawnKind>
+        <hemogelCost>540</hemogelCost>
+        <growthTicks>1700</growthTicks>
+      </li>
+      <!--
+        Слитые формы выращивать нельзя: их создают колонисты, облепляясь биошматами.
+        У ванильного бульбфрика combatPower 360, и мы его не трогаем, поэтому цена считается
+        по его собственной оценке (360 x 6), а не по реальной боевой ценности.
+      -->
+      <li>
+        <pawnKind>Bulbfreak</pawnKind>
+        <hemogelCost>2160</hemogelCost>
+        <growthTicks>1850</growthTicks>
+      </li>
+      <li>
+        <pawnKind>FB_SegmentedBastionKind</pawnKind>
+        <hemogelCost>570</hemogelCost>
+        <growthTicks>1850</growthTicks>
+      </li>
+      <li>
+        <pawnKind>FB_AcidBroodmotherKind</pawnKind>
+        <hemogelCost>600</hemogelCost>
+        <growthTicks>1950</growthTicks>
+      </li>
+      <li>
+        <pawnKind>FB_Dreadmeld</pawnKind>
+        <hemogelCost>720</hemogelCost>
+        <growthTicks>2500</growthTicks>
+      </li>
+
+    </entries>
+  </FB.FleshOutpostRosterDef>
+
+</Defs>

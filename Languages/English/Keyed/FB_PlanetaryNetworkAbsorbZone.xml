@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_PlanetaryNetworkAbsorbZoneLabel>Absorb zone</FB_PlanetaryNetworkAbsorbZoneLabel>
+  <FB_PlanetaryNetworkAbsorbZoneDesc>Dissolve this flesh organ back into the network. The tile stays covered, and {0} hemogel returns to the local reserve.</FB_PlanetaryNetworkAbsorbZoneDesc>
+  <FB_PlanetaryNetworkAbsorbZoneConfirm>Absorb {0}? It will be dissolved permanently and {1} hemogel will return to the local reserve.</FB_PlanetaryNetworkAbsorbZoneConfirm>
+  <FB_PlanetaryNetworkAbsorbZoneStoredWarning>Stored loot will be lost: {0} stack(s).</FB_PlanetaryNetworkAbsorbZoneStoredWarning>
+  <FB_PlanetaryNetworkAbsorbZoneDone>{0} was absorbed back into the network, returning {1} hemogel.</FB_PlanetaryNetworkAbsorbZoneDone>
+  <FB_PlanetaryNetworkAbsorbZoneActiveOrder>Cancel the active order before absorbing this outpost.</FB_PlanetaryNetworkAbsorbZoneActiveOrder>
+</LanguageData>

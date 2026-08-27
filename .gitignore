@@ -1,6 +1,10 @@
 ﻿# Codex local artifacts
 .codex/
 CodexBackups/
+
+# Claude local artifacts
+.claude/
+ClaudeBackups/
 tmp_*/
 decompiled_from_dll/
 
@@ -646,3 +650,12 @@ Assemblies/FleshBeasts.dll
 ArtistGitTools/ArtistGitApp.ps1
 ArtistGitTools/StartApp.cmd
 tools/codex-unused-scan.ps1
+
+CLAUDE.md
+tools/claude-run.ps1
+tools/claude-def-index.ps1
+tools/claude-context.ps1
+docs/claude-agent-setup.md
+docs/claude-settings.example.json
+docs/claude-skills/
+tools/install-claude-skills.cmd

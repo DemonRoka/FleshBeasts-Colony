@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 	<FB_ColonyBrain_Structure_CaptureNerveNode_Label>Узел захвата</FB_ColonyBrain_Structure_CaptureNerveNode_Label>
-	<FB_ColonyBrain_Structure_CaptureNerveNode_Desc>Увеличивает лимит хватательных щупалец сердца на один и передает команду щупалец этого сердца.</FB_ColonyBrain_Structure_CaptureNerveNode_Desc>
+	<FB_ColonyBrain_Structure_CaptureNerveNode_Desc>Добавляет один общий слот хватательных щупалец сердцу колонии. Без сердца все узлы захвата объединяют свои слоты в единый автономный пул.</FB_ColonyBrain_Structure_CaptureNerveNode_Desc>
 	<FB_CaptureNerveNode_NoLinkedHeart>Нет связанного сердца колонии.</FB_CaptureNerveNode_NoLinkedHeart>
-	<FB_CaptureNerveNode_NoCaptureSpawner>У связанного сердца нет рефлекса хватательных щупалец.</FB_CaptureNerveNode_NoCaptureSpawner>
+	<FB_CaptureNerveNode_NoCaptureSpawner>Нет рабочего рефлекса хватательных щупалец.</FB_CaptureNerveNode_NoCaptureSpawner>
 	<FB_CaptureNerveNode_SlotsInspect>Места узла: +{0}. Доступные места щупалец: {1} / {2}.</FB_CaptureNerveNode_SlotsInspect>
+	<FB_CaptureNerveNode_StandaloneSlotsInspect>Автономный пул захвата: {0} / {1} мест доступно.</FB_CaptureNerveNode_StandaloneSlotsInspect>
 	<FB_GraspingTendrils_HeartSlotsInspect>Места хватательных щупалец: {0} / {1} доступно.</FB_GraspingTendrils_HeartSlotsInspect>
 	<FB_GraspingTendrils_NextSlotReady>Следующее место щупалец восстановится через: {0}.</FB_GraspingTendrils_NextSlotReady>
 	<FB_GraspingTendrils_InvalidTarget>Недопустимая цель для хватательных щупалец.</FB_GraspingTendrils_InvalidTarget>

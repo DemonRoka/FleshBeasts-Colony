@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_FleshAssaultRosterSummary>Тварей: {0}   Сила стаи: {1}   Оборона: {2}   {3}</FB_FleshAssaultRosterSummary>
+  <FB_FleshAssaultRosterEmpty>Добавьте в стаю хотя бы одну тварь.</FB_FleshAssaultRosterEmpty>
+  <FB_FleshAssaultRosterLaunched>Штурмовая стая из {1} тварей движется на «{0}».</FB_FleshAssaultRosterLaunched>
+  <FB_FleshAssaultArrivalTitle>Стая достигла цели</FB_FleshAssaultArrivalTitle>
+  <FB_FleshAssaultArrivalText>Штурмовая стая добралась до «{0}». В ней {1} тварей общей силой {2}; оборона поселения оценивается в {3}.\n\nПровести бой лично или позволить стае решить его без загрузки карты?</FB_FleshAssaultArrivalText>
+  <FB_FleshAssaultArrivalManual>Ручной бой</FB_FleshAssaultArrivalManual>
+  <FB_FleshAssaultArrivalAuto>Автоматический бой</FB_FleshAssaultArrivalAuto>
+  <FB_FleshAssaultArrivalTimeout>Стая ждёт приказа {0}. Если не ответить, она проведёт бой сама.</FB_FleshAssaultArrivalTimeout>
+  <FB_FleshAssaultArrivalTimedOut>Стая у «{0}» не дождалась приказа и решила бой сама.</FB_FleshAssaultArrivalTimedOut>
+  <FB_FleshAssaultInspectAwaitingOrder>Ждёт приказа у клетки {0}
+До автоматического боя: {1}</FB_FleshAssaultInspectAwaitingOrder>
+  <FB_FleshAssaultBattleStarted>Стая высадилась у «{0}»: на карте {1} тварей. Карта удерживается, пока вы не отведёте отряд: выберите поселение на глобусе и нажмите «Отвести стаю».</FB_FleshAssaultBattleStarted>
+  <FB_FleshAssaultWithdrawLabel>Отвести стаю</FB_FleshAssaultWithdrawLabel>
+  <FB_FleshAssaultWithdrawDesc>Собрать караван возврата: отметить, какие твари уходят и что они утащат. После подтверждения карта свернётся, а стая понесёт добычу в родной аванпост.</FB_FleshAssaultWithdrawDesc>
+  <FB_FleshAssaultWithdrawDone>Стая отошла: вернулось тварей - {0}, добычи доставлено стаков - {1}.</FB_FleshAssaultWithdrawDone>
+  <FB_FleshAssaultCaravanTitle>Караван возврата</FB_FleshAssaultCaravanTitle>
+  <FB_FleshAssaultCaravanBeastsTab>Твари</FB_FleshAssaultCaravanBeastsTab>
+  <FB_FleshAssaultCaravanBeastsSection>Твари стаи</FB_FleshAssaultCaravanBeastsSection>
+  <FB_FleshAssaultCaravanCountTip>Сколько унести с поля боя.</FB_FleshAssaultCaravanCountTip>
+  <FB_FleshAssaultCaravanMass>Груз: {0} / {1} кг</FB_FleshAssaultCaravanMass>
+  <FB_FleshAssaultCaravanMassTip>Каждая тварь тащит {0} кг на единицу размера тела. Оглушённые и раненные до потери сознания твари не несут ничего.</FB_FleshAssaultCaravanMassTip>
+  <FB_FleshAssaultCaravanConfirm>Уйти караваном</FB_FleshAssaultCaravanConfirm>
+  <FB_FleshAssaultCaravanOverloaded>Стая столько не утащит: {0} кг при вместимости {1} кг.</FB_FleshAssaultCaravanOverloaded>
+  <FB_FleshAssaultCaravanAbandonConfirm>Оставленные твари схлопнутся вместе с картой и будут потеряны. Бросить на поле боя тварей: {0}?</FB_FleshAssaultCaravanAbandonConfirm>
+  <FB_FleshAssaultCaravanSent>Караван вышел: тварей - {0}, стаков груза - {1}. Он идёт к аванпосту по глобусу.</FB_FleshAssaultCaravanSent>
+  <FB_FleshAssaultCaravanArrived>Караван дошёл до аванпоста: тварей - {0}, добычи на складе - {1} стаков.</FB_FleshAssaultCaravanArrived>
+  <FB_FleshAssaultCaravanNoOutpost>Родного аванпоста больше нет: стая и добыча потеряны.</FB_FleshAssaultCaravanNoOutpost>
+  <FB_FleshAssaultCaravanAbandoned>Брошено на поле боя тварей: {0}.</FB_FleshAssaultCaravanAbandoned>
+  <FB_FleshAssaultCaravanCargoHeader>Груз: {0} стаков, {1} / {2} кг</FB_FleshAssaultCaravanCargoHeader>
+  <FB_FleshAssaultCaravanDropTip>Выбросить в пути</FB_FleshAssaultCaravanDropTip>
+  <FB_FleshAssaultCaravanDropConfirm>Выбросить «{0}» по дороге? Груз будет потерян.</FB_FleshAssaultCaravanDropConfirm>
+  <FB_FleshAssaultPartyBeastsTab>Состав</FB_FleshAssaultPartyBeastsTab>
+  <FB_FleshAssaultPartyBeastsSummary>Тварей: {0}   Сила стаи: {1}</FB_FleshAssaultPartyBeastsSummary>
+  <FB_FleshOutpostStoredItems>Добыча на складе: {0} стаков</FB_FleshOutpostStoredItems>
+  <FB_DevAssaultProbeLabel>РАЗР: оценка боя</FB_DevAssaultProbeLabel>
+  <FB_DevAssaultProbeDesc>Посчитать оборону карты и нашу стаю в ванильных очках боевой мощи. Отчёт уходит в лог и в окно.</FB_DevAssaultProbeDesc>
+  <FB_DevAssaultProbeReport>Оборона: {0} пешек, {1} очков (турелей: {2})\nСтая: {3} пешек, {4} очков\nСоотношение стая/оборона: {5}\nСправка: ванильная генерация тратит на защитников поселения 1150-1600 очков независимо от фракции.</FB_DevAssaultProbeReport>
+  <FB_DevAssaultProbeDefenders>Оборона по видам:</FB_DevAssaultProbeDefenders>
+  <FB_DevAssaultProbeAttackers>Стая по видам:</FB_DevAssaultProbeAttackers>
+</LanguageData>

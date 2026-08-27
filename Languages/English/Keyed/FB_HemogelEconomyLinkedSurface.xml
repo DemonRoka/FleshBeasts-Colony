@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_HemogelEconomyLinkedSurfaceLabel>Planetary flesh network</FB_HemogelEconomyLinkedSurfaceLabel>
+  <FB_HemogelEconomyLinkedSurfaceProductionDetail>Covered tiles feeding the shared pool: {0}/h</FB_HemogelEconomyLinkedSurfaceProductionDetail>
+  <FB_HemogelEconomyLinkedSurfaceConsumptionDetail>Upkeep drawn from the shared pool: {0}/h</FB_HemogelEconomyLinkedSurfaceConsumptionDetail>
+</LanguageData>

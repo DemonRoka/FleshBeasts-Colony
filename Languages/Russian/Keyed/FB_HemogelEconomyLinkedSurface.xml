@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_HemogelEconomyLinkedSurfaceLabel>Планетарная сеть плоти</FB_HemogelEconomyLinkedSurfaceLabel>
+  <FB_HemogelEconomyLinkedSurfaceProductionDetail>Покрытые клетки в общем пуле: {0}/ч</FB_HemogelEconomyLinkedSurfaceProductionDetail>
+  <FB_HemogelEconomyLinkedSurfaceConsumptionDetail>Расход общего пула: {0}/ч</FB_HemogelEconomyLinkedSurfaceConsumptionDetail>
+</LanguageData>

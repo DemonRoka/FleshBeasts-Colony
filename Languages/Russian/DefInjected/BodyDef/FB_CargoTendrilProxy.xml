@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_CargoTendrilProxyBody.label>прокси грузового щупальца</FB_CargoTendrilProxyBody.label>
+  <FB_CargoTendrilProxyBody.corePart.parts.4.customLabel>левое лёгкое</FB_CargoTendrilProxyBody.corePart.parts.4.customLabel>
+  <FB_CargoTendrilProxyBody.corePart.parts.5.customLabel>правое лёгкое</FB_CargoTendrilProxyBody.corePart.parts.5.customLabel>
+  <FB_CargoTendrilProxyBody.corePart.parts.6.customLabel>левая почка</FB_CargoTendrilProxyBody.corePart.parts.6.customLabel>
+  <FB_CargoTendrilProxyBody.corePart.parts.7.customLabel>правая почка</FB_CargoTendrilProxyBody.corePart.parts.7.customLabel>
+  <FB_CargoTendrilProxyBody.corePart.parts.9.parts.1.customLabel>левый глаз</FB_CargoTendrilProxyBody.corePart.parts.9.parts.1.customLabel>
+  <FB_CargoTendrilProxyBody.corePart.parts.9.parts.2.customLabel>правый глаз</FB_CargoTendrilProxyBody.corePart.parts.9.parts.2.customLabel>
+  <FB_CargoTendrilProxyBody.corePart.parts.10.customLabel>левая грузовая псевдоподия</FB_CargoTendrilProxyBody.corePart.parts.10.customLabel>
+  <FB_CargoTendrilProxyBody.corePart.parts.11.customLabel>правая грузовая псевдоподия</FB_CargoTendrilProxyBody.corePart.parts.11.customLabel>
+</LanguageData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_PlanetaryNetworkAbsorbZoneLabel>Поглотить зону</FB_PlanetaryNetworkAbsorbZoneLabel>
+  <FB_PlanetaryNetworkAbsorbZoneDesc>Растворить этот орган плоти обратно в сети. Клетка остаётся покрытой, а в местный резерв возвращается {0} гемогеля.</FB_PlanetaryNetworkAbsorbZoneDesc>
+  <FB_PlanetaryNetworkAbsorbZoneConfirm>Поглотить «{0}»? Орган растворится безвозвратно, а в местный резерв вернётся {1} гемогеля.</FB_PlanetaryNetworkAbsorbZoneConfirm>
+  <FB_PlanetaryNetworkAbsorbZoneStoredWarning>Сложенная добыча будет потеряна: {0} стак(ов).</FB_PlanetaryNetworkAbsorbZoneStoredWarning>
+  <FB_PlanetaryNetworkAbsorbZoneDone>«{0}» поглощён сетью, возвращено {1} гемогеля.</FB_PlanetaryNetworkAbsorbZoneDone>
+  <FB_PlanetaryNetworkAbsorbZoneActiveOrder>Сначала отмените активный приказ этого аванпоста.</FB_PlanetaryNetworkAbsorbZoneActiveOrder>
+</LanguageData>

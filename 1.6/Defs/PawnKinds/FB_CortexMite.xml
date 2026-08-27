@@ -5,7 +5,7 @@
     <defName>FB_CortexMiteKind</defName>
     <label>cortex mite</label>
     <race>FB_CortexMite</race>
-    <combatPower>35</combatPower>
+    <combatPower>10</combatPower>
     <forceDeathOnDowned>true</forceDeathOnDowned>
     <defaultFactionDef>PlayerColony</defaultFactionDef>
     <lifeStages>

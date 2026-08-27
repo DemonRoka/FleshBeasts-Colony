@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <WorldObjectDef>
+    <defName>FB_FleshBulwark</defName>
+    <label>flesh bulwark</label>
+    <description>A hardened knot of defensive tissue. It does not extract hemogel, but the surrounding covered tiles grow thick armoured plating that turns aside outside raids.</description>
+    <worldObjectClass>FB.WorldObject_FleshWorldFacility</worldObjectClass>
+    <canHaveFaction>true</canHaveFaction>
+    <canHaveMap>false</canHaveMap>
+    <validLaunchTarget>false</validLaunchTarget>
+    <selectable>true</selectable>
+    <texture>World/Flesh/FleshBulwark</texture>
+    <expandingIcon>true</expandingIcon>
+    <expandingIconTexture>World/Flesh/FleshBulwark</expandingIconTexture>
+    <expandingIconDrawSize>0.85</expandingIconDrawSize>
+    <expandingIconPriority>16</expandingIconPriority>
+    <modExtensions>
+      <li Class="FB.FleshWorldFacilityDefModExtension">
+        <category>Production</category>
+        <cost>30000</cost>
+        <tileProductionMultiplier>1</tileProductionMultiplier>
+        <defenseRating>45</defenseRating>
+        <defenseRadius>3</defenseRadius>
+        <commandIconPath>UI/Commands/FleshBuildBulwark</commandIconPath>
+      </li>
+    </modExtensions>
+  </WorldObjectDef>
+
+  <WorldObjectDef>
+    <defName>FB_FleshTreeNursery</defName>
+    <label>flesh tree and leaf nursery</label>
+    <description>An abstract planetary growth site that accelerates hemogel extraction from its covered world tile.</description>
+    <worldObjectClass>FB.WorldObject_FleshWorldFacility</worldObjectClass>
+    <canHaveFaction>true</canHaveFaction>
+    <canHaveMap>false</canHaveMap>
+    <validLaunchTarget>false</validLaunchTarget>
+    <selectable>true</selectable>
+    <texture>World/Flesh/FleshTreeNursery</texture>
+    <expandingIcon>true</expandingIcon>
+    <expandingIconTexture>World/Flesh/FleshTreeNursery</expandingIconTexture>
+    <expandingIconDrawSize>0.85</expandingIconDrawSize>
+    <expandingIconPriority>16</expandingIconPriority>
+    <modExtensions>
+      <li Class="FB.FleshWorldFacilityDefModExtension">
+        <category>Production</category>
+        <cost>20000</cost>
+        <tileProductionMultiplier>3</tileProductionMultiplier>
+        <commandIconPath>UI/Commands/FleshBuildTreeNursery</commandIconPath>
+      </li>
+    </modExtensions>
+  </WorldObjectDef>
+
+  <WorldObjectDef>
+    <defName>FB_FleshRiverSiphon</defName>
+    <label>great river siphon</label>
+    <description>An abstract planetary organ that drinks from rivers, lakes or nearby coasts and greatly accelerates hemogel extraction from its covered world tile.</description>
+    <worldObjectClass>FB.WorldObject_FleshWorldFacility</worldObjectClass>
+    <canHaveFaction>true</canHaveFaction>
+    <canHaveMap>false</canHaveMap>
+    <validLaunchTarget>false</validLaunchTarget>
+    <selectable>true</selectable>
+    <texture>World/Flesh/FleshRiverSiphon</texture>
+    <expandingIcon>true</expandingIcon>
+    <expandingIconTexture>World/Flesh/FleshRiverSiphon</expandingIconTexture>
+    <expandingIconDrawSize>0.85</expandingIconDrawSize>
+    <expandingIconPriority>16</expandingIconPriority>
+    <modExtensions>
+      <li Class="FB.FleshWorldFacilityDefModExtension">
+        <category>Production</category>
+        <cost>35000</cost>
+        <tileProductionMultiplier>4</tileProductionMultiplier>
+        <requiresWaterTile>true</requiresWaterTile>
+        <commandIconPath>UI/Commands/FleshBuildRiverSiphon</commandIconPath>
+      </li>
+    </modExtensions>
+  </WorldObjectDef>
+
+  <WorldObjectDef>
+    <defName>FB_FleshAmbushCamp</defName>
+    <label>flesh ambush camp</label>
+    <description>An abstract planetary trap-camp that harvests hemogel from its covered tile and stores occasional loot taken from animals and passing caravans.</description>
+    <worldObjectClass>FB.WorldObject_FleshWorldFacility</worldObjectClass>
+    <canHaveFaction>true</canHaveFaction>
+    <canHaveMap>false</canHaveMap>
+    <validLaunchTarget>false</validLaunchTarget>
+    <selectable>true</selectable>
+    <texture>World/Flesh/FleshAmbushCamp</texture>
+    <expandingIcon>true</expandingIcon>
+    <expandingIconTexture>World/Flesh/FleshAmbushCamp</expandingIconTexture>
+    <expandingIconDrawSize>0.85</expandingIconDrawSize>
+    <expandingIconPriority>16</expandingIconPriority>
+    <inspectorTabs>
+      <li>FB.WITab_FleshAmbushCampStorage</li>
+    </inspectorTabs>
+    <modExtensions>
+      <li Class="FB.FleshWorldFacilityDefModExtension">
+        <category>Ambush</category>
+        <cost>25000</cost>
+        <tileProductionMultiplier>2</tileProductionMultiplier>
+        <generatesAmbushLoot>true</generatesAmbushLoot>
+        <ambushLootMinTicks>120000</ambushLootMinTicks>
+        <ambushLootMaxTicks>300000</ambushLootMaxTicks>
+        <ambushOpenTileRadius>3</ambushOpenTileRadius>
+        <ambushNearbySettlementRadius>40</ambushNearbySettlementRadius>
+        <ambushHaulMinStacks>3</ambushHaulMinStacks>
+        <ambushHaulMaxStacks>9</ambushHaulMaxStacks>
+        <ambushHaulMinValue>350</ambushHaulMinValue>
+        <ambushHaulMaxValue>2600</ambushHaulMaxValue>
+        <commandIconPath>UI/Commands/FleshBuildAmbushCamp</commandIconPath>
+      </li>
+    </modExtensions>
+  </WorldObjectDef>
+
+</Defs>

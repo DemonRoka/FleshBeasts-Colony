@@ -7,7 +7,7 @@
     <overrideDeathOnDownedChance>0</overrideDeathOnDownedChance>
     <ignoresPainShock>true</ignoresPainShock>
     <race>FB_Devourer</race>
-    <combatPower>430</combatPower>
+    <combatPower>90</combatPower>
     <defaultFactionDef>PlayerColony</defaultFactionDef>
     <lifeStages>
       <li>

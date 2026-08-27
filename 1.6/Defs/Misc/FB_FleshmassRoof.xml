@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Крыша: fleshmass roof (FB_FleshmassRoof) -->
+  <RoofDef>
+    <defName>FB_FleshmassRoof</defName>
+    <label>fleshmass roof</label>
+    <isThickRoof>false</isThickRoof>
+    <filthLeaving>Filth_Fleshmass</filthLeaving>
+    <soundPunchThrough>Roof_Collapse</soundPunchThrough>
+  </RoofDef>
+</Defs>

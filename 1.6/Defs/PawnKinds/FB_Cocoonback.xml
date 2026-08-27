@@ -6,7 +6,7 @@
     <label>cocoonback</label>
     <race>FB_Cocoonback</race>
     <forceDeathOnDowned>true</forceDeathOnDowned>
-    <combatPower>70</combatPower>
+    <combatPower>15</combatPower>
     <defaultFactionDef>PlayerColony</defaultFactionDef>
     <lifeStages>
       <li>

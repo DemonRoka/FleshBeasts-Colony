@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/WorldObjectDef[defName="Caravan"]/comps</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/WorldObjectDef[defName="Caravan"]/comps</xpath>
+      <value>
+        <li Class="FB.CompProperties_FleshTerritoryCaravanEntry" />
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/WorldObjectDef[defName="Caravan"]</xpath>
+      <value>
+        <comps>
+          <li Class="FB.CompProperties_FleshTerritoryCaravanEntry" />
+        </comps>
+      </value>
+    </nomatch>
+  </Operation>
+</Patch>
