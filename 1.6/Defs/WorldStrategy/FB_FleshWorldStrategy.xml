@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <FB.FleshWorldStrategyDef>
     <defName>FB_FleshWorldStrategy</defName>
@@ -15,7 +15,6 @@
     <assaultPartyTicksPerMove>3300</assaultPartyTicksPerMove>
     <assaultArrivalChoiceTicks>60000</assaultArrivalChoiceTicks>
 
-    <!-- Сила стаи считается в ванильных очках боевой мощи один к одному. -->
     <assaultStrengthPerCombatPower>1</assaultStrengthPerCombatPower>
     <assaultDefenderPoints>1375</assaultDefenderPoints>
     <assaultRelationMinFactor>1</assaultRelationMinFactor>
@@ -26,15 +25,24 @@
     <assaultNearbyFleshMaxBonus>0.15</assaultNearbyFleshMaxBonus>
     <assaultMaxSurvivalFraction>0.85</assaultMaxSurvivalFraction>
 
+    <!-- Рейды выжигателей: частота, лимиты одновременных отрядов и размер партии -->
+    <burnRaidPressureThreshold>260</burnRaidPressureThreshold>
+    <burnRaidBasePressurePerDay>3.5</burnRaidBasePressurePerDay>
+    <burnRaidMaxPressurePerDay>45</burnRaidMaxPressurePerDay>
+    <burnRaidMinIntervalTicks>360000</burnRaidMinIntervalTicks>
+    <burnRaidMaxPartiesPerFaction>2</burnRaidMaxPartiesPerFaction>
+    <burnRaidMaxPartiesTotal>4</burnRaidMaxPartiesTotal>
+    <burnRaidMaxFactionDistanceTiles>50</burnRaidMaxFactionDistanceTiles>
+    <burnRaidMaxTilesPerParty>3</burnRaidMaxTilesPerParty>
+    <burnRaidBurnTicks>60000</burnRaidBurnTicks>
+    <burnRaidPointsPerStrikePower>8</burnRaidPointsPerStrikePower>
+    <burnRaidMinPoints>250</burnRaidMinPoints>
+
     <hillOffsetFlat>0</hillOffsetFlat>
     <hillOffsetSmallHills>0.5</hillOffsetSmallHills>
     <hillOffsetLargeHills>1.5</hillOffsetLargeHills>
     <hillOffsetMountainous>3</hillOffsetMountainous>
 
-    <!--
-      Сколько очков стаи нужно на очко обороны поселения. Неолит (1.3) и индустриал (2.4)
-      измерены ручными боями твердошипами; spacer и выше - экстраполяция по качеству брони.
-    -->
     <techFactorAnimal>1.1</techFactorAnimal>
     <techFactorNeolithic>1.3</techFactorNeolithic>
     <techFactorMedieval>1.7</techFactorMedieval>

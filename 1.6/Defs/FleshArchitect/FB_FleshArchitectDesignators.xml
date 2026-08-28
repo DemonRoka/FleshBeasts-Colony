@@ -275,4 +275,24 @@
     <requiresMoonOverCurrentMap>true</requiresMoonOverCurrentMap>
     <order>11</order>
   </FB.FleshArchitectDesignatorDef>
+	<FB.FleshArchitectDesignatorDef>
+		<defName>FB_FleshArchitect_ColonyGaze</defName>
+		<category>FB_FleshArchitect_Misc</category>
+		<className>FB.Designator_ColonyGaze</className>
+		<iconPath>UI/Commands/ColonyGaze</iconPath>
+		<targetThingDef>FB_ColonyGazeEye</targetThingDef>
+		<labelKey>FB_ColonyGaze_Label</labelKey>
+		<descriptionKey>FB_ColonyGaze_Desc</descriptionKey>
+		<order>900</order>
+	</FB.FleshArchitectDesignatorDef>
+
+	<FB.FleshArchitectDesignatorDef>
+		<defName>FB_FleshArchitect_ManualTentacle</defName>
+		<category>FB_FleshArchitect_Misc</category>
+		<className>FB.Designator_ManualTentacle</className>
+		<iconPath>UI/Commands/ManualTentacle</iconPath>
+		<labelKey>FB_ManualTentacle_Label</labelKey>
+		<descriptionKey>FB_ManualTentacle_Desc</descriptionKey>
+		<order>901</order>
+	</FB.FleshArchitectDesignatorDef>
 </Defs>

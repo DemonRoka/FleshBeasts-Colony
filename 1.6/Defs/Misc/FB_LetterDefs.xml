@@ -8,4 +8,11 @@
     <flashInterval>-1</flashInterval>
   </LetterDef>
 
+  <LetterDef>
+    <defName>FB_FleshBurnDefenseArrival</defName>
+    <letterClass>FB.ChoiceLetter_FleshBurnDefenseArrival</letterClass>
+    <color>(95, 151, 191)</color>
+    <flashInterval>-1</flashInterval>
+  </LetterDef>
+
 </Defs>

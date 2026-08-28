@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Объект: colony gaze eye (FB_ColonyGazeEye) -->
+	<ThingDef>
+		<defName>FB_ColonyGazeEye</defName>
+		<label>watching eye (test)</label>
+		<description>Experimental sensory bud. Grows only while the colony gaze mode is active and withers as soon as the gaze moves on.</description>
+		<thingClass>FB.ColonyGazeEye</thingClass>
+		<category>Ethereal</category>
+		<drawerType>RealtimeOnly</drawerType>
+		<altitudeLayer>Building</altitudeLayer>
+		<graphicData>
+			<texPath>Things/Building/FB_ColonyEye/ColonyEye_Base</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1, 1)</drawSize>
+		</graphicData>
+		<tickerType>Never</tickerType>
+		<useHitPoints>false</useHitPoints>
+		<selectable>false</selectable>
+		<isSaveable>false</isSaveable>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<modExtensions>
+			<li Class="FB.ColonyGazeEyeExtension">
+				<openTexturePath>Things/Building/FB_ColonyEye/ColonyEyeTop</openTexturePath>
+				<closedTexturePath>Things/Building/FB_ColonyEye/ColonyEyeTop_Closed</closedTexturePath>
+				<size>1</size>
+				<baseRotation>-90</baseRotation>
+				<turnDegreesPerTick>15</turnDegreesPerTick>
+				<growTicks>11</growTicks>
+				<shrinkTicks>13</shrinkTicks>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+</Defs>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<FB_ManualTentacle_Label>ручное щупальце</FB_ManualTentacle_Label>
+	<FB_ManualTentacle_Desc>Прямое управление одним грузовым щупальцем колонии. Наведите курсор на предмет, труп или раненого: если щупальце может его подхватить, цель подсветится. Запрещённые к переноске вещи тоже годятся: щупальце само снимет с них запрет. По клику оно прорастает из ближайшей плоти и забирает добычу, а дальше тянется за курсором, не выходя за пределы плотяной территории. Второй клик указывает, куда положить ношу; пешку можно вложить в койку, капсулу или другую подходящую ёмкость. Правая кнопка выходит из режима. Гемогель не расходуется.</FB_ManualTentacle_Desc>
+	<FB_ManualTentacle_StatusPick>взять это</FB_ManualTentacle_StatusPick>
+	<FB_ManualTentacle_StatusNothing>здесь нечего брать</FB_ManualTentacle_StatusNothing>
+	<FB_ManualTentacle_StatusNoSpot>щупальце сюда не дотягивается</FB_ManualTentacle_StatusNoSpot>
+	<FB_ManualTentacle_StatusFetching>щупальце тянется к грузу</FB_ManualTentacle_StatusFetching>
+	<FB_ManualTentacle_StatusCarrying>положить сюда</FB_ManualTentacle_StatusCarrying>
+	<FB_ManualTentacle_StatusPutInside>поместить внутрь</FB_ManualTentacle_StatusPutInside>
+	<FB_ManualTentacle_StatusContainerRefuses>ёмкость не принимает эту ношу</FB_ManualTentacle_StatusContainerRefuses>
+	<FB_ManualTentacle_StatusDelivering>несёт груз к месту</FB_ManualTentacle_StatusDelivering>
+	<FB_ManualTentacle_MsgNoFlesh>Рядом с целью нет плоти колонии, из которой могло бы прорасти щупальце.</FB_ManualTentacle_MsgNoFlesh>
+	<FB_ManualTentacle_MsgUnreachable>Щупальце не может добраться до этой цели.</FB_ManualTentacle_MsgUnreachable>
+	<FB_ManualTentacle_MsgCannotCarry>Щупальцу не удалось поднять: {0}.</FB_ManualTentacle_MsgCannotCarry>
+
+</LanguageData>

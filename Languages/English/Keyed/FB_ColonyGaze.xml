@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<FB_ColonyGaze_Label>colony gaze</FB_ColonyGaze_Label>
+	<FB_ColonyGaze_Desc>The colony looks where you look. While the mode is on, eyes bud out of the flesh around your cursor and wither once the gaze moves on. They only grow on flesh terrain, so the colony sees exactly as far as it has spread. Your cursor stays your own: selecting, ordering and building work as usual. Press the button again to turn it off.</FB_ColonyGaze_Desc>
+
+</LanguageData>

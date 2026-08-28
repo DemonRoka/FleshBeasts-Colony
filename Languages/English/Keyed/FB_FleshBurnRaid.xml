@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Raid start -->
+  <FB_FleshBurnRaidStartedLabel>Burn party on flesh territory</FB_FleshBurnRaidStartedLabel>
+  <FB_FleshBurnRaidStartedText>A burn party from {0} has camped on tile {1} and started stripping the flesh cover. It fields {2} fighters with a combat strength of {3}.\n\nThe tile will be lost in {4} unless a combat pack reaches it first. Select the burn party on the world map to send one.</FB_FleshBurnRaidStartedText>
+  <FB_FleshBurnRaidTileLost>{0} burned the flesh off tile {1}.</FB_FleshBurnRaidTileLost>
+  <FB_FleshBurnRaidRepelled>The burn party from {0} was driven off tile {1}.</FB_FleshBurnRaidRepelled>
+
+  <!-- World object -->
+  <FB_FleshBurnPartyInspectBurning>Burning the cover away\nStrength: {0}\nTile lost in: {1}\nTiles it will still take: {2}</FB_FleshBurnPartyInspectBurning>
+  <FB_FleshBurnPartyInspectBattle>Fighting on this tile\nStrength: {0}</FB_FleshBurnPartyInspectBattle>
+  <FB_FleshBurnPartyCompositionTab>Composition</FB_FleshBurnPartyCompositionTab>
+  <FB_FleshBurnPartyCompositionSummary>{0}: {1} fighters, strength {2}</FB_FleshBurnPartyCompositionSummary>
+
+  <!-- Sending a defence pack -->
+  <FB_FleshBurnRaidDefendLabel>Drive off burn party</FB_FleshBurnRaidDefendLabel>
+  <FB_FleshBurnRaidDefendDesc>Send a combat pack from a flesh outpost to break this burn party. Its strength is rated at {0}.</FB_FleshBurnRaidDefendDesc>
+  <FB_FleshBurnRaidAlreadyDefended>A pack is already on its way.</FB_FleshBurnRaidAlreadyDefended>
+  <FB_FleshBurnRaidDefendFromOutpost>From {0} (tile {1})</FB_FleshBurnRaidDefendFromOutpost>
+  <FB_FleshBurnRaidNoSource>No connected outpost can reach this tile.</FB_FleshBurnRaidNoSource>
+  <FB_FleshBurnDefenseDeployTitle>Defend tile {0} against {1}</FB_FleshBurnDefenseDeployTitle>
+  <FB_FleshBurnDefenseLaunched>A pack of {1} beasts is heading for tile {0}.</FB_FleshBurnDefenseLaunched>
+  <FB_FleshAssaultInspectDefending>Defending tile {1}\nStrength: {0}</FB_FleshAssaultInspectDefending>
+  <FB_PlanetaryNetworkDefenseTargetTooltip>Burn party of {0}. Strength: {1}</FB_PlanetaryNetworkDefenseTargetTooltip>
+
+  <!-- Arrival choice -->
+  <FB_FleshBurnDefenseArrivalTitle>Pack reached the burn party</FB_FleshBurnDefenseArrivalTitle>
+  <FB_FleshBurnDefenseArrivalText>The pack has reached the burn party from {0} on tile {1}. It carries {2} beasts with a combined strength of {3}; the burn party is rated at {4}.\n\nFight the battle yourself, or let the pack resolve it without loading the map?</FB_FleshBurnDefenseArrivalText>
+  <FB_FleshBurnDefenseArrivalTimeout>Without an order the pack attacks on its own in {0}.</FB_FleshBurnDefenseArrivalTimeout>
+  <FB_FleshBurnDefenseManual>Fight the battle myself</FB_FleshBurnDefenseManual>
+  <FB_FleshBurnDefenseAuto>Let the pack handle it</FB_FleshBurnDefenseAuto>
+  <FB_FleshBurnDefenseTimedOut>The pack on tile {0} attacked without orders.</FB_FleshBurnDefenseTimedOut>
+  <FB_FleshBurnDefenseTargetGone>There is no burn party left on tile {0}.</FB_FleshBurnDefenseTargetGone>
+  <FB_FleshBurnDefenseBattleStarted>{0} beasts landed against {1} burners.</FB_FleshBurnDefenseBattleStarted>
+
+  <!-- Automatic outcome -->
+  <FB_FleshBurnDefenseWonLabel>Burn party destroyed</FB_FleshBurnDefenseWonLabel>
+  <FB_FleshBurnDefenseWonText>The pack wiped out the burn party from {0} on tile {1}, and the cover holds. Beasts returning home: {2}, lost in the fight: {3}.</FB_FleshBurnDefenseWonText>
+  <FB_FleshBurnDefenseLostLabel>Defence pack destroyed</FB_FleshBurnDefenseLostLabel>
+  <FB_FleshBurnDefenseLostText>The pack sent to tile {0} was wiped out: strength {1} against a burn party rated at {2}. The tile keeps burning.</FB_FleshBurnDefenseLostText>
+
+  <!-- Dev -->
+  <FB_DevBurnRaidResolveLabel>Dev: finish burning now</FB_DevBurnRaidResolveLabel>
+  <FB_DevBurnRaidResolveDesc>Immediately strip the cover from this tile.</FB_DevBurnRaidResolveDesc>
+
+</LanguageData>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_FleshBurnParty.label>burn party</FB_FleshBurnParty.label>
+  <FB_FleshBurnParty.description>A hostile column camped on a flesh-covered world tile, burning the living cover away. It leaves once the tile is stripped, unless something drives it off first.</FB_FleshBurnParty.description>
+</LanguageData>

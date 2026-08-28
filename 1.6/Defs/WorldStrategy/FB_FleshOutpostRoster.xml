@@ -1,11 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-  <!--
-    Ценовая политика вкладки заказов аванпоста. Штурмовой аванпост выращивает только бойцов.
-    Цена = боевая ценность x 6, время = 250 + (ценность / 120)^1.5 x 2250 тиков,
-    поэтому дредмелд зреет ровно один игровой час, а лёгкие твари - за пять-восемь минут.
-  -->
   <FB.FleshOutpostRosterDef>
     <defName>FB_FleshOutpostRoster</defName>
 
@@ -51,14 +46,9 @@
         <hemogelCost>540</hemogelCost>
         <growthTicks>1700</growthTicks>
       </li>
-      <!--
-        Слитые формы выращивать нельзя: их создают колонисты, облепляясь биошматами.
-        У ванильного бульбфрика combatPower 360, и мы его не трогаем, поэтому цена считается
-        по его собственной оценке (360 x 6), а не по реальной боевой ценности.
-      -->
       <li>
         <pawnKind>Bulbfreak</pawnKind>
-        <hemogelCost>2160</hemogelCost>
+        <hemogelCost>570</hemogelCost>
         <growthTicks>1850</growthTicks>
       </li>
       <li>

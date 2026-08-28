@@ -1492,7 +1492,7 @@
   <fillPercent>1</fillPercent>
   <useHitPoints>true</useHitPoints>
   <statBases>
-    <MaxHitPoints>160</MaxHitPoints>
+    <MaxHitPoints>40</MaxHitPoints>
     <Flammability>1.0</Flammability>
     <WorkToBuild>1200</WorkToBuild>
     <DoorOpenSpeed>1.2</DoorOpenSpeed>

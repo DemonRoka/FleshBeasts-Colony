@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<FB_ColonyGazeEye.label>watching eye</FB_ColonyGazeEye.label>
+	<FB_ColonyGazeEye.description>Experimental sensory bud. Grows out of flesh terrain only while the colony gaze mode is active and withers as soon as the gaze moves on.</FB_ColonyGazeEye.description>
+
+</LanguageData>

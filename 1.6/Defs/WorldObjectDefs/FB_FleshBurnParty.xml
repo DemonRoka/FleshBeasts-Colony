@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WorldObjectDef>
+    <defName>FB_FleshBurnParty</defName>
+    <label>burn party</label>
+    <description>A hostile column camped on a flesh-covered world tile, burning the living cover away. It leaves once the tile is stripped, unless something drives it off first.</description>
+    <worldObjectClass>FB.WorldObject_FleshBurnParty</worldObjectClass>
+    <canHaveFaction>true</canHaveFaction>
+    <canHaveMap>false</canHaveMap>
+    <validLaunchTarget>false</validLaunchTarget>
+    <selectable>true</selectable>
+    <useDynamicDrawer>true</useDynamicDrawer>
+    <texture>World/Flesh/FleshBurnParty</texture>
+    <expandingIcon>true</expandingIcon>
+    <expandingIconTexture>World/Flesh/FleshBurnParty</expandingIconTexture>
+    <expandingIconDrawSize>0.85</expandingIconDrawSize>
+    <expandingIconPriority>19</expandingIconPriority>
+    <inspectorTabs>
+      <li>FB.WITab_FleshBurnPartyComposition</li>
+    </inspectorTabs>
+  </WorldObjectDef>
+</Defs>

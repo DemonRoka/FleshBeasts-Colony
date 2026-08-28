@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Вид пешки: manual tentacle proxy (FB_ManualTentacleProxyKind) -->
+	<PawnKindDef ParentName="BaseFleshbeastKind">
+		<defName>FB_ManualTentacleProxyKind</defName>
+		<label>tentacle proxy</label>
+		<race>FB_ManualTentacleProxy</race>
+		<combatPower>5</combatPower>
+		<forceNoDeathNotification>true</forceNoDeathNotification>
+		<forceDeathOnDowned>true</forceDeathOnDowned>
+		<defaultFactionDef>PlayerColony</defaultFactionDef>
+		<overrideDebugActionCategory>FleshBeasts</overrideDebugActionCategory>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/FB_CargoTendrilProxy/FB_CargoTendrilProxy</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>0.85</drawSize>
+				</bodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+</Defs>

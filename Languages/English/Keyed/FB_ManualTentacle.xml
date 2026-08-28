@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<FB_ManualTentacle_Label>manual tentacle</FB_ManualTentacle_Label>
+	<FB_ManualTentacle_Desc>Direct control over a single colony cargo tendril. Point at an item, corpse or downed pawn: the target lights up if the tendril can take it. Forbidden things count too: the tendril unforbids them on its own. One click and it grows out of the nearest flesh and picks the load up, then trails your cursor without ever leaving flesh territory. A second click chooses where to set the load down; a carried pawn can be tucked into a bed, casket or other suitable container. Right click leaves the mode. No hemogel is spent.</FB_ManualTentacle_Desc>
+	<FB_ManualTentacle_StatusPick>pick this up</FB_ManualTentacle_StatusPick>
+	<FB_ManualTentacle_StatusNothing>nothing to pick up here</FB_ManualTentacle_StatusNothing>
+	<FB_ManualTentacle_StatusNoSpot>the tendril cannot reach this far</FB_ManualTentacle_StatusNoSpot>
+	<FB_ManualTentacle_StatusFetching>tendril is reaching for the load</FB_ManualTentacle_StatusFetching>
+	<FB_ManualTentacle_StatusCarrying>set it down here</FB_ManualTentacle_StatusCarrying>
+	<FB_ManualTentacle_StatusPutInside>put inside</FB_ManualTentacle_StatusPutInside>
+	<FB_ManualTentacle_StatusContainerRefuses>this container will not take the load</FB_ManualTentacle_StatusContainerRefuses>
+	<FB_ManualTentacle_StatusDelivering>carrying it to the chosen spot</FB_ManualTentacle_StatusDelivering>
+	<FB_ManualTentacle_MsgNoFlesh>There is no colony flesh near the target for a tendril to grow from.</FB_ManualTentacle_MsgNoFlesh>
+	<FB_ManualTentacle_MsgUnreachable>The tendril cannot get to this target.</FB_ManualTentacle_MsgUnreachable>
+	<FB_ManualTentacle_MsgCannotCarry>The tendril could not pick up: {0}.</FB_ManualTentacle_MsgCannotCarry>
+
+</LanguageData>
