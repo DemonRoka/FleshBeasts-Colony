@@ -254,7 +254,7 @@
     <defName>FB_FleshArchitect_FleshMoon_BileBombardment</defName>
     <category>FB_FleshArchitect_FleshMoon</category>
     <className>FB.Designator_FleshMoonBileBombardment</className>
-    <iconPath>UI/Commands/BileMortarFire</iconPath>
+    <iconPath>UI/Commands/Attack</iconPath>
     <labelKey>FB_FleshMoonBileBombardmentLabel</labelKey>
     <descriptionKey>FB_FleshMoonBileBombardmentDesc</descriptionKey>
     <hemogelCost>1000</hemogelCost>

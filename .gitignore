@@ -655,6 +655,8 @@ CLAUDE.md
 tools/claude-run.ps1
 tools/claude-def-index.ps1
 tools/claude-context.ps1
+tools/claude-nano-banana.ps1
+tools/claude-set-gemini-key.ps1
 docs/claude-agent-setup.md
 docs/claude-settings.example.json
 docs/claude-skills/

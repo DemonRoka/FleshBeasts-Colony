@@ -32,7 +32,7 @@
       <forcedMissRadius>1.5</forcedMissRadius>
       <autoCheckIntervalTicks>120</autoCheckIntervalTicks>
       <projectileDef>FB_BileburstPodlingShell</projectileDef>
-      <iconPath>UI/Commands/BileMortarFire</iconPath>
+      <iconPath>UI/Commands/Attack</iconPath>
     </li>
     <li Class="FB.CompProperties_HemogelUpkeep">
       <hemogelPerHour>0.8</hemogelPerHour>

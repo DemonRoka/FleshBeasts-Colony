@@ -53,7 +53,7 @@
     <label>rotten colony brain</label>
     <description>A decayed remnant of a fleshmass colony brain. Its organic components have rotted away, leaving it useless.</description>
     <graphicData>
-      <texPath>Things/Building/FB_RotColonyStructures/RotColonyBrain</texPath>
+      <texPath>Things/Building/FB_Organic/ColonyBrain/RotColonyBrain</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(3.5)</drawSize>
     </graphicData>
@@ -77,7 +77,7 @@
     <label>rotten colony heart</label>
     <description>A decayed remnant of a fleshmass colony heart. Its organic components have rotted away, leaving it useless.</description>
     <graphicData>
-      <texPath>Things/Building/FB_RotColonyStructures/RotColonyHeart</texPath>
+      <texPath>Things/Building/FB_Organic/ColonyHeart/RotColonyHeart</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(3.5)</drawSize>
     </graphicData>

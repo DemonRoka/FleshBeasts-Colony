@@ -1253,66 +1253,61 @@
     </comps>
   </ThingDef>
   <!-- Постройка: Tissue Incubator (FB_TissueIncubator) -->
-  <ThingDef ParentName="BuildingColonyFleshBaseAnimation">
-    <defName>FB_TissueIncubator</defName>
-    <label>Tissue incubator</label>
-    <description>A living incubator that memorizes meat, leather, organic fabric, or whole corpses, then grows matching materials from hemogel.</description>
-    <thingClass>FB.Building_TissueIncubator</thingClass>
-    <size>(2,2)</size>
-    <multipleInteractionCellOffsets>
-      <li>(0,0,-1)</li>
-      <li>(1,0,-1)</li>
-      <li>(0,0,2)</li>
-      <li>(1,0,2)</li>
-      <li>(-1,0,0)</li>
-      <li>(-1,0,1)</li>
-      <li>(2,0,0)</li>
-      <li>(2,0,1)</li>
-    </multipleInteractionCellOffsets>
-    <statBases>
-      <Beauty>-20</Beauty>
-      <MaxHitPoints>300</MaxHitPoints>
-      <Mass>30</Mass>
-    </statBases>
-    <killedLeavingsRanges>
-      <Meat_Twisted>40~80</Meat_Twisted>
-    </killedLeavingsRanges>
-    <forceLeavingsAllowed>true</forceLeavingsAllowed>
-    <modExtensions>
-      <li Class="FB.TissueIncubatorExtension">
-        <ticksPerCycle>60000</ticksPerCycle>
-        <meatOutputCount>25</meatOutputCount>
-        <leatherOutputCount>15</leatherOutputCount>
-        <fabricOutputCount>15</fabricOutputCount>
-      </li>
-    </modExtensions>
-    <comps>
-      <li Class="FB.CompProperties_FleshAnimationManager">
-        <animationAmplitude>0.015</animationAmplitude>
-        <animationSideAmplitude>0.006</animationSideAmplitude>
-        <baseAnimationSpeed>0.2</baseAnimationSpeed>
-        <beatDurationTicks>60</beatDurationTicks>
-        <animatedParts>
-          <li>
-            <texturePath>Things/Building/FB_Organic/TissueIncubator/TissueIncubator</texturePath>
-            <positionOffset>(0, 0, 0)</positionOffset>
-            <textureScale>1.5</textureScale>
-            <animationAmplitude>0.015</animationAmplitude>
-            <animationSideAmplitude>0.006</animationSideAmplitude>
-            <animationInterval>0</animationInterval>
-            <animationOffset>0.0</animationOffset>
-            <altitudeLayer>0</altitudeLayer>
-            <rotationAngle>0</rotationAngle>
-            <beatDelay>0</beatDelay>
-          </li>
-        </animatedParts>
-      </li>
-      <li Class="FB.CompProperties_HemogelUpkeep">
-        <hemogelPerHour>0.3</hemogelPerHour>
-      </li>
-    </comps>
-    <uiIconPath>Things/Building/FB_Organic/TissueIncubator/TissueIncubator</uiIconPath>
-  </ThingDef>
+  <ThingDef ParentName="BuildingColonyFleshBase">
+  <defName>FB_TissueIncubator</defName>
+  <label>Tissue incubator</label>
+  <description>A living incubator that memorizes meat, leather, organic fabric, or whole corpses, then grows matching materials from hemogel.</description>
+  <thingClass>FB.Building_TissueIncubator</thingClass>
+  <size>(2,2)</size>
+  <multipleInteractionCellOffsets>
+    <li>(0,0,-1)</li>
+    <li>(1,0,-1)</li>
+    <li>(0,0,2)</li>
+    <li>(1,0,2)</li>
+    <li>(-1,0,0)</li>
+    <li>(-1,0,1)</li>
+    <li>(2,0,0)</li>
+    <li>(2,0,1)</li>
+  </multipleInteractionCellOffsets>
+  <statBases>
+    <Beauty>-20</Beauty>
+    <MaxHitPoints>300</MaxHitPoints>
+    <Mass>30</Mass>
+  </statBases>
+  <killedLeavingsRanges>
+    <Meat_Twisted>40~80</Meat_Twisted>
+  </killedLeavingsRanges>
+  <forceLeavingsAllowed>true</forceLeavingsAllowed>
+  <graphicData>
+    <graphicClass>Graphic_Single</graphicClass>
+    <texPath>Things/Building/FB_Organic/TissueIncubator/TissueIncubator</texPath>
+    <drawSize>3.3</drawSize>
+    <drawOffset>(0, 0, 0.5)</drawOffset>
+    <damageData>
+      <rect>(0.15, 0.15, 1.7, 1.7)</rect>
+      <scratches>
+        <li>Damage/FleshScratch1</li>
+        <li>Damage/FleshScratch2</li>
+        <li>Damage/FleshScratch3</li>
+      </scratches>
+    </damageData>
+  </graphicData>
+  <modExtensions>
+    <li Class="FB.TissueIncubatorExtension">
+      <ticksPerCycle>60000</ticksPerCycle>
+      <meatOutputCount>25</meatOutputCount>
+      <leatherOutputCount>15</leatherOutputCount>
+      <fabricOutputCount>15</fabricOutputCount>
+      <addSampleIconPath>UI/Commands/FB_TissueIncubatorAddSample</addSampleIconPath>
+    </li>
+  </modExtensions>
+  <comps>
+    <li Class="FB.CompProperties_HemogelUpkeep">
+      <hemogelPerHour>0.3</hemogelPerHour>
+    </li>
+  </comps>
+  <uiIconPath>Things/Building/FB_Organic/TissueIncubator/TissueIncubator</uiIconPath>
+</ThingDef>
   <ThingDef ParentName="BuildingColonyFleshBase">
   <defName>FB_CapillaryTrawler</defName>
   <label>capillary trawler</label>
@@ -1586,7 +1581,7 @@
     <graphicData>
       <drawSize>(1.5,1.5)</drawSize>
       <drawOffset>(0,0,0.2)</drawOffset>
-      <texPath>Things/Building/Furniture/FleshmassPillar</texPath>
+      <texPath>Things/Building/FB_Organic/FleshmassPillar/FleshmassPillar</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shadowData>
         <volume>(0.3, 0.5, 0.3)</volume>
@@ -2402,7 +2397,7 @@
     <drawerType>MapMeshAndRealTime</drawerType>
     <thingClass>FB.Building_FleshAnimatedOverlay</thingClass>
     <graphicData>
-      <texPath>Things/Building/FB_NerveCore/NerveCore_Base</texPath>
+      <texPath>Things/Building/FB_Organic/NerveCore/NerveCore_Base</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(2, 2)</drawSize>
     </graphicData>
@@ -2415,8 +2410,8 @@
     <tickerType>Normal</tickerType>
     <comps>
       <li Class="FB.CompProperties_AnimatedOverlay">
-        <openTexturePath>Things/Building/FB_NerveCore/NerveCoreTop</openTexturePath>
-        <closedTexturePath>Things/Building/FB_NerveCore/NerveCoreTop_Closed</closedTexturePath>
+        <openTexturePath>Things/Building/FB_Organic/NerveCore/NerveCoreTop</openTexturePath>
+        <closedTexturePath>Things/Building/FB_Organic/NerveCore/NerveCoreTop_Closed</closedTexturePath>
         <trackingRadius>10</trackingRadius>
         <size>2</size>
         <rotationSpeed>5</rotationSpeed>
@@ -2469,7 +2464,7 @@
     <drawerType>MapMeshAndRealTime</drawerType>
     <thingClass>FB.Building_FleshAnimatedOverlay</thingClass>
     <graphicData>
-      <texPath>Things/Building/FB_ColonyEye/ColonyEye_Base</texPath>
+      <texPath>Things/Building/FB_Organic/ColonyEye/ColonyEye_Base</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1, 1)</drawSize>
     </graphicData>
@@ -2481,8 +2476,8 @@
     <selectable>False</selectable>
     <comps>
       <li Class="FB.CompProperties_AnimatedOverlay">
-        <openTexturePath>Things/Building/FB_ColonyEye/ColonyEyeTop</openTexturePath>
-        <closedTexturePath>Things/Building/FB_ColonyEye/ColonyEyeTop_Closed</closedTexturePath>
+        <openTexturePath>Things/Building/FB_Organic/ColonyEye/ColonyEyeTop</openTexturePath>
+        <closedTexturePath>Things/Building/FB_Organic/ColonyEye/ColonyEyeTop_Closed</closedTexturePath>
         <trackingRadius>15</trackingRadius>
         <size>1</size>
         <rotationSpeed>5</rotationSpeed>
@@ -2510,7 +2505,7 @@
     <altitudeLayer>Building</altitudeLayer>
     <tickerType>Normal</tickerType>
     <graphicData>
-      <texPath>Things/Building/Misc/BiomassCocoon/BiomassCocoon</texPath>
+      <texPath>Things/Building/FB_Organic/BiomassCocoon/BiomassCocoon</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.3, 1.3)</drawSize>
     </graphicData>

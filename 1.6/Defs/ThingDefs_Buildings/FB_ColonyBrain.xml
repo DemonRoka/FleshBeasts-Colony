@@ -253,7 +253,7 @@
           <li>
             <embryoDef>FB_FleshPillar</embryoDef>
             <label>FB_ColonyBrain_Structure_FleshPillar_Label</label>
-            <texPath>Things/Building/Furniture/FleshmassPillar</texPath>
+            <texPath>Things/Building/FB_Organic/FleshmassPillar/FleshmassPillar</texPath>
             <drawSize>(1.5,1.5)</drawSize>
             <cost>20</cost>
             <fleshArchitectCategory>FB_FleshArchitect_Structures</fleshArchitectCategory>

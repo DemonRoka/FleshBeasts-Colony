@@ -11,7 +11,7 @@
 		<drawerType>RealtimeOnly</drawerType>
 		<altitudeLayer>Building</altitudeLayer>
 		<graphicData>
-			<texPath>Things/Building/FB_ColonyEye/ColonyEye_Base</texPath>
+			<texPath>Things/Building/FB_Organic/ColonyEye/ColonyEye_Base</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(1, 1)</drawSize>
 		</graphicData>
@@ -23,8 +23,8 @@
 		<pathCost>0</pathCost>
 		<modExtensions>
 			<li Class="FB.ColonyGazeEyeExtension">
-				<openTexturePath>Things/Building/FB_ColonyEye/ColonyEyeTop</openTexturePath>
-				<closedTexturePath>Things/Building/FB_ColonyEye/ColonyEyeTop_Closed</closedTexturePath>
+				<openTexturePath>Things/Building/FB_Organic/ColonyEye/ColonyEyeTop</openTexturePath>
+				<closedTexturePath>Things/Building/FB_Organic/ColonyEye/ColonyEyeTop_Closed</closedTexturePath>
 				<size>1</size>
 				<baseRotation>-90</baseRotation>
 				<turnDegreesPerTick>15</turnDegreesPerTick>
