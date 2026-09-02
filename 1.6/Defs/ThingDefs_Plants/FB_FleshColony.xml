@@ -39,6 +39,7 @@
       <wildTerrainTags>
         <li>FB_FleshColonyTerrain</li>
       </wildTerrainTags>
+      <dieIfNoSunlight>false</dieIfNoSunlight>
     </plant>
   </ThingDef>
   <!-- Растение: flesh bait sprout (FB_FleshBaitSprout) -->
@@ -85,6 +86,7 @@
       <dieFromToxicFallout>false</dieFromToxicFallout>
       <neverBlightable>true</neverBlightable>
       <allowAutoCut>false</allowAutoCut>
+      <dieIfNoSunlight>false</dieIfNoSunlight>
     </plant>
   </ThingDef>
   <!-- Растение: fat flesh protuberances (FB_FleshFatProtuberances) -->
@@ -114,6 +116,7 @@
       <topWindExposure>0.1</topWindExposure>
       <wildOrder>0</wildOrder>
       <maxGrowthTemperature>75</maxGrowthTemperature>
+      <dieIfNoSunlight>false</dieIfNoSunlight>
     </plant>
     <selectable>False</selectable>
   </ThingDef>
@@ -173,6 +176,7 @@
         <li>Vacstone_Rough</li>
         <li>Vacstone_RoughHewn</li>
       </terrainBlacklist>
+      <dieIfNoSunlight>false</dieIfNoSunlight>
     </plant>
   </ThingDef>
   <!-- Растение: Bud Flesh Blade (BudFlesh_FleshBlade) -->

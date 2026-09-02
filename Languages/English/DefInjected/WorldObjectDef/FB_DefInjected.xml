@@ -2,6 +2,8 @@
 <LanguageData>
   <FB_FleshTunnelDestination.description>A distant tile pierced by a rooted flesh tunnel.</FB_FleshTunnelDestination.description>
   <FB_FleshTunnelDestination.label>flesh tunnel</FB_FleshTunnelDestination.label>
+  <FB_FleshTunnelMouth.label>flesh tunnel maw</FB_FleshTunnelMouth.label>
+  <FB_FleshTunnelMouth.description>The far end of a world tunnel grown by a tunnel nexus. Caravans standing here can be pulled through to the nexus, and flesh war parties use it as a shortcut.</FB_FleshTunnelMouth.description>
   <FB_FleshMoonWorldObject.description>A living orbital mass tethered to the colony by the celestial umbilicus.</FB_FleshMoonWorldObject.description>
   <FB_FleshMoonWorldObject.label>flesh moon</FB_FleshMoonWorldObject.label>
   <FB_FleshMoonStartingSettlement.description>A hidden scenario handoff object used to let the flesh moon be generated as the player's first map.</FB_FleshMoonStartingSettlement.description>

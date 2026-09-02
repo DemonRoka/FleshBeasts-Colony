@@ -21,19 +21,19 @@
   <FB_GrowFourToughspikesFromHemogel.label>вырастить 4 твёрдошипа из гемогеля</FB_GrowFourToughspikesFromHemogel.label>
   <FB_GrowFourToughspikesFromHemogel.description>Выращивает 4 твёрдошипа из общего запаса гемогеля колонии.</FB_GrowFourToughspikesFromHemogel.description>
   <FB_MergeTrispike.label>соединить троешипа</FB_MergeTrispike.label>
-  <FB_MergeTrispike.description>Собирает троешипа из разрешённой комбинации малых флешбистов.</FB_MergeTrispike.description>
+  <FB_MergeTrispike.description>Собирает троешипа из разрешённой комбинации малых биошматов.</FB_MergeTrispike.description>
   <FB_MergeToughspike.label>соединить твёрдошипа</FB_MergeToughspike.label>
-  <FB_MergeToughspike.description>Собирает твёрдошипа из разрешённой комбинации малых флешбистов.</FB_MergeToughspike.description>
+  <FB_MergeToughspike.description>Собирает твёрдошипа из разрешённой комбинации малых биошматов.</FB_MergeToughspike.description>
   <FB_MergeBulbfreak.label>соединить бугрурода</FB_MergeBulbfreak.label>
-  <FB_MergeBulbfreak.description>Собирает бугрурода из разрешённой комбинации шипастых флешбистов.</FB_MergeBulbfreak.description>
+  <FB_MergeBulbfreak.description>Собирает бугрурода из разрешённой комбинации шипастых биошматов.</FB_MergeBulbfreak.description>
   <FB_MergeDreadmeld.label>соединить жуткоплава</FB_MergeDreadmeld.label>
-  <FB_MergeDreadmeld.description>Собирает жуткоплава из разрешённой комбинации флешбистов.</FB_MergeDreadmeld.description>
+  <FB_MergeDreadmeld.description>Собирает жуткоплава из разрешённой комбинации биошматов.</FB_MergeDreadmeld.description>
   <FB_AssembleSegmentedBastion.label>собрать сегментный бастион</FB_AssembleSegmentedBastion.label>
-  <FB_AssembleSegmentedBastion.description>Приказывает расходным шипастым флешбистам соединиться в целый сегментный бастион.</FB_AssembleSegmentedBastion.description>
+  <FB_AssembleSegmentedBastion.description>Приказывает расходным шипастым биошматам соединиться в целый сегментный бастион.</FB_AssembleSegmentedBastion.description>
   <FB_AssembleAcidBroodmother.label>собрать кислотную правматку</FB_AssembleAcidBroodmother.label>
-  <FB_AssembleAcidBroodmother.description>Приказывает расходным шипастым флешбистам соединиться в кислотную правматку.</FB_AssembleAcidBroodmother.description>
+  <FB_AssembleAcidBroodmother.description>Приказывает расходным шипастым биошматам соединиться в кислотную правматку.</FB_AssembleAcidBroodmother.description>
   <FB_AssembleDevourer.label>собрать поглотителя</FB_AssembleDevourer.label>
-  <FB_AssembleDevourer.description>Приказывает расходным шипастым флешбистам соединиться в бронированного поглотителя.</FB_AssembleDevourer.description>
+  <FB_AssembleDevourer.description>Приказывает расходным шипастым биошматам соединиться в бронированного поглотителя.</FB_AssembleDevourer.description>
   <FB_GrowCortexMiteFromSkillEssence.label>вырастить мозгового клеща из эссенции</FB_GrowCortexMiteFromSkillEssence.label>
   <FB_GrowCortexMiteFromSkillEssence.description>Выращивает мозгового клеща из гемогеля и сохранённой эссенции навыков.</FB_GrowCortexMiteFromSkillEssence.description>
   <FB_GrowBurdenBlobFromSkillEssence.label>вырастить грузовую каплю из эссенции</FB_GrowBurdenBlobFromSkillEssence.label>

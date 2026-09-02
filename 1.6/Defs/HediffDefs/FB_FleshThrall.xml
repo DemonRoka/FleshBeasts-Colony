@@ -52,7 +52,7 @@
         <texturePath>Things/Pawn/Overlays/FleshThrall/FleshThrallOverlay</texturePath>
         <overlayColor>(1, 1, 1, 1)</overlayColor>
         <textureScaleFactor>2.8</textureScaleFactor>
-        <textureTiles>1.65</textureTiles>
+        <textureTiles>0.825</textureTiles>
         <textureOffsetMagnitude>2</textureOffsetMagnitude>
         <altitudeOffset>0.001</altitudeOffset>
       </li>
@@ -67,7 +67,7 @@
         <texturePath>Things/Pawn/Overlays/FleshThrall/FleshThrallOverlay</texturePath>
         <overlayColor>(1, 1, 1, 1)</overlayColor>
         <textureScaleFactor>2.8</textureScaleFactor>
-        <textureTiles>1.65</textureTiles>
+        <textureTiles>0.825</textureTiles>
         <textureOffsetMagnitude>2</textureOffsetMagnitude>
         <altitudeOffset>0.001</altitudeOffset>
       </li>
@@ -80,9 +80,10 @@
         <pawnType>HumanlikeOnly</pawnType>
         <texSeed>31611</texSeed>
         <decalCount>5</decalCount>
-        <maxTotalTries>650</maxTotalTries>
+        <maxTotalTries>900</maxTotalTries>
         <minDecalDistance>0.16</minDecalDistance>
         <baseScale>0.26</baseScale>
+        <decalWorldSize>3.0</decalWorldSize>
         <scaleJitter>0.75~1.25</scaleJitter>
         <baseAspect>1</baseAspect>
         <aspectJitter>1~1</aspectJitter>
@@ -95,7 +96,7 @@
         <bodyAlphaThreshold>0.25</bodyAlphaThreshold>
         <decalAlphaThreshold>0.05</decalAlphaThreshold>
         <minCoverage>0.48</minCoverage>
-        <samplesPerSide>7</samplesPerSide>
+        <samplesPerSide>9</samplesPerSide>
         <wobbleAmount>5</wobbleAmount>
         <wobbleSpeed>1.7</wobbleSpeed>
         <decalAltitudeBase>0.0015</decalAltitudeBase>
@@ -124,9 +125,10 @@
         <pawnType>NonHumanlikeOnly</pawnType>
         <texSeed>31613</texSeed>
         <decalCount>4</decalCount>
-        <maxTotalTries>650</maxTotalTries>
+        <maxTotalTries>900</maxTotalTries>
         <minDecalDistance>0.18</minDecalDistance>
         <baseScale>0.30</baseScale>
+        <decalWorldSize>3.0</decalWorldSize>
         <scaleJitter>0.75~1.25</scaleJitter>
         <baseAspect>1</baseAspect>
         <aspectJitter>1~1</aspectJitter>
@@ -139,7 +141,7 @@
         <bodyAlphaThreshold>0.25</bodyAlphaThreshold>
         <decalAlphaThreshold>0.05</decalAlphaThreshold>
         <minCoverage>0.48</minCoverage>
-        <samplesPerSide>7</samplesPerSide>
+        <samplesPerSide>9</samplesPerSide>
         <wobbleAmount>5</wobbleAmount>
         <wobbleSpeed>1.7</wobbleSpeed>
         <decalAltitudeBase>0.0015</decalAltitudeBase>

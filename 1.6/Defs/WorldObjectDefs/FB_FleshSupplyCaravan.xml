@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WorldObjectDef>
+    <defName>FB_FleshSupplyCaravan</defName>
+    <label>flesh supply caravan</label>
+    <description>A small pack of biomass carriers hauling ambush loot from a flesh camp to a connected outpost across the world map.</description>
+    <worldObjectClass>FB.WorldObject_FleshSupplyCaravan</worldObjectClass>
+    <canHaveFaction>true</canHaveFaction>
+    <canHaveMap>false</canHaveMap>
+    <validLaunchTarget>false</validLaunchTarget>
+    <selectable>true</selectable>
+    <useDynamicDrawer>true</useDynamicDrawer>
+    <texture>World/Flesh/FleshAssaultParty</texture>
+    <expandingIcon>true</expandingIcon>
+    <expandingIconTexture>World/Flesh/FleshAssaultParty</expandingIconTexture>
+    <expandingIconDrawSize>0.7</expandingIconDrawSize>
+    <expandingIconPriority>17</expandingIconPriority>
+    <inspectorTabs>
+      <li>FB.WITab_FleshSupplyCaravanStorage</li>
+    </inspectorTabs>
+  </WorldObjectDef>
+</Defs>

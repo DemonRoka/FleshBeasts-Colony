@@ -115,4 +115,63 @@ Beasts: {1}   Cargo: {2} stack(s), {3} / {4} kg</FB_FleshAssaultInspectCarrying>
   <FB_FleshAssaultDefeatedText>The flesh assault party failed to break {0}. Strength {1} was below the calculated difficulty {2}, and the committed hemogel was lost.</FB_FleshAssaultDefeatedText>
   <FB_FleshAssaultInvalidTargetLabel>Flesh assault aborted</FB_FleshAssaultInvalidTargetLabel>
   <FB_FleshAssaultInvalidTargetText>The target at world tile {0} is no longer a valid hostile settlement. The assault party is returning.</FB_FleshAssaultInvalidTargetText>
+  <FB_FleshSupplyCaravanCommand>Send supply caravan</FB_FleshSupplyCaravanCommand>
+  <FB_FleshSupplyCaravanCommandDesc>Grow a pack of fingerspikes, trispikes and bulbfreaks large enough to carry everything stored in this camp, then send it to a flesh outpost you pick on the world map. Right-click the corner to toggle automatic dispatch: while it is on, the camp ships its loot to the nearest outpost connected by veins every {0}.</FB_FleshSupplyCaravanCommandDesc>
+  <FB_FleshSupplyCaravanAutoState>Automatic supply caravans: {0}.</FB_FleshSupplyCaravanAutoState>
+  <FB_FleshSupplyCaravanNoCargo>This camp has no stored loot to carry.</FB_FleshSupplyCaravanNoCargo>
+  <FB_FleshSupplyCaravanNoCarriers>No fleshbeast carriers are available.</FB_FleshSupplyCaravanNoCarriers>
+  <FB_FleshSupplyCaravanNoOutpost>No flesh outpost is connected to this camp, so the loot stays in its storage.</FB_FleshSupplyCaravanNoOutpost>
+  <FB_FleshSupplyCaravanRequiresOutpost>Choose one of your flesh outposts as the delivery target.</FB_FleshSupplyCaravanRequiresOutpost>
+  <FB_FleshSupplyCaravanTargetTooltip>Deliver to {0}
+Cargo: {1} kg</FB_FleshSupplyCaravanTargetTooltip>
+  <FB_FleshSupplyCaravanLaunched>A supply caravan of {0} beast(s) left the camp with {1} stack(s) of loot for {2}.</FB_FleshSupplyCaravanLaunched>
+  <FB_FleshSupplyCaravanArrived>A supply caravan delivered {0} stack(s) of loot to {2}. Its {1} carrier(s) dissolved into the outpost.</FB_FleshSupplyCaravanArrived>
+  <FB_FleshSupplyCaravanReturned>The supply caravan came back and unloaded {0} stack(s) into the camp storage.</FB_FleshSupplyCaravanReturned>
+  <FB_FleshSupplyCaravanRerouted>The supply caravan lost its destination and is hauling the loot back to the camp on tile {0}.</FB_FleshSupplyCaravanRerouted>
+  <FB_FleshSupplyCaravanLost>A supply caravan had nowhere to unload and {0} stack(s) of loot were lost.</FB_FleshSupplyCaravanLost>
+  <FB_FleshSupplyCaravanInspect>Hauling loot to tile {0}
+Beasts: {1}   Cargo: {2} stack(s), {3} / {4} kg</FB_FleshSupplyCaravanInspect>
+  <FB_FleshSupplyCaravanInspectReturning>Returning to the camp on tile {0}
+Beasts: {1}   Cargo: {2} stack(s), {3} / {4} kg</FB_FleshSupplyCaravanInspectReturning>
+  <FB_FleshSupplyCaravanCargoHeader>Carriers: {0}   Cargo: {1} stack(s), {2} / {3} kg</FB_FleshSupplyCaravanCargoHeader>
+  <FB_FleshAmbushCampDispatchInspect>Next supply caravan: {0}</FB_FleshAmbushCampDispatchInspect>
+  <FB_FleshAmbushCampDispatchManual>Supply caravans: manual only</FB_FleshAmbushCampDispatchManual>
+  <FB_FleshCrustCorerInspect>Stored stacks: {0}
+Tile nutrition: {1}%
+Next ore portion: {2}%</FB_FleshCrustCorerInspect>
+  <FB_FleshCrustCorerDepleted>{0} on tile {1} has drained its tile dry and stopped producing ore. Absorb it and grow a new one on a living tile.</FB_FleshCrustCorerDepleted>
+  <FB_FleshTunnelWorldGrowLabel>Grow tunnel maw</FB_FleshTunnelWorldGrowLabel>
+  <FB_FleshTunnelWorldGrowDesc>Pick a world tile and grow the far maw of this tunnel into it. Cost: {0} hemogel per tile of distance, paid from this network. While the tunnel stands, caravans can cross it and flesh war parties reroute through it whenever that is faster.</FB_FleshTunnelWorldGrowDesc>
+  <FB_FleshTunnelWorldTargetTooltip>Distance: {0} tiles
+Cost: {1} hemogel
+Growth: {2}
+Crossing: {3}</FB_FleshTunnelWorldTargetTooltip>
+  <FB_FleshTunnelWorldGrowConfirm>Grow a tunnel maw on world tile {0}? Distance {1} tiles, cost {2} hemogel, growth takes {3}.</FB_FleshTunnelWorldGrowConfirm>
+  <FB_FleshTunnelWorldGrowStarted>The nexus started boring towards world tile {0}. It will break through in {1}.</FB_FleshTunnelWorldGrowStarted>
+  <FB_FleshTunnelWorldGrown>A flesh tunnel maw broke through on world tile {0}. Crossing takes {1}.</FB_FleshTunnelWorldGrown>
+  <FB_FleshTunnelWorldGrowFailed>The tunnel could not break through: the target tile is no longer free.</FB_FleshTunnelWorldGrowFailed>
+  <FB_FleshTunnelWorldTargetInvalid>Pick a valid tile on the same planet layer.</FB_FleshTunnelWorldTargetInvalid>
+  <FB_FleshTunnelWorldTargetImpassable>The tunnel cannot surface on an impassable tile.</FB_FleshTunnelWorldTargetImpassable>
+  <FB_FleshTunnelWorldCollapseLabel>Collapse tunnel</FB_FleshTunnelWorldCollapseLabel>
+  <FB_FleshTunnelWorldCollapseDesc>Collapse this world tunnel. The far maw dies, the nexus survives and can bore a new tunnel elsewhere. Spent hemogel is not refunded.</FB_FleshTunnelWorldCollapseDesc>
+  <FB_FleshTunnelWorldCollapseConfirm>Collapse the tunnel? The far maw is lost and the hemogel spent on it is not refunded.</FB_FleshTunnelWorldCollapseConfirm>
+  <FB_FleshTunnelWorldCollapsed>{0} collapsed its tunnel.</FB_FleshTunnelWorldCollapsed>
+  <FB_FleshTunnelWorldInspectIdle>No tunnel grown</FB_FleshTunnelWorldInspectIdle>
+  <FB_FleshTunnelWorldInspectGrowing>Boring towards tile {0}: {1} left</FB_FleshTunnelWorldInspectGrowing>
+  <FB_FleshTunnelWorldInspectLinked>Tunnel to tile {0} ({1} tiles)
+Crossing: {2}</FB_FleshTunnelWorldInspectLinked>
+  <FB_FleshTunnelWorldMouthInspect>Tunnel to tile {0} ({1} tiles)
+Crossing: {2}</FB_FleshTunnelWorldMouthInspect>
+  <FB_FleshTunnelWorldNoLink>There is no finished flesh tunnel on this tile.</FB_FleshTunnelWorldNoLink>
+  <FB_FleshTunnelWorldJumpLabel>Go to the other end</FB_FleshTunnelWorldJumpLabel>
+  <FB_FleshTunnelWorldJumpDesc>Jump the world camera to the other end of this tunnel and select it. While the tunnel is still being bored, this shows the target tile instead.</FB_FleshTunnelWorldJumpDesc>
+  <FB_FleshTunnelWorldDevFinishLabel>Dev: finish tunnel</FB_FleshTunnelWorldDevFinishLabel>
+  <FB_FleshTunnelWorldDevFinishDesc>Immediately finish boring and break the far maw through, ignoring the remaining growth time.</FB_FleshTunnelWorldDevFinishDesc>
+  <FB_FleshTunnelWorldCaravanEnterLabel>Enter flesh tunnel</FB_FleshTunnelWorldCaravanEnterLabel>
+  <FB_FleshTunnelWorldCaravanEnterDesc>Send this caravan through the flesh tunnel to world tile {0}. The crossing takes {1}; ordering the caravan to move cancels it.</FB_FleshTunnelWorldCaravanEnterDesc>
+  <FB_FleshTunnelWorldCaravanCancelLabel>Leave the tunnel</FB_FleshTunnelWorldCaravanCancelLabel>
+  <FB_FleshTunnelWorldCaravanCancelDesc>Back out of the crossing. {0} of it remains.</FB_FleshTunnelWorldCaravanCancelDesc>
+  <FB_FleshTunnelWorldCaravanStarted>{0} entered the flesh tunnel. It will surface in {1}.</FB_FleshTunnelWorldCaravanStarted>
+  <FB_FleshTunnelWorldCaravanArrived>{0} surfaced from the flesh tunnel on world tile {1}.</FB_FleshTunnelWorldCaravanArrived>
+  <FB_FleshTunnelWorldCaravanCancelled>{0} backed out of the flesh tunnel.</FB_FleshTunnelWorldCaravanCancelled>
 </LanguageData>

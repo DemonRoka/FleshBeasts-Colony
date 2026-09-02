@@ -3,9 +3,9 @@
   <FB_SegmentedBastion_AssembleLabel>Собрать сегментный бастион</FB_SegmentedBastion_AssembleLabel>
   <FB_SegmentedBastion_AssembleDesc>Призывает союзных пальцешипов, троешипов и крепкошипов слиться в управляемый сегментный бастион.</FB_SegmentedBastion_AssembleDesc>
   <FB_SegmentedBastion_NoDonors>Недостаточно подходящих союзных пальцешипов, троешипов или крепкошипов.</FB_SegmentedBastion_NoDonors>
-  <FB_SegmentedBastion_NoGatherCell>Не найдена достижимая точка сбора для выбранных флешбистов.</FB_SegmentedBastion_NoGatherCell>
+  <FB_SegmentedBastion_NoGatherCell>Не найдена достижимая точка сбора для выбранных биошматов.</FB_SegmentedBastion_NoGatherCell>
   <FB_SegmentedBastion_Interrupted>Сборка сегментного бастиона была прервана.</FB_SegmentedBastion_Interrupted>
-  <FB_SegmentedBastion_AssemblyStarted>{0} флешбистов сходятся в сегментный бастион. Общая масса: {1}.</FB_SegmentedBastion_AssemblyStarted>
+  <FB_SegmentedBastion_AssemblyStarted>{0} биошматов сходятся в сегментный бастион. Общая масса: {1}.</FB_SegmentedBastion_AssemblyStarted>
   <FB_SegmentedBastion_AssemblyComplete>{BEAST_labelShort} сформирован.</FB_SegmentedBastion_AssemblyComplete>
   <FB_SegmentedBastion_SplitLabel>Разделиться на шипастый рой</FB_SegmentedBastion_SplitLabel>
   <FB_SegmentedBastion_SplitDesc>Разрывает бастион на выжившие шипастые сегменты. Каждый сегмент сохраняет исходную принадлежность.</FB_SegmentedBastion_SplitDesc>

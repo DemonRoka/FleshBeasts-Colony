@@ -1,6 +1,6 @@
 
 <LanguageData>
-  <DefenderIncubatorResearch.description>Открывает инкубатор защитников - выводковый орган, который периодически выпускает недолговечных флешбистов по приказу или при приближении врагов.</DefenderIncubatorResearch.description>
+  <DefenderIncubatorResearch.description>Открывает инкубатор защитников - выводковый орган, который периодически выпускает недолговечных биошматов по приказу или при приближении врагов.</DefenderIncubatorResearch.description>
   <DefenderIncubatorResearch.generalRules.rulesStrings.0>subject-&gt;инкубация защитников из плоти</DefenderIncubatorResearch.generalRules.rulesStrings.0>
   <DefenderIncubatorResearch.generalRules.rulesStrings.1>subject_story-&gt;вырастил биомассу в стражей</DefenderIncubatorResearch.generalRules.rulesStrings.1>
   <DefenderIncubatorResearch.generalRules.rulesStrings.2>subject_story-&gt;породил органических защитников</DefenderIncubatorResearch.generalRules.rulesStrings.2>
@@ -12,14 +12,14 @@
   <FB_BroodMotherResearch.generalRules.rulesStrings.2>subject_story-&gt;создал живую утробу для выращенных колонией чудовищ</FB_BroodMotherResearch.generalRules.rulesStrings.2>
   <FB_BroodMotherResearch.generalRules.rulesStrings.3>subject_gerund-&gt;разведение плотяных зверей</FB_BroodMotherResearch.generalRules.rulesStrings.3>
   <FB_BroodMotherResearch.label>выводковая матка</FB_BroodMotherResearch.label>
-  <FB_AdaptiveHarvesters.description>Открывает жилозовцев, семена скрапмелда и сшивопастей: специализированных флешбистов, которые приманивают добычу, перерабатывают механойдные останки и извлекают полезные ткани из тел.</FB_AdaptiveHarvesters.description>
-  <FB_AdaptiveHarvesters.generalRules.rulesStrings.0>subject-&gt;адаптивные сборщики флешбистов</FB_AdaptiveHarvesters.generalRules.rulesStrings.0>
+  <FB_AdaptiveHarvesters.description>Открывает жилозовцев, семена скрапмелда и сшивопастей: специализированных биошматов, которые приманивают добычу, перерабатывают механойдные останки и извлекают полезные ткани из тел.</FB_AdaptiveHarvesters.description>
+  <FB_AdaptiveHarvesters.generalRules.rulesStrings.0>subject-&gt;адаптивные сборщики биошматов</FB_AdaptiveHarvesters.generalRules.rulesStrings.0>
   <FB_AdaptiveHarvesters.generalRules.rulesStrings.1>subject_story-&gt;развил хищные органы в специализированных сборщиков</FB_AdaptiveHarvesters.generalRules.rulesStrings.1>
   <FB_AdaptiveHarvesters.generalRules.rulesStrings.2>subject_story-&gt;научил зверей колонии собирать тела, добычу и машинные останки</FB_AdaptiveHarvesters.generalRules.rulesStrings.2>
   <FB_AdaptiveHarvesters.generalRules.rulesStrings.3>subject_gerund-&gt;разведение адаптивных сборщиков</FB_AdaptiveHarvesters.generalRules.rulesStrings.3>
   <FB_AdaptiveHarvesters.label>адаптивные сборщики</FB_AdaptiveHarvesters.label>
-  <FB_NeuralDominion.description>Открывает коконников и поработителей: продвинутых флешбистов контроля для захвата, живой перевозки и подавления враждебных разумов.</FB_NeuralDominion.description>
-  <FB_NeuralDominion.generalRules.rulesStrings.0>subject-&gt;нейронное подчинение флешбистов</FB_NeuralDominion.generalRules.rulesStrings.0>
+  <FB_NeuralDominion.description>Открывает коконников и поработителей: продвинутых биошматов контроля для захвата, живой перевозки и подавления враждебных разумов.</FB_NeuralDominion.description>
+  <FB_NeuralDominion.generalRules.rulesStrings.0>subject-&gt;нейронное подчинение биошматов</FB_NeuralDominion.generalRules.rulesStrings.0>
   <FB_NeuralDominion.generalRules.rulesStrings.1>subject_story-&gt;вырастил зверей для захвата и ментального контроля</FB_NeuralDominion.generalRules.rulesStrings.1>
   <FB_NeuralDominion.generalRules.rulesStrings.2>subject_story-&gt;связал враждебные разумы живыми нейронными органами</FB_NeuralDominion.generalRules.rulesStrings.2>
   <FB_NeuralDominion.generalRules.rulesStrings.3>subject_gerund-&gt;разведение нейронных поработителей</FB_NeuralDominion.generalRules.rulesStrings.3>
@@ -102,7 +102,7 @@
   <SpitterResearch.generalRules.rulesStrings.2>subject_story-&gt;вырастил биомассу, выбрасывающую кислоту</SpitterResearch.generalRules.rulesStrings.2>
   <SpitterResearch.generalRules.rulesStrings.3>subject_gerund-&gt;выращивание кислотных плевателей</SpitterResearch.generalRules.rulesStrings.3>
   <SpitterResearch.label>плевательная железа</SpitterResearch.label>
-  <TentacleTurretResearch.description>Открывает щупальцевую турель — неподвижного флешбиста-защитника, который выпускает кератиновые шипы по далёким врагам и хлещет ближайших тяжёлыми щупальцами.</TentacleTurretResearch.description>
+  <TentacleTurretResearch.description>Открывает щупальцевую турель — неподвижного биошмата-защитника, который выпускает кератиновые шипы по далёким врагам и хлещет ближайших тяжёлыми щупальцами.</TentacleTurretResearch.description>
   <TentacleTurretResearch.generalRules.rulesStrings.0>subject-&gt;рост щупальцевых турелей плоти</TentacleTurretResearch.generalRules.rulesStrings.0>
   <TentacleTurretResearch.generalRules.rulesStrings.1>subject_story-&gt;вырастил защитные органические структуры</TentacleTurretResearch.generalRules.rulesStrings.1>
   <TentacleTurretResearch.generalRules.rulesStrings.2>subject_story-&gt;создал защиту на основе щупалец</TentacleTurretResearch.generalRules.rulesStrings.2>

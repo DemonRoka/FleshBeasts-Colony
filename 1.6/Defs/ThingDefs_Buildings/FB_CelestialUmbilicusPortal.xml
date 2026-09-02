@@ -163,6 +163,29 @@
   </skyfaller>
 </ThingDef>
 
+  <ThingDef ParentName="SkyfallerBase">
+  <defName>FB_CelestialUmbilicusPortalOutgoing</defName>
+  <label>celestial umbilicus (retracting)</label>
+  <thingClass>FB.Skyfaller_CelestialUmbilicusPortalOutgoing</thingClass>
+  <size>(7,7)</size>
+  <graphicData>
+    <graphicClass>Graphic_Single</graphicClass>
+    <texPath>Things/Building/FB_Organic/CelestialUmbilicus/CelestialUmbilicusSegmentStart</texPath>
+    <shaderType>CutoutFlying</shaderType>
+    <drawSize>(11.2,11.2)</drawSize>
+    <drawOffset>(-0.04, 0, 1.35)</drawOffset>
+  </graphicData>
+  <skyfaller>
+    <reversed>true</reversed>
+    <movementType>Accelerate</movementType>
+    <ticksToImpactRange>0~0</ticksToImpactRange>
+    <ticksToDiscardInReverse>90~90</ticksToDiscardInReverse>
+    <shadow>Things/Skyfaller/SkyfallerShadowCircle</shadow>
+    <shadowSize>(13, 13)</shadowSize>
+    <motesPerCell>0</motesPerCell>
+  </skyfaller>
+</ThingDef>
+
   <ThingDef ParentName="EtherealThingBase">
   <defName>FB_CelestialUmbilicusImpactDustWave</defName>
   <label>celestial umbilicus impact dust wave</label>
@@ -181,7 +204,7 @@
   <size>(7,7)</size>
   <useHitPoints>true</useHitPoints>
   <destroyable>true</destroyable>
-  <drawerType>MapMeshAndRealTime</drawerType>
+  <drawerType>RealtimeOnly</drawerType>
   <tickerType>Normal</tickerType>
   <passability>PassThroughOnly</passability>
   <fillPercent>0.75</fillPercent>

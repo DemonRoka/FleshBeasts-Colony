@@ -42,7 +42,7 @@
         <li Class="ThinkNode_SubtreesByTag">
           <insertTag>Shambler_PreWander</insertTag>
         </li>
-        <li Class="JobGiver_ShamblerWander">
+        <li Class="FB.JobGiver_FleshThrallWander">
           <wanderRadius>5</wanderRadius>
         </li>
       </subNodes>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <FB_AlreadyDesignated>Уже отмечено.</FB_AlreadyDesignated>
+  <FB_InvalidTarget>Неподходящая цель.</FB_InvalidTarget>
+  <FB_ResearchProjectNotResearched>Требуется исследование: {0}.</FB_ResearchProjectNotResearched>
+  <FB_UnknownThing>объект</FB_UnknownThing>
+
+</LanguageData>

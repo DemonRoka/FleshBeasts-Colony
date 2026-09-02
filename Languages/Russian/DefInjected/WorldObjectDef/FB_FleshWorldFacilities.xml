@@ -8,4 +8,8 @@
   <FB_FleshRiverSiphon.description>Абстрактный планетарный орган, пьющий из рек, озёр или близкого побережья и сильно ускоряющий добычу гемогеля из покрытой плотью клетки.</FB_FleshRiverSiphon.description>
   <FB_FleshAmbushCamp.label>засадный лагерь плоти</FB_FleshAmbushCamp.label>
   <FB_FleshAmbushCamp.description>Абстрактный планетарный лагерь-ловушка, добывающий гемогель из своей клетки и складывающий случайную добычу от животных и проходящих караванов.</FB_FleshAmbushCamp.description>
+  <FB_FleshCrustCorer.label>бур коры</FB_FleshCrustCorer.label>
+  <FB_FleshCrustCorer.description>Абстрактный планетарный буровой орган. Перемалывает биомассу своей клетки в добытую руду, выжигая клетку куда быстрее пассивной добычи и отдавая тем меньше, чем суше клетка. На холмах и в горах выдача сдвигается к редким ресурсам.</FB_FleshCrustCorer.description>
+  <FB_FleshTunnelNexus.label>нексус туннеля</FB_FleshTunnelNexus.label>
+  <FB_FleshTunnelNexus.description>Абстрактный планетарный орган, проращивающий вторую пасть туннеля плоти в далёкую мировую клетку. Караван, стоящий у любой из пастей, туннель заглатывает и выплёвывает на другом конце заметно быстрее, чем тот дошёл бы ногами, а отряды плоти сами срезают через туннель путь, когда так быстрее. Обрушение туннеля сам нексус не убивает.</FB_FleshTunnelNexus.description>
 </LanguageData>

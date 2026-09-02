@@ -295,4 +295,23 @@
 		<descriptionKey>FB_ManualTentacle_Desc</descriptionKey>
 		<order>901</order>
 	</FB.FleshArchitectDesignatorDef>
+
+	<FB.FleshArchitectDesignatorDef>
+		<defName>FB_FleshArchitect_Heart_VeinAnchor</defName>
+		<category>FB_FleshArchitect_Misc</category>
+		<className>FB.Designator_VeinAnchor</className>
+		<requiredSourceBuilding>FB_ColonyHeart</requiredSourceBuilding>
+		<order>910</order>
+	</FB.FleshArchitectDesignatorDef>
+
+	<FB.FleshArchitectDesignatorDef>
+		<defName>FB_FleshArchitect_Heart_RemoveVeinAnchor</defName>
+		<category>FB_FleshArchitect_Misc</category>
+		<className>FB.Designator_RemoveVeinAnchor</className>
+		<iconPath>UI/Designators/FB_VeinAnchorRemove</iconPath>
+		<requiredSourceBuilding>FB_ColonyHeart</requiredSourceBuilding>
+		<labelKey>FB_VeinAnchorRemove_Label</labelKey>
+		<descriptionKey>FB_VeinAnchorRemove_Desc</descriptionKey>
+		<order>911</order>
+	</FB.FleshArchitectDesignatorDef>
 </Defs>

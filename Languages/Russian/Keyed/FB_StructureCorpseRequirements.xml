@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  
-  <FB_RequiresStoredCorpse>Требуется разрешённый труп в хранилище.</FB_RequiresStoredCorpse>
-  <FB_RequiresSpecificStoredCorpse>Требуется разрешённый труп в хранилище: {0}.</FB_RequiresSpecificStoredCorpse>
+
+  <FB_RequiresCorpseOnFlesh>Требуется разрешённый труп, лежащий на плоти колонии.</FB_RequiresCorpseOnFlesh>
+  <FB_RequiresSpecificCorpseOnFlesh>Требуется разрешённый труп, лежащий на плоти колонии: {0}.</FB_RequiresSpecificCorpseOnFlesh>
+  <FB_SelectCorpseForEmbryo>Выберите труп на плоти колонии</FB_SelectCorpseForEmbryo>
+  <FB_CorpseMustBeOnFlesh>Труп должен лежать на плоти колонии.</FB_CorpseMustBeOnFlesh>
+  <FB_CorpseNoLongerValid>Выбранный труп больше недоступен.</FB_CorpseNoLongerValid>
   <FB_AnyCorpse>любой труп</FB_AnyCorpse>
 </LanguageData>

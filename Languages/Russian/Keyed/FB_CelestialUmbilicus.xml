@@ -54,7 +54,7 @@
   <FB_FleshMoonWorldObjectAnchorLabel>Развернуть физическую пуповину</FB_FleshMoonWorldObjectAnchorLabel>
   <FB_FleshMoonWorldObjectAnchorDesc>Создать или загрузить карту поверхности под Луной и развернуть физическую небесную пуповину. Этот тактический канал нужен для поселений, высадки пешек и перемещения грузов.</FB_FleshMoonWorldObjectAnchorDesc>
   <FB_FleshMoonWorldObjectMaplessAnchorLabel>Опустить питающую пуповину</FB_FleshMoonWorldObjectMaplessAnchorLabel>
-  <FB_FleshMoonWorldObjectMaplessAnchorDesc>Прикрепить небесную пуповину к допустимой клетке поверхности под Луной без создания карты. Она сразу начнёт перекачивать конечную питательность клетки во внутренний резерв Луны. Если клетка уже покрыта или позже покроется плотью, Луна также войдёт в гемогелевую сеть этой территории. Команда работает на пустых и покрытых клетках, а также на абстрактных аванпостах плоти, но не на поселениях, сайтах или загруженных картах.</FB_FleshMoonWorldObjectMaplessAnchorDesc>
+  <FB_FleshMoonWorldObjectMaplessAnchorDesc>Прикрепить небесную пуповину к клетке поверхности под Луной без создания карты. Она сразу начнёт перекачивать конечную питательность клетки во внутренний резерв Луны и введёт Луну в гемогелевую сеть этой территории. Клетка должна быть покрыта плотью — абстрактный аванпост плоти подходит — и не может быть поселением, сайтом или загруженной картой. Над чистой землёй опускайте физическую пуповину.</FB_FleshMoonWorldObjectMaplessAnchorDesc>
   <FB_FleshMoonWorldObjectChannelOpenLabel>Открыть физический канал</FB_FleshMoonWorldObjectChannelOpenLabel>
   <FB_FleshMoonWorldObjectChannelOpenDesc>Материализовать логически закреплённую клетку поверхности и автоматически развернуть небесную пуповину возле центра карты. После этого можно спускать пешек и грузы. Абстрактные клетки аванпостов материализовать нельзя.</FB_FleshMoonWorldObjectChannelOpenDesc>
   <FB_FleshMoonWorldObjectDetachLabel>Отсоединить пуповину</FB_FleshMoonWorldObjectDetachLabel>
@@ -73,6 +73,7 @@
   <FB_FleshMoonWorldObjectAnchorLinkedDisabled>Луна плоти уже закреплена.</FB_FleshMoonWorldObjectAnchorLinkedDisabled>
   <FB_FleshMoonWorldObjectNoLinkedUmbilicus>У луны плоти нет активной наземной пуповины.</FB_FleshMoonWorldObjectNoLinkedUmbilicus>
   <FB_FleshMoonWorldObjectNoSurfaceTile>Под луной плоти нет точки поверхности.</FB_FleshMoonWorldObjectNoSurfaceTile>
+  <FB_FleshMoonWorldObjectMaplessRequiresCovered>Питающая привязка без карты держится только на клетке, покрытой плотью. Над чистой землёй остаётся опустить физическую пуповину.</FB_FleshMoonWorldObjectMaplessRequiresCovered>
   <FB_FleshMoonWorldObjectMoveTargetTimed>Переместить луну плоти сюда: {0}</FB_FleshMoonWorldObjectMoveTargetTimed>
   <FB_FleshMoonWorldObjectInvalidTarget>Выберите допустимую клетку поверхности.</FB_FleshMoonWorldObjectInvalidTarget>
   <FB_FleshMoonWorldObjectTargetImpassable>Луна плоти не может закрепиться над непроходимой клеткой мира.</FB_FleshMoonWorldObjectTargetImpassable>

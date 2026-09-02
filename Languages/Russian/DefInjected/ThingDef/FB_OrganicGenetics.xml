@@ -13,7 +13,7 @@
   <FB_GeneReweaverEmbryo.label>эмбрион генного переплетателя</FB_GeneReweaverEmbryo.label>
   <FB_GeneReweaverEmbryo.description>Незрелый генный орган, который вырастет в генного переплетателя.</FB_GeneReweaverEmbryo.description>
   <FB_Chromophage.label>хромофаг</FB_Chromophage.label>
-  <FB_Chromophage.description>Слитый флешбист, извлекающий следы генов из мёртвых гуманоидных тел и переносящий их в геномный архив.</FB_Chromophage.description>
+  <FB_Chromophage.description>Слитый биошмат, извлекающий следы генов из мёртвых гуманоидных тел и переносящий их в геномный архив.</FB_Chromophage.description>
   <FB_GeneReweaverCocoon.label>кокон генного переплетателя</FB_GeneReweaverCocoon.label>
   <FB_GeneReweaverCocoon.description>Временный генетический кокон, выращенный генным переплетателем. Он удерживает пешку, пока подготовленный плотяной ксеногерм интегрируется в тело.</FB_GeneReweaverCocoon.description>
 </LanguageData>

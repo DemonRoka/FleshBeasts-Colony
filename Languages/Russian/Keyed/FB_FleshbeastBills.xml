@@ -15,7 +15,7 @@
   <FB_FleshbeastBillRepeatSelfHealthInfo>Здоровье: {0}% / порог {1}%</FB_FleshbeastBillRepeatSelfHealthInfo>
   <FB_FleshbeastBillPreferredGroup>Группа: {0}</FB_FleshbeastBillPreferredGroup>
   <FB_FleshbeastBillPreferredGroupNone>Без группы</FB_FleshbeastBillPreferredGroupNone>
-  <FB_FleshbeastBillPreferredGroupDesc>Новые выращенные или соединённые флешбисты из этого задания будут назначены в выбранную группу.</FB_FleshbeastBillPreferredGroupDesc>
+  <FB_FleshbeastBillPreferredGroupDesc>Новые выращенные или соединённые биошматы из этого задания будут назначены в выбранную группу.</FB_FleshbeastBillPreferredGroupDesc>
   <FB_SelfDamageCostLine>Самоповреждение: {0}</FB_SelfDamageCostLine>
   <FB_NoAvailableMedicalOperations>Для этого биошмата нет доступных процедур.</FB_NoAvailableMedicalOperations>
 </LanguageData>

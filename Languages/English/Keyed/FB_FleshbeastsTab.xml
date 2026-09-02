@@ -54,6 +54,8 @@
   <FB_FleshThrallConvertCannotStart>Fingerspikes could not start the conversion.</FB_FleshThrallConvertCannotStart>
   <FB_FleshThrallConvertAssigned>{0} fingerspike(s) assigned to bind {1}.</FB_FleshThrallConvertAssigned>
   <FB_FleshThrallConvertSuccess>{0} has become a flesh thrall.</FB_FleshThrallConvertSuccess>
+  <FB_FleshThrallConvertStalled>Binding {0} is paused: {1} more fingerspike(s) needed, {2} already delivered.</FB_FleshThrallConvertStalled>
+  <FB_FleshThrallConvertCancelled>Flesh thrall binding cancelled; {0} delivered fingerspike(s) were lost.</FB_FleshThrallConvertCancelled>
   
   
   <FB_Fleshbeasts_HideNonCommandableTooltip>Toggle non-commandable fleshbeasts in this list.</FB_Fleshbeasts_HideNonCommandableTooltip>

@@ -54,7 +54,7 @@
   <FB_FleshMoonWorldObjectAnchorLabel>Deploy physical umbilicus</FB_FleshMoonWorldObjectAnchorLabel>
   <FB_FleshMoonWorldObjectAnchorDesc>Generate or load the surface map below the flesh moon and deploy a physical celestial umbilicus. Use this tactical channel for settlements, landing pawns, and moving cargo.</FB_FleshMoonWorldObjectAnchorDesc>
   <FB_FleshMoonWorldObjectMaplessAnchorLabel>Lower feeding umbilicus</FB_FleshMoonWorldObjectMaplessAnchorLabel>
-  <FB_FleshMoonWorldObjectMaplessAnchorDesc>Attach the celestial umbilicus to the valid surface tile below without generating a map. It immediately starts extracting the tile's finite nutrition into the Moon reserve. If the tile is or becomes covered with flesh, the Moon also joins that territory's hemogel network. This works on empty or covered tiles and abstract flesh outposts, but not on settlements, sites, or loaded maps.</FB_FleshMoonWorldObjectMaplessAnchorDesc>
+  <FB_FleshMoonWorldObjectMaplessAnchorDesc>Attach the celestial umbilicus to the surface tile below without generating a map. It immediately starts extracting the tile's finite nutrition into the Moon reserve and joins the Moon to that territory's hemogel network. The tile has to be covered with flesh - an abstract flesh outpost counts - and can never be a settlement, a site or a loaded map. Over bare ground, drop the physical umbilicus instead.</FB_FleshMoonWorldObjectMaplessAnchorDesc>
   <FB_FleshMoonWorldObjectChannelOpenLabel>Open physical channel</FB_FleshMoonWorldObjectChannelOpenLabel>
   <FB_FleshMoonWorldObjectChannelOpenDesc>Materialize the logically anchored surface tile and automatically deploy the celestial umbilicus near the map center. This allows pawns and cargo to descend. Abstract outpost tiles cannot be materialized.</FB_FleshMoonWorldObjectChannelOpenDesc>
   <FB_FleshMoonWorldObjectDetachLabel>Detach umbilicus</FB_FleshMoonWorldObjectDetachLabel>
@@ -73,6 +73,7 @@
   <FB_FleshMoonWorldObjectAnchorLinkedDisabled>The flesh moon is already anchored.</FB_FleshMoonWorldObjectAnchorLinkedDisabled>
   <FB_FleshMoonWorldObjectNoLinkedUmbilicus>The flesh moon has no active surface umbilicus.</FB_FleshMoonWorldObjectNoLinkedUmbilicus>
   <FB_FleshMoonWorldObjectNoSurfaceTile>The flesh moon has no surface tile below it.</FB_FleshMoonWorldObjectNoSurfaceTile>
+  <FB_FleshMoonWorldObjectMaplessRequiresCovered>The mapless feeding anchor only takes hold on a tile covered with flesh. Over bare ground the moon has to drop the physical umbilicus instead.</FB_FleshMoonWorldObjectMaplessRequiresCovered>
   <FB_FleshMoonWorldObjectMoveTargetTimed>Move flesh moon here: {0}</FB_FleshMoonWorldObjectMoveTargetTimed>
   <FB_FleshMoonWorldObjectInvalidTarget>Choose a valid surface tile.</FB_FleshMoonWorldObjectInvalidTarget>
   <FB_FleshMoonWorldObjectTargetImpassable>The flesh moon cannot anchor above impassable world terrain.</FB_FleshMoonWorldObjectTargetImpassable>

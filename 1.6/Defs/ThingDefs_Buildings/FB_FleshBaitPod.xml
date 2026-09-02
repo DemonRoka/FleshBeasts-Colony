@@ -4,7 +4,7 @@
   <ThingDef ParentName="BuildingColonyFleshBase">
     <defName>FB_FleshBaitPod</defName>
     <label>flesh bait pod</label>
-    <description>A small rooted pod that grows a tempting flesh-sprout. Hungry wild animals may treat the sprout as food; when they begin feeding, the pod borrows a free colony-heart grasping slot and tightens root tendrils around the prey.</description>
+    <description>A small rooted pod that grows a tempting flesh-sprout. Hungry wild animals may treat the sprout as food; when they begin feeding, the pod seizes them using the colony's grasping tendril slots.</description>
     <thingClass>FB.Building_FleshBaitPod</thingClass>
     <size>(1,1)</size>
     <drawerType>MapMeshAndRealTime</drawerType>

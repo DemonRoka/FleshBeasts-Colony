@@ -1,72 +1,73 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <!-- Building: deep maw trap (FB_DeepMawTrap) -->
   <ThingDef ParentName="BuildingColonyFleshBase">
-    <defName>FB_DeepMawTrap</defName>
-    <label>deep maw trap</label>
-    <description>A buried colony mouth hidden under flesh. Hostile movement wakes it; after a short delay, it snaps open and swallows every living pawn still on its 2x2 mouth, including allies. It digests organic victims into hemogel and grinds mechanoids until their remains are expelled.</description>
-    <thingClass>FB.Building_DeepMawTrap</thingClass>
-    <size>(2,2)</size>
-    <drawerType>MapMeshAndRealTime</drawerType>
-    <tickerType>Normal</tickerType>
-    <passability>Standable</passability>
-    <fillPercent>0.05</fillPercent>
-    <pathCost>0</pathCost>
-    <statBases>
-      <Mass>18</Mass>
-      <MaxHitPoints>250</MaxHitPoints>
-      <Flammability>1.1</Flammability>
-      <Beauty>-30</Beauty>
-      <Cleanliness>-8</Cleanliness>
-    </statBases>
-    <graphicData>
-      <texPath>Things/Building/FB_Organic/Traps/DeepMawTrap</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(2,2)</drawSize>
-      <damageData>
-        <rect>(0.3, 0.3, 1.4, 1.4)</rect>
-        <scratches>
-          <li>Damage/FleshScratch1</li>
-          <li>Damage/FleshScratch2</li>
-          <li>Damage/FleshScratch3</li>
-        </scratches>
-      </damageData>
-    </graphicData>
-    <building>
-      <isTrap>true</isTrap>
-      <trapDestroyOnSpring>false</trapDestroyOnSpring>
-      <expandHomeArea>false</expandHomeArea>
-      <ai_chillDestination>false</ai_chillDestination>
-      <deconstructible>false</deconstructible>
-      <repairable>false</repairable>
-      <roamerCanOpen>true</roamerCanOpen>
-      <claimable>false</claimable>
-      <isEdifice>true</isEdifice>
-      <isInert>true</isInert>
-      <isTargetable>true</isTargetable>
-      <ai_combatDangerous>true</ai_combatDangerous>
-    </building>
-    <comps>
-      <li Class="FB.CompProperties_DeepMawTrap">
-        <triggerDelayTicks>60</triggerDelayTicks>
-        <missCooldownTicks>180</missCooldownTicks>
-        <swallowingTicks>45</swallowingTicks>
-        <digestPulseTicks>250</digestPulseTicks>
-        <resistancePulseTicks>180</resistancePulseTicks>
-        <releaseOpenTicks>45</releaseOpenTicks>
-        <internalDamagePerPulse>10</internalDamagePerPulse>
-        <hemogelProductionPerHour>50</hemogelProductionPerHour>
-        <hemogelPerNutrition>20</hemogelPerNutrition>
-        <digestionDurationFactor>2</digestionDurationFactor>
-        <forcedReleaseHitPointFraction>0.1</forcedReleaseHitPointFraction>
-        <maxResistanceDamagePerPulse>24</maxResistanceDamagePerPulse>
-        <internalResistanceDamageFactor>0.5</internalResistanceDamageFactor>
-      </li>
-      <li Class="FB.CompProperties_HemogelUpkeep">
-        <hemogelPerHour>0.5</hemogelPerHour>
-      </li>
-    </comps>
-  </ThingDef>
+  <defName>FB_DeepMawTrap</defName>
+  <label>deep maw trap</label>
+  <description>A buried colony mouth hidden under flesh. Hostile movement wakes it; after a short delay, it snaps open and swallows every living pawn still on its 2x2 mouth, including allies. It digests organic victims into hemogel and grinds mechanoids until their remains are expelled.</description>
+  <thingClass>FB.Building_DeepMawTrap</thingClass>
+  <size>(2,2)</size>
+  <drawerType>MapMeshAndRealTime</drawerType>
+  <tickerType>Normal</tickerType>
+  <passability>Standable</passability>
+  <fillPercent>0.05</fillPercent>
+  <pathCost>0</pathCost>
+  <statBases>
+    <Mass>18</Mass>
+    <MaxHitPoints>250</MaxHitPoints>
+    <Flammability>1.1</Flammability>
+    <Beauty>-30</Beauty>
+    <Cleanliness>-8</Cleanliness>
+  </statBases>
+  <graphicData>
+    <texPath>Things/Building/FB_Organic/DeepMawTrap/DeepMawTrap</texPath>
+    <graphicClass>Graphic_Single</graphicClass>
+    <shaderType>Transparent</shaderType>
+    <drawSize>3</drawSize>
+    <damageData>
+      <rect>(0.3, 0.3, 1.4, 1.4)</rect>
+      <scratches>
+        <li>Damage/FleshScratch1</li>
+        <li>Damage/FleshScratch2</li>
+        <li>Damage/FleshScratch3</li>
+      </scratches>
+    </damageData>
+  </graphicData>
+  <building>
+    <isTrap>true</isTrap>
+    <trapDestroyOnSpring>false</trapDestroyOnSpring>
+    <expandHomeArea>false</expandHomeArea>
+    <ai_chillDestination>false</ai_chillDestination>
+    <deconstructible>false</deconstructible>
+    <repairable>false</repairable>
+    <roamerCanOpen>true</roamerCanOpen>
+    <claimable>false</claimable>
+    <isEdifice>true</isEdifice>
+    <isInert>true</isInert>
+    <isTargetable>true</isTargetable>
+    <ai_combatDangerous>true</ai_combatDangerous>
+  </building>
+  <comps>
+    <li Class="FB.CompProperties_DeepMawTrap">
+      <triggerDelayTicks>60</triggerDelayTicks>
+      <missCooldownTicks>180</missCooldownTicks>
+      <swallowingTicks>45</swallowingTicks>
+      <digestPulseTicks>250</digestPulseTicks>
+      <resistancePulseTicks>180</resistancePulseTicks>
+      <releaseOpenTicks>45</releaseOpenTicks>
+      <internalDamagePerPulse>10</internalDamagePerPulse>
+      <hemogelProductionPerHour>50</hemogelProductionPerHour>
+      <hemogelPerNutrition>20</hemogelPerNutrition>
+      <digestionDurationFactor>2</digestionDurationFactor>
+      <forcedReleaseHitPointFraction>0.1</forcedReleaseHitPointFraction>
+      <maxResistanceDamagePerPulse>24</maxResistanceDamagePerPulse>
+      <internalResistanceDamageFactor>0.5</internalResistanceDamageFactor>
+    </li>
+    <li Class="FB.CompProperties_HemogelUpkeep">
+      <hemogelPerHour>0.5</hemogelPerHour>
+    </li>
+  </comps>
+</ThingDef>
 
   <!-- Building: deep maw trap embryo (FB_DeepMawTrapEmbryo) -->
   <ThingDef ParentName="EmbryoStructureBase">
@@ -85,7 +86,8 @@
     </comps>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
-      <texPath>Things/Building/FB_Organic/Traps/DeepMawTrapEmbryo</texPath>
+      <shaderType>Transparent</shaderType>
+      <texPath>Things/Building/FB_Organic/DeepMawTrap/DeepMawTrapEmbryo</texPath>
       <drawSize>(2,2)</drawSize>
     </graphicData>
   </ThingDef>

@@ -8,4 +8,8 @@
   <FB_FleshRiverSiphon.description>An abstract planetary organ that drinks from rivers, lakes or nearby coasts and greatly accelerates hemogel extraction from its covered world tile.</FB_FleshRiverSiphon.description>
   <FB_FleshAmbushCamp.label>flesh ambush camp</FB_FleshAmbushCamp.label>
   <FB_FleshAmbushCamp.description>An abstract planetary trap-camp that harvests hemogel from its covered tile and stores occasional loot taken from animals and passing caravans.</FB_FleshAmbushCamp.description>
+  <FB_FleshCrustCorer.label>crust corer</FB_FleshCrustCorer.label>
+  <FB_FleshCrustCorer.description>An abstract planetary drilling organ. It grinds the biomass of its covered tile into mined ore, exhausting that tile far faster than passive extraction and yielding less as the tile dies. Hills and mountains push its output towards rarer ores.</FB_FleshCrustCorer.description>
+  <FB_FleshTunnelNexus.label>tunnel nexus</FB_FleshTunnelNexus.label>
+  <FB_FleshTunnelNexus.description>An abstract planetary organ that grows a second flesh tunnel maw on a distant world tile. Caravans standing on either maw can be swallowed and spat out at the other end far faster than they could walk, and flesh war parties reroute through the tunnel whenever it saves them time. Collapsing the tunnel leaves the nexus itself intact.</FB_FleshTunnelNexus.description>
 </LanguageData>

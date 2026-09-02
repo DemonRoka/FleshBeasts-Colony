@@ -91,7 +91,7 @@
     <expandingIconDrawSize>0.85</expandingIconDrawSize>
     <expandingIconPriority>16</expandingIconPriority>
     <inspectorTabs>
-      <li>FB.WITab_FleshAmbushCampStorage</li>
+      <li>FB.WITab_FleshFacilityStorage</li>
     </inspectorTabs>
     <modExtensions>
       <li Class="FB.FleshWorldFacilityDefModExtension">
@@ -108,6 +108,73 @@
         <ambushHaulMinValue>350</ambushHaulMinValue>
         <ambushHaulMaxValue>2600</ambushHaulMaxValue>
         <commandIconPath>UI/Commands/FleshBuildAmbushCamp</commandIconPath>
+      </li>
+    </modExtensions>
+  </WorldObjectDef>
+
+  <WorldObjectDef>
+    <defName>FB_FleshCrustCorer</defName>
+    <label>crust corer</label>
+    <description>An abstract planetary drilling organ. It grinds the biomass of its covered tile into mined ore, exhausting that tile far faster than passive extraction and yielding less as the tile dies. Hills and mountains push its output towards rarer ores.</description>
+    <worldObjectClass>FB.WorldObject_FleshWorldFacility</worldObjectClass>
+    <canHaveFaction>true</canHaveFaction>
+    <canHaveMap>false</canHaveMap>
+    <validLaunchTarget>false</validLaunchTarget>
+    <selectable>true</selectable>
+    <texture>World/Flesh/FleshCrustCorer</texture>
+    <expandingIcon>true</expandingIcon>
+    <expandingIconTexture>World/Flesh/FleshCrustCorer</expandingIconTexture>
+    <expandingIconDrawSize>0.85</expandingIconDrawSize>
+    <expandingIconPriority>16</expandingIconPriority>
+    <inspectorTabs>
+      <li>FB.WITab_FleshFacilityStorage</li>
+    </inspectorTabs>
+    <modExtensions>
+      <li Class="FB.FleshWorldFacilityDefModExtension">
+        <category>Production</category>
+        <cost>35000</cost>
+        <tileProductionMultiplier>1</tileProductionMultiplier>
+        <producesMinerals>true</producesMinerals>
+        <mineralDrainPerHour>500</mineralDrainPerHour>
+        <mineralBiomassPerPortion>6000</mineralBiomassPerPortion>
+        <mineralYieldFactor>1</mineralYieldFactor>
+        <mineralRarityPerHillOffset>1</mineralRarityPerHillOffset>
+        <mineralExcludedThings>
+          <li>Bioferrite</li>
+        </mineralExcludedThings>
+        <commandIconPath>UI/Commands/FleshBuildCrustCorer</commandIconPath>
+      </li>
+    </modExtensions>
+  </WorldObjectDef>
+
+  <WorldObjectDef>
+    <defName>FB_FleshTunnelNexus</defName>
+    <label>tunnel nexus</label>
+    <description>An abstract planetary organ that grows a second flesh tunnel maw on a distant world tile. Caravans standing on either maw can be swallowed and spat out at the other end far faster than they could walk, and flesh war parties reroute through the tunnel whenever it saves them time. Collapsing the tunnel leaves the nexus itself intact.</description>
+    <worldObjectClass>FB.WorldObject_FleshTunnelNexus</worldObjectClass>
+    <canHaveFaction>true</canHaveFaction>
+    <canHaveMap>false</canHaveMap>
+    <validLaunchTarget>false</validLaunchTarget>
+    <selectable>true</selectable>
+    <texture>World/Flesh/FleshTunnelNexus</texture>
+    <expandingIcon>true</expandingIcon>
+    <expandingIconTexture>World/Flesh/FleshTunnelNexus</expandingIconTexture>
+    <expandingIconDrawSize>0.85</expandingIconDrawSize>
+    <expandingIconPriority>16</expandingIconPriority>
+    <modExtensions>
+      <li Class="FB.FleshWorldFacilityDefModExtension">
+        <category>Production</category>
+        <cost>60000</cost>
+        <tileProductionMultiplier>1</tileProductionMultiplier>
+        <tunnelNexus>true</tunnelNexus>
+        <tunnelHemogelPerWorldTile>1200</tunnelHemogelPerWorldTile>
+        <tunnelMinimumGrowCost>12000</tunnelMinimumGrowCost>
+        <tunnelGrowTicksPerWorldTile>1200</tunnelGrowTicksPerWorldTile>
+        <tunnelMinimumGrowTicks>5000</tunnelMinimumGrowTicks>
+        <tunnelTransitTicksPerWorldTile>800</tunnelTransitTicksPerWorldTile>
+        <tunnelMinimumTransitTicks>2500</tunnelMinimumTransitTicks>
+        <tunnelMouthDef>FB_FleshTunnelMouth</tunnelMouthDef>
+        <commandIconPath>UI/Commands/FleshBuildTunnelNexus</commandIconPath>
       </li>
     </modExtensions>
   </WorldObjectDef>

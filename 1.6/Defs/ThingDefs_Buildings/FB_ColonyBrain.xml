@@ -164,7 +164,7 @@
             <embryoDef>FB_DeepMawTrapEmbryo</embryoDef>
             <label>FB_ColonyBrain_Structure_DeepMawTrap_Label</label>
             <description>FB_ColonyBrain_Structure_DeepMawTrap_Desc</description>
-            <texPath>Things/Building/FB_Organic/Traps/DeepMawTrap</texPath>
+            <texPath>Things/Building/FB_Organic/DeepMawTrap/DeepMawTrap</texPath>
             <drawSize>(2,2)</drawSize>
             <cost>300</cost>
             <requiredResearch>FB_DeepMawTraps</requiredResearch>
@@ -457,7 +457,7 @@
       <li Class="FB.CompProperties_CargoTendrilPawnHauling">
         <proxyPawnKind>FB_CargoTendrilProxyKind</proxyPawnKind>
         <maxActiveTendrils>10</maxActiveTendrils>
-        <defaultActiveTendrils>5</defaultActiveTendrils>
+        <defaultActiveTendrils>0</defaultActiveTendrils>
         <hemogelPerTendrilPerHour>0.3</hemogelPerTendrilPerHour>
         <tendrilReach>7</tendrilReach>
         <anchorSearchRadius>4</anchorSearchRadius>

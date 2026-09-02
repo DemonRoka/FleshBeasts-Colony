@@ -4,7 +4,7 @@
   <ThingDef ParentName="BuildingColonyFleshBaseAnimation">
     <defName>FB_DefenderIncubator</defName>
     <label>Defender Incubator</label>
-    <description>A defensive incubator that periodically releases short-lived fleshbeast defenders on command or when a hostile enters its detection radius, then regrows a new brood before it can release again.</description>
+    <description>A defensive incubator that periodically releases short-lived fleshbeast defenders on command or when a hostile enters its detection radius. It needs time to mature before it can produce defenders again.</description>
     <size>(2,2)</size>
     <statBases>
       <Beauty>-20</Beauty>
@@ -48,7 +48,7 @@
         <randomPawnKinds>
           <li>FB_FingerspikeGauntletKind</li>
         </randomPawnKinds>
-        <iconPath>Things/Building/FB_Organic/DefenderIncubator/DefenderIncubator</iconPath>
+        <iconPath>UI/Commands/ReleaseDefenders</iconPath>
         <gizmoLabel>FB_DefenderIncubator_ReleaseLabel</gizmoLabel>
         <gizmoDesc>FB_DefenderIncubator_ReleaseDesc</gizmoDesc>
         <gizmoRechargingDesc>FB_DefenderIncubator_RechargingDesc</gizmoRechargingDesc>

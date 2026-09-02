@@ -2,6 +2,8 @@
 <LanguageData>
   <FB_FleshTunnelDestination.description>Дальний тайл, пробитый укоренённым плотяным туннелем.</FB_FleshTunnelDestination.description>
   <FB_FleshTunnelDestination.label>плотяной туннель</FB_FleshTunnelDestination.label>
+  <FB_FleshTunnelMouth.label>пасть туннеля плоти</FB_FleshTunnelMouth.label>
+  <FB_FleshTunnelMouth.description>Дальний конец мирового туннеля, пророщенный нексусом. Караван, стоящий здесь, можно протащить к нексусу, а отряды плоти используют пасть как короткий путь.</FB_FleshTunnelMouth.description>
   <FB_FleshMoonWorldObject.description>Живая орбитальная масса, соединённая с колонией небесной пуповиной.</FB_FleshMoonWorldObject.description>
   <FB_FleshMoonWorldObject.label>луна плоти</FB_FleshMoonWorldObject.label>
   <FB_FleshMoonStartingSettlement.description>Скрытый сценарный объект-посредник, позволяющий сгенерировать луну плоти как первую карту игрока.</FB_FleshMoonStartingSettlement.description>

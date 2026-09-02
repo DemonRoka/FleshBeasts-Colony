@@ -115,4 +115,63 @@
   <FB_FleshAssaultDefeatedText>Отряд плоти не смог сломить {0}. Сила {1} была ниже расчётной сложности {2}, и вложенный гемогель потерян.</FB_FleshAssaultDefeatedText>
   <FB_FleshAssaultInvalidTargetLabel>Атака плоти отменена</FB_FleshAssaultInvalidTargetLabel>
   <FB_FleshAssaultInvalidTargetText>Цель на мировой клетке {0} больше не является валидным враждебным поселением. Отряд возвращается.</FB_FleshAssaultInvalidTargetText>
+  <FB_FleshSupplyCaravanCommand>Отправить караван снабжения</FB_FleshSupplyCaravanCommand>
+  <FB_FleshSupplyCaravanCommandDesc>Вырастить группу пальцешипов, троешипов и бугруродов, способную унести всю добычу этого лагеря, и отправить её в аванпост плоти, который вы укажете на мировой карте. Правый клик по углу переключает автоотправку: пока она включена, лагерь сам раз в {0} шлёт добычу в ближайший аванпост, связанный с ним венами.</FB_FleshSupplyCaravanCommandDesc>
+  <FB_FleshSupplyCaravanAutoState>Автоматические караваны снабжения: {0}.</FB_FleshSupplyCaravanAutoState>
+  <FB_FleshSupplyCaravanNoCargo>В лагере нет добычи для перевозки.</FB_FleshSupplyCaravanNoCargo>
+  <FB_FleshSupplyCaravanNoCarriers>Нет доступных биомаштов-носильщиков.</FB_FleshSupplyCaravanNoCarriers>
+  <FB_FleshSupplyCaravanNoOutpost>С этим лагерем не связан ни один аванпост плоти, добыча остаётся на его складе.</FB_FleshSupplyCaravanNoOutpost>
+  <FB_FleshSupplyCaravanRequiresOutpost>Укажите один из своих аванпостов плоти как точку доставки.</FB_FleshSupplyCaravanRequiresOutpost>
+  <FB_FleshSupplyCaravanTargetTooltip>Доставка в {0}
+Груз: {1} кг</FB_FleshSupplyCaravanTargetTooltip>
+  <FB_FleshSupplyCaravanLaunched>Караван снабжения из {0} тварей вышел из лагеря с {1} стаками добычи в {2}.</FB_FleshSupplyCaravanLaunched>
+  <FB_FleshSupplyCaravanArrived>Караван снабжения доставил {0} стаков добычи в {2}. Его носильщики ({1}) растворились в аванпосте.</FB_FleshSupplyCaravanArrived>
+  <FB_FleshSupplyCaravanReturned>Караван снабжения вернулся и выгрузил {0} стаков обратно на склад лагеря.</FB_FleshSupplyCaravanReturned>
+  <FB_FleshSupplyCaravanRerouted>Караван снабжения потерял точку доставки и несёт добычу обратно в лагерь на клетке {0}.</FB_FleshSupplyCaravanRerouted>
+  <FB_FleshSupplyCaravanLost>Каравану снабжения оказалось некуда выгрузиться, и {0} стаков добычи потеряно.</FB_FleshSupplyCaravanLost>
+  <FB_FleshSupplyCaravanInspect>Несёт добычу на клетку {0}
+Тварей: {1}   Груз: {2} стаков, {3} / {4} кг</FB_FleshSupplyCaravanInspect>
+  <FB_FleshSupplyCaravanInspectReturning>Возвращается в лагерь на клетке {0}
+Тварей: {1}   Груз: {2} стаков, {3} / {4} кг</FB_FleshSupplyCaravanInspectReturning>
+  <FB_FleshSupplyCaravanCargoHeader>Носильщиков: {0}   Груз: {1} стаков, {2} / {3} кг</FB_FleshSupplyCaravanCargoHeader>
+  <FB_FleshAmbushCampDispatchInspect>Следующий караван снабжения: {0}</FB_FleshAmbushCampDispatchInspect>
+  <FB_FleshAmbushCampDispatchManual>Караваны снабжения: только вручную</FB_FleshAmbushCampDispatchManual>
+  <FB_FleshCrustCorerInspect>Стаков на складе: {0}
+Питание клетки: {1}%
+Следующая порция руды: {2}%</FB_FleshCrustCorerInspect>
+  <FB_FleshCrustCorerDepleted>{0} на клетке {1} выпил клетку досуха и больше не даёт руду. Поглотите его и вырастите новый на живой клетке.</FB_FleshCrustCorerDepleted>
+  <FB_FleshTunnelWorldGrowLabel>Прорастить пасть туннеля</FB_FleshTunnelWorldGrowLabel>
+  <FB_FleshTunnelWorldGrowDesc>Укажите мировую клетку и прорастите в неё дальнюю пасть туннеля. Цена: {0} гемогеля за клетку расстояния из этой сети. Пока туннель стоит, через него проходят караваны, а отряды плоти сами срезают через него путь, если так быстрее.</FB_FleshTunnelWorldGrowDesc>
+  <FB_FleshTunnelWorldTargetTooltip>Расстояние: {0} клеток
+Цена: {1} гемогеля
+Прорастание: {2}
+Проход: {3}</FB_FleshTunnelWorldTargetTooltip>
+  <FB_FleshTunnelWorldGrowConfirm>Прорастить пасть туннеля на мировой клетке {0}? Расстояние {1} клеток, цена {2} гемогеля, прорастание займёт {3}.</FB_FleshTunnelWorldGrowConfirm>
+  <FB_FleshTunnelWorldGrowStarted>Нексус начал бурить к мировой клетке {0}. Пасть пробьётся через {1}.</FB_FleshTunnelWorldGrowStarted>
+  <FB_FleshTunnelWorldGrown>Пасть туннеля пробилась на мировой клетке {0}. Проход занимает {1}.</FB_FleshTunnelWorldGrown>
+  <FB_FleshTunnelWorldGrowFailed>Туннель не смог пробиться: целевая клетка больше не свободна.</FB_FleshTunnelWorldGrowFailed>
+  <FB_FleshTunnelWorldTargetInvalid>Укажите подходящую клетку на том же слое планеты.</FB_FleshTunnelWorldTargetInvalid>
+  <FB_FleshTunnelWorldTargetImpassable>Туннель не может выйти на непроходимой клетке.</FB_FleshTunnelWorldTargetImpassable>
+  <FB_FleshTunnelWorldCollapseLabel>Обрушить туннель</FB_FleshTunnelWorldCollapseLabel>
+  <FB_FleshTunnelWorldCollapseDesc>Обрушить мировой туннель. Дальняя пасть гибнет, нексус остаётся и может прорыть новый туннель в другое место. Потраченный гемогель не возвращается.</FB_FleshTunnelWorldCollapseDesc>
+  <FB_FleshTunnelWorldCollapseConfirm>Обрушить туннель? Дальняя пасть погибнет, а потраченный на неё гемогель не вернётся.</FB_FleshTunnelWorldCollapseConfirm>
+  <FB_FleshTunnelWorldCollapsed>{0} обрушил свой туннель.</FB_FleshTunnelWorldCollapsed>
+  <FB_FleshTunnelWorldInspectIdle>Туннель не пророщен</FB_FleshTunnelWorldInspectIdle>
+  <FB_FleshTunnelWorldInspectGrowing>Бурение к клетке {0}: осталось {1}</FB_FleshTunnelWorldInspectGrowing>
+  <FB_FleshTunnelWorldInspectLinked>Туннель к клетке {0} ({1} клеток)
+Проход: {2}</FB_FleshTunnelWorldInspectLinked>
+  <FB_FleshTunnelWorldMouthInspect>Туннель к клетке {0} ({1} клеток)
+Проход: {2}</FB_FleshTunnelWorldMouthInspect>
+  <FB_FleshTunnelWorldNoLink>На этой клетке нет готового туннеля плоти.</FB_FleshTunnelWorldNoLink>
+  <FB_FleshTunnelWorldJumpLabel>Перейти ко второму концу</FB_FleshTunnelWorldJumpLabel>
+  <FB_FleshTunnelWorldJumpDesc>Перевести камеру мира ко второму концу туннеля и выделить его. Пока туннель ещё бурится, показывается целевая клетка.</FB_FleshTunnelWorldJumpDesc>
+  <FB_FleshTunnelWorldDevFinishLabel>Dev: достроить туннель</FB_FleshTunnelWorldDevFinishLabel>
+  <FB_FleshTunnelWorldDevFinishDesc>Немедленно закончить бурение и пробить дальнюю пасть, игнорируя оставшееся время прорастания.</FB_FleshTunnelWorldDevFinishDesc>
+  <FB_FleshTunnelWorldCaravanEnterLabel>Войти в туннель плоти</FB_FleshTunnelWorldCaravanEnterLabel>
+  <FB_FleshTunnelWorldCaravanEnterDesc>Отправить караван через туннель плоти на мировую клетку {0}. Проход занимает {1}; любой приказ на движение отменяет его.</FB_FleshTunnelWorldCaravanEnterDesc>
+  <FB_FleshTunnelWorldCaravanCancelLabel>Выйти из туннеля</FB_FleshTunnelWorldCaravanCancelLabel>
+  <FB_FleshTunnelWorldCaravanCancelDesc>Прервать проход. Осталось {0}.</FB_FleshTunnelWorldCaravanCancelDesc>
+  <FB_FleshTunnelWorldCaravanStarted>{0} вошёл в туннель плоти. Выйдет через {1}.</FB_FleshTunnelWorldCaravanStarted>
+  <FB_FleshTunnelWorldCaravanArrived>{0} вышел из туннеля плоти на мировой клетке {1}.</FB_FleshTunnelWorldCaravanArrived>
+  <FB_FleshTunnelWorldCaravanCancelled>{0} выбрался обратно из туннеля плоти.</FB_FleshTunnelWorldCaravanCancelled>
 </LanguageData>

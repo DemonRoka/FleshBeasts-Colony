@@ -5,7 +5,7 @@
   
   <FB_Fleshbeasts_NoGroup>Без группы</FB_Fleshbeasts_NoGroup>
   <FB_Fleshbeasts_NotCommandable>Не подчиняется</FB_Fleshbeasts_NotCommandable>
-  <FB_Fleshbeasts_AssignSelectedToActiveGroup>Добавить выделенных на карте флешбистов в активную группу.</FB_Fleshbeasts_AssignSelectedToActiveGroup>
+  <FB_Fleshbeasts_AssignSelectedToActiveGroup>Добавить выделенных на карте биошматов в активную группу.</FB_Fleshbeasts_AssignSelectedToActiveGroup>
   <FB_Fleshbeasts_AssignSelectedShort>+</FB_Fleshbeasts_AssignSelectedShort>
   <FB_Fleshbeasts_ActiveGroupTooltip>Активная группа приказов: {0}</FB_Fleshbeasts_ActiveGroupTooltip>
   <FB_Fleshbeasts_CollapseGroup>Свернуть {0} в строку-сводку.</FB_Fleshbeasts_CollapseGroup>
@@ -18,18 +18,18 @@
   <FB_Fleshbeasts_DeleteConfirm>Удалить группу {0}? Её активный приказ будет отменён, а участники останутся без группы.</FB_Fleshbeasts_DeleteConfirm>
   <FB_Fleshbeasts_RenamePrompt>Введите новое название группы.</FB_Fleshbeasts_RenamePrompt>
   <FB_Fleshbeasts_NoSelectedGroup>Выберите группу</FB_Fleshbeasts_NoSelectedGroup>
-  <FB_Fleshbeasts_TableUnavailable>Таблица флешбистов недоступна.</FB_Fleshbeasts_TableUnavailable>
+  <FB_Fleshbeasts_TableUnavailable>Таблица биошматов недоступна.</FB_Fleshbeasts_TableUnavailable>
   <FB_Fleshbeasts_HeightCommandsOnly>Показать только команды.</FB_Fleshbeasts_HeightCommandsOnly>
   <FB_Fleshbeasts_HeightStandard>Обычная высота списка.</FB_Fleshbeasts_HeightStandard>
-  <FB_Fleshbeasts_HeightExpanded>Расширить список флешбистов.</FB_Fleshbeasts_HeightExpanded>
+  <FB_Fleshbeasts_HeightExpanded>Расширить список биошматов.</FB_Fleshbeasts_HeightExpanded>
   <FB_FleshbeastBehaviorMode_Ignore>Игнорировать</FB_FleshbeastBehaviorMode_Ignore>
   <FB_FleshbeastBehaviorMode_Attack>Атаковать</FB_FleshbeastBehaviorMode_Attack>
   <FB_FleshbeastBehaviorMode_Flee>Бежать</FB_FleshbeastBehaviorMode_Flee>
   <FB_FleshbeastBehaviorMode_Hunt>Автоатака</FB_FleshbeastBehaviorMode_Hunt>
-  <FB_FleshbeastBehaviorTip>Выберите, как этот флешбист реагирует на враждебных существ.</FB_FleshbeastBehaviorTip>
+  <FB_FleshbeastBehaviorTip>Выберите, как этот биошмат реагирует на враждебных существ.</FB_FleshbeastBehaviorTip>
   <FB_FleshbeastBehaviorCurrentMode>Текущий режим: {0}</FB_FleshbeastBehaviorCurrentMode>
   <FB_FleshbeastBehaviorGroupMixed>Разное</FB_FleshbeastBehaviorGroupMixed>
-  <FB_FleshbeastMedicalCareTip>Выберите уровень медицинского ухода для этого флешбиста.</FB_FleshbeastMedicalCareTip>
+  <FB_FleshbeastMedicalCareTip>Выберите уровень медицинского ухода для этого биошмата.</FB_FleshbeastMedicalCareTip>
   <FB_FleshbeastMedicalCareCurrent>Текущий уход: {0}</FB_FleshbeastMedicalCareCurrent>
   <FB_FleshbeastMedicalCareGroupMixed>Разное</FB_FleshbeastMedicalCareGroupMixed>
   <FB_FleshThrallCoherenceTitle>Сцепление: {0}%</FB_FleshThrallCoherenceTitle>
@@ -54,51 +54,53 @@
   <FB_FleshThrallConvertCannotStart>Пальцешипы не смогли начать связывание.</FB_FleshThrallConvertCannotStart>
   <FB_FleshThrallConvertAssigned>{0} пальцешип(ов) назначено на связывание {1}.</FB_FleshThrallConvertAssigned>
   <FB_FleshThrallConvertSuccess>{0} стал мясным рабом.</FB_FleshThrallConvertSuccess>
+  <FB_FleshThrallConvertStalled>Связывание {0} приостановлено: нужно ещё {1} пальцешип(ов), {2} уже доставлено.</FB_FleshThrallConvertStalled>
+  <FB_FleshThrallConvertCancelled>Связывание мясного раба отменено; {0} доставленных пальцешип(ов) потрачено впустую.</FB_FleshThrallConvertCancelled>
   
   
-  <FB_Fleshbeasts_HideNonCommandableTooltip>Показать или скрыть некомандуемых флешбистов в списке.</FB_Fleshbeasts_HideNonCommandableTooltip>
+  <FB_Fleshbeasts_HideNonCommandableTooltip>Показать или скрыть некомандуемых биошматов в списке.</FB_Fleshbeasts_HideNonCommandableTooltip>
   <FB_FormFleshbeastMassZone_Label>Зона мясной массы</FB_FormFleshbeastMassZone_Label>
-  <FB_FormFleshbeastMassZone_Desc>Обозначить зону, где флешбисты могут свернуться в спящую массу, уменьшая число активных пешек до выпуска.</FB_FormFleshbeastMassZone_Desc>
+  <FB_FormFleshbeastMassZone_Desc>Обозначить зону, где биошматы могут свернуться в спящую массу, уменьшая число активных пешек до выпуска.</FB_FormFleshbeastMassZone_Desc>
   <FB_FleshbeastMassZone_Status>Внутри {0}</FB_FleshbeastMassZone_Status>
   <FB_FleshbeastMassZone_Label>зона мясной массы</FB_FleshbeastMassZone_Label>
-  <FB_FleshbeastMassZone_Inspect>Флешбистов внутри: {0}. Общий размер тел: {1}. Вместимость: {2}.</FB_FleshbeastMassZone_Inspect>
-  <FB_FleshbeastMassZone_InvalidPawn>Этот флешбист не может войти в зону мясной массы.</FB_FleshbeastMassZone_InvalidPawn>
+  <FB_FleshbeastMassZone_Inspect>Биошматов внутри: {0}. Общий размер тел: {1}. Вместимость: {2}.</FB_FleshbeastMassZone_Inspect>
+  <FB_FleshbeastMassZone_InvalidPawn>Этот биошмат не может войти в зону мясной массы.</FB_FleshbeastMassZone_InvalidPawn>
   <FB_FleshbeastMassZone_InvalidZone>Зона мясной массы больше недействительна.</FB_FleshbeastMassZone_InvalidZone>
   <FB_FleshbeastMassZone_NoCapacity>В зоне мясной массы не хватает свободной вместимости.</FB_FleshbeastMassZone_NoCapacity>
-  <FB_FleshbeastMassZone_CannotStorePawn>Флешбист не смог войти в зону мясной массы.</FB_FleshbeastMassZone_CannotStorePawn>
-  <FB_FleshbeastMassZone_LoadGizmo>Загрузить флешбистов</FB_FleshbeastMassZone_LoadGizmo>
-  <FB_FleshbeastMassZone_LoadGizmoDesc>Выбрать флешбистов на этой карте, которые свернутся внутрь зоны мясной массы.</FB_FleshbeastMassZone_LoadGizmoDesc>
+  <FB_FleshbeastMassZone_CannotStorePawn>Биошмат не смог войти в зону мясной массы.</FB_FleshbeastMassZone_CannotStorePawn>
+  <FB_FleshbeastMassZone_LoadGizmo>Загрузить биошматов</FB_FleshbeastMassZone_LoadGizmo>
+  <FB_FleshbeastMassZone_LoadGizmoDesc>Выбрать биошматов на этой карте, которые свернутся внутрь зоны мясной массы.</FB_FleshbeastMassZone_LoadGizmoDesc>
   <FB_FleshbeastMassZone_UnloadAll>Выпустить всех</FB_FleshbeastMassZone_UnloadAll>
-  <FB_FleshbeastMassZone_UnloadAllDesc>Выпустить всех флешбистов из этой зоны мясной массы.</FB_FleshbeastMassZone_UnloadAllDesc>
+  <FB_FleshbeastMassZone_UnloadAllDesc>Выпустить всех биошматов из этой зоны мясной массы.</FB_FleshbeastMassZone_UnloadAllDesc>
   <FB_FleshbeastMassZone_UnloadKindShort>Выпустить</FB_FleshbeastMassZone_UnloadKindShort>
   <FB_FleshbeastMassZone_UnloadKindTooltip>Выпустить выбранное количество {0} из этой зоны мясной массы.</FB_FleshbeastMassZone_UnloadKindTooltip>
   <FB_FleshbeastMassZone_UnloadKindSlider>Выпустить {1} из {2}: {0}.</FB_FleshbeastMassZone_UnloadKindSlider>
   <FB_FleshbeastMassZone_UnloadedKind>Выпущено {0}: {1}.</FB_FleshbeastMassZone_UnloadedKind>
-  <FB_FleshbeastMassZone_NoSelectablePawns>Нет подходящих выбранных флешбистов.</FB_FleshbeastMassZone_NoSelectablePawns>
+  <FB_FleshbeastMassZone_NoSelectablePawns>Нет подходящих выбранных биошматов.</FB_FleshbeastMassZone_NoSelectablePawns>
   <FB_FleshbeastMassZone_NoReachableCell>Нет доступной клетки зоны мясной массы.</FB_FleshbeastMassZone_NoReachableCell>
-  <FB_FleshbeastMassZone_Loading>{0} флешбист(ов) идут в зону мясной массы.</FB_FleshbeastMassZone_Loading>
-  <FB_FleshbeastMassZone_OverCapacityEjected>Зона мясной массы стала слишком маленькой; лишние флешбисты выпущены наружу.</FB_FleshbeastMassZone_OverCapacityEjected>
-  <FB_FleshbeastMassZone_ThreatRelease>Флешбисты вырываются из {0}, реагируя на врагов рядом.</FB_FleshbeastMassZone_ThreatRelease>
+  <FB_FleshbeastMassZone_Loading>{0} биошмат(ов) идут в зону мясной массы.</FB_FleshbeastMassZone_Loading>
+  <FB_FleshbeastMassZone_OverCapacityEjected>Зона мясной массы стала слишком маленькой; лишние биошматы выпущены наружу.</FB_FleshbeastMassZone_OverCapacityEjected>
+  <FB_FleshbeastMassZone_ThreatRelease>Биошматы вырываются из {0}, реагируя на врагов рядом.</FB_FleshbeastMassZone_ThreatRelease>
   <FB_FleshbeastMassZone_DisallowedKind>{0} запрещён для этой зоны мясной массы.</FB_FleshbeastMassZone_DisallowedKind>
   <FB_FleshbeastMassZone_FilterTab>Типы</FB_FleshbeastMassZone_FilterTab>
-  <FB_FleshbeastMassZone_FilterHeader>Разрешённые типы флешбистов для этой зоны.</FB_FleshbeastMassZone_FilterHeader>
+  <FB_FleshbeastMassZone_FilterHeader>Разрешённые типы биошматов для этой зоны.</FB_FleshbeastMassZone_FilterHeader>
   <FB_FleshbeastMassZone_AllowAll>Разрешить всё</FB_FleshbeastMassZone_AllowAll>
   <FB_FleshbeastMassZone_ForbidAll>Запретить всё</FB_FleshbeastMassZone_ForbidAll>
   <FB_FleshbeastMassZone_SearchTooltip>Фильтр списка по названию или defName.</FB_FleshbeastMassZone_SearchTooltip>
-  <FB_FleshbeastMassZone_NoKinds>Типы флешбистов не найдены.</FB_FleshbeastMassZone_NoKinds>
+  <FB_FleshbeastMassZone_NoKinds>Типы биошматов не найдены.</FB_FleshbeastMassZone_NoKinds>
   <FB_FleshbeastMassZone_FilterTooltip>В эту зону мясной массы можно загрузить только разрешённые типы.</FB_FleshbeastMassZone_FilterTooltip>
   <FB_FleshbeastMassZone_ContentsTab>Состав</FB_FleshbeastMassZone_ContentsTab>
   <FB_FleshbeastMassZone_ContentsSummary>Внутри: {0}. Размер тел: {1}/{2}.</FB_FleshbeastMassZone_ContentsSummary>
-  <FB_FleshbeastMassZone_NoContents>Внутри нет флешбистов.</FB_FleshbeastMassZone_NoContents>
+  <FB_FleshbeastMassZone_NoContents>Внутри нет биошматов.</FB_FleshbeastMassZone_NoContents>
   <FB_FleshbeastMassZone_ContentsBodySize>Размер тел: {0}</FB_FleshbeastMassZone_ContentsBodySize>
   <FB_FleshbeastMassZone_ContentsCount>x{0}</FB_FleshbeastMassZone_ContentsCount>
   <FB_GroupMassZoneTooltip>Отправить активную группу в выбранную зону мясной массы.</FB_GroupMassZoneTooltip>
-  <FB_GroupAssignedMassZone>{0} флешбист(ов) из группы {1} идут в {2}.</FB_GroupAssignedMassZone>
-  <FB_GroupDigestCrippledLabel>Переварить флешбистов</FB_GroupDigestCrippledLabel>
-  <FB_GroupDigestCrippledTooltip>Выбрать флешбистов для жертвенного переваривания. Подвижные сами идут к желудку или кислоте; обездвиженные погибают на месте через свой обычный эффект смерти.</FB_GroupDigestCrippledTooltip>
-  <FB_GroupDigestCrippledNoSelectablePawns>Нет подходящих выбранных флешбистов.</FB_GroupDigestCrippledNoSelectablePawns>
+  <FB_GroupAssignedMassZone>{0} биошмат(ов) из группы {1} идут в {2}.</FB_GroupAssignedMassZone>
+  <FB_GroupDigestCrippledLabel>Переварить биошматов</FB_GroupDigestCrippledLabel>
+  <FB_GroupDigestCrippledTooltip>Выбрать биошматов для жертвенного переваривания. Подвижные сами идут к желудку или кислоте; обездвиженные погибают на месте через свой обычный эффект смерти.</FB_GroupDigestCrippledTooltip>
+  <FB_GroupDigestCrippledNoSelectablePawns>Нет подходящих выбранных биошматов.</FB_GroupDigestCrippledNoSelectablePawns>
   
-  <FB_GroupDigestCrippledInvalid>Этого флешбиста нельзя переварить.</FB_GroupDigestCrippledInvalid>
+  <FB_GroupDigestCrippledInvalid>Этого биошмата нельзя переварить.</FB_GroupDigestCrippledInvalid>
   <FB_GroupDigestCrippledNoDestination>Нет желудка колонии с местом или доступной клетки желудочного сока.</FB_GroupDigestCrippledNoDestination>
-  <FB_GroupDigestCrippledAssigned>{0} флешбист(ов) идут на переваривание. {1} обездвиженных погибло на месте.</FB_GroupDigestCrippledAssigned>
+  <FB_GroupDigestCrippledAssigned>{0} биошмат(ов) идут на переваривание. {1} обездвиженных погибло на месте.</FB_GroupDigestCrippledAssigned>
 </LanguageData>

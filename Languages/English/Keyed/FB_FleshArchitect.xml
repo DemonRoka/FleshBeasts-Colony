@@ -65,4 +65,15 @@
   <FB_FleshMoonRelocationCancel_Label>Cancel relocation</FB_FleshMoonRelocationCancel_Label>
   <FB_FleshMoonRelocationCancel_Desc>Stop the relocation while the structure is still being absorbed.</FB_FleshMoonRelocationCancel_Desc>
   <FB_FleshMoonRelocationCancelCannot>This relocation can no longer be canceled.</FB_FleshMoonRelocationCancelCannot>
+  <FB_VeinAnchorAlreadyHere>There is already an anchor here.</FB_VeinAnchorAlreadyHere>
+  <FB_VeinAnchorBend_Label>Vein anchor: bend</FB_VeinAnchorBend_Label>
+  <FB_VeinAnchorBend_Desc>Mark a point veins should curve through. A bend anchor only shapes veins that already pass nearby on their way to an organ.</FB_VeinAnchorBend_Desc>
+  <FB_VeinAnchorRemove_Label>Vein anchor: remove</FB_VeinAnchorRemove_Label>
+  <FB_VeinAnchorRemove_Desc>Remove vein anchors of any kind in the selected cells.</FB_VeinAnchorRemove_Desc>
+  <FB_VeinAnchorModeHint>Right-click the button to switch mode. Junctions are red, endpoints orange, bends blue.</FB_VeinAnchorModeHint>
+  <FB_VeinAnchorModeActive>(current)</FB_VeinAnchorModeActive>
+  <FB_VeinAnchorBranch_Label>Vein anchor: junction</FB_VeinAnchorBranch_Label>
+  <FB_VeinAnchorBranch_Desc>A point veins can start from, like the heart itself. The heart runs a channel out to it, and organs, endpoints and further junctions closer to it than to the heart are fed from here.</FB_VeinAnchorBranch_Desc>
+  <FB_VeinAnchorEndpoint_Label>Vein anchor: endpoint</FB_VeinAnchorEndpoint_Label>
+  <FB_VeinAnchorEndpoint_Desc>A point a vein grows out to and ends, even with no organ there. It is fed by the nearest source: the heart or a junction anchor.</FB_VeinAnchorEndpoint_Desc>
 </LanguageData>

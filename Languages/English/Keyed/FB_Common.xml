@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <FB_AlreadyDesignated>Already designated.</FB_AlreadyDesignated>
+  <FB_InvalidTarget>Invalid target.</FB_InvalidTarget>
+  <FB_ResearchProjectNotResearched>Requires research: {0}.</FB_ResearchProjectNotResearched>
+  <FB_UnknownThing>thing</FB_UnknownThing>
+
+</LanguageData>

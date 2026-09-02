@@ -15,6 +15,11 @@
     <assaultPartyTicksPerMove>3300</assaultPartyTicksPerMove>
     <assaultArrivalChoiceTicks>60000</assaultArrivalChoiceTicks>
 
+    <!-- Караваны снабжения: скорость, интервал автоотправки (полдня) и потолок носильщиков -->
+    <supplyCaravanTicksPerMove>3300</supplyCaravanTicksPerMove>
+    <supplyCaravanAutoIntervalTicks>30000</supplyCaravanAutoIntervalTicks>
+    <supplyCaravanMaxCarriers>24</supplyCaravanMaxCarriers>
+
     <assaultStrengthPerCombatPower>1</assaultStrengthPerCombatPower>
     <assaultDefenderPoints>1375</assaultDefenderPoints>
     <assaultRelationMinFactor>1</assaultRelationMinFactor>

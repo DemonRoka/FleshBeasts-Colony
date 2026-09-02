@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  
-  <FB_RequiresStoredCorpse>Requires an allowed corpse in storage.</FB_RequiresStoredCorpse>
-  <FB_RequiresSpecificStoredCorpse>Requires an allowed corpse in storage: {0}.</FB_RequiresSpecificStoredCorpse>
+
+  <FB_RequiresCorpseOnFlesh>Requires an allowed corpse lying on colony flesh.</FB_RequiresCorpseOnFlesh>
+  <FB_RequiresSpecificCorpseOnFlesh>Requires an allowed corpse lying on colony flesh: {0}.</FB_RequiresSpecificCorpseOnFlesh>
+  <FB_SelectCorpseForEmbryo>Choose a corpse on colony flesh</FB_SelectCorpseForEmbryo>
+  <FB_CorpseMustBeOnFlesh>The corpse must lie on colony flesh.</FB_CorpseMustBeOnFlesh>
+  <FB_CorpseNoLongerValid>The chosen corpse is no longer available.</FB_CorpseNoLongerValid>
   <FB_AnyCorpse>any corpse</FB_AnyCorpse>
 </LanguageData>

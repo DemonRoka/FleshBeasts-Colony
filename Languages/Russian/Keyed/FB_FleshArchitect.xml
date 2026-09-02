@@ -36,7 +36,7 @@
   <FB_DevFinishMaturationDesc>Мгновенно завершает созревание эмбриона, если взрослую форму можно разместить.</FB_DevFinishMaturationDesc>
   <FB_FailedSpawnThing>Не удалось создать {0}.</FB_FailedSpawnThing>
   <FB_FailedGeneratePawnKind>Не удалось сгенерировать {0}.</FB_FailedGeneratePawnKind>
-  <FB_ColonyBrain_Structure_TentacleTurret_Desc>Выращивает неподвижного флешбиста-защитника, который выпускает кератиновые шипы по далёким врагам и хлещет ближайших тяжёлыми щупальцами.</FB_ColonyBrain_Structure_TentacleTurret_Desc>
+  <FB_ColonyBrain_Structure_TentacleTurret_Desc>Выращивает неподвижного биошмата-защитника, который выпускает кератиновые шипы по далёким врагам и хлещет ближайших тяжёлыми щупальцами.</FB_ColonyBrain_Structure_TentacleTurret_Desc>
   <FB_LocalFleshRelocateBuilding_Label>Передвинуть мясную постройку</FB_LocalFleshRelocateBuilding_Label>
   <FB_LocalFleshRelocateBuilding_Desc>Выберите управляемую игроком постройку из плоти, затем укажите новое покрытое плотью место на этой же карте.</FB_LocalFleshRelocateBuilding_Desc>
   <FB_FleshMoonRelocateBuilding_Label>Перенести мясную постройку</FB_FleshMoonRelocateBuilding_Label>
@@ -65,4 +65,15 @@
   <FB_FleshMoonRelocationCancel_Label>Отменить перенос</FB_FleshMoonRelocationCancel_Label>
   <FB_FleshMoonRelocationCancel_Desc>Остановить перенос, пока постройка ещё поглощается.</FB_FleshMoonRelocationCancel_Desc>
   <FB_FleshMoonRelocationCancelCannot>Этот перенос уже нельзя отменить.</FB_FleshMoonRelocationCancelCannot>
+  <FB_VeinAnchorAlreadyHere>Здесь уже есть архонт.</FB_VeinAnchorAlreadyHere>
+  <FB_VeinAnchorBend_Label>Архонт вены: изгиб</FB_VeinAnchorBend_Label>
+  <FB_VeinAnchorBend_Desc>Отметить точку, через которую вены должны изгибаться. Архонт изгиба влияет только на вены, проходящие рядом по пути к органу.</FB_VeinAnchorBend_Desc>
+  <FB_VeinAnchorRemove_Label>Архонт вены: убрать</FB_VeinAnchorRemove_Label>
+  <FB_VeinAnchorRemove_Desc>Убрать архонты вен любого типа в выбранных клетках.</FB_VeinAnchorRemove_Desc>
+  <FB_VeinAnchorModeHint>Правый клик по кнопке переключает режим. Разветвления показаны красным, окончания — оранжевым, изгибы — голубым.</FB_VeinAnchorModeHint>
+  <FB_VeinAnchorModeActive>(текущий)</FB_VeinAnchorModeActive>
+  <FB_VeinAnchorBranch_Label>Архонт вены: разветвление</FB_VeinAnchorBranch_Label>
+  <FB_VeinAnchorBranch_Desc>Точка, от которой могут начинаться вены, как от самого сердца. Сердце протягивает к ней канал, а органы, точки окончания и дальнейшие разветвления, оказавшиеся ближе к ней, чем к сердцу, питаются уже отсюда.</FB_VeinAnchorBranch_Desc>
+  <FB_VeinAnchorEndpoint_Label>Архонт вены: окончание</FB_VeinAnchorEndpoint_Label>
+  <FB_VeinAnchorEndpoint_Desc>Точка, к которой вена прорастает и на которой заканчивается, даже если органа там нет. Питается от ближайшего источника — сердца или архонта разветвления.</FB_VeinAnchorEndpoint_Desc>
 </LanguageData>

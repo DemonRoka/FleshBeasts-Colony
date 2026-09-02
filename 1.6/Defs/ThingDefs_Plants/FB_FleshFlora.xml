@@ -49,6 +49,7 @@
       <treeLoversCareIfChopped>false</treeLoversCareIfChopped>
       <choppedThingDef>FB_StumpChopped_FleshTree</choppedThingDef>
       <smashedThingDef>FB_StumpSmashed_FleshTree</smashedThingDef>
+      <dieIfNoSunlight>false</dieIfNoSunlight>
     </plant>
   </ThingDef>
   <ThingDef ParentName="PlantBase">
@@ -89,6 +90,7 @@
       <pollution>Any</pollution>
       <dieFromToxicFallout>false</dieFromToxicFallout>
       <neverBlightable>true</neverBlightable>
+      <dieIfNoSunlight>false</dieIfNoSunlight>
     </plant>
   </ThingDef>
   <ThingDef ParentName="StumpChoppedBase">
@@ -117,6 +119,7 @@
       <wildTerrainTags>
         <li>FB_FleshColonyTerrain</li>
       </wildTerrainTags>
+      <dieIfNoSunlight>false</dieIfNoSunlight>
     </plant>
   </ThingDef>
   <ThingDef ParentName="StumpSmashedBase">
@@ -143,6 +146,7 @@
       <wildTerrainTags>
         <li>FB_FleshColonyTerrain</li>
       </wildTerrainTags>
+      <dieIfNoSunlight>false</dieIfNoSunlight>
     </plant>
   </ThingDef>
 </Defs>

@@ -18,4 +18,20 @@
       <li Class="WorldObjectCompProperties_FormCaravan" />
     </comps>
   </WorldObjectDef>
+
+  <WorldObjectDef>
+    <defName>FB_FleshTunnelMouth</defName>
+    <label>flesh tunnel maw</label>
+    <description>The far end of a world tunnel grown by a tunnel nexus. Caravans standing here can be pulled through to the nexus, and flesh war parties use it as a shortcut.</description>
+    <worldObjectClass>FB.WorldObject_FleshTunnelMouth</worldObjectClass>
+    <canHaveFaction>true</canHaveFaction>
+    <canHaveMap>false</canHaveMap>
+    <validLaunchTarget>false</validLaunchTarget>
+    <selectable>true</selectable>
+    <texture>World/Flesh/FleshTunnelMouth</texture>
+    <expandingIcon>true</expandingIcon>
+    <expandingIconTexture>World/Flesh/FleshTunnelMouth</expandingIconTexture>
+    <expandingIconDrawSize>0.8</expandingIconDrawSize>
+    <expandingIconPriority>16</expandingIconPriority>
+  </WorldObjectDef>
 </Defs>

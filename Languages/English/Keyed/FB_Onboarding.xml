@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <FB_Onboarding_StepCounter>Step {0} of {1}</FB_Onboarding_StepCounter>
+  <FB_Onboarding_Disable>Don't show hints</FB_Onboarding_Disable>
+
+  <FB_Onboarding_Step1_Header>Grow a {0}</FB_Onboarding_Step1_Header>
+  <FB_Onboarding_Step1_Text>Your colony is one living organism, and the {0} is its core.\n\nHemogel comes from two sources. Passively, through living flesh spreading over the map: the flow never stops, but it is slow. And from corpses - one body is worth hours of passive absorption. Don't burn or bury your dead, they are your food.\n\nBut the organism has nothing to digest with and cannot shape complex organs yet. It needs a {1}. Select the {0}, click "{1}" in the command bar, point at a humanlike corpse lying on colony flesh, then pick a spot. Cost: {2} hemogel.</FB_Onboarding_Step1_Text>
+  <FB_Onboarding_Step1_Action>Show the {0}</FB_Onboarding_Step1_Action>
+  <FB_Onboarding_Step1_MaturingHeader>{0} is maturing</FB_Onboarding_Step1_MaturingHeader>
+  <FB_Onboarding_Step1_MaturingText>The embryo is still growing. Once it becomes a {0}, the Flesh Architect tab and the full organ catalogue unlock.</FB_Onboarding_Step1_MaturingText>
+
+  <FB_Onboarding_Step2_Header>Grow a {0}</FB_Onboarding_Step2_Header>
+  <FB_Onboarding_Step2_Text>The {0} has matured, so complex organs are available now. What is still missing is a way to digest what you kill.\n\nThe {1} swallows corpses and organic matter and renders them into hemogel. This is the colony's main early income: without it you live on the slow passive trickle and run dry on the first serious organ you try to grow.\n\nFlesh Architect -> "{2}" tab -> {1} ({3} hemogel). Place it on living flesh near the colony, close to where bodies end up.</FB_Onboarding_Step2_Text>
+  <FB_Onboarding_Step2_Action>Open the Flesh Architect</FB_Onboarding_Step2_Action>
+
+  <FB_Onboarding_Moon1_Header>Grow a {0}</FB_Onboarding_Moon1_Header>
+  <FB_Onboarding_Moon1_Text>The moon is a living organism too, but until it has a command organ you are only a guest inside it.\n\nThe {0} is the moon's control centre: it holds the lunar hemogel reserve, sustains the interior and commands the hauling tendrils. Without it none of that answers to you.\n\nFlesh Architect -> "{1}" tab -> {0} ({2} hemogel). Put the node on flesh, near the middle of the settled part of the moon.</FB_Onboarding_Moon1_Text>
+
+  <FB_Onboarding_Moon2_Header>Form some {0}</FB_Onboarding_Moon2_Header>
+  <FB_Onboarding_Moon2_Text>You don't need a {2} up here: the moon digests bodies by itself, right in its own acid.\n\nFlesh Architect -> "{1}" tab -> {0}. A small pool is enough: put a storage zone for corpses on top of it, and everything dumped there turns into hemogel.\n\nImportant: pawns take damage in the acid, while hauling tendrils and burden blobs do not. Turn hauling off for your pawns and leave that work to the tendrils the {3} creates.</FB_Onboarding_Moon2_Text>
+  <FB_Onboarding_Moon2_StorageHeader>Put storage on the acid</FB_Onboarding_Moon2_StorageHeader>
+  <FB_Onboarding_Moon2_StorageText>The acid is ready. Now place a storage zone on top of it and allow corpses there: the normal Architect -> "Zone" tab -> stockpile zone.\n\nLet hauling tendrils carry the bodies, not your pawns: pawns take damage standing in the acid.</FB_Onboarding_Moon2_StorageText>
+
+  <FB_Onboarding_DoneLetterLabel>The colony can digest</FB_Onboarding_DoneLetterLabel>
+  <FB_Onboarding_DoneLetterText>Once the {0} matures, haul corpses and organic matter into it, or put a storage zone next to it. Every body it swallows becomes hemogel.\n\nAnd keep spreading flesh terrain: the wider the living ground, the steadier the passive income underneath everything else.</FB_Onboarding_DoneLetterText>
+
+  <FB_Onboarding_MoonDoneLetterLabel>The moon is digesting</FB_Onboarding_MoonDoneLetterLabel>
+  <FB_Onboarding_MoonDoneLetterText>Anything that lands on the {0} is rendered into hemogel. Widen the pool as the flow of bodies grows.\n\nKeep your pawns away from the acid and watch the hauling tendril slider on the {1}: every active tendril costs hemogel, but the tendrils are what carry bodies into places pawns should not walk.</FB_Onboarding_MoonDoneLetterText>
+
+  <FB_ShowOnboardingHints>Hints: colony development</FB_ShowOnboardingHints>
+  <FB_ShowOnboardingHintsDesc>After your first colony heart, shows a short hint sequence in the corner of the screen: how the colony feeds itself, how to grow a colony brain, and how to grow a colony stomach.</FB_ShowOnboardingHintsDesc>
+  <FB_ShowMoonOnboardingHints>Hints: flesh moon</FB_ShowMoonOnboardingHints>
+  <FB_ShowMoonOnboardingHintsDesc>On your first visit to a flesh moon, shows a short hint sequence in the corner of the screen: how to gain control of the moon and how to set up digesting bodies in its acid. Independent from the colony development hints.</FB_ShowMoonOnboardingHintsDesc>
+
+</LanguageData>

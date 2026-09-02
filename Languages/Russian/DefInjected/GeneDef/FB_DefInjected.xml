@@ -7,7 +7,7 @@
   <FB_BiomassEvolution.labelShortAdj>эволюционирующий биомассой</FB_BiomassEvolution.labelShortAdj>
   <FB_Eater.description>Носители могут поглощать органические трупы в личную память тела, а затем тратить гемогель колонии, чтобы выращивать сохранённых существ живыми новорождёнными на выбранных клетках плоти.</FB_Eater.description>
   <FB_Eater.label>пожиратель</FB_Eater.label>
-  <FB_FleshbeastBody.description>Носитель перестраивается в человекоподобного флешбиста: волосы и обычная кожа уступают место живой плотской ткани и искажённой голове. Тело почти не чувствует боли, быстрее заживает и получает немного меньше урона, но становится пугающе отталкивающим. Жизненно важные системы расходятся по всей массе, поэтому смертельный удар не убивает носителя, а разрывает его на два более молодых тела. Не сочетается с фрагментацией - тело умеет распадаться только одним способом.</FB_FleshbeastBody.description>
+  <FB_FleshbeastBody.description>Носитель перестраивается в человекоподобного биошмата: волосы и обычная кожа уступают место живой плотской ткани и искажённой голове. Тело почти не чувствует боли, быстрее заживает и получает немного меньше урона, но становится пугающе отталкивающим. Жизненно важные системы расходятся по всей массе, поэтому смертельный удар не убивает носителя, а разрывает его на два более молодых тела. Не сочетается с фрагментацией - тело умеет распадаться только одним способом.</FB_FleshbeastBody.description>
   <FB_FleshbeastBody.label>тело плотяного зверя</FB_FleshbeastBody.label>
   <FB_FleshbeastBody.labelShortAdj>плотяной зверь</FB_FleshbeastBody.labelShortAdj>
   <FB_FleshbeastBody.renderNodeProperties.0.debugLabel>мех</FB_FleshbeastBody.renderNodeProperties.0.debugLabel>
@@ -34,7 +34,7 @@
   <FB_MeatBloom.description>Тело носителя непрерывно выращивает искажённое мясо внутри собственных тканей, несколько раз в день сбрасывая небольшие партии на землю. Рост новой плоти усиливает голод, питаясь телом носителя.</FB_MeatBloom.description>
   <FB_MeatBloom.label>мясное цветение</FB_MeatBloom.label>
   <FB_MeatBloom.labelShortAdj>мясоцветущий</FB_MeatBloom.labelShortAdj>
-  <FB_FleshMarshal.description>Носитель может передать боевой нервный импульс, окутывающий ближайших дружественных флешбистов резонансом нервосгустка. Эффект ускоряет движение, снижает входящий урон и быстро затягивает раны.</FB_FleshMarshal.description>
+  <FB_FleshMarshal.description>Носитель может передать боевой нервный импульс, окутывающий ближайших дружественных биошматов резонансом нервосгустка. Эффект ускоряет движение, снижает входящий урон и быстро затягивает раны.</FB_FleshMarshal.description>
   <FB_FleshMarshal.label>маршал плоти</FB_FleshMarshal.label>
   <FB_FleshMarshal.labelShortAdj>маршал плоти</FB_FleshMarshal.labelShortAdj>
   <FB_BloodTendril.label>кровавое щупальце</FB_BloodTendril.label>

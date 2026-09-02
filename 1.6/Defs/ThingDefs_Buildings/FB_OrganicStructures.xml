@@ -1418,7 +1418,7 @@
   <!-- Постройка: Feeder (FB_Feeder) -->
   <ThingDef ParentName="BuildingColonyFleshBaseAnimation">
     <defName>FB_Feeder</defName>
-    <description>An organic feeding structure that uses hemogel network power to dispense edible biomass. Any hungry colonist can draw a fresh portion from its open sides, though unaccepted pawns may dislike the meal.</description>
+    <description>An organic feeding structure that uses hemogel network power to dispense edible biomass. Any hungry colonist can draw a fresh portion, though unaccepted pawns may dislike the meal.</description>
     <label>Feeder</label>
     <thingClass>FB.Building_HemogelFeeder</thingClass>
     <size>(2,2)</size>
@@ -2726,6 +2726,7 @@
   <!-- Building: celestial umbilicus (FB_CelestialUmbilicus) -->
   <ThingDef ParentName="BuildingColonyFleshBase">
   <defName>FB_CelestialUmbilicus</defName>
+  <thingClass>FB.Building_CelestialUmbilicus</thingClass>
   <label>celestial umbilicus</label>
   <description>A colossal living column that consumes network hemogel to grow toward orbit. Once awakened, every faction will try to sever it before the flesh colony buds free.</description>
   <drawerType>MapMeshAndRealTime</drawerType>
@@ -2785,6 +2786,7 @@
       <raidPointsMultiplier>1.25</raidPointsMultiplier>
       <minRaidPoints>250</minRaidPoints>
       <startIconPath>UI/Commands/CelestialUmbilicusStart</startIconPath>
+      <dormantTexturePath>Things/Building/FB_Organic/CelestialUmbilicus/CelestialUmbilicusDormant</dormantTexturePath>
       <segmentMiddleTexturePath>Things/Building/FB_Organic/CelestialUmbilicus/CelestialUmbilicusSegmentMiddle</segmentMiddleTexturePath>
       <segmentGrowingTexturePath>Things/Building/FB_Organic/CelestialUmbilicus/CelestialUmbilicusSegmentGrowing</segmentGrowingTexturePath>
       <segmentDrawSize>(10.5,10.5)</segmentDrawSize>
