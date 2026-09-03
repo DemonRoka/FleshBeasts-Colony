@@ -9,6 +9,17 @@
     <thinkTree>FB_Hemoghoul</thinkTree>
     <thinkTreeConstant>FB_HemoghoulConstant</thinkTreeConstant>
     <showJobReport>true</showJobReport>
+    <!-- Для мутанта игра берёт запреты работ только отсюда и игнорирует черту FB_HemoghoulNature, поэтому списки обязаны совпадать. -->
+    <workDisables>
+      <li>Caring</li>
+      <li>Social</li>
+      <li>Animals</li>
+      <li>Cooking</li>
+      <li>Intellectual</li>
+      <li>Artistic</li>
+      <li>Hunting</li>
+      <li>Shooting</li>
+    </workDisables>
     <disableApparel>true</disableApparel>
     <allowedDevelopmentalStages>Adult</allowedDevelopmentalStages>
     <preventsMentalBreaks>true</preventsMentalBreaks>
@@ -20,6 +31,7 @@
     <incapableOfSocialInteractions>true</incapableOfSocialInteractions>
     <disableTitles>true</disableTitles>
     <disableOwnership>true</disableOwnership>
+    <canTend>false</canTend>
     <canBeDrafted>true</canBeDrafted>
     <respectsAllowedArea>true</respectsAllowedArea>
     <canTravelInCaravan>false</canTravelInCaravan>

@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_SegmentedBastion_AssembleLabel>Собрать сегментный бастион</FB_SegmentedBastion_AssembleLabel>
-  <FB_SegmentedBastion_AssembleDesc>Призывает союзных пальцешипов, троешипов и крепкошипов слиться в управляемый сегментный бастион.</FB_SegmentedBastion_AssembleDesc>
-  <FB_SegmentedBastion_NoDonors>Недостаточно подходящих союзных пальцешипов, троешипов или крепкошипов.</FB_SegmentedBastion_NoDonors>
+  <FB_SegmentedBastion_AssembleDesc>Призывает союзных пальцешипов, троешипов и твёрдошипов слиться в управляемый сегментный бастион.</FB_SegmentedBastion_AssembleDesc>
+  <FB_SegmentedBastion_NoDonors>Недостаточно подходящих союзных пальцешипов, троешипов или твёрдошипов.</FB_SegmentedBastion_NoDonors>
   <FB_SegmentedBastion_NoGatherCell>Не найдена достижимая точка сбора для выбранных биошматов.</FB_SegmentedBastion_NoGatherCell>
   <FB_SegmentedBastion_Interrupted>Сборка сегментного бастиона была прервана.</FB_SegmentedBastion_Interrupted>
   <FB_SegmentedBastion_AssemblyStarted>{0} биошматов сходятся в сегментный бастион. Общая масса: {1}.</FB_SegmentedBastion_AssemblyStarted>

@@ -65,9 +65,4 @@
       </li>
     </comps>
   </ThingDef>
-  <!-- Объект: pit gate exit (PitGateExit) -->
-  <ThingDef ParentName="CaveExit">
-    <defName>PitGateExit</defName>
-    <label>pit gate exit</label>
-  </ThingDef>
 </Defs>

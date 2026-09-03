@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_BulbfreakFusionInvalidCaster>Начать объединение плоти может только живая пешка колонии плоти.</FB_BulbfreakFusionInvalidCaster>
   <FB_BulbfreakFusionAlreadyActive>Эта пешка уже участвует в объединении плоти.</FB_BulbfreakFusionAlreadyActive>
-  <FB_BulbfreakFusionNoDonors>Рядом недостаточно подходящих союзных пальцешипов, трёхшипов или крепкошипов.</FB_BulbfreakFusionNoDonors>
+  <FB_BulbfreakFusionNoDonors>Рядом недостаточно подходящих союзных пальцешипов, троешипов или твёрдошипов.</FB_BulbfreakFusionNoDonors>
   <FB_BulbfreakFusionNoGatherCells>Вокруг носителя нет доступного места, где биошматы смогут собраться.</FB_BulbfreakFusionNoGatherCells>
   <FB_BulbfreakFusionInterrupted>Объединение плоти {PAWN_labelShort} было прервано.</FB_BulbfreakFusionInterrupted>
   <FB_BulbfreakFusionStarted>{PAWN_labelShort} призывает {0} биошматов к объединению плоти. Общая ценность массы: {1}.</FB_BulbfreakFusionStarted>

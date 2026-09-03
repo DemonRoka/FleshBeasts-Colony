@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
+  <!-- Покров плоти встаёт на место ванильного загрязнения: перед реками, чтобы вода рисовалась поверх него. -->
+  <Operation Class="PatchOperationInsert">
+    <xpath>Defs/PlanetLayerDef[defName="Surface"]/worldDrawLayers/li[text()="WorldDrawLayer_Rivers"]</xpath>
+    <value>
+      <li>FB.WorldDrawLayer_Flesh</li>
+    </value>
+  </Operation>
+
+  <!-- Вены остаются над реками, как ванильные дороги. -->
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/PlanetLayerDef[defName="Surface"]/worldDrawLayers</xpath>
     <value>
-      <li>FB.WorldDrawLayer_Flesh</li>
       <li>FB.WorldDrawLayer_FleshVeins</li>
     </value>
   </Operation>

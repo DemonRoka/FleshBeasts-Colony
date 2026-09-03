@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_ForcedFleshConversion_Label>Насильное принятие плоти</FB_ForcedFleshConversion_Label>
-  <FB_ForcedFleshConversion_Desc>Принести живого пленника или упавшего врага к сердцу колонии или лунному нервному узлу. Пальцешипы внедряются в цель: один нужен на каждые 300 рыночной ценности. Невербуемые цели преобразуются в твердошипов.</FB_ForcedFleshConversion_Desc>
+  <FB_ForcedFleshConversion_Desc>Принести живого пленника или упавшего врага к сердцу колонии или лунному нервному узлу. Пальцешипы внедряются в цель: один нужен на каждые 300 рыночной ценности. Невербуемые цели преобразуются в твёрдошипов.</FB_ForcedFleshConversion_Desc>
   <FB_ForcedFleshConversion_Started>Принятие плоти началось для {0}.</FB_ForcedFleshConversion_Started>
   <FB_ForcedFleshConversion_Success>{0} принята колонией плоти.</FB_ForcedFleshConversion_Success>
-  <FB_ForcedFleshConversion_Toughspike>{0} нельзя завербовать, поэтому тело было преобразовано в твердошипа.</FB_ForcedFleshConversion_Toughspike>
+  <FB_ForcedFleshConversion_Toughspike>{0} нельзя завербовать, поэтому тело было преобразовано в твёрдошипа.</FB_ForcedFleshConversion_Toughspike>
   <FB_ForcedFleshConversion_Interrupted>Принятие плоти для {0} было прервано.</FB_ForcedFleshConversion_Interrupted>
   <FB_ForcedFleshConversion_InvalidTarget>Выберите живую человекоподобную цель.</FB_ForcedFleshConversion_InvalidTarget>
   <FB_ForcedFleshConversion_HumanlikeOnly>Насильно принять плотью можно только живых человекоподобных пешек.</FB_ForcedFleshConversion_HumanlikeOnly>
