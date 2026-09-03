@@ -9,9 +9,9 @@
     <canHaveMap>false</canHaveMap>
     <validLaunchTarget>false</validLaunchTarget>
     <selectable>true</selectable>
-    <texture>World/Flesh/FleshOutpost</texture>
+    <texture>World/WorldObjects/FleshOutpost</texture>
     <expandingIcon>true</expandingIcon>
-    <expandingIconTexture>World/Flesh/FleshOutpost</expandingIconTexture>
+    <expandingIconTexture>World/WorldObjects/Expanding/FleshOutpost</expandingIconTexture>
     <expandingIconDrawSize>0.9</expandingIconDrawSize>
     <expandingIconPriority>18</expandingIconPriority>
     <inspectorTabs>

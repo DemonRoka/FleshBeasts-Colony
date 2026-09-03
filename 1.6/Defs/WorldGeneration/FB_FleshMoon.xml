@@ -20,7 +20,7 @@
 		<plantDensity>0</plantDensity>
 		<impassable>true</impassable>
 		<hasVirtualPlants>false</hasVirtualPlants>
-		<texture>World/FleshMoon/FleshMoonSurface</texture>
+		<texture>World/Biomes/FleshMoon</texture>
 	</BiomeDef>
 
 	<BiomeDef>
@@ -41,7 +41,7 @@
 		<animalDensity>0</animalDensity>
 		<plantDensity>0</plantDensity>
 		<hasVirtualPlants>false</hasVirtualPlants>
-		<texture>World/FleshMoon/FleshMoonSurface</texture>
+		<texture>World/Biomes/CrashedFleshMoon</texture>
 	</BiomeDef>
 
 	<WorldGenStepDef>

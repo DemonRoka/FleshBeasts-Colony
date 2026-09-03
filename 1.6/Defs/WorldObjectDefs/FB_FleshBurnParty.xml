@@ -10,9 +10,9 @@
     <validLaunchTarget>false</validLaunchTarget>
     <selectable>true</selectable>
     <useDynamicDrawer>true</useDynamicDrawer>
-    <texture>World/Flesh/FleshBurnParty</texture>
+    <texture>World/WorldObjects/FleshBurnParty</texture>
     <expandingIcon>true</expandingIcon>
-    <expandingIconTexture>World/Flesh/FleshBurnParty</expandingIconTexture>
+    <expandingIconTexture>World/WorldObjects/Expanding/FleshBurnParty</expandingIconTexture>
     <expandingIconDrawSize>0.85</expandingIconDrawSize>
     <expandingIconPriority>19</expandingIconPriority>
     <inspectorTabs>

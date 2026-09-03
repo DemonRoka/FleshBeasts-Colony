@@ -27,6 +27,12 @@
   <FB_GrowGrassEyes_Desc>Grow eye grass from colony flesh. The plant starts newly sprouted.</FB_GrowGrassEyes_Desc>
   <FB_GrowFleshTree_Label>Grow flesh tree</FB_GrowFleshTree_Label>
   <FB_GrowFleshTree_Desc>Grow a flesh tree from colony flesh. The plant starts newly sprouted.</FB_GrowFleshTree_Desc>
+  <FB_GrowLanternFlesh_Label>Grow lantern flesh</FB_GrowLanternFlesh_Label>
+  <FB_GrowLanternFlesh_Desc>Grow lantern flesh from colony flesh. The plant starts newly sprouted and lights the ground around it.</FB_GrowLanternFlesh_Desc>
+  <FB_GrowFleshPlant_Variant>Variant {0}</FB_GrowFleshPlant_Variant>
+  <FB_GrowFleshPlant_VariantRandom>Random variant</FB_GrowFleshPlant_VariantRandom>
+  <FB_GrowFleshPlant_VariantSelected>Selected: {0}</FB_GrowFleshPlant_VariantSelected>
+  <FB_GrowFleshPlant_VariantHint>Right-click to choose which variant grows.</FB_GrowFleshPlant_VariantHint>
   <FB_FleshPlantCellBlocked>The cell must be empty.</FB_FleshPlantCellBlocked>
   <FB_FleshPlantTreeRoofed>Flesh trees cannot grow under roofs.</FB_FleshPlantTreeRoofed>
   <FB_EmbryoGrowthOnePerMap>{0} already exists on this map.</FB_EmbryoGrowthOnePerMap>

@@ -11,9 +11,9 @@
     <treatAsPlayerHome>true</treatAsPlayerHome>
     <validLaunchTarget>false</validLaunchTarget>
     <selectable>true</selectable>
-    <texture>World/FleshMoon/FleshMoonSurface</texture>
+    <texture>World/WorldObjects/FleshMoonSurface</texture>
     <expandingIcon>true</expandingIcon>
-    <expandingIconTexture>World/FleshMoon/FleshMoonSurface</expandingIconTexture>
+    <expandingIconTexture>World/WorldObjects/Expanding/FleshMoonSurface</expandingIconTexture>
     <expandingIconDrawSize>1.2</expandingIconDrawSize>
     <expandingIconPriority>20</expandingIconPriority>
     <mapGenerator>FB_FleshMoonPocket</mapGenerator>
@@ -30,7 +30,7 @@
     <treatAsPlayerHome>true</treatAsPlayerHome>
     <validLaunchTarget>false</validLaunchTarget>
     <selectable>false</selectable>
-    <texture>World/FleshMoon/FleshMoonSurface</texture>
+    <texture>World/WorldObjects/FleshMoonStartingSettlement</texture>
     <mapGenerator>FB_FleshMoonPocket</mapGenerator>
   </WorldObjectDef>
 
@@ -43,7 +43,7 @@
     <canHaveMap>true</canHaveMap>
     <validLaunchTarget>false</validLaunchTarget>
     <selectable>false</selectable>
-    <texture>World/FleshMoon/FleshMoonSurface</texture>
+    <texture>World/WorldObjects/FleshMoonSurfaceAnchor</texture>
     <mapGenerator>Encounter</mapGenerator>
   </WorldObjectDef>
 
@@ -58,9 +58,9 @@
     <treatAsPlayerHome>true</treatAsPlayerHome>
     <validLaunchTarget>false</validLaunchTarget>
     <selectable>true</selectable>
-    <texture>World/FleshMoon/FleshMoonSurface</texture>
+    <texture>World/WorldObjects/FleshMoonCrashSite</texture>
     <expandingIcon>true</expandingIcon>
-    <expandingIconTexture>World/FleshMoon/FleshMoonSurface</expandingIconTexture>
+    <expandingIconTexture>World/WorldObjects/Expanding/FleshMoonCrashSite</expandingIconTexture>
     <expandingIconDrawSize>1.2</expandingIconDrawSize>
     <expandingIconPriority>22</expandingIconPriority>
     <mapGenerator>Encounter</mapGenerator>

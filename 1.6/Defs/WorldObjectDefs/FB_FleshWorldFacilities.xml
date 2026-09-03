@@ -10,9 +10,9 @@
     <canHaveMap>false</canHaveMap>
     <validLaunchTarget>false</validLaunchTarget>
     <selectable>true</selectable>
-    <texture>World/Flesh/FleshBulwark</texture>
+    <texture>World/WorldObjects/FleshBulwark</texture>
     <expandingIcon>true</expandingIcon>
-    <expandingIconTexture>World/Flesh/FleshBulwark</expandingIconTexture>
+    <expandingIconTexture>World/WorldObjects/Expanding/FleshBulwark</expandingIconTexture>
     <expandingIconDrawSize>0.85</expandingIconDrawSize>
     <expandingIconPriority>16</expandingIconPriority>
     <modExtensions>
@@ -22,7 +22,6 @@
         <tileProductionMultiplier>1</tileProductionMultiplier>
         <defenseRating>45</defenseRating>
         <defenseRadius>3</defenseRadius>
-        <commandIconPath>UI/Commands/FleshBuildBulwark</commandIconPath>
       </li>
     </modExtensions>
   </WorldObjectDef>
@@ -36,9 +35,9 @@
     <canHaveMap>false</canHaveMap>
     <validLaunchTarget>false</validLaunchTarget>
     <selectable>true</selectable>
-    <texture>World/Flesh/FleshTreeNursery</texture>
+    <texture>World/WorldObjects/FleshTreeNursery</texture>
     <expandingIcon>true</expandingIcon>
-    <expandingIconTexture>World/Flesh/FleshTreeNursery</expandingIconTexture>
+    <expandingIconTexture>World/WorldObjects/Expanding/FleshTreeNursery</expandingIconTexture>
     <expandingIconDrawSize>0.85</expandingIconDrawSize>
     <expandingIconPriority>16</expandingIconPriority>
     <modExtensions>
@@ -46,7 +45,6 @@
         <category>Production</category>
         <cost>20000</cost>
         <tileProductionMultiplier>3</tileProductionMultiplier>
-        <commandIconPath>UI/Commands/FleshBuildTreeNursery</commandIconPath>
       </li>
     </modExtensions>
   </WorldObjectDef>
@@ -60,9 +58,9 @@
     <canHaveMap>false</canHaveMap>
     <validLaunchTarget>false</validLaunchTarget>
     <selectable>true</selectable>
-    <texture>World/Flesh/FleshRiverSiphon</texture>
+    <texture>World/WorldObjects/FleshRiverSiphon</texture>
     <expandingIcon>true</expandingIcon>
-    <expandingIconTexture>World/Flesh/FleshRiverSiphon</expandingIconTexture>
+    <expandingIconTexture>World/WorldObjects/Expanding/FleshRiverSiphon</expandingIconTexture>
     <expandingIconDrawSize>0.85</expandingIconDrawSize>
     <expandingIconPriority>16</expandingIconPriority>
     <modExtensions>
@@ -71,7 +69,6 @@
         <cost>35000</cost>
         <tileProductionMultiplier>4</tileProductionMultiplier>
         <requiresWaterTile>true</requiresWaterTile>
-        <commandIconPath>UI/Commands/FleshBuildRiverSiphon</commandIconPath>
       </li>
     </modExtensions>
   </WorldObjectDef>
@@ -85,9 +82,9 @@
     <canHaveMap>false</canHaveMap>
     <validLaunchTarget>false</validLaunchTarget>
     <selectable>true</selectable>
-    <texture>World/Flesh/FleshAmbushCamp</texture>
+    <texture>World/WorldObjects/FleshAmbushCamp</texture>
     <expandingIcon>true</expandingIcon>
-    <expandingIconTexture>World/Flesh/FleshAmbushCamp</expandingIconTexture>
+    <expandingIconTexture>World/WorldObjects/Expanding/FleshAmbushCamp</expandingIconTexture>
     <expandingIconDrawSize>0.85</expandingIconDrawSize>
     <expandingIconPriority>16</expandingIconPriority>
     <inspectorTabs>
@@ -107,7 +104,6 @@
         <ambushHaulMaxStacks>9</ambushHaulMaxStacks>
         <ambushHaulMinValue>350</ambushHaulMinValue>
         <ambushHaulMaxValue>2600</ambushHaulMaxValue>
-        <commandIconPath>UI/Commands/FleshBuildAmbushCamp</commandIconPath>
       </li>
     </modExtensions>
   </WorldObjectDef>
@@ -121,9 +117,9 @@
     <canHaveMap>false</canHaveMap>
     <validLaunchTarget>false</validLaunchTarget>
     <selectable>true</selectable>
-    <texture>World/Flesh/FleshCrustCorer</texture>
+    <texture>World/WorldObjects/FleshCrustCorer</texture>
     <expandingIcon>true</expandingIcon>
-    <expandingIconTexture>World/Flesh/FleshCrustCorer</expandingIconTexture>
+    <expandingIconTexture>World/WorldObjects/Expanding/FleshCrustCorer</expandingIconTexture>
     <expandingIconDrawSize>0.85</expandingIconDrawSize>
     <expandingIconPriority>16</expandingIconPriority>
     <inspectorTabs>
@@ -142,7 +138,6 @@
         <mineralExcludedThings>
           <li>Bioferrite</li>
         </mineralExcludedThings>
-        <commandIconPath>UI/Commands/FleshBuildCrustCorer</commandIconPath>
       </li>
     </modExtensions>
   </WorldObjectDef>
@@ -156,9 +151,9 @@
     <canHaveMap>false</canHaveMap>
     <validLaunchTarget>false</validLaunchTarget>
     <selectable>true</selectable>
-    <texture>World/Flesh/FleshTunnelNexus</texture>
+    <texture>World/WorldObjects/FleshTunnelNexus</texture>
     <expandingIcon>true</expandingIcon>
-    <expandingIconTexture>World/Flesh/FleshTunnelNexus</expandingIconTexture>
+    <expandingIconTexture>World/WorldObjects/Expanding/FleshTunnelNexus</expandingIconTexture>
     <expandingIconDrawSize>0.85</expandingIconDrawSize>
     <expandingIconPriority>16</expandingIconPriority>
     <modExtensions>
@@ -174,7 +169,6 @@
         <tunnelTransitTicksPerWorldTile>800</tunnelTransitTicksPerWorldTile>
         <tunnelMinimumTransitTicks>2500</tunnelMinimumTransitTicks>
         <tunnelMouthDef>FB_FleshTunnelMouth</tunnelMouthDef>
-        <commandIconPath>UI/Commands/FleshBuildTunnelNexus</commandIconPath>
       </li>
     </modExtensions>
   </WorldObjectDef>

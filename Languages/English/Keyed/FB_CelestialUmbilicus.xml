@@ -27,6 +27,8 @@
   <FB_CelestialUmbilicusInspectAscended>The colony has become the flesh moon.</FB_CelestialUmbilicusInspectAscended>
   <FB_CelestialUmbilicusInspectSevered>The flesh moon link has been severed.</FB_CelestialUmbilicusInspectSevered>
   <FB_FleshMoonLinkSeveredLetterLabel>Flesh moon link severed</FB_FleshMoonLinkSeveredLetterLabel>
+  <FB_FleshMoonAnchorBurnedLetterLabel>Flesh moon feeding link torn away</FB_FleshMoonAnchorBurnedLetterLabel>
+  <FB_FleshMoonAnchorBurnedLetterText>The flesh on world tile {0} has been burned away, and the Moon's mapless feeding link had nothing left to hold on to. The umbilicus has snapped back and the Moon is free to move again, but it no longer draws anything from the planetary network.</FB_FleshMoonAnchorBurnedLetterText>
   <FB_FleshMoonLinkSeveredLetterText>The celestial umbilicus was destroyed. The flesh moon remains in orbit, but its link to the colony has been lost.</FB_FleshMoonLinkSeveredLetterText>
   <FB_FleshMoonLinkedLetterLabel>Flesh moon link stabilized</FB_FleshMoonLinkedLetterLabel>
   <FB_FleshMoonLinkedLetterText>The fed celestial umbilicus has automatically stabilized into a permanent channel. Colonists, fleshbeasts, prisoners, and supplies can now be sent between the surface and the flesh moon.</FB_FleshMoonLinkedLetterText>

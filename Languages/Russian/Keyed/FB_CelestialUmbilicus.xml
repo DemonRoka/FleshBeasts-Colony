@@ -27,6 +27,8 @@
   <FB_CelestialUmbilicusInspectAscended>Колония стала луной плоти.</FB_CelestialUmbilicusInspectAscended>
   <FB_CelestialUmbilicusInspectSevered>Связь с луной плоти разорвана.</FB_CelestialUmbilicusInspectSevered>
   <FB_FleshMoonLinkSeveredLetterLabel>Связь с луной плоти разорвана</FB_FleshMoonLinkSeveredLetterLabel>
+  <FB_FleshMoonAnchorBurnedLetterLabel>Питающая привязка Луны сорвана</FB_FleshMoonAnchorBurnedLetterLabel>
+  <FB_FleshMoonAnchorBurnedLetterText>Плоть на мировой клетке {0} выжжена, и питающей привязке Луны стало не за что держаться. Пуповина втянулась: Луна снова может двигаться, но больше ничего не получает из планетарной сети.</FB_FleshMoonAnchorBurnedLetterText>
   <FB_FleshMoonLinkSeveredLetterText>Небесная пуповина уничтожена. Луна плоти осталась на орбите, но колония потеряла связь с ней.</FB_FleshMoonLinkSeveredLetterText>
   <FB_FleshMoonLinkedLetterLabel>Связь с луной плоти стабилизирована</FB_FleshMoonLinkedLetterLabel>
   <FB_FleshMoonLinkedLetterText>Накормленная небесная пуповина автоматически стабилизировалась в постоянный канал. Колонистов, биошматов, пленников и припасы теперь можно отправлять между поверхностью и луной плоти.</FB_FleshMoonLinkedLetterText>

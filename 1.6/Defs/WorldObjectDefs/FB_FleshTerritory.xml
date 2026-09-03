@@ -11,7 +11,7 @@
     <treatAsPlayerHome>false</treatAsPlayerHome>
     <validLaunchTarget>false</validLaunchTarget>
     <selectable>true</selectable>
-    <texture>World/Flesh/FleshTerritoryTemporaryMap</texture>
+    <texture>World/WorldObjects/FleshTerritoryTemporaryMap</texture>
     <mapGenerator>Encounter</mapGenerator>
     <comps>
       <li Class="WorldObjectCompProperties_FormCaravan" />

@@ -155,6 +155,18 @@
   </FB.FleshArchitectDesignatorDef>
 
   <FB.FleshArchitectDesignatorDef>
+    <defName>FB_FleshArchitect_Brain_GrowLanternFlesh</defName>
+    <category>FB_FleshArchitect_Plants</category>
+    <className>FB.Designator_GrowFleshPlant</className>
+    <targetThingDef>FB_LanternFlesh</targetThingDef>
+    <hemogelCost>12</hemogelCost>
+    <labelKey>FB_GrowLanternFlesh_Label</labelKey>
+    <descriptionKey>FB_GrowLanternFlesh_Desc</descriptionKey>
+    <requiredSourceBuilding>FB_ColonyBrain</requiredSourceBuilding>
+    <order>15</order>
+  </FB.FleshArchitectDesignatorDef>
+
+  <FB.FleshArchitectDesignatorDef>
     <defName>FB_FleshArchitect_Brain_GrowFleshTree</defName>
     <category>FB_FleshArchitect_Plants</category>
     <className>FB.Designator_GrowFleshPlant</className>

@@ -9,9 +9,9 @@
     <canHaveMap>true</canHaveMap>
     <validLaunchTarget>false</validLaunchTarget>
     <selectable>true</selectable>
-    <texture>Things/Building/FB_Organic/FleshTunnel/FleshTunnelMaw</texture>
+    <texture>World/WorldObjects/FleshTunnelDestination</texture>
     <expandingIcon>true</expandingIcon>
-    <expandingIconTexture>Things/Building/FB_Organic/FleshTunnel/FleshTunnelMaw</expandingIconTexture>
+    <expandingIconTexture>World/WorldObjects/Expanding/FleshTunnelDestination</expandingIconTexture>
     <expandingIconDrawSize>0.75</expandingIconDrawSize>
     <mapGenerator>Encounter</mapGenerator>
     <comps>
@@ -28,9 +28,9 @@
     <canHaveMap>false</canHaveMap>
     <validLaunchTarget>false</validLaunchTarget>
     <selectable>true</selectable>
-    <texture>World/Flesh/FleshTunnelMouth</texture>
+    <texture>World/WorldObjects/FleshTunnelMouth</texture>
     <expandingIcon>true</expandingIcon>
-    <expandingIconTexture>World/Flesh/FleshTunnelMouth</expandingIconTexture>
+    <expandingIconTexture>World/WorldObjects/Expanding/FleshTunnelMouth</expandingIconTexture>
     <expandingIconDrawSize>0.8</expandingIconDrawSize>
     <expandingIconPriority>16</expandingIconPriority>
   </WorldObjectDef>

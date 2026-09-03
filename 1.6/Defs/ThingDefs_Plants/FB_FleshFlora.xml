@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <ThingDef ParentName="TreeBase">
     <defName>FB_FleshTree</defName>
@@ -93,6 +93,54 @@
       <dieIfNoSunlight>false</dieIfNoSunlight>
     </plant>
   </ThingDef>
+  <ThingDef ParentName="PlantBaseNonEdible">
+  <defName>FB_LanternFlesh</defName>
+  <label>lantern flesh</label>
+  <description>A vascular growth whose swollen sacs burn refined nutrients into a steady warm glow. It lights the flesh around it on its own, needing no power or tending.</description>
+  <statBases>
+    <MaxHitPoints>70</MaxHitPoints>
+    <Flammability>0.9</Flammability>
+    <Beauty>-1</Beauty>
+    <BeautyOutdoors>-1</BeautyOutdoors>
+  </statBases>
+  <graphicData>
+    <texPath>Things/Plant/LanternFlesh</texPath>
+    <graphicClass>Graphic_Random</graphicClass>
+    <shaderType>CutoutPlant</shaderType>
+    <drawSize>1.5</drawSize>
+  </graphicData>
+  <selectable>true</selectable>
+  <neverMultiSelect>false</neverMultiSelect>
+  <plant>
+    <fertilityMin>0</fertilityMin>
+    <fertilitySensitivity>0</fertilitySensitivity>
+    <growDays>4</growDays>
+    <growMinGlow>0</growMinGlow>
+    <growOptimalGlow>0</growOptimalGlow>
+    <cavePlant>true</cavePlant>
+    <maxMeshCount>1</maxMeshCount>
+    <visualSizeRange>1~1.2</visualSizeRange>
+    <topWindExposure>0.06</topWindExposure>
+    <wildClusterRadius>4</wildClusterRadius>
+    <wildClusterWeight>6</wildClusterWeight>
+    <wildOrder>1</wildOrder>
+    <wildEqualLocalDistribution>false</wildEqualLocalDistribution>
+    <wildTerrainTags>
+      <li>FB_FleshColonyTerrain</li>
+    </wildTerrainTags>
+    <purpose>Misc</purpose>
+    <pollution>Any</pollution>
+    <dieFromToxicFallout>false</dieFromToxicFallout>
+    <neverBlightable>true</neverBlightable>
+    <dieIfNoSunlight>false</dieIfNoSunlight>
+  </plant>
+  <comps>
+    <li Class="CompProperties_Glower">
+      <glowRadius>5.5</glowRadius>
+      <glowColor>(74, 37, 2, 0)</glowColor>
+    </li>
+  </comps>
+</ThingDef>
   <ThingDef ParentName="StumpChoppedBase">
     <defName>FB_StumpChopped_FleshTree</defName>
     <label>chopped flesh tree stump</label>
