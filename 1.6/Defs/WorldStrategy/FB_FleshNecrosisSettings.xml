@@ -31,7 +31,6 @@
 		<damageIntervalTicks>600</damageIntervalTicks>
 		<damagePerInterval>6</damagePerInterval>
 
-		<inertDecayTicks>120000</inertDecayTicks>
 	</FB.FleshNecrosisDef>
 
 </Defs>

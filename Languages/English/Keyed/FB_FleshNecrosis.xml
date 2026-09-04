@@ -3,8 +3,8 @@
 
   <!-- Outbreak -->
   <FB_FleshNecrosisLabel>Flesh necrosis</FB_FleshNecrosisLabel>
-  <FB_FleshNecrosisText>A patch of the cover has died. The tissue there has gone grey and slack, and the rot is creeping outward through living cover, one cell at a time.\n\nIt carries no hemogel, so anything standing on it is cut off from the network and starts to come apart, and flesh walls caught on dead ground rot down with it.\n\nThere is nothing to fight here - the rot spreads by contact alone, so the way to stop it is to take away what it feeds on. Use Fleshmass Floor Remove Plan to mark an unbroken ring of living cover around the dead patch: the colony absorbs those cells, and the rot cannot cross bare ground. Once it is cut off the necrosis starves, and in time the dead tissue crumbles back to bare ground you can grow over again.</FB_FleshNecrosisText>
-  <FB_FleshNecrosisCleared>The necrosis has crumbled away, and the ground beneath it is bare again.</FB_FleshNecrosisCleared>
+  <FB_FleshNecrosisText>A patch of the cover has died. The tissue there has gone grey and slack, and the rot is creeping outward through living cover, one cell at a time.\n\nBuildings on dead tissue are cut off from the hemogel network and fall apart, flesh walls on it rot through, grasping tendrils no longer grow there and no flora comes up.\n\nThere is nothing to fight. Mark the rot with the Fleshmass Floor Remove Plan and the colony will digest it away. The rot spreads by contact alone, so cutting a ring of living cover around it will also hold it in place - but it still has to be eaten to be gone.</FB_FleshNecrosisText>
+  <FB_FleshNecrosisCleared>The necrosis has been digested away; nothing is spreading any more.</FB_FleshNecrosisCleared>
 
   <!-- Dev -->
   <FB_FleshNecrosisDebugFailed>Could not start a necrosis outbreak here.</FB_FleshNecrosisDebugFailed>
