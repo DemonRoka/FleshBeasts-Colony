@@ -3,4 +3,6 @@
   <FB_PitBurrowEmergence.label>flesh burrow emergence</FB_PitBurrowEmergence.label>
   <FB_PitBurrowEmergence.letterLabel>Flesh burrow emerging</FB_PitBurrowEmergence.letterLabel>
   <FB_PitBurrowEmergence.letterText>A flesh burrow has emerged, spawning beasts from underground.</FB_PitBurrowEmergence.letterText>
+  <FB_FleshContainmentRaid.label>flesh containment cordon</FB_FleshContainmentRaid.label>
+  <FB_FleshNecrosis.label>flesh necrosis</FB_FleshNecrosis.label>
 </LanguageData>

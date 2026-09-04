@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_PlanetaryNetworkHemogelSummary>Доступный гемогель: {0} / {1}</FB_PlanetaryNetworkHemogelSummary>
   <FB_PlanetaryNetworkMoonConnected>подключена</FB_PlanetaryNetworkMoonConnected>
@@ -19,6 +19,8 @@
   <FB_PlanetaryNetworkCreateOutpostWarning>Вырастить здесь постоянный абстрактный аванпост за {0} гемогеля? Его нельзя удалить или посетить, а в сеть будет поступать только {1}% выхода его клетки.</FB_PlanetaryNetworkCreateOutpostWarning>
   <FB_FleshTerritoryEnterLabel>Войти на территорию плоти</FB_FleshTerritoryEnterLabel>
   <FB_FleshTerritoryEnterDesc>Материализовать покрытую клетку как временную карту и войти на неё. Эта карта не может стать постоянным поселением.</FB_FleshTerritoryEnterDesc>
+  <FB_FleshTerritoryTemporaryMapInspect>Временная карта: всё, что не уйдёт с караваном, схлопнется вместе с ней.</FB_FleshTerritoryTemporaryMapInspect>
+  <FB_FleshTerritoryCaravanDepartedWarning>Караван ушёл: временная карта схлопнется, всё оставшееся на ней потеряно.</FB_FleshTerritoryCaravanDepartedWarning>
   <FB_FirstOutpostConvertPlayerMapWarning>Поглотить эту загруженную карту и основать первый аванпост плоти за {0} лунного гемогеля? Все подходящие колонисты, пленники, животные и подконтрольные плотяные звери ({1}) будут эвакуированы на Луну. Локальный гемогель перенесётся полностью, а существующие плотские постройки и грунты вернут {2} гемогеля. Все прочие постройки, предметы и содержимое карты будут уничтожены без выплаты. Карта и её мировой объект исчезнут навсегда, вернуться на эту клетку будет нельзя.</FB_FirstOutpostConvertPlayerMapWarning>
   <FB_MoonOutpostConsumeMapWarning>Поглотить эту загруженную карту и вырастить здесь аванпост плоти за {0} лунного гемогеля? Все подходящие колонисты, пленники, животные и подконтрольные плотяные звери ({1}) будут эвакуированы на Луну. Локальный гемогель перенесётся полностью, а существующие плотские постройки и грунты вернут {2} гемогеля. Все прочие постройки, предметы и содержимое карты будут уничтожены без выплаты. Карта и её мировой объект исчезнут навсегда, а клетка станет абстрактным ульем и оставит сети только {3}% своей добычи.</FB_MoonOutpostConsumeMapWarning>
   <FB_FirstOutpostConvertMoonMapUnavailable>Карта Луны должна быть загружена и готова принять эвакуацию.</FB_FirstOutpostConvertMoonMapUnavailable>

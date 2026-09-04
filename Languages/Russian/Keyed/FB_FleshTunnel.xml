@@ -8,4 +8,11 @@
   <FB_FleshTunnelCollapseExitDesc>Захлопывает этот выход и весь связанный туннель, безвозвратно уничтожая его локацию. Всё оставшееся там будет потеряно.</FB_FleshTunnelCollapseExitDesc>
   <FB_FleshTunnelCollapseExitConfirm>Захлопнуть весь плотяной туннель? Это уничтожит выход, оборвёт связь с исходной пастью и безвозвратно удалит связанную локацию. Все оставшиеся там пешки и предметы будут потеряны.</FB_FleshTunnelCollapseExitConfirm>
   <FB_FleshTunnelNoWorldAnchor>Плотяной туннель не может определить мировую клетку этой карманной карты.</FB_FleshTunnelNoWorldAnchor>
+  <FB_FleshTunnelExitPlacementStarted>Выберите место прорыва плотяного туннеля на загруженной карте. ПКМ или Esc отменяет выбор.</FB_FleshTunnelExitPlacementStarted>
+  <FB_FleshTunnelExitPlacementMouseLabel>Выберите место выхода туннеля</FB_FleshTunnelExitPlacementMouseLabel>
+  <FB_FleshTunnelExitPlacementInvalid>Здесь нельзя открыть туннель: {0}</FB_FleshTunnelExitPlacementInvalid>
+  <FB_FleshTunnelExitPlacementWrongMap>Вернитесь на загруженную карту назначения туннеля, чтобы выбрать место выхода.</FB_FleshTunnelExitPlacementWrongMap>
+  <FB_FleshTunnelExitPlacementFailed>Не удалось открыть выход плотяного туннеля.</FB_FleshTunnelExitPlacementFailed>
+  <FB_FleshTunnelExitPlacementOutOfBounds>Область выхода туннеля должна помещаться внутри карты.</FB_FleshTunnelExitPlacementOutOfBounds>
+  <FB_FleshTunnelAwaitingExitPlacementInspect>Карта назначения готова: выберите место выхода на мировой клетке {0}.</FB_FleshTunnelAwaitingExitPlacementInspect>
 </LanguageData>

@@ -5,11 +5,13 @@
   <FB_FleshBurnRaidStartedLabel>Отряд выжигателей на территории плоти</FB_FleshBurnRaidStartedLabel>
   <FB_FleshBurnRaidStartedText>Отряд выжигателей фракции «{0}» встал на клетке {1} и начал срезать плотяной покров. В нём {2} бойцов боевой силой {3}.\n\nЧерез {4} клетка будет потеряна, если до неё не успеет боевой отряд. Выделите отряд выжигателей на карте мира, чтобы отправить своих.</FB_FleshBurnRaidStartedText>
   <FB_FleshBurnRaidTileLost>Фракция «{0}» выжгла плоть с клетки {1}.</FB_FleshBurnRaidTileLost>
+  <FB_FleshBurnRaidersOnSite>Здесь стоит лагерем отряд выжигателей фракции «{0}»: бойцов {1}.</FB_FleshBurnRaidersOnSite>
   <FB_FleshBurnRaidRepelled>Отряд выжигателей фракции «{0}» отброшен от клетки {1}.</FB_FleshBurnRaidRepelled>
 
   <!-- Мировой объект -->
   <FB_FleshBurnPartyInspectBurning>Выжигает покров\nСила: {0}\nКлетка будет потеряна через: {1}\nЕщё заберёт клеток: {2}</FB_FleshBurnPartyInspectBurning>
   <FB_FleshBurnPartyInspectBattle>Идёт бой на этой клетке\nСила: {0}</FB_FleshBurnPartyInspectBattle>
+  <FB_FleshBurnPartyInspectStandoff>Скованы боевым отрядом\nСила: {0}\nЕщё заберёт клеток: {1}</FB_FleshBurnPartyInspectStandoff>
   <FB_FleshBurnPartyCompositionTab>Состав</FB_FleshBurnPartyCompositionTab>
   <FB_FleshBurnPartyCompositionSummary>{0}: бойцов {1}, сила {2}</FB_FleshBurnPartyCompositionSummary>
 
@@ -17,6 +19,7 @@
   <FB_FleshBurnRaidDefendLabel>Отбить выжигателей</FB_FleshBurnRaidDefendLabel>
   <FB_FleshBurnRaidDefendDesc>Отправить боевой отряд из аванпоста плоти, чтобы уничтожить этих выжигателей. Их сила оценивается в {0}.</FB_FleshBurnRaidDefendDesc>
   <FB_FleshBurnRaidAlreadyDefended>Отряд уже в пути.</FB_FleshBurnRaidAlreadyDefended>
+  <FB_FleshBurnRaidBattleInProgress>На этой клетке уже идёт бой.</FB_FleshBurnRaidBattleInProgress>
   <FB_FleshBurnRaidDefendFromOutpost>Из «{0}» (клетка {1})</FB_FleshBurnRaidDefendFromOutpost>
   <FB_FleshBurnRaidNoSource>Ни один связанный аванпост не может добраться до этой клетки.</FB_FleshBurnRaidNoSource>
   <FB_FleshBurnDefenseDeployTitle>Оборона клетки {0} против «{1}»</FB_FleshBurnDefenseDeployTitle>
@@ -32,6 +35,7 @@
   <FB_FleshBurnDefenseAuto>Пусть отряд справится сам</FB_FleshBurnDefenseAuto>
   <FB_FleshBurnDefenseTimedOut>Отряд на клетке {0} атаковал без приказа.</FB_FleshBurnDefenseTimedOut>
   <FB_FleshBurnDefenseTargetGone>На клетке {0} больше нет выжигателей.</FB_FleshBurnDefenseTargetGone>
+  <FB_FleshBurnDefenseTargetMoved>Выжигатели ушли с клетки {0}, отряд идёт за ними на клетку {1}.</FB_FleshBurnDefenseTargetMoved>
   <FB_FleshBurnDefenseBattleStarted>Высажено тварей: {0}, против выжигателей: {1}.</FB_FleshBurnDefenseBattleStarted>
 
   <!-- Автоматический исход -->
@@ -39,6 +43,7 @@
   <FB_FleshBurnDefenseWonText>Отряд вырезал выжигателей фракции «{0}» на клетке {1}, покров уцелел. Домой возвращается тварей: {2}, потеряно в бою: {3}.</FB_FleshBurnDefenseWonText>
   <FB_FleshBurnDefenseLostLabel>Оборонный отряд уничтожен</FB_FleshBurnDefenseLostLabel>
   <FB_FleshBurnDefenseLostText>Отряд, отправленный на клетку {0}, вырезан: сила {1} против выжигателей с силой {2}. Клетка продолжает гореть.</FB_FleshBurnDefenseLostText>
+  <FB_FleshBurnDefenseHeldGround>Выжигатели на клетке {0} удержались, выжигание продолжается.</FB_FleshBurnDefenseHeldGround>
 
   <!-- Dev -->
   <FB_DevBurnRaidResolveLabel>Dev: завершить выжигание</FB_DevBurnRaidResolveLabel>

@@ -5,6 +5,7 @@
     <defName>FB_SinewcallerMain</defName>
     <thinkRoot Class="FB.ThinkNode_FleshbeastBehaviorPriority">
       <subNodes>
+        <li Class="FB.JobGiver_FleshbeastEnterPortalDuty" />
         <li Class="FB.JobGiver_SinewcallerBehavior" />
       </subNodes>
     </thinkRoot>

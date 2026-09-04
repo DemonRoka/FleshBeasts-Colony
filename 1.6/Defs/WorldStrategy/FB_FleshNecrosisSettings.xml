@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<FB.FleshNecrosisDef>
+		<defName>FB_FleshNecrosisSettings</defName>
+
+		<!-- Одна клетка примерно раз в 20 секунд игрового времени: у игрока есть время
+		     заметить и отрезать, но игнорировать очаг нельзя -->
+		<spreadIntervalTicks>1200</spreadIntervalTicks>
+		<cellsPerSpread>1</cellsPerSpread>
+		<seedRadius>2</seedRadius>
+
+		<!-- Заражение начинается далеко от сердца, а вплотную к нему не подходит вообще -->
+		<minHeartDistance>34</minHeartDistance>
+		<minMapCenterDistance>28</minMapCenterDistance>
+		<heartSafeRadius>12</heartSafeRadius>
+
+		<minFleshCells>250</minFleshCells>
+
+		<!-- Токсины - главный ускоритель: доля отравленного покрова -> множитель шанса события -->
+		<pollutionChanceFactorCurve>
+			<points>
+				<li>(0, 0.35)</li>
+				<li>(0.15, 1)</li>
+				<li>(0.5, 2.5)</li>
+				<li>(1, 4)</li>
+			</points>
+		</pollutionChanceFactorCurve>
+		<pollutedSeedWeight>8</pollutedSeedWeight>
+
+		<damageIntervalTicks>600</damageIntervalTicks>
+		<damagePerInterval>6</damagePerInterval>
+
+		<inertDecayTicks>120000</inertDecayTicks>
+	</FB.FleshNecrosisDef>
+
+</Defs>

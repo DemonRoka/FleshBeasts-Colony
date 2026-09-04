@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Прибытие -->
+  <FB_FleshContainmentArrivedLabel>Кордон выжигателей</FB_FleshContainmentArrivedLabel>
+  <FB_FleshContainmentArrivedText>На карту зашёл кордон фракции «{0}»: бойцов {1}, из них с горелками {2}.\n\nОни пришли не за колонистами. Их задача - поджечь плоть и дать огню разойтись, а стрелять они будут только по тем, кто мешает. Выбейте достаточно поджигателей, и остальные бросят работу и пойдут на колонию.</FB_FleshContainmentArrivedText>
+
+  <!-- Переходы лорда -->
+  <FB_FleshContainmentBrokenMessage>Кордон фракции «{0}» потерял большую часть поджигателей и пошёл на колонию.</FB_FleshContainmentBrokenMessage>
+  <FB_FleshContainmentWithdrawMessage>Кордон фракции «{0}» уходит с карты.</FB_FleshContainmentWithdrawMessage>
+  <FB_FleshContainmentRainMessage>Дождь сбил огонь, и кордон фракции «{0}» сворачивается и уходит.</FB_FleshContainmentRainMessage>
+
+  <!-- Dev -->
+  <FB_FleshContainmentDebugFailed>Не удалось выслать сюда кордон выжигателей.</FB_FleshContainmentDebugFailed>
+
+</LanguageData>

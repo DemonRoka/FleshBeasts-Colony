@@ -8,4 +8,11 @@
   <FB_FleshTunnelCollapseExitDesc>Collapse this tunnel exit and the entire linked tunnel, permanently destroying its location. Everything left there will be lost.</FB_FleshTunnelCollapseExitDesc>
   <FB_FleshTunnelCollapseExitConfirm>Collapse the entire flesh tunnel? This will destroy the exit, collapse the source connection, and permanently remove the linked location. All pawns and objects left there will be lost.</FB_FleshTunnelCollapseExitConfirm>
   <FB_FleshTunnelNoWorldAnchor>The flesh tunnel cannot find a world location for this pocket map.</FB_FleshTunnelNoWorldAnchor>
+  <FB_FleshTunnelExitPlacementStarted>Choose where this flesh tunnel will break through on the loaded map. Right-click or Esc cancels placement.</FB_FleshTunnelExitPlacementStarted>
+  <FB_FleshTunnelExitPlacementMouseLabel>Choose tunnel exit site</FB_FleshTunnelExitPlacementMouseLabel>
+  <FB_FleshTunnelExitPlacementInvalid>Cannot open the tunnel here: {0}</FB_FleshTunnelExitPlacementInvalid>
+  <FB_FleshTunnelExitPlacementWrongMap>Return to the loaded tunnel destination map to choose the exit site.</FB_FleshTunnelExitPlacementWrongMap>
+  <FB_FleshTunnelExitPlacementFailed>Failed to open the flesh tunnel exit.</FB_FleshTunnelExitPlacementFailed>
+  <FB_FleshTunnelExitPlacementOutOfBounds>The tunnel exit footprint must fit inside the map.</FB_FleshTunnelExitPlacementOutOfBounds>
+  <FB_FleshTunnelAwaitingExitPlacementInspect>Destination map ready: choose the exit site on world tile {0}.</FB_FleshTunnelAwaitingExitPlacementInspect>
 </LanguageData>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Инцидент: некроз покрова (FB_FleshNecrosis).
+	     Аналог порчи растений по ритму: медленная беда без врага, требующая решения,
+	     а не боя. Не выходит, пока покрова на карте мало. -->
+	<IncidentDef>
+		<defName>FB_FleshNecrosis</defName>
+		<label>flesh necrosis</label>
+		<category>Misc</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>FB.IncidentWorker_FleshNecrosis</workerClass>
+		<baseChance>0.6</baseChance>
+		<minRefireDays>25</minRefireDays>
+		<requireColonistsPresent>true</requireColonistsPresent>
+		<pointsScaleable>false</pointsScaleable>
+	</IncidentDef>
+
+</Defs>

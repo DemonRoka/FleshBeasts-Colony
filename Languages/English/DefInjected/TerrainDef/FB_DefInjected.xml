@@ -5,6 +5,8 @@
   <FB_FleshMoonFlesh.description>A living flesh moon surface, grown as the ground itself rather than a layer over soil.</FB_FleshMoonFlesh.description>
   <FB_FleshMoonFleshVeins.label>veined lunar flesh</FB_FleshMoonFleshVeins.label>
   <FB_FleshMoonFleshVeins.description>Veined living tissue grown through the flesh moon's ground, pulsing below the surface.</FB_FleshMoonFleshVeins.description>
-  <RootFlesh.label> root flesh</RootFlesh.label>
-  <RootFleshVeins.label>root flesh veins</RootFleshVeins.label>
+  <RootFlesh.label>rotten flesh</RootFlesh.label>
+  <RootFlesh.description>A thick mat of flesh that has died where it grew into the floor. It does not spread, does not heal over, and simply stays where it settled.</RootFlesh.description>
+  <RootFleshVeins.label>rotten flesh veins</RootFleshVeins.label>
+  <RootFleshVeins.description>Vessels set in dead flesh. Nothing moves through them any more.</RootFleshVeins.description>
 </LanguageData>

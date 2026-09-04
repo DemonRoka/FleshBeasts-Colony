@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Кордон: поджигатель жжёт ближайшую плоть, отвлекаясь только на тех, кто мешает -->
+	<DutyDef>
+		<defName>FB_FleshBurning</defName>
+		<alwaysShowWeapon>true</alwaysShowWeapon>
+		<thinkNode Class="ThinkNode_Priority">
+			<subNodes>
+				<li Class="JobGiver_TakeCombatEnhancingDrug" />
+				<li Class="ThinkNode_HarmedRecently">
+					<thresholdTicks>600</thresholdTicks>
+					<subNodes>
+						<li Class="JobGiver_AIFightEnemies">
+							<targetAcquireRadius>40</targetAcquireRadius>
+							<targetKeepRadius>50</targetKeepRadius>
+							<needLOSToAcquireNonPawnTargets>true</needLOSToAcquireNonPawnTargets>
+						</li>
+					</subNodes>
+				</li>
+				<li Class="JobGiver_AIFightEnemies">
+					<targetAcquireRadius>10</targetAcquireRadius>
+					<targetKeepRadius>13</targetKeepRadius>
+					<needLOSToAcquireNonPawnTargets>true</needLOSToAcquireNonPawnTargets>
+				</li>
+				<li Class="FB.JobGiver_BurnNearestFlesh" />
+				<li Class="JobGiver_AIFightEnemies">
+					<targetAcquireRadius>50</targetAcquireRadius>
+					<targetKeepRadius>60</targetKeepRadius>
+				</li>
+				<li Class="JobGiver_AITrashColonyClose" />
+				<li Class="JobGiver_AIGotoNearestHostile" />
+			</subNodes>
+		</thinkNode>
+	</DutyDef>
+
+	<!-- Кордон: эскорт прикрывает поджигателя и неохотно сбивает подобравшийся огонь -->
+	<DutyDef>
+		<defName>FB_FleshBurnEscort</defName>
+		<alwaysShowWeapon>true</alwaysShowWeapon>
+		<thinkNode Class="ThinkNode_Priority">
+			<subNodes>
+				<li Class="JobGiver_TakeCombatEnhancingDrug">
+					<onlyIfInDanger>true</onlyIfInDanger>
+				</li>
+				<li Class="JobGiver_AIDefendEscortee">
+					<targetAcquireRadius>50</targetAcquireRadius>
+					<targetKeepRadius>60</targetKeepRadius>
+				</li>
+				<li Class="FB.JobGiver_ReluctantBeatFire" />
+				<li Class="JobGiver_AIFollowEscortee" />
+				<li Class="JobGiver_WanderNearDutyLocation">
+					<wanderRadius>8</wanderRadius>
+				</li>
+			</subNodes>
+		</thinkNode>
+	</DutyDef>
+
+</Defs>

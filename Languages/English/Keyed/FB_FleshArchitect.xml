@@ -33,6 +33,10 @@
   <FB_GrowFleshPlant_VariantRandom>Random variant</FB_GrowFleshPlant_VariantRandom>
   <FB_GrowFleshPlant_VariantSelected>Selected: {0}</FB_GrowFleshPlant_VariantSelected>
   <FB_GrowFleshPlant_VariantHint>Right-click to choose which variant grows.</FB_GrowFleshPlant_VariantHint>
+  <FB_FleshPlantWildGrowth_Allow>Allow wild growth on this map</FB_FleshPlantWildGrowth_Allow>
+  <FB_FleshPlantWildGrowth_Block>Block wild growth on this map</FB_FleshPlantWildGrowth_Block>
+  <FB_FleshPlantWildGrowth_LineOn>Wild growth on this map: allowed.</FB_FleshPlantWildGrowth_LineOn>
+  <FB_FleshPlantWildGrowth_LineOff>Wild growth on this map: blocked. Already grown plants stay, and you can still plant it by hand.</FB_FleshPlantWildGrowth_LineOff>
   <FB_FleshPlantCellBlocked>The cell must be empty.</FB_FleshPlantCellBlocked>
   <FB_FleshPlantTreeRoofed>Flesh trees cannot grow under roofs.</FB_FleshPlantTreeRoofed>
   <FB_EmbryoGrowthOnePerMap>{0} already exists on this map.</FB_EmbryoGrowthOnePerMap>

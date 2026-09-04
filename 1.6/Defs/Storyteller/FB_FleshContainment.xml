@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Инцидент: кордон выжигателей (FB_FleshContainmentRaid).
+	     baseChance 0 - сторителлер его не выбирает, событие выпускает только локальное давление
+	     из MapComponent_FleshContainmentPressure. -->
+	<IncidentDef>
+		<defName>FB_FleshContainmentRaid</defName>
+		<label>flesh containment cordon</label>
+		<category>ThreatBig</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>FB.IncidentWorker_FleshContainment</workerClass>
+		<baseChance>0</baseChance>
+		<requireColonistsPresent>true</requireColonistsPresent>
+		<pointsScaleable>true</pointsScaleable>
+	</IncidentDef>
+
+</Defs>

@@ -5,6 +5,7 @@
     <defName>FB_Regenerator</defName>
     <thinkRoot Class="FB.ThinkNode_FleshbeastBehaviorPriority">
       <subNodes>
+        <li Class="FB.JobGiver_FleshbeastEnterPortalDuty" />
         <li Class="FB.ThinkNode_ConditionalSpawned">
           <subNodes>
             <li Class="FB.JobGiver_HealPawn" />

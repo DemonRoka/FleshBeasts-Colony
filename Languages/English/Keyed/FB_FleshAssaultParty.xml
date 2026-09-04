@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_FleshAssaultRosterSummary>Units: {0}   Pack strength: {1}   Defence: {2}   {3}</FB_FleshAssaultRosterSummary>
   <FB_FleshAssaultRosterEmpty>Add at least one beast to the pack.</FB_FleshAssaultRosterEmpty>
@@ -21,6 +21,7 @@ Automatic battle in: {1}</FB_FleshAssaultInspectAwaitingOrder>
   <FB_FleshAssaultCaravanCountTip>How much to carry off the battlefield.</FB_FleshAssaultCaravanCountTip>
   <FB_FleshAssaultCaravanMass>Cargo: {0} / {1} kg</FB_FleshAssaultCaravanMass>
   <FB_FleshAssaultCaravanMassTip>Each beast hauls {0} kg per point of body size. Downed beasts carry nothing.</FB_FleshAssaultCaravanMassTip>
+  <FB_FleshAssaultCaravanCollapseWarning>The battle map collapses the moment the caravan leaves: anything you do not take is lost.</FB_FleshAssaultCaravanCollapseWarning>
   <FB_FleshAssaultCaravanConfirm>Leave as a caravan</FB_FleshAssaultCaravanConfirm>
   <FB_FleshAssaultCaravanOverloaded>The pack cannot haul that much: {0} kg against a capacity of {1} kg.</FB_FleshAssaultCaravanOverloaded>
   <FB_FleshAssaultCaravanAbandonConfirm>Beasts left behind collapse with the map and are lost. Abandon {0} beast(s) on the battlefield?</FB_FleshAssaultCaravanAbandonConfirm>

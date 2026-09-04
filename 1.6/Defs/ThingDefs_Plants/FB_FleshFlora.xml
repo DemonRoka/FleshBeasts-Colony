@@ -27,6 +27,7 @@
       <growMinGlow>0</growMinGlow>
       <growOptimalGlow>0</growOptimalGlow>
       <cavePlant>true</cavePlant>
+      <cavePlantWeight>0</cavePlantWeight>
       <harvestedThingDef>Meat_Twisted</harvestedThingDef>
       <harvestYield>36</harvestYield>
       <harvestWork>1200</harvestWork>
@@ -76,6 +77,7 @@
       <growMinGlow>0</growMinGlow>
       <growOptimalGlow>0</growOptimalGlow>
       <cavePlant>true</cavePlant>
+      <cavePlantWeight>0</cavePlantWeight>
       <maxMeshCount>1</maxMeshCount>
       <visualSizeRange>0.5~1.2</visualSizeRange>
       <topWindExposure>0.08</topWindExposure>
@@ -118,6 +120,7 @@
     <growMinGlow>0</growMinGlow>
     <growOptimalGlow>0</growOptimalGlow>
     <cavePlant>true</cavePlant>
+    <cavePlantWeight>0</cavePlantWeight>
     <maxMeshCount>1</maxMeshCount>
     <visualSizeRange>1~1.2</visualSizeRange>
     <topWindExposure>0.06</topWindExposure>

@@ -71,11 +71,11 @@
       <groundSpawnerSustainerSound>PitBurrowOpening</groundSpawnerSustainerSound>
     </building>
   </ThingDef>
-  <!-- Постройка: Root Fleshmass (FB_RootFleshmass) -->
+  <!-- Постройка: гнилая плотомасса (FB_RootFleshmass) -->
   <ThingDef ParentName="BuildingBase">
     <defName>FB_RootFleshmass</defName>
-    <label>Root Fleshmass</label>
-    <description>A thick root mass of living flesh that anchors colony tissue and supports nearby organic growth.</description>
+    <label>Rotten Fleshmass</label>
+    <description>A thick mass of rotted flesh, grey and slack where living fleshmass would be taut.</description>
     <filthLeaving>Filth_Fleshmass</filthLeaving>
     <graphicData>
       <texPath>Things/Building/Linked/RootFleshmass_Atlas</texPath>

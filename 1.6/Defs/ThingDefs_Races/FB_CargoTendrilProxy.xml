@@ -40,6 +40,7 @@
       <hasGenders>false</hasGenders>
       <foodType>None</foodType>
       <canBePredatorPrey>false</canBePredatorPrey>
+      <allowedOnCaravan>false</allowedOnCaravan>
       <bloodDef>Filth_Blood</bloodDef>
       <bloodSmearDef>Filth_BloodSmear</bloodSmearDef>
       <soundMeleeDodge>Pawn_MeleeDodge</soundMeleeDodge>

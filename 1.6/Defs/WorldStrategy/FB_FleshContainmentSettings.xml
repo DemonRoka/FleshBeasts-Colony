@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<FB.FleshContainmentDef>
+		<defName>FB_FleshContainmentSettings</defName>
+
+		<tribalBurnerKind>FB_Burner_Tribal</tribalBurnerKind>
+		<industrialBurnerKind>FB_Burner_Industrial</industrialBurnerKind>
+		<escortKind>FB_Escort_Hellcat</escortKind>
+
+		<tribalWeapon>Weapon_GrenadeMolotov</tribalWeapon>
+		<industrialWeapon>Gun_Incinerator</industrialWeapon>
+		<escortWeapon>Gun_HellcatRifle</escortWeapon>
+
+		<!-- Площе ванильной кривой бреши: за поджигателей работает пожар, численность им не нужна -->
+		<burnersFromPointsCurve>
+			<points>
+				<li>(0, 1)</li>
+				<li>(500, 1)</li>
+				<li>(1500, 2)</li>
+				<li>(3000, 3)</li>
+				<li>(5000, 4)</li>
+			</points>
+		</burnersFromPointsCurve>
+
+		<!-- Скидка жёстче, чем у бреши: система очков не видит урон от самого пожара -->
+		<pointsFactorCurve>
+			<points>
+				<li>(100, 1.0)</li>
+				<li>(1000, 0.6)</li>
+				<li>(5000, 0.4)</li>
+			</points>
+		</pointsFactorCurve>
+
+		<maxBurners>4</maxBurners>
+		<breakFraction>0.5</breakFraction>
+		<visitTicks>45000</visitTicks>
+		<idleWithdrawTicks>2500</idleWithdrawTicks>
+
+		<burnJobExpiryTicks>120</burnJobExpiryTicks>
+
+		<escortFirefightRadius>7</escortFirefightRadius>
+		<escortFirefightIntervalTicks>450</escortFirefightIntervalTicks>
+		<escortFirefightChance>0.35</escortFirefightChance>
+
+		<pressureThreshold>260</pressureThreshold>
+		<pressurePerHundredFleshCells>9</pressurePerHundredFleshCells>
+		<pressurePerFleshBuilding>0.35</pressurePerFleshBuilding>
+		<maxPressurePerDay>40</maxPressurePerDay>
+		<pressureCheckIntervalTicks>2500</pressureCheckIntervalTicks>
+		<minIntervalTicks>300000</minIntervalTicks>
+		<minFleshCells>300</minFleshCells>
+	</FB.FleshContainmentDef>
+
+</Defs>

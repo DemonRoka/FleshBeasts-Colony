@@ -4,6 +4,7 @@
     <defName>FB_StingmiteMain</defName>
     <thinkRoot Class="FB.ThinkNode_FleshbeastBehaviorPriority">
       <subNodes>
+        <li Class="FB.JobGiver_FleshbeastEnterPortalDuty" />
         <li Class="FB.JobGiver_StingmiteAssault" />
         <li Class="ThinkNode_Tagger">
           <tagToGive>Idle</tagToGive>

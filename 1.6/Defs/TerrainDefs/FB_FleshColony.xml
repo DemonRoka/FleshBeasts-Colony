@@ -92,10 +92,10 @@
       <li>FB_FleshColonyTerrain</li>
     </tags>
   </TerrainDef>
-  <!-- Покрытие: root flesh veins (RootFleshVeins) -->
+  <!-- Покрытие: гнилые жилы (RootFleshVeins) -->
   <TerrainDef ParentName="FloorBase">
     <defName>RootFleshVeins</defName>
-    <label>root flesh veins</label>
+    <label>rotten flesh veins</label>
     <description>Rooted flesh veins that bind deeper into the ground. They stabilize nearby living tissue and carry faint pulses through the colony mass.</description>
     <texturePath>Terrain/Surfaces/RootFleshVeins</texturePath>
     <edgeType>FadeRough</edgeType>
@@ -120,11 +120,11 @@
       <li>FB_FleshColonyTerrain</li>
     </tags>
   </TerrainDef>
-  <!-- Покрытие: root flesh (RootFlesh) -->
+  <!-- Покрытие: гнилая плоть (RootFlesh) -->
   <TerrainDef ParentName="FloorBase">
     <defName>RootFlesh</defName>
-    <label>root flesh</label>
-    <description>A thick mat of rooted flesh grown into the floor. It anchors the colony and provides a stable surface for deeper organic structures.</description>
+    <label>rotten flesh</label>
+    <description>A thick mat of flesh that has died where it grew into the floor. It does not spread, does not heal over, and simply stays where it settled.</description>
     <texturePath>Terrain/Surfaces/RootFlesh</texturePath>
     <edgeType>FadeRough</edgeType>
     <renderPrecedence>340</renderPrecedence>

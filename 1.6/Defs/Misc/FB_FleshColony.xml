@@ -64,6 +64,16 @@
     </thinkNode>
   </DutyDef>
 
+  <!-- Fleshbeast portal boarding duty -->
+  <DutyDef>
+    <defName>FB_EnterPortalOnly</defName>
+    <thinkNode Class="ThinkNode_Priority">
+      <subNodes>
+        <li Class="FB.JobGiver_FleshbeastEnterPortalDuty" />
+      </subNodes>
+    </thinkNode>
+  </DutyDef>
+
   <!-- Тип меха: FleshbeastSkin -->
   <FurDef>
     <defName>FleshbeastSkin</defName>

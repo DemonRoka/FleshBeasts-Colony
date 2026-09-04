@@ -33,6 +33,10 @@
   <FB_GrowFleshPlant_VariantRandom>Случайный вид</FB_GrowFleshPlant_VariantRandom>
   <FB_GrowFleshPlant_VariantSelected>Выбрано: {0}</FB_GrowFleshPlant_VariantSelected>
   <FB_GrowFleshPlant_VariantHint>ПКМ - выбрать, какой вид будет расти.</FB_GrowFleshPlant_VariantHint>
+  <FB_FleshPlantWildGrowth_Allow>Разрешить дикий рост на этой карте</FB_FleshPlantWildGrowth_Allow>
+  <FB_FleshPlantWildGrowth_Block>Запретить дикий рост на этой карте</FB_FleshPlantWildGrowth_Block>
+  <FB_FleshPlantWildGrowth_LineOn>Дикий рост на этой карте: разрешён.</FB_FleshPlantWildGrowth_LineOn>
+  <FB_FleshPlantWildGrowth_LineOff>Дикий рост на этой карте: запрещён. Уже выросшие растения остаются, вручную сажать по-прежнему можно.</FB_FleshPlantWildGrowth_LineOff>
   <FB_FleshPlantCellBlocked>Клетка должна быть пустой.</FB_FleshPlantCellBlocked>
   <FB_FleshPlantTreeRoofed>Древо плоти не может расти под крышей.</FB_FleshPlantTreeRoofed>
   <FB_EmbryoGrowthOnePerMap>{0} уже есть на этой карте.</FB_EmbryoGrowthOnePerMap>

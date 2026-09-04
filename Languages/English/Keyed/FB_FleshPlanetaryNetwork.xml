@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_PlanetaryNetworkHemogelSummary>Available hemogel: {0} / {1}</FB_PlanetaryNetworkHemogelSummary>
   <FB_PlanetaryNetworkMoonConnected>connected</FB_PlanetaryNetworkMoonConnected>
@@ -19,6 +19,8 @@ Remaining: {1}</FB_PlanetaryNetworkOutpostOrder>
   <FB_PlanetaryNetworkCreateOutpostWarning>Grow a permanent abstract outpost here for {0} hemogel? It cannot be removed or visited, and only {1}% of its host tile output will reach the network.</FB_PlanetaryNetworkCreateOutpostWarning>
   <FB_FleshTerritoryEnterLabel>Enter flesh territory</FB_FleshTerritoryEnterLabel>
   <FB_FleshTerritoryEnterDesc>Materialize this covered tile as a temporary map and enter it. The map cannot become a permanent settlement.</FB_FleshTerritoryEnterDesc>
+  <FB_FleshTerritoryTemporaryMapInspect>Temporary map: anything that does not leave with the caravan collapses along with it.</FB_FleshTerritoryTemporaryMapInspect>
+  <FB_FleshTerritoryCaravanDepartedWarning>The caravan has left: this temporary map collapses and everything still on it is lost.</FB_FleshTerritoryCaravanDepartedWarning>
   <FB_FirstOutpostConvertPlayerMapWarning>Consume this loaded map and found the first flesh outpost for {0} Moon hemogel? All {1} eligible colonists, prisoners, animals, and controlled fleshbeasts will be evacuated to the Moon. Local hemogel will be transferred in full and existing flesh structures and terrain will return {2} hemogel. All other buildings, items, and map contents will be destroyed without payment. The map and its world object will be deleted permanently and you will not be able to return to this tile.</FB_FirstOutpostConvertPlayerMapWarning>
   <FB_MoonOutpostConsumeMapWarning>Consume this loaded map and grow a flesh outpost here for {0} Moon hemogel? All {1} eligible colonists, prisoners, animals, and controlled fleshbeasts will be evacuated to the Moon. Local hemogel will be transferred in full and existing flesh structures and terrain will return {2} hemogel. All other buildings, items, and map contents will be destroyed without payment. The map and its world object will be deleted permanently, and the tile becomes an abstract hive that leaves only {3}% of its output for the network.</FB_MoonOutpostConsumeMapWarning>
   <FB_FirstOutpostConvertMoonMapUnavailable>The Moon map must be loaded and able to receive the evacuation.</FB_FirstOutpostConvertMoonMapUnavailable>

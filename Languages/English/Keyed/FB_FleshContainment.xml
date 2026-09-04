@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Arrival -->
+  <FB_FleshContainmentArrivedLabel>Containment cordon</FB_FleshContainmentArrivedLabel>
+  <FB_FleshContainmentArrivedText>A containment cordon from {0} has walked onto the map: {1} fighters, of whom {2} carry burners.\n\nThey have not come for your colonists. They intend to set fire to the flesh and let it spread, and they will only shoot at whoever gets in the way. Kill enough of the burners and the rest will drop the work and come for the colony instead.</FB_FleshContainmentArrivedText>
+
+  <!-- Lord transitions -->
+  <FB_FleshContainmentBrokenMessage>The cordon from {0} has lost most of its burners and is attacking the colony.</FB_FleshContainmentBrokenMessage>
+  <FB_FleshContainmentWithdrawMessage>The cordon from {0} is pulling off the map.</FB_FleshContainmentWithdrawMessage>
+  <FB_FleshContainmentRainMessage>Rain has put out the burning, and the cordon from {0} is packing up and leaving.</FB_FleshContainmentRainMessage>
+
+  <!-- Dev -->
+  <FB_FleshContainmentDebugFailed>Could not send a containment cordon here.</FB_FleshContainmentDebugFailed>
+
+</LanguageData>

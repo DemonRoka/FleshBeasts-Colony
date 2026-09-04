@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Кордон выжигателей.
+	     weaponMoney обнулён намеренно: у Gun_Incinerator нет своих weaponTags, поэтому
+	     генератор оружия его выдать не может, и горелку каждому ставит FleshContainmentUtility
+	     после генерации. Ненулевой бюджет здесь только породил бы лишний ствол и ванильный
+	     config error про несоответствие цены тегам. -->
+
+	<!-- Поджигатель племени (FB_Burner_Tribal): бутылки с зажигательной смесью -->
+	<PawnKindDef ParentName="TribalBase">
+		<defName>FB_Burner_Tribal</defName>
+		<label>flesh burner</label>
+		<combatPower>60</combatPower>
+		<itemQuality>Poor</itemQuality>
+		<gearHealthRange>0.5~1.8</gearHealthRange>
+		<apparelMoney>200~350</apparelMoney>
+		<weaponMoney>0~0</weaponMoney>
+		<initialWillRange>1~3</initialWillRange>
+		<initialResistanceRange>12~19</initialResistanceRange>
+	</PawnKindDef>
+
+	<!-- Поджигатель индустриалов (FB_Burner_Industrial): испепелитель -->
+	<PawnKindDef ParentName="MercenaryBase">
+		<defName>FB_Burner_Industrial</defName>
+		<label>incinerator operator</label>
+		<combatPower>90</combatPower>
+		<itemQuality>Normal</itemQuality>
+		<gearHealthRange>0.6~1.6</gearHealthRange>
+		<apparelMoney>700~1100</apparelMoney>
+		<weaponMoney>0~0</weaponMoney>
+		<initialWillRange>1~3</initialWillRange>
+		<initialResistanceRange>14~22</initialResistanceRange>
+	</PawnKindDef>
+
+	<!-- Эскорт (FB_Escort_Hellcat): винтовка «Фурия» -->
+	<PawnKindDef ParentName="MercenaryBase">
+		<defName>FB_Escort_Hellcat</defName>
+		<label>burn escort</label>
+		<combatPower>80</combatPower>
+		<itemQuality>Normal</itemQuality>
+		<gearHealthRange>0.6~1.6</gearHealthRange>
+		<apparelMoney>700~1100</apparelMoney>
+		<weaponMoney>0~0</weaponMoney>
+		<initialWillRange>1~3</initialWillRange>
+		<initialResistanceRange>14~22</initialResistanceRange>
+	</PawnKindDef>
+
+</Defs>

@@ -9,6 +9,7 @@
 		<generatesNaturally>false</generatesNaturally>
 		<canBuildBase>false</canBuildBase>
 		<canAutoChoose>false</canAutoChoose>
+		<canExitMap>false</canExitMap>
 		<constantOutdoorTemperature>21</constantOutdoorTemperature>
 		<baseWeatherCommonalities>
 			<Clear>1</Clear>
@@ -71,7 +72,7 @@
 			<li>WorldDrawLayer_UngeneratedPlanetParts</li>
 			<li>FB.WorldDrawLayer_FleshMoonGlow</li>
 			<li>WorldDrawLayer_Terrain</li>
-			<li>FB.WorldDrawLayer_Flesh</li>
+			<li>FB.WorldDrawLayer_FleshMoonSurface</li>
 			<li>FB.WorldDrawLayer_FleshMoonTether</li>
 			<li>FB.WorldDrawLayer_FleshMoonTendrils</li>
 		</worldDrawLayers>
