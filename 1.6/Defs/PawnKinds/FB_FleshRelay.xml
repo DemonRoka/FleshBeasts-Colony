@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Учёный ретрансляторного рейда. Ни оружие, ни верхняя одежда через деньги не идут:
+	     weaponMoney и apparelMoney по нулям, поэтому генератор выдаёт ровно рубаху и штаны,
+	     а пистолет, светлый халат и шапку надевает код (FleshRelayUtility.DressScientist).
+	     Так на них не попадают бронежилеты и шлемы из наборов фракции. -->
+	<PawnKindDef ParentName="MercenaryBase">
+		<defName>FB_RelayScientist</defName>
+		<label>relay technician</label>
+		<combatPower>45</combatPower>
+		<itemQuality>Normal</itemQuality>
+		<gearHealthRange>0.5~1.2</gearHealthRange>
+		<apparelMoney>0~0</apparelMoney>
+		<apparelRequired>
+			<li>Apparel_CollarShirt</li>
+			<li>Apparel_Pants</li>
+		</apparelRequired>
+		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<weaponMoney>0~0</weaponMoney>
+		<skills>
+			<li>
+				<skill>Intellectual</skill>
+				<range>8~15</range>
+			</li>
+			<li>
+				<skill>Crafting</skill>
+				<range>5~11</range>
+			</li>
+			<li>
+				<skill>Medicine</skill>
+				<range>4~9</range>
+			</li>
+			<li>
+				<skill>Shooting</skill>
+				<range>1~4</range>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<range>0~3</range>
+			</li>
+		</skills>
+		<initialWillRange>1~3</initialWillRange>
+		<initialResistanceRange>10~16</initialResistanceRange>
+	</PawnKindDef>
+
+</Defs>

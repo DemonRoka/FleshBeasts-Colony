@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Ветка зова в ванильном дереве ментальных состояний: там же, где живёт роуминг -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThinkTreeDef[defName="MentalStateNonCritical"]/thinkRoot/subNodes</xpath>
+    <order>Prepend</order>
+    <value>
+      <li Class="ThinkNode_ConditionalMentalState">
+        <state>FB_FleshLureCall</state>
+        <subNodes>
+          <li Class="FB.JobGiver_FleshLureCall" />
+          <li Class="JobGiver_WanderAnywhere">
+            <maxDanger>Deadly</maxDanger>
+          </li>
+        </subNodes>
+      </li>
+    </value>
+  </Operation>
+</Patch>

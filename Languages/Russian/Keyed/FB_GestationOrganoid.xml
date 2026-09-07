@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <FB_ColonyBrain_Structure_GestationOrganoid_Label>Гестационный органоид</FB_ColonyBrain_Structure_GestationOrganoid_Label>
+  <FB_ColonyBrain_Structure_GestationOrganoid_Desc>Родильный орган, удерживающий живого донора и выращивающий из гемогеля потомство его вида. Донор расходуется без возможности возврата.</FB_ColonyBrain_Structure_GestationOrganoid_Desc>
+
+  <FB_GestationOrganoidSelectDonorLabel>Выбрать донора</FB_GestationOrganoidSelectDonorLabel>
+  <FB_GestationOrganoidSelectDonorDesc>Выберите живого донора, которого запечатают в родильный мешок. Поваленных существ без фракции приносят грузчики, фракционные пешки приходят сами. Всё помещённое внутрь теряется навсегда.</FB_GestationOrganoidSelectDonorDesc>
+  <FB_GestationOrganoidDonorLostWarning>{0} будет навсегда запечатан(а) внутри гестационного органоида. Донора нельзя достать обратно, он погибнет после исчерпания резервов и будет уничтожен при разборе органоида. Продолжить?</FB_GestationOrganoidDonorLostWarning>
+
+  <FB_GestationOrganoidDonorNotOrganic>Вынашивать способна только органика. Механоиды и дроны отвергаются.</FB_GestationOrganoidDonorNotOrganic>
+  <FB_GestationOrganoidDonorAnomalous>Аномальные сущности не дают потомства и не годятся в доноры.</FB_GestationOrganoidDonorAnomalous>
+  <FB_GestationOrganoidDonorGenderless>Донором может быть только существо с полом.</FB_GestationOrganoidDonorGenderless>
+  <FB_GestationOrganoidDonorNotAdult>Донором может быть только взрослая особь.</FB_GestationOrganoidDonorNotAdult>
+  <FB_GestationOrganoidDonorMustBeDowned>Донора без фракции нужно сначала повалить.</FB_GestationOrganoidDonorMustBeDowned>
+
+  <FB_GestationOrganoidStartCycleLabel>Вырастить тело</FB_GestationOrganoidStartCycleLabel>
+  <FB_GestationOrganoidStartCycleDesc>Начать выращивание нового тела из запечатанного донора. Результат: {0}.</FB_GestationOrganoidStartCycleDesc>
+  <FB_GestationOrganoidCancelCycleLabel>Отменить выращивание</FB_GestationOrganoidCancelCycleLabel>
+  <FB_GestationOrganoidCancelCycleDesc>Прервать текущий цикл. Прогресс теряется, но остаток родов донора не расходуется.</FB_GestationOrganoidCancelCycleDesc>
+  <FB_GestationOrganoidDonorExhausted>Резервы донора исчерпаны.</FB_GestationOrganoidDonorExhausted>
+  <FB_GestationOrganoidCycleRunning>Цикл выращивания уже идёт.</FB_GestationOrganoidCycleRunning>
+
+  <FB_GestationOrganoidConfigureXenotypeLabel>Настроить ксенотип</FB_GestationOrganoidConfigureXenotypeLabel>
+  <FB_GestationOrganoidConfigureXenotypeDesc>Собрать ксенотип будущего потомства из генопаков, хранящихся в геномном архиве колонии. Сохранённые ксенотипы можно загружать и записывать.</FB_GestationOrganoidConfigureXenotypeDesc>
+  <FB_GestationOrganoidXenotypeHeader>Сборка ксенотипа потомства</FB_GestationOrganoidXenotypeHeader>
+  <FB_GestationOrganoidXenotypeAccept>Задать ксенотип</FB_GestationOrganoidXenotypeAccept>
+  <FB_GestationOrganoidXenotypeSet>Ксенотип потомства задан: {0}.</FB_GestationOrganoidXenotypeSet>
+  <FB_GestationOrganoidXenotypeBaseline>обычный человек</FB_GestationOrganoidXenotypeBaseline>
+
+  <FB_GestationOrganoidDonorInspect>Донор: {0}    Потомство: {1}</FB_GestationOrganoidDonorInspect>
+  <FB_GestationOrganoidBirthsInspect>Родов осталось: {0} / {1}</FB_GestationOrganoidBirthsInspect>
+  <FB_GestationOrganoidXenotypeInspect>Ксенотип: {0}</FB_GestationOrganoidXenotypeInspect>
+  <FB_GestationOrganoidProgressInspect>Выращивание тела: {0}    Готово через: {1} ч</FB_GestationOrganoidProgressInspect>
+  <FB_GestationOrganoidCostInspect>Расход гемогеля: {0}/ч</FB_GestationOrganoidCostInspect>
+  <FB_GestationOrganoidPausedNoHemogel>Выращивание приостановлено: сеть не даёт гемогель.</FB_GestationOrganoidPausedNoHemogel>
+  <FB_GestationOrganoidIdleInspect>Простаивает. Отдайте приказ вырастить тело.</FB_GestationOrganoidIdleInspect>
+
+  <FB_GestationOrganoidBirthFailed>Органоид не смог собрать жизнеспособное тело.</FB_GestationOrganoidBirthFailed>
+  <FB_GestationOrganoidBirthLetterLabel>Тело выращено</FB_GestationOrganoidBirthLetterLabel>
+  <FB_GestationOrganoidBirthLetterText>Гестационный органоид вытолкнул наружу {0}, выращенного из резервов донора {1}.\n\nУ донора осталось родов: {2}.</FB_GestationOrganoidBirthLetterText>
+  <FB_GestationOrganoidDonorSpentLetterLabel>Донор исчерпан</FB_GestationOrganoidDonorSpentLetterLabel>
+  <FB_GestationOrganoidDonorSpentLetterText>Из донора {0} выбрано всё, что органоид мог использовать. Оболочка растворяется внутри родильного мешка.</FB_GestationOrganoidDonorSpentLetterText>
+
+  <FB_GestationOrganoidDevFinishLabel>DEV: завершить выращивание</FB_GestationOrganoidDevFinishLabel>
+  <FB_GestationOrganoidDevFinishDesc>Мгновенно завершить текущий цикл выращивания.</FB_GestationOrganoidDevFinishDesc>
+
+  <FB_SaveXenotypeButton>Сохранить ксенотип</FB_SaveXenotypeButton>
+  <FB_XenotypeSaved>Ксенотип сохранён: {0}.</FB_XenotypeSaved>
+  <FB_XenotypeSaveNeedsName>Перед сохранением ксенотипу нужно имя.</FB_XenotypeSaveNeedsName>
+  <FB_XenotypeLoadMissingGenes>В архиве нет генопаков для: {0}.</FB_XenotypeLoadMissingGenes>
+
+</LanguageData>

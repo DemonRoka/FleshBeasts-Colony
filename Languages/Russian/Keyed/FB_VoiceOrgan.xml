@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <FB_ColonyBrain_Structure_VoiceOrgan_Label>Голосовой орган</FB_ColonyBrain_Structure_VoiceOrgan_Label>
+  <FB_ColonyBrain_Structure_VoiceOrgan_Desc>Говорит голосом живого носителя, и торговцы с фракциями принимают колонию за человеческую.</FB_ColonyBrain_Structure_VoiceOrgan_Desc>
+  <FB_ColonyBrain_Structure_FleshTradeBeacon_Label>Плотяной торговый маяк</FB_ColonyBrain_Structure_FleshTradeBeacon_Label>
+  <FB_ColonyBrain_Structure_FleshTradeBeacon_Desc>Помечает лежащие вокруг товары как готовые к продаже орбитальным кораблям.</FB_ColonyBrain_Structure_FleshTradeBeacon_Desc>
+
+  <FB_VoiceOrganSelectCarrierLabel>Посадить носителя</FB_VoiceOrganSelectCarrierLabel>
+  <FB_VoiceOrganSelectCarrierDesc>Выберите живого человека, которого усадят в горло органа. Голос может одолжить только тот, кто способен говорить. Внутри носитель подвешен и его можно достать обратно в любой момент.</FB_VoiceOrganSelectCarrierDesc>
+  <FB_VoiceOrganEjectCarrierLabel>Извлечь носителя</FB_VoiceOrganEjectCarrierLabel>
+  <FB_VoiceOrganEjectCarrierDesc>Достать носителя из органа. Колония замолкает, пока не будет посажен другой.</FB_VoiceOrganEjectCarrierDesc>
+  <FB_VoiceOrganEnterOption>Занять место в голосовом органе</FB_VoiceOrganEnterOption>
+  <FB_VoiceOrganCannotWalkIn>не может дойти сам, его нужно донести</FB_VoiceOrganCannotWalkIn>
+  <FB_VoiceOrganCarrierAlreadyAssigned>{PAWN_labelShort} уже идёт туда</FB_VoiceOrganCarrierAlreadyAssigned>
+  <FB_VoiceOrganPlaceCarried>Посадить {0} в голосовой орган</FB_VoiceOrganPlaceCarried>
+  <FB_VoiceOrganCarrierCannotTalk>{0} не может говорить и голоса не даст.</FB_VoiceOrganCarrierCannotTalk>
+
+  <FB_VoiceOrganOpenCommsLabel>Выйти на связь</FB_VoiceOrganOpenCommsLabel>
+  <FB_VoiceOrganOpenCommsDesc>Вызвать проходящий корабль или далёкую фракцию голосом носителя. От его навыка общения зависит, как пройдут переговоры.</FB_VoiceOrganOpenCommsDesc>
+  <FB_VoiceOrganCallBossgroup>Призвать механоидную угрозу</FB_VoiceOrganCallBossgroup>
+  <FB_VoiceOrganNoCommTargets>В зоне сигнала никого нет.</FB_VoiceOrganNoCommTargets>
+
+  <FB_VoiceOrganGrowBeaconLabel>Вырастить торговый маяк</FB_VoiceOrganGrowBeaconLabel>
+  <FB_VoiceOrganGrowBeaconDesc>Вырастить плотяной торговый маяк. Сложенные вокруг него товары можно продавать орбитальным кораблям.</FB_VoiceOrganGrowBeaconDesc>
+  <FB_VoiceOrganBeaconLocked>Торговый маяк ещё не разблокирован.</FB_VoiceOrganBeaconLocked>
+
+  <FB_VoiceOrganCarrierInspect>Носитель: {0}    Общение: {1}</FB_VoiceOrganCarrierInspect>
+  <FB_VoiceOrganBroadcastingInspect>В эфире человеческий сигнал.</FB_VoiceOrganBroadcastingInspect>
+  <FB_VoiceOrganSilentInspect>Молчит. Посадите носителя, чтобы дать ему голос.</FB_VoiceOrganSilentInspect>
+
+</LanguageData>

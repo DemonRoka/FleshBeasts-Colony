@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+  <FB_CarryToVoiceOrgan.label>carry to voice organ</FB_CarryToVoiceOrgan.label>
+  <FB_CarryToGestationOrganoid.label>carry to gestation organoid</FB_CarryToGestationOrganoid.label>
   <FB_CarryToGenophageCocoon.label>carry to genophage cocoon</FB_CarryToGenophageCocoon.label>
   <FB_HaulDigestibleFoodToStomach.label>carry digestible food to colony stomach</FB_HaulDigestibleFoodToStomach.label>
 </LanguageData>

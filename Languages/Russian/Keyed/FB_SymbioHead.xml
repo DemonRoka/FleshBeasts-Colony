@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_SymbioHeadStatusActive>Симбиотическая голова: активна</FB_SymbioHeadStatusActive>
-  <FB_SymbioHeadRegrowthInspect>Отращивание симбиотической головы: осталось {0}. Гемогель: {1} / {2}</FB_SymbioHeadRegrowthInspect>
+  <FB_SymbioHeadRegrowthInspect>Отращивание симбиотической головы: осталось {0}</FB_SymbioHeadRegrowthInspect>
   
   <FB_SymbioHeadRegrowthPausedNoSupply>Отращивание приостановлено: сеть гемогеля не даёт полного питания.</FB_SymbioHeadRegrowthPausedNoSupply>
   <FB_SymbioHeadRegrowthAwaitingSpace>Симбиотическая голова готова: ожидает свободное место рядом.</FB_SymbioHeadRegrowthAwaitingSpace>

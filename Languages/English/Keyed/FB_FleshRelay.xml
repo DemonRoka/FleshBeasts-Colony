@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Arrival -->
+  <FB_FleshRelayArrivedLabel>Relay antenna</FB_FleshRelayArrivedLabel>
+  <FB_FleshRelayArrivedText>{0} has landed a relay antenna on the map with {1} people around it. Living fleshbeasts are strapped inside the cage - caught elsewhere on the planet - and the machine is broadcasting their severed signal across the local psychic band.\n\nSome beasts go feral where they stand and turn on the colony. Others answer the call and walk into the cage themselves; those can still be saved, by dropping them or by breaking the machine.\n\nThe cage holds {2}, and there is a dreadmeld in it already. Break the machine and every captive comes back to you.</FB_FleshRelayArrivedText>
+
+  <FB_FleshRelayDroppedMessage>{0} has finished digging in, and a relay antenna is coming down onto their camp.</FB_FleshRelayDroppedMessage>
+
+  <!-- Breaks -->
+  <FB_FleshRelayBerserkStarted>{0} has lost the hive for good and turned on the colony. That beast is not coming back - only down.</FB_FleshRelayBerserkStarted>
+  <FB_FleshRelayLureStarted>{0} is answering the relay's call and walking to the cage.</FB_FleshRelayLureStarted>
+  <FB_FleshRelayBeastTaken>{0} has walked into the relay cage. Captives: {1} / {2}.</FB_FleshRelayBeastTaken>
+  <FB_FleshRelayMadnessLifted>The call is cut. Beasts turned back halfway: {0}.</FB_FleshRelayMadnessLifted>
+  <FB_FleshRelayCaptivesFreed>The cage is open. Freed and back in the colony: {0}.</FB_FleshRelayCaptivesFreed>
+  <FB_FleshRelayWave>The relay pulses. Beasts torn from the hive for good: {0}.</FB_FleshRelayWave>
+
+  <!-- Outcome -->
+  <FB_FleshRelayBrokenMessage>The relay from {0} is broken; the raiders are pulling off the map.</FB_FleshRelayBrokenMessage>
+  <FB_FleshRelayHarvestedMessage>{0} has filled the cage and is pulling out.</FB_FleshRelayHarvestedMessage>
+  <FB_FleshRelayStudiedMessage>{0} has finished tuning the relay and is pulling out.</FB_FleshRelayStudiedMessage>
+  <FB_FleshRelayAbandonedMessage>{0} has nothing left to take here and is pulling out.</FB_FleshRelayAbandonedMessage>
+  <FB_FleshRelayMinesPlanted>On their way out the raiders mined the approaches to the machine. Mines laid: {0}.</FB_FleshRelayMinesPlanted>
+  <FB_FleshRelayEmitterOnline>The captives are burned out and the antenna is left running on its own. From now on it pulses on its own schedule, and it will not stop until it is destroyed.</FB_FleshRelayEmitterOnline>
+
+  <!-- Inspect -->
+  <FB_FleshRelayCaptivesInspect>Captives: {0} / {1}</FB_FleshRelayCaptivesInspect>
+  <FB_FleshRelayStudyInspect>Tuning: {0}%</FB_FleshRelayStudyInspect>
+  <FB_FleshRelayNextBreakInspect>Next break in: {0}</FB_FleshRelayNextBreakInspect>
+  <FB_FleshRelayEmitterInspect>Abandoned emitter: running unattended</FB_FleshRelayEmitterInspect>
+  <FB_FleshRelayNextWaveInspect>Next wave in: {0}</FB_FleshRelayNextWaveInspect>
+
+  <!-- Dev -->
+  <FB_FleshRelay_DevLure>Dev: call one now</FB_FleshRelay_DevLure>
+  <FB_FleshRelay_DevBerserk>Dev: break one now</FB_FleshRelay_DevBerserk>
+  <FB_FleshRelay_DevTune>Dev: finish tuning</FB_FleshRelay_DevTune>
+  <FB_FleshRelay_DevFill>Dev: fill the cage</FB_FleshRelay_DevFill>
+  <FB_FleshRelay_DevEmitter>Dev: emitter mode / wave now</FB_FleshRelay_DevEmitter>
+  <FB_FleshRelay_DevNoVictim>Nobody to break: no eligible beasts on the map.</FB_FleshRelay_DevNoVictim>
+  <FB_FleshRelayDebugFailed>Could not land a relay antenna raid here.</FB_FleshRelayDebugFailed>
+
+</LanguageData>

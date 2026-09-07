@@ -5,4 +5,6 @@
   <FB_PitBurrowEmergence.letterText>A flesh burrow has emerged, spawning beasts from underground.</FB_PitBurrowEmergence.letterText>
   <FB_FleshContainmentRaid.label>flesh containment cordon</FB_FleshContainmentRaid.label>
   <FB_FleshNecrosis.label>flesh necrosis</FB_FleshNecrosis.label>
+  <FB_FleshRelayRaid.label>relay antenna raid</FB_FleshRelayRaid.label>
+  <FB_FleshDrainRaid.label>hemogel drain raid</FB_FleshDrainRaid.label>
 </LanguageData>

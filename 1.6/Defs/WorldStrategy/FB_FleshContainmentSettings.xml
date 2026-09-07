@@ -48,7 +48,8 @@
 		<pressurePerFleshBuilding>0.35</pressurePerFleshBuilding>
 		<maxPressurePerDay>40</maxPressurePerDay>
 		<pressureCheckIntervalTicks>2500</pressureCheckIntervalTicks>
-		<minIntervalTicks>300000</minIntervalTicks>
+		<!-- 25 дней: выжигание идёт вторым слоем, реже релея -->
+		<minIntervalTicks>1500000</minIntervalTicks>
 		<minFleshCells>300</minFleshCells>
 	</FB.FleshContainmentDef>
 

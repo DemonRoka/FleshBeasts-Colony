@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Учёный работает у установки и отбивается только от того, что подошло вплотную -->
+	<DutyDef>
+		<defName>FB_StudyFleshRelay</defName>
+		<alwaysShowWeapon>false</alwaysShowWeapon>
+		<thinkNode Class="ThinkNode_Priority">
+			<subNodes>
+				<li Class="ThinkNode_HarmedRecently">
+					<thresholdTicks>400</thresholdTicks>
+					<subNodes>
+						<li Class="JobGiver_AIFightEnemies">
+							<targetAcquireRadius>18</targetAcquireRadius>
+							<targetKeepRadius>22</targetKeepRadius>
+							<needLOSToAcquireNonPawnTargets>true</needLOSToAcquireNonPawnTargets>
+						</li>
+					</subNodes>
+				</li>
+				<li Class="JobGiver_AIFightEnemies">
+					<targetAcquireRadius>7</targetAcquireRadius>
+					<targetKeepRadius>10</targetKeepRadius>
+					<needLOSToAcquireNonPawnTargets>true</needLOSToAcquireNonPawnTargets>
+				</li>
+				<li Class="FB.JobGiver_StudyFleshRelay" />
+				<li Class="JobGiver_WanderNearDutyLocation">
+					<wanderRadius>4</wanderRadius>
+				</li>
+			</subNodes>
+		</thinkNode>
+	</DutyDef>
+
+</Defs>

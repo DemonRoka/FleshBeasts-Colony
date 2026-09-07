@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Зов машины: тварь идёт к установке и лезет внутрь. Приказы не слушает - это состояние,
+	     а не job. recoverFromDowned намеренно true: валка обрывает зов, и это вся контригра. -->
+	<MentalStateDef>
+		<defName>FB_FleshLureCall</defName>
+		<stateClass>FB.MentalState_FleshLureCall</stateClass>
+		<label>answering the call</label>
+		<category>Misc</category>
+		<nameColor>(0.78, 0.55, 0.62)</nameColor>
+		<baseInspectLine>Mental state: answering the call</baseInspectLine>
+		<minTicksBeforeRecovery>99999999</minTicksBeforeRecovery>
+		<recoverFromSleep>false</recoverFromSleep>
+		<recoverFromDowned>true</recoverFromDowned>
+		<recoverFromCollapsingExhausted>true</recoverFromCollapsingExhausted>
+		<blockNormalThoughts>true</blockNormalThoughts>
+	</MentalStateDef>
+
+	<JobDef>
+		<defName>FB_EnterFleshRelay</defName>
+		<driverClass>FB.JobDriver_EnterFleshRelay</driverClass>
+		<reportString>answering the call.</reportString>
+		<casualInterruptible>false</casualInterruptible>
+		<playerInterruptible>false</playerInterruptible>
+	</JobDef>
+
+	<JobDef>
+		<defName>FB_StudyFleshRelayJob</defName>
+		<driverClass>FB.JobDriver_StudyFleshRelay</driverClass>
+		<reportString>tuning the relay antenna.</reportString>
+	</JobDef>
+
+</Defs>

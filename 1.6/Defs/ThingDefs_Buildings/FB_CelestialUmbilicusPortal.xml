@@ -24,7 +24,7 @@
   </graphicData>
   <uiIconPath>Things/Building/FB_Organic/CelestialUmbilicus/CelestialUmbilicusSegmentStart</uiIconPath>
   <statBases>
-    <MaxHitPoints>900</MaxHitPoints>
+    <MaxHitPoints>2700</MaxHitPoints>
     <Beauty>-25</Beauty>
     <Flammability>0.7</Flammability>
     <Mass>100</Mass>
@@ -217,7 +217,7 @@
   </graphicData>
   <uiIconPath>Things/Building/FB_Organic/CelestialUmbilicus/CelestialUmbilicusSegmentStart</uiIconPath>
   <statBases>
-    <MaxHitPoints>900</MaxHitPoints>
+    <MaxHitPoints>2700</MaxHitPoints>
     <Beauty>-25</Beauty>
     <Flammability>0.7</Flammability>
   </statBases>
@@ -235,4 +235,57 @@
     <li>ITab_ContentsMapPortal</li>
   </inspectorTabs>
 </ThingDef>
+
+  <!-- Постройка: flesh moon umbilicus crater (FB_CelestialUmbilicusMoonCrater) -->
+  <ThingDef ParentName="BuildingColonyFleshBase">
+    <defName>FB_CelestialUmbilicusMoonCrater</defName>
+    <label>lunar flesh crater</label>
+    <description>The raw wound left where the moon-side umbilicus was torn away. Fed enough hemogel from the lunar network, the crater grows a fresh root and the umbilicus rises again in its place.</description>
+    <thingClass>FB.Building_FleshMoonUmbilicusCrater</thingClass>
+    <size>(7,7)</size>
+    <useHitPoints>true</useHitPoints>
+    <destroyable>true</destroyable>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <tickerType>Normal</tickerType>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.4</fillPercent>
+    <altitudeLayer>BuildingOnTop</altitudeLayer>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/FB_Organic/FleshMoonUmbilicusCrater/FleshMoonUmbilicusCrater</texPath>
+      <drawSize>(11.2,11.2)</drawSize>
+      <drawOffset>(-0.04, 0, 1.35)</drawOffset>
+    </graphicData>
+    <uiIconPath>Things/Building/FB_Organic/FleshMoonUmbilicusCrater/FleshMoonUmbilicusCrater</uiIconPath>
+    <statBases>
+      <MaxHitPoints>2700</MaxHitPoints>
+      <Beauty>-25</Beauty>
+      <Flammability>0.7</Flammability>
+    </statBases>
+    <building>
+      <isEdifice>true</isEdifice>
+      <isTargetable>true</isTargetable>
+      <isInert>true</isInert>
+      <claimable>false</claimable>
+      <deconstructible>false</deconstructible>
+      <repairable>false</repairable>
+      <destroyEffecter>FleshmassDestroyed</destroyEffecter>
+    </building>
+    <modExtensions>
+      <li Class="FB.FleshMoonUmbilicusCraterExtension">
+        <growthWorkRequired>20000</growthWorkRequired>
+        <growthTickInterval>250</growthTickInterval>
+        <minFlowHemogelPerHour>1</minFlowHemogelPerHour>
+        <maxFlowHemogelPerHour>500</maxFlowHemogelPerHour>
+        <defaultFlowHemogelPerHour>100</defaultFlowHemogelPerHour>
+        <flowBarIncrements>10</flowBarIncrements>
+        <craterTexturePath>Things/Building/FB_Organic/FleshMoonUmbilicusCrater/FleshMoonUmbilicusCrater</craterTexturePath>
+        <sproutTexturePath>Things/Building/FB_Organic/FleshMoonUmbilicusCrater/FleshMoonUmbilicusCraterSprout</sproutTexturePath>
+        <grownTexturePath>Things/Building/FB_Organic/FleshMoonUmbilicusCrater/FleshMoonUmbilicusCraterGrown</grownTexturePath>
+        <sproutStageProgress>0.35</sproutStageProgress>
+        <grownStageProgress>0.75</grownStageProgress>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
 </Defs>

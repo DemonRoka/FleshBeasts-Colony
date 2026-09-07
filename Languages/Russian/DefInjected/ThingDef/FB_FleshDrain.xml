@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_FleshDrainPump.label>дренажный насос</FB_FleshDrainPump.label>
+  <FB_FleshDrainPump.description>Приземистый сифон на биоферритовом штыре, вбитый в плотяной покров. Тянет гемогель прямо из резерва колонии и тут же разливает его по бочкам.\n\nСломайте его - и течь прекратится. Каждый снятый насос убирает свою долю откачки.\n\nБез энергии не берёт ничего, а собран под переезд: снимается целиком и ставится заново где угодно. Достанется вам - будет так же перехватывать гемогель, только в ваши бочки.</FB_FleshDrainPump.description>
+  <FB_HemogelCanister.label>бочка гемогеля</FB_HemogelCanister.label>
+  <FB_HemogelCanister.description>Запечатанная бочка гемогеля, откачанного из колонии. Вылейте её обратно в сеть - или оставьте в хранилище, куда насосам не дотянуться.</FB_HemogelCanister.description>
+  <FB_FleshDrainPumpIncoming.label>дренажный насос (снижается)</FB_FleshDrainPumpIncoming.label>
+  <FB_NeuronSuppressor.label>подавитель нейронов</FB_NeuronSuppressor.label>
+  <FB_NeuronSuppressor.description>Приземистый излучатель, заливающий окружающую ткань глушащим сигналом. Щупальца захвата не могут взять никого в его поле - только поэтому осадная бригада вообще способна работать на живой плоти.
+
+Снесите его, и покров снова начнёт утаскивать их людей под себя.
+
+Поле держится только на энергии, а сам излучатель снимается и переносится так же, как насосы.</FB_NeuronSuppressor.description>
+  <FB_NeuronSuppressorIncoming.label>подавитель нейронов (снижается)</FB_NeuronSuppressorIncoming.label>
+  <FB_FleshDrainBatteryIncoming.label>батарея (снижается)</FB_FleshDrainBatteryIncoming.label>
+</LanguageData>

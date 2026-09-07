@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Дренажный насос: постройка рейда 1x1 на плотяном покрове. Отбор фиксирован и не
+	     настраивается - мощность осады задаётся числом насосов, поэтому игрок читает угрозу,
+	     просто считая их на карте. Текстура - собственная заглушка, ждёт настоящего спрайта. -->
+	<ThingDef ParentName="BuildingBase">
+		<defName>FB_FleshDrainPump</defName>
+		<label>hemogel drain pump</label>
+		<description>A squat siphon on a bioferrite spike, driven into the flesh cover. It draws hemogel straight out of the colony's reserve and canisters it on the spot.\n\nBreak it and the bleeding stops. Every pump you take down cuts the drain by its own share.\n\nIt draws nothing without power, and it is built to move: unbolt it whole and set it down anywhere. Taken intact, it siphons just the same - into your canisters.</description>
+		<thingClass>FB.Building_FleshDrainPump</thingClass>
+		<size>(1,1)</size>
+		<rotatable>false</rotatable>
+		<graphicData>
+			<texPath>Things/Building/FB_Drain/FleshDrainPump</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<shadowData>
+				<volume>(0.6, 0.8, 0.6)</volume>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<!-- Без тикера насос не качает: Building по умолчанию не тикает -->
+		<tickerType>Normal</tickerType>
+		<passability>PassThroughOnly</passability>
+		<pathCost>60</pathCost>
+		<fillPercent>0.4</fillPercent>
+		<castEdgeShadows>false</castEdgeShadows>
+		<canOverlapZones>false</canOverlapZones>
+		<selectable>true</selectable>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<MaxHitPoints>140</MaxHitPoints>
+			<Flammability>0.5</Flammability>
+			<Beauty>-12</Beauty>
+			<WorkToBuild>1200</WorkToBuild>
+			<Mass>20</Mass>
+		</statBases>
+		<!-- Насос переезжает целиком: сворачивается и ставится заново, а не строится с нуля.
+		     Этим же способом его увозит рейд и подбирает игрок, отбивший осаду. -->
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<!-- Свёрнутой установке нужна категория, иначе её некуда положить в фильтрах хранения -->
+		<thingCategories>
+			<li>BuildingsSpecial</li>
+		</thingCategories>
+		<building>
+			<claimable>true</claimable>
+			<deconstructible>true</deconstructible>
+			<isTargetable>true</isTargetable>
+			<quickTargetable>true</quickTargetable>
+			<isInert>true</isInert>
+		</building>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>200</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Flickable" />
+			<li Class="FB.CompProperties_RaidGear" />
+		</comps>
+	</ThingDef>
+
+</Defs>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Спуск антенны на подготовленную площадку. Своей graphicData нет намеренно: базовый
+	     Skyfaller в этом случае рисует само содержимое, то есть падает именно антенна,
+	     а не капсула. Класс DropPodIncoming сюда не годится - он ждёт внутри ActiveTransporter. -->
+	<ThingDef ParentName="SkyfallerBase">
+		<defName>FB_FleshRelayIncoming</defName>
+		<label>relay antenna (incoming)</label>
+		<size>(3,3)</size>
+		<skyfaller>
+			<movementType>Decelerate</movementType>
+			<shadowSize>(3.5, 3.5)</shadowSize>
+			<anticipationSound>DropPod_Fall</anticipationSound>
+			<anticipationSoundTicks>100</anticipationSoundTicks>
+			<impactSound>DropPod_Impact</impactSound>
+			<motesPerCell>1</motesPerCell>
+		</skyfaller>
+	</ThingDef>
+
+</Defs>

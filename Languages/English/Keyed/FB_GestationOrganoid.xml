@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <FB_ColonyBrain_Structure_GestationOrganoid_Label>Gestation Organoid</FB_ColonyBrain_Structure_GestationOrganoid_Label>
+  <FB_ColonyBrain_Structure_GestationOrganoid_Desc>A brood organ that holds a living donor and grows offspring of its kind from hemogel. The donor is consumed and cannot be recovered.</FB_ColonyBrain_Structure_GestationOrganoid_Desc>
+
+  <FB_GestationOrganoidSelectDonorLabel>Select donor</FB_GestationOrganoidSelectDonorLabel>
+  <FB_GestationOrganoidSelectDonorDesc>Choose a living donor to seal inside the birthing sac. Downed unfactioned creatures are carried here by haulers; factioned pawns walk in on their own. Anything placed inside is lost permanently.</FB_GestationOrganoidSelectDonorDesc>
+  <FB_GestationOrganoidDonorLostWarning>{0} will be sealed inside the gestation organoid permanently. The donor cannot be released, dies once its reserves are spent, and is destroyed if the organoid is deconstructed. Continue?</FB_GestationOrganoidDonorLostWarning>
+
+  <FB_GestationOrganoidDonorNotOrganic>Only organic creatures can gestate. Mechanoids and drones are rejected.</FB_GestationOrganoidDonorNotOrganic>
+  <FB_GestationOrganoidDonorAnomalous>Anomalous entities do not breed and cannot be used as donors.</FB_GestationOrganoidDonorAnomalous>
+  <FB_GestationOrganoidDonorGenderless>Only creatures with a gender can be used as donors.</FB_GestationOrganoidDonorGenderless>
+  <FB_GestationOrganoidDonorNotAdult>Only adult creatures can be used as donors.</FB_GestationOrganoidDonorNotAdult>
+  <FB_GestationOrganoidDonorMustBeDowned>An unfactioned donor must be downed first.</FB_GestationOrganoidDonorMustBeDowned>
+
+  <FB_GestationOrganoidStartCycleLabel>Grow body</FB_GestationOrganoidStartCycleLabel>
+  <FB_GestationOrganoidStartCycleDesc>Begin growing a new body from the sealed donor. Produces: {0}.</FB_GestationOrganoidStartCycleDesc>
+  <FB_GestationOrganoidCancelCycleLabel>Cancel growth</FB_GestationOrganoidCancelCycleLabel>
+  <FB_GestationOrganoidCancelCycleDesc>Abort the current growth cycle. All progress is lost, but the donor's remaining births are not spent.</FB_GestationOrganoidCancelCycleDesc>
+  <FB_GestationOrganoidDonorExhausted>The donor's reserves are spent.</FB_GestationOrganoidDonorExhausted>
+  <FB_GestationOrganoidCycleRunning>A growth cycle is already running.</FB_GestationOrganoidCycleRunning>
+
+  <FB_GestationOrganoidConfigureXenotypeLabel>Configure xenotype</FB_GestationOrganoidConfigureXenotypeLabel>
+  <FB_GestationOrganoidConfigureXenotypeDesc>Compose the xenotype of the next offspring from genepacks stored in the colony's genome archive. Saved xenotypes can be loaded and stored.</FB_GestationOrganoidConfigureXenotypeDesc>
+  <FB_GestationOrganoidXenotypeHeader>Compose offspring xenotype</FB_GestationOrganoidXenotypeHeader>
+  <FB_GestationOrganoidXenotypeAccept>Set xenotype</FB_GestationOrganoidXenotypeAccept>
+  <FB_GestationOrganoidXenotypeSet>Offspring xenotype set: {0}.</FB_GestationOrganoidXenotypeSet>
+  <FB_GestationOrganoidXenotypeBaseline>baseliner</FB_GestationOrganoidXenotypeBaseline>
+
+  <FB_GestationOrganoidDonorInspect>Donor: {0}    Offspring: {1}</FB_GestationOrganoidDonorInspect>
+  <FB_GestationOrganoidBirthsInspect>Births left: {0} / {1}</FB_GestationOrganoidBirthsInspect>
+  <FB_GestationOrganoidXenotypeInspect>Xenotype: {0}</FB_GestationOrganoidXenotypeInspect>
+  <FB_GestationOrganoidProgressInspect>Growing body: {0}    Ready in: {1}h</FB_GestationOrganoidProgressInspect>
+  <FB_GestationOrganoidCostInspect>Hemogel consumption: {0}/h</FB_GestationOrganoidCostInspect>
+  <FB_GestationOrganoidPausedNoHemogel>Growth paused: no hemogel network supply.</FB_GestationOrganoidPausedNoHemogel>
+  <FB_GestationOrganoidIdleInspect>Idle. Order it to grow a body.</FB_GestationOrganoidIdleInspect>
+
+  <FB_GestationOrganoidBirthFailed>The organoid failed to shape a viable body.</FB_GestationOrganoidBirthFailed>
+  <FB_GestationOrganoidBirthLetterLabel>Body grown</FB_GestationOrganoidBirthLetterLabel>
+  <FB_GestationOrganoidBirthLetterText>The gestation organoid has pushed out {0}, grown from the reserves of {1}.\n\nThe donor has {2} births left.</FB_GestationOrganoidBirthLetterText>
+  <FB_GestationOrganoidDonorSpentLetterLabel>Donor spent</FB_GestationOrganoidDonorSpentLetterLabel>
+  <FB_GestationOrganoidDonorSpentLetterText>{0} has been drained of everything the organoid could use. The husk dissolves inside the birthing sac.</FB_GestationOrganoidDonorSpentLetterText>
+
+  <FB_GestationOrganoidDevFinishLabel>DEV: finish growth</FB_GestationOrganoidDevFinishLabel>
+  <FB_GestationOrganoidDevFinishDesc>Complete the current growth cycle instantly.</FB_GestationOrganoidDevFinishDesc>
+
+  <FB_SaveXenotypeButton>Save xenotype</FB_SaveXenotypeButton>
+  <FB_XenotypeSaved>Xenotype saved: {0}.</FB_XenotypeSaved>
+  <FB_XenotypeSaveNeedsName>The xenotype needs a name before it can be saved.</FB_XenotypeSaveNeedsName>
+  <FB_XenotypeLoadMissingGenes>The archive has no genepacks for: {0}.</FB_XenotypeLoadMissingGenes>
+
+</LanguageData>

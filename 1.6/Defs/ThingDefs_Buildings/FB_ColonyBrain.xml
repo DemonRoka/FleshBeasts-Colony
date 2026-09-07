@@ -397,6 +397,36 @@
             <fleshArchitectCategory>FB_FleshArchitect_Reproduction</fleshArchitectCategory>
           </li>
           <li>
+            <embryoDef>FB_VoiceOrganEmbryo</embryoDef>
+            <label>FB_ColonyBrain_Structure_VoiceOrgan_Label</label>
+            <description>FB_ColonyBrain_Structure_VoiceOrgan_Desc</description>
+            <texPath>Things/Building/FB_Organic/VoiceOrgan/VoiceOrgan</texPath>
+            <drawSize>(3,3)</drawSize>
+            <cost>700</cost>
+            <requiredResearch>FB_HumanMimicry</requiredResearch>
+            <fleshArchitectCategory>FB_FleshArchitect_Auxiliary</fleshArchitectCategory>
+          </li>
+          <li>
+            <embryoDef>FB_FleshTradeBeacon</embryoDef>
+            <label>FB_ColonyBrain_Structure_FleshTradeBeacon_Label</label>
+            <description>FB_ColonyBrain_Structure_FleshTradeBeacon_Desc</description>
+            <texPath>Things/Building/FB_Organic/FleshTradeBeacon/FleshTradeBeacon</texPath>
+            <drawSize>(1,1)</drawSize>
+            <cost>200</cost>
+            <requiredResearch>FB_HumanMimicry</requiredResearch>
+            <fleshArchitectCategory>FB_FleshArchitect_Auxiliary</fleshArchitectCategory>
+          </li>
+          <li>
+            <embryoDef>FB_GestationOrganoidEmbryo</embryoDef>
+            <label>FB_ColonyBrain_Structure_GestationOrganoid_Label</label>
+            <description>FB_ColonyBrain_Structure_GestationOrganoid_Desc</description>
+            <texPath>Things/Building/FB_Organic/GestationOrganoid/GestationOrganoid</texPath>
+            <drawSize>(3,3)</drawSize>
+            <cost>800</cost>
+            <requiredResearch>FB_OrganicGenetics</requiredResearch>
+            <fleshArchitectCategory>FB_FleshArchitect_Reproduction</fleshArchitectCategory>
+          </li>
+          <li>
             <embryoDef>FB_GenophageCocoonEmbryo</embryoDef>
             <label>FB_ColonyBrain_Structure_GenophageCocoon_Label</label>
             <texPath>Things/Building/FB_Organic/GenophageCocoon/GenophageCocoon</texPath>

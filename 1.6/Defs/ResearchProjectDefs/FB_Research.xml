@@ -636,6 +636,28 @@
       </rulesStrings>
     </generalRules>
   </ResearchProjectDef>
+  <!-- Исследование: human mimicry (FB_HumanMimicry) -->
+  <ResearchProjectDef>
+    <defName>FB_HumanMimicry</defName>
+    <label>human mimicry</label>
+    <description>Unlock the Voice Organ and the Flesh Trade Beacon. The organ mimics a human radio operator around a living carrier, letting the colony hail passing ships and distant factions without ever revealing what answers them.</description>
+    <tab>FB_Fleshbeast</tab>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>FleshmassEngineering</li>
+    </prerequisites>
+    <baseCost>2000</baseCost>
+    <researchViewX>5.00</researchViewX>
+    <researchViewY>3.40</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject-&gt;human mimicry</li>
+        <li>subject_story-&gt;taught flesh to speak with a stolen voice</li>
+        <li>subject_story-&gt;traded with orbit while wearing a human throat</li>
+        <li>subject_gerund-&gt;mimicking human signals</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
   <!-- Исследование: celestial budding (FB_CelestialBudding) -->
   <ResearchProjectDef>
     <defName>FB_CelestialBudding</defName>

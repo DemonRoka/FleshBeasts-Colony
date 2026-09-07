@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <FB_NecrotizerInspectGrowing>Necrosis field: {0} cells, widening to {1}.</FB_NecrotizerInspectGrowing>
+  <FB_NecrotizerInspectHolding>Necrosis field: holding {0} cells. Nothing inside can be reclaimed while it runs.</FB_NecrotizerInspectHolding>
+
+
+</LanguageData>

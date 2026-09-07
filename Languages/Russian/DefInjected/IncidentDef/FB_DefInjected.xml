@@ -5,4 +5,6 @@
   <FB_PitBurrowEmergence.letterText>Из-под земли появилась плотяная нора, выпуская существ из глубин.</FB_PitBurrowEmergence.letterText>
   <FB_FleshContainmentRaid.label>кордон выжигателей</FB_FleshContainmentRaid.label>
   <FB_FleshNecrosis.label>некроз покрова</FB_FleshNecrosis.label>
+  <FB_FleshRelayRaid.label>ретрансляторный рейд</FB_FleshRelayRaid.label>
+  <FB_FleshDrainRaid.label>дренажный рейд</FB_FleshDrainRaid.label>
 </LanguageData>

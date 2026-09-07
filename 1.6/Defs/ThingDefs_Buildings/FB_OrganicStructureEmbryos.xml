@@ -549,6 +549,26 @@
       <drawSize>(3,3)</drawSize>
     </graphicData>
   </ThingDef>
+  <ThingDef ParentName="EmbryoStructureBase">
+    <defName>FB_GestationOrganoidEmbryo</defName>
+    <label>gestation organoid embryo</label>
+    <description>An immature brood organ that will grow into a gestation organoid.</description>
+    <size>(3,3)</size>
+    <comps>
+      <li Class="FB.CompProperties_EmbryoGrowth">
+        <totalMaturationTicks>10000</totalMaturationTicks>
+        <targetDef>FB_GestationOrganoid</targetDef>
+      </li>
+      <li Class="FB.CompProperties_HemogelUpkeep">
+        <hemogelPerHour>0.3</hemogelPerHour>
+      </li>
+    </comps>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/FB_Organic/GestationOrganoid/GestationOrganoidEmbryo</texPath>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+  </ThingDef>
   <!-- Building: psychic lure antenna embryo (FB_PsychicLureAntennaEmbryo) -->
   <ThingDef ParentName="EmbryoStructureBase">
   <defName>FB_PsychicLureAntennaEmbryo</defName>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <FB_ColonyBrain_Structure_VoiceOrgan_Label>Voice Organ</FB_ColonyBrain_Structure_VoiceOrgan_Label>
+  <FB_ColonyBrain_Structure_VoiceOrgan_Desc>Speaks with a living carrier's voice so traders and factions believe they are hailing a human colony.</FB_ColonyBrain_Structure_VoiceOrgan_Desc>
+  <FB_ColonyBrain_Structure_FleshTradeBeacon_Label>Flesh Trade Beacon</FB_ColonyBrain_Structure_FleshTradeBeacon_Label>
+  <FB_ColonyBrain_Structure_FleshTradeBeacon_Desc>Marks the goods around it as ready for sale to orbital ships.</FB_ColonyBrain_Structure_FleshTradeBeacon_Desc>
+
+  <FB_VoiceOrganSelectCarrierLabel>Seat carrier</FB_VoiceOrganSelectCarrierLabel>
+  <FB_VoiceOrganSelectCarrierDesc>Choose a living person to seat inside the organ's throat. Only someone able to talk can lend it a voice. The carrier is suspended while held and can be taken back out at any time.</FB_VoiceOrganSelectCarrierDesc>
+  <FB_VoiceOrganEjectCarrierLabel>Remove carrier</FB_VoiceOrganEjectCarrierLabel>
+  <FB_VoiceOrganEjectCarrierDesc>Take the carrier out of the organ. The colony falls silent until another one is seated.</FB_VoiceOrganEjectCarrierDesc>
+  <FB_VoiceOrganEnterOption>Take the voice organ's seat</FB_VoiceOrganEnterOption>
+  <FB_VoiceOrganCannotWalkIn>cannot walk there and must be carried</FB_VoiceOrganCannotWalkIn>
+  <FB_VoiceOrganCarrierAlreadyAssigned>{PAWN_labelShort} is already on the way</FB_VoiceOrganCarrierAlreadyAssigned>
+  <FB_VoiceOrganPlaceCarried>Seat {0} in the voice organ</FB_VoiceOrganPlaceCarried>
+  <FB_VoiceOrganCarrierCannotTalk>{0} cannot talk and can lend no voice.</FB_VoiceOrganCarrierCannotTalk>
+
+  <FB_VoiceOrganOpenCommsLabel>Open comms</FB_VoiceOrganOpenCommsLabel>
+  <FB_VoiceOrganOpenCommsDesc>Hail a passing ship or a distant faction through the carrier's voice. Their social skill decides how well the talking goes.</FB_VoiceOrganOpenCommsDesc>
+  <FB_VoiceOrganCallBossgroup>Summon mechanoid threat</FB_VoiceOrganCallBossgroup>
+  <FB_VoiceOrganNoCommTargets>Nobody is within reach of the signal.</FB_VoiceOrganNoCommTargets>
+
+  <FB_VoiceOrganGrowBeaconLabel>Grow trade beacon</FB_VoiceOrganGrowBeaconLabel>
+  <FB_VoiceOrganGrowBeaconDesc>Grow a flesh trade beacon. Goods stacked around it can be sold to orbital ships.</FB_VoiceOrganGrowBeaconDesc>
+  <FB_VoiceOrganBeaconLocked>The trade beacon has not been unlocked yet.</FB_VoiceOrganBeaconLocked>
+
+  <FB_VoiceOrganCarrierInspect>Carrier: {0}    Social: {1}</FB_VoiceOrganCarrierInspect>
+  <FB_VoiceOrganBroadcastingInspect>Broadcasting a human signal.</FB_VoiceOrganBroadcastingInspect>
+  <FB_VoiceOrganSilentInspect>Silent. Seat a carrier to give it a voice.</FB_VoiceOrganSilentInspect>
+
+</LanguageData>

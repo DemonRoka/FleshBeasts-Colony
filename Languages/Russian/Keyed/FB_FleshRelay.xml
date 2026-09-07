@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Прибытие -->
+  <FB_FleshRelayArrivedLabel>Ретрансляторная антенна</FB_FleshRelayArrivedLabel>
+  <FB_FleshRelayArrivedText>Фракция «{0}» высадила на карту ретрансляторную антенну, вокруг неё {1} человек. Внутри клетки живые биошматы, пойманные где-то на планете, и машина транслирует их оборванный сигнал по всему местному психическому диапазону.\n\nОдни твари звереют на месте и бросаются на колонию. Другие поддаются зову и сами уходят в клетку; этих ещё можно спасти, свалив с ног или сломав машину.\n\nКлетка вмещает {2}, и дредмелд в ней уже сидит. Сломаешь машину - все пленные вернутся к тебе.</FB_FleshRelayArrivedText>
+
+  <FB_FleshRelayDroppedMessage>Фракция «{0}» окопалась, и на её лагерь опускается ретрансляторная антенна.</FB_FleshRelayDroppedMessage>
+
+  <!-- Срывы -->
+  <FB_FleshRelayBerserkStarted>{0} окончательно потерял улей и бросился на колонию. Эту тварь уже не вернуть - только добить.</FB_FleshRelayBerserkStarted>
+  <FB_FleshRelayLureStarted>{0} поддался зову ретранслятора и уходит к клетке.</FB_FleshRelayLureStarted>
+  <FB_FleshRelayBeastTaken>{0} зашёл в клетку ретранслятора. Пленных: {1} / {2}.</FB_FleshRelayBeastTaken>
+  <FB_FleshRelayMadnessLifted>Зов оборвался. Тварей развернулось на полпути: {0}.</FB_FleshRelayMadnessLifted>
+  <FB_FleshRelayCaptivesFreed>Клетка вскрыта. Освобождено и вернулось в колонию: {0}.</FB_FleshRelayCaptivesFreed>
+  <FB_FleshRelayWave>Установка бьёт волной. Оторвано от улья навсегда: {0}.</FB_FleshRelayWave>
+
+  <!-- Исход -->
+  <FB_FleshRelayBrokenMessage>Ретранслятор фракции «{0}» сломан, налётчики уходят с карты.</FB_FleshRelayBrokenMessage>
+  <FB_FleshRelayHarvestedMessage>Фракция «{0}» набрала полную клетку и уходит.</FB_FleshRelayHarvestedMessage>
+  <FB_FleshRelayStudiedMessage>Фракция «{0}» закончила настройку ретранслятора и уходит.</FB_FleshRelayStudiedMessage>
+  <FB_FleshRelayAbandonedMessage>Фракции «{0}» здесь больше некого уводить, и она уходит.</FB_FleshRelayAbandonedMessage>
+  <FB_FleshRelayMinesPlanted>Уходя, налётчики заминировали подходы к установке. Мин заложено: {0}.</FB_FleshRelayMinesPlanted>
+  <FB_FleshRelayEmitterOnline>Пленных выжгли, а антенну оставили работать. Дальше она бьёт волнами сама по себе и не остановится, пока её не уничтожат.</FB_FleshRelayEmitterOnline>
+
+  <!-- Осмотр -->
+  <FB_FleshRelayCaptivesInspect>Пленных: {0} / {1}</FB_FleshRelayCaptivesInspect>
+  <FB_FleshRelayStudyInspect>Настройка: {0}%</FB_FleshRelayStudyInspect>
+  <FB_FleshRelayNextBreakInspect>Следующий срыв через: {0}</FB_FleshRelayNextBreakInspect>
+  <FB_FleshRelayEmitterInspect>Брошенный излучатель: работает без присмотра</FB_FleshRelayEmitterInspect>
+  <FB_FleshRelayNextWaveInspect>Следующая волна через: {0}</FB_FleshRelayNextWaveInspect>
+
+  <!-- Dev -->
+  <FB_FleshRelay_DevLure>Дев: зов вне очереди</FB_FleshRelay_DevLure>
+  <FB_FleshRelay_DevBerserk>Дев: срыв вне очереди</FB_FleshRelay_DevBerserk>
+  <FB_FleshRelay_DevTune>Дев: настройка на 100%</FB_FleshRelay_DevTune>
+  <FB_FleshRelay_DevFill>Дев: заполнить клетку</FB_FleshRelay_DevFill>
+  <FB_FleshRelay_DevEmitter>Дев: режим излучателя / волна сейчас</FB_FleshRelay_DevEmitter>
+  <FB_FleshRelay_DevNoVictim>Срывать некого: подходящих тварей на карте нет.</FB_FleshRelay_DevNoVictim>
+  <FB_FleshRelayDebugFailed>Не удалось высадить здесь ретрансляторный рейд.</FB_FleshRelayDebugFailed>
+
+</LanguageData>

@@ -11,4 +11,6 @@
   <FB_CelestialUmbilicusMoonExit.description>The moon-side root of a stabilized celestial umbilicus.</FB_CelestialUmbilicusMoonExit.description>
   <FB_CelestialUmbilicusEmbryo.label>celestial umbilicus embryo</FB_CelestialUmbilicusEmbryo.label>
   <FB_CelestialUmbilicusEmbryo.description>An immature orbital organ that will grow into a celestial umbilicus.</FB_CelestialUmbilicusEmbryo.description>
+  <FB_CelestialUmbilicusMoonCrater.label>lunar flesh crater</FB_CelestialUmbilicusMoonCrater.label>
+  <FB_CelestialUmbilicusMoonCrater.description>The raw wound left where the moon-side umbilicus was torn away. Fed enough hemogel from the lunar network, the crater grows a fresh root and the umbilicus rises again in its place.</FB_CelestialUmbilicusMoonCrater.description>
 </LanguageData>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_FleshDrainPump.label>hemogel drain pump</FB_FleshDrainPump.label>
+  <FB_FleshDrainPump.description>A squat siphon on a bioferrite spike, driven into the flesh cover. It draws hemogel straight out of the colony's reserve and canisters it on the spot.\n\nBreak it and the bleeding stops. Every pump you take down cuts the drain by its own share.\n\nIt draws nothing without power, and it is built to move: unbolt it whole and set it down anywhere. Taken intact, it siphons just the same - into your canisters.</FB_FleshDrainPump.description>
+  <FB_HemogelCanister.label>hemogel canister</FB_HemogelCanister.label>
+  <FB_HemogelCanister.description>A sealed drum of hemogel siphoned out of the colony. Pour it back into the network, or leave it in storage where the pumps cannot reach it.</FB_HemogelCanister.description>
+  <FB_FleshDrainPumpIncoming.label>drain pump (incoming)</FB_FleshDrainPumpIncoming.label>
+  <FB_NeuronSuppressor.label>neuron suppressor</FB_NeuronSuppressor.label>
+  <FB_NeuronSuppressor.description>A squat emitter that floods the surrounding tissue with a jamming signal. Grasping tendrils cannot take hold of anyone inside its field, which is what lets a siege crew work on living flesh at all.
+
+Tear it down and the cover starts pulling their people under again.
+
+The field holds only while it has power, and the emitter unbolts and travels the same way the pumps do.</FB_NeuronSuppressor.description>
+  <FB_NeuronSuppressorIncoming.label>neuron suppressor (incoming)</FB_NeuronSuppressorIncoming.label>
+  <FB_FleshDrainBatteryIncoming.label>battery (incoming)</FB_FleshDrainBatteryIncoming.label>
+</LanguageData>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Ретрансляторная антенна: клетка с пленными биошматами, которую привозит рейд.
+	     Не поворачивается: текстура нарисована только с передней (южной) стороны, а точки
+	     взаимодействия для учёных идут по нижней плашке. Текстуры пока заглушки. -->
+	<ThingDef ParentName="BuildingBase">
+		<defName>FB_FleshRelayAntenna</defName>
+		<label>relay antenna</label>
+		<description>A cage of humming bioferrite frames with living fleshbeasts strapped inside. It floods the local psychic band with their own severed signal, and the colony's beasts lose the hive. Some go mad where they stand; others answer the call and walk into the cage themselves.\n\nBreak it and everything held inside comes back.</description>
+		<thingClass>FB.Building_FleshRelayAntenna</thingClass>
+		<size>(3,3)</size>
+		<rotatable>false</rotatable>
+		<graphicData>
+			<texPath>Things/Building/FB_Organic/RelayAntenna/RelayAntenna</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+			<shadowData>
+				<volume>(2.6, 1.2, 2.4)</volume>
+			</shadowData>
+		</graphicData>
+		<!-- Передняя сторона: три точки по нижней плашке -->
+		<multipleInteractionCellOffsets>
+			<li>(-1,0,-2)</li>
+			<li>(0,0,-2)</li>
+			<li>(1,0,-2)</li>
+		</multipleInteractionCellOffsets>
+		<altitudeLayer>Building</altitudeLayer>
+		<!-- Без тикера установка не отсчитывает срывы: Building по умолчанию не тикает -->
+		<tickerType>Normal</tickerType>
+		<passability>Impassable</passability>
+		<fillPercent>0.6</fillPercent>
+		<blockWind>true</blockWind>
+		<castEdgeShadows>false</castEdgeShadows>
+		<canOverlapZones>false</canOverlapZones>
+		<selectable>true</selectable>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<MaxHitPoints>420</MaxHitPoints>
+			<Flammability>0.4</Flammability>
+			<Beauty>-20</Beauty>
+		</statBases>
+		<building>
+			<claimable>false</claimable>
+			<deconstructible>false</deconstructible>
+			<isTargetable>true</isTargetable>
+			<quickTargetable>true</quickTargetable>
+			<canBuildNonEdificesUnder>false</canBuildNonEdificesUnder>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+		</building>
+		<comps>
+			<li Class="FB.CompProperties_PawnContainer">
+				<maxCapacity>7</maxCapacity>
+				<killPawnOnDestroy>false</killPawnOnDestroy>
+				<showContentsInInspect>true</showContentsInInspect>
+			</li>
+			<!-- Наполнение поверх базовой текстуры: только дредмелд -> половина -> почти -> полная -->
+			<li Class="FB.CompProperties_GrowthStageOverlay">
+				<altitudeLayer>BuildingOnTop</altitudeLayer>
+				<drawSize>(3,3)</drawSize>
+				<stages>
+					<li>
+						<minProgress>0.34</minProgress>
+						<texPath>Things/Building/FB_Organic/RelayAntenna/RelayAntenna_Fill1</texPath>
+					</li>
+					<li>
+						<minProgress>0.67</minProgress>
+						<texPath>Things/Building/FB_Organic/RelayAntenna/RelayAntenna_Fill2</texPath>
+					</li>
+					<li>
+						<minProgress>1</minProgress>
+						<texPath>Things/Building/FB_Organic/RelayAntenna/RelayAntenna_Fill3</texPath>
+					</li>
+				</stages>
+			</li>
+		</comps>
+	</ThingDef>
+
+</Defs>

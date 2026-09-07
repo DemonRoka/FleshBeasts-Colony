@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_VoiceOrgan.label>голосовой орган</FB_VoiceOrgan.label>
+  <FB_VoiceOrgan.description>Выращенный голосовой орган, подражающий человеческому радисту. В его горло усаживают живого носителя: внутри тот подвешен, не стареет и не голодает, а орган говорит его голосом, и на том конце связи слышат человеческую колонию. Он отвечает, только пока внутри есть носитель, а от навыка общения этого человека зависит исход торга.</FB_VoiceOrgan.description>
+  <FB_VoiceOrganEmbryo.label>эмбрион голосового органа</FB_VoiceOrganEmbryo.label>
+  <FB_VoiceOrganEmbryo.description>Незрелый голосовой орган, который вырастет в голосовой орган.</FB_VoiceOrganEmbryo.description>
+  <FB_FleshTradeBeacon.label>плотяной торговый маяк</FB_FleshTradeBeacon.label>
+  <FB_FleshTradeBeacon.description>Пульсирующая плотяная метка, показывающая голосовому органу, какие товары готовы к продаже. Всё, что сложено в его радиусе, можно сбыть орбитальным кораблям.</FB_FleshTradeBeacon.description>
+</LanguageData>

@@ -11,7 +11,7 @@
   <FB_InstalledCortexMiteResearchInspect>Current research project: {0} (+{1}/h)</FB_InstalledCortexMiteResearchInspect>
   <FB_InstalledCortexMiteNoHemogelInspect>No full hemogel supply.</FB_InstalledCortexMiteNoHemogelInspect>
   <FB_ColonyBrainNeuralActivity_Label>Activate neural activity</FB_ColonyBrainNeuralActivity_Label>
-  <FB_ColonyBrainNeuralActivity_Desc>Turns the colony brain into a neural research station. While a research project is selected, it researches at the rate of one anchored cortex mite and raises the brain's hemogel consumption from 2 to 6 per hour.</FB_ColonyBrainNeuralActivity_Desc>
+  <FB_ColonyBrainNeuralActivity_Desc>Fires up the neural circuits of the colony brain, and it works on the currently selected research project. The extra neuron activity raises hemogel consumption to 6 per hour.</FB_ColonyBrainNeuralActivity_Desc>
   <FB_ColonyBrainNeuralActivity_InactiveInspect>Neural activity: inactive</FB_ColonyBrainNeuralActivity_InactiveInspect>
   <FB_ColonyBrainNeuralActivity_NoProjectInspect>Neural activity: waiting for a selected research project</FB_ColonyBrainNeuralActivity_NoProjectInspect>
   <FB_ColonyBrainNeuralActivity_ResearchInspect>Neural activity: researching {0} (+{1}/h)</FB_ColonyBrainNeuralActivity_ResearchInspect>

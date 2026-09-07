@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Спуск насоса на площадку. Своей graphicData нет намеренно: базовый Skyfaller рисует
+	     содержимое, то есть падает сам насос, а не капсула. -->
+	<ThingDef ParentName="SkyfallerBase">
+		<defName>FB_FleshDrainPumpIncoming</defName>
+		<thingClass>FB.Skyfaller_FleshDrainPump</thingClass>
+		<label>drain pump (incoming)</label>
+		<size>(1,1)</size>
+		<skyfaller>
+			<movementType>Decelerate</movementType>
+			<shadow>Things/Skyfaller/SkyfallerShadowRectangle</shadow>
+			<shadowSize>(1.5, 1.5)</shadowSize>
+			<anticipationSound>DropPod_Fall</anticipationSound>
+			<anticipationSoundTicks>100</anticipationSoundTicks>
+			<impactSound>DropPod_Impact</impactSound>
+			<motesPerCell>1</motesPerCell>
+		</skyfaller>
+	</ThingDef>
+
+	<!-- Питание лагеря: рядом с каждой установкой садится заряженная батарея. -->
+	<ThingDef ParentName="SkyfallerBase">
+		<defName>FB_FleshDrainBatteryIncoming</defName>
+		<thingClass>FB.Skyfaller_FleshDrainPump</thingClass>
+		<label>battery (incoming)</label>
+		<size>(1,2)</size>
+		<skyfaller>
+			<movementType>Decelerate</movementType>
+			<shadow>Things/Skyfaller/SkyfallerShadowRectangle</shadow>
+			<shadowSize>(1.5, 2.5)</shadowSize>
+			<anticipationSound>DropPod_Fall</anticipationSound>
+			<anticipationSoundTicks>100</anticipationSoundTicks>
+			<impactSound>DropPod_Impact</impactSound>
+			<motesPerCell>1</motesPerCell>
+		</skyfaller>
+	</ThingDef>
+
+</Defs>

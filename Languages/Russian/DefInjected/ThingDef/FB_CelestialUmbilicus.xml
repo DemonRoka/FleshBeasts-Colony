@@ -11,4 +11,6 @@
   <FB_CelestialUmbilicusMoonExit.description>Лунный корень стабилизированной небесной пуповины.</FB_CelestialUmbilicusMoonExit.description>
   <FB_CelestialUmbilicusEmbryo.label>эмбрион небесной пуповины</FB_CelestialUmbilicusEmbryo.label>
   <FB_CelestialUmbilicusEmbryo.description>Незрелый орбитальный орган, который вырастет в небесную пуповину.</FB_CelestialUmbilicusEmbryo.description>
+  <FB_CelestialUmbilicusMoonCrater.label>лунный мясной кратер</FB_CelestialUmbilicusMoonCrater.label>
+  <FB_CelestialUmbilicusMoonCrater.description>Открытая рана на месте вырванного лунного корня пуповины. Если давать ей достаточно гемогеля из лунной сети, кратер отрастит свежий корень, и пуповина поднимется снова.</FB_CelestialUmbilicusMoonCrater.description>
 </LanguageData>

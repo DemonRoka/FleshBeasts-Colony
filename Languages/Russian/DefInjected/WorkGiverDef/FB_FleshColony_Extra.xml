@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+  <FB_CarryToVoiceOrgan.label>нести в голосовой орган</FB_CarryToVoiceOrgan.label>
+  <FB_CarryToGestationOrganoid.label>нести в гестационный органоид</FB_CarryToGestationOrganoid.label>
   <FB_CarryToGenophageCocoon.label>нести в генофаговый кокон</FB_CarryToGenophageCocoon.label>
   <FB_HaulDigestibleFoodToStomach.label>нести перевариваемую пищу в желудок колонии</FB_HaulDigestibleFoodToStomach.label>
 </LanguageData>

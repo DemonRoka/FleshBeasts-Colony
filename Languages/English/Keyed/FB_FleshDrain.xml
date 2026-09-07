@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Arrival -->
+  <FB_FleshDrainArrivedLabel>Hemogel drain raid</FB_FleshDrainArrivedLabel>
+  <FB_FleshDrainArrivedText>A crew from {0} has walked onto the map: {1} of them, with {2} siphon pumps to drive into the flesh cover. Together the pumps will pull about {3} hemogel an hour straight out of the colony's reserve, and canister it where they stand.\n\nThey have not come to fight. Their guards will hold the camp and nothing more - as long as a single pump still stands.</FB_FleshDrainArrivedText>
+
+  <!-- Outcomes -->
+  <FB_FleshDrainPumpsLostMessage>The crew from {0} has lost its pumps and is turning on the colony.</FB_FleshDrainPumpsLostMessage>
+  <FB_FleshDrainQuotaMessage>The crew from {0} has taken what it came for and is leaving.</FB_FleshDrainQuotaMessage>
+  <FB_FleshDrainDryMessage>The reserve is dry and there is nothing left to pump. The crew from {0} is packing up.</FB_FleshDrainDryMessage>
+  <FB_FleshDrainLowMessage>The colony's reserve is down to a fifth - there is no longer enough worth taking. The crew from {0} is packing up.</FB_FleshDrainLowMessage>
+
+  <!-- Pump -->
+  <FB_FleshDrainPumpInspect>Draining: {0}/hour\nTaken so far: {1}\nNext canister: {2}</FB_FleshDrainPumpInspect>
+  <FB_FleshDrainEconomyDetail>Siphoned off by a raid</FB_FleshDrainEconomyDetail>
+  <FB_FleshDrainEconomyDetailOwned>Canistering for you</FB_FleshDrainEconomyDetailOwned>
+
+  <!-- Canister -->
+  <FB_HemogelCanisterInspect>Holds: {0} hemogel</FB_HemogelCanisterInspect>
+  <FB_HemogelCanisterPourLabel>Pour out</FB_HemogelCanisterPourLabel>
+  <FB_HemogelCanisterPourDesc>Empty this stack straight into the hemogel network: {0} hemogel. Note that hemogel back in the network can be siphoned again, while a canister in storage cannot.</FB_HemogelCanisterPourDesc>
+  <FB_HemogelCanisterPourForbidden>Must be unforbidden first.</FB_HemogelCanisterPourForbidden>
+  <FB_HemogelCanisterPoured>Poured {0} hemogel back into the network.</FB_HemogelCanisterPoured>
+  <FB_FleshDrainPumpNothingToTake>Nothing left to draw here.</FB_FleshDrainPumpNothingToTake>
+  <FB_FleshDrainPumpNoPower>No power: the pump is idle.</FB_FleshDrainPumpNoPower>
+  <FB_FleshDrainPumpNoFlesh>Not on flesh cover: nothing to draw from.</FB_FleshDrainPumpNoFlesh>
+  <FB_NeuronSuppressorInspect>Grasping tendrils suppressed within {0} cells.</FB_NeuronSuppressorInspect>
+  <FB_NeuronSuppressorNoPower>No power: the field is down.</FB_NeuronSuppressorNoPower>
+
+  <!-- Dev -->
+  <FB_FleshDrainDebugFailed>Could not send a drain raid here.</FB_FleshDrainDebugFailed>
+  <FB_DevDrainCanisterLabel>Dev: drop a canister</FB_DevDrainCanisterLabel>
+  <FB_DevDrainCanisterDesc>Immediately drop one filled canister next to this pump.</FB_DevDrainCanisterDesc>
+
+  <FB_DevDrainStepLabel>Dev: drain one hour</FB_DevDrainStepLabel>
+  <FB_DevDrainStepDesc>Run a single hour worth of draining right now.</FB_DevDrainStepDesc>
+
+</LanguageData>

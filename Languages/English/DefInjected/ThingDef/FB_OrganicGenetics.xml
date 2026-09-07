@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_GenophageCocoon.label>genophage cocoon</FB_GenophageCocoon.label>
   <FB_GenophageCocoon.description>A genetic cocoon that extracts one to three random genes from a living donor and stores them as a genepack in a genome archive.</FB_GenophageCocoon.description>
@@ -12,6 +12,10 @@
   <FB_GenomeArchiveEmbryo.description>An immature gene-storage organ that will grow into a genome archive.</FB_GenomeArchiveEmbryo.description>
   <FB_GeneReweaverEmbryo.label>gene reweaver embryo</FB_GeneReweaverEmbryo.label>
   <FB_GeneReweaverEmbryo.description>An immature gene organ that will grow into a gene reweaver.</FB_GeneReweaverEmbryo.description>
+  <FB_GestationOrganoid.label>gestation organoid</FB_GestationOrganoid.label>
+  <FB_GestationOrganoid.description>A brood organ that suspends a living donor inside its birthing sac. While the donor is held it neither ages nor starves, and the organoid spends hemogel to grow offspring of the donor's own kind. A humanlike donor yields newborns whose xenotype can be composed from archived genepacks. The donor never leaves: its reserves are drained with every birth, and it dies once they are spent.</FB_GestationOrganoid.description>
+  <FB_GestationOrganoidEmbryo.label>gestation organoid embryo</FB_GestationOrganoidEmbryo.label>
+  <FB_GestationOrganoidEmbryo.description>An immature brood organ that will grow into a gestation organoid.</FB_GestationOrganoidEmbryo.description>
   <FB_Chromophage.label>chromophage</FB_Chromophage.label>
   <FB_Chromophage.description>A fused fleshbeast that extracts gene traces from dead humanlike bodies and delivers them to a genome archive.</FB_Chromophage.description>
   <FB_GeneReweaverCocoon.label>gene reweaver cocoon</FB_GeneReweaverCocoon.label>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Инцидент: дренажный рейд. baseChance 0 - сторителлер его не выбирает,
+	     событие выпускает только MapComponent_FleshDrainPressure по накопленному запасу. -->
+	<IncidentDef>
+		<defName>FB_FleshDrainRaid</defName>
+		<label>hemogel drain raid</label>
+		<category>ThreatBig</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>FB.IncidentWorker_FleshDrain</workerClass>
+		<baseChance>0</baseChance>
+		<requireColonistsPresent>true</requireColonistsPresent>
+		<pointsScaleable>true</pointsScaleable>
+	</IncidentDef>
+
+</Defs>

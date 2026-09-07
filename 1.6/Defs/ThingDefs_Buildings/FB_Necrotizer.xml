@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Некротизатор: механоидная установка, гноящая покров вокруг себя. Отдельного события
+	     нет намеренно - теги MechClusterMember/MechClusterProblemCauser кладут её в общий
+	     пул особых построек кластера, рядом с дефолиатором и излучателями. Игроку без
+	     плотяной колонии она не достаётся: пул фильтруется в MechClusterNecrotizerGate.
+	     Форма и параметры срисованы с ванильного кластерного дефолиатора.
+	     Текстура - собственная заглушка, ждёт настоящего спрайта. -->
+	<ThingDef ParentName="BuildingBase">
+		<defName>FB_Necrotizer</defName>
+		<label>necrotizer</label>
+		<description>An area-denial device that induces necrosis in living tissue without touching machinery or animals. Around it the flesh cover dies and rots, and fleshmass walls rot with it. Anything absorbed back inside its field is simply killed again while the machine still runs.\n\nThe field widens for a few days and then holds. It will not spread past that ring, but nothing inside it can be reclaimed until the machine is destroyed.</description>
+		<size>(3,3)</size>
+		<rotatable>false</rotatable>
+		<pathCost>50</pathCost>
+		<blockWind>true</blockWind>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<tickerType>Normal</tickerType>
+		<canOverlapZones>false</canOverlapZones>
+		<selectable>true</selectable>
+		<useHitPoints>true</useHitPoints>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<receivesSignals>true</receivesSignals>
+		<isMechClusterThreat>true</isMechClusterThreat>
+		<forceDebugSpawnable>true</forceDebugSpawnable>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<killedLeavings>
+			<ChunkSlagSteel>4</ChunkSlagSteel>
+			<Steel>60</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+			<Plasteel>10</Plasteel>
+		</killedLeavings>
+		<statBases>
+			<MaxHitPoints>400</MaxHitPoints>
+			<Flammability>0</Flammability>
+			<Beauty>-200</Beauty>
+		</statBases>
+		<damageMultipliers>
+			<li>
+				<damageDef>Flame</damageDef>
+				<multiplier>0</multiplier>
+			</li>
+		</damageMultipliers>
+		<graphicData>
+			<texPath>Things/Building/FB_Mech/Necrotizer</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+			<shadowData>
+				<volume>(2.5, 1.0, 2.5)</volume>
+			</shadowData>
+			<damageData>
+				<rect>(0.1, 0.1, 2.8, 2.8)</rect>
+			</damageData>
+		</graphicData>
+		<building>
+			<combatPower>200</combatPower>
+			<minMechClusterPoints>600</minMechClusterPoints>
+			<buildingTags>
+				<li>MechClusterMember</li>
+				<li>MechClusterProblemCauser</li>
+			</buildingTags>
+			<claimable>false</claimable>
+			<deconstructible>false</deconstructible>
+			<isTargetable>true</isTargetable>
+			<quickTargetable>true</quickTargetable>
+			<ai_combatDangerous>true</ai_combatDangerous>
+			<destroySound>BuildingDestroyed_Metal_Big</destroySound>
+		</building>
+		<comps>
+			<li Class="FB.CompProperties_NecroticField">
+				<!-- Последняя точка совпадает с maxRadius: дойдя до неё, поле перестаёт
+				     расширяться, но продолжает работать внутри кольца -->
+				<radiusPerDayCurve>
+					<points>
+						<li>(0, 4)</li>
+						<li>(1, 9)</li>
+						<li>(2.5, 14)</li>
+						<li>(5, 18)</li>
+					</points>
+				</radiusPerDayCurve>
+				<maxRadius>65</maxRadius>
+				<pulseIntervalTicks>250</pulseIntervalTicks>
+				<cellsPerPulse>6</cellsPerPulse>
+				<damageIntervalTicks>600</damageIntervalTicks>
+				<damagePerInterval>6</damagePerInterval>
+			</li>
+			<li Class="CompProperties_WakeUpDormant">
+				<wakeUpSound>MechanoidsWakeUp</wakeUpSound>
+			</li>
+			<!-- Кластер сам выставит отсрочку запуска через initiationDelayTicksOverride -->
+			<li Class="CompProperties_Initiatable" />
+		</comps>
+	</ThingDef>
+
+</Defs>

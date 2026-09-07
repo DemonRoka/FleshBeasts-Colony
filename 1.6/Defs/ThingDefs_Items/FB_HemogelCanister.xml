@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Бочка гемогеля: обычный ресурс, чтобы капли таскали её в хранилище штатным хаулом.
+	     Объём фиксирован на штуку - в ванильном стеке нельзя держать данные на экземпляр.
+	     MarketValue намеренно нулевая: иначе успешная оборона поднимала бы богатство колонии
+	     и очки будущих рейдов. Текстура - собственная заглушка, ждёт настоящего спрайта. -->
+	<ThingDef ParentName="ResourceBase">
+		<defName>FB_HemogelCanister</defName>
+		<label>hemogel canister</label>
+		<description>A sealed drum of hemogel siphoned out of the colony. Pour it back into the network, or leave it in storage where the pumps cannot reach it.</description>
+		<graphicData>
+			<!-- Graphic_Single, а не Graphic_StackCount: у заглушки одна текстура,
+			     а StackCount ищет папку с вариантами по количеству и валится на пути -->
+			<texPath>Things/Item/Resource/HemogelCanister</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.85</drawSize>
+		</graphicData>
+		<stackLimit>25</stackLimit>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<statBases>
+			<MaxHitPoints>60</MaxHitPoints>
+			<Mass>8</Mass>
+			<Flammability>0.6</Flammability>
+			<DeteriorationRate>0</DeteriorationRate>
+			<MarketValue>0</MarketValue>
+		</statBases>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+		<comps>
+			<li Class="FB.CompProperties_HemogelCanister">
+				<hemogelPerUnit>25</hemogelPerUnit>
+			</li>
+		</comps>
+	</ThingDef>
+
+</Defs>

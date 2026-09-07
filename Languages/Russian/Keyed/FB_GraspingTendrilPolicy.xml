@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 	<FB_ColonyBrain_Structure_CaptureNerveNode_Label>Узел захвата</FB_ColonyBrain_Structure_CaptureNerveNode_Label>
 	<FB_ColonyBrain_Structure_CaptureNerveNode_Desc>Добавляет один общий слот хватательных щупалец сердцу колонии. Без сердца все узлы захвата объединяют свои слоты в единый автономный пул.</FB_ColonyBrain_Structure_CaptureNerveNode_Desc>
@@ -34,9 +34,11 @@
 	<FB_GraspingPolicy_Type_Animal>Животные</FB_GraspingPolicy_Type_Animal>
 	<FB_GraspingPolicy_Type_Insect>Насекомые</FB_GraspingPolicy_Type_Insect>
 	<FB_GraspingPolicy_Type_Entity>Сущности</FB_GraspingPolicy_Type_Entity>
+	<FB_GraspingPolicy_Type_Mechanoid>Механоиды</FB_GraspingPolicy_Type_Mechanoid>
 	<FB_GraspingPolicy_Type_Other>Прочие</FB_GraspingPolicy_Type_Other>
 	<FB_GraspingPolicy_RelationAlly>Союзник</FB_GraspingPolicy_RelationAlly>
 	<FB_GraspingPolicy_RelationHostile>Враг</FB_GraspingPolicy_RelationHostile>
 	<FB_GraspingPolicy_RelationNeutral>Нейтрал</FB_GraspingPolicy_RelationNeutral>
 	<FB_GraspingPolicy_RelationUnknown>Неизвестно</FB_GraspingPolicy_RelationUnknown>
+	<FB_GraspingTendrils_Suppressed>Здесь подавлены нейроны</FB_GraspingTendrils_Suppressed>
 </LanguageData>

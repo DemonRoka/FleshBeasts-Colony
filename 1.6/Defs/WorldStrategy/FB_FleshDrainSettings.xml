@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<FB.FleshDrainDef>
+		<defName>FB_FleshDrainSettings</defName>
+
+		<!-- Отбор фиксирован на насос; силу рейда задаёт их количество -->
+		<drainPerHourPerPump>8</drainPerHourPerPump>
+		<pumpsFromPointsCurve>
+			<points>
+				<li>(0, 2)</li>
+				<li>(1000, 3)</li>
+				<li>(2500, 4)</li>
+				<li>(5000, 6)</li>
+			</points>
+		</pumpsFromPointsCurve>
+		<maxPumps>6</maxPumps>
+
+		<canisterHemogel>25</canisterHemogel>
+		<quotaHemogel>600</quotaHemogel>
+
+		<!-- Ни один насос ничего не взял столько времени - резерв осушён, уходят ни с чем -->
+		<dryTicks>5000</dryTicks>
+
+		<!-- Досуха не выжимают: просел запас до пятой части - сворачиваются.
+		     Считается и от застигнутого на высадке запаса, и от вместимости сетей -->
+		<withdrawReserveFraction>0.2</withdrawReserveFraction>
+
+		<minReserveToFire>400</minReserveToFire>
+		<minSiegeDistance>25</minSiegeDistance>
+		<!-- 25 дней: запас успевает отрасти, дренаж не садится на шею колонии -->
+		<minIntervalTicks>1500000</minIntervalTicks>
+		<minFactionTechLevel>Industrial</minFactionTechLevel>
+	</FB.FleshDrainDef>
+
+</Defs>

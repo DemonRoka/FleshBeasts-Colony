@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_FleshRelayAntenna.label>ретрансляторная антенна</FB_FleshRelayAntenna.label>
+  <FB_FleshRelayAntenna.description>Клетка из гудящих биоферритовых рам с живыми биошматами внутри. Машина заливает местный психический диапазон их же оборванным сигналом, и твари колонии теряют улей. Одни сходят с ума на месте, другие поддаются зову и сами уходят в клетку.
+
+Сломай её - и всё, что внутри, вернётся.</FB_FleshRelayAntenna.description>
+  <FB_FleshRelayIncoming.label>ретрансляторная антенна (снижается)</FB_FleshRelayIncoming.label>
+</LanguageData>

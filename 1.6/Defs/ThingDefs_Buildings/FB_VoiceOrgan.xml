@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Постройка: voice organ (FB_VoiceOrgan) -->
+  <ThingDef ParentName="BuildingColonyFleshBase">
+    <defName>FB_VoiceOrgan</defName>
+    <label>voice organ</label>
+    <description>A grown vocal organ that mimics a human radio operator. A living carrier is seated inside its throat, suspended so it neither ages nor starves, and the organ speaks with that person's voice: traders and factions on the other end hear a colony of people. It answers only while a carrier is held, and its social skill decides how the haggling goes.</description>
+    <thingClass>FB.Building_FleshVoiceOrgan</thingClass>
+    <containedPawnsSelectable>true</containedPawnsSelectable>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <tickerType>Normal</tickerType>
+    <size>(3,3)</size>
+    <statBases>
+      <MaxHitPoints>360</MaxHitPoints>
+      <Beauty>-20</Beauty>
+      <Mass>22</Mass>
+    </statBases>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/FB_Organic/VoiceOrgan/VoiceOrgan</texPath>
+      <drawSize>4</drawSize>
+    </graphicData>
+    <uiIconPath>Things/Building/FB_Organic/VoiceOrgan/VoiceOrgan</uiIconPath>
+    <modExtensions>
+      <li Class="FB.VoiceOrganExtension">
+        <carrierHemogelPerHour>1.2</carrierHemogelPerHour>
+        <headDrawOffsetZ>0.15</headDrawOffsetZ>
+        <headDrawScale>1.1</headDrawScale>
+      </li>
+    </modExtensions>
+    <comps>
+      <li Class="FB.CompProperties_HemogelUpkeep">
+        <hemogelPerHour>0.4</hemogelPerHour>
+      </li>
+      <li Class="CompProperties_Usable" MayRequire="Ludeon.RimWorld.Biotech">
+        <useJob>TriggerObject</useJob>
+        <useLabel>Summon diabolus threat</useLabel>
+        <useDuration>900</useDuration>
+        <floatMenuOptionPriority>SummonThreat</floatMenuOptionPriority>
+        <floatMenuFactionIcon>Mechanoid</floatMenuFactionIcon>
+        <ignoreOtherReservations>true</ignoreOtherReservations>
+      </li>
+      <li Class="CompProperties_Useable_CallBossgroup" MayRequire="Ludeon.RimWorld.Biotech">
+        <bossgroupDef>Diabolus</bossgroupDef>
+        <effecterDef>CommsConsoleBossgroupSummoned</effecterDef>
+        <delayTicks>120</delayTicks>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- Постройка: voice organ embryo (FB_VoiceOrganEmbryo) -->
+  <ThingDef ParentName="EmbryoStructureBase">
+    <defName>FB_VoiceOrganEmbryo</defName>
+    <label>voice organ embryo</label>
+    <description>An immature vocal organ that will grow into a voice organ.</description>
+    <size>(3,3)</size>
+    <comps>
+      <li Class="FB.CompProperties_EmbryoGrowth">
+        <totalMaturationTicks>9000</totalMaturationTicks>
+        <targetDef>FB_VoiceOrgan</targetDef>
+      </li>
+      <li Class="FB.CompProperties_HemogelUpkeep">
+        <hemogelPerHour>0.3</hemogelPerHour>
+      </li>
+    </comps>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/FB_Organic/VoiceOrgan/VoiceOrganEmbryo</texPath>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+  </ThingDef>
+
+  <!-- Постройка: flesh trade beacon (FB_FleshTradeBeacon) -->
+  <ThingDef ParentName="BuildingColonyFleshBase">
+    <defName>FB_FleshTradeBeacon</defName>
+    <label>flesh trade beacon</label>
+    <description>A pulsing marker of flesh that tells the voice organ which goods lie ready for sale. Anything stacked within its reach can be traded away to orbital ships.</description>
+    <thingClass>FB.Building_FleshTradeBeacon</thingClass>
+    <tickerType>Normal</tickerType>
+    <size>(1,1)</size>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    <placeWorkers>
+      <li>PlaceWorker_ShowTradeBeaconRadius</li>
+    </placeWorkers>
+    <statBases>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Beauty>-8</Beauty>
+      <Mass>6</Mass>
+    </statBases>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/FB_Organic/FleshTradeBeacon/FleshTradeBeacon</texPath>
+      <drawSize>(1.4,1.4)</drawSize>
+    </graphicData>
+    <uiIconPath>Things/Building/FB_Organic/FleshTradeBeacon/FleshTradeBeacon</uiIconPath>
+    <comps>
+      <li Class="FB.CompProperties_HemogelUpkeep">
+        <hemogelPerHour>0.2</hemogelPerHour>
+      </li>
+    </comps>
+  </ThingDef>
+
+</Defs>

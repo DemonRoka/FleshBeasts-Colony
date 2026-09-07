@@ -93,6 +93,23 @@
   </JobDef>
   
   <JobDef>
+    <defName>FB_EnterVoiceOrgan</defName>
+    <driverClass>FB.JobDriver_EnterVoiceOrgan</driverClass>
+    <reportString>entering TargetA.</reportString>
+  </JobDef>
+  <JobDef>
+    <defName>FB_CarryToVoiceOrgan</defName>
+    <driverClass>FB.JobDriver_CarryToVoiceOrgan</driverClass>
+    <reportString>carrying TargetB to TargetA.</reportString>
+  </JobDef>
+  <JobDef>
+    <defName>FB_CarryCarriedPawnToVoiceOrgan</defName>
+    <driverClass>FB.JobDriver_CarryCarriedPawnToVoiceOrgan</driverClass>
+    <reportString>placing TargetB into TargetA.</reportString>
+    <carryThingAfterJob>true</carryThingAfterJob>
+    <dropThingBeforeJob>false</dropThingBeforeJob>
+  </JobDef>
+  <JobDef>
     <defName>FB_CarryCarriedPawnToSynapseCore</defName>
     <driverClass>FB.JobDriver_CarryCarriedPawnToSynapseCore</driverClass>
     <reportString>placing TargetB into TargetA.</reportString>

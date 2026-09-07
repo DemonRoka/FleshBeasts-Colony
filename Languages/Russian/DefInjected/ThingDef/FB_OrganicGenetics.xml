@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_GenophageCocoon.label>генофаговый кокон</FB_GenophageCocoon.label>
   <FB_GenophageCocoon.description>Генофаговый кокон извлекает от одного до трёх случайных генов живого донора и сохраняет их генопаком в архиве генома.</FB_GenophageCocoon.description>
@@ -12,6 +12,10 @@
   <FB_GenomeArchiveEmbryo.description>Незрелый орган-хранилище генов, который вырастет в геномный архив.</FB_GenomeArchiveEmbryo.description>
   <FB_GeneReweaverEmbryo.label>эмбрион генного переплетателя</FB_GeneReweaverEmbryo.label>
   <FB_GeneReweaverEmbryo.description>Незрелый генный орган, который вырастет в генного переплетателя.</FB_GeneReweaverEmbryo.description>
+  <FB_GestationOrganoid.label>гестационный органоид</FB_GestationOrganoid.label>
+  <FB_GestationOrganoid.description>Родильный орган, удерживающий живого донора в подвешенном состоянии: внутри мешка тот не стареет и не голодает. Тратя гемогель, органоид выращивает потомство того же вида, что и донор. Гуманоидный донор даёт младенцев, ксенотип которых собирается из архивных генопаков. Донор наружу не выходит: его резервы расходуются с каждыми родами, и по их исчерпании он погибает.</FB_GestationOrganoid.description>
+  <FB_GestationOrganoidEmbryo.label>эмбрион гестационного органоида</FB_GestationOrganoidEmbryo.label>
+  <FB_GestationOrganoidEmbryo.description>Незрелый родильный орган, который вырастет в гестационный органоид.</FB_GestationOrganoidEmbryo.description>
   <FB_Chromophage.label>хромофаг</FB_Chromophage.label>
   <FB_Chromophage.description>Слитый биошмат, извлекающий следы генов из мёртвых гуманоидных тел и переносящий их в геномный архив.</FB_Chromophage.description>
   <FB_GeneReweaverCocoon.label>кокон генного переплетателя</FB_GeneReweaverCocoon.label>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Прибытие -->
+  <FB_FleshDrainArrivedLabel>Дренажный рейд</FB_FleshDrainArrivedLabel>
+  <FB_FleshDrainArrivedText>На карту зашла бригада фракции «{0}»: бойцов {1}, при них {2} насосов, которые они вобьют в плотяной покров. Вместе насосы вытянут около {3} гемогеля в час прямо из резерва колонии и разольют его по бочкам на месте.\n\nДраться они не пришли. Охрана будет держать лагерь и не более того - пока стоит хоть один насос.</FB_FleshDrainArrivedText>
+
+  <!-- Исходы -->
+  <FB_FleshDrainPumpsLostMessage>Бригада фракции «{0}» лишилась насосов и пошла на колонию.</FB_FleshDrainPumpsLostMessage>
+  <FB_FleshDrainQuotaMessage>Бригада фракции «{0}» взяла своё и уходит.</FB_FleshDrainQuotaMessage>
+  <FB_FleshDrainDryMessage>Резерв пуст, качать больше нечего. Бригада фракции «{0}» сворачивается.</FB_FleshDrainDryMessage>
+  <FB_FleshDrainLowMessage>Запас колонии просел до пятой части - брать столько уже не выйдет. Бригада фракции «{0}» сворачивается.</FB_FleshDrainLowMessage>
+
+  <!-- Насос -->
+  <FB_FleshDrainPumpInspect>Откачка: {0}/час\nВыкачано всего: {1}\nСледующая бочка: {2}</FB_FleshDrainPumpInspect>
+  <FB_FleshDrainEconomyDetail>Откачивает рейд</FB_FleshDrainEconomyDetail>
+  <FB_FleshDrainEconomyDetailOwned>Разливает по бочкам</FB_FleshDrainEconomyDetailOwned>
+
+  <!-- Бочка -->
+  <FB_HemogelCanisterInspect>Внутри: {0} гемогеля</FB_HemogelCanisterInspect>
+  <FB_HemogelCanisterPourLabel>Вылить</FB_HemogelCanisterPourLabel>
+  <FB_HemogelCanisterPourDesc>Слить эту стопку прямо в сеть гемогеля: {0}. Учтите, что вылитый в сеть гемогель насосы могут выкачать снова, а бочку в хранилище - нет.</FB_HemogelCanisterPourDesc>
+  <FB_HemogelCanisterPourForbidden>Сначала нужно снять запрет.</FB_HemogelCanisterPourForbidden>
+  <FB_HemogelCanisterPoured>В сеть возвращено гемогеля: {0}.</FB_HemogelCanisterPoured>
+  <FB_FleshDrainPumpNothingToTake>Брать здесь больше нечего.</FB_FleshDrainPumpNothingToTake>
+  <FB_FleshDrainPumpNoPower>Нет питания: откачка стоит.</FB_FleshDrainPumpNoPower>
+  <FB_FleshDrainPumpNoFlesh>Не на плотяном покрове: качать неоткуда.</FB_FleshDrainPumpNoFlesh>
+  <FB_NeuronSuppressorInspect>Щупальца захвата подавлены в радиусе {0} клеток.</FB_NeuronSuppressorInspect>
+  <FB_NeuronSuppressorNoPower>Нет питания: поле не держится.</FB_NeuronSuppressorNoPower>
+
+  <!-- Dev -->
+  <FB_FleshDrainDebugFailed>Не удалось выслать сюда дренажный рейд.</FB_FleshDrainDebugFailed>
+  <FB_DevDrainCanisterLabel>Dev: выбросить бочку</FB_DevDrainCanisterLabel>
+  <FB_DevDrainCanisterDesc>Немедленно выбросить рядом с насосом одну полную бочку.</FB_DevDrainCanisterDesc>
+
+  <FB_DevDrainStepLabel>Dev: откачать час</FB_DevDrainStepLabel>
+  <FB_DevDrainStepDesc>Немедленно отработать один час откачки.</FB_DevDrainStepDesc>
+
+</LanguageData>

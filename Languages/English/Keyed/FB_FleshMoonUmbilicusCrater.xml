@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <FB_FleshMoonCraterInspect>Umbilicus regrowth: {0} / {1} hemogel ({2}%)</FB_FleshMoonCraterInspect>
+  <FB_FleshMoonCraterInspectFlow>Draw rate: {0} hemogel per hour</FB_FleshMoonCraterInspectFlow>
+  <FB_FleshMoonCraterInspectStalled>Regrowth stalled: the lunar network gives no hemogel.</FB_FleshMoonCraterInspectStalled>
+  <FB_FleshMoonCraterHemogelEconomyDetail>Umbilicus regrowth: {0}/h requested, {1}/h drawn</FB_FleshMoonCraterHemogelEconomyDetail>
+
+  <FB_FleshMoonCraterFlowBarTitle>Regrowth draw</FB_FleshMoonCraterFlowBarTitle>
+  <FB_FleshMoonCraterFlowBarLabel>{0} hemogel/h</FB_FleshMoonCraterFlowBarLabel>
+  <FB_FleshMoonCraterFlowBarTooltip>How fast the crater pulls hemogel out of the lunar network to rebuild the umbilicus.\n\nRange: {0} - {1} per hour.\nRequested: {2} per hour.\nActually drawn: {3} per hour.</FB_FleshMoonCraterFlowBarTooltip>
+
+  <FB_FleshMoonCraterFormedLetterLabel>Umbilicus torn away</FB_FleshMoonCraterFormedLetterLabel>
+  <FB_FleshMoonCraterFormedLetterText>The moon-side root of the celestial umbilicus has been destroyed, and the way back to the surface with it.\n\nA raw crater is left in its place. Feed it hemogel from the lunar network and it will grow a new umbilicus - set the draw rate on the crater itself.</FB_FleshMoonCraterFormedLetterText>
+  <FB_FleshMoonCraterRegrownLetterLabel>Umbilicus regrown</FB_FleshMoonCraterRegrownLetterLabel>
+  <FB_FleshMoonCraterRegrownLetterText>The crater has closed around a fresh root. The celestial umbilicus stands again, and the moon is linked to the surface once more.</FB_FleshMoonCraterRegrownLetterText>
+
+  <FB_FleshMoonCraterDevFinishLabel>DEV: finish regrowth</FB_FleshMoonCraterDevFinishLabel>
+  <FB_FleshMoonCraterDevFinishDesc>Complete the umbilicus regrowth instantly.</FB_FleshMoonCraterDevFinishDesc>
+
+</LanguageData>

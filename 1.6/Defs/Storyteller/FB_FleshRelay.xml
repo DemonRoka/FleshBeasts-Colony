@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Инцидент: ретрансляторный рейд. baseChance 0 - выпускает только локальное давление -->
+	<IncidentDef>
+		<defName>FB_FleshRelayRaid</defName>
+		<label>relay antenna raid</label>
+		<category>ThreatBig</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>FB.IncidentWorker_FleshRelay</workerClass>
+		<baseChance>0</baseChance>
+		<requireColonistsPresent>true</requireColonistsPresent>
+		<pointsScaleable>true</pointsScaleable>
+	</IncidentDef>
+
+</Defs>

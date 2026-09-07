@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Подавитель нейронов: глушит щупальца захвата в своём радиусе. Осадная бригада
+	     работает под этим куполом и спокойно ходит по покрову, поэтому обходить плоть ей
+	     не нужно. Игроку это отдельная цель: снёс подавитель - и плоть снова хватает чужих.
+	     Текстура - собственная заглушка, ждёт настоящего спрайта. -->
+	<ThingDef ParentName="BuildingBase">
+		<defName>FB_NeuronSuppressor</defName>
+		<label>neuron suppressor</label>
+		<description>A squat emitter that floods the surrounding tissue with a jamming signal. Grasping tendrils cannot take hold of anyone inside its field, which is what lets a siege crew work on living flesh at all.\n\nTear it down and the cover starts pulling their people under again.\n\nThe field holds only while it has power, and the emitter unbolts and travels the same way the pumps do.</description>
+		<size>(1,1)</size>
+		<rotatable>false</rotatable>
+		<graphicData>
+			<texPath>Things/Building/FB_Drain/NeuronSuppressor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<shadowData>
+				<volume>(0.6, 0.8, 0.6)</volume>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<!-- Тикер нужен питанию: без энергии купол не держится -->
+		<tickerType>Normal</tickerType>
+		<passability>PassThroughOnly</passability>
+		<pathCost>60</pathCost>
+		<fillPercent>0.4</fillPercent>
+		<castEdgeShadows>false</castEdgeShadows>
+		<canOverlapZones>false</canOverlapZones>
+		<selectable>true</selectable>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<MaxHitPoints>120</MaxHitPoints>
+			<Flammability>0.5</Flammability>
+			<Beauty>-10</Beauty>
+			<WorkToBuild>1000</WorkToBuild>
+			<Mass>15</Mass>
+		</statBases>
+		<!-- Подавитель переезжает так же, как насос: свернул - унёс - поставил заново -->
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsSpecial</li>
+		</thingCategories>
+		<building>
+			<claimable>true</claimable>
+			<deconstructible>true</deconstructible>
+			<isTargetable>true</isTargetable>
+			<quickTargetable>true</quickTargetable>
+			<isInert>true</isInert>
+		</building>
+		<comps>
+			<li Class="FB.CompProperties_NeuronSuppressor">
+				<radius>16.9</radius>
+			</li>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>250</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Flickable" />
+			<li Class="FB.CompProperties_RaidGear" />
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="SkyfallerBase">
+		<defName>FB_NeuronSuppressorIncoming</defName>
+		<label>neuron suppressor (incoming)</label>
+		<thingClass>FB.Skyfaller_FleshDrainPump</thingClass>
+		<size>(1,1)</size>
+		<skyfaller>
+			<movementType>Decelerate</movementType>
+			<shadow>Things/Skyfaller/SkyfallerShadowRectangle</shadow>
+			<shadowSize>(1.5, 1.5)</shadowSize>
+			<anticipationSound>DropPod_Fall</anticipationSound>
+			<anticipationSoundTicks>100</anticipationSoundTicks>
+			<impactSound>DropPod_Impact</impactSound>
+			<motesPerCell>1</motesPerCell>
+		</skyfaller>
+	</ThingDef>
+
+</Defs>

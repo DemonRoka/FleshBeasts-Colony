@@ -16,6 +16,38 @@
     <canBeDoneByMechs>false</canBeDoneByMechs>
   </WorkGiverDef>
 
+  <!-- Источник работы: carry selected carrier to voice organ (FB_CarryToVoiceOrgan) -->
+  <WorkGiverDef>
+    <defName>FB_CarryToVoiceOrgan</defName>
+    <label>carry to voice organ</label>
+    <giverClass>FB.WorkGiver_CarryToVoiceOrgan</giverClass>
+    <workType>Hauling</workType>
+    <verb>seat</verb>
+    <gerund>seating carrier in</gerund>
+    <priorityInType>90</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+      <li>Moving</li>
+    </requiredCapacities>
+    <canBeDoneByMechs>false</canBeDoneByMechs>
+  </WorkGiverDef>
+
+  <!-- Источник работы: carry selected donor to gestation organoid (FB_CarryToGestationOrganoid) -->
+  <WorkGiverDef>
+    <defName>FB_CarryToGestationOrganoid</defName>
+    <label>carry to gestation organoid</label>
+    <giverClass>FB.WorkGiver_CarryToGestationOrganoid</giverClass>
+    <workType>Hauling</workType>
+    <verb>gestate</verb>
+    <gerund>carrying donor to</gerund>
+    <priorityInType>90</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+      <li>Moving</li>
+    </requiredCapacities>
+    <canBeDoneByMechs>false</canBeDoneByMechs>
+  </WorkGiverDef>
+
   <!-- Источник работы: carry selected donor to genophage cocoon (FB_CarryToGenophageCocoon) -->
   <WorkGiverDef>
     <defName>FB_CarryToGenophageCocoon</defName>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <FB_NecrotizerInspectGrowing>Поле некроза: {0} клеток, расширяется до {1}.</FB_NecrotizerInspectGrowing>
+  <FB_NecrotizerInspectHolding>Поле некроза: держит {0} клеток. Пока машина работает, вернуть внутри ничего нельзя.</FB_NecrotizerInspectHolding>
+
+
+</LanguageData>

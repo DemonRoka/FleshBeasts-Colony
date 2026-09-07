@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <FB_FleshMoonCraterInspect>Отращивание пуповины: {0} / {1} гемогеля ({2}%)</FB_FleshMoonCraterInspect>
+  <FB_FleshMoonCraterInspectFlow>Скорость откачки: {0} гемогеля в час</FB_FleshMoonCraterInspectFlow>
+  <FB_FleshMoonCraterInspectStalled>Рост стоит: лунная сеть не даёт гемогель.</FB_FleshMoonCraterInspectStalled>
+  <FB_FleshMoonCraterHemogelEconomyDetail>Отращивание пуповины: запрошено {0}/ч, идёт {1}/ч</FB_FleshMoonCraterHemogelEconomyDetail>
+
+  <FB_FleshMoonCraterFlowBarTitle>Откачка на рост</FB_FleshMoonCraterFlowBarTitle>
+  <FB_FleshMoonCraterFlowBarLabel>{0} гемогеля/ч</FB_FleshMoonCraterFlowBarLabel>
+  <FB_FleshMoonCraterFlowBarTooltip>Насколько быстро кратер тянет гемогель из лунной сети, отращивая пуповину.\n\nДиапазон: {0} - {1} в час.\nЗапрошено: {2} в час.\nФактически идёт: {3} в час.</FB_FleshMoonCraterFlowBarTooltip>
+
+  <FB_FleshMoonCraterFormedLetterLabel>Пуповина оторвана</FB_FleshMoonCraterFormedLetterLabel>
+  <FB_FleshMoonCraterFormedLetterText>Лунный корень небесной пуповины уничтожен, а вместе с ним и путь обратно на поверхность.\n\nНа его месте осталась открытая рана-кратер. Дайте ей гемогель из лунной сети, и она отрастит новую пуповину - скорость откачки задаётся на самом кратере.</FB_FleshMoonCraterFormedLetterText>
+  <FB_FleshMoonCraterRegrownLetterLabel>Пуповина отращена</FB_FleshMoonCraterRegrownLetterLabel>
+  <FB_FleshMoonCraterRegrownLetterText>Кратер сомкнулся вокруг свежего корня. Небесная пуповина снова стоит, и луна опять связана с поверхностью.</FB_FleshMoonCraterRegrownLetterText>
+
+  <FB_FleshMoonCraterDevFinishLabel>DEV: завершить рост</FB_FleshMoonCraterDevFinishLabel>
+  <FB_FleshMoonCraterDevFinishDesc>Мгновенно завершить отращивание пуповины.</FB_FleshMoonCraterDevFinishDesc>
+
+</LanguageData>

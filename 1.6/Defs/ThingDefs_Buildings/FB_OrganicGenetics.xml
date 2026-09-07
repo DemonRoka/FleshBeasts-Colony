@@ -146,4 +146,45 @@
   </comps>
 </ThingDef>
 
+  <!-- Постройка: gestation organoid (FB_GestationOrganoid) -->
+  <ThingDef ParentName="BuildingColonyFleshBase">
+    <defName>FB_GestationOrganoid</defName>
+    <label>gestation organoid</label>
+    <description>A brood organ that suspends a living donor inside its birthing sac. While the donor is held it neither ages nor starves, and the organoid spends hemogel to grow offspring of the donor's own kind. A humanlike donor yields newborns whose xenotype can be composed from archived genepacks. The donor never leaves: its reserves are drained with every birth, and it dies once they are spent.</description>
+    <thingClass>FB.Building_FleshGestationOrganoid</thingClass>
+    <containedPawnsSelectable>true</containedPawnsSelectable>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <tickerType>Normal</tickerType>
+    <size>(3,3)</size>
+    <multipleInteractionCellOffsets>
+      <li>(0,0,-2)</li>
+      <li>(0,0,2)</li>
+      <li>(-2,0,0)</li>
+      <li>(2,0,0)</li>
+    </multipleInteractionCellOffsets>
+    <statBases>
+      <MaxHitPoints>400</MaxHitPoints>
+      <Beauty>-22</Beauty>
+      <Mass>26</Mass>
+    </statBases>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/FB_Organic/GestationOrganoid/GestationOrganoid</texPath>
+      <drawSize>4</drawSize>
+    </graphicData>
+    <uiIconPath>Things/Building/FB_Organic/GestationOrganoid/GestationOrganoid</uiIconPath>
+    <modExtensions>
+      <li Class="FB.GestationOrganoidExtension">
+        <ticksPerCycle>60000</ticksPerCycle>
+        <maxBirths>10</maxBirths>
+        <activeHemogelPerHour>1.5</activeHemogelPerHour>
+      </li>
+    </modExtensions>
+    <comps>
+      <li Class="FB.CompProperties_HemogelUpkeep">
+        <hemogelPerHour>0.6</hemogelPerHour>
+      </li>
+    </comps>
+  </ThingDef>
+
 </Defs>

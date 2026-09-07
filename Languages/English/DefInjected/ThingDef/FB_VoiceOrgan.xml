@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_VoiceOrgan.label>voice organ</FB_VoiceOrgan.label>
+  <FB_VoiceOrgan.description>A grown vocal organ that mimics a human radio operator. A living carrier is seated inside its throat, suspended so it neither ages nor starves, and the organ speaks with that person's voice: traders and factions on the other end hear a colony of people. It answers only while a carrier is held, and its social skill decides how the haggling goes.</FB_VoiceOrgan.description>
+  <FB_VoiceOrganEmbryo.label>voice organ embryo</FB_VoiceOrganEmbryo.label>
+  <FB_VoiceOrganEmbryo.description>An immature vocal organ that will grow into a voice organ.</FB_VoiceOrganEmbryo.description>
+  <FB_FleshTradeBeacon.label>flesh trade beacon</FB_FleshTradeBeacon.label>
+  <FB_FleshTradeBeacon.description>A pulsing marker of flesh that tells the voice organ which goods lie ready for sale. Anything stacked within its reach can be traded away to orbital ships.</FB_FleshTradeBeacon.description>
+</LanguageData>

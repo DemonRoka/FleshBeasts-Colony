@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Свёртка лагеря: осадник снимает свою установку и уносит её в инвентаре. -->
+	<JobDef>
+		<defName>FB_FleshDrainPackUp</defName>
+		<driverClass>FB.JobDriver_FleshDrainPackUp</driverClass>
+		<reportString>packing up TargetA.</reportString>
+	</JobDef>
+
+</Defs>

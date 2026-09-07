@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_ColonyBrain_Structure_CaptureNerveNode_Label>Capture Nerve Node</FB_ColonyBrain_Structure_CaptureNerveNode_Label>
   <FB_ColonyBrain_Structure_CaptureNerveNode_Desc>Adds one shared grasping tendril slot to a colony heart. Without a heart, all capture nerve nodes combine their slots into one autonomous pool.</FB_ColonyBrain_Structure_CaptureNerveNode_Desc>
@@ -34,9 +34,11 @@
   <FB_GraspingPolicy_Type_Animal>Animal</FB_GraspingPolicy_Type_Animal>
   <FB_GraspingPolicy_Type_Insect>Insect</FB_GraspingPolicy_Type_Insect>
   <FB_GraspingPolicy_Type_Entity>Entity</FB_GraspingPolicy_Type_Entity>
+  <FB_GraspingPolicy_Type_Mechanoid>Mechanoid</FB_GraspingPolicy_Type_Mechanoid>
   <FB_GraspingPolicy_Type_Other>Other</FB_GraspingPolicy_Type_Other>
   <FB_GraspingPolicy_RelationAlly>Ally</FB_GraspingPolicy_RelationAlly>
   <FB_GraspingPolicy_RelationHostile>Hostile</FB_GraspingPolicy_RelationHostile>
   <FB_GraspingPolicy_RelationNeutral>Neutral</FB_GraspingPolicy_RelationNeutral>
   <FB_GraspingPolicy_RelationUnknown>Unknown</FB_GraspingPolicy_RelationUnknown>
+  <FB_GraspingTendrils_Suppressed>Neurons suppressed here</FB_GraspingTendrils_Suppressed>
 </LanguageData>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Сборщик: сносит выпавшие бочки в кучу лагеря. Драться лезет только по необходимости,
+	     на колонию не идёт - осада обороняется, пока стоит хоть один насос. -->
+	<DutyDef>
+		<defName>FB_DrainCollect</defName>
+		<alwaysShowWeapon>true</alwaysShowWeapon>
+		<thinkNode Class="ThinkNode_Priority">
+			<subNodes>
+				<li Class="JobGiver_TakeCombatEnhancingDrug">
+					<onlyIfInDanger>true</onlyIfInDanger>
+				</li>
+				<li Class="ThinkNode_HarmedRecently">
+					<thresholdTicks>600</thresholdTicks>
+					<subNodes>
+						<li Class="JobGiver_AIFightEnemies">
+							<targetAcquireRadius>30</targetAcquireRadius>
+							<targetKeepRadius>36</targetKeepRadius>
+							<needLOSToAcquireNonPawnTargets>true</needLOSToAcquireNonPawnTargets>
+						</li>
+					</subNodes>
+				</li>
+				<li Class="JobGiver_AIFightEnemies">
+					<targetAcquireRadius>10</targetAcquireRadius>
+					<targetKeepRadius>13</targetKeepRadius>
+					<needLOSToAcquireNonPawnTargets>true</needLOSToAcquireNonPawnTargets>
+				</li>
+				<li Class="FB.JobGiver_HaulDrainCanister" />
+				<li Class="JobGiver_AIDefendPoint">
+					<targetAcquireRadius>26</targetAcquireRadius>
+					<targetKeepRadius>32</targetKeepRadius>
+				</li>
+				<li Class="JobGiver_WanderNearDutyLocation">
+					<wanderRadius>6</wanderRadius>
+				</li>
+			</subNodes>
+		</thinkNode>
+	</DutyDef>
+
+	<!-- Свёртка лагеря: перед уходом бригада снимает своё оборудование. Отбиваться при этом
+	     не перестаёт, но сама в драку не лезет - задача унести, а не додавить. -->
+	<DutyDef>
+		<defName>FB_DrainPackUp</defName>
+		<alwaysShowWeapon>true</alwaysShowWeapon>
+		<thinkNode Class="ThinkNode_Priority">
+			<subNodes>
+				<li Class="JobGiver_TakeCombatEnhancingDrug">
+					<onlyIfInDanger>true</onlyIfInDanger>
+				</li>
+				<li Class="ThinkNode_HarmedRecently">
+					<thresholdTicks>600</thresholdTicks>
+					<subNodes>
+						<li Class="JobGiver_AIFightEnemies">
+							<targetAcquireRadius>30</targetAcquireRadius>
+							<targetKeepRadius>36</targetKeepRadius>
+							<needLOSToAcquireNonPawnTargets>true</needLOSToAcquireNonPawnTargets>
+						</li>
+					</subNodes>
+				</li>
+				<li Class="JobGiver_AIFightEnemies">
+					<targetAcquireRadius>10</targetAcquireRadius>
+					<targetKeepRadius>13</targetKeepRadius>
+					<needLOSToAcquireNonPawnTargets>true</needLOSToAcquireNonPawnTargets>
+				</li>
+				<li Class="FB.JobGiver_FleshDrainPackUp" />
+				<li Class="JobGiver_AIDefendPoint">
+					<targetAcquireRadius>26</targetAcquireRadius>
+					<targetKeepRadius>32</targetKeepRadius>
+				</li>
+				<li Class="JobGiver_WanderNearDutyLocation">
+					<wanderRadius>6</wanderRadius>
+				</li>
+			</subNodes>
+		</thinkNode>
+	</DutyDef>
+
+</Defs>
