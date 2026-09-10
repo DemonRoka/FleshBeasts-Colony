@@ -12,7 +12,7 @@
     </statBases>
     <uiIconPath>Things/Pawn/FB_CarrionArchitect/FB_CarrionArchitect_MenuIcon</uiIconPath>
     <race>
-      <thinkTreeMain>FB_FleshbeastStandardMain</thinkTreeMain>
+      <thinkTreeMain>FB_CarrionArchitectMain</thinkTreeMain>
       <thinkTreeConstant>FB_FleshbeastStandardConstant</thinkTreeConstant>
       <body>Bulbfreak</body>
       <baseBodySize>4</baseBodySize>
@@ -40,8 +40,11 @@
     </race>
     <comps>
       <li Class="FB.CompProperties_FleshbeastDraftable" />
-      <li Class="FB.CompProperties_CarrionReworkAbility">
-        <abilityDef>FB_CarrionRework</abilityDef>
+      <li Class="FB.CompProperties_CarrionArchitectRework">
+        <fingerspikesPerBodySize>2</fingerspikesPerBodySize>
+        <spawnRadius>4</spawnRadius>
+        <workTicks>600</workTicks>
+        <iconPath>UI/Abilities/CarrionRework</iconPath>
       </li>
       <li Class="FB.CompProperties_BulbfreakHostStorage" />
     </comps>

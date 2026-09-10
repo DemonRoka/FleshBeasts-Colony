@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <FB_PitBurrowEmergence.label>появление плотяной норы</FB_PitBurrowEmergence.label>
-  <FB_PitBurrowEmergence.letterLabel>Плотяная нора пробивается наружу</FB_PitBurrowEmergence.letterLabel>
-  <FB_PitBurrowEmergence.letterText>Из-под земли появилась плотяная нора, выпуская существ из глубин.</FB_PitBurrowEmergence.letterText>
+  <FB_PitBurrowEmergence.label>прорыв плотяной норы</FB_PitBurrowEmergence.label>
+  <FB_PitBurrowEmergence.letterLabel>Плотяная нора раскрылась</FB_PitBurrowEmergence.letterLabel>
+  <FB_PitBurrowEmergence.letterText>Земля просела, открыв узкий провал в темноту. Из глубины тянет сыростью, гнилью и плесенью: так пахнет плоть, умершая давно, но не распавшаяся до конца.\n\nИменно это звало вас. Внизу ждёт мёртвая колония плоти, и в её центре что-то всё ещё живо. Зов не стих; он тянет вас вниз, сквозь отвращение и страх.</FB_PitBurrowEmergence.letterText>
   <FB_FleshContainmentRaid.label>кордон выжигателей</FB_FleshContainmentRaid.label>
-  <FB_FleshNecrosis.label>некроз покрова</FB_FleshNecrosis.label>
-  <FB_FleshRelayRaid.label>ретрансляторный рейд</FB_FleshRelayRaid.label>
-  <FB_FleshDrainRaid.label>дренажный рейд</FB_FleshDrainRaid.label>
+  <FB_FleshNecrosis.label>некроз плотяного покрова</FB_FleshNecrosis.label>
+  <FB_FleshRelayRaid.label>ретрансляторная осада</FB_FleshRelayRaid.label>
+  <FB_FleshDrainRaid.label>дренажная осада</FB_FleshDrainRaid.label>
 </LanguageData>

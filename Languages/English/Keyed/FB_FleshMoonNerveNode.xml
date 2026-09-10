@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <FB_FleshMoonNerveNodeDesignatorLabel>Grow lunar nerve node</FB_FleshMoonNerveNodeDesignatorLabel>
+  <FB_FleshMoonNerveNodeDesignatorLabel>Lunar nerve node</FB_FleshMoonNerveNodeDesignatorLabel>
   <FB_FleshMoonNerveNodeDesignatorDesc>Grow a local command organ for the flesh moon. It stores the moon's hemogel reserve and coordinates hauling tendrils.</FB_FleshMoonNerveNodeDesignatorDesc>
   <FB_FleshMoonDesignatorOnlyOnMoon>This can only be used inside the flesh moon.</FB_FleshMoonDesignatorOnlyOnMoon>
   <FB_FleshMoonNerveNodeAlreadyExists>The flesh moon already has a nerve node.</FB_FleshMoonNerveNodeAlreadyExists>

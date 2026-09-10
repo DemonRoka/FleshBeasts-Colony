@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <FB_FleshMoonNerveNodeDesignatorLabel>Вырастить лунный нервный узел</FB_FleshMoonNerveNodeDesignatorLabel>
+  <FB_FleshMoonNerveNodeDesignatorLabel>Лунный нервный узел</FB_FleshMoonNerveNodeDesignatorLabel>
   <FB_FleshMoonNerveNodeDesignatorDesc>Вырастить локальный орган управления луной плоти. Он хранит лунный резерв гемогеля и направляет грузовые щупальца.</FB_FleshMoonNerveNodeDesignatorDesc>
   <FB_FleshMoonDesignatorOnlyOnMoon>Это можно использовать только внутри луны плоти.</FB_FleshMoonDesignatorOnlyOnMoon>
   <FB_FleshMoonNerveNodeAlreadyExists>У луны плоти уже есть нервный узел.</FB_FleshMoonNerveNodeAlreadyExists>

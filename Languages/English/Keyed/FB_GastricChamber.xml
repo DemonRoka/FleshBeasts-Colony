@@ -17,5 +17,5 @@
   <FB_ColonyBrainTendrilLimit_BarLabel>{0} / {1} | {2}/h</FB_ColonyBrainTendrilLimit_BarLabel>
   <FB_ColonyBrainTendrilLimit_Tooltip>Sets how many hauling tendrils this colony brain may maintain. Lowering the limit makes excess tendrils drop carried loads and retract. Current upkeep: {2} hemogel per hour.</FB_ColonyBrainTendrilLimit_Tooltip>
   <FB_ShowColonyTendrilCaptureZone>Show colony tendril reach</FB_ShowColonyTendrilCaptureZone>
-  <FB_ShowColonyTendrilCaptureZoneDesc>Show the automatic pickup zone used by colony hauling tendrils.</FB_ShowColonyTendrilCaptureZoneDesc>
+  <FB_ShowColonyTendrilCaptureZoneDesc>Show the colony cargo tendril zone: inside the bright border they pick up, deliver and move freely, the faint rim is how far they still stretch on the way, and beyond it they never set foot.</FB_ShowColonyTendrilCaptureZoneDesc>
 </LanguageData>

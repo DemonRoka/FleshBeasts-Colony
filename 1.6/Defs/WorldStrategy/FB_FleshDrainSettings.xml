@@ -27,6 +27,11 @@
 		<withdrawReserveFraction>0.2</withdrawReserveFraction>
 
 		<minReserveToFire>400</minReserveToFire>
+
+		<!-- Не раньше 30-го дня колонии и не на мизерных очках угрозы:
+		     иначе за гемогелем приезжает один налётчик почти сразу после высадки -->
+		<earliestDayToFire>30</earliestDayToFire>
+		<minThreatPoints>250</minThreatPoints>
 		<minSiegeDistance>25</minSiegeDistance>
 		<!-- 25 дней: запас успевает отрасти, дренаж не садится на шею колонии -->
 		<minIntervalTicks>1500000</minIntervalTicks>

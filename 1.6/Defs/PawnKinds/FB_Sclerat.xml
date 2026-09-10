@@ -6,6 +6,8 @@
     <label>sclerat</label>
     <race>FB_Sclerat</race>
     <combatPower>5</combatPower>
+    <!-- Рабочая тварь без инструментов ближнего боя: иначе упёршись в путь врагом, pather ищет удар и пишет ошибку -->
+    <canMeleeAttack>false</canMeleeAttack>
     <lifeStages>
       <li>
         <bodyGraphicData>

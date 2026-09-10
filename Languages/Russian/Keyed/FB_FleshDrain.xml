@@ -19,13 +19,16 @@
   <!-- Бочка -->
   <FB_HemogelCanisterInspect>Внутри: {0} гемогеля</FB_HemogelCanisterInspect>
   <FB_HemogelCanisterPourLabel>Вылить</FB_HemogelCanisterPourLabel>
-  <FB_HemogelCanisterPourDesc>Слить эту стопку прямо в сеть гемогеля: {0}. Учтите, что вылитый в сеть гемогель насосы могут выкачать снова, а бочку в хранилище - нет.</FB_HemogelCanisterPourDesc>
+  <FB_HemogelCanisterPourDesc>Слить эту стопку в гемогелевую сеть колонии: {0}. Бочка должна лежать на плотяном покрове. Учтите, что вылитый в сеть гемогель насосы могут выкачать снова, а бочку в хранилище - нет.</FB_HemogelCanisterPourDesc>
   <FB_HemogelCanisterPourForbidden>Сначала нужно снять запрет.</FB_HemogelCanisterPourForbidden>
   <FB_HemogelCanisterPoured>В сеть возвращено гемогеля: {0}.</FB_HemogelCanisterPoured>
+  <FB_HemogelCanisterPourNotOnFlesh>Бочку нужно положить на плотяной покров.</FB_HemogelCanisterPourNotOnFlesh>
+  <FB_HemogelCanisterPourNetworkFull>Гемогелевой сети колонии некуда принять эту бочку.</FB_HemogelCanisterPourNetworkFull>
+  <FB_HemogelCanisterPouredPartial>В сеть возвращено гемогеля: {0}. Больше сеть не вмещает, бочек осталось: {1}.</FB_HemogelCanisterPouredPartial>
   <FB_FleshDrainPumpNothingToTake>Брать здесь больше нечего.</FB_FleshDrainPumpNothingToTake>
   <FB_FleshDrainPumpNoPower>Нет питания: откачка стоит.</FB_FleshDrainPumpNoPower>
   <FB_FleshDrainPumpNoFlesh>Не на плотяном покрове: качать неоткуда.</FB_FleshDrainPumpNoFlesh>
-  <FB_NeuronSuppressorInspect>Щупальца захвата подавлены в радиусе {0} клеток.</FB_NeuronSuppressorInspect>
+  <FB_NeuronSuppressorInspect>Щупальца подавлены в радиусе {0} клеток: ни захват, ни вынос груза.</FB_NeuronSuppressorInspect>
   <FB_NeuronSuppressorNoPower>Нет питания: поле не держится.</FB_NeuronSuppressorNoPower>
 
   <!-- Dev -->

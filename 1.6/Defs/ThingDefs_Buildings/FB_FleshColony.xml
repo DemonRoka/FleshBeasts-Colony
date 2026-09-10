@@ -20,8 +20,8 @@
     <portal>
       <pocketMapGenerator>FleshColonyUndercave</pocketMapGenerator>
       <exitDef>FB_CaveExit</exitDef>
-      <enteredLetterLabel>Flesh colony lair</enteredLetterLabel>
-      <enteredLetterText>Entered flesh colony undercave. Destroy structures.</enteredLetterText>
+      <enteredLetterLabel>The call is stronger here</enteredLetterLabel>
+      <enteredLetterText>The moment you step under the vaults, the call grows louder. It no longer comes from everywhere at once: it pulls you straight towards the centre of the cave.\n\nThe colony around you is dead. Slack rotting flesh, sagging walls, hollow chambers that forgot how to breathe long ago. But something in the very middle is still alive. And it has been waiting for you.\n\nCut a path through the dead flesh to the core that is still alive.</enteredLetterText>
       <enteredLetterDef>ThreatBig</enteredLetterDef>
       <traverseSound>TraversePitGate</traverseSound>
     </portal>

@@ -13,4 +13,12 @@
     <reportString>implanting itself into TargetB.</reportString>
     <checkOverrideOnDamage>Never</checkOverrideOnDamage>
   </JobDef>
+
+  <JobDef>
+    <defName>FB_ForcedFleshConversionVolunteer</defName>
+    <driverClass>FB.JobDriver_ForcedFleshConversionVolunteer</driverClass>
+    <reportString>accepting the flesh at a colony heart.</reportString>
+    <checkOverrideOnDamage>Never</checkOverrideOnDamage>
+    <casualInterruptible>false</casualInterruptible>
+  </JobDef>
 </Defs>

@@ -9,6 +9,7 @@
     <forceNoDeathNotification>true</forceNoDeathNotification>
     <forceDeathOnDowned>true</forceDeathOnDowned>
     <defaultFactionDef>PlayerColony</defaultFactionDef>
+    <canOpenDoors>true</canOpenDoors>
     <overrideDebugActionCategory>FleshBeasts</overrideDebugActionCategory>
     <lifeStages>
       <li>

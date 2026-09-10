@@ -51,6 +51,10 @@
 		<!-- 25 дней: выжигание идёт вторым слоем, реже релея -->
 		<minIntervalTicks>1500000</minIntervalTicks>
 		<minFleshCells>300</minFleshCells>
+
+		<!-- Ранняя колония соседей не интересует: давление копится, но кордон ждёт срока -->
+		<earliestDayToFire>25</earliestDayToFire>
+		<minThreatPoints>250</minThreatPoints>
 	</FB.FleshContainmentDef>
 
 </Defs>

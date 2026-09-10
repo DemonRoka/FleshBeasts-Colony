@@ -23,9 +23,16 @@
 		<scientistHat>Apparel_Tuque</scientistHat>
 		<scientistHatChance>0.25</scientistHatChance>
 		<scientistCoatColor>(0.93, 0.94, 0.92)</scientistCoatColor>
+		<scientistCount>2</scientistCount>
+		<scientistMajorPassionChance>0.5</scientistMajorPassionChance>
 
-		<baseBreakIntervalTicks>7500</baseBreakIntervalTicks>
-		<minBreakIntervalTicks>2500</minBreakIntervalTicks>
+		<!-- Установка сама по себе не работает: и настройка, и заряд следующего срыва идут
+		     только от рук учёных у пульта. Единица работы - тик одного учёного со скоростью
+		     исследования 1.0; двое умелых дают около 3.6 за тик, то есть первый срыв примерно
+		     через 7500 тиков живого времени, а полная настройка - за половину суток -->
+		<breakWorkBase>27000</breakWorkBase>
+		<breakWorkMin>9000</breakWorkMin>
+		<tuningWork>110000</tuningWork>
 		<berserkDurationTicks>2500~5000</berserkDurationTicks>
 		<lureChance>0.5</lureChance>
 
@@ -44,9 +51,6 @@
 		<mineDef>TrapIED_HighExplosive</mineDef>
 		<mineCount>6</mineCount>
 
-		<studyIntervalTicks>250</studyIntervalTicks>
-		<studyProgressPerInterval>0.004</studyProgressPerInterval>
-
 		<!-- Пороги ниже, чем у кордона: изучение колонии идёт первым слоем, выжигание вторым -->
 		<pressureThreshold>140</pressureThreshold>
 		<pressurePerBeast>1.2</pressurePerBeast>
@@ -56,6 +60,10 @@
 		<!-- 20 дней: релей приходит первым слоем, но не чаще одного раза за сезон -->
 		<minIntervalTicks>1200000</minIntervalTicks>
 		<minColonyBeasts>6</minColonyBeasts>
+
+		<!-- Самая поздняя из особых осад: антенну везут к уже заметной колонии -->
+		<earliestDayToFire>35</earliestDayToFire>
+		<minThreatPoints>300</minThreatPoints>
 	</FB.FleshRelayDef>
 
 </Defs>

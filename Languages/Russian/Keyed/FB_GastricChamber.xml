@@ -17,5 +17,5 @@
   <FB_ColonyBrainTendrilLimit_BarLabel>{0} / {1} | {2}/ч</FB_ColonyBrainTendrilLimit_BarLabel>
   <FB_ColonyBrainTendrilLimit_Tooltip>Настраивает, сколько грузовых щупалец может поддерживать этот мозг колонии. При снижении лимита лишние щупальца бросают переносимый груз и втягиваются. Текущий расход: {2} гемогеля в час.</FB_ColonyBrainTendrilLimit_Tooltip>
   <FB_ShowColonyTendrilCaptureZone>Показывать радиус щупалец колонии</FB_ShowColonyTendrilCaptureZone>
-  <FB_ShowColonyTendrilCaptureZoneDesc>Показывает автоматическую зону подбора предметов для грузовых щупалец колонии.</FB_ShowColonyTendrilCaptureZoneDesc>
+  <FB_ShowColonyTendrilCaptureZoneDesc>Показывает зону грузовых щупалец колонии: внутри яркой границы они берут и носят груз и ходят свободно, бледная кайма - куда они ещё дотягиваются на ходу, дальше не ступают вовсе.</FB_ShowColonyTendrilCaptureZoneDesc>
 </LanguageData>

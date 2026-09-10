@@ -41,6 +41,13 @@
     <targetType>Thing</targetType>
   </DesignationDef>
 
+  <!-- Carrion architect rework marker -->
+  <DesignationDef>
+    <defName>FB_CarrionReworkTarget</defName>
+    <texturePath>UI/Plan/CarrionReworkPlan</texturePath>
+    <targetType>Thing</targetType>
+  </DesignationDef>
+
   <!-- Group attack target marker -->
   <DesignationDef>
     <defName>FB_FleshbeastAttackTarget</defName>

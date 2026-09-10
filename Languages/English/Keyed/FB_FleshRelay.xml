@@ -3,7 +3,7 @@
 
   <!-- Arrival -->
   <FB_FleshRelayArrivedLabel>Relay antenna</FB_FleshRelayArrivedLabel>
-  <FB_FleshRelayArrivedText>{0} has landed a relay antenna on the map with {1} people around it. Living fleshbeasts are strapped inside the cage - caught elsewhere on the planet - and the machine is broadcasting their severed signal across the local psychic band.\n\nSome beasts go feral where they stand and turn on the colony. Others answer the call and walk into the cage themselves; those can still be saved, by dropping them or by breaking the machine.\n\nThe cage holds {2}, and there is a dreadmeld in it already. Break the machine and every captive comes back to you.</FB_FleshRelayArrivedText>
+  <FB_FleshRelayArrivedText>A force of {1} people from {0} has entered the colony's territory. They plan to entrench and call in a relay antenna. Once active, the machine will broadcast the distorted call of captive fleshbeasts.\n\nThe antenna is dead on its own: the signal is built up by the squad's technicians working its console. Kill them or pin them down and the broadcast stops. Once the tuning is finished that no longer helps - a tuned antenna runs without people.\n\nThe signal can drive some beasts feral and turn them against the colony. Others will answer the call and walk into the cage; they can still be saved by downing them or destroying the machine.\n\nThe cage holds {2} creatures, and a dreadmeld is already among its captives. Destroy the antenna to free all captives and bring them under your control.</FB_FleshRelayArrivedText>
 
   <FB_FleshRelayDroppedMessage>{0} has finished digging in, and a relay antenna is coming down onto their camp.</FB_FleshRelayDroppedMessage>
 
@@ -26,7 +26,9 @@
   <!-- Inspect -->
   <FB_FleshRelayCaptivesInspect>Captives: {0} / {1}</FB_FleshRelayCaptivesInspect>
   <FB_FleshRelayStudyInspect>Tuning: {0}%</FB_FleshRelayStudyInspect>
-  <FB_FleshRelayNextBreakInspect>Next break in: {0}</FB_FleshRelayNextBreakInspect>
+  <FB_FleshRelayChargeInspect>Pulse charge: {0}% - {1}</FB_FleshRelayChargeInspect>
+  <FB_FleshRelayStudyActive>technicians at the console</FB_FleshRelayStudyActive>
+  <FB_FleshRelayStudyIdle>nobody is working the console</FB_FleshRelayStudyIdle>
   <FB_FleshRelayEmitterInspect>Abandoned emitter: running unattended</FB_FleshRelayEmitterInspect>
   <FB_FleshRelayNextWaveInspect>Next wave in: {0}</FB_FleshRelayNextWaveInspect>
 

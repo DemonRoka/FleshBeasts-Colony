@@ -7,7 +7,7 @@
   <FB_FleshArchitectBrainHemogelTooltip>Hemogel stored in this map's connected network reserves, including the umbilicus lunar link. Flesh Architect spends this reserve when growing organs.</FB_FleshArchitectBrainHemogelTooltip>
   <FB_FleshArchitectBrainHemogelTooltipDev>Hemogel stored in this map's connected network reserves, including the umbilicus lunar link. Dev mode ignores building costs, but the real reserve is shown here.</FB_FleshArchitectBrainHemogelTooltipDev>
   <FB_GrowEmbryoDescNoCost>Place embryo to grow {0}.</FB_GrowEmbryoDescNoCost>
-  <FB_GrowOrganoidCopy_Label>Grow copy</FB_GrowOrganoidCopy_Label>
+  <FB_GrowOrganoidCopy_Label>Copy</FB_GrowOrganoidCopy_Label>
   <FB_GrowOrganoidCopy_Desc>Select a place to grow another {0} through the Flesh Architect.</FB_GrowOrganoidCopy_Desc>
   <FB_CopyFleshmassWallPlan_Label>Place flesh wall plan</FB_CopyFleshmassWallPlan_Label>
   <FB_CopyFleshmassWallPlan_Desc>Select cells where the colony should grow more flesh walls.</FB_CopyFleshmassWallPlan_Desc>
@@ -19,15 +19,15 @@
   <FB_ClearColonyEyes_Label>Remove colony eyes</FB_ClearColonyEyes_Label>
   <FB_ClearColonyEyes_Desc>Remove colony eye organs in the selected cells.</FB_ClearColonyEyes_Desc>
   <FB_ClearColonyEyes_NoneHere>No colony eye here.</FB_ClearColonyEyes_NoneHere>
-  <FB_GrowColonyEye_Label>Grow colony eye</FB_GrowColonyEye_Label>
+  <FB_GrowColonyEye_Label>Colony eye</FB_GrowColonyEye_Label>
   <FB_GrowColonyEye_Desc>Grow a sensory eye directly from an empty patch of colony flesh.</FB_GrowColonyEye_Desc>
-  <FB_GrowFleshPlant_Label>Grow {0}</FB_GrowFleshPlant_Label>
+  <FB_GrowFleshPlant_Label>{0}</FB_GrowFleshPlant_Label>
   <FB_GrowFleshPlant_Desc>Grow {0} from colony flesh. The plant starts newly sprouted.</FB_GrowFleshPlant_Desc>
-  <FB_GrowGrassEyes_Label>Grow eye grass</FB_GrowGrassEyes_Label>
+  <FB_GrowGrassEyes_Label>Eye grass</FB_GrowGrassEyes_Label>
   <FB_GrowGrassEyes_Desc>Grow eye grass from colony flesh. The plant starts newly sprouted.</FB_GrowGrassEyes_Desc>
-  <FB_GrowFleshTree_Label>Grow flesh tree</FB_GrowFleshTree_Label>
+  <FB_GrowFleshTree_Label>Flesh tree</FB_GrowFleshTree_Label>
   <FB_GrowFleshTree_Desc>Grow a flesh tree from colony flesh. The plant starts newly sprouted.</FB_GrowFleshTree_Desc>
-  <FB_GrowLanternFlesh_Label>Grow lantern flesh</FB_GrowLanternFlesh_Label>
+  <FB_GrowLanternFlesh_Label>Lantern flesh</FB_GrowLanternFlesh_Label>
   <FB_GrowLanternFlesh_Desc>Grow lantern flesh from colony flesh. The plant starts newly sprouted and lights the ground around it.</FB_GrowLanternFlesh_Desc>
   <FB_GrowFleshPlant_Variant>Variant {0}</FB_GrowFleshPlant_Variant>
   <FB_GrowFleshPlant_VariantRandom>Random variant</FB_GrowFleshPlant_VariantRandom>
@@ -48,7 +48,7 @@
   <FB_FailedGeneratePawnKind>Failed to generate {0}.</FB_FailedGeneratePawnKind>
   <FB_ColonyBrain_Structure_TentacleTurret_Desc>Grows a stationary fleshbeast defense that launches keratin spines at distant intruders and lashes nearby enemies with heavy tentacles.</FB_ColonyBrain_Structure_TentacleTurret_Desc>
   <FB_LocalFleshRelocateBuilding_Label>Move flesh structure</FB_LocalFleshRelocateBuilding_Label>
-  <FB_LocalFleshRelocateBuilding_Desc>Select a player-controlled flesh building, then choose a new flesh-covered destination on the same map.</FB_LocalFleshRelocateBuilding_Desc>
+  <FB_LocalFleshRelocateBuilding_Desc>Select a player-controlled flesh building, then choose a new flesh-covered destination on the same map. Pawns at the destination do not block the move: they step out from under an impassable building on their own.</FB_LocalFleshRelocateBuilding_Desc>
   <FB_FleshMoonRelocateBuilding_Label>Relocate flesh structure</FB_FleshMoonRelocateBuilding_Label>
   <FB_FleshMoonRelocateBuilding_Desc>Select a player-controlled flesh building on this map, then choose a flesh-covered destination on the linked map.</FB_FleshMoonRelocateBuilding_Desc>
   <FB_FleshRelocationAlreadyHere>Choose a different destination.</FB_FleshRelocationAlreadyHere>
@@ -64,7 +64,7 @@
   <FB_FleshMoonRelocationForbiddenBuilding>This structure is anchored to colony systems and cannot be relocated.</FB_FleshMoonRelocationForbiddenBuilding>
   <FB_FleshMoonRelocationAttachedUnsupported>Buildings with wall attachments or attachment buildings cannot be relocated yet.</FB_FleshMoonRelocationAttachedUnsupported>
   <FB_FleshMoonRelocationCannotPlaceHere>Cannot place the relocated building here.</FB_FleshMoonRelocationCannotPlaceHere>
-  <FB_FleshMoonRelocationTargetBlocked>The destination footprint must be empty.</FB_FleshMoonRelocationTargetBlocked>
+  <FB_FleshMoonRelocationTargetBlocked>The destination footprint must be clear of buildings and items.</FB_FleshMoonRelocationTargetBlocked>
   <FB_FleshMoonRelocationBlockedByAcid>Remove the gastric acid before relocating a building here.</FB_FleshMoonRelocationBlockedByAcid>
   <FB_FleshMoonRelocationTargetReserved>Another relocation is already growing into this footprint.</FB_FleshMoonRelocationTargetReserved>
   <FB_FleshMoonRelocationInProgress>This building is already being relocated.</FB_FleshMoonRelocationInProgress>

@@ -346,6 +346,9 @@
 			<requiredResearch>FB_FingerspikeImplantation</requiredResearch>
 			<carrierJobDef>FB_ForcedFleshConversionDoctor</carrierJobDef>
 			<fingerspikeJobDef>FB_ForcedFleshConversionFingerspike</fingerspikeJobDef>
+			<!-- Свой колонист идёт к узлу сам; пальцешипов ему нужно вдвое меньше -->
+			<volunteerJobDef>FB_ForcedFleshConversionVolunteer</volunteerJobDef>
+			<colonistCostMultiplier>0.5</colonistCostMultiplier>
 			<stasisHediff>FB_GraftmawSurgicalStasis</stasisHediff>
 			<anesthesiaHediff>Anesthetic</anesthesiaHediff>
 			<restraintMoteDefName>Mote_HarbingerTreeRoots</restraintMoteDefName>
@@ -757,7 +760,7 @@
       <enabledByDefault>true</enabledByDefault>
       <maxSimultaneous>3</maxSimultaneous>
       <searchRadius>60</searchRadius>
-      <checkIntervalTicks>1000</checkIntervalTicks>
+      <checkIntervalTicks>500</checkIntervalTicks>
       <researchToAvoidFriendly>FB_FriendlyCaptureRecognition</researchToAvoidFriendly>
     </li>
     <li Class="FB.CompProperties_HemogelFarmFromTerrain">
@@ -2159,6 +2162,7 @@
       </damageData>
     </graphicData>
     <building>
+      <expandHomeArea>false</expandHomeArea>
       <isInert>true</isInert>
       <ai_chillDestination>false</ai_chillDestination>
       <paintable>false</paintable>
@@ -2576,7 +2580,7 @@
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <texPath>Things/Building/FB_Organic/BoneMarrowExtractor/BoneMarrowExtractor</texPath>
-      <drawSize>(1,1)</drawSize>
+      <drawSize>1.5</drawSize>
     </graphicData>
     <uiIconPath>Things/Building/FB_Organic/BoneMarrowExtractor/BoneMarrowExtractor</uiIconPath>
     <statBases>

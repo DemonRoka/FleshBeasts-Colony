@@ -6,9 +6,9 @@
   <FB_HemogelCanister.description>A sealed drum of hemogel siphoned out of the colony. Pour it back into the network, or leave it in storage where the pumps cannot reach it.</FB_HemogelCanister.description>
   <FB_FleshDrainPumpIncoming.label>drain pump (incoming)</FB_FleshDrainPumpIncoming.label>
   <FB_NeuronSuppressor.label>neuron suppressor</FB_NeuronSuppressor.label>
-  <FB_NeuronSuppressor.description>A squat emitter that floods the surrounding tissue with a jamming signal. Grasping tendrils cannot take hold of anyone inside its field, which is what lets a siege crew work on living flesh at all.
+  <FB_NeuronSuppressor.description>A squat emitter that floods the surrounding tissue with a jamming signal. Grasping tendrils cannot take hold of anyone inside its field, which is what lets a siege crew work on living flesh at all. Cargo tendrils cannot reach under the dome either, so whatever is stacked inside the field needs no guarding.
 
-Tear it down and the cover starts pulling their people under again.
+Tear it down and the cover starts pulling their people under again - and the tendrils start carrying off their goods.
 
 The field holds only while it has power, and the emitter unbolts and travels the same way the pumps do.</FB_NeuronSuppressor.description>
   <FB_NeuronSuppressorIncoming.label>neuron suppressor (incoming)</FB_NeuronSuppressorIncoming.label>

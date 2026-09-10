@@ -662,3 +662,5 @@ docs/claude-settings.example.json
 docs/claude-skills/
 tools/install-claude-skills.cmd
 docs/lore-horax.md
+docs/review-fleshbeasts-descriptions.md
+docs/review-hediff-descriptions.md

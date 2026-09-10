@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <ThingDef ParentName="BuildingColonyFleshBase">
     <defName>FB_FleshTunnelMaw</defName>
@@ -11,6 +11,7 @@
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <texPath>Things/Building/FB_Organic/FleshTunnel/FleshTunnelMaw</texPath>
+      <shaderType>Transparent</shaderType>
       <drawSize>(5,5)</drawSize>
     </graphicData>
     <uiIconPath>Things/Building/FB_Organic/FleshTunnel/FleshTunnelMaw</uiIconPath>

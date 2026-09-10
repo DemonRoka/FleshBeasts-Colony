@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_FleshIntrusion.label>flesh intrusion</FB_FleshIntrusion.label>
-  <FB_FleshIntrusion.description>A burrowing flesh-organ is lodged inside an outer body part, chewing inward until the tissue fails or the organism burns itself out.</FB_FleshIntrusion.description>
+  <FB_FleshIntrusion.description>An implanted flesh organ burrows through the affected body part, causing pain and damage. It stops when that part is destroyed or its own reserves are exhausted. If the host dies while the organ is active, colony fleshbeasts burst from the body.</FB_FleshIntrusion.description>
   <FB_FleshIntrusion.stages.0.label>burrowing</FB_FleshIntrusion.stages.0.label>
 </LanguageData>

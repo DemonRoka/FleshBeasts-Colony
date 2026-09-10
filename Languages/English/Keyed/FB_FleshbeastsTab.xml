@@ -60,7 +60,7 @@
   
   <FB_Fleshbeasts_HideNonCommandableTooltip>Toggle non-commandable fleshbeasts in this list.</FB_Fleshbeasts_HideNonCommandableTooltip>
   <FB_FormFleshbeastMassZone_Label>Fleshbeast mass zone</FB_FormFleshbeastMassZone_Label>
-  <FB_FormFleshbeastMassZone_Desc>Designate a zone where fleshbeasts can fold into a dormant mass, reducing active pawns until released.</FB_FormFleshbeastMassZone_Desc>
+  <FB_FormFleshbeastMassZone_Desc>Designate a zone for keeping large numbers of fleshbeasts with less strain on the game. Visible movement continues inside, but simplified simulation replaces each creature's normal behavior. Fleshbeasts can be released manually and emerge automatically when an enemy approaches.\n\nThis feature is intended primarily to preserve performance between battles, when large numbers of fleshbeasts would otherwise be idle. Use it at your discretion. Please do not exploit the simplified simulation to bypass gameplay restrictions.</FB_FormFleshbeastMassZone_Desc>
   <FB_FleshbeastMassZone_Status>In {0}</FB_FleshbeastMassZone_Status>
   <FB_FleshbeastMassZone_Label>fleshbeast mass zone</FB_FleshbeastMassZone_Label>
   <FB_FleshbeastMassZone_Inspect>Contained fleshbeasts: {0}. Total body size: {1}. Capacity: {2}.</FB_FleshbeastMassZone_Inspect>
@@ -73,6 +73,8 @@
   <FB_FleshbeastMassZone_UnloadAll>Unload all</FB_FleshbeastMassZone_UnloadAll>
   <FB_FleshbeastMassZone_UnloadAllDesc>Release all fleshbeasts from this mass zone.</FB_FleshbeastMassZone_UnloadAllDesc>
   <FB_FleshbeastMassZone_UnloadKindShort>Unload</FB_FleshbeastMassZone_UnloadKindShort>
+  <FB_FleshbeastMassZone_AssignTooltip>Mass zone: {0}\n\nAssigned fleshbeasts with no orders, commands or lords return here on their own and fold into the mass. Picking an allowed area cancels the assignment.</FB_FleshbeastMassZone_AssignTooltip>
+  <FB_FleshbeastMassZone_InspectAssigned>Assigned fleshbeasts: {0}.</FB_FleshbeastMassZone_InspectAssigned>
   <FB_FleshbeastMassZone_UnloadKindTooltip>Release selected {0} from this mass zone.</FB_FleshbeastMassZone_UnloadKindTooltip>
   <FB_FleshbeastMassZone_UnloadKindSlider>Release {1} of {2} {0}.</FB_FleshbeastMassZone_UnloadKindSlider>
   <FB_FleshbeastMassZone_UnloadedKind>Released {0} {1}.</FB_FleshbeastMassZone_UnloadedKind>

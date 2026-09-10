@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_FleshGeneArchiveInspect>Архивированные генопаки: {0}</FB_FleshGeneArchiveInspect>
   <FB_FleshGeneArchiveInvalidGene>Этот генетический узор нельзя поместить в архив.</FB_FleshGeneArchiveInvalidGene>
@@ -34,7 +34,7 @@
   <FB_GeneReweaverQueuedOperations>Генов в очереди: {0}</FB_GeneReweaverQueuedOperations>
   <FB_ChromophageStoredGenesInspect>Сохранённые генопаки: {0} / {1}</FB_ChromophageStoredGenesInspect>
   <FB_ChromophageExtractGenesLabel>Извлечь гены из тела</FB_ChromophageExtractGenesLabel>
-  <FB_ChromophageExtractGenesDesc>Отметить свежие или подгнившие гуманоидные трупы для последовательного извлечения генов. Нажмите на одно тело или протяните рамку по нескольким; каждый обработанный труп станет скелетом и сохранит один или два гена внутри хромофага как генопак.</FB_ChromophageExtractGenesDesc>
+  <FB_ChromophageExtractGenesDesc>Отметить свежие или подгнившие гуманоидные трупы для извлечения генов. Нажмите на одно тело или протяните рамку по нескольким; свободный хромофаг сам идёт к ближайшей отметке в своей разрешённой зоне, обработанный труп становится скелетом, а один или два гена сохраняются внутри хромофага как генопак. Заполнив хранилище, он относит гены в ближайший геномный архив и возвращается к оставшимся отметкам.</FB_ChromophageExtractGenesDesc>
   <FB_ChromophageUnloadGenesLabel>Выгрузить гены</FB_ChromophageUnloadGenesLabel>
   <FB_ChromophageUnloadGenesDesc>Выгрузить сохранённые генопаки в выбранный геномный архив.</FB_ChromophageUnloadGenesDesc>
   <FB_ChromophageInvalidCaster>Только хромофаг может выполнять эту работу с генами.</FB_ChromophageInvalidCaster>

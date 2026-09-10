@@ -611,6 +611,9 @@
         <requiredResearch>FB_FingerspikeImplantation</requiredResearch>
         <carrierJobDef>FB_ForcedFleshConversionDoctor</carrierJobDef>
         <fingerspikeJobDef>FB_ForcedFleshConversionFingerspike</fingerspikeJobDef>
+        <!-- Свой колонист идёт к сердцу сам; пальцешипов ему нужно вдвое меньше -->
+        <volunteerJobDef>FB_ForcedFleshConversionVolunteer</volunteerJobDef>
+        <colonistCostMultiplier>0.5</colonistCostMultiplier>
         <stasisHediff>FB_GraftmawSurgicalStasis</stasisHediff>
         <anesthesiaHediff>Anesthetic</anesthesiaHediff>
         <restraintMoteDefName>Mote_HarbingerTreeRoots</restraintMoteDefName>

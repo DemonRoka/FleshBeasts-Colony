@@ -35,7 +35,8 @@
       <thinkTreeMain>FB_CargoTendrilProxyMain</thinkTreeMain>
       <thinkTreeConstant>FB_CargoTendrilProxyConstant</thinkTreeConstant>
       <specificMeatDef>Meat_Twisted</specificMeatDef>
-      <canOpenFactionlessDoors>false</canOpenFactionlessDoors>
+      <!-- Прокси ходит только по зоне покрова, и дверь на пути не должна её рвать: открывает любые -->
+      <canOpenFactionlessDoors>true</canOpenFactionlessDoors>
       <needsRest>false</needsRest>
       <hasGenders>false</hasGenders>
       <foodType>None</foodType>

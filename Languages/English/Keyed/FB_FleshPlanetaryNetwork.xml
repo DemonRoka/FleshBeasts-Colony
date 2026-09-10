@@ -12,11 +12,10 @@
 Remaining: {1}</FB_PlanetaryNetworkOutpostOrder>
   <FB_PlanetaryNetworkOutpostIdle>No active capture order</FB_PlanetaryNetworkOutpostIdle>
   <FB_PlanetaryNetworkCapture>Capture tile</FB_PlanetaryNetworkCapture>
-  <FB_PlanetaryNetworkCaptureConfirm>Spend {0} hemogel to order the capture of world tile {1}? Estimated time: {2}. Manually canceling the order will not refund the payment.</FB_PlanetaryNetworkCaptureConfirm>
   <FB_PlanetaryNetworkCancelOrder>Cancel order</FB_PlanetaryNetworkCancelOrder>
   <FB_PlanetaryNetworkCancelOrderWarning>Cancel this capture order? The paid {0} hemogel will not be refunded.</FB_PlanetaryNetworkCancelOrderWarning>
   <FB_PlanetaryNetworkCreateOutpost>Grow flesh outpost</FB_PlanetaryNetworkCreateOutpost>
-  <FB_PlanetaryNetworkCreateOutpostWarning>Grow a permanent abstract outpost here for {0} hemogel? It cannot be removed or visited, and only {1}% of its host tile output will reach the network.</FB_PlanetaryNetworkCreateOutpostWarning>
+  <FB_PlanetaryNetworkOutpostCreated>A flesh outpost has grown on world tile {0}.</FB_PlanetaryNetworkOutpostCreated>
   <FB_FleshTerritoryEnterLabel>Enter flesh territory</FB_FleshTerritoryEnterLabel>
   <FB_FleshTerritoryEnterDesc>Materialize this covered tile as a temporary map and enter it. The map cannot become a permanent settlement.</FB_FleshTerritoryEnterDesc>
   <FB_FleshTerritoryTemporaryMapInspect>Temporary map: anything that does not leave with the caravan collapses along with it.</FB_FleshTerritoryTemporaryMapInspect>
@@ -47,7 +46,6 @@ Remaining: {1}</FB_PlanetaryNetworkOutpostOrder>
   <FB_PlanetaryNetworkFirstOutpostRequired>Found the first flesh outpost before creating a separate infection focus.</FB_PlanetaryNetworkFirstOutpostRequired>
   <FB_PlanetaryNetworkMoonSeed>Create flesh tile</FB_PlanetaryNetworkMoonSeed>
   <FB_PlanetaryNetworkMoonSeedDesc>Instantly consume the empty surface tile directly beneath the stationary Moon. If no umbilicus is attached here yet, the Moon lowers its mapless feeding link as part of the operation. The terrain-based price is paid strictly from the Moon internal reserve, creating a new flesh focus.</FB_PlanetaryNetworkMoonSeedDesc>
-  <FB_PlanetaryNetworkMoonSeedConfirm>Spend {0} hemogel from the Moon internal reserve and irreversibly cover world tile {1} with flesh?</FB_PlanetaryNetworkMoonSeedConfirm>
   <FB_PlanetaryNetworkMoonSeeded>The Moon has established a new flesh focus on world tile {0}.</FB_PlanetaryNetworkMoonSeeded>
   <FB_PlanetaryNetworkMoonCreateOutpostDesc>Instantly grow an outpost beneath the stationary Moon for {0} hemogel from its internal reserve. With no umbilicus here the Moon lowers its mapless feeding link first; with an open physical channel the loaded map on this tile is consumed instead. If the tile is not covered yet, its terrain-based flesh seeding cost is added and both operations are confirmed together. Only {1}% of the host tile output reaches the network.</FB_PlanetaryNetworkMoonCreateOutpostDesc>
   <FB_PlanetaryNetworkMoonCreateOutpostConfirm>Spend {0} hemogel from the Moon internal reserve and grow a permanent abstract outpost here? The hive leaves only {1}% of this tile output for the network and cannot be visited or removed.</FB_PlanetaryNetworkMoonCreateOutpostConfirm>
@@ -74,7 +72,6 @@ Remaining: {1}</FB_PlanetaryNetworkOutpostOrder>
   <FB_PlanetaryNetworkFacilitySourceRequiredDesc>Select a flesh outpost through the reserve bar before building planetary organs or ambush camps.</FB_PlanetaryNetworkFacilitySourceRequiredDesc>
   <FB_PlanetaryNetworkBuildFacility>Build {0}</FB_PlanetaryNetworkBuildFacility>
   <FB_PlanetaryNetworkBuildFacilityDesc>Build this abstract world object on a covered, unloaded and unoccupied tile in the selected outpost network. Cost: {1} hemogel from that network. Host tile extraction multiplier: x{2}. Facility tiles cannot be loaded as maps.</FB_PlanetaryNetworkBuildFacilityDesc>
-  <FB_PlanetaryNetworkBuildFacilityConfirm>Build {0} on world tile {1} for {2} hemogel? The tile will remain abstract and cannot be visited. Host tile extraction multiplier: x{3}.</FB_PlanetaryNetworkBuildFacilityConfirm>
   <FB_PlanetaryNetworkBuildFacilityTooltip>{0}
 Cost: {1} hemogel
 Host tile extraction: x{2}</FB_PlanetaryNetworkBuildFacilityTooltip>
@@ -151,7 +148,6 @@ Next ore portion: {2}%</FB_FleshCrustCorerInspect>
 Cost: {1} hemogel
 Growth: {2}
 Crossing: {3}</FB_FleshTunnelWorldTargetTooltip>
-  <FB_FleshTunnelWorldGrowConfirm>Grow a tunnel maw on world tile {0}? Distance {1} tiles, cost {2} hemogel, growth takes {3}.</FB_FleshTunnelWorldGrowConfirm>
   <FB_FleshTunnelWorldGrowStarted>The nexus started boring towards world tile {0}. It will break through in {1}.</FB_FleshTunnelWorldGrowStarted>
   <FB_FleshTunnelWorldGrown>A flesh tunnel maw broke through on world tile {0}. Crossing takes {1}.</FB_FleshTunnelWorldGrown>
   <FB_FleshTunnelWorldGrowFailed>The tunnel could not break through: the target tile is no longer free.</FB_FleshTunnelWorldGrowFailed>

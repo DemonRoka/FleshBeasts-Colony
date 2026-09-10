@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <FB_PitBurrowEmergence.label>flesh burrow emergence</FB_PitBurrowEmergence.label>
-  <FB_PitBurrowEmergence.letterLabel>Flesh burrow emerging</FB_PitBurrowEmergence.letterLabel>
-  <FB_PitBurrowEmergence.letterText>A flesh burrow has emerged, spawning beasts from underground.</FB_PitBurrowEmergence.letterText>
-  <FB_FleshContainmentRaid.label>flesh containment cordon</FB_FleshContainmentRaid.label>
-  <FB_FleshNecrosis.label>flesh necrosis</FB_FleshNecrosis.label>
-  <FB_FleshRelayRaid.label>relay antenna raid</FB_FleshRelayRaid.label>
-  <FB_FleshDrainRaid.label>hemogel drain raid</FB_FleshDrainRaid.label>
+  <FB_PitBurrowEmergence.label>flesh burrow breakthrough</FB_PitBurrowEmergence.label>
+  <FB_PitBurrowEmergence.letterLabel>A flesh burrow has opened</FB_PitBurrowEmergence.letterLabel>
+  <FB_PitBurrowEmergence.letterText>The ground has sunk inward, opening a narrow shaft into the dark. Damp air rises from below, heavy with rot and mould: the smell of flesh that died long ago but never fully came apart.\n\nThis is what has been calling you. A dead flesh colony waits below, and something in its centre is still alive. The call has not faded; it pulls you downward through disgust and dread.</FB_PitBurrowEmergence.letterText>
+  <FB_FleshContainmentRaid.label>containment cordon</FB_FleshContainmentRaid.label>
+  <FB_FleshNecrosis.label>flesh cover necrosis</FB_FleshNecrosis.label>
+  <FB_FleshRelayRaid.label>relay antenna siege</FB_FleshRelayRaid.label>
+  <FB_FleshDrainRaid.label>hemogel siphon siege</FB_FleshDrainRaid.label>
 </LanguageData>

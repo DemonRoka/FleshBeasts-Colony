@@ -4,7 +4,7 @@
   <JobDef>
     <defName>FB_BurdenBlobRefillAtHeart</defName>
     <driverClass>FB.JobDriver_BurdenBlobRefillAtHeart</driverClass>
-    <reportString>refilling hemogel at the colony heart.</reportString>
+    <reportString>refilling hemogel at TargetA.</reportString>
   </JobDef>
 
   <!-- Задание: FB_BurdenBlobLatchToWall -->

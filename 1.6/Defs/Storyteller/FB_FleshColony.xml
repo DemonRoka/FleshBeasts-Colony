@@ -9,9 +9,9 @@
       <li>Map_PlayerHome</li>
     </targetTags>
     <questScriptDef>FB_PitBurrowCall</questScriptDef>
-    <letterLabel>Flesh burrow emerging</letterLabel>
-    <letterText>A flesh burrow has emerged, spawning beasts from underground.</letterText>
-    <letterDef>ThreatBig</letterDef>
+    <letterLabel>A flesh burrow has opened</letterLabel>
+    <letterText>The ground has given way, opening a narrow shaft into the dark. Damp air rises from below, heavy with rot and mould — the smell of something that died long ago and never quite finished rotting.\n\nThis is what has been calling you. A dead flesh colony waits down there. The call has not faded: you are still drawn towards it, however hard the disgust pushes back.</letterText>
+    <letterDef>NeutralEvent</letterDef>
     <workerClass>FB.FB_IncidentWorker_PitBurrowEmergence</workerClass>
     <baseChance>0</baseChance>
     <requireColonistsPresent>true</requireColonistsPresent>

@@ -19,13 +19,16 @@
   <!-- Canister -->
   <FB_HemogelCanisterInspect>Holds: {0} hemogel</FB_HemogelCanisterInspect>
   <FB_HemogelCanisterPourLabel>Pour out</FB_HemogelCanisterPourLabel>
-  <FB_HemogelCanisterPourDesc>Empty this stack straight into the hemogel network: {0} hemogel. Note that hemogel back in the network can be siphoned again, while a canister in storage cannot.</FB_HemogelCanisterPourDesc>
+  <FB_HemogelCanisterPourDesc>Empty this stack into the colony hemogel network: {0} hemogel. The canister must lie on flesh cover. Note that hemogel back in the network can be siphoned again, while a canister in storage cannot.</FB_HemogelCanisterPourDesc>
   <FB_HemogelCanisterPourForbidden>Must be unforbidden first.</FB_HemogelCanisterPourForbidden>
   <FB_HemogelCanisterPoured>Poured {0} hemogel back into the network.</FB_HemogelCanisterPoured>
+  <FB_HemogelCanisterPourNotOnFlesh>The canister must lie on flesh cover.</FB_HemogelCanisterPourNotOnFlesh>
+  <FB_HemogelCanisterPourNetworkFull>The colony hemogel network has no room for this canister.</FB_HemogelCanisterPourNetworkFull>
+  <FB_HemogelCanisterPouredPartial>Poured {0} hemogel back into the network. It cannot hold more; canisters left: {1}.</FB_HemogelCanisterPouredPartial>
   <FB_FleshDrainPumpNothingToTake>Nothing left to draw here.</FB_FleshDrainPumpNothingToTake>
   <FB_FleshDrainPumpNoPower>No power: the pump is idle.</FB_FleshDrainPumpNoPower>
   <FB_FleshDrainPumpNoFlesh>Not on flesh cover: nothing to draw from.</FB_FleshDrainPumpNoFlesh>
-  <FB_NeuronSuppressorInspect>Grasping tendrils suppressed within {0} cells.</FB_NeuronSuppressorInspect>
+  <FB_NeuronSuppressorInspect>Tendrils suppressed within {0} cells: no grabbing, no hauling.</FB_NeuronSuppressorInspect>
   <FB_NeuronSuppressorNoPower>No power: the field is down.</FB_NeuronSuppressorNoPower>
 
   <!-- Dev -->

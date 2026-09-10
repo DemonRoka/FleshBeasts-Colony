@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_AcidBroodmother.label>acid broodmother</FB_AcidBroodmother.label>
-  <FB_AcidBroodmother.description>A draftable fused fleshbeast that regenerates gastric acid and periodically grows temporary acid-spitting offspring.</FB_AcidBroodmother.description>
+  <FB_AcidBroodmother.description>A large fleshbeast that stores acid and spends it to grow temporary acid spitlings. Offspring growth can be enabled or disabled; its acid reserve gradually replenishes.</FB_AcidBroodmother.description>
   <FB_AcidBroodmother.tools.0.label>heavy maw</FB_AcidBroodmother.tools.0.label>
   <FB_AcidSpitling.label>acid spitling</FB_AcidSpitling.label>
-  <FB_AcidSpitling.description>A temporary offspring that launches acid shells and returns to its broodmother when its internal reservoir runs low.</FB_AcidSpitling.description>
+  <FB_AcidSpitling.description>A temporary offspring of an acid broodmother that bombards enemies with acid. When its acid runs low, it returns to the broodmother to refill.</FB_AcidSpitling.description>
   <FB_AcidSpitlingSpitProjectile.label>acid spit projectile</FB_AcidSpitlingSpitProjectile.label>
 </LanguageData>

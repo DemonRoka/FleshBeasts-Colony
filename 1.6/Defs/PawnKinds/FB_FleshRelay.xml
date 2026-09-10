@@ -20,9 +20,11 @@
 		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
 		<weaponMoney>0~0</weaponMoney>
 		<skills>
+			<!-- Настройку двигает только их работа, а скорость работы - ResearchSpeed, то есть
+			     сам навык. Уровень 12 даёт 1.46x, 18 - 2.15x; ниже 12 техник тут не появляется -->
 			<li>
 				<skill>Intellectual</skill>
-				<range>8~15</range>
+				<range>12~18</range>
 			</li>
 			<li>
 				<skill>Crafting</skill>

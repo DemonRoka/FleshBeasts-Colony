@@ -3,8 +3,9 @@
 	<FB.FleshbeastMassZoneSettingsDef>
 		<defName>FB_FleshbeastMassZoneSettings</defName>
 		<bodySizeCapacityPerCell>10</bodySizeCapacityPerCell>
-		<maxDrawnVisualPawns>72</maxDrawnVisualPawns>
-		<drawnVisualFractionPerKind>0.6</drawnVisualFractionPerKind>
+		<maxDrawnVisualPawns>48</maxDrawnVisualPawns>
+		<drawnVisualFractionPerKind>0.5</drawnVisualFractionPerKind>
+		<drawVisualsFarthestZoom>Middle</drawVisualsFarthestZoom>
 		<threatCheckIntervalTicks>250</threatCheckIntervalTicks>
 		<threatReleaseRadius>5</threatReleaseRadius>
 		<loadGizmoIconPath>UI/Commands/LoadFleshbeasts</loadGizmoIconPath>

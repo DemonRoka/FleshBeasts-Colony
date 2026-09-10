@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_FleshConvergenceGridTooltip>Choose a flesh fusion form.</FB_FleshConvergenceGridTooltip>
   <FB_FleshConvergenceBulbfreakLabel>Bulbfreak</FB_FleshConvergenceBulbfreakLabel>
@@ -15,12 +15,14 @@
   <FB_FleshConvergenceCooldown>Flesh fusion is recovering: {0}.</FB_FleshConvergenceCooldown>
   <FB_FleshConvergenceRequiresResearch>Requires research: {0}.</FB_FleshConvergenceRequiresResearch>
   <FB_FleshConvergenceDonorEquivalentLine>Requires: {0} fingerspikes, {1} trispikes, or {2} toughspikes.</FB_FleshConvergenceDonorEquivalentLine>
+  <FB_CarrionReworkDesignateLabel>Rework bodies</FB_CarrionReworkDesignateLabel>
+  <FB_CarrionReworkDesignateDesc>Mark fresh or rotting organic corpses for rework. Click one body or drag over many; an idle carrion architect walks to the nearest mark inside its allowed area and tears the body apart into fingerspikes. Skeletons and mechanoid corpses cannot be reworked.</FB_CarrionReworkDesignateDesc>
+  <FB_CarrionReworkCorpseAlreadyMarked>That body is already marked for rework.</FB_CarrionReworkCorpseAlreadyMarked>
   <FB_CarrionReworkInvalidCaster>Only a carrion architect can rework corpses.</FB_CarrionReworkInvalidCaster>
   <FB_CarrionReworkInvalidTarget>Choose an organic corpse.</FB_CarrionReworkInvalidTarget>
   <FB_CarrionReworkForbidden>That corpse is forbidden.</FB_CarrionReworkForbidden>
   <FB_CarrionReworkMechanoidCorpse>Mechanoid corpses cannot be reworked into fleshbeasts.</FB_CarrionReworkMechanoidCorpse>
   <FB_CarrionReworkDessicatedCorpse>Choose a fresh or rotting organic corpse. Skeletons cannot be reworked.</FB_CarrionReworkDessicatedCorpse>
   <FB_CarrionReworkCannotReach>The carrion architect cannot reach that corpse.</FB_CarrionReworkCannotReach>
-  <FB_CarrionReworkCannotStart>The carrion architect cannot begin reworking that corpse.</FB_CarrionReworkCannotStart>
   <FB_CarrionReworkCompleted>The corpse bursts into fingerspikes: {0}.</FB_CarrionReworkCompleted>
 </LanguageData>
