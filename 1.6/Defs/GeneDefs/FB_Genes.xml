@@ -36,14 +36,25 @@
     <missingGeneRomanceChanceFactor>0.9</missingGeneRomanceChanceFactor>
     <skinIsHairColor>false</skinIsHairColor>
     <tattoosVisible>false</tattoosVisible>
+    <!-- Not PawnRenderNode_Fur: it always tints fur with the hair color, while the flesh body keeps its own colors. -->
     <renderNodeProperties>
       <li>
         <debugLabel>Fur</debugLabel>
-        <nodeClass>PawnRenderNode_Fur</nodeClass>
+        <nodeClass>PawnRenderNode</nodeClass>
         <workerClass>PawnRenderNodeWorker_Fur</workerClass>
         <baseLayer>5</baseLayer>
         <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <useRottenColor>true</useRottenColor>
         <parentTagDef>Body</parentTagDef>
+        <bodyTypeGraphicPaths>
+          <Male>Things/Pawn/FB_Humanlike/Bodies/FleshbeastBody_Male</Male>
+          <Female>Things/Pawn/FB_Humanlike/Bodies/FleshbeastBody_Female</Female>
+          <Hulk>Things/Pawn/FB_Humanlike/Bodies/FleshbeastBody_Hulk</Hulk>
+          <Fat>Things/Pawn/FB_Humanlike/Bodies/FleshbeastBody_Fat</Fat>
+          <Thin>Things/Pawn/FB_Humanlike/Bodies/FleshbeastBody_Thin</Thin>
+          <Child>Things/Pawn/FB_Humanlike/Bodies/Naked_FleshbeastBody</Child>
+          <Baby>Things/Pawn/FB_Humanlike/Bodies/Naked_FleshbeastBody</Baby>
+        </bodyTypeGraphicPaths>
       </li>
     </renderNodeProperties>
     <beardTagFilter>
