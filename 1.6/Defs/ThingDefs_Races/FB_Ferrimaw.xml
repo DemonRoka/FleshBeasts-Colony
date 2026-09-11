@@ -5,6 +5,9 @@
     <defName>FB_Ferrimaw</defName>
     <label>ferrimaw</label>
     <description>A squat refinery fleshbeast with a grinding maw and a distended ferric gut. It prowls the colony's interior, swallowing loose steel whenever its hunger dips, then slowly extrudes warm nodules of bioferrite as the metal is worked through its living furnace. Ferrimaws are poor fighters but useful metabolic engines for any flesh colony that has more steel than it can meaningfully spend.</description>
+    <researchPrerequisites>
+      <li>FB_AdaptiveHarvesters</li>
+    </researchPrerequisites>
     <tradeability>None</tradeability>
     <uiIconPath>Things/Pawn/FB_Ferrimaw/FB_Ferrimaw_south</uiIconPath>
     <statBases>

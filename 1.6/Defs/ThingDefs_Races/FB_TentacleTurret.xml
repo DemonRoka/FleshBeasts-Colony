@@ -196,6 +196,9 @@
     <defName>FB_TentacleTurret</defName>
     <label>Tentacle Turret</label>
     <description>A stationary fleshbeast defense that launches keratin spines at distant intruders and lashes nearby enemies with heavy tentacles.</description>
+    <researchPrerequisites>
+      <li>TentacleTurretResearch</li>
+    </researchPrerequisites>
     <statBases>
       <MoveSpeed>0</MoveSpeed>
       <MinimumContainmentStrength>40</MinimumContainmentStrength>

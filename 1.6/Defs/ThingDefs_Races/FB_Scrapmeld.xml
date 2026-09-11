@@ -5,6 +5,10 @@
     <defName>FB_Scrapmeld</defName>
     <label>scrapmeld</label>
     <description>A grotesque combination of flesh and twisted steel, Scrapmeld roams the battlefield, absorbing the remains of mechanoids and studying the design of their weapons. Once he has figured out the next shell, he temporarily reproduces its armament and turns it against his enemies. But it cannot keep such a system operational for long: the metal crumbles, the mechanisms fall apart, and only mutilated synthetic debris and living flesh remain in its body.</description>
+    <researchPrerequisites>
+      <li>FB_AdaptiveHarvesters</li>
+    </researchPrerequisites>
+    <hiddenWhileUndiscovered>false</hiddenWhileUndiscovered>
     <statBases>
       <MoveSpeed>1.2</MoveSpeed>
       <MinimumContainmentStrength>20</MinimumContainmentStrength>
@@ -79,6 +83,10 @@
     <defName>FB_ScrapmeldNestling</defName>
     <label>scrapmeld seed</label>
     <description>An unfinished larva of a mature Scrapmeld. It prowls near the colony, automatically absorbing mechanoid corpses that lie within the home area. Once enough synthetic mass is consumed, it reshapes itself into a full Scrapmeld.</description>
+    <researchPrerequisites>
+      <li>FB_AdaptiveHarvesters</li>
+    </researchPrerequisites>
+    <hiddenWhileUndiscovered>false</hiddenWhileUndiscovered>
     <statBases>
       <MoveSpeed>2.2</MoveSpeed>
       <MinimumContainmentStrength>12</MinimumContainmentStrength>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_CaptureNerveLattice.label>сеть нервных узлов захвата</FB_CaptureNerveLattice.label>
+  <FB_CaptureNerveLattice.customUnlockTexts.0>Сердце колонии и узлы захвата: вкладка «Захват» — выбор добычи по видам и фракциям</FB_CaptureNerveLattice.customUnlockTexts.0>
   <FB_CaptureNerveLattice.description>Позволяет выращивать нервные узлы, которые расширяют лимит хватательных щупалец сердца, а без сердца объединяют свои слоты в единый автономный пул с общей политикой выбора добычи.</FB_CaptureNerveLattice.description>
 </LanguageData>

@@ -5,6 +5,9 @@
   <defName>FB_CaptureNerveNode</defName>
   <label>capture nerve node</label>
   <description>A small relay-organ of wet nerves and gripping reflex tissue. It links to the nearest colony heart and adds one shared grasping tendril slot. Without a heart, all capture nerve nodes on the map combine their slots into one autonomous capture pool.</description>
+  <researchPrerequisites>
+    <li>FB_CaptureNerveLattice</li>
+  </researchPrerequisites>
   <drawerType>MapMeshAndRealTime</drawerType>
   <size>(1,1)</size>
   <tickerType>Normal</tickerType>

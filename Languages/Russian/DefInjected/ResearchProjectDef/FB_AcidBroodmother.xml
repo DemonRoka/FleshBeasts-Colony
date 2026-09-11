@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_AcidBroodmotherConvergence.label>слияние кислотной правматки</FB_AcidBroodmotherConvergence.label>
+  <FB_AcidBroodmotherConvergence.customUnlockTexts.0>Луна плоти: Вызвать кислотный дождь</FB_AcidBroodmotherConvergence.customUnlockTexts.0>
   <FB_AcidBroodmotherConvergence.description>Обучает мозг колонии сливать шипастых биошматов в управляемую правматку, выращивающую временных кислотных плевак.</FB_AcidBroodmotherConvergence.description>
   <FB_AcidBroodmotherConvergence.generalRules.rulesStrings.0>subject-&gt;слияние кислотной правматки</FB_AcidBroodmotherConvergence.generalRules.rulesStrings.0>
   <FB_AcidBroodmotherConvergence.generalRules.rulesStrings.1>subject_story-&gt;объединяли шипастых биошматов в подвижный кислотный выводок</FB_AcidBroodmotherConvergence.generalRules.rulesStrings.1>

@@ -4,6 +4,9 @@
     <defName>FB_FleshIntruder</defName>
     <label>flesh intruder</label>
     <description>A fragile one-use fleshbeast grown to leap into a target, pierce armor, and leave a burrowing organ inside an exposed body part.</description>
+    <researchPrerequisites>
+      <li>FB_NeuralDominion</li>
+    </researchPrerequisites>
     <tradeability>None</tradeability>
     <uiIconPath>Things/Pawn/FB_FleshIntruder/FB_FleshIntruder</uiIconPath>
     <statBases>

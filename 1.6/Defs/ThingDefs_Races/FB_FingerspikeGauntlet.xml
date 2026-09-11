@@ -62,6 +62,10 @@
     <defName>FB_FingerspikeGauntlet</defName>
     <label>fingerspike gauntlet</label>
     <description>A parasitic flesh-weapon that wraps around an arm and launches grown spikes.</description>
+    <researchPrerequisites>
+      <li>DefenderIncubatorResearch</li>
+    </researchPrerequisites>
+    <hiddenWhileUndiscovered>false</hiddenWhileUndiscovered>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponRanged/FingerspikeGauntlet/FingerspikeGauntlet</texPath>
       <graphicClass>Graphic_Single</graphicClass>

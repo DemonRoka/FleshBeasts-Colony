@@ -30,6 +30,7 @@
   <FB_FriendlyCaptureRecognition.generalRules.rulesStrings.2>subject_story-&gt;trained flesh organs to ignore friendly bio-signatures</FB_FriendlyCaptureRecognition.generalRules.rulesStrings.2>
   <FB_FriendlyCaptureRecognition.generalRules.rulesStrings.3>subject_gerund-&gt;recognizing friendly targets</FB_FriendlyCaptureRecognition.generalRules.rulesStrings.3>
   <FB_FriendlyCaptureRecognition.label>friend-or-foe recognition</FB_FriendlyCaptureRecognition.label>
+  <FB_FriendlyCaptureRecognition.customUnlockTexts.0>Grasping tendrils: allied and neutral pawns are not grabbed</FB_FriendlyCaptureRecognition.customUnlockTexts.0>
   <FB_CapillaryTrawling.description>Unlock the Capillary Trawler, a vascular filter-organ that spreads fine nets through nearby water and converts gathered aquatic biomass into hemogel for the colony heart.</FB_CapillaryTrawling.description>
   <FB_CapillaryTrawling.generalRules.rulesStrings.0>subject-&gt;capillary trawling</FB_CapillaryTrawling.generalRules.rulesStrings.0>
   <FB_CapillaryTrawling.generalRules.rulesStrings.1>subject_story-&gt;cast vascular nets through water</FB_CapillaryTrawling.generalRules.rulesStrings.1>
@@ -60,6 +61,7 @@
   <FB_PhotosyntheticFleshtree.generalRules.rulesStrings.2>subject_story-&gt;engineered a hemogel-storing photosynthetic treeform</FB_PhotosyntheticFleshtree.generalRules.rulesStrings.2>
   <FB_PhotosyntheticFleshtree.generalRules.rulesStrings.3>subject_gerund-&gt;growing photosynthetic fleshtrees</FB_PhotosyntheticFleshtree.generalRules.rulesStrings.3>
   <FB_PhotosyntheticFleshtree.label>photosynthetic fleshtree</FB_PhotosyntheticFleshtree.label>
+  <FB_PhotosyntheticFleshtree.customUnlockTexts.0>Photosynthetic Fleshleaf: Absorb — five fleshleaves fuse into a fleshtree</FB_PhotosyntheticFleshtree.customUnlockTexts.0>
   <FeederResearch.description>Unlock the Feeder, an organic dispenser where any hungry colonist can take hemogel-grown biomass from its interaction cells.</FeederResearch.description>
   <FeederResearch.generalRules.rulesStrings.0>subject-&gt;hemogel nutrient conversion</FeederResearch.generalRules.rulesStrings.0>
   <FeederResearch.generalRules.rulesStrings.1>subject_story-&gt;developed biomass feeding systems</FeederResearch.generalRules.rulesStrings.1>
@@ -90,6 +92,7 @@
   <ParasiteEggConversion.generalRules.rulesStrings.2>subject_story-&gt;shaped biomass into parasitic incubation chambers</ParasiteEggConversion.generalRules.rulesStrings.2>
   <ParasiteEggConversion.generalRules.rulesStrings.3>subject_gerund-&gt;incubating parasite eggs</ParasiteEggConversion.generalRules.rulesStrings.3>
   <ParasiteEggConversion.label>parasite egg incubation</ParasiteEggConversion.label>
+  <ParasiteEggConversion.customUnlockTexts.0>Colony Heart and flesh moon nerve node: Create shell</ParasiteEggConversion.customUnlockTexts.0>
   <PhotosyntheticFleshleaf.description>Unlocks the Photosynthetic Fleshleaf, a living organ that converts unroofed daylight into hemogel for the colony network.</PhotosyntheticFleshleaf.description>
   <PhotosyntheticFleshleaf.generalRules.rulesStrings.0>subject-&gt;photosynthetic hemogel generation</PhotosyntheticFleshleaf.generalRules.rulesStrings.0>
   <PhotosyntheticFleshleaf.generalRules.rulesStrings.1>subject_story-&gt;engineered light-absorbing biomass</PhotosyntheticFleshleaf.generalRules.rulesStrings.1>
@@ -114,24 +117,30 @@
   <FB_CaptureNerveLattice.generalRules.rulesStrings.2>subject_story-&gt;trained grasping organs to recognize chosen prey profiles</FB_CaptureNerveLattice.generalRules.rulesStrings.2>
   <FB_CaptureNerveLattice.generalRules.rulesStrings.3>subject_gerund-&gt;refining grasping tendril targeting</FB_CaptureNerveLattice.generalRules.rulesStrings.3>
   <FB_CaptureNerveLattice.label>capture nerve lattice</FB_CaptureNerveLattice.label>  <FB_GeoferriteGlands.description>Unlock geyser-rooted organs that refine hemogel into bioferrite.</FB_GeoferriteGlands.description>
+  <FB_CaptureNerveLattice.customUnlockTexts.0>Colony Heart and capture nerve nodes: "Grasping" tab — choose prey by species and faction</FB_CaptureNerveLattice.customUnlockTexts.0>
   <FB_GeoferriteGlands.generalRules.rulesStrings.0>subject-&gt;geoferrite glands</FB_GeoferriteGlands.generalRules.rulesStrings.0>
   <FB_GeoferriteGlands.generalRules.rulesStrings.1>subject_story-&gt;rooted flesh organs into steam geysers</FB_GeoferriteGlands.generalRules.rulesStrings.1>
   <FB_GeoferriteGlands.generalRules.rulesStrings.2>subject_story-&gt;refined hemogel into bioferrite under geothermal pressure</FB_GeoferriteGlands.generalRules.rulesStrings.2>
   <FB_GeoferriteGlands.generalRules.rulesStrings.3>subject_gerund-&gt;growing geoferrite glands</FB_GeoferriteGlands.generalRules.rulesStrings.3>
   <FB_GeoferriteGlands.label>geoferrite glands</FB_GeoferriteGlands.label>
   <FB_FingerspikeImplantation.label>fingerspike implantation</FB_FingerspikeImplantation.label>
+  <FB_FingerspikeImplantation.customUnlockTexts.0>Colony Brain and flesh moon nerve node: Force flesh acceptance</FB_FingerspikeImplantation.customUnlockTexts.0>
   <FB_FingerspikeImplantation.description>Teach the colony to implant fingerspikes into living bodies, forcibly accepting new members into the flesh colony.</FB_FingerspikeImplantation.description>
   <FB_FingerspikeImplantation.generalRules.rulesStrings.0>subject-&gt;fingerspike implantation</FB_FingerspikeImplantation.generalRules.rulesStrings.0>
   <FB_FingerspikeImplantation.generalRules.rulesStrings.1>subject_story-&gt;learned to bind living minds through fingerspikes</FB_FingerspikeImplantation.generalRules.rulesStrings.1>
   <FB_FingerspikeImplantation.generalRules.rulesStrings.2>subject_story-&gt;adapted fingerspikes for controlled implantation</FB_FingerspikeImplantation.generalRules.rulesStrings.2>
   <FB_FingerspikeImplantation.generalRules.rulesStrings.3>subject_gerund-&gt;implanting fingerspikes</FB_FingerspikeImplantation.generalRules.rulesStrings.3>
   <FB_FleshThrallReanimation.label>flesh thrall reanimation</FB_FleshThrallReanimation.label>
+  <FB_FleshThrallReanimation.customUnlockTexts.0>Colony Brain and flesh moon nerve node: Create flesh thrall, Restore thrall</FB_FleshThrallReanimation.customUnlockTexts.0>
   <FB_FleshThrallReanimation.description>Teach the colony brain to rebuild a body around fingerspikes and raise it as a controllable flesh thrall.</FB_FleshThrallReanimation.description>
   <FB_FleshThrallReanimation.generalRules.rulesStrings.0>subject-&gt;flesh thrall reanimation</FB_FleshThrallReanimation.generalRules.rulesStrings.0>
   <FB_FleshThrallReanimation.generalRules.rulesStrings.1>subject_story-&gt;raised obedient servants through unstable flesh</FB_FleshThrallReanimation.generalRules.rulesStrings.1>
   <FB_FleshThrallReanimation.generalRules.rulesStrings.2>subject_story-&gt;used fingerspikes to sustain temporary thralls</FB_FleshThrallReanimation.generalRules.rulesStrings.2>
   <FB_FleshThrallReanimation.generalRules.rulesStrings.3>subject_gerund-&gt;raising flesh thralls</FB_FleshThrallReanimation.generalRules.rulesStrings.3>
   <FB_ColonyMemoryArchive.label>colony memory archive</FB_ColonyMemoryArchive.label>
+  <FB_ColonyMemoryArchive.customUnlockTexts.0>Colony Brain: Dissolve into colony memory</FB_ColonyMemoryArchive.customUnlockTexts.0>
+  <FB_ColonyMemoryArchive.customUnlockTexts.1>Personality devourer: Consume memory</FB_ColonyMemoryArchive.customUnlockTexts.1>
+  <FB_ColonyMemoryArchive.customUnlockTexts.2>Flesh-colony acceptance: convergence form "Personality devourer"</FB_ColonyMemoryArchive.customUnlockTexts.2>
   <FB_ColonyMemoryArchive.description>Teach personality devourers to preserve identities in the colony brain and reconstruct them in fresh flesh shells.</FB_ColonyMemoryArchive.description>
   <FB_ColonyMemoryArchive.generalRules.rulesStrings.0>subject-&gt;colony memory archive</FB_ColonyMemoryArchive.generalRules.rulesStrings.0>
   <FB_ColonyMemoryArchive.generalRules.rulesStrings.1>subject_story-&gt;preserved identities within the colony brain</FB_ColonyMemoryArchive.generalRules.rulesStrings.1>

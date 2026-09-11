@@ -37,7 +37,10 @@
   <ThingDef ParentName="BuildingColonyFleshBase">
     <defName>FB_GenophageCocoon</defName>
     <label>genophage cocoon</label>
-    <description>A genetic cocoon that extracts one to three random genes from a living donor, stores them as a genepack in a genome archive, then releases the donor.</description>
+    <description>A genetic cocoon that extracts one to three random genes the genome archive doesn't have yet from a living donor, stores them there as individual genes, then releases the donor.</description>
+    <researchPrerequisites>
+      <li>FB_OrganicGenetics</li>
+    </researchPrerequisites>
     <thingClass>FB.Building_GenophageCocoon</thingClass>
     <containedPawnsSelectable>true</containedPawnsSelectable>
     <drawerType>MapMeshAndRealTime</drawerType>
@@ -69,7 +72,10 @@
   <ThingDef ParentName="BuildingColonyFleshBase">
     <defName>FB_GenomeArchive</defName>
     <label>genome archive</label>
-    <description>A living gene bank that stores extracted genepacks inside organic memory tissue. Its contents can be inspected directly and used by a gene reweaver.</description>
+    <description>A living gene bank that breaks extracted genepacks down into individual genes and stores each gene once inside organic memory tissue. Its contents can be inspected directly and used by a gene reweaver.</description>
+    <researchPrerequisites>
+      <li>FB_OrganicGenetics</li>
+    </researchPrerequisites>
     <thingClass>FB.Building_GenomeArchive</thingClass>
     <tickerType>Normal</tickerType>
     <size>(2,2)</size>
@@ -107,6 +113,9 @@
   <defName>FB_GeneReweaver</defName>
   <label>gene reweaver</label>
   <description>A large organic gene loom that recombines archived genepacks into an internal prepared flesh xenogerm, then grows a temporary cocoon to integrate the selected xenogenes into a chosen pawn.</description>
+  <researchPrerequisites>
+    <li>FB_OrganicGenetics</li>
+  </researchPrerequisites>
   <thingClass>FB.Building_GeneReweaver</thingClass>
   <drawerType>MapMeshAndRealTime</drawerType>
   <size>(3,3)</size>
@@ -151,6 +160,9 @@
     <defName>FB_GestationOrganoid</defName>
     <label>gestation organoid</label>
     <description>A brood organ that suspends a living donor inside its birthing sac. While the donor is held it neither ages nor starves, and the organoid spends hemogel to grow offspring of the donor's own kind. A humanlike donor yields newborns whose xenotype can be composed from archived genepacks. The donor never leaves: its reserves are drained with every birth, and it dies once they are spent.</description>
+    <researchPrerequisites>
+      <li>FB_OrganicGenetics</li>
+    </researchPrerequisites>
     <thingClass>FB.Building_FleshGestationOrganoid</thingClass>
     <containedPawnsSelectable>true</containedPawnsSelectable>
     <drawerType>MapMeshAndRealTime</drawerType>

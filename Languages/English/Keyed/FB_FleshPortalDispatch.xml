@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<FB_FleshPortalDispatchZone_Label>dispatch stockpile</FB_FleshPortalDispatchZone_Label>
+	<FB_FleshPortalDispatchZone_DesignatorLabel>dispatch stockpile</FB_FleshPortalDispatchZone_DesignatorLabel>
+	<FB_FleshPortalDispatchZone_DesignatorDesc>A regular stockpile with filters and priority. Everything stored on it is automatically marked for transfer through the celestial umbilicus on this map, and regular haulers carry it: from the surface to the flesh moon, or from the moon to the surface. Things that arrived through the umbilicus are not sent back. Creating the stockpile costs nothing.</FB_FleshPortalDispatchZone_DesignatorDesc>
+	<FB_FleshPortalDispatchZone_ToggleLabel>Send through umbilicus</FB_FleshPortalDispatchZone_ToggleLabel>
+	<FB_FleshPortalDispatchZone_ToggleDesc>While enabled, everything on this stockpile is automatically marked for transfer through the celestial umbilicus. Things already marked are cleared with the umbilicus's cancel loading button.</FB_FleshPortalDispatchZone_ToggleDesc>
+	<FB_FleshPortalDispatchZone_InspectActive>Umbilicus dispatch: on</FB_FleshPortalDispatchZone_InspectActive>
+	<FB_FleshPortalDispatchZone_InspectPaused>Umbilicus dispatch: paused</FB_FleshPortalDispatchZone_InspectPaused>
+	<FB_FleshPortalDispatchZone_InspectNoPortal>Umbilicus dispatch: no working umbilicus on this map</FB_FleshPortalDispatchZone_InspectNoPortal>
+
+</LanguageData>

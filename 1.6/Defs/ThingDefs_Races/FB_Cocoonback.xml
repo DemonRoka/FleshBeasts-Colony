@@ -5,6 +5,10 @@
     <defName>FB_Cocoonback</defName>
     <label>cocoonback</label>
     <description>A living containment beast that seals humanlike captives inside a back cocoon, feeding and sedating them through the hemogel network until release.</description>
+    <researchPrerequisites>
+      <li>FB_NeuralDominion</li>
+    </researchPrerequisites>
+    <hiddenWhileUndiscovered>false</hiddenWhileUndiscovered>
     <tradeability>None</tradeability>
     <uiIconPath>Things/Pawn/FB_Cocoonback/Cocoonback_south</uiIconPath>
     <statBases>

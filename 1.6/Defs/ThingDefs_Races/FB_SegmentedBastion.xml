@@ -5,6 +5,10 @@
     <defName>FB_SegmentedBastion</defName>
     <label>segmented bastion</label>
     <description>A draftable fused fleshbeast that can split into its own spine-firing segments and later reassemble from surviving pieces.</description>
+    <researchPrerequisites>
+      <li>FB_SegmentedBastionResearch</li>
+    </researchPrerequisites>
+    <hiddenWhileUndiscovered>false</hiddenWhileUndiscovered>
     <statBases>
       <MoveSpeed>3.2</MoveSpeed>
       <MinimumContainmentStrength>90</MinimumContainmentStrength>
@@ -104,6 +108,10 @@
     <defName>FB_BastionSpineSegment</defName>
     <label>bastion spine segment</label>
     <description>A living segment split from a segmented bastion. It keeps its origin identity and can fire keratin spines.</description>
+    <researchPrerequisites>
+      <li>FB_SegmentedBastionResearch</li>
+    </researchPrerequisites>
+    <hiddenWhileUndiscovered>false</hiddenWhileUndiscovered>
     <statBases>
       <MoveSpeed>4.5</MoveSpeed>
       <MinimumContainmentStrength>35</MinimumContainmentStrength>

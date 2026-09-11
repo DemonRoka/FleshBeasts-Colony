@@ -68,6 +68,9 @@
     <defName>ParasiteEggConversion</defName>
     <label>parasite egg incubation</label>
     <description>Unlock parasite egg crafting in the Spore-Cradle, allowing the colony to grow personality parasite eggs through controlled organic incubation.</description>
+    <customUnlockTexts>
+      <li>Colony Heart and flesh moon nerve node: Create shell</li>
+    </customUnlockTexts>
     <tab>FB_Fleshbeast</tab>
     <techLevel>Industrial</techLevel>
     <prerequisites>
@@ -201,6 +204,9 @@
     <defName>FB_BileMortarResearch</defName>
     <label>bile mortar gland</label>
     <description>Unlock the Bile Mortar Gland, a living artillery organ that grows bileburst podlings and launches mature ones as volatile incendiary shells.</description>
+    <customUnlockTexts>
+      <li>Flesh moon: Call bilefall bombardment</li>
+    </customUnlockTexts>
     <tab>FB_Fleshbeast</tab>
     <techLevel>Industrial</techLevel>
     <prerequisites>
@@ -333,6 +339,9 @@
     <defName>FB_AcidBroodmotherConvergence</defName>
     <label>acid broodmother convergence</label>
     <description>Teach the colony brain to fuse spine fleshbeasts into a draftable broodmother that grows temporary acid-spitting offspring.</description>
+    <customUnlockTexts>
+      <li>Flesh moon: Call acid rain</li>
+    </customUnlockTexts>
     <tab>FB_Fleshbeast</tab>
     <techLevel>Industrial</techLevel>
     <prerequisites>
@@ -422,6 +431,9 @@
     <defName>FB_PhotosyntheticFleshtree</defName>
     <label>photosynthetic fleshtree</label>
     <description>Unlocks fleshtree fusion, allowing five photosynthetic fleshleaves to merge into a compact organ-tree that produces roughly four leaves' worth of daylight hemogel.</description>
+    <customUnlockTexts>
+      <li>Photosynthetic Fleshleaf: Absorb — five fleshleaves fuse into a fleshtree</li>
+    </customUnlockTexts>
     <tab>FB_Fleshbeast</tab>
     <techLevel>Industrial</techLevel>
     <prerequisites>
@@ -444,6 +456,9 @@
     <defName>FB_FriendlyCaptureRecognition</defName>
     <label>friend-or-foe recognition</label>
     <description>Teach grasping flesh organs to recognize allied and neutral bio-signatures, preventing automatic capture of non-hostile pawns.</description>
+    <customUnlockTexts>
+      <li>Grasping tendrils: allied and neutral pawns are not grabbed</li>
+    </customUnlockTexts>
     <tab>FB_Fleshbeast</tab>
     <techLevel>Industrial</techLevel>
     <prerequisites>
@@ -465,6 +480,9 @@
     <defName>FB_CaptureNerveLattice</defName>
     <label>capture nerve lattice</label>
     <description>Grow auxiliary nerve nodes that expand the colony heart's grasping tendril capacity and allow the heart to choose prey through finer species and faction recognition.</description>
+    <customUnlockTexts>
+      <li>Colony Heart and capture nerve nodes: "Grasping" tab — choose prey by species and faction</li>
+    </customUnlockTexts>
     <tab>FB_Fleshbeast</tab>
     <techLevel>Industrial</techLevel>
     <prerequisites>
@@ -688,6 +706,9 @@
     <defName>FB_HemoghoulReanimation</defName>
     <label>hemoghoul reanimation</label>
     <description>Teach the colony brain to implant a fingerspike into a human corpse and raise it as a tireless hemoghoul worker.</description>
+    <customUnlockTexts>
+      <li>Colony Brain and flesh moon nerve node: Create hemoghoul</li>
+    </customUnlockTexts>
     <tab>FB_Fleshbeast</tab>
     <techLevel>Industrial</techLevel>
     <prerequisites>
@@ -712,6 +733,9 @@
     <defName>FB_FleshResurrection</defName>
     <label>flesh resurrection</label>
     <description>Teach the colony brain to restore a dead human through fingerspike implantation and bind the revived pawn to the flesh colony.</description>
+    <customUnlockTexts>
+      <li>Colony Brain and flesh moon nerve node: Resurrect through flesh</li>
+    </customUnlockTexts>
     <tab>FB_Fleshbeast</tab>
     <techLevel>Industrial</techLevel>
     <prerequisites>
@@ -735,6 +759,9 @@
     <defName>FB_FingerspikeImplantation</defName>
     <label>fingerspike implantation</label>
     <description>Teach the colony to implant fingerspikes into living bodies, forcibly accepting new members into the flesh colony.</description>
+    <customUnlockTexts>
+      <li>Colony Brain and flesh moon nerve node: Force flesh acceptance</li>
+    </customUnlockTexts>
     <tab>FB_Fleshbeast</tab>
     <techLevel>Industrial</techLevel>
     <prerequisites>
@@ -758,6 +785,9 @@
     <defName>FB_FleshThrallReanimation</defName>
     <label>flesh thrall reanimation</label>
     <description>Teach the colony brain to rebuild a body around fingerspikes and raise it as a controllable flesh thrall.</description>
+    <customUnlockTexts>
+      <li>Colony Brain and flesh moon nerve node: Create flesh thrall, Restore thrall</li>
+    </customUnlockTexts>
     <tab>FB_Fleshbeast</tab>
     <techLevel>Industrial</techLevel>
     <prerequisites>
@@ -781,6 +811,11 @@
     <defName>FB_ColonyMemoryArchive</defName>
     <label>colony memory archive</label>
     <description>Teach personality devourers to preserve identities in the colony brain and reconstruct them in fresh flesh shells.</description>
+    <customUnlockTexts>
+      <li>Colony Brain: Dissolve into colony memory</li>
+      <li>Personality devourer: Consume memory</li>
+      <li>Flesh-colony acceptance: convergence form "Personality devourer"</li>
+    </customUnlockTexts>
     <tab>FB_Fleshbeast</tab>
     <techLevel>Industrial</techLevel>
     <prerequisites>

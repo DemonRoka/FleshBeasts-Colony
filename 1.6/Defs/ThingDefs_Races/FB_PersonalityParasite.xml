@@ -5,6 +5,9 @@
     <defName>FB_PersonalityParasite</defName>
     <label>personality parasite</label>
     <description>A newborn parasite has no mind until worn by a colonist. After the host dies, it can be guided into a corpse to restore the stored mind.</description>
+    <researchPrerequisites>
+      <li>ParasiteEggConversion</li>
+    </researchPrerequisites>
     <statBases>
       <MoveSpeed>4</MoveSpeed>
       <ToxicResistance>0.5</ToxicResistance>

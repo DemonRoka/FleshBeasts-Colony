@@ -5,6 +5,10 @@
     <defName>FB_AcidBroodmother</defName>
     <label>acid broodmother</label>
     <description>A draftable fused fleshbeast that regenerates gastric acid and periodically grows temporary acid-spitting offspring.</description>
+    <researchPrerequisites>
+      <li>FB_AcidBroodmotherConvergence</li>
+    </researchPrerequisites>
+    <hiddenWhileUndiscovered>false</hiddenWhileUndiscovered>
     <tradeability>None</tradeability>
     <statBases>
       <MoveSpeed>2.65</MoveSpeed>
@@ -98,6 +102,10 @@
     <defName>FB_AcidSpitling</defName>
     <label>acid spitling</label>
     <description>A temporary offspring that launches acid shells and returns to its broodmother when its internal reservoir runs low.</description>
+    <researchPrerequisites>
+      <li>FB_AcidBroodmotherConvergence</li>
+    </researchPrerequisites>
+    <hiddenWhileUndiscovered>false</hiddenWhileUndiscovered>
     <tradeability>None</tradeability>
     <uiIconPath>Things/Pawn/FB_AcidSpitling/AcidSpitling</uiIconPath>
     <statBases>

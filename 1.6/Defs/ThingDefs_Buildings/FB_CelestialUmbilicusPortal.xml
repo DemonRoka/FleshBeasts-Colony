@@ -191,9 +191,6 @@
   <label>celestial umbilicus impact dust wave</label>
   <thingClass>FB.Thing_CelestialUmbilicusImpactDustWave</thingClass>
   <tickerType>Normal</tickerType>
-  <drawerType>RealtimeOnly</drawerType>
-  <drawOffscreen>true</drawOffscreen>
-  <seeThroughFog>true</seeThroughFog>
 </ThingDef>
 
   <ThingDef ParentName="PocketMapExit">

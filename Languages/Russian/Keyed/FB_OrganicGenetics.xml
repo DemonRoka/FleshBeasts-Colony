@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <FB_FleshGeneArchiveInspect>Архивированные генопаки: {0}</FB_FleshGeneArchiveInspect>
+  <FB_FleshGeneArchiveInspect>Гены в архиве: {0}</FB_FleshGeneArchiveInspect>
   <FB_FleshGeneArchiveInvalidGene>Этот генетический узор нельзя поместить в архив.</FB_FleshGeneArchiveInvalidGene>
   <FB_FleshGeneArchiveFull>В геномном архиве нет свободной ёмкости.</FB_FleshGeneArchiveFull>
   <FB_ForgetGenepackLabel>Стереть сохранённый генопак</FB_ForgetGenepackLabel>
-  <FB_ForgetGenepackDesc>Стереть этот сохранённый генопак. Он не будет выброшен или восстановлен.</FB_ForgetGenepackDesc>
+  <FB_ForgetGenepackDesc>Стереть этот сохранённый генопак. Он не будет выброшен или восстановлен. Shift+клик стирает без подтверждения.</FB_ForgetGenepackDesc>
   <FB_ConfirmForgetGenepack>Стереть {0}? Это навсегда удалит сохранённый генопак.</FB_ConfirmForgetGenepack>
   <FB_GeneArchiveTransferToMoonDesc>Передать этот генопак в лунное хранилище связанной луны плоти.</FB_GeneArchiveTransferToMoonDesc>
   <FB_GeneArchiveTransferToSurfaceDesc>Вернуть этот генопак в геномный архив связанной поверхности.</FB_GeneArchiveTransferToSurfaceDesc>
@@ -13,6 +13,29 @@
   <FB_GeneArchiveTransferFailed>Не удалось передать генопак.</FB_GeneArchiveTransferFailed>
   <FB_GeneArchiveTransferredToMoon>{0} передан в лунное хранилище.</FB_GeneArchiveTransferredToMoon>
   <FB_GeneArchiveTransferredToSurface>{0} возвращён в архив поверхности.</FB_GeneArchiveTransferredToSurface>
+  <FB_GeneArchiveSortButton>Сортировка: {0}</FB_GeneArchiveSortButton>
+  <FB_GeneArchiveSortCategory>по категориям</FB_GeneArchiveSortCategory>
+  <FB_GeneArchiveSortName>по названию</FB_GeneArchiveSortName>
+  <FB_GeneArchiveSortComplexity>по сложности</FB_GeneArchiveSortComplexity>
+  <FB_GeneArchiveSortMetabolism>по метаболизму</FB_GeneArchiveSortMetabolism>
+  <FB_GeneArchiveSortArchite>по архитам</FB_GeneArchiveSortArchite>
+  <FB_GeneArchiveCounts>Выбрано: {0} из {1}</FB_GeneArchiveCounts>
+  <FB_GeneArchiveCountsFiltered>Выбрано: {0} · найдено {1} из {2}</FB_GeneArchiveCountsFiltered>
+  <FB_GeneArchiveNoMatches>Нет генопаков, подходящих под поиск.</FB_GeneArchiveNoMatches>
+  <FB_GeneArchiveRowHint>Клик выбирает генопак, Shift+клик выбирает диапазон от прошлого выбора. Галочки можно отмечать протягиванием мыши.</FB_GeneArchiveRowHint>
+  <FB_GeneArchiveCopiesTip>Одинаковых генопаков: {0}.</FB_GeneArchiveCopiesTip>
+  <FB_GeneArchiveCollapseAll>Свернуть все категории.</FB_GeneArchiveCollapseAll>
+  <FB_GeneArchiveExpandAll>Развернуть все категории.</FB_GeneArchiveExpandAll>
+  <FB_GeneArchiveSelectCopies>Копии ({0})</FB_GeneArchiveSelectCopies>
+  <FB_GeneArchiveSelectCopiesDesc>Выбрать лишние копии одинаковых генопаков среди показанных: по одному экземпляру каждого остаётся невыбранным.</FB_GeneArchiveSelectCopiesDesc>
+  <FB_GeneArchiveEraseSelected>Стереть ({0})</FB_GeneArchiveEraseSelected>
+  <FB_GeneArchiveEraseSelectedDesc>Стереть все выбранные генопаки. Они не будут выброшены или восстановлены.</FB_GeneArchiveEraseSelectedDesc>
+  <FB_ConfirmForgetGenepacks>Стереть выбранные генопаки ({0})? Это навсегда удалит их из архива.</FB_ConfirmForgetGenepacks>
+  <FB_GeneArchiveTransferSelected>Перенести ({0})</FB_GeneArchiveTransferSelected>
+  <FB_GeneArchiveTransferSelectedToMoonDesc>Передать все выбранные генопаки в лунное хранилище связанной луны плоти.</FB_GeneArchiveTransferSelectedToMoonDesc>
+  <FB_GeneArchiveTransferSelectedToSurfaceDesc>Вернуть все выбранные генопаки в геномный архив связанной поверхности.</FB_GeneArchiveTransferSelectedToSurfaceDesc>
+  <FB_GeneArchiveTransferredManyToMoon>Генопаков передано в лунное хранилище: {0}.</FB_GeneArchiveTransferredManyToMoon>
+  <FB_GeneArchiveTransferredManyToSurface>Генопаков возвращено в архив поверхности: {0}.</FB_GeneArchiveTransferredManyToSurface>
   
   <FB_WaitingForPawn>Ожидает {0}.</FB_WaitingForPawn>
   <FB_ColonyBrain_Structure_GenophageCocoon_Label>Генофаговый кокон</FB_ColonyBrain_Structure_GenophageCocoon_Label>
@@ -22,6 +45,7 @@
   <FB_GenophageSelectDonorDesc>Выбрать живую пешку-донора с генами. Кокон медленно скопирует от одного до трёх случайных генов в архив, а затем выпустит донора после извлечения.</FB_GenophageSelectDonorDesc>
   <FB_GenophageNoArchiveSpace>Нет геномного архива со свободным местом.</FB_GenophageNoArchiveSpace>
   <FB_GenophageNoGenes>У этого донора нет генов.</FB_GenophageNoGenes>
+  <FB_GenophageNoNewGenes>Все гены этого донора уже есть в геномном архиве.</FB_GenophageNoNewGenes>
   <FB_GenophageGenesRegrowing>Ксеногерм этого донора ещё восстанавливается.</FB_GenophageGenesRegrowing>
   <FB_GenophageExtractingInspect>Извлекает гены из {0}: осталось {1} ч.</FB_GenophageExtractingInspect>
   <FB_GenophageExtractedGenes>Экстракция генов завершена: {0}.</FB_GenophageExtractedGenes>

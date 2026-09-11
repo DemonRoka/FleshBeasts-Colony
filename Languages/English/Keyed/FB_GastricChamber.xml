@@ -12,6 +12,7 @@
   <FB_GastricAcidSpewer_HemogelEconomyDetail>External digestive fuel: {0} nutrition; output {1}/h</FB_GastricAcidSpewer_HemogelEconomyDetail>
   <FB_ColonyBrain_Structure_GastricAcidSpewer_Label>Gastric Acid Spewer</FB_ColonyBrain_Structure_GastricAcidSpewer_Label>
   <FB_ColonyBrainTendrilHauling_Inspect>Hauling tendrils: {0} active. Limit: {1} / {2}. Tendril upkeep: {3}/h.</FB_ColonyBrainTendrilHauling_Inspect>
+  <FB_ColonyBrainTendrilHauling_Resting>Dormant with no work: {0}.</FB_ColonyBrainTendrilHauling_Resting>
   <FB_ColonyBrainTendrilHauling_EconomyDetail>{0} hauling tendrils reserved</FB_ColonyBrainTendrilHauling_EconomyDetail>
   <FB_ColonyBrainTendrilLimit_Title>Hauling tendrils</FB_ColonyBrainTendrilLimit_Title>
   <FB_ColonyBrainTendrilLimit_BarLabel>{0} / {1} | {2}/h</FB_ColonyBrainTendrilLimit_BarLabel>

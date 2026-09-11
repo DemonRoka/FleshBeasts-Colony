@@ -4,6 +4,10 @@
     <defName>FB_PersonalityDevourer</defName>
     <label>personality devourer</label>
     <description>A fused fleshbeast that consumes intact-brained humanlike corpses and stores their identities in the colony brain.</description>
+    <researchPrerequisites>
+      <li>FB_ColonyMemoryArchive</li>
+    </researchPrerequisites>
+    <hiddenWhileUndiscovered>false</hiddenWhileUndiscovered>
     <tradeability>None</tradeability>
     <uiIconPath>Things/Pawn/FB_PersonalityDevourer/PersonalityDevourer_MenuIcon</uiIconPath>
     <statBases>

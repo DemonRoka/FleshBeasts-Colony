@@ -5,6 +5,9 @@
   <defName>FB_DeepMawTrap</defName>
   <label>deep maw trap</label>
   <description>A buried colony mouth hidden under flesh. Hostile movement wakes it; after a short delay, it snaps open and swallows every living pawn still on its 2x2 mouth, including allies. It digests organic victims into hemogel and grinds mechanoids until their remains are expelled.</description>
+  <researchPrerequisites>
+    <li>FB_DeepMawTraps</li>
+  </researchPrerequisites>
   <thingClass>FB.Building_DeepMawTrap</thingClass>
   <size>(2,2)</size>
   <drawerType>MapMeshAndRealTime</drawerType>

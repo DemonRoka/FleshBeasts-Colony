@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_GenophageCocoon.label>генофаговый кокон</FB_GenophageCocoon.label>
-  <FB_GenophageCocoon.description>Генофаговый кокон извлекает от одного до трёх случайных генов живого донора и сохраняет их генопаком в архиве генома.</FB_GenophageCocoon.description>
+  <FB_GenophageCocoon.description>Генофаговый кокон извлекает у живого донора от одного до трёх случайных генов, которых ещё нет в геномном архиве, и сохраняет их там отдельными генами.</FB_GenophageCocoon.description>
   <FB_GenomeArchive.label>геномный архив</FB_GenomeArchive.label>
-  <FB_GenomeArchive.description>Живой банк генов, хранящий извлечённые генопаки для просмотра и дальнейшей работы генного переплетателя.</FB_GenomeArchive.description>
+  <FB_GenomeArchive.description>Живой банк генов: раскладывает извлечённые генопаки на отдельные гены и хранит каждый ген в одном экземпляре для просмотра и дальнейшей работы генного переплетателя.</FB_GenomeArchive.description>
   <FB_GeneReweaver.label>генный переплетатель</FB_GeneReweaver.label>
   <FB_GeneReweaver.description>Генный переплетатель готовит внутренний плотяной ксеногерм из архивных генов, затем выращивает кокон для внедрения в пешку.</FB_GeneReweaver.description>
   <FB_GenophageCocoonEmbryo.label>эмбрион генофагового кокона</FB_GenophageCocoonEmbryo.label>

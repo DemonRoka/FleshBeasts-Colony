@@ -4,6 +4,9 @@
   <defName>FB_BileMortarGland</defName>
   <label>bile mortar gland</label>
   <description>A swollen artillery-organ that grows living bileburst podlings and launches mature ones as volatile incendiary shells.</description>
+  <researchPrerequisites>
+    <li>FB_BileMortarResearch</li>
+  </researchPrerequisites>
   <size>(2,2)</size>
   <graphicData>
     <graphicClass>Graphic_Single</graphicClass>

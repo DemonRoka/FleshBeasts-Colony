@@ -6,6 +6,9 @@
     <defName>FB_VoiceOrgan</defName>
     <label>voice organ</label>
     <description>A grown vocal organ that mimics a human radio operator. A living carrier is seated inside its throat, suspended so it neither ages nor starves, and the organ speaks with that person's voice: traders and factions on the other end hear a colony of people. It answers only while a carrier is held, and its social skill decides how the haggling goes.</description>
+    <researchPrerequisites>
+      <li>FB_HumanMimicry</li>
+    </researchPrerequisites>
     <thingClass>FB.Building_FleshVoiceOrgan</thingClass>
     <containedPawnsSelectable>true</containedPawnsSelectable>
     <drawerType>MapMeshAndRealTime</drawerType>
@@ -76,6 +79,9 @@
     <defName>FB_FleshTradeBeacon</defName>
     <label>flesh trade beacon</label>
     <description>A pulsing marker of flesh that tells the voice organ which goods lie ready for sale. Anything stacked within its reach can be traded away to orbital ships.</description>
+    <researchPrerequisites>
+      <li>FB_HumanMimicry</li>
+    </researchPrerequisites>
     <thingClass>FB.Building_FleshTradeBeacon</thingClass>
     <tickerType>Normal</tickerType>
     <size>(1,1)</size>

@@ -5,6 +5,9 @@
     <defName>FB_SymbiosisBroodWomb</defName>
     <label>symbiosis brood womb</label>
     <description>A swollen, pulsating womb-node grown from hemogel-fed biomass. It stores harvested skill essence and distills it into living defenders, while a bound maw scavenges nearby corpses to keep the node nourished.</description>
+    <researchPrerequisites>
+      <li>FB_BroodMotherResearch</li>
+    </researchPrerequisites>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <texPath>Things/Building/FB_Organic/SymbiosisBroodWomb/SymbiosisBroodWomb</texPath>

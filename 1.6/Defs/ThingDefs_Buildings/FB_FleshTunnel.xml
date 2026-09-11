@@ -4,6 +4,9 @@
     <defName>FB_FleshTunnelMaw</defName>
     <label>flesh tunnel maw</label>
     <description>A rooted mouth that spends the colony hemogel reserve to open a permanent world-tile tunnel. Once linked, it cannot be redirected.</description>
+    <researchPrerequisites>
+      <li>FB_FleshTunneling</li>
+    </researchPrerequisites>
     <thingClass>FB.Building_FleshTunnelMaw</thingClass>
     <size>(4,4)</size>
     <tickerType>Normal</tickerType>

@@ -5,6 +5,9 @@
     <defName>FB_Sclerat</defName>
     <label>sclerat</label>
     <description>The Sclerat is a small, flesh-eating minion that emerges from hives or the bodies of infected colonists. Despite its grotesque appearance, this creature is a surprisingly efficient worker. Covered in tough, chitinous plates, the Sclerat uses its powerful mandibles to deconstruct buildings and haul materials. Its many legs and flexible body allow it to navigate complex structures with ease. While its primary function is construction and deconstruction, the Sclerat's parasitic origins are evident in its relentless work ethic and insatiable hunger for flesh.</description>
+    <researchPrerequisites>
+      <li>MinionsHiveResearch</li>
+    </researchPrerequisites>
     <statBases>
       <ComfyTemperatureMin>-40</ComfyTemperatureMin>
       <ComfyTemperatureMax>60</ComfyTemperatureMax>

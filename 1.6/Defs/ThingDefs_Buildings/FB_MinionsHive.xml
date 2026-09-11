@@ -5,6 +5,9 @@
     <defName>FB_MinionsHive</defName>
     <label>minions hive</label>
     <description>A living hive that grows sclerats for construction material delivery, simple building, and deconstruction work.</description>
+    <researchPrerequisites>
+      <li>MinionsHiveResearch</li>
+    </researchPrerequisites>
     <size>(2,2)</size>
     <statBases>
       <MaxHitPoints>300</MaxHitPoints>

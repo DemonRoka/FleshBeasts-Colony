@@ -5,6 +5,10 @@
     <defName>FB_Devourer</defName>
     <label>devourer</label>
     <description>A tank fleshbeast that swallows valid prey within its stomach mass limits and digests them into hemogel.</description>
+    <researchPrerequisites>
+      <li>FB_DevourerGestation</li>
+    </researchPrerequisites>
+    <hiddenWhileUndiscovered>false</hiddenWhileUndiscovered>
     <tradeability>None</tradeability>
     <uiIconPath>Things/Pawn/FB_Devourer/FB_Devourer_Closed_south</uiIconPath>
     <statBases>

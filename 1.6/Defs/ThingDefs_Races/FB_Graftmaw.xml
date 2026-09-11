@@ -5,6 +5,9 @@
     <defName>FB_Graftmaw</defName>
     <label>graftmaw</label>
     <description>A field medic fleshbeast that stitches wounds, swallows loose or extracted implants, and grafts them directly into chosen colony pawns.</description>
+    <researchPrerequisites>
+      <li>FB_AdaptiveHarvesters</li>
+    </researchPrerequisites>
     <tradeability>None</tradeability>
     <uiIconPath>Things/Pawn/FB_Graftmaw/FB_Graftmaw_south</uiIconPath>
     <statBases>

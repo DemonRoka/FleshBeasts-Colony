@@ -12,6 +12,7 @@
   <FB_GastricAcidSpewer_HemogelEconomyDetail>Внешнее пищеварительное топливо: {0} питательности; выработка {1}/ч</FB_GastricAcidSpewer_HemogelEconomyDetail>
   <FB_ColonyBrain_Structure_GastricAcidSpewer_Label>Извергатель желудочного сока</FB_ColonyBrain_Structure_GastricAcidSpewer_Label>
   <FB_ColonyBrainTendrilHauling_Inspect>Грузовые щупальца: активно {0}. Лимит: {1} / {2}. Поддержание: {3}/ч.</FB_ColonyBrainTendrilHauling_Inspect>
+  <FB_ColonyBrainTendrilHauling_Resting>Спят без работы: {0}.</FB_ColonyBrainTendrilHauling_Resting>
   <FB_ColonyBrainTendrilHauling_EconomyDetail>зарезервировано грузовых щупалец: {0}</FB_ColonyBrainTendrilHauling_EconomyDetail>
   <FB_ColonyBrainTendrilLimit_Title>Грузовые щупальца</FB_ColonyBrainTendrilLimit_Title>
   <FB_ColonyBrainTendrilLimit_BarLabel>{0} / {1} | {2}/ч</FB_ColonyBrainTendrilLimit_BarLabel>

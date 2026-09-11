@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <FB_FleshGeneArchiveInspect>Archived genepacks: {0}</FB_FleshGeneArchiveInspect>
+  <FB_FleshGeneArchiveInspect>Archived genes: {0}</FB_FleshGeneArchiveInspect>
   <FB_FleshGeneArchiveInvalidGene>That gene pattern cannot be archived.</FB_FleshGeneArchiveInvalidGene>
   <FB_FleshGeneArchiveFull>The genome archive has no free capacity.</FB_FleshGeneArchiveFull>
   <FB_ForgetGenepackLabel>Erase stored genepack</FB_ForgetGenepackLabel>
-  <FB_ForgetGenepackDesc>Erase this stored genepack. It will not be ejected or recovered.</FB_ForgetGenepackDesc>
+  <FB_ForgetGenepackDesc>Erase this stored genepack. It will not be ejected or recovered. Shift+click erases without confirmation.</FB_ForgetGenepackDesc>
   <FB_ConfirmForgetGenepack>Erase {0}? This will permanently delete the stored genepack.</FB_ConfirmForgetGenepack>
   <FB_GeneArchiveTransferToMoonDesc>Transfer this genepack to the linked flesh moon's lunar storage.</FB_GeneArchiveTransferToMoonDesc>
   <FB_GeneArchiveTransferToSurfaceDesc>Return this genepack to the linked surface genome archive.</FB_GeneArchiveTransferToSurfaceDesc>
@@ -13,6 +13,29 @@
   <FB_GeneArchiveTransferFailed>Could not transfer the genepack.</FB_GeneArchiveTransferFailed>
   <FB_GeneArchiveTransferredToMoon>{0} was transferred to lunar storage.</FB_GeneArchiveTransferredToMoon>
   <FB_GeneArchiveTransferredToSurface>{0} was returned to the surface archive.</FB_GeneArchiveTransferredToSurface>
+  <FB_GeneArchiveSortButton>Sort: {0}</FB_GeneArchiveSortButton>
+  <FB_GeneArchiveSortCategory>by category</FB_GeneArchiveSortCategory>
+  <FB_GeneArchiveSortName>by name</FB_GeneArchiveSortName>
+  <FB_GeneArchiveSortComplexity>by complexity</FB_GeneArchiveSortComplexity>
+  <FB_GeneArchiveSortMetabolism>by metabolism</FB_GeneArchiveSortMetabolism>
+  <FB_GeneArchiveSortArchite>by archites</FB_GeneArchiveSortArchite>
+  <FB_GeneArchiveCounts>Selected: {0} of {1}</FB_GeneArchiveCounts>
+  <FB_GeneArchiveCountsFiltered>Selected: {0} · found {1} of {2}</FB_GeneArchiveCountsFiltered>
+  <FB_GeneArchiveNoMatches>No genepacks match the search.</FB_GeneArchiveNoMatches>
+  <FB_GeneArchiveRowHint>Click selects the genepack; Shift+click selects the range from the previous selection. Checkboxes can be ticked by dragging the mouse.</FB_GeneArchiveRowHint>
+  <FB_GeneArchiveCopiesTip>Identical genepacks: {0}.</FB_GeneArchiveCopiesTip>
+  <FB_GeneArchiveCollapseAll>Collapse all categories.</FB_GeneArchiveCollapseAll>
+  <FB_GeneArchiveExpandAll>Expand all categories.</FB_GeneArchiveExpandAll>
+  <FB_GeneArchiveSelectCopies>Copies ({0})</FB_GeneArchiveSelectCopies>
+  <FB_GeneArchiveSelectCopiesDesc>Select the extra copies of identical genepacks among those shown; one of each stays unselected.</FB_GeneArchiveSelectCopiesDesc>
+  <FB_GeneArchiveEraseSelected>Erase ({0})</FB_GeneArchiveEraseSelected>
+  <FB_GeneArchiveEraseSelectedDesc>Erase all selected genepacks. They will not be ejected or recovered.</FB_GeneArchiveEraseSelectedDesc>
+  <FB_ConfirmForgetGenepacks>Erase the selected genepacks ({0})? This will permanently delete them from the archive.</FB_ConfirmForgetGenepacks>
+  <FB_GeneArchiveTransferSelected>Transfer ({0})</FB_GeneArchiveTransferSelected>
+  <FB_GeneArchiveTransferSelectedToMoonDesc>Transfer all selected genepacks to the linked flesh moon's lunar storage.</FB_GeneArchiveTransferSelectedToMoonDesc>
+  <FB_GeneArchiveTransferSelectedToSurfaceDesc>Return all selected genepacks to the linked surface genome archive.</FB_GeneArchiveTransferSelectedToSurfaceDesc>
+  <FB_GeneArchiveTransferredManyToMoon>{0} genepacks were transferred to lunar storage.</FB_GeneArchiveTransferredManyToMoon>
+  <FB_GeneArchiveTransferredManyToSurface>{0} genepacks were returned to the surface archive.</FB_GeneArchiveTransferredManyToSurface>
   
   <FB_WaitingForPawn>Waiting for {0}.</FB_WaitingForPawn>
   <FB_ColonyBrain_Structure_GenophageCocoon_Label>Genophage cocoon</FB_ColonyBrain_Structure_GenophageCocoon_Label>
@@ -22,6 +45,7 @@
   <FB_GenophageSelectDonorDesc>Choose a living donor pawn with genes. The cocoon slowly copies one to three random genes into the archive, then releases the donor after extraction.</FB_GenophageSelectDonorDesc>
   <FB_GenophageNoArchiveSpace>No genome archive with free capacity is available.</FB_GenophageNoArchiveSpace>
   <FB_GenophageNoGenes>This donor has no genes.</FB_GenophageNoGenes>
+  <FB_GenophageNoNewGenes>All of this donor's genes are already in the genome archive.</FB_GenophageNoNewGenes>
   <FB_GenophageGenesRegrowing>This donor's xenogerm is still regrowing.</FB_GenophageGenesRegrowing>
   <FB_GenophageExtractingInspect>Extracting genes from {0}: {1} h remaining.</FB_GenophageExtractingInspect>
   <FB_GenophageExtractedGenes>Gene extraction complete: {0}.</FB_GenophageExtractedGenes>

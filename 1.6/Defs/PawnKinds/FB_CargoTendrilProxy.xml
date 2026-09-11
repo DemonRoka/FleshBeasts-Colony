@@ -10,6 +10,7 @@
     <forceDeathOnDowned>true</forceDeathOnDowned>
     <defaultFactionDef>PlayerColony</defaultFactionDef>
     <canOpenDoors>true</canOpenDoors>
+    <immuneToTraps>true</immuneToTraps>
     <overrideDebugActionCategory>FleshBeasts</overrideDebugActionCategory>
     <lifeStages>
       <li>

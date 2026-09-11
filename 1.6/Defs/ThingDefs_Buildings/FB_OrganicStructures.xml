@@ -157,6 +157,9 @@
     <defName>FB_ReinforcedFleshmassWall</defName>
     <label>reinforced fleshmass wall</label>
     <description>A thickened mass of colony flesh threaded with rigid bone structure, grown from an ordinary fleshmass wall to hold the colony's perimeter longer under attack.</description>
+    <researchPrerequisites>
+      <li>FB_FleshmassBoneWallReinforcement</li>
+    </researchPrerequisites>
     <graphicData>
       <texPath>Things/Building/Linked/ReinforcedFleshmass_Atlas</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -408,6 +411,7 @@
 					<requiredCorpseDefs>
 						<li>Human</li>
 					</requiredCorpseDefs>
+					<fleshArchitectCategory>FB_FleshArchitect_Structures</fleshArchitectCategory>
 				</li>
 			</structurePairs>
 		</li>
@@ -628,6 +632,7 @@
           <requiredCorpseDefs>
             <li>Human</li>
           </requiredCorpseDefs>
+          <fleshArchitectCategory>FB_FleshArchitect_Structures</fleshArchitectCategory>
         </li>
       </structurePairs>
     </li>
@@ -884,6 +889,9 @@
   <thingClass>Building</thingClass>
   <label>gastric acid spewer</label>
   <description>A rooted digestive organ that spreads gastric acid nearby. Organic bodies and food left in the connected acid pool slowly feed the hemogel network.</description>
+  <researchPrerequisites>
+    <li>FB_GastricChambers</li>
+  </researchPrerequisites>
   <drawerType>MapMeshAndRealTime</drawerType>
   <size>(1,1)</size>
   <statBases>
@@ -1097,6 +1105,9 @@
   <defName>FB_PhotosyntheticFleshleaf</defName>
   <label>Fleshleaf</label>
   <description>A photosynthetic flesh organ that converts unroofed daylight into hemogel for the colony network. Partial roofing reduces output.</description>
+  <researchPrerequisites>
+    <li>PhotosyntheticFleshleaf</li>
+  </researchPrerequisites>
   <size>(2,2)</size>
   <statBases>
     <Beauty>-20</Beauty>
@@ -1153,6 +1164,9 @@
     <defName>FB_PhotosyntheticFleshtree</defName>
     <label>Fleshtree</label>
     <description>A compact organ-tree fused from five fleshleaves. It produces about four leaves' worth of hemogel from daylight while occupying far less space and requiring less upkeep.</description>
+    <researchPrerequisites>
+      <li>FB_PhotosyntheticFleshtree</li>
+    </researchPrerequisites>
     <graphicData>
       <texPath>Things/Building/FB_Organic/PhotosyntheticFleshtree/PhotosyntheticFleshtree</texPath>
       <drawSize>(4,4)</drawSize>
@@ -1260,6 +1274,9 @@
   <defName>FB_TissueIncubator</defName>
   <label>Tissue incubator</label>
   <description>A living incubator that memorizes meat, leather, organic fabric, or whole corpses, then grows matching materials from hemogel.</description>
+  <researchPrerequisites>
+    <li>FB_TissueIncubation</li>
+  </researchPrerequisites>
   <thingClass>FB.Building_TissueIncubator</thingClass>
   <size>(2,2)</size>
   <multipleInteractionCellOffsets>
@@ -1315,6 +1332,9 @@
   <defName>FB_CapillaryTrawler</defName>
   <label>capillary trawler</label>
   <description>A filter-organ that casts fine vascular nets through nearby water, converting aquatic biomass into steady hemogel output.</description>
+  <researchPrerequisites>
+    <li>FB_CapillaryTrawling</li>
+  </researchPrerequisites>
   <size>(2,2)</size>
   <statBases>
     <MaxHitPoints>260</MaxHitPoints>
@@ -1351,6 +1371,9 @@
     <defName>FB_GalvanicCyst</defName>
     <label>galvanic cyst</label>
     <description>A compact electrocyte organ that consumes hemogel from the colony network to supply connected electrical devices.</description>
+    <researchPrerequisites>
+      <li>FB_GalvanicCysts</li>
+    </researchPrerequisites>
     <size>(1,1)</size>
     <blockWind>false</blockWind>
     <statBases>
@@ -1388,6 +1411,9 @@
     <defName>FB_GeoferriteGland</defName>
     <label>geoferrite gland</label>
     <description>A geyser-rooted organ that consumes hemogel and extrudes bioferrite from geothermal pressure.</description>
+    <researchPrerequisites>
+      <li>FB_GeoferriteGlands</li>
+    </researchPrerequisites>
     <size>(3,3)</size>
     <statBases>
       <MaxHitPoints>260</MaxHitPoints>
@@ -1422,6 +1448,9 @@
   <ThingDef ParentName="BuildingColonyFleshBaseAnimation">
     <defName>FB_Feeder</defName>
     <description>An organic feeding structure that uses hemogel network power to dispense edible biomass. Any hungry colonist can draw a fresh portion, though unaccepted pawns may dislike the meal.</description>
+    <researchPrerequisites>
+      <li>FeederResearch</li>
+    </researchPrerequisites>
     <label>Feeder</label>
     <thingClass>FB.Building_HemogelFeeder</thingClass>
     <size>(2,2)</size>
@@ -1869,6 +1898,9 @@
     <defName>FB_SporeCradle</defName>
     <label>Spore-Cradle</label>
     <description>A living worktable where colonists shape biomass and rare materials into seeds for growing organic equipment.</description>
+    <researchPrerequisites>
+      <li>FleshSeedCreation</li>
+    </researchPrerequisites>
     <thingClass>FB.Building_FleshWorkTableRaidTarget</thingClass>
     <tickerType>Normal</tickerType>
     <graphicData>
@@ -2669,6 +2701,9 @@
   <thingClass>FB.Building_PsychicLureAntenna</thingClass>
   <label>psychic lure antenna</label>
   <description>An organic antenna. When active, it emits waves of psychoactive hum, drawing the attention of raiders and provoking aggression in animals. Make sure the colony is ready to defend itself.</description>
+  <researchPrerequisites>
+    <li>FB_PsychicLureAntennae</li>
+  </researchPrerequisites>
   <drawerType>MapMeshAndRealTime</drawerType>
   <size>(2,2)</size>
   <statBases>
@@ -2733,6 +2768,9 @@
   <thingClass>FB.Building_CelestialUmbilicus</thingClass>
   <label>celestial umbilicus</label>
   <description>A colossal living column that consumes network hemogel to grow toward orbit. Once awakened, every faction will try to sever it before the flesh colony buds free.</description>
+  <researchPrerequisites>
+    <li>FB_CelestialBudding</li>
+  </researchPrerequisites>
   <drawerType>MapMeshAndRealTime</drawerType>
   <size>(7,7)</size>
   <altitudeLayer>BuildingOnTop</altitudeLayer>

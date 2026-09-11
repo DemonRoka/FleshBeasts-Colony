@@ -5,6 +5,9 @@
     <defName>FB_FleshmassSpitter</defName>
     <label>fleshmass spitter</label>
     <description>A defensive fleshmass organ that can spit acid long distances. The acid is a natural byproduct of toxins filtered from the surrounding biomass.</description>
+    <researchPrerequisites>
+      <li>SpitterResearch</li>
+    </researchPrerequisites>
     <thingClass>FB.Building_ControllableFleshmassSpitter</thingClass>
     <size>(2, 2)</size>
     <statBases>

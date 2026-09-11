@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<FB_FleshPortalDispatchZone_Label>склад отправки</FB_FleshPortalDispatchZone_Label>
+	<FB_FleshPortalDispatchZone_DesignatorLabel>склад отправки</FB_FleshPortalDispatchZone_DesignatorLabel>
+	<FB_FleshPortalDispatchZone_DesignatorDesc>Обычный склад с фильтрами и приоритетом. Всё, что на нём лежит, само отмечается к переносу через небесную пуповину на этой карте, а переносят вещи обычные носильщики: с поверхности на луну плоти, с луны на поверхность. Вещи, пришедшие через пуповину, склад обратно не отправляет. Создание склада ничего не стоит.</FB_FleshPortalDispatchZone_DesignatorDesc>
+	<FB_FleshPortalDispatchZone_ToggleLabel>Отправка в пуповину</FB_FleshPortalDispatchZone_ToggleLabel>
+	<FB_FleshPortalDispatchZone_ToggleDesc>Пока включено, всё на этом складе само отмечается к переносу через небесную пуповину. Уже отмеченное снимается кнопкой отмены загрузки у пуповины.</FB_FleshPortalDispatchZone_ToggleDesc>
+	<FB_FleshPortalDispatchZone_InspectActive>Отправка через пуповину: включена</FB_FleshPortalDispatchZone_InspectActive>
+	<FB_FleshPortalDispatchZone_InspectPaused>Отправка через пуповину: на паузе</FB_FleshPortalDispatchZone_InspectPaused>
+	<FB_FleshPortalDispatchZone_InspectNoPortal>Отправка через пуповину: на карте нет действующей пуповины</FB_FleshPortalDispatchZone_InspectNoPortal>
+
+</LanguageData>

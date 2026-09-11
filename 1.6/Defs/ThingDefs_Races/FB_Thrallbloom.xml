@@ -5,6 +5,10 @@
     <defName>FB_Thrallbloom</defName>
     <label>thrallbloom</label>
     <description>A vast floating knot of neural flesh and trailing tendrils, thrallbloom is bred for advanced battlefield domination. Deep inside its swollen crown, living budlink organs cast out mental tethers that seize hostile human minds and overwrite them with obedient impulse. It can sustain several such bonds at once, but every active link gnaws at its own cognition. When the thrallbloom is stunned or rendered unconscious, those tethered minds can snap free in a violent wave of synaptic backlash.</description>
+    <researchPrerequisites>
+      <li>FB_NeuralDominion</li>
+    </researchPrerequisites>
+    <hiddenWhileUndiscovered>false</hiddenWhileUndiscovered>
     <tradeability>None</tradeability>
     <uiIconPath>Things/Pawn/FB_Thrallbloom/FB_Thrallbloom_south</uiIconPath>
     <statBases>

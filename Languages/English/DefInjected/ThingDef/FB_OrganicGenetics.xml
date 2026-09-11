@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_GenophageCocoon.label>genophage cocoon</FB_GenophageCocoon.label>
-  <FB_GenophageCocoon.description>A genetic cocoon that extracts one to three random genes from a living donor and stores them as a genepack in a genome archive.</FB_GenophageCocoon.description>
+  <FB_GenophageCocoon.description>A genetic cocoon that extracts one to three random genes the genome archive doesn't have yet from a living donor and stores them there as individual genes.</FB_GenophageCocoon.description>
   <FB_GenomeArchive.label>genome archive</FB_GenomeArchive.label>
-  <FB_GenomeArchive.description>A living gene bank that stores extracted genepacks for inspection and later use by a gene reweaver.</FB_GenomeArchive.description>
+  <FB_GenomeArchive.description>A living gene bank that breaks extracted genepacks down into individual genes and stores each gene once for inspection and later use by a gene reweaver.</FB_GenomeArchive.description>
   <FB_GeneReweaver.label>gene reweaver</FB_GeneReweaver.label>
   <FB_GeneReweaver.description>A gene loom that prepares an internal flesh xenogerm from archived genes, then grows a cocoon to integrate it into a pawn.</FB_GeneReweaver.description>
   <FB_GenophageCocoonEmbryo.label>genophage cocoon embryo</FB_GenophageCocoonEmbryo.label>

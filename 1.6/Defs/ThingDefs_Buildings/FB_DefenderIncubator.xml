@@ -5,6 +5,9 @@
     <defName>FB_DefenderIncubator</defName>
     <label>Defender Incubator</label>
     <description>A defensive incubator that periodically releases short-lived fleshbeast defenders on command or when a hostile enters its detection radius. It needs time to mature before it can produce defenders again.</description>
+    <researchPrerequisites>
+      <li>DefenderIncubatorResearch</li>
+    </researchPrerequisites>
     <size>(2,2)</size>
     <statBases>
       <Beauty>-20</Beauty>
