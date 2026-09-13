@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_PsyphageRoot.reportString>rooting into the ground.</FB_PsyphageRoot.reportString>
+  <FB_PsyphageDevour.reportString>devouring TargetA.</FB_PsyphageDevour.reportString>
+  <FB_CarryToPsyarchive.reportString>carrying TargetB to TargetA.</FB_CarryToPsyarchive.reportString>
+  <FB_CarryItemToPsyarchive.reportString>carrying TargetB to TargetA.</FB_CarryItemToPsyarchive.reportString>
+  <FB_LinkWithPsyarchive.reportString>linking with the psyarchive</FB_LinkWithPsyarchive.reportString>
+</LanguageData>

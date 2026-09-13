@@ -168,6 +168,18 @@
         <lifetimeTicks>90000</lifetimeTicks>
       </li>
     </comps>
-    <tools />
+    <tools>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>2</power>
+        <cooldownTime>2.4</cooldownTime>
+        <linkedBodyPartsGroup>FullHead</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <soundMeleeHit>Pawn_Fleshbeast_Attack_Blunt</soundMeleeHit>
+      </li>
+    </tools>
   </ThingDef>
 </Defs>

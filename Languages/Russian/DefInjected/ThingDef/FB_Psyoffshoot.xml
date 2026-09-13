@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_Psyoffshoot.label>псиотросток</FB_Psyoffshoot.label>
+  <FB_Psyoffshoot.description>Недолговечный отросток плоти псифага, выращенный вокруг нервных отпечатков из архива. Каждую упакованную в него способность он применяет один раз — без пси-связи, пси-концентрации и нейроперегрева, — а израсходовав их, увядает.</FB_Psyoffshoot.description>
+  <FB_Psyoffshoot.tools.0.label>шип</FB_Psyoffshoot.tools.0.label>
+  <FB_Psyoffshoot.tools.1.label>голова</FB_Psyoffshoot.tools.1.label>
+</LanguageData>

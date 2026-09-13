@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- Раса: psyphage (FB_Psyphage) -->
+	<ThingDef ParentName="BaseFleshbeast">
+		<defName>FB_Psyphage</defName>
+		<label>psyphage</label>
+		<description>A heavy fleshbeast that walks up to downed pawns, prisoners, slaves and colonists and swallows them, digesting them alive and copying their abilities into its nerve archive. It also absorbs psytrainers, psylink neuroformers and anima trees, and can root into flesh to become a stationary psyarchive.</description>
+		<researchPrerequisites>
+			<li>FB_PsyphageGestation</li>
+		</researchPrerequisites>
+		<hiddenWhileUndiscovered>false</hiddenWhileUndiscovered>
+		<tradeability>None</tradeability>
+		<statBases>
+			<MoveSpeed>1.9</MoveSpeed>
+			<ComfyTemperatureMin>-35</ComfyTemperatureMin>
+			<ComfyTemperatureMax>60</ComfyTemperatureMax>
+			<Flammability>1.4</Flammability>
+			<MinimumContainmentStrength>110</MinimumContainmentStrength>
+			<ToxicResistance>0.5</ToxicResistance>
+			<MarketValue>1400</MarketValue>
+			<MeatAmount>110</MeatAmount>
+			<ArmorRating_Blunt>0.24</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.30</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.04</ArmorRating_Heat>
+			<PsychicSensitivity>1.5</PsychicSensitivity>
+		</statBases>
+		<race>
+			<body>FB_DevourerBody</body>
+			<intelligence>ToolUser</intelligence>
+			<specificMeatDef>Meat_Twisted</specificMeatDef>
+			<disableIgniteVerb>true</disableIgniteVerb>
+			<canOpenFactionlessDoors>true</canOpenFactionlessDoors>
+			<bloodDef>Filth_Blood</bloodDef>
+			<bloodSmearDef>Filth_BloodSmear</bloodSmearDef>
+			<soundMeleeDodge>Pawn_MeleeDodge</soundMeleeDodge>
+			<trainability>None</trainability>
+			<baseBodySize>2.4</baseBodySize>
+			<baseHungerRate>0.18</baseHungerRate>
+			<baseHealthScale>1.6</baseHealthScale>
+			<lifeExpectancy>30</lifeExpectancy>
+			<renderTree>Animal</renderTree>
+			<thinkTreeMain>FB_FleshbeastStandardMain</thinkTreeMain>
+			<thinkTreeConstant>FB_FleshbeastStandardConstant</thinkTreeConstant>
+			<needsRest>false</needsRest>
+			<hasGenders>false</hasGenders>
+			<foodType>None</foodType>
+			<canBePredatorPrey>false</canBePredatorPrey>
+			<fleshType>Fleshbeast</fleshType>
+			<isImmuneToInfections>true</isImmuneToInfections>
+			<bleedRateFactor>0.45</bleedRateFactor>
+			<hediffGiverSets>
+				<li>Fleshbeast</li>
+			</hediffGiverSets>
+			<soundMoving>Pawn_Fleshbeast_Dreadmeld_Moving</soundMoving>
+			<deathAction Class="FB.DeathActionProperties_PsyphageVanish">
+				<workerClass>FB.DeathActionWorker_PsyphageVanish</workerClass>
+				<filth>Filth_TwistedFlesh</filth>
+				<filthCountRange>4~7</filthCountRange>
+				<meatExplosionSize>Small</meatExplosionSize>
+			</deathAction>
+			<lifeStageAges>
+				<li>
+					<def>EntityFullyFormed</def>
+					<soundWounded>Pawn_Fleshbeast_Dreadmeld_Wounded</soundWounded>
+					<soundDeath>Pawn_Fleshbeast_Dreadmeld_Death</soundDeath>
+					<soundCall>Pawn_Fleshbeast_Dreadmeld_Call</soundCall>
+				</li>
+			</lifeStageAges>
+		</race>
+		<inspectorTabs>
+			<li>FB.ITab_PsyphageArchive</li>
+		</inspectorTabs>
+		<comps>
+			<li Class="FB.CompProperties_FleshbeastDraftable" />
+			<li Class="FB.CompProperties_Psyphage">
+				<rootedBuildingDef>FB_Psyarchive</rootedBuildingDef>
+				<rootJobDef>FB_PsyphageRoot</rootJobDef>
+				<rootWorkTicks>1250</rootWorkTicks>
+				<uprootWorkTicks>1250</uprootWorkTicks>
+				<swallowWorkTicks>240</swallowWorkTicks>
+				<itemAbsorbWorkTicks>120</itemAbsorbWorkTicks>
+				<soulTreeAbsorbWorkTicks>2500</soulTreeAbsorbWorkTicks>
+				<offshootKind>FB_PsyoffshootKind</offshootKind>
+				<maxOffshootAbilities>3</maxOffshootAbilities>
+				<maxLivingOffshoots>4</maxLivingOffshoots>
+				<offshootsBeforeCooldown>4</offshootsBeforeCooldown>
+				<offshootCooldownTicks>60000</offshootCooldownTicks>
+				<createOffshootIconPath>UI/Commands/PsyoffshootCreate</createOffshootIconPath>
+				<swallowAbility>FB_PsyphageSwallow</swallowAbility>
+				<absorbableAmplifierDefs>
+					<li MayRequireAnyOf="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Biotech">PsychicAmplifier</li>
+				</absorbableAmplifierDefs>
+				<!-- Эти способности псифаг не копирует в архив: псиотростки не могут их применять -->
+				<abilityBlacklist>
+					<li MayRequire="Ludeon.RimWorld.Royalty">EntropyDump</li>
+					<li MayRequire="Ludeon.RimWorld.Royalty">WordOfSerenity</li>
+				</abilityBlacklist>
+				<!-- Способности с этими эффектами тоже не попадают в архив: эффекты обращаются к нейроперегреву или пси-концентрации заклинателя -->
+				<abilityEffectCompBlacklist>
+					<li>CompAbilityEffect_StopMentalState</li>
+					<li>CompAbilityEffect_TransferEntropy</li>
+					<li>CompAbilityEffect_StartAnimaLinking</li>
+				</abilityEffectCompBlacklist>
+				<rootCommandIconPath>UI/Commands/PsyphageRoot</rootCommandIconPath>
+				<uprootCommandIconPath>UI/Commands/PsyarchiveUproot</uprootCommandIconPath>
+			</li>
+			<li Class="FB.CompProperties_PsyphageStomach">
+				<maxContainedMass>180</maxContainedMass>
+				<maxTargetMass>130</maxTargetMass>
+				<digestionIntervalTicks>250</digestionIntervalTicks>
+				<digestionDamage>5</digestionDamage>
+				<digestionTicksPerBodySize>7500</digestionTicksPerBodySize>
+				<minDigestionTicks>2500</minDigestionTicks>
+				<resistanceIntervalTicks>180</resistanceIntervalTicks>
+				<maxResistanceDamagePerPulse>20</maxResistanceDamagePerPulse>
+				<internalResistanceDamageFactor>0.5</internalResistanceDamageFactor>
+				<forcedReleaseHealthFraction>0.1</forcedReleaseHealthFraction>
+			</li>
+		</comps>
+		<tools>
+			<li>
+				<label>grinding maw</label>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>14</power>
+				<cooldownTime>2.8</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<soundMeleeHit>Pawn_Fleshbeast_Attack_Blunt</soundMeleeHit>
+			</li>
+			<li>
+				<label>nerve lash</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>2.4</cooldownTime>
+				<linkedBodyPartsGroup>FirstTentacle</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.5</chanceFactor>
+				<soundMeleeHit>Pawn_Fleshbeast_Attack_Spike</soundMeleeHit>
+			</li>
+		</tools>
+	</ThingDef>
+</Defs>

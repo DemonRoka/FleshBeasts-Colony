@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <FB_ForcedFleshConversion_Label>Насильное принятие плоти</FB_ForcedFleshConversion_Label>
+  <FB_ForcedFleshConversion_Label>Принятие плоти</FB_ForcedFleshConversion_Label>
   <FB_ForcedFleshConversion_Desc>Принести живого пленника или упавшего врага к сердцу колонии или лунному нервному узлу. Пальцешипы внедряются в цель: один нужен на каждые 300 рыночной ценности. Невербуемые цели преобразуются в твёрдошипов.\n\nСвободный колонист может принять плоть добровольно: он сам идёт к сердцу и стоит там, пока пальцешипы внедряются, без наркоза и носильщика. Своим пальцешипов нужно вдвое меньше.</FB_ForcedFleshConversion_Desc>
   <FB_ForcedFleshConversion_Started>Принятие плоти началось для {0}.</FB_ForcedFleshConversion_Started>
   <FB_ForcedFleshConversion_VolunteerStarted>{0} идёт к сердцу колонии, чтобы принять плоть.</FB_ForcedFleshConversion_VolunteerStarted>

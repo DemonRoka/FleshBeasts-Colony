@@ -36,7 +36,7 @@
   <FB_FleshThrallCoherenceTooltip>Current cohesion: {0}%\nFingerspikes needed for full restoration: {1}</FB_FleshThrallCoherenceTooltip>
   
   <FB_FleshThrallRestoreLabel>Restore thrall</FB_FleshThrallRestoreLabel>
-  <FB_FleshThrallRestoreDesc>Call nearby fingerspikes to enter this flesh thrall and restore its cohesion.</FB_FleshThrallRestoreDesc>
+  <FB_FleshThrallRestoreDesc>Call nearby fingerspikes to enter the flesh thrall and restore its vitality.</FB_FleshThrallRestoreDesc>
   <FB_FleshThrallAutoRestoreDesc>Right-click this command to toggle automatic restoration. When enabled, one available fingerspike is called after the thrall has lost one fingerspike's worth of cohesion, or falls below 20%.</FB_FleshThrallAutoRestoreDesc>
   <FB_FleshThrallRestoreNoFingerspike>No reachable fingerspikes are available.</FB_FleshThrallRestoreNoFingerspike>
   <FB_FleshThrallRestoreFullEnough>The thrall is already fully coherent.</FB_FleshThrallRestoreFullEnough>
@@ -68,8 +68,8 @@
   <FB_FleshbeastMassZone_InvalidZone>The fleshbeast mass zone is no longer valid.</FB_FleshbeastMassZone_InvalidZone>
   <FB_FleshbeastMassZone_NoCapacity>The mass zone does not have enough free capacity.</FB_FleshbeastMassZone_NoCapacity>
   <FB_FleshbeastMassZone_CannotStorePawn>The fleshbeast could not enter the mass zone.</FB_FleshbeastMassZone_CannotStorePawn>
-  <FB_FleshbeastMassZone_LoadGizmo>Load fleshbeasts</FB_FleshbeastMassZone_LoadGizmo>
-  <FB_FleshbeastMassZone_LoadGizmoDesc>Select fleshbeasts on this map to fold into this mass zone.</FB_FleshbeastMassZone_LoadGizmoDesc>
+  <FB_FleshbeastMassZone_LoadGizmo>Send to zone</FB_FleshbeastMassZone_LoadGizmo>
+  <FB_FleshbeastMassZone_LoadGizmoDesc>Select fleshbeasts on this map and send them to the mass zone, where their behavior uses simplified simulation.</FB_FleshbeastMassZone_LoadGizmoDesc>
   <FB_FleshbeastMassZone_UnloadAll>Unload all</FB_FleshbeastMassZone_UnloadAll>
   <FB_FleshbeastMassZone_UnloadAllDesc>Release all fleshbeasts from this mass zone.</FB_FleshbeastMassZone_UnloadAllDesc>
   <FB_FleshbeastMassZone_UnloadKindShort>Unload</FB_FleshbeastMassZone_UnloadKindShort>
@@ -99,7 +99,7 @@
   <FB_GroupMassZoneTooltip>Send the active group into a selected fleshbeast mass zone.</FB_GroupMassZoneTooltip>
   <FB_GroupAssignedMassZone>{0} fleshbeast(s) from {1} are moving into {2}.</FB_GroupAssignedMassZone>
   <FB_GroupDigestCrippledLabel>Digest fleshbeasts</FB_GroupDigestCrippledLabel>
-  <FB_GroupDigestCrippledTooltip>Select fleshbeasts to sacrifice for digestion. Mobile ones move to a stomach or gastric acid; immobile ones die in place and use their normal death effect.</FB_GroupDigestCrippledTooltip>
+  <FB_GroupDigestCrippledTooltip>Select fleshbeasts to sacrifice for digestion. Mobile fleshbeasts will move to a stomach or gastric acid. Immobile ones will die in place, triggering their usual effects on death.</FB_GroupDigestCrippledTooltip>
   <FB_GroupDigestCrippledNoSelectablePawns>No valid fleshbeasts selected.</FB_GroupDigestCrippledNoSelectablePawns>
   
   <FB_GroupDigestCrippledInvalid>That fleshbeast cannot be digested.</FB_GroupDigestCrippledInvalid>

@@ -47,9 +47,9 @@
   <FB_FailedSpawnThing>Не удалось создать {0}.</FB_FailedSpawnThing>
   <FB_FailedGeneratePawnKind>Не удалось сгенерировать {0}.</FB_FailedGeneratePawnKind>
   <FB_ColonyBrain_Structure_TentacleTurret_Desc>Выращивает неподвижного биошмата-защитника, который выпускает кератиновые шипы по далёким врагам и хлещет ближайших тяжёлыми щупальцами.</FB_ColonyBrain_Structure_TentacleTurret_Desc>
-  <FB_LocalFleshRelocateBuilding_Label>Передвинуть мясную постройку</FB_LocalFleshRelocateBuilding_Label>
+  <FB_LocalFleshRelocateBuilding_Label>Передвинуть постройку</FB_LocalFleshRelocateBuilding_Label>
   <FB_LocalFleshRelocateBuilding_Desc>Выберите управляемую игроком постройку из плоти, затем укажите новое покрытое плотью место на этой же карте. Пешки на новом месте переносу не мешают: из-под непроходимой постройки они сами отойдут.</FB_LocalFleshRelocateBuilding_Desc>
-  <FB_FleshMoonRelocateBuilding_Label>Перенести мясную постройку</FB_FleshMoonRelocateBuilding_Label>
+  <FB_FleshMoonRelocateBuilding_Label>Перенести между картами</FB_FleshMoonRelocateBuilding_Label>
   <FB_FleshMoonRelocateBuilding_Desc>Выберите управляемую игроком постройку из плоти на этой карте, затем укажите покрытое плотью место на связанной карте.</FB_FleshMoonRelocateBuilding_Desc>
   <FB_FleshRelocationAlreadyHere>Выберите другое место.</FB_FleshRelocationAlreadyHere>
   <FB_LocalFleshRelocationNoMap>Локальная карта недоступна.</FB_LocalFleshRelocationNoMap>

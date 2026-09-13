@@ -5,7 +5,7 @@
     <defName>FB_Hemoghoul</defName>
     <label>hemoghoul</label>
     <hediffClass>HediffWithComps</hediffClass>
-    <description>A flesh-bound worker raised from a corpse by a fingerspike. It needs no sleep or comfort, feeding only from the colony heart.</description>
+    <description>A flesh-bound worker raised from a corpse by a fingerspike. It needs no sleep or comfort, feeding only from the colony heart. Colony flesh knits its wounds; when it dies, the body collapses into a handful of fingerspikes.</description>
     <defaultLabelColor>(0.8, 0.35, 0.35)</defaultLabelColor>
     <isBad>false</isBad>
     <everCurableByItem>false</everCurableByItem>

@@ -567,6 +567,7 @@
           <li>FB_AssembleSegmentedBastion</li>
           <li>FB_AssembleAcidBroodmother</li>
           <li>FB_AssembleDevourer</li>
+          <li>FB_GrowPsyphageFromHemogel</li>
         </recipes>
       </li>
       <li Class="FB.CompProperties_ColonyBrainNeuralResearch">

@@ -36,13 +36,13 @@
   <FB_FleshThrallCoherenceTooltip>Текущее сцепление: {0}%\nНужно пальцешипов до полного восстановления: {1}</FB_FleshThrallCoherenceTooltip>
   
   <FB_FleshThrallRestoreLabel>Восстановить раба</FB_FleshThrallRestoreLabel>
-  <FB_FleshThrallRestoreDesc>Позвать ближайших пальцешипов, чтобы они внедрились в мясного раба и восстановили его сцепление.</FB_FleshThrallRestoreDesc>
+  <FB_FleshThrallRestoreDesc>Позвать ближайших пальцешипов, чтобы они внедрились в плотяного раба и восстановили его жизнеспособность.</FB_FleshThrallRestoreDesc>
   <FB_FleshThrallAutoRestoreDesc>Щёлкните правой кнопкой по этой команде, чтобы включить автоматическое восстановление. В этом режиме один доступный пальцешип вызывается после потери объёма сцепления, который он может восполнить, или при падении ниже 20%.</FB_FleshThrallAutoRestoreDesc>
   <FB_FleshThrallRestoreNoFingerspike>Нет доступных пальцешипов, способных добраться до цели.</FB_FleshThrallRestoreNoFingerspike>
   <FB_FleshThrallRestoreFullEnough>Раб уже полностью сцеплен.</FB_FleshThrallRestoreFullEnough>
   <FB_FleshThrallRestoreNoJob>Работа восстановления не настроена.</FB_FleshThrallRestoreNoJob>
   <FB_FleshThrallRestoreStarted>{0} пальцешип(ов) назначено на восстановление {1}.</FB_FleshThrallRestoreStarted>
-  <FB_FleshThrallConvertLabel>Создать мясного раба</FB_FleshThrallConvertLabel>
+  <FB_FleshThrallConvertLabel>Создать плотяного раба</FB_FleshThrallConvertLabel>
   <FB_FleshThrallConvertDesc>Отправить нужное число пальцешипов в труп, чтобы связать тело как плотяного раба.</FB_FleshThrallConvertDesc>
   <FB_FleshThrallConvertInspect>Связывание {0}: {1}/{2} пальцешипов.</FB_FleshThrallConvertInspect>
   <FB_FleshThrallConvertInvalidTarget>Недопустимая цель для мясного раба.</FB_FleshThrallConvertInvalidTarget>
@@ -68,8 +68,8 @@
   <FB_FleshbeastMassZone_InvalidZone>Зона мясной массы больше недействительна.</FB_FleshbeastMassZone_InvalidZone>
   <FB_FleshbeastMassZone_NoCapacity>В зоне мясной массы не хватает свободной вместимости.</FB_FleshbeastMassZone_NoCapacity>
   <FB_FleshbeastMassZone_CannotStorePawn>Биошмат не смог войти в зону мясной массы.</FB_FleshbeastMassZone_CannotStorePawn>
-  <FB_FleshbeastMassZone_LoadGizmo>Загрузить биошматов</FB_FleshbeastMassZone_LoadGizmo>
-  <FB_FleshbeastMassZone_LoadGizmoDesc>Выбрать биошматов на этой карте, которые свернутся внутрь зоны мясной массы.</FB_FleshbeastMassZone_LoadGizmoDesc>
+  <FB_FleshbeastMassZone_LoadGizmo>Направить в зону</FB_FleshbeastMassZone_LoadGizmo>
+  <FB_FleshbeastMassZone_LoadGizmoDesc>Выбрать биошматов на этой карте и направить их в зону мясной массы, где используется упрощённый расчёт их поведения.</FB_FleshbeastMassZone_LoadGizmoDesc>
   <FB_FleshbeastMassZone_UnloadAll>Выпустить всех</FB_FleshbeastMassZone_UnloadAll>
   <FB_FleshbeastMassZone_UnloadAllDesc>Выпустить всех биошматов из этой зоны мясной массы.</FB_FleshbeastMassZone_UnloadAllDesc>
   <FB_FleshbeastMassZone_UnloadKindShort>Выпустить</FB_FleshbeastMassZone_UnloadKindShort>
@@ -99,7 +99,7 @@
   <FB_GroupMassZoneTooltip>Отправить активную группу в выбранную зону мясной массы.</FB_GroupMassZoneTooltip>
   <FB_GroupAssignedMassZone>{0} биошмат(ов) из группы {1} идут в {2}.</FB_GroupAssignedMassZone>
   <FB_GroupDigestCrippledLabel>Переварить биошматов</FB_GroupDigestCrippledLabel>
-  <FB_GroupDigestCrippledTooltip>Выбрать биошматов для жертвенного переваривания. Подвижные сами идут к желудку или кислоте; обездвиженные погибают на месте через свой обычный эффект смерти.</FB_GroupDigestCrippledTooltip>
+  <FB_GroupDigestCrippledTooltip>Выбрать биошматов для жертвенного переваривания. Подвижные сами направятся к желудку или желудочному соку. Обездвиженные погибнут на месте; при этом сработают их обычные посмертные свойства.</FB_GroupDigestCrippledTooltip>
   <FB_GroupDigestCrippledNoSelectablePawns>Нет подходящих выбранных биошматов.</FB_GroupDigestCrippledNoSelectablePawns>
   
   <FB_GroupDigestCrippledInvalid>Этого биошмата нельзя переварить.</FB_GroupDigestCrippledInvalid>

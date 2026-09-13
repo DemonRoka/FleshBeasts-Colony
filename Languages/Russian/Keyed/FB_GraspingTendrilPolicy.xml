@@ -9,7 +9,7 @@
 	<FB_GraspingTendrils_HeartSlotsInspect>Места хватательных щупалец: {0} / {1} доступно.</FB_GraspingTendrils_HeartSlotsInspect>
 	<FB_GraspingTendrils_NextSlotReady>Следующее место щупалец восстановится через: {0}.</FB_GraspingTendrils_NextSlotReady>
 	<FB_GraspingTendrils_InvalidTarget>Недопустимая цель для хватательных щупалец.</FB_GraspingTendrils_InvalidTarget>
-	<FB_GraspingTendrils_PlayerProtected>Колония не будет хватать своих пешек, прирученных животных или союзных плотяных зверей.</FB_GraspingTendrils_PlayerProtected>
+	<FB_GraspingTendrils_PlayerProtected>Колония не будет хватать своих пешек, прирученных животных или союзных биошматов.</FB_GraspingTendrils_PlayerProtected>
 	<FB_GraspingTendrils_NotFleshTarget>Хватательные щупальца могут удерживать только живые плотяные цели.</FB_GraspingTendrils_NotFleshTarget>
 	<FB_GraspingTendrils_OutOfRange>Цель вне радиуса хватательных щупалец.</FB_GraspingTendrils_OutOfRange>
 	<FB_GraspingTendrils_PolicyReject>Цель запрещена политикой хватательных щупалец.</FB_GraspingTendrils_PolicyReject>

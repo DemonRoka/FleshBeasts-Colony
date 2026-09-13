@@ -39,6 +39,7 @@
 			<li>FB_Sclerat</li>
 			<li>FB_ThrallbloomKind</li>
 			<li>FB_NerveclotKind</li>
+			<li>FB_PsyoffshootKind</li>
 		</massZoneDisallowedPawnKinds>
 		<groupExcludedPawnKinds>
 			<li>FB_SymbioHead</li>
@@ -55,6 +56,7 @@
 			<li>FB_SinewcallerKind</li>
 			<li>FB_StingmiteKind</li>
 			<li>FB_TentacleTurret</li>
+			<li>FB_PsyoffshootKind</li>
 		</groupExcludedPawnKinds>
 	</FB.FleshbeastMassZoneSettingsDef>
 </Defs>

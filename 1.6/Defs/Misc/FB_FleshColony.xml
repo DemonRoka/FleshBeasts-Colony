@@ -64,7 +64,7 @@
       <subNodes>
         <li Class="FB.JobGiver_FleshbeastAttackMarkedTarget">
           <maxReachabilityChecks>4</maxReachabilityChecks>
-          <jobExpiryInterval>900</jobExpiryInterval>
+          <jobExpiryInterval>180</jobExpiryInterval>
           <maxDanger>Deadly</maxDanger>
         </li>
       </subNodes>

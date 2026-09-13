@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- Задание: FB_PsyphageRoot -->
+	<JobDef>
+		<defName>FB_PsyphageRoot</defName>
+		<driverClass>FB.JobDriver_PsyphageRoot</driverClass>
+		<reportString>rooting into the ground.</reportString>
+		<playerInterruptible>true</playerInterruptible>
+	</JobDef>
+
+	<!-- Задание: FB_PsyphageDevour -->
+	<JobDef>
+		<defName>FB_PsyphageDevour</defName>
+		<driverClass>FB.JobDriver_PsyphageDevour</driverClass>
+		<reportString>devouring TargetA.</reportString>
+		<casualInterruptible>false</casualInterruptible>
+		<playerInterruptible>true</playerInterruptible>
+		<checkOverrideOnDamage>OnlyIfInstigatorNotJobTarget</checkOverrideOnDamage>
+	</JobDef>
+
+	<!-- Задание: FB_CarryToPsyarchive -->
+	<JobDef>
+		<defName>FB_CarryToPsyarchive</defName>
+		<driverClass>FB.JobDriver_CarryToPsyarchive</driverClass>
+		<reportString>carrying TargetB to TargetA.</reportString>
+	</JobDef>
+
+	<!-- Задание: FB_CarryItemToPsyarchive -->
+	<JobDef>
+		<defName>FB_CarryItemToPsyarchive</defName>
+		<driverClass>FB.JobDriver_CarryItemToPsyarchive</driverClass>
+		<reportString>carrying TargetB to TargetA.</reportString>
+	</JobDef>
+
+	<!-- Задание: FB_LinkWithPsyarchive -->
+	<JobDef>
+		<defName>FB_LinkWithPsyarchive</defName>
+		<driverClass>FB.JobDriver_LinkWithPsyarchive</driverClass>
+		<reportString>linking with the psyarchive</reportString>
+		<casualInterruptible>false</casualInterruptible>
+		<playerInterruptible>true</playerInterruptible>
+		<neverShowWeapon>true</neverShowWeapon>
+	</JobDef>
+</Defs>

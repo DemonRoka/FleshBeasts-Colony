@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- Вид пешки: psyphage (FB_PsyphageKind) -->
+	<PawnKindDef ParentName="BaseFleshbeastKind">
+		<defName>FB_PsyphageKind</defName>
+		<label>psyphage</label>
+		<overrideDeathOnDownedChance>0</overrideDeathOnDownedChance>
+		<ignoresPainShock>true</ignoresPainShock>
+		<race>FB_Psyphage</race>
+		<combatPower>100</combatPower>
+		<defaultFactionDef>PlayerColony</defaultFactionDef>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/FB_Psyphage/FB_Psyphage</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>3.2</drawSize>
+				</bodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+</Defs>

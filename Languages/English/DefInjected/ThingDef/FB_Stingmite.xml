@@ -2,4 +2,5 @@
 <LanguageData>
   <FB_Stingmite.label>stingmite</FB_Stingmite.label>
   <FB_Stingmite.description>A disposable fleshbeast that rushes hostile targets, injects a paralytic nerve toxin into living prey, and bursts harmlessly against mechanoids.</FB_Stingmite.description>
+  <FB_Stingmite.tools.0.label>stinger</FB_Stingmite.tools.0.label>
 </LanguageData>

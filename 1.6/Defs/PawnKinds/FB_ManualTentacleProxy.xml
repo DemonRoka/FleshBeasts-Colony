@@ -7,6 +7,8 @@
 		<label>tentacle proxy</label>
 		<race>FB_ManualTentacleProxy</race>
 		<combatPower>5</combatPower>
+		<!-- Не дерётся: атака в tools символическая — CAI 5000 и похожие моды запрашивают ближнюю атаку у каждой пешки и без неё пишут ошибку -->
+		<canMeleeAttack>false</canMeleeAttack>
 		<forceNoDeathNotification>true</forceNoDeathNotification>
 		<forceDeathOnDowned>true</forceDeathOnDowned>
 		<defaultFactionDef>PlayerColony</defaultFactionDef>

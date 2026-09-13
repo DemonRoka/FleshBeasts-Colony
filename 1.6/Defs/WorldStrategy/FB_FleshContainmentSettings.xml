@@ -12,6 +12,14 @@
 		<industrialWeapon>Gun_Incinerator</industrialWeapon>
 		<escortWeapon>Gun_HellcatRifle</escortWeapon>
 
+		<!-- Цели поджигателя: только горючий покров. Желудочный сок тоже числится плотью, но огонь на нём не разгорается -->
+		<burnTargetTerrains>
+			<li>Flesh</li>
+			<li>FleshVeins</li>
+			<li>RootFlesh</li>
+			<li>RootFleshVeins</li>
+		</burnTargetTerrains>
+
 		<!-- Площе ванильной кривой бреши: за поджигателей работает пожар, численность им не нужна -->
 		<burnersFromPointsCurve>
 			<points>

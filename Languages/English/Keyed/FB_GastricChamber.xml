@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_GastricAcidSpewer_ToggleLabel>Spread gastric acid</FB_GastricAcidSpewer_ToggleLabel>
-  <FB_GastricAcidSpewer_ToggleDesc>Spread digestive acid from this organ into nearby valid cells. Turning it off makes the organ absorb acid back cell by cell.</FB_GastricAcidSpewer_ToggleDesc>
+  <FB_GastricAcidSpewer_ToggleDesc>Spread digestive acid from this organ into nearby valid cells. Turning it off makes the organ absorb acid back cell by cell, starting from the edge of the pool farthest from every spewer. While another turned-on spewer still feeds a shared pool, this organ only takes back as many cells as it has spread; once every spewer on the pool is off, the whole pool is absorbed.</FB_GastricAcidSpewer_ToggleDesc>
   
   
   <FB_GastricAcidSpewer_InspectIdle>Gastric acid: dormant</FB_GastricAcidSpewer_InspectIdle>

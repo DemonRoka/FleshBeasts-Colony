@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<GameConditionDef>
+		<defName>FB_FleshClimate</defName>
+		<conditionClass>FB.GameCondition_FleshClimate</conditionClass>
+		<label>flesh climate</label>
+		<description>Living flesh spreading across this tile regulates its climate, pulling the outdoor temperature toward comfort. The harsher the tile's own climate, the harder it resists: mild lands become warm and even, while glaciers and scorching deserts barely yield.</description>
+		<canBePermanent>true</canBePermanent>
+		<displayOnUI>false</displayOnUI>
+		<modExtensions>
+			<li Class="FB.FleshClimateExtension">
+				<startCoverage>0.1</startCoverage>
+				<strengthChangePerDay>0.2</strengthChangePerDay>
+				<powerByMeanDeviation>
+					<points>
+						<li>(10, 20)</li>
+						<li>(20, 14)</li>
+						<li>(30, 9)</li>
+						<li>(45, 5)</li>
+						<li>(60, 3)</li>
+					</points>
+				</powerByMeanDeviation>
+			</li>
+		</modExtensions>
+	</GameConditionDef>
+
+</Defs>

@@ -8,9 +8,9 @@
   <DefenderIncubatorResearch.label>инкубатор защитников</DefenderIncubatorResearch.label>
   <FB_BroodMotherResearch.description>Открывает симбиотическую выводковую утробу — развитый орган размножения, использующий гемогель, биомассу и накопленную сущность навыков для выращивания базовых боевых зверей и простых рабочих форм по требованию.</FB_BroodMotherResearch.description>
   <FB_BroodMotherResearch.generalRules.rulesStrings.0>subject-&gt;инкубация выводка плоти</FB_BroodMotherResearch.generalRules.rulesStrings.0>
-  <FB_BroodMotherResearch.generalRules.rulesStrings.1>subject_story-&gt;улучшил вынашивание защитников до контролируемого разведения плотяных зверей</FB_BroodMotherResearch.generalRules.rulesStrings.1>
+  <FB_BroodMotherResearch.generalRules.rulesStrings.1>subject_story-&gt;улучшил вынашивание защитников до контролируемого разведения биошматов</FB_BroodMotherResearch.generalRules.rulesStrings.1>
   <FB_BroodMotherResearch.generalRules.rulesStrings.2>subject_story-&gt;создал живую утробу для выращенных колонией чудовищ</FB_BroodMotherResearch.generalRules.rulesStrings.2>
-  <FB_BroodMotherResearch.generalRules.rulesStrings.3>subject_gerund-&gt;разведение плотяных зверей</FB_BroodMotherResearch.generalRules.rulesStrings.3>
+  <FB_BroodMotherResearch.generalRules.rulesStrings.3>subject_gerund-&gt;разведение биошматов</FB_BroodMotherResearch.generalRules.rulesStrings.3>
   <FB_BroodMotherResearch.label>выводковая матка</FB_BroodMotherResearch.label>
   <FB_AdaptiveHarvesters.description>Открывает жилозовцев, семена скрапмелда и сшивопастей: специализированных биошматов, которые приманивают добычу, перерабатывают механойдные останки и извлекают полезные ткани из тел.</FB_AdaptiveHarvesters.description>
   <FB_AdaptiveHarvesters.generalRules.rulesStrings.0>subject-&gt;адаптивные сборщики биошматов</FB_AdaptiveHarvesters.generalRules.rulesStrings.0>

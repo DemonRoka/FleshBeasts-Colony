@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_Psyphage.label>psyphage</FB_Psyphage.label>
+  <FB_Psyphage.description>A heavy fleshbeast that walks up to downed pawns, prisoners, slaves and colonists and swallows them, digesting them alive and copying their abilities into its nerve archive. It also absorbs psytrainers, psylink neuroformers and anima trees, and can root into flesh to become a stationary psyarchive.</FB_Psyphage.description>
+  <FB_Psyphage.tools.0.label>grinding maw</FB_Psyphage.tools.0.label>
+  <FB_Psyphage.tools.1.label>nerve lash</FB_Psyphage.tools.1.label>
+  <FB_Psyarchive.label>psyarchive</FB_Psyarchive.label>
+  <FB_Psyarchive.description>A psyphage rooted into flesh that consumes a little hemogel. Colonists can carry downed pawns, psytrainers and psylink neuroformers into it to add their abilities to the archive. Once its psyphage has absorbed an anima tree, pawns accepted by the flesh colony can meditate to it, growing anima growth that lets them link with it for a psylink level. It can uproot to walk again, withering the growth, and damage it takes wounds the psyphage inside.</FB_Psyarchive.description>
+  <FB_PsyarchiveSoulGrowth.label>anima growth</FB_PsyarchiveSoulGrowth.label>
+  <FB_PsyarchiveSoulGrowth.description>Fleshy tubes that push out of the flesh around a psyarchive holding an absorbed anima tree while someone accepted by the flesh colony meditates nearby. Once enough have grown, such a colonist can link with the psyarchive for a psylink level; the growth withers when it uproots.</FB_PsyarchiveSoulGrowth.description>
+</LanguageData>

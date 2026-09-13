@@ -2,4 +2,5 @@
 <LanguageData>
   <FB_CargoTendrilProxy.label>cargo tendril proxy</FB_CargoTendrilProxy.label>
   <FB_CargoTendrilProxy.description>An unseen hauling proxy maintained by a colony brain or lunar nerve node. Its movement is represented by cargo tendrils.</FB_CargoTendrilProxy.description>
+  <FB_CargoTendrilProxy.tools.0.label>hauling pseudopod</FB_CargoTendrilProxy.tools.0.label>
 </LanguageData>

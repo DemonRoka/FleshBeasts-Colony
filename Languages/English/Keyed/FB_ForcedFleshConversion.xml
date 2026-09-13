@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <FB_ForcedFleshConversion_Label>Force flesh acceptance</FB_ForcedFleshConversion_Label>
+  <FB_ForcedFleshConversion_Label>Flesh acceptance</FB_ForcedFleshConversion_Label>
   <FB_ForcedFleshConversion_Desc>Carry a living prisoner or downed hostile to a colony heart or lunar nerve node. Fingerspikes implant themselves into the target; one is required for every 300 market value. Unrecruitable targets are remade as toughspikes.\n\nA free colonist can accept the flesh willingly: they walk to the heart themselves and stand there while the fingerspikes burrow in, with no anesthetic and no carrier. Your own people need half as many fingerspikes.</FB_ForcedFleshConversion_Desc>
   <FB_ForcedFleshConversion_Started>Flesh acceptance has begun for {0}.</FB_ForcedFleshConversion_Started>
   <FB_ForcedFleshConversion_VolunteerStarted>{0} is walking to the colony heart to accept the flesh.</FB_ForcedFleshConversion_VolunteerStarted>

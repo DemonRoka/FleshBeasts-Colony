@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_CelestialUmbilicusStartLabel>Start celestial budding</FB_CelestialUmbilicusStartLabel>
-  <FB_CelestialUmbilicusStartDesc>Awakens the umbilicus and begins growth. It needs {0} total growth work; current flow is {1} hemogel/h and can be raised up to {2} hemogel/h.</FB_CelestialUmbilicusStartDesc>
+  <FB_CelestialUmbilicusStartDesc>Awaken the umbilicus and begin growing toward orbit. Activation turns the other factions against the colony and triggers raids. Requires {0} growth work; current hemogel consumption is {1}/h, up to a maximum of {2}/h.</FB_CelestialUmbilicusStartDesc>
   <FB_CelestialUmbilicusStartWarning>Awakening the celestial umbilicus cannot be cancelled. It will consume hemogel power from the network until {0} growth work is complete. Current flow: {1} hemogel/h; maximum flow: {2} hemogel/h. Every non-player faction will turn hostile. Continue?</FB_CelestialUmbilicusStartWarning>
   <FB_CelestialUmbilicusAwakenedLetterLabel>Celestial umbilicus awakened</FB_CelestialUmbilicusAwakenedLetterLabel>
   <FB_CelestialUmbilicusAwakenedLetterText>The celestial umbilicus has opened its vascular throat to the sky. {0} factions recognize the colony as a planetary infection and turn hostile. Growth required: {1}. Current flow: {2} hemogel/h; maximum flow: {3} hemogel/h.</FB_CelestialUmbilicusAwakenedLetterText>
@@ -37,9 +37,12 @@
   <FB_FleshMoonAbsorptionStartedLetterText>The surface colony is folding into the celestial umbilicus. Fleshbeast mass zones release their fleshbeasts, and player, prisoner, slave, mech, animal, and fleshbeast pawns are ordered to enter the umbilicus; local hemogel is pumped upward, and grown flesh structures are reclaimed for partial hemogel.</FB_FleshMoonAbsorptionStartedLetterText>
   <FB_FleshMoonAbsorptionCompletedLetterLabel>Surface absorption complete</FB_FleshMoonAbsorptionCompletedLetterLabel>
   <FB_FleshMoonAbsorptionCompletedLetterText>The celestial umbilicus has finished receiving the colony's living pawns through the portal and digesting the surface growth. Pawns that left the map: {0}.</FB_FleshMoonAbsorptionCompletedLetterText>
-  <FB_CelestialUmbilicusDetachAbsorbCommandLabel>Detach and absorb surface</FB_CelestialUmbilicusDetachAbsorbCommandLabel>
-  <FB_CelestialUmbilicusDetachAbsorbCommandDesc>Retract this surface umbilicus by absorbing the local flesh colony. Fleshbeast mass zones release their fleshbeasts, and player, prisoner, slave, mech, animal, and fleshbeast pawns are ordered to enter the umbilicus; stored hemogel is pumped upward, and grown flesh structures refund part of their hemogel cost.</FB_CelestialUmbilicusDetachAbsorbCommandDesc>
-  <FB_CelestialUmbilicusDetachAbsorbWarning>This will detach the surface umbilicus and absorb this map's flesh colony. Fleshbeast mass zones will release their fleshbeasts, and player, prisoner, slave, mech, animal, and fleshbeast pawns will be ordered to enter the umbilicus; local hemogel will be pumped into lunar storage, and grown flesh terrain or organs will be consumed for partial hemogel recovery. Continue?</FB_CelestialUmbilicusDetachAbsorbWarning>
+  <FB_CelestialUmbilicusDetachCommandLabel>Detach umbilicus</FB_CelestialUmbilicusDetachCommandLabel>
+  <FB_CelestialUmbilicusDetachCommandDesc>Detach this surface umbilicus from the flesh moon. Either simply retract it, leaving the map and everything on it, or absorb this map's flesh colony and abandon it.</FB_CelestialUmbilicusDetachCommandDesc>
+  <FB_CelestialUmbilicusDetachChoiceText>How should the celestial umbilicus detach?\n\nRetract: the umbilicus withdraws to the moon over {0}. Everything on the map stays where it is: pawns, buildings, flesh and local hemogel. From then on the map follows the normal rules: a colony stays a colony, and a temporary map closes on its own once none of your pawns remain there.\n\nAbsorb: fleshbeast mass zones release their fleshbeasts, and player, prisoner, slave, mech, animal and fleshbeast pawns enter the umbilicus; local hemogel is pumped upward, and grown flesh structures refund part of their hemogel. When absorption ends, your settlement on this map is abandoned, and anything that did not make it into the umbilicus is lost with it.</FB_CelestialUmbilicusDetachChoiceText>
+  <FB_CelestialUmbilicusDetachChoiceMoonColonists>Your colonists currently on the flesh moon: {0}. After detaching, they can only return to the surface through a new umbilicus.</FB_CelestialUmbilicusDetachChoiceMoonColonists>
+  <FB_CelestialUmbilicusDetachChoiceRetract>Retract umbilicus</FB_CelestialUmbilicusDetachChoiceRetract>
+  <FB_CelestialUmbilicusDetachChoiceAbsorb>Absorb surface</FB_CelestialUmbilicusDetachChoiceAbsorb>
   <FB_CelestialUmbilicusPortalEnterLabel>Enter the flesh moon</FB_CelestialUmbilicusPortalEnterLabel>
   <FB_CelestialUmbilicusPortalCancelLabel>Cancel moon transfer</FB_CelestialUmbilicusPortalCancelLabel>
   <FB_CelestialUmbilicusMoonExitEnterLabel>Return through the umbilicus</FB_CelestialUmbilicusMoonExitEnterLabel>
@@ -60,7 +63,7 @@
   <FB_FleshMoonWorldObjectChannelOpenLabel>Open physical channel</FB_FleshMoonWorldObjectChannelOpenLabel>
   <FB_FleshMoonWorldObjectChannelOpenDesc>Materialize the logically anchored surface tile and automatically deploy the celestial umbilicus near the map center. This allows pawns and cargo to descend. Abstract outpost tiles cannot be materialized.</FB_FleshMoonWorldObjectChannelOpenDesc>
   <FB_FleshMoonWorldObjectDetachLabel>Detach umbilicus</FB_FleshMoonWorldObjectDetachLabel>
-  <FB_FleshMoonWorldObjectDetachDesc>Sever the current surface umbilicus and remove its ground-side edge without moving the flesh moon.</FB_FleshMoonWorldObjectDetachDesc>
+  <FB_FleshMoonWorldObjectDetachDesc>Detach the surface umbilicus. Either simply retract it and leave the map as it is, or absorb the flesh colony below and abandon the settlement.</FB_FleshMoonWorldObjectDetachDesc>
   <FB_FleshMoonWorldObjectNetworkDisconnectLabel>Retract feeding umbilicus</FB_FleshMoonWorldObjectNetworkDisconnectLabel>
   <FB_FleshMoonWorldObjectNetworkDisconnectDesc>Disconnect the Moon's mapless feeding umbilicus from its surface tile. No map is generated or removed.</FB_FleshMoonWorldObjectNetworkDisconnectDesc>
   <FB_FleshMoonWorldObjectChannelRetractLabel>Retract physical channel</FB_FleshMoonWorldObjectChannelRetractLabel>

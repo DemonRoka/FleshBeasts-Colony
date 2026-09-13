@@ -57,7 +57,7 @@
   <FB_GeneReweaverCurrentXenogerm>Плетёт плотяной ксеногерм: осталось {0} ч.</FB_GeneReweaverCurrentXenogerm>
   <FB_GeneReweaverQueuedOperations>Генов в очереди: {0}</FB_GeneReweaverQueuedOperations>
   <FB_ChromophageStoredGenesInspect>Сохранённые генопаки: {0} / {1}</FB_ChromophageStoredGenesInspect>
-  <FB_ChromophageExtractGenesLabel>Извлечь гены из тела</FB_ChromophageExtractGenesLabel>
+  <FB_ChromophageExtractGenesLabel>Извлекать гены</FB_ChromophageExtractGenesLabel>
   <FB_ChromophageExtractGenesDesc>Отметить свежие или подгнившие гуманоидные трупы для извлечения генов. Нажмите на одно тело или протяните рамку по нескольким; свободный хромофаг сам идёт к ближайшей отметке в своей разрешённой зоне, обработанный труп становится скелетом, а один или два гена сохраняются внутри хромофага как генопак. Заполнив хранилище, он относит гены в ближайший геномный архив и возвращается к оставшимся отметкам.</FB_ChromophageExtractGenesDesc>
   <FB_ChromophageUnloadGenesLabel>Выгрузить гены</FB_ChromophageUnloadGenesLabel>
   <FB_ChromophageUnloadGenesDesc>Выгрузить сохранённые генопаки в выбранный геномный архив.</FB_ChromophageUnloadGenesDesc>
@@ -75,7 +75,7 @@
   <FB_ChromophageExtractedGenes>Хромофаг извлёк генетические следы: {0}.</FB_ChromophageExtractedGenes>
   <FB_ChromophageUnloadedGenes>Хромофаг выгрузил генетические следы в геномный архив: {0}.</FB_ChromophageUnloadedGenes>
   <FB_GeneReweaverCreateXenogermLabel>Создать плотяной ксеногерм...</FB_GeneReweaverCreateXenogermLabel>
-  <FB_GeneReweaverCreateXenogermDesc>Выбрать архивированные гены и сплести из них один внутренний плотяной ксеногерм. Переплетатель работает со всем узором по единому таймеру.</FB_GeneReweaverCreateXenogermDesc>
+  <FB_GeneReweaverCreateXenogermDesc>Выбрать гены из геномного архива и подготовить плотяной ксеногерм. После созревания его можно внедрить выбранному носителю через генный кокон.</FB_GeneReweaverCreateXenogermDesc>
   <FB_GeneReweaverCancelXenogermLabel>Отменить плотяной ксеногерм</FB_GeneReweaverCancelXenogermLabel>
   <FB_GeneReweaverCancelXenogermDesc>Отменить текущий плотяной ксеногерм. Уже потраченный гемогель не вернётся.</FB_GeneReweaverCancelXenogermDesc>
   <FB_GeneReweaverDevFinishXenogermLabel>DEV: завершить плотяной ксеногерм</FB_GeneReweaverDevFinishXenogermLabel>

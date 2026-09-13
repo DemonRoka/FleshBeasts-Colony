@@ -47,9 +47,9 @@
   <FB_FailedSpawnThing>Failed to create {0}.</FB_FailedSpawnThing>
   <FB_FailedGeneratePawnKind>Failed to generate {0}.</FB_FailedGeneratePawnKind>
   <FB_ColonyBrain_Structure_TentacleTurret_Desc>Grows a stationary fleshbeast defense that launches keratin spines at distant intruders and lashes nearby enemies with heavy tentacles.</FB_ColonyBrain_Structure_TentacleTurret_Desc>
-  <FB_LocalFleshRelocateBuilding_Label>Move flesh structure</FB_LocalFleshRelocateBuilding_Label>
+  <FB_LocalFleshRelocateBuilding_Label>Move structure</FB_LocalFleshRelocateBuilding_Label>
   <FB_LocalFleshRelocateBuilding_Desc>Select a player-controlled flesh building, then choose a new flesh-covered destination on the same map. Pawns at the destination do not block the move: they step out from under an impassable building on their own.</FB_LocalFleshRelocateBuilding_Desc>
-  <FB_FleshMoonRelocateBuilding_Label>Relocate flesh structure</FB_FleshMoonRelocateBuilding_Label>
+  <FB_FleshMoonRelocateBuilding_Label>Transfer between maps</FB_FleshMoonRelocateBuilding_Label>
   <FB_FleshMoonRelocateBuilding_Desc>Select a player-controlled flesh building on this map, then choose a flesh-covered destination on the linked map.</FB_FleshMoonRelocateBuilding_Desc>
   <FB_FleshRelocationAlreadyHere>Choose a different destination.</FB_FleshRelocationAlreadyHere>
   <FB_LocalFleshRelocationNoMap>No local map is available.</FB_LocalFleshRelocationNoMap>

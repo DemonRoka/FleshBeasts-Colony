@@ -66,5 +66,18 @@
         <jobExpiryTicks>1800</jobExpiryTicks>
       </li>
     </comps>
+    <tools>
+      <li>
+        <label>boring spine</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>3</power>
+        <cooldownTime>2.2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <soundMeleeHit>Pawn_Fleshbeast_Attack_Spike</soundMeleeHit>
+      </li>
+    </tools>
   </ThingDef>
 </Defs>

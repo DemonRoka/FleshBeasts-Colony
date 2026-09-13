@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_PsyphageGestation.label>psyphage gestation</FB_PsyphageGestation.label>
+  <FB_PsyphageGestation.description>Teach the colony brain to grow psyphages: heavy fleshbeasts that digest helpless pawns, archive their abilities and can root in place as psyarchives.</FB_PsyphageGestation.description>
+  <FB_PsyphageGestation.generalRules.rulesStrings.0>subject-&gt;psyphage gestation</FB_PsyphageGestation.generalRules.rulesStrings.0>
+  <FB_PsyphageGestation.generalRules.rulesStrings.1>subject_story-&gt;grew fleshbeasts that digest the gifted and keep their powers</FB_PsyphageGestation.generalRules.rulesStrings.1>
+  <FB_PsyphageGestation.generalRules.rulesStrings.2>subject_story-&gt;rooted living archives of stolen abilities</FB_PsyphageGestation.generalRules.rulesStrings.2>
+  <FB_PsyphageGestation.generalRules.rulesStrings.3>subject_gerund-&gt;growing psyphages</FB_PsyphageGestation.generalRules.rulesStrings.3>
+</LanguageData>

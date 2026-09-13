@@ -17,7 +17,6 @@
     <entitledToMedicalCare>false</entitledToMedicalCare>
     <defaultFaction>PlayerColony</defaultFaction>
     <standingAnimation>ShamblerSway</standingAnimation>
-    <canOpenDoors>false</canOpenDoors>
     <makesFootprints>false</makesFootprints>
     <tameable>false</tameable>
     <clearMutantStatusOnDeath>true</clearMutantStatusOnDeath>

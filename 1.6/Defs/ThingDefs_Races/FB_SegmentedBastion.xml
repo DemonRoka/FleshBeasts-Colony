@@ -154,5 +154,18 @@
         <reassembleIconPath>UI/Commands/SegmentedBastionReassemble</reassembleIconPath>
       </li>
     </comps>
+    <tools>
+      <li>
+        <label>keratin spines</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>3</power>
+        <cooldownTime>2.4</cooldownTime>
+        <linkedBodyPartsGroup>MiddleSpike</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <soundMeleeHit>Pawn_Fleshbeast_Attack_Spike</soundMeleeHit>
+      </li>
+    </tools>
   </ThingDef>
 </Defs>

@@ -6,7 +6,7 @@
     <label>sclerat</label>
     <race>FB_Sclerat</race>
     <combatPower>5</combatPower>
-    <!-- Рабочая тварь без инструментов ближнего боя: иначе упёршись в путь врагом, pather ищет удар и пишет ошибку -->
+    <!-- Рабочая тварь не дерётся: атака в tools символическая — CAI 5000 и похожие моды запрашивают ближнюю атаку у каждой пешки и без неё пишут ошибку -->
     <canMeleeAttack>false</canMeleeAttack>
     <lifeStages>
       <li>

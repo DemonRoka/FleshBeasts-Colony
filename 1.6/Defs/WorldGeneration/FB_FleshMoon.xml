@@ -79,6 +79,19 @@
 		<worldTabs>
 			<li>WITab_Planet</li>
 		</worldTabs>
+		<modExtensions>
+			<li Class="FB.FleshMoonTetherExtension">
+				<texPath>World/FleshMoon/FleshMoonTetherTube</texPath>
+				<middleRadius>0.0435</middleRadius>
+				<groundFlare>1.6</groundFlare>
+				<moonFlare>1.9</moonFlare>
+				<flareSharpness>5</flareSharpness>
+				<textureVerticalStretch>2</textureVerticalStretch>
+				<bendFraction>0.025</bendFraction>
+				<pulseAmplitude>0.16</pulseAmplitude>
+				<pulsePeriodTicks>480</pulsePeriodTicks>
+			</li>
+		</modExtensions>
 	</PlanetLayerDef>
 
 

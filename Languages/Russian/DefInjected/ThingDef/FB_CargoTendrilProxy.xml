@@ -2,4 +2,5 @@
 <LanguageData>
   <FB_CargoTendrilProxy.label>прокси грузового щупальца</FB_CargoTendrilProxy.label>
   <FB_CargoTendrilProxy.description>Невидимый грузовой прокси, поддерживаемый мозгом колонии или лунным нервным узлом. Его движение отображается грузовыми щупальцами.</FB_CargoTendrilProxy.description>
+  <FB_CargoTendrilProxy.tools.0.label>грузовая псевдоподия</FB_CargoTendrilProxy.tools.0.label>
 </LanguageData>

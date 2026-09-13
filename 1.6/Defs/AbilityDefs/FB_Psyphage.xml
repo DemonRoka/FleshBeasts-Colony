@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- Способность: psyphage devour (FB_PsyphageSwallow) -->
+	<AbilityDef>
+		<defName>FB_PsyphageSwallow</defName>
+		<label>devour</label>
+		<description>Walk up to a downed pawn, prisoner, slave or colonist and swallow them, or absorb a psytrainer, a psylink neuroformer or an anima tree. Victims and psytrainers add their abilities to the archive, except abilities granted by genes, gear, ideoligion roles and royal titles; a neuroformer adds a random psycast the archive does not hold yet.</description>
+		<iconPath>UI/Commands/PsyphageSwallow</iconPath>
+		<jobDef>FB_PsyphageDevour</jobDef>
+		<targetRequired>true</targetRequired>
+		<hostile>false</hostile>
+		<showPsycastEffects>false</showPsycastEffects>
+		<displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+		<disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
+		<casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+		<aiCanUse>false</aiCanUse>
+		<verbProperties>
+			<verbClass>Verb_CastAbilityTouch</verbClass>
+			<drawAimPie>false</drawAimPie>
+			<range>-1</range>
+			<warmupTime>0</warmupTime>
+			<targetParams>
+				<canTargetSelf>false</canTargetSelf>
+				<canTargetPawns>true</canTargetPawns>
+				<canTargetAnimals>true</canTargetAnimals>
+				<canTargetMechs>false</canTargetMechs>
+				<canTargetBuildings>false</canTargetBuildings>
+				<canTargetLocations>false</canTargetLocations>
+				<canTargetItems>true</canTargetItems>
+				<canTargetPlants>true</canTargetPlants>
+				<canTargetCorpses>false</canTargetCorpses>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="FB.CompProperties_AbilityPsyphageSwallow" />
+		</comps>
+	</AbilityDef>
+</Defs>

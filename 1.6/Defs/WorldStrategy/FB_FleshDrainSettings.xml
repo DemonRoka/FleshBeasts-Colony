@@ -16,6 +16,14 @@
 		</pumpsFromPointsCurve>
 		<maxPumps>6</maxPumps>
 
+		<!-- Якорь лагеря и насосы встают только на ткань. Желудочный сок тоже числится плотью, но качать из него нельзя -->
+		<pumpTerrains>
+			<li>Flesh</li>
+			<li>FleshVeins</li>
+			<li>RootFlesh</li>
+			<li>RootFleshVeins</li>
+		</pumpTerrains>
+
 		<canisterHemogel>25</canisterHemogel>
 		<quotaHemogel>600</quotaHemogel>
 

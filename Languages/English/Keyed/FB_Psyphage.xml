@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_Psyphage_RootLabel>Root</FB_Psyphage_RootLabel>
+  <FB_Psyphage_RootDesc>Choose a flesh cell where the psyphage roots and becomes a psyarchive. Rooting takes time; the psyarchive consumes a little hemogel and cannot move until it uproots.</FB_Psyphage_RootDesc>
+  <FB_Psyphage_RootInvalidCell>The psyphage cannot root here.</FB_Psyphage_RootInvalidCell>
+  <FB_Psyphage_RootNotFleshTerrain>The psyphage can only root into flesh.</FB_Psyphage_RootNotFleshTerrain>
+  <FB_Psyphage_RootBlockedCell>Something is in the way.</FB_Psyphage_RootBlockedCell>
+  <FB_Psyphage_RootUnreachable>The psyphage cannot reach this cell.</FB_Psyphage_RootUnreachable>
+  <FB_Psyphage_RootDisabledDigesting>Cannot change form while digesting.</FB_Psyphage_RootDisabledDigesting>
+  <FB_Psyphage_RootDisabledIncapable>The psyphage cannot move right now.</FB_Psyphage_RootDisabledIncapable>
+  <FB_Psyphage_RootFailed>The psyphage failed to root.</FB_Psyphage_RootFailed>
+
+  <FB_Psyarchive_UprootLabel>Uproot</FB_Psyarchive_UprootLabel>
+  <FB_Psyarchive_UprootDesc>Pull out the roots and become a mobile psyphage again. This takes time and is only possible while nothing is being digested.</FB_Psyarchive_UprootDesc>
+  <FB_Psyarchive_UprootCancelLabel>Cancel uprooting</FB_Psyarchive_UprootCancelLabel>
+  <FB_Psyarchive_UprootCancelDesc>Stop uprooting and stay in place.</FB_Psyarchive_UprootCancelDesc>
+  <FB_Psyarchive_UprootingInspect>Uprooting: {0}</FB_Psyarchive_UprootingInspect>
+  <FB_Psyarchive_UprootInterruptedDigesting>{0} stopped uprooting: something is being digested.</FB_Psyarchive_UprootInterruptedDigesting>
+  <FB_Psyarchive_InnerHealthInspect>Psyphage health: {0}</FB_Psyarchive_InnerHealthInspect>
+  <FB_Psyarchive_DevUprootNow>DEV: uproot now</FB_Psyarchive_DevUprootNow>
+  <FB_Psyarchive_CarryTo>Carry to psyarchive</FB_Psyarchive_CarryTo>
+  <FB_Psyarchive_CannotCarry>Cannot carry to psyarchive: {0}</FB_Psyarchive_CannotCarry>
+  <FB_Psyarchive_RejectUprooting>The psyarchive is uprooting.</FB_Psyarchive_RejectUprooting>
+  <FB_Psyarchive_UprootWithersGrowth>The anima growth around it ({0}) will wither.</FB_Psyarchive_UprootWithersGrowth>
+  <FB_Psyarchive_FocusSoulTree>Absorbed anima tree</FB_Psyarchive_FocusSoulTree>
+  <FB_Psyarchive_LinkLabel>Link with psyarchive</FB_Psyarchive_LinkLabel>
+  <FB_Psyarchive_LinkRejectNotAccepted>only pawns accepted by the flesh colony</FB_Psyarchive_LinkRejectNotAccepted>
+  <FB_Psyarchive_LinkRejectChild>adults only</FB_Psyarchive_LinkRejectChild>
+  <FB_Psyarchive_LinkRejectInsensitive>not psychically sensitive</FB_Psyarchive_LinkRejectInsensitive>
+  <FB_Psyarchive_LinkRejectNoSpot>no free spot next to the psyarchive</FB_Psyarchive_LinkRejectNoSpot>
+  <FB_Psyarchive_LinkReportLeft>{0} left</FB_Psyarchive_LinkReportLeft>
+  <FB_Psyarchive_LinkReadyLabel>Psyarchive linking ready</FB_Psyarchive_LinkReadyLabel>
+  <FB_Psyarchive_LinkReadyText>{0} anima growth has grown around a psyarchive, enough for a colonist accepted by the flesh colony to link with it: they meditate next to it for {2}, gain a psylink level and use up {1} growth.\n\nSelect such a colonist and right-click the psyarchive to begin.</FB_Psyarchive_LinkReadyText>
+  <FB_Psyarchive_DevAddSoulGrowth>DEV: +1 anima growth</FB_Psyarchive_DevAddSoulGrowth>
+
+  <FB_Psyphage_StomachInspect>Stomach: {0} / {1} kg, victims: {2}.</FB_Psyphage_StomachInspect>
+  <FB_Psyphage_Swallowed>{0} swallowed {1}.</FB_Psyphage_Swallowed>
+  <FB_Psyphage_Digested>{0} finished digesting {1}. New abilities in the archive: {2}.</FB_Psyphage_Digested>
+  <FB_Psyphage_ReleasedContents>Swallowed victims burst free: {0}.</FB_Psyphage_ReleasedContents>
+  <FB_Psyphage_SwallowPreview>New abilities: {0} of {1}</FB_Psyphage_SwallowPreview>
+  <FB_Psyphage_AbsorbedItem>{0} absorbed {1}. New ability in the archive: {2}.</FB_Psyphage_AbsorbedItem>
+  <FB_Psyphage_AbsorbPreviewTrainer>New ability: {0}</FB_Psyphage_AbsorbPreviewTrainer>
+  <FB_Psyphage_AbsorbPreviewAmplifier>Random new psycast</FB_Psyphage_AbsorbPreviewAmplifier>
+  <FB_Psyphage_AbsorbPreviewSoulTree>Absorb the anima tree</FB_Psyphage_AbsorbPreviewSoulTree>
+  <FB_Psyphage_AbsorbedSoulTree>{0} absorbed the anima tree.</FB_Psyphage_AbsorbedSoulTree>
+  <FB_Psyphage_SoulTreeInspect>Anima tree absorbed.</FB_Psyphage_SoulTreeInspect>
+  <FB_Psyphage_DigestingInspect>Digesting {0}: {1}, {2} left</FB_Psyphage_DigestingInspect>
+
+  <FB_Psyphage_RejectInvalid>Invalid target.</FB_Psyphage_RejectInvalid>
+  <FB_Psyphage_RejectPsyphage>A psyphage cannot be swallowed.</FB_Psyphage_RejectPsyphage>
+  <FB_Psyphage_RejectInorganic>Only living flesh can be digested.</FB_Psyphage_RejectInorganic>
+  <FB_Psyphage_RejectNotHelpless>The target must be downed, a prisoner, a slave or a colonist.</FB_Psyphage_RejectNotHelpless>
+  <FB_Psyphage_RejectNoAbilities>The target has no abilities to archive.</FB_Psyphage_RejectNoAbilities>
+  <FB_Psyphage_RejectTooInjured>The psyphage is too badly injured to swallow.</FB_Psyphage_RejectTooInjured>
+  <FB_Psyphage_RejectTooLarge>{0} is too large to swallow (max {1} kg).</FB_Psyphage_RejectTooLarge>
+  <FB_Psyphage_RejectCapacity>Not enough room in the stomach: {0} + {1} of {2} kg.</FB_Psyphage_RejectCapacity>
+  <FB_Psyphage_RejectItemNoAbility>This item holds no abilities.</FB_Psyphage_RejectItemNoAbility>
+  <FB_Psyphage_RejectItemKnown>The archive already holds {0}.</FB_Psyphage_RejectItemKnown>
+  <FB_Psyphage_RejectAmplifierNothingNew>The archive already holds every psycast.</FB_Psyphage_RejectAmplifierNothingNew>
+  <FB_Psyphage_RejectSoulTreeAbsorbed>This psyphage has already absorbed an anima tree.</FB_Psyphage_RejectSoulTreeAbsorbed>
+
+  <FB_PsyphageArchive_Tab>Psyarchive</FB_PsyphageArchive_Tab>
+  <FB_PsyphageArchive_Header>Archived abilities: {0}</FB_PsyphageArchive_Header>
+  <FB_PsyphageArchive_Empty>The archive is empty. Swallow a pawn with abilities or absorb a psytrainer to fill it.</FB_PsyphageArchive_Empty>
+  <FB_PsyphageArchive_Level>Level {0}</FB_PsyphageArchive_Level>
+  <FB_PsyphageArchive_Donor>From {0}</FB_PsyphageArchive_Donor>
+  <FB_PsyphageArchive_OffshootTitle>Psyoffshoot</FB_PsyphageArchive_OffshootTitle>
+  <FB_PsyphageArchive_OffshootCount>Offshoots alive: {0} / {1}</FB_PsyphageArchive_OffshootCount>
+  <FB_PsyphageArchive_SlotEmpty>Empty slot. Click an ability in the archive to copy it here.</FB_PsyphageArchive_SlotEmpty>
+  <FB_PsyphageArchive_SlotFilledHint>Click to remove it from the offshoot.</FB_PsyphageArchive_SlotFilledHint>
+  <FB_PsyphageArchive_RowAddHint>Click to copy it into the offshoot, click again to remove it.</FB_PsyphageArchive_RowAddHint>
+  <FB_PsyphageArchive_CreateLabel>Grow offshoot</FB_PsyphageArchive_CreateLabel>
+  <FB_PsyphageArchive_CreateDesc>Grow a psyoffshoot next to the psyphage. It can cast each ability in the slots once without psylink, psyfocus or neural heat, then withers.</FB_PsyphageArchive_CreateDesc>
+  <FB_PsyphageArchive_CreateBatchLeft>Offshoots left before the cooldown: {0}.</FB_PsyphageArchive_CreateBatchLeft>
+  <FB_PsyphageArchive_StatusNoSlots>No abilities</FB_PsyphageArchive_StatusNoSlots>
+  <FB_PsyphageArchive_StatusLimit>Limit {0}</FB_PsyphageArchive_StatusLimit>
+  <FB_PsyphageArchive_StatusCooldown>In {0}</FB_PsyphageArchive_StatusCooldown>
+  <FB_PsyphageArchive_StatusIncapable>Unavailable</FB_PsyphageArchive_StatusIncapable>
+  <FB_PsyphageArchive_ForgetTip>Forget this ability</FB_PsyphageArchive_ForgetTip>
+  <FB_PsyphageArchive_ForgetConfirm>The psyphage will forget {0} for good. The ability can only return to the archive if it is absorbed again.</FB_PsyphageArchive_ForgetConfirm>
+
+  <FB_Psyphage_OffshootRejectNoSlots>Copy at least one ability into the slots.</FB_Psyphage_OffshootRejectNoSlots>
+  <FB_Psyphage_OffshootRejectLimit>Living offshoot limit reached: {0}.</FB_Psyphage_OffshootRejectLimit>
+  <FB_Psyphage_OffshootRejectCooldown>The next offshoot can be grown in {0}.</FB_Psyphage_OffshootRejectCooldown>
+  <FB_Psyphage_OffshootRejectIncapable>The psyphage cannot grow offshoots right now.</FB_Psyphage_OffshootRejectIncapable>
+  <FB_Psyphage_OffshootRejectSlotsFull>All slots are taken.</FB_Psyphage_OffshootRejectSlotsFull>
+  <FB_Psyphage_OffshootRejectDuplicate>This ability is already in a slot.</FB_Psyphage_OffshootRejectDuplicate>
+  <FB_Psyphage_RejectItemBlacklisted>The archive cannot hold {0}.</FB_Psyphage_RejectItemBlacklisted>
+  <FB_Psyphage_OffshootCreated>{0} grew a psyoffshoot.</FB_Psyphage_OffshootCreated>
+  <FB_Psyoffshoot_Withered>{0} withered: its abilities are spent.</FB_Psyoffshoot_Withered>
+  <FB_Psyoffshoot_AbilitiesInspect>Abilities left: {0}</FB_Psyoffshoot_AbilitiesInspect>
+</LanguageData>

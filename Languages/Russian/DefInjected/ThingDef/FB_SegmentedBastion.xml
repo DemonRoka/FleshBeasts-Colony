@@ -6,4 +6,5 @@
   <FB_SegmentedBastion.tools.1.label>центральная туша</FB_SegmentedBastion.tools.1.label>
   <FB_BastionSpineSegment.label>шипастый сегмент бастиона</FB_BastionSpineSegment.label>
   <FB_BastionSpineSegment.description>Отделившаяся часть сегментного бастиона, стреляющая кератиновыми шипами. Может воссоединиться с другими выжившими частями своего бастиона.</FB_BastionSpineSegment.description>
+  <FB_BastionSpineSegment.tools.0.label>кератиновые шипы</FB_BastionSpineSegment.tools.0.label>
 </LanguageData>

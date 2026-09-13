@@ -3,5 +3,6 @@
 
 	<FB_ManualTentacleProxy.label>прокси щупальца</FB_ManualTentacleProxy.label>
 	<FB_ManualTentacleProxy.description>Экспериментальный носитель для режима ручного щупальца. Стоит там, куда дотянулась колония, и сам по себе ничего не делает.</FB_ManualTentacleProxy.description>
+	<FB_ManualTentacleProxy.tools.0.label>грузовая псевдоподия</FB_ManualTentacleProxy.tools.0.label>
 
 </LanguageData>

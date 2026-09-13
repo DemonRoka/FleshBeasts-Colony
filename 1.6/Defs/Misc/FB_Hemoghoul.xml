@@ -4,12 +4,12 @@
   <MutantDef>
     <defName>FB_Hemoghoul</defName>
     <label>hemoghoul</label>
-    <description>A flesh-bound worker raised from a corpse by a fingerspike. It needs no sleep or comfort, feeding only from the colony heart.</description>
+    <description>A flesh-bound worker raised from a corpse by a fingerspike. It needs no sleep or comfort, feeding only from the colony heart. Colony flesh knits its wounds; when it dies, the body collapses into a handful of fingerspikes.</description>
     <hediff>FB_Hemoghoul</hediff>
     <thinkTree>FB_Hemoghoul</thinkTree>
     <thinkTreeConstant>FB_HemoghoulConstant</thinkTreeConstant>
     <showJobReport>true</showJobReport>
-    <!-- Для мутанта игра берёт запреты работ только отсюда и игнорирует черту FB_HemoghoulNature, поэтому списки обязаны совпадать. -->
+    <!-- Игра складывает теги мутанта с тегами черты FB_HemoghoulNature; списки держим одинаковыми, чтобы карточка навыков и запреты совпадали. -->
     <workDisables>
       <li>Caring</li>
       <li>Social</li>
@@ -42,6 +42,12 @@
     <disableAging>true</disableAging>
     <removePermanentInjuries>true</removePermanentInjuries>
     <restoreLegs>true</restoreLegs>
+    <givesHediffs>
+      <li>
+        <def>Regeneration</def>
+        <severity>0.1</severity>
+      </li>
+    </givesHediffs>
     <defaultFaction>PlayerColony</defaultFaction>
     <bloodDef>Filth_Blood</bloodDef>
     <bloodSmearDef>Filth_BloodSmear</bloodSmearDef>

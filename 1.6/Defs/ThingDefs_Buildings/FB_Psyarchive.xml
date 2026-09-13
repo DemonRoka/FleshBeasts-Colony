@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- Постройка: psyarchive (FB_Psyarchive) -->
+	<ThingDef ParentName="BuildingColonyFleshBase">
+		<defName>FB_Psyarchive</defName>
+		<label>psyarchive</label>
+		<description>A psyphage rooted into flesh that consumes a little hemogel. Colonists can carry downed pawns, psytrainers and psylink neuroformers into it to add their abilities to the archive. Once its psyphage has absorbed an anima tree, pawns accepted by the flesh colony can meditate to it, growing anima growth that lets them link with it for a psylink level. It can uproot to walk again, withering the growth, and damage it takes wounds the psyphage inside.</description>
+		<thingClass>FB.Building_Psyarchive</thingClass>
+		<graphicData>
+			<texPath>Things/Building/FB_Organic/Psyarchive/Psyarchive</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2.6,2.6)</drawSize>
+			<damageData>
+				<enabled>false</enabled>
+			</damageData>
+		</graphicData>
+		<size>(1,1)</size>
+		<passability>Impassable</passability>
+		<fillPercent>0.6</fillPercent>
+		<researchPrerequisites>
+			<li>FB_PsyphageGestation</li>
+		</researchPrerequisites>
+		<statBases>
+			<MaxHitPoints>600</MaxHitPoints>
+			<Beauty>-12</Beauty>
+			<Flammability>1.0</Flammability>
+			<MeditationFocusStrength>0</MeditationFocusStrength>
+		</statBases>
+		<inspectorTabs>
+			<li>FB.ITab_PsyphageArchive</li>
+		</inspectorTabs>
+		<comps Inherit="False">
+			<li Class="FB.CompProperties_PsyphageStomach">
+				<maxContainedMass>180</maxContainedMass>
+				<maxTargetMass>130</maxTargetMass>
+				<digestionIntervalTicks>250</digestionIntervalTicks>
+				<digestionDamage>5</digestionDamage>
+				<digestionTicksPerBodySize>7500</digestionTicksPerBodySize>
+				<minDigestionTicks>2500</minDigestionTicks>
+				<resistanceIntervalTicks>180</resistanceIntervalTicks>
+				<maxResistanceDamagePerPulse>20</maxResistanceDamagePerPulse>
+				<internalResistanceDamageFactor>0.5</internalResistanceDamageFactor>
+				<forcedReleaseHealthFraction>0.1</forcedReleaseHealthFraction>
+			</li>
+			<li Class="FB.CompProperties_HemogelUpkeep">
+				<hemogelPerHour>0.5</hemogelPerHour>
+			</li>
+			<li Class="CompProperties_MeditationFocus" MayRequire="Ludeon.RimWorld.Royalty">
+				<compClass>FB.CompPsyarchiveMeditationFocus</compClass>
+				<statDef>MeditationFocusStrength</statDef>
+				<focusTypes>
+					<li>FB_Flesh</li>
+				</focusTypes>
+				<offsets>
+					<li Class="FB.FocusStrengthOffset_PsyarchiveSoulTree">
+						<offset>0.28</offset>
+					</li>
+					<li Class="FB.FocusStrengthOffset_PsyarchiveArtificialBuildings">
+						<radius>27.9</radius>
+						<curve>
+							<points>
+								<li>(0, 0)</li>
+								<li>(5, -0.15)</li>
+								<li>(10, -0.3)</li>
+								<li>(50, -0.5)</li>
+							</points>
+						</curve>
+					</li>
+				</offsets>
+			</li>
+			<li Class="FB.CompProperties_PsyarchiveSoulGrowth" MayRequire="Ludeon.RimWorld.Royalty">
+				<subplant>FB_PsyarchiveSoulGrowth</subplant>
+				<spawnSound>AnimaTreeProgress</spawnSound>
+				<maxRadius>12.9</maxRadius>
+				<growthFocus>FB_Flesh</growthFocus>
+			</li>
+			<li Class="FB.CompProperties_PsyarchiveLink" MayRequire="Ludeon.RimWorld.Royalty">
+				<requiredSubplantCountPerPsylinkLevel>
+					<li>20</li>
+					<li>20</li>
+					<li>20</li>
+					<li>20</li>
+					<li>20</li>
+					<li>20</li>
+				</requiredSubplantCountPerPsylinkLevel>
+				<requiredFocus>FB_Flesh</requiredFocus>
+				<linkSound>AnimaTreeLink</linkSound>
+				<linkJobDef>FB_LinkWithPsyarchive</linkJobDef>
+				<linkTicks>15000</linkTicks>
+			</li>
+		</comps>
+	</ThingDef>
+</Defs>

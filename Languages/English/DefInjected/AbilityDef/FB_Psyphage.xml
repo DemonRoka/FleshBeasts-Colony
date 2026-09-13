@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_PsyphageSwallow.label>devour</FB_PsyphageSwallow.label>
+  <FB_PsyphageSwallow.description>Walk up to a downed pawn, prisoner, slave or colonist and swallow them, or absorb a psytrainer, a psylink neuroformer or an anima tree. Victims and psytrainers add their abilities to the archive, except abilities granted by genes, gear, ideoligion roles and royal titles; a neuroformer adds a random psycast the archive does not hold yet.</FB_PsyphageSwallow.description>
+</LanguageData>

@@ -5,5 +5,6 @@
   <FB_AcidBroodmother.tools.0.label>heavy maw</FB_AcidBroodmother.tools.0.label>
   <FB_AcidSpitling.label>acid spitling</FB_AcidSpitling.label>
   <FB_AcidSpitling.description>A temporary offspring of an acid broodmother that bombards enemies with acid. When its acid runs low, it returns to the broodmother to refill.</FB_AcidSpitling.description>
+  <FB_AcidSpitling.tools.0.label>head</FB_AcidSpitling.tools.0.label>
   <FB_AcidSpitlingSpitProjectile.label>acid spit projectile</FB_AcidSpitlingSpitProjectile.label>
 </LanguageData>

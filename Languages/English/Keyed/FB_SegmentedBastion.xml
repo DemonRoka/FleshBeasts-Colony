@@ -8,7 +8,7 @@
   <FB_SegmentedBastion_AssemblyStarted>{0} fleshbeasts begin converging into a segmented bastion. Combined mass value: {1}.</FB_SegmentedBastion_AssemblyStarted>
   <FB_SegmentedBastion_AssemblyComplete>{BEAST_labelShort} has formed.</FB_SegmentedBastion_AssemblyComplete>
   <FB_SegmentedBastion_SplitLabel>Split into spine swarm</FB_SegmentedBastion_SplitLabel>
-  <FB_SegmentedBastion_SplitDesc>Break this bastion into its surviving spine segments. Each segment keeps its original bastion identity.</FB_SegmentedBastion_SplitDesc>
+  <FB_SegmentedBastion_SplitDesc>Split the bastion into its surviving spine segments. They act independently and can later rejoin their original bastion.</FB_SegmentedBastion_SplitDesc>
   <FB_SegmentedBastion_NoViableSegments>No viable segments remain.</FB_SegmentedBastion_NoViableSegments>
   <FB_SegmentedBastion_ReassembleLabel>Reassemble segmented bastion</FB_SegmentedBastion_ReassembleLabel>
   <FB_SegmentedBastion_ReassembleDesc>Gather all surviving native segments of this bastion and fuse them back into the large form.</FB_SegmentedBastion_ReassembleDesc>

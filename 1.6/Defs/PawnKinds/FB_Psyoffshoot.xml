@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- Вид пешки: psyoffshoot (FB_PsyoffshootKind) -->
+	<PawnKindDef ParentName="BaseFleshbeastKind">
+		<defName>FB_PsyoffshootKind</defName>
+		<label>psyoffshoot</label>
+		<overrideDeathOnDownedChance>1</overrideDeathOnDownedChance>
+		<ignoresPainShock>true</ignoresPainShock>
+		<race>FB_Psyoffshoot</race>
+		<combatPower>30</combatPower>
+		<defaultFactionDef>PlayerColony</defaultFactionDef>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/FB_Psyoffshoot/FB_Psyoffshoot</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>1.6</drawSize>
+				</bodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+</Defs>

@@ -6,6 +6,8 @@
     <label>dense weaver</label>
     <race>FB_DenseWeaver</race>
     <combatPower>8</combatPower>
+    <!-- Не дерётся: атака в tools символическая — CAI 5000 и похожие моды запрашивают ближнюю атаку у каждой пешки и без неё пишут ошибку -->
+    <canMeleeAttack>false</canMeleeAttack>
     <lifeStages>
       <li>
         <bodyGraphicData>

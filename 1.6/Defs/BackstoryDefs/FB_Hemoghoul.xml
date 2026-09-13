@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Биография гемогуля, детство (FB_HemoghoulChildhood): подменяет прошлое поднятого трупа, без запретов работ -->
+  <BackstoryDef>
+    <defName>FB_HemoghoulChildhood</defName>
+    <title>flesh-bound</title>
+    <titleShort>flesh-bound</titleShort>
+    <description>Whatever [PAWN_nameDef] once was is gone. The fingerspike rewrote the body for tireless labor and left nothing of the old life behind.</description>
+    <slot>Childhood</slot>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+
+  <!-- Биография гемогуля, зрелость (FB_HemoghoulAdulthood) -->
+  <BackstoryDef>
+    <defName>FB_HemoghoulAdulthood</defName>
+    <title>hemoghoul</title>
+    <titleShort>hemoghoul</titleShort>
+    <description>[PAWN_nameDef] serves the flesh colony as a hemoghoul: a hemogel-fed body that works without rest and asks for nothing.</description>
+    <slot>Adulthood</slot>
+    <shuffleable>false</shuffleable>
+  </BackstoryDef>
+</Defs>

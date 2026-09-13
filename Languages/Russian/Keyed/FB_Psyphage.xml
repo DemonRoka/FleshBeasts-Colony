@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_Psyphage_RootLabel>Укорениться</FB_Psyphage_RootLabel>
+  <FB_Psyphage_RootDesc>Выбрать клетку плоти, где псифаг укоренится и станет псиархивом. Укоренение занимает время; псиархив расходует немного гемогеля и не может двигаться, пока не выкорчуется.</FB_Psyphage_RootDesc>
+  <FB_Psyphage_RootInvalidCell>Здесь псифаг не может укорениться.</FB_Psyphage_RootInvalidCell>
+  <FB_Psyphage_RootNotFleshTerrain>Укорениться можно только на плоти.</FB_Psyphage_RootNotFleshTerrain>
+  <FB_Psyphage_RootBlockedCell>Клетка занята.</FB_Psyphage_RootBlockedCell>
+  <FB_Psyphage_RootUnreachable>Псифаг не может добраться до этой клетки.</FB_Psyphage_RootUnreachable>
+  <FB_Psyphage_RootDisabledDigesting>Нельзя сменить форму, пока идёт переваривание.</FB_Psyphage_RootDisabledDigesting>
+  <FB_Psyphage_RootDisabledIncapable>Псифаг сейчас не может двигаться.</FB_Psyphage_RootDisabledIncapable>
+  <FB_Psyphage_RootFailed>Псифагу не удалось укорениться.</FB_Psyphage_RootFailed>
+
+  <FB_Psyarchive_UprootLabel>Выкорчеваться</FB_Psyarchive_UprootLabel>
+  <FB_Psyarchive_UprootDesc>Вытянуть корни и снова стать подвижным псифагом. Это занимает время и возможно, только пока в желудке ничего не переваривается.</FB_Psyarchive_UprootDesc>
+  <FB_Psyarchive_UprootCancelLabel>Отменить выкорчёвку</FB_Psyarchive_UprootCancelLabel>
+  <FB_Psyarchive_UprootCancelDesc>Прекратить выкорчёвку и остаться на месте.</FB_Psyarchive_UprootCancelDesc>
+  <FB_Psyarchive_UprootingInspect>Выкорчёвка: {0}</FB_Psyarchive_UprootingInspect>
+  <FB_Psyarchive_UprootInterruptedDigesting>{0}: выкорчёвка прервана, внутри идёт переваривание.</FB_Psyarchive_UprootInterruptedDigesting>
+  <FB_Psyarchive_InnerHealthInspect>Здоровье псифага: {0}</FB_Psyarchive_InnerHealthInspect>
+  <FB_Psyarchive_DevUprootNow>DEV: выкорчеваться сейчас</FB_Psyarchive_DevUprootNow>
+  <FB_Psyarchive_CarryTo>Отнести в псиархив</FB_Psyarchive_CarryTo>
+  <FB_Psyarchive_CannotCarry>Нельзя отнести в псиархив: {0}</FB_Psyarchive_CannotCarry>
+  <FB_Psyarchive_RejectUprooting>Псиархив выкорчёвывается.</FB_Psyarchive_RejectUprooting>
+  <FB_Psyarchive_UprootWithersGrowth>Поросль души вокруг ({0}) увянет.</FB_Psyarchive_UprootWithersGrowth>
+  <FB_Psyarchive_FocusSoulTree>Поглощённое древо души</FB_Psyarchive_FocusSoulTree>
+  <FB_Psyarchive_LinkLabel>Связаться с псиархивом</FB_Psyarchive_LinkLabel>
+  <FB_Psyarchive_LinkRejectNotAccepted>только принятые колонией плоти</FB_Psyarchive_LinkRejectNotAccepted>
+  <FB_Psyarchive_LinkRejectChild>только взрослые</FB_Psyarchive_LinkRejectChild>
+  <FB_Psyarchive_LinkRejectInsensitive>нет психочувствительности</FB_Psyarchive_LinkRejectInsensitive>
+  <FB_Psyarchive_LinkRejectNoSpot>рядом с псиархивом нет свободного места</FB_Psyarchive_LinkRejectNoSpot>
+  <FB_Psyarchive_LinkReportLeft>осталось {0}</FB_Psyarchive_LinkReportLeft>
+  <FB_Psyarchive_LinkReadyLabel>Псиархив готов к связыванию</FB_Psyarchive_LinkReadyLabel>
+  <FB_Psyarchive_LinkReadyText>Вокруг псиархива выросло {0} поросли души — достаточно, чтобы принятый колонией плоти колонист связался с ним: он медитирует рядом {2}, получает уровень пси-связи и расходует {1} поросли.\n\nВыберите такого колониста и нажмите правой кнопкой на псиархив.</FB_Psyarchive_LinkReadyText>
+  <FB_Psyarchive_DevAddSoulGrowth>DEV: +1 поросль души</FB_Psyarchive_DevAddSoulGrowth>
+
+  <FB_Psyphage_StomachInspect>Желудок: {0} / {1} кг, жертв: {2}.</FB_Psyphage_StomachInspect>
+  <FB_Psyphage_Swallowed>{0} заглатывает: {1}.</FB_Psyphage_Swallowed>
+  <FB_Psyphage_Digested>{0} заканчивает переваривать: {1}. Новых способностей в архиве: {2}.</FB_Psyphage_Digested>
+  <FB_Psyphage_ReleasedContents>Проглоченные жертвы вырываются наружу: {0}.</FB_Psyphage_ReleasedContents>
+  <FB_Psyphage_SwallowPreview>Новых способностей: {0} из {1}</FB_Psyphage_SwallowPreview>
+  <FB_Psyphage_AbsorbedItem>{0} поглощает: {1}. Новая способность в архиве: {2}.</FB_Psyphage_AbsorbedItem>
+  <FB_Psyphage_AbsorbPreviewTrainer>Новая способность: {0}</FB_Psyphage_AbsorbPreviewTrainer>
+  <FB_Psyphage_AbsorbPreviewAmplifier>Случайная новая пси-способность</FB_Psyphage_AbsorbPreviewAmplifier>
+  <FB_Psyphage_AbsorbPreviewSoulTree>Поглотить древо души</FB_Psyphage_AbsorbPreviewSoulTree>
+  <FB_Psyphage_AbsorbedSoulTree>{0} поглощает древо души.</FB_Psyphage_AbsorbedSoulTree>
+  <FB_Psyphage_SoulTreeInspect>Древо души поглощено.</FB_Psyphage_SoulTreeInspect>
+  <FB_Psyphage_DigestingInspect>Переваривание: {0} — {1}, осталось {2}</FB_Psyphage_DigestingInspect>
+
+  <FB_Psyphage_RejectInvalid>Недопустимая цель.</FB_Psyphage_RejectInvalid>
+  <FB_Psyphage_RejectPsyphage>Псифага нельзя проглотить.</FB_Psyphage_RejectPsyphage>
+  <FB_Psyphage_RejectInorganic>Переварить можно только живую плоть.</FB_Psyphage_RejectInorganic>
+  <FB_Psyphage_RejectNotHelpless>Цель должна быть недееспособной, пленником, рабом или колонистом.</FB_Psyphage_RejectNotHelpless>
+  <FB_Psyphage_RejectNoAbilities>У цели нет способностей для архива.</FB_Psyphage_RejectNoAbilities>
+  <FB_Psyphage_RejectTooInjured>Псифаг слишком ранен, чтобы глотать.</FB_Psyphage_RejectTooInjured>
+  <FB_Psyphage_RejectTooLarge>{0}: цель слишком крупная (не больше {1} кг).</FB_Psyphage_RejectTooLarge>
+  <FB_Psyphage_RejectCapacity>В желудке не хватает места: {0} + {1} из {2} кг.</FB_Psyphage_RejectCapacity>
+  <FB_Psyphage_RejectItemNoAbility>Этот предмет не содержит способностей.</FB_Psyphage_RejectItemNoAbility>
+  <FB_Psyphage_RejectItemKnown>В архиве уже есть «{0}».</FB_Psyphage_RejectItemKnown>
+  <FB_Psyphage_RejectAmplifierNothingNew>В архиве уже есть все пси-способности.</FB_Psyphage_RejectAmplifierNothingNew>
+  <FB_Psyphage_RejectSoulTreeAbsorbed>Этот псифаг уже поглотил древо души.</FB_Psyphage_RejectSoulTreeAbsorbed>
+
+  <FB_PsyphageArchive_Tab>Псиархив</FB_PsyphageArchive_Tab>
+  <FB_PsyphageArchive_Header>Способностей в архиве: {0}</FB_PsyphageArchive_Header>
+  <FB_PsyphageArchive_Empty>Архив пуст. Проглотите пешку со способностями или поглотите пси-тренер, чтобы его пополнить.</FB_PsyphageArchive_Empty>
+  <FB_PsyphageArchive_Level>Уровень {0}</FB_PsyphageArchive_Level>
+  <FB_PsyphageArchive_Donor>От: {0}</FB_PsyphageArchive_Donor>
+  <FB_PsyphageArchive_OffshootTitle>Псиотросток</FB_PsyphageArchive_OffshootTitle>
+  <FB_PsyphageArchive_OffshootCount>Живых отростков: {0} / {1}</FB_PsyphageArchive_OffshootCount>
+  <FB_PsyphageArchive_SlotEmpty>Пустая ячейка. Нажмите на способность в архиве, чтобы скопировать её сюда.</FB_PsyphageArchive_SlotEmpty>
+  <FB_PsyphageArchive_SlotFilledHint>Нажмите, чтобы убрать из отростка.</FB_PsyphageArchive_SlotFilledHint>
+  <FB_PsyphageArchive_RowAddHint>Нажмите, чтобы скопировать в отросток; повторное нажатие уберёт её.</FB_PsyphageArchive_RowAddHint>
+  <FB_PsyphageArchive_CreateLabel>Вырастить отросток</FB_PsyphageArchive_CreateLabel>
+  <FB_PsyphageArchive_CreateDesc>Вырастить рядом с псифагом псиотросток. Он сможет один раз применить каждую способность из ячеек без пси-связи, пси-концентрации и нейроперегрева, а затем увянет.</FB_PsyphageArchive_CreateDesc>
+  <FB_PsyphageArchive_CreateBatchLeft>До перезарядки можно вырастить ещё: {0}.</FB_PsyphageArchive_CreateBatchLeft>
+  <FB_PsyphageArchive_StatusNoSlots>Нет способностей</FB_PsyphageArchive_StatusNoSlots>
+  <FB_PsyphageArchive_StatusLimit>Предел {0}</FB_PsyphageArchive_StatusLimit>
+  <FB_PsyphageArchive_StatusCooldown>Через {0}</FB_PsyphageArchive_StatusCooldown>
+  <FB_PsyphageArchive_StatusIncapable>Недоступно</FB_PsyphageArchive_StatusIncapable>
+  <FB_PsyphageArchive_ForgetTip>Забыть способность</FB_PsyphageArchive_ForgetTip>
+  <FB_PsyphageArchive_ForgetConfirm>Псифаг навсегда забудет «{0}». Вернуть способность в архив можно будет, только поглотив её снова.</FB_PsyphageArchive_ForgetConfirm>
+
+  <FB_Psyphage_OffshootRejectNoSlots>Скопируйте в ячейки хотя бы одну способность.</FB_Psyphage_OffshootRejectNoSlots>
+  <FB_Psyphage_OffshootRejectLimit>Достигнут предел живых отростков: {0}.</FB_Psyphage_OffshootRejectLimit>
+  <FB_Psyphage_OffshootRejectCooldown>Следующий отросток можно вырастить через {0}.</FB_Psyphage_OffshootRejectCooldown>
+  <FB_Psyphage_OffshootRejectIncapable>Псифаг сейчас не может выращивать отростки.</FB_Psyphage_OffshootRejectIncapable>
+  <FB_Psyphage_OffshootRejectSlotsFull>Все ячейки заняты.</FB_Psyphage_OffshootRejectSlotsFull>
+  <FB_Psyphage_OffshootRejectDuplicate>Эта способность уже в ячейке.</FB_Psyphage_OffshootRejectDuplicate>
+  <FB_Psyphage_RejectItemBlacklisted>Архив не может хранить «{0}».</FB_Psyphage_RejectItemBlacklisted>
+  <FB_Psyphage_OffshootCreated>{0} выращивает псиотросток.</FB_Psyphage_OffshootCreated>
+  <FB_Psyoffshoot_Withered>{0} увядает: способности израсходованы.</FB_Psyoffshoot_Withered>
+  <FB_Psyoffshoot_AbilitiesInspect>Осталось способностей: {0}</FB_Psyoffshoot_AbilitiesInspect>
+</LanguageData>

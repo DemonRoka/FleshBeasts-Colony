@@ -8,7 +8,7 @@
   <FB_SegmentedBastion_AssemblyStarted>{0} биошматов сходятся в сегментный бастион. Общая масса: {1}.</FB_SegmentedBastion_AssemblyStarted>
   <FB_SegmentedBastion_AssemblyComplete>{BEAST_labelShort} сформирован.</FB_SegmentedBastion_AssemblyComplete>
   <FB_SegmentedBastion_SplitLabel>Разделиться на шипастый рой</FB_SegmentedBastion_SplitLabel>
-  <FB_SegmentedBastion_SplitDesc>Разрывает бастион на выжившие шипастые сегменты. Каждый сегмент сохраняет исходную принадлежность.</FB_SegmentedBastion_SplitDesc>
+  <FB_SegmentedBastion_SplitDesc>Разделить бастион на сохранившиеся живые шипастые сегменты. Они действуют отдельно и впоследствии могут вновь соединиться в свой бастион.</FB_SegmentedBastion_SplitDesc>
   <FB_SegmentedBastion_NoViableSegments>Не осталось жизнеспособных сегментов.</FB_SegmentedBastion_NoViableSegments>
   <FB_SegmentedBastion_ReassembleLabel>Собрать сегментный бастион</FB_SegmentedBastion_ReassembleLabel>
   <FB_SegmentedBastion_ReassembleDesc>Собирает все выжившие родные сегменты этого бастиона и сливает их обратно в крупную форму.</FB_SegmentedBastion_ReassembleDesc>

@@ -309,6 +309,7 @@
 				<li>FB_GrowTrispikeFromHemogel</li>
 				<li>FB_GrowToughspikeFromHemogel</li>
 				<li>FB_GrowBulbfreakFromHemogel</li>
+				<li>FB_GrowPsyphageFromHemogel</li>
 			</recipes>
 		</li>
 		<li Class="FB.CompProperties_AcceptanceHemogelFeedingToggle">
@@ -685,6 +686,7 @@
       </terrainDefsToRemove>
       <thingDefsForbiddenToRemove>
         <li>FB_ColonyHeart</li>
+        <li>FB_Psyarchive</li>
       </thingDefsForbiddenToRemove>
     </li>
     <li Class="FB.CompProperties_FleshNoGrowAreaCleaner">

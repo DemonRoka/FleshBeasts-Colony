@@ -13,7 +13,7 @@
   <FB_GasVent_ChooseGasLabel>Выбрать газ</FB_GasVent_ChooseGasLabel>
   <FB_GasVent_ChooseGasDesc>Выбрать, какой запасённый тип газа этот выпускатель будет выбрасывать. Сейчас выбрано: {0}.</FB_GasVent_ChooseGasDesc>
   <FB_GasVent_ReleaseGasToggleLabel>Выпускать газ</FB_GasVent_ReleaseGasToggleLabel>
-  <FB_GasVent_ReleaseGasToggleDesc>Переключить постепенный выпуск газа {0}. Доступно: {1}. Расход: {2} ед. запаса каждые {3} тиков.</FB_GasVent_ReleaseGasToggleDesc>
+  <FB_GasVent_ReleaseGasToggleDesc>Постепенно выпускать газ: {0}. Доступный запас: {1}. Расход: {2} ед. каждые {3}.</FB_GasVent_ReleaseGasToggleDesc>
   <FB_GasVent_GasOption>{0}: запасено {1}</FB_GasVent_GasOption>
   <FB_GasVent_NoStoredGas>Нет запасённого газа.</FB_GasVent_NoStoredGas>
   <FB_GasVent_NoSelectedGas>Тип газа не выбран.</FB_GasVent_NoSelectedGas>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_PsyphageGestation.label>выращивание псифага</FB_PsyphageGestation.label>
+  <FB_PsyphageGestation.description>Учит мозг колонии выращивать псифагов — тяжёлых биошматов, которые переваривают беспомощных пешек, хранят их способности в архиве и могут укореняться, становясь псиархивами.</FB_PsyphageGestation.description>
+  <FB_PsyphageGestation.generalRules.rulesStrings.0>subject-&gt;выращивание псифага</FB_PsyphageGestation.generalRules.rulesStrings.0>
+  <FB_PsyphageGestation.generalRules.rulesStrings.1>subject_story-&gt;вырастили биошматов, переваривающих одарённых и хранящих их силу</FB_PsyphageGestation.generalRules.rulesStrings.1>
+  <FB_PsyphageGestation.generalRules.rulesStrings.2>subject_story-&gt;укоренили живые архивы украденных способностей</FB_PsyphageGestation.generalRules.rulesStrings.2>
+  <FB_PsyphageGestation.generalRules.rulesStrings.3>subject_gerund-&gt;выращивание псифагов</FB_PsyphageGestation.generalRules.rulesStrings.3>
+</LanguageData>

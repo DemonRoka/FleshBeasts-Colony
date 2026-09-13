@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_HemoghoulChildhood.title>связанный плотью</FB_HemoghoulChildhood.title>
+  <FB_HemoghoulChildhood.titleShort>связанный плотью</FB_HemoghoulChildhood.titleShort>
+  <FB_HemoghoulChildhood.description>Кем бы ни был [PAWN_nameDef] раньше, этого больше нет. Пальцешип переписал тело под неутомимый труд и не оставил от прежней жизни ничего.</FB_HemoghoulChildhood.description>
+  <FB_HemoghoulAdulthood.title>гемогуль</FB_HemoghoulAdulthood.title>
+  <FB_HemoghoulAdulthood.titleShort>гемогуль</FB_HemoghoulAdulthood.titleShort>
+  <FB_HemoghoulAdulthood.description>[PAWN_nameDef] служит колонии плоти гемогулем: тело на гемогеле, которое работает без отдыха и ничего не просит.</FB_HemoghoulAdulthood.description>
+</LanguageData>

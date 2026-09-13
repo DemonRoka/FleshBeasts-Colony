@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- Рецепт: grow psyphage from hemogel (FB_GrowPsyphageFromHemogel) -->
+	<RecipeDef ParentName="FB_FleshbeastHemogelGrowthRecipeBase">
+		<defName>FB_GrowPsyphageFromHemogel</defName>
+		<label>grow psyphage from hemogel</label>
+		<description>Grows a psyphage directly from the organ's hemogel reserve.</description>
+		<uiIconPath>UI/Commands/PsyphageGrow</uiIconPath>
+		<researchPrerequisite>FB_PsyphageGestation</researchPrerequisite>
+		<modExtensions>
+			<li Class="FB.FleshbeastMergeRecipeExtension">
+				<outputKind>FB_PsyphageKind</outputKind>
+				<hemogelCost>1500</hemogelCost>
+				<hemogelGrowthRadius>5</hemogelGrowthRadius>
+				<hemogelGrowthTicks>1500</hemogelGrowthTicks>
+				<hemogelGrowthEffectIntervalTicks>200</hemogelGrowthEffectIntervalTicks>
+				<mergeEffect>MeatExplosionLarge</mergeEffect>
+			</li>
+		</modExtensions>
+	</RecipeDef>
+</Defs>

@@ -13,7 +13,7 @@
   <FB_GasVent_ChooseGasLabel>Choose gas</FB_GasVent_ChooseGasLabel>
   <FB_GasVent_ChooseGasDesc>Select which stored gas type this outlet should release. Current selection: {0}.</FB_GasVent_ChooseGasDesc>
   <FB_GasVent_ReleaseGasToggleLabel>Release gas</FB_GasVent_ReleaseGasToggleLabel>
-  <FB_GasVent_ReleaseGasToggleDesc>Toggle gradual release of {0}. Available: {1}. Consumption: {2} reserve every {3} ticks.</FB_GasVent_ReleaseGasToggleDesc>
+  <FB_GasVent_ReleaseGasToggleDesc>Gradually release {0}. Available reserve: {1}. Consumption: {2} units every {3}.</FB_GasVent_ReleaseGasToggleDesc>
   <FB_GasVent_GasOption>{0}: {1} stored</FB_GasVent_GasOption>
   <FB_GasVent_NoStoredGas>No stored gas.</FB_GasVent_NoStoredGas>
   <FB_GasVent_NoSelectedGas>No gas type selected.</FB_GasVent_NoSelectedGas>

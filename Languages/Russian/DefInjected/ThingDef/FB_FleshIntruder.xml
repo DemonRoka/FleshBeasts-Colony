@@ -2,5 +2,6 @@
 <LanguageData>
   <FB_FleshIntruder.label>внедрильщик плоти</FB_FleshIntruder.label>
   <FB_FleshIntruder.description>Хрупкий одноразовый биошмат, выращенный для прыжка в цель, пробития брони и внедрения роющего органа во внешнюю часть тела.</FB_FleshIntruder.description>
+  <FB_FleshIntruder.tools.0.label>буровой шип</FB_FleshIntruder.tools.0.label>
   <FB_FleshIntruderLeapFlyer.label>прыжок внедрильщика</FB_FleshIntruderLeapFlyer.label>
 </LanguageData>

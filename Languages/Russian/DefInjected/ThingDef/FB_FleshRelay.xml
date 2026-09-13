@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_FleshRelayAntenna.label>ретрансляторная антенна</FB_FleshRelayAntenna.label>
-  <FB_FleshRelayAntenna.description>Ретранслятор с клеткой для пленных плотозверей. Передаёт их искажённый психический сигнал, заставляя тварей колонии нападать на своих или уходить в плен. Уничтожьте антенну, чтобы освободить пленников и вернуть их под свой контроль.</FB_FleshRelayAntenna.description>
+  <FB_FleshRelayAntenna.description>Ретранслятор с клеткой для пленных биошматов. Передаёт их искажённый психический сигнал, заставляя тварей колонии нападать на своих или уходить в плен. Уничтожьте антенну, чтобы освободить пленников и вернуть их под свой контроль.</FB_FleshRelayAntenna.description>
   <FB_FleshRelayIncoming.label>ретрансляторная антенна (снижается)</FB_FleshRelayIncoming.label>
 </LanguageData>

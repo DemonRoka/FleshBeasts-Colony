@@ -8,7 +8,7 @@
     <firstWorldReserve>15000</firstWorldReserve>
     <outpostTileProductionFactor>0.5</outpostTileProductionFactor>
 
-    <baseCaptureCost>10000</baseCaptureCost>
+    <baseCaptureCost>4000</baseCaptureCost>
     <costRounding>1000</costRounding>
     <emptyCaptureTicks>60000</emptyCaptureTicks>
 

@@ -6,4 +6,5 @@
   <FB_SegmentedBastion.tools.1.label>central bulk</FB_SegmentedBastion.tools.1.label>
   <FB_BastionSpineSegment.label>bastion spine segment</FB_BastionSpineSegment.label>
   <FB_BastionSpineSegment.description>A detached part of a segmented bastion that fires keratin spines. It can reunite with other surviving parts of its original bastion.</FB_BastionSpineSegment.description>
+  <FB_BastionSpineSegment.tools.0.label>keratin spines</FB_BastionSpineSegment.tools.0.label>
 </LanguageData>

@@ -74,6 +74,18 @@
         <invisibilityRefreshTicks>120</invisibilityRefreshTicks>
       </li>
     </comps>
-    <tools />
+    <tools>
+      <li>
+        <label>hauling pseudopod</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>2</power>
+        <cooldownTime>2.6</cooldownTime>
+        <linkedBodyPartsGroup>FirstTentacle</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <soundMeleeHit>Pawn_Fleshbeast_Attack_Blunt</soundMeleeHit>
+      </li>
+    </tools>
   </ThingDef>
 </Defs>

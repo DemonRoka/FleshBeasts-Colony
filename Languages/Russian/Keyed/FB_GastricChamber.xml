@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_GastricAcidSpewer_ToggleLabel>Распространять желудочный сок</FB_GastricAcidSpewer_ToggleLabel>
-  <FB_GastricAcidSpewer_ToggleDesc>Распространять пищеварительную кислоту из этого органа на ближайшие подходящие клетки. При выключении орган будет всасывать кислоту обратно клетка за клеткой.</FB_GastricAcidSpewer_ToggleDesc>
+  <FB_GastricAcidSpewer_ToggleDesc>Распространять пищеварительную кислоту из этого органа на ближайшие подходящие клетки. При выключении орган всасывает кислоту обратно клетка за клеткой, начиная с самого дальнего от всех извергателей края лужи. Пока общую лужу подпитывает другой включённый извергатель, орган забирает лишь столько клеток, сколько сам разлил; когда выключены все извергатели лужи, она всасывается целиком.</FB_GastricAcidSpewer_ToggleDesc>
   
   
   <FB_GastricAcidSpewer_InspectIdle>Желудочный сок: покой</FB_GastricAcidSpewer_InspectIdle>

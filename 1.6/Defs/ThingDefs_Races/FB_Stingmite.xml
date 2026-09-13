@@ -72,5 +72,18 @@
         <lifetimeTicks>7500</lifetimeTicks>
       </li>
     </comps>
+    <tools>
+      <li>
+        <label>stinger</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>2</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <soundMeleeHit>Pawn_Fleshbeast_Attack_Spike</soundMeleeHit>
+      </li>
+    </tools>
   </ThingDef>
 </Defs>

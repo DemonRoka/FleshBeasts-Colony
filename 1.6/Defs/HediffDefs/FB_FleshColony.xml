@@ -10,6 +10,9 @@
     <isBad>false</isBad>
     <everCurableByItem>false</everCurableByItem>
     <initialSeverity>1</initialSeverity>
+    <allowedMeditationFocusTypes>
+      <li>FB_Flesh</li>
+    </allowedMeditationFocusTypes>
     <comps>
       <li Class="FB.HediffCompProperties_GiveAbility">
         <abilityDefs>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- Растение: FB_PsyarchiveSoulGrowth -->
+	<ThingDef ParentName="PlantBaseNonEdible">
+		<defName>FB_PsyarchiveSoulGrowth</defName>
+		<label>anima growth</label>
+		<description>Fleshy tubes that push out of the flesh around a psyarchive holding an absorbed anima tree while someone accepted by the flesh colony meditates nearby. Once enough have grown, such a colonist can link with the psyarchive for a psylink level; the growth withers when it uproots.</description>
+		<statBases>
+			<MaxHitPoints>85</MaxHitPoints>
+			<Flammability>1.3</Flammability>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Plant/FB_PsyarchiveSoulGrowth</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutPlant</shaderType>
+		</graphicData>
+		<plant>
+			<fertilityMin>0</fertilityMin>
+			<fertilitySensitivity>0</fertilitySensitivity>
+			<growDays>1</growDays>
+			<lifespanDaysPerGrowDays>60</lifespanDaysPerGrowDays>
+			<growMinGlow>0</growMinGlow>
+			<growOptimalGlow>0</growOptimalGlow>
+			<harvestWork>40</harvestWork>
+			<maxMeshCount>1</maxMeshCount>
+			<visualSizeRange>0.4~0.6</visualSizeRange>
+			<topWindExposure>0.1</topWindExposure>
+			<pollution>Any</pollution>
+			<dieFromToxicFallout>false</dieFromToxicFallout>
+			<dieIfNoSunlight>false</dieIfNoSunlight>
+			<neverBlightable>true</neverBlightable>
+			<allowAutoCut>false</allowAutoCut>
+		</plant>
+	</ThingDef>
+</Defs>

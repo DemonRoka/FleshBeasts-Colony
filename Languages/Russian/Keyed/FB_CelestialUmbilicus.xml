@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_CelestialUmbilicusStartLabel>Начать небесное отпочкование</FB_CelestialUmbilicusStartLabel>
-  <FB_CelestialUmbilicusStartDesc>Пробуждает пуповину и запускает рост. Ей нужно {0} общей работы роста; текущий поток — {1} гемогеля/ч, максимум — {2} гемогеля/ч.</FB_CelestialUmbilicusStartDesc>
+  <FB_CelestialUmbilicusStartDesc>Пробудить пуповину и начать рост к орбите. Запуск обращает остальные фракции против колонии и вызывает налёты. Требуется {0} единиц роста; текущий расход гемогеля — {1}/ч, максимальный — {2}/ч.</FB_CelestialUmbilicusStartDesc>
   <FB_CelestialUmbilicusStartWarning>Пробуждение небесной пуповины нельзя отменить. Она будет потреблять мощность гемогеля из сети, пока не завершит {0} работы роста. Текущий поток: {1} гемогеля/ч; максимум: {2} гемогеля/ч. Все не-игровые фракции станут враждебными. Продолжить?</FB_CelestialUmbilicusStartWarning>
   <FB_CelestialUmbilicusAwakenedLetterLabel>Небесная пуповина пробуждена</FB_CelestialUmbilicusAwakenedLetterLabel>
   <FB_CelestialUmbilicusAwakenedLetterText>Небесная пуповина раскрыла сосудистую глотку к небу. {0} фракций распознают колонию как планетарную заразу и становятся враждебными. Нужно работы роста: {1}. Текущий поток: {2} гемогеля/ч; максимум: {3} гемогеля/ч.</FB_CelestialUmbilicusAwakenedLetterText>
@@ -37,9 +37,12 @@
   <FB_FleshMoonAbsorptionStartedLetterText>Наземная колония сворачивается в небесную пуповину. Зоны мясной массы выпускают своих биошматов, а пешки игрока, заключённые, рабы, мехи, животные игрока и биошматы получают приказ войти в пуповину; локальный гемогель перекачивается наверх, а выращенные плотяные структуры возвращают часть гемогеля.</FB_FleshMoonAbsorptionStartedLetterText>
   <FB_FleshMoonAbsorptionCompletedLetterLabel>Поглощение поверхности завершено</FB_FleshMoonAbsorptionCompletedLetterLabel>
   <FB_FleshMoonAbsorptionCompletedLetterText>Небесная пуповина приняла живых существ колонии через портал и переварила наземный рост. Вышло с карты: {0}.</FB_FleshMoonAbsorptionCompletedLetterText>
-  <FB_CelestialUmbilicusDetachAbsorbCommandLabel>Открепить и поглотить поверхность</FB_CelestialUmbilicusDetachAbsorbCommandLabel>
-  <FB_CelestialUmbilicusDetachAbsorbCommandDesc>Втянуть эту наземную пуповину, поглотив локальную плотяную колонию. Зоны мясной массы выпускают своих биошматов, а пешки игрока, заключённые, рабы, мехи, животные игрока и биошматы получают приказ войти в пуповину; запас гемогеля перекачивается наверх, а выращенные структуры возвращают часть стоимости.</FB_CelestialUmbilicusDetachAbsorbCommandDesc>
-  <FB_CelestialUmbilicusDetachAbsorbWarning>Это открепит наземную пуповину и поглотит плотяную колонию на этой карте. Зоны мясной массы выпустят своих биошматов, а пешки игрока, заключённые, рабы, мехи, животные игрока и биошматы получат приказ войти в пуповину; локальный гемогель уйдёт в лунное хранилище, а выращенный плотяной грунт и органы вернут часть гемогеля. Продолжить?</FB_CelestialUmbilicusDetachAbsorbWarning>
+  <FB_CelestialUmbilicusDetachCommandLabel>Отсоединить пуповину</FB_CelestialUmbilicusDetachCommandLabel>
+  <FB_CelestialUmbilicusDetachCommandDesc>Отсоединить эту наземную пуповину от луны плоти. На выбор: просто втянуть её, оставив карту со всем, что на ней есть, или поглотить плотяную колонию этой карты и покинуть её.</FB_CelestialUmbilicusDetachCommandDesc>
+  <FB_CelestialUmbilicusDetachChoiceText>Как отсоединить небесную пуповину?\n\nВтянуть: пуповина уходит к луне за {0}. Всё на карте остаётся на месте — пешки, постройки, плоть и местный гемогель. Дальше карта живёт по обычным правилам: колония остаётся колонией, а временная карта закроется сама, когда на ней не останется ваших пешек.\n\nПоглотить: зоны мясной массы выпускают своих биошматов, а пешки игрока, заключённые, рабы, мехи, животные игрока и биошматы уходят в пуповину; местный гемогель перекачивается наверх, а выращенные плотяные структуры возвращают часть гемогеля. Когда поглощение закончится, ваше поселение на этой карте будет покинуто, и всё, что не ушло в пуповину, пропадёт вместе с ним.</FB_CelestialUmbilicusDetachChoiceText>
+  <FB_CelestialUmbilicusDetachChoiceMoonColonists>Сейчас на луне плоти ваших колонистов: {0}. После отсоединения они смогут вернуться на поверхность только через новую пуповину.</FB_CelestialUmbilicusDetachChoiceMoonColonists>
+  <FB_CelestialUmbilicusDetachChoiceRetract>Втянуть пуповину</FB_CelestialUmbilicusDetachChoiceRetract>
+  <FB_CelestialUmbilicusDetachChoiceAbsorb>Поглотить поверхность</FB_CelestialUmbilicusDetachChoiceAbsorb>
   <FB_CelestialUmbilicusPortalEnterLabel>Войти в луну плоти</FB_CelestialUmbilicusPortalEnterLabel>
   <FB_CelestialUmbilicusPortalCancelLabel>Отменить перенос на луну</FB_CelestialUmbilicusPortalCancelLabel>
   <FB_CelestialUmbilicusMoonExitEnterLabel>Вернуться через пуповину</FB_CelestialUmbilicusMoonExitEnterLabel>
@@ -60,7 +63,7 @@
   <FB_FleshMoonWorldObjectChannelOpenLabel>Открыть физический канал</FB_FleshMoonWorldObjectChannelOpenLabel>
   <FB_FleshMoonWorldObjectChannelOpenDesc>Материализовать логически закреплённую клетку поверхности и автоматически развернуть небесную пуповину возле центра карты. После этого можно спускать пешек и грузы. Абстрактные клетки аванпостов материализовать нельзя.</FB_FleshMoonWorldObjectChannelOpenDesc>
   <FB_FleshMoonWorldObjectDetachLabel>Отсоединить пуповину</FB_FleshMoonWorldObjectDetachLabel>
-  <FB_FleshMoonWorldObjectDetachDesc>Разорвать текущую наземную привязку пуповины и удалить её край на поверхности без перелёта луны.</FB_FleshMoonWorldObjectDetachDesc>
+  <FB_FleshMoonWorldObjectDetachDesc>Отсоединить наземную пуповину. На выбор: просто втянуть её, оставив карту как есть, или поглотить плотяную колонию под ней и покинуть поселение.</FB_FleshMoonWorldObjectDetachDesc>
   <FB_FleshMoonWorldObjectNetworkDisconnectLabel>Втянуть питающую пуповину</FB_FleshMoonWorldObjectNetworkDisconnectLabel>
   <FB_FleshMoonWorldObjectNetworkDisconnectDesc>Отсоединить питающую пуповину Луны от клетки поверхности без создания или удаления карты.</FB_FleshMoonWorldObjectNetworkDisconnectDesc>
   <FB_FleshMoonWorldObjectChannelRetractLabel>Втянуть физический канал</FB_FleshMoonWorldObjectChannelRetractLabel>
