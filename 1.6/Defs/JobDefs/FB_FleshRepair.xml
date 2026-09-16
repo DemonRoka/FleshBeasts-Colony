@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Задание: FB_FleshRepair -->
+  <JobDef>
+    <defName>FB_FleshRepair</defName>
+    <driverClass>FB.JobDriver_FleshRepair</driverClass>
+    <reportString>regenerating TargetA.</reportString>
+  </JobDef>
+</Defs>

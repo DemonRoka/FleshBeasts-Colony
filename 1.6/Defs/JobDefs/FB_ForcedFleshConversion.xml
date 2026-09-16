@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
+  <!-- Носильщик прежней схемы принятия: оставлен ради старых сохранений, задание сразу завершается -->
   <JobDef>
     <defName>FB_ForcedFleshConversionDoctor</defName>
     <driverClass>FB.JobDriver_ForcedFleshConversionDoctor</driverClass>
-    <reportString>carrying TargetA to a colony heart or lunar nerve node.</reportString>
+    <reportString>carrying TargetA.</reportString>
     <checkOverrideOnDamage>Never</checkOverrideOnDamage>
   </JobDef>
 
@@ -14,10 +15,11 @@
     <checkOverrideOnDamage>Never</checkOverrideOnDamage>
   </JobDef>
 
+  <!-- Доброволец прежней схемы принятия: оставлен ради старых сохранений, задание сразу завершается -->
   <JobDef>
     <defName>FB_ForcedFleshConversionVolunteer</defName>
     <driverClass>FB.JobDriver_ForcedFleshConversionVolunteer</driverClass>
-    <reportString>accepting the flesh at a colony heart.</reportString>
+    <reportString>accepting the flesh.</reportString>
     <checkOverrideOnDamage>Never</checkOverrideOnDamage>
     <casualInterruptible>false</casualInterruptible>
   </JobDef>

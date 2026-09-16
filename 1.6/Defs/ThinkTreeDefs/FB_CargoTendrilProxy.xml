@@ -22,6 +22,7 @@
         <li Class="ThinkNode_QueuedJob" />
         <li Class="FB.JobGiver_DoConfiguredWork">
           <allowedWorkGivers>
+            <li>FB_FleshRepair</li>
             <li>DoctorRescue</li>
             <li>HaulToPortal</li>
             <li>LoadTransporters</li>

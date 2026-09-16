@@ -94,5 +94,11 @@
         <soundMeleeHit>Pawn_Fleshbeast_Attack_Blunt</soundMeleeHit>
       </li>
     </tools>
+    <modExtensions>
+      <li Class="FB.FleshRepairWorkerExtension">
+        <ticksPerHitPoint>20</ticksPerHitPoint>
+        <spurtIntervalTicks>45</spurtIntervalTicks>
+      </li>
+    </modExtensions>
   </ThingDef>
 </Defs>

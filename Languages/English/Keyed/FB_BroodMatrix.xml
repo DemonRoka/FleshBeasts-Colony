@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <FB_ColonyBrain_Structure_BroodMatrix_Label>Brood Matrix</FB_ColonyBrain_Structure_BroodMatrix_Label>
+  <FB_ColonyBrain_Structure_BroodMatrix_Desc>A brood organ with four capsules that grow children up to thirteen eighty times faster on hemogel. A living outsider sealed in its core ages away while its skills, passions, traits and genes are shared among the children. Pawns accepted by the flesh colony or grown in the flesh can never be donors.</FB_ColonyBrain_Structure_BroodMatrix_Desc>
+
+  <FB_BroodMatrixInsertOccupantLabel>Insert child...</FB_BroodMatrixInsertOccupantLabel>
+  <FB_BroodMatrixInsertOccupantDesc>Choose a baby or child younger than {0} for a free capsule. Babies, prisoners and downed captives are carried in by haulers; your own children walk in. Growth runs eighty times faster but only while a donor sits in the core, and the child leaves at {0} marked as flesh-grown.</FB_BroodMatrixInsertOccupantDesc>
+  <FB_BroodMatrixInsertDonorLabel>Insert donor...</FB_BroodMatrixInsertDonorLabel>
+  <FB_BroodMatrixInsertDonorDesc>Choose an adult outsider to seal in the core: a prisoner, a slave or a downed enemy. Pawns accepted by the flesh colony or grown in the flesh never qualify. The donor withers only while children grow: each child drains two donors on its way to thirteen. Its skills, passions, traits and genes flow into the children, and it dies of old age once spent.</FB_BroodMatrixInsertDonorDesc>
+  <FB_BroodMatrixDonorWarning>{0} will be sealed in the brood matrix core. The donor ages rapidly, loses everything that flows into the children, and dies once its lifespan is spent. Continue?</FB_BroodMatrixDonorWarning>
+  <FB_BroodMatrixCancelLoadLabel>Cancel loading</FB_BroodMatrixCancelLoadLabel>
+  <FB_BroodMatrixCancelLoadDesc>Cancel every pending child and donor assignment.</FB_BroodMatrixCancelLoadDesc>
+  <FB_BroodMatrixEjectOccupantLabel>Eject child...</FB_BroodMatrixEjectOccupantLabel>
+  <FB_BroodMatrixEjectOccupantDesc>Release a child from its capsule early. What it has already inherited stays with it.</FB_BroodMatrixEjectOccupantDesc>
+  <FB_BroodMatrixExtractDonorLabel>Extract donor</FB_BroodMatrixExtractDonorLabel>
+  <FB_BroodMatrixExtractDonorDesc>Release the donor alive. It keeps its age and whatever has not yet flowed into the children.</FB_BroodMatrixExtractDonorDesc>
+  <FB_BroodMatrixAutoLoadLabel>Take newborns</FB_BroodMatrixAutoLoadLabel>
+  <FB_BroodMatrixAutoLoadDesc>When a capsule is free, automatically assign babies of your colony on this map to it.</FB_BroodMatrixAutoLoadDesc>
+  <FB_BroodMatrixNoFreeCapsule>All capsules are occupied or reserved.</FB_BroodMatrixNoFreeCapsule>
+  <FB_BroodMatrixNoCandidates>No suitable pawns</FB_BroodMatrixNoCandidates>
+
+  <FB_BroodMatrixRejectNotAssigned>Not assigned to this brood matrix.</FB_BroodMatrixRejectNotAssigned>
+  <FB_BroodMatrixRejectNotHumanlike>Only humanlike flesh can be used.</FB_BroodMatrixRejectNotHumanlike>
+  <FB_BroodMatrixRejectAnomalous>Anomalous creatures cannot be used.</FB_BroodMatrixRejectAnomalous>
+  <FB_BroodMatrixRejectMustBeCaptured>Capture this pawn first.</FB_BroodMatrixRejectMustBeCaptured>
+  <FB_BroodMatrixRejectMustBeDowned>An outsider must be downed or imprisoned first.</FB_BroodMatrixRejectMustBeDowned>
+  <FB_BroodMatrixRejectTooOld>Only babies and children younger than {0} fit in a capsule.</FB_BroodMatrixRejectTooOld>
+  <FB_BroodMatrixRejectBiostarving>Suffering from bio-starvation.</FB_BroodMatrixRejectBiostarving>
+  <FB_BroodMatrixRejectDonorPresent>The core already holds a donor.</FB_BroodMatrixRejectDonorPresent>
+  <FB_BroodMatrixRejectNotAdult>Only adults can be donors.</FB_BroodMatrixRejectNotAdult>
+  <FB_BroodMatrixRejectFleshColony>Members of the flesh colony, pawns accepted by it and the flesh-grown cannot be donors.</FB_BroodMatrixRejectFleshColony>
+  <FB_BroodMatrixRejectLifespanSpent>Too old: its lifespan is already spent.</FB_BroodMatrixRejectLifespanSpent>
+
+  <FB_BroodMatrixDonorInspect>Donor: {0}, age {1} of {2}</FB_BroodMatrixDonorInspect>
+  <FB_BroodMatrixInheritanceInspect>Inheritance left: skill levels {0}, passions {1}, traits {2}, genes {3}</FB_BroodMatrixInheritanceInspect>
+  <FB_BroodMatrixNoDonorInspect>No donor: the children do not grow and nothing is inherited.</FB_BroodMatrixNoDonorInspect>
+  <FB_BroodMatrixOccupantInspect>{0}: age {1}, leaves in {2} days</FB_BroodMatrixOccupantInspect>
+  <FB_BroodMatrixOccupantStarvingInspect>{0}: age {1}, leaves in {2} days, bio-starvation {3}</FB_BroodMatrixOccupantStarvingInspect>
+  <FB_BroodMatrixOccupantPausedInspect>{0}: age {1}, growth paused</FB_BroodMatrixOccupantPausedInspect>
+  <FB_BroodMatrixOccupantPausedStarvingInspect>{0}: age {1}, growth paused, bio-starvation {2}</FB_BroodMatrixOccupantPausedStarvingInspect>
+  <FB_BroodMatrixSupplyInspect>Hemogel reserve: {0} of {1} h, capsules and donor use +{2}/h</FB_BroodMatrixSupplyInspect>
+
+  <FB_BroodMatrixOccupantGrownMessage>{0} has grown up in the brood matrix and left its capsule.</FB_BroodMatrixOccupantGrownMessage>
+  <FB_BroodMatrixOccupantStarvedMessage>{0} died of bio-starvation in the brood matrix.</FB_BroodMatrixOccupantStarvedMessage>
+  <FB_BroodMatrixDonorSpentLetterLabel>Donor spent</FB_BroodMatrixDonorSpentLetterLabel>
+  <FB_BroodMatrixDonorSpentLetterText>{0} has aged to the end of their life inside the brood matrix. Everything left of them has flowed into the children, and the matrix has absorbed the body.</FB_BroodMatrixDonorSpentLetterText>
+  <FB_BroodMatrixHybridXenotype>matrix hybrid</FB_BroodMatrixHybridXenotype>
+
+  <FB_BroodMatrixDevAgeOccupantsLabel>DEV: Children +1 year</FB_BroodMatrixDevAgeOccupantsLabel>
+  <FB_BroodMatrixDevAgeDonorLabel>DEV: Donor +10 years</FB_BroodMatrixDevAgeDonorLabel>
+  <FB_BroodMatrixDevFillBufferLabel>DEV: Fill hemogel reserve</FB_BroodMatrixDevFillBufferLabel>
+  <FB_BroodMatrixDevEmptyBufferLabel>DEV: Empty hemogel reserve</FB_BroodMatrixDevEmptyBufferLabel>
+
+  <FB_BroodMatrixInheritanceTab>Inheritance</FB_BroodMatrixInheritanceTab>
+  <FB_BroodMatrixInheritanceTitle>Donor inheritance</FB_BroodMatrixInheritanceTitle>
+  <FB_BroodMatrixInheritanceHint>Unticked parts of the inheritance stay with the donor: they neither flow into the children nor leave the donor. Tick them again and everything held back flows in at once; if the donor dies first, it is lost.</FB_BroodMatrixInheritanceHint>
+  <FB_BroodMatrixInheritSkills>Skills</FB_BroodMatrixInheritSkills>
+  <FB_BroodMatrixInheritPassions>Passions</FB_BroodMatrixInheritPassions>
+  <FB_BroodMatrixInheritTraits>Traits</FB_BroodMatrixInheritTraits>
+  <FB_BroodMatrixInheritGenes>Genes</FB_BroodMatrixInheritGenes>
+  <FB_BroodMatrixInheritRemaining>Left in the donor: {0}</FB_BroodMatrixInheritRemaining>
+  <FB_BroodMatrixInheritNoDonor>No donor in the core</FB_BroodMatrixInheritNoDonor>
+  <FB_BroodMatrixInheritNothingLeft>Nothing left to inherit.</FB_BroodMatrixInheritNothingLeft>
+  <FB_BroodMatrixInheritLifeSpent>Donor life spent: {0}</FB_BroodMatrixInheritLifeSpent>
+  <FB_BroodMatrixPassionMinor>minor passion</FB_BroodMatrixPassionMinor>
+  <FB_BroodMatrixPassionMajor>major passion</FB_BroodMatrixPassionMajor>
+
+</LanguageData>

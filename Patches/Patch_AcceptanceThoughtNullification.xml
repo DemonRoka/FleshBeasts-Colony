@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
-  <!-- Existing nullifyingHediffs blocks: append flesh-colony acceptance there. -->
+  <!-- Existing nullifyingHediffs blocks: append flesh-colony acceptance and flesh-grown there. -->
   <Operation Class="PatchOperationAdd">
     <xpath>/Defs/ThoughtDef[
       defName="DeadMansApparel" or
@@ -13,6 +13,7 @@
     ]/nullifyingHediffs</xpath>
     <value>
       <li>FB_AcceptanceOfFleshColony</li>
+      <li>FB_Fleshgrown</li>
     </value>
   </Operation>
 
@@ -22,6 +23,7 @@
     <value>
       <nullifyingHediffs>
         <li>FB_AcceptanceOfFleshColony</li>
+        <li>FB_Fleshgrown</li>
       </nullifyingHediffs>
     </value>
   </Operation>
@@ -62,6 +64,7 @@
     <value>
       <nullifyingHediffs>
         <li>FB_AcceptanceOfFleshColony</li>
+        <li>FB_Fleshgrown</li>
       </nullifyingHediffs>
     </value>
   </Operation>

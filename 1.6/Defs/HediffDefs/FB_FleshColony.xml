@@ -911,4 +911,18 @@
       </li>
     </stages>
   </HediffDef>
+  <!-- Состояние: flesh-grown (FB_Fleshgrown) -->
+  <HediffDef>
+    <defName>FB_Fleshgrown</defName>
+    <label>flesh-grown</label>
+    <description>This person was grown inside a brood matrix. Living flesh feels like home, and the deaths, corpses, raw meals and hard nights that trouble other people do not reach them, though they remain human in every other way. Someone grown this way can never serve as a matrix donor.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.8, 0.35, 0.35)</defaultLabelColor>
+    <isBad>false</isBad>
+    <everCurableByItem>false</everCurableByItem>
+    <initialSeverity>1</initialSeverity>
+    <allowedMeditationFocusTypes>
+      <li>FB_Flesh</li>
+    </allowedMeditationFocusTypes>
+  </HediffDef>
 </Defs>

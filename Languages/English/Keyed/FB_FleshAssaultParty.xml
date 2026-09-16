@@ -5,6 +5,7 @@
   <FB_FleshAssaultRosterLaunched>An assault pack of {1} beasts is moving against {0}.</FB_FleshAssaultRosterLaunched>
   <FB_FleshAssaultArrivalTitle>The pack has reached its target</FB_FleshAssaultArrivalTitle>
   <FB_FleshAssaultArrivalText>The assault pack has reached {0}. It carries {1} beasts with a combined strength of {2}; the settlement's defence is rated at {3}.\n\nFight the battle yourself, or let the pack resolve it without loading the map?</FB_FleshAssaultArrivalText>
+  <FB_FleshAssaultArrivalNotHostile>{0} is not hostile to you: attacking will make them hostile.</FB_FleshAssaultArrivalNotHostile>
   <FB_FleshAssaultArrivalManual>Manual battle</FB_FleshAssaultArrivalManual>
   <FB_FleshAssaultArrivalAuto>Automatic battle</FB_FleshAssaultArrivalAuto>
   <FB_FleshAssaultArrivalTimeout>The pack will wait {0} for orders. Without an answer it fights the battle on its own.</FB_FleshAssaultArrivalTimeout>
@@ -32,6 +33,9 @@ Automatic battle in: {1}</FB_FleshAssaultInspectAwaitingOrder>
   <FB_FleshAssaultCaravanCargoHeader>Cargo: {0} stack(s), {1} / {2} kg</FB_FleshAssaultCaravanCargoHeader>
   <FB_FleshAssaultCaravanDropTip>Drop on the road</FB_FleshAssaultCaravanDropTip>
   <FB_FleshAssaultCaravanDropConfirm>Drop {0} along the way? The cargo is lost.</FB_FleshAssaultCaravanDropConfirm>
+  <FB_FleshAssaultCaravanDropSelected>Drop ({0})</FB_FleshAssaultCaravanDropSelected>
+  <FB_FleshAssaultCaravanDropSelectedDesc>Drop all selected cargo along the way. It is lost.</FB_FleshAssaultCaravanDropSelectedDesc>
+  <FB_FleshAssaultCaravanDropSelectedConfirm>Drop the selected cargo ({0}) along the way? It is lost.</FB_FleshAssaultCaravanDropSelectedConfirm>
   <FB_FleshAssaultPartyBeastsTab>Composition</FB_FleshAssaultPartyBeastsTab>
   <FB_FleshAssaultPartyBeastsSummary>Beasts: {0}   Pack strength: {1}</FB_FleshAssaultPartyBeastsSummary>
   <FB_FleshOutpostStoredItems>Stored loot: {0} stack(s)</FB_FleshOutpostStoredItems>

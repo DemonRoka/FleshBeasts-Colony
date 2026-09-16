@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_FloorMawTrapRechargingInspect>Закрыта, раскроется через: {0}</FB_FloorMawTrapRechargingInspect>
+  <FB_FloorMawTrapArmedInspect>Раскрыта, готова укусить</FB_FloorMawTrapArmedInspect>
+  <FB_FloorMawTrapDevOpenLabel>Dev: раскрыть сейчас</FB_FloorMawTrapDevOpenLabel>
+</LanguageData>

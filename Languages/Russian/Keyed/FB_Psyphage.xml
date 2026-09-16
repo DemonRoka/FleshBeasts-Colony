@@ -24,14 +24,27 @@
   <FB_Psyarchive_UprootWithersGrowth>Поросль души вокруг ({0}) увянет.</FB_Psyarchive_UprootWithersGrowth>
   <FB_Psyarchive_FocusSoulTree>Поглощённое древо души</FB_Psyarchive_FocusSoulTree>
   <FB_Psyarchive_LinkLabel>Связаться с псиархивом</FB_Psyarchive_LinkLabel>
+  <FB_Psyarchive_LinkPsylinkLabel>Связаться с псиархивом: уровень пси-связи и случайная пси-способность</FB_Psyarchive_LinkPsylinkLabel>
+  <FB_Psyarchive_LinkSlotLabel>Связаться с псиархивом: способность из ячеек</FB_Psyarchive_LinkSlotLabel>
   <FB_Psyarchive_LinkRejectNotAccepted>только принятые колонией плоти</FB_Psyarchive_LinkRejectNotAccepted>
+  <FB_Psyarchive_LinkRejectMaxLevel>уже максимальный уровень пси-связи</FB_Psyarchive_LinkRejectMaxLevel>
+  <FB_Psyarchive_LinkRejectGrowth>нужно {0} поросли души, сейчас {1}</FB_Psyarchive_LinkRejectGrowth>
   <FB_Psyarchive_LinkRejectChild>только взрослые</FB_Psyarchive_LinkRejectChild>
   <FB_Psyarchive_LinkRejectInsensitive>нет психочувствительности</FB_Psyarchive_LinkRejectInsensitive>
   <FB_Psyarchive_LinkRejectNoSpot>рядом с псиархивом нет свободного места</FB_Psyarchive_LinkRejectNoSpot>
+  <FB_Psyarchive_LinkRejectSlotsEmpty>ячейки во вкладке «Псиархив» пусты</FB_Psyarchive_LinkRejectSlotsEmpty>
+  <FB_Psyarchive_LinkRejectSlotsKnown>все способности из ячеек уже известны</FB_Psyarchive_LinkRejectSlotsKnown>
   <FB_Psyarchive_LinkReportLeft>осталось {0}</FB_Psyarchive_LinkReportLeft>
   <FB_Psyarchive_LinkReadyLabel>Псиархив готов к связыванию</FB_Psyarchive_LinkReadyLabel>
-  <FB_Psyarchive_LinkReadyText>Вокруг псиархива выросло {0} поросли души — достаточно, чтобы принятый колонией плоти колонист связался с ним: он медитирует рядом {2}, получает уровень пси-связи и расходует {1} поросли.\n\nВыберите такого колониста и нажмите правой кнопкой на псиархив.</FB_Psyarchive_LinkReadyText>
-  <FB_Psyarchive_DevAddSoulGrowth>DEV: +1 поросль души</FB_Psyarchive_DevAddSoulGrowth>
+  <FB_Psyarchive_LinkReadyText>Вокруг псиархива выросло {0} поросли души — достаточно, чтобы принятый колонией плоти колонист связался с ним. Медитация рядом длится {2}, после неё колонист получит либо уровень пси-связи со случайной пси-способностью, либо одну из способностей в ячейках вкладки «Псиархив»; в обоих случаях расходуется {1} поросли.\n\nВыберите такого колониста и нажмите правой кнопкой на псиархив.</FB_Psyarchive_LinkReadyText>
+  <FB_Psyarchive_SlotAbilityLetterLabel>Способность из псиархива</FB_Psyarchive_SlotAbilityLetterLabel>
+  <FB_Psyarchive_SlotAbilityLetterText>{0} получает из псиархива способность «{1}».</FB_Psyarchive_SlotAbilityLetterText>
+  <FB_Psyarchive_SlotAbilityLetterLevel>Применить её получится с уровнем пси-связи {0}.</FB_Psyarchive_SlotAbilityLetterLevel>
+  <FB_Psyarchive_AbsorbGrowthLabel>Впитать поросль</FB_Psyarchive_AbsorbGrowthLabel>
+  <FB_Psyarchive_AbsorbGrowthDesc>Псиархив впитывает {0} поросли души и открывает в архиве случайную пси-способность любого уровня, которой там ещё нет.</FB_Psyarchive_AbsorbGrowthDesc>
+  <FB_Psyarchive_AbsorbGrowthRejectLinking>Колонист сейчас связывается с псиархивом.</FB_Psyarchive_AbsorbGrowthRejectLinking>
+  <FB_Psyarchive_AbsorbGrowthDone>{0} впитывает {1} поросли души и открывает в архиве способность «{2}».</FB_Psyarchive_AbsorbGrowthDone>
+  <FB_Psyarchive_DevAddSoulGrowth>DEV: +10 поросли души</FB_Psyarchive_DevAddSoulGrowth>
 
   <FB_Psyphage_StomachInspect>Желудок: {0} / {1} кг, жертв: {2}.</FB_Psyphage_StomachInspect>
   <FB_Psyphage_Swallowed>{0} заглатывает: {1}.</FB_Psyphage_Swallowed>
@@ -66,9 +79,9 @@
   <FB_PsyphageArchive_Donor>От: {0}</FB_PsyphageArchive_Donor>
   <FB_PsyphageArchive_OffshootTitle>Псиотросток</FB_PsyphageArchive_OffshootTitle>
   <FB_PsyphageArchive_OffshootCount>Живых отростков: {0} / {1}</FB_PsyphageArchive_OffshootCount>
-  <FB_PsyphageArchive_SlotEmpty>Пустая ячейка. Нажмите на способность в архиве, чтобы скопировать её сюда.</FB_PsyphageArchive_SlotEmpty>
-  <FB_PsyphageArchive_SlotFilledHint>Нажмите, чтобы убрать из отростка.</FB_PsyphageArchive_SlotFilledHint>
-  <FB_PsyphageArchive_RowAddHint>Нажмите, чтобы скопировать в отросток; повторное нажатие уберёт её.</FB_PsyphageArchive_RowAddHint>
+  <FB_PsyphageArchive_SlotEmpty>Пустая ячейка. Нажмите на способность в архиве, чтобы скопировать её сюда. Способности из ячеек получает псиотросток, а колонист при связывании с псиархивом может получить одну из них.</FB_PsyphageArchive_SlotEmpty>
+  <FB_PsyphageArchive_SlotFilledHint>Нажмите, чтобы убрать из ячеек.</FB_PsyphageArchive_SlotFilledHint>
+  <FB_PsyphageArchive_RowAddHint>Нажмите, чтобы скопировать в ячейки; повторное нажатие уберёт её.</FB_PsyphageArchive_RowAddHint>
   <FB_PsyphageArchive_CreateLabel>Вырастить отросток</FB_PsyphageArchive_CreateLabel>
   <FB_PsyphageArchive_CreateDesc>Вырастить рядом с псифагом псиотросток. Он сможет один раз применить каждую способность из ячеек без пси-связи, пси-концентрации и нейроперегрева, а затем увянет.</FB_PsyphageArchive_CreateDesc>
   <FB_PsyphageArchive_CreateBatchLeft>До перезарядки можно вырастить ещё: {0}.</FB_PsyphageArchive_CreateBatchLeft>

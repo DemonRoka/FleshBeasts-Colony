@@ -41,4 +41,14 @@
 		<playerInterruptible>true</playerInterruptible>
 		<neverShowWeapon>true</neverShowWeapon>
 	</JobDef>
+
+	<!-- Задание: FB_ImprintFromPsyarchive -->
+	<JobDef>
+		<defName>FB_ImprintFromPsyarchive</defName>
+		<driverClass>FB.JobDriver_ImprintFromPsyarchive</driverClass>
+		<reportString>taking in an ability from the psyarchive</reportString>
+		<casualInterruptible>false</casualInterruptible>
+		<playerInterruptible>true</playerInterruptible>
+		<neverShowWeapon>true</neverShowWeapon>
+	</JobDef>
 </Defs>

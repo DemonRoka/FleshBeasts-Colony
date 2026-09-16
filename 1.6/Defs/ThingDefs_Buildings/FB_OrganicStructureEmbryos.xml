@@ -344,7 +344,7 @@
     <defName>FB_GeoferriteGlandEmbryo</defName>
     <label>geoferrite gland embryo</label>
     <description>An immature geyser organ that will grow into a geoferrite gland.</description>
-    <size>(3,3)</size>
+    <size>(4,4)</size>
     <placeWorkers>
       <li>PlaceWorker_OnSteamGeyser</li>
     </placeWorkers>
@@ -361,7 +361,7 @@
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <texPath>Things/Building/FB_Organic/GeoferriteGland/GeoferriteGlandEmbryo</texPath>
-      <drawSize>(3,3)</drawSize>
+      <drawSize>(4,4)</drawSize>
     </graphicData>
   </ThingDef>
   <ThingDef ParentName="EmbryoStructureBase">
@@ -625,6 +625,27 @@
       <graphicClass>Graphic_Single</graphicClass>
       <texPath>Things/Building/FB_Organic/CelestialUmbilicus/CelestialUmbilicusEmbryo</texPath>
       <drawSize>(7,7)</drawSize>
+    </graphicData>
+  </ThingDef>
+  <!-- Постройка: brood matrix embryo (FB_BroodMatrixEmbryo) -->
+  <ThingDef ParentName="EmbryoStructureBase">
+    <defName>FB_BroodMatrixEmbryo</defName>
+    <label>brood matrix embryo</label>
+    <description>An immature brood organ that will grow into a brood matrix.</description>
+    <size>(2,2)</size>
+    <comps>
+      <li Class="FB.CompProperties_EmbryoGrowth">
+        <totalMaturationTicks>8000</totalMaturationTicks>
+        <targetDef>FB_BroodMatrix</targetDef>
+      </li>
+      <li Class="FB.CompProperties_HemogelUpkeep">
+        <hemogelPerHour>0.3</hemogelPerHour>
+      </li>
+    </comps>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/FB_Organic/BroodMatrix/BroodMatrixEmbryo</texPath>
+      <drawSize>(2,2)</drawSize>
     </graphicData>
   </ThingDef>
 </Defs>

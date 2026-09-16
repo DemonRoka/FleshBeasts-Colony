@@ -43,7 +43,7 @@
     <xpath>/Defs/ThingDef[@Name='Fleshmass']/comps</xpath>
     <value>
       <li Class="FB.CompProperties_FleshRegeneration">
-        <ticksPerHeal>2000</ticksPerHeal>
+        <ticksPerHeal>500</ticksPerHeal>
         <requiresHemogel>false</requiresHemogel>
         <onlyPlayerFaction>true</onlyPlayerFaction>
       </li>

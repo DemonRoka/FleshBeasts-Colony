@@ -157,4 +157,20 @@
     </requiredCapacities>
     <canBeDoneByMechs>false</canBeDoneByMechs>
   </WorkGiverDef>
+
+  <!-- Источник работы: carry children and donors to brood matrix (FB_CarryToBroodMatrix) -->
+  <WorkGiverDef>
+    <defName>FB_CarryToBroodMatrix</defName>
+    <label>carry to brood matrix</label>
+    <giverClass>FB.WorkGiver_CarryToBroodMatrix</giverClass>
+    <workType>Hauling</workType>
+    <verb>carry</verb>
+    <gerund>carrying to brood matrix</gerund>
+    <priorityInType>90</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+      <li>Moving</li>
+    </requiredCapacities>
+    <canBeDoneByMechs>false</canBeDoneByMechs>
+  </WorkGiverDef>
 </Defs>

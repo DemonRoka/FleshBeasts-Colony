@@ -12,7 +12,7 @@
           <insertTag>Fleshbeast_PreMain</insertTag>
         </li>
         <li Class="JobGiver_SeekAllowedArea" />
-        <li Class="JobGiver_AIFightEnemies">
+        <li Class="FB.JobGiver_FleshbeastAIFightEnemies">
           <targetAcquireRadius>65</targetAcquireRadius>
           <targetKeepRadius>72</targetKeepRadius>
           <allowTurrets>true</allowTurrets>
@@ -70,7 +70,7 @@
         </li>
         <li Class="FB.JobGiver_ScrapmeldNestlingHaulCorpse" />
         <li Class="JobGiver_SeekAllowedArea" />
-        <li Class="JobGiver_AIFightEnemies">
+        <li Class="FB.JobGiver_FleshbeastAIFightEnemies">
           <targetAcquireRadius>50</targetAcquireRadius>
           <targetKeepRadius>56</targetKeepRadius>
           <allowTurrets>true</allowTurrets>

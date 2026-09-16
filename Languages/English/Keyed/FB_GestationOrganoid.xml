@@ -48,6 +48,11 @@
   <FB_SaveXenotypeButton>Save xenotype</FB_SaveXenotypeButton>
   <FB_XenotypeSaved>Xenotype saved: {0}.</FB_XenotypeSaved>
   <FB_XenotypeSaveNeedsName>The xenotype needs a name before it can be saved.</FB_XenotypeSaveNeedsName>
+  <FB_XenotypeSavePromptTitle>Save xenotype?</FB_XenotypeSavePromptTitle>
+  <FB_XenotypeSavePromptText>Save {0} to your saved xenotypes so it can be loaded again later?</FB_XenotypeSavePromptText>
+  <FB_XenotypeSavePromptOverwrite>A saved xenotype named {0} already exists with a different set of genes. Replace it with this one?</FB_XenotypeSavePromptOverwrite>
+  <FB_XenotypeSavePromptSave>Save</FB_XenotypeSavePromptSave>
+  <FB_XenotypeSavePromptSkip>Don't save</FB_XenotypeSavePromptSkip>
   <FB_XenotypeLoadMissingGenes>The archive has no genepacks for: {0}.</FB_XenotypeLoadMissingGenes>
 
 </LanguageData>

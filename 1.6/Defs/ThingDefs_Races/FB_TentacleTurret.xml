@@ -539,7 +539,7 @@
     <defName>FB_TentacleTurret</defName>
     <thinkRoot Class="FB.ThinkNode_FleshbeastBehaviorPriority">
       <subNodes>
-        <li Class="JobGiver_AIFightEnemies">
+        <li Class="FB.JobGiver_FleshbeastAIFightEnemies">
           <targetAcquireRadius>1.9</targetAcquireRadius>
           <targetKeepRadius>3.0</targetKeepRadius>
           <chaseTarget>false</chaseTarget>

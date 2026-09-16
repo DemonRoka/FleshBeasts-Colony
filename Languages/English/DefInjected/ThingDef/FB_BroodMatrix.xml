@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_BroodMatrix.label>brood matrix</FB_BroodMatrix.label>
+  <FB_BroodMatrix.description>A brood organ that grows up to four children eighty times faster, feeding on hemogel until they turn thirteen. A living donor sealed in its core ages away as its skills, passions, traits and genes are shared out among the children, and without a donor the children stop growing. Only outsiders can serve as donors, never pawns accepted by the flesh colony or grown in the flesh. Starved capsules kill their occupants.</FB_BroodMatrix.description>
+  <FB_BroodMatrixEmbryo.label>brood matrix embryo</FB_BroodMatrixEmbryo.label>
+  <FB_BroodMatrixEmbryo.description>An immature brood organ that will grow into a brood matrix.</FB_BroodMatrixEmbryo.description>
+</LanguageData>

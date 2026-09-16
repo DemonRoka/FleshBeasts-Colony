@@ -427,6 +427,16 @@
             <fleshArchitectCategory>FB_FleshArchitect_Reproduction</fleshArchitectCategory>
           </li>
           <li>
+            <embryoDef>FB_BroodMatrixEmbryo</embryoDef>
+            <label>FB_ColonyBrain_Structure_BroodMatrix_Label</label>
+            <description>FB_ColonyBrain_Structure_BroodMatrix_Desc</description>
+            <texPath>Things/Building/FB_Organic/BroodMatrix/BroodMatrix</texPath>
+            <drawSize>(2,2)</drawSize>
+            <cost>600</cost>
+            <requiredResearch>FB_BroodMatrixCultivation</requiredResearch>
+            <fleshArchitectCategory>FB_FleshArchitect_Reproduction</fleshArchitectCategory>
+          </li>
+          <li>
             <embryoDef>FB_GenophageCocoonEmbryo</embryoDef>
             <label>FB_ColonyBrain_Structure_GenophageCocoon_Label</label>
             <texPath>Things/Building/FB_Organic/GenophageCocoon/GenophageCocoon</texPath>
@@ -610,10 +620,8 @@
       </li>
       <li Class="FB.CompProperties_BrainForcedFleshConversion">
         <requiredResearch>FB_FingerspikeImplantation</requiredResearch>
-        <carrierJobDef>FB_ForcedFleshConversionDoctor</carrierJobDef>
         <fingerspikeJobDef>FB_ForcedFleshConversionFingerspike</fingerspikeJobDef>
-        <!-- Свой колонист идёт к сердцу сам; пальцешипов ему нужно вдвое меньше -->
-        <volunteerJobDef>FB_ForcedFleshConversionVolunteer</volunteerJobDef>
+        <!-- Своим колонистам пальцешипов нужно вдвое меньше -->
         <colonistCostMultiplier>0.5</colonistCostMultiplier>
         <stasisHediff>FB_GraftmawSurgicalStasis</stasisHediff>
         <anesthesiaHediff>Anesthetic</anesthesiaHediff>
@@ -624,9 +632,6 @@
         <commandIconPath>UI/Commands/ForcedFleshConversion</commandIconPath>
         <marketValuePerFingerspike>300</marketValuePerFingerspike>
         <treatmentQuality>0.8</treatmentQuality>
-        <anchorSearchRadius>9</anchorSearchRadius>
-        <anchorMinDistanceFromHeart>2</anchorMinDistanceFromHeart>
-        <anchorPreferredDistanceFromHeart>3</anchorPreferredDistanceFromHeart>
       </li>
       <li Class="FB.CompProperties_FleshColonyMemoryBrain">
         <requiredResearch>FB_ColonyMemoryArchive</requiredResearch>

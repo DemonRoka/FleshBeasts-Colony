@@ -145,7 +145,7 @@
   <WorldObjectDef>
     <defName>FB_FleshTunnelNexus</defName>
     <label>tunnel nexus</label>
-    <description>An abstract planetary organ that grows a second flesh tunnel maw on a distant world tile. Caravans standing on either maw can be swallowed and spat out at the other end far faster than they could walk, and flesh war parties reroute through the tunnel whenever it saves them time. Collapsing the tunnel leaves the nexus itself intact.</description>
+    <description>An abstract planetary organ that grows a second flesh tunnel maw on a distant world tile. Caravans standing on either maw are swallowed and spat out at the other end instantly, however far apart the maws are, and flesh war parties reroute through the tunnel whenever it saves them time. Collapsing the tunnel leaves the nexus itself intact.</description>
     <worldObjectClass>FB.WorldObject_FleshTunnelNexus</worldObjectClass>
     <canHaveFaction>true</canHaveFaction>
     <canHaveMap>false</canHaveMap>
@@ -166,8 +166,6 @@
         <tunnelMinimumGrowCost>12000</tunnelMinimumGrowCost>
         <tunnelGrowTicksPerWorldTile>1200</tunnelGrowTicksPerWorldTile>
         <tunnelMinimumGrowTicks>5000</tunnelMinimumGrowTicks>
-        <tunnelTransitTicksPerWorldTile>800</tunnelTransitTicksPerWorldTile>
-        <tunnelMinimumTransitTicks>2500</tunnelMinimumTransitTicks>
         <tunnelMouthDef>FB_FleshTunnelMouth</tunnelMouthDef>
       </li>
     </modExtensions>

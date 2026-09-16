@@ -11,5 +11,5 @@
   <FB_FleshCrustCorer.label>crust corer</FB_FleshCrustCorer.label>
   <FB_FleshCrustCorer.description>A planetary drilling organ. It grinds the biomass of its covered tile into mined ore, exhausting that tile far faster than passive extraction and yielding less as the tile dies. Hills and mountains push its output towards rarer ores.</FB_FleshCrustCorer.description>
   <FB_FleshTunnelNexus.label>tunnel nexus</FB_FleshTunnelNexus.label>
-  <FB_FleshTunnelNexus.description>A planetary organ that grows a second flesh tunnel maw on a distant world tile. Caravans standing on either maw can be swallowed and spat out at the other end far faster than they could walk, and flesh war parties reroute through the tunnel whenever it saves them time. Collapsing the tunnel leaves the nexus itself intact.</FB_FleshTunnelNexus.description>
+  <FB_FleshTunnelNexus.description>A planetary organ that grows a second flesh tunnel maw on a distant world tile. Caravans standing on either maw are swallowed and spat out at the other end instantly, however far apart the maws are, and flesh war parties reroute through the tunnel whenever it saves them time. Collapsing the tunnel leaves the nexus itself intact.</FB_FleshTunnelNexus.description>
 </LanguageData>

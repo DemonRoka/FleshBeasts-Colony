@@ -5,4 +5,5 @@
   <FB_CarryToPsyarchive.reportString>несёт TargetB в TargetA.</FB_CarryToPsyarchive.reportString>
   <FB_CarryItemToPsyarchive.reportString>несёт TargetB в TargetA.</FB_CarryItemToPsyarchive.reportString>
   <FB_LinkWithPsyarchive.reportString>связывается с псиархивом</FB_LinkWithPsyarchive.reportString>
+  <FB_ImprintFromPsyarchive.reportString>принимает способность из псиархива</FB_ImprintFromPsyarchive.reportString>
 </LanguageData>

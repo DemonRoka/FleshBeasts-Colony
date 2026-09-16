@@ -8,6 +8,18 @@
   <FB_OutpostBillWaitingHemogel>Waiting for hemogel</FB_OutpostBillWaitingHemogel>
   <FB_OutpostBillGrowing>Growing: {0} left</FB_OutpostBillGrowing>
   <FB_OutpostBillStockReached>Stock is already {0} - growing is paused</FB_OutpostBillStockReached>
+  <FB_OutpostBillPausedUntil>Paused until the stock drops to {0}</FB_OutpostBillPausedUntil>
+  <FB_OutpostRemoveBeastsButton>Remove beasts...</FB_OutpostRemoveBeastsButton>
+  <FB_OutpostRemoveBeastsButtonDesc>Pick how many beasts of each kind to remove from this outpost's stock. Each removed beast returns {0} of its growing cost to the network reserve.</FB_OutpostRemoveBeastsButtonDesc>
+  <FB_OutpostRemoveBeastsTitle>Remove beasts from the outpost stock</FB_OutpostRemoveBeastsTitle>
+  <FB_OutpostRemoveBeastsInfoCount>To remove</FB_OutpostRemoveBeastsInfoCount>
+  <FB_OutpostRemoveBeastsInfoCountTip>How many beasts will be removed from the stock.</FB_OutpostRemoveBeastsInfoCountTip>
+  <FB_OutpostRemoveBeastsInfoRefund>Refund</FB_OutpostRemoveBeastsInfoRefund>
+  <FB_OutpostRemoveBeastsInfoRefundTip>Hemogel returned to the network reserve: {0} of the growing cost of every removed beast.</FB_OutpostRemoveBeastsInfoRefundTip>
+  <FB_OutpostRemoveBeastsRefundEachTip>Hemogel returned for one beast of this kind.</FB_OutpostRemoveBeastsRefundEachTip>
+  <FB_OutpostRemoveBeastsNothing>Mark at least one beast to remove.</FB_OutpostRemoveBeastsNothing>
+  <FB_OutpostRemoveBeastsConfirm>Remove {0} beast(s) from the outpost stock? {1} hemogel returns to the network reserve.</FB_OutpostRemoveBeastsConfirm>
+  <FB_OutpostRemoveBeastsDone>Removed {0} beast(s) from the outpost stock. {1} hemogel returned to the network reserve.</FB_OutpostRemoveBeastsDone>
   <FB_FleshGarrisonCardTooltip>{0}\nIn stock: {1}\nAssault strength each: {2}</FB_FleshGarrisonCardTooltip>
   <FB_FleshAssaultDeployTitle>Send a pack against {0}</FB_FleshAssaultDeployTitle>
   <FB_FleshAssaultDeployCategory>Fleshbeasts</FB_FleshAssaultDeployCategory>

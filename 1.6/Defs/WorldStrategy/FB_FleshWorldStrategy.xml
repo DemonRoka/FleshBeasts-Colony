@@ -20,6 +20,9 @@
     <supplyCaravanAutoIntervalTicks>30000</supplyCaravanAutoIntervalTicks>
     <supplyCaravanMaxCarriers>24</supplyCaravanMaxCarriers>
 
+    <!-- Удаление тварей из запаса аванпоста: доля цены выращивания, которая возвращается в резерв сети -->
+    <outpostBeastRemovalRefundFraction>0.5</outpostBeastRemovalRefundFraction>
+
     <assaultStrengthPerCombatPower>1</assaultStrengthPerCombatPower>
     <assaultDefenderPoints>1375</assaultDefenderPoints>
     <assaultRelationMinFactor>1</assaultRelationMinFactor>

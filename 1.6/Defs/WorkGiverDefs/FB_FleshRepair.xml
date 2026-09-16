@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Источник работы: regenerate flesh organoids (FB_FleshRepair) -->
+  <WorkGiverDef>
+    <defName>FB_FleshRepair</defName>
+    <label>regenerate flesh organoids</label>
+    <giverClass>FB.WorkGiver_FleshRepair</giverClass>
+    <workType>Construction</workType>
+    <verb>regenerate</verb>
+    <gerund>regenerating</gerund>
+    <priorityInType>120</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <canBeDoneByMechs>false</canBeDoneByMechs>
+  </WorkGiverDef>
+</Defs>

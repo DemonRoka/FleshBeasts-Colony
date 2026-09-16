@@ -199,4 +199,55 @@
     </comps>
   </ThingDef>
 
+  <!-- Постройка: brood matrix (FB_BroodMatrix) -->
+  <ThingDef ParentName="BuildingColonyFleshBase">
+    <defName>FB_BroodMatrix</defName>
+    <label>brood matrix</label>
+    <description>A brood organ that grows up to four children eighty times faster, feeding on hemogel until they turn thirteen. A living donor sealed in its core ages away as its skills, passions, traits and genes are shared out among the children, and without a donor the children stop growing. Only outsiders can serve as donors, never pawns accepted by the flesh colony or grown in the flesh. Starved capsules kill their occupants.</description>
+    <thingClass>FB.Building_FleshBroodMatrix</thingClass>
+    <containedPawnsSelectable>true</containedPawnsSelectable>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <tickerType>Normal</tickerType>
+    <size>(2,2)</size>
+    <multipleInteractionCellOffsets>
+      <li>(0,0,-1)</li>
+      <li>(1,0,2)</li>
+      <li>(-1,0,1)</li>
+      <li>(2,0,0)</li>
+    </multipleInteractionCellOffsets>
+    <statBases>
+      <MaxHitPoints>320</MaxHitPoints>
+      <Beauty>-20</Beauty>
+      <Mass>20</Mass>
+    </statBases>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/FB_Organic/BroodMatrix/BroodMatrix</texPath>
+      <drawSize>(2.5,2.5)</drawSize>
+    </graphicData>
+    <uiIconPath>Things/Building/FB_Organic/BroodMatrix/BroodMatrix</uiIconPath>
+    <inspectorTabs>
+      <li>FB.ITab_BroodMatrixInheritance</li>
+    </inspectorTabs>
+    <researchPrerequisites>
+      <li>FB_BroodMatrixCultivation</li>
+    </researchPrerequisites>
+    <modExtensions>
+      <li Class="FB.BroodMatrixExtension">
+        <maxOccupantAgeYears>13</maxOccupantAgeYears>
+        <ageTicksPerTick>80</ageTicksPerTick>
+        <hemogelPerCapsulePerHour>0.4</hemogelPerCapsulePerHour>
+        <hemogelPerDonorPerHour>0.3</hemogelPerDonorPerHour>
+        <hemogelBufferHours>12</hemogelBufferHours>
+        <childYearsPerDonor>6.5</childYearsPerDonor>
+        <headDrawScale>0.8</headDrawScale>
+      </li>
+    </modExtensions>
+    <comps>
+      <li Class="FB.CompProperties_HemogelUpkeep">
+        <hemogelPerHour>0.3</hemogelPerHour>
+      </li>
+    </comps>
+  </ThingDef>
+
 </Defs>

@@ -24,14 +24,27 @@
   <FB_Psyarchive_UprootWithersGrowth>The anima growth around it ({0}) will wither.</FB_Psyarchive_UprootWithersGrowth>
   <FB_Psyarchive_FocusSoulTree>Absorbed anima tree</FB_Psyarchive_FocusSoulTree>
   <FB_Psyarchive_LinkLabel>Link with psyarchive</FB_Psyarchive_LinkLabel>
+  <FB_Psyarchive_LinkPsylinkLabel>Link with psyarchive: psylink level and a random psycast</FB_Psyarchive_LinkPsylinkLabel>
+  <FB_Psyarchive_LinkSlotLabel>Link with psyarchive: ability from the slots</FB_Psyarchive_LinkSlotLabel>
   <FB_Psyarchive_LinkRejectNotAccepted>only pawns accepted by the flesh colony</FB_Psyarchive_LinkRejectNotAccepted>
+  <FB_Psyarchive_LinkRejectMaxLevel>already at maximum psylink level</FB_Psyarchive_LinkRejectMaxLevel>
+  <FB_Psyarchive_LinkRejectGrowth>needs {0} anima growth, has {1}</FB_Psyarchive_LinkRejectGrowth>
   <FB_Psyarchive_LinkRejectChild>adults only</FB_Psyarchive_LinkRejectChild>
   <FB_Psyarchive_LinkRejectInsensitive>not psychically sensitive</FB_Psyarchive_LinkRejectInsensitive>
   <FB_Psyarchive_LinkRejectNoSpot>no free spot next to the psyarchive</FB_Psyarchive_LinkRejectNoSpot>
+  <FB_Psyarchive_LinkRejectSlotsEmpty>the Psyarchive tab slots are empty</FB_Psyarchive_LinkRejectSlotsEmpty>
+  <FB_Psyarchive_LinkRejectSlotsKnown>already knows every ability in the slots</FB_Psyarchive_LinkRejectSlotsKnown>
   <FB_Psyarchive_LinkReportLeft>{0} left</FB_Psyarchive_LinkReportLeft>
   <FB_Psyarchive_LinkReadyLabel>Psyarchive linking ready</FB_Psyarchive_LinkReadyLabel>
-  <FB_Psyarchive_LinkReadyText>{0} anima growth has grown around a psyarchive, enough for a colonist accepted by the flesh colony to link with it: they meditate next to it for {2}, gain a psylink level and use up {1} growth.\n\nSelect such a colonist and right-click the psyarchive to begin.</FB_Psyarchive_LinkReadyText>
-  <FB_Psyarchive_DevAddSoulGrowth>DEV: +1 anima growth</FB_Psyarchive_DevAddSoulGrowth>
+  <FB_Psyarchive_LinkReadyText>{0} anima growth has grown around a psyarchive, enough for a colonist accepted by the flesh colony to link with it. The meditation next to it takes {2}, after which the colonist either gains a psylink level with a random psycast or learns one of the abilities in the Psyarchive tab slots; either way {1} growth is used up.\n\nSelect such a colonist and right-click the psyarchive to choose.</FB_Psyarchive_LinkReadyText>
+  <FB_Psyarchive_SlotAbilityLetterLabel>Ability from the psyarchive</FB_Psyarchive_SlotAbilityLetterLabel>
+  <FB_Psyarchive_SlotAbilityLetterText>{0} learned {1} from the psyarchive.</FB_Psyarchive_SlotAbilityLetterText>
+  <FB_Psyarchive_SlotAbilityLetterLevel>It can be cast once their psylink reaches level {0}.</FB_Psyarchive_SlotAbilityLetterLevel>
+  <FB_Psyarchive_AbsorbGrowthLabel>Absorb growth</FB_Psyarchive_AbsorbGrowthLabel>
+  <FB_Psyarchive_AbsorbGrowthDesc>The psyarchive absorbs {0} anima growth and discovers a random psycast of any level that its archive does not hold yet.</FB_Psyarchive_AbsorbGrowthDesc>
+  <FB_Psyarchive_AbsorbGrowthRejectLinking>A colonist is linking with the psyarchive right now.</FB_Psyarchive_AbsorbGrowthRejectLinking>
+  <FB_Psyarchive_AbsorbGrowthDone>{0} absorbed {1} anima growth and discovered {2} for its archive.</FB_Psyarchive_AbsorbGrowthDone>
+  <FB_Psyarchive_DevAddSoulGrowth>DEV: +10 anima growth</FB_Psyarchive_DevAddSoulGrowth>
 
   <FB_Psyphage_StomachInspect>Stomach: {0} / {1} kg, victims: {2}.</FB_Psyphage_StomachInspect>
   <FB_Psyphage_Swallowed>{0} swallowed {1}.</FB_Psyphage_Swallowed>
@@ -66,9 +79,9 @@
   <FB_PsyphageArchive_Donor>From {0}</FB_PsyphageArchive_Donor>
   <FB_PsyphageArchive_OffshootTitle>Psyoffshoot</FB_PsyphageArchive_OffshootTitle>
   <FB_PsyphageArchive_OffshootCount>Offshoots alive: {0} / {1}</FB_PsyphageArchive_OffshootCount>
-  <FB_PsyphageArchive_SlotEmpty>Empty slot. Click an ability in the archive to copy it here.</FB_PsyphageArchive_SlotEmpty>
-  <FB_PsyphageArchive_SlotFilledHint>Click to remove it from the offshoot.</FB_PsyphageArchive_SlotFilledHint>
-  <FB_PsyphageArchive_RowAddHint>Click to copy it into the offshoot, click again to remove it.</FB_PsyphageArchive_RowAddHint>
+  <FB_PsyphageArchive_SlotEmpty>Empty slot. Click an ability in the archive to copy it here. A psyoffshoot grows with the abilities in the slots, and a colonist linking with the psyarchive can learn one of them.</FB_PsyphageArchive_SlotEmpty>
+  <FB_PsyphageArchive_SlotFilledHint>Click to remove it from the slots.</FB_PsyphageArchive_SlotFilledHint>
+  <FB_PsyphageArchive_RowAddHint>Click to copy it into the slots, click again to remove it.</FB_PsyphageArchive_RowAddHint>
   <FB_PsyphageArchive_CreateLabel>Grow offshoot</FB_PsyphageArchive_CreateLabel>
   <FB_PsyphageArchive_CreateDesc>Grow a psyoffshoot next to the psyphage. It can cast each ability in the slots once without psylink, psyfocus or neural heat, then withers.</FB_PsyphageArchive_CreateDesc>
   <FB_PsyphageArchive_CreateBatchLeft>Offshoots left before the cooldown: {0}.</FB_PsyphageArchive_CreateBatchLeft>

@@ -112,7 +112,7 @@
           <urgency>Sprint</urgency>
           <jobExpiryInterval>250</jobExpiryInterval>
         </li>
-        <li Class="JobGiver_AIFightEnemies">
+        <li Class="FB.JobGiver_FleshbeastAIFightEnemies">
           <targetAcquireRadius>10</targetAcquireRadius>
           <targetKeepRadius>12</targetKeepRadius>
         </li>

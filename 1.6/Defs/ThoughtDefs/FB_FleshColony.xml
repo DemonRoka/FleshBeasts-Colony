@@ -70,6 +70,7 @@
     </nullifyingTraits>
     <nullifyingHediffs>
       <li>FB_AcceptanceOfFleshColony</li>
+      <li>FB_Fleshgrown</li>
     </nullifyingHediffs>
     <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
     <stages>
@@ -163,6 +164,7 @@
     <durationDays>1</durationDays>
     <nullifyingHediffs>
       <li>FB_AcceptanceOfFleshColony</li>
+      <li>FB_Fleshgrown</li>
     </nullifyingHediffs>
     <stages>
       <li>

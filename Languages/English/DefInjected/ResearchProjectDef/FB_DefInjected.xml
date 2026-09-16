@@ -124,14 +124,14 @@
   <FB_GeoferriteGlands.generalRules.rulesStrings.3>subject_gerund-&gt;growing geoferrite glands</FB_GeoferriteGlands.generalRules.rulesStrings.3>
   <FB_GeoferriteGlands.label>geoferrite glands</FB_GeoferriteGlands.label>
   <FB_FingerspikeImplantation.label>fingerspike implantation</FB_FingerspikeImplantation.label>
-  <FB_FingerspikeImplantation.customUnlockTexts.0>Colony Brain and flesh moon nerve node: Force flesh acceptance</FB_FingerspikeImplantation.customUnlockTexts.0>
+  <FB_FingerspikeImplantation.customUnlockTexts.0>Colony Brain: Force flesh acceptance</FB_FingerspikeImplantation.customUnlockTexts.0>
   <FB_FingerspikeImplantation.description>Teach the colony to implant fingerspikes into living bodies, forcibly accepting new members into the flesh colony.</FB_FingerspikeImplantation.description>
   <FB_FingerspikeImplantation.generalRules.rulesStrings.0>subject-&gt;fingerspike implantation</FB_FingerspikeImplantation.generalRules.rulesStrings.0>
   <FB_FingerspikeImplantation.generalRules.rulesStrings.1>subject_story-&gt;learned to bind living minds through fingerspikes</FB_FingerspikeImplantation.generalRules.rulesStrings.1>
   <FB_FingerspikeImplantation.generalRules.rulesStrings.2>subject_story-&gt;adapted fingerspikes for controlled implantation</FB_FingerspikeImplantation.generalRules.rulesStrings.2>
   <FB_FingerspikeImplantation.generalRules.rulesStrings.3>subject_gerund-&gt;implanting fingerspikes</FB_FingerspikeImplantation.generalRules.rulesStrings.3>
   <FB_FleshThrallReanimation.label>flesh thrall reanimation</FB_FleshThrallReanimation.label>
-  <FB_FleshThrallReanimation.customUnlockTexts.0>Colony Brain and flesh moon nerve node: Create flesh thrall, Restore thrall</FB_FleshThrallReanimation.customUnlockTexts.0>
+  <FB_FleshThrallReanimation.customUnlockTexts.0>Colony Brain: Create flesh thrall, Restore thrall</FB_FleshThrallReanimation.customUnlockTexts.0>
   <FB_FleshThrallReanimation.description>Teach the colony brain to rebuild a body around fingerspikes and raise it as a controllable flesh thrall.</FB_FleshThrallReanimation.description>
   <FB_FleshThrallReanimation.generalRules.rulesStrings.0>subject-&gt;flesh thrall reanimation</FB_FleshThrallReanimation.generalRules.rulesStrings.0>
   <FB_FleshThrallReanimation.generalRules.rulesStrings.1>subject_story-&gt;raised obedient servants through unstable flesh</FB_FleshThrallReanimation.generalRules.rulesStrings.1>

@@ -97,10 +97,46 @@ Next ambush check: {1}</FB_FleshAmbushCampInspect>
   <FB_DevNetworkHemogelDrained>Dev: {0} hemogel was drained from the network.</FB_DevNetworkHemogelDrained>
   <FB_FleshAmbushCampSendToMoon>To Moon</FB_FleshAmbushCampSendToMoon>
   <FB_FleshAmbushCampDeleteConfirm>Delete {0} from this camp storage?</FB_FleshAmbushCampDeleteConfirm>
+  <FB_WorldStorageSortButton>Sort: {0}</FB_WorldStorageSortButton>
+  <FB_WorldStorageSortCategory>by category</FB_WorldStorageSortCategory>
+  <FB_WorldStorageSortName>by name</FB_WorldStorageSortName>
+  <FB_WorldStorageSortValue>by value</FB_WorldStorageSortValue>
+  <FB_WorldStorageSortMass>by mass</FB_WorldStorageSortMass>
+  <FB_WorldStorageSortHemogel>by hemogel</FB_WorldStorageSortHemogel>
+  <FB_WorldStorageCollapseAll>Collapse all groups.</FB_WorldStorageCollapseAll>
+  <FB_WorldStorageExpandAll>Expand all groups.</FB_WorldStorageExpandAll>
+  <FB_WorldStorageOtherGroup>Other</FB_WorldStorageOtherGroup>
+  <FB_WorldStorageCounts>Selected: {0} of {1}</FB_WorldStorageCounts>
+  <FB_WorldStorageCountsFiltered>Selected: {0} · found {1} of {2}</FB_WorldStorageCountsFiltered>
+  <FB_WorldStorageSelectionTotals>Selected mass: {0}
+Selected value: {1}
+Digestion yield: {2} hemogel</FB_WorldStorageSelectionTotals>
+  <FB_WorldStorageNoMatches>No stored items match the search.</FB_WorldStorageNoMatches>
+  <FB_WorldStorageRowHint>Click selects the item; Shift+click selects the range from the previous selection. Checkboxes can be ticked by dragging the mouse.</FB_WorldStorageRowHint>
+  <FB_WorldStorageShiftSkipsConfirm>Shift+click skips the confirmation.</FB_WorldStorageShiftSkipsConfirm>
+  <FB_WorldStorageHemogelYield>Digestion yield: {0} hemogel</FB_WorldStorageHemogelYield>
+  <FB_WorldStorageSendSelected>Send ({0})</FB_WorldStorageSendSelected>
+  <FB_WorldStorageSendSelectedDesc>Send the selected items up the umbilicus to the Moon, or by supply caravan to another flesh outpost.</FB_WorldStorageSendSelectedDesc>
+  <FB_WorldStorageSendAlongRoute>Along the delivery route: {0}</FB_WorldStorageSendAlongRoute>
+  <FB_WorldStorageSendToOutpost>To another outpost...</FB_WorldStorageSendToOutpost>
+  <FB_WorldStorageSentToMoon>Items sent to the Moon: {0}.</FB_WorldStorageSentToMoon>
+  <FB_WorldStorageDigestSelected>Digest ({0})</FB_WorldStorageDigestSelected>
+  <FB_WorldStorageDigestSelectedDesc>Digest the selected items that contain nutrition right in storage. The hemogel goes straight into the network's shared reserve at {0} per point of nutrition, the same yield as a Colony Stomach. Items without nutrition are left alone, and gear from corpses stays in storage.</FB_WorldStorageDigestSelectedDesc>
+  <FB_WorldStorageDigestSelectedStats>Items to digest: {0} (+{1} hemogel)
+Free reserve space: {2}</FB_WorldStorageDigestSelectedStats>
+  <FB_WorldStorageDigestConfirm>Digest the selected items ({0})? Up to {1} hemogel goes into the network reserve, and the items are gone for good.</FB_WorldStorageDigestConfirm>
+  <FB_WorldStorageDigested>Items digested: {0}. {1} hemogel went into the network reserve.</FB_WorldStorageDigested>
+  <FB_WorldStorageDigestReserveFull>The network reserve ran out of room: some of the selected items stayed in storage.</FB_WorldStorageDigestReserveFull>
+  <FB_WorldStorageDigestNoRoom>The network reserve has no room for more hemogel.</FB_WorldStorageDigestNoRoom>
+  <FB_WorldStorageDigestNoNetwork>This storage is not connected to a hemogel network.</FB_WorldStorageDigestNoNetwork>
+  <FB_WorldStorageDeleteSelected>Delete ({0})</FB_WorldStorageDeleteSelected>
+  <FB_WorldStorageDeleteSelectedDesc>Destroy all selected items. They cannot be recovered.</FB_WorldStorageDeleteSelectedDesc>
+  <FB_WorldStorageDeleteSelectedConfirm>Delete the selected items ({0}) from storage? They are lost for good.</FB_WorldStorageDeleteSelectedConfirm>
   <FB_PlanetaryNetworkAttackSettlement>Attack settlement</FB_PlanetaryNetworkAttackSettlement>
-  <FB_PlanetaryNetworkAttackSettlementDesc>Form a flesh assault party using hemogel from the connected network and send it to a hostile humanlike settlement. On arrival, the battle is resolved automatically without a tactical map.</FB_PlanetaryNetworkAttackSettlementDesc>
+  <FB_PlanetaryNetworkAttackSettlementDesc>Form a flesh assault party using hemogel from the connected network and send it to a humanlike settlement. Attacking a non-hostile faction makes it hostile; on arrival you can fight the battle yourself or let the pack resolve it.</FB_PlanetaryNetworkAttackSettlementDesc>
   <FB_PlanetaryNetworkAssaultRequiresHostileSettlement>Choose an unloaded humanlike settlement without active quest links.</FB_PlanetaryNetworkAssaultRequiresHostileSettlement>
   <FB_PlanetaryNetworkAssaultSettlementQuestLinked>This settlement is tied to an active quest and cannot be assaulted.</FB_PlanetaryNetworkAssaultSettlementQuestLinked>
+  <FB_PlanetaryNetworkAssaultRelationsLocked>Relations with {0} cannot be worsened right now, so they cannot be attacked.</FB_PlanetaryNetworkAssaultRelationsLocked>
   <FB_PlanetaryNetworkAssaultSettlementLoaded>This settlement's map is loaded. Assaults only work on unloaded settlements.</FB_PlanetaryNetworkAssaultSettlementLoaded>
   <FB_PlanetaryNetworkAssaultTargetTooltip>{0}
 Difficulty: {1}</FB_PlanetaryNetworkAssaultTargetTooltip>
@@ -118,38 +154,57 @@ Beasts: {1}   Cargo: {2} stack(s), {3} / {4} kg</FB_FleshAssaultInspectCarrying>
   <FB_FleshAssaultInvalidTargetLabel>Flesh assault aborted</FB_FleshAssaultInvalidTargetLabel>
   <FB_FleshAssaultInvalidTargetText>The target at world tile {0} is no longer a valid hostile settlement. The assault party is returning.</FB_FleshAssaultInvalidTargetText>
   <FB_FleshSupplyCaravanCommand>Send supply caravan</FB_FleshSupplyCaravanCommand>
-  <FB_FleshSupplyCaravanCommandDesc>Grow enough fingerspikes, trispikes and bulbfreaks to carry all of the camp's loot, then send them to the selected flesh outpost. Right-click the button to toggle automatic dispatch: every {0}, the camp sends its loot to the nearest outpost connected to it by veins.</FB_FleshSupplyCaravanCommandDesc>
+  <FB_FleshSupplyCaravanCommandDesc>Grow enough fingerspikes, trispikes and bulbfreaks to carry all of the camp's loot, then send them to the selected flesh outpost. Right-click the button to toggle automatic dispatch: every {0}, the camp sends its loot along its delivery route, or to the nearest outpost connected to it by veins if no route is set.</FB_FleshSupplyCaravanCommandDesc>
+  <FB_FleshOutpostCaravanCommandDesc>Grow enough fingerspikes, trispikes and bulbfreaks to carry this outpost's storage, then send them to another flesh outpost. Right-click the button to toggle automatic forwarding: every {0}, the storage travels along the delivery route. Forwarding does nothing without a route.</FB_FleshOutpostCaravanCommandDesc>
   <FB_FleshSupplyCaravanAutoState>Automatic supply caravans: {0}.</FB_FleshSupplyCaravanAutoState>
-  <FB_FleshSupplyCaravanNoCargo>This camp has no stored loot to carry.</FB_FleshSupplyCaravanNoCargo>
+  <FB_FleshSupplyCaravanNoCargo>There is no stored cargo to carry.</FB_FleshSupplyCaravanNoCargo>
   <FB_FleshSupplyCaravanNoCarriers>No fleshbeast carriers are available.</FB_FleshSupplyCaravanNoCarriers>
   <FB_FleshSupplyCaravanNoOutpost>No flesh outpost is connected to this camp, so the loot stays in its storage.</FB_FleshSupplyCaravanNoOutpost>
   <FB_FleshSupplyCaravanRequiresOutpost>Choose one of your flesh outposts as the delivery target.</FB_FleshSupplyCaravanRequiresOutpost>
   <FB_FleshSupplyCaravanTargetTooltip>Deliver to {0}
 Cargo: {1} kg</FB_FleshSupplyCaravanTargetTooltip>
-  <FB_FleshSupplyCaravanLaunched>A supply caravan of {0} beast(s) left the camp with {1} stack(s) of loot for {2}.</FB_FleshSupplyCaravanLaunched>
+  <FB_FleshSupplyCaravanLaunched>A supply caravan of {0} beast(s) set out with {1} stack(s) of cargo for {2}.</FB_FleshSupplyCaravanLaunched>
   <FB_FleshSupplyCaravanArrived>A supply caravan delivered {0} stack(s) of loot to {2}. Its {1} carrier(s) dissolved into the outpost.</FB_FleshSupplyCaravanArrived>
-  <FB_FleshSupplyCaravanReturned>The supply caravan came back and unloaded {0} stack(s) into the camp storage.</FB_FleshSupplyCaravanReturned>
-  <FB_FleshSupplyCaravanRerouted>The supply caravan lost its destination and is hauling the loot back to the camp on tile {0}.</FB_FleshSupplyCaravanRerouted>
+  <FB_FleshSupplyCaravanReturned>The supply caravan came back and unloaded {0} stack(s) into the storage it left from.</FB_FleshSupplyCaravanReturned>
+  <FB_FleshSupplyCaravanRerouted>The supply caravan lost its destination and is hauling the cargo back to tile {0}.</FB_FleshSupplyCaravanRerouted>
   <FB_FleshSupplyCaravanLost>A supply caravan had nowhere to unload and {0} stack(s) of loot were lost.</FB_FleshSupplyCaravanLost>
   <FB_FleshSupplyCaravanInspect>Hauling loot to tile {0}
 Beasts: {1}   Cargo: {2} stack(s), {3} / {4} kg</FB_FleshSupplyCaravanInspect>
-  <FB_FleshSupplyCaravanInspectReturning>Returning to the camp on tile {0}
+  <FB_FleshSupplyCaravanInspectReturning>Returning to tile {0}
 Beasts: {1}   Cargo: {2} stack(s), {3} / {4} kg</FB_FleshSupplyCaravanInspectReturning>
   <FB_FleshSupplyCaravanCargoHeader>Carriers: {0}   Cargo: {1} stack(s), {2} / {3} kg</FB_FleshSupplyCaravanCargoHeader>
   <FB_FleshAmbushCampDispatchInspect>Next supply caravan: {0}</FB_FleshAmbushCampDispatchInspect>
   <FB_FleshAmbushCampDispatchManual>Supply caravans: manual only</FB_FleshAmbushCampDispatchManual>
+  <FB_FleshSupplyRouteCommand>Delivery route</FB_FleshSupplyRouteCommand>
+  <FB_FleshSupplyRouteCommandDescCamp>Choose the flesh outpost that receives this camp's automatic supply caravans. Current route: {0}.
+
+Click the camp itself to reset the route to the nearest outpost connected by veins.</FB_FleshSupplyRouteCommandDescCamp>
+  <FB_FleshSupplyRouteCommandDescOutpost>Choose the flesh outpost this outpost forwards its storage to. Automatic forwarding is toggled with a right-click on the supply caravan button. Current route: {0}.
+
+Click this outpost itself to clear the route.</FB_FleshSupplyRouteCommandDescOutpost>
+  <FB_FleshSupplyRouteNearest>nearest connected outpost</FB_FleshSupplyRouteNearest>
+  <FB_FleshSupplyRouteNone>not set</FB_FleshSupplyRouteNone>
+  <FB_FleshSupplyRouteInspect>Delivery route: {0}</FB_FleshSupplyRouteInspect>
+  <FB_FleshSupplyRouteTargetTooltip>Delivery route to {0}</FB_FleshSupplyRouteTargetTooltip>
+  <FB_FleshSupplyRouteResetTooltip>Reset the route to the nearest connected outpost</FB_FleshSupplyRouteResetTooltip>
+  <FB_FleshSupplyRouteClearTooltip>Clear the delivery route</FB_FleshSupplyRouteClearTooltip>
+  <FB_FleshSupplyRouteSet>Delivery route set: {0} → {1}.</FB_FleshSupplyRouteSet>
+  <FB_FleshSupplyRouteReset>{0} sends its supply caravans to the nearest connected outpost again.</FB_FleshSupplyRouteReset>
+  <FB_FleshSupplyRouteCleared>The delivery route of {0} was cleared, and automatic forwarding is off.</FB_FleshSupplyRouteCleared>
+  <FB_FleshSupplyRouteSelf>Choose a different outpost.</FB_FleshSupplyRouteSelf>
+  <FB_FleshSupplyRouteLoop>This route would close a loop, and the cargo would circle forever.</FB_FleshSupplyRouteLoop>
+  <FB_FleshSupplyRouteMissing>Set a delivery route for this outpost first.</FB_FleshSupplyRouteMissing>
   <FB_FleshCrustCorerInspect>Stored stacks: {0}
 Tile nutrition: {1}%
 Next ore portion: {2}%</FB_FleshCrustCorerInspect>
   <FB_FleshCrustCorerDepleted>{0} on tile {1} has drained its tile dry and stopped producing ore. Absorb it and grow a new one on a living tile.</FB_FleshCrustCorerDepleted>
   <FB_FleshTunnelWorldGrowLabel>Grow tunnel maw</FB_FleshTunnelWorldGrowLabel>
-  <FB_FleshTunnelWorldGrowDesc>Pick a world tile and grow the far maw of this tunnel into it. Cost: {0} hemogel per tile of distance, paid from this network. While the tunnel stands, caravans can cross it and flesh war parties reroute through it whenever that is faster.</FB_FleshTunnelWorldGrowDesc>
+  <FB_FleshTunnelWorldGrowDesc>Pick a world tile and grow the far maw of this tunnel into it. Cost: {0} hemogel per tile of distance, paid from this network. While the tunnel stands, caravans cross it instantly and flesh war parties reroute through it whenever that is faster.</FB_FleshTunnelWorldGrowDesc>
   <FB_FleshTunnelWorldTargetTooltip>Distance: {0} tiles
 Cost: {1} hemogel
-Growth: {2}
-Crossing: {3}</FB_FleshTunnelWorldTargetTooltip>
+Growth: {2}</FB_FleshTunnelWorldTargetTooltip>
   <FB_FleshTunnelWorldGrowStarted>The nexus started boring towards world tile {0}. It will break through in {1}.</FB_FleshTunnelWorldGrowStarted>
-  <FB_FleshTunnelWorldGrown>A flesh tunnel maw broke through on world tile {0}. Crossing takes {1}.</FB_FleshTunnelWorldGrown>
+  <FB_FleshTunnelWorldGrown>A flesh tunnel maw broke through on world tile {0}. Crossing the tunnel is instant.</FB_FleshTunnelWorldGrown>
   <FB_FleshTunnelWorldGrowFailed>The tunnel could not break through: the target tile is no longer free.</FB_FleshTunnelWorldGrowFailed>
   <FB_FleshTunnelWorldTargetInvalid>Pick a valid tile on the same planet layer.</FB_FleshTunnelWorldTargetInvalid>
   <FB_FleshTunnelWorldTargetImpassable>The tunnel cannot surface on an impassable tile.</FB_FleshTunnelWorldTargetImpassable>
@@ -159,20 +214,14 @@ Crossing: {3}</FB_FleshTunnelWorldTargetTooltip>
   <FB_FleshTunnelWorldCollapsed>{0} collapsed its tunnel.</FB_FleshTunnelWorldCollapsed>
   <FB_FleshTunnelWorldInspectIdle>No tunnel grown</FB_FleshTunnelWorldInspectIdle>
   <FB_FleshTunnelWorldInspectGrowing>Boring towards tile {0}: {1} left</FB_FleshTunnelWorldInspectGrowing>
-  <FB_FleshTunnelWorldInspectLinked>Tunnel to tile {0} ({1} tiles)
-Crossing: {2}</FB_FleshTunnelWorldInspectLinked>
-  <FB_FleshTunnelWorldMouthInspect>Tunnel to tile {0} ({1} tiles)
-Crossing: {2}</FB_FleshTunnelWorldMouthInspect>
+  <FB_FleshTunnelWorldInspectLinked>Tunnel to tile {0} ({1} tiles)</FB_FleshTunnelWorldInspectLinked>
+  <FB_FleshTunnelWorldMouthInspect>Tunnel to tile {0} ({1} tiles)</FB_FleshTunnelWorldMouthInspect>
   <FB_FleshTunnelWorldNoLink>There is no finished flesh tunnel on this tile.</FB_FleshTunnelWorldNoLink>
   <FB_FleshTunnelWorldJumpLabel>Go to the other end</FB_FleshTunnelWorldJumpLabel>
   <FB_FleshTunnelWorldJumpDesc>Jump the world camera to the other end of this tunnel and select it. While the tunnel is still being bored, this shows the target tile instead.</FB_FleshTunnelWorldJumpDesc>
   <FB_FleshTunnelWorldDevFinishLabel>Dev: finish tunnel</FB_FleshTunnelWorldDevFinishLabel>
   <FB_FleshTunnelWorldDevFinishDesc>Immediately finish boring and break the far maw through, ignoring the remaining growth time.</FB_FleshTunnelWorldDevFinishDesc>
   <FB_FleshTunnelWorldCaravanEnterLabel>Enter flesh tunnel</FB_FleshTunnelWorldCaravanEnterLabel>
-  <FB_FleshTunnelWorldCaravanEnterDesc>Send this caravan through the flesh tunnel to world tile {0}. The crossing takes {1}; ordering the caravan to move cancels it.</FB_FleshTunnelWorldCaravanEnterDesc>
-  <FB_FleshTunnelWorldCaravanCancelLabel>Leave the tunnel</FB_FleshTunnelWorldCaravanCancelLabel>
-  <FB_FleshTunnelWorldCaravanCancelDesc>Back out of the crossing. {0} of it remains.</FB_FleshTunnelWorldCaravanCancelDesc>
-  <FB_FleshTunnelWorldCaravanStarted>{0} entered the flesh tunnel. It will surface in {1}.</FB_FleshTunnelWorldCaravanStarted>
+  <FB_FleshTunnelWorldCaravanEnterDesc>Instantly send this caravan through the flesh tunnel to world tile {0}.</FB_FleshTunnelWorldCaravanEnterDesc>
   <FB_FleshTunnelWorldCaravanArrived>{0} surfaced from the flesh tunnel on world tile {1}.</FB_FleshTunnelWorldCaravanArrived>
-  <FB_FleshTunnelWorldCaravanCancelled>{0} backed out of the flesh tunnel.</FB_FleshTunnelWorldCaravanCancelled>
 </LanguageData>

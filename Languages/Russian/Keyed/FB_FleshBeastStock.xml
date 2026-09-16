@@ -8,6 +8,18 @@
   <FB_OutpostBillWaitingHemogel>Ожидание гемогеля</FB_OutpostBillWaitingHemogel>
   <FB_OutpostBillGrowing>Растёт: осталось {0}</FB_OutpostBillGrowing>
   <FB_OutpostBillStockReached>В запасе уже {0} - выращивание на паузе</FB_OutpostBillStockReached>
+  <FB_OutpostBillPausedUntil>На паузе, пока в запасе не останется {0}</FB_OutpostBillPausedUntil>
+  <FB_OutpostRemoveBeastsButton>Удалить тварей...</FB_OutpostRemoveBeastsButton>
+  <FB_OutpostRemoveBeastsButtonDesc>Выбрать, сколько тварей каждого вида убрать из запаса аванпоста. За каждую удалённую тварь в резерв сети вернётся {0} цены её выращивания.</FB_OutpostRemoveBeastsButtonDesc>
+  <FB_OutpostRemoveBeastsTitle>Удалить тварей из запаса аванпоста</FB_OutpostRemoveBeastsTitle>
+  <FB_OutpostRemoveBeastsInfoCount>К удалению</FB_OutpostRemoveBeastsInfoCount>
+  <FB_OutpostRemoveBeastsInfoCountTip>Сколько тварей будет убрано из запаса.</FB_OutpostRemoveBeastsInfoCountTip>
+  <FB_OutpostRemoveBeastsInfoRefund>Возврат</FB_OutpostRemoveBeastsInfoRefund>
+  <FB_OutpostRemoveBeastsInfoRefundTip>Сколько гемогеля вернётся в резерв сети: {0} цены выращивания каждой удалённой твари.</FB_OutpostRemoveBeastsInfoRefundTip>
+  <FB_OutpostRemoveBeastsRefundEachTip>Сколько гемогеля вернётся за одну такую тварь.</FB_OutpostRemoveBeastsRefundEachTip>
+  <FB_OutpostRemoveBeastsNothing>Отметьте хотя бы одну тварь для удаления.</FB_OutpostRemoveBeastsNothing>
+  <FB_OutpostRemoveBeastsConfirm>Удалить тварей из запаса аванпоста: {0}? В резерв сети вернётся {1} гемогеля.</FB_OutpostRemoveBeastsConfirm>
+  <FB_OutpostRemoveBeastsDone>Из запаса аванпоста удалено тварей: {0}. В резерв сети вернулось {1} гемогеля.</FB_OutpostRemoveBeastsDone>
   <FB_FleshGarrisonCardTooltip>{0}\nВ запасе: {1}\nСила в штурме за штуку: {2}</FB_FleshGarrisonCardTooltip>
   <FB_FleshAssaultDeployTitle>Отправить стаю на «{0}»</FB_FleshAssaultDeployTitle>
   <FB_FleshAssaultDeployCategory>Биошматы</FB_FleshAssaultDeployCategory>

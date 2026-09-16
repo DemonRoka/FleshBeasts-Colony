@@ -707,7 +707,7 @@
     <label>hemoghoul reanimation</label>
     <description>Teach the colony brain to implant a fingerspike into a human corpse and raise it as a tireless hemoghoul worker.</description>
     <customUnlockTexts>
-      <li>Colony Brain and flesh moon nerve node: Create hemoghoul</li>
+      <li>Colony Brain: Create hemoghoul</li>
     </customUnlockTexts>
     <tab>FB_Fleshbeast</tab>
     <techLevel>Industrial</techLevel>
@@ -734,7 +734,7 @@
     <label>flesh resurrection</label>
     <description>Teach the colony brain to restore a dead human through fingerspike implantation and bind the revived pawn to the flesh colony.</description>
     <customUnlockTexts>
-      <li>Colony Brain and flesh moon nerve node: Resurrect through flesh</li>
+      <li>Colony Brain: Resurrect through flesh</li>
     </customUnlockTexts>
     <tab>FB_Fleshbeast</tab>
     <techLevel>Industrial</techLevel>
@@ -760,7 +760,7 @@
     <label>fingerspike implantation</label>
     <description>Teach the colony to implant fingerspikes into living bodies, forcibly accepting new members into the flesh colony.</description>
     <customUnlockTexts>
-      <li>Colony Brain and flesh moon nerve node: Force flesh acceptance</li>
+      <li>Colony Brain: Force flesh acceptance</li>
     </customUnlockTexts>
     <tab>FB_Fleshbeast</tab>
     <techLevel>Industrial</techLevel>
@@ -786,7 +786,7 @@
     <label>flesh thrall reanimation</label>
     <description>Teach the colony brain to rebuild a body around fingerspikes and raise it as a controllable flesh thrall.</description>
     <customUnlockTexts>
-      <li>Colony Brain and flesh moon nerve node: Create flesh thrall, Restore thrall</li>
+      <li>Colony Brain: Create flesh thrall, Restore thrall</li>
     </customUnlockTexts>
     <tab>FB_Fleshbeast</tab>
     <techLevel>Industrial</techLevel>
@@ -830,6 +830,28 @@
         <li>subject_story-&gt;preserved identities within the colony brain</li>
         <li>subject_story-&gt;learned to rebuild minds in prepared flesh shells</li>
         <li>subject_gerund-&gt;archiving colony memories</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+  <!-- Исследование: brood matrix cultivation (FB_BroodMatrixCultivation) -->
+  <ResearchProjectDef>
+    <defName>FB_BroodMatrixCultivation</defName>
+    <label>brood matrix cultivation</label>
+    <description>Unlock the Brood Matrix: a hemogel-fed organ that grows children eighty times faster and pours a living donor's skills, passions, traits and genes into them.</description>
+    <tab>FB_Fleshbeast</tab>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>FB_OrganicGenetics</li>
+    </prerequisites>
+    <baseCost>3000</baseCost>
+    <researchViewX>6.00</researchViewX>
+    <researchViewY>1.60</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject-&gt;brood matrix cultivation</li>
+        <li>subject_story-&gt;grew children inside a hemogel-fed matrix</li>
+        <li>subject_story-&gt;poured a captive's skills into newborn flesh</li>
+        <li>subject_gerund-&gt;cultivating brood matrices</li>
       </rulesStrings>
     </generalRules>
   </ResearchProjectDef>

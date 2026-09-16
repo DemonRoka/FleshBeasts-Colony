@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Эффект: всплеск крови при регенерации органоида (FB_FleshRepairSpurt) -->
+  <EffecterDef>
+    <defName>FB_FleshRepairSpurt</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>BloodSplash</fleckDef>
+        <burstCount>3~5</burstCount>
+        <positionRadius>0.3</positionRadius>
+        <scale>0.5~0.8</scale>
+        <angle>0~360</angle>
+        <fleckUsesAngleForVelocity>true</fleckUsesAngleForVelocity>
+        <speed>1.5~3</speed>
+        <color>(190, 35, 25)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>BloodSplashLong</fleckDef>
+        <burstCount>1~2</burstCount>
+        <positionRadius>0.2</positionRadius>
+        <scale>0.6~0.9</scale>
+        <angle>0~360</angle>
+        <fleckUsesAngleForVelocity>true</fleckUsesAngleForVelocity>
+        <speed>2~3.5</speed>
+        <color>(220, 55, 40)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+    </children>
+  </EffecterDef>
+</Defs>

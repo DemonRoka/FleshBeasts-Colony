@@ -5,4 +5,5 @@
   <FB_CarryToPsyarchive.reportString>carrying TargetB to TargetA.</FB_CarryToPsyarchive.reportString>
   <FB_CarryItemToPsyarchive.reportString>carrying TargetB to TargetA.</FB_CarryItemToPsyarchive.reportString>
   <FB_LinkWithPsyarchive.reportString>linking with the psyarchive</FB_LinkWithPsyarchive.reportString>
+  <FB_ImprintFromPsyarchive.reportString>taking in an ability from the psyarchive</FB_ImprintFromPsyarchive.reportString>
 </LanguageData>

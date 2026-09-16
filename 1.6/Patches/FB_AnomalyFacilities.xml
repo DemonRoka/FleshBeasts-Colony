@@ -4,6 +4,7 @@
     <xpath>/Defs/ThoughtDef[defName="FleshTentacle"]/nullifyingHediffs</xpath>
     <value>
       <li>FB_AcceptanceOfFleshColony</li>
+      <li>FB_Fleshgrown</li>
     </value>
   </Operation>
 
@@ -11,6 +12,7 @@
     <xpath>/Defs/ThoughtDef[defName="FleshWhip"]/nullifyingHediffs</xpath>
     <value>
       <li>FB_AcceptanceOfFleshColony</li>
+      <li>FB_Fleshgrown</li>
     </value>
   </Operation>
 

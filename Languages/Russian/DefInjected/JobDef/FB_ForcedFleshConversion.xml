@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <FB_ForcedFleshConversionDoctor.reportString>несёт TargetA к сердцу колонии или лунному нервному узлу.</FB_ForcedFleshConversionDoctor.reportString>
+  <FB_ForcedFleshConversionDoctor.reportString>несёт TargetA.</FB_ForcedFleshConversionDoctor.reportString>
   <FB_ForcedFleshConversionFingerspike.reportString>внедряется в TargetB.</FB_ForcedFleshConversionFingerspike.reportString>
-  <FB_ForcedFleshConversionVolunteer.reportString>принимает плоть у сердца колонии.</FB_ForcedFleshConversionVolunteer.reportString>
+  <FB_ForcedFleshConversionVolunteer.reportString>принимает плоть.</FB_ForcedFleshConversionVolunteer.reportString>
 </LanguageData>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_FloorMawTrapRechargingInspect>Closed, reopens in: {0}</FB_FloorMawTrapRechargingInspect>
+  <FB_FloorMawTrapArmedInspect>Open, ready to bite</FB_FloorMawTrapArmedInspect>
+  <FB_FloorMawTrapDevOpenLabel>Dev: open now</FB_FloorMawTrapDevOpenLabel>
+</LanguageData>

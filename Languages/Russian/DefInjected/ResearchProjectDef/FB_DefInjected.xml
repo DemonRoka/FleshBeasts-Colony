@@ -118,14 +118,14 @@
   <FB_GeoferriteGlands.generalRules.rulesStrings.3>subject_gerund-&gt;выращивание геоферритовых желез</FB_GeoferriteGlands.generalRules.rulesStrings.3>
   <FB_GeoferriteGlands.label>геоферритовые железы</FB_GeoferriteGlands.label>
   <FB_FingerspikeImplantation.label>внедрение пальцешипов</FB_FingerspikeImplantation.label>
-  <FB_FingerspikeImplantation.customUnlockTexts.0>Мозг колонии и лунный нервный узел: Насильное принятие плоти</FB_FingerspikeImplantation.customUnlockTexts.0>
+  <FB_FingerspikeImplantation.customUnlockTexts.0>Мозг колонии: Насильное принятие плоти</FB_FingerspikeImplantation.customUnlockTexts.0>
   <FB_FingerspikeImplantation.description>Обучает колонию внедрять пальцешипов в живые тела и принудительно принимать новых членов в колонию плоти.</FB_FingerspikeImplantation.description>
   <FB_FingerspikeImplantation.generalRules.rulesStrings.0>subject-&gt;внедрение пальцешипов</FB_FingerspikeImplantation.generalRules.rulesStrings.0>
   <FB_FingerspikeImplantation.generalRules.rulesStrings.1>subject_story-&gt;научился связывать живые разумы пальцешипами</FB_FingerspikeImplantation.generalRules.rulesStrings.1>
   <FB_FingerspikeImplantation.generalRules.rulesStrings.2>subject_story-&gt;приспособил пальцешипов для контролируемого внедрения</FB_FingerspikeImplantation.generalRules.rulesStrings.2>
   <FB_FingerspikeImplantation.generalRules.rulesStrings.3>subject_gerund-&gt;внедрение пальцешипов</FB_FingerspikeImplantation.generalRules.rulesStrings.3>
   <FB_FleshThrallReanimation.label>оживление плотяных рабов</FB_FleshThrallReanimation.label>
-  <FB_FleshThrallReanimation.customUnlockTexts.0>Мозг колонии и лунный нервный узел: Создать мясного раба, Восстановить раба</FB_FleshThrallReanimation.customUnlockTexts.0>
+  <FB_FleshThrallReanimation.customUnlockTexts.0>Мозг колонии: Создать мясного раба, Восстановить раба</FB_FleshThrallReanimation.customUnlockTexts.0>
   <FB_FleshThrallReanimation.description>Обучает мозг колонии восстанавливать тело вокруг пальцешипов и поднимать его как управляемого плотяного раба.</FB_FleshThrallReanimation.description>
   <FB_FleshThrallReanimation.generalRules.rulesStrings.0>subject-&gt;оживление плотяных рабов</FB_FleshThrallReanimation.generalRules.rulesStrings.0>
   <FB_FleshThrallReanimation.generalRules.rulesStrings.1>subject_story-&gt;поднял послушных слуг нестабильной плотью</FB_FleshThrallReanimation.generalRules.rulesStrings.1>

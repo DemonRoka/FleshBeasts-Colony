@@ -35,7 +35,7 @@
     </placeWorkers>
     <comps Inherit="False">
       <li Class="FB.CompProperties_FleshRegeneration">
-        <ticksPerHeal>2000</ticksPerHeal>
+        <ticksPerHeal>500</ticksPerHeal>
         <ticksPerDamage>2000</ticksPerDamage>
         <hemogelPerHeal>1</hemogelPerHeal>
       </li>

@@ -5,6 +5,7 @@
   <FB_FleshAssaultRosterLaunched>Штурмовая стая из {1} тварей движется на «{0}».</FB_FleshAssaultRosterLaunched>
   <FB_FleshAssaultArrivalTitle>Стая достигла цели</FB_FleshAssaultArrivalTitle>
   <FB_FleshAssaultArrivalText>Штурмовая стая добралась до «{0}». В ней {1} тварей общей силой {2}; оборона поселения оценивается в {3}.\n\nПровести бой лично или позволить стае решить его без загрузки карты?</FB_FleshAssaultArrivalText>
+  <FB_FleshAssaultArrivalNotHostile>Фракция {0} не враждебна вам: нападение сделает её враждебной.</FB_FleshAssaultArrivalNotHostile>
   <FB_FleshAssaultArrivalManual>Ручной бой</FB_FleshAssaultArrivalManual>
   <FB_FleshAssaultArrivalAuto>Автоматический бой</FB_FleshAssaultArrivalAuto>
   <FB_FleshAssaultArrivalTimeout>Стая ждёт приказа {0}. Если не ответить, она проведёт бой сама.</FB_FleshAssaultArrivalTimeout>
@@ -32,6 +33,9 @@
   <FB_FleshAssaultCaravanCargoHeader>Груз: {0} стаков, {1} / {2} кг</FB_FleshAssaultCaravanCargoHeader>
   <FB_FleshAssaultCaravanDropTip>Выбросить в пути</FB_FleshAssaultCaravanDropTip>
   <FB_FleshAssaultCaravanDropConfirm>Выбросить «{0}» по дороге? Груз будет потерян.</FB_FleshAssaultCaravanDropConfirm>
+  <FB_FleshAssaultCaravanDropSelected>Выбросить ({0})</FB_FleshAssaultCaravanDropSelected>
+  <FB_FleshAssaultCaravanDropSelectedDesc>Выбросить в пути весь выбранный груз. Он будет потерян.</FB_FleshAssaultCaravanDropSelectedDesc>
+  <FB_FleshAssaultCaravanDropSelectedConfirm>Выбросить выбранный груз по дороге ({0})? Он будет потерян.</FB_FleshAssaultCaravanDropSelectedConfirm>
   <FB_FleshAssaultPartyBeastsTab>Состав</FB_FleshAssaultPartyBeastsTab>
   <FB_FleshAssaultPartyBeastsSummary>Тварей: {0}   Сила стаи: {1}</FB_FleshAssaultPartyBeastsSummary>
   <FB_FleshOutpostStoredItems>Добыча на складе: {0} стаков</FB_FleshOutpostStoredItems>

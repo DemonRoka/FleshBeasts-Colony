@@ -4,7 +4,7 @@
 	<ThingDef ParentName="BuildingColonyFleshBase">
 		<defName>FB_Psyarchive</defName>
 		<label>psyarchive</label>
-		<description>A psyphage rooted into flesh that consumes a little hemogel. Colonists can carry downed pawns, psytrainers and psylink neuroformers into it to add their abilities to the archive. Once its psyphage has absorbed an anima tree, pawns accepted by the flesh colony can meditate to it, growing anima growth that lets them link with it for a psylink level. It can uproot to walk again, withering the growth, and damage it takes wounds the psyphage inside.</description>
+		<description>A psyphage rooted into flesh that consumes a little hemogel. Colonists can carry downed pawns, psytrainers and psylink neuroformers into it to add their abilities to the archive. Once its psyphage has absorbed an anima tree, pawns accepted by the flesh colony can meditate to it, growing anima growth that lets them link with it for a psylink level with a random psycast or for one of the abilities in its slots. It can uproot to walk again, withering the growth, and damage it takes wounds the psyphage inside.</description>
 		<thingClass>FB.Building_Psyarchive</thingClass>
 		<graphicData>
 			<texPath>Things/Building/FB_Organic/Psyarchive/Psyarchive</texPath>
@@ -85,8 +85,14 @@
 				</requiredSubplantCountPerPsylinkLevel>
 				<requiredFocus>FB_Flesh</requiredFocus>
 				<linkSound>AnimaTreeLink</linkSound>
+				<slotAbilityGrowthCost>20</slotAbilityGrowthCost>
 				<linkJobDef>FB_LinkWithPsyarchive</linkJobDef>
+				<imprintJobDef>FB_ImprintFromPsyarchive</imprintJobDef>
 				<linkTicks>15000</linkTicks>
+			</li>
+			<li Class="FB.CompProperties_PsyarchiveGrowthAbsorption" MayRequire="Ludeon.RimWorld.Royalty">
+				<growthCost>50</growthCost>
+				<commandIconPath>UI/Commands/PsyarchiveAbsorbGrowth</commandIconPath>
 			</li>
 		</comps>
 	</ThingDef>

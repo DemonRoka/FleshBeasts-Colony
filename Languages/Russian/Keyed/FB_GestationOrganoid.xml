@@ -48,6 +48,11 @@
   <FB_SaveXenotypeButton>Сохранить ксенотип</FB_SaveXenotypeButton>
   <FB_XenotypeSaved>Ксенотип сохранён: {0}.</FB_XenotypeSaved>
   <FB_XenotypeSaveNeedsName>Перед сохранением ксенотипу нужно имя.</FB_XenotypeSaveNeedsName>
+  <FB_XenotypeSavePromptTitle>Сохранить ксенотип?</FB_XenotypeSavePromptTitle>
+  <FB_XenotypeSavePromptText>Сохранить ксенотип «{0}» в список сохранённых, чтобы потом загрузить его снова?</FB_XenotypeSavePromptText>
+  <FB_XenotypeSavePromptOverwrite>Сохранённый ксенотип «{0}» уже есть, но с другим набором генов. Заменить его этим?</FB_XenotypeSavePromptOverwrite>
+  <FB_XenotypeSavePromptSave>Сохранить</FB_XenotypeSavePromptSave>
+  <FB_XenotypeSavePromptSkip>Не сохранять</FB_XenotypeSavePromptSkip>
   <FB_XenotypeLoadMissingGenes>В архиве нет генопаков для: {0}.</FB_XenotypeLoadMissingGenes>
 
 </LanguageData>
