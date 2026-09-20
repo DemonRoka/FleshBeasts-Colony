@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<FB_BirthPoolRim.label>birth pool rim</FB_BirthPoolRim.label>
+	<FB_BirthPoolRim.description>Build a closed outline of walkable rims around 9 to 256 clear cells and enable its hemogel liquid. The pool uses the heart's bill menu and draws hemogel directly from the colony network for births and automatic regeneration.</FB_BirthPoolRim.description>
+</LanguageData>

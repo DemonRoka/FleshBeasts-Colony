@@ -5,6 +5,8 @@
 
     <firstOutpostCost>30000</firstOutpostCost>
     <outpostCost>30000</outpostCost>
+    <!-- Базовый цвет аванпоста: текстура нейтральная и красится кодом, игрок может перекрасить каждый аванпост -->
+    <outpostDefaultColor>(189,139,138)</outpostDefaultColor>
     <firstWorldReserve>15000</firstWorldReserve>
     <outpostTileProductionFactor>0.5</outpostTileProductionFactor>
 
@@ -19,6 +21,7 @@
     <supplyCaravanTicksPerMove>3300</supplyCaravanTicksPerMove>
     <supplyCaravanAutoIntervalTicks>30000</supplyCaravanAutoIntervalTicks>
     <supplyCaravanMaxCarriers>24</supplyCaravanMaxCarriers>
+    <beastCaravanAutoIntervalTicks>30000</beastCaravanAutoIntervalTicks>
 
     <!-- Удаление тварей из запаса аванпоста: доля цены выращивания, которая возвращается в резерв сети -->
     <outpostBeastRemovalRefundFraction>0.5</outpostBeastRemovalRefundFraction>

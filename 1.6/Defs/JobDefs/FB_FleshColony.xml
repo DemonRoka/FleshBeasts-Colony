@@ -101,6 +101,9 @@
     <defName>FB_CarryToVoiceOrgan</defName>
     <driverClass>FB.JobDriver_CarryToVoiceOrgan</driverClass>
     <reportString>carrying TargetB to TargetA.</reportString>
+    <modExtensions>
+      <li Class="FB.CargoTendrilPawnDeliveryExtension" />
+    </modExtensions>
   </JobDef>
   <JobDef>
     <defName>FB_CarryCarriedPawnToVoiceOrgan</defName>

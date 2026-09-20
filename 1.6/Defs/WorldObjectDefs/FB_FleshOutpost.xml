@@ -19,6 +19,7 @@
     
       <li>FB.WITab_FleshOutpostBeasts</li>
       <li>FB.WITab_FleshOutpostStorage</li>
+      <li>FB.WITab_FleshOutpostManagement</li>
     </inspectorTabs>
   </WorldObjectDef>
 </Defs>

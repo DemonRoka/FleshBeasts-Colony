@@ -145,7 +145,7 @@
     </prerequisites>
     <baseCost>1600</baseCost>
     <researchViewX>4.00</researchViewX>
-    <researchViewY>2.70</researchViewY>
+    <researchViewY>2.60</researchViewY>
     <generalRules>
       <rulesStrings>
         <li>subject-&gt;geoferrite glands</li>

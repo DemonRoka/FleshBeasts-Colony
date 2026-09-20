@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<FB_BirthPool_Name>Birth pool {0}</FB_BirthPool_Name>
+	<FB_BirthPool_StatusLine>{0}: {1}</FB_BirthPool_StatusLine>
+	<FB_BirthPool_Updating>Updating the outline</FB_BirthPool_Updating>
+	<FB_BirthPool_Unsealed>The outline is open or has no interior</FB_BirthPool_Unsealed>
+	<FB_BirthPool_MapEdge>Move the outline away from the map edge</FB_BirthPool_MapEdge>
+	<FB_BirthPool_TooLarge>Pool exceeds the size limit</FB_BirthPool_TooLarge>
+	<FB_BirthPool_TooSmall>At least {0} interior cells are required</FB_BirthPool_TooSmall>
+	<FB_BirthPool_Overlapping>Pool outlines overlap or are nested</FB_BirthPool_Overlapping>
+	<FB_BirthPool_Obstructed>Clear the interior: obstacles, other liquids or foundations</FB_BirthPool_Obstructed>
+	<FB_BirthPool_Empty>Empty</FB_BirthPool_Empty>
+	<FB_BirthPool_Ready>Operational</FB_BirthPool_Ready>
+	<FB_BirthPool_Disconnected>No hemogel network connection</FB_BirthPool_Disconnected>
+	<FB_BirthPool_Idle>idle</FB_BirthPool_Idle>
+	<FB_BirthPool_Growing>growing a fleshbeast</FB_BirthPool_Growing>
+	<FB_BirthPool_NoHemogel>waiting for network hemogel</FB_BirthPool_NoHemogel>
+	<FB_BirthPool_NoSpace>waiting for a free liquid cell</FB_BirthPool_NoSpace>
+	<FB_BirthPool_NetworkReserveLine>Network hemogel: {0}</FB_BirthPool_NetworkReserveLine>
+	<FB_BirthPool_AreaLine>Liquid: {0} / {1} cells. Growth speed: ×{2}</FB_BirthPool_AreaLine>
+	<FB_BirthPool_WorkLine>Birth: {0}. Patients: {1}</FB_BirthPool_WorkLine>
+	<FB_BirthPool_NetworkDetail>Births and regeneration consume hemogel directly from the colony network.</FB_BirthPool_NetworkDetail>
+	<FB_BirthPool_FillLabel>Fill reservoir</FB_BirthPool_FillLabel>
+	<FB_BirthPool_FillDesc>While enabled, hemogel liquid fills the interior of the closed outline; disabling it drains the liquid. Filling has no separate reserve or resource charge. Births are controlled through bills; regeneration is automatic and consumes network hemogel.</FB_BirthPool_FillDesc>
+	<FB_BirthPool_CreateAreaLabel>Create interior area</FB_BirthPool_CreateAreaLabel>
+	<FB_BirthPool_CreateAreaDesc>Create an allowed area inside this outline. Assign creatures manually. Repeating this command updates the same area and replaces its previous cells.</FB_BirthPool_CreateAreaDesc>
+	<FB_BirthPool_AreaLimit>Cannot create another allowed area.</FB_BirthPool_AreaLimit>
+	<FB_BirthPool_AreaCreated>Area "{0}" now matches the interior. Assign creatures to it using their allowed-area settings.</FB_BirthPool_AreaCreated>
+	<FB_BirthPool_BuildLabel>Birth pool rim</FB_BirthPool_BuildLabel>
+	<FB_BirthPool_BuildDesc>Grow walkable rim segments on flesh ground and close an outline around {0}–{1} clear cells. Any segment controls the liquid, the shared heart-style bills and creation of an interior allowed area. Births and automatic regeneration draw hemogel directly from the network.</FB_BirthPool_BuildDesc>
+</LanguageData>

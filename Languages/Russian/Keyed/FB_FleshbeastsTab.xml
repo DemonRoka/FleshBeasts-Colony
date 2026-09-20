@@ -11,6 +11,8 @@
   <FB_Fleshbeasts_CollapseGroup>Свернуть {0} в строку-сводку.</FB_Fleshbeasts_CollapseGroup>
   <FB_Fleshbeasts_ExpandGroup>Развернуть {0}.</FB_Fleshbeasts_ExpandGroup>
   <FB_Fleshbeasts_CreateNewGroup>Создать новую группу...</FB_Fleshbeasts_CreateNewGroup>
+  <FB_Fleshbeasts_SweptCount>Биошматов: {0}</FB_Fleshbeasts_SweptCount>
+  <FB_Fleshbeasts_GroupDragTooltip>Протяните по строкам и отпустите, чтобы назначить им группу из меню. С зажатым Shift сразу назначается группа строки, с которой начали протяжку.</FB_Fleshbeasts_GroupDragTooltip>
   <FB_Fleshbeasts_ManageGroups>Управление группами...</FB_Fleshbeasts_ManageGroups>
   <FB_Fleshbeasts_New>Создать</FB_Fleshbeasts_New>
   <FB_Fleshbeasts_Rename>Имя</FB_Fleshbeasts_Rename>
@@ -99,10 +101,9 @@
   <FB_GroupMassZoneTooltip>Отправить активную группу в выбранную зону мясной массы.</FB_GroupMassZoneTooltip>
   <FB_GroupAssignedMassZone>{0} биошмат(ов) из группы {1} идут в {2}.</FB_GroupAssignedMassZone>
   <FB_GroupDigestCrippledLabel>Переварить биошматов</FB_GroupDigestCrippledLabel>
-  <FB_GroupDigestCrippledTooltip>Выбрать биошматов для жертвенного переваривания. Подвижные сами направятся к желудку или желудочному соку. Обездвиженные погибнут на месте; при этом сработают их обычные посмертные свойства.</FB_GroupDigestCrippledTooltip>
+  <FB_GroupDigestCrippledTooltip>Выбрать биошматов для жертвенного переваривания. Подвижные сами направятся к желудку или желудочному соку. Обездвиженные, а на карте без желудка и сока и все остальные, погибнут на месте; при этом сработают их обычные посмертные свойства.</FB_GroupDigestCrippledTooltip>
   <FB_GroupDigestCrippledNoSelectablePawns>Нет подходящих выбранных биошматов.</FB_GroupDigestCrippledNoSelectablePawns>
   
   <FB_GroupDigestCrippledInvalid>Этого биошмата нельзя переварить.</FB_GroupDigestCrippledInvalid>
-  <FB_GroupDigestCrippledNoDestination>Нет желудка колонии с местом или доступной клетки желудочного сока.</FB_GroupDigestCrippledNoDestination>
-  <FB_GroupDigestCrippledAssigned>{0} биошмат(ов) идут на переваривание. {1} обездвиженных погибло на месте.</FB_GroupDigestCrippledAssigned>
+  <FB_GroupDigestCrippledAssigned>{0} биошмат(ов) идут на переваривание. {1} погибло на месте.</FB_GroupDigestCrippledAssigned>
 </LanguageData>

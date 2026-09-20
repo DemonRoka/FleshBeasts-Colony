@@ -20,6 +20,13 @@
   <FB_OutpostRemoveBeastsNothing>Mark at least one beast to remove.</FB_OutpostRemoveBeastsNothing>
   <FB_OutpostRemoveBeastsConfirm>Remove {0} beast(s) from the outpost stock? {1} hemogel returns to the network reserve.</FB_OutpostRemoveBeastsConfirm>
   <FB_OutpostRemoveBeastsDone>Removed {0} beast(s) from the outpost stock. {1} hemogel returned to the network reserve.</FB_OutpostRemoveBeastsDone>
+  <FB_OutpostTransferBeastsButton>Move beasts...</FB_OutpostTransferBeastsButton>
+  <FB_OutpostTransferBeastsButtonDesc>Pick another outpost on the world map and send part of this beast stock there by supply caravan.</FB_OutpostTransferBeastsButtonDesc>
+  <FB_FleshBeastTransferTitle>Move beasts to {0}</FB_FleshBeastTransferTitle>
+  <FB_FleshBeastTransferInfoRemaining>Remaining</FB_FleshBeastTransferInfoRemaining>
+  <FB_FleshBeastTransferInfoRemainingTip>How many beasts stay in the outpost after the caravan leaves.</FB_FleshBeastTransferInfoRemainingTip>
+  <FB_FleshBeastTransferInfoTravel>Travel time</FB_FleshBeastTransferInfoTravel>
+  <FB_FleshBeastTransferInfoTravelTip>Rough travel time to {0} in a straight line.</FB_FleshBeastTransferInfoTravelTip>
   <FB_FleshGarrisonCardTooltip>{0}\nIn stock: {1}\nAssault strength each: {2}</FB_FleshGarrisonCardTooltip>
   <FB_FleshAssaultDeployTitle>Send a pack against {0}</FB_FleshAssaultDeployTitle>
   <FB_FleshAssaultDeployCategory>Fleshbeasts</FB_FleshAssaultDeployCategory>

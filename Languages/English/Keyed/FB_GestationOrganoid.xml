@@ -5,14 +5,14 @@
   <FB_ColonyBrain_Structure_GestationOrganoid_Desc>A brood organ that holds a living donor and grows offspring of its kind from hemogel. The donor is consumed and cannot be recovered.</FB_ColonyBrain_Structure_GestationOrganoid_Desc>
 
   <FB_GestationOrganoidSelectDonorLabel>Select donor</FB_GestationOrganoidSelectDonorLabel>
-  <FB_GestationOrganoidSelectDonorDesc>Choose a living donor to seal inside the birthing sac. Downed unfactioned creatures are carried here by haulers; factioned pawns walk in on their own. Anything placed inside is lost permanently.</FB_GestationOrganoidSelectDonorDesc>
+  <FB_GestationOrganoidSelectDonorDesc>Choose a living donor to seal inside the birthing sac. Your own pawns walk in on their own; prisoners and downed outsiders are carried here by haulers. Anything placed inside is lost permanently.</FB_GestationOrganoidSelectDonorDesc>
   <FB_GestationOrganoidDonorLostWarning>{0} will be sealed inside the gestation organoid permanently. The donor cannot be released, dies once its reserves are spent, and is destroyed if the organoid is deconstructed. Continue?</FB_GestationOrganoidDonorLostWarning>
 
   <FB_GestationOrganoidDonorNotOrganic>Only organic creatures can gestate. Mechanoids and drones are rejected.</FB_GestationOrganoidDonorNotOrganic>
   <FB_GestationOrganoidDonorAnomalous>Anomalous entities do not breed and cannot be used as donors.</FB_GestationOrganoidDonorAnomalous>
   <FB_GestationOrganoidDonorGenderless>Only creatures with a gender can be used as donors.</FB_GestationOrganoidDonorGenderless>
   <FB_GestationOrganoidDonorNotAdult>Only adult creatures can be used as donors.</FB_GestationOrganoidDonorNotAdult>
-  <FB_GestationOrganoidDonorMustBeDowned>An unfactioned donor must be downed first.</FB_GestationOrganoidDonorMustBeDowned>
+  <FB_GestationOrganoidDonorMustBeDowned>A donor from outside the colony must be downed or imprisoned first.</FB_GestationOrganoidDonorMustBeDowned>
 
   <FB_GestationOrganoidStartCycleLabel>Grow body</FB_GestationOrganoidStartCycleLabel>
   <FB_GestationOrganoidStartCycleDesc>Begin growing a new body from the sealed donor. Produces: {0}.</FB_GestationOrganoidStartCycleDesc>

@@ -24,7 +24,7 @@
   <FB_FleshBurnRaidNoSource>No connected outpost can reach this tile.</FB_FleshBurnRaidNoSource>
   <FB_FleshBurnDefenseDeployTitle>Defend tile {0} against {1}</FB_FleshBurnDefenseDeployTitle>
   <FB_FleshBurnDefenseLaunched>A pack of {1} beasts is heading for tile {0}.</FB_FleshBurnDefenseLaunched>
-  <FB_FleshAssaultInspectDefending>Defending tile {1}\nStrength: {0}</FB_FleshAssaultInspectDefending>
+  <FB_FleshAssaultInspectDefending>Marching to defend: {1}\nStrength: {0}</FB_FleshAssaultInspectDefending>
   <FB_PlanetaryNetworkDefenseTargetTooltip>Burn party of {0}. Strength: {1}</FB_PlanetaryNetworkDefenseTargetTooltip>
 
   <!-- Arrival choice -->

@@ -11,6 +11,8 @@
   <FB_Fleshbeasts_CollapseGroup>Collapse {0} into a summary row.</FB_Fleshbeasts_CollapseGroup>
   <FB_Fleshbeasts_ExpandGroup>Expand {0}.</FB_Fleshbeasts_ExpandGroup>
   <FB_Fleshbeasts_CreateNewGroup>Create new group...</FB_Fleshbeasts_CreateNewGroup>
+  <FB_Fleshbeasts_SweptCount>Fleshbeasts: {0}</FB_Fleshbeasts_SweptCount>
+  <FB_Fleshbeasts_GroupDragTooltip>Drag across rows and release to assign them a group from a menu. Hold Shift to assign the group of the row you started from right away.</FB_Fleshbeasts_GroupDragTooltip>
   <FB_Fleshbeasts_ManageGroups>Manage groups...</FB_Fleshbeasts_ManageGroups>
   <FB_Fleshbeasts_New>New</FB_Fleshbeasts_New>
   <FB_Fleshbeasts_Rename>Rename</FB_Fleshbeasts_Rename>
@@ -99,10 +101,9 @@
   <FB_GroupMassZoneTooltip>Send the active group into a selected fleshbeast mass zone.</FB_GroupMassZoneTooltip>
   <FB_GroupAssignedMassZone>{0} fleshbeast(s) from {1} are moving into {2}.</FB_GroupAssignedMassZone>
   <FB_GroupDigestCrippledLabel>Digest fleshbeasts</FB_GroupDigestCrippledLabel>
-  <FB_GroupDigestCrippledTooltip>Select fleshbeasts to sacrifice for digestion. Mobile fleshbeasts will move to a stomach or gastric acid. Immobile ones will die in place, triggering their usual effects on death.</FB_GroupDigestCrippledTooltip>
+  <FB_GroupDigestCrippledTooltip>Select fleshbeasts to sacrifice for digestion. Mobile fleshbeasts will move to a stomach or gastric acid. Immobile ones, and all of them on a map without a stomach or acid, will die in place, triggering their usual effects on death.</FB_GroupDigestCrippledTooltip>
   <FB_GroupDigestCrippledNoSelectablePawns>No valid fleshbeasts selected.</FB_GroupDigestCrippledNoSelectablePawns>
   
   <FB_GroupDigestCrippledInvalid>That fleshbeast cannot be digested.</FB_GroupDigestCrippledInvalid>
-  <FB_GroupDigestCrippledNoDestination>No colony stomach with room or reachable gastric acid is available.</FB_GroupDigestCrippledNoDestination>
-  <FB_GroupDigestCrippledAssigned>{0} fleshbeast(s) are moving to digestion. {1} immobile fleshbeast(s) collapsed.</FB_GroupDigestCrippledAssigned>
+  <FB_GroupDigestCrippledAssigned>{0} fleshbeast(s) are moving to digestion. {1} died on the spot.</FB_GroupDigestCrippledAssigned>
 </LanguageData>

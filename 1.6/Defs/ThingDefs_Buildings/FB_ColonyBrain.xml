@@ -645,6 +645,9 @@
       </li>
       <li Class="FB.CompProperties_FleshbeastGroups">
         <maxGroups>16</maxGroups>
+        <excludedPawnKinds>
+          <li>FB_Sclerat</li>
+        </excludedPawnKinds>
         <defendDurationTicks>10000</defendDurationTicks>
         <defendRadius>14</defendRadius>
         <returnRadius>8</returnRadius>

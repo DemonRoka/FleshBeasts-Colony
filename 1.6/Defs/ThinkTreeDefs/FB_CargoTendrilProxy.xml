@@ -40,6 +40,7 @@
             <li>HaulCorpses</li>
             <li>HaulGeneral</li>
           </allowedWorkGivers>
+          <includePawnDeliveryWorkGivers>true</includePawnDeliveryWorkGivers>
         </li>
         <li Class="ThinkNode_Tagger">
           <tagToGive>Idle</tagToGive>

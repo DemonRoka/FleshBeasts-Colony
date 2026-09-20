@@ -30,6 +30,9 @@
       <li>Moving</li>
     </requiredCapacities>
     <canBeDoneByMechs>false</canBeDoneByMechs>
+    <modExtensions>
+      <li Class="FB.CargoTendrilPawnDeliveryExtension" />
+    </modExtensions>
   </WorkGiverDef>
 
   <!-- Источник работы: carry selected donor to gestation organoid (FB_CarryToGestationOrganoid) -->
@@ -172,5 +175,8 @@
       <li>Moving</li>
     </requiredCapacities>
     <canBeDoneByMechs>false</canBeDoneByMechs>
+    <modExtensions>
+      <li Class="FB.CargoTendrilPawnDeliveryExtension" />
+    </modExtensions>
   </WorkGiverDef>
 </Defs>

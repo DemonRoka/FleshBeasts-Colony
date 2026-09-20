@@ -24,7 +24,7 @@
   <FB_FleshBurnRaidNoSource>Ни один связанный аванпост не может добраться до этой клетки.</FB_FleshBurnRaidNoSource>
   <FB_FleshBurnDefenseDeployTitle>Оборона клетки {0} против «{1}»</FB_FleshBurnDefenseDeployTitle>
   <FB_FleshBurnDefenseLaunched>Отряд из {1} тварей идёт к клетке {0}.</FB_FleshBurnDefenseLaunched>
-  <FB_FleshAssaultInspectDefending>Обороняет клетку {1}\nСила: {0}</FB_FleshAssaultInspectDefending>
+  <FB_FleshAssaultInspectDefending>Идёт на оборону: {1}\nСила: {0}</FB_FleshAssaultInspectDefending>
   <FB_PlanetaryNetworkDefenseTargetTooltip>Отряд выжигателей фракции «{0}». Сила: {1}</FB_PlanetaryNetworkDefenseTargetTooltip>
 
   <!-- Выбор при прибытии -->

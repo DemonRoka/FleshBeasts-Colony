@@ -10,7 +10,7 @@
   <FB_FleshAssaultArrivalAuto>Автоматический бой</FB_FleshAssaultArrivalAuto>
   <FB_FleshAssaultArrivalTimeout>Стая ждёт приказа {0}. Если не ответить, она проведёт бой сама.</FB_FleshAssaultArrivalTimeout>
   <FB_FleshAssaultArrivalTimedOut>Стая у «{0}» не дождалась приказа и решила бой сама.</FB_FleshAssaultArrivalTimedOut>
-  <FB_FleshAssaultInspectAwaitingOrder>Ждёт приказа у клетки {0}
+  <FB_FleshAssaultInspectAwaitingOrder>Ждёт приказа: {0}
 До автоматического боя: {1}</FB_FleshAssaultInspectAwaitingOrder>
   <FB_FleshAssaultBattleStarted>Стая высадилась у «{0}»: на карте {1} тварей. Карта удерживается, пока вы не отведёте отряд: выберите поселение на глобусе и нажмите «Отвести стаю».</FB_FleshAssaultBattleStarted>
   <FB_FleshAssaultWithdrawLabel>Отвести стаю</FB_FleshAssaultWithdrawLabel>
@@ -44,4 +44,23 @@
   <FB_DevAssaultProbeReport>Оборона: {0} пешек, {1} очков (турелей: {2})\nСтая: {3} пешек, {4} очков\nСоотношение стая/оборона: {5}\nСправка: ванильная генерация тратит на защитников поселения 1150-1600 очков независимо от фракции.</FB_DevAssaultProbeReport>
   <FB_DevAssaultProbeDefenders>Оборона по видам:</FB_DevAssaultProbeDefenders>
   <FB_DevAssaultProbeAttackers>Стая по видам:</FB_DevAssaultProbeAttackers>
+  <FB_FleshAssaultInspectTile>клетка {0}</FB_FleshAssaultInspectTile>
+  <FB_FleshAssaultInspectHalted>Стоит на месте по приказу.</FB_FleshAssaultInspectHalted>
+  <FB_FleshAssaultInspectEta>Дойдёт через: {0}</FB_FleshAssaultInspectEta>
+  <FB_FleshAssaultRetargetLabel>Сменить цель</FB_FleshAssaultRetargetLabel>
+  <FB_FleshAssaultRetargetDesc>Выбрать другое поселение: стая развернётся и пойдёт на него, даже если уже возвращается с добычей. В ручном бою груз стаи ложится у края карты, откуда она вошла, и его можно снова забрать караваном возврата. В автоматическом бою груз остаётся при стае и теряется вместе с ней при поражении. После боя стая сама возвращается в свой аванпост.</FB_FleshAssaultRetargetDesc>
+  <FB_FleshAssaultRetargetTooltip>{0}: оборона {1}, сила стаи {2}</FB_FleshAssaultRetargetTooltip>
+  <FB_FleshAssaultRetargeted>Стая развернулась на «{0}».</FB_FleshAssaultRetargeted>
+  <FB_FleshAssaultReturnLabel>Вернуться...</FB_FleshAssaultReturnLabel>
+  <FB_FleshAssaultReturnDesc>Прервать поход и вернуться в свой аванпост или выбрать другой. Твари и добыча осядут в выбранном аванпосте, и он станет для стаи домом.</FB_FleshAssaultReturnDesc>
+  <FB_FleshAssaultReturnOption>{0} — клеток: {1}</FB_FleshAssaultReturnOption>
+  <FB_FleshAssaultReturnOptionHome>{0} — клеток: {1} (свой аванпост)</FB_FleshAssaultReturnOptionHome>
+  <FB_FleshAssaultReturnOptionMain>{0} — клеток: {1} (главный аванпост)</FB_FleshAssaultReturnOptionMain>
+  <FB_FleshAssaultReturnNoOutposts>Нет аванпостов, до которых стая может дойти.</FB_FleshAssaultReturnNoOutposts>
+  <FB_FleshAssaultReturnOrdered>Стая возвращается: {0}.</FB_FleshAssaultReturnOrdered>
+  <FB_FleshAssaultOrderNoRoute>Стая не может туда дойти.</FB_FleshAssaultOrderNoRoute>
+  <FB_FleshAssaultHaltLabel>Стоять</FB_FleshAssaultHaltLabel>
+  <FB_FleshAssaultHaltDesc>Остановить стаю на месте до нового приказа, чтобы она не шла впустую. Смена цели и приказ вернуться снимают остановку.</FB_FleshAssaultHaltDesc>
+  <FB_FleshAssaultHaltAwaitingBattle>Стая уже у цели и ждёт решения о бое.</FB_FleshAssaultHaltAwaitingBattle>
+  <FB_FleshAssaultCargoDropped>Груз стаи сложен у края карты: {0} стаков.</FB_FleshAssaultCargoDropped>
 </LanguageData>

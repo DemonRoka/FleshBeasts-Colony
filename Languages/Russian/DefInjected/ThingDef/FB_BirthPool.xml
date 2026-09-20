@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<FB_BirthPoolRim.label>бортик омута рождения</FB_BirthPoolRim.label>
+	<FB_BirthPoolRim.description>Замкните проходимыми бортиками область из 9–256 свободных клеток и включите гемогелевую жидкость. Омут использует меню заказов сердца и расходует гемогель прямо из сети колонии на рождение биошматов и автоматическую регенерацию.</FB_BirthPoolRim.description>
+</LanguageData>

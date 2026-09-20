@@ -32,14 +32,13 @@ Remaining: {1}</FB_PlanetaryNetworkOutpostOrder>
   <FB_FirstOutpostConvertCompleted>Map consumed. Evacuated pawns: {0}. Flesh refund: {1} hemogel.</FB_FirstOutpostConvertCompleted>
   <FB_PlanetaryNetworkExpansionDesc>Choose the active Moon or flesh outpost with the reserve bar, then spread flesh or grow another command center.</FB_PlanetaryNetworkExpansionDesc>
   <FB_PlanetaryNetworkNodeReserveBar>Network reserve: {0} / {1}</FB_PlanetaryNetworkNodeReserveBar>
-  <FB_PlanetaryNetworkNodeReserveTooltip>Hemogel available to the connected flesh component controlled from the outpost on tile {0}. Click to choose another node.</FB_PlanetaryNetworkNodeReserveTooltip>
+  <FB_PlanetaryNetworkNodeReserveTooltip>Hemogel available to the connected flesh component of this outpost: {0}. Click to choose another node.</FB_PlanetaryNetworkNodeReserveTooltip>
   <FB_PlanetaryNetworkMoonReserveBar>Moon reserve: {0} / {1}</FB_PlanetaryNetworkMoonReserveBar>
   <FB_PlanetaryNetworkMoonReserveTooltip>The Moon strategic commands spend only its own internal reserve. Click to choose another node.</FB_PlanetaryNetworkMoonReserveTooltip>
   <FB_PlanetaryNetworkNoNodeSelected>No flesh network node selected</FB_PlanetaryNetworkNoNodeSelected>
   <FB_PlanetaryNetworkSelectNodeTooltip>Click to select the Moon or a flesh outpost.</FB_PlanetaryNetworkSelectNodeTooltip>
   <FB_PlanetaryNetworkSourceMoon>Flesh moon</FB_PlanetaryNetworkSourceMoon>
-  <FB_PlanetaryNetworkSourceOutpost>Outpost at tile {0}</FB_PlanetaryNetworkSourceOutpost>
-  <FB_PlanetaryNetworkSourceOutpostNetwork>Outpost network: {0} outposts (tile {1})</FB_PlanetaryNetworkSourceOutpostNetwork>
+  <FB_PlanetaryNetworkSourceOutpostInNetwork>{0} — network {1}</FB_PlanetaryNetworkSourceOutpostInNetwork>
   <FB_PlanetaryNetworkCaptureDesc>Left-click to choose an empty world tile adjacent to covered territory and issue one paid capture order. Distance from the outpost does not matter. Live hostile settlements cannot be consumed by this command; use Attack settlement instead. Right-click toggles automatic expansion; an idle outpost then chooses the cheapest valid empty tile on its own part of the frontier, next to the network tiles that are closer to it than to other outposts, and if there is none there it takes the nearest empty frontier tile of the network. Outposts of one network pay from the shared reserve in turn: the one that has gone longest without starting a capture tries first, and if it cannot afford its tile, the next one tries. If the moon is connected to the network, its reserve also pays. If hemogel is insufficient, automatic expansion stays enabled and waits for the network reserve to refill.</FB_PlanetaryNetworkCaptureDesc>
   <FB_PlanetaryNetworkAutoCaptureState>Automatic expansion: {0}</FB_PlanetaryNetworkAutoCaptureState>
   <FB_PlanetaryNetworkCreateOutpostDesc>Grow an outpost on a flesh-covered tile in this network with no open local map. Cost: {0} hemogel. The outpost keeps part of its yield; {1}% reaches the network.</FB_PlanetaryNetworkCreateOutpostDesc>
@@ -56,7 +55,42 @@ Remaining: {1}</FB_PlanetaryNetworkOutpostOrder>
   <FB_PlanetaryNetworkMoonLowersUmbilicus>No umbilicus is attached to this tile yet, so the Moon lowers its mapless feeding link here as part of the same operation.</FB_PlanetaryNetworkMoonLowersUmbilicus>
   <FB_PlanetaryNetworkOutpostTab>Hemogel</FB_PlanetaryNetworkOutpostTab>
   <FB_PlanetaryNetworkOutpostTabTitle>Network hemogel</FB_PlanetaryNetworkOutpostTabTitle>
-  <FB_PlanetaryNetworkOutpostRenamed>The outpost network is now called "{0}".</FB_PlanetaryNetworkOutpostRenamed>
+  <FB_PlanetaryNetworkOutpostRenamed>The outpost is now called "{0}".</FB_PlanetaryNetworkOutpostRenamed>
+  <FB_PlanetaryNetworkOutpostUnnamed>{0} (tile {1})</FB_PlanetaryNetworkOutpostUnnamed>
+  <FB_PlanetaryNetworkOutpostRenameDesc>Give this outpost its own name. It is shown on the world map, in the outpost list and in the network source menu.</FB_PlanetaryNetworkOutpostRenameDesc>
+  <FB_PlanetaryNetworkOutpostColor>Icon color</FB_PlanetaryNetworkOutpostColor>
+  <FB_PlanetaryNetworkOutpostColorDesc>The color that marks this outpost on the world map and in lists. An outpost grown from it will start with the same color.</FB_PlanetaryNetworkOutpostColorDesc>
+  <FB_PlanetaryNetworkSourceOutpostMain>{0} (main)</FB_PlanetaryNetworkSourceOutpostMain>
+
+  <FB_OutpostManagementTab>Outpost</FB_OutpostManagementTab>
+  <FB_OutpostManagementMain>Main outpost</FB_OutpostManagementMain>
+  <FB_OutpostManagementMainDesc>There is one main outpost for the whole colony. It comes first in outpost lists, in the planetary network source menu and in the pack's return menu. The planetary network, when opened with no outpost selected, shows this one. Click again to clear the mark.</FB_OutpostManagementMainDesc>
+  <FB_OutpostManagementColorReset>Reset</FB_OutpostManagementColorReset>
+  <FB_OutpostManagementColorResetDesc>Return the icon to the usual color of flesh structures.</FB_OutpostManagementColorResetDesc>
+  <FB_OutpostManagementColorCustom>Custom color...</FB_OutpostManagementColorCustom>
+  <FB_OutpostManagementColorCustomDesc>Open the color picker with a color wheel and a larger palette.</FB_OutpostManagementColorCustomDesc>
+  <FB_OutpostManagementListTitle>Outposts: {0}</FB_OutpostManagementListTitle>
+  <FB_OutpostManagementOpenOverview>Detailed list</FB_OutpostManagementOpenOverview>
+
+  <FB_OutpostOverviewCommand>Outpost list</FB_OutpostOverviewCommand>
+  <FB_OutpostOverviewCommandDesc>Open the overview of all outposts by network: names, colors, auto-capture, delivery routes, beast stock and a quick jump to any of them.</FB_OutpostOverviewCommandDesc>
+  <FB_OutpostOverviewTitle>Outposts</FB_OutpostOverviewTitle>
+  <FB_OutpostOverviewEmpty>There are no outposts yet.</FB_OutpostOverviewEmpty>
+  <FB_OutpostOverviewNetworkHeader>Network {0} · outposts: {1}</FB_OutpostOverviewNetworkHeader>
+  <FB_OutpostOverviewColumnOutpost>Outpost</FB_OutpostOverviewColumnOutpost>
+  <FB_OutpostOverviewColumnAuto>Auto-capture</FB_OutpostOverviewColumnAuto>
+  <FB_OutpostOverviewColumnRoute>Delivery route</FB_OutpostOverviewColumnRoute>
+  <FB_OutpostOverviewColumnAutoDispatch>Auto-forward</FB_OutpostOverviewColumnAutoDispatch>
+  <FB_OutpostOverviewColumnAutoBeasts>Beast transfer</FB_OutpostOverviewColumnAutoBeasts>
+  <FB_OutpostOverviewColumnBeasts>Beasts</FB_OutpostOverviewColumnBeasts>
+  <FB_OutpostOverviewColorTip>Choose the outpost's icon color.</FB_OutpostOverviewColorTip>
+  <FB_OutpostOverviewAutoTip>Automatic capture of neighboring tiles by this outpost. The checkbox can be dragged across rows.</FB_OutpostOverviewAutoTip>
+  <FB_OutpostOverviewRouteTip>The outpost this outpost sends its storage to by supply caravan. Click to pick from the list, or drag the button across rows to give other outposts the same route. A route that would close into a loop is skipped while dragging.</FB_OutpostOverviewRouteTip>
+  <FB_OutpostOverviewRouteNone>No route</FB_OutpostOverviewRouteNone>
+  <FB_OutpostOverviewRouteOption>{0} — tiles: {1}</FB_OutpostOverviewRouteOption>
+  <FB_OutpostOverviewAutoDispatchTip>Every {0} the outpost sends its accumulated storage along the delivery route on its own. Cannot be enabled without a route. The checkbox can be dragged across rows.</FB_OutpostOverviewAutoDispatchTip>
+  <FB_OutpostOverviewAutoBeastsTip>Every {0} the outpost sends all of its beasts along the delivery route by supply caravan. Cannot be enabled without a route. The checkbox can be dragged across rows.</FB_OutpostOverviewAutoBeastsTip>
+  <FB_OutpostOverviewJump>Show</FB_OutpostOverviewJump>
   <FB_PlanetaryNetworkBalance>Balance</FB_PlanetaryNetworkBalance>
   <FB_PlanetaryNetworkMoonStatus>Moon</FB_PlanetaryNetworkMoonStatus>
   <FB_PlanetaryNetworkCoveredTiles>Covered tiles</FB_PlanetaryNetworkCoveredTiles>
@@ -143,9 +177,9 @@ Difficulty: {1}</FB_PlanetaryNetworkAssaultTargetTooltip>
   <FB_PlanetaryNetworkAssaultPredictedWin>expected victory</FB_PlanetaryNetworkAssaultPredictedWin>
   <FB_PlanetaryNetworkAssaultPredictedLoss>too weak</FB_PlanetaryNetworkAssaultPredictedLoss>
   <FB_PlanetaryNetworkAssaultLaunched>A flesh assault party was launched against {0}. Strength: {1}.</FB_PlanetaryNetworkAssaultLaunched>
-  <FB_FleshAssaultInspectAttacking>Attacking tile {1}
+  <FB_FleshAssaultInspectAttacking>Marching to attack: {1}
 Strength: {0}</FB_FleshAssaultInspectAttacking>
-  <FB_FleshAssaultInspectCarrying>Hauling loot to tile {0}
+  <FB_FleshAssaultInspectCarrying>Returning to: {0}
 Beasts: {1}   Cargo: {2} stack(s), {3} / {4} kg</FB_FleshAssaultInspectCarrying>
   <FB_FleshAssaultVictoryLabel>Settlement destroyed</FB_FleshAssaultVictoryLabel>
   <FB_FleshAssaultVictoryText>The flesh assault party destroyed {0} without opening a tactical map. Beasts returning home: {1}, lost in the fight: {2}.</FB_FleshAssaultVictoryText>
@@ -173,6 +207,12 @@ Beasts: {1}   Cargo: {2} stack(s), {3} / {4} kg</FB_FleshSupplyCaravanInspect>
   <FB_FleshSupplyCaravanInspectReturning>Returning to tile {0}
 Beasts: {1}   Cargo: {2} stack(s), {3} / {4} kg</FB_FleshSupplyCaravanInspectReturning>
   <FB_FleshSupplyCaravanCargoHeader>Carriers: {0}   Cargo: {1} stack(s), {2} / {3} kg</FB_FleshSupplyCaravanCargoHeader>
+  <FB_FleshSupplyCaravanInspectBeasts>Beasts aboard: {0}</FB_FleshSupplyCaravanInspectBeasts>
+  <FB_FleshBeastCaravanLaunched>A caravan carrying {0} beast(s) set out for {1}.</FB_FleshBeastCaravanLaunched>
+  <FB_FleshBeastCaravanArrived>A caravan brought {0} beast(s) to {1}.</FB_FleshBeastCaravanArrived>
+  <FB_FleshBeastCaravanReturned>The caravan brought {0} beast(s) back to the outpost it left from.</FB_FleshBeastCaravanReturned>
+  <FB_FleshBeastCaravanLost>A caravan had nowhere to arrive and {0} beast(s) were lost.</FB_FleshBeastCaravanLost>
+  <FB_FleshBeastTransferTargetTooltip>Move beasts to {0}</FB_FleshBeastTransferTargetTooltip>
   <FB_FleshAmbushCampDispatchInspect>Next supply caravan: {0}</FB_FleshAmbushCampDispatchInspect>
   <FB_FleshAmbushCampDispatchManual>Supply caravans: manual only</FB_FleshAmbushCampDispatchManual>
   <FB_FleshSupplyRouteCommand>Delivery route</FB_FleshSupplyRouteCommand>

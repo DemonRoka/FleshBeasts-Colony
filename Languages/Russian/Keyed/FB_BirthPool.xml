@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<FB_BirthPool_Name>Омут рождения {0}</FB_BirthPool_Name>
+	<FB_BirthPool_StatusLine>{0}: {1}</FB_BirthPool_StatusLine>
+	<FB_BirthPool_Updating>Пересчёт контура</FB_BirthPool_Updating>
+	<FB_BirthPool_Unsealed>Контур не замкнут или не имеет внутренней области</FB_BirthPool_Unsealed>
+	<FB_BirthPool_MapEdge>Контур не должен касаться края карты</FB_BirthPool_MapEdge>
+	<FB_BirthPool_TooLarge>Омут превышает допустимый размер</FB_BirthPool_TooLarge>
+	<FB_BirthPool_TooSmall>Нужно не менее {0} внутренних клеток</FB_BirthPool_TooSmall>
+	<FB_BirthPool_Overlapping>Контуры омутов пересекаются или вложены друг в друга</FB_BirthPool_Overlapping>
+	<FB_BirthPool_Obstructed>Освободите внутреннюю область: препятствия, чужая жидкость или основание</FB_BirthPool_Obstructed>
+	<FB_BirthPool_Empty>Пуст</FB_BirthPool_Empty>
+	<FB_BirthPool_Ready>Работает</FB_BirthPool_Ready>
+	<FB_BirthPool_Disconnected>Нет подключения к гемогелевой сети</FB_BirthPool_Disconnected>
+	<FB_BirthPool_Idle>ожидание</FB_BirthPool_Idle>
+	<FB_BirthPool_Growing>выращивание биошмата</FB_BirthPool_Growing>
+	<FB_BirthPool_NoHemogel>ожидание гемогеля в сети</FB_BirthPool_NoHemogel>
+	<FB_BirthPool_NoSpace>ожидание свободной клетки жидкости</FB_BirthPool_NoSpace>
+	<FB_BirthPool_NetworkReserveLine>Гемогель в сети: {0}</FB_BirthPool_NetworkReserveLine>
+	<FB_BirthPool_AreaLine>Жидкость: {0} / {1} клеток. Скорость роста: ×{2}</FB_BirthPool_AreaLine>
+	<FB_BirthPool_WorkLine>Рождение: {0}. Лечатся: {1}</FB_BirthPool_WorkLine>
+	<FB_BirthPool_NetworkDetail>Рождение и регенерация расходуют гемогель напрямую из сети колонии.</FB_BirthPool_NetworkDetail>
+	<FB_BirthPool_FillLabel>Залить резервуар</FB_BirthPool_FillLabel>
+	<FB_BirthPool_FillDesc>Пока включено, внутренняя область замкнутого контура залита гемогелевой жидкостью; при выключении жидкость уходит. Отдельного запаса и платы за заливку нет. Рождение управляется заказами, а регенерация действует автоматически и расходует гемогель сети.</FB_BirthPool_FillDesc>
+	<FB_BirthPool_CreateAreaLabel>Создать зону внутри</FB_BirthPool_CreateAreaLabel>
+	<FB_BirthPool_CreateAreaDesc>Создать разрешённую зону внутри контура. Существ нужно назначить вручную. Повторное нажатие обновит эту же зону, заменив её прежние клетки.</FB_BirthPool_CreateAreaDesc>
+	<FB_BirthPool_AreaLimit>Невозможно создать ещё одну разрешённую зону.</FB_BirthPool_AreaLimit>
+	<FB_BirthPool_AreaCreated>Зона «{0}» создана или обновлена по внутренней области. Назначьте её существам в настройках разрешённых зон.</FB_BirthPool_AreaCreated>
+	<FB_BirthPool_BuildLabel>Бортик омута рождения</FB_BirthPool_BuildLabel>
+	<FB_BirthPool_BuildDesc>Вырастить проходимые бортики на плотяной земле и замкнуть контур вокруг {0}–{1} свободных клеток. Через любой сегмент доступны жидкость, общие заказы как у сердца и создание разрешённой зоны внутри. Рождение и автоматическая регенерация расходуют гемогель прямо из сети.</FB_BirthPool_BuildDesc>
+</LanguageData>

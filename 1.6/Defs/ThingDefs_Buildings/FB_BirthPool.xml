@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- Постройка: birth pool rim (FB_BirthPoolRim) -->
+	<ThingDef ParentName="BuildingColonyFleshBase">
+		<defName>FB_BirthPoolRim</defName>
+		<label>birth pool rim</label>
+		<description>Build a closed outline of walkable rims around 9 to 256 clear cells and enable its hemogel liquid. The pool uses the heart's bill menu and draws hemogel directly from the colony network for births and automatic regeneration.</description>
+		<thingClass>FB.Building_BirthPoolRim</thingClass>
+		<graphicData>
+			<texPath>Things/Building/FB_Organic/BirthPool/BirthPoolRim_Atlas</texPath>
+			<graphicClass>FB.Graphic_BirthPoolRim</graphicClass>
+			<shaderType>Cutout</shaderType>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<uiIconPath>UI/Commands/BirthPool/BuildRim</uiIconPath>
+		<drawStyleCategory>Walls</drawStyleCategory>
+		<size>(1,1)</size>
+		<passability>Standable</passability>
+		<pathCost>8</pathCost>
+		<blockWind>false</blockWind>
+		<fillPercent>0.15</fillPercent>
+		<holdsRoof>false</holdsRoof>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<Beauty>-2</Beauty>
+			<Flammability>0.4</Flammability>
+		</statBases>
+		<inspectorTabs>
+			<li>FB.ITab_FleshbeastBills</li>
+		</inspectorTabs>
+		<researchPrerequisites>
+			<li>FB_BirthPoolResearch</li>
+		</researchPrerequisites>
+		<modExtensions>
+			<li Class="FB.BirthPoolExtension">
+				<liquid>FB_HemogelPuddle</liquid>
+				<minimumCells>9</minimumCells>
+				<maximumCells>256</maximumCells>
+				<maximumSearchCells>4096</maximumSearchCells>
+				<birthCostFactor>1.25</birthCostFactor>
+				<baseSpeed>2</baseSpeed>
+				<speedPerCell>0.125</speedPerCell>
+				<maximumSpeed>6</maximumSpeed>
+				<simulationInterval>15</simulationInterval>
+				<healingInterval>250</healingInterval>
+				<conditionCheckInterval>2500</conditionCheckInterval>
+				<partHemogelPerHitPoint>4</partHemogelPerHitPoint>
+				<scarHemogelPerHitPoint>3</scarHemogelPerHitPoint>
+				<injuryHemogelPerHitPoint>1</injuryHemogelPerHitPoint>
+				<partRegrowthTicks>15000</partRegrowthTicks>
+				<scarHealingTicks>7500</scarHealingTicks>
+				<injuryHealingTicks>2500</injuryHealingTicks>
+				<fillIconPath>UI/Commands/BirthPool/Fill</fillIconPath>
+				<areaIconPath>UI/Commands/BirthPool/CreateArea</areaIconPath>
+				<recipes>
+					<li>FB_GrowFingerspikeFromHemogel</li>
+					<li>FB_GrowTrispikeFromHemogel</li>
+					<li>FB_GrowToughspikeFromHemogel</li>
+					<li>FB_GrowBulbfreakFromHemogel</li>
+					<li>FB_GrowFourFingerspikesFromHemogel</li>
+					<li>FB_GrowFourTrispikesFromHemogel</li>
+					<li>FB_GrowFourToughspikesFromHemogel</li>
+				</recipes>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<!-- Покрытие: hemogel puddle (FB_HemogelPuddle) -->
+	<TerrainDef>
+		<defName>FB_HemogelPuddle</defName>
+		<label>hemogel puddle</label>
+		<description>Hemogel liquid in a birth pool automatically restores missing natural parts, scars and injuries of compatible creatures standing inside, consuming hemogel directly from the network. It does not replace implants or cure diseases.</description>
+		<texturePath>Terrain/Surfaces/HemogelPuddle</texturePath>
+		<waterDepthShader>Map/WaterDepth</waterDepthShader>
+		<edgeType>Water</edgeType>
+		<renderPrecedence>394</renderPrecedence>
+		<color>(0.65,0.15,0.23)</color>
+		<passability>Standable</passability>
+		<pathCost>8</pathCost>
+		<fertility>0</fertility>
+		<avoidWander>false</avoidWander>
+		<holdSnowOrSand>false</holdSnowOrSand>
+		<takeSplashes>true</takeSplashes>
+		<extinguishesFire>true</extinguishesFire>
+		<dangerous>false</dangerous>
+		<burnDamage>0</burnDamage>
+		<canFreeze>false</canFreeze>
+		<canBePolluted>false</canBePolluted>
+		<waterBodyType>None</waterBodyType>
+		<temporary>true</temporary>
+		<tempTerrain>
+			<destroysFloors>false</destroysFloors>
+			<removedByExplosions>false</removedByExplosions>
+			<replaceableByBridge>false</replaceableByBridge>
+		</tempTerrain>
+		<affordances>
+			<li>Walkable</li>
+		</affordances>
+		<filthAcceptanceMask>
+			<li>None</li>
+		</filthAcceptanceMask>
+		<tags>
+			<li>FB_FleshColonyTerrain</li>
+		</tags>
+	</TerrainDef>
+
+	<!-- Исследование: birth pools (FB_BirthPoolResearch) -->
+	<ResearchProjectDef>
+		<defName>FB_BirthPoolResearch</defName>
+		<label>birth pools</label>
+		<description>Create birth pools of your own shape. Toggle their liquid on or off, grow fleshbeasts through the heart's bill menu and automatically regenerate compatible creatures using network hemogel.</description>
+		<tab>FB_Fleshbeast</tab>
+		<techLevel>Industrial</techLevel>
+		<baseCost>2400</baseCost>
+		<prerequisites>
+			<li>FB_GastricChambers</li>
+		</prerequisites>
+		<researchViewX>4.00</researchViewX>
+		<researchViewY>3.40</researchViewY>
+	</ResearchProjectDef>
+
+	<!-- Архитектор плоти: birth pool rim (FB_FleshArchitect_BirthPoolRim) -->
+	<FB.FleshArchitectDesignatorDef>
+		<defName>FB_FleshArchitect_BirthPoolRim</defName>
+		<category>FB_FleshArchitect_Reproduction</category>
+		<className>FB.Designator_BirthPoolRim</className>
+		<iconPath>UI/Commands/BirthPool/BuildRim</iconPath>
+		<targetThingDef>FB_BirthPoolRim</targetThingDef>
+		<hemogelCost>30</hemogelCost>
+		<labelKey>FB_BirthPool_BuildLabel</labelKey>
+		<descriptionKey>FB_BirthPool_BuildDesc</descriptionKey>
+		<requiredResearch>FB_BirthPoolResearch</requiredResearch>
+		<requiredSourceBuilding>FB_ColonyBrain</requiredSourceBuilding>
+		<order>125</order>
+	</FB.FleshArchitectDesignatorDef>
+</Defs>

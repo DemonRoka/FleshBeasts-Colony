@@ -10,7 +10,7 @@
   <FB_FleshAssaultArrivalAuto>Automatic battle</FB_FleshAssaultArrivalAuto>
   <FB_FleshAssaultArrivalTimeout>The pack will wait {0} for orders. Without an answer it fights the battle on its own.</FB_FleshAssaultArrivalTimeout>
   <FB_FleshAssaultArrivalTimedOut>The pack at {0} waited too long for orders and resolved the battle itself.</FB_FleshAssaultArrivalTimedOut>
-  <FB_FleshAssaultInspectAwaitingOrder>Awaiting orders at tile {0}
+  <FB_FleshAssaultInspectAwaitingOrder>Awaiting orders: {0}
 Automatic battle in: {1}</FB_FleshAssaultInspectAwaitingOrder>
   <FB_FleshAssaultBattleStarted>The pack landed at {0}: {1} beasts are on the map. The map is held until you withdraw them - select the settlement on the world map and press "Withdraw pack".</FB_FleshAssaultBattleStarted>
   <FB_FleshAssaultWithdrawLabel>Withdraw pack</FB_FleshAssaultWithdrawLabel>
@@ -44,4 +44,23 @@ Automatic battle in: {1}</FB_FleshAssaultInspectAwaitingOrder>
   <FB_DevAssaultProbeReport>Defence: {0} pawns, {1} points (turrets: {2})\nPack: {3} pawns, {4} points\nPack/defence ratio: {5}\nReference: vanilla generation spends 1150-1600 points on settlement defenders regardless of faction.</FB_DevAssaultProbeReport>
   <FB_DevAssaultProbeDefenders>Defenders by kind:</FB_DevAssaultProbeDefenders>
   <FB_DevAssaultProbeAttackers>Pack by kind:</FB_DevAssaultProbeAttackers>
+  <FB_FleshAssaultInspectTile>tile {0}</FB_FleshAssaultInspectTile>
+  <FB_FleshAssaultInspectHalted>Holding position as ordered.</FB_FleshAssaultInspectHalted>
+  <FB_FleshAssaultInspectEta>Arrives in: {0}</FB_FleshAssaultInspectEta>
+  <FB_FleshAssaultRetargetLabel>Change target</FB_FleshAssaultRetargetLabel>
+  <FB_FleshAssaultRetargetDesc>Choose another settlement: the pack turns around and marches on it, even if it is already returning with loot. In a manual battle the pack's cargo is left at the map edge where it entered and can be picked up again by the return caravan. In an automatic battle the cargo stays with the pack and is lost with it on defeat. After the battle the pack returns to its outpost on its own.</FB_FleshAssaultRetargetDesc>
+  <FB_FleshAssaultRetargetTooltip>{0}: defense {1}, pack strength {2}</FB_FleshAssaultRetargetTooltip>
+  <FB_FleshAssaultRetargeted>The pack turned toward "{0}".</FB_FleshAssaultRetargeted>
+  <FB_FleshAssaultReturnLabel>Return...</FB_FleshAssaultReturnLabel>
+  <FB_FleshAssaultReturnDesc>Abort the march and return to the pack's outpost, or choose another one. The beasts and loot settle in the chosen outpost, which becomes the pack's home.</FB_FleshAssaultReturnDesc>
+  <FB_FleshAssaultReturnOption>{0} — tiles: {1}</FB_FleshAssaultReturnOption>
+  <FB_FleshAssaultReturnOptionHome>{0} — tiles: {1} (home outpost)</FB_FleshAssaultReturnOptionHome>
+  <FB_FleshAssaultReturnOptionMain>{0} — tiles: {1} (main outpost)</FB_FleshAssaultReturnOptionMain>
+  <FB_FleshAssaultReturnNoOutposts>There are no outposts the pack can reach.</FB_FleshAssaultReturnNoOutposts>
+  <FB_FleshAssaultReturnOrdered>The pack is returning to: {0}.</FB_FleshAssaultReturnOrdered>
+  <FB_FleshAssaultOrderNoRoute>The pack cannot reach that place.</FB_FleshAssaultOrderNoRoute>
+  <FB_FleshAssaultHaltLabel>Hold position</FB_FleshAssaultHaltLabel>
+  <FB_FleshAssaultHaltDesc>Stop the pack where it stands until a new order, so it does not march for nothing. Changing the target or ordering a return lifts the halt.</FB_FleshAssaultHaltDesc>
+  <FB_FleshAssaultHaltAwaitingBattle>The pack is already at its target and awaits the battle decision.</FB_FleshAssaultHaltAwaitingBattle>
+  <FB_FleshAssaultCargoDropped>The pack's cargo was left at the map edge: {0} stack(s).</FB_FleshAssaultCargoDropped>
 </LanguageData>

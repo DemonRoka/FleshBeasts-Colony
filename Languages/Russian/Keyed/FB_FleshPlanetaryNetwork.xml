@@ -32,14 +32,13 @@
   <FB_FirstOutpostConvertCompleted>Карта поглощена. Эвакуировано существ: {0}. Возврат за плоть: {1} гемогеля.</FB_FirstOutpostConvertCompleted>
   <FB_PlanetaryNetworkExpansionDesc>Выберите активную Луну или аванпост через полосу резерва, затем распространяйте плоть или выращивайте новый командный центр.</FB_PlanetaryNetworkExpansionDesc>
   <FB_PlanetaryNetworkNodeReserveBar>Резерв сети: {0} / {1}</FB_PlanetaryNetworkNodeReserveBar>
-  <FB_PlanetaryNetworkNodeReserveTooltip>Гемогель связного очага плоти, которым управляет аванпост на клетке {0}. Нажмите, чтобы выбрать другой узел.</FB_PlanetaryNetworkNodeReserveTooltip>
+  <FB_PlanetaryNetworkNodeReserveTooltip>Гемогель связного очага плоти, к которому подключён аванпост: {0}. Нажмите, чтобы выбрать другой узел.</FB_PlanetaryNetworkNodeReserveTooltip>
   <FB_PlanetaryNetworkMoonReserveBar>Резерв Луны: {0} / {1}</FB_PlanetaryNetworkMoonReserveBar>
   <FB_PlanetaryNetworkMoonReserveTooltip>Стратегические команды Луны расходуют только её собственный внутренний резерв. Нажмите, чтобы выбрать другой узел.</FB_PlanetaryNetworkMoonReserveTooltip>
   <FB_PlanetaryNetworkNoNodeSelected>Узел сети плоти не выбран</FB_PlanetaryNetworkNoNodeSelected>
   <FB_PlanetaryNetworkSelectNodeTooltip>Нажмите, чтобы выбрать Луну или аванпост плоти.</FB_PlanetaryNetworkSelectNodeTooltip>
   <FB_PlanetaryNetworkSourceMoon>Луна плоти</FB_PlanetaryNetworkSourceMoon>
-  <FB_PlanetaryNetworkSourceOutpost>Аванпост на клетке {0}</FB_PlanetaryNetworkSourceOutpost>
-  <FB_PlanetaryNetworkSourceOutpostNetwork>Сеть аванпостов: {0} шт. (клетка {1})</FB_PlanetaryNetworkSourceOutpostNetwork>
+  <FB_PlanetaryNetworkSourceOutpostInNetwork>{0} — сеть {1}</FB_PlanetaryNetworkSourceOutpostInNetwork>
   <FB_PlanetaryNetworkCaptureDesc>ЛКМ: выбрать пустую мировую клетку, примыкающую к покрытой территории, и отдать один оплачиваемый приказ захвата. Расстояние до аванпоста значения не имеет. Живые враждебные поселения нельзя поглотить этой командой; используйте «Атаковать поселение». ПКМ: включить автоматическое разрастание; свободный аванпост выбирает самую дешёвую доступную пустую клетку своей части границы — рядом с клетками сети, которые ближе к нему, чем к другим аванпостам, а если там подходящих клеток нет, берёт ближайшую пустую клетку границы сети. Аванпосты одной сети платят из общего резерва по очереди: первым пробует тот, кто дольше всех не начинал захват, а если ему не хватает гемогеля, пробует следующий. Если луна подключена к сети, её резерв тоже идёт на оплату. При нехватке гемогеля автоматический режим остаётся включённым и ждёт пополнения резерва сети.</FB_PlanetaryNetworkCaptureDesc>
   <FB_PlanetaryNetworkAutoCaptureState>Автоматическое разрастание: {0}</FB_PlanetaryNetworkAutoCaptureState>
   <FB_PlanetaryNetworkCreateOutpostDesc>Вырастить аванпост на покрытой плотью клетке этой сети, для которой не открыта карта местности. Расход: {0} гемогеля. Часть добычи аванпост оставляет себе; в сеть поступает {1}%.</FB_PlanetaryNetworkCreateOutpostDesc>
@@ -56,7 +55,42 @@
   <FB_PlanetaryNetworkMoonLowersUmbilicus>Пуповина к этой клетке ещё не прикреплена, поэтому Луна опустит сюда питающую привязку без карты в рамках этой же операции.</FB_PlanetaryNetworkMoonLowersUmbilicus>
   <FB_PlanetaryNetworkOutpostTab>Гемогель</FB_PlanetaryNetworkOutpostTab>
   <FB_PlanetaryNetworkOutpostTabTitle>Гемогель сети</FB_PlanetaryNetworkOutpostTabTitle>
-  <FB_PlanetaryNetworkOutpostRenamed>Сеть аванпостов теперь называется «{0}».</FB_PlanetaryNetworkOutpostRenamed>
+  <FB_PlanetaryNetworkOutpostRenamed>Аванпост теперь называется «{0}».</FB_PlanetaryNetworkOutpostRenamed>
+  <FB_PlanetaryNetworkOutpostUnnamed>{0} (клетка {1})</FB_PlanetaryNetworkOutpostUnnamed>
+  <FB_PlanetaryNetworkOutpostRenameDesc>Дать этому аванпосту собственное имя. Оно показывается на карте мира, в списке аванпостов и в выборе источника сети.</FB_PlanetaryNetworkOutpostRenameDesc>
+  <FB_PlanetaryNetworkOutpostColor>Цвет значка</FB_PlanetaryNetworkOutpostColor>
+  <FB_PlanetaryNetworkOutpostColorDesc>Цвет, которым этот аванпост отмечен на карте мира и в списках. Аванпост, выращенный от него, получит тот же цвет.</FB_PlanetaryNetworkOutpostColorDesc>
+  <FB_PlanetaryNetworkSourceOutpostMain>{0} (главный)</FB_PlanetaryNetworkSourceOutpostMain>
+
+  <FB_OutpostManagementTab>Аванпост</FB_OutpostManagementTab>
+  <FB_OutpostManagementMain>Главный аванпост</FB_OutpostManagementMain>
+  <FB_OutpostManagementMainDesc>Главный аванпост один на всю колонию. Он стоит первым в списках аванпостов, в выборе источника планетарной сети и в меню возврата стаи. Планетарная сеть, открытая без выделенного аванпоста, показывает именно его. Повторное нажатие снимает отметку.</FB_OutpostManagementMainDesc>
+  <FB_OutpostManagementColorReset>Сбросить</FB_OutpostManagementColorReset>
+  <FB_OutpostManagementColorResetDesc>Вернуть значку обычный цвет построек плоти.</FB_OutpostManagementColorResetDesc>
+  <FB_OutpostManagementColorCustom>Другой цвет...</FB_OutpostManagementColorCustom>
+  <FB_OutpostManagementColorCustomDesc>Открыть окно выбора цвета с цветовым кругом и расширенной палитрой.</FB_OutpostManagementColorCustomDesc>
+  <FB_OutpostManagementListTitle>Аванпосты: {0}</FB_OutpostManagementListTitle>
+  <FB_OutpostManagementOpenOverview>Подробный список</FB_OutpostManagementOpenOverview>
+
+  <FB_OutpostOverviewCommand>Список аванпостов</FB_OutpostOverviewCommand>
+  <FB_OutpostOverviewCommandDesc>Открыть общий список аванпостов по сетям: имена, цвета, автозахват, маршруты доставки, запасы тварей и быстрый переход к любому из них.</FB_OutpostOverviewCommandDesc>
+  <FB_OutpostOverviewTitle>Аванпосты</FB_OutpostOverviewTitle>
+  <FB_OutpostOverviewEmpty>Аванпостов пока нет.</FB_OutpostOverviewEmpty>
+  <FB_OutpostOverviewNetworkHeader>Сеть {0} · аванпостов: {1}</FB_OutpostOverviewNetworkHeader>
+  <FB_OutpostOverviewColumnOutpost>Аванпост</FB_OutpostOverviewColumnOutpost>
+  <FB_OutpostOverviewColumnAuto>Автозахват</FB_OutpostOverviewColumnAuto>
+  <FB_OutpostOverviewColumnRoute>Маршрут доставки</FB_OutpostOverviewColumnRoute>
+  <FB_OutpostOverviewColumnAutoDispatch>Автопересылка</FB_OutpostOverviewColumnAutoDispatch>
+  <FB_OutpostOverviewColumnAutoBeasts>Отправка тварей</FB_OutpostOverviewColumnAutoBeasts>
+  <FB_OutpostOverviewColumnBeasts>Твари</FB_OutpostOverviewColumnBeasts>
+  <FB_OutpostOverviewColorTip>Выбрать цвет значка аванпоста.</FB_OutpostOverviewColorTip>
+  <FB_OutpostOverviewAutoTip>Автоматический захват соседних клеток этим аванпостом. Флажок можно протянуть по строкам.</FB_OutpostOverviewAutoTip>
+  <FB_OutpostOverviewRouteTip>Аванпост, куда этот аванпост отправляет свой склад караванами снабжения. Нажмите, чтобы выбрать из списка, или протяните кнопку по строкам, чтобы назначить тот же маршрут другим аванпостам. Маршрут, который замкнулся бы в кольцо, при протяжке пропускается.</FB_OutpostOverviewRouteTip>
+  <FB_OutpostOverviewRouteNone>Нет маршрута</FB_OutpostOverviewRouteNone>
+  <FB_OutpostOverviewRouteOption>{0} — клеток: {1}</FB_OutpostOverviewRouteOption>
+  <FB_OutpostOverviewAutoDispatchTip>Раз в {0} аванпост сам отправляет накопленный склад по маршруту доставки. Без маршрута не включается. Флажок можно протянуть по строкам.</FB_OutpostOverviewAutoDispatchTip>
+  <FB_OutpostOverviewAutoBeastsTip>Раз в {0} аванпост отправляет всех своих тварей по маршруту доставки грузовым караваном. Без маршрута не включается. Флажок можно протянуть по строкам.</FB_OutpostOverviewAutoBeastsTip>
+  <FB_OutpostOverviewJump>Показать</FB_OutpostOverviewJump>
   <FB_PlanetaryNetworkBalance>Баланс</FB_PlanetaryNetworkBalance>
   <FB_PlanetaryNetworkMoonStatus>Луна</FB_PlanetaryNetworkMoonStatus>
   <FB_PlanetaryNetworkCoveredTiles>Покрытые клетки</FB_PlanetaryNetworkCoveredTiles>
@@ -143,9 +177,9 @@
   <FB_PlanetaryNetworkAssaultPredictedWin>ожидается победа</FB_PlanetaryNetworkAssaultPredictedWin>
   <FB_PlanetaryNetworkAssaultPredictedLoss>слишком слабый отряд</FB_PlanetaryNetworkAssaultPredictedLoss>
   <FB_PlanetaryNetworkAssaultLaunched>Отряд плоти отправлен против {0}. Сила: {1}.</FB_PlanetaryNetworkAssaultLaunched>
-  <FB_FleshAssaultInspectAttacking>Атакует клетку {1}
+  <FB_FleshAssaultInspectAttacking>Идёт в атаку: {1}
 Сила: {0}</FB_FleshAssaultInspectAttacking>
-  <FB_FleshAssaultInspectCarrying>Несёт добычу к клетке {0}
+  <FB_FleshAssaultInspectCarrying>Возвращается: {0}
 Тварей: {1}   Груз: {2} стаков, {3} / {4} кг</FB_FleshAssaultInspectCarrying>
   <FB_FleshAssaultVictoryLabel>Поселение уничтожено</FB_FleshAssaultVictoryLabel>
   <FB_FleshAssaultVictoryText>Отряд плоти уничтожил {0} без открытия тактической карты. Домой возвращается тварей: {1}, потеряно в бою: {2}.</FB_FleshAssaultVictoryText>
@@ -173,6 +207,12 @@
   <FB_FleshSupplyCaravanInspectReturning>Возвращается на клетку {0}
 Тварей: {1}   Груз: {2} стаков, {3} / {4} кг</FB_FleshSupplyCaravanInspectReturning>
   <FB_FleshSupplyCaravanCargoHeader>Носильщиков: {0}   Груз: {1} стаков, {2} / {3} кг</FB_FleshSupplyCaravanCargoHeader>
+  <FB_FleshSupplyCaravanInspectBeasts>Перевозит тварей: {0}</FB_FleshSupplyCaravanInspectBeasts>
+  <FB_FleshBeastCaravanLaunched>Караван с {0} тварями вышел в {1}.</FB_FleshBeastCaravanLaunched>
+  <FB_FleshBeastCaravanArrived>Караван привёл {0} тварей в {1}.</FB_FleshBeastCaravanArrived>
+  <FB_FleshBeastCaravanReturned>Караван вернул {0} тварей в аванпост, откуда вышел.</FB_FleshBeastCaravanReturned>
+  <FB_FleshBeastCaravanLost>Каравану оказалось некуда прийти, и {0} тварей потеряно.</FB_FleshBeastCaravanLost>
+  <FB_FleshBeastTransferTargetTooltip>Переброска тварей в {0}</FB_FleshBeastTransferTargetTooltip>
   <FB_FleshAmbushCampDispatchInspect>Следующий караван снабжения: {0}</FB_FleshAmbushCampDispatchInspect>
   <FB_FleshAmbushCampDispatchManual>Караваны снабжения: только вручную</FB_FleshAmbushCampDispatchManual>
   <FB_FleshSupplyRouteCommand>Маршрут доставки</FB_FleshSupplyRouteCommand>

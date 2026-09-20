@@ -5,14 +5,14 @@
   <FB_ColonyBrain_Structure_GestationOrganoid_Desc>Родильный орган, удерживающий живого донора и выращивающий из гемогеля потомство его вида. Донор расходуется без возможности возврата.</FB_ColonyBrain_Structure_GestationOrganoid_Desc>
 
   <FB_GestationOrganoidSelectDonorLabel>Выбрать донора</FB_GestationOrganoidSelectDonorLabel>
-  <FB_GestationOrganoidSelectDonorDesc>Выберите живого донора, которого запечатают в родильный мешок. Поваленных существ без фракции приносят грузчики, фракционные пешки приходят сами. Всё помещённое внутрь теряется навсегда.</FB_GestationOrganoidSelectDonorDesc>
+  <FB_GestationOrganoidSelectDonorDesc>Выберите живого донора, которого запечатают в родильный мешок. Свои приходят сами, пленников и поваленных чужаков приносят носильщики. Всё помещённое внутрь теряется навсегда.</FB_GestationOrganoidSelectDonorDesc>
   <FB_GestationOrganoidDonorLostWarning>{0} будет навсегда запечатан(а) внутри гестационного органоида. Донора нельзя достать обратно, он погибнет после исчерпания резервов и будет уничтожен при разборе органоида. Продолжить?</FB_GestationOrganoidDonorLostWarning>
 
   <FB_GestationOrganoidDonorNotOrganic>Вынашивать способна только органика. Механоиды и дроны отвергаются.</FB_GestationOrganoidDonorNotOrganic>
   <FB_GestationOrganoidDonorAnomalous>Аномальные сущности не дают потомства и не годятся в доноры.</FB_GestationOrganoidDonorAnomalous>
   <FB_GestationOrganoidDonorGenderless>Донором может быть только существо с полом.</FB_GestationOrganoidDonorGenderless>
   <FB_GestationOrganoidDonorNotAdult>Донором может быть только взрослая особь.</FB_GestationOrganoidDonorNotAdult>
-  <FB_GestationOrganoidDonorMustBeDowned>Донора без фракции нужно сначала повалить.</FB_GestationOrganoidDonorMustBeDowned>
+  <FB_GestationOrganoidDonorMustBeDowned>Чужого донора нужно сначала повалить или взять в плен.</FB_GestationOrganoidDonorMustBeDowned>
 
   <FB_GestationOrganoidStartCycleLabel>Вырастить тело</FB_GestationOrganoidStartCycleLabel>
   <FB_GestationOrganoidStartCycleDesc>Начать выращивание нового тела из запечатанного донора. Результат: {0}.</FB_GestationOrganoidStartCycleDesc>

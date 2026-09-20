@@ -20,6 +20,13 @@
   <FB_OutpostRemoveBeastsNothing>Отметьте хотя бы одну тварь для удаления.</FB_OutpostRemoveBeastsNothing>
   <FB_OutpostRemoveBeastsConfirm>Удалить тварей из запаса аванпоста: {0}? В резерв сети вернётся {1} гемогеля.</FB_OutpostRemoveBeastsConfirm>
   <FB_OutpostRemoveBeastsDone>Из запаса аванпоста удалено тварей: {0}. В резерв сети вернулось {1} гемогеля.</FB_OutpostRemoveBeastsDone>
+  <FB_OutpostTransferBeastsButton>Перебросить тварей...</FB_OutpostTransferBeastsButton>
+  <FB_OutpostTransferBeastsButtonDesc>Выбрать другой аванпост на карте мира и отправить туда часть запаса тварей грузовым караваном.</FB_OutpostTransferBeastsButtonDesc>
+  <FB_FleshBeastTransferTitle>Переброска тварей в «{0}»</FB_FleshBeastTransferTitle>
+  <FB_FleshBeastTransferInfoRemaining>Останется</FB_FleshBeastTransferInfoRemaining>
+  <FB_FleshBeastTransferInfoRemainingTip>Сколько тварей останется в аванпосте после ухода каравана.</FB_FleshBeastTransferInfoRemainingTip>
+  <FB_FleshBeastTransferInfoTravel>В пути</FB_FleshBeastTransferInfoTravel>
+  <FB_FleshBeastTransferInfoTravelTip>Примерное время дороги до «{0}» по прямой.</FB_FleshBeastTransferInfoTravelTip>
   <FB_FleshGarrisonCardTooltip>{0}\nВ запасе: {1}\nСила в штурме за штуку: {2}</FB_FleshGarrisonCardTooltip>
   <FB_FleshAssaultDeployTitle>Отправить стаю на «{0}»</FB_FleshAssaultDeployTitle>
   <FB_FleshAssaultDeployCategory>Биошматы</FB_FleshAssaultDeployCategory>
