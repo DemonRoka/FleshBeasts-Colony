@@ -5,10 +5,9 @@
   <FB_Onboarding_Disable>Don't show hints</FB_Onboarding_Disable>
 
   <FB_Onboarding_Step1_Header>Grow a {0}</FB_Onboarding_Step1_Header>
-  <FB_Onboarding_Step1_Text>Your colony is one living organism, and the {0} is its core.\n\nHemogel comes from two sources. Passively, through living flesh spreading over the map: the flow never stops, but it is slow. And from corpses - one body is worth hours of passive absorption. Don't burn or bury your dead, they are your food.\n\nBut the organism has nothing to digest with and cannot shape complex organs yet. It needs a {1}. Select the {0}, click "{1}" in the command bar, point at a humanlike corpse lying on colony flesh, then pick a spot. Cost: {2} hemogel.</FB_Onboarding_Step1_Text>
-  <FB_Onboarding_Step1_Action>Show the {0}</FB_Onboarding_Step1_Action>
+  <FB_Onboarding_Step1_Text>Your colony is one living organism, and the {0} is its core.\n\nHemogel comes from two sources. Passively, through living flesh spreading over the map: the flow never stops, but it is slow. And from corpses - one body is worth hours of passive absorption. Don't burn or bury your dead, they are your food.\n\nBut the organism has nothing to digest with and cannot shape complex organs yet. It needs a {1}. Flesh Architect -> "{3}" tab -> {1}: point at a humanlike corpse lying on colony flesh, then pick a spot. The {0} pays {2} hemogel.</FB_Onboarding_Step1_Text>
   <FB_Onboarding_Step1_MaturingHeader>{0} is maturing</FB_Onboarding_Step1_MaturingHeader>
-  <FB_Onboarding_Step1_MaturingText>The embryo is still growing. Once it becomes a {0}, the Flesh Architect tab and the full organ catalogue unlock.</FB_Onboarding_Step1_MaturingText>
+  <FB_Onboarding_Step1_MaturingText>The embryo is still growing. Once it becomes a {0}, the full organ catalogue unlocks in the Flesh Architect.</FB_Onboarding_Step1_MaturingText>
 
   <FB_Onboarding_Step2_Header>Grow a {0}</FB_Onboarding_Step2_Header>
   <FB_Onboarding_Step2_Text>The {0} has matured, so complex organs are available now. What is still missing is a way to digest what you kill.\n\nThe {1} swallows corpses and organic matter and renders them into hemogel. This is the colony's main early income: without it you live on the slow passive trickle and run dry on the first serious organ you try to grow.\n\nFlesh Architect -> "{2}" tab -> {1} ({3} hemogel). Place it on living flesh near the colony, close to where bodies end up.</FB_Onboarding_Step2_Text>

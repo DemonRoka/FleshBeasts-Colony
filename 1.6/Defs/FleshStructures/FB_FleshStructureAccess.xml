@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <FB.FleshStructureAccessDef>
+    <defName>FB_StructureAccess_Architect</defName>
+    <anyBuildingOnMap>
+      <li>FB_ColonyHeart</li>
+      <li>FB_ColonyBrain</li>
+      <li>FB_FleshMoonNerveNode</li>
+    </anyBuildingOnMap>
+    <allowFleshMoonMap>true</allowFleshMoonMap>
+    <allowUmbilicusEnd>true</allowUmbilicusEnd>
+  </FB.FleshStructureAccessDef>
+
+  <FB.FleshStructureAccessDef>
+    <defName>FB_StructureAccess_Colony</defName>
+    <anyBuildingOnMap>
+      <li>FB_ColonyBrain</li>
+      <li>FB_FleshMoonNerveNode</li>
+    </anyBuildingOnMap>
+    <allowLinkedRelay>true</allowLinkedRelay>
+  </FB.FleshStructureAccessDef>
+
+  <FB.FleshStructureAccessDef>
+    <defName>FB_StructureAccess_Heart</defName>
+    <anyBuildingOnMap>
+      <li>FB_ColonyHeart</li>
+      <li>FB_FleshMoonNerveNode</li>
+    </anyBuildingOnMap>
+    <allowLinkedRelay>true</allowLinkedRelay>
+  </FB.FleshStructureAccessDef>
+
+  <FB.FleshStructureAccessDef>
+    <defName>FB_StructureAccess_ColonyBrain</defName>
+    <paymentBuildings>
+      <li>FB_ColonyHeart</li>
+    </paymentBuildings>
+  </FB.FleshStructureAccessDef>
+
+</Defs>

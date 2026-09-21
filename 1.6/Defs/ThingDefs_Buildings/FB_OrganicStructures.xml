@@ -561,22 +561,6 @@
     <li Class="CompProperties_FleshmassBase">
       <size>3</size>
     </li>
-    <li Class="FB.CompProperties_StructureSelector">
-      <structurePairs>
-        <li>
-          <embryoDef>FB_ColonyBrainEmbryo</embryoDef>
-          <label>FB_ColonyHeart_Structure_ColonyBrain_Label</label>
-          <description>FB_ColonyHeart_Structure_ColonyBrain_Desc</description>
-          <texPath>Things/Building/FB_Organic/ColonyBrain/ColonyBrain_icon</texPath>
-          <drawSize>(3,3)</drawSize>
-          <cost>850</cost>
-          <requiredCorpseDefs>
-            <li>Human</li>
-          </requiredCorpseDefs>
-          <fleshArchitectCategory>FB_FleshArchitect_Structures</fleshArchitectCategory>
-        </li>
-      </structurePairs>
-    </li>
     <li Class="FB.CompProperties_PawnContainer">
       <killPawnOnDestroy>false</killPawnOnDestroy>
       <autoReleaseAfterTicks>1800000</autoReleaseAfterTicks>
