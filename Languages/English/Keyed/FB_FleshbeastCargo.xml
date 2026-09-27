@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_FleshbeastCargoTab>Inventory</FB_FleshbeastCargoTab>
+  <FB_FleshbeastCargoHeader>Carrying: {0} of {1}</FB_FleshbeastCargoHeader>
+  <FB_FleshbeastCargoDropTip>Drop it on the ground next to the beast.</FB_FleshbeastCargoDropTip>
+  <FB_FleshbeastCargoUnload>Carry to storage</FB_FleshbeastCargoUnload>
+  <FB_FleshbeastCargoUnloading>Unloading...</FB_FleshbeastCargoUnloading>
+  <FB_FleshbeastCargoUnloadDesc>The beast carries its whole cargo to storage by itself, one load at a time.</FB_FleshbeastCargoUnloadDesc>
+  <FB_FleshbeastCargoCannotUnload>The beast must be on the map, conscious, under control, not drafted and able to walk.</FB_FleshbeastCargoCannotUnload>
+  <FB_FleshbeastCargoDropAll>Drop all</FB_FleshbeastCargoDropAll>
+  <FB_FleshbeastCargoDropAllDesc>Drop the whole cargo on the ground next to the beast.</FB_FleshbeastCargoDropAllDesc>
+  <FB_FleshbeastCargoCannotDrop>The beast must be on the map and under control.</FB_FleshbeastCargoCannotDrop>
+</LanguageData>

@@ -45,7 +45,6 @@
   <FB_FleshMoonBileBombardmentDesc>Выберите точку на карте. Мясная луна сбросит 10 желчных снарядов в радиусе 20 клеток примерно за треть игрового часа.</FB_FleshMoonBileBombardmentDesc>
   <FB_FleshMoonBileBombardmentCostLine>Стоимость из лунного резерва гемогеля: {0}</FB_FleshMoonBileBombardmentCostLine>
   <FB_FleshMoonBileBombardmentNotEnoughHemogel>В резерве мясной луны не хватает {0} гемогеля.</FB_FleshMoonBileBombardmentNotEnoughHemogel>
-  <FB_FleshMoonBileBombardmentNoLink>Связь с мясной луной не закреплена.</FB_FleshMoonBileBombardmentNoLink>
   <FB_FleshMoonBileBombardmentInvalidTarget>Недопустимая цель обстрела.</FB_FleshMoonBileBombardmentInvalidTarget>
   <FB_FleshMoonBileBombardmentStarted>Мясная луна начинает желчный обстрел.</FB_FleshMoonBileBombardmentStarted>
   <FB_FleshMoonOrbitalAbilityNoMoon>Мясная луна недоступна.</FB_FleshMoonOrbitalAbilityNoMoon>

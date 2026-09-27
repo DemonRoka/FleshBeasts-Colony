@@ -30,7 +30,6 @@
   <FB_FleshGarrisonCardTooltip>{0}\nIn stock: {1}\nAssault strength each: {2}</FB_FleshGarrisonCardTooltip>
   <FB_FleshAssaultDeployTitle>Send a pack against {0}</FB_FleshAssaultDeployTitle>
   <FB_FleshAssaultDeployCategory>Fleshbeasts</FB_FleshAssaultDeployCategory>
-  <FB_FleshAssaultDeployStrength>{0} str</FB_FleshAssaultDeployStrength>
   <FB_FleshAssaultDeployInfoUnits>Beasts</FB_FleshAssaultDeployInfoUnits>
   <FB_FleshAssaultDeployInfoUnitsTip>How many beasts will leave with this party.</FB_FleshAssaultDeployInfoUnitsTip>
   <FB_FleshAssaultDeployInfoStrength>Pack strength</FB_FleshAssaultDeployInfoStrength>
@@ -42,5 +41,8 @@
   <FB_FleshAssaultDeploySortCategory>By name</FB_FleshAssaultDeploySortCategory>
   <FB_FleshAssaultDeploySortStrength>By strength</FB_FleshAssaultDeploySortStrength>
   <FB_FleshAssaultDeployAvailableTip>How many beasts of this kind the outpost has in stock.</FB_FleshAssaultDeployAvailableTip>
+  <FB_FleshAssaultDeployStopPointLeft>V&lt;</FB_FleshAssaultDeployStopPointLeft>
+  <FB_FleshAssaultDeployStopPointRight>&gt;V</FB_FleshAssaultDeployStopPointRight>
+  <FB_FleshAssaultDeployStopPointTip>The &gt;V stop marks enough beasts of this kind to bring pack strength to {0}: the target's defence plus a safety margin. Beasts marked in other rows count towards it. Only the automatic battle uses strength; a manual battle is fought on the map.</FB_FleshAssaultDeployStopPointTip>
   <FB_FleshAssaultGarrisonEmpty>This outpost has no grown beasts. Add a growth order in the outpost's Beasts tab first.</FB_FleshAssaultGarrisonEmpty>
 </LanguageData>

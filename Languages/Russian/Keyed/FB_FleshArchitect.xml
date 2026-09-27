@@ -9,8 +9,6 @@
   <FB_GrowEmbryoDescNoCost>Разместить эмбрион, чтобы вырастить {0}.</FB_GrowEmbryoDescNoCost>
   <FB_GrowOrganoidCopy_Label>Копия</FB_GrowOrganoidCopy_Label>
   <FB_GrowOrganoidCopy_Desc>Выбрать место, где плотяной архитектор вырастит ещё один органоид: {0}.</FB_GrowOrganoidCopy_Desc>
-  <FB_CopyFleshmassWallPlan_Label>Разместить план стены плоти</FB_CopyFleshmassWallPlan_Label>
-  <FB_CopyFleshmassWallPlan_Desc>Выбрать клетки, где колония должна вырастить новые стены плоти.</FB_CopyFleshmassWallPlan_Desc>
   <FB_CopyFleshmassBoneWallPlan_Label>Разместить план усиленной стены</FB_CopyFleshmassBoneWallPlan_Label>
   <FB_CopyFleshmassBoneWallPlan_Desc>Выбрать существующие стены плоти, которые колония должна усилить.</FB_CopyFleshmassBoneWallPlan_Desc>
   <FB_HemogelCostLine>Стоимость гемогеля: {0}</FB_HemogelCostLine>

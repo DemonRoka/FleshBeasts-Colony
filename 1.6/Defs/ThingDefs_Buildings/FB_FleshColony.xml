@@ -41,6 +41,7 @@
     <pathCost>50</pathCost>
     <building>
       <deconstructible>false</deconstructible>
+      <repairable>false</repairable>
       <claimable>false</claimable>
     </building>
     <comps>

@@ -71,6 +71,7 @@
     <nullifyingHediffs>
       <li>FB_AcceptanceOfFleshColony</li>
       <li>FB_Fleshgrown</li>
+      <li>Inhumanized</li>
     </nullifyingHediffs>
     <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
     <stages>

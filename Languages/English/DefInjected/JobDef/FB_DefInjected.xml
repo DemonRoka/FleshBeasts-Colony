@@ -20,6 +20,7 @@
   <FB_GraftmawInstallStoredPart.reportString>installing a stored prosthetic.</FB_GraftmawInstallStoredPart.reportString>
   <FB_GraftmawInstallStoredThing.reportString>installing a stored implant.</FB_GraftmawInstallStoredThing.reportString>
   <FB_GraftmawTendPatient.reportString>stitching wounds.</FB_GraftmawTendPatient.reportString>
+  <FB_GraftmawRemoveParasite.reportString>cutting out a flesh parasite.</FB_GraftmawRemoveParasite.reportString>
   <FB_FleshDivisionCeremonySubject.reportString>yielding flesh to division.</FB_FleshDivisionCeremonySubject.reportString>
   <FB_FleshDivisionCeremonyRipper.reportString>tearing TargetB apart.</FB_FleshDivisionCeremonyRipper.reportString>
   <FB_LivingWeaponReturnToOwner.reportString>returning to bonded wielder.</FB_LivingWeaponReturnToOwner.reportString>

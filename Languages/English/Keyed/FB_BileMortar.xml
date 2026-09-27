@@ -45,7 +45,6 @@
   <FB_FleshMoonBileBombardmentDesc>Select a map point. The flesh moon rains 10 bileburst shells across a 20-cell area over about a third of an hour.</FB_FleshMoonBileBombardmentDesc>
   <FB_FleshMoonBileBombardmentCostLine>Lunar hemogel cost: {0}</FB_FleshMoonBileBombardmentCostLine>
   <FB_FleshMoonBileBombardmentNotEnoughHemogel>The flesh moon reserve lacks {0} hemogel.</FB_FleshMoonBileBombardmentNotEnoughHemogel>
-  <FB_FleshMoonBileBombardmentNoLink>The flesh moon is not linked.</FB_FleshMoonBileBombardmentNoLink>
   <FB_FleshMoonBileBombardmentInvalidTarget>Invalid bombardment target.</FB_FleshMoonBileBombardmentInvalidTarget>
   <FB_FleshMoonBileBombardmentStarted>The flesh moon begins a bilefall bombardment.</FB_FleshMoonBileBombardmentStarted>
   <FB_FleshMoonOrbitalAbilityNoMoon>The flesh moon is not available.</FB_FleshMoonOrbitalAbilityNoMoon>

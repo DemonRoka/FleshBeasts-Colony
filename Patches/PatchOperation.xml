@@ -7,7 +7,7 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/ThingDef[race/fleshType='Fleshbeast']/race/allowedOnCaravan</xpath>
+    <xpath>/Defs/ThingDef[race/fleshType='Fleshbeast' and not(defName='FB_TentacleTurret')]/race/allowedOnCaravan</xpath>
     <value>
       <allowedOnCaravan>true</allowedOnCaravan>
     </value>
@@ -60,8 +60,8 @@
     <value>
       <li Class="FB.CompProperties_TransformInto">
         <targetDef>FB_FleshDoor</targetDef>
-        <commandLabel>Transform to Fleshmass Door</commandLabel>
-        <commandDesc>Transforms this fleshmass into a grotesque flesh door.</commandDesc>
+        <commandLabel>FB_TransformFleshmassToDoorLabel</commandLabel>
+        <commandDesc>FB_TransformFleshmassToDoorDesc</commandDesc>
         <commandIcon>UI/Commands/FleshmassDoorIcon</commandIcon>
       </li>
     </value>

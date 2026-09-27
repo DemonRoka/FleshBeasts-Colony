@@ -53,26 +53,6 @@
         <totalMaturationTicks>5000</totalMaturationTicks>
         <targetDef>FB_BileMortarGland</targetDef>
       </li>
-      <li Class="FB.CompProperties_FleshAnimationManager">
-        <animationAmplitude>0.035</animationAmplitude>
-        <animationSideAmplitude>0.02</animationSideAmplitude>
-        <baseAnimationSpeed>0.55</baseAnimationSpeed>
-        <beatDurationTicks>30</beatDurationTicks>
-        <animatedParts>
-          <li>
-            <texturePath>Things/Building/FB_Organic/BileMortarGland/BileMortarGlandEmbryo</texturePath>
-            <positionOffset>(0, 0, 0)</positionOffset>
-            <textureScale>1.35</textureScale>
-            <animationAmplitude>0.035</animationAmplitude>
-            <animationSideAmplitude>0.02</animationSideAmplitude>
-            <animationInterval>0</animationInterval>
-            <animationOffset>0</animationOffset>
-            <altitudeLayer>0</altitudeLayer>
-            <rotationAngle>0</rotationAngle>
-            <beatDelay>0</beatDelay>
-          </li>
-        </animatedParts>
-      </li>
       <li Class="FB.CompProperties_HemogelUpkeep">
         <hemogelPerHour>0.3</hemogelPerHour>
       </li>
@@ -80,7 +60,7 @@
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <texPath>Things/Building/FB_Organic/BileMortarGland/BileMortarGlandEmbryo</texPath>
-      <drawSize>(1.35,1.35)</drawSize>
+      <drawSize>(1.82,1.82)</drawSize>
     </graphicData>
   </ThingDef>
 

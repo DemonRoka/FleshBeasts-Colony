@@ -20,6 +20,7 @@
   <FB_GraftmawInstallStoredPart.reportString>устанавливает сохранённый протез.</FB_GraftmawInstallStoredPart.reportString>
   <FB_GraftmawInstallStoredThing.reportString>устанавливает сохранённый имплант.</FB_GraftmawInstallStoredThing.reportString>
   <FB_GraftmawTendPatient.reportString>зашивает раны.</FB_GraftmawTendPatient.reportString>
+  <FB_GraftmawRemoveParasite.reportString>вырезает плотяного паразита.</FB_GraftmawRemoveParasite.reportString>
   <FB_FleshDivisionCeremonySubject.reportString>подставляет плоть для разделения.</FB_FleshDivisionCeremonySubject.reportString>
   <FB_FleshDivisionCeremonyRipper.reportString>разрывает TargetB на части.</FB_FleshDivisionCeremonyRipper.reportString>
   <FB_LivingWeaponReturnToOwner.reportString>возвращается к связанному носителю.</FB_LivingWeaponReturnToOwner.reportString>

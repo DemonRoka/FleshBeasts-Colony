@@ -51,7 +51,6 @@
       <MeatAmount>70</MeatAmount>
     </statBases>
     <comps>
-      <li Class="FB.CompProperties_Forbiddable_NoForbid" />
       <li>
         <compClass>FB.CompEquippable_LivingWeapon</compClass>
       </li>

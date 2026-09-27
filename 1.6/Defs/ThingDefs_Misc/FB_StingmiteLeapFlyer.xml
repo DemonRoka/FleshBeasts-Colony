@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="PawnFlyerBase">
+    <defName>FB_StingmiteLeapFlyer</defName>
+    <label>stingmite leap</label>
+    <thingClass>FB.PawnFlyer_StingmiteLeap</thingClass>
+    <pawnFlyer>
+      <flightDurationMin>0.2</flightDurationMin>
+      <flightSpeed>16</flightSpeed>
+      <heightFactor>0.6</heightFactor>
+      <stunDurationTicksRange>20~30</stunDurationTicksRange>
+    </pawnFlyer>
+  </ThingDef>
+</Defs>

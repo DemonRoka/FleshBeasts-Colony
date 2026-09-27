@@ -5,6 +5,7 @@
   <FB_PsychicLureAntenna_InspectPending>Psychic response incoming: {0}</FB_PsychicLureAntenna_InspectPending>
   <FB_PsychicLureAntenna_NoMap>The antenna is not on a valid map.</FB_PsychicLureAntenna_NoMap>
   <FB_PsychicLureAntenna_NotPlayerOwned>The antenna must belong to the player colony.</FB_PsychicLureAntenna_NotPlayerOwned>
+  <FB_PsychicLureAntenna_OnFleshMoon>The antenna does not work on the flesh moon: its call cannot reach anyone from orbit.</FB_PsychicLureAntenna_OnFleshMoon>
   <FB_PsychicLureAntenna_Released>The psychic lure antenna broadcasts into the dark. A hostile response should arrive in {0}.</FB_PsychicLureAntenna_Released>
   <FB_PsychicLureAntenna_PulseDissipated>The psychic lure dissipates without drawing a valid threat.</FB_PsychicLureAntenna_PulseDissipated>
   <FB_PsychicLureAntenna_DevResetCooldownLabel>DEV: reset psychic lure cooldown</FB_PsychicLureAntenna_DevResetCooldownLabel>

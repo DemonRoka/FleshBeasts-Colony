@@ -176,7 +176,6 @@ Free reserve space: {2}</FB_WorldStorageDigestSelectedStats>
 Difficulty: {1}</FB_PlanetaryNetworkAssaultTargetTooltip>
   <FB_PlanetaryNetworkAssaultPredictedWin>expected victory</FB_PlanetaryNetworkAssaultPredictedWin>
   <FB_PlanetaryNetworkAssaultPredictedLoss>too weak</FB_PlanetaryNetworkAssaultPredictedLoss>
-  <FB_PlanetaryNetworkAssaultLaunched>A flesh assault party was launched against {0}. Strength: {1}.</FB_PlanetaryNetworkAssaultLaunched>
   <FB_FleshAssaultInspectAttacking>Marching to attack: {1}
 Strength: {0}</FB_FleshAssaultInspectAttacking>
   <FB_FleshAssaultInspectCarrying>Returning to: {0}

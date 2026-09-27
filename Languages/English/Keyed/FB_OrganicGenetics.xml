@@ -66,7 +66,6 @@
   <FB_ChromophageInvalidCorpse>Choose a humanlike organic corpse.</FB_ChromophageInvalidCorpse>
   <FB_ChromophageCorpseAlreadyMarked>This corpse is already marked for chromophage gene extraction.</FB_ChromophageCorpseAlreadyMarked>
   <FB_ChromophageCorpseTooDegraded>Only fresh or rotting corpses can yield genes.</FB_ChromophageCorpseTooDegraded>
-  <FB_ChromophageCorpseExhausted>This corpse has already been stripped of useful genetic traces.</FB_ChromophageCorpseExhausted>
   <FB_ChromophageNoCorpseGenes>No usable gene traces remain in this corpse.</FB_ChromophageNoCorpseGenes>
   <FB_ChromophageCannotReachCorpse>The chromophage cannot reach that corpse.</FB_ChromophageCannotReachCorpse>
   <FB_ChromophageNoStoredGenes>The chromophage is not carrying any genepacks.</FB_ChromophageNoStoredGenes>

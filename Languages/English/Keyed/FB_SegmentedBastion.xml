@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <FB_SegmentedBastion_AssembleLabel>Assemble segmented bastion</FB_SegmentedBastion_AssembleLabel>
-  <FB_SegmentedBastion_AssembleDesc>Call allied fingerspikes, trispikes, and toughspikes to fuse into a draftable segmented bastion.</FB_SegmentedBastion_AssembleDesc>
-  <FB_SegmentedBastion_NoDonors>Not enough suitable allied fingerspikes, trispikes, or toughspikes are available.</FB_SegmentedBastion_NoDonors>
   <FB_SegmentedBastion_NoGatherCell>No reachable space found for the selected fleshbeasts to gather.</FB_SegmentedBastion_NoGatherCell>
   <FB_SegmentedBastion_Interrupted>The segmented bastion assembly was interrupted.</FB_SegmentedBastion_Interrupted>
-  <FB_SegmentedBastion_AssemblyStarted>{0} fleshbeasts begin converging into a segmented bastion. Combined mass value: {1}.</FB_SegmentedBastion_AssemblyStarted>
   <FB_SegmentedBastion_AssemblyComplete>{BEAST_labelShort} has formed.</FB_SegmentedBastion_AssemblyComplete>
   <FB_SegmentedBastion_SplitLabel>Split into spine swarm</FB_SegmentedBastion_SplitLabel>
   <FB_SegmentedBastion_SplitDesc>Split the bastion into its surviving spine segments. They act independently and can later rejoin their original bastion.</FB_SegmentedBastion_SplitDesc>

@@ -476,38 +476,6 @@
     </modExtensions>
   </RecipeDef>
 
-  <RecipeDef ParentName="FB_FleshbeastSkillGrowthRecipeBase">
-    <defName>FB_GrowFleshIntruderFromSkillEssence</defName>
-    <label>grow flesh intruder from skill essence</label>
-    <description>Grows a one-use flesh intruder from hemogel and stored skill essence.</description>
-    <researchPrerequisite>FB_NeuralDominion</researchPrerequisite>
-    <modExtensions>
-      <li Class="FB.FleshbeastMergeRecipeExtension">
-        <outputKind>FB_FleshIntruderKind</outputKind>
-        <hemogelCost>650</hemogelCost>
-        <hemogelGrowthRadius>3</hemogelGrowthRadius>
-        <skillPointCosts>
-          <li>
-            <skill>Medicine</skill>
-            <points>24</points>
-          </li>
-          <li>
-            <skill>Intellectual</skill>
-            <points>18</points>
-          </li>
-          <li>
-            <skill>Melee</skill>
-            <points>12</points>
-          </li>
-          <li>
-            <skill>Animals</skill>
-            <points>8</points>
-          </li>
-        </skillPointCosts>
-        <mergeEffect>MeatExplosionLarge</mergeEffect>
-      </li>
-    </modExtensions>
-  </RecipeDef>
   <RecipeDef ParentName="FB_FleshbeastMergeRecipeBase">
     <defName>FB_MergeTrispike</defName>
     <label>merge trispike</label>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_FleshbeastCargoTab>Инвентарь</FB_FleshbeastCargoTab>
+  <FB_FleshbeastCargoHeader>Несёт: {0} из {1}</FB_FleshbeastCargoHeader>
+  <FB_FleshbeastCargoDropTip>Бросить на землю рядом с тварью.</FB_FleshbeastCargoDropTip>
+  <FB_FleshbeastCargoUnload>Унести на склад</FB_FleshbeastCargoUnload>
+  <FB_FleshbeastCargoUnloading>Разгружается...</FB_FleshbeastCargoUnloading>
+  <FB_FleshbeastCargoUnloadDesc>Тварь сама отнесёт весь груз на склад, по одной ноше за раз.</FB_FleshbeastCargoUnloadDesc>
+  <FB_FleshbeastCargoCannotUnload>Тварь должна быть на карте, в сознании, под контролем, не призвана и способна ходить.</FB_FleshbeastCargoCannotUnload>
+  <FB_FleshbeastCargoDropAll>Бросить всё</FB_FleshbeastCargoDropAll>
+  <FB_FleshbeastCargoDropAllDesc>Бросить весь груз на землю рядом с тварью.</FB_FleshbeastCargoDropAllDesc>
+  <FB_FleshbeastCargoCannotDrop>Тварь должна быть на карте и под контролем.</FB_FleshbeastCargoCannotDrop>
+</LanguageData>

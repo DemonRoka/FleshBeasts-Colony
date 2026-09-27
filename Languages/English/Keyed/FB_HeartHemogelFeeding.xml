@@ -10,7 +10,6 @@
   <FB_ManualFeedingPawnUnavailable>This pawn cannot take the order.</FB_ManualFeedingPawnUnavailable>
   <FB_ManualFeedingNoFoodNeed>This pawn does not need food.</FB_ManualFeedingNoFoodNeed>
   <FB_ManualFeedingAlreadyFull>This pawn is already full.</FB_ManualFeedingAlreadyFull>
-  <FB_ManualFeedingHeartUnavailable>This heart cannot feed the pawn.</FB_ManualFeedingHeartUnavailable>
   <FB_ManualFeedingSourceUnavailable>This hemogel source cannot feed the pawn.</FB_ManualFeedingSourceUnavailable>
   <FB_ManualFeedingFeederUnavailable>This feeder cannot dispense food.</FB_ManualFeedingFeederUnavailable>
   <FB_ManualFeedingBlocked>Hemogel feeding is disabled for this heart.</FB_ManualFeedingBlocked>

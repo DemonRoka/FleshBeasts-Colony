@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_FleshParasite.label>flesh parasite</FB_FleshParasite.label>
+  <FB_FleshParasite.description>A fleshbeast larva planted by a stingmite's sting. It does not harm the tissue, but it slowly matures and spreads into neighbouring body parts. Once mature, it tears its body part off and crawls out; a large enough part releases a fingerspike loyal to the colony. It can be removed surgically, and a graftmaw can cut the infected parts out cleanly.</FB_FleshParasite.description>
+  <FB_FleshParasite.stages.0.label>embryo</FB_FleshParasite.stages.0.label>
+  <FB_FleshParasite.stages.1.label>larva</FB_FleshParasite.stages.1.label>
+  <FB_FleshParasite.stages.2.label>maturing</FB_FleshParasite.stages.2.label>
+</LanguageData>

@@ -5,5 +5,7 @@
   <FB_DefenderIncubator_ReleaseDesc>Выпускает {0} недолговечных защитников. Стоимость: {2} гемогеля. Инкубатору нужно вырастить новый выводок перед следующим выпуском.</FB_DefenderIncubator_ReleaseDesc>
   <FB_DefenderIncubator_RechargingDesc>Выращивает новый выводок защитников. Готовность через {0} дн.</FB_DefenderIncubator_RechargingDesc>
   <FB_DefenderIncubator_ThreatReleaseHint>Автоматически выпускает защитников, когда враг входит в радиус обнаружения {0} клеток.</FB_DefenderIncubator_ThreatReleaseHint>
+  <FB_DefenderIncubator_BroodReady>Выводок защитников: готов к выпуску.</FB_DefenderIncubator_BroodReady>
+  <FB_DefenderIncubator_BroodReadyIn>Новый выводок защитников будет готов через: {0}.</FB_DefenderIncubator_BroodReadyIn>
 
 </LanguageData>

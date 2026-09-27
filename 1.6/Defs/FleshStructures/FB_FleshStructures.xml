@@ -269,7 +269,7 @@
     <drawSize>(2,2)</drawSize>
     <cost>450</cost>
     <requiredResearch>DefenderIncubatorResearch</requiredResearch>
-    <fleshArchitectCategory>FB_FleshArchitect_Reproduction</fleshArchitectCategory>
+    <fleshArchitectCategory>FB_FleshArchitect_Defense</fleshArchitectCategory>
   </FB.FleshStructureDef>
 
   <FB.FleshStructureDef>

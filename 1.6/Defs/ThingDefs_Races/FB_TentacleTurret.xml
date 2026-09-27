@@ -221,6 +221,7 @@
       <canOpenFactionlessDoors>false</canOpenFactionlessDoors>
       <alwaysAwake>true</alwaysAwake>
       <doesntMove>true</doesntMove>
+      <allowedOnCaravan>false</allowedOnCaravan>
       <needsRest>false</needsRest>
       <hasGenders>false</hasGenders>
       <renderTree>FB_TentacleTurret</renderTree>

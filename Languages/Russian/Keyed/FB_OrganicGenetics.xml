@@ -66,7 +66,6 @@
   <FB_ChromophageInvalidCorpse>Выберите органический гуманоидный труп.</FB_ChromophageInvalidCorpse>
   <FB_ChromophageCorpseAlreadyMarked>Этот труп уже отмечен для извлечения генов хромофагом.</FB_ChromophageCorpseAlreadyMarked>
   <FB_ChromophageCorpseTooDegraded>Гены можно извлекать только из свежих или подгнивших трупов.</FB_ChromophageCorpseTooDegraded>
-  <FB_ChromophageCorpseExhausted>Из этого трупа уже извлечены полезные генетические следы.</FB_ChromophageCorpseExhausted>
   <FB_ChromophageNoCorpseGenes>В этом трупе не осталось пригодных генетических следов.</FB_ChromophageNoCorpseGenes>
   <FB_ChromophageCannotReachCorpse>Хромофаг не может добраться до этого трупа.</FB_ChromophageCannotReachCorpse>
   <FB_ChromophageNoStoredGenes>Хромофаг не несёт генопаков.</FB_ChromophageNoStoredGenes>

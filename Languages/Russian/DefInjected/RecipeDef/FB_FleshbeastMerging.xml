@@ -52,8 +52,6 @@
   <FB_GrowNerveclotFromSkillEssence.description>Выращивает нервный сгусток из гемогеля и сохранённой эссенции навыков.</FB_GrowNerveclotFromSkillEssence.description>
   <FB_GrowThrallbloomFromSkillEssence.label>вырастить поработителя из эссенции</FB_GrowThrallbloomFromSkillEssence.label>
   <FB_GrowThrallbloomFromSkillEssence.description>Выращивает поработителя из гемогеля и сохранённой эссенции навыков.</FB_GrowThrallbloomFromSkillEssence.description>
-  <FB_GrowFleshIntruderFromSkillEssence.label>вырастить внедрильщика плоти из эссенции</FB_GrowFleshIntruderFromSkillEssence.label>
-  <FB_GrowFleshIntruderFromSkillEssence.description>Выращивает одноразового внедрильщика плоти из гемогеля и сохранённой эссенции навыков.</FB_GrowFleshIntruderFromSkillEssence.description>
   <FB_GrowFerrimawFromSkillEssence.label>вырастить железопасть из эссенции</FB_GrowFerrimawFromSkillEssence.label>
   <FB_GrowFerrimawFromSkillEssence.description>Выращивает железопасть из гемогеля и сохранённой эссенции навыков.</FB_GrowFerrimawFromSkillEssence.description>
 </LanguageData>

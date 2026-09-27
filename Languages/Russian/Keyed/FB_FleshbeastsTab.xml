@@ -63,7 +63,6 @@
   <FB_Fleshbeasts_HideNonCommandableTooltip>Показать или скрыть некомандуемых биошматов в списке.</FB_Fleshbeasts_HideNonCommandableTooltip>
   <FB_FormFleshbeastMassZone_Label>Зона мясной массы</FB_FormFleshbeastMassZone_Label>
   <FB_FormFleshbeastMassZone_Desc>Обозначить зону для содержания больших скоплений биошматов с меньшей нагрузкой на игру. Внутри сохраняется видимое движение, но вместо обычного поведения каждого существа используется упрощённый расчёт. Биошматов можно выпустить вручную; при приближении врага они выходят автоматически.\n\nЭта функция создана прежде всего для сохранения производительности между боями, когда многочисленные биошматы простаивают. Используйте её по своему усмотрению. Просьба не злоупотреблять особенностями упрощённого расчёта для обхода игровых ограничений.</FB_FormFleshbeastMassZone_Desc>
-  <FB_FleshbeastMassZone_Status>Внутри {0}</FB_FleshbeastMassZone_Status>
   <FB_FleshbeastMassZone_Label>зона мясной массы</FB_FleshbeastMassZone_Label>
   <FB_FleshbeastMassZone_Inspect>Биошматов внутри: {0}. Общий размер тел: {1}. Вместимость: {2}.</FB_FleshbeastMassZone_Inspect>
   <FB_FleshbeastMassZone_InvalidPawn>Этот биошмат не может войти в зону мясной массы.</FB_FleshbeastMassZone_InvalidPawn>

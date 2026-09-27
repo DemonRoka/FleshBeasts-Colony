@@ -17,11 +17,6 @@
         <hemogelCost>90</hemogelCost>
         <growthTicks>350</growthTicks>
       </li>
-      <li>
-        <pawnKind>FB_FleshIntruderKind</pawnKind>
-        <hemogelCost>240</hemogelCost>
-        <growthTicks>700</growthTicks>
-      </li>
 
       <!-- Средние -->
       <li>

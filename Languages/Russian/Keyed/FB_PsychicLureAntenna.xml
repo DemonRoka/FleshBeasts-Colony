@@ -5,6 +5,7 @@
   <FB_PsychicLureAntenna_InspectPending>Ответ на пси-сигнал прибудет через: {0}</FB_PsychicLureAntenna_InspectPending>
   <FB_PsychicLureAntenna_NoMap>Антенна не находится на подходящей карте.</FB_PsychicLureAntenna_NoMap>
   <FB_PsychicLureAntenna_NotPlayerOwned>Антенна должна принадлежать колонии игрока.</FB_PsychicLureAntenna_NotPlayerOwned>
+  <FB_PsychicLureAntenna_OnFleshMoon>На луне плоти антенна не работает: с орбиты её зов никого не достигнет.</FB_PsychicLureAntenna_OnFleshMoon>
   <FB_PsychicLureAntenna_Released>Антенна психической приманки испускает сигнал во тьму. Враждебный ответ должен прибыть через {0}.</FB_PsychicLureAntenna_Released>
   <FB_PsychicLureAntenna_PulseDissipated>Пси-приманка рассеивается, не притянув подходящую угрозу.</FB_PsychicLureAntenna_PulseDissipated>
   <FB_PsychicLureAntenna_ToggleLabel>Передача пси-приманки</FB_PsychicLureAntenna_ToggleLabel>

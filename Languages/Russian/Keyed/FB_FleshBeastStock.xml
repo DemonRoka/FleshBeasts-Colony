@@ -30,7 +30,6 @@
   <FB_FleshGarrisonCardTooltip>{0}\nВ запасе: {1}\nСила в штурме за штуку: {2}</FB_FleshGarrisonCardTooltip>
   <FB_FleshAssaultDeployTitle>Отправить стаю на «{0}»</FB_FleshAssaultDeployTitle>
   <FB_FleshAssaultDeployCategory>Биошматы</FB_FleshAssaultDeployCategory>
-  <FB_FleshAssaultDeployStrength>сила {0}</FB_FleshAssaultDeployStrength>
   <FB_FleshAssaultDeployInfoUnits>Тварей</FB_FleshAssaultDeployInfoUnits>
   <FB_FleshAssaultDeployInfoUnitsTip>Сколько тварей уйдёт с этим отрядом.</FB_FleshAssaultDeployInfoUnitsTip>
   <FB_FleshAssaultDeployInfoStrength>Сила стаи</FB_FleshAssaultDeployInfoStrength>
@@ -42,5 +41,8 @@
   <FB_FleshAssaultDeploySortCategory>По названию</FB_FleshAssaultDeploySortCategory>
   <FB_FleshAssaultDeploySortStrength>По силе</FB_FleshAssaultDeploySortStrength>
   <FB_FleshAssaultDeployAvailableTip>Сколько таких тварей есть в запасе аванпоста.</FB_FleshAssaultDeployAvailableTip>
+  <FB_FleshAssaultDeployStopPointLeft>П&lt;</FB_FleshAssaultDeployStopPointLeft>
+  <FB_FleshAssaultDeployStopPointRight>&gt;П</FB_FleshAssaultDeployStopPointRight>
+  <FB_FleshAssaultDeployStopPointTip>Кнопка &gt;П отмечает столько тварей этого вида, чтобы мощь стаи дошла до {0} — оборона цели с запасом. Отмеченные в других строках твари при этом учитываются. Мощь решает только в авторасчёте: ручной бой идёт на карте.</FB_FleshAssaultDeployStopPointTip>
   <FB_FleshAssaultGarrisonEmpty>В этом аванпосте нет выращенных тварей. Сначала добавьте заказ во вкладке «Биошматы» самого аванпоста.</FB_FleshAssaultGarrisonEmpty>
 </LanguageData>

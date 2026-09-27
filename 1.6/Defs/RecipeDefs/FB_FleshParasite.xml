@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef ParentName="SurgeryFlesh">
+    <defName>FB_RemoveFleshParasite</defName>
+    <label>remove flesh parasite</label>
+    <description>Cut a flesh parasite out of an infected body part before it matures. The body part itself is kept.</description>
+    <workerClass>Recipe_RemoveHediff</workerClass>
+    <jobString>Removing flesh parasite.</jobString>
+    <workAmount>2500</workAmount>
+    <removesHediff>FB_FleshParasite</removesHediff>
+    <successfullyRemovedHediffMessage>{0} has successfully removed a flesh parasite from {1}.</successfullyRemovedHediffMessage>
+    <deathOnFailedSurgeryChance>0.05</deathOnFailedSurgeryChance>
+    <skillRequirements>
+      <Medicine>6</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+    </fixedIngredientFilter>
+    <recipeUsers>
+      <li>Human</li>
+    </recipeUsers>
+  </RecipeDef>
+</Defs>

@@ -52,8 +52,6 @@
   <FB_GrowNerveclotFromSkillEssence.description>Grows a nerveclot from hemogel and stored skill essence.</FB_GrowNerveclotFromSkillEssence.description>
   <FB_GrowThrallbloomFromSkillEssence.label>grow thrallbloom from skill essence</FB_GrowThrallbloomFromSkillEssence.label>
   <FB_GrowThrallbloomFromSkillEssence.description>Grows a thrallbloom from hemogel and stored skill essence.</FB_GrowThrallbloomFromSkillEssence.description>
-  <FB_GrowFleshIntruderFromSkillEssence.label>grow flesh intruder from skill essence</FB_GrowFleshIntruderFromSkillEssence.label>
-  <FB_GrowFleshIntruderFromSkillEssence.description>Grows a one-use flesh intruder from hemogel and stored skill essence.</FB_GrowFleshIntruderFromSkillEssence.description>
   <FB_GrowFerrimawFromSkillEssence.label>grow ferrimaw from skill essence</FB_GrowFerrimawFromSkillEssence.label>
   <FB_GrowFerrimawFromSkillEssence.description>Grows a ferrimaw from hemogel and stored skill essence.</FB_GrowFerrimawFromSkillEssence.description>
 </LanguageData>

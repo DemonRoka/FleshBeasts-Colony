@@ -176,7 +176,6 @@
 Сложность: {1}</FB_PlanetaryNetworkAssaultTargetTooltip>
   <FB_PlanetaryNetworkAssaultPredictedWin>ожидается победа</FB_PlanetaryNetworkAssaultPredictedWin>
   <FB_PlanetaryNetworkAssaultPredictedLoss>слишком слабый отряд</FB_PlanetaryNetworkAssaultPredictedLoss>
-  <FB_PlanetaryNetworkAssaultLaunched>Отряд плоти отправлен против {0}. Сила: {1}.</FB_PlanetaryNetworkAssaultLaunched>
   <FB_FleshAssaultInspectAttacking>Идёт в атаку: {1}
 Сила: {0}</FB_FleshAssaultInspectAttacking>
   <FB_FleshAssaultInspectCarrying>Возвращается: {0}

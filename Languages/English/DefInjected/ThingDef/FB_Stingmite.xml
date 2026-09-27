@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_Stingmite.label>stingmite</FB_Stingmite.label>
-  <FB_Stingmite.description>A disposable fleshbeast that rushes hostile targets, injects a paralytic nerve toxin into living prey, and bursts harmlessly against mechanoids.</FB_Stingmite.description>
+  <FB_Stingmite.description>A disposable fleshbeast that leaps at hostile targets, stuns them and plants a flesh parasite in the struck body part. The parasite spreads, tears the part off when it matures and crawls out as a fingerspike. It bursts harmlessly against mechanoids.</FB_Stingmite.description>
   <FB_Stingmite.tools.0.label>stinger</FB_Stingmite.tools.0.label>
+  <FB_StingmiteLeapFlyer.label>stingmite leap</FB_StingmiteLeapFlyer.label>
 </LanguageData>

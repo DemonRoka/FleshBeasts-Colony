@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_FleshParasite_MaturesIn>Matures in: {0}</FB_FleshParasite_MaturesIn>
+  <FB_FleshParasite_Emerged>A flesh parasite matured in {0}: {2} tore off the {1} and crawled out.</FB_FleshParasite_Emerged>
+  <FB_FleshParasite_TornOff>A flesh parasite matured in {0} and tore off the {1}.</FB_FleshParasite_TornOff>
+  <FB_Graftmaw_RemoveParasite>Remove parasite</FB_Graftmaw_RemoveParasite>
+  <FB_Graftmaw_RemoveParasiteNeedsImmobile>the patient must be one of ours, a prisoner or incapacitated</FB_Graftmaw_RemoveParasiteNeedsImmobile>
+  <FB_Graftmaw_ParasiteRemoved>{0} cut the flesh parasites out of {1}.</FB_Graftmaw_ParasiteRemoved>
+</LanguageData>

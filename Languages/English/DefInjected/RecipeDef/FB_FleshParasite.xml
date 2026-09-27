@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_RemoveFleshParasite.label>remove flesh parasite</FB_RemoveFleshParasite.label>
+  <FB_RemoveFleshParasite.description>Cut a flesh parasite out of an infected body part before it matures. The body part itself is kept.</FB_RemoveFleshParasite.description>
+  <FB_RemoveFleshParasite.jobString>Removing flesh parasite.</FB_RemoveFleshParasite.jobString>
+  <FB_RemoveFleshParasite.successfullyRemovedHediffMessage>{0} has successfully removed a flesh parasite from {1}.</FB_RemoveFleshParasite.successfullyRemovedHediffMessage>
+</LanguageData>

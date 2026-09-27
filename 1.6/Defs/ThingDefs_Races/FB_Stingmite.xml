@@ -3,7 +3,7 @@
   <ThingDef ParentName="BasePawn">
     <defName>FB_Stingmite</defName>
     <label>stingmite</label>
-    <description>A disposable fleshbeast that rushes hostile targets, injects a paralytic nerve toxin into living prey, and bursts harmlessly against mechanoids.</description>
+    <description>A disposable fleshbeast that leaps at hostile targets, stuns them and plants a flesh parasite in the struck body part. The parasite spreads, tears the part off when it matures and crawls out as a fingerspike. It bursts harmlessly against mechanoids.</description>
     <researchPrerequisites>
       <li>DefenderIncubatorResearch</li>
     </researchPrerequisites>
@@ -58,13 +58,18 @@
       <li Class="FB.CompProperties_StingmiteAssault">
         <attackJob>FB_StingmiteAssault</attackJob>
         <damageDef>Stab</damageDef>
-        <stunDamageDef>NerveStun</stunDamageDef>
+        <parasiteHediff>FB_FleshParasite</parasiteHediff>
+        <leapFlyerDef>FB_StingmiteLeapFlyer</leapFlyerDef>
         <detectionRadius>65</detectionRadius>
-        <damageAmount>6</damageAmount>
-        <stunAmount>3</stunAmount>
-        <scanIntervalTicks>60</scanIntervalTicks>
-        <attackDelayTicks>20</attackDelayTicks>
-        <jobExpiryTicks>1200</jobExpiryTicks>
+        <damageAmount>3</damageAmount>
+        <stunTicks>750</stunTicks>
+        <reinfectSeverity>0.15</reinfectSeverity>
+        <leapRange>5.9</leapRange>
+        <scanIntervalTicks>30</scanIntervalTicks>
+        <retargetIntervalTicks>30</retargetIntervalTicks>
+        <crowdPenalty>8</crowdPenalty>
+        <stunnedTargetPenalty>10</stunnedTargetPenalty>
+        <retargetMinGain>3</retargetMinGain>
         <humanlikesOnly>false</humanlikesOnly>
         <requireLineOfSight>true</requireLineOfSight>
       </li>

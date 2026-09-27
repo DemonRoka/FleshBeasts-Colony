@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_FleshParasite_MaturesIn>Созреет через: {0}</FB_FleshParasite_MaturesIn>
+  <FB_FleshParasite_Emerged>Плотяной паразит в теле {0} созрел: {2} оторвал часть тела «{1}» и выбрался наружу.</FB_FleshParasite_Emerged>
+  <FB_FleshParasite_TornOff>Плотяной паразит в теле {0} созрел и оторвал часть тела «{1}».</FB_FleshParasite_TornOff>
+  <FB_Graftmaw_RemoveParasite>Удалить паразита</FB_Graftmaw_RemoveParasite>
+  <FB_Graftmaw_RemoveParasiteNeedsImmobile>пациент должен быть своим, пленником или обездвиженным</FB_Graftmaw_RemoveParasiteNeedsImmobile>
+  <FB_Graftmaw_ParasiteRemoved>{0} вырезает плотяных паразитов из {1}.</FB_Graftmaw_ParasiteRemoved>
+</LanguageData>

@@ -35,6 +35,8 @@
     <assaultNearbyFleshPreparednessRadius>15</assaultNearbyFleshPreparednessRadius>
     <assaultNearbyFleshMaxBonus>0.15</assaultNearbyFleshMaxBonus>
     <assaultMaxSurvivalFraction>0.85</assaultMaxSurvivalFraction>
+    <!-- Во сколько раз кнопка набора в окне отправки перекрывает оборону цели -->
+    <assaultDeployTargetFactor>1.1</assaultDeployTargetFactor>
 
     <!-- Рейды выжигателей: частота, лимиты одновременных отрядов и размер партии -->
     <burnRaidPressureThreshold>260</burnRaidPressureThreshold>

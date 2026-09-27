@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <FB_FleshAssaultRosterSummary>Тварей: {0}   Сила стаи: {1}   Оборона: {2}   {3}</FB_FleshAssaultRosterSummary>
   <FB_FleshAssaultRosterEmpty>Добавьте в стаю хотя бы одну тварь.</FB_FleshAssaultRosterEmpty>
   <FB_FleshAssaultRosterLaunched>Штурмовая стая из {1} тварей движется на «{0}».</FB_FleshAssaultRosterLaunched>
   <FB_FleshAssaultArrivalTitle>Стая достигла цели</FB_FleshAssaultArrivalTitle>

@@ -47,6 +47,7 @@
       <claimable>false</claimable>
       <canBuildNonEdificesUnder>false</canBuildNonEdificesUnder>
       <deconstructible>false</deconstructible>
+      <repairable>false</repairable>
       <quickTargetable>true</quickTargetable>
       <isTargetable>true</isTargetable>
       <ai_combatDangerous>true</ai_combatDangerous>

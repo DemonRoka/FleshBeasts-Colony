@@ -23,6 +23,7 @@
     <selectable>true</selectable>
     <building>
       <deconstructible>false</deconstructible>
+      <repairable>false</repairable>
     </building>
     <comps>
       <li Class="FB.CompProperties_GeneReweaverCocoon">

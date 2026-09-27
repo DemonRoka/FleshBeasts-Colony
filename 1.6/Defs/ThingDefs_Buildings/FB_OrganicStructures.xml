@@ -132,6 +132,7 @@
       <claimable>false</claimable>
       <canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
       <deconstructible>false</deconstructible>
+      <repairable>false</repairable>
       <quickTargetable>true</quickTargetable>
       <supportsWallAttachments>true</supportsWallAttachments>
       <isTargetable>true</isTargetable>
@@ -209,6 +210,7 @@
   <!-- Постройка: Flesh Moon Nerve Node (FB_FleshMoonNerveNode) -->
   <ThingDef ParentName="BuildingColonyFleshBaseAnimation">
   <defName>FB_FleshMoonNerveNode</defName>
+  <thingClass>FB.Building_FleshStructure</thingClass>
     <label>flesh moon nerve node</label>
     <description>A local command organ for the flesh moon. It stores the moon's hemogel reserve, sustains the interior, and coordinates hauling tendrils.</description>
     <drawerType>MapMeshAndRealTime</drawerType>
@@ -1338,6 +1340,11 @@
       <Meat_Twisted>50~100</Meat_Twisted>
     </killedLeavingsRanges>
     <forceLeavingsAllowed>true</forceLeavingsAllowed>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/FB_Organic/Feeder/Feeder</texPath>
+      <drawSize>(2.25,2.25)</drawSize>
+    </graphicData>
     <comps>
       <li Class="FB.CompProperties_HemogelFoodSpawner">
         <toggleLabel>FB_FeederToggleLabel</toggleLabel>
@@ -1348,26 +1355,6 @@
         <rationDef>FB_HemogelRation</rationDef>
         <rationBatchSize>10</rationBatchSize>
         <rationCommandIconPath>UI/Commands/MakeHemogelRations</rationCommandIconPath>
-      </li>
-      <li Class="FB.CompProperties_FleshAnimationManager">
-        <animationAmplitude>0.01</animationAmplitude>
-        <animationSideAmplitude>0.005</animationSideAmplitude>
-        <baseAnimationSpeed>0.2</baseAnimationSpeed>
-        <beatDurationTicks>60</beatDurationTicks>
-        <animatedParts>
-          <li>
-            <texturePath>Things/Building/FB_Organic/Feeder/Feeder</texturePath>
-            <positionOffset>(0, 0, 0)</positionOffset>
-            <textureScale>1.5</textureScale>
-            <animationAmplitude>0.01</animationAmplitude>
-            <animationSideAmplitude>0.005</animationSideAmplitude>
-            <animationInterval>0</animationInterval>
-            <animationOffset>0.0</animationOffset>
-            <altitudeLayer>0</altitudeLayer>
-            <rotationAngle>0</rotationAngle>
-            <beatDelay>0</beatDelay>
-          </li>
-        </animatedParts>
       </li>
       <li Class="FB.CompProperties_HemogelUpkeep">
         <hemogelPerHour>0.6</hemogelPerHour>
@@ -1691,7 +1678,7 @@
             <li>Plants</li>
             <li>Buildings</li>
           </disallowedCategories>
-          <disallowedThingDefs MayRequire="Ludeon.RimWorld.Biotech">
+          <disallowedThingDefs>
             <li MayRequire="Ludeon.RimWorld.Biotech">Wastepack</li>
           </disallowedThingDefs>
           <specialFiltersToDisallow>
@@ -1885,6 +1872,7 @@
   <!-- Постройка: mucous decontaminator (FB_MucousDecontaminator) -->
   <ThingDef ParentName="BuildingColonyFleshBaseAnimation">
     <defName>FB_MucousDecontaminator</defName>
+    <thingClass>FB.Building_FleshStructure</thingClass>
     <label>mucous decontaminator</label>
     <description>A living cleaner that spends hemogel network power to remove nearby pollution and periodically expels toxic wastepacks.</description>
     <tickerType>Normal</tickerType>
@@ -2118,6 +2106,7 @@
   <!-- Постройка: Thermoregulator (FB_Thermoregulator) -->
   <ThingDef ParentName="BuildingColonyFleshBaseAnimation">
   <defName>FB_Thermoregulator</defName>
+  <thingClass>FB.Building_FleshStructure</thingClass>
   <label>Thermoregulator</label>
   <description>A living heat exchanger that spends hemogel network power to regulate the temperature of enclosed rooms.</description>
   <size>(1,1)</size>
@@ -2132,8 +2121,8 @@
   </statBases>
   <graphicData>
     <graphicClass>Graphic_Single</graphicClass>
-    <texPath>Things/Building/Plaseholder</texPath>
-    <drawSize>(0.1,0.1)</drawSize>
+    <texPath>Things/Building/FB_Organic/Thermoregulator/Thermoregulator</texPath>
+    <drawSize>(1.44,1.44)</drawSize>
     <drawOffset>(0, 0, 0)</drawOffset>
     <damageData>
       <rect>(0.15, 0.15, 0.7, 0.7)</rect>
@@ -2159,26 +2148,6 @@
       <minTargetTemperature>-50</minTargetTemperature>
       <maxTargetTemperature>50</maxTargetTemperature>
       <onlyIndoors>true</onlyIndoors>
-    </li>
-    <li Class="FB.CompProperties_FleshAnimationManager">
-      <animationAmplitude>0.006</animationAmplitude>
-      <animationSideAmplitude>0.003</animationSideAmplitude>
-      <baseAnimationSpeed>0.15</baseAnimationSpeed>
-      <beatDurationTicks>70</beatDurationTicks>
-      <animatedParts>
-        <li>
-          <texturePath>Things/Building/FB_Organic/Thermoregulator/Thermoregulator</texturePath>
-          <positionOffset>(0, 0, 0)</positionOffset>
-          <textureScale>1.2</textureScale>
-          <animationAmplitude>0.006</animationAmplitude>
-          <animationSideAmplitude>0.003</animationSideAmplitude>
-          <animationInterval>0</animationInterval>
-          <animationOffset>0.0</animationOffset>
-          <altitudeLayer>0</altitudeLayer>
-          <rotationAngle>0</rotationAngle>
-          <beatDelay>0</beatDelay>
-        </li>
-      </animatedParts>
     </li>
   </comps>
 </ThingDef>
@@ -2383,6 +2352,9 @@
     </statBases>
     <tickerType>Normal</tickerType>
     <selectable>False</selectable>
+    <building>
+      <repairable>false</repairable>
+    </building>
     <comps>
       <li Class="FB.CompProperties_AnimatedOverlay">
         <openTexturePath>Things/Building/FB_Organic/ColonyEye/ColonyEyeTop</openTexturePath>
@@ -2398,6 +2370,11 @@
       </li>
       <li Class="FB.CompProperties_HemogelUpkeep">
         <hemogelPerHour>0.1</hemogelPerHour>
+      </li>
+      <li Class="FB.CompProperties_FleshRegeneration">
+        <ticksPerHeal>500</ticksPerHeal>
+        <requiresHemogel>false</requiresHemogel>
+        <onlyPlayerFaction>true</onlyPlayerFaction>
       </li>
     </comps>
     <passability>PassThroughOnly</passability>
@@ -2426,6 +2403,7 @@
     <selectable>true</selectable>
     <building>
       <deconstructible>false</deconstructible>
+      <repairable>false</repairable>
     </building>
     <comps>
       <li Class="FB.CompProperties_BiomassCocoon">
@@ -2458,6 +2436,9 @@
     <costList>
       <Meat_Twisted>80</Meat_Twisted>
     </costList>
+    <building>
+      <repairable>false</repairable>
+    </building>
     <comps>
       <li Class="FB.CompProperties_FleshHoldingPlatformEntityHolder">
         <containmentFactor>1.15</containmentFactor>
@@ -2470,6 +2451,11 @@
       </li>
       <li Class="FB.CompProperties_OrganoidCopyCommands" />
       <li Class="FB.CompProperties_MarkSelfForAbsorption" />
+      <li Class="FB.CompProperties_FleshRegeneration">
+        <ticksPerHeal>500</ticksPerHeal>
+        <requiresHemogel>false</requiresHemogel>
+        <onlyPlayerFaction>true</onlyPlayerFaction>
+      </li>
     </comps>
   </ThingDef>
 

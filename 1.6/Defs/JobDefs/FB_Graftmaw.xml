@@ -41,4 +41,10 @@
     <driverClass>FB.JobDriver_GraftmawTendPatient</driverClass>
     <reportString>stitching wounds.</reportString>
   </JobDef>
+
+  <JobDef>
+    <defName>FB_GraftmawRemoveParasite</defName>
+    <driverClass>FB.JobDriver_GraftmawRemoveParasite</driverClass>
+    <reportString>cutting out a flesh parasite.</reportString>
+  </JobDef>
 </Defs>

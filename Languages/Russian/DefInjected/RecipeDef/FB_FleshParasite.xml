@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_RemoveFleshParasite.label>удалить плотяного паразита</FB_RemoveFleshParasite.label>
+  <FB_RemoveFleshParasite.description>Вырезать плотяного паразита из поражённой части тела, пока он не созрел. Сама часть тела сохраняется.</FB_RemoveFleshParasite.description>
+  <FB_RemoveFleshParasite.jobString>Удаляет плотяного паразита.</FB_RemoveFleshParasite.jobString>
+  <FB_RemoveFleshParasite.successfullyRemovedHediffMessage>{0} успешно удаляет плотяного паразита у {1}.</FB_RemoveFleshParasite.successfullyRemovedHediffMessage>
+</LanguageData>

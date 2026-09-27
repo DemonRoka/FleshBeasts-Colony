@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional" MayRequire="Ludeon.RimWorld.Anomaly">
+    <xpath>Defs/TerrainDef[defName="Flesh"]/tags</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/TerrainDef[defName="Flesh"]/tags</xpath>
+      <value>
+        <li>FB_FleshColonyTerrain</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/TerrainDef[defName="Flesh"]</xpath>
+      <value>
+        <tags>
+          <li>FB_FleshColonyTerrain</li>
+        </tags>
+      </value>
+    </nomatch>
+  </Operation>
+</Patch>

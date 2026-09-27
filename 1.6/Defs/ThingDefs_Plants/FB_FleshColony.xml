@@ -54,9 +54,6 @@
       <Flammability>1.4</Flammability>
       <Nutrition>0.70</Nutrition>
     </statBases>
-    <comps>
-      <li Class="FB.CompProperties_Forbiddable_NoForbid" />
-    </comps>
     <graphicData>
       <texPath>Things/Plant/FleshBaitSprout</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -153,29 +150,29 @@
         <li>PackedDirt</li>
         <li>BrokenAsphalt</li>
         <li>Riverbank</li>
-        <li>FungalGravel</li>
+        <li MayRequire="Ludeon.RimWorld.Ideology">FungalGravel</li>
         <li>Voidmetal</li>
         <li>GraySurface</li>
-        <li>Substructure</li>
-        <li>AncientMegastructure</li>
-        <li>LavaDeep</li>
-        <li>LavaShallow</li>
-        <li>CooledLava</li>
-        <li>VolcanicRock</li>
-        <li>ThinIce</li>
-        <li>ShallowFloodwater</li>
-        <li>MarshFlood</li>
-        <li>Space</li>
-        <li>ToxicWaterShallow</li>
-        <li>ToxicWaterDeep</li>
-        <li>InsectSludge</li>
-        <li>OrbitalPlatform</li>
-        <li>MechanoidPlatform</li>
-        <li>DryLakeBed</li>
-        <li>HotSpring</li>
-        <li>HeavyBridge</li>
-        <li>Vacstone_Rough</li>
-        <li>Vacstone_RoughHewn</li>
+        <li MayRequire="Ludeon.RimWorld.Odyssey">Substructure</li>
+        <li MayRequire="Ludeon.RimWorld.Odyssey">AncientMegastructure</li>
+        <li MayRequire="Ludeon.RimWorld.Odyssey">LavaDeep</li>
+        <li MayRequire="Ludeon.RimWorld.Odyssey">LavaShallow</li>
+        <li MayRequire="Ludeon.RimWorld.Odyssey">CooledLava</li>
+        <li MayRequire="Ludeon.RimWorld.Odyssey">VolcanicRock</li>
+        <li MayRequire="Ludeon.RimWorld.Odyssey">ThinIce</li>
+        <li MayRequire="Ludeon.RimWorld.Odyssey">ShallowFloodwater</li>
+        <li MayRequire="Ludeon.RimWorld.Odyssey">MarshFlood</li>
+        <li MayRequire="Ludeon.RimWorld.Odyssey">Space</li>
+        <li MayRequire="Ludeon.RimWorld.Odyssey">ToxicWaterShallow</li>
+        <li MayRequire="Ludeon.RimWorld.Odyssey">ToxicWaterDeep</li>
+        <li MayRequire="Ludeon.RimWorld.Odyssey">InsectSludge</li>
+        <li MayRequire="Ludeon.RimWorld.Odyssey">OrbitalPlatform</li>
+        <li MayRequire="Ludeon.RimWorld.Odyssey">MechanoidPlatform</li>
+        <li MayRequire="Ludeon.RimWorld.Odyssey">DryLakeBed</li>
+        <li MayRequire="Ludeon.RimWorld.Odyssey">HotSpring</li>
+        <li MayRequire="Ludeon.RimWorld.Odyssey">HeavyBridge</li>
+        <li MayRequire="Ludeon.RimWorld.Odyssey">Vacstone_Rough</li>
+        <li MayRequire="Ludeon.RimWorld.Odyssey">Vacstone_RoughHewn</li>
       </terrainBlacklist>
       <dieIfNoSunlight>false</dieIfNoSunlight>
     </plant>
