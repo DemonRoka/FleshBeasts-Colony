@@ -2,4 +2,13 @@
 <LanguageData>
   <FB_BastionSpineSegmentBody.label>шипастый сегмент бастиона</FB_BastionSpineSegmentBody.label>
   <FB_SegmentedBastionBody.label>сегментный бастион</FB_SegmentedBastionBody.label>
+  <FB_SegmentedBastionBody.corePart.parts.segment_1.customLabel>сегмент 1</FB_SegmentedBastionBody.corePart.parts.segment_1.customLabel>
+  <FB_SegmentedBastionBody.corePart.parts.segment_2.customLabel>сегмент 2</FB_SegmentedBastionBody.corePart.parts.segment_2.customLabel>
+  <FB_SegmentedBastionBody.corePart.parts.segment_3.customLabel>сегмент 3</FB_SegmentedBastionBody.corePart.parts.segment_3.customLabel>
+  <FB_SegmentedBastionBody.corePart.parts.segment_4.customLabel>сегмент 4</FB_SegmentedBastionBody.corePart.parts.segment_4.customLabel>
+  <FB_SegmentedBastionBody.corePart.parts.segment_5.customLabel>сегмент 5</FB_SegmentedBastionBody.corePart.parts.segment_5.customLabel>
+  <FB_SegmentedBastionBody.corePart.parts.segment_6.customLabel>сегмент 6</FB_SegmentedBastionBody.corePart.parts.segment_6.customLabel>
+  <FB_SegmentedBastionBody.corePart.parts.segment_7.customLabel>сегмент 7</FB_SegmentedBastionBody.corePart.parts.segment_7.customLabel>
+  <FB_SegmentedBastionBody.corePart.parts.segment_8.customLabel>сегмент 8</FB_SegmentedBastionBody.corePart.parts.segment_8.customLabel>
+  <FB_SegmentedBastionBody.corePart.parts.segment_9.customLabel>сегмент 9</FB_SegmentedBastionBody.corePart.parts.segment_9.customLabel>
 </LanguageData>

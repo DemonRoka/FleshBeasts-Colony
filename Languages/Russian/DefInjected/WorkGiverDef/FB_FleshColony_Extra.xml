@@ -1,7 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_CarryToVoiceOrgan.label>нести в голосовой орган</FB_CarryToVoiceOrgan.label>
+  <FB_CarryToVoiceOrgan.verb>усадить</FB_CarryToVoiceOrgan.verb>
+  <FB_CarryToVoiceOrgan.gerund>усаживает носителя в</FB_CarryToVoiceOrgan.gerund>
   <FB_CarryToGestationOrganoid.label>нести в гестационный органоид</FB_CarryToGestationOrganoid.label>
+  <FB_CarryToGestationOrganoid.verb>вынашивать</FB_CarryToGestationOrganoid.verb>
+  <FB_CarryToGestationOrganoid.gerund>несёт донора в</FB_CarryToGestationOrganoid.gerund>
   <FB_CarryToGenophageCocoon.label>нести в генофаговый кокон</FB_CarryToGenophageCocoon.label>
+  <FB_CarryToGenophageCocoon.verb>извлечь гены</FB_CarryToGenophageCocoon.verb>
+  <FB_CarryToGenophageCocoon.gerund>извлекает гены из</FB_CarryToGenophageCocoon.gerund>
   <FB_HaulDigestibleFoodToStomach.label>нести перевариваемую пищу в желудок колонии</FB_HaulDigestibleFoodToStomach.label>
+  <FB_HaulDigestibleFoodToStomach.verb>нести в</FB_HaulDigestibleFoodToStomach.verb>
+  <FB_HaulDigestibleFoodToStomach.gerund>несёт в желудок колонии</FB_HaulDigestibleFoodToStomach.gerund>
 </LanguageData>

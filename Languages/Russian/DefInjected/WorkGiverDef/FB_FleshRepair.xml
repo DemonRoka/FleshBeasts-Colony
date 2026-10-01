@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_FleshRepair.label>регенерировать органоиды плоти</FB_FleshRepair.label>
+  <FB_FleshRepair.verb>регенерировать</FB_FleshRepair.verb>
+  <FB_FleshRepair.gerund>регенерирует</FB_FleshRepair.gerund>
 </LanguageData>

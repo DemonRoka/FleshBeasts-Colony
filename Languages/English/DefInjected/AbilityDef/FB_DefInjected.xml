@@ -16,9 +16,9 @@
   <FB_ParasiteImplant.label>implant parasite</FB_ParasiteImplant.label>
   <FB_Scavenger.description>Transforms a fresh corpse into one or more DenseWeaver creatures, triggering a small meat explosion effect.</FB_Scavenger.description>
   <FB_Scavenger.label>scavenger</FB_Scavenger.label>
-  <FB_FleshDivision.description>Split the caster into a second body. Both resulting pawns keep only half of the original age and half of every skill's earned experience. Worn apparel is shed to the ground, and both bodies become temporarily flesh-unstable.</FB_FleshDivision.description>
+  <FB_FleshDivision.description>Tear the caster in two in a short, bloody rite. Alone, a pawn struggles to rip its own flesh apart; two other colonists pulling at the halves make success far more likely, while a failed rite births a loyal fingerspike instead of a second body. Whatever the outcome, only half of the age and skill experience remains, worn apparel falls away and the flesh stays unstable for a while.</FB_FleshDivision.description>
   <FB_FleshDivision.label>flesh division</FB_FleshDivision.label>
-  <FB_FleshDivision.confirmationDialogText>Start flesh division? This will split the pawn into two unstable bodies, halve age and skill experience, and drop worn apparel.</FB_FleshDivision.confirmationDialogText>
+  <FB_FleshDivision.confirmationDialogText>Start flesh division? {PAWN_nameDef} will be torn into two unstable bodies, each keeping half the age and skill experience, and worn apparel will fall to the ground.</FB_FleshDivision.confirmationDialogText>
   <FB_Bloodlash.label>bloodlash</FB_Bloodlash.label>
   <FB_Bloodlash.description>Unleashes a blood tendril from the caster's throat to latch onto a nearby living target and begin draining blood. The stolen blood feeds the caster and helps restore blood loss or hemogen reserves.</FB_Bloodlash.description>
   <FB_SpineLaunch_TentacleTurret.label>spine launch</FB_SpineLaunch_TentacleTurret.label>

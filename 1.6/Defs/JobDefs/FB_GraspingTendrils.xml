@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <JobDef>
+    <defName>FB_EscapeGraspingTendrils</defName>
+    <driverClass>JobDriver_Flee</driverClass>
+    <reportString>fleeing the grasping tendrils.</reportString>
+    <checkOverrideOnDamage>OnlyIfInstigatorNotJobTarget</checkOverrideOnDamage>
+    <isIdle>true</isIdle>
+  </JobDef>
+</Defs>

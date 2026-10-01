@@ -2,22 +2,34 @@
 <LanguageData>
   <FB_Assimilator.description>Носители могут забирать по одной совместимой конечности или органу из свежих человекоподобных трупов, приживляя их вместо собственных утраченных частей. Донорский труп теряет изъятую часть, когда она становится частью носителя.</FB_Assimilator.description>
   <FB_Assimilator.label>ассимилятор</FB_Assimilator.label>
+  <FB_Assimilator.symbolPack.wholeNameSymbols.0.symbol>телохват</FB_Assimilator.symbolPack.wholeNameSymbols.0.symbol>
+  <FB_Assimilator.symbolPack.prefixSymbols.0.symbol>тело</FB_Assimilator.symbolPack.prefixSymbols.0.symbol>
   <FB_BiomassEvolution.description>Носители могут стать живым центром колонии плоти. Они способны превратиться в Сердце плоти, заключать пешек в биомассовые коконы для привязки и мутации, а также направлять рост колонии изнутри живой плоти.</FB_BiomassEvolution.description>
   <FB_BiomassEvolution.label>эволюция биомассы</FB_BiomassEvolution.label>
   <FB_BiomassEvolution.labelShortAdj>эволюционирующий биомассой</FB_BiomassEvolution.labelShortAdj>
   <FB_Eater.description>Носители могут поглощать органические трупы в личную память тела, а затем тратить гемогель колонии, чтобы выращивать сохранённых существ живыми новорождёнными на выбранных клетках плоти.</FB_Eater.description>
   <FB_Eater.label>пожиратель</FB_Eater.label>
+  <FB_Eater.symbolPack.prefixSymbols.0.symbol>био</FB_Eater.symbolPack.prefixSymbols.0.symbol>
+  <FB_Eater.symbolPack.prefixSymbols.1.symbol>органо</FB_Eater.symbolPack.prefixSymbols.1.symbol>
+  <FB_Eater.symbolPack.prefixSymbols.2.symbol>клето</FB_Eater.symbolPack.prefixSymbols.2.symbol>
+  <FB_Eater.symbolPack.suffixSymbols.0.symbol>хран</FB_Eater.symbolPack.suffixSymbols.0.symbol>
+  <FB_Eater.symbolPack.suffixSymbols.1.symbol>склад</FB_Eater.symbolPack.suffixSymbols.1.symbol>
+  <FB_Eater.symbolPack.suffixSymbols.2.symbol>сосуд</FB_Eater.symbolPack.suffixSymbols.2.symbol>
   <FB_FleshbeastBody.description>Носитель перестраивается в человекоподобного биошмата: волосы и обычная кожа уступают место живой плотской ткани и искажённой голове. Тело почти не чувствует боли, быстрее заживает и получает немного меньше урона, но становится пугающе отталкивающим. Жизненно важные системы расходятся по всей массе, поэтому смертельный удар не убивает носителя, а разрывает его на два более молодых тела. Не сочетается с фрагментацией - тело умеет распадаться только одним способом.</FB_FleshbeastBody.description>
   <FB_FleshbeastBody.label>тело биошмата</FB_FleshbeastBody.label>
   <FB_FleshbeastBody.labelShortAdj>биошмат</FB_FleshbeastBody.labelShortAdj>
   <FB_FleshbeastBody.renderNodeProperties.0.debugLabel>мех</FB_FleshbeastBody.renderNodeProperties.0.debugLabel>
   <FB_Fragmentation.description>Носители могут самостоятельно или автоматически разорваться на осколочников для сохранения своей жизни. Осколочники бегут от опасности, собираются вместе и пытаются восстановить исходное тело, но после сборки плоть ещё долго остаётся нестабильной.</FB_Fragmentation.description>
   <FB_Fragmentation.label>Фрагментация</FB_Fragmentation.label>
+  <FB_Fragmentation.symbolPack.wholeNameSymbols.0.symbol>делитель</FB_Fragmentation.symbolPack.wholeNameSymbols.0.symbol>
+  <FB_Fragmentation.symbolPack.prefixSymbols.0.symbol>жизне</FB_Fragmentation.symbolPack.prefixSymbols.0.symbol>
   <FB_HiveConstructor.description>В теле носителя развивается внутренний улей, медленно выращивающий склератов. Когда рядом есть строительство, ремонт, разборка или работа с крышами, выводок может быть выпущен для труда на благо колонии.</FB_HiveConstructor.description>
   <FB_HiveConstructor.label>конструктор улья</FB_HiveConstructor.label>
   <FB_HiveConstructor.labelShortAdj>конструктор улья</FB_HiveConstructor.labelShortAdj>
   <FB_OrganicArmor.description>Носители могут вырастить костно-хитиновые пластины на голове и туловище. Эта броня временная и постепенно разрушается, давая сильную защиту ценой уродства и снижения подвижности на тяжёлых стадиях.</FB_OrganicArmor.description>
   <FB_OrganicArmor.label>органическая броня</FB_OrganicArmor.label>
+  <FB_OrganicArmor.symbolPack.wholeNameSymbols.0.symbol>панцирник</FB_OrganicArmor.symbolPack.wholeNameSymbols.0.symbol>
+  <FB_OrganicArmor.symbolPack.prefixSymbols.0.symbol>плото</FB_OrganicArmor.symbolPack.prefixSymbols.0.symbol>
   <FB_PulsatingMold.description>На теле носителя вырастают споровые наросты, которые можно включить для выброса выбранного облака спор вокруг себя. В зависимости от типа споры отравляют, вызывают эйфорию или погружают ближайших существ в оцепенение.</FB_PulsatingMold.description>
   <FB_PulsatingMold.label>пульсирующая плесень</FB_PulsatingMold.label>
   <FB_PulsatingMold.labelShortAdj>пульсирующая плесень</FB_PulsatingMold.labelShortAdj>

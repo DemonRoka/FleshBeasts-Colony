@@ -16,9 +16,9 @@
   <FB_ParasiteImplant.label>внедрить паразита</FB_ParasiteImplant.label>
   <FB_Scavenger.description>Превращает свежий труп в одно или несколько существ-ткачей плоти, вызывая небольшой эффект мясного взрыва.</FB_Scavenger.description>
   <FB_Scavenger.label>падальщик</FB_Scavenger.label>
-  <FB_FleshDivision.description>Разделяет заклинателя на второе тело. Обе получившиеся пешки сохраняют только половину исходного возраста и половину накопленного опыта каждого навыка. Надетая одежда сбрасывается на землю, а оба тела временно становятся нестабильными.</FB_FleshDivision.description>
+  <FB_FleshDivision.description>Разрывает пешку надвое в коротком кровавом обряде. В одиночку разорвать собственную плоть трудно: двое других колонистов, растягивающих половины, заметно повышают шанс успеха, а сорвавшийся обряд вместо второго тела порождает преданного пальцешипа. При любом исходе остаётся лишь половина возраста и опыта навыков, одежда падает на землю, а плоть на время становится нестабильной.</FB_FleshDivision.description>
   <FB_FleshDivision.label>деление плоти</FB_FleshDivision.label>
-  <FB_FleshDivision.confirmationDialogText>Начать деление плоти? Пешка будет разделена на два нестабильных тела, потеряет половину возраста и опыта навыков, а одежда будет сброшена.</FB_FleshDivision.confirmationDialogText>
+  <FB_FleshDivision.confirmationDialogText>Начать деление плоти? {PAWN_nameDef} разорвётся на два нестабильных тела, у каждого останется половина возраста и опыта навыков, а надетая одежда упадёт на землю.</FB_FleshDivision.confirmationDialogText>
   <FB_Bloodlash.label>кровавый хлыст</FB_Bloodlash.label>
   <FB_Bloodlash.description>Носитель выпускает из горла кровавое щупальце, которое впивается в ближайшую живую цель и начинает откачивать кровь. Украденная кровь насыщает носителя и помогает восстановить кровопотерю или запас гемогена.</FB_Bloodlash.description>
   <FB_SpineLaunch_TentacleTurret.label>запуск шипа</FB_SpineLaunch_TentacleTurret.label>

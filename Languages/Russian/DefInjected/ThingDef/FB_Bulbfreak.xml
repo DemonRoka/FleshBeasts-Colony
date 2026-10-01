@@ -8,4 +8,5 @@
   <FB_Bulbfreak.tools.3.label>щупальце</FB_Bulbfreak.tools.3.label>
   <FB_Bulbfreak.tools.4.label>щупальце</FB_Bulbfreak.tools.4.label>
   <FB_Bulbfreak.tools.5.label>голова</FB_Bulbfreak.tools.5.label>
+  <FB_Bulbfreak.comps.CompInspectStringEmergence.inspectString>Бывший носитель — {SOURCEPAWN_labelShort}.</FB_Bulbfreak.comps.CompInspectStringEmergence.inspectString>
 </LanguageData>

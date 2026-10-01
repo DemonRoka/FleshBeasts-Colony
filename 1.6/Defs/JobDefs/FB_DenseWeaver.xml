@@ -4,11 +4,13 @@
   <JobDef>
     <defName>FB_HealPawn</defName>
     <driverClass>FB.JobDriver_HealPawn</driverClass>
+    <reportString>regrowing a body part of TargetA.</reportString>
   </JobDef>
 
   <!-- Задание: FB_ScavengeCorpse -->
   <JobDef>
     <defName>FB_ScavengeCorpse</defName>
     <driverClass>FB.JobDriver_ScavengeCorpse</driverClass>
+    <reportString>scavenging TargetA for limbs.</reportString>
   </JobDef>
 </Defs>

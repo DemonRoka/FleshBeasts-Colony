@@ -2,4 +2,8 @@
 <LanguageData>
   <FB_OrganicGenetics.label>органическая генетика</FB_OrganicGenetics.label>
   <FB_OrganicGenetics.description>Открывает жертвенный кокон, геномный архив и генный переплетатель: живой генетический комплекс для извлечения генов в видимые генопаки, хранения их в органических архивах и плетения из них подготовленных плотяных ксеногермов для интеграции через кокон.</FB_OrganicGenetics.description>
+  <FB_OrganicGenetics.generalRules.rulesStrings.0>subject-&gt;органическая генетика</FB_OrganicGenetics.generalRules.rulesStrings.0>
+  <FB_OrganicGenetics.generalRules.rulesStrings.1>subject_story-&gt;вырастили живые генетические архивы</FB_OrganicGenetics.generalRules.rulesStrings.1>
+  <FB_OrganicGenetics.generalRules.rulesStrings.2>subject_story-&gt;переплели гены в питаемых гемогелем органах</FB_OrganicGenetics.generalRules.rulesStrings.2>
+  <FB_OrganicGenetics.generalRules.rulesStrings.3>subject_gerund-&gt;переплетением органических геномов</FB_OrganicGenetics.generalRules.rulesStrings.3>
 </LanguageData>

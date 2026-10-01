@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+  <FB_FleshMemoryLabel.label>имя</FB_FleshMemoryLabel.label>
+  <FB_FleshMemoryLabel.headerTip>Имя</FB_FleshMemoryLabel.headerTip>
   <FB_FleshMemoryStatus.label>состояние памяти</FB_FleshMemoryStatus.label>
 
 </LanguageData>

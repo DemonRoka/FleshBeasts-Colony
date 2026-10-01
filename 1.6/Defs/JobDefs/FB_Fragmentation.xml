@@ -4,5 +4,6 @@
   <JobDef>
     <defName>FB_ShardlingsRebuildOriginal</defName>
     <driverClass>FB.JobDriver_ShardlingsRebuildOriginal</driverClass>
+    <reportString>rebuilding the original body.</reportString>
   </JobDef>
 </Defs>

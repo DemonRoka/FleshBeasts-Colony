@@ -4,11 +4,13 @@
   <JobDef>
     <defName>FB_ScrapmeldCollectMechanoidCorpse</defName>
     <driverClass>FB.JobDriver_ScrapmeldCollectMechanoidCorpse</driverClass>
+    <reportString>absorbing TargetA.</reportString>
   </JobDef>
 
   <!-- Задание: FB_ScrapmeldNestlingHaulCorpse -->
   <JobDef>
     <defName>FB_ScrapmeldNestlingHaulCorpse</defName>
     <driverClass>FB.JobDriver_ScrapmeldNestlingHaulCorpse</driverClass>
+    <reportString>absorbing TargetA.</reportString>
   </JobDef>
 </Defs>

@@ -3,8 +3,10 @@
   <FB_AcidBroodmother.label>кислотная правматка</FB_AcidBroodmother.label>
   <FB_AcidBroodmother.description>Крупный биошмат, накапливающий кислоту и расходующий её на выращивание временных кислотных плевак. Выращивание потомства можно включать и отключать; запас кислоты постепенно восстанавливается.</FB_AcidBroodmother.description>
   <FB_AcidBroodmother.tools.0.label>тяжёлая пасть</FB_AcidBroodmother.tools.0.label>
+  <FB_AcidBroodmother.comps.CompInspectStringEmergence.inspectString>Бывший носитель — {SOURCEPAWN_labelShort}.</FB_AcidBroodmother.comps.CompInspectStringEmergence.inspectString>
   <FB_AcidSpitling.label>кислотная плевака</FB_AcidSpitling.label>
   <FB_AcidSpitling.description>Временный детёныш кислотной правматки, обстреливающий врагов кислотой. Когда запас кислоты подходит к концу, возвращается к правматке для пополнения.</FB_AcidSpitling.description>
   <FB_AcidSpitling.tools.0.label>голова</FB_AcidSpitling.tools.0.label>
+  <FB_AcidSpitling.comps.CompInspectStringEmergence.inspectString>Бывший носитель — {SOURCEPAWN_labelShort}.</FB_AcidSpitling.comps.CompInspectStringEmergence.inspectString>
   <FB_AcidSpitlingSpitProjectile.label>кислотный снаряд</FB_AcidSpitlingSpitProjectile.label>
 </LanguageData>

@@ -2,4 +2,5 @@
 <LanguageData>
   <FB_FleshMoon.label>луна плоти</FB_FleshMoon.label>
   <FB_FleshMoon.description>Малая живая луна, отпочковавшаяся от колонии плоти.</FB_FleshMoon.description>
+  <FB_FleshMoon.elevationString>{0} м</FB_FleshMoon.elevationString>
 </LanguageData>

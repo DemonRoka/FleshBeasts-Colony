@@ -2,4 +2,8 @@
 <LanguageData>
   <FB_DeepMawTraps.label>глубокие пасти-ловушки</FB_DeepMawTraps.label>
   <FB_DeepMawTraps.description>Позволяет выращивать крупные подземные пасти с нажимными нервами и сдержанным распознаванием свой-чужой. Эти ловушки ждут перед захлопыванием, а затем проглатывают всех, кто всё ещё стоит над ними.</FB_DeepMawTraps.description>
+  <FB_DeepMawTraps.generalRules.rulesStrings.0>subject-&gt;глубокие пасти-ловушки</FB_DeepMawTraps.generalRules.rulesStrings.0>
+  <FB_DeepMawTraps.generalRules.rulesStrings.1>subject_story-&gt;вырастили скрытые в земле пасти, что выжидают перед тем, как проглотить добычу</FB_DeepMawTraps.generalRules.rulesStrings.1>
+  <FB_DeepMawTraps.generalRules.rulesStrings.2>subject_story-&gt;научили ловушки колонии переваривать плоть и перемалывать машины</FB_DeepMawTraps.generalRules.rulesStrings.2>
+  <FB_DeepMawTraps.generalRules.rulesStrings.3>subject_gerund-&gt;выращиванием глубоких пастей-ловушек</FB_DeepMawTraps.generalRules.rulesStrings.3>
 </LanguageData>

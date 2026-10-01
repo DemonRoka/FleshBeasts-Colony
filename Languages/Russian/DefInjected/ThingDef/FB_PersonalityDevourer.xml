@@ -2,4 +2,8 @@
 <LanguageData>
   <FB_PersonalityDevourer.label>Поглотитель личностей</FB_PersonalityDevourer.label>
   <FB_PersonalityDevourer.description>Слитый биошмат, поглощающий свежие или подгнившие гуманоидные трупы с сохранившимся мозгом и сохраняющий их личности в мозге колонии.</FB_PersonalityDevourer.description>
+  <FB_PersonalityDevourer.comps.CompInspectStringEmergence.inspectString>Бывший носитель — {SOURCEPAWN_labelShort}.</FB_PersonalityDevourer.comps.CompInspectStringEmergence.inspectString>
+  <FB_PersonalityDevourer.tools.assimilation_maw.label>ассимиляционная пасть</FB_PersonalityDevourer.tools.assimilation_maw.label>
+  <FB_PersonalityDevourer.tools.grasping_tendril-0.label>хватательное щупальце</FB_PersonalityDevourer.tools.grasping_tendril-0.label>
+  <FB_PersonalityDevourer.tools.grasping_tendril-1.label>хватательное щупальце</FB_PersonalityDevourer.tools.grasping_tendril-1.label>
 </LanguageData>

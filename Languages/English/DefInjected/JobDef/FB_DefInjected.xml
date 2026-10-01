@@ -30,4 +30,8 @@
   <FB_TissueIncubatorLearnSample.reportString>delivering a tissue sample to TargetB.</FB_TissueIncubatorLearnSample.reportString>
   <FB_FleshbeastBeatFire.reportString>beating fire out.</FB_FleshbeastBeatFire.reportString>
   <FB_FleshbeastExtinguishSelf.reportString>extinguishing itself.</FB_FleshbeastExtinguishSelf.reportString>
+  <FB_RotlarvaConsumeFleshmass.reportString>consuming TargetA.</FB_RotlarvaConsumeFleshmass.reportString>
+  <FB_EnterFleshTunnel.reportString>entering TargetA.</FB_EnterFleshTunnel.reportString>
+  <FB_TransferConsciousness.reportString>transferring consciousness into TargetA.</FB_TransferConsciousness.reportString>
+  <FB_TakeMealFromFeeder.reportString>taking a meal from TargetA.</FB_TakeMealFromFeeder.reportString>
 </LanguageData>

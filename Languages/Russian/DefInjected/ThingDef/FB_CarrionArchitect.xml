@@ -2,4 +2,8 @@
 <LanguageData>
   <FB_CarrionArchitect.label>Архитектор падали</FB_CarrionArchitect.label>
   <FB_CarrionArchitect.description>Медленный слитый биошмат, который под управлением запечатанного носителя перекраивает свежие и подгнившие трупы в боевых пальцешипов.</FB_CarrionArchitect.description>
+  <FB_CarrionArchitect.comps.CompInspectStringEmergence.inspectString>Бывший носитель — {SOURCEPAWN_labelShort}.</FB_CarrionArchitect.comps.CompInspectStringEmergence.inspectString>
+  <FB_CarrionArchitect.tools.head.label>голова</FB_CarrionArchitect.tools.head.label>
+  <FB_CarrionArchitect.tools.tentacle-0.label>щупальце</FB_CarrionArchitect.tools.tentacle-0.label>
+  <FB_CarrionArchitect.tools.tentacle-1.label>щупальце</FB_CarrionArchitect.tools.tentacle-1.label>
 </LanguageData>

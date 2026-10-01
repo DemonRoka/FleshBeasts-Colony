@@ -30,4 +30,16 @@
   <FB_TissueIncubatorLearnSample.reportString>доставляет образец ткани к TargetB.</FB_TissueIncubatorLearnSample.reportString>
   <FB_FleshbeastBeatFire.reportString>тушит пожар.</FB_FleshbeastBeatFire.reportString>
   <FB_FleshbeastExtinguishSelf.reportString>тушит себя.</FB_FleshbeastExtinguishSelf.reportString>
+  <FB_BiomassTransformAtCell.reportString>становится сердцем плоти.</FB_BiomassTransformAtCell.reportString>
+  <FB_RotlarvaConsumeFleshmass.reportString>поедает TargetA.</FB_RotlarvaConsumeFleshmass.reportString>
+  <FB_EnterHive.reportString>входит в улей.</FB_EnterHive.reportString>
+  <FB_EnterFleshTunnel.reportString>входит в TargetA.</FB_EnterFleshTunnel.reportString>
+  <FB_SelfDestruct.reportString>разрывается.</FB_SelfDestruct.reportString>
+  <FB_TransferConsciousness.reportString>переносит сознание в TargetA.</FB_TransferConsciousness.reportString>
+  <FB_TakeMealFromFeeder.reportString>берёт еду из TargetA.</FB_TakeMealFromFeeder.reportString>
+  <FB_EnterVoiceOrgan.reportString>входит в TargetA.</FB_EnterVoiceOrgan.reportString>
+  <FB_CarryToVoiceOrgan.reportString>несёт TargetB в TargetA.</FB_CarryToVoiceOrgan.reportString>
+  <FB_CarryCarriedPawnToVoiceOrgan.reportString>помещает TargetB в TargetA.</FB_CarryCarriedPawnToVoiceOrgan.reportString>
+  <FB_CarryCarriedPawnToSynapseCore.reportString>помещает TargetB в TargetA.</FB_CarryCarriedPawnToSynapseCore.reportString>
+  <FB_DecentralizedOrganismMerge.reportString>сливается с TargetA.</FB_DecentralizedOrganismMerge.reportString>
 </LanguageData>

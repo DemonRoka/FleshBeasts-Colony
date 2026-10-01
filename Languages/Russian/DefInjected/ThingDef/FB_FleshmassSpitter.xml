@@ -2,4 +2,5 @@
 <LanguageData>
   <FB_FleshmassSpitter.label>плотяной плеватель</FB_FleshmassSpitter.label>
   <FB_FleshmassSpitter.description>Защитный орган плотяной массы, плюющийся кислотой на большие расстояния. Может выбирать цели автоматически или выполнять указанный приказ на выстрел.</FB_FleshmassSpitter.description>
+  <FB_FleshmassSpitter.verbs.Verb_Shoot.label>плотяной плеватель</FB_FleshmassSpitter.verbs.Verb_Shoot.label>
 </LanguageData>

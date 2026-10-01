@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FleshVeins.label>жилы плоти</FleshVeins.label>
+  <FleshVeins.description>Скользкий слой обнажённых жил плоти, растянувшийся по земле. Под ногами он неприятен, но питает ткань колонии и органический рост.</FleshVeins.description>
   <FB_FleshMoonFlesh.label>лунная плоть</FB_FleshMoonFlesh.label>
   <FB_FleshMoonFlesh.description>Живая поверхность луны плоти, выросшая как сам грунт, а не слой поверх почвы.</FB_FleshMoonFlesh.description>
   <FB_FleshMoonFleshVeins.label>жилистая лунная плоть</FB_FleshMoonFleshVeins.label>

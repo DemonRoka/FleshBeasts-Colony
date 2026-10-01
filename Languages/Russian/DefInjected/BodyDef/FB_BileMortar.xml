@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_BileburstPodlingBody.label>желчный подрывник</FB_BileburstPodlingBody.label>
+  <FB_BileburstPodlingBody.corePart.parts.FleshbeastHead.parts.left_eye.customLabel>левый глаз</FB_BileburstPodlingBody.corePart.parts.FleshbeastHead.parts.left_eye.customLabel>
+  <FB_BileburstPodlingBody.corePart.parts.FleshbeastHead.parts.right_eye.customLabel>правый глаз</FB_BileburstPodlingBody.corePart.parts.FleshbeastHead.parts.right_eye.customLabel>
 </LanguageData>

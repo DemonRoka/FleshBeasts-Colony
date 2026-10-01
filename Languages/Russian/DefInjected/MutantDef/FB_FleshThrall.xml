@@ -2,4 +2,10 @@
 <LanguageData>
   <FB_FleshThrall.label>плотяной раб</FB_FleshThrall.label>
   <FB_FleshThrall.description>Труп-марионетка, которой изнутри управляет плоть колонии. Она использует доставшееся тело со всеми его утратами.</FB_FleshThrall.description>
+  <FB_FleshThrall.namePrefix>плотяной раб </FB_FleshThrall.namePrefix>
+  <FB_FleshThrall.tools.teeth.label>зубы</FB_FleshThrall.tools.teeth.label>
+  <FB_FleshThrall.tools.left_hand.label>левая кисть</FB_FleshThrall.tools.left_hand.label>
+  <FB_FleshThrall.tools.left_hand.labelNoLocation>кисть</FB_FleshThrall.tools.left_hand.labelNoLocation>
+  <FB_FleshThrall.tools.right_hand.label>правая кисть</FB_FleshThrall.tools.right_hand.label>
+  <FB_FleshThrall.tools.right_hand.labelNoLocation>кисть</FB_FleshThrall.tools.right_hand.labelNoLocation>
 </LanguageData>

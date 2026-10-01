@@ -2,4 +2,9 @@
 <LanguageData>
   <FB_Hemoghoul.label>гемогуль</FB_Hemoghoul.label>
   <FB_Hemoghoul.description>Рабочая оболочка плоти, поднятая из трупа пальцешипом. Не спит и не требует удобств, питаясь только гемогелем сердца. Плоть колонии затягивает его раны; после смерти тело распадается на несколько пальцешипов.</FB_Hemoghoul.description>
+  <FB_Hemoghoul.tools.teeth.label>зубы</FB_Hemoghoul.tools.teeth.label>
+  <FB_Hemoghoul.tools.left_claw.label>левая клешня</FB_Hemoghoul.tools.left_claw.label>
+  <FB_Hemoghoul.tools.left_claw.labelNoLocation>клешня</FB_Hemoghoul.tools.left_claw.labelNoLocation>
+  <FB_Hemoghoul.tools.right_claw.label>правая клешня</FB_Hemoghoul.tools.right_claw.label>
+  <FB_Hemoghoul.tools.right_claw.labelNoLocation>клешня</FB_Hemoghoul.tools.right_claw.labelNoLocation>
 </LanguageData>

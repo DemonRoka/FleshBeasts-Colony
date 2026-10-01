@@ -2,4 +2,8 @@
 <LanguageData>
   <FB_Thrallbound.fixedName>связанные рабы</FB_Thrallbound.fixedName>
   <FB_Thrallbound.label>связанные рабы</FB_Thrallbound.label>
+  <FB_Thrallbound.leaderTitle>предводитель</FB_Thrallbound.leaderTitle>
+  <FB_Thrallbound.messageDefendersAttacking>{0} из фракции {1} атакуют ваших {lookup: {2}; Case; 3}.</FB_Thrallbound.messageDefendersAttacking>
+  <FB_Thrallbound.pawnSingular>плотяной раб</FB_Thrallbound.pawnSingular>
+  <FB_Thrallbound.pawnsPlural>плотяные рабы</FB_Thrallbound.pawnsPlural>
 </LanguageData>

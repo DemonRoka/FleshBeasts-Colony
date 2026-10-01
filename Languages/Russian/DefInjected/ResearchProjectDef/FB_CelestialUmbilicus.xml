@@ -2,4 +2,8 @@
 <LanguageData>
   <FB_CelestialBudding.label>небесное отпочкование</FB_CelestialBudding.label>
   <FB_CelestialBudding.description>Открывает небесную пуповину, финальный орган колонии плоти. После пробуждения она потребляет сетевой гемогель, растёт к орбите и провоцирует все фракции попытаться перерубить столб отпочкования.</FB_CelestialBudding.description>
+  <FB_CelestialBudding.generalRules.rulesStrings.0>subject-&gt;небесное отпочкование</FB_CelestialBudding.generalRules.rulesStrings.0>
+  <FB_CelestialBudding.generalRules.rulesStrings.1>subject_story-&gt;подготовили колонию к отпочкованию от планеты</FB_CelestialBudding.generalRules.rulesStrings.1>
+  <FB_CelestialBudding.generalRules.rulesStrings.2>subject_story-&gt;вырастили живую пусковую пуповину для будущей луны плоти</FB_CelestialBudding.generalRules.rulesStrings.2>
+  <FB_CelestialBudding.generalRules.rulesStrings.3>subject_gerund-&gt;питанием финальной пуповины</FB_CelestialBudding.generalRules.rulesStrings.3>
 </LanguageData>

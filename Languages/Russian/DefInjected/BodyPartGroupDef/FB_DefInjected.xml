@@ -2,7 +2,9 @@
 <LanguageData>
   <EighthTentacle.label>щупальце</EighthTentacle.label>
   <FB_CoreEyes.label>глаза ядра</FB_CoreEyes.label>
+  <FB_CoreEyes.labelShort>глаза</FB_CoreEyes.labelShort>
   <FB_CoreTentacles.label>щупальца ядра</FB_CoreTentacles.label>
+  <FB_CoreTentacles.labelShort>щупальца</FB_CoreTentacles.labelShort>
   <FB_FirstTentacle.label>щупальце</FB_FirstTentacle.label>
   <FB_FourthTentacle.label>щупальце</FB_FourthTentacle.label>
   <FB_SecondTentacle.label>щупальце</FB_SecondTentacle.label>

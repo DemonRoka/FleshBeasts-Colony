@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_PersonalityDevourerBody.label>Поглотитель личностей</FB_PersonalityDevourerBody.label>
+  <FB_PersonalityDevourerBody.corePart.parts.left_lung.customLabel>левое лёгкое</FB_PersonalityDevourerBody.corePart.parts.left_lung.customLabel>
+  <FB_PersonalityDevourerBody.corePart.parts.right_lung.customLabel>правое лёгкое</FB_PersonalityDevourerBody.corePart.parts.right_lung.customLabel>
+  <FB_PersonalityDevourerBody.corePart.parts.FleshbeastHead.parts.left_eye.customLabel>левый глаз</FB_PersonalityDevourerBody.corePart.parts.FleshbeastHead.parts.left_eye.customLabel>
+  <FB_PersonalityDevourerBody.corePart.parts.FleshbeastHead.parts.right_eye.customLabel>правый глаз</FB_PersonalityDevourerBody.corePart.parts.FleshbeastHead.parts.right_eye.customLabel>
+  <FB_PersonalityDevourerBody.corePart.parts.FleshbeastHead.parts.assimilation_maw.customLabel>ассимиляционная пасть</FB_PersonalityDevourerBody.corePart.parts.FleshbeastHead.parts.assimilation_maw.customLabel>
+  <FB_PersonalityDevourerBody.corePart.parts.front_left_grasper.customLabel>передний левый хвататель</FB_PersonalityDevourerBody.corePart.parts.front_left_grasper.customLabel>
+  <FB_PersonalityDevourerBody.corePart.parts.front_right_grasper.customLabel>передний правый хвататель</FB_PersonalityDevourerBody.corePart.parts.front_right_grasper.customLabel>
+  <FB_PersonalityDevourerBody.corePart.parts.rear_left_grasper.customLabel>задний левый хвататель</FB_PersonalityDevourerBody.corePart.parts.rear_left_grasper.customLabel>
+  <FB_PersonalityDevourerBody.corePart.parts.rear_right_grasper.customLabel>задний правый хвататель</FB_PersonalityDevourerBody.corePart.parts.rear_right_grasper.customLabel>
 </LanguageData>

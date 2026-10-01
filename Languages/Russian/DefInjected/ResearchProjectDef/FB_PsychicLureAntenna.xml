@@ -2,4 +2,8 @@
 <LanguageData>
   <FB_PsychicLureAntennae.label>психические приманки</FB_PsychicLureAntennae.label>
   <FB_PsychicLureAntennae.description>Открывает психические приманки: органические антенны, которые испускают психоактивный гул, привлекают налётчиков и провоцируют агрессию у животных как источник опасной биомассы.</FB_PsychicLureAntennae.description>
+  <FB_PsychicLureAntennae.generalRules.rulesStrings.0>subject-&gt;психические приманки</FB_PsychicLureAntennae.generalRules.rulesStrings.0>
+  <FB_PsychicLureAntennae.generalRules.rulesStrings.1>subject_story-&gt;вырастили нервные органы, зовущие добычу и врагов в пределы досягаемости</FB_PsychicLureAntennae.generalRules.rulesStrings.1>
+  <FB_PsychicLureAntennae.generalRules.rulesStrings.2>subject_story-&gt;научились превращать психический шум в урожай биомассы</FB_PsychicLureAntennae.generalRules.rulesStrings.2>
+  <FB_PsychicLureAntennae.generalRules.rulesStrings.3>subject_gerund-&gt;передачей хищных сигналов</FB_PsychicLureAntennae.generalRules.rulesStrings.3>
 </LanguageData>

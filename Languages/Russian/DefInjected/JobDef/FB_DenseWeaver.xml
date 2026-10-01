@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_HealPawn.reportString>отращивает часть тела: TargetA.</FB_HealPawn.reportString>
+  <FB_ScavengeCorpse.reportString>забирает конечности: TargetA.</FB_ScavengeCorpse.reportString>
+</LanguageData>

@@ -2,4 +2,5 @@
 <LanguageData>
   <FB_GastricAcid.label>желудочный сок</FB_GastricAcid.label>
   <FB_GastricAcid.description>Едкая пищеварительная жидкость, выделяемая органом плотяной колонии. Живые существа получают ожоги, а оставленная внутри органика распадается на гемогель.</FB_GastricAcid.description>
+  <FB_GastricAcid.tools.water.label>вода</FB_GastricAcid.tools.water.label>
 </LanguageData>

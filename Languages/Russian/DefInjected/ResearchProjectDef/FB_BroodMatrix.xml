@@ -2,4 +2,8 @@
 <LanguageData>
   <FB_BroodMatrixCultivation.label>выращивание маточника</FB_BroodMatrixCultivation.label>
   <FB_BroodMatrixCultivation.description>Открывает маточник: питающийся гемогелем орган, который растит детей в восемьдесят раз быстрее и вливает в них навыки, страсти, черты и гены живого донора.</FB_BroodMatrixCultivation.description>
+  <FB_BroodMatrixCultivation.generalRules.rulesStrings.0>subject-&gt;выращивание маточника</FB_BroodMatrixCultivation.generalRules.rulesStrings.0>
+  <FB_BroodMatrixCultivation.generalRules.rulesStrings.1>subject_story-&gt;вырастили детей внутри питаемого гемогелем маточника</FB_BroodMatrixCultivation.generalRules.rulesStrings.1>
+  <FB_BroodMatrixCultivation.generalRules.rulesStrings.2>subject_story-&gt;влили навыки пленника в новорождённую плоть</FB_BroodMatrixCultivation.generalRules.rulesStrings.2>
+  <FB_BroodMatrixCultivation.generalRules.rulesStrings.3>subject_gerund-&gt;выращиванием маточников</FB_BroodMatrixCultivation.generalRules.rulesStrings.3>
 </LanguageData>

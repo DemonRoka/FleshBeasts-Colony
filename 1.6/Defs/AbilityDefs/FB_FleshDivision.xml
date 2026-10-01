@@ -3,9 +3,9 @@
   <AbilityDef>
     <defName>FB_FleshDivision</defName>
     <gizmoClass>FB.Command_FleshDivisionAbility</gizmoClass>
-    <description>Split the caster into a second body through a brief tearing ritual. Both resulting pawns keep only half of the original age and half of every skill's earned experience. Worn apparel is shed to the ground, and both bodies become temporarily flesh-unstable.</description>
+    <description>Tear the caster in two in a short, bloody rite. Alone, a pawn struggles to rip its own flesh apart; two other colonists pulling at the halves make success far more likely, while a failed rite births a loyal fingerspike instead of a second body. Whatever the outcome, only half of the age and skill experience remains, worn apparel falls away and the flesh stays unstable for a while.</description>
     <label>flesh division</label>
-    <confirmationDialogText>Start flesh division? This will split the pawn into two unstable bodies, halve age and skill experience, and drop worn apparel.</confirmationDialogText>
+    <confirmationDialogText>Start flesh division? {PAWN_nameDef} will be torn into two unstable bodies, each keeping half the age and skill experience, and worn apparel will fall to the ground.</confirmationDialogText>
     <iconPath>UI/Abilities/FleshDivision</iconPath>
     <cooldownTicksRange>60</cooldownTicksRange>
     <targetRequired>false</targetRequired>

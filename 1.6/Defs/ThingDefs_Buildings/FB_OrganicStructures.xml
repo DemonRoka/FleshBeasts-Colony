@@ -292,7 +292,6 @@
       </li>
       <li Class="FB.CompProperties_FleshMoonGastricAcidDigester">
         <acidTerrain>FB_GastricAcid</acidTerrain>
-        <terrainOnAbsorb>FB_FleshMoonFlesh</terrainOnAbsorb>
         <hemogelProductionPerHour>50</hemogelProductionPerHour>
         <hemogelPerNutrition>20</hemogelPerNutrition>
         <digestionDurationFactor>2</digestionDurationFactor>
@@ -851,7 +850,6 @@
   <comps>
     <li Class="FB.CompProperties_GastricAcidSpewer">
       <acidTerrain>FB_GastricAcid</acidTerrain>
-      <terrainOnAbsorb>Flesh</terrainOnAbsorb>
       <gizmoIconPath>UI/Commands/FB_GastricAcidSpewerSpread</gizmoIconPath>
       <spreadIntervalTicks>45</spreadIntervalTicks>
       <absorbIntervalTicks>30</absorbIntervalTicks>
@@ -1939,7 +1937,7 @@
       <Cleanliness>-1</Cleanliness>
     </statBases>
     <graphicData>
-      <texPath>Things/Building/FB_Organic/GasBladder/GasBladder</texPath>
+      <texPath>Things/Building/FB_Organic/GasBladder/GasBladder_1</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1,1)</drawSize>
       <damageData>
@@ -1951,7 +1949,7 @@
         </scratches>
       </damageData>
     </graphicData>
-    <uiIconPath>Things/Building/FB_Organic/GasBladder/GasBladder</uiIconPath>
+    <uiIconPath>Things/Building/FB_Organic/GasBladder/GasBladder_3</uiIconPath>
     <building>
       <isInert>true</isInert>
       <ai_chillDestination>false</ai_chillDestination>
@@ -1970,6 +1968,11 @@
         <scanIntervalTicks>200</scanIntervalTicks>
         <maxGasReserve>100</maxGasReserve>
         <reservePerFullGasCell>5</reservePerFullGasCell>
+        <fillStageTexPaths>
+          <li>Things/Building/FB_Organic/GasBladder/GasBladder_1</li>
+          <li>Things/Building/FB_Organic/GasBladder/GasBladder_2</li>
+          <li>Things/Building/FB_Organic/GasBladder/GasBladder_3</li>
+        </fillStageTexPaths>
       </li>
     </modExtensions>
   </ThingDef>

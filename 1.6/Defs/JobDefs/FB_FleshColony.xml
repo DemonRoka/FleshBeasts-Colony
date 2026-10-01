@@ -9,6 +9,7 @@
   <JobDef>
     <defName>FB_RotlarvaConsumeFleshmass</defName>
     <driverClass>FB.JobDriver_RotlarvaConsumeFleshmass</driverClass>
+    <reportString>consuming TargetA.</reportString>
   </JobDef>
   <!-- Задание: FB_FinishFrame -->
   <JobDef>
@@ -26,6 +27,7 @@
   <JobDef>
     <defName>FB_EnterFleshTunnel</defName>
     <driverClass>FB.JobDriver_EnterFleshTunnel</driverClass>
+    <reportString>entering TargetA.</reportString>
   </JobDef>
   <!-- Задание: FB_SelfDestruct -->
   <JobDef>
@@ -44,6 +46,7 @@
   <JobDef>
     <defName>FB_TransferConsciousness</defName>
     <driverClass>FB.JobDriver_TransferConsciousness</driverClass>
+    <reportString>transferring consciousness into TargetA.</reportString>
   </JobDef>
   <!-- Задание: consume corpse for spawning (FB_ConsumeCorpseForSpawning) -->
   <JobDef>
@@ -73,6 +76,7 @@
   <JobDef>
     <defName>FB_TakeMealFromFeeder</defName>
     <driverClass>FB.JobDriver_TakeMealFromFeeder</driverClass>
+    <reportString>taking a meal from TargetA.</reportString>
   </JobDef>
   <JobDef>
     <defName>FB_FleshbeastHealingSleep</defName>

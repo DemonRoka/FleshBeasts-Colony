@@ -378,7 +378,7 @@
     <embryoDef>FB_GasBladder</embryoDef>
     <labelKey>FB_ColonyBrain_Structure_GasBladder_Label</labelKey>
     <descriptionKey>FB_ColonyBrain_Structure_GasBladder_Desc</descriptionKey>
-    <texPath>Things/Building/FB_Organic/GasBladder/GasBladder</texPath>
+    <texPath>Things/Building/FB_Organic/GasBladder/GasBladder_3</texPath>
     <drawSize>(1,1)</drawSize>
     <cost>100</cost>
     <fleshArchitectCategory>FB_FleshArchitect_Auxiliary</fleshArchitectCategory>
