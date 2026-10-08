@@ -5,5 +5,6 @@
   <FB_MinionsHive_DevNoFreeSlot>Все слоты склеретов заняты.</FB_MinionsHive_DevNoFreeSlot>
   <FB_MinionsHive_DevContainerFull>В контейнере улья нет свободного места.</FB_MinionsHive_DevContainerFull>
   <FB_MinionsHive_DevNotEnoughHemogel>Требуется {0} гемогеля.</FB_MinionsHive_DevNotEnoughHemogel>
+  <FB_SelectStoredPawnsDesc>Выбрать всех хранящихся внутри ({0}, всего {1}).</FB_SelectStoredPawnsDesc>
   <FB_ColonyBrain_Structure_MinionBroodseed_Desc>Вырастить выводковое семя миньонов, которое созреет в улей для хранения и восстановления строительных склерэтов.</FB_ColonyBrain_Structure_MinionBroodseed_Desc>
 </LanguageData>

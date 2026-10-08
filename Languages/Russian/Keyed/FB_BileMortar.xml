@@ -3,7 +3,7 @@
   <FB_ColonyBrain_Structure_BileMortarGland_Label>Желчная мортирная железа</FB_ColonyBrain_Structure_BileMortarGland_Label>
   <FB_ColonyBrain_Structure_BileMortarGland_Desc>Вырастить желчную мортирную железу, которая выводит желчных подрывников и запускает зрелых как зажигательные снаряды.</FB_ColonyBrain_Structure_BileMortarGland_Desc>
   <FB_BilePodlingSpawnLabel>Вырастить желчного подрывника</FB_BilePodlingSpawnLabel>
-  <FB_BilePodlingSpawnDesc>Вырастить рядом с железой одного желчного подрывника. Требуется полное питание гемогелевой сети.</FB_BilePodlingSpawnDesc>
+  <FB_BilePodlingSpawnDesc>Вырастить рядом с железой одного желчного подрывника за {0} гемогеля из сети.</FB_BilePodlingSpawnDesc>
   <FB_BilePodlingSpawnFailed>Желчная мортирная железа сейчас не может вырастить подрывника.</FB_BilePodlingSpawnFailed>
   <FB_BilePodlingNoSpawnCell>Рядом нет свободной клетки для желчного подрывника.</FB_BilePodlingNoSpawnCell>
   <FB_BilePodlingNoNetworkSupply>Гемогелевая сеть недополучает питание.</FB_BilePodlingNoNetworkSupply>
@@ -23,6 +23,9 @@
   <FB_BileburstChargePausedNoSupply>Рост заряда остановлен: связанная мортира недополучает питание гемогелевой сети.</FB_BileburstChargePausedNoSupply>
   <FB_VolatileBileBarTitle>Горючая желчь</FB_VolatileBileBarTitle>
   <FB_VolatileBileBarTooltip>Взрывной запас желчи этого подрывника. При 25% и выше он может быть заряжен в желчную мортирную железу.</FB_VolatileBileBarTooltip>
+  <FB_VolatileBileBarGroupTitle>Горючая желчь ×{0}: {1}%</FB_VolatileBileBarGroupTitle>
+  <FB_VolatileBileBarGroupMinimum>мин. {0}%</FB_VolatileBileBarGroupMinimum>
+  <FB_VolatileBileBarGroupTooltip>Выбрано подрывников: {0}\nСредний запас: {1}%\nСамый малый: {2}%\nСамый большой: {3}%\nГотовы для мортиры (от {4}%): {5} из {0}</FB_VolatileBileBarGroupTooltip>
   <FB_BileburstAbsorbPayloadLabel>Поглотить груз</FB_BileburstAbsorbPayloadLabel>
   <FB_BileburstAbsorbPayloadDesc>Поглотить один переносимый предмет, когда запас горючей желчи достигнет {0}%. Если желчная мортира выпустит подрывника, предмет выпадет в месте попадания; взрывной груз будет подожжён после разрыва.</FB_BileburstAbsorbPayloadDesc>
   <FB_BileburstPayloadInspect>Груз: {0}</FB_BileburstPayloadInspect>

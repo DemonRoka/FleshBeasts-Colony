@@ -96,6 +96,13 @@
         <baseMoodEffect>-22</baseMoodEffect>
       </li>
     </stages>
+    <modExtensions>
+      <li Class="FB.ThoughtNullifyingMemesExtension">
+        <memes>
+          <li MayRequire="Sarg.AlphaMemes">AM_Structure_FleshCult</li>
+        </memes>
+      </li>
+    </modExtensions>
   </ThoughtDef>
 
   <!-- Мысли: мутации плоти, принятые колонией -->

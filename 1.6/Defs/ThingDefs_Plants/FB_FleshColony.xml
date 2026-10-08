@@ -91,7 +91,7 @@
   <ThingDef ParentName="PlantBase">
     <defName>FB_FleshFatProtuberances</defName>
     <label>fat flesh protuberances</label>
-    <description>Swollen fleshy protrusions packed with soft nutrient tissue. They grow larger than ordinary protrusions and can be harvested for more organic matter.</description>
+    <description>Swollen fleshy protrusions packed with soft nutrient tissue. They grow larger than ordinary protrusions, even in darkness; animals graze on them, but there is nothing to harvest.</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
       <Flammability>1.3</Flammability>
@@ -114,6 +114,8 @@
       <topWindExposure>0.1</topWindExposure>
       <wildOrder>0</wildOrder>
       <maxGrowthTemperature>75</maxGrowthTemperature>
+      <growMinGlow>0</growMinGlow>
+      <growOptimalGlow>0</growOptimalGlow>
       <dieIfNoSunlight>false</dieIfNoSunlight>
     </plant>
     <selectable>False</selectable>

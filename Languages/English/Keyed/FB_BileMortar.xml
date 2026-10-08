@@ -3,7 +3,7 @@
   <FB_ColonyBrain_Structure_BileMortarGland_Label>Bile Mortar Gland</FB_ColonyBrain_Structure_BileMortarGland_Label>
   <FB_ColonyBrain_Structure_BileMortarGland_Desc>Grow a bile mortar gland that cultivates bileburst podlings and launches mature ones as incendiary shells.</FB_ColonyBrain_Structure_BileMortarGland_Desc>
   <FB_BilePodlingSpawnLabel>Grow bileburst podling</FB_BilePodlingSpawnLabel>
-  <FB_BilePodlingSpawnDesc>Grow one bileburst podling near this gland. Requires full hemogel network supply.</FB_BilePodlingSpawnDesc>
+  <FB_BilePodlingSpawnDesc>Grow one bileburst podling near this gland for {0} hemogel from the network.</FB_BilePodlingSpawnDesc>
   <FB_BilePodlingSpawnFailed>The bile mortar gland cannot grow a bileburst podling right now.</FB_BilePodlingSpawnFailed>
   <FB_BilePodlingNoSpawnCell>There is no clear cell nearby for a bileburst podling.</FB_BilePodlingNoSpawnCell>
   <FB_BilePodlingNoNetworkSupply>The hemogel network is underfed.</FB_BilePodlingNoNetworkSupply>
@@ -23,6 +23,9 @@
   <FB_BileburstChargePausedNoSupply>Charge growth paused: the linked mortar lacks full hemogel supply.</FB_BileburstChargePausedNoSupply>
   <FB_VolatileBileBarTitle>Volatile bile</FB_VolatileBileBarTitle>
   <FB_VolatileBileBarTooltip>This podling's explosive bile charge. At 25% or higher it can be loaded into a bile mortar gland.</FB_VolatileBileBarTooltip>
+  <FB_VolatileBileBarGroupTitle>Volatile bile ×{0}: {1}%</FB_VolatileBileBarGroupTitle>
+  <FB_VolatileBileBarGroupMinimum>min {0}%</FB_VolatileBileBarGroupMinimum>
+  <FB_VolatileBileBarGroupTooltip>Selected podlings: {0}\nAverage charge: {1}%\nLowest charge: {2}%\nHighest charge: {3}%\nReady for the mortar ({4}% or more): {5} of {0}</FB_VolatileBileBarGroupTooltip>
   <FB_BileburstAbsorbPayloadLabel>Absorb payload</FB_BileburstAbsorbPayloadLabel>
   <FB_BileburstAbsorbPayloadDesc>Swallow one haulable item into this podling once it reaches {0}% volatile bile. If launched by a bile mortar, the item is released at the impact site; explosive payloads are ignited after the bileburst rupture.</FB_BileburstAbsorbPayloadDesc>
   <FB_BileburstPayloadInspect>Payload: {0}</FB_BileburstPayloadInspect>

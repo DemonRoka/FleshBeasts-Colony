@@ -1353,6 +1353,7 @@
         <rationDef>FB_HemogelRation</rationDef>
         <rationBatchSize>10</rationBatchSize>
         <rationCommandIconPath>UI/Commands/MakeHemogelRations</rationCommandIconPath>
+        <hemogelPerNutrition>25</hemogelPerNutrition>
       </li>
       <li Class="FB.CompProperties_HemogelUpkeep">
         <hemogelPerHour>0.6</hemogelPerHour>

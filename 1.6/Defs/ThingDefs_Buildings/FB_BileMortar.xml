@@ -26,7 +26,7 @@
     <li Class="FB.CompProperties_BilePodlingSpawner">
       <pawnKindToSpawn>FB_BileburstPodlingKind</pawnKindToSpawn>
       <spawnRadius>3</spawnRadius>
-      <hemogelPerPodlingPerHour>0.1</hemogelPerPodlingPerHour>
+      <hemogelCostPerPodling>15</hemogelCostPerPodling>
       <iconPath>UI/Commands/BilePodlingSpawn</iconPath>
     </li>
     <li Class="FB.CompProperties_BileMortarLauncher">

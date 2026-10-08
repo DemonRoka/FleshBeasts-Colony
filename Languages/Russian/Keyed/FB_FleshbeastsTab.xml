@@ -36,14 +36,20 @@
   <FB_FleshbeastMedicalCareGroupMixed>Разное</FB_FleshbeastMedicalCareGroupMixed>
   <FB_FleshThrallCoherenceTitle>Сцепление: {0}%</FB_FleshThrallCoherenceTitle>
   <FB_FleshThrallCoherenceTooltip>Текущее сцепление: {0}%\nНужно пальцешипов до полного восстановления: {1}</FB_FleshThrallCoherenceTooltip>
-  
+  <FB_FleshThrallCoherenceGroupTitle>Сцепление ×{0}: {1}%</FB_FleshThrallCoherenceGroupTitle>
+  <FB_FleshThrallCoherenceGroupMinimum>мин. {0}%</FB_FleshThrallCoherenceGroupMinimum>
+  <FB_FleshThrallCoherenceGroupTooltip>Выбрано рабов: {0}\nСреднее сцепление: {1}%\nСамое слабое: {2}% ({3})\nНуждаются в восстановлении: {4}\nПальцешипов, чтобы восстановить всех: {5}\nАвтовосстановление включено: {6} из {0}</FB_FleshThrallCoherenceGroupTooltip>
+
   <FB_FleshThrallRestoreLabel>Восстановить раба</FB_FleshThrallRestoreLabel>
-  <FB_FleshThrallRestoreDesc>Позвать ближайших пальцешипов, чтобы они внедрились в плотяного раба и восстановили его жизнеспособность.</FB_FleshThrallRestoreDesc>
+  <FB_FleshThrallRestoreDesc>Позвать ближайших пальцешипов, чтобы они внедрились в плотяного раба и восстановили его жизнеспособность. Если выбрано несколько рабов, первыми помощь получают самые истощённые.</FB_FleshThrallRestoreDesc>
   <FB_FleshThrallAutoRestoreDesc>Щёлкните правой кнопкой по этой команде, чтобы включить автоматическое восстановление. В этом режиме один доступный пальцешип вызывается после потери объёма сцепления, который он может восполнить, или при падении ниже 20%.</FB_FleshThrallAutoRestoreDesc>
   <FB_FleshThrallRestoreNoFingerspike>Нет доступных пальцешипов, способных добраться до цели.</FB_FleshThrallRestoreNoFingerspike>
   <FB_FleshThrallRestoreFullEnough>Раб уже полностью сцеплен.</FB_FleshThrallRestoreFullEnough>
   <FB_FleshThrallRestoreNoJob>Работа восстановления не настроена.</FB_FleshThrallRestoreNoJob>
   <FB_FleshThrallRestoreStarted>{0} пальцешип(ов) назначено на восстановление {1}.</FB_FleshThrallRestoreStarted>
+  <FB_FleshThrallRestoreGroupStarted>{0} пальцешип(ов) отправлено восстанавливать плотяных рабов.</FB_FleshThrallRestoreGroupStarted>
+  <FB_FleshThrallRestoreGroupWaiting>Ещё {0} раб(ов) ждут свободного пальцешипа.</FB_FleshThrallRestoreGroupWaiting>
+  <FB_FleshThrallRestoreAlreadyIncoming>Пальцешипы уже в пути.</FB_FleshThrallRestoreAlreadyIncoming>
   <FB_FleshThrallConvertLabel>Создать плотяного раба</FB_FleshThrallConvertLabel>
   <FB_FleshThrallConvertDesc>Отправить нужное число пальцешипов в труп, чтобы связать тело как плотяного раба.</FB_FleshThrallConvertDesc>
   <FB_FleshThrallConvertInspect>Связывание {0}: {1}/{2} пальцешипов.</FB_FleshThrallConvertInspect>
