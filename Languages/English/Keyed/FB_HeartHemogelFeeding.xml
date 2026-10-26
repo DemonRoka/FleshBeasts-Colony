@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <FB_HeartHemogelFeedingToggleLabel>Allow hemogel feeding</FB_HeartHemogelFeedingToggleLabel>
+  <FB_HeartHemogelFeedingToggleLabel>Hemogel feeding</FB_HeartHemogelFeedingToggleLabel>
   <FB_HeartHemogelFeedingToggleDesc>Allow pawns accepted by the flesh colony to feed directly from this heart's hemogel reserve.</FB_HeartHemogelFeedingToggleDesc>
   <FB_HeartHemogelFeedingInspectEnabled>Accepted pawn feeding: allowed</FB_HeartHemogelFeedingInspectEnabled>
   <FB_HeartHemogelFeedingInspectDisabled>Accepted pawn feeding: blocked</FB_HeartHemogelFeedingInspectDisabled>
@@ -15,6 +15,6 @@
   <FB_ManualFeedingBlocked>Hemogel feeding is disabled for this heart.</FB_ManualFeedingBlocked>
   <FB_ManualFeedingForbidden>This structure is forbidden.</FB_ManualFeedingForbidden>
   <FB_ManualFeedingNoHemogel>Not enough available hemogel.</FB_ManualFeedingNoHemogel>
-  <FB_ManualFeedingNoPath>No reachable interaction cell.</FB_ManualFeedingNoPath>
+  <FB_ManualFeedingNoPath>Cannot reach the building.</FB_ManualFeedingNoPath>
   <FB_ManualFeedingHandsFull>The pawn cannot carry another portion.</FB_ManualFeedingHandsFull>
 </LanguageData>

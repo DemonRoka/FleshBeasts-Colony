@@ -8,7 +8,7 @@
   <FB_FleshRelayDroppedMessage>{0} has finished digging in, and a relay antenna is coming down onto their camp.</FB_FleshRelayDroppedMessage>
 
   <!-- Breaks -->
-  <FB_FleshRelayBerserkStarted>{0} has lost the hive for good and turned on the colony. That beast is not coming back - only down.</FB_FleshRelayBerserkStarted>
+  <FB_FleshRelayBerserkStarted>{0} has lost its connection to the colony and turned against it. It can no longer be brought back under control.</FB_FleshRelayBerserkStarted>
   <FB_FleshRelayLureStarted>{0} is answering the relay's call and walking to the cage.</FB_FleshRelayLureStarted>
   <FB_FleshRelayBeastTaken>{0} has walked into the relay cage. Captives: {1} / {2}.</FB_FleshRelayBeastTaken>
   <FB_FleshRelayMadnessLifted>The call is cut. Beasts turned back halfway: {0}.</FB_FleshRelayMadnessLifted>

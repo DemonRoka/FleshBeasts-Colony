@@ -48,7 +48,7 @@
   <FB_GenophageNoNewGenes>Все гены этого донора уже есть в геномном архиве.</FB_GenophageNoNewGenes>
   <FB_GenophageGenesRegrowing>Ксеногерм этого донора ещё восстанавливается.</FB_GenophageGenesRegrowing>
   <FB_GenophageExtractingInspect>Извлекает гены из {0}: осталось {1} ч.</FB_GenophageExtractingInspect>
-  <FB_GenophageExtractedGenes>Экстракция генов завершена: {0}.</FB_GenophageExtractedGenes>
+  <FB_GenophageExtractedGenes>Извлечение генов завершена: {0}.</FB_GenophageExtractedGenes>
   <FB_GenophageReleaseDonorLabel>Выпустить донора</FB_GenophageReleaseDonorLabel>
   <FB_GenophageReleaseDonorDesc>Выплюнуть помещённого донора и отменить текущее извлечение.</FB_GenophageReleaseDonorDesc>
   <FB_GenophageDevFinishExtractionLabel>DEV: завершить извлечение генов</FB_GenophageDevFinishExtractionLabel>
@@ -73,7 +73,7 @@
   <FB_ChromophageCannotReachArchive>Хромофаг не может добраться до этого архива.</FB_ChromophageCannotReachArchive>
   <FB_ChromophageExtractedGenes>Хромофаг извлёк генетические следы: {0}.</FB_ChromophageExtractedGenes>
   <FB_ChromophageUnloadedGenes>Хромофаг выгрузил генетические следы в геномный архив: {0}.</FB_ChromophageUnloadedGenes>
-  <FB_GeneReweaverCreateXenogermLabel>Создать плотяной ксеногерм...</FB_GeneReweaverCreateXenogermLabel>
+  <FB_GeneReweaverCreateXenogermLabel>Создать ксеногерм</FB_GeneReweaverCreateXenogermLabel>
   <FB_GeneReweaverCreateXenogermDesc>Выбрать гены из геномного архива и подготовить плотяной ксеногерм. После созревания его можно внедрить выбранному носителю через генный кокон.</FB_GeneReweaverCreateXenogermDesc>
   <FB_GeneReweaverCancelXenogermLabel>Отменить плотяной ксеногерм</FB_GeneReweaverCancelXenogermLabel>
   <FB_GeneReweaverCancelXenogermDesc>Отменить текущий плотяной ксеногерм. Уже потраченный гемогель не вернётся.</FB_GeneReweaverCancelXenogermDesc>
@@ -83,11 +83,11 @@
   <FB_GeneReweaverQueuedXenogerm>Поставлено в очередь генов для плотяного ксеногерма: {0}.</FB_GeneReweaverQueuedXenogerm>
   <FB_GeneReweaverPreparedReady>{0} готов внутри генного переплетателя. Подготовлено генов: {1}.</FB_GeneReweaverPreparedReady>
   <FB_GeneReweaverPreparedAlready>Подготовленный плотяной ксеногерм уже хранится внутри.</FB_GeneReweaverPreparedAlready>
-  <FB_GeneReweaverIdleInspect>Плотяной ксеногерм: покой</FB_GeneReweaverIdleInspect>
+  <FB_GeneReweaverIdleInspect>Ксеногерм не создаётся</FB_GeneReweaverIdleInspect>
   <FB_GeneReweaverDialogHeader>Создать плотяной ксеногерм</FB_GeneReweaverDialogHeader>
   <FB_GeneReweaverCreateButton>Начать плетение</FB_GeneReweaverCreateButton>
   <FB_GeneReweaverCallPawnLabel>Призвать пешку в генный кокон...</FB_GeneReweaverCallPawnLabel>
-  <FB_GeneReweaverCallPawnDesc>Выбрать управляемую пешку, которая войдёт во временный генный кокон и интегрирует подготовленный плотяной ксеногерм.</FB_GeneReweaverCallPawnDesc>
+  <FB_GeneReweaverCallPawnDesc>Выбрать управляемое существо для внедрения подготовленного ксеногерма во временном генном коконе.</FB_GeneReweaverCallPawnDesc>
   <FB_GeneReweaverDissolvePreparedLabel>Растворить подготовленный ксеногерм</FB_GeneReweaverDissolvePreparedLabel>
   <FB_GeneReweaverDissolvePreparedDesc>Растворить подготовленный плотяной ксеногерм внутри этого переплетателя. Потраченный гемогель не вернётся.</FB_GeneReweaverDissolvePreparedDesc>
   <FB_GeneReweaverPreparedDissolved>Подготовленный плотяной ксеногерм растворён.</FB_GeneReweaverPreparedDissolved>
@@ -96,9 +96,9 @@
   <FB_GeneReweaverInvalidIntegrationPawn>Эта пешка не может интегрировать подготовленный ксеногерм.</FB_GeneReweaverInvalidIntegrationPawn>
   <FB_GeneReweaverDifferentMap>Пешка должна находиться на той же карте.</FB_GeneReweaverDifferentMap>
   <FB_GeneReweaverNoCocoonCell>Нет достижимой клетки для генного кокона.</FB_GeneReweaverNoCocoonCell>
-  <FB_GeneReweaverIntegrationWarningDesc>{PAWN_nameDef} войдёт в генный кокон на {DURATION}, чтобы интегрировать {XENOGERM}.</FB_GeneReweaverIntegrationWarningDesc>
+  <FB_GeneReweaverIntegrationWarningDesc>{PAWN_nameDef} войдёт в генный кокон на {DURATION}. Ксеногерм для внедрения: {XENOGERM}.</FB_GeneReweaverIntegrationWarningDesc>
   <FB_GeneReweaverPawnCallExpired>{0} не успел дойти до генного кокона.</FB_GeneReweaverPawnCallExpired>
-  <FB_GeneReweaverCocoonStarted>{PAWN_nameDef} входит в генный кокон, чтобы интегрировать {XENOGERM}.</FB_GeneReweaverCocoonStarted>
-  <FB_GeneReweaverCocoonComplete>{PAWN_nameDef} выходит из генного кокона с интегрированным {XENOGERM}.</FB_GeneReweaverCocoonComplete>
+  <FB_GeneReweaverCocoonStarted>{PAWN_nameDef} входит в генный кокон. Ксеногерм для внедрения: {XENOGERM}.</FB_GeneReweaverCocoonStarted>
+  <FB_GeneReweaverCocoonComplete>{PAWN_nameDef} выходит из генного кокона. Полученный ксеногерм: {XENOGERM}.</FB_GeneReweaverCocoonComplete>
   <FB_GeneReweaverCocoonDied>{0} погибает в разорванном генном коконе.</FB_GeneReweaverCocoonDied>
 </LanguageData>

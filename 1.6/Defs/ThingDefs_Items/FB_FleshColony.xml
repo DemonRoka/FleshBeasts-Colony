@@ -147,8 +147,8 @@
   <ThingDef ParentName="BaseWeapon_LivingLink">
     <defName>FB_FleshBlade</defName>
     <tradeability>None</tradeability>
-    <label>Flesh Blade</label>
-    <description>A living weapon born from a flesh-plant that entwines a plasteel blade, creating a symbiotic Flesh Blade. This grotesque yet powerful sword pulses with organic life, its plasteel edge honed by the plant's growth. A simple onboard mind whispers through the grip while carried, shaping the wielder's mood without binding itself to them.</description>
+    <label>flesh blade</label>
+    <description>A living plasteel blade with a rudimentary mind. Its temperament affects the wielder's mood without forming a permanent bond.</description>
     <statBases>
       <MarketValue>1000</MarketValue>
       <Mass>2.5</Mass>
@@ -197,8 +197,8 @@
   <ThingDef ParentName="BaseWeapon_LivingLink">
     <defName>FB_CrimsonFang</defName>
     <tradeability>None</tradeability>
-    <label>Crimson Fang</label>
-    <description>A living weapon grown from a flesh-tendril wrapped around a crescent plasteel blade. Its grotesque form pulses with organic life, while crimson veins channel energy into its razor edge. The fleshy core embedded in the handle beats like a heart, strengthening the wielder’s reflexes and lending hunger to each strike.</description>
+    <label>crimson fang</label>
+    <description>A living crescent-shaped plasteel blade wrapped in fleshy veins. A muscular core beats rhythmically inside its grip.</description>
     <statBases>
       <MarketValue>1000</MarketValue>
       <Mass>2.7</Mass>
@@ -247,8 +247,8 @@
   <ThingDef ParentName="BaseWeapon_LivingLink">
     <defName>FB_FerriteSting</defName>
     <tradeability>None</tradeability>
-    <label>Ferrite Sting</label>
-    <description>A living weapon grown around a jagged core of bioferrite. Its nerve bundles twitch against the handle, feeding a metallic whisper into the wielder's thoughts while the hardened sting tears into armor and flesh.</description>
+    <label>ferrite sting</label>
+    <description>A living weapon with a jagged bioferrite point. Nerve fibers around its grip respond to the wielder's touch.</description>
     <statBases>
       <MarketValue>1100</MarketValue>
       <Mass>3.0</Mass>
@@ -309,8 +309,8 @@
   <ThingDef ParentName="ResourceBase">
     <defName>BudFlesh_FleshBladeSeed</defName>
     <tradeability>None</tradeability>
-    <label>Flesh Blade seed</label>
-    <description>A seed for growing a Bud Flesh Blade. Plant it on suitable living ground, then harvest the mature plant to obtain a Flesh Blade.</description>
+    <label>flesh blade seed</label>
+    <description>A seed for growing a flesh blade bud. Plant it on suitable living ground, then harvest the mature plant to obtain a flesh blade.</description>
     <descriptionHyperlinks>
       <ThingDef>BudFlesh_FleshBlade</ThingDef>
     </descriptionHyperlinks>
@@ -331,6 +331,7 @@
     </thingCategories>
     <comps>
       <li Class="CompProperties_Plantable">
+        <compClass>FB.CompPlantableFleshSeed</compClass>
         <plantDefToSpawn>BudFlesh_FleshBlade</plantDefToSpawn>
       </li>
     </comps>
@@ -339,8 +340,8 @@
   <ThingDef ParentName="ResourceBase">
     <defName>BudFlesh_CrimsonFangSeed</defName>
     <tradeability>None</tradeability>
-    <label>Crimson Fang Seed</label>
-    <description>A seed for growing a Crimson Bulb. Plant it on suitable living ground, then harvest the mature plant to obtain a Crimson Fang.</description>
+    <label>crimson fang seed</label>
+    <description>A seed for growing a crimson bulb. Plant it on suitable living ground, then harvest the mature plant to obtain a crimson fang.</description>
     <descriptionHyperlinks>
       <ThingDef>BudFlesh_CrimsonBulb</ThingDef>
     </descriptionHyperlinks>
@@ -361,6 +362,7 @@
     </thingCategories>
     <comps>
       <li Class="CompProperties_Plantable">
+        <compClass>FB.CompPlantableFleshSeed</compClass>
         <plantDefToSpawn>BudFlesh_CrimsonBulb</plantDefToSpawn>
       </li>
     </comps>
@@ -369,8 +371,8 @@
   <ThingDef ParentName="ResourceBase">
     <defName>BudFlesh_FerriteFangrootSeed</defName>
     <tradeability>None</tradeability>
-    <label>Ferrite Seed</label>
-    <description>A seed for growing a Ferrite Fangroot. Plant it on suitable living ground, then harvest the mature plant to obtain a Ferrite Sting.</description>
+    <label>ferrite seed</label>
+    <description>A seed for growing a ferrite fangroot. Plant it on suitable living ground, then harvest the mature plant to obtain a ferrite sting.</description>
     <descriptionHyperlinks>
       <ThingDef>BudFlesh_FerriteFangroot</ThingDef>
     </descriptionHyperlinks>
@@ -391,6 +393,7 @@
     </thingCategories>
     <comps>
       <li Class="CompProperties_Plantable">
+        <compClass>FB.CompPlantableFleshSeed</compClass>
         <plantDefToSpawn>BudFlesh_FerriteFangroot</plantDefToSpawn>
       </li>
     </comps>

@@ -12,7 +12,7 @@
   <FB_CarapaceExcavatorBody.corePart.parts.10.customLabel>правый коготь-лопата</FB_CarapaceExcavatorBody.corePart.parts.10.customLabel>
   <FB_CarapaceExcavatorBody.corePart.parts.11.customLabel>спинная панцирная пластина I</FB_CarapaceExcavatorBody.corePart.parts.11.customLabel>
   <FB_CarapaceExcavatorBody.corePart.parts.12.customLabel>спинная панцирная пластина II</FB_CarapaceExcavatorBody.corePart.parts.12.customLabel>
-  <FB_CarapaceExcavatorBody.corePart.parts.13.customLabel>спинная панцирная пластина 3</FB_CarapaceExcavatorBody.corePart.parts.13.customLabel>
+  <FB_CarapaceExcavatorBody.corePart.parts.13.customLabel>спинная панцирная пластина III</FB_CarapaceExcavatorBody.corePart.parts.13.customLabel>
   <FB_CarapaceExcavatorBody.corePart.parts.14.customLabel>передняя левая опорная нога</FB_CarapaceExcavatorBody.corePart.parts.14.customLabel>
   <FB_CarapaceExcavatorBody.corePart.parts.15.customLabel>передняя правая опорная нога</FB_CarapaceExcavatorBody.corePart.parts.15.customLabel>
   <FB_CarapaceExcavatorBody.corePart.parts.16.customLabel>задняя левая опорная нога</FB_CarapaceExcavatorBody.corePart.parts.16.customLabel>
@@ -43,9 +43,9 @@
   <FB_CortexMiteBody.corePart.parts.5.customLabel>левая почка</FB_CortexMiteBody.corePart.parts.5.customLabel>
   <FB_CortexMiteBody.corePart.parts.6.customLabel>правая почка</FB_CortexMiteBody.corePart.parts.6.customLabel>
   <FB_CortexMiteBody.corePart.parts.8.parts.1.customLabel>левый передний глаз</FB_CortexMiteBody.corePart.parts.8.parts.1.customLabel>
-  <FB_CortexMiteBody.corePart.parts.8.parts.10.customLabel>правая задняя шипонога</FB_CortexMiteBody.corePart.parts.8.parts.10.customLabel>
-  <FB_CortexMiteBody.corePart.parts.8.parts.11.customLabel>левая задняя шипонога</FB_CortexMiteBody.corePart.parts.8.parts.11.customLabel>
-  <FB_CortexMiteBody.corePart.parts.8.parts.12.customLabel>правая задняя шипонога</FB_CortexMiteBody.corePart.parts.8.parts.12.customLabel>
+  <FB_CortexMiteBody.corePart.parts.8.parts.10.customLabel>правая задняя шипонога I</FB_CortexMiteBody.corePart.parts.8.parts.10.customLabel>
+  <FB_CortexMiteBody.corePart.parts.8.parts.11.customLabel>левая задняя шипонога II</FB_CortexMiteBody.corePart.parts.8.parts.11.customLabel>
+  <FB_CortexMiteBody.corePart.parts.8.parts.12.customLabel>правая задняя шипонога II</FB_CortexMiteBody.corePart.parts.8.parts.12.customLabel>
   <FB_CortexMiteBody.corePart.parts.8.parts.2.customLabel>правый передний глаз</FB_CortexMiteBody.corePart.parts.8.parts.2.customLabel>
   <FB_CortexMiteBody.corePart.parts.8.parts.3.customLabel>левый боковой глаз</FB_CortexMiteBody.corePart.parts.8.parts.3.customLabel>
   <FB_CortexMiteBody.corePart.parts.8.parts.4.customLabel>правый боковой глаз</FB_CortexMiteBody.corePart.parts.8.parts.4.customLabel>
@@ -53,7 +53,7 @@
   <FB_CortexMiteBody.corePart.parts.8.parts.6.customLabel>передняя правая шипонога</FB_CortexMiteBody.corePart.parts.8.parts.6.customLabel>
   <FB_CortexMiteBody.corePart.parts.8.parts.7.customLabel>левая средняя шипонога</FB_CortexMiteBody.corePart.parts.8.parts.7.customLabel>
   <FB_CortexMiteBody.corePart.parts.8.parts.8.customLabel>правая средняя шипонога</FB_CortexMiteBody.corePart.parts.8.parts.8.customLabel>
-  <FB_CortexMiteBody.corePart.parts.8.parts.9.customLabel>левая задняя шипонога</FB_CortexMiteBody.corePart.parts.8.parts.9.customLabel>
+  <FB_CortexMiteBody.corePart.parts.8.parts.9.customLabel>левая задняя шипонога I</FB_CortexMiteBody.corePart.parts.8.parts.9.customLabel>
   <FB_CortexMiteBody.label>мозговой клещ</FB_CortexMiteBody.label>
   <FB_FerrimawBody.corePart.parts.10.customLabel>правая выделительная пора</FB_FerrimawBody.corePart.parts.10.customLabel>
   <FB_FerrimawBody.corePart.parts.11.parts.1.customLabel>левый глаз</FB_FerrimawBody.corePart.parts.11.parts.1.customLabel>

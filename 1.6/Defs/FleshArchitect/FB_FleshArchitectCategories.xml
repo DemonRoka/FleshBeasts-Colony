@@ -8,14 +8,14 @@
   </FB.FleshArchitectCategoryDef>
   <FB.FleshArchitectCategoryDef>
     <defName>FB_FleshArchitect_HemogelExtraction</defName>
-    <label>Hemogel farm</label>
+    <label>Hemogel</label>
     <description>Organs that create hemogel from digestion, photosynthesis, and aquatic filtering.</description>
     <order>20</order>
   </FB.FleshArchitectCategoryDef>
   <FB.FleshArchitectCategoryDef>
     <defName>FB_FleshArchitect_Structures</defName>
     <label>Structures</label>
-    <description>Basic fleshmass support structures.</description>
+    <description>Basic flesh structures for the colony.</description>
     <order>30</order>
   </FB.FleshArchitectCategoryDef>
   <FB.FleshArchitectCategoryDef>
@@ -45,7 +45,7 @@
   <FB.FleshArchitectCategoryDef>
     <defName>FB_FleshArchitect_Defense</defName>
     <label>Defense</label>
-    <description>Organs grown to maim, repel, or consume intruders.</description>
+    <description>Organs that defend the colony by wounding, repelling, or consuming intruders.</description>
     <order>70</order>
   </FB.FleshArchitectCategoryDef>
   <FB.FleshArchitectCategoryDef>
@@ -63,13 +63,13 @@
   <FB.FleshArchitectCategoryDef>
     <defName>FB_FleshArchitect_Transport</defName>
     <label>Transport</label>
-    <description>Organs that move the colony through flesh and distance.</description>
+    <description>Organs for moving creatures and cargo between parts of the colony.</description>
     <order>90</order>
   </FB.FleshArchitectCategoryDef>
   <FB.FleshArchitectCategoryDef>
     <defName>FB_FleshArchitect_FleshMoon</defName>
     <label>Flesh moon</label>
-    <description>Functions sustained by the permanent link to the flesh moon.</description>
+    <description>Organs and tools for life inside the flesh moon.</description>
     <order>95</order>
     <requiresFleshMoonLink>true</requiresFleshMoonLink>
     <showWhenEmpty>true</showWhenEmpty>

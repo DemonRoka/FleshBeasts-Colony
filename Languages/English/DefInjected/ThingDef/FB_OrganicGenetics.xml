@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_GenophageCocoon.label>genophage cocoon</FB_GenophageCocoon.label>
-  <FB_GenophageCocoon.description>A genetic cocoon that extracts one to three random genes the genome archive doesn't have yet from a living donor and stores them there as individual genes.</FB_GenophageCocoon.description>
+  <FB_GenophageCocoon.description>Extracts one to three random genes not yet held in the genome archive from a living donor and stores them there. The donor leaves the cocoon after the procedure and needs time for their genes to regrow.</FB_GenophageCocoon.description>
   <FB_GenomeArchive.label>genome archive</FB_GenomeArchive.label>
-  <FB_GenomeArchive.description>A living gene bank that breaks extracted genepacks down into individual genes and stores each gene once for inspection and later use by a gene reweaver.</FB_GenomeArchive.description>
+  <FB_GenomeArchive.description>A living archive that separates genepacks into individual genes. Stores one copy of each gene for inspection and xenogerm creation by a gene reweaver.</FB_GenomeArchive.description>
   <FB_GeneReweaver.label>gene reweaver</FB_GeneReweaver.label>
-  <FB_GeneReweaver.description>A gene loom that prepares an internal flesh xenogerm from archived genes, then grows a cocoon to integrate it into a pawn.</FB_GeneReweaver.description>
+  <FB_GeneReweaver.description>Creates a xenogerm from archived genes, then grows a cocoon to implant it into a carrier.</FB_GeneReweaver.description>
   <FB_GenophageCocoonEmbryo.label>genophage cocoon embryo</FB_GenophageCocoonEmbryo.label>
   <FB_GenophageCocoonEmbryo.description>An immature genetic organ that will grow into a genophage cocoon.</FB_GenophageCocoonEmbryo.description>
   <FB_GenomeArchiveEmbryo.label>genome archive embryo</FB_GenomeArchiveEmbryo.label>
@@ -13,11 +13,11 @@
   <FB_GeneReweaverEmbryo.label>gene reweaver embryo</FB_GeneReweaverEmbryo.label>
   <FB_GeneReweaverEmbryo.description>An immature gene organ that will grow into a gene reweaver.</FB_GeneReweaverEmbryo.description>
   <FB_GestationOrganoid.label>gestation organoid</FB_GestationOrganoid.label>
-  <FB_GestationOrganoid.description>A brood organ that suspends a living donor inside its birthing sac. While the donor is held it neither ages nor starves, and the organoid spends hemogel to grow offspring of the donor's own kind. A humanlike donor yields newborns whose xenotype can be composed from archived genepacks. The donor never leaves: its reserves are drained with every birth, and it dies once they are spent.</FB_GestationOrganoid.description>
+  <FB_GestationOrganoid.description>Grows offspring of the living donor's species, consuming hemogel. The donor neither ages nor hungers inside; a humanlike offspring's xenotype can be composed from archived genepacks.\n\nThe donor cannot be recovered. Each birth drains its reserves, and it dies when they are exhausted.</FB_GestationOrganoid.description>
   <FB_GestationOrganoidEmbryo.label>gestation organoid embryo</FB_GestationOrganoidEmbryo.label>
   <FB_GestationOrganoidEmbryo.description>An immature brood organ that will grow into a gestation organoid.</FB_GestationOrganoidEmbryo.description>
   <FB_Chromophage.label>chromophage</FB_Chromophage.label>
   <FB_Chromophage.description>A fused fleshbeast that extracts gene traces from dead humanlike bodies and delivers them to a genome archive.</FB_Chromophage.description>
   <FB_GeneReweaverCocoon.label>gene reweaver cocoon</FB_GeneReweaverCocoon.label>
-  <FB_GeneReweaverCocoon.description>A temporary genetic cocoon grown by a gene reweaver. It holds a pawn while the prepared flesh xenogerm integrates into the body.</FB_GeneReweaverCocoon.description>
+  <FB_GeneReweaverCocoon.description>A temporary cocoon that holds a carrier while a xenogerm prepared by the gene reweaver is implanted.</FB_GeneReweaverCocoon.description>
 </LanguageData>

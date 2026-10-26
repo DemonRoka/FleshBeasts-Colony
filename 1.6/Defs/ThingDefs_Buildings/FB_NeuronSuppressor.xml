@@ -7,8 +7,8 @@
 	     Текстура - собственная заглушка, ждёт настоящего спрайта. -->
 	<ThingDef ParentName="BuildingBase">
 		<defName>FB_NeuronSuppressor</defName>
-		<label>neuron suppressor</label>
-		<description>A squat emitter that floods the surrounding tissue with a jamming signal. Grasping tendrils cannot take hold of anyone inside its field, which is what lets a siege crew work on living flesh at all. Cargo tendrils cannot reach under the dome either, so whatever is stacked inside the field needs no guarding.\n\nTear it down and the cover starts pulling their people under again - and the tendrils start carrying off their goods.\n\nThe field holds only while it has power, and the emitter unbolts and travels the same way the pumps do.</description>
+		<label>neural suppressor</label>
+		<description>An emitter that blocks grasping and cargo tendrils within its radius. Protects people and supplies from capture by the flesh while powered.</description>
 		<size>(1,1)</size>
 		<rotatable>false</rotatable>
 		<graphicData>
@@ -63,7 +63,7 @@
 
 	<ThingDef ParentName="SkyfallerBase">
 		<defName>FB_NeuronSuppressorIncoming</defName>
-		<label>neuron suppressor (incoming)</label>
+		<label>neural suppressor (incoming)</label>
 		<thingClass>FB.Skyfaller_FleshDrainPump</thingClass>
 		<size>(1,1)</size>
 		<skyfaller>

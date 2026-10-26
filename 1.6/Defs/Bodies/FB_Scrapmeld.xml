@@ -3,7 +3,7 @@
   <!-- Часть тела: scrap cortex (FB_ScrapmeldCortex) -->
   <BodyPartDef>
     <defName>FB_ScrapmeldCortex</defName>
-    <label>scrap cortex</label>
+    <label>scrapmeld cortex</label>
     <hitPoints>18</hitPoints>
     <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <delicate>true</delicate>

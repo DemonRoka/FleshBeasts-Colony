@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_ColonyBrain_Structure_CaptureNerveNode_Label>Capture Nerve Node</FB_ColonyBrain_Structure_CaptureNerveNode_Label>
-  <FB_ColonyBrain_Structure_CaptureNerveNode_Desc>Adds one shared grasping tendril slot to a colony heart. Without a heart, all capture nerve nodes combine their slots into one autonomous pool.</FB_ColonyBrain_Structure_CaptureNerveNode_Desc>
+  <FB_ColonyBrain_Structure_CaptureNerveNode_Desc>Adds one grasping tendril capture space to a colony heart. Without a heart, all nodes on the map share their combined capture capacity.</FB_ColonyBrain_Structure_CaptureNerveNode_Desc>
   <FB_CaptureNerveNode_NoCaptureSpawner>No operational grasping tendril reflex.</FB_CaptureNerveNode_NoCaptureSpawner>
   <FB_CaptureNerveNode_SlotsInspect>Node slots: +{0}. Available tendril slots: {1} / {2}.</FB_CaptureNerveNode_SlotsInspect>
-  <FB_CaptureNerveNode_StandaloneSlotsInspect>Autonomous capture pool: {0} / {1} slots available.</FB_CaptureNerveNode_StandaloneSlotsInspect>
+  <FB_CaptureNerveNode_StandaloneSlotsInspect>Capture capacity without a heart: {0} of {1} spaces free.</FB_CaptureNerveNode_StandaloneSlotsInspect>
   <FB_GraspingTendrils_HeartSlotsInspect>Grasping tendril slots: {0} / {1} available.</FB_GraspingTendrils_HeartSlotsInspect>
-  <FB_GraspingTendrils_NextSlotReady>Next tendril slot ready in: {0}.</FB_GraspingTendrils_NextSlotReady>
+  <FB_GraspingTendrils_NextSlotReady>Next capture available in: {0}.</FB_GraspingTendrils_NextSlotReady>
   <FB_GraspingTendrils_InvalidTarget>Invalid grasping tendril target.</FB_GraspingTendrils_InvalidTarget>
   <FB_GraspingTendrils_PlayerProtected>The colony will not grasp its own pawns, owned animals or allied fleshbeasts.</FB_GraspingTendrils_PlayerProtected>
   <FB_GraspingTendrils_NotFleshTarget>Grasping tendrils can only bind living flesh targets.</FB_GraspingTendrils_NotFleshTarget>
   <FB_GraspingTendrils_OutOfRange>Target is outside grasping tendril range.</FB_GraspingTendrils_OutOfRange>
-  <FB_GraspingTendrils_PolicyReject>Target is forbidden by the grasping tendril policy.</FB_GraspingTendrils_PolicyReject>
+  <FB_GraspingTendrils_PolicyReject>Target is forbidden by the capture settings.</FB_GraspingTendrils_PolicyReject>
   <FB_GraspingTendrils_RitualProtected>Target is already being accepted by the flesh colony.</FB_GraspingTendrils_RitualProtected>
   <FB_GraspingTendrils_NoFreeSlots>No free grasping tendril slots.</FB_GraspingTendrils_NoFreeSlots>
-  <FB_GraspingTendrils_NoFreeSlotsNext>No free grasping tendril slots. Next slot ready in: {0}.</FB_GraspingTendrils_NoFreeSlotsNext>
+  <FB_GraspingTendrils_NoFreeSlotsNext>No free grasping tendril slots. Next capture available in: {0}.</FB_GraspingTendrils_NoFreeSlotsNext>
   <FB_GraspingTendrils_AutoDelay>Auto capture delay on flesh ground: {0}.</FB_GraspingTendrils_AutoDelay>
   <FB_GraspingTendrilsHoldingInspect>Holding: {0}</FB_GraspingTendrilsHoldingInspect>
   <FB_ReleaseGraspingTendrils>Release prey</FB_ReleaseGraspingTendrils>
-  <FB_ReleaseGraspingTendrilsDesc>Release the held pawn onto the tendrils' cell and wither this temporary growth.</FB_ReleaseGraspingTendrilsDesc>
+  <FB_ReleaseGraspingTendrilsDesc>Release the held pawn onto the tendrils' cell. The tendrils will then wither.</FB_ReleaseGraspingTendrilsDesc>
   <FB_GraspingPolicy_Tab>Grasping</FB_GraspingPolicy_Tab>
-  <FB_GraspingPolicy_SearchTooltip>Filter this list by name or defName.</FB_GraspingPolicy_SearchTooltip>
+  <FB_GraspingPolicy_SearchTooltip>Filter this list by name.</FB_GraspingPolicy_SearchTooltip>
   <FB_GraspingPolicy_Summary>Grasping tendrils: {0} / {1}</FB_GraspingPolicy_Summary>
   <FB_GraspingPolicy_LunarSummary>Lunar grasping tendrils: {0} active, no limit.</FB_GraspingPolicy_LunarSummary>
   <FB_GraspingPolicy_Factions>Factions</FB_GraspingPolicy_Factions>

@@ -4,7 +4,7 @@
   <ThingDef ParentName="PocketMapExit">
     <defName>FB_CaveExit</defName>
     <label>flesh cave exit</label>
-    <description>A rope to climb back from flesh colony.</description>
+    <description>A rope leading out of the flesh colony.</description>
     <size>(3,3)</size>
     <thingClass>FB.FB_CaveExit</thingClass>
     <drawerType>MapMeshAndRealTime</drawerType>

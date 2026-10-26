@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <FB_FleshTunnelDestination.description>Дальний тайл, пробитый укоренённым плотяным туннелем.</FB_FleshTunnelDestination.description>
+  <FB_FleshTunnelDestination.description>Дальняя клетка мира, к которой ведёт укоренённый плотяной туннель.</FB_FleshTunnelDestination.description>
   <FB_FleshTunnelDestination.label>плотяной туннель</FB_FleshTunnelDestination.label>
   <FB_FleshTunnelMouth.label>пасть туннеля плоти</FB_FleshTunnelMouth.label>
-  <FB_FleshTunnelMouth.description>Дальний конец мирового туннеля, пророщенный нексусом. Караван, стоящий здесь, мгновенно протаскивается к нексусу, а отряды плоти используют пасть как мгновенный короткий путь.</FB_FleshTunnelMouth.description>
-  <FB_FleshMoonWorldObject.description>Живая орбитальная масса, соединённая с колонией небесной пуповиной.</FB_FleshMoonWorldObject.description>
+  <FB_FleshTunnelMouth.description>Дальняя пасть туннеля, выращенная туннельным узлом. Мгновенно переносит караваны и боевые стаи к другому концу прохода.</FB_FleshTunnelMouth.description>
+  <FB_FleshMoonWorldObject.description>Живой спутник, способный перемещаться над планетой и соединяться с поверхностью небесной пуповиной. Нуждается в гемогеле; длительное голодание приводит к падению.</FB_FleshMoonWorldObject.description>
   <FB_FleshMoonWorldObject.label>луна плоти</FB_FleshMoonWorldObject.label>
   <FB_FleshMoonStartingSettlement.description>Скрытый сценарный объект-посредник, позволяющий сгенерировать луну плоти как первую карту игрока.</FB_FleshMoonStartingSettlement.description>
   <FB_FleshMoonStartingSettlement.label>луна плоти</FB_FleshMoonStartingSettlement.label>

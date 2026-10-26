@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_ConsumeCorpseForSpawning.reportString>recording memory of TargetA.</FB_ConsumeCorpseForSpawning.reportString>
-  <FB_EaterRegrowMemory.reportString>regrowing a body memory.</FB_EaterRegrowMemory.reportString>
+  <FB_EaterRegrowMemory.reportString>growing a body from stored memories.</FB_EaterRegrowMemory.reportString>
   <FB_BodyPartTransferJob.reportString>transferring a body part from TargetA.</FB_BodyPartTransferJob.reportString>
   <FB_BurdenBlobLatchToWall.reportString>clinging to a colony wall.</FB_BurdenBlobLatchToWall.reportString>
   <FB_BurdenBlobCleanFilth.reportString>cleaning TargetA.</FB_BurdenBlobCleanFilth.reportString>
@@ -10,7 +10,7 @@
   <FB_CarapaceExcavatorRegrowAtHeart.reportString>regrowing digging plates.</FB_CarapaceExcavatorRegrowAtHeart.reportString>
   <FB_CocoonbackCapturePawn.reportString>sealing TargetA inside the cocoon</FB_CocoonbackCapturePawn.reportString>
   <FB_CocoonbackReleasePawn.reportString>releasing a captive</FB_CocoonbackReleasePawn.reportString>
-  <FB_FerrimawConsumeSteel.reportString>consuming steel.</FB_FerrimawConsumeSteel.reportString>
+  <FB_FerrimawConsumeSteel.reportString>consuming metal.</FB_FerrimawConsumeSteel.reportString>
   <FB_FinishFrame.reportString>building TargetA.</FB_FinishFrame.reportString>
   <FB_FleshColonyConsumeHemogelAtHeart.reportString>absorbing hemogel from TargetA.</FB_FleshColonyConsumeHemogelAtHeart.reportString>
   <FB_FleshbeastHealingSleep.reportString>sleeping in the colony flesh.</FB_FleshbeastHealingSleep.reportString>

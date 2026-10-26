@@ -58,7 +58,7 @@
   <JobDef>
     <defName>FB_EaterRegrowMemory</defName>
     <driverClass>FB.JobDriver_EaterRegrowMemory</driverClass>
-    <reportString>regrowing a body memory.</reportString>
+    <reportString>growing a body from stored memories.</reportString>
     <checkOverrideOnDamage>Never</checkOverrideOnDamage>
   </JobDef>
   <!-- Задание: Symbio_EatCorpse -->

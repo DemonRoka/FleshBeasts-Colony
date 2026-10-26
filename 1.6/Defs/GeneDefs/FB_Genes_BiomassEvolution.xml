@@ -5,7 +5,7 @@
     <defName>FB_BiomassEvolution</defName>
     <label>biomass evolution</label>
     <labelShortAdj>biomass-evolving</labelShortAdj>
-    <description>Carriers can act as a living center of a flesh colony. They may become a Flesh Heart, seal pawns in biomass cocoons to bind and mutate them, and direct the colony's growth from within living flesh.</description>
+    <description>Carriers can act as a living center of a flesh colony. They may become a colony heart, seal pawns in biomass cocoons to bind and mutate them, and direct the colony's growth from within living flesh.</description>
     <iconPath>UI/Icons/Genes/Gene_BiomassEvolution</iconPath>
     <displayOrderInCategory>200</displayOrderInCategory>
     <biostatArc>3</biostatArc>

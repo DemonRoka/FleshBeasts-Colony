@@ -4,7 +4,7 @@
   <ThingDef ParentName="BuildingColonyFleshBase">
   <defName>FB_CaptureNerveNode</defName>
   <label>capture nerve node</label>
-  <description>A small relay-organ of wet nerves and gripping reflex tissue. It links to the nearest colony heart and adds one shared grasping tendril slot. Without a heart, all capture nerve nodes on the map combine their slots into one autonomous capture pool.</description>
+  <description>Adds one grasping tendril capture space to the nearest colony heart. Without a heart, all such nodes on the map share their combined capture capacity.</description>
   <researchPrerequisites>
     <li>FB_CaptureNerveLattice</li>
   </researchPrerequisites>

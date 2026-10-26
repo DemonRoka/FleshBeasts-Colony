@@ -9,7 +9,7 @@
   <FB_FleshMemory_StatusAlive>Источник жив</FB_FleshMemory_StatusAlive>
   <FB_FleshMemory_StatusDead>Доступно для воссоздания</FB_FleshMemory_StatusDead>
   <FB_FleshMemory_StatusGrowing>Выращивание оболочки: {0}</FB_FleshMemory_StatusGrowing>
-  <FB_FleshMemory_ReconstructTooltip>Выберите клетку и вырастите новое тело из этой памяти. Требуется {0} гемогеля мозга. Готовую оболочку нужно вручную пробудить командой «Воскресить через плоть».</FB_FleshMemory_ReconstructTooltip>
+  <FB_FleshMemory_ReconstructTooltip>Выберите клетку и вырастите новое тело из этой памяти. Требуется {0} гемогеля. Готовую оболочку нужно вручную пробудить командой «Воскресить через плоть».</FB_FleshMemory_ReconstructTooltip>
   <FB_FleshMemory_DeleteTooltip>Навсегда стереть эту память.</FB_FleshMemory_DeleteTooltip>
   <FB_FleshMemory_DeleteConfirm>Стереть сохранённую память о {0}? Живая принятая пешка не будет записана повторно, пока не потеряет и заново не получит принятие колонией плоти.</FB_FleshMemory_DeleteConfirm>
   <FB_FleshMemory_DeleteActive>Нельзя стереть память, пока существует выращенная из неё оболочка.</FB_FleshMemory_DeleteActive>
@@ -21,7 +21,7 @@
   <FB_FleshMemory_BrainBusy>Этот мозг колонии уже выращивает другое тело.</FB_FleshMemory_BrainBusy>
   <FB_FleshMemory_InvalidGrowthCell>Выберите пустую проходимую клетку плоти для новой оболочки.</FB_FleshMemory_InvalidGrowthCell>
   <FB_FleshMemory_CreateShellFailed>Мозгу колонии не удалось сформировать жизнеспособную оболочку.</FB_FleshMemory_CreateShellFailed>
-  <FB_FleshMemory_NotEnoughHemogel>Для воссоздания требуется {0} гемогеля мозга. Доступно: {1}.</FB_FleshMemory_NotEnoughHemogel>
+  <FB_FleshMemory_NotEnoughHemogel>Для воссоздания требуется {0} гемогеля. Доступно: {1}.</FB_FleshMemory_NotEnoughHemogel>
   <FB_FleshMemory_ReconstructUnavailable>Эту память сейчас нельзя воссоздать.</FB_FleshMemory_ReconstructUnavailable>
   <FB_FleshMemory_DepositLabel>Раствориться в памяти колонии</FB_FleshMemory_DepositLabel>
   <FB_FleshMemory_DepositUnavailable>Эта пешка не может войти в память колонии.</FB_FleshMemory_DepositUnavailable>

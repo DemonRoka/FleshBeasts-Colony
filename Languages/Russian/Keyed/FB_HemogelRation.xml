@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <FB_FeederMakeRationsLabel>Создать кусочки: {0}</FB_FeederMakeRationsLabel>
-  <FB_FeederMakeRationsDesc>Создать {0} непортящихся пищевых кусочков за {1} гемогеля из сети.</FB_FeederMakeRationsDesc>
+  <FB_FeederMakeRationsLabel>Создать пайки: {0}</FB_FeederMakeRationsLabel>
+  <FB_FeederMakeRationsDesc>Создать {0} непортящихся гемогелевых пайков за {1} гемогеля из сети.</FB_FeederMakeRationsDesc>
   <FB_FeederCannotPlaceRations>Рядом с кормушкой нет места для созданной партии.</FB_FeederCannotPlaceRations>
   <FB_FeederPortionCost>Порция: {0} гемогеля</FB_FeederPortionCost>
 

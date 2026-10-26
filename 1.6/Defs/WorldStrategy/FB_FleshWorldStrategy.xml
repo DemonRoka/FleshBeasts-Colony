@@ -10,6 +10,17 @@
     <firstWorldReserve>15000</firstWorldReserve>
     <outpostTileProductionFactor>0.5</outpostTileProductionFactor>
 
+    <ganglionCostFactor>2</ganglionCostFactor>
+    <ganglionDowngradeRefundFraction>0.5</ganglionDowngradeRefundFraction>
+    <ganglionControlRadius>20</ganglionControlRadius>
+    <ganglionTileProductionFactor>0</ganglionTileProductionFactor>
+    <ganglionQuotaSyncIntervalTicks>2500</ganglionQuotaSyncIntervalTicks>
+    <ganglionDefenseCheckIntervalTicks>1250</ganglionDefenseCheckIntervalTicks>
+    <ganglionAssaultCheckIntervalTicks>2500</ganglionAssaultCheckIntervalTicks>
+    <ganglionJournalSize>40</ganglionJournalSize>
+    <ganglionTexture>World/WorldObjects/FleshGanglion</ganglionTexture>
+    <ganglionExpandingIconTexture>World/WorldObjects/Expanding/FleshGanglion</ganglionExpandingIconTexture>
+
     <baseCaptureCost>4000</baseCaptureCost>
     <costRounding>1000</costRounding>
     <emptyCaptureTicks>60000</emptyCaptureTicks>
@@ -50,6 +61,13 @@
     <burnRaidBurnTicks>60000</burnRaidBurnTicks>
     <burnRaidPointsPerStrikePower>8</burnRaidPointsPerStrikePower>
     <burnRaidMinPoints>250</burnRaidMinPoints>
+
+    <borderTensionBasePerDay>0.5</borderTensionBasePerDay>
+    <borderTensionPerCoveredTilePerDay>0.25</borderTensionPerCoveredTilePerDay>
+    <borderTensionOuterRingFactor>0.5</borderTensionOuterRingFactor>
+    <borderTensionMaxPerSettlementPerDay>2</borderTensionMaxPerSettlementPerDay>
+    <borderTensionExtraSettlementFactor>0.5</borderTensionExtraSettlementFactor>
+    <borderTensionMaxPerFactionPerDay>3</borderTensionMaxPerFactionPerDay>
 
     <hillOffsetFlat>0</hillOffsetFlat>
     <hillOffsetSmallHills>0.5</hillOffsetSmallHills>

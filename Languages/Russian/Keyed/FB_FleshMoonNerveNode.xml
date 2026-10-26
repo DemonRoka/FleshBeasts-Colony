@@ -8,14 +8,14 @@
   <FB_FleshMoonNerveNode_Inspect>Лунное содержание: {0} гемогеля/ч.</FB_FleshMoonNerveNode_Inspect>
   <FB_FleshMoonNerveNode_EconomyDetail>Лунное содержание: {0}/ч</FB_FleshMoonNerveNode_EconomyDetail>
   <FB_FleshMoonTileDrainToggleLabel>Выкачивать питательность поверхности</FB_FleshMoonTileDrainToggleLabel>
-  <FB_FleshMoonTileDrainToggleDesc>Разрешает закреплённым небесным пуповинам выкачивать питательность мирового тайла в лунный резерв гемогеля.</FB_FleshMoonTileDrainToggleDesc>
+  <FB_FleshMoonTileDrainToggleDesc>Разрешает закреплённым небесным пуповинам выкачивать питательность клетки мира в лунный резерв гемогеля.</FB_FleshMoonTileDrainToggleDesc>
   <FB_FleshMoonTileDrainNodeInspectOn>Выкачивание питательности поверхности: включено.</FB_FleshMoonTileDrainNodeInspectOn>
   <FB_FleshMoonTileDrainNodeInspectOff>Выкачивание питательности поверхности: выключено.</FB_FleshMoonTileDrainNodeInspectOff>
-  <FB_FleshMoonSurfaceNutritionDrainInspect>Выход выкачки поверхности: {0}/ч; питательность тайла {1}%.</FB_FleshMoonSurfaceNutritionDrainInspect>
-  <FB_FleshMoonSurfaceNutritionDrainLabel>Выкачивание питательности поверхности</FB_FleshMoonSurfaceNutritionDrainLabel>
-  <FB_FleshMoonSurfaceNutritionDrainEconomyDetail>Питательность тайла: {0}%; стартовый множитель {1}; выход {2}/ч</FB_FleshMoonSurfaceNutritionDrainEconomyDetail>
-  <FB_FleshMoonSurfaceNutritionDrainEconomyDisabled>Выключено на лунном нервном узле; питательность тайла {0}%.</FB_FleshMoonSurfaceNutritionDrainEconomyDisabled>
-  <FB_CelestialUmbilicusTileDrainInspect>Выкачивание локации: {0}/ч; питательность тайла {1}%.</FB_CelestialUmbilicusTileDrainInspect>
+  <FB_FleshMoonSurfaceNutritionDrainInspect>Выработка из местной биомассы: {0}/ч; остаток местной биомассы {1}%.</FB_FleshMoonSurfaceNutritionDrainInspect>
+  <FB_FleshMoonSurfaceNutritionDrainLabel>Поглощение местной биомассы</FB_FleshMoonSurfaceNutritionDrainLabel>
+  <FB_FleshMoonSurfaceNutritionDrainEconomyDetail>Остаток местной биомассы: {0}%; стартовый множитель {1}; выход {2}/ч</FB_FleshMoonSurfaceNutritionDrainEconomyDetail>
+  <FB_FleshMoonSurfaceNutritionDrainEconomyDisabled>Выключено на лунном нервном узле; остаток местной биомассы {0}%.</FB_FleshMoonSurfaceNutritionDrainEconomyDisabled>
+  <FB_CelestialUmbilicusTileDrainInspect>Выкачивание локации: {0}/ч; остаток местной биомассы {1}%.</FB_CelestialUmbilicusTileDrainInspect>
   <FB_CelestialUmbilicusTileDrainDisabledInspect>Выкачивание локации: выключено на лунном нервном узле.</FB_CelestialUmbilicusTileDrainDisabledInspect>
   <FB_CelestialUmbilicusDevTileNutritionInspect>DEV питательность тайла: осталось {0}%; стартовый множитель {1}; текущий множитель {2}.</FB_CelestialUmbilicusDevTileNutritionInspect>
   <FB_CelestialUmbilicusDevDrainSpeedTitle>DEV: скорость выкачивания</FB_CelestialUmbilicusDevDrainSpeedTitle>
@@ -31,7 +31,7 @@
   <FB_FleshMoonGastricAcidAlreadyHere>Здесь уже есть желудочный сок.</FB_FleshMoonGastricAcidAlreadyHere>
   <FB_FleshMoonGastricAcidMissing>Здесь нет желудочного сока.</FB_FleshMoonGastricAcidMissing>
   <FB_FleshMoonGastricAcidBlocked>Нельзя сформировать желудочный сок под постройкой.</FB_FleshMoonGastricAcidBlocked>
-  <FB_FleshMoonGastricAcidDigester_Inspect>Лунное пищеварительное топливо: {0} питания. Выход гемогеля: {1}/ч.</FB_FleshMoonGastricAcidDigester_Inspect>
-  <FB_FleshMoonGastricAcidDigester_EconomyDetail>Лунное пищеварительное топливо: {0} питания; выход {1}/ч</FB_FleshMoonGastricAcidDigester_EconomyDetail>
-  <FB_BiomassTransformNoHeartOnFleshMoon>Нельзя вырастить Сердце плоти внутри луны плоти. Вместо него создайте лунный нервный узел в меню строительства, во вкладке «Луна плоти».</FB_BiomassTransformNoHeartOnFleshMoon>
+  <FB_FleshMoonGastricAcidDigester_Inspect>Перевариваемая органика луны: питательность {0}. Выработка гемогеля: {1}/ч.</FB_FleshMoonGastricAcidDigester_Inspect>
+  <FB_FleshMoonGastricAcidDigester_EconomyDetail>Перевариваемая органика луны: питательность {0}; выработка {1}/ч</FB_FleshMoonGastricAcidDigester_EconomyDetail>
+  <FB_BiomassTransformNoHeartOnFleshMoon>Нельзя вырастить сердце колонии внутри луны плоти. Вместо него создайте лунный нервный узел в меню строительства, во вкладке «Луна плоти».</FB_BiomassTransformNoHeartOnFleshMoon>
 </LanguageData>

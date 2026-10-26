@@ -3,7 +3,7 @@
   <MainButtonDef>
     <defName>FB_FleshArchitect</defName>
     <label>Flesh Architect</label>
-    <description>Grow living colony organs, flesh zones, and fleshmass plans.</description>
+    <description>Grow organs and manage the colony's expansion.</description>
     <tabWindowClass>FB.MainTabWindow_FleshArchitect</tabWindowClass>
     <workerClass>FB.MainButtonWorker_FleshArchitect</workerClass>
     <minimized>true</minimized>

@@ -20,14 +20,14 @@
   <FB_GrowFourTrispikesFromHemogel.description>Grows four trispikes from the colony's shared hemogel reserve.</FB_GrowFourTrispikesFromHemogel.description>
   <FB_GrowFourToughspikesFromHemogel.label>grow 4 toughspikes from hemogel</FB_GrowFourToughspikesFromHemogel.label>
   <FB_GrowFourToughspikesFromHemogel.description>Grows four toughspikes from the colony's shared hemogel reserve.</FB_GrowFourToughspikesFromHemogel.description>
-  <FB_MergeTrispike.label>merge trispike</FB_MergeTrispike.label>
-  <FB_MergeTrispike.description>Assembles a trispike from an allowed combination of lesser fleshbeasts.</FB_MergeTrispike.description>
-  <FB_MergeToughspike.label>merge toughspike</FB_MergeToughspike.label>
-  <FB_MergeToughspike.description>Assembles a toughspike from an allowed combination of lesser fleshbeasts.</FB_MergeToughspike.description>
-  <FB_MergeBulbfreak.label>merge bulbfreak</FB_MergeBulbfreak.label>
-  <FB_MergeBulbfreak.description>Assembles a bulbfreak from an allowed combination of spine fleshbeasts.</FB_MergeBulbfreak.description>
-  <FB_MergeDreadmeld.label>merge dreadmeld</FB_MergeDreadmeld.label>
-  <FB_MergeDreadmeld.description>Assembles a dreadmeld from an allowed combination of fleshbeasts.</FB_MergeDreadmeld.description>
+  <FB_MergeTrispike.label>assemble trispike</FB_MergeTrispike.label>
+  <FB_MergeTrispike.description>Assembles a trispike from lesser fleshbeasts.</FB_MergeTrispike.description>
+  <FB_MergeToughspike.label>assemble toughspike</FB_MergeToughspike.label>
+  <FB_MergeToughspike.description>Assembles a toughspike from lesser fleshbeasts.</FB_MergeToughspike.description>
+  <FB_MergeBulbfreak.label>assemble bulbfreak</FB_MergeBulbfreak.label>
+  <FB_MergeBulbfreak.description>Assembles a bulbfreak from spine fleshbeasts.</FB_MergeBulbfreak.description>
+  <FB_MergeDreadmeld.label>assemble dreadmeld</FB_MergeDreadmeld.label>
+  <FB_MergeDreadmeld.description>Assembles a dreadmeld from fleshbeasts.</FB_MergeDreadmeld.description>
   <FB_AssembleSegmentedBastion.label>assemble segmented bastion</FB_AssembleSegmentedBastion.label>
   <FB_AssembleSegmentedBastion.description>Orders expendable spine fleshbeasts to merge into a complete segmented bastion.</FB_AssembleSegmentedBastion.description>
   <FB_AssembleAcidBroodmother.label>assemble acid broodmother</FB_AssembleAcidBroodmother.label>
@@ -40,8 +40,8 @@
   <FB_GrowBurdenBlobFromSkillEssence.description>Grows a burden blob from hemogel and stored skill essence.</FB_GrowBurdenBlobFromSkillEssence.description>
   <FB_GrowCarapaceExcavatorFromSkillEssence.label>grow carapace excavator from skill essence</FB_GrowCarapaceExcavatorFromSkillEssence.label>
   <FB_GrowCarapaceExcavatorFromSkillEssence.description>Grows a carapace excavator from hemogel and stored skill essence.</FB_GrowCarapaceExcavatorFromSkillEssence.description>
-  <FB_GrowScrapmeldNestlingFromSkillEssence.label>grow scrapmeld nestling from skill essence</FB_GrowScrapmeldNestlingFromSkillEssence.label>
-  <FB_GrowScrapmeldNestlingFromSkillEssence.description>Grows a scrapmeld nestling from hemogel and stored skill essence.</FB_GrowScrapmeldNestlingFromSkillEssence.description>
+  <FB_GrowScrapmeldNestlingFromSkillEssence.label>grow scrapmeld seed from skill essence</FB_GrowScrapmeldNestlingFromSkillEssence.label>
+  <FB_GrowScrapmeldNestlingFromSkillEssence.description>Grows a scrapmeld seed from hemogel and stored skill essence.</FB_GrowScrapmeldNestlingFromSkillEssence.description>
   <FB_GrowSinewcallerFromSkillEssence.label>grow sinewcaller from skill essence</FB_GrowSinewcallerFromSkillEssence.label>
   <FB_GrowSinewcallerFromSkillEssence.description>Grows a sinewcaller from hemogel and stored skill essence.</FB_GrowSinewcallerFromSkillEssence.description>
   <FB_GrowGraftmawFromSkillEssence.label>grow graftmaw from skill essence</FB_GrowGraftmawFromSkillEssence.label>

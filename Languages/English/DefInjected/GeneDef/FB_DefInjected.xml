@@ -2,20 +2,20 @@
 <LanguageData>
   <FB_Assimilator.description>Carriers can harvest one compatible limb or organ at a time from fresh humanlike corpses, grafting it onto their own missing parts. The donor corpse loses the harvested part as it becomes part of the carrier.</FB_Assimilator.description>
   <FB_Assimilator.label>assimilator</FB_Assimilator.label>
-  <FB_BiomassEvolution.description>Carriers can act as a living center of a flesh colony. They may become a Flesh Heart, seal pawns in biomass cocoons to bind and mutate them, and direct the colony's growth from within living flesh.</FB_BiomassEvolution.description>
+  <FB_BiomassEvolution.description>Carriers can act as a living center of a flesh colony. They may become a colony heart, seal pawns in biomass cocoons to bind and mutate them, and direct the colony's growth from within living flesh.</FB_BiomassEvolution.description>
   <FB_BiomassEvolution.label>biomass evolution</FB_BiomassEvolution.label>
   <FB_BiomassEvolution.labelShortAdj>biomass-evolving</FB_BiomassEvolution.labelShortAdj>
   <FB_Eater.description>Carriers can consume organic corpses into personal body memory, then spend colony hemogel to regrow stored creatures as living newborns on chosen flesh-covered cells.</FB_Eater.description>
   <FB_Eater.label>eater</FB_Eater.label>
-  <FB_FleshbeastBody.description>Carriers are reshaped into a humanoid fleshbeast: hair and ordinary skin give way to living fleshbeast tissue and a warped head. The body feels far less pain, heals faster, and takes slightly less damage, but becomes deeply unsettling to others. Vital systems spread through the whole mass, so a killing blow tears the carrier into two younger bodies instead of killing them. Cannot be combined with fragmentation - a body can come apart in only one way.</FB_FleshbeastBody.description>
+  <FB_FleshbeastBody.description>Carriers are reshaped into a humanoid fleshbeast: hair and ordinary skin give way to living fleshbeast tissue and a warped head. The body feels far less pain, heals faster, and takes slightly less damage, but becomes deeply unsettling to others. Vital systems are spread throughout the body. When mortally wounded on a map, a sufficiently mature carrier can split into two younger bodies instead of dying. Cannot be combined with fragmentation - a body can come apart in only one way.</FB_FleshbeastBody.description>
   <FB_FleshbeastBody.label>fleshbeast body</FB_FleshbeastBody.label>
   <FB_FleshbeastBody.labelShortAdj>fleshbeast</FB_FleshbeastBody.labelShortAdj>
   <FB_FleshbeastBody.renderNodeProperties.0.debugLabel>Fur</FB_FleshbeastBody.renderNodeProperties.0.debugLabel>
   <FB_Fragmentation.description>Carriers can rupture into shardlings either willingly or automatically to preserve their life. The shardlings flee danger, regroup, and try to rebuild the original body, but the flesh remains unstable for a long time after reassembly.</FB_Fragmentation.description>
   <FB_Fragmentation.label>Fragmentation</FB_Fragmentation.label>
   <FB_HiveConstructor.description>Carriers develop an internal hive that slowly grows sclerats. When construction, repair, deconstruction, or roof work is available nearby, the brood can be released to perform labor for the colony.</FB_HiveConstructor.description>
-  <FB_HiveConstructor.label>hive constructor</FB_HiveConstructor.label>
-  <FB_HiveConstructor.labelShortAdj>hive constructor</FB_HiveConstructor.labelShortAdj>
+  <FB_HiveConstructor.label>builder hive</FB_HiveConstructor.label>
+  <FB_HiveConstructor.labelShortAdj>builder hive</FB_HiveConstructor.labelShortAdj>
   <FB_OrganicArmor.description>Carriers can force bone-chitin plates to grow over the head and torso. The armor is temporary and decays over time, giving strong protection while making the body uglier and less agile at heavier stages.</FB_OrganicArmor.description>
   <FB_OrganicArmor.label>organic armor</FB_OrganicArmor.label>
   <FB_PulsatingMold.description>Carriers grow spore nodules that can be toggled on to emit a selected spore cloud around them. The spores affect nearby creatures with poison, euphoria, or anesthesia depending on the chosen type.</FB_PulsatingMold.description>
@@ -38,6 +38,6 @@
   <FB_FleshMarshal.label>flesh marshal</FB_FleshMarshal.label>
   <FB_FleshMarshal.labelShortAdj>flesh-marshaled</FB_FleshMarshal.labelShortAdj>
   <FB_BloodTendril.label>blood tendril</FB_BloodTendril.label>
-  <FB_BloodTendril.description>Carriers grow a tendril-organ in the throat. If the organ is intact, they can fire it from the mouth at a target a short distance away, pinning a living non-mechanical victim while drawing blood to restore hunger, blood loss, and hemogen when applicable.</FB_BloodTendril.description>
+  <FB_BloodTendril.description>Carriers grow a tendril-organ in the throat. If the organ is intact, they can fire it from the mouth at a target a short distance away, pinning a living non-mechanical victim while drawing blood to satisfy hunger, replenish lost blood, and restore hemogen when applicable.</FB_BloodTendril.description>
   <FB_BloodTendril.labelShortAdj>blood-tendriled</FB_BloodTendril.labelShortAdj>
 </LanguageData>

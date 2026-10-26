@@ -32,7 +32,7 @@
   <!-- Постройка: Embryonic Colony Heart (FB_EmbryoColonyHeart) -->
   <ThingDef ParentName="EmbryoStructureBase">
     <defName>FB_EmbryoColonyHeart</defName>
-    <label>Embryonic Colony Heart</label>
+    <label>embryonic Colony Heart</label>
     <description>An immature heart organ that will grow into a colony heart.</description>
     <size>(3,3)</size>
     <comps>
@@ -53,7 +53,7 @@
   <!-- Постройка: Colony Brain Embryo (FB_ColonyBrainEmbryo) -->
   <ThingDef ParentName="EmbryoStructureBase">
     <defName>FB_ColonyBrainEmbryo</defName>
-    <label>Colony Brain Embryo</label>
+    <label>colony Brain Embryo</label>
     <description>An immature neural organ that will grow into a colony brain.</description>
     <size>(3,3)</size>
     <comps>
@@ -74,7 +74,7 @@
   <!-- Постройка: Colony Stomach Embryo (FB_ColonyStomachEmbryo) -->
   <ThingDef ParentName="EmbryoStructureBase">
     <defName>FB_ColonyStomachEmbryo</defName>
-    <label>Colony Stomach Embryo</label>
+    <label>colony Stomach Embryo</label>
     <description>An immature digestive organ that will grow into a colony stomach.</description>
     <size>(2,2)</size>
     <comps>
@@ -179,7 +179,7 @@
   <!-- Постройка: Defender Incubator Embryo (FB_DefenderIncubatorEmbryo) -->
   <ThingDef ParentName="EmbryoStructureBase">
     <defName>FB_DefenderIncubatorEmbryo</defName>
-    <label>Defender Incubator Embryo</label>
+    <label>defender Incubator Embryo</label>
     <description>An immature spawning organ that will grow into a defender incubator.</description>
     <size>(2,2)</size>
     <comps>
@@ -242,7 +242,7 @@
   <!-- Постройка: Embryonic Feeder (FB_EmbryonicFeeder) -->
   <ThingDef ParentName="EmbryoStructureBase">
     <defName>FB_EmbryonicFeeder</defName>
-    <label>Embryonic Feeder</label>
+    <label>embryonic Feeder</label>
     <description>An immature feeding organ that will grow into a feeder.</description>
     <size>(2,2)</size>
     <comps>
@@ -322,8 +322,8 @@
   </ThingDef>
   <ThingDef ParentName="EmbryoStructureBase">
     <defName>FB_GeoferriteGlandEmbryo</defName>
-    <label>geoferrite gland embryo</label>
-    <description>An immature geyser organ that will grow into a geoferrite gland.</description>
+    <label>geothermal gland embryo</label>
+    <description>An immature geyser organ that will grow into a geothermal gland.</description>
     <size>(4,4)</size>
     <placeWorkers>
       <li>PlaceWorker_OnSteamGeyser</li>
@@ -367,7 +367,7 @@
   <!-- Постройка: Embryonic Spitter (FB_EmbryonicSpitter) -->
   <ThingDef ParentName="EmbryoStructureBase">
     <defName>FB_EmbryonicSpitter</defName>
-    <label>Embryonic Spitter</label>
+    <label>flesh spitter embryo</label>
     <description>An immature acid gland that will grow into a fleshmass spitter.</description>
     <size>(2,2)</size>
     <comps>

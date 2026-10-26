@@ -3,7 +3,7 @@
   <!-- Генератор карты: flesh colony undercave (FleshColonyUndercave) -->
   <MapGeneratorDef Name="FleshColonyUndercave">
     <defName>FleshColonyUndercave</defName>
-    <label>flesh colony undercave</label>
+    <label>flesh colony underground cave</label>
     <isUnderground>true</isUnderground>
     <forceCaves>true</forceCaves>
     <ignoreAreaRevealedLetter>true</ignoreAreaRevealedLetter>

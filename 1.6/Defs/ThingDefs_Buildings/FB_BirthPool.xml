@@ -4,7 +4,7 @@
 	<ThingDef ParentName="BuildingColonyFleshBase">
 		<defName>FB_BirthPoolRim</defName>
 		<label>birth pool rim</label>
-		<description>Build a closed outline of walkable rims around 9 to 256 clear cells and enable its hemogel liquid. The pool uses the heart's bill menu and draws hemogel directly from the colony network for births and automatic regeneration.</description>
+		<description>Enclose 9–256 clear cells with walkable rims, then fill the pool with hemogel. Set fleshbeast growth orders from the pool's menu; births and automatic regeneration consume hemogel from the colony network.</description>
 		<thingClass>FB.Building_BirthPoolRim</thingClass>
 		<graphicData>
 			<texPath>Things/Building/FB_Organic/BirthPool/BirthPoolRim_Atlas</texPath>
@@ -69,7 +69,7 @@
 	<TerrainDef>
 		<defName>FB_HemogelPuddle</defName>
 		<label>hemogel puddle</label>
-		<description>Hemogel liquid in a birth pool automatically restores missing natural parts, scars and injuries of compatible creatures standing inside, consuming hemogel directly from the network. It does not replace implants or cure diseases.</description>
+		<description>The pool's hemogel automatically regrows missing natural body parts, heals injuries, and removes scars from compatible creatures inside, consuming hemogel from the network. It does not replace implants or cure diseases.</description>
 		<texturePath>Terrain/Surfaces/HemogelPuddle</texturePath>
 		<waterDepthShader>Map/WaterDepth</waterDepthShader>
 		<edgeType>Water</edgeType>
@@ -108,7 +108,7 @@
 	<ResearchProjectDef>
 		<defName>FB_BirthPoolResearch</defName>
 		<label>birth pools</label>
-		<description>Create birth pools of your own shape. Toggle their liquid on or off, grow fleshbeasts through the heart's bill menu and automatically regenerate compatible creatures using network hemogel.</description>
+		<description>Enables birth pools of your own shape. Fill and drain them, set fleshbeast growth orders, and automatically regenerate compatible creatures using network hemogel.</description>
 		<tab>FB_Fleshbeast</tab>
 		<techLevel>Industrial</techLevel>
 		<baseCost>2400</baseCost>

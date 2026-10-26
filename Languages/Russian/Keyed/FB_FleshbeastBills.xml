@@ -7,8 +7,8 @@
   <FB_FleshbeastBillClearAll>Запретить всё</FB_FleshbeastBillClearAll>
   <FB_FleshbeastBillNoValidCombination>Нет допустимой комбинации из разрешённых доноров.</FB_FleshbeastBillNoValidCombination>
   <FB_FleshbeastBillOr>или</FB_FleshbeastBillOr>
-  <FB_FleshbeastBillRepeatHemogelAbove>Если гемогель выше {0}</FB_FleshbeastBillRepeatHemogelAbove>
-  <FB_FleshbeastBillRepeatHemogelAboveMenu>Если гемогель выше X</FB_FleshbeastBillRepeatHemogelAboveMenu>
+  <FB_FleshbeastBillRepeatHemogelAbove>Если запас гемогеля выше {0}</FB_FleshbeastBillRepeatHemogelAbove>
+  <FB_FleshbeastBillRepeatHemogelAboveMenu>Если запас гемогеля выше X</FB_FleshbeastBillRepeatHemogelAboveMenu>
   <FB_FleshbeastBillRepeatHemogelInfo>Гемогель сети: {0} / порог {1}</FB_FleshbeastBillRepeatHemogelInfo>
   <FB_FleshbeastBillRepeatSelfHealthAbove>Если здоровье выше {0}%</FB_FleshbeastBillRepeatSelfHealthAbove>
   <FB_FleshbeastBillRepeatSelfHealthAboveMenu>Если здоровье выше X%</FB_FleshbeastBillRepeatSelfHealthAboveMenu>

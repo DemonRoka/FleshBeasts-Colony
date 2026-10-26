@@ -3,7 +3,7 @@
   <HediffDef>
     <defName>FB_FleshParasite</defName>
     <label>flesh parasite</label>
-    <description>A fleshbeast larva planted by a stingmite's sting. It does not harm the tissue, but it slowly matures and spreads into neighbouring body parts. Once mature, it tears its body part off and crawls out; a large enough part releases a fingerspike loyal to the colony. It can be removed surgically, and a graftmaw can cut the infected parts out cleanly.</description>
+    <description>A fleshbeast larva planted by a stingmite's sting. It does not harm the tissue, but it slowly matures and spreads into neighbouring body parts. Once mature, it tears off the infected body part and crawls out; a large enough part releases a fingerspike loyal to the colony. It can be removed surgically, and a graftmaw can cut the infected parts out cleanly.</description>
     <hediffClass>HediffWithComps</hediffClass>
     <isBad>true</isBad>
     <scenarioCanAdd>false</scenarioCanAdd>

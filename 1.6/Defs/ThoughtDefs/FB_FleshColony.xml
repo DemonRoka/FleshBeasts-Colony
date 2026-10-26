@@ -10,7 +10,7 @@
     <stages>
       <li>
         <label>pleasant warmth</label>
-        <description>I feel a pleasant warmth spreading through my body. This is quite nice.</description>
+        <description>A steady warmth spreads through my body. I feel at ease.</description>
         <baseMoodEffect>3</baseMoodEffect>
       </li>
       <li>
@@ -20,12 +20,12 @@
       </li>
       <li>
         <label>joyfully tipsy</label>
-        <description>I feel tipsy and joyful! Everything seems more fun!</description>
+        <description>I'm a little tipsy. Even the smallest things make me smile.</description>
         <baseMoodEffect>10</baseMoodEffect>
       </li>
       <li>
         <label>euphoric</label>
-        <description>I'm euphoric and having the time of my life! This is amazing!</description>
+        <description>I'm overflowing with joy. I want to laugh and share it with everyone around me.</description>
         <baseMoodEffect>15</baseMoodEffect>
       </li>
     </stages>
@@ -233,8 +233,8 @@
     <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
     <stages>
       <li>
-        <label>{WEAPON}'s guarding will</label>
-        <description>{WEAPON} curls its awareness around me, alert and protective. I feel watched over.</description>
+        <label>protected by {WEAPON}</label>
+        <description>I can feel {WEAPON} keeping watch over everything around me. I feel safe with it at my side.</description>
         <baseMoodEffect>5</baseMoodEffect>
       </li>
     </stages>

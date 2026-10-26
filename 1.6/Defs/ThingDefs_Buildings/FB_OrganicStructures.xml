@@ -53,7 +53,7 @@
   <ThingDef>
     <defName>FB_PitBurrowSpawner</defName>
     <label>underground emergence</label>
-    <description>Something emerging from ground.</description>
+    <description>Something is emerging from beneath the ground.</description>
     <thingClass>BuildingGroundSpawner</thingClass>
     <destroyable>false</destroyable>
     <holdsRoof>true</holdsRoof>
@@ -392,7 +392,7 @@
   <!-- Постройка: Colony Heart (FB_ColonyHeart) -->
   <ThingDef ParentName="BuildingColonyFleshBaseAnimation">
   <defName>FB_ColonyHeart</defName>
-  <label>Colony Heart</label>
+  <label>colony Heart</label>
   <description>The pulsating core of a fleshmass colony, this organic structure rhythmically pumps hemogel to sustain and interconnect its living architecture. Its vitality hinges on a robust hemogel reserve, driving its ceaseless, life-giving pulsations.</description>
   <size>(3,3)</size>
   <statBases>
@@ -733,7 +733,7 @@
   <!-- Постройка: Colony Stomach (FB_ColonyStomach) -->
   <ThingDef ParentName="BuildingColonyFleshBase">
     <defName>FB_ColonyStomach</defName>
-    <label>Colony Stomach</label>
+    <label>colony Stomach</label>
     <description>A sprawling pit with walls of thick, mucous flesh, teeming with life. Within its depths churns a caustic, greenish gastric juice, breaking down organic matter into hemogel to nourish the fleshmass colony. Sensitive tendrils line the edges, drawing in discarded bodies or debris with relentless precision, fueling the colony’s vitality.</description>
     <thingClass>FB.Building_FleshmassStomach</thingClass>
     <drawerType>MapMeshAndRealTime</drawerType>
@@ -815,7 +815,7 @@
   <defName>FB_GastricAcidSpewer</defName>
   <thingClass>Building</thingClass>
   <label>gastric acid spewer</label>
-  <description>A rooted digestive organ that spreads gastric acid nearby. Organic bodies and food left in the connected acid pool slowly feed the hemogel network.</description>
+  <description>A digestive organ that spreads gastric acid nearby. Organic bodies and food left in the connected acid pool slowly feed the hemogel network.</description>
   <researchPrerequisites>
     <li>FB_GastricChambers</li>
   </researchPrerequisites>
@@ -902,7 +902,7 @@
   <ThingDef ParentName="BuildingColonyFleshBase">
   <defName>FB_HemogelCistern</defName>
   <label>Hemogel Cistern</label>
-  <description>A swollen reserve organ that stores a large hemogel buffer for the colony network and releases it during shortages.</description>
+  <description>A swollen reserve organ that stores a large hemogel reserve for the colony network and releases it during shortages.</description>
   <size>(2,2)</size>
   <statBases>
     <Beauty>-30</Beauty>
@@ -1275,8 +1275,8 @@
   <!-- Постройка: Geoferrite Gland (FB_GeoferriteGland) -->
   <ThingDef ParentName="BuildingColonyFleshBase">
     <defName>FB_GeoferriteGland</defName>
-    <label>geoferrite gland</label>
-    <description>A geyser-rooted organ that consumes hemogel and extrudes bioferrite from geothermal pressure.</description>
+    <label>geothermal gland</label>
+    <description>A geyser-rooted organ that consumes hemogel and extrudes bioferrite using geothermal pressure.</description>
     <researchPrerequisites>
       <li>FB_GeoferriteGlands</li>
     </researchPrerequisites>
@@ -1410,7 +1410,7 @@
     </li>
     <li Class="FB.CompProperties_TransformInto">
       <targetDef>Fleshmass</targetDef>
-      <commandLabel>Transform to Fleshmass</commandLabel>
+      <commandLabel>Turn to flesh</commandLabel>
       <commandDesc>Transforms this flesh door into a throbbing mass of twisted flesh.</commandDesc>
       <commandIcon>UI/Commands/FleshmassIcon</commandIcon>
     </li>
@@ -1554,7 +1554,7 @@
   <!-- Постройка: Synapse Core (FB_SynapseCore) -->
   <ThingDef ParentName="BuildingColonyFleshBase">
     <defName>FB_SynapseCore</defName>
-    <description>A semi-living organ of the colony that cocoons a pawn beneath a thick neuro-membrane. The pawn's brain becomes a conduit for research, feeding thought-signals into the colony's fleshmind. While inside, the pawn cannot act, but their cognitive power accelerates technological advancement.</description>
+    <description>A research organ that uses the mental activity of a pawn enclosed within its neural membrane.</description>
     <label>Synapse Core</label>
     <thingClass>FB.Building_AutoResearch</thingClass>
     <containedPawnsSelectable>true</containedPawnsSelectable>
@@ -1658,7 +1658,7 @@
   <ThingDef ParentName="BuildingColonyFleshBase">
     <defName>FB_StorageCavity</defName>
     <label>Storage Cavity</label>
-    <description>A living shelf that protects stored items from weather and decay, but cannot hold chunks, buildings, plants, or large corpses.</description>
+    <description>A living shelf that protects items from outdoor deterioration, but does not prevent rot. Cannot hold chunks, buildings, plants, or large corpses.</description>
     <thingClass>FB.Building_FleshStorageRaidTarget</thingClass>
     <tickerType>Rare</tickerType>
     <building>
@@ -1805,7 +1805,7 @@
   <ThingDef ParentName="BuildingColonyFleshBase">
     <defName>FB_FloorMawTrap</defName>
     <label>floor maw trap</label>
-    <description>A living mouth hidden in the floor. It grows in shut and needs a short while to open; then it snaps on any intruder that steps onto it with a wet, bone-cracking bite, closes to recover and opens again once healed.</description>
+    <description>A living mouth hidden in the floor. It takes time to open after growing, then bites a victim that steps on it, closes to recover, and opens again.</description>
     <category>Building</category>
     <thingClass>FB.Building_FloorMawTrap</thingClass>
     <designationCategory IsNull="True" />
@@ -2200,7 +2200,7 @@
   <!-- Постройка: Stone Crusher (FB_StoneCrusher) -->
   <ThingDef ParentName="BuildingColonyFleshBaseAnimation">
     <defName>FB_StoneCrusher</defName>
-    <label>Stone Crusher</label>
+    <label>stone Crusher</label>
     <description>A living grinder that chews stone chunks into usable blocks.</description>
     <thingClass>FB.Building_FleshStorageRaidTarget</thingClass>
     <size>(1,1)</size>
@@ -2342,7 +2342,7 @@
   <ThingDef ParentName="BuildingBase">
     <defName>FB_ColonyEye</defName>
     <label>colony eye</label>
-    <description>A sensory organ grown from colony flesh. Its wet eye tracks movement around the colony and marks the area as watched by the living mass.</description>
+    <description>A living colony eye that follows nearby movement, turning its gaze toward passing humans.</description>
     <drawerType>MapMeshAndRealTime</drawerType>
     <thingClass>FB.Building_FleshAnimatedOverlay</thingClass>
     <graphicData>
@@ -2390,7 +2390,7 @@
     <label>biomass cocoon</label>
     <thingClass>FB.ThingWithComps_FleshRaidTarget</thingClass>
     <category>Building</category>
-    <description>A pulsating cocoon of biomass that holds a colonist, evolving them within.</description>
+    <description>A cocoon of living biomass that shelters a carrier throughout their transformation. Destroying the cocoon kills its occupant.</description>
     <drawerType>MapMeshAndRealTime</drawerType>
     <altitudeLayer>Building</altitudeLayer>
     <tickerType>Normal</tickerType>
@@ -2467,7 +2467,7 @@
   <ThingDef ParentName="BuildingColonyFleshBase">
     <defName>FB_BoneMarrowExtractor</defName>
     <label>bone marrow extractor</label>
-    <description>A rooted extraction organ that strains captive entities into bioferrite and a small flow of hemogel. Its feeding spines make containment less stable.</description>
+    <description>Extracts bioferrite and a small amount of hemogel from a captive entity. Spines penetrating its body weaken containment.</description>
     <thingClass>FB.Building_FleshBoneMarrowExtractor</thingClass>
     <designationCategory IsNull="True" />
     <minMonolithLevel>1</minMonolithLevel>
@@ -2630,7 +2630,7 @@
   <defName>FB_CelestialUmbilicus</defName>
   <thingClass>FB.Building_CelestialUmbilicus</thingClass>
   <label>celestial umbilicus</label>
-  <description>A colossal living column that consumes network hemogel to grow toward orbit. Once awakened, every faction will try to sever it before the flesh colony buds free.</description>
+  <description>A colossal organ that grows a flesh moon and links it to the surface. Growth requires hemogel; awakening it turns other factions against the colony and provokes raids.</description>
   <researchPrerequisites>
     <li>FB_CelestialBudding</li>
   </researchPrerequisites>
@@ -2710,7 +2710,7 @@
   <ThingDef ParentName="BuildingColonyFleshBase">
     <defName>FB_InstalledCortexMite</defName>
     <label>anchored cortex mite</label>
-    <description>A cortex mite fixed into the flesh network, feeding the colony's current research project with a steady neural trickle.</description>
+    <description>A cortex mite rooted in flesh-covered ground that helps with the colony's current research.</description>
     <graphicData>
       <texPath>Things/Pawn/FB_CortexMite/FB_CortexMite</texPath>
       <graphicClass>Graphic_Multi</graphicClass>

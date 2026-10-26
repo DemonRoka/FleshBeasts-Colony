@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <FB_ColonyBrain_Structure_BileMortarGland_Label>Bile Mortar Gland</FB_ColonyBrain_Structure_BileMortarGland_Label>
-  <FB_ColonyBrain_Structure_BileMortarGland_Desc>Grow a bile mortar gland that cultivates bileburst podlings and launches mature ones as incendiary shells.</FB_ColonyBrain_Structure_BileMortarGland_Desc>
+  <FB_ColonyBrain_Structure_BileMortarGland_Label>Bile mortar</FB_ColonyBrain_Structure_BileMortarGland_Label>
+  <FB_ColonyBrain_Structure_BileMortarGland_Desc>Grow a bile mortar that cultivates bileburst podlings and launches mature ones as incendiary shells.</FB_ColonyBrain_Structure_BileMortarGland_Desc>
   <FB_BilePodlingSpawnLabel>Grow bileburst podling</FB_BilePodlingSpawnLabel>
   <FB_BilePodlingSpawnDesc>Grow one bileburst podling near this gland for {0} hemogel from the network.</FB_BilePodlingSpawnDesc>
-  <FB_BilePodlingSpawnFailed>The bile mortar gland cannot grow a bileburst podling right now.</FB_BilePodlingSpawnFailed>
+  <FB_BilePodlingSpawnFailed>The bile mortar cannot grow a bileburst podling right now.</FB_BilePodlingSpawnFailed>
   <FB_BilePodlingNoSpawnCell>There is no clear cell nearby for a bileburst podling.</FB_BilePodlingNoSpawnCell>
   <FB_BilePodlingNoNetworkSupply>The hemogel network is underfed.</FB_BilePodlingNoNetworkSupply>
   <FB_BilePodlingOwnedInspect>Bileburst podlings: {0}/{1}/{2} (ready / swelling / low charge)</FB_BilePodlingOwnedInspect>
   <FB_BileMortarFireLabel>Fire bile mortar</FB_BileMortarFireLabel>
   <FB_BileMortarFireDesc>Select a map cell within {1} cells to bombard. The gland will call the most charged reachable bileburst podling with at least {0}% volatile bile, load it, and launch it as a living shell. Impacts can scatter by about {2} cells.</FB_BileMortarFireDesc>
   <FB_BileMortarNoLoadedPodling>No reachable bileburst podling has at least {0}% volatile bile.</FB_BileMortarNoLoadedPodling>
-  <FB_BileMortarCannotFire>The bile mortar gland cannot fire right now.</FB_BileMortarCannotFire>
+  <FB_BileMortarCannotFire>The bile mortar cannot fire right now.</FB_BileMortarCannotFire>
   <FB_BileMortarInvalidTarget>Invalid bile mortar target.</FB_BileMortarInvalidTarget>
   <FB_BileMortarCannotReach>The selected bileburst podling cannot reach the mortar.</FB_BileMortarCannotReach>
   <FB_BileMortarOutOfRange>Target is outside bile mortar range ({0} cells).</FB_BileMortarOutOfRange>
@@ -22,7 +22,7 @@
   <FB_VolatileBileInspect>Volatile bile: {0}%</FB_VolatileBileInspect>
   <FB_BileburstChargePausedNoSupply>Charge growth paused: the linked mortar lacks full hemogel supply.</FB_BileburstChargePausedNoSupply>
   <FB_VolatileBileBarTitle>Volatile bile</FB_VolatileBileBarTitle>
-  <FB_VolatileBileBarTooltip>This podling's explosive bile charge. At 25% or higher it can be loaded into a bile mortar gland.</FB_VolatileBileBarTooltip>
+  <FB_VolatileBileBarTooltip>This podling's explosive bile charge. At 25% or higher it can be loaded into a bile mortar.</FB_VolatileBileBarTooltip>
   <FB_VolatileBileBarGroupTitle>Volatile bile ×{0}: {1}%</FB_VolatileBileBarGroupTitle>
   <FB_VolatileBileBarGroupMinimum>min {0}%</FB_VolatileBileBarGroupMinimum>
   <FB_VolatileBileBarGroupTooltip>Selected podlings: {0}\nAverage charge: {1}%\nLowest charge: {2}%\nHighest charge: {3}%\nReady for the mortar ({4}% or more): {5} of {0}</FB_VolatileBileBarGroupTooltip>
@@ -35,8 +35,8 @@
   <FB_BileburstPayloadCannotReach>The bileburst podling cannot reach that payload.</FB_BileburstPayloadCannotReach>
   <FB_BileburstPayloadCannotAbsorb>This bileburst podling cannot absorb a payload right now.</FB_BileburstPayloadCannotAbsorb>
   <FB_BileburstPayloadAbsorbed>{0} absorbed {1}.</FB_BileburstPayloadAbsorbed>
-  <FB_BileburstDetonateLabel>Detonate bileburst</FB_BileburstDetonateLabel>
-  <FB_BileburstDetonateDesc>Order this bileburst podling to crawl to a selected target or cell and rupture its stored volatile bile.</FB_BileburstDetonateDesc>
+  <FB_BileburstDetonateLabel>Detonate</FB_BileburstDetonateLabel>
+  <FB_BileburstDetonateDesc>Order this bileburst podling to crawl to a selected target or cell and burst, igniting its stored volatile bile.</FB_BileburstDetonateDesc>
   
   
   <FB_BileburstDetonatingInspect>Detonating in {0}.</FB_BileburstDetonatingInspect>
@@ -47,7 +47,7 @@
   <FB_FleshMoonBileBombardmentLabel>Call bilefall bombardment</FB_FleshMoonBileBombardmentLabel>
   <FB_FleshMoonBileBombardmentDesc>Select a map point. The flesh moon rains 10 bileburst shells across a 20-cell area over about a third of an hour.</FB_FleshMoonBileBombardmentDesc>
   <FB_FleshMoonBileBombardmentCostLine>Lunar hemogel cost: {0}</FB_FleshMoonBileBombardmentCostLine>
-  <FB_FleshMoonBileBombardmentNotEnoughHemogel>The flesh moon reserve lacks {0} hemogel.</FB_FleshMoonBileBombardmentNotEnoughHemogel>
+  <FB_FleshMoonBileBombardmentNotEnoughHemogel>Not enough hemogel in the flesh moon reserve. Required: {0}.</FB_FleshMoonBileBombardmentNotEnoughHemogel>
   <FB_FleshMoonBileBombardmentInvalidTarget>Invalid bombardment target.</FB_FleshMoonBileBombardmentInvalidTarget>
   <FB_FleshMoonBileBombardmentStarted>The flesh moon begins a bilefall bombardment.</FB_FleshMoonBileBombardmentStarted>
   <FB_FleshMoonOrbitalAbilityNoMoon>The flesh moon is not available.</FB_FleshMoonOrbitalAbilityNoMoon>
@@ -58,7 +58,7 @@
   <FB_FleshMoonAcidRainLabel>Call acid rain</FB_FleshMoonAcidRainLabel>
   <FB_FleshMoonAcidRainDesc>Select a map point beneath the flesh moon. After two to three hours, deadly caustic rain will rapidly poison and burn exposed pawns while killing outdoor plants and corroding items.</FB_FleshMoonAcidRainDesc>
   <FB_FleshMoonAcidRainCostLine>Lunar hemogel cost: {0}</FB_FleshMoonAcidRainCostLine>
-  <FB_FleshMoonAcidRainNotEnoughHemogel>The flesh moon reserve lacks {0} hemogel.</FB_FleshMoonAcidRainNotEnoughHemogel>
+  <FB_FleshMoonAcidRainNotEnoughHemogel>Not enough hemogel in the flesh moon reserve. Required: {0}.</FB_FleshMoonAcidRainNotEnoughHemogel>
   <FB_FleshMoonAcidRainInvalidTarget>Invalid acid rain target.</FB_FleshMoonAcidRainInvalidTarget>
   <FB_FleshMoonAcidRainAlreadyActive>Acid rain is already falling on this map.</FB_FleshMoonAcidRainAlreadyActive>
   <FB_FleshMoonAcidRainAlreadyPending>Acid rain has already been called to this map.</FB_FleshMoonAcidRainAlreadyPending>

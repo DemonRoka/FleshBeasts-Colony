@@ -4,7 +4,7 @@
   <WorldObjectDef>
     <defName>FB_FleshBulwark</defName>
     <label>flesh bulwark</label>
-    <description>A hardened knot of defensive tissue. It does not extract hemogel, but the surrounding covered tiles grow thick armoured plating that turns aside outside raids.</description>
+    <description>A knot of reinforced tissue that strengthens its own and nearby territories against burn parties. Does not increase hemogel extraction.</description>
     <worldObjectClass>FB.WorldObject_FleshWorldFacility</worldObjectClass>
     <canHaveFaction>true</canHaveFaction>
     <canHaveMap>false</canHaveMap>
@@ -28,8 +28,8 @@
 
   <WorldObjectDef>
     <defName>FB_FleshTreeNursery</defName>
-    <label>flesh tree and leaf nursery</label>
-    <description>An abstract planetary growth site that accelerates hemogel extraction from its covered world tile.</description>
+    <label>flesh grove</label>
+    <description>Dense growths of flesh trees and flesh leaves that accelerate hemogel extraction from local biomass. Increased extraction depletes the territory faster.</description>
     <worldObjectClass>FB.WorldObject_FleshWorldFacility</worldObjectClass>
     <canHaveFaction>true</canHaveFaction>
     <canHaveMap>false</canHaveMap>
@@ -52,7 +52,7 @@
   <WorldObjectDef>
     <defName>FB_FleshRiverSiphon</defName>
     <label>great river siphon</label>
-    <description>An abstract planetary organ that drinks from rivers, lakes or nearby coasts and greatly accelerates hemogel extraction from its covered world tile.</description>
+    <description>A large feeding organ that increases hemogel extraction by rivers, lakes, and coasts. Requires access to water and depletes the territory faster.</description>
     <worldObjectClass>FB.WorldObject_FleshWorldFacility</worldObjectClass>
     <canHaveFaction>true</canHaveFaction>
     <canHaveMap>false</canHaveMap>
@@ -76,7 +76,7 @@
   <WorldObjectDef>
     <defName>FB_FleshAmbushCamp</defName>
     <label>flesh ambush camp</label>
-    <description>An abstract planetary trap-camp that harvests hemogel from its covered tile and stores occasional loot taken from animals and passing caravans.</description>
+    <description>A patch of flesh adapted to ambush animals and passing caravans. Increases hemogel extraction and gathers trophies for delivery to an outpost.</description>
     <worldObjectClass>FB.WorldObject_FleshWorldFacility</worldObjectClass>
     <canHaveFaction>true</canHaveFaction>
     <canHaveMap>false</canHaveMap>
@@ -110,8 +110,8 @@
 
   <WorldObjectDef>
     <defName>FB_FleshCrustCorer</defName>
-    <label>crust corer</label>
-    <description>An abstract planetary drilling organ. It grinds the biomass of its covered tile into mined ore, exhausting that tile far faster than passive extraction and yielding less as the tile dies. Hills and mountains push its output towards rarer ores.</description>
+    <label>deep borer</label>
+    <description>A drilling organ that extracts minerals at the expense of local biomass. Rapidly depletes the territory; hills and mountains yield rare resources more often.</description>
     <worldObjectClass>FB.WorldObject_FleshWorldFacility</worldObjectClass>
     <canHaveFaction>true</canHaveFaction>
     <canHaveMap>false</canHaveMap>
@@ -144,8 +144,8 @@
 
   <WorldObjectDef>
     <defName>FB_FleshTunnelNexus</defName>
-    <label>tunnel nexus</label>
-    <description>An abstract planetary organ that grows a second flesh tunnel maw on a distant world tile. Caravans standing on either maw are swallowed and spat out at the other end instantly, however far apart the maws are, and flesh war parties reroute through the tunnel whenever it saves them time. Collapsing the tunnel leaves the nexus itself intact.</description>
+    <label>tunnel node</label>
+    <description>Grows a distant tunnel maw for instant travel by caravans and war packs. Can grow a new passage after the old one is collapsed.</description>
     <worldObjectClass>FB.WorldObject_FleshTunnelNexus</worldObjectClass>
     <canHaveFaction>true</canHaveFaction>
     <canHaveMap>false</canHaveMap>

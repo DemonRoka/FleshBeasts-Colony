@@ -127,7 +127,7 @@
         <soundMeleeHit>Pawn_Dreadmeld_Attack_Spike</soundMeleeHit>
       </li>
       <li>
-        <label>thrashing underside</label>
+        <label>belly strike</label>
         <capacities>
           <li>Blunt</li>
         </capacities>

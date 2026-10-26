@@ -3,15 +3,15 @@
   <Make_OrganicComponent.description>Craft an organic component from raw meat and leather for living structures, symbiotic equipment, and flesh-grown weapons.</Make_OrganicComponent.description>
   <Make_OrganicComponent.jobString>Assembling organic component.</Make_OrganicComponent.jobString>
   <Make_OrganicComponent.label>make organic component</Make_OrganicComponent.label>
-  <MakeBudFlesh_CrimsonFangSeed.description>Craft a crimson fang seed from organic components and plasteel. Plant it to grow a Crimson Bulb that can be harvested into a Crimson Fang.</MakeBudFlesh_CrimsonFangSeed.description>
-  <MakeBudFlesh_CrimsonFangSeed.jobString>Creating Crimson Fang Seed</MakeBudFlesh_CrimsonFangSeed.jobString>
-  <MakeBudFlesh_CrimsonFangSeed.label>Make Crimson Fang Seed</MakeBudFlesh_CrimsonFangSeed.label>
-  <MakeBudFlesh_FerriteSeed.description>Craft a ferrite seed from organic components and bioferrite. Plant it to grow a Ferrite Fangroot that can be harvested into a Ferrite Sting.</MakeBudFlesh_FerriteSeed.description>
+  <MakeBudFlesh_CrimsonFangSeed.description>Craft a crimson fang seed from organic components and plasteel. Plant it to grow a crimson bulb that can be harvested into a crimson fang.</MakeBudFlesh_CrimsonFangSeed.description>
+  <MakeBudFlesh_CrimsonFangSeed.jobString>Creating crimson fang Seed</MakeBudFlesh_CrimsonFangSeed.jobString>
+  <MakeBudFlesh_CrimsonFangSeed.label>Make crimson fang Seed</MakeBudFlesh_CrimsonFangSeed.label>
+  <MakeBudFlesh_FerriteSeed.description>Craft a ferrite seed from organic components and bioferrite. Plant it to grow a ferrite fangroot that can be harvested into a ferrite sting.</MakeBudFlesh_FerriteSeed.description>
   <MakeBudFlesh_FerriteSeed.jobString>Creating Ferrite Seed</MakeBudFlesh_FerriteSeed.jobString>
   <MakeBudFlesh_FerriteSeed.label>Make Ferrite Seed</MakeBudFlesh_FerriteSeed.label>
-  <MakeBudFlesh_FleshBladeSeed.description>Craft a flesh blade seed from organic components and plasteel. Plant it to grow a Bud Flesh Blade that can be harvested into a Flesh Blade.</MakeBudFlesh_FleshBladeSeed.description>
-  <MakeBudFlesh_FleshBladeSeed.jobString>Creating Flesh Blade Seed</MakeBudFlesh_FleshBladeSeed.jobString>
-  <MakeBudFlesh_FleshBladeSeed.label>Make Flesh Blade Seed</MakeBudFlesh_FleshBladeSeed.label>
+  <MakeBudFlesh_FleshBladeSeed.description>Craft a flesh blade seed from organic components and plasteel. Plant it to grow a flesh blade bud that can be harvested into a flesh blade.</MakeBudFlesh_FleshBladeSeed.description>
+  <MakeBudFlesh_FleshBladeSeed.jobString>Creating flesh blade Seed</MakeBudFlesh_FleshBladeSeed.jobString>
+  <MakeBudFlesh_FleshBladeSeed.label>Make flesh blade Seed</MakeBudFlesh_FleshBladeSeed.label>
   <MakePersonalityParasiteEgg.description>Craft a personality parasite egg from organic components, bioferrite, and uranium. The egg hatches into a parasite that can carry a stored mind.</MakePersonalityParasiteEgg.description>
   <MakePersonalityParasiteEgg.jobString>Creating Personality Parasite Egg</MakePersonalityParasiteEgg.jobString>
   <MakePersonalityParasiteEgg.label>Make Personality Parasite Egg</MakePersonalityParasiteEgg.label>

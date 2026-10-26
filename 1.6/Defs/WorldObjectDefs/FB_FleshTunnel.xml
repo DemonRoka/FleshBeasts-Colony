@@ -3,7 +3,7 @@
   <WorldObjectDef>
     <defName>FB_FleshTunnelDestination</defName>
     <label>flesh tunnel</label>
-    <description>A distant tile pierced by a rooted flesh tunnel.</description>
+    <description>A distant world tile reached by a rooted flesh tunnel.</description>
     <worldObjectClass>FB.FB_FleshTunnelWorldObject</worldObjectClass>
     <canHaveFaction>true</canHaveFaction>
     <canHaveMap>true</canHaveMap>
@@ -22,7 +22,7 @@
   <WorldObjectDef>
     <defName>FB_FleshTunnelMouth</defName>
     <label>flesh tunnel maw</label>
-    <description>The far end of a world tunnel grown by a tunnel nexus. Caravans standing here are pulled through to the nexus instantly, and flesh war parties use it as an instant shortcut.</description>
+    <description>The distant maw of a passage grown by a tunnel node. Carries caravans and war packs instantly to the other end.</description>
     <worldObjectClass>FB.WorldObject_FleshTunnelMouth</worldObjectClass>
     <canHaveFaction>true</canHaveFaction>
     <canHaveMap>false</canHaveMap>

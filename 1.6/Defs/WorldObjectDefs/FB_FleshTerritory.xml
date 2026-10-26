@@ -3,7 +3,7 @@
   <WorldObjectDef>
     <defName>FB_FleshTerritoryTemporaryMap</defName>
     <label>flesh territory</label>
-    <description>A temporary materialization of a world tile fully consumed by living flesh.</description>
+    <description>A stretch of surface consumed by living flesh. Can be visited, but cannot host a permanent settlement.</description>
     <worldObjectClass>FB.FB_FleshTerritoryTemporaryMapParent</worldObjectClass>
     <canHaveFaction>true</canHaveFaction>
     <canHaveMap>true</canHaveMap>

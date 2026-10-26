@@ -146,8 +146,8 @@
 </ThingDef>
   <ThingDef ParentName="StumpChoppedBase">
     <defName>FB_StumpChopped_FleshTree</defName>
-    <label>chopped flesh tree stump</label>
-    <description>A pulped stump left behind after a flesh tree has been felled. It still twitches around the cut and will slowly rot away if left exposed.</description>
+    <label>flesh tree stump</label>
+    <description>A stump left after a flesh tree has been felled. The cut still twitches and slowly deteriorates in the open.</description>
     <statBases>
       <Beauty>-2</Beauty>
       <DeteriorationRate>20</DeteriorationRate>

@@ -2,7 +2,7 @@
 <Defs>
   <ThingDef ParentName="BuildingBase">
   <defName>FB_CelestialUmbilicusPortal</defName>
-  <label>celestial umbilicus portal</label>
+  <label>open celestial umbilicus</label>
   <description>A stabilized living umbilicus that links the colony to the flesh moon.</description>
   <thingClass>FB.Building_CelestialUmbilicusPortal</thingClass>
   <category>Building</category>
@@ -236,8 +236,8 @@
   <!-- Постройка: flesh moon umbilicus crater (FB_CelestialUmbilicusMoonCrater) -->
   <ThingDef ParentName="BuildingColonyFleshBase">
     <defName>FB_CelestialUmbilicusMoonCrater</defName>
-    <label>lunar flesh crater</label>
-    <description>The raw wound left where the moon-side umbilicus was torn away. Fed enough hemogel from the lunar network, the crater grows a fresh root and the umbilicus rises again in its place.</description>
+    <label>umbilicus wound</label>
+    <description>An open wound where the celestial umbilicus was torn out. Fed hemogel from the lunar network, it gradually heals and regrows the root.</description>
     <thingClass>FB.Building_FleshMoonUmbilicusCrater</thingClass>
     <size>(7,7)</size>
     <useHitPoints>true</useHitPoints>

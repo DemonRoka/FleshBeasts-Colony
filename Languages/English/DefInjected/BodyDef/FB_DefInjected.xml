@@ -43,9 +43,9 @@
   <FB_CortexMiteBody.corePart.parts.5.customLabel>left kidney</FB_CortexMiteBody.corePart.parts.5.customLabel>
   <FB_CortexMiteBody.corePart.parts.6.customLabel>right kidney</FB_CortexMiteBody.corePart.parts.6.customLabel>
   <FB_CortexMiteBody.corePart.parts.8.parts.1.customLabel>left anterior eye</FB_CortexMiteBody.corePart.parts.8.parts.1.customLabel>
-  <FB_CortexMiteBody.corePart.parts.8.parts.10.customLabel>right rear spike-leg</FB_CortexMiteBody.corePart.parts.8.parts.10.customLabel>
-  <FB_CortexMiteBody.corePart.parts.8.parts.11.customLabel>left back spike-leg</FB_CortexMiteBody.corePart.parts.8.parts.11.customLabel>
-  <FB_CortexMiteBody.corePart.parts.8.parts.12.customLabel>right back spike-leg</FB_CortexMiteBody.corePart.parts.8.parts.12.customLabel>
+  <FB_CortexMiteBody.corePart.parts.8.parts.10.customLabel>right rear spike-leg I</FB_CortexMiteBody.corePart.parts.8.parts.10.customLabel>
+  <FB_CortexMiteBody.corePart.parts.8.parts.11.customLabel>left rear spike-leg II</FB_CortexMiteBody.corePart.parts.8.parts.11.customLabel>
+  <FB_CortexMiteBody.corePart.parts.8.parts.12.customLabel>right rear spike-leg II</FB_CortexMiteBody.corePart.parts.8.parts.12.customLabel>
   <FB_CortexMiteBody.corePart.parts.8.parts.2.customLabel>right anterior eye</FB_CortexMiteBody.corePart.parts.8.parts.2.customLabel>
   <FB_CortexMiteBody.corePart.parts.8.parts.3.customLabel>left side eye</FB_CortexMiteBody.corePart.parts.8.parts.3.customLabel>
   <FB_CortexMiteBody.corePart.parts.8.parts.4.customLabel>right side eye</FB_CortexMiteBody.corePart.parts.8.parts.4.customLabel>
@@ -53,7 +53,7 @@
   <FB_CortexMiteBody.corePart.parts.8.parts.6.customLabel>front right spike-leg</FB_CortexMiteBody.corePart.parts.8.parts.6.customLabel>
   <FB_CortexMiteBody.corePart.parts.8.parts.7.customLabel>left mid spike-leg</FB_CortexMiteBody.corePart.parts.8.parts.7.customLabel>
   <FB_CortexMiteBody.corePart.parts.8.parts.8.customLabel>right mid spike-leg</FB_CortexMiteBody.corePart.parts.8.parts.8.customLabel>
-  <FB_CortexMiteBody.corePart.parts.8.parts.9.customLabel>left rear spike-leg</FB_CortexMiteBody.corePart.parts.8.parts.9.customLabel>
+  <FB_CortexMiteBody.corePart.parts.8.parts.9.customLabel>left rear spike-leg I</FB_CortexMiteBody.corePart.parts.8.parts.9.customLabel>
   <FB_CortexMiteBody.label>cortex mite</FB_CortexMiteBody.label>
   <FB_FerrimawBody.corePart.parts.10.customLabel>right secretion vent</FB_FerrimawBody.corePart.parts.10.customLabel>
   <FB_FerrimawBody.corePart.parts.11.parts.1.customLabel>left eye</FB_FerrimawBody.corePart.parts.11.parts.1.customLabel>

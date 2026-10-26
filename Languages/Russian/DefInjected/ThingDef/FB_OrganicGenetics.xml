@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_GenophageCocoon.label>генофаговый кокон</FB_GenophageCocoon.label>
-  <FB_GenophageCocoon.description>Генофаговый кокон извлекает у живого донора от одного до трёх случайных генов, которых ещё нет в геномном архиве, и сохраняет их там отдельными генами.</FB_GenophageCocoon.description>
+  <FB_GenophageCocoon.description>Извлекает у живого донора от одного до трёх случайных генов, которых ещё нет в геномном архиве, и сохраняет их там. После процедуры донор выходит из кокона; его генам требуется время на восстановление.</FB_GenophageCocoon.description>
   <FB_GenomeArchive.label>геномный архив</FB_GenomeArchive.label>
-  <FB_GenomeArchive.description>Живой банк генов: раскладывает извлечённые генопаки на отдельные гены и хранит каждый ген в одном экземпляре для просмотра и дальнейшей работы генного переплетателя.</FB_GenomeArchive.description>
+  <FB_GenomeArchive.description>Живой архив, разбирающий генопаки на отдельные гены. Хранит каждый ген в одном экземпляре для изучения и создания ксеногермов генным переплетателем.</FB_GenomeArchive.description>
   <FB_GeneReweaver.label>генный переплетатель</FB_GeneReweaver.label>
-  <FB_GeneReweaver.description>Генный переплетатель готовит внутренний плотяной ксеногерм из архивных генов, затем выращивает кокон для внедрения в пешку.</FB_GeneReweaver.description>
+  <FB_GeneReweaver.description>Создаёт ксеногерм из архивных генов, затем выращивает кокон для его внедрения в носителя.</FB_GeneReweaver.description>
   <FB_GenophageCocoonEmbryo.label>эмбрион генофагового кокона</FB_GenophageCocoonEmbryo.label>
   <FB_GenophageCocoonEmbryo.description>Незрелый генетический орган, который вырастет в генофаговый кокон.</FB_GenophageCocoonEmbryo.description>
   <FB_GenomeArchiveEmbryo.label>эмбрион геномного архива</FB_GenomeArchiveEmbryo.label>
@@ -13,7 +13,7 @@
   <FB_GeneReweaverEmbryo.label>эмбрион генного переплетателя</FB_GeneReweaverEmbryo.label>
   <FB_GeneReweaverEmbryo.description>Незрелый генный орган, который вырастет в генного переплетателя.</FB_GeneReweaverEmbryo.description>
   <FB_GestationOrganoid.label>гестационный органоид</FB_GestationOrganoid.label>
-  <FB_GestationOrganoid.description>Родильный орган, удерживающий живого донора в подвешенном состоянии: внутри мешка тот не стареет и не голодает. Тратя гемогель, органоид выращивает потомство того же вида, что и донор. Гуманоидный донор даёт младенцев, ксенотип которых собирается из архивных генопаков. Донор наружу не выходит: его резервы расходуются с каждыми родами, и по их исчерпании он погибает.</FB_GestationOrganoid.description>
+  <FB_GestationOrganoid.description>Выращивает потомство того же вида, что и живой донор, расходуя гемогель. Донор внутри не стареет и не голодает; ксенотип гуманоидного потомства можно составить из архивных генопаков.\n\nДонора нельзя вернуть. Каждые роды истощают его резервы, а после их исчерпания он погибает.</FB_GestationOrganoid.description>
   <FB_GestationOrganoidEmbryo.label>эмбрион гестационного органоида</FB_GestationOrganoidEmbryo.label>
   <FB_GestationOrganoidEmbryo.description>Незрелый родильный орган, который вырастет в гестационный органоид.</FB_GestationOrganoidEmbryo.description>
   <FB_Chromophage.label>хромофаг</FB_Chromophage.label>
@@ -22,5 +22,5 @@
   <FB_Chromophage.tools.tendril.label>усик</FB_Chromophage.tools.tendril.label>
   <FB_Chromophage.tools.head.label>голова</FB_Chromophage.tools.head.label>
   <FB_GeneReweaverCocoon.label>кокон генного переплетателя</FB_GeneReweaverCocoon.label>
-  <FB_GeneReweaverCocoon.description>Временный генетический кокон, выращенный генным переплетателем. Он удерживает пешку, пока подготовленный плотяной ксеногерм интегрируется в тело.</FB_GeneReweaverCocoon.description>
+  <FB_GeneReweaverCocoon.description>Временный кокон, удерживающий носителя во время внедрения ксеногерма, подготовленного генным переплетателем.</FB_GeneReweaverCocoon.description>
 </LanguageData>

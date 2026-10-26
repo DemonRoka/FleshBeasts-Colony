@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <FB_FleshTunnelDestination.description>A distant tile pierced by a rooted flesh tunnel.</FB_FleshTunnelDestination.description>
+  <FB_FleshTunnelDestination.description>A distant world tile reached by a rooted flesh tunnel.</FB_FleshTunnelDestination.description>
   <FB_FleshTunnelDestination.label>flesh tunnel</FB_FleshTunnelDestination.label>
   <FB_FleshTunnelMouth.label>flesh tunnel maw</FB_FleshTunnelMouth.label>
-  <FB_FleshTunnelMouth.description>The far end of a world tunnel grown by a tunnel nexus. Caravans standing here are pulled through to the nexus instantly, and flesh war parties use it as an instant shortcut.</FB_FleshTunnelMouth.description>
-  <FB_FleshMoonWorldObject.description>A living orbital mass tethered to the colony by the celestial umbilicus.</FB_FleshMoonWorldObject.description>
+  <FB_FleshTunnelMouth.description>The distant maw of a passage grown by a tunnel node. Carries caravans and war packs instantly to the other end.</FB_FleshTunnelMouth.description>
+  <FB_FleshMoonWorldObject.description>A living moon that can move above the planet and connect to the surface through a celestial umbilicus. Requires hemogel; prolonged starvation causes it to fall.</FB_FleshMoonWorldObject.description>
   <FB_FleshMoonWorldObject.label>flesh moon</FB_FleshMoonWorldObject.label>
   <FB_FleshMoonStartingSettlement.description>A hidden scenario handoff object used to let the flesh moon be generated as the player's first map.</FB_FleshMoonStartingSettlement.description>
   <FB_FleshMoonStartingSettlement.label>flesh moon</FB_FleshMoonStartingSettlement.label>

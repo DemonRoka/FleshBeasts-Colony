@@ -6,17 +6,17 @@
   
   <FB_Hemoghoul_InvalidTarget>Недопустимая цель для создания гемогуля.</FB_Hemoghoul_InvalidTarget>
   <FB_Hemoghoul_NotFresh>Труп должен быть свежим.</FB_Hemoghoul_NotFresh>
-  <FB_Hemoghoul_HumanlikeOnly>Целью должен быть мёртвый гуманоидный труп.</FB_Hemoghoul_HumanlikeOnly>
+  <FB_Hemoghoul_HumanlikeOnly>Целью должен быть человекоподобный труп.</FB_Hemoghoul_HumanlikeOnly>
   <FB_Hemoghoul_MutantCorpse>Труп мутанта нельзя поднять как гемогуля.</FB_Hemoghoul_MutantCorpse>
   <FB_Hemoghoul_BrainRequired>У трупа должен сохраниться мозг.</FB_Hemoghoul_BrainRequired>
   <FB_Hemoghoul_Decayed>{0} распался на пальцешипы: {1}.</FB_Hemoghoul_Decayed>
   <FB_Hemoghoul_NoFingerspike>Нет доступного пальцешипа для внедрения.</FB_Hemoghoul_NoFingerspike>
-  <FB_Hemoghoul_NotEnoughFingerspikes>Для создания этого гемогуля требуется {0} доступных пальцешипов; добраться могут только {1}.</FB_Hemoghoul_NotEnoughFingerspikes>
-  <FB_Hemoghoul_CannotStart>Не удалось начать внедрение гемогуля.</FB_Hemoghoul_CannotStart>
+  <FB_Hemoghoul_NotEnoughFingerspikes>Требуется пальцешипов: {0}. До трупа могут добраться: {1}.</FB_Hemoghoul_NotEnoughFingerspikes>
+  <FB_Hemoghoul_CannotStart>Не удалось начать создание гемогуля.</FB_Hemoghoul_CannotStart>
   <FB_Hemoghoul_Assigned>{0} пальцешипов направляются создать гемогуля из {1}.</FB_Hemoghoul_Assigned>
   <FB_Hemoghoul_Success>{0} поднят как гемогуль.</FB_Hemoghoul_Success>
   <FB_Hemoghoul_Failed>Не удалось поднять труп как гемогуля.</FB_Hemoghoul_Failed>
-  <FB_Hemoghoul_AlreadyAssigned>Внедрение гемогуля уже назначено.</FB_Hemoghoul_AlreadyAssigned>
+  <FB_Hemoghoul_AlreadyAssigned>Создание гемогуля уже назначено.</FB_Hemoghoul_AlreadyAssigned>
   <FB_Hemoghoul_TargetAlreadyAssigned>Этот труп уже назначен для операции плоти.</FB_Hemoghoul_TargetAlreadyAssigned>
   <FB_Hemoghoul_InspectAssigned>Цель создания гемогуля: {0} (внедрено пальцешипов: {1}/{2})</FB_Hemoghoul_InspectAssigned>
 </LanguageData>

@@ -3,8 +3,8 @@
 
   <FB_FleshmassNucleusAssimilator_CommandLabel>Поглотить ядро биомассы</FB_FleshmassNucleusAssimilator_CommandLabel>
   <FB_FleshmassNucleusAssimilator_CommandDesc>Выбрать ядро биомассы на плотяном грунте. Сердце колонии постепенно поглотит его на месте, навсегда увеличив пассивную выработку гемогеля.</FB_FleshmassNucleusAssimilator_CommandDesc>
-  <FB_FleshmassNucleusAssimilator_InvalidTarget>Выберите заспавненное ядро биомассы на этой карте.</FB_FleshmassNucleusAssimilator_InvalidTarget>
-  <FB_FleshmassNucleusAssimilator_MustBeOnFleshTerrain>Ядро биомассы должно находиться на плотяном террейне.</FB_FleshmassNucleusAssimilator_MustBeOnFleshTerrain>
+  <FB_FleshmassNucleusAssimilator_InvalidTarget>Выберите ядро биомассы, находящееся на этой карте.</FB_FleshmassNucleusAssimilator_InvalidTarget>
+  <FB_FleshmassNucleusAssimilator_MustBeOnFleshTerrain>Ядро биомассы должно находиться на плотяном покрове.</FB_FleshmassNucleusAssimilator_MustBeOnFleshTerrain>
   <FB_FleshmassNucleusAssimilator_NoHeart>Нет сердца колонии игрока, способного поглотить это ядро.</FB_FleshmassNucleusAssimilator_NoHeart>
   <FB_FleshmassNucleusAssimilator_TargetAlreadyAssigned>Это ядро биомассы уже назначено другому сердцу колонии.</FB_FleshmassNucleusAssimilator_TargetAlreadyAssigned>
   

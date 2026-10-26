@@ -4,7 +4,7 @@
   <FB_ColonyBrain_Structure_FleshHoldingPlatform_Desc>Удерживает захваченных сущностей сосудистыми путами. Сдерживает немного крепче стальной платформы и потребляет больше гемогеля, пока занята.</FB_ColonyBrain_Structure_FleshHoldingPlatform_Desc>
   <FB_FleshHoldingPlatformContainmentTitle>Сила удержания</FB_FleshHoldingPlatformContainmentTitle>
   <FB_FleshHoldingPlatformContainmentBarLabel>{0} / {1} | {2}/ч</FB_FleshHoldingPlatformContainmentBarLabel>
-  <FB_FleshHoldingPlatformContainmentTooltip>Настраивает силу удержания платформы от текущего минимума комнаты ({0}) до выбранной цели ({1}). Текущая эффективная сила: {2}. Текущее потребление гемогеля: {3}/ч.</FB_FleshHoldingPlatformContainmentTooltip>
+  <FB_FleshHoldingPlatformContainmentTooltip>Настраивает силу сдерживания платформы от минимума с учётом комнаты ({0}) до выбранной цели ({1}). Текущая эффективная сила: {2}. Текущее потребление гемогеля: {3}/ч.</FB_FleshHoldingPlatformContainmentTooltip>
   <FB_FleshHoldingPlatformCopySettingsLabel>Копировать настройки</FB_FleshHoldingPlatformCopySettingsLabel>
   <FB_FleshHoldingPlatformCopySettingsDesc>Копирует настройку ползунка силы удержания этой платформы. Гемогель не копируется.</FB_FleshHoldingPlatformCopySettingsDesc>
   <FB_FleshHoldingPlatformPasteSettingsLabel>Вставить настройки</FB_FleshHoldingPlatformPasteSettingsLabel>

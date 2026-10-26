@@ -7,8 +7,8 @@
   <FB_FleshbeastBillClearAll>Clear all</FB_FleshbeastBillClearAll>
   <FB_FleshbeastBillNoValidCombination>No valid combination of the currently allowed donors.</FB_FleshbeastBillNoValidCombination>
   <FB_FleshbeastBillOr>or</FB_FleshbeastBillOr>
-  <FB_FleshbeastBillRepeatHemogelAbove>Do if hemogel above {0}</FB_FleshbeastBillRepeatHemogelAbove>
-  <FB_FleshbeastBillRepeatHemogelAboveMenu>Do if hemogel above X</FB_FleshbeastBillRepeatHemogelAboveMenu>
+  <FB_FleshbeastBillRepeatHemogelAbove>Do if hemogel reserve above {0}</FB_FleshbeastBillRepeatHemogelAbove>
+  <FB_FleshbeastBillRepeatHemogelAboveMenu>Do if hemogel reserve above X</FB_FleshbeastBillRepeatHemogelAboveMenu>
   <FB_FleshbeastBillRepeatHemogelInfo>Network hemogel: {0} / threshold {1}</FB_FleshbeastBillRepeatHemogelInfo>
   <FB_FleshbeastBillRepeatSelfHealthAbove>Do if health above {0}%</FB_FleshbeastBillRepeatSelfHealthAbove>
   <FB_FleshbeastBillRepeatSelfHealthAboveMenu>Do if health above X%</FB_FleshbeastBillRepeatSelfHealthAboveMenu>

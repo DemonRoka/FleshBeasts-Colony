@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <FB_BecomeFleshHeart.description>Выберите подходящее место и пожертвуйте своей физической формой, чтобы превратиться там в Сердце плоти — пульсирующее ядро биомассы.</FB_BecomeFleshHeart.description>
-  <FB_BecomeFleshHeart.label>Стать сердцем плоти</FB_BecomeFleshHeart.label>
-  <FB_BodyPartTransfer.description>Перенесите одну совместимую недостающую часть тела из свежего человекоподобного трупа.</FB_BodyPartTransfer.description>
+  <FB_BecomeFleshHeart.description>Выберите подходящее место и пожертвуйте своей физической формой, чтобы превратиться там в сердце колонии — пульсирующее ядро биомассы.</FB_BecomeFleshHeart.description>
+  <FB_BecomeFleshHeart.label>Стать сердцем</FB_BecomeFleshHeart.label>
+  <FB_BodyPartTransfer.description>Восстанавливает одну утраченную часть тела, пересаживая совместимую часть из свежего человекоподобного трупа.</FB_BodyPartTransfer.description>
   <FB_BodyPartTransfer.label>перенос части тела</FB_BodyPartTransfer.label>
   <FB_CocoonFlesh.description>Закутывает выбранную пешку в живой кокон из биомассы. Пешка мутирует, получая ген плоти и один дар плоти из Anomaly, если есть свободная часть тела.</FB_CocoonFlesh.description>
   <FB_CocoonFlesh.label>Кокон плоти</FB_CocoonFlesh.label>
-  <FB_ConvertCorpseToParasiteEgg.description>Преобразует целевое тело в яйцо личностного паразита. Работает только после изучения соответствующей технологии; без неё тело взрывается.</FB_ConvertCorpseToParasiteEgg.description>
+  <FB_ConvertCorpseToParasiteEgg.description>После изучения соответствующей технологии превращает целевой труп в яйцо паразита личности. Без исследования труп разрывается, не оставляя яйца.</FB_ConvertCorpseToParasiteEgg.description>
   <FB_ConvertCorpseToParasiteEgg.label>превратить в яйцо паразита</FB_ConvertCorpseToParasiteEgg.label>
   <FB_GrowArmor.description>Вырастите временную хитиновую броню из собственной плоти. Эта органическая броня обеспечивает усиленную защиту от атак, но со временем разрушается и в конце концов рассыпается. Во время действия она может ухудшать подвижность и внешний вид.</FB_GrowArmor.description>
   <FB_GrowArmor.label>вырастить броню</FB_GrowArmor.label>
   <FB_ParasiteCall.description>Призывает всех созревших паразитов на текущей карте, заставляя их вырваться из живых носителей или трупов в виде союзных пальцешипов.</FB_ParasiteCall.description>
   <FB_ParasiteCall.label>зов паразитов</FB_ParasiteCall.label>
-  <FB_ParasiteImplant.description>Вживляет созревающего паразита в туловище цели, жертвуя одним пальцем носителя. Это считается враждебной атакой; созревший паразит позже вырывается наружу по зову или при смерти носителя.</FB_ParasiteImplant.description>
+  <FB_ParasiteImplant.description>Вживляет созревающего паразита в туловище цели, жертвуя одним собственным пальцем. Это считается враждебной атакой; созревший паразит позже вырывается наружу по зову или при смерти носителя.</FB_ParasiteImplant.description>
   <FB_ParasiteImplant.label>внедрить паразита</FB_ParasiteImplant.label>
   <FB_Scavenger.description>Превращает свежий труп в одно или несколько существ-ткачей плоти, вызывая небольшой эффект мясного взрыва.</FB_Scavenger.description>
   <FB_Scavenger.label>падальщик</FB_Scavenger.label>

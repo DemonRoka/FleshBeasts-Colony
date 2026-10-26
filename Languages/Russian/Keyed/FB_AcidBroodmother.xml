@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_AcidReservoir_BarLabel>Запас кислоты</FB_AcidReservoir_BarLabel>
-  <FB_AcidReservoir_BarTooltip>Запас желудочной кислоты: {0} / {1}.</FB_AcidReservoir_BarTooltip>
+  <FB_AcidReservoir_BarTooltip>Запас желудочного сока: {0} / {1}.</FB_AcidReservoir_BarTooltip>
   <FB_AcidReservoir_Inspect>Запас кислоты: {0} / {1}</FB_AcidReservoir_Inspect>
   <FB_AcidReservoir_DevFill>DEV: заполнить запас кислоты</FB_AcidReservoir_DevFill>
-  <FB_AcidBroodmother_GrowToggleLabel>Выращивать кислотных плевак</FB_AcidBroodmother_GrowToggleLabel>
-  <FB_AcidBroodmother_GrowToggleDesc>Когда выводок готов, мгновенно расходует по {0} кислоты, заполняя до {1} мест кислотных плевак. Восстановление выводка занимает {2} ч.</FB_AcidBroodmother_GrowToggleDesc>
+  <FB_AcidBroodmother_GrowToggleLabel>Растить выводок</FB_AcidBroodmother_GrowToggleLabel>
+  <FB_AcidBroodmother_GrowToggleDesc>Когда выводок готов, мгновенно выращивает кислотных плевак в пределах {1} доступных мест, расходуя по {0} кислоты на каждого. Новый выводок готовится {2} ч.</FB_AcidBroodmother_GrowToggleDesc>
   <FB_AcidBroodmother_Inspect>Кислотные плеваки: {0} / {1}. Автоматический рост: {2}.</FB_AcidBroodmother_Inspect>
-  <FB_AcidBroodmother_GrowthReady>Рост выводка: готов.</FB_AcidBroodmother_GrowthReady>
-  <FB_AcidBroodmother_GrowthCooldown>Рост выводка будет готов через: {0}.</FB_AcidBroodmother_GrowthCooldown>
+  <FB_AcidBroodmother_GrowthReady>Выводок готов.</FB_AcidBroodmother_GrowthReady>
+  <FB_AcidBroodmother_GrowthCooldown>Новый выводок через: {0}.</FB_AcidBroodmother_GrowthCooldown>
   <FB_AcidBroodmother_DevSpawnSpitling>DEV: вырастить кислотную плеваку</FB_AcidBroodmother_DevSpawnSpitling>
-  <FB_AcidSpitling_NoMother>Нет связанной кислотной правматки.</FB_AcidSpitling_NoMother>
-  <FB_AcidSpitling_MotherInspect>Связанная правматка: {0}</FB_AcidSpitling_MotherInspect>
+  <FB_AcidSpitling_NoMother>Нет связанной кислотной праматки.</FB_AcidSpitling_NoMother>
+  <FB_AcidSpitling_MotherInspect>Связанная праматка: {0}</FB_AcidSpitling_MotherInspect>
   <FB_AcidSpitling_NotEnoughAcid>Требуется кислота: {0}.</FB_AcidSpitling_NotEnoughAcid>
   <FB_AcidSpitling_RoofedCaster>Кислотная плевака не может плевать из-под крыши.</FB_AcidSpitling_RoofedCaster>
   <FB_AcidSpitling_RoofedTarget>Кислотная плевака не может плевать по цели под крышей.</FB_AcidSpitling_RoofedTarget>

@@ -8,7 +8,7 @@
 	<ThingDef ParentName="ResourceBase">
 		<defName>FB_HemogelCanister</defName>
 		<label>hemogel canister</label>
-		<description>A sealed drum of hemogel siphoned out of the colony. Pour it back into the network, or leave it in storage where the pumps cannot reach it.</description>
+		<description>A sealed drum of hemogel siphoned from the colony. Its contents can be returned to the network or stored separately, safe from further siphoning.</description>
 		<graphicData>
 			<!-- Graphic_Single, а не Graphic_StackCount: у заглушки одна текстура,
 			     а StackCount ищет папку с вариантами по количеству и валится на пути -->

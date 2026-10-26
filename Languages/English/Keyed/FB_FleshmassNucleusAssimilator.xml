@@ -3,8 +3,8 @@
 
   <FB_FleshmassNucleusAssimilator_CommandLabel>Assimilate fleshmass nucleus</FB_FleshmassNucleusAssimilator_CommandLabel>
   <FB_FleshmassNucleusAssimilator_CommandDesc>Select a fleshmass nucleus on flesh terrain. The colony heart will gradually absorb it in place, permanently increasing passive hemogel production.</FB_FleshmassNucleusAssimilator_CommandDesc>
-  <FB_FleshmassNucleusAssimilator_InvalidTarget>Select a spawned fleshmass nucleus on this map.</FB_FleshmassNucleusAssimilator_InvalidTarget>
-  <FB_FleshmassNucleusAssimilator_MustBeOnFleshTerrain>The fleshmass nucleus must be on flesh terrain.</FB_FleshmassNucleusAssimilator_MustBeOnFleshTerrain>
+  <FB_FleshmassNucleusAssimilator_InvalidTarget>Select a fleshmass nucleus on this map.</FB_FleshmassNucleusAssimilator_InvalidTarget>
+  <FB_FleshmassNucleusAssimilator_MustBeOnFleshTerrain>The fleshmass nucleus must be on flesh-covered ground.</FB_FleshmassNucleusAssimilator_MustBeOnFleshTerrain>
   <FB_FleshmassNucleusAssimilator_NoHeart>No player colony heart can assimilate this nucleus.</FB_FleshmassNucleusAssimilator_NoHeart>
   <FB_FleshmassNucleusAssimilator_TargetAlreadyAssigned>This fleshmass nucleus is already assigned to another colony heart.</FB_FleshmassNucleusAssimilator_TargetAlreadyAssigned>
   

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <FB_FleshTunnelCallAllHomeLabel>Позвать всех биошматов домой</FB_FleshTunnelCallAllHomeLabel>
+  <FB_FleshTunnelCallAllHomeLabel>Вернуть биошматов</FB_FleshTunnelCallAllHomeLabel>
   <FB_FleshTunnelCallAllHomeDesc>Приказать всем доступным биошматам на этой карте вернуться через туннель к исходной пасти.</FB_FleshTunnelCallAllHomeDesc>
   <FB_FleshTunnelNoFleshbeastsToReturn>На этой карте нет доступных биошматов, способных вернуться через туннель.</FB_FleshTunnelNoFleshbeastsToReturn>
   <FB_FleshTunnelCallAllHomeResult>Через туннель домой отправлено биошматов: {0}. Пропущено: {1}.</FB_FleshTunnelCallAllHomeResult>

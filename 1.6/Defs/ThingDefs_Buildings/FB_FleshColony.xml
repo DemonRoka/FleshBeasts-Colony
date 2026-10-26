@@ -4,7 +4,7 @@
   <ThingDef ParentName="CraterBase">
     <defName>FB_PitBurrow</defName>
     <label>flesh colony pit burrow</label>
-    <description>A small hole to a flesh colony undercave.</description>
+    <description>A small hole to a flesh colony underground cave.</description>
     <thingClass>FB.FB_PitBurrow</thingClass>
     <size>(3,3)</size>
     <tickerType>Normal</tickerType>

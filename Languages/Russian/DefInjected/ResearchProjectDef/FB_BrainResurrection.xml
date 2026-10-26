@@ -2,7 +2,7 @@
 <LanguageData>
   <FB_HemoghoulReanimation.label>оживление гемогулей</FB_HemoghoulReanimation.label>
   <FB_HemoghoulReanimation.customUnlockTexts.0>Мозг колонии: Создать гемогуля</FB_HemoghoulReanimation.customUnlockTexts.0>
-  <FB_HemoghoulReanimation.description>Обучает мозг колонии внедрять пальцешипа в человеческий труп и поднимать его как неутомимого рабочего гемогуля.</FB_HemoghoulReanimation.description>
+  <FB_HemoghoulReanimation.description>Обучает мозг колонии внедрять пальцешипов в человекоподобный труп и поднимать его как неутомимого рабочего гемогуля.</FB_HemoghoulReanimation.description>
   <FB_HemoghoulReanimation.generalRules.rulesStrings.0>subject-&gt;оживление гемогулей</FB_HemoghoulReanimation.generalRules.rulesStrings.0>
   <FB_HemoghoulReanimation.generalRules.rulesStrings.1>subject_story-&gt;подняли неутомимых рабочих внедрением пальцешипов</FB_HemoghoulReanimation.generalRules.rulesStrings.1>
   <FB_HemoghoulReanimation.generalRules.rulesStrings.2>subject_story-&gt;связали мёртвую плоть в рабочих, питающихся гемогелем</FB_HemoghoulReanimation.generalRules.rulesStrings.2>

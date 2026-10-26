@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 	<FB_HemogelPuddle.label>hemogel puddle</FB_HemogelPuddle.label>
-	<FB_HemogelPuddle.description>Hemogel liquid in a birth pool automatically restores missing natural parts, scars and injuries of compatible creatures standing inside, consuming hemogel directly from the network. It does not replace implants or cure diseases.</FB_HemogelPuddle.description>
+	<FB_HemogelPuddle.description>The pool's hemogel automatically regrows missing natural body parts, heals injuries, and removes scars from compatible creatures inside, consuming hemogel from the network. It does not replace implants or cure diseases.</FB_HemogelPuddle.description>
 </LanguageData>

@@ -4,7 +4,7 @@
   <MutantDef>
     <defName>FB_Hemoghoul</defName>
     <label>hemoghoul</label>
-    <description>A flesh-bound worker raised from a corpse by a fingerspike. It needs no sleep or comfort, feeding only from the colony heart. Colony flesh knits its wounds; when it dies, the body collapses into a handful of fingerspikes.</description>
+    <description>A flesh-bound worker raised from a corpse using fingerspikes. It needs no sleep or comfort, feeding only from the colony heart. Colony flesh knits its wounds; when it dies, the body collapses into a handful of fingerspikes.</description>
     <hediff>FB_Hemoghoul</hediff>
     <thinkTree>FB_Hemoghoul</thinkTree>
     <thinkTreeConstant>FB_HemoghoulConstant</thinkTreeConstant>

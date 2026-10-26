@@ -5,7 +5,7 @@
   <ThingDef ParentName="BuildingColonyFleshBase">
     <defName>FB_VoiceOrgan</defName>
     <label>voice organ</label>
-    <description>A grown vocal organ that mimics a human radio operator. A living carrier is seated inside its throat, suspended so it neither ages nor starves, and the organ speaks with that person's voice: traders and factions on the other end hear a colony of people. It answers only while a carrier is held, and its social skill decides how the haggling goes.</description>
+    <description>A communication organ that requires a living carrier. The carrier neither ages nor hungers inside, and their Social skill affects trade terms. The organ speaks in their voice, passing the flesh colony off as a human settlement.</description>
     <researchPrerequisites>
       <li>FB_HumanMimicry</li>
     </researchPrerequisites>
@@ -56,7 +56,7 @@
   <ThingDef ParentName="EmbryoStructureBase">
     <defName>FB_VoiceOrganEmbryo</defName>
     <label>voice organ embryo</label>
-    <description>An immature vocal organ that will grow into a voice organ.</description>
+    <description>An immature communication organ that will grow into a voice organ.</description>
     <size>(3,3)</size>
     <comps>
       <li Class="FB.CompProperties_EmbryoGrowth">
@@ -78,7 +78,7 @@
   <ThingDef ParentName="BuildingColonyFleshBase">
     <defName>FB_FleshTradeBeacon</defName>
     <label>flesh trade beacon</label>
-    <description>A pulsing marker of flesh that tells the voice organ which goods lie ready for sale. Anything stacked within its reach can be traded away to orbital ships.</description>
+    <description>A flesh beacon that lets the voice organ offer nearby goods to orbital traders. Available trades depend on the trader.</description>
     <researchPrerequisites>
       <li>FB_HumanMimicry</li>
     </researchPrerequisites>

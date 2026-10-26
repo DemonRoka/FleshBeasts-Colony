@@ -1,23 +1,12 @@
 ﻿<ModMetaData>
   <name>Fleshbeast Colony</name>
-  <description>Погрузись в органический кошмар, который поселяется прямо внутри твоей колонии.
+  <description>Развивайте колонию как единый живой организм. Выращивайте органы и биошматов, перерабатывайте органику в гемогель, изменяйте тела и сохраняйте гены. Распространяйте плоть по планете, связывайте аванпосты общей сетью и создавайте луну плоти с собственной внутренней колонией.
 
-Этот мод расширяет и развивает тему биошматов (fleshbeasts), добавленную в DLC RimWorld: Anomaly — делая её глубже, масштабнее и ближе к самой колонии.
+Мод развивает биошматов из RimWorld: Anomaly, добавляя живые постройки, существ и технологии органической колонии.
 
-Вместо привычной инфраструктуры ты получаешь сеть живых построек-органов: они растут, встраиваются в базу и превращают поселение в единую биоструктуру. Сердце этой системы — гемогель: основной ресурс, который питает органическую колонию и поддерживает её «жизнь».
+Grow your colony into a single living organism. Cultivate organs and fleshbeasts, digest organic matter into hemogel, reshape bodies, and preserve genes. Spread flesh across the planet, connect outposts through a shared network, and create a flesh moon with a colony inside it.
 
-Выбор за тобой: сдержать распространение или позволить ему укорениться — и наблюдать, как колония шаг за шагом становится чем-то новым.
-
----------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-Immerse yourself in an organic nightmare that settles right inside your colony.
-
-This mod expands and develops the fleshbeasts theme added in the RimWorld: Anomaly DLC, making it deeper, larger in scale, and closer to the colony itself.
-
-Instead of the usual infrastructure, you get a network of living organ-like structures: they grow, integrate into the base, and transform the settlement into a single biostructure. At the heart of this system is hemogel: the primary resource that nourishes the organic colony and sustains its “life.”
-
-The choice is yours: contain the spread or allow it to take root — and watch as the colony gradually transforms into something new.</description>
+This mod expands the fleshbeasts from RimWorld: Anomaly with living structures, creatures, and technologies for an organic colony.</description>
   <author>DemobRoka</author>
   <packageId>FB.DemobRoka</packageId>
   <supportedVersions>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <FB_HeartHemogelFeedingToggleLabel>Разрешить гемогелевое кормление</FB_HeartHemogelFeedingToggleLabel>
+  <FB_HeartHemogelFeedingToggleLabel>Кормить гемогелем</FB_HeartHemogelFeedingToggleLabel>
   <FB_HeartHemogelFeedingToggleDesc>Позволяет пешкам, принятым колонией плоти, питаться напрямую из запаса гемогеля этого сердца.</FB_HeartHemogelFeedingToggleDesc>
   <FB_HeartHemogelFeedingInspectEnabled>Кормление принятых пешек: разрешено</FB_HeartHemogelFeedingInspectEnabled>
   <FB_HeartHemogelFeedingInspectDisabled>Кормление принятых пешек: запрещено</FB_HeartHemogelFeedingInspectDisabled>
@@ -15,6 +15,6 @@
   <FB_ManualFeedingBlocked>Гемогелевое кормление этого сердца отключено.</FB_ManualFeedingBlocked>
   <FB_ManualFeedingForbidden>Эта постройка запрещена.</FB_ManualFeedingForbidden>
   <FB_ManualFeedingNoHemogel>Недостаточно доступного гемогеля.</FB_ManualFeedingNoHemogel>
-  <FB_ManualFeedingNoPath>Нет достижимой клетки взаимодействия.</FB_ManualFeedingNoPath>
+  <FB_ManualFeedingNoPath>К постройке нельзя подойти.</FB_ManualFeedingNoPath>
   <FB_ManualFeedingHandsFull>Пешка не может нести ещё одну порцию.</FB_ManualFeedingHandsFull>
 </LanguageData>

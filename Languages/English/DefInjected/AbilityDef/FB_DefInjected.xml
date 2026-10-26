@@ -1,20 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <FB_BecomeFleshHeart.description>Select a valid site and sacrifice your physical form to transform there into the Flesh Heart — a pulsating biomass core that begins the expansion.</FB_BecomeFleshHeart.description>
-  <FB_BecomeFleshHeart.label>Become the Flesh Heart</FB_BecomeFleshHeart.label>
-  <FB_BodyPartTransfer.description>Transfer one compatible missing body part from a fresh humanlike corpse.</FB_BodyPartTransfer.description>
+  <FB_BecomeFleshHeart.description>Select a valid site and sacrifice your physical form to transform there into the colony heart — a pulsating biomass core that begins the expansion.</FB_BecomeFleshHeart.description>
+  <FB_BecomeFleshHeart.label>Become a heart</FB_BecomeFleshHeart.label>
+  <FB_BodyPartTransfer.description>Restores one missing body part by transplanting a compatible part from a fresh humanlike corpse.</FB_BodyPartTransfer.description>
   <FB_BodyPartTransfer.label>body part transfer</FB_BodyPartTransfer.label>
   <FB_CocoonFlesh.description>Encases the selected pawn in a living biomass cocoon. The pawn mutates with a flesh-aligned gene and one Anomaly flesh gift, if an unused body slot is available.</FB_CocoonFlesh.description>
   <FB_CocoonFlesh.label>Cocoon of Flesh</FB_CocoonFlesh.label>
-  <FB_ConvertCorpseToParasiteEgg.description>Transform the target body into the egg of a personal parasite. Works exclusively when studying the relevant technology; without it, it explodes the body.</FB_ConvertCorpseToParasiteEgg.description>
+  <FB_ConvertCorpseToParasiteEgg.description>After the required research is completed, turns the target corpse into a personality parasite egg. Without the research, the corpse ruptures without producing an egg.</FB_ConvertCorpseToParasiteEgg.description>
   <FB_ConvertCorpseToParasiteEgg.label>convert to parasite egg</FB_ConvertCorpseToParasiteEgg.label>
   <FB_GrowArmor.description>Grow a temporary chitinous armor from your own flesh. This organic plating provides enhanced protection against attacks but deteriorates over time, eventually crumbling away. It may impair mobility and appearance while active.</FB_GrowArmor.description>
   <FB_GrowArmor.label>grow armor</FB_GrowArmor.label>
   <FB_ParasiteCall.description>Calls all mature parasites on the current map to burst from living hosts or corpses as allied fingerspikes.</FB_ParasiteCall.description>
   <FB_ParasiteCall.label>parasite call</FB_ParasiteCall.label>
-  <FB_ParasiteImplant.description>Implants a maturing parasite into the target's torso by sacrificing one of the carrier's fingers. This is a hostile attack; mature parasites can later burst out when called or when the host dies.</FB_ParasiteImplant.description>
+  <FB_ParasiteImplant.description>Implants a maturing parasite into the target's torso by sacrificing one of the caster's own fingers. This is a hostile attack; mature parasites can later burst out when called or when the host dies.</FB_ParasiteImplant.description>
   <FB_ParasiteImplant.label>implant parasite</FB_ParasiteImplant.label>
-  <FB_Scavenger.description>Transforms a fresh corpse into one or more DenseWeaver creatures, triggering a small meat explosion effect.</FB_Scavenger.description>
+  <FB_Scavenger.description>Transforms a fresh corpse into one or more denseweaver creatures, triggering a small meat explosion effect.</FB_Scavenger.description>
   <FB_Scavenger.label>scavenger</FB_Scavenger.label>
   <FB_FleshDivision.description>Tear the caster in two in a short, bloody rite. Alone, a pawn struggles to rip its own flesh apart; two other colonists pulling at the halves make success far more likely, while a failed rite births a loyal fingerspike instead of a second body. Whatever the outcome, only half of the age and skill experience remains, worn apparel falls away and the flesh stays unstable for a while.</FB_FleshDivision.description>
   <FB_FleshDivision.label>flesh division</FB_FleshDivision.label>

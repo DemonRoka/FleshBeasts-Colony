@@ -4,7 +4,7 @@
   <ThingDef ParentName="PlantBase">
     <defName>FB_FleshProtuberances</defName>
     <label>flesh protuberances</label>
-    <description>Small fleshy protrusions that grow from living colony tissue. They can be harvested as a modest source of organic nutrition.</description>
+    <description>Dense fleshy growths that spread across living colony tissue. They form thick clumps and provide a modest source of nutrition.</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
       <Flammability>1.3</Flammability>
@@ -47,7 +47,7 @@
   <ThingDef ParentName="PlantBase">
     <defName>FB_FleshBaitSprout</defName>
     <label>flesh bait sprout</label>
-    <description>A short-lived lure sprout grown inside a flesh bait pod. Its tissue mimics green matter and fresh meat well enough to draw hungry wild animals.</description>
+    <description>An edible sprout grown by a snaring lure. Lures hungry wild animals within reach of its grasping tendrils.</description>
     <selectable>false</selectable>
     <statBases>
       <MaxHitPoints>35</MaxHitPoints>
@@ -182,8 +182,8 @@
   <!-- Растение: Bud Flesh Blade (BudFlesh_FleshBlade) -->
   <ThingDef ParentName="BudFlesh_WeaponPlantBase">
     <defName>BudFlesh_FleshBlade</defName>
-    <label>Bud Flesh Blade</label>
-    <description>A flesh-plant grown from a blade seed. Once mature, it can be harvested into a symbiotic Flesh Blade.</description>
+    <label>flesh blade bud</label>
+    <description>A flesh plant grown from a blade seed. When mature, it yields a living weapon: a flesh blade.</description>
     <graphicData>
       <texPath>Things/Plant/BudFlesh_FleshBlade</texPath>
       <graphicClass>Graphic_Random</graphicClass>
@@ -225,8 +225,8 @@
   <!-- Растение: Crimson Bulb (BudFlesh_CrimsonBulb) -->
   <ThingDef ParentName="BudFlesh_WeaponPlantBase">
     <defName>BudFlesh_CrimsonBulb</defName>
-    <label>Crimson Bulb</label>
-    <description>A flesh-plant grown from a crimson fang seed. Once mature, it can be harvested into a Crimson Fang.</description>
+    <label>crimson bulb</label>
+    <description>A flesh plant grown from a crimson fang seed. When mature, it yields a living weapon: a crimson fang.</description>
     <graphicData>
       <texPath>Things/Plant/BudFlesh_CrimsonBulb</texPath>
       <graphicClass>Graphic_Random</graphicClass>
@@ -268,8 +268,8 @@
   <!-- Растение: Ferrite Fangroot (BudFlesh_FerriteFangroot) -->
   <ThingDef ParentName="BudFlesh_WeaponPlantBase">
     <defName>BudFlesh_FerriteFangroot</defName>
-    <label>Ferrite Fangroot</label>
-    <description>A flesh-metal plant grown from a ferrite seed. Once mature, it can be harvested into a Ferrite Sting.</description>
+    <label>ferrite fangroot</label>
+    <description>A flesh-metal plant grown from a ferrite seed. When mature, it yields a living weapon: a ferrite sting.</description>
     <graphicData>
       <texPath>Things/Plant/BudFlesh_FerriteFangroot</texPath>
       <graphicClass>Graphic_Random</graphicClass>

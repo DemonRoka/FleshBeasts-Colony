@@ -3,8 +3,8 @@
   <!-- Постройка: Colony Brain (FB_ColonyBrain) -->
   <ThingDef ParentName="BuildingColonyFleshBaseAnimation">
     <defName>FB_ColonyBrain</defName>
-    <label>Colony Brain</label>
-    <description>The neural command hub of a fleshmass colony. This twitching, bioelectric organ processes stimuli from across the colony’s living structures, issuing signals through fleshy tendrils and hemogel pulses. It grows in complexity with the colony itself, embodying its will and instinct.</description>
+    <label>colony Brain</label>
+    <description>The colony's neural command organ. It unlocks the Flesh Architect construction tab, stores hemogel, and directs fleshbeast groups.</description>
     <size>(3,3)</size>
     <preventSkyfallersLandingOn>true</preventSkyfallersLandingOn>
     <altitudeLayer>Building</altitudeLayer>

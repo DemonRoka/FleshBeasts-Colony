@@ -4,7 +4,7 @@
 	<BiomeDef>
 		<defName>FB_FleshMoonBiome</defName>
 		<label>flesh moon</label>
-		<description>A budded orbital mass formed from an entire flesh colony.</description>
+		<description>The living interior of a flesh moon drifting above the planet.</description>
 		<workerClass>RimWorld.BiomeWorker_TemperateForest</workerClass>
 		<generatesNaturally>false</generatesNaturally>
 		<canBuildBase>false</canBuildBase>
@@ -27,7 +27,7 @@
 	<BiomeDef>
 		<defName>FB_CrashedFleshMoonBiome</defName>
 		<label>fallen flesh moon</label>
-		<description>A ruptured impact biome left where the starving flesh moon fell back to the planet.</description>
+		<description>Terrain devastated by the impact of a starving flesh moon.</description>
 		<workerClass>RimWorld.BiomeWorker_TemperateForest</workerClass>
 		<generatesNaturally>false</generatesNaturally>
 		<canBuildBase>true</canBuildBase>
@@ -54,7 +54,7 @@
 	<PlanetLayerDef>
 		<defName>FB_FleshMoon</defName>
 		<label>flesh moon</label>
-		<description>A small living moon budded from the flesh colony.</description>
+		<description>A living moon that can move above the planet and connect to the surface through a celestial umbilicus. Requires hemogel; prolonged starvation causes it to fall.</description>
 		<viewGizmoTexPath>UI/Commands/ViewPlanet</viewGizmoTexPath>
 		<viewGizmoOnlyVisibleWithDirectConnection>false</viewGizmoOnlyVisibleWithDirectConnection>
 		<canFormCaravans>false</canFormCaravans>

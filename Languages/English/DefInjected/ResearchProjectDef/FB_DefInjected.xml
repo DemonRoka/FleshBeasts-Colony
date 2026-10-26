@@ -6,13 +6,13 @@
   <DefenderIncubatorResearch.generalRules.rulesStrings.2>subject_story-&gt;birthed organic defenders</DefenderIncubatorResearch.generalRules.rulesStrings.2>
   <DefenderIncubatorResearch.generalRules.rulesStrings.3>subject_gerund-&gt;incubating flesh defenders</DefenderIncubatorResearch.generalRules.rulesStrings.3>
   <DefenderIncubatorResearch.label>defender incubator</DefenderIncubatorResearch.label>
-  <FB_BroodMotherResearch.description>Unlock the Symbiosis Brood Womb, an advanced brood organ that uses hemogel, biomass, and stored skill essence to grow basic combat beasts and simple worker strains on demand.</FB_BroodMotherResearch.description>
+  <FB_BroodMotherResearch.description>Unlock the symbiotic womb, an advanced brood organ that uses hemogel, biomass, and stored skill essence to grow basic combat beasts and simple worker strains on demand.</FB_BroodMotherResearch.description>
   <FB_BroodMotherResearch.generalRules.rulesStrings.0>subject-&gt;fleshmass brood incubation</FB_BroodMotherResearch.generalRules.rulesStrings.0>
   <FB_BroodMotherResearch.generalRules.rulesStrings.1>subject_story-&gt;refined defender gestation into controlled fleshbeast breeding</FB_BroodMotherResearch.generalRules.rulesStrings.1>
   <FB_BroodMotherResearch.generalRules.rulesStrings.2>subject_story-&gt;engineered a living womb for colony-grown monstrosities</FB_BroodMotherResearch.generalRules.rulesStrings.2>
   <FB_BroodMotherResearch.generalRules.rulesStrings.3>subject_gerund-&gt;breeding fleshbeasts</FB_BroodMotherResearch.generalRules.rulesStrings.3>
-  <FB_BroodMotherResearch.label>brood mother</FB_BroodMotherResearch.label>
-  <FB_AdaptiveHarvesters.description>Unlock sinewcallers, scrapmeld seeds, and graftmaws: specialized fleshbeasts that draw in prey, repurpose mechanized remains, and graft useful tissue from bodies.</FB_AdaptiveHarvesters.description>
+  <FB_BroodMotherResearch.label>symbiotic womb</FB_BroodMotherResearch.label>
+  <FB_AdaptiveHarvesters.description>Unlock sinewcallers, scrapmeld seeds, and graftmaws: specialized fleshbeasts that draw in prey, repurpose mechanoid remains, and graft useful tissue from bodies.</FB_AdaptiveHarvesters.description>
   <FB_AdaptiveHarvesters.generalRules.rulesStrings.0>subject-&gt;adaptive fleshbeast harvesters</FB_AdaptiveHarvesters.generalRules.rulesStrings.0>
   <FB_AdaptiveHarvesters.generalRules.rulesStrings.1>subject_story-&gt;grew predatory organs into specialized harvesters</FB_AdaptiveHarvesters.generalRules.rulesStrings.1>
   <FB_AdaptiveHarvesters.generalRules.rulesStrings.2>subject_story-&gt;taught colony beasts to gather bodies, beasts, and machine remains</FB_AdaptiveHarvesters.generalRules.rulesStrings.2>
@@ -104,7 +104,7 @@
   <SpitterResearch.generalRules.rulesStrings.1>subject_story-&gt;engineered toxin-projecting defenses</SpitterResearch.generalRules.rulesStrings.1>
   <SpitterResearch.generalRules.rulesStrings.2>subject_story-&gt;cultivated acid-projecting biomass</SpitterResearch.generalRules.rulesStrings.2>
   <SpitterResearch.generalRules.rulesStrings.3>subject_gerund-&gt;growing acid spitters</SpitterResearch.generalRules.rulesStrings.3>
-  <SpitterResearch.label>spitter gland</SpitterResearch.label>
+  <SpitterResearch.label>flesh spitter</SpitterResearch.label>
   <TentacleTurretResearch.description>Unlocks the tentacle turret, a stationary fleshbeast defense that launches keratin spines at distant intruders and lashes nearby enemies with heavy tentacles.</TentacleTurretResearch.description>
   <TentacleTurretResearch.generalRules.rulesStrings.0>subject-&gt;fleshmass turret growth</TentacleTurretResearch.generalRules.rulesStrings.0>
   <TentacleTurretResearch.generalRules.rulesStrings.1>subject_story-&gt;cultivated defensive organic structures</TentacleTurretResearch.generalRules.rulesStrings.1>
@@ -118,11 +118,11 @@
   <FB_CaptureNerveLattice.generalRules.rulesStrings.3>subject_gerund-&gt;refining grasping tendril targeting</FB_CaptureNerveLattice.generalRules.rulesStrings.3>
   <FB_CaptureNerveLattice.label>capture nerve lattice</FB_CaptureNerveLattice.label>  <FB_GeoferriteGlands.description>Unlock geyser-rooted organs that refine hemogel into bioferrite.</FB_GeoferriteGlands.description>
   <FB_CaptureNerveLattice.customUnlockTexts.0>Colony Heart and capture nerve nodes: "Grasping" tab — choose prey by species and faction</FB_CaptureNerveLattice.customUnlockTexts.0>
-  <FB_GeoferriteGlands.generalRules.rulesStrings.0>subject-&gt;geoferrite glands</FB_GeoferriteGlands.generalRules.rulesStrings.0>
+  <FB_GeoferriteGlands.generalRules.rulesStrings.0>subject-&gt;geothermal glands</FB_GeoferriteGlands.generalRules.rulesStrings.0>
   <FB_GeoferriteGlands.generalRules.rulesStrings.1>subject_story-&gt;rooted flesh organs into steam geysers</FB_GeoferriteGlands.generalRules.rulesStrings.1>
   <FB_GeoferriteGlands.generalRules.rulesStrings.2>subject_story-&gt;refined hemogel into bioferrite under geothermal pressure</FB_GeoferriteGlands.generalRules.rulesStrings.2>
-  <FB_GeoferriteGlands.generalRules.rulesStrings.3>subject_gerund-&gt;growing geoferrite glands</FB_GeoferriteGlands.generalRules.rulesStrings.3>
-  <FB_GeoferriteGlands.label>geoferrite glands</FB_GeoferriteGlands.label>
+  <FB_GeoferriteGlands.generalRules.rulesStrings.3>subject_gerund-&gt;growing geothermal glands</FB_GeoferriteGlands.generalRules.rulesStrings.3>
+  <FB_GeoferriteGlands.label>geothermal glands</FB_GeoferriteGlands.label>
   <FB_FingerspikeImplantation.label>fingerspike implantation</FB_FingerspikeImplantation.label>
   <FB_FingerspikeImplantation.customUnlockTexts.0>Colony Brain: Force flesh acceptance</FB_FingerspikeImplantation.customUnlockTexts.0>
   <FB_FingerspikeImplantation.description>Teach the colony to implant fingerspikes into living bodies, forcibly accepting new members into the flesh colony.</FB_FingerspikeImplantation.description>
@@ -131,7 +131,7 @@
   <FB_FingerspikeImplantation.generalRules.rulesStrings.2>subject_story-&gt;adapted fingerspikes for controlled implantation</FB_FingerspikeImplantation.generalRules.rulesStrings.2>
   <FB_FingerspikeImplantation.generalRules.rulesStrings.3>subject_gerund-&gt;implanting fingerspikes</FB_FingerspikeImplantation.generalRules.rulesStrings.3>
   <FB_FleshThrallReanimation.label>flesh thrall reanimation</FB_FleshThrallReanimation.label>
-  <FB_FleshThrallReanimation.customUnlockTexts.0>Colony Brain: Create flesh thrall, Restore thrall</FB_FleshThrallReanimation.customUnlockTexts.0>
+  <FB_FleshThrallReanimation.customUnlockTexts.0>Colony brain: Create thrall, Restore thrall</FB_FleshThrallReanimation.customUnlockTexts.0>
   <FB_FleshThrallReanimation.description>Teach the colony brain to rebuild a body around fingerspikes and raise it as a controllable flesh thrall.</FB_FleshThrallReanimation.description>
   <FB_FleshThrallReanimation.generalRules.rulesStrings.0>subject-&gt;flesh thrall reanimation</FB_FleshThrallReanimation.generalRules.rulesStrings.0>
   <FB_FleshThrallReanimation.generalRules.rulesStrings.1>subject_story-&gt;raised obedient servants through unstable flesh</FB_FleshThrallReanimation.generalRules.rulesStrings.1>

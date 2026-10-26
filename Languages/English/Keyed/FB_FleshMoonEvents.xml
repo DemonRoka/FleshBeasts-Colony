@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <FB_FleshMoonRecruitEmerged_Label>Born of the moon: {PAWN_nameDef}</FB_FleshMoonRecruitEmerged_Label>
+  <FB_FleshMoonRecruitEmerged_Text>The flesh of the moon has answered the ritual. A body swelled up out of the living ground, split open, and {PAWN_nameDef} crawled out of it, ready to join the colony.\n\nThe new shell still needs time to settle.</FB_FleshMoonRecruitEmerged_Text>
+  <FB_FleshMoon_NoTraderCaravans>Trade caravans cannot reach the flesh moon.</FB_FleshMoon_NoTraderCaravans>
+  <FB_FleshMoon_NoInsectJelly>Insects cannot tunnel through the flesh moon.</FB_FleshMoon_NoInsectJelly>
+
+</LanguageData>

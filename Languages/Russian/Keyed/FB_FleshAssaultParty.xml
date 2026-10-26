@@ -13,7 +13,7 @@
 До автоматического боя: {1}</FB_FleshAssaultInspectAwaitingOrder>
   <FB_FleshAssaultBattleStarted>Стая высадилась у «{0}»: на карте {1} тварей. Карта удерживается, пока вы не отведёте отряд: выберите поселение на глобусе и нажмите «Отвести стаю».</FB_FleshAssaultBattleStarted>
   <FB_FleshAssaultWithdrawLabel>Отвести стаю</FB_FleshAssaultWithdrawLabel>
-  <FB_FleshAssaultWithdrawDesc>Собрать караван возврата: отметить, какие твари уходят и что они утащат. После подтверждения карта свернётся, а стая понесёт добычу в родной аванпост.</FB_FleshAssaultWithdrawDesc>
+  <FB_FleshAssaultWithdrawDesc>Собрать караван: выбрать уходящих биошматов и добычу. После подтверждения стая отправится в родной аванпост, а поле боя станет недоступно.</FB_FleshAssaultWithdrawDesc>
   <FB_FleshAssaultWithdrawDone>Стая отошла: вернулось тварей - {0}, добычи доставлено стаков - {1}.</FB_FleshAssaultWithdrawDone>
   <FB_FleshAssaultCaravanTitle>Караван возврата</FB_FleshAssaultCaravanTitle>
   <FB_FleshAssaultCaravanBeastsTab>Твари</FB_FleshAssaultCaravanBeastsTab>
@@ -21,15 +21,15 @@
   <FB_FleshAssaultCaravanCountTip>Сколько унести с поля боя.</FB_FleshAssaultCaravanCountTip>
   <FB_FleshAssaultCaravanMass>Груз: {0} / {1} кг</FB_FleshAssaultCaravanMass>
   <FB_FleshAssaultCaravanMassTip>Каждая тварь тащит {0} кг на единицу размера тела. Оглушённые и раненные до потери сознания твари не несут ничего.</FB_FleshAssaultCaravanMassTip>
-  <FB_FleshAssaultCaravanCollapseWarning>Карта боя схлопнется сразу после отправки каравана: всё, что не заберёте, будет потеряно.</FB_FleshAssaultCaravanCollapseWarning>
+  <FB_FleshAssaultCaravanCollapseWarning>После отправки каравана поле боя станет недоступно. Все оставленные существа и предметы будут потеряны.</FB_FleshAssaultCaravanCollapseWarning>
   <FB_FleshAssaultCaravanConfirm>Уйти караваном</FB_FleshAssaultCaravanConfirm>
   <FB_FleshAssaultCaravanOverloaded>Стая столько не утащит: {0} кг при вместимости {1} кг.</FB_FleshAssaultCaravanOverloaded>
-  <FB_FleshAssaultCaravanAbandonConfirm>Оставленные твари схлопнутся вместе с картой и будут потеряны. Бросить на поле боя тварей: {0}?</FB_FleshAssaultCaravanAbandonConfirm>
-  <FB_FleshAssaultCaravanSent>Караван вышел: тварей - {0}, стаков груза - {1}. Он идёт к аванпосту по глобусу.</FB_FleshAssaultCaravanSent>
-  <FB_FleshAssaultCaravanArrived>Караван дошёл до аванпоста: тварей - {0}, добычи на складе - {1} стаков.</FB_FleshAssaultCaravanArrived>
+  <FB_FleshAssaultCaravanAbandonConfirm>После ухода локация станет недоступна, а оставленные биошматы будут потеряны. Оставить на поле боя: {0}?</FB_FleshAssaultCaravanAbandonConfirm>
+  <FB_FleshAssaultCaravanSent>Караван отправился к аванпосту. Биошматы: {0}. Стопки груза: {1}.</FB_FleshAssaultCaravanSent>
+  <FB_FleshAssaultCaravanArrived>Караван дошёл до аванпоста. Прибывшие биошматы: {0}. Стопки добычи на складе: {1}.</FB_FleshAssaultCaravanArrived>
   <FB_FleshAssaultCaravanNoOutpost>Родного аванпоста больше нет: стая и добыча потеряны.</FB_FleshAssaultCaravanNoOutpost>
   <FB_FleshAssaultCaravanAbandoned>Брошено на поле боя тварей: {0}.</FB_FleshAssaultCaravanAbandoned>
-  <FB_FleshAssaultCaravanCargoHeader>Груз: {0} стаков, {1} / {2} кг</FB_FleshAssaultCaravanCargoHeader>
+  <FB_FleshAssaultCaravanCargoHeader>Стопки груза: {0}; вес: {1} / {2} кг</FB_FleshAssaultCaravanCargoHeader>
   <FB_FleshAssaultCaravanDropTip>Выбросить в пути</FB_FleshAssaultCaravanDropTip>
   <FB_FleshAssaultCaravanDropConfirm>Выбросить «{0}» по дороге? Груз будет потерян.</FB_FleshAssaultCaravanDropConfirm>
   <FB_FleshAssaultCaravanDropSelected>Выбросить ({0})</FB_FleshAssaultCaravanDropSelected>
@@ -61,5 +61,5 @@
   <FB_FleshAssaultHaltLabel>Стоять</FB_FleshAssaultHaltLabel>
   <FB_FleshAssaultHaltDesc>Остановить стаю на месте до нового приказа, чтобы она не шла впустую. Смена цели и приказ вернуться снимают остановку.</FB_FleshAssaultHaltDesc>
   <FB_FleshAssaultHaltAwaitingBattle>Стая уже у цели и ждёт решения о бое.</FB_FleshAssaultHaltAwaitingBattle>
-  <FB_FleshAssaultCargoDropped>Груз стаи сложен у края карты: {0} стаков.</FB_FleshAssaultCargoDropped>
+  <FB_FleshAssaultCargoDropped>Груз стаи оставлен у края карты. Стопки: {0}.</FB_FleshAssaultCargoDropped>
 </LanguageData>

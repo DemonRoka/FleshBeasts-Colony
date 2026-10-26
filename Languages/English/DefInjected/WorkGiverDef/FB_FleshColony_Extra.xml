@@ -4,4 +4,12 @@
   <FB_CarryToGestationOrganoid.label>carry to gestation organoid</FB_CarryToGestationOrganoid.label>
   <FB_CarryToGenophageCocoon.label>carry to genophage cocoon</FB_CarryToGenophageCocoon.label>
   <FB_HaulDigestibleFoodToStomach.label>carry digestible food to colony stomach</FB_HaulDigestibleFoodToStomach.label>
+	<FB_CarryToGenophageCocoon.gerund>carrying a donor to</FB_CarryToGenophageCocoon.gerund>
+	<FB_CarryToGenophageCocoon.verb>carry a donor to</FB_CarryToGenophageCocoon.verb>
+	<FB_CarryToGestationOrganoid.gerund>carrying a donor to</FB_CarryToGestationOrganoid.gerund>
+	<FB_CarryToGestationOrganoid.verb>carry a donor to</FB_CarryToGestationOrganoid.verb>
+	<FB_CarryToVoiceOrgan.gerund>seating a carrier in</FB_CarryToVoiceOrgan.gerund>
+	<FB_CarryToVoiceOrgan.verb>seat a carrier in</FB_CarryToVoiceOrgan.verb>
+	<FB_HaulDigestibleFoodToStomach.gerund>feeding the colony stomach with</FB_HaulDigestibleFoodToStomach.gerund>
+	<FB_HaulDigestibleFoodToStomach.verb>feed the colony stomach with</FB_HaulDigestibleFoodToStomach.verb>
 </LanguageData>

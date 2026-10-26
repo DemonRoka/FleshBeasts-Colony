@@ -3,13 +3,13 @@
   <Make_OrganicComponent.description>Создать органический компонент из сырого мяса и кожи для живых построек, симбиотического снаряжения и выращенного оружия.</Make_OrganicComponent.description>
   <Make_OrganicComponent.jobString>Сборка органического компонента.</Make_OrganicComponent.jobString>
   <Make_OrganicComponent.label>сделать органический компонент</Make_OrganicComponent.label>
-  <MakeBudFlesh_CrimsonFangSeed.description>Создать семя багрового клыка из органических компонентов и пластали. Посадите его, чтобы вырастить багровую луковицу и собрать Багровый Клык.</MakeBudFlesh_CrimsonFangSeed.description>
+  <MakeBudFlesh_CrimsonFangSeed.description>Создать семя багрового клыка из органических компонентов и пластали. Посадите его, чтобы вырастить багровую луковицу и собрать багровый клык.</MakeBudFlesh_CrimsonFangSeed.description>
   <MakeBudFlesh_CrimsonFangSeed.jobString>Создание семени багрового клыка</MakeBudFlesh_CrimsonFangSeed.jobString>
   <MakeBudFlesh_CrimsonFangSeed.label>Сделать семя багрового клыка</MakeBudFlesh_CrimsonFangSeed.label>
-  <MakeBudFlesh_FerriteSeed.description>Создать ферритовое семя из органических компонентов и биоферрита. Посадите его, чтобы вырастить ферритовый корнеклык и собрать Ферритовое Жало.</MakeBudFlesh_FerriteSeed.description>
+  <MakeBudFlesh_FerriteSeed.description>Создать ферритовое семя из органических компонентов и биоферрита. Посадите его, чтобы вырастить ферритовый корнеклык и собрать ферритовое жало.</MakeBudFlesh_FerriteSeed.description>
   <MakeBudFlesh_FerriteSeed.jobString>Создание ферритового семени</MakeBudFlesh_FerriteSeed.jobString>
   <MakeBudFlesh_FerriteSeed.label>Сделать ферритовое семя</MakeBudFlesh_FerriteSeed.label>
-  <MakeBudFlesh_FleshBladeSeed.description>Создать семя меча плоти из органических компонентов и пластали. Посадите его, чтобы вырастить почку меча плоти и собрать Меч Плоти.</MakeBudFlesh_FleshBladeSeed.description>
+  <MakeBudFlesh_FleshBladeSeed.description>Создать семя меча плоти из органических компонентов и пластали. Посадите его, чтобы вырастить почку меча плоти и собрать меч плоти.</MakeBudFlesh_FleshBladeSeed.description>
   <MakeBudFlesh_FleshBladeSeed.jobString>Создание семени меча плоти</MakeBudFlesh_FleshBladeSeed.jobString>
   <MakeBudFlesh_FleshBladeSeed.label>Сделать семя меча плоти</MakeBudFlesh_FleshBladeSeed.label>
   <MakePersonalityParasiteEgg.description>Создать яйцо личностного паразита из органических компонентов, биоферрита и урана. Из яйца вылупится паразит, способный переносить сохранённый разум.</MakePersonalityParasiteEgg.description>

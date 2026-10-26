@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <FB_FleshTunnelCallAllHomeLabel>Call all fleshbeasts home</FB_FleshTunnelCallAllHomeLabel>
+  <FB_FleshTunnelCallAllHomeLabel>Recall fleshbeasts</FB_FleshTunnelCallAllHomeLabel>
   <FB_FleshTunnelCallAllHomeDesc>Order every available fleshbeast on this map to return through the tunnel to the source maw.</FB_FleshTunnelCallAllHomeDesc>
   <FB_FleshTunnelNoFleshbeastsToReturn>No available fleshbeasts on this map can return through the tunnel.</FB_FleshTunnelNoFleshbeastsToReturn>
   <FB_FleshTunnelCallAllHomeResult>Sent {0} fleshbeasts home through the tunnel. Skipped: {1}.</FB_FleshTunnelCallAllHomeResult>

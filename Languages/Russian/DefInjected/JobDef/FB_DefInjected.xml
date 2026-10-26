@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_ConsumeCorpseForSpawning.reportString>записывает память TargetA.</FB_ConsumeCorpseForSpawning.reportString>
-  <FB_EaterRegrowMemory.reportString>выращивает память тела.</FB_EaterRegrowMemory.reportString>
+  <FB_EaterRegrowMemory.reportString>выращивает тело по сохранённой памяти.</FB_EaterRegrowMemory.reportString>
   <FB_BodyPartTransferJob.reportString>переносит часть тела из TargetA.</FB_BodyPartTransferJob.reportString>
   <FB_BurdenBlobLatchToWall.reportString>цепляется к стене колонии.</FB_BurdenBlobLatchToWall.reportString>
   <FB_BurdenBlobCleanFilth.reportString>чистит TargetA.</FB_BurdenBlobCleanFilth.reportString>
@@ -10,7 +10,7 @@
   <FB_CarapaceExcavatorRegrowAtHeart.reportString>отращивает копательные пластины.</FB_CarapaceExcavatorRegrowAtHeart.reportString>
   <FB_CocoonbackCapturePawn.reportString>запечатывает TargetA внутри кокона</FB_CocoonbackCapturePawn.reportString>
   <FB_CocoonbackReleasePawn.reportString>выпускает пленника</FB_CocoonbackReleasePawn.reportString>
-  <FB_FerrimawConsumeSteel.reportString>поглощает сталь.</FB_FerrimawConsumeSteel.reportString>
+  <FB_FerrimawConsumeSteel.reportString>поглощает металл.</FB_FerrimawConsumeSteel.reportString>
   <FB_FinishFrame.reportString>строит TargetA.</FB_FinishFrame.reportString>
   <FB_FleshColonyConsumeHemogelAtHeart.reportString>поглощает гемогель из TargetA.</FB_FleshColonyConsumeHemogelAtHeart.reportString>
   <FB_FleshbeastHealingSleep.reportString>спит в плоти колонии.</FB_FleshbeastHealingSleep.reportString>
@@ -30,7 +30,7 @@
   <FB_TissueIncubatorLearnSample.reportString>доставляет образец ткани к TargetB.</FB_TissueIncubatorLearnSample.reportString>
   <FB_FleshbeastBeatFire.reportString>тушит пожар.</FB_FleshbeastBeatFire.reportString>
   <FB_FleshbeastExtinguishSelf.reportString>тушит себя.</FB_FleshbeastExtinguishSelf.reportString>
-  <FB_BiomassTransformAtCell.reportString>становится сердцем плоти.</FB_BiomassTransformAtCell.reportString>
+  <FB_BiomassTransformAtCell.reportString>становится сердцем колонии.</FB_BiomassTransformAtCell.reportString>
   <FB_RotlarvaConsumeFleshmass.reportString>поедает TargetA.</FB_RotlarvaConsumeFleshmass.reportString>
   <FB_EnterHive.reportString>входит в улей.</FB_EnterHive.reportString>
   <FB_EnterFleshTunnel.reportString>входит в TargetA.</FB_EnterFleshTunnel.reportString>

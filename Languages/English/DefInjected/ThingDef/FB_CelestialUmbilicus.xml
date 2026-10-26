@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_CelestialUmbilicus.label>celestial umbilicus</FB_CelestialUmbilicus.label>
-  <FB_CelestialUmbilicus.description>A colossal organ that consumes the colony's hemogel to grow toward orbit. Awakening it turns the other factions against the colony: the growing umbilicus must be defended from raids.</FB_CelestialUmbilicus.description>
-  <FB_CelestialUmbilicusPortal.label>celestial umbilicus portal</FB_CelestialUmbilicusPortal.label>
+  <FB_CelestialUmbilicus.description>A colossal organ that grows a flesh moon and links it to the surface. Growth requires hemogel; awakening it turns other factions against the colony and provokes raids.</FB_CelestialUmbilicus.description>
+  <FB_CelestialUmbilicusPortal.label>open celestial umbilicus</FB_CelestialUmbilicusPortal.label>
   <FB_CelestialUmbilicusPortal.description>A stabilized living umbilicus that links the colony to the flesh moon.</FB_CelestialUmbilicusPortal.description>
   <FB_CelestialUmbilicusPortalIncoming.label>incoming celestial umbilicus</FB_CelestialUmbilicusPortalIncoming.label>
   <FB_CelestialUmbilicusPortalOutgoing.label>retracting celestial umbilicus</FB_CelestialUmbilicusPortalOutgoing.label>
@@ -11,6 +11,6 @@
   <FB_CelestialUmbilicusMoonExit.description>The moon-side root of a stabilized celestial umbilicus.</FB_CelestialUmbilicusMoonExit.description>
   <FB_CelestialUmbilicusEmbryo.label>celestial umbilicus embryo</FB_CelestialUmbilicusEmbryo.label>
   <FB_CelestialUmbilicusEmbryo.description>An immature orbital organ that will grow into a celestial umbilicus.</FB_CelestialUmbilicusEmbryo.description>
-  <FB_CelestialUmbilicusMoonCrater.label>lunar flesh crater</FB_CelestialUmbilicusMoonCrater.label>
-  <FB_CelestialUmbilicusMoonCrater.description>The raw wound left where the moon-side umbilicus was torn away. Fed enough hemogel from the lunar network, the crater grows a fresh root and the umbilicus rises again in its place.</FB_CelestialUmbilicusMoonCrater.description>
+  <FB_CelestialUmbilicusMoonCrater.label>umbilicus wound</FB_CelestialUmbilicusMoonCrater.label>
+  <FB_CelestialUmbilicusMoonCrater.description>An open wound where the celestial umbilicus was torn out. Fed hemogel from the lunar network, it gradually heals and regrows the root.</FB_CelestialUmbilicusMoonCrater.description>
 </LanguageData>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_Stingmite.label>жалоклещ</FB_Stingmite.label>
-  <FB_Stingmite.description>Одноразовый биошмат: прыгает на враждебные цели, оглушает их и подсаживает плотяного паразита в поражённую часть тела. Паразит расползается, созрев, отрывает часть тела и выбирается наружу пальцешипом. О механоидов безвредно лопается.</FB_Stingmite.description>
+  <FB_Stingmite.description>Одноразовый биошмат: прыгает на враждебные цели, оглушает их и подсаживает плотяного паразита в поражённую часть тела. Паразит распространяется по телу. Созрев, он отрывает заражённую часть и выходит наружу пальцешипом. О механоидов безвредно лопается.</FB_Stingmite.description>
   <FB_Stingmite.tools.0.label>жало</FB_Stingmite.tools.0.label>
   <FB_StingmiteLeapFlyer.label>прыжок жалоклеща</FB_StingmiteLeapFlyer.label>
 </LanguageData>

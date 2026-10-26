@@ -308,8 +308,8 @@
 
   <RecipeDef ParentName="FB_FleshbeastSkillGrowthRecipeBase">
     <defName>FB_GrowScrapmeldNestlingFromSkillEssence</defName>
-    <label>grow scrapmeld nestling from skill essence</label>
-    <description>Grows a scrapmeld nestling from hemogel and stored skill essence.</description>
+    <label>grow scrapmeld seed from skill essence</label>
+    <description>Grows a scrapmeld seed from hemogel and stored skill essence.</description>
     <researchPrerequisite>FB_AdaptiveHarvesters</researchPrerequisite>
     <modExtensions>
       <li Class="FB.FleshbeastMergeRecipeExtension">
@@ -478,8 +478,8 @@
 
   <RecipeDef ParentName="FB_FleshbeastMergeRecipeBase">
     <defName>FB_MergeTrispike</defName>
-    <label>merge trispike</label>
-    <description>Assembles a trispike from an allowed combination of lesser fleshbeasts.</description>
+    <label>assemble trispike</label>
+    <description>Assembles a trispike from lesser fleshbeasts.</description>
     <uiIconPath>UI/Commands/Fuse</uiIconPath>
     <modExtensions>
       <li Class="FB.FleshbeastMergeRecipeExtension">
@@ -504,8 +504,8 @@
 
   <RecipeDef ParentName="FB_FleshbeastMergeRecipeBase">
     <defName>FB_MergeToughspike</defName>
-    <label>merge toughspike</label>
-    <description>Assembles a toughspike from an allowed combination of lesser fleshbeasts.</description>
+    <label>assemble toughspike</label>
+    <description>Assembles a toughspike from lesser fleshbeasts.</description>
     <uiIconPath>UI/Commands/Fuse</uiIconPath>
     <modExtensions>
       <li Class="FB.FleshbeastMergeRecipeExtension">
@@ -531,8 +531,8 @@
 
   <RecipeDef ParentName="FB_FleshbeastMergeRecipeBase">
     <defName>FB_MergeBulbfreak</defName>
-    <label>merge bulbfreak</label>
-    <description>Assembles a bulbfreak from an allowed combination of spine fleshbeasts.</description>
+    <label>assemble bulbfreak</label>
+    <description>Assembles a bulbfreak from spine fleshbeasts.</description>
     <uiIconPath>UI/Commands/Fuse</uiIconPath>
     <modExtensions>
       <li Class="FB.FleshbeastMergeRecipeExtension">
@@ -559,8 +559,8 @@
 
   <RecipeDef ParentName="FB_FleshbeastMergeRecipeBase">
     <defName>FB_MergeDreadmeld</defName>
-    <label>merge dreadmeld</label>
-    <description>Assembles a dreadmeld from an allowed combination of fleshbeasts.</description>
+    <label>assemble dreadmeld</label>
+    <description>Assembles a dreadmeld from fleshbeasts.</description>
     <uiIconPath>UI/Commands/Fuse</uiIconPath>
     <modExtensions>
       <li Class="FB.FleshbeastMergeRecipeExtension">

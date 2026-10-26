@@ -3,8 +3,8 @@
   <!-- Мутации тайла: иссушение дикой экосистемы гемогелевой добычей -->
   <TileMutatorDef>
     <defName>FB_FleshTileNutritionStrained</defName>
-    <label>strained ecosystem</label>
-    <description>Hemogel extraction has thinned the wild plants and animal presence on this tile.</description>
+    <label>weakened ecosystem</label>
+    <description>Hemogel extraction is thinning this tile's vegetation and reducing its wildlife.</description>
     <categories>
       <li>FleshTileNutrition</li>
     </categories>
@@ -15,8 +15,8 @@
 
   <TileMutatorDef>
     <defName>FB_FleshTileNutritionBarren</defName>
-    <label>barren ecosystem</label>
-    <description>Hemogel extraction has left this tile with sparse wild plants and few animals.</description>
+    <label>sparse ecosystem</label>
+    <description>Hemogel extraction has severely reduced vegetation on this tile; wild animals are rare.</description>
     <categories>
       <li>FleshTileNutrition</li>
     </categories>
@@ -28,7 +28,7 @@
   <TileMutatorDef>
     <defName>FB_FleshTileNutritionDepleted</defName>
     <label>depleted ecosystem</label>
-    <description>Hemogel extraction has nearly stripped this tile of wild plants and animal presence.</description>
+    <description>Hemogel extraction has nearly depleted the local ecosystem, leaving few plants or wild animals.</description>
     <categories>
       <li>FleshTileNutrition</li>
     </categories>

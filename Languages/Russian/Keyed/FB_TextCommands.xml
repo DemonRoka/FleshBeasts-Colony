@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<FB_PitBurrowEnterLabel>Спуститься</FB_PitBurrowEnterLabel>
+	<FB_SkillQuintessenceUseLabel>Поглотить опыт</FB_SkillQuintessenceUseLabel>
+	<FB_SkillQuintessenceUseDesc>Выберите существо, которое поглотит квинтэссенцию и получит содержащийся в ней опыт.</FB_SkillQuintessenceUseDesc>
+	<FB_FleshSeedPlantLabel>Посадить</FB_FleshSeedPlantLabel>
+	<FB_FleshSeedPlantDesc>Выберите место для посадки. Растение: {0}.</FB_FleshSeedPlantDesc>
+	<FB_FleshSeedCancelLabel>Отменить посадку</FB_FleshSeedCancelLabel>
+	<FB_FleshSeedCancelDesc>Отменить назначенную посадку. Растение: {0}.</FB_FleshSeedCancelDesc>
+</LanguageData>

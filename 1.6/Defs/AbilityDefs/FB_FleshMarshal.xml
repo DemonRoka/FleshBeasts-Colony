@@ -2,7 +2,7 @@
 <Defs>
   <AbilityDef>
     <defName>FB_FleshMarshalCommand</defName>
-    <label>flesh combat command</label>
+    <label>battle command</label>
     <description>Broadcast a combat impulse that surrounds nearby friendly fleshbeasts with nerveclot resonance, accelerating movement, reducing incoming damage, and rapidly knitting injuries.</description>
     <jobDef>CastAbilityOnThing</jobDef>
     <targetRequired>false</targetRequired>

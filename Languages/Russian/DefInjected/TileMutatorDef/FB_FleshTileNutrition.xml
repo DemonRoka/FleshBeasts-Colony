@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <FB_FleshTileNutritionStrained.label>истощенная экосистема</FB_FleshTileNutritionStrained.label>
-  <FB_FleshTileNutritionStrained.description>Добыча гемогеля истончила дикие растения и сократила присутствие животных на этой клетке.</FB_FleshTileNutritionStrained.description>
+  <FB_FleshTileNutritionStrained.label>ослабленная экосистема</FB_FleshTileNutritionStrained.label>
+  <FB_FleshTileNutritionStrained.description>Из-за добычи гемогеля растительность на этой клетке редеет, а диких животных становится меньше.</FB_FleshTileNutritionStrained.description>
 
   <FB_FleshTileNutritionBarren.label>скудная экосистема</FB_FleshTileNutritionBarren.label>
-  <FB_FleshTileNutritionBarren.description>Добыча гемогеля оставила на этой клетке редкие дикие растения и мало животных.</FB_FleshTileNutritionBarren.description>
+  <FB_FleshTileNutritionBarren.description>Добыча гемогеля сильно обеднила растительность этой клетки; дикие животные встречаются редко.</FB_FleshTileNutritionBarren.description>
 
-  <FB_FleshTileNutritionDepleted.label>выпитая экосистема</FB_FleshTileNutritionDepleted.label>
-  <FB_FleshTileNutritionDepleted.description>Добыча гемогеля почти лишила эту клетку диких растений и присутствия животных.</FB_FleshTileNutritionDepleted.description>
+  <FB_FleshTileNutritionDepleted.label>истощённая экосистема</FB_FleshTileNutritionDepleted.label>
+  <FB_FleshTileNutritionDepleted.description>Добыча гемогеля почти исчерпала местную экосистему: осталось мало растений и диких животных.</FB_FleshTileNutritionDepleted.description>
 </LanguageData>

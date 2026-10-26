@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <FB_ColonyBrain_Structure_BileMortarGland_Label>Желчная мортирная железа</FB_ColonyBrain_Structure_BileMortarGland_Label>
-  <FB_ColonyBrain_Structure_BileMortarGland_Desc>Вырастить желчную мортирную железу, которая выводит желчных подрывников и запускает зрелых как зажигательные снаряды.</FB_ColonyBrain_Structure_BileMortarGland_Desc>
-  <FB_BilePodlingSpawnLabel>Вырастить желчного подрывника</FB_BilePodlingSpawnLabel>
+  <FB_ColonyBrain_Structure_BileMortarGland_Label>Желчная мортира</FB_ColonyBrain_Structure_BileMortarGland_Label>
+  <FB_ColonyBrain_Structure_BileMortarGland_Desc>Вырастить желчную мортиру, которая выводит желчных подрывников и запускает зрелых как зажигательные снаряды.</FB_ColonyBrain_Structure_BileMortarGland_Desc>
+  <FB_BilePodlingSpawnLabel>Вырастить подрывника</FB_BilePodlingSpawnLabel>
   <FB_BilePodlingSpawnDesc>Вырастить рядом с железой одного желчного подрывника за {0} гемогеля из сети.</FB_BilePodlingSpawnDesc>
-  <FB_BilePodlingSpawnFailed>Желчная мортирная железа сейчас не может вырастить подрывника.</FB_BilePodlingSpawnFailed>
+  <FB_BilePodlingSpawnFailed>Желчная мортира сейчас не может вырастить подрывника.</FB_BilePodlingSpawnFailed>
   <FB_BilePodlingNoSpawnCell>Рядом нет свободной клетки для желчного подрывника.</FB_BilePodlingNoSpawnCell>
   <FB_BilePodlingNoNetworkSupply>Гемогелевая сеть недополучает питание.</FB_BilePodlingNoNetworkSupply>
   <FB_BilePodlingOwnedInspect>Желчные подрывники: {0}/{1}/{2} (готовые / набухающие / слабый заряд)</FB_BilePodlingOwnedInspect>
-  <FB_BileMortarFireLabel>Выстрелить желчной мортирой</FB_BileMortarFireLabel>
+  <FB_BileMortarFireLabel>Выстрелить</FB_BileMortarFireLabel>
   <FB_BileMortarFireDesc>Выберите клетку в радиусе {1} клеток для обстрела. Железа призовёт самого заряженного доступного желчного подрывника с запасом горючей желчи не ниже {0}%, загрузит его и выпустит как живой снаряд. Попадание может отклониться примерно на {2} клетки.</FB_BileMortarFireDesc>
   <FB_BileMortarNoLoadedPodling>Нет доступного желчного подрывника с запасом горючей желчи не ниже {0}%.</FB_BileMortarNoLoadedPodling>
-  <FB_BileMortarCannotFire>Желчная мортирная железа сейчас не может стрелять.</FB_BileMortarCannotFire>
+  <FB_BileMortarCannotFire>Желчная мортира сейчас не может стрелять.</FB_BileMortarCannotFire>
   <FB_BileMortarInvalidTarget>Недопустимая цель для желчной мортиры.</FB_BileMortarInvalidTarget>
   <FB_BileMortarCannotReach>Выбранный желчный подрывник не может добраться до мортиры.</FB_BileMortarCannotReach>
   <FB_BileMortarOutOfRange>Цель вне радиуса желчной мортиры ({0} клеток).</FB_BileMortarOutOfRange>
@@ -22,7 +22,7 @@
   <FB_VolatileBileInspect>Горючая желчь: {0}%</FB_VolatileBileInspect>
   <FB_BileburstChargePausedNoSupply>Рост заряда остановлен: связанная мортира недополучает питание гемогелевой сети.</FB_BileburstChargePausedNoSupply>
   <FB_VolatileBileBarTitle>Горючая желчь</FB_VolatileBileBarTitle>
-  <FB_VolatileBileBarTooltip>Взрывной запас желчи этого подрывника. При 25% и выше он может быть заряжен в желчную мортирную железу.</FB_VolatileBileBarTooltip>
+  <FB_VolatileBileBarTooltip>Взрывной запас желчи этого подрывника. При 25% и выше он может быть заряжен в желчную мортиру.</FB_VolatileBileBarTooltip>
   <FB_VolatileBileBarGroupTitle>Горючая желчь ×{0}: {1}%</FB_VolatileBileBarGroupTitle>
   <FB_VolatileBileBarGroupMinimum>мин. {0}%</FB_VolatileBileBarGroupMinimum>
   <FB_VolatileBileBarGroupTooltip>Выбрано подрывников: {0}\nСредний запас: {1}%\nСамый малый: {2}%\nСамый большой: {3}%\nГотовы для мортиры (от {4}%): {5} из {0}</FB_VolatileBileBarGroupTooltip>
@@ -35,8 +35,8 @@
   <FB_BileburstPayloadCannotReach>Желчный подрывник не может добраться до этого груза.</FB_BileburstPayloadCannotReach>
   <FB_BileburstPayloadCannotAbsorb>Желчный подрывник сейчас не может поглотить груз.</FB_BileburstPayloadCannotAbsorb>
   <FB_BileburstPayloadAbsorbed>{0} поглотил {1}.</FB_BileburstPayloadAbsorbed>
-  <FB_BileburstDetonateLabel>Взорвать желчного подрывника</FB_BileburstDetonateLabel>
-  <FB_BileburstDetonateDesc>Приказать желчному подрывнику доползти до выбранной цели или клетки и разорвать накопленную горючую желчь.</FB_BileburstDetonateDesc>
+  <FB_BileburstDetonateLabel>Взорваться</FB_BileburstDetonateLabel>
+  <FB_BileburstDetonateDesc>Приказать желчному подрывнику доползти до выбранной цели или клетки и разорваться, взорвав накопленную горючую желчь.</FB_BileburstDetonateDesc>
   
   
   <FB_BileburstDetonatingInspect>Взорвётся через {0}.</FB_BileburstDetonatingInspect>
@@ -45,24 +45,24 @@
   <FB_BileburstCannotDetonate>Этот желчный подрывник не может взорваться там.</FB_BileburstCannotDetonate>
   <FB_BileburstCannotReach>Желчный подрывник не может добраться до цели взрыва.</FB_BileburstCannotReach>
   <FB_FleshMoonBileBombardmentLabel>Вызвать желчный обстрел</FB_FleshMoonBileBombardmentLabel>
-  <FB_FleshMoonBileBombardmentDesc>Выберите точку на карте. Мясная луна сбросит 10 желчных снарядов в радиусе 20 клеток примерно за треть игрового часа.</FB_FleshMoonBileBombardmentDesc>
+  <FB_FleshMoonBileBombardmentDesc>Выберите точку на карте. Луна плоти сбросит 10 желчных снарядов в радиусе 20 клеток примерно за треть игрового часа.</FB_FleshMoonBileBombardmentDesc>
   <FB_FleshMoonBileBombardmentCostLine>Стоимость из лунного резерва гемогеля: {0}</FB_FleshMoonBileBombardmentCostLine>
-  <FB_FleshMoonBileBombardmentNotEnoughHemogel>В резерве мясной луны не хватает {0} гемогеля.</FB_FleshMoonBileBombardmentNotEnoughHemogel>
+  <FB_FleshMoonBileBombardmentNotEnoughHemogel>Недостаточно гемогеля в резерве луны плоти. Требуется: {0}.</FB_FleshMoonBileBombardmentNotEnoughHemogel>
   <FB_FleshMoonBileBombardmentInvalidTarget>Недопустимая цель обстрела.</FB_FleshMoonBileBombardmentInvalidTarget>
-  <FB_FleshMoonBileBombardmentStarted>Мясная луна начинает желчный обстрел.</FB_FleshMoonBileBombardmentStarted>
-  <FB_FleshMoonOrbitalAbilityNoMoon>Мясная луна недоступна.</FB_FleshMoonOrbitalAbilityNoMoon>
-  <FB_FleshMoonOrbitalAbilityNoSurfaceTile>Мясная луна сейчас не находится над поверхностной клеткой.</FB_FleshMoonOrbitalAbilityNoSurfaceTile>
-  <FB_FleshMoonOrbitalAbilityNoLoadedMap>Под мясной луной нет прогруженной карты.</FB_FleshMoonOrbitalAbilityNoLoadedMap>
-  <FB_FleshMoonOrbitalAbilityWrongMap>Мясная луна сейчас не находится над этой картой.</FB_FleshMoonOrbitalAbilityWrongMap>
-  <FB_FleshMoonOrbitalAbilitySurfaceOnly>Это можно вызвать только на поверхностной карте под мясной луной.</FB_FleshMoonOrbitalAbilitySurfaceOnly>
+  <FB_FleshMoonBileBombardmentStarted>Луна плоти начинает желчный обстрел.</FB_FleshMoonBileBombardmentStarted>
+  <FB_FleshMoonOrbitalAbilityNoMoon>Луна плоти недоступна.</FB_FleshMoonOrbitalAbilityNoMoon>
+  <FB_FleshMoonOrbitalAbilityNoSurfaceTile>Луна плоти сейчас не находится над поверхностной клеткой.</FB_FleshMoonOrbitalAbilityNoSurfaceTile>
+  <FB_FleshMoonOrbitalAbilityNoLoadedMap>Под луной плоти нет прогруженной карты.</FB_FleshMoonOrbitalAbilityNoLoadedMap>
+  <FB_FleshMoonOrbitalAbilityWrongMap>Луна плоти сейчас не находится над этой картой.</FB_FleshMoonOrbitalAbilityWrongMap>
+  <FB_FleshMoonOrbitalAbilitySurfaceOnly>Это можно вызвать только на поверхностной карте под луной плоти.</FB_FleshMoonOrbitalAbilitySurfaceOnly>
   <FB_FleshMoonAcidRainLabel>Вызвать кислотный дождь</FB_FleshMoonAcidRainLabel>
-  <FB_FleshMoonAcidRainDesc>Выберите точку на карте под мясной луной. Через два-три часа смертельно едкий дождь начнёт быстро травить и обжигать неукрытых пешек, убивая растения и разъедая предметы под открытым небом.</FB_FleshMoonAcidRainDesc>
+  <FB_FleshMoonAcidRainDesc>Выберите точку на карте под луной плоти. Через два-три часа смертельно едкий дождь начнёт быстро травить и обжигать неукрытых пешек, убивая растения и разъедая предметы под открытым небом.</FB_FleshMoonAcidRainDesc>
   <FB_FleshMoonAcidRainCostLine>Стоимость из лунного резерва гемогеля: {0}</FB_FleshMoonAcidRainCostLine>
-  <FB_FleshMoonAcidRainNotEnoughHemogel>В резерве мясной луны не хватает {0} гемогеля.</FB_FleshMoonAcidRainNotEnoughHemogel>
+  <FB_FleshMoonAcidRainNotEnoughHemogel>Недостаточно гемогеля в резерве луны плоти. Требуется: {0}.</FB_FleshMoonAcidRainNotEnoughHemogel>
   <FB_FleshMoonAcidRainInvalidTarget>Недопустимая цель кислотного дождя.</FB_FleshMoonAcidRainInvalidTarget>
   <FB_FleshMoonAcidRainAlreadyActive>На этой карте уже идёт кислотный дождь.</FB_FleshMoonAcidRainAlreadyActive>
   <FB_FleshMoonAcidRainAlreadyPending>Кислотный дождь уже вызван на эту карту.</FB_FleshMoonAcidRainAlreadyPending>
-  <FB_FleshMoonAcidRainScheduled>Мясная луна собирает едкие облака. Кислотный дождь начнётся через {0}.</FB_FleshMoonAcidRainScheduled>
+  <FB_FleshMoonAcidRainScheduled>Луна плоти собирает едкие облака. Кислотный дождь начнётся через {0}.</FB_FleshMoonAcidRainScheduled>
   <FB_FleshMoonAcidRainArrivedLetterLabel>Кислотный дождь</FB_FleshMoonAcidRainArrivedLetterLabel>
-  <FB_FleshMoonAcidRainArrivedLetterText>Мясная луна насытила облака едкой желчью. Кислотный дождь идёт по всей карте. Крыши защищают пешек и припасы; биошматы устойчивы к дождю.</FB_FleshMoonAcidRainArrivedLetterText>
+  <FB_FleshMoonAcidRainArrivedLetterText>Луна плоти насытила облака едкой желчью. Кислотный дождь идёт по всей карте. Крыши защищают пешек и припасы; биошматы устойчивы к дождю.</FB_FleshMoonAcidRainArrivedLetterText>
 </LanguageData>

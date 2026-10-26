@@ -13,7 +13,7 @@
   <FB.LivingWeaponPersonalityDef>
     <defName>FB_LivingWeaponPersonality_PredatoryAppetite</defName>
     <label>predatory appetite</label>
-    <description>This weapon's simple mind urges the wielder toward fresh violence.</description>
+    <description>This weapon's simple mind craves another fight and urges its wielder into battle.</description>
     <commonality>1</commonality>
     <equippedThought>FB_LivingWeaponThought_PredatoryAppetite</equippedThought>
   </FB.LivingWeaponPersonalityDef>
@@ -30,8 +30,8 @@
   <!-- Личность оружия: guarding will -->
   <FB.LivingWeaponPersonalityDef>
     <defName>FB_LivingWeaponPersonality_GuardingWill</defName>
-    <label>guarding will</label>
-    <description>This weapon's simple mind presses close, protective and watchful.</description>
+    <label>protective instinct</label>
+    <description>The weapon is alert to danger and helps its wielder feel safe.</description>
     <commonality>1</commonality>
     <equippedThought>FB_LivingWeaponThought_GuardingWill</equippedThought>
   </FB.LivingWeaponPersonalityDef>

@@ -136,7 +136,7 @@
   <!-- Исследование: geoferrite glands (FB_GeoferriteGlands) -->
   <ResearchProjectDef>
     <defName>FB_GeoferriteGlands</defName>
-    <label>geoferrite glands</label>
+    <label>geothermal glands</label>
     <description>Unlock geyser-rooted organs that refine hemogel into bioferrite.</description>
     <tab>FB_Fleshbeast</tab>
     <techLevel>Industrial</techLevel>
@@ -148,17 +148,17 @@
     <researchViewY>2.60</researchViewY>
     <generalRules>
       <rulesStrings>
-        <li>subject-&gt;geoferrite glands</li>
+        <li>subject-&gt;geothermal glands</li>
         <li>subject_story-&gt;rooted flesh organs into steam geysers</li>
         <li>subject_story-&gt;refined hemogel into bioferrite under geothermal pressure</li>
-        <li>subject_gerund-&gt;growing geoferrite glands</li>
+        <li>subject_gerund-&gt;growing geothermal glands</li>
       </rulesStrings>
     </generalRules>
   </ResearchProjectDef>
   <!-- Исследование: fleshmass spitter (SpitterResearch) -->
   <ResearchProjectDef>
     <defName>SpitterResearch</defName>
-    <label>spitter gland</label>
+    <label>flesh spitter</label>
     <description>Unlock the Spitter Gland, a defensive flesh organ that grows from an embryo and spits corrosive fluid at distant enemies.</description>
     <tab>FB_Fleshbeast</tab>
     <techLevel>Industrial</techLevel>
@@ -202,8 +202,8 @@
   <!-- Исследование: bile mortar gland (FB_BileMortarResearch) -->
   <ResearchProjectDef>
     <defName>FB_BileMortarResearch</defName>
-    <label>bile mortar gland</label>
-    <description>Unlock the Bile Mortar Gland, a living artillery organ that grows bileburst podlings and launches mature ones as volatile incendiary shells.</description>
+    <label>bile mortar</label>
+    <description>Unlock the Bile mortar, a living artillery organ that grows bileburst podlings and launches mature ones as volatile incendiary shells.</description>
     <customUnlockTexts>
       <li>Flesh moon: Call bilefall bombardment</li>
     </customUnlockTexts>
@@ -504,7 +504,7 @@
   <ResearchProjectDef>
     <defName>FB_DeepMawTraps</defName>
     <label>deep maw traps</label>
-    <description>Grow larger buried mouths with pressure nerves and friend-or-foe restraint. These traps wait before closing, then swallow every body still standing over them.</description>
+    <description>Enables large buried mouths. Enemies trigger them, and after a short delay they swallow everyone still above them, including allies.</description>
     <tab>FB_Fleshbeast</tab>
     <techLevel>Industrial</techLevel>
     <prerequisites>
@@ -547,8 +547,8 @@
   <!-- Исследование: fleshmass brood mother (FB_BroodMotherResearch) -->
   <ResearchProjectDef>
     <defName>FB_BroodMotherResearch</defName>
-    <label>brood mother</label>
-    <description>Unlock the Symbiosis Brood Womb, an advanced brood organ that uses hemogel, biomass, and stored skill essence to grow basic combat beasts and simple worker strains on demand.</description>
+    <label>symbiotic womb</label>
+    <description>Unlock the symbiotic womb, an advanced brood organ that uses hemogel, biomass, and stored skill essence to grow basic combat beasts and simple worker strains on demand.</description>
     <tab>FB_Fleshbeast</tab>
     <techLevel>Industrial</techLevel>
     <prerequisites>
@@ -570,7 +570,7 @@
   <ResearchProjectDef>
     <defName>FB_AdaptiveHarvesters</defName>
     <label>adaptive harvesters</label>
-    <description>Unlock sinewcallers, scrapmeld seeds, and graftmaws: specialized fleshbeasts that draw in prey, repurpose mechanized remains, and graft useful tissue from bodies.</description>
+    <description>Unlock sinewcallers, scrapmeld seeds, and graftmaws: specialized fleshbeasts that draw in prey, repurpose mechanoid remains, and graft useful tissue from bodies.</description>
     <tab>FB_Fleshbeast</tab>
     <techLevel>Industrial</techLevel>
     <prerequisites>
@@ -636,7 +636,7 @@
   <ResearchProjectDef>
     <defName>FB_OrganicGenetics</defName>
     <label>organic genetics</label>
-    <description>Unlock the Genophage Cocoon, Genome Archive, and Gene Reweaver: a living genetic suite for harvesting genes into visible genepacks, storing them in organic archives, and weaving them into prepared flesh xenogerms for cocoon integration.</description>
+    <description>Unlocks the genophage cocoon, genome archive, and gene reweaver. These organs extract genes from living donors, preserve them in an archive, and create xenogerms for implantation through a cocoon.</description>
     <tab>FB_Fleshbeast</tab>
     <techLevel>Industrial</techLevel>
     <prerequisites>
@@ -658,7 +658,7 @@
   <ResearchProjectDef>
     <defName>FB_HumanMimicry</defName>
     <label>human mimicry</label>
-    <description>Unlock the Voice Organ and the Flesh Trade Beacon. The organ mimics a human radio operator around a living carrier, letting the colony hail passing ships and distant factions without ever revealing what answers them.</description>
+    <description>Unlocks the voice organ and flesh trade beacon. Using a living carrier's voice, the colony can contact orbital traders and distant factions while concealing its nature.</description>
     <tab>FB_Fleshbeast</tab>
     <techLevel>Industrial</techLevel>
     <prerequisites>
@@ -680,7 +680,7 @@
   <ResearchProjectDef>
     <defName>FB_CelestialBudding</defName>
     <label>celestial budding</label>
-    <description>Unlock the Celestial Umbilicus, the final organ of the flesh colony. Once awakened, it consumes network hemogel to grow toward orbit and provokes every faction into trying to sever the budding column.</description>
+    <description>Allows the growth of a celestial umbilicus to create a flesh moon. Growth requires hemogel; awakening the umbilicus turns other factions against the colony and provokes raids.</description>
     <tab>FB_Fleshbeast</tab>
     <techLevel>Industrial</techLevel>
     <prerequisites>
@@ -696,7 +696,7 @@
         <li>subject-&gt;celestial budding</li>
         <li>subject_story-&gt;prepared the colony to bud away from the planet</li>
         <li>subject_story-&gt;grew a living launch umbilicus for a future flesh moon</li>
-        <li>subject_gerund-&gt;feeding the final umbilicus</li>
+        <li>subject_gerund-&gt;feeding the celestial umbilicus</li>
       </rulesStrings>
     </generalRules>
   </ResearchProjectDef>
@@ -705,7 +705,7 @@
   <ResearchProjectDef>
     <defName>FB_HemoghoulReanimation</defName>
     <label>hemoghoul reanimation</label>
-    <description>Teach the colony brain to implant a fingerspike into a human corpse and raise it as a tireless hemoghoul worker.</description>
+    <description>Teach the colony brain to implant fingerspikes into a humanlike corpse and raise it as a tireless hemoghoul worker.</description>
     <customUnlockTexts>
       <li>Colony Brain: Create hemoghoul</li>
     </customUnlockTexts>
@@ -786,7 +786,7 @@
     <label>flesh thrall reanimation</label>
     <description>Teach the colony brain to rebuild a body around fingerspikes and raise it as a controllable flesh thrall.</description>
     <customUnlockTexts>
-      <li>Colony Brain: Create flesh thrall, Restore thrall</li>
+      <li>Colony brain: Create thrall, Restore thrall</li>
     </customUnlockTexts>
     <tab>FB_Fleshbeast</tab>
     <techLevel>Industrial</techLevel>

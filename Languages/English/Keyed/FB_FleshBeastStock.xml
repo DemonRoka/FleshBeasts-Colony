@@ -9,17 +9,17 @@
   <FB_OutpostBillGrowing>Growing: {0} left</FB_OutpostBillGrowing>
   <FB_OutpostBillStockReached>Stock is already {0} - growing is paused</FB_OutpostBillStockReached>
   <FB_OutpostBillPausedUntil>Paused until the stock drops to {0}</FB_OutpostBillPausedUntil>
-  <FB_OutpostRemoveBeastsButton>Remove beasts...</FB_OutpostRemoveBeastsButton>
-  <FB_OutpostRemoveBeastsButtonDesc>Pick how many beasts of each kind to remove from this outpost's stock. Each removed beast returns {0} of its growing cost to the network reserve.</FB_OutpostRemoveBeastsButtonDesc>
-  <FB_OutpostRemoveBeastsTitle>Remove beasts from the outpost stock</FB_OutpostRemoveBeastsTitle>
-  <FB_OutpostRemoveBeastsInfoCount>To remove</FB_OutpostRemoveBeastsInfoCount>
+  <FB_OutpostRemoveBeastsButton>Absorb fleshbeasts…</FB_OutpostRemoveBeastsButton>
+  <FB_OutpostRemoveBeastsButtonDesc>Choose fleshbeasts from the outpost garrison to absorb. Each returns {0} of its growth cost to the network reserve.</FB_OutpostRemoveBeastsButtonDesc>
+  <FB_OutpostRemoveBeastsTitle>Absorb garrison fleshbeasts</FB_OutpostRemoveBeastsTitle>
+  <FB_OutpostRemoveBeastsInfoCount>To absorb</FB_OutpostRemoveBeastsInfoCount>
   <FB_OutpostRemoveBeastsInfoCountTip>How many beasts will be removed from the stock.</FB_OutpostRemoveBeastsInfoCountTip>
   <FB_OutpostRemoveBeastsInfoRefund>Refund</FB_OutpostRemoveBeastsInfoRefund>
   <FB_OutpostRemoveBeastsInfoRefundTip>Hemogel returned to the network reserve: {0} of the growing cost of every removed beast.</FB_OutpostRemoveBeastsInfoRefundTip>
   <FB_OutpostRemoveBeastsRefundEachTip>Hemogel returned for one beast of this kind.</FB_OutpostRemoveBeastsRefundEachTip>
   <FB_OutpostRemoveBeastsNothing>Mark at least one beast to remove.</FB_OutpostRemoveBeastsNothing>
-  <FB_OutpostRemoveBeastsConfirm>Remove {0} beast(s) from the outpost stock? {1} hemogel returns to the network reserve.</FB_OutpostRemoveBeastsConfirm>
-  <FB_OutpostRemoveBeastsDone>Removed {0} beast(s) from the outpost stock. {1} hemogel returned to the network reserve.</FB_OutpostRemoveBeastsDone>
+  <FB_OutpostRemoveBeastsConfirm>Absorb {0} fleshbeasts from the garrison? This returns {1} hemogel to the network reserve.</FB_OutpostRemoveBeastsConfirm>
+  <FB_OutpostRemoveBeastsDone>Absorbed {0} fleshbeasts from the garrison. Returned {1} hemogel to the network reserve.</FB_OutpostRemoveBeastsDone>
   <FB_OutpostTransferBeastsButton>Move beasts...</FB_OutpostTransferBeastsButton>
   <FB_OutpostTransferBeastsButtonDesc>Pick another outpost on the world map and send part of this beast stock there by supply caravan.</FB_OutpostTransferBeastsButtonDesc>
   <FB_FleshBeastTransferTitle>Move beasts to {0}</FB_FleshBeastTransferTitle>
@@ -33,7 +33,7 @@
   <FB_FleshAssaultDeployInfoUnits>Beasts</FB_FleshAssaultDeployInfoUnits>
   <FB_FleshAssaultDeployInfoUnitsTip>How many beasts will leave with this party.</FB_FleshAssaultDeployInfoUnitsTip>
   <FB_FleshAssaultDeployInfoStrength>Pack strength</FB_FleshAssaultDeployInfoStrength>
-  <FB_FleshAssaultDeployInfoStrengthTip>Combined combat power of the marked beasts, in vanilla points.</FB_FleshAssaultDeployInfoStrengthTip>
+  <FB_FleshAssaultDeployInfoStrengthTip>Combined combat strength of the selected fleshbeasts.</FB_FleshAssaultDeployInfoStrengthTip>
   <FB_FleshAssaultDeployInfoDefence>Defence</FB_FleshAssaultDeployInfoDefence>
   <FB_FleshAssaultDeployInfoDefenceTip>The defence of {0} is rated at this many points.</FB_FleshAssaultDeployInfoDefenceTip>
   <FB_FleshAssaultDeployInfoVerdict>Forecast</FB_FleshAssaultDeployInfoVerdict>

@@ -4,6 +4,6 @@
   <JobDef>
     <defName>FB_FerrimawConsumeSteel</defName>
     <driverClass>FB.JobDriver_FerrimawConsumeSteel</driverClass>
-    <reportString>consuming steel.</reportString>
+    <reportString>consuming metal.</reportString>
   </JobDef>
 </Defs>

@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <FB_GastricAcidSpewer_ToggleLabel>Распространять желудочный сок</FB_GastricAcidSpewer_ToggleLabel>
-  <FB_GastricAcidSpewer_ToggleDesc>Распространять пищеварительную кислоту из этого органа на ближайшие подходящие клетки. При выключении орган всасывает кислоту обратно клетка за клеткой, начиная с самого дальнего от всех извергателей края лужи. Пока общую лужу подпитывает другой включённый извергатель, орган забирает лишь столько клеток, сколько сам разлил; когда выключены все извергатели лужи, она всасывается целиком.</FB_GastricAcidSpewer_ToggleDesc>
+  <FB_GastricAcidSpewer_ToggleLabel>Разливать сок</FB_GastricAcidSpewer_ToggleLabel>
+  <FB_GastricAcidSpewer_ToggleDesc>Разливать желудочный сок на подходящие клетки рядом с органом.\n\nПри выключении сок всасывается обратно, начиная с края лужи, наиболее удалённого от всех извергателей. Если другие извергатели продолжают питать общую лужу, этот орган убирает лишь столько клеток, сколько сам заполнил. Когда выключены все извергатели, лужа всасывается целиком.</FB_GastricAcidSpewer_ToggleDesc>
   
   
   <FB_GastricAcidSpewer_InspectIdle>Желудочный сок: покой</FB_GastricAcidSpewer_InspectIdle>
   <FB_GastricAcidSpewer_InspectSpreading>Желудочный сок: распространяется ({0} клет.)</FB_GastricAcidSpewer_InspectSpreading>
   <FB_GastricAcidSpewer_InspectAbsorbing>Желудочный сок: всасывается ({0} клет.)</FB_GastricAcidSpewer_InspectAbsorbing>
-  <FB_GastricAcidSpewer_InspectReserve>Запас кислотных клеток: {0} / {1} клет.</FB_GastricAcidSpewer_InspectReserve>
-  <FB_GastricAcidSpewer_FuelInspect>Внешнее пищеварительное топливо: {0} питательности. Выработка гемогеля: {1}/ч.</FB_GastricAcidSpewer_FuelInspect>
-  <FB_GastricAcidSpewer_HemogelEconomyDetail>Внешнее пищеварительное топливо: {0} питательности; выработка {1}/ч</FB_GastricAcidSpewer_HemogelEconomyDetail>
+  <FB_GastricAcidSpewer_InspectReserve>Площадь желудочного сока: {0} / {1} клеток</FB_GastricAcidSpewer_InspectReserve>
+  <FB_GastricAcidSpewer_FuelInspect>Органика в луже: питательность {0}. Выработка гемогеля: {1}/ч.</FB_GastricAcidSpewer_FuelInspect>
+  <FB_GastricAcidSpewer_HemogelEconomyDetail>Органика в луже: питательность {0}; выработка {1}/ч</FB_GastricAcidSpewer_HemogelEconomyDetail>
   <FB_ColonyBrain_Structure_GastricAcidSpewer_Label>Извергатель желудочного сока</FB_ColonyBrain_Structure_GastricAcidSpewer_Label>
   <FB_ColonyBrainTendrilHauling_Inspect>Грузовые щупальца: активно {0}. Лимит: {1} / {2}. Поддержание: {3}/ч.</FB_ColonyBrainTendrilHauling_Inspect>
   <FB_ColonyBrainTendrilHauling_Resting>Спят без работы: {0}.</FB_ColonyBrainTendrilHauling_Resting>

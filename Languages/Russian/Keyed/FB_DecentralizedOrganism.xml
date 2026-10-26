@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_DecentralizedOrganism_DeathSplit>{PAWN_nameDef} разрывается на два молодых тела плоти.</FB_DecentralizedOrganism_DeathSplit>
-  <FB_DecentralizedOrganismMerge_Label>Слиться с {0}</FB_DecentralizedOrganismMerge_Label>
+  <FB_DecentralizedOrganismMerge_Label>Слияние: {0}</FB_DecentralizedOrganismMerge_Label>
   <FB_DecentralizedOrganismMerge_Complete>{PAWN_nameDef} поглощает вторую половину и снова становится цельным организмом.</FB_DecentralizedOrganismMerge_Complete>
   <FB_DecentralizedOrganismMerge_NoPath>Нет пути.</FB_DecentralizedOrganismMerge_NoPath>
   <FB_DecentralizedOrganismMerge_NotAvailable>Половины сейчас недоступны.</FB_DecentralizedOrganismMerge_NotAvailable>

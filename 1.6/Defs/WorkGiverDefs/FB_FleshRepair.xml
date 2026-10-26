@@ -5,8 +5,8 @@
     <defName>FB_FleshRepair</defName>
     <label>regenerate flesh organoids</label>
     <giverClass>FB.WorkGiver_FleshRepair</giverClass>
-    <verb>regenerate</verb>
-    <gerund>regenerating</gerund>
+    <verb>repair</verb>
+    <gerund>repairing</gerund>
     <priorityInType>120</priorityInType>
     <requiredCapacities>
       <li>Manipulation</li>

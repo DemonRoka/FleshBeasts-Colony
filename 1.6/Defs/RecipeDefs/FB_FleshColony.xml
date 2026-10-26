@@ -109,9 +109,9 @@
   <!-- Рецепт: Make Flesh Blade Seed (MakeBudFlesh_FleshBladeSeed) -->
   <RecipeDef ParentName="PlantFleshRecipe_Base">
     <defName>MakeBudFlesh_FleshBladeSeed</defName>
-    <label>Make Flesh Blade Seed</label>
-    <description>Craft a flesh blade seed from organic components and plasteel. Plant it to grow a Bud Flesh Blade that can be harvested into a Flesh Blade.</description>
-    <jobString>Creating Flesh Blade Seed</jobString>
+    <label>Make flesh blade Seed</label>
+    <description>Craft a flesh blade seed from organic components and plasteel. Plant it to grow a flesh blade bud that can be harvested into a flesh blade.</description>
+    <jobString>Creating flesh blade Seed</jobString>
     <workAmount>6000</workAmount>
     <ingredients>
       <li>
@@ -139,9 +139,9 @@
   <!-- Рецепт: Make Crimson Fang Seed (MakeBudFlesh_CrimsonFangSeed) -->
   <RecipeDef ParentName="PlantFleshRecipe_Base">
     <defName>MakeBudFlesh_CrimsonFangSeed</defName>
-    <label>Make Crimson Fang Seed</label>
-    <description>Craft a crimson fang seed from organic components and plasteel. Plant it to grow a Crimson Bulb that can be harvested into a Crimson Fang.</description>
-    <jobString>Creating Crimson Fang Seed</jobString>
+    <label>Make crimson fang Seed</label>
+    <description>Craft a crimson fang seed from organic components and plasteel. Plant it to grow a crimson bulb that can be harvested into a crimson fang.</description>
+    <jobString>Creating crimson fang Seed</jobString>
     <workAmount>6000</workAmount>
     <ingredients>
       <li>
@@ -170,7 +170,7 @@
   <RecipeDef ParentName="PlantFleshRecipe_Base">
     <defName>MakeBudFlesh_FerriteSeed</defName>
     <label>Make Ferrite Seed</label>
-    <description>Craft a ferrite seed from organic components and bioferrite. Plant it to grow a Ferrite Fangroot that can be harvested into a Ferrite Sting.</description>
+    <description>Craft a ferrite seed from organic components and bioferrite. Plant it to grow a ferrite fangroot that can be harvested into a ferrite sting.</description>
     <jobString>Creating Ferrite Seed</jobString>
     <workAmount>6000</workAmount>
     <ingredients>

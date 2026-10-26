@@ -152,7 +152,7 @@
   <TerrainDef ParentName="WaterChestDeepBase">
     <defName>FB_GastricAcid</defName>
     <label>gastric acid</label>
-    <description>Caustic digestive fluid secreted by a flesh colony organ. Anything living that stands in it is burned, and organic matter left inside is broken down into hemogel.</description>
+    <description>Caustic digestive fluid that harms unprotected creatures. Suitable organic matter left in it is digested into hemogel.</description>
     <texturePath>Terrain/Surfaces/GastricAcid</texturePath>
     <pollutedTexturePath>Terrain/Surfaces/GastricAcid</pollutedTexturePath>
     <waterDepthShader>Map/WaterDepth</waterDepthShader>

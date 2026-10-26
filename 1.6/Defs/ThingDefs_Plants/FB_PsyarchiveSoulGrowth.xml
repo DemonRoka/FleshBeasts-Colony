@@ -4,7 +4,7 @@
 	<ThingDef ParentName="PlantBaseNonEdible">
 		<defName>FB_PsyarchiveSoulGrowth</defName>
 		<label>anima growth</label>
-		<description>Fleshy tubes that push out of the flesh around a psyarchive holding an absorbed anima tree while someone accepted by the flesh colony meditates nearby. Once enough have grown, such a colonist can link with the psyarchive for a psylink level or an archived ability; the growth withers when it uproots.</description>
+		<description>Hollow fleshy growths that push out of the flesh around a psyarchive holding an absorbed anima tree while someone accepted by the flesh colony meditates nearby. Once enough have grown, such a colonist can link with the psyarchive for a psylink level or an archived ability; the growth withers when it uproots.</description>
 		<statBases>
 			<MaxHitPoints>85</MaxHitPoints>
 			<Flammability>0.3</Flammability>

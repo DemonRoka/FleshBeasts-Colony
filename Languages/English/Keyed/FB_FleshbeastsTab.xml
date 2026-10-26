@@ -34,23 +34,23 @@
   <FB_FleshbeastMedicalCareTip>Choose medical care for this fleshbeast.</FB_FleshbeastMedicalCareTip>
   <FB_FleshbeastMedicalCareCurrent>Current care: {0}</FB_FleshbeastMedicalCareCurrent>
   <FB_FleshbeastMedicalCareGroupMixed>Mixed</FB_FleshbeastMedicalCareGroupMixed>
-  <FB_FleshThrallCoherenceTitle>Coherence: {0}%</FB_FleshThrallCoherenceTitle>
-  <FB_FleshThrallCoherenceTooltip>Current cohesion: {0}%\nFingerspikes needed for full restoration: {1}</FB_FleshThrallCoherenceTooltip>
-  <FB_FleshThrallCoherenceGroupTitle>Coherence ×{0}: {1}%</FB_FleshThrallCoherenceGroupTitle>
+  <FB_FleshThrallCoherenceTitle>Integrity: {0}%</FB_FleshThrallCoherenceTitle>
+  <FB_FleshThrallCoherenceTooltip>Current integrity: {0}%\nFingerspikes needed for full restoration: {1}</FB_FleshThrallCoherenceTooltip>
+  <FB_FleshThrallCoherenceGroupTitle>Integrity ×{0}: {1}%</FB_FleshThrallCoherenceGroupTitle>
   <FB_FleshThrallCoherenceGroupMinimum>min {0}%</FB_FleshThrallCoherenceGroupMinimum>
-  <FB_FleshThrallCoherenceGroupTooltip>Selected thralls: {0}\nAverage cohesion: {1}%\nLowest cohesion: {2}% ({3})\nNeed restoration: {4}\nFingerspikes needed to restore all: {5}\nAuto-restore enabled: {6} of {0}</FB_FleshThrallCoherenceGroupTooltip>
+  <FB_FleshThrallCoherenceGroupTooltip>Selected thralls: {0}\nAverage integrity: {1}%\nLowest integrity: {2}% ({3})\nNeed restoration: {4}\nFingerspikes needed to restore all: {5}\nAuto-restore enabled: {6} of {0}</FB_FleshThrallCoherenceGroupTooltip>
 
   <FB_FleshThrallRestoreLabel>Restore thrall</FB_FleshThrallRestoreLabel>
   <FB_FleshThrallRestoreDesc>Call nearby fingerspikes to enter the flesh thrall and restore its vitality. With several thralls selected, the most decayed ones are served first.</FB_FleshThrallRestoreDesc>
-  <FB_FleshThrallAutoRestoreDesc>Right-click this command to toggle automatic restoration. When enabled, one available fingerspike is called after the thrall has lost one fingerspike's worth of cohesion, or falls below 20%.</FB_FleshThrallAutoRestoreDesc>
+  <FB_FleshThrallAutoRestoreDesc>Right-click to toggle automatic restoration. An available fingerspike is called when the thrall has lost as much bodily integrity as it can restore, or when integrity falls below 20%.</FB_FleshThrallAutoRestoreDesc>
   <FB_FleshThrallRestoreNoFingerspike>No reachable fingerspikes are available.</FB_FleshThrallRestoreNoFingerspike>
-  <FB_FleshThrallRestoreFullEnough>The thrall is already fully coherent.</FB_FleshThrallRestoreFullEnough>
+  <FB_FleshThrallRestoreFullEnough>The thrall's body is already fully restored.</FB_FleshThrallRestoreFullEnough>
   <FB_FleshThrallRestoreNoJob>Restore job is not configured.</FB_FleshThrallRestoreNoJob>
   <FB_FleshThrallRestoreStarted>{0} fingerspike(s) assigned to restore {1}.</FB_FleshThrallRestoreStarted>
   <FB_FleshThrallRestoreGroupStarted>{0} fingerspike(s) sent to restore flesh thralls.</FB_FleshThrallRestoreGroupStarted>
   <FB_FleshThrallRestoreGroupWaiting>{0} thrall(s) still wait for a free fingerspike.</FB_FleshThrallRestoreGroupWaiting>
   <FB_FleshThrallRestoreAlreadyIncoming>Fingerspikes are already on their way.</FB_FleshThrallRestoreAlreadyIncoming>
-  <FB_FleshThrallConvertLabel>Create flesh thrall</FB_FleshThrallConvertLabel>
+  <FB_FleshThrallConvertLabel>Create thrall</FB_FleshThrallConvertLabel>
   <FB_FleshThrallConvertDesc>Send enough fingerspikes into a corpse to bind it as a flesh thrall.</FB_FleshThrallConvertDesc>
   <FB_FleshThrallConvertInspect>Binding {0}: {1}/{2} fingerspikes.</FB_FleshThrallConvertInspect>
   <FB_FleshThrallConvertInvalidTarget>Invalid flesh thrall target.</FB_FleshThrallConvertInvalidTarget>
@@ -68,7 +68,7 @@
   
   <FB_Fleshbeasts_HideNonCommandableTooltip>Toggle non-commandable fleshbeasts in this list.</FB_Fleshbeasts_HideNonCommandableTooltip>
   <FB_FormFleshbeastMassZone_Label>Fleshbeast mass zone</FB_FormFleshbeastMassZone_Label>
-  <FB_FormFleshbeastMassZone_Desc>Designate a zone for keeping large numbers of fleshbeasts with less strain on the game. Visible movement continues inside, but simplified simulation replaces each creature's normal behavior. Fleshbeasts can be released manually and emerge automatically when an enemy approaches.\n\nThis feature is intended primarily to preserve performance between battles, when large numbers of fleshbeasts would otherwise be idle. Use it at your discretion. Please do not exploit the simplified simulation to bypass gameplay restrictions.</FB_FormFleshbeastMassZone_Desc>
+  <FB_FormFleshbeastMassZone_Desc>Designate a zone where idle fleshbeasts rest together as a flesh mass. They can be released manually and emerge automatically when an enemy approaches.\n\nHelp: the zone reduces the game's workload when many fleshbeasts are present. Visible movement continues, but individual behavior is simplified. This feature is primarily intended for rest between battles. Use it at your discretion; please do not exploit the simplified simulation to bypass gameplay restrictions.</FB_FormFleshbeastMassZone_Desc>
   <FB_FleshbeastMassZone_Label>fleshbeast mass zone</FB_FleshbeastMassZone_Label>
   <FB_FleshbeastMassZone_Inspect>Contained fleshbeasts: {0}. Total body size: {1}. Capacity: {2}.</FB_FleshbeastMassZone_Inspect>
   <FB_FleshbeastMassZone_InvalidPawn>That fleshbeast cannot enter the mass zone.</FB_FleshbeastMassZone_InvalidPawn>
@@ -76,11 +76,11 @@
   <FB_FleshbeastMassZone_NoCapacity>The mass zone does not have enough free capacity.</FB_FleshbeastMassZone_NoCapacity>
   <FB_FleshbeastMassZone_CannotStorePawn>The fleshbeast could not enter the mass zone.</FB_FleshbeastMassZone_CannotStorePawn>
   <FB_FleshbeastMassZone_LoadGizmo>Send to zone</FB_FleshbeastMassZone_LoadGizmo>
-  <FB_FleshbeastMassZone_LoadGizmoDesc>Select fleshbeasts on this map and send them to the mass zone, where their behavior uses simplified simulation.</FB_FleshbeastMassZone_LoadGizmoDesc>
+  <FB_FleshbeastMassZone_LoadGizmoDesc>Select fleshbeasts on this map and send them to the flesh mass zone to rest between orders.</FB_FleshbeastMassZone_LoadGizmoDesc>
   <FB_FleshbeastMassZone_UnloadAll>Unload all</FB_FleshbeastMassZone_UnloadAll>
   <FB_FleshbeastMassZone_UnloadAllDesc>Release all fleshbeasts from this mass zone.</FB_FleshbeastMassZone_UnloadAllDesc>
   <FB_FleshbeastMassZone_UnloadKindShort>Unload</FB_FleshbeastMassZone_UnloadKindShort>
-  <FB_FleshbeastMassZone_AssignTooltip>Mass zone: {0}\n\nAssigned fleshbeasts with no orders, commands or lords return here on their own and fold into the mass. Picking an allowed area cancels the assignment.</FB_FleshbeastMassZone_AssignTooltip>
+  <FB_FleshbeastMassZone_AssignTooltip>Flesh mass zone: {0}\n\nAssigned fleshbeasts return here and merge into the mass when they have no orders and do not belong to a controlled group. Selecting an allowed area cancels the assignment.</FB_FleshbeastMassZone_AssignTooltip>
   <FB_FleshbeastMassZone_InspectAssigned>Assigned fleshbeasts: {0}.</FB_FleshbeastMassZone_InspectAssigned>
   <FB_FleshbeastMassZone_UnloadKindTooltip>Release selected {0} from this mass zone.</FB_FleshbeastMassZone_UnloadKindTooltip>
   <FB_FleshbeastMassZone_UnloadKindSlider>Release {1} of {2} {0}.</FB_FleshbeastMassZone_UnloadKindSlider>
@@ -95,7 +95,7 @@
   <FB_FleshbeastMassZone_FilterHeader>Allowed fleshbeast types for this zone.</FB_FleshbeastMassZone_FilterHeader>
   <FB_FleshbeastMassZone_AllowAll>Allow all</FB_FleshbeastMassZone_AllowAll>
   <FB_FleshbeastMassZone_ForbidAll>Forbid all</FB_FleshbeastMassZone_ForbidAll>
-  <FB_FleshbeastMassZone_SearchTooltip>Filter this list by name or defName.</FB_FleshbeastMassZone_SearchTooltip>
+  <FB_FleshbeastMassZone_SearchTooltip>Filter this list by name.</FB_FleshbeastMassZone_SearchTooltip>
   <FB_FleshbeastMassZone_NoKinds>No fleshbeast types found.</FB_FleshbeastMassZone_NoKinds>
   <FB_FleshbeastMassZone_FilterTooltip>Only allowed types can be loaded into this mass zone.</FB_FleshbeastMassZone_FilterTooltip>
   <FB_FleshbeastMassZone_ContentsTab>Contents</FB_FleshbeastMassZone_ContentsTab>

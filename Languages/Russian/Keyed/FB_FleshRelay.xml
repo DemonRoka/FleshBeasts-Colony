@@ -8,7 +8,7 @@
   <FB_FleshRelayDroppedMessage>Фракция «{0}» окопалась, и на её лагерь опускается ретрансляторная антенна.</FB_FleshRelayDroppedMessage>
 
   <!-- Срывы -->
-  <FB_FleshRelayBerserkStarted>{0} окончательно потерял улей и бросился на колонию. Эту тварь уже не вернуть - только добить.</FB_FleshRelayBerserkStarted>
+  <FB_FleshRelayBerserkStarted>{0} теряет связь с колонией и нападает на неё. Вернуть это существо под контроль уже нельзя.</FB_FleshRelayBerserkStarted>
   <FB_FleshRelayLureStarted>{0} поддался зову ретранслятора и уходит к клетке.</FB_FleshRelayLureStarted>
   <FB_FleshRelayBeastTaken>{0} зашёл в клетку ретранслятора. Пленных: {1} / {2}.</FB_FleshRelayBeastTaken>
   <FB_FleshRelayMadnessLifted>Зов оборвался. Тварей развернулось на полпути: {0}.</FB_FleshRelayMadnessLifted>

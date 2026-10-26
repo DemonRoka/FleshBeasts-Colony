@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <FB_LivingWeaponThought_SoothingPulse.stages.0.label>успокаивающий пульс {WEAPON}</FB_LivingWeaponThought_SoothingPulse.stages.0.label>
+  <FB_LivingWeaponThought_SoothingPulse.stages.0.label>успокаивающий пульс: {WEAPON}</FB_LivingWeaponThought_SoothingPulse.stages.0.label>
   <FB_LivingWeaponThought_SoothingPulse.stages.0.description>{WEAPON} медленно пульсирует в руке. Этот ритм выравнивает мои мысли.</FB_LivingWeaponThought_SoothingPulse.stages.0.description>
-  <FB_LivingWeaponThought_PredatoryAppetite.stages.0.label>хищный голод {WEAPON}</FB_LivingWeaponThought_PredatoryAppetite.stages.0.label>
+  <FB_LivingWeaponThought_PredatoryAppetite.stages.0.label>хищный голод: {WEAPON}</FB_LivingWeaponThought_PredatoryAppetite.stages.0.label>
   <FB_LivingWeaponThought_PredatoryAppetite.stages.0.description>{WEAPON} хочет свежего мяса и быстрых ударов. Его голод делает насилие простым.</FB_LivingWeaponThought_PredatoryAppetite.stages.0.description>
-  <FB_LivingWeaponThought_RestlessNerves.stages.0.label>беспокойные нервы {WEAPON}</FB_LivingWeaponThought_RestlessNerves.stages.0.label>
+  <FB_LivingWeaponThought_RestlessNerves.stages.0.label>беспокойные нервы: {WEAPON}</FB_LivingWeaponThought_RestlessNerves.stages.0.label>
   <FB_LivingWeaponThought_RestlessNerves.stages.0.description>{WEAPON} подрагивает и шепчет через рукоять. Его случайные импульсы ползут у меня под кожей.</FB_LivingWeaponThought_RestlessNerves.stages.0.description>
-  <FB_LivingWeaponThought_GuardingWill.stages.0.label>под защитой {WEAPON}</FB_LivingWeaponThought_GuardingWill.stages.0.label>
-  <FB_LivingWeaponThought_GuardingWill.stages.0.description>Я чувствую, как {WEAPON} настороженно следит за всем вокруг. С ним я чувствую себя под защитой.</FB_LivingWeaponThought_GuardingWill.stages.0.description>
+  <FB_LivingWeaponThought_GuardingWill.stages.0.label>живое оружие защищает: {WEAPON}</FB_LivingWeaponThought_GuardingWill.stages.0.label>
+  <FB_LivingWeaponThought_GuardingWill.stages.0.description>Я чувствую, как моё живое оружие следит за всем вокруг. Рядом с ним спокойно. Мой защитник — {WEAPON}.</FB_LivingWeaponThought_GuardingWill.stages.0.description>
 </LanguageData>

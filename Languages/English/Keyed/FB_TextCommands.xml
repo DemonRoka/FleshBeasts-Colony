@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<FB_PitBurrowEnterLabel>Descend</FB_PitBurrowEnterLabel>
+	<FB_SkillQuintessenceUseLabel>Absorb experience</FB_SkillQuintessenceUseLabel>
+	<FB_SkillQuintessenceUseDesc>Choose a pawn to absorb the quintessence and gain its stored experience.</FB_SkillQuintessenceUseDesc>
+	<FB_FleshSeedPlantLabel>Plant</FB_FleshSeedPlantLabel>
+	<FB_FleshSeedPlantDesc>Choose a planting location. Plant: {0}.</FB_FleshSeedPlantDesc>
+	<FB_FleshSeedCancelLabel>Cancel planting</FB_FleshSeedCancelLabel>
+	<FB_FleshSeedCancelDesc>Cancel assigned planting. Plant: {0}.</FB_FleshSeedCancelDesc>
+</LanguageData>

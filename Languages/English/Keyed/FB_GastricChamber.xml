@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <FB_GastricAcidSpewer_ToggleLabel>Spread gastric acid</FB_GastricAcidSpewer_ToggleLabel>
-  <FB_GastricAcidSpewer_ToggleDesc>Spread digestive acid from this organ into nearby valid cells. Turning it off makes the organ absorb acid back cell by cell, starting from the edge of the pool farthest from every spewer. While another turned-on spewer still feeds a shared pool, this organ only takes back as many cells as it has spread; once every spewer on the pool is off, the whole pool is absorbed.</FB_GastricAcidSpewer_ToggleDesc>
+  <FB_GastricAcidSpewer_ToggleLabel>Spread fluid</FB_GastricAcidSpewer_ToggleLabel>
+  <FB_GastricAcidSpewer_ToggleDesc>Spread gastric fluid onto suitable cells near the organ.\n\nWhen switched off, the organ draws fluid back from the edge farthest from all spewers. If other spewers still feed the shared pool, this organ removes only as many cells as it filled. Once every spewer is off, the entire pool is drained.</FB_GastricAcidSpewer_ToggleDesc>
   
   
   <FB_GastricAcidSpewer_InspectIdle>Gastric acid: dormant</FB_GastricAcidSpewer_InspectIdle>
   <FB_GastricAcidSpewer_InspectSpreading>Gastric acid: spreading ({0} cells)</FB_GastricAcidSpewer_InspectSpreading>
   <FB_GastricAcidSpewer_InspectAbsorbing>Gastric acid: absorbing ({0} cells)</FB_GastricAcidSpewer_InspectAbsorbing>
-  <FB_GastricAcidSpewer_InspectReserve>Acid cell capacity: {0} / {1} cells</FB_GastricAcidSpewer_InspectReserve>
-  <FB_GastricAcidSpewer_FuelInspect>External digestive fuel: {0} nutrition. Hemogel output: {1}/h.</FB_GastricAcidSpewer_FuelInspect>
-  <FB_GastricAcidSpewer_HemogelEconomyDetail>External digestive fuel: {0} nutrition; output {1}/h</FB_GastricAcidSpewer_HemogelEconomyDetail>
+  <FB_GastricAcidSpewer_InspectReserve>Gastric fluid coverage: {0} / {1} cells</FB_GastricAcidSpewer_InspectReserve>
+  <FB_GastricAcidSpewer_FuelInspect>Organic matter in the pool: {0} nutrition. Hemogel output: {1}/h.</FB_GastricAcidSpewer_FuelInspect>
+  <FB_GastricAcidSpewer_HemogelEconomyDetail>Organic matter in the pool: {0} nutrition; output {1}/h</FB_GastricAcidSpewer_HemogelEconomyDetail>
   <FB_ColonyBrain_Structure_GastricAcidSpewer_Label>Gastric Acid Spewer</FB_ColonyBrain_Structure_GastricAcidSpewer_Label>
   <FB_ColonyBrainTendrilHauling_Inspect>Hauling tendrils: {0} active. Limit: {1} / {2}. Tendril upkeep: {3}/h.</FB_ColonyBrainTendrilHauling_Inspect>
   <FB_ColonyBrainTendrilHauling_Resting>Dormant with no work: {0}.</FB_ColonyBrainTendrilHauling_Resting>

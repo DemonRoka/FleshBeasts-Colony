@@ -11,7 +11,7 @@
   <FB_GrowOrganoidCopy_Desc>Выбрать место, где плотяной архитектор вырастит ещё один органоид: {0}.</FB_GrowOrganoidCopy_Desc>
   <FB_CopyFleshmassBoneWallPlan_Label>Разместить план усиленной стены</FB_CopyFleshmassBoneWallPlan_Label>
   <FB_CopyFleshmassBoneWallPlan_Desc>Выбрать существующие стены плоти, которые колония должна усилить.</FB_CopyFleshmassBoneWallPlan_Desc>
-  <FB_HemogelCostLine>Стоимость гемогеля: {0}</FB_HemogelCostLine>
+  <FB_HemogelCostLine>Расход гемогеля: {0}</FB_HemogelCostLine>
   <FB_HemogelNetworkReserveCostLine>Расход из резерва сети: {0}</FB_HemogelNetworkReserveCostLine>
   <FB_HemogelNetworkBaseConsumptionLine>Базовое потребление сети: {0}/ч</FB_HemogelNetworkBaseConsumptionLine>
   <FB_ClearColonyEyes_Label>Удалить глаза колонии</FB_ClearColonyEyes_Label>
@@ -38,7 +38,7 @@
   <FB_FleshPlantCellBlocked>Клетка должна быть пустой.</FB_FleshPlantCellBlocked>
   <FB_FleshPlantTreeRoofed>Древо плоти не может расти под крышей.</FB_FleshPlantTreeRoofed>
   <FB_EmbryoGrowthOnePerMap>{0} уже есть на этой карте.</FB_EmbryoGrowthOnePerMap>
-  <FB_EmbryoGrowthForbiddenInPocketMap>{0} нельзя выращивать на луне плоти или внутри карманных карт.</FB_EmbryoGrowthForbiddenInPocketMap>
+  <FB_EmbryoGrowthForbiddenInPocketMap>{0} нельзя выращивать на луне плоти или внутри карманных локаций.</FB_EmbryoGrowthForbiddenInPocketMap>
   <FB_MaturationBlocked>Созревание {0} заблокировано: {1}</FB_MaturationBlocked>
   <FB_DevFinishMaturation>РАЗР: завершить созревание</FB_DevFinishMaturation>
   <FB_DevFinishMaturationDesc>Мгновенно завершает созревание эмбриона, если взрослую форму можно разместить.</FB_DevFinishMaturationDesc>
@@ -52,36 +52,36 @@
   <FB_FleshRelocationAlreadyHere>Выберите другое место.</FB_FleshRelocationAlreadyHere>
   <FB_LocalFleshRelocationNoMap>Локальная карта недоступна.</FB_LocalFleshRelocationNoMap>
   <FB_FleshMoonRelocationNoLinkedMap>С этой карты нет доступной связанной поверхности или карты луны плоти.</FB_FleshMoonRelocationNoLinkedMap>
-  <FB_FleshMoonRelocationSelectSource>Выберите мясную постройку для переноса.</FB_FleshMoonRelocationSelectSource>
+  <FB_FleshMoonRelocationSelectSource>Выберите плотяную постройку для переноса.</FB_FleshMoonRelocationSelectSource>
   <FB_FleshMoonRelocationSelectDestination>Выберите место для {0}.</FB_FleshMoonRelocationSelectDestination>
   <FB_FleshMoonRelocationInvalidSource>Выберите допустимую размещённую постройку из плоти.</FB_FleshMoonRelocationInvalidSource>
   <FB_FleshMoonRelocationMustBeBuilding>Переносить можно только постройки.</FB_FleshMoonRelocationMustBeBuilding>
   <FB_FleshMoonRelocationMustBeFleshBuilding>Переносить можно только органические постройки из плоти.</FB_FleshMoonRelocationMustBeFleshBuilding>
-  <FB_FleshMoonRelocationMustBePlayerOwned>Переносить можно только управляемые игроком мясные постройки.</FB_FleshMoonRelocationMustBePlayerOwned>
+  <FB_FleshMoonRelocationMustBePlayerOwned>Переносить можно только управляемые игроком плотяные постройки.</FB_FleshMoonRelocationMustBePlayerOwned>
   
   <FB_FleshMoonRelocationForbiddenBuilding>Эта постройка закреплена в системах колонии и не может быть перенесена.</FB_FleshMoonRelocationForbiddenBuilding>
   <FB_FleshMoonRelocationAttachedUnsupported>Постройки с настенными креплениями и сами крепления пока нельзя переносить.</FB_FleshMoonRelocationAttachedUnsupported>
   <FB_FleshMoonRelocationCannotPlaceHere>Здесь нельзя разместить переносимую постройку.</FB_FleshMoonRelocationCannotPlaceHere>
   <FB_FleshMoonRelocationTargetBlocked>Площадь назначения должна быть свободна от построек и вещей.</FB_FleshMoonRelocationTargetBlocked>
-  <FB_FleshMoonRelocationBlockedByAcid>Уберите желудочную кислоту, прежде чем переносить сюда постройку.</FB_FleshMoonRelocationBlockedByAcid>
+  <FB_FleshMoonRelocationBlockedByAcid>Уберите желудочный сок, прежде чем переносить сюда постройку.</FB_FleshMoonRelocationBlockedByAcid>
   <FB_FleshMoonRelocationTargetReserved>Другая постройка уже переносится в эту площадь.</FB_FleshMoonRelocationTargetReserved>
   <FB_FleshMoonRelocationInProgress>Эта постройка уже переносится.</FB_FleshMoonRelocationInProgress>
-  <FB_FleshMoonRelocationStarted>{0} начала поглощаться для переноса.</FB_FleshMoonRelocationStarted>
+  <FB_FleshMoonRelocationStarted>Начато поглощение для переноса: {0}.</FB_FleshMoonRelocationStarted>
   <FB_FleshMoonRelocationFailed>Не удалось перенести {0}; постройка возвращена назад, если это было возможно.</FB_FleshMoonRelocationFailed>
-  <FB_FleshMoonRelocationCompleted>{0} перенесена.</FB_FleshMoonRelocationCompleted>
+  <FB_FleshMoonRelocationCompleted>Перенос завершён: {0}.</FB_FleshMoonRelocationCompleted>
   <FB_FleshMoonRelocationCanceled>Перенос {0} отменён.</FB_FleshMoonRelocationCanceled>
   <FB_FleshMoonRelocationCancel_Label>Отменить перенос</FB_FleshMoonRelocationCancel_Label>
   <FB_FleshMoonRelocationCancel_Desc>Остановить перенос, пока постройка ещё поглощается.</FB_FleshMoonRelocationCancel_Desc>
   <FB_FleshMoonRelocationCancelCannot>Этот перенос уже нельзя отменить.</FB_FleshMoonRelocationCancelCannot>
-  <FB_VeinAnchorAlreadyHere>Здесь уже есть архонт.</FB_VeinAnchorAlreadyHere>
-  <FB_VeinAnchorBend_Label>Архонт вены: изгиб</FB_VeinAnchorBend_Label>
-  <FB_VeinAnchorBend_Desc>Отметить точку, через которую вены должны изгибаться. Архонт изгиба влияет только на вены, проходящие рядом по пути к органу.</FB_VeinAnchorBend_Desc>
-  <FB_VeinAnchorRemove_Label>Архонт вены: убрать</FB_VeinAnchorRemove_Label>
-  <FB_VeinAnchorRemove_Desc>Убрать архонты вен любого типа в выбранных клетках.</FB_VeinAnchorRemove_Desc>
+  <FB_VeinAnchorAlreadyHere>Здесь уже есть узел.</FB_VeinAnchorAlreadyHere>
+  <FB_VeinAnchorBend_Label>Узел вены: изгиб</FB_VeinAnchorBend_Label>
+  <FB_VeinAnchorBend_Desc>Отметить точку, через которую вены должны изгибаться. Узел изгиба влияет только на вены, проходящие рядом по пути к органу.</FB_VeinAnchorBend_Desc>
+  <FB_VeinAnchorRemove_Label>Узел вены: убрать</FB_VeinAnchorRemove_Label>
+  <FB_VeinAnchorRemove_Desc>Убрать узлы вен любого типа в выбранных клетках.</FB_VeinAnchorRemove_Desc>
   <FB_VeinAnchorModeHint>Правый клик по кнопке переключает режим. Разветвления показаны красным, окончания — оранжевым, изгибы — голубым.</FB_VeinAnchorModeHint>
   <FB_VeinAnchorModeActive>(текущий)</FB_VeinAnchorModeActive>
-  <FB_VeinAnchorBranch_Label>Архонт вены: разветвление</FB_VeinAnchorBranch_Label>
+  <FB_VeinAnchorBranch_Label>Узел вены: разветвление</FB_VeinAnchorBranch_Label>
   <FB_VeinAnchorBranch_Desc>Точка, от которой могут начинаться вены, как от самого сердца. Сердце протягивает к ней канал, а органы, точки окончания и дальнейшие разветвления, оказавшиеся ближе к ней, чем к сердцу, питаются уже отсюда.</FB_VeinAnchorBranch_Desc>
-  <FB_VeinAnchorEndpoint_Label>Архонт вены: окончание</FB_VeinAnchorEndpoint_Label>
-  <FB_VeinAnchorEndpoint_Desc>Точка, к которой вена прорастает и на которой заканчивается, даже если органа там нет. Питается от ближайшего источника — сердца или архонта разветвления.</FB_VeinAnchorEndpoint_Desc>
+  <FB_VeinAnchorEndpoint_Label>Узел вены: окончание</FB_VeinAnchorEndpoint_Label>
+  <FB_VeinAnchorEndpoint_Desc>Точка, к которой вена прорастает и на которой заканчивается, даже если органа там нет. Питается от ближайшего источника — сердца или узла разветвления.</FB_VeinAnchorEndpoint_Desc>
 </LanguageData>

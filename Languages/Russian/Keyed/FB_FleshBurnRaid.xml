@@ -9,9 +9,9 @@
   <FB_FleshBurnRaidRepelled>Отряд выжигателей фракции «{0}» отброшен от клетки {1}.</FB_FleshBurnRaidRepelled>
 
   <!-- Мировой объект -->
-  <FB_FleshBurnPartyInspectBurning>Выжигает покров\nСила: {0}\nКлетка будет потеряна через: {1}\nЕщё заберёт клеток: {2}</FB_FleshBurnPartyInspectBurning>
+  <FB_FleshBurnPartyInspectBurning>Выжигает покров\nСила: {0}\nКлетка будет потеряна через: {1}\nОставшиеся цели: {2}</FB_FleshBurnPartyInspectBurning>
   <FB_FleshBurnPartyInspectBattle>Идёт бой на этой клетке\nСила: {0}</FB_FleshBurnPartyInspectBattle>
-  <FB_FleshBurnPartyInspectStandoff>Скованы боевым отрядом\nСила: {0}\nЕщё заберёт клеток: {1}</FB_FleshBurnPartyInspectStandoff>
+  <FB_FleshBurnPartyInspectStandoff>Скованы боевым отрядом\nСила: {0}\nОставшиеся цели: {1}</FB_FleshBurnPartyInspectStandoff>
   <FB_FleshBurnPartyCompositionTab>Состав</FB_FleshBurnPartyCompositionTab>
   <FB_FleshBurnPartyCompositionSummary>{0}: бойцов {1}, сила {2}</FB_FleshBurnPartyCompositionSummary>
 

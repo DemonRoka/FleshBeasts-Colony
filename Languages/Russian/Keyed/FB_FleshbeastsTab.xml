@@ -15,7 +15,7 @@
   <FB_Fleshbeasts_GroupDragTooltip>Протяните по строкам и отпустите, чтобы назначить им группу из меню. С зажатым Shift сразу назначается группа строки, с которой начали протяжку.</FB_Fleshbeasts_GroupDragTooltip>
   <FB_Fleshbeasts_ManageGroups>Управление группами...</FB_Fleshbeasts_ManageGroups>
   <FB_Fleshbeasts_New>Создать</FB_Fleshbeasts_New>
-  <FB_Fleshbeasts_Rename>Имя</FB_Fleshbeasts_Rename>
+  <FB_Fleshbeasts_Rename>Переименовать</FB_Fleshbeasts_Rename>
   <FB_Fleshbeasts_Delete>Удалить</FB_Fleshbeasts_Delete>
   <FB_Fleshbeasts_DeleteConfirm>Удалить группу {0}? Её активный приказ будет отменён, а участники останутся без группы.</FB_Fleshbeasts_DeleteConfirm>
   <FB_Fleshbeasts_RenamePrompt>Введите новое название группы.</FB_Fleshbeasts_RenamePrompt>
@@ -34,76 +34,76 @@
   <FB_FleshbeastMedicalCareTip>Выберите уровень медицинского ухода для этого биошмата.</FB_FleshbeastMedicalCareTip>
   <FB_FleshbeastMedicalCareCurrent>Текущий уход: {0}</FB_FleshbeastMedicalCareCurrent>
   <FB_FleshbeastMedicalCareGroupMixed>Разное</FB_FleshbeastMedicalCareGroupMixed>
-  <FB_FleshThrallCoherenceTitle>Сцепление: {0}%</FB_FleshThrallCoherenceTitle>
-  <FB_FleshThrallCoherenceTooltip>Текущее сцепление: {0}%\nНужно пальцешипов до полного восстановления: {1}</FB_FleshThrallCoherenceTooltip>
-  <FB_FleshThrallCoherenceGroupTitle>Сцепление ×{0}: {1}%</FB_FleshThrallCoherenceGroupTitle>
+  <FB_FleshThrallCoherenceTitle>Целостность: {0}%</FB_FleshThrallCoherenceTitle>
+  <FB_FleshThrallCoherenceTooltip>Текущая целостность тела: {0}%\nНужно пальцешипов до полного восстановления: {1}</FB_FleshThrallCoherenceTooltip>
+  <FB_FleshThrallCoherenceGroupTitle>Целостность ×{0}: {1}%</FB_FleshThrallCoherenceGroupTitle>
   <FB_FleshThrallCoherenceGroupMinimum>мин. {0}%</FB_FleshThrallCoherenceGroupMinimum>
-  <FB_FleshThrallCoherenceGroupTooltip>Выбрано рабов: {0}\nСреднее сцепление: {1}%\nСамое слабое: {2}% ({3})\nНуждаются в восстановлении: {4}\nПальцешипов, чтобы восстановить всех: {5}\nАвтовосстановление включено: {6} из {0}</FB_FleshThrallCoherenceGroupTooltip>
+  <FB_FleshThrallCoherenceGroupTooltip>Выбрано рабов: {0}\nСредняя целостность тела: {1}%\nМинимальная целостность: {2}% ({3})\nНуждаются в восстановлении: {4}\nПальцешипов, чтобы восстановить всех: {5}\nАвтовосстановление включено: {6} из {0}</FB_FleshThrallCoherenceGroupTooltip>
 
   <FB_FleshThrallRestoreLabel>Восстановить раба</FB_FleshThrallRestoreLabel>
   <FB_FleshThrallRestoreDesc>Позвать ближайших пальцешипов, чтобы они внедрились в плотяного раба и восстановили его жизнеспособность. Если выбрано несколько рабов, первыми помощь получают самые истощённые.</FB_FleshThrallRestoreDesc>
-  <FB_FleshThrallAutoRestoreDesc>Щёлкните правой кнопкой по этой команде, чтобы включить автоматическое восстановление. В этом режиме один доступный пальцешип вызывается после потери объёма сцепления, который он может восполнить, или при падении ниже 20%.</FB_FleshThrallAutoRestoreDesc>
+  <FB_FleshThrallAutoRestoreDesc>Правый щелчок включает автоматическое восстановление. Доступный пальцешип будет вызван, когда потеря целостности тела достигнет объёма, который он может восполнить, или когда целостность упадёт ниже 20%.</FB_FleshThrallAutoRestoreDesc>
   <FB_FleshThrallRestoreNoFingerspike>Нет доступных пальцешипов, способных добраться до цели.</FB_FleshThrallRestoreNoFingerspike>
-  <FB_FleshThrallRestoreFullEnough>Раб уже полностью сцеплен.</FB_FleshThrallRestoreFullEnough>
+  <FB_FleshThrallRestoreFullEnough>Тело раба уже полностью восстановлено.</FB_FleshThrallRestoreFullEnough>
   <FB_FleshThrallRestoreNoJob>Работа восстановления не настроена.</FB_FleshThrallRestoreNoJob>
   <FB_FleshThrallRestoreStarted>{0} пальцешип(ов) назначено на восстановление {1}.</FB_FleshThrallRestoreStarted>
   <FB_FleshThrallRestoreGroupStarted>{0} пальцешип(ов) отправлено восстанавливать плотяных рабов.</FB_FleshThrallRestoreGroupStarted>
   <FB_FleshThrallRestoreGroupWaiting>Ещё {0} раб(ов) ждут свободного пальцешипа.</FB_FleshThrallRestoreGroupWaiting>
   <FB_FleshThrallRestoreAlreadyIncoming>Пальцешипы уже в пути.</FB_FleshThrallRestoreAlreadyIncoming>
-  <FB_FleshThrallConvertLabel>Создать плотяного раба</FB_FleshThrallConvertLabel>
+  <FB_FleshThrallConvertLabel>Создать раба</FB_FleshThrallConvertLabel>
   <FB_FleshThrallConvertDesc>Отправить нужное число пальцешипов в труп, чтобы связать тело как плотяного раба.</FB_FleshThrallConvertDesc>
   <FB_FleshThrallConvertInspect>Связывание {0}: {1}/{2} пальцешипов.</FB_FleshThrallConvertInspect>
-  <FB_FleshThrallConvertInvalidTarget>Недопустимая цель для мясного раба.</FB_FleshThrallConvertInvalidTarget>
-  <FB_FleshThrallConvertDessicatedCorpse>Труп уже высох до костей и не подходит для связывания как мясной раб.</FB_FleshThrallConvertDessicatedCorpse>
-  <FB_FleshThrallConvertAlreadyThrall>Это тело уже является мясным рабом.</FB_FleshThrallConvertAlreadyThrall>
-  <FB_FleshThrallConvertAlreadyAssigned>Создание мясного раба уже выполняется.</FB_FleshThrallConvertAlreadyAssigned>
-  <FB_FleshThrallConvertNoJob>Работа создания мясного раба не настроена.</FB_FleshThrallConvertNoJob>
+  <FB_FleshThrallConvertInvalidTarget>Недопустимая цель для плотяного раба.</FB_FleshThrallConvertInvalidTarget>
+  <FB_FleshThrallConvertDessicatedCorpse>Труп уже высох до костей и не подходит для связывания как плотяной раб.</FB_FleshThrallConvertDessicatedCorpse>
+  <FB_FleshThrallConvertAlreadyThrall>Это тело уже является плотяным рабом.</FB_FleshThrallConvertAlreadyThrall>
+  <FB_FleshThrallConvertAlreadyAssigned>Создание плотяного раба уже выполняется.</FB_FleshThrallConvertAlreadyAssigned>
+  <FB_FleshThrallConvertNoJob>Работа создания плотяного раба не настроена.</FB_FleshThrallConvertNoJob>
   <FB_FleshThrallConvertNotEnoughFingerspikes>Нужно {0} доступных пальцешип(ов); до цели могут добраться только {1}.</FB_FleshThrallConvertNotEnoughFingerspikes>
   <FB_FleshThrallConvertCannotStart>Пальцешипы не смогли начать связывание.</FB_FleshThrallConvertCannotStart>
   <FB_FleshThrallConvertAssigned>{0} пальцешип(ов) назначено на связывание {1}.</FB_FleshThrallConvertAssigned>
-  <FB_FleshThrallConvertSuccess>{0} стал мясным рабом.</FB_FleshThrallConvertSuccess>
+  <FB_FleshThrallConvertSuccess>{0} стал плотяным рабом.</FB_FleshThrallConvertSuccess>
   <FB_FleshThrallConvertStalled>Связывание {0} приостановлено: нужно ещё {1} пальцешип(ов), {2} уже доставлено.</FB_FleshThrallConvertStalled>
-  <FB_FleshThrallConvertCancelled>Связывание мясного раба отменено; {0} доставленных пальцешип(ов) потрачено впустую.</FB_FleshThrallConvertCancelled>
+  <FB_FleshThrallConvertCancelled>Связывание плотяного раба отменено; {0} доставленных пальцешип(ов) потрачено впустую.</FB_FleshThrallConvertCancelled>
   
   
-  <FB_Fleshbeasts_HideNonCommandableTooltip>Показать или скрыть некомандуемых биошматов в списке.</FB_Fleshbeasts_HideNonCommandableTooltip>
-  <FB_FormFleshbeastMassZone_Label>Зона мясной массы</FB_FormFleshbeastMassZone_Label>
-  <FB_FormFleshbeastMassZone_Desc>Обозначить зону для содержания больших скоплений биошматов с меньшей нагрузкой на игру. Внутри сохраняется видимое движение, но вместо обычного поведения каждого существа используется упрощённый расчёт. Биошматов можно выпустить вручную; при приближении врага они выходят автоматически.\n\nЭта функция создана прежде всего для сохранения производительности между боями, когда многочисленные биошматы простаивают. Используйте её по своему усмотрению. Просьба не злоупотреблять особенностями упрощённого расчёта для обхода игровых ограничений.</FB_FormFleshbeastMassZone_Desc>
-  <FB_FleshbeastMassZone_Label>зона мясной массы</FB_FleshbeastMassZone_Label>
+  <FB_Fleshbeasts_HideNonCommandableTooltip>Показать или скрыть биошматов, которым нельзя отдавать приказы.</FB_Fleshbeasts_HideNonCommandableTooltip>
+  <FB_FormFleshbeastMassZone_Label>Зона плотяной массы</FB_FormFleshbeastMassZone_Label>
+  <FB_FormFleshbeastMassZone_Desc>Обозначить зону, где биошматы отдыхают между приказами, сливаясь в плотяную массу. Их можно выпустить вручную; при приближении врага они выходят автоматически.\n\nСправка: зона уменьшает нагрузку на игру при большом числе биошматов. Видимое движение сохраняется, но поведение отдельных существ рассчитывается упрощённо. Эта функция предназначена прежде всего для отдыха между боями. Используйте её по своему усмотрению; просьба не использовать особенности упрощённого расчёта для обхода игровых ограничений.</FB_FormFleshbeastMassZone_Desc>
+  <FB_FleshbeastMassZone_Label>зона плотяной массы</FB_FleshbeastMassZone_Label>
   <FB_FleshbeastMassZone_Inspect>Биошматов внутри: {0}. Общий размер тел: {1}. Вместимость: {2}.</FB_FleshbeastMassZone_Inspect>
-  <FB_FleshbeastMassZone_InvalidPawn>Этот биошмат не может войти в зону мясной массы.</FB_FleshbeastMassZone_InvalidPawn>
-  <FB_FleshbeastMassZone_InvalidZone>Зона мясной массы больше недействительна.</FB_FleshbeastMassZone_InvalidZone>
-  <FB_FleshbeastMassZone_NoCapacity>В зоне мясной массы не хватает свободной вместимости.</FB_FleshbeastMassZone_NoCapacity>
-  <FB_FleshbeastMassZone_CannotStorePawn>Биошмат не смог войти в зону мясной массы.</FB_FleshbeastMassZone_CannotStorePawn>
+  <FB_FleshbeastMassZone_InvalidPawn>Этот биошмат не может войти в зону плотяной массы.</FB_FleshbeastMassZone_InvalidPawn>
+  <FB_FleshbeastMassZone_InvalidZone>Зона плотяной массы больше недействительна.</FB_FleshbeastMassZone_InvalidZone>
+  <FB_FleshbeastMassZone_NoCapacity>В зоне плотяной массы не хватает свободной вместимости.</FB_FleshbeastMassZone_NoCapacity>
+  <FB_FleshbeastMassZone_CannotStorePawn>Биошмат не смог войти в зону плотяной массы.</FB_FleshbeastMassZone_CannotStorePawn>
   <FB_FleshbeastMassZone_LoadGizmo>Направить в зону</FB_FleshbeastMassZone_LoadGizmo>
-  <FB_FleshbeastMassZone_LoadGizmoDesc>Выбрать биошматов на этой карте и направить их в зону мясной массы, где используется упрощённый расчёт их поведения.</FB_FleshbeastMassZone_LoadGizmoDesc>
+  <FB_FleshbeastMassZone_LoadGizmoDesc>Выбрать биошматов на этой карте и направить их в зону плотяной массы для отдыха между приказами.</FB_FleshbeastMassZone_LoadGizmoDesc>
   <FB_FleshbeastMassZone_UnloadAll>Выпустить всех</FB_FleshbeastMassZone_UnloadAll>
-  <FB_FleshbeastMassZone_UnloadAllDesc>Выпустить всех биошматов из этой зоны мясной массы.</FB_FleshbeastMassZone_UnloadAllDesc>
+  <FB_FleshbeastMassZone_UnloadAllDesc>Выпустить всех биошматов из этой зоны плотяной массы.</FB_FleshbeastMassZone_UnloadAllDesc>
   <FB_FleshbeastMassZone_UnloadKindShort>Выпустить</FB_FleshbeastMassZone_UnloadKindShort>
-  <FB_FleshbeastMassZone_AssignTooltip>Зона мясной массы: {0}\n\nПриписанные биошматы без приказов, команд и лордов сами возвращаются сюда и сворачиваются в массу. Выбор разрешённой зоны снимает приписку.</FB_FleshbeastMassZone_AssignTooltip>
+  <FB_FleshbeastMassZone_AssignTooltip>Зона плотяной массы: {0}\n\nПриписанные биошматы возвращаются сюда и сливаются с массой, если не выполняют приказы и не входят в управляемую группу. Выбор разрешённой зоны снимает приписку.</FB_FleshbeastMassZone_AssignTooltip>
   <FB_FleshbeastMassZone_InspectAssigned>Приписано биошматов: {0}.</FB_FleshbeastMassZone_InspectAssigned>
-  <FB_FleshbeastMassZone_UnloadKindTooltip>Выпустить выбранное количество {0} из этой зоны мясной массы.</FB_FleshbeastMassZone_UnloadKindTooltip>
+  <FB_FleshbeastMassZone_UnloadKindTooltip>Выпустить выбранное количество {0} из этой зоны плотяной массы.</FB_FleshbeastMassZone_UnloadKindTooltip>
   <FB_FleshbeastMassZone_UnloadKindSlider>Выпустить {1} из {2}: {0}.</FB_FleshbeastMassZone_UnloadKindSlider>
   <FB_FleshbeastMassZone_UnloadedKind>Выпущено {0}: {1}.</FB_FleshbeastMassZone_UnloadedKind>
   <FB_FleshbeastMassZone_NoSelectablePawns>Нет подходящих выбранных биошматов.</FB_FleshbeastMassZone_NoSelectablePawns>
-  <FB_FleshbeastMassZone_NoReachableCell>Нет доступной клетки зоны мясной массы.</FB_FleshbeastMassZone_NoReachableCell>
-  <FB_FleshbeastMassZone_Loading>{0} биошмат(ов) идут в зону мясной массы.</FB_FleshbeastMassZone_Loading>
-  <FB_FleshbeastMassZone_OverCapacityEjected>Зона мясной массы стала слишком маленькой; лишние биошматы выпущены наружу.</FB_FleshbeastMassZone_OverCapacityEjected>
+  <FB_FleshbeastMassZone_NoReachableCell>Нет доступной клетки зоны плотяной массы.</FB_FleshbeastMassZone_NoReachableCell>
+  <FB_FleshbeastMassZone_Loading>{0} биошмат(ов) идут в зону плотяной массы.</FB_FleshbeastMassZone_Loading>
+  <FB_FleshbeastMassZone_OverCapacityEjected>Зона плотяной массы стала слишком маленькой; лишние биошматы выпущены наружу.</FB_FleshbeastMassZone_OverCapacityEjected>
   <FB_FleshbeastMassZone_ThreatRelease>Биошматы вырываются из {0}, реагируя на врагов рядом.</FB_FleshbeastMassZone_ThreatRelease>
-  <FB_FleshbeastMassZone_DisallowedKind>{0} запрещён для этой зоны мясной массы.</FB_FleshbeastMassZone_DisallowedKind>
+  <FB_FleshbeastMassZone_DisallowedKind>{0} запрещён для этой зоны плотяной массы.</FB_FleshbeastMassZone_DisallowedKind>
   <FB_FleshbeastMassZone_FilterTab>Типы</FB_FleshbeastMassZone_FilterTab>
   <FB_FleshbeastMassZone_FilterHeader>Разрешённые типы биошматов для этой зоны.</FB_FleshbeastMassZone_FilterHeader>
   <FB_FleshbeastMassZone_AllowAll>Разрешить всё</FB_FleshbeastMassZone_AllowAll>
   <FB_FleshbeastMassZone_ForbidAll>Запретить всё</FB_FleshbeastMassZone_ForbidAll>
-  <FB_FleshbeastMassZone_SearchTooltip>Фильтр списка по названию или defName.</FB_FleshbeastMassZone_SearchTooltip>
+  <FB_FleshbeastMassZone_SearchTooltip>Фильтр списка по названию.</FB_FleshbeastMassZone_SearchTooltip>
   <FB_FleshbeastMassZone_NoKinds>Типы биошматов не найдены.</FB_FleshbeastMassZone_NoKinds>
-  <FB_FleshbeastMassZone_FilterTooltip>В эту зону мясной массы можно загрузить только разрешённые типы.</FB_FleshbeastMassZone_FilterTooltip>
+  <FB_FleshbeastMassZone_FilterTooltip>В эту зону плотяной массы можно загрузить только разрешённые типы.</FB_FleshbeastMassZone_FilterTooltip>
   <FB_FleshbeastMassZone_ContentsTab>Состав</FB_FleshbeastMassZone_ContentsTab>
   <FB_FleshbeastMassZone_ContentsSummary>Внутри: {0}. Размер тел: {1}/{2}.</FB_FleshbeastMassZone_ContentsSummary>
   <FB_FleshbeastMassZone_NoContents>Внутри нет биошматов.</FB_FleshbeastMassZone_NoContents>
   <FB_FleshbeastMassZone_ContentsBodySize>Размер тел: {0}</FB_FleshbeastMassZone_ContentsBodySize>
   <FB_FleshbeastMassZone_ContentsCount>x{0}</FB_FleshbeastMassZone_ContentsCount>
-  <FB_GroupMassZoneTooltip>Отправить активную группу в выбранную зону мясной массы.</FB_GroupMassZoneTooltip>
+  <FB_GroupMassZoneTooltip>Отправить активную группу в выбранную зону плотяной массы.</FB_GroupMassZoneTooltip>
   <FB_GroupAssignedMassZone>{0} биошмат(ов) из группы {1} идут в {2}.</FB_GroupAssignedMassZone>
   <FB_GroupDigestCrippledLabel>Переварить биошматов</FB_GroupDigestCrippledLabel>
   <FB_GroupDigestCrippledTooltip>Выбрать биошматов для жертвенного переваривания. Подвижные сами направятся к желудку или желудочному соку. Обездвиженные, а на карте без желудка и сока и все остальные, погибнут на месте; при этом сработают их обычные посмертные свойства.</FB_GroupDigestCrippledTooltip>

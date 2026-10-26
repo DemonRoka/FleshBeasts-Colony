@@ -9,9 +9,9 @@
   <FB_FleshBurnRaidRepelled>The burn party from {0} was driven off tile {1}.</FB_FleshBurnRaidRepelled>
 
   <!-- World object -->
-  <FB_FleshBurnPartyInspectBurning>Burning the cover away\nStrength: {0}\nTile lost in: {1}\nTiles it will still take: {2}</FB_FleshBurnPartyInspectBurning>
+  <FB_FleshBurnPartyInspectBurning>Burning the cover away\nStrength: {0}\nTile lost in: {1}\nRemaining targets: {2}</FB_FleshBurnPartyInspectBurning>
   <FB_FleshBurnPartyInspectBattle>Fighting on this tile\nStrength: {0}</FB_FleshBurnPartyInspectBattle>
-  <FB_FleshBurnPartyInspectStandoff>Pinned down by a combat pack\nStrength: {0}\nTiles it will still take: {1}</FB_FleshBurnPartyInspectStandoff>
+  <FB_FleshBurnPartyInspectStandoff>Pinned down by a combat pack\nStrength: {0}\nRemaining targets: {1}</FB_FleshBurnPartyInspectStandoff>
   <FB_FleshBurnPartyCompositionTab>Composition</FB_FleshBurnPartyCompositionTab>
   <FB_FleshBurnPartyCompositionSummary>{0}: {1} fighters, strength {2}</FB_FleshBurnPartyCompositionSummary>
 

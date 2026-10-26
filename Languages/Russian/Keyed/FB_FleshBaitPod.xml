@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <FB_ColonyBrain_Structure_FleshBaitPod_Label>Приманочный под плоти</FB_ColonyBrain_Structure_FleshBaitPod_Label>
-  <FB_ColonyBrain_Structure_FleshBaitPod_Desc>Выращивает росток-приманку, который голодные дикие животные могут принять за еду. Если дикое животное начинает есть росток, а у сердца колонии есть свободный слот захвата, под связывает добычу корневыми щупальцами.</FB_ColonyBrain_Structure_FleshBaitPod_Desc>
+  <FB_ColonyBrain_Structure_FleshBaitPod_Label>Ловчая приманка</FB_ColonyBrain_Structure_FleshBaitPod_Label>
+  <FB_ColonyBrain_Structure_FleshBaitPod_Desc>Вырастить ловчую приманку для голодных диких животных. Когда животное начинает есть росток, приманка захватывает его, если в общей системе хватательных щупалец есть свободное место.</FB_ColonyBrain_Structure_FleshBaitPod_Desc>
   <FB_FleshBaitPod_GrowthInspect>Рост приманочного ростка: {0}</FB_FleshBaitPod_GrowthInspect>
   <FB_FleshBaitPod_RegrowingInspect>Отращивает приманочный росток.</FB_FleshBaitPod_RegrowingInspect>
   <FB_FleshBaitPod_HoldingInspect>Удерживает: {0}</FB_FleshBaitPod_HoldingInspect>
   <FB_FleshBaitPod_ReleasePrey>Отпустить добычу</FB_FleshBaitPod_ReleasePrey>
-  <FB_FleshBaitPod_ReleasePreyDesc>Отпустить удерживаемую добычу и освободить слот хватательных щупалец сердца колонии.</FB_FleshBaitPod_ReleasePreyDesc>
+  <FB_FleshBaitPod_ReleasePreyDesc>Отпустить добычу и освободить место захвата хватательных щупалец.</FB_FleshBaitPod_ReleasePreyDesc>
 </LanguageData>

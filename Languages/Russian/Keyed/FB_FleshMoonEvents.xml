@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <FB_FleshMoonRecruitEmerged_Label>{PAWN_gender ? Рождён : Рождена} луной: {PAWN_nameDef}</FB_FleshMoonRecruitEmerged_Label>
+  <FB_FleshMoonRecruitEmerged_Text>Плоть луны откликнулась на ритуал. Из живой почвы вздулось тело, лопнуло, и из него {PAWN_gender ? выбрался : выбралась} {PAWN_nameDef}, {PAWN_gender ? готовый : готовая} присоединиться к колонии.\n\nНовой оболочке ещё нужно время, чтобы прижиться.</FB_FleshMoonRecruitEmerged_Text>
+  <FB_FleshMoon_NoTraderCaravans>Торговые караваны не могут добраться до луны плоти.</FB_FleshMoon_NoTraderCaravans>
+  <FB_FleshMoon_NoInsectJelly>Насекомые не могут прорыть ходы сквозь луну плоти.</FB_FleshMoon_NoInsectJelly>
+
+</LanguageData>

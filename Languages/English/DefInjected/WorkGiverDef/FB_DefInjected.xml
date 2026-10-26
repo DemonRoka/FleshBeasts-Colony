@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <CarryToFBAutoResearch.gerund>inserting</CarryToFBAutoResearch.gerund>
-  <CarryToFBAutoResearch.label>carry to auto research</CarryToFBAutoResearch.label>
-  <CarryToFBAutoResearch.verb>insert</CarryToFBAutoResearch.verb>
+  <CarryToFBAutoResearch.gerund>carrying an occupant to</CarryToFBAutoResearch.gerund>
+  <CarryToFBAutoResearch.label>carry to synapse core</CarryToFBAutoResearch.label>
+  <CarryToFBAutoResearch.verb>carry an occupant to</CarryToFBAutoResearch.verb>
   <FB_BurdenBlobCleanFilth.gerund>cleaning</FB_BurdenBlobCleanFilth.gerund>
   <FB_BurdenBlobCleanFilth.label>clean colony filth</FB_BurdenBlobCleanFilth.label>
   <FB_BurdenBlobCleanFilth.verb>clean</FB_BurdenBlobCleanFilth.verb>
@@ -16,6 +16,6 @@
   <FB_ConstructFinishFrames.label>construct placed frames</FB_ConstructFinishFrames.label>
   <FB_ConstructFinishFrames.verb>construct</FB_ConstructFinishFrames.verb>
   <FB_DoBillsUseFleshmassSporeCradle.gerund>crafting at</FB_DoBillsUseFleshmassSporeCradle.gerund>
-  <FB_DoBillsUseFleshmassSporeCradle.label>make things at Spore-Cradle</FB_DoBillsUseFleshmassSporeCradle.label>
+  <FB_DoBillsUseFleshmassSporeCradle.label>craft at spore-cradle</FB_DoBillsUseFleshmassSporeCradle.label>
   <FB_DoBillsUseFleshmassSporeCradle.verb>craft at</FB_DoBillsUseFleshmassSporeCradle.verb>
 </LanguageData>

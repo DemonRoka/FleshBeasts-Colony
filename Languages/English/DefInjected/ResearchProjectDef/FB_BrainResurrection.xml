@@ -2,7 +2,7 @@
 <LanguageData>
   <FB_HemoghoulReanimation.label>hemoghoul reanimation</FB_HemoghoulReanimation.label>
   <FB_HemoghoulReanimation.customUnlockTexts.0>Colony Brain: Create hemoghoul</FB_HemoghoulReanimation.customUnlockTexts.0>
-  <FB_HemoghoulReanimation.description>Teach the colony brain to implant a fingerspike into a human corpse and raise it as a tireless hemoghoul worker.</FB_HemoghoulReanimation.description>
+  <FB_HemoghoulReanimation.description>Teach the colony brain to implant fingerspikes into a humanlike corpse and raise it as a tireless hemoghoul worker.</FB_HemoghoulReanimation.description>
   <FB_HemoghoulReanimation.generalRules.rulesStrings.0>subject-&gt;hemoghoul reanimation</FB_HemoghoulReanimation.generalRules.rulesStrings.0>
   <FB_HemoghoulReanimation.generalRules.rulesStrings.1>subject_story-&gt;raised tireless workers through fingerspike implantation</FB_HemoghoulReanimation.generalRules.rulesStrings.1>
   <FB_HemoghoulReanimation.generalRules.rulesStrings.2>subject_story-&gt;bound dead flesh into hemogel-fed laborers</FB_HemoghoulReanimation.generalRules.rulesStrings.2>

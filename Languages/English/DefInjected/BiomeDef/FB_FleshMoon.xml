@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_FleshMoonBiome.label>flesh moon</FB_FleshMoonBiome.label>
-  <FB_FleshMoonBiome.description>A budded orbital mass formed from an entire flesh colony.</FB_FleshMoonBiome.description>
+  <FB_FleshMoonBiome.description>The living interior of a flesh moon drifting above the planet.</FB_FleshMoonBiome.description>
 
   <FB_CrashedFleshMoonBiome.label>fallen flesh moon</FB_CrashedFleshMoonBiome.label>
-  <FB_CrashedFleshMoonBiome.description>A ruptured impact biome left where the starving flesh moon fell back to the planet.</FB_CrashedFleshMoonBiome.description>
+  <FB_CrashedFleshMoonBiome.description>Terrain devastated by the impact of a starving flesh moon.</FB_CrashedFleshMoonBiome.description>
 </LanguageData>

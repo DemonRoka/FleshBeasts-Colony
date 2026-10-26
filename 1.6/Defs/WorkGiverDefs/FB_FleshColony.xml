@@ -3,11 +3,11 @@
   <!-- Источник работы: carry to auto research (CarryToFBAutoResearch) -->
   <WorkGiverDef>
     <defName>CarryToFBAutoResearch</defName>
-    <label>carry to auto research</label>
+    <label>carry to synapse core</label>
     <giverClass>FB.WorkGiver_CarryToAutoResearch</giverClass>
     <workType>Hauling</workType>
-    <verb>insert</verb>
-    <gerund>inserting</gerund>
+    <verb>carry an occupant to</verb>
+    <gerund>carrying an occupant to</gerund>
     <priorityInType>90</priorityInType>
     <requiredCapacities>
       <li>Manipulation</li>
@@ -22,8 +22,8 @@
     <label>carry to voice organ</label>
     <giverClass>FB.WorkGiver_CarryToVoiceOrgan</giverClass>
     <workType>Hauling</workType>
-    <verb>seat</verb>
-    <gerund>seating carrier in</gerund>
+    <verb>seat a carrier in</verb>
+    <gerund>seating a carrier in</gerund>
     <priorityInType>90</priorityInType>
     <requiredCapacities>
       <li>Manipulation</li>
@@ -41,8 +41,8 @@
     <label>carry to gestation organoid</label>
     <giverClass>FB.WorkGiver_CarryToGestationOrganoid</giverClass>
     <workType>Hauling</workType>
-    <verb>gestate</verb>
-    <gerund>carrying donor to</gerund>
+    <verb>carry a donor to</verb>
+    <gerund>carrying a donor to</gerund>
     <priorityInType>90</priorityInType>
     <requiredCapacities>
       <li>Manipulation</li>
@@ -57,8 +57,8 @@
     <label>carry to genophage cocoon</label>
     <giverClass>FB.WorkGiver_CarryToGenophageCocoon</giverClass>
     <workType>Hauling</workType>
-    <verb>extract genes</verb>
-    <gerund>extracting genes from</gerund>
+    <verb>carry a donor to</verb>
+    <gerund>carrying a donor to</gerund>
     <priorityInType>90</priorityInType>
     <requiredCapacities>
       <li>Manipulation</li>
@@ -73,8 +73,8 @@
     <label>carry digestible food to colony stomach</label>
     <giverClass>FB.WorkGiver_HaulDigestibleFoodToFleshmassStomach</giverClass>
     <workType>Hauling</workType>
-    <verb>carry to</verb>
-    <gerund>carrying to colony stomach</gerund>
+    <verb>feed the colony stomach with</verb>
+    <gerund>feeding the colony stomach with</gerund>
     <priorityInType>85</priorityInType>
     <requiredCapacities>
       <li>Manipulation</li>
@@ -85,7 +85,7 @@
   <!-- Источник работы: make things at Spore-Cradle (FB_DoBillsUseFleshmassSporeCradle) -->
   <WorkGiverDef>
     <defName>FB_DoBillsUseFleshmassSporeCradle</defName>
-    <label>make things at Spore-Cradle</label>
+    <label>craft at spore-cradle</label>
     <giverClass>WorkGiver_DoBill</giverClass>
     <workType>Crafting</workType>
     <priorityInType>100</priorityInType>
@@ -167,8 +167,8 @@
     <label>carry to brood matrix</label>
     <giverClass>FB.WorkGiver_CarryToBroodMatrix</giverClass>
     <workType>Hauling</workType>
-    <verb>carry</verb>
-    <gerund>carrying to brood matrix</gerund>
+    <verb>carry an occupant to</verb>
+    <gerund>carrying an occupant to</gerund>
     <priorityInType>90</priorityInType>
     <requiredCapacities>
       <li>Manipulation</li>

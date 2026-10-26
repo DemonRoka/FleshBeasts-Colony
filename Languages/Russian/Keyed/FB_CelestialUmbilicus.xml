@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <FB_CelestialUmbilicusStartLabel>Начать небесное отпочкование</FB_CelestialUmbilicusStartLabel>
+  <FB_CelestialUmbilicusStartLabel>Начать отпочкование</FB_CelestialUmbilicusStartLabel>
   <FB_CelestialUmbilicusStartDesc>Пробудить пуповину и начать рост к орбите. Запуск обращает остальные фракции против колонии и вызывает налёты. Требуется {0} единиц роста; текущий расход гемогеля — {1}/ч, максимальный — {2}/ч.</FB_CelestialUmbilicusStartDesc>
-  <FB_CelestialUmbilicusStartWarning>Пробуждение небесной пуповины нельзя отменить. Она будет потреблять мощность гемогеля из сети, пока не завершит {0} работы роста. Текущий поток: {1} гемогеля/ч; максимум: {2} гемогеля/ч. Все не-игровые фракции станут враждебными. Продолжить?</FB_CelestialUmbilicusStartWarning>
+  <FB_CelestialUmbilicusStartWarning>Пробуждение небесной пуповины нельзя отменить. Она будет получать гемогель из сети, пока не завершит {0} ед. роста. Текущий поток: {1} гемогеля/ч; максимум: {2} гемогеля/ч. Все остальные фракции станут враждебными. Продолжить?</FB_CelestialUmbilicusStartWarning>
   <FB_CelestialUmbilicusAwakenedLetterLabel>Небесная пуповина пробуждена</FB_CelestialUmbilicusAwakenedLetterLabel>
-  <FB_CelestialUmbilicusAwakenedLetterText>Небесная пуповина раскрыла сосудистую глотку к небу. {0} фракций распознают колонию как планетарную заразу и становятся враждебными. Нужно работы роста: {1}. Текущий поток: {2} гемогеля/ч; максимум: {3} гемогеля/ч.</FB_CelestialUmbilicusAwakenedLetterText>
+  <FB_CelestialUmbilicusAwakenedLetterText>Небесная пуповина раскрыла сосудистую глотку к небу. Колонию признали планетарной заразой. Число фракций, ставших враждебными: {0}. Для завершения роста требуется {1} единиц. Текущий поток: {2} гемогеля/ч; максимум: {3} гемогеля/ч.</FB_CelestialUmbilicusAwakenedLetterText>
   <FB_CelestialUmbilicusDestroyedLetterLabel>Небесная пуповина перерублена</FB_CelestialUmbilicusDestroyedLetterLabel>
-  <FB_CelestialUmbilicusDestroyedLetterText>Столб отпочкования уничтожен. Финальный рост сорвался, но фракции, увидевшие намерение колонии, уже не забудут его.</FB_CelestialUmbilicusDestroyedLetterText>
+  <FB_CelestialUmbilicusDestroyedLetterText>Небесная пуповина уничтожена. Рост к орбите прерван, но фракции, увидевшие намерение колонии, уже не забудут его.</FB_CelestialUmbilicusDestroyedLetterText>
   <FB_CelestialUmbilicusInspectDormant>Поток роста установлен на {0} гемогеля/ч. Ожидает команды роста.</FB_CelestialUmbilicusInspectDormant>
   <FB_CelestialUmbilicusInspectActive>Рост: {0} / {1} ({2}%)</FB_CelestialUmbilicusInspectActive>
-  <FB_CelestialUmbilicusInspectStalled>Рост остановлен: сеть гемогеля не подаёт мощность.</FB_CelestialUmbilicusInspectStalled>
+  <FB_CelestialUmbilicusInspectStalled>Рост остановлен: сеть не подаёт гемогель.</FB_CelestialUmbilicusInspectStalled>
   <FB_CelestialUmbilicusInspectCompleted>Небесное отпочкование завершено.</FB_CelestialUmbilicusInspectCompleted>
   <FB_CelestialUmbilicusNotPlayerOwned>Пуповина должна принадлежать колонии игрока.</FB_CelestialUmbilicusNotPlayerOwned>
   <FB_CelestialUmbilicusAlreadyActive>На этой карте может быть только одна небесная пуповина.</FB_CelestialUmbilicusAlreadyActive>
@@ -18,7 +18,7 @@
   <FB_CelestialUmbilicusDevCompleteLabel>DEV: завершить небесное отпочкование</FB_CelestialUmbilicusDevCompleteLabel>
   <FB_CelestialUmbilicusFlowBarTitle>Поток гемогеля</FB_CelestialUmbilicusFlowBarTitle>
   <FB_CelestialUmbilicusFlowBarLabel>{0}/ч</FB_CelestialUmbilicusFlowBarLabel>
-  <FB_CelestialUmbilicusFlowBarTooltip>Задаёт, сколько мощности гемогеля пуповина запрашивает у сети во время роста. Диапазон: {0}-{1} гемогеля/ч. Текущий запрос: {2}/ч; фактически получено для роста: {3}/ч.</FB_CelestialUmbilicusFlowBarTooltip>
+  <FB_CelestialUmbilicusFlowBarTooltip>Задаёт, какой поток гемогеля пуповина запрашивает у сети во время роста. Диапазон: {0}-{1} гемогеля/ч. Текущий запрос: {2}/ч; фактически получено для роста: {3}/ч.</FB_CelestialUmbilicusFlowBarTooltip>
   <FB_CelestialUmbilicusHemogelEconomyDetail>Поток небесного роста: запрошено {0}/ч, получено {1}/ч.</FB_CelestialUmbilicusHemogelEconomyDetail>
 
   <FB_CelestialUmbilicusInspectAwaitingChoice>Луна плоти сформирована. Канал стабилизируется.</FB_CelestialUmbilicusInspectAwaitingChoice>
@@ -27,19 +27,19 @@
   <FB_CelestialUmbilicusInspectAscended>Колония стала луной плоти.</FB_CelestialUmbilicusInspectAscended>
   <FB_CelestialUmbilicusInspectSevered>Связь с луной плоти разорвана.</FB_CelestialUmbilicusInspectSevered>
   <FB_FleshMoonLinkSeveredLetterLabel>Связь с луной плоти разорвана</FB_FleshMoonLinkSeveredLetterLabel>
-  <FB_FleshMoonAnchorBurnedLetterLabel>Питающая привязка Луны сорвана</FB_FleshMoonAnchorBurnedLetterLabel>
-  <FB_FleshMoonAnchorBurnedLetterText>Плоть на мировой клетке {0} выжжена, и питающей привязке Луны стало не за что держаться. Пуповина втянулась: Луна снова может двигаться, но больше ничего не получает из планетарной сети.</FB_FleshMoonAnchorBurnedLetterText>
+  <FB_FleshMoonAnchorBurnedLetterLabel>Питающая привязка луны сорвана</FB_FleshMoonAnchorBurnedLetterLabel>
+  <FB_FleshMoonAnchorBurnedLetterText>Плоть на мировой клетке {0} выжжена, и питающей привязке луны стало не за что держаться. Пуповина втянулась: луна снова может двигаться, но больше ничего не получает из планетарной сети.</FB_FleshMoonAnchorBurnedLetterText>
   <FB_FleshMoonLinkSeveredLetterText>Небесная пуповина уничтожена. Луна плоти осталась на орбите, но колония потеряла связь с ней.</FB_FleshMoonLinkSeveredLetterText>
   <FB_FleshMoonLinkedLetterLabel>Связь с луной плоти стабилизирована</FB_FleshMoonLinkedLetterLabel>
-  <FB_FleshMoonLinkedLetterText>Накормленная небесная пуповина автоматически стабилизировалась в постоянный канал. Колонистов, биошматов, пленников и припасы теперь можно отправлять между поверхностью и луной плоти.</FB_FleshMoonLinkedLetterText>
+  <FB_FleshMoonLinkedLetterText>Небесная пуповина получила достаточно питания и образовала устойчивый канал. Колонистов, биошматов, пленников и припасы теперь можно отправлять между поверхностью и луной плоти.</FB_FleshMoonLinkedLetterText>
   <FB_FleshMoonMissingSourceMap>Карта колонии больше недоступна.</FB_FleshMoonMissingSourceMap>
   <FB_FleshMoonAbsorptionStartedLetterLabel>Начато поглощение поверхности</FB_FleshMoonAbsorptionStartedLetterLabel>
-  <FB_FleshMoonAbsorptionStartedLetterText>Наземная колония сворачивается в небесную пуповину. Зоны мясной массы выпускают своих биошматов, а пешки игрока, заключённые, рабы, мехи, животные игрока и биошматы получают приказ войти в пуповину; локальный гемогель перекачивается наверх, а выращенные плотяные структуры возвращают часть гемогеля.</FB_FleshMoonAbsorptionStartedLetterText>
+  <FB_FleshMoonAbsorptionStartedLetterText>Наземная колония сворачивается в небесную пуповину. Зоны плотяной массы выпускают своих биошматов, а пешки игрока, заключённые, рабы, мехи, животные игрока и биошматы получают приказ войти в пуповину; локальный гемогель перекачивается наверх, а выращенные плотяные структуры возвращают часть гемогеля.</FB_FleshMoonAbsorptionStartedLetterText>
   <FB_FleshMoonAbsorptionCompletedLetterLabel>Поглощение поверхности завершено</FB_FleshMoonAbsorptionCompletedLetterLabel>
-  <FB_FleshMoonAbsorptionCompletedLetterText>Небесная пуповина приняла живых существ колонии через портал и переварила наземный рост. Вышло с карты: {0}.</FB_FleshMoonAbsorptionCompletedLetterText>
+  <FB_FleshMoonAbsorptionCompletedLetterText>Небесная пуповина приняла живых существ колонии через портал и поглотила плотяные постройки и покров на поверхности. Вышло с карты: {0}.</FB_FleshMoonAbsorptionCompletedLetterText>
   <FB_CelestialUmbilicusDetachCommandLabel>Отсоединить пуповину</FB_CelestialUmbilicusDetachCommandLabel>
   <FB_CelestialUmbilicusDetachCommandDesc>Отсоединить эту наземную пуповину от луны плоти. На выбор: просто втянуть её, оставив карту со всем, что на ней есть, или поглотить плотяную колонию этой карты и покинуть её.</FB_CelestialUmbilicusDetachCommandDesc>
-  <FB_CelestialUmbilicusDetachChoiceText>Как отсоединить небесную пуповину?\n\nВтянуть: пуповина уходит к луне за {0}. Всё на карте остаётся на месте — пешки, постройки, плоть и местный гемогель. Дальше карта живёт по обычным правилам: колония остаётся колонией, а временная карта закроется сама, когда на ней не останется ваших пешек.\n\nПоглотить: зоны мясной массы выпускают своих биошматов, а пешки игрока, заключённые, рабы, мехи, животные игрока и биошматы уходят в пуповину; местный гемогель перекачивается наверх, а выращенные плотяные структуры возвращают часть гемогеля. Когда поглощение закончится, ваше поселение на этой карте будет покинуто, и всё, что не ушло в пуповину, пропадёт вместе с ним.</FB_CelestialUmbilicusDetachChoiceText>
+  <FB_CelestialUmbilicusDetachChoiceText>Как отсоединить небесную пуповину?\n\nВтянуть: пуповина уходит к луне за {0}. Всё на карте остаётся на месте — пешки, постройки, плоть и местный гемогель. Дальше карта живёт по обычным правилам: колония остаётся колонией, а временная карта закроется сама, когда на ней не останется ваших пешек.\n\nПоглотить: зоны плотяной массы выпускают своих биошматов, а пешки игрока, заключённые, рабы, мехи, животные игрока и биошматы уходят в пуповину; местный гемогель перекачивается наверх, а выращенные плотяные структуры возвращают часть гемогеля. Когда поглощение закончится, ваше поселение на этой карте будет покинуто, и всё, что не ушло в пуповину, пропадёт вместе с ним.</FB_CelestialUmbilicusDetachChoiceText>
   <FB_CelestialUmbilicusDetachChoiceMoonColonists>Сейчас на луне плоти ваших колонистов: {0}. После отсоединения они смогут вернуться на поверхность только через новую пуповину.</FB_CelestialUmbilicusDetachChoiceMoonColonists>
   <FB_CelestialUmbilicusDetachChoiceRetract>Втянуть пуповину</FB_CelestialUmbilicusDetachChoiceRetract>
   <FB_CelestialUmbilicusDetachChoiceAbsorb>Поглотить поверхность</FB_CelestialUmbilicusDetachChoiceAbsorb>
@@ -56,18 +56,18 @@
   <FB_FleshMoonWorldObjectMoveDesc>Выберите клетку поверхности и отправьте луну плоти к ней. Наземную пуповину нужно сначала отсоединить.</FB_FleshMoonWorldObjectMoveDesc>
   <FB_FleshMoonWorldObjectStopMoveLabel>Остановить перелёт</FB_FleshMoonWorldObjectStopMoveLabel>
   <FB_FleshMoonWorldObjectStopMoveDesc>Завершить текущий перелёт над ближайшей допустимой клеткой поверхности под движущейся луной плоти.</FB_FleshMoonWorldObjectStopMoveDesc>
-  <FB_FleshMoonWorldObjectAnchorLabel>Развернуть физическую пуповину</FB_FleshMoonWorldObjectAnchorLabel>
-  <FB_FleshMoonWorldObjectAnchorDesc>Создать или загрузить карту поверхности под Луной и развернуть физическую небесную пуповину. Этот тактический канал нужен для поселений, высадки пешек и перемещения грузов.</FB_FleshMoonWorldObjectAnchorDesc>
+  <FB_FleshMoonWorldObjectAnchorLabel>Открыть проход</FB_FleshMoonWorldObjectAnchorLabel>
+  <FB_FleshMoonWorldObjectAnchorDesc>Открыть карту поверхности под луной плоти и развернуть небесную пуповину. Проход позволяет высаживать существ и перемещать грузы.</FB_FleshMoonWorldObjectAnchorDesc>
   <FB_FleshMoonWorldObjectMaplessAnchorLabel>Опустить питающую пуповину</FB_FleshMoonWorldObjectMaplessAnchorLabel>
-  <FB_FleshMoonWorldObjectMaplessAnchorDesc>Прикрепить небесную пуповину к клетке поверхности под Луной без создания карты. Она сразу начнёт перекачивать конечную питательность клетки во внутренний резерв Луны и введёт Луну в гемогелевую сеть этой территории. Клетка должна быть покрыта плотью — абстрактный аванпост плоти подходит — и не может быть поселением, сайтом или загруженной картой. Над чистой землёй опускайте физическую пуповину.</FB_FleshMoonWorldObjectMaplessAnchorDesc>
-  <FB_FleshMoonWorldObjectChannelOpenLabel>Открыть физический канал</FB_FleshMoonWorldObjectChannelOpenLabel>
-  <FB_FleshMoonWorldObjectChannelOpenDesc>Материализовать логически закреплённую клетку поверхности и автоматически развернуть небесную пуповину возле центра карты. После этого можно спускать пешек и грузы. Абстрактные клетки аванпостов материализовать нельзя.</FB_FleshMoonWorldObjectChannelOpenDesc>
+  <FB_FleshMoonWorldObjectMaplessAnchorDesc>Соединить луну плоти с покрытой плотью клеткой поверхности, в том числе с аванпостом. Пуповина выкачивает местную биомассу в лунный резерв гемогеля и подключает луну к сети территории. Здесь не должно быть поселения, места задания или открытой карты; для высадки на непокрытую землю используйте проход на поверхность.</FB_FleshMoonWorldObjectMaplessAnchorDesc>
+  <FB_FleshMoonWorldObjectChannelOpenLabel>Открыть проход</FB_FleshMoonWorldObjectChannelOpenLabel>
+  <FB_FleshMoonWorldObjectChannelOpenDesc>Открыть карту территории под луной плоти и развернуть небесную пуповину для перемещения существ и грузов. Открыть карту аванпоста нельзя.</FB_FleshMoonWorldObjectChannelOpenDesc>
   <FB_FleshMoonWorldObjectDetachLabel>Отсоединить пуповину</FB_FleshMoonWorldObjectDetachLabel>
   <FB_FleshMoonWorldObjectDetachDesc>Отсоединить наземную пуповину. На выбор: просто втянуть её, оставив карту как есть, или поглотить плотяную колонию под ней и покинуть поселение.</FB_FleshMoonWorldObjectDetachDesc>
   <FB_FleshMoonWorldObjectNetworkDisconnectLabel>Втянуть питающую пуповину</FB_FleshMoonWorldObjectNetworkDisconnectLabel>
-  <FB_FleshMoonWorldObjectNetworkDisconnectDesc>Отсоединить питающую пуповину Луны от клетки поверхности без создания или удаления карты.</FB_FleshMoonWorldObjectNetworkDisconnectDesc>
-  <FB_FleshMoonWorldObjectChannelRetractLabel>Втянуть физический канал</FB_FleshMoonWorldObjectChannelRetractLabel>
-  <FB_FleshMoonWorldObjectChannelRetractDesc>Втянуть физическую небесную пуповину, сохранив питающую привязку Луны к этой клетке поверхности без карты.</FB_FleshMoonWorldObjectChannelRetractDesc>
+  <FB_FleshMoonWorldObjectNetworkDisconnectDesc>Отсоединить питающую пуповину от поверхности. Луна перестанет получать гемогель из планетарной сети и сможет двигаться.</FB_FleshMoonWorldObjectNetworkDisconnectDesc>
+  <FB_FleshMoonWorldObjectChannelRetractLabel>Закрыть проход</FB_FleshMoonWorldObjectChannelRetractLabel>
+  <FB_FleshMoonWorldObjectChannelRetractDesc>Втянуть проход для существ и грузов, сохранив питающую пуповину и связь луны плоти с сетью территории.</FB_FleshMoonWorldObjectChannelRetractDesc>
   <FB_FleshMoonWorldObjectInactiveDisabled>Луна плоти не активна.</FB_FleshMoonWorldObjectInactiveDisabled>
   <FB_FleshMoonWorldObjectAbsorbingDisabled>Луна плоти поглощает колонию.</FB_FleshMoonWorldObjectAbsorbingDisabled>
   <FB_FleshMoonWorldObjectMovingDisabled>Луна плоти уже перемещается.</FB_FleshMoonWorldObjectMovingDisabled>
@@ -78,7 +78,7 @@
   <FB_FleshMoonWorldObjectAnchorLinkedDisabled>Луна плоти уже закреплена.</FB_FleshMoonWorldObjectAnchorLinkedDisabled>
   <FB_FleshMoonWorldObjectNoLinkedUmbilicus>У луны плоти нет активной наземной пуповины.</FB_FleshMoonWorldObjectNoLinkedUmbilicus>
   <FB_FleshMoonWorldObjectNoSurfaceTile>Под луной плоти нет точки поверхности.</FB_FleshMoonWorldObjectNoSurfaceTile>
-  <FB_FleshMoonWorldObjectMaplessRequiresCovered>Питающая привязка без карты держится только на клетке, покрытой плотью. Над чистой землёй остаётся опустить физическую пуповину.</FB_FleshMoonWorldObjectMaplessRequiresCovered>
+  <FB_FleshMoonWorldObjectMaplessRequiresCovered>Питающую пуповину можно прикрепить только к плотяному покрову. Для высадки на непокрытую землю откройте проход на поверхность.</FB_FleshMoonWorldObjectMaplessRequiresCovered>
   <FB_FleshMoonWorldObjectMoveTargetTimed>Переместить луну плоти сюда: {0}</FB_FleshMoonWorldObjectMoveTargetTimed>
   <FB_FleshMoonWorldObjectInvalidTarget>Выберите допустимую клетку поверхности.</FB_FleshMoonWorldObjectInvalidTarget>
   <FB_FleshMoonWorldObjectTargetImpassable>Луна плоти не может закрепиться над непроходимой клеткой мира.</FB_FleshMoonWorldObjectTargetImpassable>
@@ -94,9 +94,9 @@
   <FB_FleshMoonStopMoveNoValidTile>Под движущейся луной плоти не найдена допустимая клетка поверхности.</FB_FleshMoonStopMoveNoValidTile>
   <FB_FleshMoonAnchored>Небесная пуповина закреплена.</FB_FleshMoonAnchored>
   <FB_FleshMoonDetached>Небесная пуповина отсоединена.</FB_FleshMoonDetached>
-  <FB_FleshMoonMaplessAnchored>Питающая пуповина прикреплена к мировой клетке {0} без создания карты.</FB_FleshMoonMaplessAnchored>
+  <FB_FleshMoonMaplessAnchored>Питающая пуповина прикреплена к клетке мира {0}.</FB_FleshMoonMaplessAnchored>
   <FB_FleshMoonNetworkDisconnected>Луна плоти отключена от планетарной сети.</FB_FleshMoonNetworkDisconnected>
-  <FB_FleshMoonChannelRetracted>Физический канал втянут; Луна сохраняет питающую привязку к клетке поверхности без карты.</FB_FleshMoonChannelRetracted>
+  <FB_FleshMoonChannelRetracted>Проход на поверхность закрыт. Луна плоти остаётся соединена с территорией питающей пуповиной.</FB_FleshMoonChannelRetracted>
   <FB_FleshMoonAnchorFailed>Не удалось закрепить небесную пуповину.</FB_FleshMoonAnchorFailed>
   <FB_FleshMoonSettlementAnchorLetterLabel>Поселение пронзено</FB_FleshMoonSettlementAnchorLetterLabel>
   <FB_FleshMoonSettlementAnchorLetterText>Небесная пуповина пробила {0}, открыв наземный портал внутри поселения. Это нападение; ожидайте сопротивления.</FB_FleshMoonSettlementAnchorLetterText>
@@ -113,7 +113,7 @@
   <FB_FleshMoonUmbilicusRetractionStarted>Небесная пуповина втягивается. Осталось: {0}.</FB_FleshMoonUmbilicusRetractionStarted>
   <FB_FleshMoonInspectUmbilicusRetracting>Небесная пуповина втягивается: осталось {0}.</FB_FleshMoonInspectUmbilicusRetracting>
   <FB_FleshMoonUmbilicusReadyInspect>Свёрнутая небесная пуповина готова к выпуску.</FB_FleshMoonUmbilicusReadyInspect>
-  <FB_FleshMoonUmbilicusMaplessInspect>Питающая пуповина прикреплена без карты поверхности. Команда «Вернуться через пуповину» материализует клетку и откроет физический канал.</FB_FleshMoonUmbilicusMaplessInspect>
+  <FB_FleshMoonUmbilicusMaplessInspect>Питающая пуповина прикреплена к поверхности. Команда «Вернуться через пуповину» откроет карту территории и проход для существ и грузов.</FB_FleshMoonUmbilicusMaplessInspect>
   <FB_FleshMoonUmbilicusMissingInspect>Наземная пуповина была отсечена. Запустите выращивание замены. Потребление во время роста: {0}/ч.</FB_FleshMoonUmbilicusMissingInspect>
   <FB_FleshMoonUmbilicusRegrowthInspect>Выращивание пуповины: {0}% завершено; осталось {1}; потребление {2}/ч.</FB_FleshMoonUmbilicusRegrowthInspect>
   <FB_FleshMoonUmbilicusRegrowthStalledInspect>Рост остановлен: у луны плоти нет гемогеля для питания.</FB_FleshMoonUmbilicusRegrowthStalledInspect>

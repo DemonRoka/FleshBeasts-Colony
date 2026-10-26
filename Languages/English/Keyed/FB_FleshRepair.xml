@@ -2,6 +2,6 @@
 <LanguageData>
 
 	<FB_FleshRepairToggleLabel>organoid regeneration</FB_FleshRepairToggleLabel>
-	<FB_FleshRepairToggleDesc>When enabled, sclerats, burden blobs and cargo tendrils seek out damaged flesh organoids and regenerate them with hemogel from the network. Sclerats put this ahead of construction, and hives release them as soon as damaged organoids are within reach. When disabled, nobody looks for damaged organoids at all, which also saves processing; only the slow natural regeneration and the manual tentacle remain.</FB_FleshRepairToggleDesc>
+	<FB_FleshRepairToggleDesc>When enabled, sclerats, burden blobs and cargo tendrils seek out damaged flesh organoids and regenerate them with hemogel from the network. Sclerats put this ahead of construction, and hives release them as soon as damaged organoids are within reach. When disabled, automatic repair stops. Natural regeneration and manual tendril repair remain available.</FB_FleshRepairToggleDesc>
 
 </LanguageData>

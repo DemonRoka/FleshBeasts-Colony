@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_CelestialBudding.label>celestial budding</FB_CelestialBudding.label>
-  <FB_CelestialBudding.description>Unlock the Celestial Umbilicus, the final organ of the flesh colony. Once awakened, it consumes network hemogel to grow toward orbit and provokes every faction into trying to sever the budding column.</FB_CelestialBudding.description>
+  <FB_CelestialBudding.description>Allows the growth of a celestial umbilicus to create a flesh moon. Growth requires hemogel; awakening the umbilicus turns other factions against the colony and provokes raids.</FB_CelestialBudding.description>
+  <FB_CelestialBudding.generalRules.rulesStrings.3>subject_gerund-&gt;feeding the celestial umbilicus</FB_CelestialBudding.generalRules.rulesStrings.3>
 </LanguageData>

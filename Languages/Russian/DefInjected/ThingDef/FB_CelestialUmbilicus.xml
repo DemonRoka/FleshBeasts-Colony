@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_CelestialUmbilicus.label>небесная пуповина</FB_CelestialUmbilicus.label>
-  <FB_CelestialUmbilicus.description>Колоссальный орган, расходующий гемогель колонии на рост к орбите. Его пробуждение обращает остальные фракции против колонии: пока пуповина растёт, её придётся защищать от налётов.</FB_CelestialUmbilicus.description>
-  <FB_CelestialUmbilicusPortal.label>портальная небесная пуповина</FB_CelestialUmbilicusPortal.label>
+  <FB_CelestialUmbilicus.description>Колоссальный орган, выращивающий луну плоти и соединяющий её с поверхностью. Рост требует гемогеля, а пробуждение обращает другие фракции против колонии и вызывает налёты.</FB_CelestialUmbilicus.description>
+  <FB_CelestialUmbilicusPortal.label>раскрытая небесная пуповина</FB_CelestialUmbilicusPortal.label>
   <FB_CelestialUmbilicusPortal.description>Стабилизированная живая пуповина, соединяющая колонию с луной плоти.</FB_CelestialUmbilicusPortal.description>
   <FB_CelestialUmbilicusPortalIncoming.label>падающая небесная пуповина</FB_CelestialUmbilicusPortalIncoming.label>
   <FB_CelestialUmbilicusPortalOutgoing.label>втягивающаяся небесная пуповина</FB_CelestialUmbilicusPortalOutgoing.label>
@@ -11,6 +11,6 @@
   <FB_CelestialUmbilicusMoonExit.description>Лунный корень стабилизированной небесной пуповины.</FB_CelestialUmbilicusMoonExit.description>
   <FB_CelestialUmbilicusEmbryo.label>эмбрион небесной пуповины</FB_CelestialUmbilicusEmbryo.label>
   <FB_CelestialUmbilicusEmbryo.description>Незрелый орбитальный орган, который вырастет в небесную пуповину.</FB_CelestialUmbilicusEmbryo.description>
-  <FB_CelestialUmbilicusMoonCrater.label>лунный мясной кратер</FB_CelestialUmbilicusMoonCrater.label>
-  <FB_CelestialUmbilicusMoonCrater.description>Открытая рана на месте вырванного лунного корня пуповины. Если давать ей достаточно гемогеля из лунной сети, кратер отрастит свежий корень, и пуповина поднимется снова.</FB_CelestialUmbilicusMoonCrater.description>
+  <FB_CelestialUmbilicusMoonCrater.label>рана пуповины</FB_CelestialUmbilicusMoonCrater.label>
+  <FB_CelestialUmbilicusMoonCrater.description>Открытая рана на месте вырванного корня небесной пуповины. Получая гемогель из лунной сети, постепенно зарастает и восстанавливает корень.</FB_CelestialUmbilicusMoonCrater.description>
 </LanguageData>

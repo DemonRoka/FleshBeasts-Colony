@@ -73,7 +73,7 @@
   <FB_ChromophageCannotReachArchive>The chromophage cannot reach that archive.</FB_ChromophageCannotReachArchive>
   <FB_ChromophageExtractedGenes>Chromophage extracted gene traces: {0}.</FB_ChromophageExtractedGenes>
   <FB_ChromophageUnloadedGenes>Chromophage unloaded gene traces into the genome archive: {0}.</FB_ChromophageUnloadedGenes>
-  <FB_GeneReweaverCreateXenogermLabel>Create flesh xenogerm...</FB_GeneReweaverCreateXenogermLabel>
+  <FB_GeneReweaverCreateXenogermLabel>Create xenogerm</FB_GeneReweaverCreateXenogermLabel>
   <FB_GeneReweaverCreateXenogermDesc>Select genes from the genome archive and prepare a flesh xenogerm. Once mature, it can be implanted into a chosen host through a gene cocoon.</FB_GeneReweaverCreateXenogermDesc>
   <FB_GeneReweaverCancelXenogermLabel>Cancel flesh xenogerm</FB_GeneReweaverCancelXenogermLabel>
   <FB_GeneReweaverCancelXenogermDesc>Cancel the current flesh xenogerm. Already spent hemogel will not be refunded.</FB_GeneReweaverCancelXenogermDesc>
@@ -83,11 +83,11 @@
   <FB_GeneReweaverQueuedXenogerm>Queued {0} genes for a flesh xenogerm.</FB_GeneReweaverQueuedXenogerm>
   <FB_GeneReweaverPreparedReady>{0} is ready inside the gene reweaver. Genes prepared: {1}.</FB_GeneReweaverPreparedReady>
   <FB_GeneReweaverPreparedAlready>A prepared flesh xenogerm is already stored inside.</FB_GeneReweaverPreparedAlready>
-  <FB_GeneReweaverIdleInspect>Flesh xenogerm: idle</FB_GeneReweaverIdleInspect>
+  <FB_GeneReweaverIdleInspect>No xenogerm in production</FB_GeneReweaverIdleInspect>
   <FB_GeneReweaverDialogHeader>Create flesh xenogerm</FB_GeneReweaverDialogHeader>
   <FB_GeneReweaverCreateButton>Start weaving</FB_GeneReweaverCreateButton>
   <FB_GeneReweaverCallPawnLabel>Call pawn to gene cocoon...</FB_GeneReweaverCallPawnLabel>
-  <FB_GeneReweaverCallPawnDesc>Choose a controllable pawn to enter a temporary gene cocoon and integrate the prepared flesh xenogerm.</FB_GeneReweaverCallPawnDesc>
+  <FB_GeneReweaverCallPawnDesc>Choose a controllable pawn to receive the prepared xenogerm in a temporary gene cocoon.</FB_GeneReweaverCallPawnDesc>
   <FB_GeneReweaverDissolvePreparedLabel>Dissolve prepared xenogerm</FB_GeneReweaverDissolvePreparedLabel>
   <FB_GeneReweaverDissolvePreparedDesc>Dissolve the prepared flesh xenogerm stored inside this reweaver. Spent hemogel will not be refunded.</FB_GeneReweaverDissolvePreparedDesc>
   <FB_GeneReweaverPreparedDissolved>The prepared flesh xenogerm dissolved.</FB_GeneReweaverPreparedDissolved>
@@ -96,9 +96,9 @@
   <FB_GeneReweaverInvalidIntegrationPawn>This pawn cannot integrate the prepared xenogerm.</FB_GeneReweaverInvalidIntegrationPawn>
   <FB_GeneReweaverDifferentMap>The pawn must be on the same map.</FB_GeneReweaverDifferentMap>
   <FB_GeneReweaverNoCocoonCell>No reachable cell for a gene cocoon.</FB_GeneReweaverNoCocoonCell>
-  <FB_GeneReweaverIntegrationWarningDesc>{PAWN_nameDef} will enter a gene cocoon for {DURATION} to integrate {XENOGERM}.</FB_GeneReweaverIntegrationWarningDesc>
+  <FB_GeneReweaverIntegrationWarningDesc>{PAWN_nameDef} will enter a gene cocoon for {DURATION}. Xenogerm to implant: {XENOGERM}.</FB_GeneReweaverIntegrationWarningDesc>
   <FB_GeneReweaverPawnCallExpired>{0} did not reach the gene cocoon in time.</FB_GeneReweaverPawnCallExpired>
-  <FB_GeneReweaverCocoonStarted>{PAWN_nameDef} enters a gene cocoon to integrate {XENOGERM}.</FB_GeneReweaverCocoonStarted>
-  <FB_GeneReweaverCocoonComplete>{PAWN_nameDef} emerged from the gene cocoon with {XENOGERM} integrated.</FB_GeneReweaverCocoonComplete>
+  <FB_GeneReweaverCocoonStarted>{PAWN_nameDef} enters a gene cocoon. Xenogerm to implant: {XENOGERM}.</FB_GeneReweaverCocoonStarted>
+  <FB_GeneReweaverCocoonComplete>{PAWN_nameDef} emerged from the gene cocoon. Implanted xenogerm: {XENOGERM}.</FB_GeneReweaverCocoonComplete>
   <FB_GeneReweaverCocoonDied>{0} died in the ruptured gene cocoon.</FB_GeneReweaverCocoonDied>
 </LanguageData>

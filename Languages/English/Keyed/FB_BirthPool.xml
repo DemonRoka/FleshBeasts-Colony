@@ -21,11 +21,11 @@
 	<FB_BirthPool_WorkLine>Birth: {0}. Patients: {1}</FB_BirthPool_WorkLine>
 	<FB_BirthPool_NetworkDetail>Births and regeneration consume hemogel directly from the colony network.</FB_BirthPool_NetworkDetail>
 	<FB_BirthPool_FillLabel>Fill reservoir</FB_BirthPool_FillLabel>
-	<FB_BirthPool_FillDesc>While enabled, hemogel liquid fills the interior of the closed outline; disabling it drains the liquid. Filling has no separate reserve or resource charge. Births are controlled through bills; regeneration is automatic and consumes network hemogel.</FB_BirthPool_FillDesc>
+	<FB_BirthPool_FillDesc>Fill the pool with hemogel or drain it. Filling is free and creates no separate reserve. Births follow growth orders and regeneration is automatic; both consume network hemogel.</FB_BirthPool_FillDesc>
 	<FB_BirthPool_CreateAreaLabel>Create interior area</FB_BirthPool_CreateAreaLabel>
 	<FB_BirthPool_CreateAreaDesc>Create an allowed area inside this outline. Assign creatures manually. Repeating this command updates the same area and replaces its previous cells.</FB_BirthPool_CreateAreaDesc>
 	<FB_BirthPool_AreaLimit>Cannot create another allowed area.</FB_BirthPool_AreaLimit>
 	<FB_BirthPool_AreaCreated>Area "{0}" now matches the interior. Assign creatures to it using their allowed-area settings.</FB_BirthPool_AreaCreated>
 	<FB_BirthPool_BuildLabel>Birth pool rim</FB_BirthPool_BuildLabel>
-	<FB_BirthPool_BuildDesc>Grow walkable rim segments on flesh ground and close an outline around {0}–{1} clear cells. Any segment controls the liquid, the shared heart-style bills and creation of an interior allowed area. Births and automatic regeneration draw hemogel directly from the network.</FB_BirthPool_BuildDesc>
+	<FB_BirthPool_BuildDesc>Grow walkable rims on flesh ground around {0}–{1} clear cells. Select any segment to fill or drain the pool, set shared growth orders, or create an allowed area inside. Births and automatic regeneration consume network hemogel.</FB_BirthPool_BuildDesc>
 </LanguageData>

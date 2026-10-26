@@ -12,7 +12,7 @@
   <FB_FleshConvergenceLockedLabel>Empty form</FB_FleshConvergenceLockedLabel>
   <FB_FleshConvergenceLockedDesc>This convergence pattern has not formed yet.</FB_FleshConvergenceLockedDesc>
   <FB_FleshConvergenceFormLocked>This convergence form is not available yet.</FB_FleshConvergenceFormLocked>
-  <FB_FleshConvergenceCooldown>Flesh fusion is recovering: {0}.</FB_FleshConvergenceCooldown>
+  <FB_FleshConvergenceCooldown>Next fusion available in: {0}.</FB_FleshConvergenceCooldown>
   <FB_FleshConvergenceRequiresResearch>Requires research: {0}.</FB_FleshConvergenceRequiresResearch>
   <FB_FleshConvergenceDonorEquivalentLine>Requires: {0} fingerspikes, {1} trispikes, or {2} toughspikes.</FB_FleshConvergenceDonorEquivalentLine>
   <FB_CarrionReworkDesignateLabel>Rework bodies</FB_CarrionReworkDesignateLabel>

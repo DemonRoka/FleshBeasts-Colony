@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_GanglionGrowLabel>Вырастить ганглий</FB_GanglionGrowLabel>
+  <FB_GanglionGrowDesc>Вырастить из аванпоста ганглий — нервный узел, управляющий аванпостами в радиусе {0} клеток. Поддерживает заданный состав гарнизонов и может организовывать оборону и штурмы.
+
+Доля добычи его клетки, поступающая в сеть: {2}%.
+Цена: {1} гемогеля.</FB_GanglionGrowDesc>
+  <FB_GanglionGrowConfirm>Вырастить ганглий на «{0}» за {1} гемогеля? Он будет управлять всеми аванпостами в радиусе {2} клеток, а его собственная клетка перестанет кормить сеть.</FB_GanglionGrowConfirm>
+  <FB_GanglionGrown>«{0}» разросся в ганглий.</FB_GanglionGrown>
+  <FB_GanglionInsideOtherZone>Внутри зоны ганглия «{0}» (расстояние {1}). Новый ганглий растёт только дальше {2} клеток от остальных.</FB_GanglionInsideOtherZone>
+  <FB_GanglionDowngradeLabel>Преобразовать в аванпост</FB_GanglionDowngradeLabel>
+  <FB_GanglionDowngradeDesc>Дать ганглию усохнуть до обычного аванпоста. В сеть вернётся {0} гемогеля ({1} цены выращивания). Автоматическое пополнение гарнизонов продолжится только у аванпостов, доступных другому ганглию.</FB_GanglionDowngradeDesc>
+  <FB_GanglionDowngradeConfirm>Преобразовать ганглий «{0}» обратно в аванпост? В сеть вернётся {1} гемогеля.</FB_GanglionDowngradeConfirm>
+  <FB_GanglionDowngraded>«{0}» снова обычный аванпост. В сеть вернулось {1} гемогеля.</FB_GanglionDowngraded>
+  <FB_GanglionPanelLabel>Панель ганглия</FB_GanglionPanelLabel>
+  <FB_GanglionPanelDesc>Показать аванпосты в радиусе {0} клеток от ганглия и управлять их гарнизонами, обороной и штурмами.</FB_GanglionPanelDesc>
+  <FB_GanglionQuotasLabel>Состав гарнизона</FB_GanglionQuotasLabel>
+  <FB_GanglionQuotasDesc>Задать желаемое количество биошматов каждого вида. Ганглий, управляющий аванпостом, автоматически заказывает недостающих.</FB_GanglionQuotasDesc>
+  <FB_GanglionInspect>Ганглий: управляет ещё {0} аванпостами в радиусе {1} клеток</FB_GanglionInspect>
+  <FB_GanglionControlledInspect>Под управлением ганглия: {0}</FB_GanglionControlledInspect>
+  <FB_GanglionManagedBillLabel>{0} (пополнение гарнизона)</FB_GanglionManagedBillLabel>
+  <FB_GanglionPanelTitle>Ганглий «{0}»: аванпосты в радиусе {1} клеток</FB_GanglionPanelTitle>
+  <FB_GanglionPanelZoneHeader>Зона ганглия: аванпостов - {0}</FB_GanglionPanelZoneHeader>
+  <FB_GanglionColumnQuotas>Состав</FB_GanglionColumnQuotas>
+  <FB_GanglionColumnQuotasTip>Текущая и целевая численность гарнизона. Нажмите, чтобы задать желаемый состав.</FB_GanglionColumnQuotasTip>
+  <FB_GanglionQuotasNone>не задан</FB_GanglionQuotasNone>
+  <FB_GanglionQuotasTitle>Целевой состав гарнизона: {0}</FB_GanglionQuotasTitle>
+  <FB_GanglionQuotasControlled>Пополнением управляет: {0}.</FB_GanglionQuotasControlled>
+  <FB_GanglionQuotasNotControlled>Аванпост вне зоны действия ганглиев. Целевой состав сохранён, но автоматическое пополнение не работает.</FB_GanglionQuotasNotControlled>
+  <FB_GanglionQuotasHint>Ганглий поддерживает нужное количество биошматов заказами на выращивание за гемогель сети. Ваши собственные заказы выполняются независимо.</FB_GanglionQuotasHint>
+  <FB_GanglionQuotasColumnKind>Тварь</FB_GanglionQuotasColumnKind>
+  <FB_GanglionQuotasColumnCost>Цена</FB_GanglionQuotasColumnCost>
+  <FB_GanglionQuotasColumnStock>На месте</FB_GanglionQuotasColumnStock>
+  <FB_GanglionQuotasColumnQuota>Нужно</FB_GanglionQuotasColumnQuota>
+  <FB_GanglionQuotasCost>{0} гемогеля</FB_GanglionQuotasCost>
+  <FB_GanglionAutoDefenseLabel>Автооборона</FB_GanglionAutoDefenseLabel>
+  <FB_GanglionAutoDefenseDesc>Если выжигатели стоят на плотяном покрове и против них ещё никто не выступил, ганглий ищет ближайший аванпост своей зоны с достаточным гарнизоном. Требуемый перевес: {0}.\n\nПодходящий гарнизон отправляется в бой, который рассчитывается автоматически. Если сил не хватает ни у одного аванпоста, ганглий предупреждает об этом и никого не отправляет.</FB_GanglionAutoDefenseDesc>
+  <FB_GanglionDefenseShortfall>Ганглию «{0}» нечем отбить выжигателей на клетке {1}. Нужна сила {2}, у самого сильного гарнизона зоны {3}.</FB_GanglionDefenseShortfall>
+  <FB_GanglionColumnDefense>Оборона</FB_GanglionColumnDefense>
+  <FB_GanglionColumnDefenseTip>Может ли ганглий отправлять гарнизон этого аванпоста против выжигателей.</FB_GanglionColumnDefenseTip>
+  <FB_GanglionAutoAssaultLabel>Автоштурм</FB_GanglionAutoAssaultLabel>
+  <FB_GanglionAutoAssaultDesc>Ганглий выбирает ближайшее подходящее поселение фракции из фильтра штурма. Он отправляет стаю из аванпоста своей зоны, если хватает сил для заданного перевеса без расходования резерва гарнизона. Бой рассчитывается автоматически.\n\nНастройки штурма и фильтр фракций находятся в панели ганглия.</FB_GanglionAutoAssaultDesc>
+  <FB_GanglionAssaultButton>Штурм...</FB_GanglionAssaultButton>
+  <FB_GanglionJournalButton>Журнал</FB_GanglionJournalButton>
+  <FB_GanglionColumnAssault>Штурм</FB_GanglionColumnAssault>
+  <FB_GanglionColumnAssaultTip>Может ли ганглий отправлять гарнизон этого аванпоста в автоштурм.</FB_GanglionColumnAssaultTip>
+  <FB_GanglionAssaultTitle>Автоштурм: {0}</FB_GanglionAssaultTitle>
+  <FB_GanglionAssaultAutoAddHostiles>Добавлять фракции, ставшие враждебными</FB_GanglionAssaultAutoAddHostiles>
+  <FB_GanglionAssaultAutoAddHostilesDesc>Фракция, ставшая враждебной, сама отмечается в фильтре. Фракция, с которой вы сняли галочку вручную, остаётся снятой.</FB_GanglionAssaultAutoAddHostilesDesc>
+  <FB_GanglionAssaultSpareLast>Не добивать последнее поселение фракции</FB_GanglionAssaultSpareLast>
+  <FB_GanglionAssaultSpareLastDesc>Ганглий не нападает на единственное оставшееся поселение фракции, так что сам он фракцию не уничтожит.</FB_GanglionAssaultSpareLastDesc>
+  <FB_GanglionAssaultRatio>Нужный перевес: ×{0} от обороны поселения</FB_GanglionAssaultRatio>
+  <FB_GanglionAssaultRatioDesc>Сила стаи должна составлять указанную долю от оценки обороны: ×1,5 означает 150% её силы. Чем больше перевес, тем меньше биошматов гибнет в бою.</FB_GanglionAssaultRatioDesc>
+  <FB_GanglionAssaultReserve>Резерв гарнизона: {0}</FB_GanglionAssaultReserve>
+  <FB_GanglionAssaultReserveDesc>Такая доля тварей каждого вида всегда остаётся дома на каждом аванпосте.</FB_GanglionAssaultReserveDesc>
+  <FB_GanglionAssaultParties>Стай одновременно: {0}</FB_GanglionAssaultParties>
+  <FB_GanglionAssaultDistance>Дальность цели: {0}</FB_GanglionAssaultDistance>
+  <FB_GanglionAssaultDistanceUnlimited>без ограничений</FB_GanglionAssaultDistanceUnlimited>
+  <FB_GanglionAssaultFactions>Фракции, на которые нападает ганглий:</FB_GanglionAssaultFactions>
+  <FB_GanglionAssaultFactionLine>{0} - {1} ({2}), поселений: {3}</FB_GanglionAssaultFactionLine>
+  <FB_GanglionAssaultFactionWarTip>{0} не враждебна: первый же штурм её поселения объявит войну.</FB_GanglionAssaultFactionWarTip>
+  <FB_GanglionJournalTitle>Журнал ганглия: {0}</FB_GanglionJournalTitle>
+  <FB_GanglionJournalEmpty>Ганглий пока ничего не решал.</FB_GanglionJournalEmpty>
+  <FB_GanglionLogDefenseSent>Оборона: {0} тварей из «{1}» отправлены против выжигателей на клетке {2}.</FB_GanglionLogDefenseSent>
+  <FB_GanglionLogDefenseWon>Оборона на клетке {0} выиграна. Вернутся тварей: {1}, погибло: {2}.</FB_GanglionLogDefenseWon>
+  <FB_GanglionLogDefenseLost>Оборона на клетке {0} проиграна. Погибли все твари ({1}).</FB_GanglionLogDefenseLost>
+  <FB_GanglionLogAssaultSent>Штурм: {0} тварей из «{1}» отправлены на «{2}».</FB_GanglionLogAssaultSent>
+  <FB_GanglionLogAssaultSentWar>Штурм: {0} тварей из «{1}» отправлены на «{2}». Это война с фракцией «{3}».</FB_GanglionLogAssaultSentWar>
+  <FB_GanglionLogAssaultWon>Штурм «{0}» удался. Вернутся тварей: {1}, погибло: {2}.</FB_GanglionLogAssaultWon>
+  <FB_GanglionLogAssaultLost>Штурм «{0}» провалился. Погибли все твари ({1}).</FB_GanglionLogAssaultLost>
+</LanguageData>

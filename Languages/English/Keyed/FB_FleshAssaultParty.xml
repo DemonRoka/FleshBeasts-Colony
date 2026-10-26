@@ -13,7 +13,7 @@
 Automatic battle in: {1}</FB_FleshAssaultInspectAwaitingOrder>
   <FB_FleshAssaultBattleStarted>The pack landed at {0}: {1} beasts are on the map. The map is held until you withdraw them - select the settlement on the world map and press "Withdraw pack".</FB_FleshAssaultBattleStarted>
   <FB_FleshAssaultWithdrawLabel>Withdraw pack</FB_FleshAssaultWithdrawLabel>
-  <FB_FleshAssaultWithdrawDesc>Form the return caravan: pick which beasts leave and what they drag along. Once confirmed the map closes and the pack carries the loot home to its outpost.</FB_FleshAssaultWithdrawDesc>
+  <FB_FleshAssaultWithdrawDesc>Form a caravan: choose the departing fleshbeasts and their loot. Once confirmed, the pack heads to its home outpost and the battlefield becomes inaccessible.</FB_FleshAssaultWithdrawDesc>
   <FB_FleshAssaultWithdrawDone>The pack withdrew: {0} beasts returned and {1} stack(s) of loot reached the outpost.</FB_FleshAssaultWithdrawDone>
   <FB_FleshAssaultCaravanTitle>Return caravan</FB_FleshAssaultCaravanTitle>
   <FB_FleshAssaultCaravanBeastsTab>Beasts</FB_FleshAssaultCaravanBeastsTab>
@@ -21,15 +21,15 @@ Automatic battle in: {1}</FB_FleshAssaultInspectAwaitingOrder>
   <FB_FleshAssaultCaravanCountTip>How much to carry off the battlefield.</FB_FleshAssaultCaravanCountTip>
   <FB_FleshAssaultCaravanMass>Cargo: {0} / {1} kg</FB_FleshAssaultCaravanMass>
   <FB_FleshAssaultCaravanMassTip>Each beast hauls {0} kg per point of body size. Downed beasts carry nothing.</FB_FleshAssaultCaravanMassTip>
-  <FB_FleshAssaultCaravanCollapseWarning>The battle map collapses the moment the caravan leaves: anything you do not take is lost.</FB_FleshAssaultCaravanCollapseWarning>
+  <FB_FleshAssaultCaravanCollapseWarning>After the caravan leaves, the battlefield will become inaccessible. All creatures and items left behind will be lost.</FB_FleshAssaultCaravanCollapseWarning>
   <FB_FleshAssaultCaravanConfirm>Leave as a caravan</FB_FleshAssaultCaravanConfirm>
   <FB_FleshAssaultCaravanOverloaded>The pack cannot haul that much: {0} kg against a capacity of {1} kg.</FB_FleshAssaultCaravanOverloaded>
-  <FB_FleshAssaultCaravanAbandonConfirm>Beasts left behind collapse with the map and are lost. Abandon {0} beast(s) on the battlefield?</FB_FleshAssaultCaravanAbandonConfirm>
-  <FB_FleshAssaultCaravanSent>The caravan set out: {0} beasts and {1} stack(s) of cargo are travelling to the outpost.</FB_FleshAssaultCaravanSent>
-  <FB_FleshAssaultCaravanArrived>The caravan reached the outpost: {0} beasts joined the stock and {1} stack(s) went into storage.</FB_FleshAssaultCaravanArrived>
+  <FB_FleshAssaultCaravanAbandonConfirm>After departure, this location will become inaccessible and any fleshbeasts left behind will be lost. Abandon {0} fleshbeasts?</FB_FleshAssaultCaravanAbandonConfirm>
+  <FB_FleshAssaultCaravanSent>The caravan is heading to the outpost. Fleshbeasts: {0}. Cargo stacks: {1}.</FB_FleshAssaultCaravanSent>
+  <FB_FleshAssaultCaravanArrived>The caravan reached the outpost. Arriving fleshbeasts: {0}. Loot stacks in storage: {1}.</FB_FleshAssaultCaravanArrived>
   <FB_FleshAssaultCaravanNoOutpost>The home outpost is gone: the pack and its loot are lost.</FB_FleshAssaultCaravanNoOutpost>
   <FB_FleshAssaultCaravanAbandoned>Beasts abandoned on the battlefield: {0}.</FB_FleshAssaultCaravanAbandoned>
-  <FB_FleshAssaultCaravanCargoHeader>Cargo: {0} stack(s), {1} / {2} kg</FB_FleshAssaultCaravanCargoHeader>
+  <FB_FleshAssaultCaravanCargoHeader>Cargo stacks: {0}; weight: {1} / {2} kg</FB_FleshAssaultCaravanCargoHeader>
   <FB_FleshAssaultCaravanDropTip>Drop on the road</FB_FleshAssaultCaravanDropTip>
   <FB_FleshAssaultCaravanDropConfirm>Drop {0} along the way? The cargo is lost.</FB_FleshAssaultCaravanDropConfirm>
   <FB_FleshAssaultCaravanDropSelected>Drop ({0})</FB_FleshAssaultCaravanDropSelected>
@@ -61,5 +61,5 @@ Automatic battle in: {1}</FB_FleshAssaultInspectAwaitingOrder>
   <FB_FleshAssaultHaltLabel>Hold position</FB_FleshAssaultHaltLabel>
   <FB_FleshAssaultHaltDesc>Stop the pack where it stands until a new order, so it does not march for nothing. Changing the target or ordering a return lifts the halt.</FB_FleshAssaultHaltDesc>
   <FB_FleshAssaultHaltAwaitingBattle>The pack is already at its target and awaits the battle decision.</FB_FleshAssaultHaltAwaitingBattle>
-  <FB_FleshAssaultCargoDropped>The pack's cargo was left at the map edge: {0} stack(s).</FB_FleshAssaultCargoDropped>
+  <FB_FleshAssaultCargoDropped>The pack's cargo was left at the map edge. Stacks: {0}.</FB_FleshAssaultCargoDropped>
 </LanguageData>

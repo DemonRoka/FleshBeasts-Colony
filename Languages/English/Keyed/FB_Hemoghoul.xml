@@ -6,17 +6,17 @@
   
   <FB_Hemoghoul_InvalidTarget>Invalid hemoghoul target.</FB_Hemoghoul_InvalidTarget>
   <FB_Hemoghoul_NotFresh>The corpse must be fresh.</FB_Hemoghoul_NotFresh>
-  <FB_Hemoghoul_HumanlikeOnly>The target must be a dead humanlike corpse.</FB_Hemoghoul_HumanlikeOnly>
+  <FB_Hemoghoul_HumanlikeOnly>The target must be a humanlike corpse.</FB_Hemoghoul_HumanlikeOnly>
   <FB_Hemoghoul_MutantCorpse>Mutant corpses cannot be raised as hemoghouls.</FB_Hemoghoul_MutantCorpse>
   <FB_Hemoghoul_BrainRequired>The corpse must still have its brain.</FB_Hemoghoul_BrainRequired>
   <FB_Hemoghoul_Decayed>{0} has collapsed into {1} fingerspikes.</FB_Hemoghoul_Decayed>
   <FB_Hemoghoul_NoFingerspike>No available fingerspike can perform the implantation.</FB_Hemoghoul_NoFingerspike>
-  <FB_Hemoghoul_NotEnoughFingerspikes>Creating this hemoghoul requires {0} reachable fingerspikes; only {1} are available.</FB_Hemoghoul_NotEnoughFingerspikes>
-  <FB_Hemoghoul_CannotStart>The hemoghoul implantation could not start.</FB_Hemoghoul_CannotStart>
+  <FB_Hemoghoul_NotEnoughFingerspikes>Requires {0} fingerspikes. Only {1} can reach the corpse.</FB_Hemoghoul_NotEnoughFingerspikes>
+  <FB_Hemoghoul_CannotStart>Could not begin creating the hemoghoul.</FB_Hemoghoul_CannotStart>
   <FB_Hemoghoul_Assigned>{0} fingerspikes are moving to create a hemoghoul from {1}.</FB_Hemoghoul_Assigned>
   <FB_Hemoghoul_Success>{0} has risen as a hemoghoul.</FB_Hemoghoul_Success>
   <FB_Hemoghoul_Failed>The corpse could not be raised as a hemoghoul.</FB_Hemoghoul_Failed>
-  <FB_Hemoghoul_AlreadyAssigned>A hemoghoul implantation is already assigned.</FB_Hemoghoul_AlreadyAssigned>
+  <FB_Hemoghoul_AlreadyAssigned>Hemoghoul creation is already assigned.</FB_Hemoghoul_AlreadyAssigned>
   <FB_Hemoghoul_TargetAlreadyAssigned>This corpse is already assigned to a flesh operation.</FB_Hemoghoul_TargetAlreadyAssigned>
   <FB_Hemoghoul_InspectAssigned>Hemoghoul target: {0} ({1}/{2} fingerspikes delivered)</FB_Hemoghoul_InspectAssigned>
 </LanguageData>

@@ -3,10 +3,10 @@
   <FB_SegmentedBastion_NoGatherCell>No reachable space found for the selected fleshbeasts to gather.</FB_SegmentedBastion_NoGatherCell>
   <FB_SegmentedBastion_Interrupted>The segmented bastion assembly was interrupted.</FB_SegmentedBastion_Interrupted>
   <FB_SegmentedBastion_AssemblyComplete>{BEAST_labelShort} has formed.</FB_SegmentedBastion_AssemblyComplete>
-  <FB_SegmentedBastion_SplitLabel>Split into spine swarm</FB_SegmentedBastion_SplitLabel>
+  <FB_SegmentedBastion_SplitLabel>Split</FB_SegmentedBastion_SplitLabel>
   <FB_SegmentedBastion_SplitDesc>Split the bastion into its surviving spine segments. They act independently and can later rejoin their original bastion.</FB_SegmentedBastion_SplitDesc>
   <FB_SegmentedBastion_NoViableSegments>No viable segments remain.</FB_SegmentedBastion_NoViableSegments>
-  <FB_SegmentedBastion_ReassembleLabel>Reassemble segmented bastion</FB_SegmentedBastion_ReassembleLabel>
+  <FB_SegmentedBastion_ReassembleLabel>Form bastion</FB_SegmentedBastion_ReassembleLabel>
   <FB_SegmentedBastion_ReassembleDesc>Gather all surviving native segments of this bastion and fuse them back into the large form.</FB_SegmentedBastion_ReassembleDesc>
   <FB_SegmentedBastion_InvalidSegment>This segment does not remember a bastion identity.</FB_SegmentedBastion_InvalidSegment>
   <FB_SegmentedBastion_SegmentTooDamaged>This segment is too damaged to reassemble.</FB_SegmentedBastion_SegmentTooDamaged>
@@ -14,8 +14,8 @@
   <FB_SegmentedBastion_NoSegments>No surviving native segments are available.</FB_SegmentedBastion_NoSegments>
   <FB_SegmentedBastion_ReassemblyStarted>{0} bastion segments begin reassembling.</FB_SegmentedBastion_ReassemblyStarted>
   <FB_SegmentedBastion_ReassemblyComplete>{BEAST_labelShort} has reassembled.</FB_SegmentedBastion_ReassemblyComplete>
-  <FB_SegmentedBastion_RepairLabel>Call fingerspike repairs</FB_SegmentedBastion_RepairLabel>
-  <FB_SegmentedBastion_RepairDesc>Order available fingerspikes to embed themselves into this bastion, restoring missing dead segments and healing damaged ones.</FB_SegmentedBastion_RepairDesc>
+  <FB_SegmentedBastion_RepairLabel>Repair segments</FB_SegmentedBastion_RepairLabel>
+  <FB_SegmentedBastion_RepairDesc>Order available fingerspikes to embed themselves into this bastion, restoring missing or dead segments and healing damaged ones.</FB_SegmentedBastion_RepairDesc>
   <FB_SegmentedBastion_AutoRepairState>Auto-repair: {0}</FB_SegmentedBastion_AutoRepairState>
   <FB_SegmentedBastion_AutoRepairHint>Enabled by default; right-click to toggle. When enabled, the bastion checks every {0} ticks and calls available fingerspikes for missing or dead segments.</FB_SegmentedBastion_AutoRepairHint>
   <FB_SegmentedBastion_RepairStarted>Fingerspikes assigned to repair: {0}.</FB_SegmentedBastion_RepairStarted>

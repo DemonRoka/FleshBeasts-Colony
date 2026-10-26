@@ -3,8 +3,8 @@
   <!-- Ген: hive constructor (FB_HiveConstructor) -->
   <GeneDef ParentName="BiomassBaseGene">
     <defName>FB_HiveConstructor</defName>
-    <label>hive constructor</label>
-    <labelShortAdj>hive constructor</labelShortAdj>
+    <label>builder hive</label>
+    <labelShortAdj>builder hive</labelShortAdj>
     <description>Carriers develop an internal hive that slowly grows sclerats. When construction, repair, deconstruction, or roof work is available nearby, the brood can be released to perform labor for the colony.</description>
     <iconPath>UI/Icons/Genes/Gene_HiveConstructor</iconPath>
     <geneClass>FB.Gene_PawnContainer</geneClass>

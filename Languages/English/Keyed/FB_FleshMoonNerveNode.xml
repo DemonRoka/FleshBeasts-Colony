@@ -12,7 +12,7 @@
   <FB_FleshMoonTileDrainNodeInspectOn>Surface nutrition drain: enabled.</FB_FleshMoonTileDrainNodeInspectOn>
   <FB_FleshMoonTileDrainNodeInspectOff>Surface nutrition drain: disabled.</FB_FleshMoonTileDrainNodeInspectOff>
   <FB_FleshMoonSurfaceNutritionDrainInspect>Surface drain output: {0}/h; tile nutrition {1}%.</FB_FleshMoonSurfaceNutritionDrainInspect>
-  <FB_FleshMoonSurfaceNutritionDrainLabel>Surface nutrition drain</FB_FleshMoonSurfaceNutritionDrainLabel>
+  <FB_FleshMoonSurfaceNutritionDrainLabel>Digest local biomass</FB_FleshMoonSurfaceNutritionDrainLabel>
   <FB_FleshMoonSurfaceNutritionDrainEconomyDetail>Tile nutrition: {0}%; initial factor {1}; output {2}/h</FB_FleshMoonSurfaceNutritionDrainEconomyDetail>
   <FB_FleshMoonSurfaceNutritionDrainEconomyDisabled>Disabled at the lunar nerve node; tile nutrition {0}%.</FB_FleshMoonSurfaceNutritionDrainEconomyDisabled>
   <FB_CelestialUmbilicusTileDrainInspect>Location drain: {0}/h; tile nutrition {1}%.</FB_CelestialUmbilicusTileDrainInspect>
@@ -31,7 +31,7 @@
   <FB_FleshMoonGastricAcidAlreadyHere>There is already gastric acid here.</FB_FleshMoonGastricAcidAlreadyHere>
   <FB_FleshMoonGastricAcidMissing>There is no gastric acid here.</FB_FleshMoonGastricAcidMissing>
   <FB_FleshMoonGastricAcidBlocked>Cannot form gastric acid under a building.</FB_FleshMoonGastricAcidBlocked>
-  <FB_FleshMoonGastricAcidDigester_Inspect>Lunar digestive fuel: {0} nutrition. Hemogel output: {1}/h.</FB_FleshMoonGastricAcidDigester_Inspect>
-  <FB_FleshMoonGastricAcidDigester_EconomyDetail>Lunar digestive fuel: {0} nutrition; output {1}/h</FB_FleshMoonGastricAcidDigester_EconomyDetail>
-  <FB_BiomassTransformNoHeartOnFleshMoon>You cannot grow a Flesh Heart inside the flesh moon. Instead, grow a lunar nerve node from the Build menu's Flesh moon tab.</FB_BiomassTransformNoHeartOnFleshMoon>
+  <FB_FleshMoonGastricAcidDigester_Inspect>Moon's digestible organic matter: {0} nutrition. Hemogel output: {1}/h.</FB_FleshMoonGastricAcidDigester_Inspect>
+  <FB_FleshMoonGastricAcidDigester_EconomyDetail>Moon's digestible organic matter: {0} nutrition; output {1}/h</FB_FleshMoonGastricAcidDigester_EconomyDetail>
+  <FB_BiomassTransformNoHeartOnFleshMoon>You cannot grow a colony heart inside the flesh moon. Instead, grow a lunar nerve node from the Build menu's Flesh moon tab.</FB_BiomassTransformNoHeartOnFleshMoon>
 </LanguageData>

@@ -3,7 +3,7 @@
   <!-- Постройка: collapsed flesh moon mass (FB_FleshMoonCollapsedMass) -->
   <ThingDef ParentName="Fleshmass">
     <defName>FB_FleshMoonCollapsedMass</defName>
-    <label>collapsed flesh moon mass</label>
+    <label>lunar flesh fragment</label>
     <description>A dense slab of lunar flesh torn loose by a roof collapse. It blocks movement until absorbed, but holds no usable hemogel.</description>
   </ThingDef>
 </Defs>

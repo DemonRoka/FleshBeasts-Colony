@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_HumanMimicry.label>человеческая мимикрия</FB_HumanMimicry.label>
-  <FB_HumanMimicry.description>Открывает голосовой орган и плотяной торговый маяк. Орган подражает человеческому радисту вокруг живого носителя, позволяя колонии вызывать проходящие корабли и далёкие фракции, ни разу не выдав, кто им отвечает.</FB_HumanMimicry.description>
+  <FB_HumanMimicry.description>Открывает голосовой орган и плотяной торговый маяк. Используя голос живого носителя, колония может связываться с орбитальными торговцами и далёкими фракциями, скрывая свою природу.</FB_HumanMimicry.description>
   <FB_HumanMimicry.generalRules.rulesStrings.0>subject-&gt;человеческая мимикрия</FB_HumanMimicry.generalRules.rulesStrings.0>
   <FB_HumanMimicry.generalRules.rulesStrings.1>subject_story-&gt;научили плоть говорить украденным голосом</FB_HumanMimicry.generalRules.rulesStrings.1>
   <FB_HumanMimicry.generalRules.rulesStrings.2>subject_story-&gt;торговали с орбитой, надев человеческое горло</FB_HumanMimicry.generalRules.rulesStrings.2>

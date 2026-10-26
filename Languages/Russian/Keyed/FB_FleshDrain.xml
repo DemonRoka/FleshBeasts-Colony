@@ -9,7 +9,7 @@
   <FB_FleshDrainPumpsLostMessage>Бригада фракции «{0}» лишилась насосов и пошла на колонию.</FB_FleshDrainPumpsLostMessage>
   <FB_FleshDrainQuotaMessage>Бригада фракции «{0}» взяла своё и уходит.</FB_FleshDrainQuotaMessage>
   <FB_FleshDrainDryMessage>Резерв пуст, качать больше нечего. Бригада фракции «{0}» сворачивается.</FB_FleshDrainDryMessage>
-  <FB_FleshDrainLowMessage>Запас колонии просел до пятой части - брать столько уже не выйдет. Бригада фракции «{0}» сворачивается.</FB_FleshDrainLowMessage>
+  <FB_FleshDrainLowMessage>Запас колонии просел до пятой части - гемогеля осталось слишком мало. Бригада фракции «{0}» сворачивается.</FB_FleshDrainLowMessage>
 
   <!-- Насос -->
   <FB_FleshDrainPumpInspect>Откачка: {0}/час\nВыкачано всего: {1}\nСледующая бочка: {2}</FB_FleshDrainPumpInspect>
@@ -19,16 +19,16 @@
   <!-- Бочка -->
   <FB_HemogelCanisterInspect>Внутри: {0} гемогеля</FB_HemogelCanisterInspect>
   <FB_HemogelCanisterPourLabel>Вылить</FB_HemogelCanisterPourLabel>
-  <FB_HemogelCanisterPourDesc>Слить эту стопку в гемогелевую сеть колонии: {0}. Бочка должна лежать на плотяном покрове. Учтите, что вылитый в сеть гемогель насосы могут выкачать снова, а бочку в хранилище - нет.</FB_HemogelCanisterPourDesc>
+  <FB_HemogelCanisterPourDesc>Вылить содержимое этих бочек в сеть колонии: {0} гемогеля. Бочка должна лежать на плотяном покрове. Учтите, что вылитый в сеть гемогель насосы могут выкачать снова, а бочку в хранилище - нет.</FB_HemogelCanisterPourDesc>
   <FB_HemogelCanisterPourForbidden>Сначала нужно снять запрет.</FB_HemogelCanisterPourForbidden>
   <FB_HemogelCanisterPoured>В сеть возвращено гемогеля: {0}.</FB_HemogelCanisterPoured>
   <FB_HemogelCanisterPourNotOnFlesh>Бочку нужно положить на плотяной покров.</FB_HemogelCanisterPourNotOnFlesh>
-  <FB_HemogelCanisterPourNetworkFull>Гемогелевой сети колонии некуда принять эту бочку.</FB_HemogelCanisterPourNetworkFull>
+  <FB_HemogelCanisterPourNetworkFull>В сети колонии нет места для содержимого бочки.</FB_HemogelCanisterPourNetworkFull>
   <FB_HemogelCanisterPouredPartial>В сеть возвращено гемогеля: {0}. Больше сеть не вмещает, бочек осталось: {1}.</FB_HemogelCanisterPouredPartial>
   <FB_FleshDrainPumpNothingToTake>Брать здесь больше нечего.</FB_FleshDrainPumpNothingToTake>
   <FB_FleshDrainPumpNoPower>Нет питания: откачка стоит.</FB_FleshDrainPumpNoPower>
   <FB_FleshDrainPumpNoFlesh>Не на плотяном покрове: качать неоткуда.</FB_FleshDrainPumpNoFlesh>
-  <FB_NeuronSuppressorInspect>Щупальца подавлены в радиусе {0} клеток: ни захват, ни вынос груза.</FB_NeuronSuppressorInspect>
+  <FB_NeuronSuppressorInspect>Щупальца подавлены в радиусе {0} клеток. Захват и переноска недоступны.</FB_NeuronSuppressorInspect>
   <FB_NeuronSuppressorNoPower>Нет питания: поле не держится.</FB_NeuronSuppressorNoPower>
 
   <!-- Dev -->

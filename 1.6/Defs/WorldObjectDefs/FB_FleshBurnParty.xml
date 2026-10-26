@@ -3,7 +3,7 @@
   <WorldObjectDef>
     <defName>FB_FleshBurnParty</defName>
     <label>burn party</label>
-    <description>A hostile column camped on a flesh-covered world tile, burning the living cover away. It leaves once the tile is stripped, unless something drives it off first.</description>
+    <description>A hostile party burning away the flesh cover. After clearing one tile, it may move on to the next. Send a war pack to stop it.</description>
     <worldObjectClass>FB.WorldObject_FleshBurnParty</worldObjectClass>
     <canHaveFaction>true</canHaveFaction>
     <canHaveMap>false</canHaveMap>

@@ -9,17 +9,17 @@
   <FB_OutpostBillGrowing>Растёт: осталось {0}</FB_OutpostBillGrowing>
   <FB_OutpostBillStockReached>В запасе уже {0} - выращивание на паузе</FB_OutpostBillStockReached>
   <FB_OutpostBillPausedUntil>На паузе, пока в запасе не останется {0}</FB_OutpostBillPausedUntil>
-  <FB_OutpostRemoveBeastsButton>Удалить тварей...</FB_OutpostRemoveBeastsButton>
-  <FB_OutpostRemoveBeastsButtonDesc>Выбрать, сколько тварей каждого вида убрать из запаса аванпоста. За каждую удалённую тварь в резерв сети вернётся {0} цены её выращивания.</FB_OutpostRemoveBeastsButtonDesc>
-  <FB_OutpostRemoveBeastsTitle>Удалить тварей из запаса аванпоста</FB_OutpostRemoveBeastsTitle>
-  <FB_OutpostRemoveBeastsInfoCount>К удалению</FB_OutpostRemoveBeastsInfoCount>
+  <FB_OutpostRemoveBeastsButton>Поглотить биошматов…</FB_OutpostRemoveBeastsButton>
+  <FB_OutpostRemoveBeastsButtonDesc>Выбрать биошматов из гарнизона аванпоста для поглощения. За каждого в резерв сети вернётся {0} стоимости его выращивания.</FB_OutpostRemoveBeastsButtonDesc>
+  <FB_OutpostRemoveBeastsTitle>Поглотить биошматов гарнизона</FB_OutpostRemoveBeastsTitle>
+  <FB_OutpostRemoveBeastsInfoCount>К поглощению</FB_OutpostRemoveBeastsInfoCount>
   <FB_OutpostRemoveBeastsInfoCountTip>Сколько тварей будет убрано из запаса.</FB_OutpostRemoveBeastsInfoCountTip>
   <FB_OutpostRemoveBeastsInfoRefund>Возврат</FB_OutpostRemoveBeastsInfoRefund>
   <FB_OutpostRemoveBeastsInfoRefundTip>Сколько гемогеля вернётся в резерв сети: {0} цены выращивания каждой удалённой твари.</FB_OutpostRemoveBeastsInfoRefundTip>
   <FB_OutpostRemoveBeastsRefundEachTip>Сколько гемогеля вернётся за одну такую тварь.</FB_OutpostRemoveBeastsRefundEachTip>
   <FB_OutpostRemoveBeastsNothing>Отметьте хотя бы одну тварь для удаления.</FB_OutpostRemoveBeastsNothing>
-  <FB_OutpostRemoveBeastsConfirm>Удалить тварей из запаса аванпоста: {0}? В резерв сети вернётся {1} гемогеля.</FB_OutpostRemoveBeastsConfirm>
-  <FB_OutpostRemoveBeastsDone>Из запаса аванпоста удалено тварей: {0}. В резерв сети вернулось {1} гемогеля.</FB_OutpostRemoveBeastsDone>
+  <FB_OutpostRemoveBeastsConfirm>Поглотить биошматов из гарнизона: {0}? В резерв сети вернётся {1} гемогеля.</FB_OutpostRemoveBeastsConfirm>
+  <FB_OutpostRemoveBeastsDone>Поглощено биошматов из гарнизона: {0}. В резерв сети вернулось {1} гемогеля.</FB_OutpostRemoveBeastsDone>
   <FB_OutpostTransferBeastsButton>Перебросить тварей...</FB_OutpostTransferBeastsButton>
   <FB_OutpostTransferBeastsButtonDesc>Выбрать другой аванпост на карте мира и отправить туда часть запаса тварей грузовым караваном.</FB_OutpostTransferBeastsButtonDesc>
   <FB_FleshBeastTransferTitle>Переброска тварей в «{0}»</FB_FleshBeastTransferTitle>
@@ -33,11 +33,11 @@
   <FB_FleshAssaultDeployInfoUnits>Тварей</FB_FleshAssaultDeployInfoUnits>
   <FB_FleshAssaultDeployInfoUnitsTip>Сколько тварей уйдёт с этим отрядом.</FB_FleshAssaultDeployInfoUnitsTip>
   <FB_FleshAssaultDeployInfoStrength>Сила стаи</FB_FleshAssaultDeployInfoStrength>
-  <FB_FleshAssaultDeployInfoStrengthTip>Суммарная боевая мощь отмеченных тварей в ванильных очках.</FB_FleshAssaultDeployInfoStrengthTip>
+  <FB_FleshAssaultDeployInfoStrengthTip>Суммарная боевая сила выбранных биошматов.</FB_FleshAssaultDeployInfoStrengthTip>
   <FB_FleshAssaultDeployInfoDefence>Оборона</FB_FleshAssaultDeployInfoDefence>
   <FB_FleshAssaultDeployInfoDefenceTip>Во столько очков оценивается оборона «{0}».</FB_FleshAssaultDeployInfoDefenceTip>
   <FB_FleshAssaultDeployInfoVerdict>Прогноз</FB_FleshAssaultDeployInfoVerdict>
-  <FB_FleshAssaultDeployInfoVerdictTip>Расчётный исход, если бой свернётся в автоматический. Ручной бой может пойти иначе.</FB_FleshAssaultDeployInfoVerdictTip>
+  <FB_FleshAssaultDeployInfoVerdictTip>Расчётный исход, при автоматическом расчёте боя. Ручной бой может пойти иначе.</FB_FleshAssaultDeployInfoVerdictTip>
   <FB_FleshAssaultDeploySortCategory>По названию</FB_FleshAssaultDeploySortCategory>
   <FB_FleshAssaultDeploySortStrength>По силе</FB_FleshAssaultDeploySortStrength>
   <FB_FleshAssaultDeployAvailableTip>Сколько таких тварей есть в запасе аванпоста.</FB_FleshAssaultDeployAvailableTip>

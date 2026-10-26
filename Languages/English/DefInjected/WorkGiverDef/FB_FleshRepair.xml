@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <FB_FleshRepair.label>regenerate flesh organoids</FB_FleshRepair.label>
+	<FB_FleshRepair.gerund>repairing</FB_FleshRepair.gerund>
+	<FB_FleshRepair.verb>repair</FB_FleshRepair.verb>
 </LanguageData>

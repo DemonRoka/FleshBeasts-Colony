@@ -18,7 +18,7 @@
     <defName>FB_FleshbeastBody</defName>
     <label>fleshbeast body</label>
     <labelShortAdj>fleshbeast</labelShortAdj>
-    <description>Carriers are reshaped into a humanoid fleshbeast: hair and ordinary skin give way to living fleshbeast tissue and a warped head. The body feels far less pain, heals faster, and takes slightly less damage, but becomes deeply unsettling to others. Vital systems spread through the whole mass, so a killing blow tears the carrier into two younger bodies instead of killing them. Cannot be combined with fragmentation - a body can come apart in only one way.</description>
+    <description>Carriers are reshaped into a humanoid fleshbeast: hair and ordinary skin give way to living fleshbeast tissue and a warped head. The body feels far less pain, heals faster, and takes slightly less damage, but becomes deeply unsettling to others. Vital systems are spread throughout the body. When mortally wounded on a map, a sufficiently mature carrier can split into two younger bodies instead of dying. Cannot be combined with fragmentation - a body can come apart in only one way.</description>
     <iconPath>UI/Icons/Genes/Gene_FleshbeastTransformation</iconPath>
     <geneClass>FB.Gene_HediffMaintainer</geneClass>
     <modExtensions>
@@ -173,7 +173,7 @@
     <defName>FB_BloodTendril</defName>
     <label>blood tendril</label>
     <labelShortAdj>blood-tendriled</labelShortAdj>
-    <description>Carriers grow a tendril-organ in the throat. If the organ is intact, they can fire it from the mouth at a target a short distance away, pinning a living non-mechanical victim while drawing blood to restore hunger, blood loss, and hemogen when applicable.</description>
+    <description>Carriers grow a tendril-organ in the throat. If the organ is intact, they can fire it from the mouth at a target a short distance away, pinning a living non-mechanical victim while drawing blood to satisfy hunger, replenish lost blood, and restore hemogen when applicable.</description>
     <iconPath>UI/Icons/Genes/Gene_BloodTendril</iconPath>
     <geneClass>FB.Gene_HediffMaintainerOnBodyPart</geneClass>
     <displayOrderInCategory>300</displayOrderInCategory>

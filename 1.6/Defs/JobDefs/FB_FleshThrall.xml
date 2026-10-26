@@ -3,7 +3,7 @@
   <JobDef>
     <defName>FB_FingerspikeRestoreFleshThrall</defName>
     <driverClass>FB.JobDriver_FingerspikeRestoreFleshThrall</driverClass>
-    <reportString>entering TargetA to restore its flesh-thrall cohesion.</reportString>
+    <reportString>entering TargetA to restore its flesh-thrall integrity.</reportString>
     <checkOverrideOnDamage>Never</checkOverrideOnDamage>
   </JobDef>
 

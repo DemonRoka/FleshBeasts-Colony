@@ -4,7 +4,7 @@
 	<ThingDef ParentName="BaseFleshbeast">
 		<defName>FB_Psyphage</defName>
 		<label>psyphage</label>
-		<description>A heavy fleshbeast that walks up to downed pawns, prisoners, slaves and colonists and swallows them, digesting them alive and copying their abilities into its nerve archive. It also absorbs psytrainers, psylink neuroformers and anima trees, and can root into flesh to become a stationary psyarchive.</description>
+		<description>A heavy fleshbeast that can be ordered to swallow downed pawns, prisoners, slaves, and colonists. Victims are digested alive and their abilities are stored in its neural archive. It can also absorb psytrainers, psylink neuroformers, and anima trees, or root into flesh to become an immobile psyarchive.</description>
 		<researchPrerequisites>
 			<li>FB_PsyphageGestation</li>
 		</researchPrerequisites>

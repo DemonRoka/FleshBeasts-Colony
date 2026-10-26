@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FB_GanglionGrowLabel>Grow ganglion</FB_GanglionGrowLabel>
+  <FB_GanglionGrowDesc>Grow this outpost into a ganglion: a nerve center managing outposts within {0} tiles. Maintains their target garrison composition and can coordinate defense and assaults.
+
+Share of its tile's hemogel output delivered to the network: {2}%.
+Cost: {1} hemogel.</FB_GanglionGrowDesc>
+  <FB_GanglionGrowConfirm>Grow a ganglion at {0} for {1} hemogel? It will manage every outpost within {2} tiles, and its own tile will stop feeding the network.</FB_GanglionGrowConfirm>
+  <FB_GanglionGrown>{0} has grown into a ganglion.</FB_GanglionGrown>
+  <FB_GanglionInsideOtherZone>Inside the zone of ganglion {0} (distance {1}). A new ganglion can only grow farther than {2} tiles from every other one.</FB_GanglionInsideOtherZone>
+  <FB_GanglionDowngradeLabel>Revert to outpost</FB_GanglionDowngradeLabel>
+  <FB_GanglionDowngradeDesc>Let the ganglion wither back into an ordinary outpost, returning {0} hemogel ({1} of its growth cost) to the network. Automatic garrison replenishment continues only at outposts within reach of another ganglion.</FB_GanglionDowngradeDesc>
+  <FB_GanglionDowngradeConfirm>Revert the ganglion at {0} to an outpost? {1} hemogel will return to the network.</FB_GanglionDowngradeConfirm>
+  <FB_GanglionDowngraded>{0} is an ordinary outpost again. {1} hemogel returned to the network.</FB_GanglionDowngraded>
+  <FB_GanglionPanelLabel>Ganglion panel</FB_GanglionPanelLabel>
+  <FB_GanglionPanelDesc>View outposts within {0} tiles of the ganglion and manage their garrisons, defense, and assaults.</FB_GanglionPanelDesc>
+  <FB_GanglionQuotasLabel>Target garrison</FB_GanglionQuotasLabel>
+  <FB_GanglionQuotasDesc>Set the desired number of fleshbeasts of each kind. A ganglion managing the outpost automatically orders any missing beasts.</FB_GanglionQuotasDesc>
+  <FB_GanglionInspect>Ganglion: manages {0} other outposts within {1} tiles</FB_GanglionInspect>
+  <FB_GanglionControlledInspect>Managed by ganglion: {0}</FB_GanglionControlledInspect>
+  <FB_GanglionManagedBillLabel>{0} (garrison replenishment)</FB_GanglionManagedBillLabel>
+  <FB_GanglionPanelTitle>Ganglion {0}: outposts within {1} tiles</FB_GanglionPanelTitle>
+  <FB_GanglionPanelZoneHeader>Ganglion zone: {0} outposts</FB_GanglionPanelZoneHeader>
+  <FB_GanglionColumnQuotas>Garrison</FB_GanglionColumnQuotas>
+  <FB_GanglionColumnQuotasTip>Current and target garrison size. Click to set the desired composition.</FB_GanglionColumnQuotasTip>
+  <FB_GanglionQuotasNone>not set</FB_GanglionQuotasNone>
+  <FB_GanglionQuotasTitle>Target garrison: {0}</FB_GanglionQuotasTitle>
+  <FB_GanglionQuotasControlled>Replenishment managed by: {0}.</FB_GanglionQuotasControlled>
+  <FB_GanglionQuotasNotControlled>This outpost is outside every ganglion's range. Its target composition is saved, but automatic replenishment is inactive.</FB_GanglionQuotasNotControlled>
+  <FB_GanglionQuotasHint>The ganglion maintains the desired number of fleshbeasts through growth orders paid for with network hemogel. Your own orders run independently.</FB_GanglionQuotasHint>
+  <FB_GanglionQuotasColumnKind>Beast</FB_GanglionQuotasColumnKind>
+  <FB_GanglionQuotasColumnCost>Cost</FB_GanglionQuotasColumnCost>
+  <FB_GanglionQuotasColumnStock>On hand</FB_GanglionQuotasColumnStock>
+  <FB_GanglionQuotasColumnQuota>Target</FB_GanglionQuotasColumnQuota>
+  <FB_GanglionQuotasCost>{0} hemogel</FB_GanglionQuotasCost>
+  <FB_GanglionAutoDefenseLabel>Auto-defense</FB_GanglionAutoDefenseLabel>
+  <FB_GanglionAutoDefenseDesc>If a burn party camps on flesh cover and no force is already marching against it, the ganglion finds the nearest outpost in its area with a strong enough garrison. Required strength advantage: {0}.\n\nAn eligible garrison is sent to fight, and combat resolves automatically. If no outpost is strong enough, the ganglion warns you and sends no one.</FB_GanglionAutoDefenseDesc>
+  <FB_GanglionDefenseShortfall>Ganglion {0} cannot drive off the burn party on tile {1}. It needs {2} strength, the strongest garrison in its zone has {3}.</FB_GanglionDefenseShortfall>
+  <FB_GanglionColumnDefense>Defense</FB_GanglionColumnDefense>
+  <FB_GanglionColumnDefenseTip>Whether the ganglion may send this outpost's garrison against burn parties.</FB_GanglionColumnDefenseTip>
+  <FB_GanglionAutoAssaultLabel>Auto-assault</FB_GanglionAutoAssaultLabel>
+  <FB_GanglionAutoAssaultDesc>The ganglion chooses the nearest eligible settlement belonging to a faction in its assault filter. It sends a pack from an outpost in its area if the required strength advantage can be met without using the garrison reserve. Combat resolves automatically.\n\nAssault settings and the faction filter are in the ganglion panel.</FB_GanglionAutoAssaultDesc>
+  <FB_GanglionAssaultButton>Assault...</FB_GanglionAssaultButton>
+  <FB_GanglionJournalButton>Journal</FB_GanglionJournalButton>
+  <FB_GanglionColumnAssault>Assault</FB_GanglionColumnAssault>
+  <FB_GanglionColumnAssaultTip>Whether the ganglion may send this outpost's garrison on auto-assaults.</FB_GanglionColumnAssaultTip>
+  <FB_GanglionAssaultTitle>Auto-assault: {0}</FB_GanglionAssaultTitle>
+  <FB_GanglionAssaultAutoAddHostiles>Add factions that turn hostile</FB_GanglionAssaultAutoAddHostiles>
+  <FB_GanglionAssaultAutoAddHostilesDesc>A faction that becomes hostile is ticked in the filter on its own. A faction you unticked by hand stays unticked.</FB_GanglionAssaultAutoAddHostilesDesc>
+  <FB_GanglionAssaultSpareLast>Spare the last settlement of a faction</FB_GanglionAssaultSpareLast>
+  <FB_GanglionAssaultSpareLastDesc>The ganglion does not attack a faction's only remaining settlement, so it never wipes a faction out on its own.</FB_GanglionAssaultSpareLastDesc>
+  <FB_GanglionAssaultRatio>Required margin: ×{0} of the settlement's defense</FB_GanglionAssaultRatio>
+  <FB_GanglionAssaultRatioDesc>Required pack strength as a multiple of estimated defenses: ×1.5 means 150% of their strength. A greater advantage reduces fleshbeast losses.</FB_GanglionAssaultRatioDesc>
+  <FB_GanglionAssaultReserve>Garrison reserve: {0}</FB_GanglionAssaultReserve>
+  <FB_GanglionAssaultReserveDesc>This share of each beast kind always stays home at every outpost.</FB_GanglionAssaultReserveDesc>
+  <FB_GanglionAssaultParties>Packs out at once: {0}</FB_GanglionAssaultParties>
+  <FB_GanglionAssaultDistance>Target range: {0}</FB_GanglionAssaultDistance>
+  <FB_GanglionAssaultDistanceUnlimited>unlimited</FB_GanglionAssaultDistanceUnlimited>
+  <FB_GanglionAssaultFactions>Factions the ganglion attacks:</FB_GanglionAssaultFactions>
+  <FB_GanglionAssaultFactionLine>{0} - {1} ({2}), settlements: {3}</FB_GanglionAssaultFactionLine>
+  <FB_GanglionAssaultFactionWarTip>{0} is not hostile: the first assault on its settlement declares war.</FB_GanglionAssaultFactionWarTip>
+  <FB_GanglionJournalTitle>Ganglion journal: {0}</FB_GanglionJournalTitle>
+  <FB_GanglionJournalEmpty>The ganglion has not decided anything yet.</FB_GanglionJournalEmpty>
+  <FB_GanglionLogDefenseSent>Defense: sent {0} beasts from {1} against the burn party on tile {2}.</FB_GanglionLogDefenseSent>
+  <FB_GanglionLogDefenseWon>Defense won on tile {0}. {1} beasts are coming back, {2} died.</FB_GanglionLogDefenseWon>
+  <FB_GanglionLogDefenseLost>Defense lost on tile {0}. All {1} beasts died.</FB_GanglionLogDefenseLost>
+  <FB_GanglionLogAssaultSent>Assault: sent {0} beasts from {1} against {2}.</FB_GanglionLogAssaultSent>
+  <FB_GanglionLogAssaultSentWar>Assault: sent {0} beasts from {1} against {2}. This means war with {3}.</FB_GanglionLogAssaultSentWar>
+  <FB_GanglionLogAssaultWon>Assault on {0} succeeded. {1} beasts are coming back, {2} died.</FB_GanglionLogAssaultWon>
+  <FB_GanglionLogAssaultLost>Assault on {0} failed. All {1} beasts died.</FB_GanglionLogAssaultLost>
+</LanguageData>

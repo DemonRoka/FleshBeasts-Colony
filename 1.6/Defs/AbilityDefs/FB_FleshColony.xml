@@ -59,8 +59,8 @@
   <!-- Способность: Become the Flesh Heart (FB_BecomeFleshHeart) -->
   <AbilityDef>
     <defName>FB_BecomeFleshHeart</defName>
-    <label>Become the Flesh Heart</label>
-    <description>Select a valid site and sacrifice your physical form to transform there into the Flesh Heart — a pulsating biomass core that begins the expansion.</description>
+    <label>Become a heart</label>
+    <description>Select a valid site and sacrifice your physical form to transform there into the colony heart — a pulsating biomass core that begins the expansion.</description>
     <iconPath>UI/Abilities/BecomeFleshHeart</iconPath>
     <cooldownTicksRange>900000</cooldownTicksRange>
     <aiCanUse>true</aiCanUse>
@@ -106,7 +106,7 @@
   <AbilityDef ParentName="AbilityTouchBase">
     <defName>FB_BodyPartTransfer</defName>
     <label>body part transfer</label>
-    <description>Transfer one compatible missing body part from a fresh humanlike corpse.</description>
+    <description>Restores one missing body part by transplanting a compatible part from a fresh humanlike corpse.</description>
     <iconPath>UI/Abilities/BodyPartTransfer</iconPath>
     <stunTargetWhileCasting>false</stunTargetWhileCasting>
     <warmupMote>Mote_HoraxSmallSpellWarmup</warmupMote>
@@ -174,7 +174,7 @@
   <AbilityDef ParentName="AbilityTouchBase">
     <defName>FB_ConvertCorpseToParasiteEgg</defName>
     <label>convert to parasite egg</label>
-    <description>Transform the target body into the egg of a personal parasite. Works exclusively when studying the relevant technology; without it, it explodes the body.</description>
+    <description>After the required research is completed, turns the target corpse into a personality parasite egg. Without the research, the corpse ruptures without producing an egg.</description>
     <iconPath>UI/Abilities/ConvertCorpse</iconPath>
     <cooldownTicksRange>30000~60000</cooldownTicksRange>
     <warmupMote>Mote_ResurrectAbility</warmupMote>
@@ -205,7 +205,7 @@
   <AbilityDef ParentName="AbilityTouchBase">
     <defName>FB_ParasiteImplant</defName>
     <label>implant parasite</label>
-    <description>Implants a maturing parasite into the target's torso by sacrificing one of the carrier's fingers. This is a hostile attack; mature parasites can later burst out when called or when the host dies.</description>
+    <description>Implants a maturing parasite into the target's torso by sacrificing one of the caster's own fingers. This is a hostile attack; mature parasites can later burst out when called or when the host dies.</description>
     <iconPath>UI/Abilities/ParasiteImplant</iconPath>
     <warmupEffecter>Implant_Xenogerm</warmupEffecter>
     <displayOrder>500</displayOrder>
@@ -262,7 +262,7 @@
   <AbilityDef Name="ShapeFlesh">
     <defName>FB_Scavenger</defName>
     <label>scavenger</label>
-    <description>Transforms a fresh corpse into one or more DenseWeaver creatures, triggering a small meat explosion effect.</description>
+    <description>Transforms a fresh corpse into one or more denseweaver creatures, triggering a small meat explosion effect.</description>
     <iconPath>UI/Abilities/Scavenger</iconPath>
     <cooldownTicksRange>24000</cooldownTicksRange>
     <showPsycastEffects>false</showPsycastEffects>

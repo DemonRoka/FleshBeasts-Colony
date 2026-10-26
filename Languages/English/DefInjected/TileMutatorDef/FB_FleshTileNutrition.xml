@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <FB_FleshTileNutritionStrained.label>strained ecosystem</FB_FleshTileNutritionStrained.label>
-  <FB_FleshTileNutritionStrained.description>Hemogel extraction has thinned the wild plants and animal presence on this tile.</FB_FleshTileNutritionStrained.description>
+  <FB_FleshTileNutritionStrained.label>weakened ecosystem</FB_FleshTileNutritionStrained.label>
+  <FB_FleshTileNutritionStrained.description>Hemogel extraction is thinning this tile's vegetation and reducing its wildlife.</FB_FleshTileNutritionStrained.description>
 
-  <FB_FleshTileNutritionBarren.label>barren ecosystem</FB_FleshTileNutritionBarren.label>
-  <FB_FleshTileNutritionBarren.description>Hemogel extraction has left this tile with sparse wild plants and few animals.</FB_FleshTileNutritionBarren.description>
+  <FB_FleshTileNutritionBarren.label>sparse ecosystem</FB_FleshTileNutritionBarren.label>
+  <FB_FleshTileNutritionBarren.description>Hemogel extraction has severely reduced vegetation on this tile; wild animals are rare.</FB_FleshTileNutritionBarren.description>
 
   <FB_FleshTileNutritionDepleted.label>depleted ecosystem</FB_FleshTileNutritionDepleted.label>
-  <FB_FleshTileNutritionDepleted.description>Hemogel extraction has nearly stripped this tile of wild plants and animal presence.</FB_FleshTileNutritionDepleted.description>
+  <FB_FleshTileNutritionDepleted.description>Hemogel extraction has nearly depleted the local ecosystem, leaving few plants or wild animals.</FB_FleshTileNutritionDepleted.description>
 </LanguageData>

@@ -3,7 +3,7 @@
   <WorldObjectDef>
     <defName>FB_FleshOutpost</defName>
     <label>flesh outpost</label>
-    <description>An abstract nerve center that directs the spread of flesh across nearby world tiles.</description>
+    <description>A nerve center of the planetary network. Directs the spread of flesh, grows a garrison, and gathers loot and war packs.</description>
     <worldObjectClass>FB.WorldObject_FleshOutpost</worldObjectClass>
     <canHaveFaction>true</canHaveFaction>
     <canHaveMap>false</canHaveMap>

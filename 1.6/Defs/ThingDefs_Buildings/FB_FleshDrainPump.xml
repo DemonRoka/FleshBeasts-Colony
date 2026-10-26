@@ -7,7 +7,7 @@
 	<ThingDef ParentName="BuildingBase">
 		<defName>FB_FleshDrainPump</defName>
 		<label>hemogel drain pump</label>
-		<description>A squat siphon on a bioferrite spike, driven into the flesh cover. It draws hemogel straight out of the colony's reserve and canisters it on the spot.\n\nBreak it and the bleeding stops. Every pump you take down cuts the drain by its own share.\n\nIt draws nothing without power, and it is built to move: unbolt it whole and set it down anywhere. Taken intact, it siphons just the same - into your canisters.</description>
+		<description>Draws hemogel from the colony network and collects it in canisters. Requires electricity and flesh cover beneath it. Can be captured and reinstalled.</description>
 		<thingClass>FB.Building_FleshDrainPump</thingClass>
 		<size>(1,1)</size>
 		<rotatable>false</rotatable>

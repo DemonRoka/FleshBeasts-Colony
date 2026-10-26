@@ -7,15 +7,15 @@
   <FB_BroodMatrixInsertOccupantLabel>Поместить ребёнка...</FB_BroodMatrixInsertOccupantLabel>
   <FB_BroodMatrixInsertOccupantDesc>Выберите младенца или ребёнка младше {0} лет для свободной капсулы. Младенцев, пленников и поваленных чужаков приносят носильщики, свои дети приходят сами. Рост идёт в восемьдесят раз быстрее, но только пока в сердцевине есть донор; в {0} лет ребёнок выходит с меткой «выращен в плоти».</FB_BroodMatrixInsertOccupantDesc>
   <FB_BroodMatrixInsertDonorLabel>Поместить донора...</FB_BroodMatrixInsertDonorLabel>
-  <FB_BroodMatrixInsertDonorDesc>Выберите взрослого чужака для сердцевины: пленника, раба или поваленного врага. Принятые колонией плоти и выращенные в плоти не подходят. Донор усыхает, только пока растут дети: каждый ребёнок до тринадцати лет истощает двух доноров. Его навыки, страсти, черты и гены перетекают в детей, а исчерпав жизнь, донор умирает от старости.</FB_BroodMatrixInsertDonorDesc>
-  <FB_BroodMatrixDonorWarning>{0} будет запечатан в сердцевине маточника. Донор быстро стареет, теряет всё, что перетекает в детей, и умирает, когда его жизнь исчерпана. Продолжить?</FB_BroodMatrixDonorWarning>
+  <FB_BroodMatrixInsertDonorDesc>Выберите взрослого чужака: пленника, раба или недееспособного врага. Принятые колонией плоти и выращенные в плоти не подходят.\n\nДонор расходует свой ресурс жизни только во время роста детей. Для выращивания одного ребёнка до тринадцати лет нужны два донора. Навыки, интересы, черты и гены передаются детям; после исчерпания ресурса жизни донор погибает.</FB_BroodMatrixInsertDonorDesc>
+  <FB_BroodMatrixDonorWarning>Запечатать донора в сердцевине маточника? Выбранный донор: {0}. Его наследие будет передаваться детям, а сам он будет быстро стареть и погибнет после исчерпания ресурса жизни.</FB_BroodMatrixDonorWarning>
   <FB_BroodMatrixCancelLoadLabel>Отменить загрузку</FB_BroodMatrixCancelLoadLabel>
   <FB_BroodMatrixCancelLoadDesc>Снять все ожидающие назначения детей и донора.</FB_BroodMatrixCancelLoadDesc>
   <FB_BroodMatrixEjectOccupantLabel>Извлечь ребёнка...</FB_BroodMatrixEjectOccupantLabel>
   <FB_BroodMatrixEjectOccupantDesc>Досрочно выпустить ребёнка из капсулы. Уже унаследованное остаётся при нём.</FB_BroodMatrixEjectOccupantDesc>
   <FB_BroodMatrixExtractDonorLabel>Извлечь донора</FB_BroodMatrixExtractDonorLabel>
-  <FB_BroodMatrixExtractDonorDesc>Выпустить донора живым. Он сохраняет набранный возраст и всё, что ещё не перетекло в детей.</FB_BroodMatrixExtractDonorDesc>
-  <FB_BroodMatrixAutoLoadLabel>Забирать новорождённых</FB_BroodMatrixAutoLoadLabel>
+  <FB_BroodMatrixExtractDonorDesc>Выпустить донора живым. Набранный возраст и уже переданное детям наследие не возвращаются.</FB_BroodMatrixExtractDonorDesc>
+  <FB_BroodMatrixAutoLoadLabel>Принимать детей</FB_BroodMatrixAutoLoadLabel>
   <FB_BroodMatrixAutoLoadDesc>Когда капсула свободна, автоматически назначать в неё младенцев вашей колонии с этой карты.</FB_BroodMatrixAutoLoadDesc>
   <FB_BroodMatrixNoFreeCapsule>Все капсулы заняты или назначены.</FB_BroodMatrixNoFreeCapsule>
   <FB_BroodMatrixNoCandidates>Нет подходящих пешек</FB_BroodMatrixNoCandidates>
@@ -39,12 +39,12 @@
   <FB_BroodMatrixOccupantStarvingInspect>{0}: возраст {1}, выход через {2} дн., биоголодание {3}</FB_BroodMatrixOccupantStarvingInspect>
   <FB_BroodMatrixOccupantPausedInspect>{0}: возраст {1}, рост на паузе</FB_BroodMatrixOccupantPausedInspect>
   <FB_BroodMatrixOccupantPausedStarvingInspect>{0}: возраст {1}, рост на паузе, биоголодание {2}</FB_BroodMatrixOccupantPausedStarvingInspect>
-  <FB_BroodMatrixSupplyInspect>Запас гемогеля: {0} из {1} ч, капсулы и донор расходуют +{2}/ч</FB_BroodMatrixSupplyInspect>
+  <FB_BroodMatrixSupplyInspect>Запас питания: {0} из {1} ч; капсулы и донор расходуют +{2}/ч</FB_BroodMatrixSupplyInspect>
 
   <FB_BroodMatrixOccupantGrownMessage>{0} вырос в маточнике и покинул капсулу.</FB_BroodMatrixOccupantGrownMessage>
   <FB_BroodMatrixOccupantStarvedMessage>{0} умер от биоголодания в маточнике.</FB_BroodMatrixOccupantStarvedMessage>
   <FB_BroodMatrixDonorSpentLetterLabel>Донор исчерпан</FB_BroodMatrixDonorSpentLetterLabel>
-  <FB_BroodMatrixDonorSpentLetterText>{0} состарился до конца жизни в сердцевине маточника. Всё, что от него оставалось, перетекло в детей, а тело поглощено маточником.</FB_BroodMatrixDonorSpentLetterText>
+  <FB_BroodMatrixDonorSpentLetterText>Донор {0} исчерпал ресурс жизни в сердцевине маточника. Его оставшееся наследие передано детям, а тело поглощено органом.</FB_BroodMatrixDonorSpentLetterText>
   <FB_BroodMatrixHybridXenotype>маточный гибрид</FB_BroodMatrixHybridXenotype>
 
   <FB_BroodMatrixDevAgeOccupantsLabel>DEV: Детям +1 год</FB_BroodMatrixDevAgeOccupantsLabel>

@@ -4,7 +4,7 @@
   <FB_PlanetaryNetworkMoonConnected>подключена</FB_PlanetaryNetworkMoonConnected>
   <FB_PlanetaryNetworkMoonDisconnected>локальный запас</FB_PlanetaryNetworkMoonDisconnected>
   <FB_PlanetaryNetworkOverflowTooltip>Сеть переполнена. Накопленный гемогель сохранён, но новые поступления заблокированы, пока запас не станет меньше вместимости.</FB_PlanetaryNetworkOverflowTooltip>
-  <FB_PlanetaryNetworkFoundingDescription>Поместите неподвижную Луну плоти над пустой поверхностной клеткой или своей загруженной картой и основайте первый абстрактный аванпост. Над пустой клеткой Луна сама опустит питающую привязку без карты в рамках этой же операции; над загруженной картой нужен открытый физический канал пуповины, и эта карта будет поглощена. Операция необратима и стоит {0} гемогеля из Луны.</FB_PlanetaryNetworkFoundingDescription>
+  <FB_PlanetaryNetworkFoundingDescription>Остановите луну плоти над свободной клеткой поверхности или своей колонией и основайте первый аванпост. Над свободной клеткой луна сама опустит питающую пуповину; для поглощения колонии нужен открытый проход через пуповину. Поглощённая карта будет потеряна безвозвратно. Цена: {0} гемогеля из резерва луны.</FB_PlanetaryNetworkFoundingDescription>
   <FB_PlanetaryNetworkFoundFirstOutpost>Основать первый аванпост плоти</FB_PlanetaryNetworkFoundFirstOutpost>
   <FB_PlanetaryNetworkExpansionTab>Распространение</FB_PlanetaryNetworkExpansionTab>
   <FB_PlanetaryNetworkOutpostsTab>Аванпосты</FB_PlanetaryNetworkOutpostsTab>
@@ -20,39 +20,39 @@
   <FB_FleshTerritoryEnterDesc>Войти на покрытую плотью территорию и открыть её временную карту. Основать постоянное поселение здесь нельзя.</FB_FleshTerritoryEnterDesc>
   <FB_FleshTerritoryTemporaryMapInspect>Временная карта: всё, что не уйдёт с караваном, схлопнется вместе с ней.</FB_FleshTerritoryTemporaryMapInspect>
   <FB_FleshTerritoryCaravanDepartedWarning>Караван ушёл: временная карта схлопнется, всё оставшееся на ней потеряно.</FB_FleshTerritoryCaravanDepartedWarning>
-  <FB_FirstOutpostConvertPlayerMapWarning>Поглотить эту загруженную карту и основать первый аванпост плоти за {0} лунного гемогеля? Все подходящие колонисты, пленники, животные и подконтрольные биошматы ({1}) будут эвакуированы на Луну. Локальный гемогель перенесётся полностью, а существующие плотские постройки и грунты вернут {2} гемогеля. Все прочие постройки, предметы и содержимое карты будут уничтожены без выплаты. Карта и её мировой объект исчезнут навсегда, вернуться на эту клетку будет нельзя.</FB_FirstOutpostConvertPlayerMapWarning>
-  <FB_MoonOutpostConsumeMapWarning>Поглотить эту загруженную карту и вырастить здесь аванпост плоти за {0} лунного гемогеля? Все подходящие колонисты, пленники, животные и подконтрольные биошматы ({1}) будут эвакуированы на Луну. Локальный гемогель перенесётся полностью, а существующие плотские постройки и грунты вернут {2} гемогеля. Все прочие постройки, предметы и содержимое карты будут уничтожены без выплаты. Карта и её мировой объект исчезнут навсегда, а клетка станет абстрактным ульем и оставит сети только {3}% своей добычи.</FB_MoonOutpostConsumeMapWarning>
-  <FB_FirstOutpostConvertMoonMapUnavailable>Карта Луны должна быть загружена и готова принять эвакуацию.</FB_FirstOutpostConvertMoonMapUnavailable>
-  <FB_FirstOutpostConvertPhysicalChannelRequired>Перед поглощением загруженной карты этой клетки в аванпост плоти откройте к ней физический канал небесной пуповины.</FB_FirstOutpostConvertPhysicalChannelRequired>
+  <FB_FirstOutpostConvertPlayerMapWarning>Поглотить эту локацию и основать первый аванпост плоти за {0} лунного гемогеля? Все подходящие колонисты, пленники, животные и подконтрольные биошматы ({1}) будут эвакуированы на луну плоти. Локальный гемогель перенесётся полностью, а существующие плотяные постройки и покров вернут {2} гемогеля. Все прочие постройки, предметы и содержимое локации будут уничтожены без выплаты. Локация исчезнет навсегда, и вернуться на эту клетку мира будет нельзя.</FB_FirstOutpostConvertPlayerMapWarning>
+  <FB_MoonOutpostConsumeMapWarning>Поглотить эту карту и вырастить здесь аванпост плоти за {0} лунного гемогеля? Все подходящие колонисты, пленники, животные и подконтрольные биошматы ({1}) будут эвакуированы на луну плоти. Местный гемогель перенесётся полностью, а плотяные постройки и грунты вернут {2} гемогеля. Остальные постройки, предметы и содержимое карты будут уничтожены без возмещения. Карта исчезнет навсегда; аванпост на её месте будет передавать сети {3}% добычи клетки.</FB_MoonOutpostConsumeMapWarning>
+  <FB_FirstOutpostConvertMoonMapUnavailable>Карта луны должна быть загружена и готова принять эвакуацию.</FB_FirstOutpostConvertMoonMapUnavailable>
+  <FB_FirstOutpostConvertPhysicalChannelRequired>Перед поглощением карты и созданием аванпоста откройте к ней проход через небесную пуповину.</FB_FirstOutpostConvertPhysicalChannelRequired>
   <FB_MoonOutpostConsumeMapNotConsumable>Луна может поглотить только собственную якорную карту, карту территории плоти или ваше поселение. Эта карта принадлежит другим — используйте штурм или обычное поглощение при откреплении пуповины.</FB_MoonOutpostConsumeMapNotConsumable>
-  <FB_FirstOutpostConvertContainedPawns>{0} подконтрольных живых существ находятся в контейнерах или ином незагруженном состоянии. Выпустите их на карту перед её поглощением.</FB_FirstOutpostConvertContainedPawns>
+  <FB_FirstOutpostConvertContainedPawns>Подконтрольные живые существа вне карты, например внутри контейнеров: {0}. Выпустите их в эту локацию перед её поглощением.</FB_FirstOutpostConvertContainedPawns>
   <FB_FirstOutpostConvertQuestBlocked>Эта карта, клетка или одно из эвакуируемых существ участвует в активном задании.</FB_FirstOutpostConvertQuestBlocked>
-  <FB_FirstOutpostConvertArrivalSpaceUnavailable>На Луне недостаточно безопасного свободного места для эвакуации всех подходящих существ.</FB_FirstOutpostConvertArrivalSpaceUnavailable>
-  <FB_FirstOutpostConvertFailed>Не удалось поглотить карту в аванпост плоти.</FB_FirstOutpostConvertFailed>
+  <FB_FirstOutpostConvertArrivalSpaceUnavailable>На луне плоти недостаточно безопасного свободного места для эвакуации всех подходящих существ.</FB_FirstOutpostConvertArrivalSpaceUnavailable>
+  <FB_FirstOutpostConvertFailed>Не удалось поглотить локацию и основать аванпост плоти.</FB_FirstOutpostConvertFailed>
   <FB_FirstOutpostConvertCompleted>Карта поглощена. Эвакуировано существ: {0}. Возврат за плоть: {1} гемогеля.</FB_FirstOutpostConvertCompleted>
-  <FB_PlanetaryNetworkExpansionDesc>Выберите активную Луну или аванпост через полосу резерва, затем распространяйте плоть или выращивайте новый командный центр.</FB_PlanetaryNetworkExpansionDesc>
+  <FB_PlanetaryNetworkExpansionDesc>Выберите активную луну или аванпост через полосу резерва, затем распространяйте плоть или выращивайте новый командный центр.</FB_PlanetaryNetworkExpansionDesc>
   <FB_PlanetaryNetworkNodeReserveBar>Резерв сети: {0} / {1}</FB_PlanetaryNetworkNodeReserveBar>
-  <FB_PlanetaryNetworkNodeReserveTooltip>Гемогель связного очага плоти, к которому подключён аванпост: {0}. Нажмите, чтобы выбрать другой узел.</FB_PlanetaryNetworkNodeReserveTooltip>
-  <FB_PlanetaryNetworkMoonReserveBar>Резерв Луны: {0} / {1}</FB_PlanetaryNetworkMoonReserveBar>
-  <FB_PlanetaryNetworkMoonReserveTooltip>Стратегические команды Луны расходуют только её собственный внутренний резерв. Нажмите, чтобы выбрать другой узел.</FB_PlanetaryNetworkMoonReserveTooltip>
+  <FB_PlanetaryNetworkNodeReserveTooltip>Общий резерв сети, к которой подключён аванпост: {0} гемогеля. Нажмите, чтобы выбрать другой узел.</FB_PlanetaryNetworkNodeReserveTooltip>
+  <FB_PlanetaryNetworkMoonReserveBar>Резерв луны: {0} / {1}</FB_PlanetaryNetworkMoonReserveBar>
+  <FB_PlanetaryNetworkMoonReserveTooltip>Стратегические команды луны расходуют только её собственный внутренний резерв. Нажмите, чтобы выбрать другой узел.</FB_PlanetaryNetworkMoonReserveTooltip>
   <FB_PlanetaryNetworkNoNodeSelected>Узел сети плоти не выбран</FB_PlanetaryNetworkNoNodeSelected>
-  <FB_PlanetaryNetworkSelectNodeTooltip>Нажмите, чтобы выбрать Луну или аванпост плоти.</FB_PlanetaryNetworkSelectNodeTooltip>
+  <FB_PlanetaryNetworkSelectNodeTooltip>Нажмите, чтобы выбрать луну или аванпост плоти.</FB_PlanetaryNetworkSelectNodeTooltip>
   <FB_PlanetaryNetworkSourceMoon>Луна плоти</FB_PlanetaryNetworkSourceMoon>
   <FB_PlanetaryNetworkSourceOutpostInNetwork>{0} — сеть {1}</FB_PlanetaryNetworkSourceOutpostInNetwork>
-  <FB_PlanetaryNetworkCaptureDesc>ЛКМ: выбрать пустую мировую клетку, примыкающую к покрытой территории, и отдать один оплачиваемый приказ захвата. Расстояние до аванпоста значения не имеет. Живые враждебные поселения нельзя поглотить этой командой; используйте «Атаковать поселение». ПКМ: включить автоматическое разрастание; свободный аванпост выбирает самую дешёвую доступную пустую клетку своей части границы — рядом с клетками сети, которые ближе к нему, чем к другим аванпостам, а если там подходящих клеток нет, берёт ближайшую пустую клетку границы сети. Аванпосты одной сети платят из общего резерва по очереди: первым пробует тот, кто дольше всех не начинал захват, а если ему не хватает гемогеля, пробует следующий. Если луна подключена к сети, её резерв тоже идёт на оплату. При нехватке гемогеля автоматический режим остаётся включённым и ждёт пополнения резерва сети.</FB_PlanetaryNetworkCaptureDesc>
+  <FB_PlanetaryNetworkCaptureDesc>ЛКМ — выбрать соседнюю с покровом свободную клетку для поглощения. ПКМ — включить автоматическое разрастание. Аванпост расходует гемогель общей сети; при нехватке ресурсов ждёт её пополнения. Поселения необходимо захватывать боем.</FB_PlanetaryNetworkCaptureDesc>
   <FB_PlanetaryNetworkAutoCaptureState>Автоматическое разрастание: {0}</FB_PlanetaryNetworkAutoCaptureState>
   <FB_PlanetaryNetworkCreateOutpostDesc>Вырастить аванпост на покрытой плотью клетке этой сети, для которой не открыта карта местности. Расход: {0} гемогеля. Часть добычи аванпост оставляет себе; в сеть поступает {1}%.</FB_PlanetaryNetworkCreateOutpostDesc>
   <FB_PlanetaryNetworkFirstOutpostRequired>Сначала основать первый аванпост плоти, затем можно создавать отдельные очаги заражения.</FB_PlanetaryNetworkFirstOutpostRequired>
   <FB_PlanetaryNetworkMoonSeed>Создать клетку плоти</FB_PlanetaryNetworkMoonSeed>
-  <FB_PlanetaryNetworkMoonSeedDesc>Мгновенно поглотить пустую поверхностную клетку точно под неподвижной Луной. Если пуповина ещё не прикреплена к этой клетке, Луна опустит питающую привязку без карты в рамках этой же операции. Цена по параметрам местности списывается строго из внутреннего резерва Луны и создаёт новый очаг плоти.</FB_PlanetaryNetworkMoonSeedDesc>
+  <FB_PlanetaryNetworkMoonSeedDesc>Поглотить свободную клетку поверхности под неподвижной луной плоти. Луна при необходимости сама опустит питающую пуповину. Цена зависит от местности и списывается из лунного резерва гемогеля.</FB_PlanetaryNetworkMoonSeedDesc>
   <FB_PlanetaryNetworkMoonSeeded>Луна создала новый очаг плоти на мировой клетке {0}.</FB_PlanetaryNetworkMoonSeeded>
-  <FB_PlanetaryNetworkMoonCreateOutpostDesc>Мгновенно вырастить аванпост под неподвижной Луной за {0} гемогеля из её внутреннего резерва. Если пуповины здесь нет, Луна сперва опустит питающую привязку без карты; при открытом физическом канале вместо этого будет поглощена загруженная карта этой клетки. Если клетка ещё не покрыта, к цене добавится стоимость поглощения по местности, а обе операции будут подтверждены вместе. В сеть поступит только {1}% выхода клетки аванпоста.</FB_PlanetaryNetworkMoonCreateOutpostDesc>
-  <FB_PlanetaryNetworkMoonCreateOutpostConfirm>Потратить {0} гемогеля из внутреннего резерва Луны и вырастить здесь постоянный абстрактный аванпост? Улей оставит сети только {1}% выхода клетки; посетить или удалить его нельзя.</FB_PlanetaryNetworkMoonCreateOutpostConfirm>
-  <FB_PlanetaryNetworkMoonCreateOutpostWithSeedConfirm>На этой клетке ещё нет плоти. Покрыть её плотью за {0} гемогеля и сразу вырастить аванпост ещё за {1} гемогеля? Общий расход из резерва Луны: {2}. Постоянный абстрактный улей нельзя посетить или удалить; в сеть поступит только {3}% выхода его клетки.</FB_PlanetaryNetworkMoonCreateOutpostWithSeedConfirm>
+  <FB_PlanetaryNetworkMoonCreateOutpostDesc>Вырастить аванпост под неподвижной луной плоти за {0} гемогеля из её резерва. Луна сама опустит питающую пуповину; если здесь уже открыт проход на карту поверхности, эта карта будет поглощена. Для земли без плотяного покрова добавится стоимость поглощения. В сеть поступит {1}% добычи клетки аванпоста.</FB_PlanetaryNetworkMoonCreateOutpostDesc>
+  <FB_PlanetaryNetworkMoonCreateOutpostConfirm>Потратить {0} гемогеля из резерва луны плоти и вырастить здесь аванпост? Он будет передавать сети {1}% добычи клетки. Посещать аванпост нельзя.</FB_PlanetaryNetworkMoonCreateOutpostConfirm>
+  <FB_PlanetaryNetworkMoonCreateOutpostWithSeedConfirm>Покрыть эту клетку плотью за {0} гемогеля и вырастить аванпост ещё за {1}? Общий расход из резерва луны плоти: {2}. Аванпост будет передавать сети {3}% добычи клетки; посещать его нельзя.</FB_PlanetaryNetworkMoonCreateOutpostWithSeedConfirm>
   <FB_PlanetaryNetworkMoonOutpostCreated>Луна вырастила аванпост плоти на мировой клетке {0}.</FB_PlanetaryNetworkMoonOutpostCreated>
   <FB_PlanetaryNetworkMoonOutpostCreatedWithSeed>Луна покрыла плотью мировую клетку {0} и вырастила на ней новый аванпост.</FB_PlanetaryNetworkMoonOutpostCreatedWithSeed>
-  <FB_PlanetaryNetworkMoonAnchorRequired>Сначала прикрепите питающую пуповину Луны к текущей мировой клетке без создания карты.</FB_PlanetaryNetworkMoonAnchorRequired>
-  <FB_PlanetaryNetworkMoonLowersUmbilicus>Пуповина к этой клетке ещё не прикреплена, поэтому Луна опустит сюда питающую привязку без карты в рамках этой же операции.</FB_PlanetaryNetworkMoonLowersUmbilicus>
+  <FB_PlanetaryNetworkMoonAnchorRequired>Сначала прикрепите питающую пуповину луны к текущей клетке мира.</FB_PlanetaryNetworkMoonAnchorRequired>
+  <FB_PlanetaryNetworkMoonLowersUmbilicus>Пуповина здесь ещё не закреплена. Во время этой операции луна опустит её к выбранной клетке и установит питающую связь.</FB_PlanetaryNetworkMoonLowersUmbilicus>
   <FB_PlanetaryNetworkOutpostTab>Гемогель</FB_PlanetaryNetworkOutpostTab>
   <FB_PlanetaryNetworkOutpostTabTitle>Гемогель сети</FB_PlanetaryNetworkOutpostTabTitle>
   <FB_PlanetaryNetworkOutpostRenamed>Аванпост теперь называется «{0}».</FB_PlanetaryNetworkOutpostRenamed>
@@ -98,11 +98,11 @@
   <FB_PlanetaryNetworkCurrentOrderLabel>Текущий приказ</FB_PlanetaryNetworkCurrentOrderLabel>
   <FB_PlanetaryNetworkOutpostOrderCompact>Клетка {0}, осталось {1}</FB_PlanetaryNetworkOutpostOrderCompact>
   <FB_PlanetaryNetworkOutpostTileHiveShare>Аванпост не требует содержания гемогелем. Его улей удерживает половину производства клетки: в эту сеть поступает {0}% её обычного выхода.</FB_PlanetaryNetworkOutpostTileHiveShare>
-  <FB_PlanetaryNetworkProductionFacilitiesTab>Органы добычи</FB_PlanetaryNetworkProductionFacilitiesTab>
+  <FB_PlanetaryNetworkProductionFacilitiesTab>Планетарные органы</FB_PlanetaryNetworkProductionFacilitiesTab>
   <FB_PlanetaryNetworkAmbushesTab>Засады</FB_PlanetaryNetworkAmbushesTab>
-  <FB_PlanetaryNetworkOutpostsCategoryDesc>Выращивайте дополнительные абстрактные командные центры на покрытых, незагруженных и свободных клетках выбранной сети аванпоста.</FB_PlanetaryNetworkOutpostsCategoryDesc>
-  <FB_PlanetaryNetworkProductionFacilitiesDesc>Стройте абстрактные планетарные органы добычи на покрытых клетках выбранной сети аванпоста. Эти объекты нельзя посещать; они умножают добычу гемогеля из своей клетки.</FB_PlanetaryNetworkProductionFacilitiesDesc>
-  <FB_PlanetaryNetworkAmbushesDesc>Стройте абстрактные засадные лагеря на покрытых клетках выбранной сети аванпоста. Лагеря нельзя посещать; они умножают добычу своей клетки и могут хранить случайную мировую добычу.</FB_PlanetaryNetworkAmbushesDesc>
+  <FB_PlanetaryNetworkOutpostsCategoryDesc>Выращивайте аванпосты на свободных клетках выбранной сети, покрытых плотью. Для клетки не должна быть открыта карта местности.</FB_PlanetaryNetworkOutpostsCategoryDesc>
+  <FB_PlanetaryNetworkProductionFacilitiesDesc>Выращивайте органы добычи, защиты и перемещения на покрытых плотью клетках выбранной сети. Посещать эти сооружения нельзя.</FB_PlanetaryNetworkProductionFacilitiesDesc>
+  <FB_PlanetaryNetworkAmbushesDesc>Выращивайте засадные лагеря на покрытых плотью клетках выбранной сети. Они увеличивают добычу гемогеля и накапливают трофеи; посещать лагеря нельзя.</FB_PlanetaryNetworkAmbushesDesc>
   <FB_PlanetaryNetworkFacilitySourceRequiredDesc>Выберите аванпост плоти через полосу резерва, прежде чем строить планетарные органы или засадные лагеря.</FB_PlanetaryNetworkFacilitySourceRequiredDesc>
   <FB_PlanetaryNetworkBuildFacility>Построить {0}</FB_PlanetaryNetworkBuildFacility>
   <FB_PlanetaryNetworkBuildFacilityDesc>Вырастить сооружение на свободной покрытой плотью клетке этой сети, для которой не открыта карта местности. Расход: {1} гемогеля. Множитель добычи на клетке: x{2}. После постройки открыть карту этой территории нельзя.</FB_PlanetaryNetworkBuildFacilityDesc>
@@ -110,18 +110,18 @@
 Цена: {1} гемогеля
 Добыча клетки: x{2}</FB_PlanetaryNetworkBuildFacilityTooltip>
   <FB_PlanetaryNetworkFacilityRequiresWater>Для этого объекта нужна покрытая наземная клетка с рекой, побережьем, озером или соседней водой.</FB_PlanetaryNetworkFacilityRequiresWater>
-  <FB_PlanetaryNetworkFacilityBuilt>{0} вырос на мировой клетке {1}.</FB_PlanetaryNetworkFacilityBuilt>
+  <FB_PlanetaryNetworkFacilityBuilt>На клетке мира {1} завершено строительство: {0}.</FB_PlanetaryNetworkFacilityBuilt>
   <FB_FleshWorldFacilityInspect>Добыча клетки: x{0}</FB_FleshWorldFacilityInspect>
-  <FB_FleshAmbushCampInspect>Стаков на складе: {0}
+  <FB_FleshAmbushCampInspect>Стопки на складе: {0}
 Следующая проверка засады: {1}</FB_FleshAmbushCampInspect>
   <FB_FleshAmbushCampNoRoutes>Лагерь полностью отрезан от полезных маршрутов добычи.</FB_FleshAmbushCampNoRoutes>
-  <FB_FleshAmbushCampMoonNotAnchored>Сначала закрепите питающую пуповину Луны без карты на клетке этого лагеря, чтобы отправлять добычу наверх.</FB_FleshAmbushCampMoonNotAnchored>
-  <FB_FleshAmbushCampMoonMapUnavailable>Внутренняя карта Луны недоступна.</FB_FleshAmbushCampMoonMapUnavailable>
+  <FB_FleshAmbushCampMoonNotAnchored>Прикрепите питающую пуповину луны к клетке этого лагеря, чтобы отправлять добычу наверх.</FB_FleshAmbushCampMoonNotAnchored>
+  <FB_FleshAmbushCampMoonMapUnavailable>Внутренняя карта луны недоступна.</FB_FleshAmbushCampMoonMapUnavailable>
   <FB_FleshAmbushCampStorageTab>Склад</FB_FleshAmbushCampStorageTab>
-  <FB_FleshAmbushCampStoredItems>Добыча на складе: {0} стак(ов)</FB_FleshAmbushCampStoredItems>
+  <FB_FleshAmbushCampStoredItems>Стопки добычи на складе: {0}</FB_FleshAmbushCampStoredItems>
   <FB_FleshAmbushCampDevGenerateLoot>Dev: создать добычу</FB_FleshAmbushCampDevGenerateLoot>
   <FB_FleshAmbushCampDevGenerateLootDesc>Немедленно разыграть одну добычу засады, игнорируя обычный таймер и шанс.</FB_FleshAmbushCampDevGenerateLootDesc>
-  <FB_FleshAmbushCampLootGenerated>Лагерь разграбил караван и сложил на склад {0} стак(ов) добычи.</FB_FleshAmbushCampLootGenerated>
+  <FB_FleshAmbushCampLootGenerated>Лагерь разграбил караван. Стопки добычи, добавленные на склад: {0}.</FB_FleshAmbushCampLootGenerated>
   <FB_DevInstantCaptureDone>Dev: мировая клетка {0} захвачена мгновенно.</FB_DevInstantCaptureDone>
   <FB_DevFillNetworkHemogel>Dev: наполнить гемогель</FB_DevFillNetworkHemogel>
   <FB_DevFillNetworkHemogelDesc>Заполнить резерв гемогеля этой сети до предела вместимости.</FB_DevFillNetworkHemogelDesc>
@@ -129,7 +129,7 @@
   <FB_DevDrainNetworkHemogelDesc>Слить весь доступный к трате гемогель из резерва этой сети.</FB_DevDrainNetworkHemogelDesc>
   <FB_DevNetworkHemogelFilled>Dev: в сеть добавлено {0} гемогеля.</FB_DevNetworkHemogelFilled>
   <FB_DevNetworkHemogelDrained>Dev: из сети слито {0} гемогеля.</FB_DevNetworkHemogelDrained>
-  <FB_FleshAmbushCampSendToMoon>На Луну</FB_FleshAmbushCampSendToMoon>
+  <FB_FleshAmbushCampSendToMoon>На луну</FB_FleshAmbushCampSendToMoon>
   <FB_FleshAmbushCampDeleteConfirm>Удалить {0} со склада этого лагеря?</FB_FleshAmbushCampDeleteConfirm>
   <FB_WorldStorageSortButton>Сортировка: {0}</FB_WorldStorageSortButton>
   <FB_WorldStorageSortCategory>по категориям</FB_WorldStorageSortCategory>
@@ -150,10 +150,10 @@
   <FB_WorldStorageShiftSkipsConfirm>С Shift+кликом подтверждение не спрашивается.</FB_WorldStorageShiftSkipsConfirm>
   <FB_WorldStorageHemogelYield>При переваривании: {0} гемогеля</FB_WorldStorageHemogelYield>
   <FB_WorldStorageSendSelected>Отправить ({0})</FB_WorldStorageSendSelected>
-  <FB_WorldStorageSendSelectedDesc>Отправить выбранные предметы по пуповине на Луну или караваном снабжения в другой аванпост плоти.</FB_WorldStorageSendSelectedDesc>
+  <FB_WorldStorageSendSelectedDesc>Отправить выбранные предметы по пуповине на луну плоти или караваном снабжения в другой аванпост плоти.</FB_WorldStorageSendSelectedDesc>
   <FB_WorldStorageSendAlongRoute>По маршруту доставки: {0}</FB_WorldStorageSendAlongRoute>
   <FB_WorldStorageSendToOutpost>В другой аванпост…</FB_WorldStorageSendToOutpost>
-  <FB_WorldStorageSentToMoon>Отправлено на Луну предметов: {0}.</FB_WorldStorageSentToMoon>
+  <FB_WorldStorageSentToMoon>Отправлено на луну предметов: {0}.</FB_WorldStorageSentToMoon>
   <FB_WorldStorageDigestSelected>Переварить ({0})</FB_WorldStorageDigestSelected>
   <FB_WorldStorageDigestSelectedDesc>Переварить прямо на складе выбранные предметы с питательностью. Гемогель сразу поступает в общий резерв сети: {0} за единицу питательности, как у желудка колонии. Предметы без питательности не трогаются, а снаряжение с трупов остаётся на складе.</FB_WorldStorageDigestSelectedDesc>
   <FB_WorldStorageDigestSelectedStats>К перевариванию предметов: {0} (+{1} гемогеля)
@@ -167,11 +167,11 @@
   <FB_WorldStorageDeleteSelectedDesc>Уничтожить все выбранные предметы. Вернуть их будет нельзя.</FB_WorldStorageDeleteSelectedDesc>
   <FB_WorldStorageDeleteSelectedConfirm>Удалить выбранные предметы со склада ({0})? Они будут потеряны навсегда.</FB_WorldStorageDeleteSelectedConfirm>
   <FB_PlanetaryNetworkAttackSettlement>Атаковать поселение</FB_PlanetaryNetworkAttackSettlement>
-  <FB_PlanetaryNetworkAttackSettlementDesc>Сформировать отряд плоти за гемогель связанной сети и отправить его к поселению гуманоидов. Нападение на невраждебную фракцию сделает её враждебной; по прибытии бой можно провести вручную или доверить стае.</FB_PlanetaryNetworkAttackSettlementDesc>
-  <FB_PlanetaryNetworkAssaultRequiresHostileSettlement>Выберите выгруженное человекоподобное поселение без активных квестовых связей.</FB_PlanetaryNetworkAssaultRequiresHostileSettlement>
+  <FB_PlanetaryNetworkAttackSettlementDesc>Выберите биошматов из гарнизона и отправьте их к поселению гуманоидов. Нападение на невраждебную фракцию сделает её враждебной. По прибытии бой можно провести вручную или доверить стае.</FB_PlanetaryNetworkAttackSettlementDesc>
+  <FB_PlanetaryNetworkAssaultRequiresHostileSettlement>Выберите поселение гуманоидов, локация которого не открыта и которое не связано с активным заданием.</FB_PlanetaryNetworkAssaultRequiresHostileSettlement>
   <FB_PlanetaryNetworkAssaultSettlementQuestLinked>Это поселение связано с активным заданием, атаковать его нельзя.</FB_PlanetaryNetworkAssaultSettlementQuestLinked>
   <FB_PlanetaryNetworkAssaultRelationsLocked>Отношения с фракцией {0} сейчас нельзя испортить, поэтому напасть на неё нельзя.</FB_PlanetaryNetworkAssaultRelationsLocked>
-  <FB_PlanetaryNetworkAssaultSettlementLoaded>Карта этого поселения загружена. Атака работает только по выгруженным поселениям.</FB_PlanetaryNetworkAssaultSettlementLoaded>
+  <FB_PlanetaryNetworkAssaultSettlementLoaded>Локация поселения сейчас открыта. Покиньте её, прежде чем отправлять новый штурмовой отряд.</FB_PlanetaryNetworkAssaultSettlementLoaded>
   <FB_PlanetaryNetworkAssaultTargetTooltip>{0}
 Сложность: {1}</FB_PlanetaryNetworkAssaultTargetTooltip>
   <FB_PlanetaryNetworkAssaultPredictedWin>ожидается победа</FB_PlanetaryNetworkAssaultPredictedWin>
@@ -181,14 +181,14 @@
   <FB_FleshAssaultInspectCarrying>Возвращается: {0}
 Тварей: {1}   Груз: {2} стаков, {3} / {4} кг</FB_FleshAssaultInspectCarrying>
   <FB_FleshAssaultVictoryLabel>Поселение уничтожено</FB_FleshAssaultVictoryLabel>
-  <FB_FleshAssaultVictoryText>Отряд плоти уничтожил {0} без открытия тактической карты. Домой возвращается тварей: {1}, потеряно в бою: {2}.</FB_FleshAssaultVictoryText>
+  <FB_FleshAssaultVictoryText>Отряд плоти уничтожил {0} в автоматически рассчитанном бою. Домой возвращается биошматов: {1}, потеряно в бою: {2}.</FB_FleshAssaultVictoryText>
   <FB_FleshAssaultDefeatedLabel>Отряд плоти уничтожен</FB_FleshAssaultDefeatedLabel>
   <FB_FleshAssaultDefeatedText>Отряд плоти не смог сломить {0}. Сила {1} была ниже расчётной сложности {2}, и вложенный гемогель потерян.</FB_FleshAssaultDefeatedText>
   <FB_FleshAssaultInvalidTargetLabel>Атака плоти отменена</FB_FleshAssaultInvalidTargetLabel>
-  <FB_FleshAssaultInvalidTargetText>Цель на мировой клетке {0} больше не является валидным враждебным поселением. Отряд возвращается.</FB_FleshAssaultInvalidTargetText>
+  <FB_FleshAssaultInvalidTargetText>Поселение на клетке мира {0} больше недоступно для нападения. Отряд возвращается.</FB_FleshAssaultInvalidTargetText>
   <FB_FleshSupplyCaravanCommand>Отправить караван снабжения</FB_FleshSupplyCaravanCommand>
   <FB_FleshSupplyCaravanCommandDesc>Вырастить пальцешипов, троешипов и бугруродов, способных унести всю добычу лагеря, и отправить их в выбранный аванпост плоти. Правый клик по кнопке переключает автоотправку: каждые {0} лагерь отправляет добычу по маршруту доставки, а если маршрут не задан — в ближайший аванпост, связанный с ним венами.</FB_FleshSupplyCaravanCommandDesc>
-  <FB_FleshOutpostCaravanCommandDesc>Вырастить пальцешипов, троешипов и бугруродов, способных унести склад аванпоста, и отправить их в другой аванпост плоти. Правый клик по кнопке переключает автопересылку: каждые {0} склад уходит по маршруту доставки. Без маршрута автопересылка не работает.</FB_FleshOutpostCaravanCommandDesc>
+  <FB_FleshOutpostCaravanCommandDesc>Вырастить пальцешипов, троешипов и бугруродов, способных унести содержимое склада аванпоста, и отправить их в другой аванпост плоти. Правый клик по кнопке переключает автопересылку: каждые {0} содержимое склада отправляется по маршруту доставки. Без маршрута автопересылка не работает.</FB_FleshOutpostCaravanCommandDesc>
   <FB_FleshSupplyCaravanAutoState>Автоматические караваны снабжения: {0}.</FB_FleshSupplyCaravanAutoState>
   <FB_FleshSupplyCaravanNoCargo>На складе нет груза для перевозки.</FB_FleshSupplyCaravanNoCargo>
   <FB_FleshSupplyCaravanNoCarriers>Нет доступных биошматов-носильщиков.</FB_FleshSupplyCaravanNoCarriers>
@@ -218,7 +218,7 @@
   <FB_FleshSupplyRouteCommandDescCamp>Выбрать аванпост плоти, куда уходят автоматические караваны снабжения этого лагеря. Текущий маршрут: {0}.
 
 Клик по самому лагерю сбрасывает маршрут: караваны снова пойдут в ближайший аванпост, связанный венами.</FB_FleshSupplyRouteCommandDescCamp>
-  <FB_FleshSupplyRouteCommandDescOutpost>Выбрать аванпост плоти, куда этот аванпост пересылает свой склад. Автопересылка включается правым кликом по кнопке каравана снабжения. Текущий маршрут: {0}.
+  <FB_FleshSupplyRouteCommandDescOutpost>Выбрать аванпост плоти, куда этот аванпост пересылает содержимое своего склада. Автопересылка включается правым кликом по кнопке каравана снабжения. Текущий маршрут: {0}.
 
 Клик по самому аванпосту сбрасывает маршрут.</FB_FleshSupplyRouteCommandDescOutpost>
   <FB_FleshSupplyRouteNearest>ближайший связанный аванпост</FB_FleshSupplyRouteNearest>
@@ -242,13 +242,13 @@
   <FB_FleshTunnelWorldTargetTooltip>Расстояние: {0} клеток
 Цена: {1} гемогеля
 Прорастание: {2}</FB_FleshTunnelWorldTargetTooltip>
-  <FB_FleshTunnelWorldGrowStarted>Нексус начал бурить к мировой клетке {0}. Пасть пробьётся через {1}.</FB_FleshTunnelWorldGrowStarted>
+  <FB_FleshTunnelWorldGrowStarted>Туннельный узел начал прокладывать проход к клетке мира {0}. Дальняя пасть прорастёт через {1}.</FB_FleshTunnelWorldGrowStarted>
   <FB_FleshTunnelWorldGrown>Пасть туннеля пробилась на мировой клетке {0}. Проход через туннель мгновенный.</FB_FleshTunnelWorldGrown>
   <FB_FleshTunnelWorldGrowFailed>Туннель не смог пробиться: целевая клетка больше не свободна.</FB_FleshTunnelWorldGrowFailed>
   <FB_FleshTunnelWorldTargetInvalid>Укажите подходящую клетку на том же слое планеты.</FB_FleshTunnelWorldTargetInvalid>
   <FB_FleshTunnelWorldTargetImpassable>Туннель не может выйти на непроходимой клетке.</FB_FleshTunnelWorldTargetImpassable>
   <FB_FleshTunnelWorldCollapseLabel>Обрушить туннель</FB_FleshTunnelWorldCollapseLabel>
-  <FB_FleshTunnelWorldCollapseDesc>Обрушить мировой туннель. Дальняя пасть гибнет, нексус остаётся и может прорыть новый туннель в другое место. Потраченный гемогель не возвращается.</FB_FleshTunnelWorldCollapseDesc>
+  <FB_FleshTunnelWorldCollapseDesc>Обрушить туннель. Дальняя пасть погибнет, а туннельный узел сохранится и сможет проложить новый проход. Потраченный гемогель не возвращается.</FB_FleshTunnelWorldCollapseDesc>
   <FB_FleshTunnelWorldCollapseConfirm>Обрушить туннель? Дальняя пасть погибнет, а потраченный на неё гемогель не вернётся.</FB_FleshTunnelWorldCollapseConfirm>
   <FB_FleshTunnelWorldCollapsed>{0} обрушил свой туннель.</FB_FleshTunnelWorldCollapsed>
   <FB_FleshTunnelWorldInspectIdle>Туннель не пророщен</FB_FleshTunnelWorldInspectIdle>

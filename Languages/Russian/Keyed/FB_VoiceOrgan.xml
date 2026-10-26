@@ -21,7 +21,7 @@
   <FB_VoiceOrganCallBossgroup>Призвать механоидную угрозу</FB_VoiceOrganCallBossgroup>
   <FB_VoiceOrganNoCommTargets>В зоне сигнала никого нет.</FB_VoiceOrganNoCommTargets>
 
-  <FB_VoiceOrganGrowBeaconLabel>Вырастить торговый маяк</FB_VoiceOrganGrowBeaconLabel>
+  <FB_VoiceOrganGrowBeaconLabel>Вырастить маяк</FB_VoiceOrganGrowBeaconLabel>
   <FB_VoiceOrganGrowBeaconDesc>Вырастить плотяной торговый маяк. Сложенные вокруг него товары можно продавать орбитальным кораблям.</FB_VoiceOrganGrowBeaconDesc>
   <FB_VoiceOrganBeaconLocked>Торговый маяк ещё не разблокирован.</FB_VoiceOrganBeaconLocked>
 

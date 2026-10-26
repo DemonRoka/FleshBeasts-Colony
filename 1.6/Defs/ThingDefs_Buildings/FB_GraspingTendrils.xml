@@ -3,8 +3,8 @@
   <!-- Building: grasping tendrils (FB_GraspingTendrils) -->
   <ThingDef ParentName="BuildingColonyFleshBase">
     <defName>FB_GraspingTendrils</defName>
-    <label>Grasping Tendrils</label>
-    <description>A sudden bloom of living tendrils forced up through the ground. They coil and cinch without warning, hauling the victim into a choking knot of flesh and root-fibers. The colony's hunger works quickly; once the grip is spent, the growth withers and sinks back into the soil.</description>
+    <label>grasping tendrils</label>
+    <description>Temporary tendrils that hold a captured creature. They draw hemogel from bleeding prey and crush bloodless targets until the grip withers.</description>
     <thingClass>FB.Building_FleshCapturePlatform</thingClass>
     <size>(1,1)</size>
     <selectable>true</selectable>

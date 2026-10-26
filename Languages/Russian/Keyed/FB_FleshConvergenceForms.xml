@@ -12,7 +12,7 @@
   <FB_FleshConvergenceLockedLabel>Пустая форма</FB_FleshConvergenceLockedLabel>
   <FB_FleshConvergenceLockedDesc>Этот узор объединения ещё не сформирован.</FB_FleshConvergenceLockedDesc>
   <FB_FleshConvergenceFormLocked>Эта форма объединения пока недоступна.</FB_FleshConvergenceFormLocked>
-  <FB_FleshConvergenceCooldown>Объединение плоти восстанавливается: {0}.</FB_FleshConvergenceCooldown>
+  <FB_FleshConvergenceCooldown>Повторное слияние через: {0}.</FB_FleshConvergenceCooldown>
   <FB_FleshConvergenceRequiresResearch>Требуется исследование: {0}.</FB_FleshConvergenceRequiresResearch>
   <FB_FleshConvergenceDonorEquivalentLine>Требуется: {0} пальцешипов, {1} троешипа или {2} твёрдошипа.</FB_FleshConvergenceDonorEquivalentLine>
   <FB_CarrionReworkDesignateLabel>Перекроить тела</FB_CarrionReworkDesignateLabel>
@@ -21,8 +21,8 @@
   <FB_CarrionReworkInvalidCaster>Только Архитектор падали может перекраивать трупы.</FB_CarrionReworkInvalidCaster>
   <FB_CarrionReworkInvalidTarget>Выберите органический труп.</FB_CarrionReworkInvalidTarget>
   <FB_CarrionReworkForbidden>Этот труп запрещён.</FB_CarrionReworkForbidden>
-  <FB_CarrionReworkMechanoidCorpse>Трупы механоидов нельзя перекроить во биошматов.</FB_CarrionReworkMechanoidCorpse>
+  <FB_CarrionReworkMechanoidCorpse>Трупы механоидов нельзя перекроить в биошматов.</FB_CarrionReworkMechanoidCorpse>
   <FB_CarrionReworkDessicatedCorpse>Выберите свежий или подгнивший органический труп. Скелеты нельзя перекраивать.</FB_CarrionReworkDessicatedCorpse>
   <FB_CarrionReworkCannotReach>Архитектор падали не может добраться до этого трупа.</FB_CarrionReworkCannotReach>
-  <FB_CarrionReworkCompleted>Труп лопается в пальцешипов: {0}.</FB_CarrionReworkCompleted>
+  <FB_CarrionReworkCompleted>Из лопнувшего трупа появились пальцешипы: {0}.</FB_CarrionReworkCompleted>
 </LanguageData>

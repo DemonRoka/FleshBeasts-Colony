@@ -58,7 +58,7 @@
   <ThingDef ParentName="BasePawn">
     <defName>FB_BileburstPodling</defName>
     <label>bileburst podling</label>
-    <description>A small living munition bred by the bile mortar gland. It matures over several days, distending with volatile bile until it can hurl itself at a target or be loaded into the gland as an artillery shell.</description>
+    <description>A living shell that accumulates flammable bile. Can be ordered to crawl to a target and detonate, or be launched by a bile mortar.</description>
     <researchPrerequisites>
       <li>FB_BileMortarResearch</li>
     </researchPrerequisites>

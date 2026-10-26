@@ -157,7 +157,7 @@
             </li>
             <li>
               <def>Tentacle</def>
-              <customLabel>left rear spike-leg</customLabel>
+              <customLabel>left rear spike-leg I</customLabel>
               <coverage>0.09</coverage>
               <depth>Outside</depth>
               <groups>
@@ -166,7 +166,7 @@
             </li>
             <li>
               <def>Tentacle</def>
-              <customLabel>right rear spike-leg</customLabel>
+              <customLabel>right rear spike-leg I</customLabel>
               <coverage>0.09</coverage>
               <depth>Outside</depth>
               <groups>
@@ -175,7 +175,7 @@
             </li>
             <li>
               <def>Tentacle</def>
-              <customLabel>left back spike-leg</customLabel>
+              <customLabel>left rear spike-leg II</customLabel>
               <coverage>0.085</coverage>
               <depth>Outside</depth>
               <groups>
@@ -184,7 +184,7 @@
             </li>
             <li>
               <def>Tentacle</def>
-              <customLabel>right back spike-leg</customLabel>
+              <customLabel>right rear spike-leg II</customLabel>
               <coverage>0.085</coverage>
               <depth>Outside</depth>
               <groups>

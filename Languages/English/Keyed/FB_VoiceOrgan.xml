@@ -21,7 +21,7 @@
   <FB_VoiceOrganCallBossgroup>Summon mechanoid threat</FB_VoiceOrganCallBossgroup>
   <FB_VoiceOrganNoCommTargets>Nobody is within reach of the signal.</FB_VoiceOrganNoCommTargets>
 
-  <FB_VoiceOrganGrowBeaconLabel>Grow trade beacon</FB_VoiceOrganGrowBeaconLabel>
+  <FB_VoiceOrganGrowBeaconLabel>Grow beacon</FB_VoiceOrganGrowBeaconLabel>
   <FB_VoiceOrganGrowBeaconDesc>Grow a flesh trade beacon. Goods stacked around it can be sold to orbital ships.</FB_VoiceOrganGrowBeaconDesc>
   <FB_VoiceOrganBeaconLocked>The trade beacon has not been unlocked yet.</FB_VoiceOrganBeaconLocked>
 

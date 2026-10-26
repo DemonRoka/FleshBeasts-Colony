@@ -3,11 +3,7 @@
   <ScenarioDef ParentName="ScenarioBase">
     <defName>FB_TheCallBelow</defName>
     <label>The Call Below</label>
-    <description>For weeks, one of your people has felt a pull from somewhere below the world. It was never a clear voice, only a constant pressure behind the thoughts: patient, insistent, and impossible to ignore. In the end, the only way to quiet it was to follow it. Taking two companions and a bundle of expedition supplies, you set down at the place that kept calling in your sleep.
-
-The soil here feels wrong. The air tastes damp and organic. And not long after you arrive, the ground answers for itself.
-
-Starts with 3 colonists. A flesh burrow opens shortly after the game begins, granting early access to the undercolony.</description>
+    <description>For weeks, one of your people has felt a pull from somewhere below the world. It was never a clear voice, only a constant pressure behind the thoughts: patient, insistent, and impossible to ignore. In the end, the only way to quiet it was to follow it. Taking two companions and a bundle of expedition supplies, you set down at the place that kept calling in your sleep.\n\nThe soil here feels wrong. The air tastes damp and organic. And not long after you arrive, the ground answers for itself.\n\nStarts with 3 colonists. A flesh burrow opens shortly after the game begins, granting early access to the undercolony.</description>
     <scenario>
       <summary>Three colonists follow an irresistible call and uncover a flesh burrow soon after they arrive.</summary>
       <parts>

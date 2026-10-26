@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <FB_PersonalityDevourer_InvalidCaster>Только Поглотитель личностей может поглощать сохранённые сознания.</FB_PersonalityDevourer_InvalidCaster>
+  <FB_PersonalityDevourer_InvalidCaster>Сохранять личность поглощённого тела может только поглотитель личностей.</FB_PersonalityDevourer_InvalidCaster>
   <FB_PersonalityDevourer_InvalidCorpse>Выберите мёртвое гуманоидное тело.</FB_PersonalityDevourer_InvalidCorpse>
   <FB_PersonalityDevourer_HumanlikeOnly>Только мёртвые гуманоидные тела можно записать в память колонии.</FB_PersonalityDevourer_HumanlikeOnly>
   <FB_PersonalityDevourer_Dessicated>В высохшем скелете уже не осталось личности, которую можно восстановить.</FB_PersonalityDevourer_Dessicated>
